@@ -1,0 +1,143 @@
+{
+  "cases": [
+    {
+      "id": "workflow.approval.rename-file-finalize",
+      "prompt": "rename file \"{{documentsRoot}}\\approval-source.txt\" to \"approval-renamed.txt\"",
+      "mode": "route",
+      "tags": ["workflow", "route", "approval", "verification"],
+      "approval": {
+        "autoApprove": true
+      },
+      "setup": {
+        "files": [
+          {
+            "path": "Documents/approval-source.txt",
+            "content": "approval route test\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterCasePaths": ["Documents/approval-renamed.txt", "Documents/approval-source.txt"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "approval_required": true,
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "workflowStatus", "plan.steps.0.action", "run.runId", "approval.id", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.approval.move-file-finalize",
+      "prompt": "move file \"{{documentsRoot}}\\MoveBox\\source.txt\" to \"{{documentsRoot}}\\MoveBox\\Moved\\source.txt\"",
+      "mode": "route",
+      "tags": ["workflow", "route", "approval", "verification"],
+      "approval": {
+        "autoApprove": true
+      },
+      "setup": {
+        "folders": ["Documents/MoveBox/Moved"],
+        "files": [
+          {
+            "path": "Documents/MoveBox/source.txt",
+            "content": "move me\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterCasePaths": ["Documents/MoveBox"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "approval_required": true,
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "run.runId", "approval.id", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.approval.copy-cross-root-finalize",
+      "prompt": "copy file \"{{documentsRoot}}\\CrossRoot\\copy-source.txt\" to \"{{desktopRoot}}\\copy-target.txt\"",
+      "mode": "route",
+      "tags": ["workflow", "route", "approval", "verification"],
+      "approval": {
+        "autoApprove": true
+      },
+      "setup": {
+        "folders": ["Documents/CrossRoot"],
+        "files": [
+          {
+            "path": "Documents/CrossRoot/copy-source.txt",
+            "content": "copy me\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterCasePaths": ["Documents/CrossRoot", "Desktop/copy-target.txt"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "approval_required": true,
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "run.runId", "approval.id", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.approval.delete-file-pending",
+      "prompt": "delete file \"{{documentsRoot}}\\delete-me.txt\"",
+      "mode": "route",
+      "tags": ["workflow", "route", "approval"],
+      "setup": {
+        "files": [
+          {
+            "path": "Documents/delete-me.txt",
+            "content": "delete me\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterCasePaths": ["Documents/delete-me.txt"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "approval_required",
+        "approval_required": true,
+        "verified": false,
+        "verification_strength": "none",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "approval.id", "episode", "reflection"],
+        "payload_paths_absent": ["run.runId"],
+        "reply_contains_any": ["approval", "Approval"]
+      }
+    },
+    {
+      "id": "workflow.approval.desktop-create-folder-pending",
+      "prompt": "create a folder on desktop called EvalRiskyDesk",
+      "mode": "route",
+      "tags": ["workflow", "route", "approval"],
+      "cleanup": {
+        "afterCasePaths": ["Desktop/EvalRiskyDesk"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "approval_required",
+        "approval_required": true,
+        "verified": false,
+        "verification_strength": "none",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "approval.id", "episode", "reflection"],
+        "reply_contains_any": ["approval", "Approval"]
+      }
+    }
+  ]
+}

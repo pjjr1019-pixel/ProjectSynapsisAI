@@ -1,0 +1,79 @@
+{
+  "cases": [
+    {
+      "id": "runtime.local-ai-status",
+      "prompt": "what local llm model am I using right now",
+      "mode": "route",
+      "tags": ["runtime", "route"],
+      "expect": {
+        "source_equals": "task-manager-provider",
+        "reply_contains_any": ["Local AI is not configured", "Status:"],
+        "payload_paths_present": ["reply", "source"]
+      }
+    },
+    {
+      "id": "runtime.top-ram-no-snapshot",
+      "prompt": "what is using the most RAM right now?",
+      "mode": "route",
+      "tags": ["runtime", "route"],
+      "expect": {
+        "source_equals": "task-manager-runtime",
+        "reply_contains_any": ["live process snapshot yet", "current system state"],
+        "payload_paths_present": ["reply", "source", "capturedAt"]
+      }
+    },
+    {
+      "id": "runtime.cleanup-no-snapshot",
+      "prompt": "what cleanup recommendation do you have right now?",
+      "mode": "route",
+      "tags": ["runtime", "route"],
+      "expect": {
+        "source_equals": "task-manager-runtime",
+        "reply_contains_any": ["live process snapshot yet", "current system state"],
+        "payload_paths_present": ["reply", "source", "capturedAt"]
+      }
+    },
+    {
+      "id": "runtime.top-cpu-live-snapshot",
+      "prompt": "what is using the most CPU right now?",
+      "mode": "route",
+      "tags": ["runtime", "route"],
+      "setup": {
+        "osSnapshotFixture": "busy-workstation"
+      },
+      "expect": {
+        "source_equals": "task-manager-runtime",
+        "reply_contains_any": ["using the most cpu right now", "Snapshot"],
+        "payload_paths_present": ["reply", "source", "capturedAt"]
+      }
+    },
+    {
+      "id": "runtime.cleanup-live-snapshot",
+      "prompt": "what cleanup recommendation do you have right now?",
+      "mode": "route",
+      "tags": ["runtime", "route"],
+      "setup": {
+        "osSnapshotFixture": "busy-workstation"
+      },
+      "expect": {
+        "source_in": ["task-manager-recommendation", "task-manager-runtime"],
+        "reply_contains_any": ["Top cleanup recommendation", "Snapshot"],
+        "payload_paths_present": ["reply", "source", "capturedAt"]
+      }
+    },
+    {
+      "id": "runtime.process-count-live-snapshot",
+      "prompt": "how many process groups can you see right now?",
+      "mode": "route",
+      "tags": ["runtime", "route"],
+      "setup": {
+        "osSnapshotFixture": "busy-workstation"
+      },
+      "expect": {
+        "source_equals": "task-manager-runtime",
+        "reply_contains_any": ["visible process group", "live process row"],
+        "payload_paths_present": ["reply", "source", "capturedAt"]
+      }
+    }
+  ]
+}

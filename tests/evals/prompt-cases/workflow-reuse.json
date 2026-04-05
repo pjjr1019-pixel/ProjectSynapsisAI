@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "id": "workflow.reuse.create-folder-trusted",
+      "prompt": "create a folder in documents called ReuseAlpha",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification", "reuse"],
+      "repeat": 4,
+      "cleanup": {
+        "afterEachPaths": ["Documents/ReuseAlpha"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "workflow_reuse": "eventual",
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.reuse.create-folder-variants",
+      "prompt": "create a folder in documents called ReuseVariant",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification", "reuse", "variant"],
+      "repeat": 4,
+      "allowVariants": true,
+      "cleanup": {
+        "afterEachPaths": ["Documents/ReuseVariant"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "workflow_reuse": "eventual",
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.reuse.create-folder-beta",
+      "prompt": "create a folder in documents called ReuseBeta",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification", "reuse"],
+      "repeat": 4,
+      "cleanup": {
+        "afterEachPaths": ["Documents/ReuseBeta"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "workflow_reuse": "eventual",
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.reuse.batch-summarize-folder",
+      "prompt": "summarize all txt files in folder {{documentsRoot}}\\ReusableBatch",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification", "reuse"],
+      "repeat": 4,
+      "setup": {
+        "folders": ["Documents/ReusableBatch"],
+        "files": [
+          {
+            "path": "Documents/ReusableBatch/one.txt",
+            "content": "First reusable batch file.\n"
+          },
+          {
+            "path": "Documents/ReusableBatch/two.txt",
+            "content": "Second reusable batch file.\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterEachPaths": ["Documents/ReusableBatch/Summaries"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "workflow_reuse": "eventual",
+        "payload_paths_present": ["workflowId", "plan.steps.1.action", "run.runId"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    }
+  ]
+}

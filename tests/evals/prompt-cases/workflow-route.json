@@ -1,0 +1,197 @@
+{
+  "cases": [
+    {
+      "id": "workflow.route.create-folder",
+      "prompt": "create a folder in documents called EvalReports",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification"],
+      "allowVariants": true,
+      "cleanup": {
+        "afterCasePaths": ["Documents/EvalReports"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["reply", "source", "status", "workflowId", "workflowStatus", "plan.steps.0.action", "run.runId", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.route.create-markdown-file",
+      "prompt": "create a markdown file in documents called eval-notes",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification"],
+      "cleanup": {
+        "afterCasePaths": ["Documents/eval-notes.md"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.route.read-file",
+      "prompt": "read file {{documentsRoot}}\\Reference\\readme.txt",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification"],
+      "setup": {
+        "folders": ["Documents/Reference"],
+        "files": [
+          {
+            "path": "Documents/Reference/readme.txt",
+            "content": "Project Synapsis reference text.\nSecond line.\n"
+          }
+        ]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "weak",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.route.list-folder",
+      "prompt": "list folder {{documentsRoot}}\\Inbox",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification"],
+      "setup": {
+        "folders": ["Documents/Inbox"],
+        "files": [
+          {
+            "path": "Documents/Inbox/one.txt",
+            "content": "one\n"
+          },
+          {
+            "path": "Documents/Inbox/two.txt",
+            "content": "two\n"
+          }
+        ]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "weak",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.route.search-files",
+      "prompt": "search files pattern *.txt for \"alpha\" in folder {{documentsRoot}}\\SearchBox",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification"],
+      "setup": {
+        "folders": ["Documents/SearchBox"],
+        "files": [
+          {
+            "path": "Documents/SearchBox/alpha.txt",
+            "content": "alpha match\n"
+          },
+          {
+            "path": "Documents/SearchBox/beta.txt",
+            "content": "beta only\n"
+          }
+        ]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "weak",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.route.summarize-document",
+      "prompt": "summarize file {{documentsRoot}}\\Reports\\daily.txt and save next to it",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification"],
+      "allowVariants": true,
+      "setup": {
+        "folders": ["Documents/Reports"],
+        "files": [
+          {
+            "path": "Documents/Reports/daily.txt",
+            "content": "Daily report\n\n- CPU load stayed steady.\n- Memory usage dropped after cleanup.\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterCasePaths": ["Documents/Reports/daily.summary.md"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "workflow.route.batch-summarize-folder",
+      "prompt": "summarize all txt files in folder {{documentsRoot}}\\BatchSource",
+      "mode": "route",
+      "tags": ["workflow", "route", "verification"],
+      "setup": {
+        "folders": ["Documents/BatchSource"],
+        "files": [
+          {
+            "path": "Documents/BatchSource/alpha.txt",
+            "content": "Alpha document\n\nThis is a short batch summary source.\n"
+          },
+          {
+            "path": "Documents/BatchSource/beta.txt",
+            "content": "Beta document\n\nAnother short source file.\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterCasePaths": ["Documents/BatchSource/Summaries"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.1.action", "run.runId", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Done", "Workflow complete"]
+      }
+    },
+    {
+      "id": "workflow.route.open-control-panel-dry-run",
+      "prompt": "open control panel",
+      "mode": "route",
+      "tags": ["workflow", "route", "variant"],
+      "allowVariants": true,
+      "dryRun": true,
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": false,
+        "verification_strength": "none",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action"],
+        "reply_contains_any": ["Dry-run", "Workflow complete", "Done"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "workflow.direct.create-folder",
+      "prompt": "create a folder in documents called WorkflowDirectCase",
+      "mode": "workflow",
+      "tags": ["workflow", "verification"],
+      "cleanup": {
+        "afterCasePaths": ["Documents/WorkflowDirectCase"]
+      },
+      "expect": {
+        "source_in": ["workflow-planner", "workflow"],
+        "status_equals": "executed",
+        "verified": true,
+        "verification_strength": "strong",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId", "capture", "episode", "reflection"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    },
+    {
+      "id": "governed.direct.rename-autoapprove",
+      "prompt": "rename a file directly",
+      "mode": "governed_direct",
+      "tags": ["workflow", "approval"],
+      "approval": {
+        "autoApprove": true
+      },
+      "setup": {
+        "folders": ["Documents/DirectRename"],
+        "files": [
+          {
+            "path": "Documents/DirectRename/source.txt",
+            "content": "rename me directly\n"
+          }
+        ]
+      },
+      "cleanup": {
+        "afterCasePaths": ["Documents/DirectRename"]
+      },
+      "plan": {
+        "workflow_id": "eval.direct.rename",
+        "message": "rename a file directly",
+        "steps": [
+          {
+            "action": "rename_file",
+            "args": {
+              "path": "{{documentsRoot}}\\DirectRename\\source.txt",
+              "new_name": "renamed.txt",
+              "overwrite": false
+            }
+          }
+        ]
+      },
+      "expect": {
+        "source_equals": "governed-direct",
+        "status_equals": "executed",
+        "approval_required": true,
+        "verified": false,
+        "verification_strength": "none",
+        "workflow_required": true,
+        "payload_paths_present": ["workflowId", "plan.steps.0.action", "run.runId", "approval.id"],
+        "reply_contains_any": ["Workflow complete", "Done"]
+      }
+    }
+  ]
+}

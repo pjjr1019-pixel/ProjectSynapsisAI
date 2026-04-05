@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "id": "fallback.hello",
+      "prompt": "hello",
+      "mode": "route",
+      "tags": ["fallback", "route"],
+      "expect": {
+        "source_in": ["scenario", "fallback", "clarification"],
+        "forbid_source": ["workflow-planner", "workflow", "legacy-governed-planner", "task-manager-runtime"],
+        "reply_contains_any": ["Horizons AI", "I can"],
+        "payload_paths_present": ["reply", "source"],
+        "payload_paths_absent": ["workflowId", "status", "plan", "run", "approval"]
+      }
+    },
+    {
+      "id": "fallback.help",
+      "prompt": "help",
+      "mode": "route",
+      "tags": ["fallback", "route"],
+      "expect": {
+        "source_in": ["scenario", "fallback", "clarification"],
+        "forbid_source": ["workflow-planner", "workflow", "task-manager-runtime"],
+        "reply_contains_any": ["open", "create", "help"],
+        "payload_paths_present": ["reply", "source"],
+        "payload_paths_absent": ["workflowId", "status", "plan", "run", "approval"]
+      }
+    },
+    {
+      "id": "fallback.capabilities",
+      "prompt": "what can you do for me?",
+      "mode": "route",
+      "tags": ["fallback", "route"],
+      "expect": {
+        "source_in": ["scenario", "fallback", "clarification"],
+        "forbid_source": ["workflow-planner", "workflow", "task-manager-runtime"],
+        "reply_contains_any": ["open", "files", "summarize"],
+        "payload_paths_present": ["reply", "source"],
+        "payload_paths_absent": ["workflowId", "status", "plan", "run", "approval"]
+      }
+    },
+    {
+      "id": "fallback.identity",
+      "prompt": "who are you",
+      "mode": "route",
+      "tags": ["fallback", "route"],
+      "expect": {
+        "source_in": ["scenario", "fallback", "clarification"],
+        "forbid_source": ["workflow-planner", "workflow", "task-manager-runtime"],
+        "reply_contains_any": ["Horizons AI", "I can"],
+        "payload_paths_present": ["reply", "source"],
+        "payload_paths_absent": ["workflowId", "status", "plan", "run", "approval"]
+      }
+    }
+  ]
+}

@@ -337,8 +337,12 @@ function buildWorkflowRoutePayload(workflowResult, extras = {}) {
     plan: workflowResult.plan || null,
     run: workflowResult.run || null,
     approval: workflowResult.approval || null,
+    executed: workflowResult.executed === true,
     verified: workflowResult.verified === true,
     verificationStrength: workflowResult.verificationStrength || "none",
+    doneScore: typeof workflowResult.doneScore === "number" ? workflowResult.doneScore : 0,
+    verification: workflowResult.verification || null,
+    task: workflowResult.task || null,
     capturedAt: workflowResult.capturedAt || new Date().toISOString(),
     capture: workflowResult.capture || null,
     episode: workflowResult.episode || null,
@@ -515,7 +519,13 @@ export async function handleTaskManagerHttpRoute({ req, res, headers, pathname }
       }
       const result = rollbackGovernedRun(runId);
       res.writeHead(result.ok ? 200 : 400, responseHeaders);
-      res.end(JSON.stringify(result));
+      res.end(
+        JSON.stringify({
+          ...result,
+          source: "governed-actions",
+          status: result.ok ? "executed" : "failed",
+        })
+      );
       return true;
     }
 

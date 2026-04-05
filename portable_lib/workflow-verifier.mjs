@@ -267,6 +267,7 @@ function summarizeStepVerification(step, stepResult, verificationConfig) {
       executed: false,
       verified: false,
       verificationStrength: "none",
+      doneScore: 0,
       verificationNotes: ["Step did not execute."],
       failedChecks: [],
       checks: [],
@@ -280,6 +281,7 @@ function summarizeStepVerification(step, stepResult, verificationConfig) {
       executed: false,
       verified: false,
       verificationStrength: "none",
+      doneScore: 0,
       verificationNotes: [String(stepResult.error || "Step failed before verification.")],
       failedChecks: [
         {
@@ -308,6 +310,11 @@ function summarizeStepVerification(step, stepResult, verificationConfig) {
   const allStrong = evaluatedChecks.length > 0 && evaluatedChecks.every((entry) => entry.ok && entry.strength === "strong");
   const allVerified = evaluatedChecks.every((entry) => entry.ok);
   const anyWeak = evaluatedChecks.some((entry) => entry.ok && entry.strength === "weak");
+  const doneScore = evaluatedChecks.length
+    ? evaluatedChecks.filter((entry) => entry.ok).length / evaluatedChecks.length
+    : stepResult.success === true
+      ? 1
+      : 0;
 
   let verificationStrength = "none";
   if (allVerified && allStrong) verificationStrength = "strong";
@@ -319,6 +326,7 @@ function summarizeStepVerification(step, stepResult, verificationConfig) {
     executed: true,
     verified: allVerified,
     verificationStrength,
+    doneScore,
     verificationNotes: notes,
     failedChecks,
     checks: evaluatedChecks,
@@ -331,8 +339,10 @@ export function verifyGovernedRun({ plan, run, workflowSpec, verification = null
       executed: false,
       verified: false,
       verificationStrength: "none",
+      doneScore: 0,
       notes: ["No run result was available to verify."],
       failedChecks: [],
+      remediationHint: "Re-run the workflow and capture run metadata.",
       stepResults: [],
     };
   }
@@ -342,8 +352,10 @@ export function verifyGovernedRun({ plan, run, workflowSpec, verification = null
       executed: false,
       verified: false,
       verificationStrength: "none",
+      doneScore: 0,
       notes: ["Dry-run plans are not verified because no side effects were executed."],
       failedChecks: [],
+      remediationHint: "Execute without dry-run to produce verifiable outputs.",
       stepResults: [],
     };
   }
@@ -378,6 +390,9 @@ export function verifyGovernedRun({ plan, run, workflowSpec, verification = null
     }))
   );
   const notes = stepResults.flatMap((entry) => toArray(entry.verificationNotes));
+  const doneScore = stepResults.length
+    ? Number((stepResults.reduce((total, entry) => total + (Number(entry.doneScore) || 0), 0) / stepResults.length).toFixed(3))
+    : 0;
   let verificationStrength = "none";
   if (verified && stepResults.every((entry) => entry.verificationStrength === "strong")) {
     verificationStrength = "strong";
@@ -385,12 +400,21 @@ export function verifyGovernedRun({ plan, run, workflowSpec, verification = null
     verificationStrength = "weak";
   }
 
+  const remediationHint =
+    verified
+      ? null
+      : failedChecks[0]?.note
+        ? `Fix first failed check: ${failedChecks[0].note}`
+        : "Review step outputs and rerun.";
+
   return {
     executed,
     verified,
     verificationStrength,
+    doneScore,
     notes,
     failedChecks,
+    remediationHint,
     stepResults,
   };
 }
@@ -399,10 +423,13 @@ export function decorateRunWithVerification(run, verificationResult) {
   const stepResults = toArray(verificationResult?.stepResults);
   return {
     ...run,
+    executed: verificationResult?.executed === true,
     verified: verificationResult?.verified === true,
     verificationStrength: verificationResult?.verificationStrength || "none",
+    doneScore: typeof verificationResult?.doneScore === "number" ? verificationResult.doneScore : 0,
     verificationNotes: toArray(verificationResult?.notes),
     failedVerificationChecks: toArray(verificationResult?.failedChecks),
+    remediationHint: verificationResult?.remediationHint || null,
     results: toArray(run?.results).map((result, index) => {
       const stepVerification = stepResults[index];
       return {
@@ -410,6 +437,7 @@ export function decorateRunWithVerification(run, verificationResult) {
         executed: result.success === true,
         verified: stepVerification?.verified === true,
         verificationStrength: stepVerification?.verificationStrength || "none",
+        doneScore: typeof stepVerification?.doneScore === "number" ? stepVerification.doneScore : 0,
         verificationNotes: stepVerification?.verificationNotes || [],
       };
     }),

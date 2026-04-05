@@ -20,7 +20,8 @@
     "test:governed-actions": "node --test tests/governed-actions/*.test.mjs",
     "test:process-knowledge": "node --test tests/process-knowledge/*.test.mjs",
     "brain:repo-knowledge-pack": "node brain/scripts/repo-tools/10-generate-repo-knowledge-pack.js",
-    "brain:repo-knowledge-pack:update": "node brain/scripts/repo-tools/10-generate-repo-knowledge-pack.js --incremental"
+    "brain:repo-knowledge-pack:update": "node brain/scripts/repo-tools/10-generate-repo-knowledge-pack.js --incremental",
+    "test:route-smoke": "node --test tests/regression/route-smoke.test.mjs"
   },
   "dependencies": {
     "@lancedb/lancedb": "^0.22.0",

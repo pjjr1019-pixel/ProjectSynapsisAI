@@ -242,8 +242,9 @@ test("rollback still works for governed file mutations", async () => {
   assert.match(fs.readFileSync(sourcePath, "utf8"), /rollback me/i);
 });
 
-test("/api/chat payload includes workflow and verification metadata", async () => {
+test("/api/chat uses workflow handling before legacy governed chat planning for actionable requests", async () => {
   const { httpRoutes } = await loadModules();
+  const targetPath = path.join(ROOT, "Documents", "RouteMetadata");
   const result = await invokeRoute(
     httpRoutes,
     "POST",
@@ -257,10 +258,102 @@ test("/api/chat payload includes workflow and verification metadata", async () =
 
   assert.equal(result.statusCode, 200);
   assert.equal(result.json.source, "workflow-planner");
+  assert.notEqual(result.json.source, "legacy-governed-planner");
+  assert.notEqual(result.json.source, "governed-actions");
   assert.equal(typeof result.json.workflowId, "string");
+  assert.ok(result.json.plan);
+  assert.ok(result.json.run);
   assert.equal(result.json.verified, true);
   assert.equal(result.json.verificationStrength, "strong");
   assert.equal(result.json.status, "executed");
+  assert.equal(fs.existsSync(targetPath), true);
+});
+
+test("/api/task-manager/actions/approve returns finalized workflow verification metadata", async () => {
+  const { httpRoutes } = await loadModules();
+  const sourcePath = path.join(ROOT, "Documents", "approval-route-source.txt");
+  const renamedPath = path.join(ROOT, "Documents", "approval-route-renamed.txt");
+  fs.writeFileSync(sourcePath, "approval route test\n", "utf8");
+
+  const requested = await invokeRoute(
+    httpRoutes,
+    "POST",
+    "http://127.0.0.1/api/chat",
+    {
+      message: `rename file "${sourcePath}" to "approval-route-renamed.txt"`,
+      sessionId: "workflow-route-approval",
+      localLlm: false,
+    }
+  );
+
+  assert.equal(requested.statusCode, 200);
+  assert.equal(requested.json.status, "approval_required");
+  assert.equal(Boolean(requested.json.approval?.id), true);
+
+  const approved = await invokeRoute(
+    httpRoutes,
+    "POST",
+    "http://127.0.0.1/api/task-manager/actions/approve",
+    {
+      id: requested.json.approval.id,
+    }
+  );
+
+  assert.equal(approved.statusCode, 200);
+  assert.equal(approved.json.ok, true);
+  assert.equal(approved.json.status, "executed");
+  assert.equal(typeof approved.json.workflowId, "string");
+  assert.equal(Boolean(approved.json.workflowStatus), true);
+  assert.ok(approved.json.plan);
+  assert.ok(approved.json.run);
+  assert.ok(approved.json.approval);
+  assert.equal(approved.json.verified, true);
+  assert.equal(approved.json.verificationStrength, "strong");
+  assert.equal(typeof approved.json.capturedAt, "string");
+  assert.ok(approved.json.capture);
+  assert.ok(approved.json.episode);
+  assert.ok(approved.json.reflection);
+  assert.ok(approved.json.workflow);
+  assert.equal(fs.existsSync(renamedPath), true);
+});
+
+test("/api/chat falls back to buildChatReply for non-action chat", async () => {
+  const { httpRoutes } = await loadModules();
+  const result = await invokeRoute(
+    httpRoutes,
+    "POST",
+    "http://127.0.0.1/api/chat",
+    {
+      message: "hello",
+      sessionId: "workflow-route-non-action",
+      localLlm: false,
+    }
+  );
+
+  assert.equal(result.statusCode, 200);
+  assert.ok(["scenario", "fallback", "clarification"].includes(result.json.source));
+  assert.notEqual(result.json.source, "workflow-planner");
+  assert.notEqual(result.json.source, "legacy-governed-planner");
+  assert.notEqual(result.json.source, "task-manager-runtime");
+  assert.match(result.json.reply, /Horizons AI/i);
+});
+
+test("/api/chat keeps task-manager runtime shortcuts ahead of workflow handling", async () => {
+  const { httpRoutes } = await loadModules();
+  const result = await invokeRoute(
+    httpRoutes,
+    "POST",
+    "http://127.0.0.1/api/chat",
+    {
+      message: "what is using the most CPU right now?",
+      sessionId: "workflow-route-runtime-shortcut",
+      localLlm: false,
+    }
+  );
+
+  assert.equal(result.statusCode, 200);
+  assert.equal(result.json.source, "task-manager-runtime");
+  assert.match(result.json.reply, /live process snapshot yet|using the most cpu/i);
 });
 
 test("batch summarize guards against recursively processing generated summary artifacts", async () => {

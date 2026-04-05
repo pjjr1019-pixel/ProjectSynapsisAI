@@ -326,6 +326,26 @@ function normalizeRequestAttachments(input) {
     .filter((entry) => entry.text.trim());
 }
 
+function buildWorkflowRoutePayload(workflowResult, extras = {}) {
+  return {
+    ...extras,
+    reply: workflowResult.reply,
+    source: workflowResult.source,
+    status: workflowResult.status,
+    workflowId: workflowResult.workflowId || null,
+    workflowStatus: workflowResult.workflowStatus || null,
+    plan: workflowResult.plan || null,
+    run: workflowResult.run || null,
+    approval: workflowResult.approval || null,
+    verified: workflowResult.verified === true,
+    verificationStrength: workflowResult.verificationStrength || "none",
+    capturedAt: workflowResult.capturedAt || new Date().toISOString(),
+    capture: workflowResult.capture || null,
+    episode: workflowResult.episode || null,
+    reflection: workflowResult.reflection || null,
+  };
+}
+
 export function getTaskManagerSummaryPayload() {
   const payload = getAiTaskManagerPayload();
   return {
@@ -449,22 +469,19 @@ export async function handleTaskManagerHttpRoute({ req, res, headers, pathname }
       const workflowResult = finalizeApprovedWorkflowExecution(result) || null;
       res.writeHead(200, responseHeaders);
       res.end(
-        JSON.stringify({
-          ok: true,
-          ...result,
-          ...(workflowResult
+        JSON.stringify(
+          workflowResult
             ? {
-                reply: workflowResult.reply,
-                source: workflowResult.source,
-                status: workflowResult.status,
-                workflowId: workflowResult.workflowId,
-                workflowStatus: workflowResult.workflowStatus,
-                verified: workflowResult.verified,
-                verificationStrength: workflowResult.verificationStrength,
+                ok: true,
+                ...result,
+                ...buildWorkflowRoutePayload(workflowResult),
                 workflow: workflowResult,
               }
-            : {}),
-        })
+            : {
+                ok: true,
+                ...result,
+              }
+        )
       );
       return true;
     }
@@ -545,23 +562,11 @@ export async function handleTaskManagerHttpRoute({ req, res, headers, pathname }
         }
         res.writeHead(200, responseHeaders);
         res.end(
-          JSON.stringify({
-            reply: workflowResult.reply,
-            source: workflowResult.source,
-            status: workflowResult.status,
-            workflowId: workflowResult.workflowId || null,
-            workflowStatus: workflowResult.workflowStatus || null,
-            plan: workflowResult.plan || null,
-            run: workflowResult.run || null,
-            approval: workflowResult.approval || null,
-            verified: workflowResult.verified === true,
-            verificationStrength: workflowResult.verificationStrength || "none",
-            episode: workflowResult.episode || null,
-            capture: workflowResult.capture || null,
-            reflection: workflowResult.reflection || null,
-            capturedAt: workflowResult.capturedAt || new Date().toISOString(),
-            localLlmConfigured: Boolean(getLocalLlmConfig()),
-          })
+          JSON.stringify(
+            buildWorkflowRoutePayload(workflowResult, {
+              localLlmConfigured: Boolean(getLocalLlmConfig()),
+            })
+          )
         );
         return true;
       }

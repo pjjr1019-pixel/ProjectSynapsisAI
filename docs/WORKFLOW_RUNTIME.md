@@ -1,20 +1,18 @@
 # Workflow Runtime
 
-## Canonical Flow
+## Live Route Wiring
 
-Default action handling now runs through this path:
+Current live route order in `server/http-routes.mjs`:
 
 1. `POST /api/task-manager/chat` or `POST /api/chat`
-2. task-manager telemetry shortcut only for direct runtime/provider status questions
-3. workflow registry lookup for trusted reusable workflows
-4. structured workflow planning for new actionable requests
-5. deterministic validation of governed action contracts
-6. governed execution with existing approvals, path policy, safelists, and rollback
-7. verification of the execution outcome
-8. workflow capture or workflow stat update
-9. workflow run episode persistence
+2. `tryBuildRuntimeReply(...)` answers direct task-manager telemetry and local-provider status questions first
+3. `maybeHandleWorkflowChatRequest(...)` handles actionable requests through workflow reuse or workflow planning
+4. governed execution still runs through the existing approval, rollback, and safety rails
+5. if the workflow runtime returns `null`, the route falls back to `buildChatReply(...)`
 
-Non-action or knowledge chat still falls back to `portable_lib/brain-chat-reply.mjs`.
+`POST /api/task-manager/actions/execute` still exposes direct `executeGovernedPlanDirect(...)` for API callers. It remains live, but it is not the default chat entry path.
+
+`POST /api/task-manager/actions/approve` still executes the approved governed plan through `approveGovernedApproval(...)`. When the approval originated from the workflow runtime, the route now finalizes that run through `finalizeApprovedWorkflowExecution(...)` and returns the workflow verification metadata alongside the approval result.
 
 ## Workflow Spec
 
@@ -92,18 +90,9 @@ The route can still fall back to the legacy governed chat planner if that legacy
 
 ## Legacy Status
 
-Legacy deterministic planning code remains in `portable_lib/governed-actions.mjs`.
+Legacy deterministic planning code still lives in `portable_lib/governed-actions.mjs`, but the live chat route does not call `tryHandleGovernedChatRequest(...)` first anymore.
 
-What changed:
-
-- the live chat route no longer calls `tryHandleGovernedChatRequest(...)` first
-- workflow-first orchestration now decides whether to reuse a trusted workflow, plan a structured workflow, or fall back to normal chat
-
-What remains legacy:
-
-- the old governed chat action planner code
-- fuzzy planner helpers inside `portable_lib/governed-actions.mjs`
-- the old path is still preserved for fallback and comparison, but it is off by default
+The legacy governed planner only runs through the fallback path inside `portable_lib/workflow-execution-service.mjs`, and only when `ENABLE_LEGACY_GOVERNED_CHAT_PLANNER=true`.
 
 ## Capture and Promotion
 
@@ -121,4 +110,3 @@ Every workflow attempt writes a run episode JSON with:
 - compact reflection
 
 Verified successful runs are promoted into the reusable workflow library over time. Unverified or failed runs stay in episode history without becoming trusted reusable workflows.
-

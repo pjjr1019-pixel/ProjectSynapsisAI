@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": [
+    "portable_lib/**/*.mjs",
+    "server/**/*.mjs",
+    "shared/**/*.mjs",
+    "tests/**/*.mjs"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".runtime",
+    "brain/imports/**",
+    "brain/reports/**"
+  ]
+}

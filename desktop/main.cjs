@@ -16,14 +16,14 @@ const { createWindowManager } = require("./windowManager.cjs");
 // while suppressing the utility-process crashes that plagued some Windows setups.
 // Pass --force-gpu on the CLI to bypass all of these overrides.
 const FORCE_GPU = process.argv.includes("--force-gpu");
-if (!FORCE_GPU) {
+if (!FORCE_GPU && app?.commandLine?.appendSwitch) {
   app.commandLine.appendSwitch("disable-gpu-sandbox");
   app.commandLine.appendSwitch("ignore-gpu-blocklist");
   if (process.env.HORIZONS_DISABLE_D3D12 === "1") {
     app.commandLine.appendSwitch("disable-d3d12");
   }
 }
-if (process.platform === "win32") {
+if (process.platform === "win32" && typeof app?.setAppUserModelId === "function") {
   app.setAppUserModelId("com.horizons.taskmanager.portable");
 }
 
@@ -118,7 +118,7 @@ function getUiOrigin(port = uiPort) {
 const IS_PORTABLE_UI_MODE =
   process.env.HORIZONS_PORTABLE_MODE === "1" ||
   (!fs.existsSync(resolve(TASKMANAGER_ROOT, "index.html")) && fs.existsSync(DIST_INDEX_PATH));
-const IS_DEV_MODE = !app.isPackaged && !IS_PORTABLE_UI_MODE;
+const IS_DEV_MODE = app?.isPackaged === false && !IS_PORTABLE_UI_MODE;
 
 function buildContentSecurityPolicy(port = uiPort) {
   const uiOrigin = getUiOrigin(port);
@@ -1965,11 +1965,12 @@ async function bootstrap() {
   }
 }
 
-const singleInstanceLock = app.requestSingleInstanceLock();
+const singleInstanceLock =
+  typeof app?.requestSingleInstanceLock === "function" ? app.requestSingleInstanceLock() : null;
 
-if (!singleInstanceLock) {
+if (singleInstanceLock === false) {
   app.quit();
-} else {
+} else if (singleInstanceLock === true) {
   app.on("second-instance", () => {
     focusMainWindow();
   });

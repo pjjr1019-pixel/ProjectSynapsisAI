@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "914d466b9294c0e2",
+      "aliasId": "hz.web.914d466b9294c0e2.alias.1",
+      "canonical": "identity digital inc. | linkedin"
+    },
+    {
+      "alias": "identity digital inc. linkedin",
+      "aliasId": "hz.web.914d466b9294c0e2.alias.2",
+      "canonical": "identity digital inc. | linkedin"
+    },
+    {
+      "alias": "web 914d466b9294c0e2",
+      "aliasId": "hz.web.914d466b9294c0e2.alias.3",
+      "canonical": "identity digital inc. | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.914d466b9294c0e2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.914d466b9294c0e2.entity.1",
+      "kind": "document",
+      "name": "Identity Digital Inc. | LinkedIn",
+      "tokens": [
+        "identity",
+        "digital",
+        "inc",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.914d466b9294c0e2.entity.2",
+      "kind": "heading",
+      "name": "Identity Digital Inc. | LinkedIn",
+      "tokens": [
+        "identity",
+        "digital",
+        "inc",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.914d466b9294c0e2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.914d466b9294c0e2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.914d466b9294c0e2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 98,
+      "charStart": 37,
+      "factId": "hz.web.914d466b9294c0e2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/company/identitydigital-inc/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "company",
+        "identitydigital",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 173,
+      "charStart": 150,
+      "factId": "hz.web.914d466b9294c0e2.fact.1",
+      "kind": "bullet",
+      "text": "Identity Digital Inc.",
+      "tokens": [
+        "identity",
+        "digital",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 294,
+      "charStart": 174,
+      "factId": "hz.web.914d466b9294c0e2.fact.2",
+      "kind": "bullet",
+      "text": "| LinkedIn Skip to main content LinkedIn Top Content People Learning Jobs Games Sign in Join now Identity Digital Inc.",
+      "tokens": [
+        "linkedin",
+        "skip",
+        "main",
+        "content",
+        "linkedin",
+        "top",
+        "content",
+        "people",
+        "learning",
+        "jobs",
+        "games",
+        "sign",
+        "join",
+        "now",
+        "identity",
+        "digital",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 504,
+      "charStart": 295,
+      "factId": "hz.web.914d466b9294c0e2.fact.3",
+      "kind": "bullet",
+      "text": "Software Development Bellevue, Washington 11,188 followers See jobs Follow Discover all 308 employees Report this company Overview Jobs Life About us “Working as One Team is a core value at Identity Digital.",
+      "tokens": [
+        "software",
+        "development",
+        "bellevue",
+        "washington",
+        "11",
+        "188",
+        "followers",
+        "see",
+        "jobs",
+        "follow",
+        "discover",
+        "all",
+        "308",
+        "employees",
+        "report",
+        "company",
+        "overview",
+        "jobs",
+        "life",
+        "about",
+        "us",
+        "working",
+        "one",
+        "team",
+        "core",
+        "value",
+        "identity",
+        "digital"
+      ]
+    },
+    {
+      "charEnd": 614,
+      "charStart": 505,
+      "factId": "hz.web.914d466b9294c0e2.fact.4",
+      "kind": "bullet",
+      "text": "I believe the success of our company begins by being surrounded with great people from diverse backgrounds.",
+      "tokens": [
+        "believe",
+        "success",
+        "our",
+        "company",
+        "begins",
+        "surrounded",
+        "great",
+        "people",
+        "diverse",
+        "backgrounds"
+      ]
+    },
+    {
+      "charEnd": 635,
+      "charStart": 629,
+      "factId": "hz.web.914d466b9294c0e2.fact.5",
+      "kind": "bullet",
+      "text": "jobs",
+      "tokens": [
+        "jobs"
+      ]
+    },
+    {
+      "charEnd": 645,
+      "charStart": 636,
+      "factId": "hz.web.914d466b9294c0e2.fact.6",
+      "kind": "bullet",
+      "text": "digital",
+      "tokens": [
+        "digital"
+      ]
+    },
+    {
+      "charEnd": 656,
+      "charStart": 646,
+      "factId": "hz.web.914d466b9294c0e2.fact.7",
+      "kind": "bullet",
+      "text": "identity",
+      "tokens": [
+        "identity"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 657,
+      "factId": "hz.web.914d466b9294c0e2.fact.8",
+      "kind": "bullet",
+      "text": "manager",
+      "tokens": [
+        "manager"
+      ]
+    },
+    {
+      "charEnd": 673,
+      "charStart": 667,
+      "factId": "hz.web.914d466b9294c0e2.fact.9",
+      "kind": "bullet",
+      "text": "open",
+      "tokens": [
+        "open"
+      ]
+    },
+    {
+      "charEnd": 679,
+      "charStart": 674,
+      "factId": "hz.web.914d466b9294c0e2.fact.10",
+      "kind": "bullet",
+      "text": "inc",
+      "tokens": [
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 687,
+      "charStart": 680,
+      "factId": "hz.web.914d466b9294c0e2.fact.11",
+      "kind": "bullet",
+      "text": "share",
+      "tokens": [
+        "share"
+      ]
+    },
+    {
+      "charEnd": 701,
+      "charStart": 688,
+      "factId": "hz.web.914d466b9294c0e2.fact.12",
+      "kind": "bullet",
+      "text": "development",
+      "tokens": [
+        "development"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.914d466b9294c0e2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Identity Digital Inc. | LinkedIn"
+    },
+    {
+      "charEnd": 148,
+      "charStart": 138,
+      "headingId": "hz.web.914d466b9294c0e2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 627,
+      "charStart": 616,
+      "headingId": "hz.web.914d466b9294c0e2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 713,
+      "charStart": 703,
+      "headingId": "hz.web.914d466b9294c0e2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/914d466b9294c0e2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3985,
+        "start": 0
+      }
+    ],
+    "hash": "81544158fa9ba1f78b4cf119ab1ccbbe673127efb8d7780c20f573b4c1272e60",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Identity Digital Inc.",
+      "| LinkedIn Skip to main content LinkedIn Top Content People Learning Jobs Games Sign in Join now Identity Digital Inc.",
+      "Software Development Bellevue, Washington 11,188 followers See jobs Follow Discover all 308 employees Report this company Overview Jobs Life About us “Working as One Team is a core value at Identity Digital."
+    ],
+    "medium": "Source: https://www.linkedin.com/company/identitydigital-inc/",
+    "short": "Source: https://www.linkedin.com/company/identitydigital-inc/",
+    "tokens": [
+      "identity",
+      "digital",
+      "inc",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "company",
+      "identitydigital",
+      "inc",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "company",
+      "identitydigital",
+      "inc"
+    ]
+  },
+  "title": "Identity Digital Inc. | LinkedIn"
+}

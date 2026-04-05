@@ -1,0 +1,486 @@
+{
+  "aliases": [
+    {
+      "alias": "1878b4e721acaf42",
+      "aliasId": "hz.web.1878b4e721acaf42.alias.1",
+      "canonical": "user agreement summary"
+    },
+    {
+      "alias": "user agreement summary",
+      "aliasId": "hz.web.1878b4e721acaf42.alias.2",
+      "canonical": "user agreement summary"
+    },
+    {
+      "alias": "web 1878b4e721acaf42",
+      "aliasId": "hz.web.1878b4e721acaf42.alias.3",
+      "canonical": "user agreement summary"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.1878b4e721acaf42",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1878b4e721acaf42.entity.1",
+      "kind": "document",
+      "name": "User Agreement Summary",
+      "tokens": [
+        "user",
+        "agreement",
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1878b4e721acaf42.entity.2",
+      "kind": "heading",
+      "name": "User Agreement Summary",
+      "tokens": [
+        "user",
+        "agreement",
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1878b4e721acaf42.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1878b4e721acaf42.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1878b4e721acaf42.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 84,
+      "charStart": 27,
+      "factId": "hz.web.1878b4e721acaf42.fact.1",
+      "kind": "summary",
+      "text": "Source: https://linkedin.com/legal/user-agreement-summary",
+      "tokens": [
+        "source",
+        "https",
+        "linkedin",
+        "com",
+        "legal",
+        "user",
+        "agreement",
+        "summary"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 136,
+      "factId": "hz.web.1878b4e721acaf42.fact.1",
+      "kind": "bullet",
+      "text": "User Agreement Summary Skip to main content User Agreement Summary of User Agreement Privacy Policy Professional Community Policies Cookie Policy Copyright Policy Regional Info EU Notice California Privacy Disclosure U.S.",
+      "tokens": [
+        "user",
+        "agreement",
+        "summary",
+        "skip",
+        "main",
+        "content",
+        "user",
+        "agreement",
+        "summary",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "professional",
+        "community",
+        "policies",
+        "cookie",
+        "policy",
+        "copyright",
+        "policy",
+        "regional",
+        "info",
+        "eu",
+        "notice",
+        "california",
+        "privacy",
+        "disclosure"
+      ]
+    },
+    {
+      "charEnd": 558,
+      "charStart": 360,
+      "factId": "hz.web.1878b4e721acaf42.fact.2",
+      "kind": "bullet",
+      "text": "State Privacy Laws User Agreement Summary of User Agreement Privacy Policy Professional Community Policies Cookie Policy Copyright Policy Regional Info EU Notice California Privacy Disclosure U.S.",
+      "tokens": [
+        "state",
+        "privacy",
+        "laws",
+        "user",
+        "agreement",
+        "summary",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "professional",
+        "community",
+        "policies",
+        "cookie",
+        "policy",
+        "copyright",
+        "policy",
+        "regional",
+        "info",
+        "eu",
+        "notice",
+        "california",
+        "privacy",
+        "disclosure"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 559,
+      "factId": "hz.web.1878b4e721acaf42.fact.3",
+      "kind": "bullet",
+      "text": "State Privacy Laws User Agreement Summary Below is a summary of the key terms of the “Contract” that applies to your use of our Services.",
+      "tokens": [
+        "state",
+        "privacy",
+        "laws",
+        "user",
+        "agreement",
+        "summary",
+        "below",
+        "summary",
+        "key",
+        "terms",
+        "contract",
+        "applies",
+        "your",
+        "use",
+        "our",
+        "services"
+      ]
+    },
+    {
+      "charEnd": 1023,
+      "charStart": 699,
+      "factId": "hz.web.1878b4e721acaf42.fact.4",
+      "kind": "bullet",
+      "text": "When you use our Services you agree to our “User Agreement.” Your use of our Services is also subject to our Professional Community Policies (which covers your conduct while using the services) as well as our Privacy Policy and Cookie Policy (which together cover how we collect, use, share, and store your personal data).",
+      "tokens": [
+        "use",
+        "our",
+        "services",
+        "agree",
+        "our",
+        "user",
+        "agreement",
+        "your",
+        "use",
+        "our",
+        "services",
+        "also",
+        "subject",
+        "our",
+        "professional",
+        "community",
+        "policies",
+        "covers",
+        "your",
+        "conduct",
+        "while",
+        "using",
+        "services",
+        "well",
+        "our",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy",
+        "together",
+        "cover",
+        "collect",
+        "use",
+        "share",
+        "store",
+        "your",
+        "personal",
+        "data"
+      ]
+    },
+    {
+      "charEnd": 1043,
+      "charStart": 1038,
+      "factId": "hz.web.1878b4e721acaf42.fact.5",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 1049,
+      "charStart": 1044,
+      "factId": "hz.web.1878b4e721acaf42.fact.6",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    },
+    {
+      "charEnd": 1060,
+      "charStart": 1050,
+      "factId": "hz.web.1878b4e721acaf42.fact.7",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 1069,
+      "charStart": 1061,
+      "factId": "hz.web.1878b4e721acaf42.fact.8",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 1076,
+      "charStart": 1070,
+      "factId": "hz.web.1878b4e721acaf42.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1086,
+      "charStart": 1077,
+      "factId": "hz.web.1878b4e721acaf42.fact.10",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 1100,
+      "charStart": 1087,
+      "factId": "hz.web.1878b4e721acaf42.fact.11",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 1106,
+      "charStart": 1101,
+      "factId": "hz.web.1878b4e721acaf42.fact.12",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.1878b4e721acaf42.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "User Agreement Summary"
+    },
+    {
+      "charEnd": 134,
+      "charStart": 124,
+      "headingId": "hz.web.1878b4e721acaf42.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1036,
+      "charStart": 1025,
+      "headingId": "hz.web.1878b4e721acaf42.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1118,
+      "charStart": 1108,
+      "headingId": "hz.web.1878b4e721acaf42.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1878b4e721acaf42.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4376,
+        "start": 0
+      }
+    ],
+    "hash": "689a773b5e385fca35174c814f8001fd4e74eb74d47565f701fde05c5d43e67a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.1878b4e721acaf42.rule.1",
+      "text": "Our Professional Community Policies have three main elements: Be Safe: do not post harassing content; do not threaten, incite, or promote violence; do not share material depicting the exploitation of children; do not promote, sell or attempt to purchase illegal or dangerous goods or services; do not share content promoting dangerous organizations or individuals.",
+      "tokens": [
+        "our",
+        "professional",
+        "community",
+        "policies",
+        "have",
+        "three",
+        "main",
+        "elements",
+        "safe",
+        "not",
+        "post",
+        "harassing",
+        "content",
+        "not",
+        "threaten",
+        "incite",
+        "promote",
+        "violence",
+        "not",
+        "share",
+        "material",
+        "depicting",
+        "exploitation",
+        "children",
+        "not",
+        "promote",
+        "sell",
+        "attempt",
+        "purchase",
+        "illegal",
+        "dangerous",
+        "goods",
+        "services",
+        "not",
+        "share",
+        "content",
+        "promoting",
+        "dangerous",
+        "organizations",
+        "individuals"
+      ]
+    },
+    {
+      "ruleId": "hz.web.1878b4e721acaf42.rule.2",
+      "text": "Be Trustworthy: do not share false or misleading content; do not create a fake profile or falsify information about yourself; do not scam, defraud, deceive others.",
+      "tokens": [
+        "trustworthy",
+        "not",
+        "share",
+        "false",
+        "misleading",
+        "content",
+        "not",
+        "create",
+        "fake",
+        "profile",
+        "falsify",
+        "information",
+        "about",
+        "yourself",
+        "not",
+        "scam",
+        "defraud",
+        "deceive",
+        "others"
+      ]
+    },
+    {
+      "ruleId": "hz.web.1878b4e721acaf42.rule.3",
+      "text": "Be Professional: do not be hateful; do not engage in sexual innuendos or unwanted advances; do not share harmful or shocking material; do not spam members or the platform.",
+      "tokens": [
+        "professional",
+        "not",
+        "hateful",
+        "not",
+        "engage",
+        "sexual",
+        "innuendos",
+        "unwanted",
+        "advances",
+        "not",
+        "share",
+        "harmful",
+        "shocking",
+        "material",
+        "not",
+        "spam",
+        "members",
+        "platform"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "User Agreement Summary Skip to main content User Agreement Summary of User Agreement Privacy Policy Professional Community Policies Cookie Policy Copyright Policy Regional Info EU Notice California Privacy Disclosure U.S.",
+      "State Privacy Laws User Agreement Summary of User Agreement Privacy Policy Professional Community Policies Cookie Policy Copyright Policy Regional Info EU Notice California Privacy Disclosure U.S.",
+      "State Privacy Laws User Agreement Summary Below is a summary of the key terms of the “Contract” that applies to your use of our Services."
+    ],
+    "medium": "Source: https://linkedin.com/legal/user-agreement-summary",
+    "short": "Source: https://linkedin.com/legal/user-agreement-summary",
+    "tokens": [
+      "user",
+      "agreement",
+      "summary",
+      "source",
+      "https",
+      "linkedin",
+      "com",
+      "legal",
+      "user",
+      "agreement",
+      "summary",
+      "source",
+      "https",
+      "linkedin",
+      "com",
+      "legal",
+      "user",
+      "agreement",
+      "summary"
+    ]
+  },
+  "title": "User Agreement Summary"
+}

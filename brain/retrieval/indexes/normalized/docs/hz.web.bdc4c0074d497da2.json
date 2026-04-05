@@ -1,0 +1,389 @@
+{
+  "aliases": [
+    {
+      "alias": "bdc4c0074d497da2",
+      "aliasId": "hz.web.bdc4c0074d497da2.alias.1",
+      "canonical": "opzioni di contatto | assistenza linkedin"
+    },
+    {
+      "alias": "opzioni di contatto assistenza linkedin",
+      "aliasId": "hz.web.bdc4c0074d497da2.alias.2",
+      "canonical": "opzioni di contatto | assistenza linkedin"
+    },
+    {
+      "alias": "web bdc4c0074d497da2",
+      "aliasId": "hz.web.bdc4c0074d497da2.alias.3",
+      "canonical": "opzioni di contatto | assistenza linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.65,
+  "docId": "hz.web.bdc4c0074d497da2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bdc4c0074d497da2.entity.1",
+      "kind": "document",
+      "name": "Opzioni di contatto | Assistenza LinkedIn",
+      "tokens": [
+        "opzioni",
+        "di",
+        "contatto",
+        "assistenza",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.bdc4c0074d497da2.entity.2",
+      "kind": "heading",
+      "name": "Opzioni di contatto | Assistenza LinkedIn",
+      "tokens": [
+        "opzioni",
+        "di",
+        "contatto",
+        "assistenza",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.bdc4c0074d497da2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.bdc4c0074d497da2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.bdc4c0074d497da2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 109,
+      "charStart": 46,
+      "factId": "hz.web.bdc4c0074d497da2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/help/linkedin/solve?lang=it-IT",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "help",
+        "linkedin",
+        "solve",
+        "lang"
+      ]
+    },
+    {
+      "charEnd": 363,
+      "charStart": 161,
+      "factId": "hz.web.bdc4c0074d497da2.fact.1",
+      "kind": "bullet",
+      "text": "Opzioni di contatto | Assistenza LinkedIn Avviso per chi usa il lettore di schermo: questa visualizzazione è ottimizzata per i dispositivi mobili e i contenuti potrebbero apparire in posizione errata.",
+      "tokens": [
+        "opzioni",
+        "di",
+        "contatto",
+        "assistenza",
+        "linkedin",
+        "avviso",
+        "per",
+        "chi",
+        "usa",
+        "il",
+        "lettore",
+        "di",
+        "schermo",
+        "questa",
+        "visualizzazione",
+        "ottimizzata",
+        "per",
+        "dispositivi",
+        "mobili",
+        "contenuti",
+        "potrebbero",
+        "apparire",
+        "posizione",
+        "errata"
+      ]
+    },
+    {
+      "charEnd": 446,
+      "charStart": 364,
+      "factId": "hz.web.bdc4c0074d497da2.fact.2",
+      "kind": "bullet",
+      "text": "Per ritornare alla visualizzazione desktop, ingrandisci la finestra del browser.",
+      "tokens": [
+        "per",
+        "ritornare",
+        "alla",
+        "visualizzazione",
+        "desktop",
+        "ingrandisci",
+        "la",
+        "finestra",
+        "del",
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 822,
+      "charStart": 447,
+      "factId": "hz.web.bdc4c0074d497da2.fact.3",
+      "kind": "bullet",
+      "text": "Vai al contenuto Vai alla ricerca Chiudi menu Guida Assistenza LinkedIn Menu a discesa, espandi per aiuto su altri prodotti LinkedIn Chiudi menu Ricevi assistenza su: LinkedIn Fatturazione aziendale Learning Recruiter Sales Navigator Soluzioni di marketing Talent Insights Vai a LinkedIn Accedi Accedi Contatta il supporto LinkedIn LinkedIn Contattaci Seleziona una lingua.",
+      "tokens": [
+        "vai",
+        "al",
+        "contenuto",
+        "vai",
+        "alla",
+        "ricerca",
+        "chiudi",
+        "menu",
+        "guida",
+        "assistenza",
+        "linkedin",
+        "menu",
+        "discesa",
+        "espandi",
+        "per",
+        "aiuto",
+        "su",
+        "altri",
+        "prodotti",
+        "linkedin",
+        "chiudi",
+        "menu",
+        "ricevi",
+        "assistenza",
+        "su",
+        "linkedin",
+        "fatturazione",
+        "aziendale",
+        "learning",
+        "recruiter",
+        "sales",
+        "navigator",
+        "soluzioni",
+        "di",
+        "marketing",
+        "talent",
+        "insights",
+        "vai",
+        "linkedin",
+        "accedi",
+        "accedi",
+        "contatta",
+        "il",
+        "supporto",
+        "linkedin",
+        "linkedin",
+        "contattaci",
+        "seleziona",
+        "una",
+        "lingua"
+      ]
+    },
+    {
+      "charEnd": 903,
+      "charStart": 823,
+      "factId": "hz.web.bdc4c0074d497da2.fact.4",
+      "kind": "bullet",
+      "text": "La pagina si aggiornerà automaticamente dopo che avrai selezionato una lingua.",
+      "tokens": [
+        "la",
+        "pagina",
+        "si",
+        "aggiorner",
+        "automaticamente",
+        "dopo",
+        "che",
+        "avrai",
+        "selezionato",
+        "una",
+        "lingua"
+      ]
+    },
+    {
+      "charEnd": 928,
+      "charStart": 918,
+      "factId": "hz.web.bdc4c0074d497da2.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 929,
+      "factId": "hz.web.bdc4c0074d497da2.fact.6",
+      "kind": "bullet",
+      "text": "menu",
+      "tokens": [
+        "menu"
+      ]
+    },
+    {
+      "charEnd": 941,
+      "charStart": 936,
+      "factId": "hz.web.bdc4c0074d497da2.fact.7",
+      "kind": "bullet",
+      "text": "per",
+      "tokens": [
+        "per"
+      ]
+    },
+    {
+      "charEnd": 951,
+      "charStart": 942,
+      "factId": "hz.web.bdc4c0074d497da2.fact.8",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 964,
+      "charStart": 952,
+      "factId": "hz.web.bdc4c0074d497da2.fact.9",
+      "kind": "bullet",
+      "text": "assistenza",
+      "tokens": [
+        "assistenza"
+      ]
+    },
+    {
+      "charEnd": 973,
+      "charStart": 965,
+      "factId": "hz.web.bdc4c0074d497da2.fact.10",
+      "kind": "bullet",
+      "text": "chiudi",
+      "tokens": [
+        "chiudi"
+      ]
+    },
+    {
+      "charEnd": 986,
+      "charStart": 974,
+      "factId": "hz.web.bdc4c0074d497da2.fact.11",
+      "kind": "bullet",
+      "text": "condizioni",
+      "tokens": [
+        "condizioni"
+      ]
+    },
+    {
+      "charEnd": 991,
+      "charStart": 987,
+      "factId": "hz.web.bdc4c0074d497da2.fact.12",
+      "kind": "bullet",
+      "text": "di",
+      "tokens": [
+        "di"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 44,
+      "charStart": 1,
+      "headingId": "hz.web.bdc4c0074d497da2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Opzioni di contatto | Assistenza LinkedIn"
+    },
+    {
+      "charEnd": 159,
+      "charStart": 149,
+      "headingId": "hz.web.bdc4c0074d497da2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 916,
+      "charStart": 905,
+      "headingId": "hz.web.bdc4c0074d497da2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1003,
+      "charStart": 993,
+      "headingId": "hz.web.bdc4c0074d497da2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/bdc4c0074d497da2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2954,
+        "start": 0
+      }
+    ],
+    "hash": "2d1bdafd3b9097215574a050bb78848bbaa97ab0bbc54c56a708afa6020bd2a4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Opzioni di contatto | Assistenza LinkedIn Avviso per chi usa il lettore di schermo: questa visualizzazione è ottimizzata per i dispositivi mobili e i contenuti potrebbero apparire in posizione errata.",
+      "Per ritornare alla visualizzazione desktop, ingrandisci la finestra del browser.",
+      "Vai al contenuto Vai alla ricerca Chiudi menu Guida Assistenza LinkedIn Menu a discesa, espandi per aiuto su altri prodotti LinkedIn Chiudi menu Ricevi assistenza su: LinkedIn Fatturazione aziendale Learning Recruiter Sales Navigator Soluzioni di marketing Talent Insights Vai a LinkedIn Accedi Accedi Contatta il supporto LinkedIn LinkedIn Contattaci Seleziona una lingua."
+    ],
+    "medium": "Source: https://www.linkedin.com/help/linkedin/solve?lang=it-IT",
+    "short": "Source: https://www.linkedin.com/help/linkedin/solve?lang=it-IT",
+    "tokens": [
+      "opzioni",
+      "di",
+      "contatto",
+      "assistenza",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "help",
+      "linkedin",
+      "solve",
+      "lang",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "help",
+      "linkedin",
+      "solve",
+      "lang"
+    ]
+  },
+  "title": "Opzioni di contatto | Assistenza LinkedIn"
+}

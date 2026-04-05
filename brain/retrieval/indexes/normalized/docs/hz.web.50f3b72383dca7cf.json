@@ -1,0 +1,435 @@
+{
+  "aliases": [
+    {
+      "alias": "50f3b72383dca7cf",
+      "aliasId": "hz.web.50f3b72383dca7cf.alias.1",
+      "canonical": "stepsecurity blog | github actions security insights"
+    },
+    {
+      "alias": "stepsecurity blog github actions security insights",
+      "aliasId": "hz.web.50f3b72383dca7cf.alias.2",
+      "canonical": "stepsecurity blog | github actions security insights"
+    },
+    {
+      "alias": "web 50f3b72383dca7cf",
+      "aliasId": "hz.web.50f3b72383dca7cf.alias.3",
+      "canonical": "stepsecurity blog | github actions security insights"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.88,
+  "docId": "hz.web.50f3b72383dca7cf",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.50f3b72383dca7cf.entity.1",
+      "kind": "document",
+      "name": "StepSecurity Blog | GitHub Actions Security Insights",
+      "tokens": [
+        "stepsecurity",
+        "blog",
+        "github",
+        "actions",
+        "security",
+        "insights"
+      ]
+    },
+    {
+      "entityId": "hz.web.50f3b72383dca7cf.entity.2",
+      "kind": "heading",
+      "name": "StepSecurity Blog | GitHub Actions Security Insights",
+      "tokens": [
+        "stepsecurity",
+        "blog",
+        "github",
+        "actions",
+        "security",
+        "insights"
+      ]
+    },
+    {
+      "entityId": "hz.web.50f3b72383dca7cf.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.50f3b72383dca7cf.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.50f3b72383dca7cf.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 98,
+      "charStart": 57,
+      "factId": "hz.web.50f3b72383dca7cf.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.stepsecurity.io/blogs",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blogs"
+      ]
+    },
+    {
+      "charEnd": 929,
+      "charStart": 150,
+      "factId": "hz.web.50f3b72383dca7cf.fact.1",
+      "kind": "bullet",
+      "text": "StepSecurity Blog | GitHub Actions Security Insights Skip to main content Solutions GitHub Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Request a Demo Login Solutions Github Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Start Free Login Categories View All Product News Resources Subscribe to Feed Latest Posts Showing 0 Items News axios Compromised on npm - Malicious Versions Drop Remote Access Trojan Hijacked maintainer account used to publish poisoned axios releases including 1.14.1 and 0.30.4.",
+      "tokens": [
+        "stepsecurity",
+        "blog",
+        "github",
+        "actions",
+        "security",
+        "insights",
+        "skip",
+        "main",
+        "content",
+        "solutions",
+        "github",
+        "actions",
+        "dev",
+        "machine",
+        "guard",
+        "npm",
+        "security",
+        "customers",
+        "pricing",
+        "resources",
+        "blog",
+        "documentation",
+        "product",
+        "tour",
+        "github",
+        "actions",
+        "advisor",
+        "github",
+        "actions",
+        "audit",
+        "roi",
+        "calculator",
+        "company",
+        "about",
+        "us",
+        "newsroom",
+        "request",
+        "demo",
+        "login",
+        "solutions",
+        "github",
+        "actions",
+        "dev",
+        "machine",
+        "guard",
+        "npm",
+        "security",
+        "customers",
+        "pricing",
+        "resources",
+        "blog",
+        "documentation",
+        "product",
+        "tour",
+        "github",
+        "actions",
+        "advisor",
+        "github",
+        "actions",
+        "audit",
+        "roi",
+        "calculator",
+        "company",
+        "about",
+        "us",
+        "newsroom",
+        "start",
+        "free",
+        "login",
+        "categories",
+        "view",
+        "all",
+        "product",
+        "news",
+        "resources",
+        "subscribe",
+        "feed",
+        "latest",
+        "posts",
+        "showing",
+        "items",
+        "news",
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "hijacked",
+        "maintainer",
+        "account",
+        "used",
+        "publish",
+        "poisoned",
+        "axios",
+        "releases",
+        "including",
+        "14",
+        "30"
+      ]
+    },
+    {
+      "charEnd": 1006,
+      "charStart": 930,
+      "factId": "hz.web.50f3b72383dca7cf.fact.2",
+      "kind": "bullet",
+      "text": "The attacker injected a hidden dependency that drops a cross platform RAT.",
+      "tokens": [
+        "attacker",
+        "injected",
+        "hidden",
+        "dependency",
+        "drops",
+        "cross",
+        "platform",
+        "rat"
+      ]
+    },
+    {
+      "charEnd": 1096,
+      "charStart": 1007,
+      "factId": "hz.web.50f3b72383dca7cf.fact.3",
+      "kind": "bullet",
+      "text": "We are actively investigating and will update this post with a full technical analysis.",
+      "tokens": [
+        "actively",
+        "investigating",
+        "will",
+        "update",
+        "post",
+        "full",
+        "technical",
+        "analysis"
+      ]
+    },
+    {
+      "charEnd": 1304,
+      "charStart": 1097,
+      "factId": "hz.web.50f3b72383dca7cf.fact.4",
+      "kind": "bullet",
+      "text": "Ashish Kurmi View Linked In March 30, 2026 Read Product 10 Layers Deep: How StepSecurity Stops TeamPCP&#x27;s Trivy Supply Chain Attack on GitHub Actions TeamPCP weaponized 76 Trivy version tags overnight.",
+      "tokens": [
+        "ashish",
+        "kurmi",
+        "view",
+        "linked",
+        "march",
+        "30",
+        "2026",
+        "read",
+        "product",
+        "10",
+        "layers",
+        "deep",
+        "stepsecurity",
+        "stops",
+        "teampcp",
+        "x27",
+        "trivy",
+        "supply",
+        "chain",
+        "attack",
+        "github",
+        "actions",
+        "teampcp",
+        "weaponized",
+        "76",
+        "trivy",
+        "version",
+        "tags",
+        "overnight"
+      ]
+    },
+    {
+      "charEnd": 1327,
+      "charStart": 1319,
+      "factId": "hz.web.50f3b72383dca7cf.fact.5",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    },
+    {
+      "charEnd": 1334,
+      "charStart": 1328,
+      "factId": "hz.web.50f3b72383dca7cf.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1342,
+      "charStart": 1335,
+      "factId": "hz.web.50f3b72383dca7cf.fact.7",
+      "kind": "bullet",
+      "text": "trivy",
+      "tokens": [
+        "trivy"
+      ]
+    },
+    {
+      "charEnd": 1352,
+      "charStart": 1343,
+      "factId": "hz.web.50f3b72383dca7cf.fact.8",
+      "kind": "bullet",
+      "text": "actions",
+      "tokens": [
+        "actions"
+      ]
+    },
+    {
+      "charEnd": 1360,
+      "charStart": 1353,
+      "factId": "hz.web.50f3b72383dca7cf.fact.9",
+      "kind": "bullet",
+      "text": "march",
+      "tokens": [
+        "march"
+      ]
+    },
+    {
+      "charEnd": 1374,
+      "charStart": 1361,
+      "factId": "hz.web.50f3b72383dca7cf.fact.10",
+      "kind": "bullet",
+      "text": "compromised",
+      "tokens": [
+        "compromised"
+      ]
+    },
+    {
+      "charEnd": 1381,
+      "charStart": 1375,
+      "factId": "hz.web.50f3b72383dca7cf.fact.11",
+      "kind": "bullet",
+      "text": "read",
+      "tokens": [
+        "read"
+      ]
+    },
+    {
+      "charEnd": 1388,
+      "charStart": 1382,
+      "factId": "hz.web.50f3b72383dca7cf.fact.12",
+      "kind": "bullet",
+      "text": "view",
+      "tokens": [
+        "view"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 55,
+      "charStart": 1,
+      "headingId": "hz.web.50f3b72383dca7cf.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "StepSecurity Blog | GitHub Actions Security Insights"
+    },
+    {
+      "charEnd": 148,
+      "charStart": 138,
+      "headingId": "hz.web.50f3b72383dca7cf.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1317,
+      "charStart": 1306,
+      "headingId": "hz.web.50f3b72383dca7cf.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1400,
+      "charStart": 1390,
+      "headingId": "hz.web.50f3b72383dca7cf.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/50f3b72383dca7cf.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4672,
+        "start": 0
+      }
+    ],
+    "hash": "429ac6657077dc0245f5a8ee0045e6ee4b86bbfee7a57ca24f66b2c4363cad4d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "StepSecurity Blog | GitHub Actions Security Insights Skip to main content Solutions GitHub Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Request a Demo Login Solutions Github Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Start Free Login Categories View All Product News Resources Subscribe to Feed Latest Posts Showing 0 Items News axios Compromised on npm - Malicious Versions Drop Remote Access Trojan Hijacked maintainer account used to publish poisoned axios releases including 1.14.1 and 0.30.4.",
+      "The attacker injected a hidden dependency that drops a cross platform RAT.",
+      "We are actively investigating and will update this post with a full technical analysis."
+    ],
+    "medium": "Source: https://www.stepsecurity.io/blogs",
+    "short": "Source: https://www.stepsecurity.io/blogs",
+    "tokens": [
+      "stepsecurity",
+      "blog",
+      "github",
+      "actions",
+      "security",
+      "insights",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "blogs",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "blogs"
+    ]
+  },
+  "title": "StepSecurity Blog | GitHub Actions Security Insights"
+}

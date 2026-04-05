@@ -1,0 +1,385 @@
+{
+  "aliases": [
+    {
+      "alias": "1c4ec7f5be8c8ab5",
+      "aliasId": "hz.web.1c4ec7f5be8c8ab5.alias.1",
+      "canonical": "narrative.so"
+    },
+    {
+      "alias": "narrative.so",
+      "aliasId": "hz.web.1c4ec7f5be8c8ab5.alias.2",
+      "canonical": "narrative.so"
+    },
+    {
+      "alias": "web 1c4ec7f5be8c8ab5",
+      "aliasId": "hz.web.1c4ec7f5be8c8ab5.alias.3",
+      "canonical": "narrative.so"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.1c4ec7f5be8c8ab5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1c4ec7f5be8c8ab5.entity.1",
+      "kind": "document",
+      "name": "narrative.so",
+      "tokens": [
+        "narrative",
+        "so"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c4ec7f5be8c8ab5.entity.2",
+      "kind": "heading",
+      "name": "narrative.so",
+      "tokens": [
+        "narrative",
+        "so"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c4ec7f5be8c8ab5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c4ec7f5be8c8ab5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c4ec7f5be8c8ab5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 83,
+      "charStart": 17,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://narrative.so/_next/static/css/1b5d19eeadf69a6f.css",
+      "tokens": [
+        "source",
+        "https",
+        "narrative",
+        "so",
+        "_next",
+        "static",
+        "css",
+        "1b5d19eeadf69a6f",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1135,
+      "charStart": 135,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.1",
+      "kind": "bullet",
+      "text": "@keyframes react-loading-skeleton{to{transform:translateX(100%)}}.react-loading-skeleton{--base-color:#ebebeb;--highlight-color:#f5f5f5;--animation-duration:1.5s;--animation-direction:normal;--pseudo-element-display:block;background-color:var(--base-color);width:100%;border-radius:.25rem;display:inline-flex;line-height:1;position:relative;user-select:none;overflow:hidden}.react-loading-skeleton:after{content:\" \";display:var(--pseudo-element-display);position:absolute;top:0;left:0;right:0;height:100%;background-repeat:no-repeat;background-image:var( --custom-highlight-background,linear-gradient(90deg,var(--base-color) 0,var(--highlight-color) 50%,var(--base-color) 100%) );transform:translateX(-100%);animation-name:react-loading-skeleton;animation-direction:var(--animation-direction);animation-duration:var(--animation-duration);animation-timing-function:ease-in-out;animation-iteration-count:infinite}@media (prefers-reduced-motion){.react-loading-skeleton{--pseudo-element-display:none}}",
+      "tokens": [
+        "keyframes",
+        "react",
+        "loading",
+        "skeleton",
+        "transform",
+        "translatex",
+        "100",
+        "react",
+        "loading",
+        "skeleton",
+        "base",
+        "color",
+        "ebebeb",
+        "highlight",
+        "color",
+        "f5f5f5",
+        "animation",
+        "duration",
+        "5s",
+        "animation",
+        "direction",
+        "normal",
+        "pseudo",
+        "element",
+        "display",
+        "block",
+        "background",
+        "color",
+        "var",
+        "base",
+        "color",
+        "width",
+        "100",
+        "border",
+        "radius",
+        "25rem",
+        "display",
+        "inline",
+        "flex",
+        "line",
+        "height",
+        "position",
+        "relative",
+        "user",
+        "select",
+        "none",
+        "overflow",
+        "hidden",
+        "react",
+        "loading",
+        "skeleton",
+        "after",
+        "content",
+        "display",
+        "var",
+        "pseudo",
+        "element",
+        "display",
+        "position",
+        "absolute",
+        "top",
+        "left",
+        "right",
+        "height",
+        "100",
+        "background",
+        "repeat",
+        "no",
+        "repeat",
+        "background",
+        "image",
+        "var",
+        "custom",
+        "highlight",
+        "background",
+        "linear",
+        "gradient",
+        "90deg",
+        "var",
+        "base",
+        "color",
+        "var",
+        "highlight",
+        "color",
+        "50",
+        "var",
+        "base",
+        "color",
+        "100",
+        "transform",
+        "translatex",
+        "100",
+        "animation",
+        "name",
+        "react",
+        "loading",
+        "skeleton",
+        "animation",
+        "direction",
+        "var",
+        "animation",
+        "direction",
+        "animation",
+        "duration",
+        "var",
+        "animation",
+        "duration",
+        "animation",
+        "timing",
+        "function",
+        "ease",
+        "out",
+        "animation",
+        "iteration",
+        "count",
+        "infinite",
+        "media",
+        "prefers",
+        "reduced",
+        "motion",
+        "react",
+        "loading",
+        "skeleton",
+        "pseudo",
+        "element",
+        "display",
+        "none"
+      ]
+    },
+    {
+      "charEnd": 1161,
+      "charStart": 1150,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.2",
+      "kind": "bullet",
+      "text": "animation",
+      "tokens": [
+        "animation"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1162,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.3",
+      "kind": "bullet",
+      "text": "var",
+      "tokens": [
+        "var"
+      ]
+    },
+    {
+      "charEnd": 1175,
+      "charStart": 1168,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.4",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 1181,
+      "charStart": 1176,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.5",
+      "kind": "bullet",
+      "text": "100",
+      "tokens": [
+        "100"
+      ]
+    },
+    {
+      "charEnd": 1191,
+      "charStart": 1182,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.6",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 1201,
+      "charStart": 1192,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.7",
+      "kind": "bullet",
+      "text": "loading",
+      "tokens": [
+        "loading"
+      ]
+    },
+    {
+      "charEnd": 1209,
+      "charStart": 1202,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.8",
+      "kind": "bullet",
+      "text": "react",
+      "tokens": [
+        "react"
+      ]
+    },
+    {
+      "charEnd": 1220,
+      "charStart": 1210,
+      "factId": "hz.web.1c4ec7f5be8c8ab5.fact.9",
+      "kind": "bullet",
+      "text": "skeleton",
+      "tokens": [
+        "skeleton"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.1c4ec7f5be8c8ab5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "narrative.so"
+    },
+    {
+      "charEnd": 133,
+      "charStart": 123,
+      "headingId": "hz.web.1c4ec7f5be8c8ab5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1148,
+      "charStart": 1137,
+      "headingId": "hz.web.1c4ec7f5be8c8ab5.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1232,
+      "charStart": 1222,
+      "headingId": "hz.web.1c4ec7f5be8c8ab5.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1c4ec7f5be8c8ab5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2487,
+        "start": 0
+      }
+    ],
+    "hash": "87bfc2465c4d2e520ba5c9a6c68d5681985974bfad09961521dcac8147deb11a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@keyframes react-loading-skeleton{to{transform:translateX(100%)}}.react-loading-skeleton{--base-color:#ebebeb;--highlight-color:#f5f5f5;--animation-duration:1.5s;--animation-direction:normal;--pseudo-element-display:block;background-color:var(--base-color);width:100%;border-radius:.25rem;display:inline-flex;line-height:1;position:relative;user-select:none;overflow:hidden}.react-loading-skeleton:after{content:\" \";display:var(--pseudo-element-display);position:absolute;top:0;left:0;right:0;height:100%;background-repeat:no-repeat;background-image:var( --custom-highlight-background,linear-gradient(90deg,var(--base-color) 0,var(--highlight-color) 50%,var(--base-color) 100%) );transform:translateX(-100%);animation-name:react-loading-skeleton;animation-direction:var(--animation-direction);animation-duration:var(--animation-duration);animation-timing-function:ease-in-out;animation-iteration-count:infinite}@media (prefers-reduced-motion){.react-loading-skeleton{--pseudo-element-display:none}}",
+      "animation",
+      "var"
+    ],
+    "medium": "Source: https://narrative.so/_next/static/css/1b5d19eeadf69a6f.css",
+    "short": "Source: https://narrative.so/_next/static/css/1b5d19eeadf69a6f.css",
+    "tokens": [
+      "narrative",
+      "so",
+      "source",
+      "https",
+      "narrative",
+      "so",
+      "_next",
+      "static",
+      "css",
+      "1b5d19eeadf69a6f",
+      "css",
+      "source",
+      "https",
+      "narrative",
+      "so",
+      "_next",
+      "static",
+      "css",
+      "1b5d19eeadf69a6f",
+      "css"
+    ]
+  },
+  "title": "narrative.so"
+}

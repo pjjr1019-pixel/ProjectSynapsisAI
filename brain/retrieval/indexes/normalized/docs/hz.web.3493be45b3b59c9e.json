@@ -1,0 +1,489 @@
+{
+  "aliases": [
+    {
+      "alias": "3493be45b3b59c9e",
+      "aliasId": "hz.web.3493be45b3b59c9e.alias.1",
+      "canonical": "wordpress.com: everything you need to build your website"
+    },
+    {
+      "alias": "web 3493be45b3b59c9e",
+      "aliasId": "hz.web.3493be45b3b59c9e.alias.2",
+      "canonical": "wordpress.com: everything you need to build your website"
+    },
+    {
+      "alias": "wordpress.com everything you need to build your website",
+      "aliasId": "hz.web.3493be45b3b59c9e.alias.3",
+      "canonical": "wordpress.com: everything you need to build your website"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.3493be45b3b59c9e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3493be45b3b59c9e.entity.1",
+      "kind": "document",
+      "name": "WordPress.com: Everything You Need to Build Your Website",
+      "tokens": [
+        "wordpress",
+        "com",
+        "everything",
+        "need",
+        "build",
+        "your",
+        "website"
+      ]
+    },
+    {
+      "entityId": "hz.web.3493be45b3b59c9e.entity.2",
+      "kind": "heading",
+      "name": "WordPress.com: Everything You Need to Build Your Website",
+      "tokens": [
+        "wordpress",
+        "com",
+        "everything",
+        "need",
+        "build",
+        "your",
+        "website"
+      ]
+    },
+    {
+      "entityId": "hz.web.3493be45b3b59c9e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3493be45b3b59c9e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3493be45b3b59c9e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 89,
+      "charStart": 61,
+      "factId": "hz.web.3493be45b3b59c9e.fact.1",
+      "kind": "summary",
+      "text": "Source: http://pixel.wp.com/",
+      "tokens": [
+        "source",
+        "http",
+        "pixel",
+        "wp",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1359,
+      "charStart": 141,
+      "factId": "hz.web.3493be45b3b59c9e.fact.1",
+      "kind": "bullet",
+      "text": "WordPress.com: Everything You Need to Build Your Website Products Features Resources Plans & Pricing Log in Get started Menu WordPress Hosting WordPress for Agencies Become an Affiliate Domain Names AI Website Builder Website Builder Create a Blog Newsletter Professional Email Website Design Services Commerce WordPress Studio Enterprise WordPress Overview WordPress Themes WordPress Plugins WordPress Patterns Google Apps Support Center WordPress News Business Name Generator Logo Maker Discover New Posts Popular Tags Blog Search Close the navigation menu Get started Sign up Log in About Plans & Pricing Products WordPress Hosting WordPress for Agencies Become an Affiliate Domain Names AI Website Builder Website Builder Create a Blog Newsletter Professional Email Website Design Services Commerce WordPress Studio Enterprise WordPress Features Overview WordPress Themes WordPress Plugins WordPress Patterns Google Apps Resources Support Center WordPress News Business Name Generator Logo Maker Discover New Posts Popular Tags Blog Search Jetpack App Learn more 4.5 stars 2,000+ reviews WordPress for free Start simple, or take control of every detail to create a site, store, or blog that’s unmistakably yours.",
+      "tokens": [
+        "wordpress",
+        "com",
+        "everything",
+        "need",
+        "build",
+        "your",
+        "website",
+        "products",
+        "features",
+        "resources",
+        "plans",
+        "pricing",
+        "log",
+        "get",
+        "started",
+        "menu",
+        "wordpress",
+        "hosting",
+        "wordpress",
+        "agencies",
+        "become",
+        "affiliate",
+        "domain",
+        "names",
+        "ai",
+        "website",
+        "builder",
+        "website",
+        "builder",
+        "create",
+        "blog",
+        "newsletter",
+        "professional",
+        "email",
+        "website",
+        "design",
+        "services",
+        "commerce",
+        "wordpress",
+        "studio",
+        "enterprise",
+        "wordpress",
+        "overview",
+        "wordpress",
+        "themes",
+        "wordpress",
+        "plugins",
+        "wordpress",
+        "patterns",
+        "google",
+        "apps",
+        "support",
+        "center",
+        "wordpress",
+        "news",
+        "business",
+        "name",
+        "generator",
+        "logo",
+        "maker",
+        "discover",
+        "new",
+        "posts",
+        "popular",
+        "tags",
+        "blog",
+        "search",
+        "close",
+        "navigation",
+        "menu",
+        "get",
+        "started",
+        "sign",
+        "up",
+        "log",
+        "about",
+        "plans",
+        "pricing",
+        "products",
+        "wordpress",
+        "hosting",
+        "wordpress",
+        "agencies",
+        "become",
+        "affiliate",
+        "domain",
+        "names",
+        "ai",
+        "website",
+        "builder",
+        "website",
+        "builder",
+        "create",
+        "blog",
+        "newsletter",
+        "professional",
+        "email",
+        "website",
+        "design",
+        "services",
+        "commerce",
+        "wordpress",
+        "studio",
+        "enterprise",
+        "wordpress",
+        "features",
+        "overview",
+        "wordpress",
+        "themes",
+        "wordpress",
+        "plugins",
+        "wordpress",
+        "patterns",
+        "google",
+        "apps",
+        "resources",
+        "support",
+        "center",
+        "wordpress",
+        "news",
+        "business",
+        "name",
+        "generator",
+        "logo",
+        "maker",
+        "discover",
+        "new",
+        "posts",
+        "popular",
+        "tags",
+        "blog",
+        "search",
+        "jetpack",
+        "app",
+        "learn",
+        "more",
+        "stars",
+        "000",
+        "reviews",
+        "wordpress",
+        "free",
+        "start",
+        "simple",
+        "take",
+        "control",
+        "every",
+        "detail",
+        "create",
+        "site",
+        "store",
+        "blog",
+        "unmistakably",
+        "yours"
+      ]
+    },
+    {
+      "charEnd": 1394,
+      "charStart": 1360,
+      "factId": "hz.web.3493be45b3b59c9e.fact.2",
+      "kind": "bullet",
+      "text": "Start free, upgrade from /month.",
+      "tokens": [
+        "start",
+        "free",
+        "upgrade",
+        "month"
+      ]
+    },
+    {
+      "charEnd": 1551,
+      "charStart": 1395,
+      "factId": "hz.web.3493be45b3b59c9e.fact.3",
+      "kind": "bullet",
+      "text": "Create my site Host with the best When you create a site with WordPress.com, you get all of the power of lightning-fast, secure managed WordPress hosting.",
+      "tokens": [
+        "create",
+        "site",
+        "host",
+        "best",
+        "create",
+        "site",
+        "wordpress",
+        "com",
+        "get",
+        "all",
+        "power",
+        "lightning",
+        "fast",
+        "secure",
+        "managed",
+        "wordpress",
+        "hosting"
+      ]
+    },
+    {
+      "charEnd": 1637,
+      "charStart": 1552,
+      "factId": "hz.web.3493be45b3b59c9e.fact.4",
+      "kind": "bullet",
+      "text": "Explore hosting Room to grow Scale as you go with unmetered bandwidth on all plans.",
+      "tokens": [
+        "explore",
+        "hosting",
+        "room",
+        "grow",
+        "scale",
+        "go",
+        "unmetered",
+        "bandwidth",
+        "all",
+        "plans"
+      ]
+    },
+    {
+      "charEnd": 1663,
+      "charStart": 1652,
+      "factId": "hz.web.3493be45b3b59c9e.fact.5",
+      "kind": "bullet",
+      "text": "wordpress",
+      "tokens": [
+        "wordpress"
+      ]
+    },
+    {
+      "charEnd": 1669,
+      "charStart": 1664,
+      "factId": "hz.web.3493be45b3b59c9e.fact.6",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1677,
+      "charStart": 1670,
+      "factId": "hz.web.3493be45b3b59c9e.fact.7",
+      "kind": "bullet",
+      "text": "theme",
+      "tokens": [
+        "theme"
+      ]
+    },
+    {
+      "charEnd": 1685,
+      "charStart": 1678,
+      "factId": "hz.web.3493be45b3b59c9e.fact.8",
+      "kind": "bullet",
+      "text": "start",
+      "tokens": [
+        "start"
+      ]
+    },
+    {
+      "charEnd": 1692,
+      "charStart": 1686,
+      "factId": "hz.web.3493be45b3b59c9e.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1702,
+      "charStart": 1693,
+      "factId": "hz.web.3493be45b3b59c9e.fact.10",
+      "kind": "bullet",
+      "text": "details",
+      "tokens": [
+        "details"
+      ]
+    },
+    {
+      "charEnd": 1712,
+      "charStart": 1703,
+      "factId": "hz.web.3493be45b3b59c9e.fact.11",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    },
+    {
+      "charEnd": 1719,
+      "charStart": 1713,
+      "factId": "hz.web.3493be45b3b59c9e.fact.12",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 59,
+      "charStart": 1,
+      "headingId": "hz.web.3493be45b3b59c9e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "WordPress.com: Everything You Need to Build Your Website"
+    },
+    {
+      "charEnd": 139,
+      "charStart": 129,
+      "headingId": "hz.web.3493be45b3b59c9e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1650,
+      "charStart": 1639,
+      "headingId": "hz.web.3493be45b3b59c9e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1731,
+      "charStart": 1721,
+      "headingId": "hz.web.3493be45b3b59c9e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3493be45b3b59c9e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4994,
+        "start": 0
+      }
+    ],
+    "hash": "f70572a122091d31ef69725ee802d37c70089fe1956a8ede0e2e17c1c7a577fa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.3493be45b3b59c9e.rule.1",
+      "text": "Flexible storage You’ll never run out of storage with WordPress.com’s plans.",
+      "tokens": [
+        "flexible",
+        "storage",
+        "ll",
+        "never",
+        "run",
+        "out",
+        "storage",
+        "wordpress",
+        "com",
+        "plans"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "WordPress.com: Everything You Need to Build Your Website Products Features Resources Plans & Pricing Log in Get started Menu WordPress Hosting WordPress for Agencies Become an Affiliate Domain Names AI Website Builder Website Builder Create a Blog Newsletter Professional Email Website Design Services Commerce WordPress Studio Enterprise WordPress Overview WordPress Themes WordPress Plugins WordPress Patterns Google Apps Support Center WordPress News Business Name Generator Logo Maker Discover New Posts Popular Tags Blog Search Close the navigation menu Get started Sign up Log in About Plans & Pricing Products WordPress Hosting WordPress for Agencies Become an Affiliate Domain Names AI Website Builder Website Builder Create a Blog Newsletter Professional Email Website Design Services Commerce WordPress Studio Enterprise WordPress Features Overview WordPress Themes WordPress Plugins WordPress Patterns Google Apps Resources Support Center WordPress News Business Name Generator Logo Maker Discover New Posts Popular Tags Blog Search Jetpack App Learn more 4.5 stars 2,000+ reviews WordPress for free Start simple, or take control of every detail to create a site, store, or blog that’s unmistakably yours.",
+      "Start free, upgrade from /month.",
+      "Create my site Host with the best When you create a site with WordPress.com, you get all of the power of lightning-fast, secure managed WordPress hosting."
+    ],
+    "medium": "Source: http://pixel.wp.com/",
+    "short": "Source: http://pixel.wp.com/",
+    "tokens": [
+      "wordpress",
+      "com",
+      "everything",
+      "need",
+      "build",
+      "your",
+      "website",
+      "source",
+      "http",
+      "pixel",
+      "wp",
+      "com",
+      "source",
+      "http",
+      "pixel",
+      "wp",
+      "com"
+    ]
+  },
+  "title": "WordPress.com: Everything You Need to Build Your Website"
+}

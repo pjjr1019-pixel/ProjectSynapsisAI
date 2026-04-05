@@ -1,0 +1,396 @@
+{
+  "aliases": [
+    {
+      "alias": "8919c39cc23e79b3",
+      "aliasId": "hz.web.8919c39cc23e79b3.alias.1",
+      "canonical": "stepsecurity | linkedin"
+    },
+    {
+      "alias": "stepsecurity linkedin",
+      "aliasId": "hz.web.8919c39cc23e79b3.alias.2",
+      "canonical": "stepsecurity | linkedin"
+    },
+    {
+      "alias": "web 8919c39cc23e79b3",
+      "aliasId": "hz.web.8919c39cc23e79b3.alias.3",
+      "canonical": "stepsecurity | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.8919c39cc23e79b3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8919c39cc23e79b3.entity.1",
+      "kind": "document",
+      "name": "StepSecurity | LinkedIn",
+      "tokens": [
+        "stepsecurity",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.8919c39cc23e79b3.entity.2",
+      "kind": "heading",
+      "name": "StepSecurity | LinkedIn",
+      "tokens": [
+        "stepsecurity",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.8919c39cc23e79b3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8919c39cc23e79b3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8919c39cc23e79b3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 83,
+      "charStart": 28,
+      "factId": "hz.web.8919c39cc23e79b3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/company/step-security/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "company",
+        "step",
+        "security"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 135,
+      "factId": "hz.web.8919c39cc23e79b3.fact.1",
+      "kind": "bullet",
+      "text": "StepSecurity | LinkedIn Skip to main content LinkedIn Top Content People Learning Jobs Games Sign in Join now StepSecurity Computer and Network Security Seattle, Washington 13,683 followers Prevent, Detect, and Respond to Software Supply Chain Attacks Follow View all 23 employees Report this company About us StepSecurity secures CI/CD at scale by enforcing runner-level network egress controls, providing secure, drop-in replacements for third-party actions, and ensuring only policy-compliant workflows run.",
+      "tokens": [
+        "stepsecurity",
+        "linkedin",
+        "skip",
+        "main",
+        "content",
+        "linkedin",
+        "top",
+        "content",
+        "people",
+        "learning",
+        "jobs",
+        "games",
+        "sign",
+        "join",
+        "now",
+        "stepsecurity",
+        "computer",
+        "network",
+        "security",
+        "seattle",
+        "washington",
+        "13",
+        "683",
+        "followers",
+        "prevent",
+        "detect",
+        "respond",
+        "software",
+        "supply",
+        "chain",
+        "attacks",
+        "follow",
+        "view",
+        "all",
+        "23",
+        "employees",
+        "report",
+        "company",
+        "about",
+        "us",
+        "stepsecurity",
+        "secures",
+        "ci",
+        "cd",
+        "scale",
+        "enforcing",
+        "runner",
+        "level",
+        "network",
+        "egress",
+        "controls",
+        "providing",
+        "secure",
+        "drop",
+        "replacements",
+        "third",
+        "party",
+        "actions",
+        "ensuring",
+        "only",
+        "policy",
+        "compliant",
+        "workflows",
+        "run"
+      ]
+    },
+    {
+      "charEnd": 869,
+      "charStart": 648,
+      "factId": "hz.web.8919c39cc23e79b3.fact.2",
+      "kind": "bullet",
+      "text": "Over 11,000 open-source projects, including those from Cybersecurity and Infrastructure Security Agency (CISA), Google, Microsoft, Datadog, Kubernetes, NodeJS, and Ruby, use StepSecurity to harden their CI/CD pipelines.",
+      "tokens": [
+        "over",
+        "11",
+        "000",
+        "open",
+        "source",
+        "projects",
+        "including",
+        "those",
+        "cybersecurity",
+        "infrastructure",
+        "security",
+        "agency",
+        "cisa",
+        "google",
+        "microsoft",
+        "datadog",
+        "kubernetes",
+        "nodejs",
+        "ruby",
+        "use",
+        "stepsecurity",
+        "harden",
+        "their",
+        "ci",
+        "cd",
+        "pipelines"
+      ]
+    },
+    {
+      "charEnd": 983,
+      "charStart": 870,
+      "factId": "hz.web.8919c39cc23e79b3.fact.3",
+      "kind": "bullet",
+      "text": "Our enterprise tier is currently deployed at customers in the crypto, healthcare, and cybersecurity industries.",
+      "tokens": [
+        "our",
+        "enterprise",
+        "tier",
+        "currently",
+        "deployed",
+        "customers",
+        "crypto",
+        "healthcare",
+        "cybersecurity",
+        "industries"
+      ]
+    },
+    {
+      "charEnd": 1067,
+      "charStart": 984,
+      "factId": "hz.web.8919c39cc23e79b3.fact.4",
+      "kind": "bullet",
+      "text": "The StepSecurity platform secures more than 18,000,000 CI/CD job runs every week.",
+      "tokens": [
+        "stepsecurity",
+        "platform",
+        "secures",
+        "more",
+        "than",
+        "18",
+        "000",
+        "000",
+        "ci",
+        "cd",
+        "job",
+        "runs",
+        "every",
+        "week"
+      ]
+    },
+    {
+      "charEnd": 1088,
+      "charStart": 1082,
+      "factId": "hz.web.8919c39cc23e79b3.fact.5",
+      "kind": "bullet",
+      "text": "jobs",
+      "tokens": [
+        "jobs"
+      ]
+    },
+    {
+      "charEnd": 1103,
+      "charStart": 1089,
+      "factId": "hz.web.8919c39cc23e79b3.fact.6",
+      "kind": "bullet",
+      "text": "stepsecurity",
+      "tokens": [
+        "stepsecurity"
+      ]
+    },
+    {
+      "charEnd": 1111,
+      "charStart": 1104,
+      "factId": "hz.web.8919c39cc23e79b3.fact.7",
+      "kind": "bullet",
+      "text": "trivy",
+      "tokens": [
+        "trivy"
+      ]
+    },
+    {
+      "charEnd": 1125,
+      "charStart": 1112,
+      "factId": "hz.web.8919c39cc23e79b3.fact.8",
+      "kind": "bullet",
+      "text": "compromised",
+      "tokens": [
+        "compromised"
+      ]
+    },
+    {
+      "charEnd": 1135,
+      "charStart": 1126,
+      "factId": "hz.web.8919c39cc23e79b3.fact.9",
+      "kind": "bullet",
+      "text": "secrets",
+      "tokens": [
+        "secrets"
+      ]
+    },
+    {
+      "charEnd": 1142,
+      "charStart": 1136,
+      "factId": "hz.web.8919c39cc23e79b3.fact.10",
+      "kind": "bullet",
+      "text": "open",
+      "tokens": [
+        "open"
+      ]
+    },
+    {
+      "charEnd": 1151,
+      "charStart": 1143,
+      "factId": "hz.web.8919c39cc23e79b3.fact.11",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    },
+    {
+      "charEnd": 1162,
+      "charStart": 1152,
+      "factId": "hz.web.8919c39cc23e79b3.fact.12",
+      "kind": "bullet",
+      "text": "security",
+      "tokens": [
+        "security"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.8919c39cc23e79b3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "StepSecurity | LinkedIn"
+    },
+    {
+      "charEnd": 133,
+      "charStart": 123,
+      "headingId": "hz.web.8919c39cc23e79b3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1080,
+      "charStart": 1069,
+      "headingId": "hz.web.8919c39cc23e79b3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1174,
+      "charStart": 1164,
+      "headingId": "hz.web.8919c39cc23e79b3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/8919c39cc23e79b3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4431,
+        "start": 0
+      }
+    ],
+    "hash": "4baf70c2b62aca3d6ae4f5d9f6f609093487e9fa4c069b1715f89ec57a56f597",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "StepSecurity | LinkedIn Skip to main content LinkedIn Top Content People Learning Jobs Games Sign in Join now StepSecurity Computer and Network Security Seattle, Washington 13,683 followers Prevent, Detect, and Respond to Software Supply Chain Attacks Follow View all 23 employees Report this company About us StepSecurity secures CI/CD at scale by enforcing runner-level network egress controls, providing secure, drop-in replacements for third-party actions, and ensuring only policy-compliant workflows run.",
+      "Over 11,000 open-source projects, including those from Cybersecurity and Infrastructure Security Agency (CISA), Google, Microsoft, Datadog, Kubernetes, NodeJS, and Ruby, use StepSecurity to harden their CI/CD pipelines.",
+      "Our enterprise tier is currently deployed at customers in the crypto, healthcare, and cybersecurity industries."
+    ],
+    "medium": "Source: https://www.linkedin.com/company/step-security/",
+    "short": "Source: https://www.linkedin.com/company/step-security/",
+    "tokens": [
+      "stepsecurity",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "company",
+      "step",
+      "security",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "company",
+      "step",
+      "security"
+    ]
+  },
+  "title": "StepSecurity | LinkedIn"
+}

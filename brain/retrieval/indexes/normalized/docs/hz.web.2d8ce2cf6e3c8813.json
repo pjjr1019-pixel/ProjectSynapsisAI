@@ -1,0 +1,467 @@
+{
+  "aliases": [
+    {
+      "alias": "2d8ce2cf6e3c8813",
+      "aliasId": "hz.web.2d8ce2cf6e3c8813.alias.1",
+      "canonical": "comments for wordpress.com developer resources"
+    },
+    {
+      "alias": "comments for wordpress.com developer resources",
+      "aliasId": "hz.web.2d8ce2cf6e3c8813.alias.2",
+      "canonical": "comments for wordpress.com developer resources"
+    },
+    {
+      "alias": "web 2d8ce2cf6e3c8813",
+      "aliasId": "hz.web.2d8ce2cf6e3c8813.alias.3",
+      "canonical": "comments for wordpress.com developer resources"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.52,
+  "docId": "hz.web.2d8ce2cf6e3c8813",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2d8ce2cf6e3c8813.entity.1",
+      "kind": "document",
+      "name": "Comments for WordPress.com Developer Resources",
+      "tokens": [
+        "comments",
+        "wordpress",
+        "com",
+        "developer",
+        "resources"
+      ]
+    },
+    {
+      "entityId": "hz.web.2d8ce2cf6e3c8813.entity.2",
+      "kind": "heading",
+      "name": "Comments for WordPress.com Developer Resources",
+      "tokens": [
+        "comments",
+        "wordpress",
+        "com",
+        "developer",
+        "resources"
+      ]
+    },
+    {
+      "entityId": "hz.web.2d8ce2cf6e3c8813.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2d8ce2cf6e3c8813.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2d8ce2cf6e3c8813.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 105,
+      "charStart": 51,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.1",
+      "kind": "summary",
+      "text": "Source: https://developer.wordpress.com/comments/feed/",
+      "tokens": [
+        "source",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "comments",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1434,
+      "charStart": 157,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title> Comments for WordPress.com Developer Resources </title> <atom:link href=\"https://developer.wordpress.com/comments/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://developer.wordpress.com</link> <description></description> <lastBuildDate>Tue, 24 Nov 2015 21:32:56 +0000</lastBuildDate> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>http://wordpress.com/</generator> <item> <title> Comment on paste-1447350254304 by corrientelatina </title> <link>https://developer.wordpress.com/?attachment_id=90055/#comment-7306</link> <dc:creator><![CDATA[corrientelatina]]></dc:creator> <pubDate>Tue, 24 Nov 2015 21:32:56 +0000</pubDate> <guid isPermaLink=\"false\">http://developer.files.wordpress.com/2015/11/paste-1447350254304.png#comment-7306</guid> <description><![CDATA[thank you for doing what you do.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "xmlns",
+        "georss",
+        "http",
+        "www",
+        "georss",
+        "org",
+        "georss",
+        "xmlns",
+        "geo",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2003",
+        "01",
+        "geo",
+        "wgs84_pos",
+        "xmlns",
+        "media",
+        "http",
+        "search",
+        "yahoo",
+        "com",
+        "mrss",
+        "channel",
+        "title",
+        "comments",
+        "wordpress",
+        "com",
+        "developer",
+        "resources",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "comments",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "link",
+        "description",
+        "description",
+        "lastbuilddate",
+        "tue",
+        "24",
+        "nov",
+        "2015",
+        "21",
+        "32",
+        "56",
+        "0000",
+        "lastbuilddate",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "generator",
+        "http",
+        "wordpress",
+        "com",
+        "generator",
+        "item",
+        "title",
+        "comment",
+        "paste",
+        "1447350254304",
+        "corrientelatina",
+        "title",
+        "link",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "attachment_id",
+        "90055",
+        "comment",
+        "7306",
+        "link",
+        "dc",
+        "creator",
+        "cdata",
+        "corrientelatina",
+        "dc",
+        "creator",
+        "pubdate",
+        "tue",
+        "24",
+        "nov",
+        "2015",
+        "21",
+        "32",
+        "56",
+        "0000",
+        "pubdate",
+        "guid",
+        "ispermalink",
+        "false",
+        "http",
+        "developer",
+        "files",
+        "wordpress",
+        "com",
+        "2015",
+        "11",
+        "paste",
+        "1447350254304",
+        "png",
+        "comment",
+        "7306",
+        "guid",
+        "description",
+        "cdata",
+        "thank",
+        "doing"
+      ]
+    },
+    {
+      "charEnd": 1548,
+      "charStart": 1435,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.2",
+      "kind": "bullet",
+      "text": "You make the web a better place!]]></description> <content:encoded><![CDATA[<p>thank you for doing what you do.",
+      "tokens": [
+        "make",
+        "web",
+        "better",
+        "place",
+        "description",
+        "content",
+        "encoded",
+        "cdata",
+        "thank",
+        "doing"
+      ]
+    },
+    {
+      "charEnd": 1635,
+      "charStart": 1549,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.3",
+      "kind": "bullet",
+      "text": "You make the web a better place!</p> ]]></content:encoded> </item> </channel> </rss>",
+      "tokens": [
+        "make",
+        "web",
+        "better",
+        "place",
+        "content",
+        "encoded",
+        "item",
+        "channel",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 1656,
+      "charStart": 1650,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.4",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 1662,
+      "charStart": 1657,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.5",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1670,
+      "charStart": 1663,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.6",
+      "kind": "bullet",
+      "text": "xmlns",
+      "tokens": [
+        "xmlns"
+      ]
+    },
+    {
+      "charEnd": 1676,
+      "charStart": 1671,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.7",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1688,
+      "charStart": 1677,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.8",
+      "kind": "bullet",
+      "text": "wordpress",
+      "tokens": [
+        "wordpress"
+      ]
+    },
+    {
+      "charEnd": 1700,
+      "charStart": 1689,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.9",
+      "kind": "bullet",
+      "text": "developer",
+      "tokens": [
+        "developer"
+      ]
+    },
+    {
+      "charEnd": 1707,
+      "charStart": 1701,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.10",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 1713,
+      "charStart": 1708,
+      "factId": "hz.web.2d8ce2cf6e3c8813.fact.11",
+      "kind": "bullet",
+      "text": "rss",
+      "tokens": [
+        "rss"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 49,
+      "charStart": 1,
+      "headingId": "hz.web.2d8ce2cf6e3c8813.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Comments for WordPress.com Developer Resources"
+    },
+    {
+      "charEnd": 155,
+      "charStart": 145,
+      "headingId": "hz.web.2d8ce2cf6e3c8813.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1648,
+      "charStart": 1637,
+      "headingId": "hz.web.2d8ce2cf6e3c8813.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1725,
+      "charStart": 1715,
+      "headingId": "hz.web.2d8ce2cf6e3c8813.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/2d8ce2cf6e3c8813.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3476,
+        "start": 0
+      }
+    ],
+    "hash": "19f5655e3f1d105e2031a058af6fd8234a45e95609fb04a6ffb2c3572af9b12b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title> Comments for WordPress.com Developer Resources </title> <atom:link href=\"https://developer.wordpress.com/comments/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://developer.wordpress.com</link> <description></description> <lastBuildDate>Tue, 24 Nov 2015 21:32:56 +0000</lastBuildDate> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>http://wordpress.com/</generator> <item> <title> Comment on paste-1447350254304 by corrientelatina </title> <link>https://developer.wordpress.com/?attachment_id=90055/#comment-7306</link> <dc:creator><![CDATA[corrientelatina]]></dc:creator> <pubDate>Tue, 24 Nov 2015 21:32:56 +0000</pubDate> <guid isPermaLink=\"false\">http://developer.files.wordpress.com/2015/11/paste-1447350254304.png#comment-7306</guid> <description><![CDATA[thank you for doing what you do.",
+      "You make the web a better place!]]></description> <content:encoded><![CDATA[<p>thank you for doing what you do.",
+      "You make the web a better place!</p> ]]></content:encoded> </item> </channel> </rss>"
+    ],
+    "medium": "Source: https://developer.wordpress.com/comments/feed/",
+    "short": "Source: https://developer.wordpress.com/comments/feed/",
+    "tokens": [
+      "comments",
+      "wordpress",
+      "com",
+      "developer",
+      "resources",
+      "source",
+      "https",
+      "developer",
+      "wordpress",
+      "com",
+      "comments",
+      "feed",
+      "source",
+      "https",
+      "developer",
+      "wordpress",
+      "com",
+      "comments",
+      "feed"
+    ]
+  },
+  "title": "Comments for WordPress.com Developer Resources"
+}

@@ -1,0 +1,324 @@
+{
+  "aliases": [
+    {
+      "alias": "bbcef58899741499",
+      "aliasId": "hz.web.bbcef58899741499.alias.1",
+      "canonical": "contact us"
+    },
+    {
+      "alias": "contact us",
+      "aliasId": "hz.web.bbcef58899741499.alias.2",
+      "canonical": "contact us"
+    },
+    {
+      "alias": "web bbcef58899741499",
+      "aliasId": "hz.web.bbcef58899741499.alias.3",
+      "canonical": "contact us"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.68,
+  "docId": "hz.web.bbcef58899741499",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bbcef58899741499.entity.1",
+      "kind": "document",
+      "name": "Contact Us",
+      "tokens": [
+        "contact",
+        "us"
+      ]
+    },
+    {
+      "entityId": "hz.web.bbcef58899741499.entity.2",
+      "kind": "heading",
+      "name": "Contact Us",
+      "tokens": [
+        "contact",
+        "us"
+      ]
+    },
+    {
+      "entityId": "hz.web.bbcef58899741499.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.bbcef58899741499.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.bbcef58899741499.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 15,
+      "factId": "hz.web.bbcef58899741499.fact.1",
+      "kind": "summary",
+      "text": "Source: https://m.youtube.com/t/contact_us/",
+      "tokens": [
+        "source",
+        "https",
+        "youtube",
+        "com",
+        "contact_us"
+      ]
+    },
+    {
+      "charEnd": 236,
+      "charStart": 110,
+      "factId": "hz.web.bbcef58899741499.fact.1",
+      "kind": "bullet",
+      "text": "Contact Us About YouTube Community Guidelines Contact Us Careers Contact Us If you need help, please visit our Help Center .",
+      "tokens": [
+        "contact",
+        "us",
+        "about",
+        "youtube",
+        "community",
+        "guidelines",
+        "contact",
+        "us",
+        "careers",
+        "contact",
+        "us",
+        "if",
+        "need",
+        "help",
+        "please",
+        "visit",
+        "our",
+        "help",
+        "center"
+      ]
+    },
+    {
+      "charEnd": 377,
+      "charStart": 237,
+      "factId": "hz.web.bbcef58899741499.fact.2",
+      "kind": "bullet",
+      "text": "There you'll find answers to many common questions about creating an account, watching and uploading videos, and maintaining your channel.",
+      "tokens": [
+        "there",
+        "ll",
+        "find",
+        "answers",
+        "many",
+        "common",
+        "questions",
+        "about",
+        "creating",
+        "account",
+        "watching",
+        "uploading",
+        "videos",
+        "maintaining",
+        "your",
+        "channel"
+      ]
+    },
+    {
+      "charEnd": 495,
+      "charStart": 378,
+      "factId": "hz.web.bbcef58899741499.fact.3",
+      "kind": "bullet",
+      "text": "If you're unable to find what you're looking for in the Help Center, we suggest visiting our Community Help Forum .",
+      "tokens": [
+        "if",
+        "re",
+        "unable",
+        "find",
+        "re",
+        "looking",
+        "help",
+        "center",
+        "suggest",
+        "visiting",
+        "our",
+        "community",
+        "help",
+        "forum"
+      ]
+    },
+    {
+      "charEnd": 517,
+      "charStart": 496,
+      "factId": "hz.web.bbcef58899741499.fact.4",
+      "kind": "bullet",
+      "text": "Experiencing a bug?",
+      "tokens": [
+        "experiencing",
+        "bug"
+      ]
+    },
+    {
+      "charEnd": 537,
+      "charStart": 532,
+      "factId": "hz.web.bbcef58899741499.fact.5",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 546,
+      "charStart": 538,
+      "factId": "hz.web.bbcef58899741499.fact.6",
+      "kind": "bullet",
+      "text": "please",
+      "tokens": [
+        "please"
+      ]
+    },
+    {
+      "charEnd": 556,
+      "charStart": 547,
+      "factId": "hz.web.bbcef58899741499.fact.7",
+      "kind": "bullet",
+      "text": "youtube",
+      "tokens": [
+        "youtube"
+      ]
+    },
+    {
+      "charEnd": 566,
+      "charStart": 557,
+      "factId": "hz.web.bbcef58899741499.fact.8",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 571,
+      "charStart": 567,
+      "factId": "hz.web.bbcef58899741499.fact.9",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 572,
+      "factId": "hz.web.bbcef58899741499.fact.10",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 590,
+      "charStart": 582,
+      "factId": "hz.web.bbcef58899741499.fact.11",
+      "kind": "bullet",
+      "text": "issues",
+      "tokens": [
+        "issues"
+      ]
+    },
+    {
+      "charEnd": 595,
+      "charStart": 591,
+      "factId": "hz.web.bbcef58899741499.fact.12",
+      "kind": "bullet",
+      "text": "re",
+      "tokens": [
+        "re"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.bbcef58899741499.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Contact Us"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.bbcef58899741499.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 530,
+      "charStart": 519,
+      "headingId": "hz.web.bbcef58899741499.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 607,
+      "charStart": 597,
+      "headingId": "hz.web.bbcef58899741499.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/bbcef58899741499.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2970,
+        "start": 0
+      }
+    ],
+    "hash": "ca55740af2d1560c329660bfaf4a4821442653a18a894451224dae352e775ca3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Contact Us About YouTube Community Guidelines Contact Us Careers Contact Us If you need help, please visit our Help Center .",
+      "There you'll find answers to many common questions about creating an account, watching and uploading videos, and maintaining your channel.",
+      "If you're unable to find what you're looking for in the Help Center, we suggest visiting our Community Help Forum ."
+    ],
+    "medium": "Source: https://m.youtube.com/t/contact_us/",
+    "short": "Source: https://m.youtube.com/t/contact_us/",
+    "tokens": [
+      "contact",
+      "us",
+      "source",
+      "https",
+      "youtube",
+      "com",
+      "contact_us",
+      "source",
+      "https",
+      "youtube",
+      "com",
+      "contact_us"
+    ]
+  },
+  "title": "Contact Us"
+}

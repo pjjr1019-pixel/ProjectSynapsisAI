@@ -1,0 +1,328 @@
+{
+  "aliases": [
+    {
+      "alias": "a30905d5fc56992f",
+      "aliasId": "hz.web.a30905d5fc56992f.alias.1",
+      "canonical": "play.google.com"
+    },
+    {
+      "alias": "play.google.com",
+      "aliasId": "hz.web.a30905d5fc56992f.alias.2",
+      "canonical": "play.google.com"
+    },
+    {
+      "alias": "web a30905d5fc56992f",
+      "aliasId": "hz.web.a30905d5fc56992f.alias.3",
+      "canonical": "play.google.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.a30905d5fc56992f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a30905d5fc56992f.entity.1",
+      "kind": "document",
+      "name": "play.google.com",
+      "tokens": [
+        "play",
+        "google",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a30905d5fc56992f.entity.2",
+      "kind": "heading",
+      "name": "play.google.com",
+      "tokens": [
+        "play",
+        "google",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a30905d5fc56992f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a30905d5fc56992f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a30905d5fc56992f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 66,
+      "charStart": 20,
+      "factId": "hz.web.a30905d5fc56992f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://play.google.com/opensearch.xml",
+      "tokens": [
+        "source",
+        "https",
+        "play",
+        "google",
+        "com",
+        "opensearch",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 708,
+      "charStart": 118,
+      "factId": "hz.web.a30905d5fc56992f.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Google Play</ShortName> <Description>Search for content on Google Play</Description> <Tags>google play apps movies tv books games</Tags> <Image height=\"16\" type=\"image/vnd.microsoft.icon\" width=\"16\">https://www.gstatic.com/android/market_images/web/favicon_v2.ico</Image> <Url template=\"https://play.google.com/store/search?q={searchTerms}&amp;utm_source=opensearch\" type=\"text/html\"></Url> <Query role=\"example\" searchTerms=\"chickens\"></Query> </OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "shortname",
+        "google",
+        "play",
+        "shortname",
+        "description",
+        "search",
+        "content",
+        "google",
+        "play",
+        "description",
+        "tags",
+        "google",
+        "play",
+        "apps",
+        "movies",
+        "tv",
+        "books",
+        "games",
+        "tags",
+        "image",
+        "height",
+        "16",
+        "type",
+        "image",
+        "vnd",
+        "microsoft",
+        "icon",
+        "width",
+        "16",
+        "https",
+        "www",
+        "gstatic",
+        "com",
+        "android",
+        "market_images",
+        "web",
+        "favicon_v2",
+        "ico",
+        "image",
+        "url",
+        "template",
+        "https",
+        "play",
+        "google",
+        "com",
+        "store",
+        "search",
+        "searchterms",
+        "amp",
+        "utm_source",
+        "opensearch",
+        "type",
+        "text",
+        "html",
+        "url",
+        "query",
+        "role",
+        "example",
+        "searchterms",
+        "chickens",
+        "query",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 731,
+      "charStart": 723,
+      "factId": "hz.web.a30905d5fc56992f.fact.2",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "charEnd": 738,
+      "charStart": 732,
+      "factId": "hz.web.a30905d5fc56992f.fact.3",
+      "kind": "bullet",
+      "text": "play",
+      "tokens": [
+        "play"
+      ]
+    },
+    {
+      "charEnd": 744,
+      "charStart": 739,
+      "factId": "hz.web.a30905d5fc56992f.fact.4",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 752,
+      "charStart": 745,
+      "factId": "hz.web.a30905d5fc56992f.fact.5",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 757,
+      "charStart": 753,
+      "factId": "hz.web.a30905d5fc56992f.fact.6",
+      "kind": "bullet",
+      "text": "16",
+      "tokens": [
+        "16"
+      ]
+    },
+    {
+      "charEnd": 771,
+      "charStart": 758,
+      "factId": "hz.web.a30905d5fc56992f.fact.7",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 772,
+      "factId": "hz.web.a30905d5fc56992f.fact.8",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 792,
+      "charStart": 780,
+      "factId": "hz.web.a30905d5fc56992f.fact.9",
+      "kind": "bullet",
+      "text": "opensearch",
+      "tokens": [
+        "opensearch"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.a30905d5fc56992f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "play.google.com"
+    },
+    {
+      "charEnd": 116,
+      "charStart": 106,
+      "headingId": "hz.web.a30905d5fc56992f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 721,
+      "charStart": 710,
+      "headingId": "hz.web.a30905d5fc56992f.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 804,
+      "charStart": 794,
+      "headingId": "hz.web.a30905d5fc56992f.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/a30905d5fc56992f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1632,
+        "start": 0
+      }
+    ],
+    "hash": "727c121697cf92521bcd2660b62c0ae2f283ba394f2149e69956593af4e77e59",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Google Play</ShortName> <Description>Search for content on Google Play</Description> <Tags>google play apps movies tv books games</Tags> <Image height=\"16\" type=\"image/vnd.microsoft.icon\" width=\"16\">https://www.gstatic.com/android/market_images/web/favicon_v2.ico</Image> <Url template=\"https://play.google.com/store/search?q={searchTerms}&amp;utm_source=opensearch\" type=\"text/html\"></Url> <Query role=\"example\" searchTerms=\"chickens\"></Query> </OpenSearchDescription>",
+      "google",
+      "play"
+    ],
+    "medium": "Source: https://play.google.com/opensearch.xml",
+    "short": "Source: https://play.google.com/opensearch.xml",
+    "tokens": [
+      "play",
+      "google",
+      "com",
+      "source",
+      "https",
+      "play",
+      "google",
+      "com",
+      "opensearch",
+      "xml",
+      "source",
+      "https",
+      "play",
+      "google",
+      "com",
+      "opensearch",
+      "xml"
+    ]
+  },
+  "title": "play.google.com"
+}

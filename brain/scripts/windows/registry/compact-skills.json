@@ -1,0 +1,5918 @@
+[
+  {
+    "skill_id": "settings.accounts.access-work-or-school",
+    "aliases": [
+      "access work or school",
+      "access work or school accounts",
+      "access work or school settings",
+      "go to access work or school",
+      "open access work or school",
+      "open access work or school accounts",
+      "open access work or school settings",
+      "show access work or school"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.email-and-app-accounts",
+    "aliases": [
+      "email & app accounts",
+      "email & app accounts accounts",
+      "email & app accounts settings",
+      "email app accounts",
+      "go to email & app accounts",
+      "open email & app accounts",
+      "open email & app accounts accounts",
+      "open email & app accounts settings",
+      "show email & app accounts"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.family-and-other-people",
+    "aliases": [
+      "family & other people",
+      "family & other people accounts",
+      "family & other people settings",
+      "family other people",
+      "go to family & other people",
+      "open family & other people",
+      "open family & other people accounts",
+      "open family & other people settings",
+      "show family & other people"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.repair-token",
+    "aliases": [
+      "go to repair token",
+      "open repair token",
+      "open repair token accounts",
+      "open repair token settings",
+      "repair token",
+      "repair token accounts",
+      "repair token settings",
+      "show repair token"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.set-up-a-kiosk",
+    "aliases": [
+      "go to set up a kiosk",
+      "open set up a kiosk",
+      "open set up a kiosk accounts",
+      "open set up a kiosk settings",
+      "set up a kiosk",
+      "set up a kiosk accounts",
+      "set up a kiosk settings",
+      "show set up a kiosk"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.sign-in-options",
+    "aliases": [
+      "go to sign-in options",
+      "open sign-in options",
+      "open sign-in options accounts",
+      "open sign-in options settings",
+      "show sign-in options",
+      "sign-in options",
+      "sign-in options accounts",
+      "sign-in options settings"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.dynamic-lock",
+    "aliases": [
+      "dynamic lock",
+      "dynamic lock accounts",
+      "dynamic lock settings",
+      "go to dynamic lock",
+      "open dynamic lock",
+      "open dynamic lock accounts",
+      "open dynamic lock settings",
+      "show dynamic lock"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.sync-your-settings",
+    "aliases": [
+      "go to sync your settings",
+      "open sync your settings",
+      "open sync your settings accounts",
+      "open sync your settings settings",
+      "show sync your settings",
+      "sync your settings",
+      "sync your settings accounts",
+      "sync your settings settings"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.backup",
+    "aliases": [
+      "backup",
+      "backup accounts",
+      "backup settings",
+      "go to backup",
+      "open backup",
+      "open backup accounts",
+      "open backup settings",
+      "show backup"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.windows-anywhere",
+    "aliases": [
+      "anywhere",
+      "go to windows anywhere",
+      "open windows anywhere",
+      "open windows anywhere accounts",
+      "open windows anywhere settings",
+      "show windows anywhere",
+      "windows anywhere",
+      "windows anywhere accounts",
+      "windows anywhere settings"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.windows-hello-face-setup",
+    "aliases": [
+      "go to windows hello face setup",
+      "hello face setup",
+      "open windows hello face setup",
+      "open windows hello face setup accounts",
+      "open windows hello face setup settings",
+      "show windows hello face setup",
+      "windows hello face setup",
+      "windows hello face setup accounts",
+      "windows hello face setup settings"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.windows-hello-fingerprint-setup",
+    "aliases": [
+      "go to windows hello fingerprint setup",
+      "hello fingerprint setup",
+      "open windows hello fingerprint setup",
+      "open windows hello fingerprint setup accounts",
+      "open windows hello fingerprint setup settings",
+      "show windows hello fingerprint setup",
+      "windows hello fingerprint setup",
+      "windows hello fingerprint setup accounts",
+      "windows hello fingerprint setup settings"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accounts.your-info",
+    "aliases": [
+      "go to your info",
+      "open your info",
+      "open your info accounts",
+      "open your info settings",
+      "show your info",
+      "your info",
+      "your info accounts",
+      "your info settings"
+    ],
+    "category": "settings.accounts",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.apps-and-features",
+    "aliases": [
+      "apps & features",
+      "apps & features apps",
+      "apps & features settings",
+      "apps features",
+      "go to apps & features",
+      "open apps & features",
+      "open apps & features apps",
+      "open apps & features settings",
+      "show apps & features"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.apps-for-websites",
+    "aliases": [
+      "apps for websites",
+      "apps for websites apps",
+      "apps for websites settings",
+      "go to apps for websites",
+      "open apps for websites",
+      "open apps for websites apps",
+      "open apps for websites settings",
+      "show apps for websites"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.default-apps",
+    "aliases": [
+      "default apps",
+      "default apps apps",
+      "default apps settings",
+      "go to default apps",
+      "open default apps",
+      "open default apps apps",
+      "open default apps settings",
+      "show default apps"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.default-browser-settings",
+    "aliases": [
+      "default browser settings",
+      "default browser settings apps",
+      "default browser settings settings",
+      "go to default browser settings",
+      "open default browser settings",
+      "open default browser settings apps",
+      "open default browser settings settings",
+      "show default browser settings"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.manage-optional-features",
+    "aliases": [
+      "go to manage optional features",
+      "manage optional features",
+      "manage optional features apps",
+      "manage optional features settings",
+      "open manage optional features",
+      "open manage optional features apps",
+      "open manage optional features settings",
+      "show manage optional features"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.offline-maps",
+    "aliases": [
+      "go to offline maps",
+      "offline maps",
+      "offline maps apps",
+      "offline maps settings",
+      "open offline maps",
+      "open offline maps apps",
+      "open offline maps settings",
+      "show offline maps"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.download-maps",
+    "aliases": [
+      "download maps",
+      "download maps apps",
+      "download maps settings",
+      "go to download maps",
+      "open download maps",
+      "open download maps apps",
+      "open download maps settings",
+      "show download maps"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.startup-apps",
+    "aliases": [
+      "go to startup apps",
+      "open startup apps",
+      "open startup apps apps",
+      "open startup apps settings",
+      "show startup apps",
+      "startup apps",
+      "startup apps apps",
+      "startup apps settings"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.apps.video-playback",
+    "aliases": [
+      "go to video playback",
+      "open video playback",
+      "open video playback apps",
+      "open video playback settings",
+      "show video playback",
+      "video playback",
+      "video playback apps",
+      "video playback settings"
+    ],
+    "category": "settings.apps",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.control-center.control-center",
+    "aliases": [
+      "control center",
+      "control center control center",
+      "control center settings",
+      "go to control center",
+      "open control center",
+      "open control center control center",
+      "open control center settings",
+      "show control center"
+    ],
+    "category": "settings.control-center",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.autoplay",
+    "aliases": [
+      "autoplay",
+      "autoplay devices",
+      "autoplay settings",
+      "go to autoplay",
+      "open autoplay",
+      "open autoplay devices",
+      "open autoplay settings",
+      "show autoplay"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.bluetooth",
+    "aliases": [
+      "bluetooth",
+      "bluetooth devices",
+      "bluetooth settings",
+      "go to bluetooth",
+      "open bluetooth",
+      "open bluetooth devices",
+      "open bluetooth settings",
+      "show bluetooth"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.connected-devices",
+    "aliases": [
+      "connected devices",
+      "connected devices devices",
+      "connected devices settings",
+      "go to connected devices",
+      "open connected devices",
+      "open connected devices devices",
+      "open connected devices settings",
+      "show connected devices"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.camera-settings",
+    "aliases": [
+      "camera settings",
+      "camera settings devices",
+      "camera settings settings",
+      "go to camera settings",
+      "open camera settings",
+      "open camera settings devices",
+      "open camera settings settings",
+      "show camera settings"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.mouse-and-touchpad",
+    "aliases": [
+      "go to mouse & touchpad",
+      "mouse & touchpad",
+      "mouse & touchpad devices",
+      "mouse & touchpad settings",
+      "mouse touchpad",
+      "open mouse & touchpad",
+      "open mouse & touchpad devices",
+      "open mouse & touchpad settings",
+      "show mouse & touchpad"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.pen-and-windows-ink",
+    "aliases": [
+      "go to pen & windows ink",
+      "open pen & windows ink",
+      "open pen & windows ink devices",
+      "open pen & windows ink settings",
+      "pen & windows ink",
+      "pen & windows ink devices",
+      "pen & windows ink settings",
+      "pen ink",
+      "show pen & windows ink"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.printers-and-scanners",
+    "aliases": [
+      "go to printers & scanners",
+      "open printers & scanners",
+      "open printers & scanners devices",
+      "open printers & scanners settings",
+      "printers & scanners",
+      "printers & scanners devices",
+      "printers & scanners settings",
+      "printers scanners",
+      "show printers & scanners"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.touch",
+    "aliases": [
+      "go to touch",
+      "open touch",
+      "open touch devices",
+      "open touch settings",
+      "show touch",
+      "touch",
+      "touch devices",
+      "touch settings"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.touchpad",
+    "aliases": [
+      "go to touchpad",
+      "open touchpad",
+      "open touchpad devices",
+      "open touchpad settings",
+      "show touchpad",
+      "touchpad",
+      "touchpad devices",
+      "touchpad settings"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.hardware-keyboard-text-suggestions",
+    "aliases": [
+      "go to hardware keyboard text suggestions",
+      "hardware keyboard text suggestions",
+      "hardware keyboard text suggestions devices",
+      "hardware keyboard text suggestions settings",
+      "open hardware keyboard text suggestions",
+      "open hardware keyboard text suggestions devices",
+      "open hardware keyboard text suggestions settings",
+      "show hardware keyboard text suggestions"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.typing",
+    "aliases": [
+      "go to typing",
+      "open typing",
+      "open typing devices",
+      "open typing settings",
+      "show typing",
+      "typing",
+      "typing devices",
+      "typing settings"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.usb",
+    "aliases": [
+      "go to usb",
+      "open usb",
+      "open usb devices",
+      "open usb settings",
+      "show usb",
+      "usb",
+      "usb devices",
+      "usb settings"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.wheel",
+    "aliases": [
+      "go to wheel",
+      "open wheel",
+      "open wheel devices",
+      "open wheel settings",
+      "show wheel",
+      "wheel",
+      "wheel devices",
+      "wheel settings"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.devices.phone-link-devices",
+    "aliases": [
+      "go to phone link devices",
+      "open phone link devices",
+      "open phone link devices devices",
+      "open phone link devices settings",
+      "phone link devices",
+      "phone link devices devices",
+      "phone link devices settings",
+      "show phone link devices"
+    ],
+    "category": "settings.devices",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.accessibility-audio",
+    "aliases": [
+      "accessibility audio",
+      "accessibility audio accessibility",
+      "accessibility audio settings",
+      "audio",
+      "go to accessibility audio",
+      "open accessibility audio",
+      "open accessibility audio accessibility",
+      "open accessibility audio settings",
+      "show accessibility audio"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.closed-captions",
+    "aliases": [
+      "closed captions",
+      "closed captions accessibility",
+      "closed captions settings",
+      "go to closed captions",
+      "open closed captions",
+      "open closed captions accessibility",
+      "open closed captions settings",
+      "show closed captions"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.color-filters",
+    "aliases": [
+      "color filters",
+      "color filters accessibility",
+      "color filters settings",
+      "go to color filters",
+      "open color filters",
+      "open color filters accessibility",
+      "open color filters settings",
+      "show color filters"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.adaptive-color-filter-help",
+    "aliases": [
+      "adaptive color filter help",
+      "adaptive color filter help accessibility",
+      "adaptive color filter help settings",
+      "go to adaptive color filter help",
+      "open adaptive color filter help",
+      "open adaptive color filter help accessibility",
+      "open adaptive color filter help settings",
+      "show adaptive color filter help"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.blue-light-color-filter-help",
+    "aliases": [
+      "blue light color filter help",
+      "blue light color filter help accessibility",
+      "blue light color filter help settings",
+      "go to blue light color filter help",
+      "open blue light color filter help",
+      "open blue light color filter help accessibility",
+      "open blue light color filter help settings",
+      "show blue light color filter help"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.accessibility-display",
+    "aliases": [
+      "accessibility display",
+      "accessibility display accessibility",
+      "accessibility display settings",
+      "display",
+      "go to accessibility display",
+      "open accessibility display",
+      "open accessibility display accessibility",
+      "open accessibility display settings",
+      "show accessibility display"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.eye-control",
+    "aliases": [
+      "eye control",
+      "eye control accessibility",
+      "eye control settings",
+      "go to eye control",
+      "open eye control",
+      "open eye control accessibility",
+      "open eye control settings",
+      "show eye control"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.hearing-devices",
+    "aliases": [
+      "go to hearing devices",
+      "hearing devices",
+      "hearing devices accessibility",
+      "hearing devices settings",
+      "open hearing devices",
+      "open hearing devices accessibility",
+      "open hearing devices settings",
+      "show hearing devices"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.high-contrast",
+    "aliases": [
+      "go to high contrast",
+      "high contrast",
+      "high contrast accessibility",
+      "high contrast settings",
+      "open high contrast",
+      "open high contrast accessibility",
+      "open high contrast settings",
+      "show high contrast"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.accessibility-keyboard",
+    "aliases": [
+      "accessibility keyboard",
+      "accessibility keyboard accessibility",
+      "accessibility keyboard settings",
+      "go to accessibility keyboard",
+      "keyboard",
+      "open accessibility keyboard",
+      "open accessibility keyboard accessibility",
+      "open accessibility keyboard settings",
+      "show accessibility keyboard"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.magnifier",
+    "aliases": [
+      "go to magnifier",
+      "magnifier",
+      "magnifier accessibility",
+      "magnifier settings",
+      "open magnifier",
+      "open magnifier accessibility",
+      "open magnifier settings",
+      "show magnifier"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.accessibility-mouse",
+    "aliases": [
+      "accessibility mouse",
+      "accessibility mouse accessibility",
+      "accessibility mouse settings",
+      "go to accessibility mouse",
+      "mouse",
+      "open accessibility mouse",
+      "open accessibility mouse accessibility",
+      "open accessibility mouse settings",
+      "show accessibility mouse"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.mouse-pointer-and-touch",
+    "aliases": [
+      "go to mouse pointer & touch",
+      "mouse pointer & touch",
+      "mouse pointer & touch accessibility",
+      "mouse pointer & touch settings",
+      "mouse pointer touch",
+      "open mouse pointer & touch",
+      "open mouse pointer & touch accessibility",
+      "open mouse pointer & touch settings",
+      "show mouse pointer & touch"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.narrator",
+    "aliases": [
+      "go to narrator",
+      "narrator",
+      "narrator accessibility",
+      "narrator settings",
+      "open narrator",
+      "open narrator accessibility",
+      "open narrator settings",
+      "show narrator"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.narrator-auto-start",
+    "aliases": [
+      "go to narrator auto start",
+      "narrator auto start",
+      "narrator auto start accessibility",
+      "narrator auto start settings",
+      "open narrator auto start",
+      "open narrator auto start accessibility",
+      "open narrator auto start settings",
+      "show narrator auto start"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.speech-recognition-accessibility",
+    "aliases": [
+      "go to speech recognition accessibility",
+      "open speech recognition accessibility",
+      "open speech recognition accessibility accessibility",
+      "open speech recognition accessibility settings",
+      "show speech recognition accessibility",
+      "speech recognition accessibility",
+      "speech recognition accessibility accessibility",
+      "speech recognition accessibility settings"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.text-cursor",
+    "aliases": [
+      "go to text cursor",
+      "open text cursor",
+      "open text cursor accessibility",
+      "open text cursor settings",
+      "show text cursor",
+      "text cursor",
+      "text cursor accessibility",
+      "text cursor settings"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.accessibility.visual-effects",
+    "aliases": [
+      "go to visual effects",
+      "open visual effects",
+      "open visual effects accessibility",
+      "open visual effects settings",
+      "show visual effects",
+      "visual effects",
+      "visual effects accessibility",
+      "visual effects settings"
+    ],
+    "category": "settings.accessibility",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.extras",
+    "aliases": [
+      "extras",
+      "extras misc",
+      "extras settings",
+      "go to extras",
+      "open extras",
+      "open extras misc",
+      "open extras settings",
+      "show extras"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.family-group",
+    "aliases": [
+      "family group",
+      "family group misc",
+      "family group settings",
+      "go to family group",
+      "open family group",
+      "open family group misc",
+      "open family group settings",
+      "show family group"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.game-bar",
+    "aliases": [
+      "game bar",
+      "game bar misc",
+      "game bar settings",
+      "go to game bar",
+      "open game bar",
+      "open game bar misc",
+      "open game bar settings",
+      "show game bar"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.game-dvr",
+    "aliases": [
+      "game dvr",
+      "game dvr misc",
+      "game dvr settings",
+      "go to game dvr",
+      "open game dvr",
+      "open game dvr misc",
+      "open game dvr settings",
+      "show game dvr"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.game-mode",
+    "aliases": [
+      "game mode",
+      "game mode misc",
+      "game mode settings",
+      "go to game mode",
+      "open game mode",
+      "open game mode misc",
+      "open game mode settings",
+      "show game mode"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.quiet-moments-for-fullscreen-gaming",
+    "aliases": [
+      "go to quiet moments for fullscreen gaming",
+      "open quiet moments for fullscreen gaming",
+      "open quiet moments for fullscreen gaming misc",
+      "open quiet moments for fullscreen gaming settings",
+      "quiet moments for fullscreen gaming",
+      "quiet moments for fullscreen gaming misc",
+      "quiet moments for fullscreen gaming settings",
+      "show quiet moments for fullscreen gaming"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.holographic-audio-and-speech",
+    "aliases": [
+      "go to holographic audio and speech",
+      "holographic audio and speech",
+      "holographic audio and speech misc",
+      "holographic audio and speech settings",
+      "holographic audio speech",
+      "open holographic audio and speech",
+      "open holographic audio and speech misc",
+      "open holographic audio and speech settings",
+      "show holographic audio and speech"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.holographic-environment-privacy",
+    "aliases": [
+      "go to holographic environment privacy",
+      "holographic environment privacy",
+      "holographic environment privacy misc",
+      "holographic environment privacy settings",
+      "open holographic environment privacy",
+      "open holographic environment privacy misc",
+      "open holographic environment privacy settings",
+      "show holographic environment privacy"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.holographic-headset-display",
+    "aliases": [
+      "go to holographic headset display",
+      "holographic headset display",
+      "holographic headset display misc",
+      "holographic headset display settings",
+      "open holographic headset display",
+      "open holographic headset display misc",
+      "open holographic headset display settings",
+      "show holographic headset display"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.holographic-management-uninstall",
+    "aliases": [
+      "go to holographic management uninstall",
+      "holographic management uninstall",
+      "holographic management uninstall misc",
+      "holographic management uninstall settings",
+      "open holographic management uninstall",
+      "open holographic management uninstall misc",
+      "open holographic management uninstall settings",
+      "show holographic management uninstall"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.misc.holographic-startup-and-desktop",
+    "aliases": [
+      "go to holographic startup and desktop",
+      "holographic startup and desktop",
+      "holographic startup and desktop misc",
+      "holographic startup and desktop settings",
+      "holographic startup desktop",
+      "open holographic startup and desktop",
+      "open holographic startup and desktop misc",
+      "open holographic startup and desktop settings",
+      "show holographic startup and desktop"
+    ],
+    "category": "settings.misc",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.network-status",
+    "aliases": [
+      "go to network status",
+      "network status",
+      "network status network",
+      "network status settings",
+      "open network status",
+      "open network status network",
+      "open network status settings",
+      "show network status"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.advanced-network-settings",
+    "aliases": [
+      "advanced network settings",
+      "advanced network settings network",
+      "advanced network settings settings",
+      "go to advanced network settings",
+      "open advanced network settings",
+      "open advanced network settings network",
+      "open advanced network settings settings",
+      "show advanced network settings"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.airplane-mode",
+    "aliases": [
+      "airplane mode",
+      "airplane mode network",
+      "airplane mode settings",
+      "go to airplane mode",
+      "open airplane mode",
+      "open airplane mode network",
+      "open airplane mode settings",
+      "show airplane mode"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.proximity-sharing",
+    "aliases": [
+      "go to proximity sharing",
+      "open proximity sharing",
+      "open proximity sharing network",
+      "open proximity sharing settings",
+      "proximity sharing",
+      "proximity sharing network",
+      "proximity sharing settings",
+      "show proximity sharing"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.cellular-and-sim",
+    "aliases": [
+      "cellular & sim",
+      "cellular & sim network",
+      "cellular & sim settings",
+      "cellular sim",
+      "go to cellular & sim",
+      "open cellular & sim",
+      "open cellular & sim network",
+      "open cellular & sim settings",
+      "show cellular & sim"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.dial-up",
+    "aliases": [
+      "dial-up",
+      "dial-up network",
+      "dial-up settings",
+      "go to dial-up",
+      "open dial-up",
+      "open dial-up network",
+      "open dial-up settings",
+      "show dial-up"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.directaccess",
+    "aliases": [
+      "directaccess",
+      "directaccess network",
+      "directaccess settings",
+      "go to directaccess",
+      "open directaccess",
+      "open directaccess network",
+      "open directaccess settings",
+      "show directaccess"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.ethernet",
+    "aliases": [
+      "ethernet",
+      "ethernet network",
+      "ethernet settings",
+      "go to ethernet",
+      "open ethernet",
+      "open ethernet network",
+      "open ethernet settings",
+      "show ethernet"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.manage-known-networks",
+    "aliases": [
+      "go to manage known networks",
+      "manage known networks",
+      "manage known networks network",
+      "manage known networks settings",
+      "open manage known networks",
+      "open manage known networks network",
+      "open manage known networks settings",
+      "show manage known networks"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.mobile-hotspot",
+    "aliases": [
+      "go to mobile hotspot",
+      "mobile hotspot",
+      "mobile hotspot network",
+      "mobile hotspot settings",
+      "open mobile hotspot",
+      "open mobile hotspot network",
+      "open mobile hotspot settings",
+      "show mobile hotspot"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.proxy",
+    "aliases": [
+      "go to proxy",
+      "open proxy",
+      "open proxy network",
+      "open proxy settings",
+      "proxy",
+      "proxy network",
+      "proxy settings",
+      "show proxy"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.vpn",
+    "aliases": [
+      "go to vpn",
+      "open vpn",
+      "open vpn network",
+      "open vpn settings",
+      "show vpn",
+      "vpn",
+      "vpn network",
+      "vpn settings"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.wi-fi",
+    "aliases": [
+      "go to wi-fi",
+      "open wi-fi",
+      "open wi-fi network",
+      "open wi-fi settings",
+      "show wi-fi",
+      "wi-fi",
+      "wi-fi network",
+      "wi-fi settings"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.network.wi-fi-provisioning",
+    "aliases": [
+      "go to wi-fi provisioning",
+      "open wi-fi provisioning",
+      "open wi-fi provisioning network",
+      "open wi-fi provisioning settings",
+      "show wi-fi provisioning",
+      "wi-fi provisioning",
+      "wi-fi provisioning network",
+      "wi-fi provisioning settings"
+    ],
+    "category": "settings.network",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.background",
+    "aliases": [
+      "background",
+      "background personalization",
+      "background settings",
+      "go to background",
+      "open background",
+      "open background personalization",
+      "open background settings",
+      "show background"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.choose-start-folders",
+    "aliases": [
+      "choose start folders",
+      "choose start folders personalization",
+      "choose start folders settings",
+      "go to choose start folders",
+      "open choose start folders",
+      "open choose start folders personalization",
+      "open choose start folders settings",
+      "show choose start folders"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.personalization-colors",
+    "aliases": [
+      "go to personalization colors",
+      "open personalization colors",
+      "open personalization colors personalization",
+      "open personalization colors settings",
+      "personalization colors",
+      "personalization colors personalization",
+      "personalization colors settings",
+      "show personalization colors"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.colors",
+    "aliases": [
+      "colors",
+      "colors personalization",
+      "colors settings",
+      "go to colors",
+      "open colors",
+      "open colors personalization",
+      "open colors settings",
+      "show colors"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.copilot-key-personalization",
+    "aliases": [
+      "copilot key personalization",
+      "copilot key personalization personalization",
+      "copilot key personalization settings",
+      "go to copilot key personalization",
+      "open copilot key personalization",
+      "open copilot key personalization personalization",
+      "open copilot key personalization settings",
+      "show copilot key personalization"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.dynamic-lighting",
+    "aliases": [
+      "dynamic lighting",
+      "dynamic lighting personalization",
+      "dynamic lighting settings",
+      "go to dynamic lighting",
+      "open dynamic lighting",
+      "open dynamic lighting personalization",
+      "open dynamic lighting settings",
+      "show dynamic lighting"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.fonts",
+    "aliases": [
+      "fonts",
+      "fonts personalization",
+      "fonts settings",
+      "go to fonts",
+      "open fonts",
+      "open fonts personalization",
+      "open fonts settings",
+      "show fonts"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.lock-screen",
+    "aliases": [
+      "go to lock screen",
+      "lock screen",
+      "lock screen personalization",
+      "lock screen settings",
+      "open lock screen",
+      "open lock screen personalization",
+      "open lock screen settings",
+      "show lock screen"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.personalization",
+    "aliases": [
+      "go to personalization",
+      "open personalization",
+      "open personalization personalization",
+      "open personalization settings",
+      "personalization",
+      "personalization personalization",
+      "personalization settings",
+      "show personalization"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.start-personalization",
+    "aliases": [
+      "go to start personalization",
+      "open start personalization",
+      "open start personalization personalization",
+      "open start personalization settings",
+      "show start personalization",
+      "start personalization",
+      "start personalization personalization",
+      "start personalization settings"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.taskbar",
+    "aliases": [
+      "go to taskbar",
+      "open taskbar",
+      "open taskbar personalization",
+      "open taskbar settings",
+      "show taskbar",
+      "taskbar",
+      "taskbar personalization",
+      "taskbar settings"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.text-input-personalization",
+    "aliases": [
+      "go to text input personalization",
+      "open text input personalization",
+      "open text input personalization personalization",
+      "open text input personalization settings",
+      "show text input personalization",
+      "text input personalization",
+      "text input personalization personalization",
+      "text input personalization settings"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.touch-keyboard",
+    "aliases": [
+      "go to touch keyboard",
+      "open touch keyboard",
+      "open touch keyboard personalization",
+      "open touch keyboard settings",
+      "show touch keyboard",
+      "touch keyboard",
+      "touch keyboard personalization",
+      "touch keyboard settings"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.personalization.themes",
+    "aliases": [
+      "go to themes",
+      "open themes",
+      "open themes personalization",
+      "open themes settings",
+      "show themes",
+      "themes",
+      "themes personalization",
+      "themes settings"
+    ],
+    "category": "settings.personalization",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.phone.phone-link",
+    "aliases": [
+      "go to phone link",
+      "open phone link",
+      "open phone link phone",
+      "open phone link settings",
+      "phone link",
+      "phone link phone",
+      "phone link settings",
+      "show phone link"
+    ],
+    "category": "settings.phone",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.phone.add-phone",
+    "aliases": [
+      "add phone",
+      "add phone phone",
+      "add phone settings",
+      "go to add phone",
+      "open add phone",
+      "open add phone phone",
+      "open add phone settings",
+      "show add phone"
+    ],
+    "category": "settings.phone",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.phone.open-phone-link-app",
+    "aliases": [
+      "go to open phone link app",
+      "open open phone link app",
+      "open open phone link app phone",
+      "open open phone link app settings",
+      "open phone link app",
+      "open phone link app phone",
+      "open phone link app settings",
+      "show open phone link app"
+    ],
+    "category": "settings.phone",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.phone.device-usage",
+    "aliases": [
+      "device usage",
+      "device usage phone",
+      "device usage settings",
+      "go to device usage",
+      "open device usage",
+      "open device usage phone",
+      "open device usage settings",
+      "show device usage"
+    ],
+    "category": "settings.phone",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.privacy",
+    "aliases": [
+      "go to privacy",
+      "open privacy",
+      "open privacy privacy",
+      "open privacy settings",
+      "privacy",
+      "privacy privacy",
+      "privacy settings",
+      "show privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.privacy-general",
+    "aliases": [
+      "general",
+      "go to privacy general",
+      "open privacy general",
+      "open privacy general privacy",
+      "open privacy general settings",
+      "privacy general",
+      "privacy general privacy",
+      "privacy general settings",
+      "show privacy general"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.account-info-privacy",
+    "aliases": [
+      "account info privacy",
+      "account info privacy privacy",
+      "account info privacy settings",
+      "go to account info privacy",
+      "open account info privacy",
+      "open account info privacy privacy",
+      "open account info privacy settings",
+      "show account info privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.activity-history",
+    "aliases": [
+      "activity history",
+      "activity history privacy",
+      "activity history settings",
+      "go to activity history",
+      "open activity history",
+      "open activity history privacy",
+      "open activity history settings",
+      "show activity history"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.app-diagnostics",
+    "aliases": [
+      "app diagnostics",
+      "app diagnostics privacy",
+      "app diagnostics settings",
+      "go to app diagnostics",
+      "open app diagnostics",
+      "open app diagnostics privacy",
+      "open app diagnostics settings",
+      "show app diagnostics"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.automatic-file-downloads",
+    "aliases": [
+      "automatic file downloads",
+      "automatic file downloads privacy",
+      "automatic file downloads settings",
+      "go to automatic file downloads",
+      "open automatic file downloads",
+      "open automatic file downloads privacy",
+      "open automatic file downloads settings",
+      "show automatic file downloads"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.background-spatial-perception",
+    "aliases": [
+      "background spatial perception",
+      "background spatial perception privacy",
+      "background spatial perception settings",
+      "go to background spatial perception",
+      "open background spatial perception",
+      "open background spatial perception privacy",
+      "open background spatial perception settings",
+      "show background spatial perception"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.calendar-privacy",
+    "aliases": [
+      "calendar privacy",
+      "calendar privacy privacy",
+      "calendar privacy settings",
+      "go to calendar privacy",
+      "open calendar privacy",
+      "open calendar privacy privacy",
+      "open calendar privacy settings",
+      "show calendar privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.call-history-privacy",
+    "aliases": [
+      "call history privacy",
+      "call history privacy privacy",
+      "call history privacy settings",
+      "go to call history privacy",
+      "open call history privacy",
+      "open call history privacy privacy",
+      "open call history privacy settings",
+      "show call history privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.camera-privacy",
+    "aliases": [
+      "camera privacy",
+      "camera privacy privacy",
+      "camera privacy settings",
+      "go to camera privacy",
+      "open camera privacy",
+      "open camera privacy privacy",
+      "open camera privacy settings",
+      "show camera privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.contacts-privacy",
+    "aliases": [
+      "contacts privacy",
+      "contacts privacy privacy",
+      "contacts privacy settings",
+      "go to contacts privacy",
+      "open contacts privacy",
+      "open contacts privacy privacy",
+      "open contacts privacy settings",
+      "show contacts privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.documents-privacy",
+    "aliases": [
+      "documents privacy",
+      "documents privacy privacy",
+      "documents privacy settings",
+      "go to documents privacy",
+      "open documents privacy",
+      "open documents privacy privacy",
+      "open documents privacy settings",
+      "show documents privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.downloads-folder-privacy",
+    "aliases": [
+      "downloads folder privacy",
+      "downloads folder privacy privacy",
+      "downloads folder privacy settings",
+      "go to downloads folder privacy",
+      "open downloads folder privacy",
+      "open downloads folder privacy privacy",
+      "open downloads folder privacy settings",
+      "show downloads folder privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.email-privacy",
+    "aliases": [
+      "email privacy",
+      "email privacy privacy",
+      "email privacy settings",
+      "go to email privacy",
+      "open email privacy",
+      "open email privacy privacy",
+      "open email privacy settings",
+      "show email privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.eye-tracker-privacy",
+    "aliases": [
+      "eye tracker privacy",
+      "eye tracker privacy privacy",
+      "eye tracker privacy settings",
+      "go to eye tracker privacy",
+      "open eye tracker privacy",
+      "open eye tracker privacy privacy",
+      "open eye tracker privacy settings",
+      "show eye tracker privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.feedback-and-diagnostics",
+    "aliases": [
+      "feedback & diagnostics",
+      "feedback & diagnostics privacy",
+      "feedback & diagnostics settings",
+      "feedback diagnostics",
+      "go to feedback & diagnostics",
+      "open feedback & diagnostics",
+      "open feedback & diagnostics privacy",
+      "open feedback & diagnostics settings",
+      "show feedback & diagnostics"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.file-system-privacy",
+    "aliases": [
+      "file system privacy",
+      "file system privacy privacy",
+      "file system privacy settings",
+      "go to file system privacy",
+      "open file system privacy",
+      "open file system privacy privacy",
+      "open file system privacy settings",
+      "show file system privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.graphics-capture-privacy",
+    "aliases": [
+      "go to graphics capture privacy",
+      "graphics capture privacy",
+      "graphics capture privacy privacy",
+      "graphics capture privacy settings",
+      "open graphics capture privacy",
+      "open graphics capture privacy privacy",
+      "open graphics capture privacy settings",
+      "show graphics capture privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.borderless-graphics-capture-privacy",
+    "aliases": [
+      "borderless graphics capture privacy",
+      "borderless graphics capture privacy privacy",
+      "borderless graphics capture privacy settings",
+      "go to borderless graphics capture privacy",
+      "open borderless graphics capture privacy",
+      "open borderless graphics capture privacy privacy",
+      "open borderless graphics capture privacy settings",
+      "show borderless graphics capture privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.inking-and-typing-privacy",
+    "aliases": [
+      "go to inking & typing privacy",
+      "inking & typing privacy",
+      "inking & typing privacy privacy",
+      "inking & typing privacy settings",
+      "inking typing privacy",
+      "open inking & typing privacy",
+      "open inking & typing privacy privacy",
+      "open inking & typing privacy settings",
+      "show inking & typing privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.location-privacy",
+    "aliases": [
+      "go to location privacy",
+      "location privacy",
+      "location privacy privacy",
+      "location privacy settings",
+      "open location privacy",
+      "open location privacy privacy",
+      "open location privacy settings",
+      "show location privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.messaging-privacy",
+    "aliases": [
+      "go to messaging privacy",
+      "messaging privacy",
+      "messaging privacy privacy",
+      "messaging privacy settings",
+      "open messaging privacy",
+      "open messaging privacy privacy",
+      "open messaging privacy settings",
+      "show messaging privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.microphone-privacy",
+    "aliases": [
+      "go to microphone privacy",
+      "microphone privacy",
+      "microphone privacy privacy",
+      "microphone privacy settings",
+      "open microphone privacy",
+      "open microphone privacy privacy",
+      "open microphone privacy settings",
+      "show microphone privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.motion-privacy",
+    "aliases": [
+      "go to motion privacy",
+      "motion privacy",
+      "motion privacy privacy",
+      "motion privacy settings",
+      "open motion privacy",
+      "open motion privacy privacy",
+      "open motion privacy settings",
+      "show motion privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.music-library-privacy",
+    "aliases": [
+      "go to music library privacy",
+      "music library privacy",
+      "music library privacy privacy",
+      "music library privacy settings",
+      "open music library privacy",
+      "open music library privacy privacy",
+      "open music library privacy settings",
+      "show music library privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.notifications-privacy",
+    "aliases": [
+      "go to notifications privacy",
+      "notifications privacy",
+      "notifications privacy privacy",
+      "notifications privacy settings",
+      "open notifications privacy",
+      "open notifications privacy privacy",
+      "open notifications privacy settings",
+      "show notifications privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.other-devices-privacy",
+    "aliases": [
+      "go to other devices privacy",
+      "open other devices privacy",
+      "open other devices privacy privacy",
+      "open other devices privacy settings",
+      "other devices privacy",
+      "other devices privacy privacy",
+      "other devices privacy settings",
+      "show other devices privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.phone-calls-privacy",
+    "aliases": [
+      "go to phone calls privacy",
+      "open phone calls privacy",
+      "open phone calls privacy privacy",
+      "open phone calls privacy settings",
+      "phone calls privacy",
+      "phone calls privacy privacy",
+      "phone calls privacy settings",
+      "show phone calls privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.pictures-privacy",
+    "aliases": [
+      "go to pictures privacy",
+      "open pictures privacy",
+      "open pictures privacy privacy",
+      "open pictures privacy settings",
+      "pictures privacy",
+      "pictures privacy privacy",
+      "pictures privacy settings",
+      "show pictures privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.radios-privacy",
+    "aliases": [
+      "go to radios privacy",
+      "open radios privacy",
+      "open radios privacy privacy",
+      "open radios privacy settings",
+      "radios privacy",
+      "radios privacy privacy",
+      "radios privacy settings",
+      "show radios privacy"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.speech-privacy",
+    "aliases": [
+      "go to speech privacy",
+      "open speech privacy",
+      "open speech privacy privacy",
+      "open speech privacy settings",
+      "show speech privacy",
+      "speech privacy",
+      "speech privacy privacy",
+      "speech privacy settings"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.tasks-privacy",
+    "aliases": [
+      "go to tasks privacy",
+      "open tasks privacy",
+      "open tasks privacy privacy",
+      "open tasks privacy settings",
+      "show tasks privacy",
+      "tasks privacy",
+      "tasks privacy privacy",
+      "tasks privacy settings"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.videos-privacy",
+    "aliases": [
+      "go to videos privacy",
+      "open videos privacy",
+      "open videos privacy privacy",
+      "open videos privacy settings",
+      "show videos privacy",
+      "videos privacy",
+      "videos privacy privacy",
+      "videos privacy settings"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.privacy.voice-activation-privacy",
+    "aliases": [
+      "go to voice activation privacy",
+      "open voice activation privacy",
+      "open voice activation privacy privacy",
+      "open voice activation privacy settings",
+      "show voice activation privacy",
+      "voice activation privacy",
+      "voice activation privacy privacy",
+      "voice activation privacy settings"
+    ],
+    "category": "settings.privacy",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.search.search",
+    "aliases": [
+      "go to search",
+      "open search",
+      "open search search",
+      "open search settings",
+      "search",
+      "search search",
+      "search settings",
+      "show search"
+    ],
+    "category": "settings.search",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.search.search-more-details",
+    "aliases": [
+      "go to search more details",
+      "open search more details",
+      "open search more details search",
+      "open search more details settings",
+      "search more details",
+      "search more details search",
+      "search more details settings",
+      "show search more details"
+    ],
+    "category": "settings.search",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.search.search-permissions",
+    "aliases": [
+      "go to search permissions",
+      "open search permissions",
+      "open search permissions search",
+      "open search permissions settings",
+      "search permissions",
+      "search permissions search",
+      "search permissions settings",
+      "show search permissions"
+    ],
+    "category": "settings.search",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.sound.volume-mixer",
+    "aliases": [
+      "go to volume mixer",
+      "open volume mixer",
+      "open volume mixer settings",
+      "open volume mixer sound",
+      "show volume mixer",
+      "volume mixer",
+      "volume mixer settings",
+      "volume mixer sound"
+    ],
+    "category": "settings.sound",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.sound.sound",
+    "aliases": [
+      "go to sound",
+      "open sound",
+      "open sound settings",
+      "open sound sound",
+      "show sound",
+      "sound",
+      "sound settings",
+      "sound sound"
+    ],
+    "category": "settings.sound",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.sound.sound-devices",
+    "aliases": [
+      "go to sound devices",
+      "open sound devices",
+      "open sound devices settings",
+      "open sound devices sound",
+      "show sound devices",
+      "sound devices",
+      "sound devices settings",
+      "sound devices sound"
+    ],
+    "category": "settings.sound",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.sound.default-microphone-properties",
+    "aliases": [
+      "default microphone properties",
+      "default microphone properties settings",
+      "default microphone properties sound",
+      "go to default microphone properties",
+      "open default microphone properties",
+      "open default microphone properties settings",
+      "open default microphone properties sound",
+      "show default microphone properties"
+    ],
+    "category": "settings.sound",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.sound.default-audio-output-properties",
+    "aliases": [
+      "default audio output properties",
+      "default audio output properties settings",
+      "default audio output properties sound",
+      "go to default audio output properties",
+      "open default audio output properties",
+      "open default audio output properties settings",
+      "open default audio output properties sound",
+      "show default audio output properties"
+    ],
+    "category": "settings.sound",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.about",
+    "aliases": [
+      "about",
+      "about settings",
+      "about system",
+      "go to about",
+      "open about",
+      "open about settings",
+      "open about system",
+      "show about"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.advanced-display-settings",
+    "aliases": [
+      "advanced display settings",
+      "advanced display settings settings",
+      "advanced display settings system",
+      "go to advanced display settings",
+      "open advanced display settings",
+      "open advanced display settings settings",
+      "open advanced display settings system",
+      "show advanced display settings"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.battery-saver",
+    "aliases": [
+      "battery saver",
+      "battery saver settings",
+      "battery saver system",
+      "go to battery saver",
+      "open battery saver",
+      "open battery saver settings",
+      "open battery saver system",
+      "show battery saver"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.battery-saver-settings",
+    "aliases": [
+      "battery saver settings",
+      "battery saver settings settings",
+      "battery saver settings system",
+      "go to battery saver settings",
+      "open battery saver settings",
+      "open battery saver settings settings",
+      "open battery saver settings system",
+      "show battery saver settings"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.battery-usage",
+    "aliases": [
+      "battery usage",
+      "battery usage settings",
+      "battery usage system",
+      "go to battery usage",
+      "open battery usage",
+      "open battery usage settings",
+      "open battery usage system",
+      "show battery usage"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.clipboard",
+    "aliases": [
+      "clipboard",
+      "clipboard settings",
+      "clipboard system",
+      "go to clipboard",
+      "open clipboard",
+      "open clipboard settings",
+      "open clipboard system",
+      "show clipboard"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.default-save-locations",
+    "aliases": [
+      "default save locations",
+      "default save locations settings",
+      "default save locations system",
+      "go to default save locations",
+      "open default save locations",
+      "open default save locations settings",
+      "open default save locations system",
+      "show default save locations"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.display",
+    "aliases": [
+      "display",
+      "display settings",
+      "display system",
+      "go to display",
+      "open display",
+      "open display settings",
+      "open display system",
+      "show display"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.screen-rotation",
+    "aliases": [
+      "go to screen rotation",
+      "open screen rotation",
+      "open screen rotation settings",
+      "open screen rotation system",
+      "screen rotation",
+      "screen rotation settings",
+      "screen rotation system",
+      "show screen rotation"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.display-duplication-quiet-mode",
+    "aliases": [
+      "display duplication quiet mode",
+      "display duplication quiet mode settings",
+      "display duplication quiet mode system",
+      "go to display duplication quiet mode",
+      "open display duplication quiet mode",
+      "open display duplication quiet mode settings",
+      "open display duplication quiet mode system",
+      "show display duplication quiet mode"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.scheduled-quiet-hours",
+    "aliases": [
+      "go to scheduled quiet hours",
+      "open scheduled quiet hours",
+      "open scheduled quiet hours settings",
+      "open scheduled quiet hours system",
+      "scheduled quiet hours",
+      "scheduled quiet hours settings",
+      "scheduled quiet hours system",
+      "show scheduled quiet hours"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.device-encryption",
+    "aliases": [
+      "device encryption",
+      "device encryption settings",
+      "device encryption system",
+      "go to device encryption",
+      "open device encryption",
+      "open device encryption settings",
+      "open device encryption system",
+      "show device encryption"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.energy-recommendations",
+    "aliases": [
+      "energy recommendations",
+      "energy recommendations settings",
+      "energy recommendations system",
+      "go to energy recommendations",
+      "open energy recommendations",
+      "open energy recommendations settings",
+      "open energy recommendations system",
+      "show energy recommendations"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.focus-assist",
+    "aliases": [
+      "focus assist",
+      "focus assist settings",
+      "focus assist system",
+      "go to focus assist",
+      "open focus assist",
+      "open focus assist settings",
+      "open focus assist system",
+      "show focus assist"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.graphics-settings",
+    "aliases": [
+      "go to graphics settings",
+      "graphics settings",
+      "graphics settings settings",
+      "graphics settings system",
+      "open graphics settings",
+      "open graphics settings settings",
+      "open graphics settings system",
+      "show graphics settings"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.graphics-default-settings",
+    "aliases": [
+      "go to graphics default settings",
+      "graphics default settings",
+      "graphics default settings settings",
+      "graphics default settings system",
+      "open graphics default settings",
+      "open graphics default settings settings",
+      "open graphics default settings system",
+      "show graphics default settings"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.multitasking",
+    "aliases": [
+      "go to multitasking",
+      "multitasking",
+      "multitasking settings",
+      "multitasking system",
+      "open multitasking",
+      "open multitasking settings",
+      "open multitasking system",
+      "show multitasking"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.snap-groups-multitasking-update",
+    "aliases": [
+      "go to snap groups / multitasking update",
+      "open snap groups / multitasking update",
+      "open snap groups / multitasking update settings",
+      "open snap groups / multitasking update system",
+      "show snap groups / multitasking update",
+      "snap groups / multitasking update",
+      "snap groups / multitasking update settings",
+      "snap groups / multitasking update system"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.night-light",
+    "aliases": [
+      "go to night light",
+      "night light",
+      "night light settings",
+      "night light system",
+      "open night light",
+      "open night light settings",
+      "open night light system",
+      "show night light"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.projecting-to-this-pc",
+    "aliases": [
+      "go to projecting to this pc",
+      "open projecting to this pc",
+      "open projecting to this pc settings",
+      "open projecting to this pc system",
+      "projecting to this pc",
+      "projecting to this pc settings",
+      "projecting to this pc system",
+      "show projecting to this pc"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.shared-experiences",
+    "aliases": [
+      "go to shared experiences",
+      "open shared experiences",
+      "open shared experiences settings",
+      "open shared experiences system",
+      "shared experiences",
+      "shared experiences settings",
+      "shared experiences system",
+      "show shared experiences"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.notifications",
+    "aliases": [
+      "go to notifications",
+      "notifications",
+      "notifications settings",
+      "notifications system",
+      "open notifications",
+      "open notifications settings",
+      "open notifications system",
+      "show notifications"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.remote-desktop",
+    "aliases": [
+      "go to remote desktop",
+      "open remote desktop",
+      "open remote desktop settings",
+      "open remote desktop system",
+      "remote desktop",
+      "remote desktop settings",
+      "remote desktop system",
+      "show remote desktop"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.power-and-sleep",
+    "aliases": [
+      "go to power & sleep",
+      "open power & sleep",
+      "open power & sleep settings",
+      "open power & sleep system",
+      "power & sleep",
+      "power & sleep settings",
+      "power & sleep system",
+      "power sleep",
+      "show power & sleep"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.presence-sensing",
+    "aliases": [
+      "go to presence sensing",
+      "open presence sensing",
+      "open presence sensing settings",
+      "open presence sensing system",
+      "presence sensing",
+      "presence sensing settings",
+      "presence sensing system",
+      "show presence sensing"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.storage",
+    "aliases": [
+      "go to storage",
+      "open storage",
+      "open storage settings",
+      "open storage system",
+      "show storage",
+      "storage",
+      "storage settings",
+      "storage system"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.storage-sense",
+    "aliases": [
+      "go to storage sense",
+      "open storage sense",
+      "open storage sense settings",
+      "open storage sense system",
+      "show storage sense",
+      "storage sense",
+      "storage sense settings",
+      "storage sense system"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.storage-recommendations",
+    "aliases": [
+      "go to storage recommendations",
+      "open storage recommendations",
+      "open storage recommendations settings",
+      "open storage recommendations system",
+      "show storage recommendations",
+      "storage recommendations",
+      "storage recommendations settings",
+      "storage recommendations system"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.system.disks-and-volumes",
+    "aliases": [
+      "disks & volumes",
+      "disks & volumes settings",
+      "disks & volumes system",
+      "disks volumes",
+      "go to disks & volumes",
+      "open disks & volumes",
+      "open disks & volumes settings",
+      "open disks & volumes system",
+      "show disks & volumes"
+    ],
+    "category": "settings.system",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.time-language.date-and-time",
+    "aliases": [
+      "date & time",
+      "date & time settings",
+      "date & time time language",
+      "date time",
+      "go to date & time",
+      "open date & time",
+      "open date & time settings",
+      "open date & time time language",
+      "show date & time"
+    ],
+    "category": "settings.time-language",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.time-language.region-formatting",
+    "aliases": [
+      "go to region formatting",
+      "open region formatting",
+      "open region formatting settings",
+      "open region formatting time language",
+      "region formatting",
+      "region formatting settings",
+      "region formatting time language",
+      "show region formatting"
+    ],
+    "category": "settings.time-language",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.time-language.keyboard",
+    "aliases": [
+      "go to keyboard",
+      "keyboard",
+      "keyboard settings",
+      "keyboard time language",
+      "open keyboard",
+      "open keyboard settings",
+      "open keyboard time language",
+      "show keyboard"
+    ],
+    "category": "settings.time-language",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.time-language.advanced-keyboard",
+    "aliases": [
+      "advanced keyboard",
+      "advanced keyboard settings",
+      "advanced keyboard time language",
+      "go to advanced keyboard",
+      "open advanced keyboard",
+      "open advanced keyboard settings",
+      "open advanced keyboard time language",
+      "show advanced keyboard"
+    ],
+    "category": "settings.time-language",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.time-language.region-and-language",
+    "aliases": [
+      "go to region & language",
+      "open region & language",
+      "open region & language settings",
+      "open region & language time language",
+      "region & language",
+      "region & language settings",
+      "region & language time language",
+      "region language",
+      "show region & language"
+    ],
+    "category": "settings.time-language",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.time-language.speech",
+    "aliases": [
+      "go to speech",
+      "open speech",
+      "open speech settings",
+      "open speech time language",
+      "show speech",
+      "speech",
+      "speech settings",
+      "speech time language"
+    ],
+    "category": "settings.time-language",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.activation",
+    "aliases": [
+      "activation",
+      "activation settings",
+      "activation update security",
+      "go to activation",
+      "open activation",
+      "open activation settings",
+      "open activation update security",
+      "show activation"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.delivery-optimization",
+    "aliases": [
+      "delivery optimization",
+      "delivery optimization settings",
+      "delivery optimization update security",
+      "go to delivery optimization",
+      "open delivery optimization",
+      "open delivery optimization settings",
+      "open delivery optimization update security",
+      "show delivery optimization"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.delivery-optimization-activity",
+    "aliases": [
+      "delivery optimization activity",
+      "delivery optimization activity settings",
+      "delivery optimization activity update security",
+      "go to delivery optimization activity",
+      "open delivery optimization activity",
+      "open delivery optimization activity settings",
+      "open delivery optimization activity update security",
+      "show delivery optimization activity"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.delivery-optimization-advanced",
+    "aliases": [
+      "delivery optimization advanced",
+      "delivery optimization advanced settings",
+      "delivery optimization advanced update security",
+      "go to delivery optimization advanced",
+      "open delivery optimization advanced",
+      "open delivery optimization advanced settings",
+      "open delivery optimization advanced update security",
+      "show delivery optimization advanced"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.find-my-device",
+    "aliases": [
+      "find my device",
+      "find my device settings",
+      "find my device update security",
+      "go to find my device",
+      "open find my device",
+      "open find my device settings",
+      "open find my device update security",
+      "show find my device"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.for-developers",
+    "aliases": [
+      "for developers",
+      "for developers settings",
+      "for developers update security",
+      "go to for developers",
+      "open for developers",
+      "open for developers settings",
+      "open for developers update security",
+      "show for developers"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.recovery",
+    "aliases": [
+      "go to recovery",
+      "open recovery",
+      "open recovery settings",
+      "open recovery update security",
+      "recovery",
+      "recovery settings",
+      "recovery update security",
+      "show recovery"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.security-key-enrollment",
+    "aliases": [
+      "go to security key enrollment",
+      "open security key enrollment",
+      "open security key enrollment settings",
+      "open security key enrollment update security",
+      "security key enrollment",
+      "security key enrollment settings",
+      "security key enrollment update security",
+      "show security key enrollment"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.troubleshoot",
+    "aliases": [
+      "go to troubleshoot",
+      "open troubleshoot",
+      "open troubleshoot settings",
+      "open troubleshoot update security",
+      "show troubleshoot",
+      "troubleshoot",
+      "troubleshoot settings",
+      "troubleshoot update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-security",
+    "aliases": [
+      "go to windows security",
+      "open windows security",
+      "open windows security settings",
+      "open windows security update security",
+      "security",
+      "show windows security",
+      "windows security",
+      "windows security settings",
+      "windows security update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-insider-program",
+    "aliases": [
+      "go to windows insider program",
+      "insider program",
+      "open windows insider program",
+      "open windows insider program settings",
+      "open windows insider program update security",
+      "show windows insider program",
+      "windows insider program",
+      "windows insider program settings",
+      "windows insider program update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-insider-opt-in",
+    "aliases": [
+      "go to windows insider opt-in",
+      "insider opt-in",
+      "open windows insider opt-in",
+      "open windows insider opt-in settings",
+      "open windows insider opt-in update security",
+      "show windows insider opt-in",
+      "windows insider opt-in",
+      "windows insider opt-in settings",
+      "windows insider opt-in update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update",
+    "aliases": [
+      "go to windows update",
+      "open windows update",
+      "open windows update settings",
+      "open windows update update security",
+      "show windows update",
+      "update",
+      "windows update",
+      "windows update settings",
+      "windows update update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update-action",
+    "aliases": [
+      "go to windows update action",
+      "open windows update action",
+      "open windows update action settings",
+      "open windows update action update security",
+      "show windows update action",
+      "update action",
+      "windows update action",
+      "windows update action settings",
+      "windows update action update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update-active-hours",
+    "aliases": [
+      "go to windows update active hours",
+      "open windows update active hours",
+      "open windows update active hours settings",
+      "open windows update active hours update security",
+      "show windows update active hours",
+      "update active hours",
+      "windows update active hours",
+      "windows update active hours settings",
+      "windows update active hours update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update-advanced-options",
+    "aliases": [
+      "go to windows update advanced options",
+      "open windows update advanced options",
+      "open windows update advanced options settings",
+      "open windows update advanced options update security",
+      "show windows update advanced options",
+      "update advanced options",
+      "windows update advanced options",
+      "windows update advanced options settings",
+      "windows update advanced options update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update-optional-updates",
+    "aliases": [
+      "go to windows update optional updates",
+      "open windows update optional updates",
+      "open windows update optional updates settings",
+      "open windows update optional updates update security",
+      "show windows update optional updates",
+      "update optional updates",
+      "windows update optional updates",
+      "windows update optional updates settings",
+      "windows update optional updates update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update-restart-options",
+    "aliases": [
+      "go to windows update restart options",
+      "open windows update restart options",
+      "open windows update restart options settings",
+      "open windows update restart options update security",
+      "show windows update restart options",
+      "update restart options",
+      "windows update restart options",
+      "windows update restart options settings",
+      "windows update restart options update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update-seeker-on-demand",
+    "aliases": [
+      "go to windows update seeker on demand",
+      "open windows update seeker on demand",
+      "open windows update seeker on demand settings",
+      "open windows update seeker on demand update security",
+      "show windows update seeker on demand",
+      "update seeker on demand",
+      "windows update seeker on demand",
+      "windows update seeker on demand settings",
+      "windows update seeker on demand update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "settings.update-security.windows-update-history",
+    "aliases": [
+      "go to windows update history",
+      "open windows update history",
+      "open windows update history settings",
+      "open windows update history update security",
+      "show windows update history",
+      "update history",
+      "windows update history",
+      "windows update history settings",
+      "windows update history update security"
+    ],
+    "category": "settings.update-security",
+    "executor": "uri",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.programs-and-features",
+    "aliases": [
+      "go to programs and features",
+      "open programs and features",
+      "open programs and features classic",
+      "open programs and features control panel",
+      "open programs and features controlpanel",
+      "programs and features",
+      "programs and features classic",
+      "programs and features control panel",
+      "programs and features controlpanel",
+      "programs features",
+      "show programs and features"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.power-options",
+    "aliases": [
+      "go to power options",
+      "open power options",
+      "open power options classic",
+      "open power options control panel",
+      "open power options controlpanel",
+      "power options",
+      "power options classic",
+      "power options control panel",
+      "power options controlpanel",
+      "show power options"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.user-accounts",
+    "aliases": [
+      "go to user accounts",
+      "open user accounts",
+      "open user accounts classic",
+      "open user accounts control panel",
+      "open user accounts controlpanel",
+      "show user accounts",
+      "user accounts",
+      "user accounts classic",
+      "user accounts control panel",
+      "user accounts controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.windows-update",
+    "aliases": [
+      "go to windows update",
+      "open windows update",
+      "open windows update classic",
+      "open windows update control panel",
+      "open windows update controlpanel",
+      "show windows update",
+      "update",
+      "windows update",
+      "windows update classic",
+      "windows update control panel",
+      "windows update controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.windows-firewall",
+    "aliases": [
+      "firewall",
+      "go to windows firewall",
+      "open windows firewall",
+      "open windows firewall classic",
+      "open windows firewall control panel",
+      "open windows firewall controlpanel",
+      "show windows firewall",
+      "windows firewall",
+      "windows firewall classic",
+      "windows firewall control panel",
+      "windows firewall controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.windows-defender",
+    "aliases": [
+      "defender",
+      "go to windows defender",
+      "open windows defender",
+      "open windows defender classic",
+      "open windows defender control panel",
+      "open windows defender controlpanel",
+      "show windows defender",
+      "windows defender",
+      "windows defender classic",
+      "windows defender control panel",
+      "windows defender controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.system",
+    "aliases": [
+      "go to system",
+      "open system",
+      "open system classic",
+      "open system control panel",
+      "open system controlpanel",
+      "show system",
+      "system",
+      "system classic",
+      "system control panel",
+      "system controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.sound",
+    "aliases": [
+      "go to sound",
+      "open sound",
+      "open sound classic",
+      "open sound control panel",
+      "open sound controlpanel",
+      "show sound",
+      "sound",
+      "sound classic",
+      "sound control panel",
+      "sound controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.region",
+    "aliases": [
+      "go to region",
+      "open region",
+      "open region classic",
+      "open region control panel",
+      "open region controlpanel",
+      "region",
+      "region classic",
+      "region control panel",
+      "region controlpanel",
+      "show region"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.personalization",
+    "aliases": [
+      "go to personalization",
+      "open personalization",
+      "open personalization classic",
+      "open personalization control panel",
+      "open personalization controlpanel",
+      "personalization",
+      "personalization classic",
+      "personalization control panel",
+      "personalization controlpanel",
+      "show personalization"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.phone-and-modem",
+    "aliases": [
+      "go to phone and modem",
+      "open phone and modem",
+      "open phone and modem classic",
+      "open phone and modem control panel",
+      "open phone and modem controlpanel",
+      "phone and modem",
+      "phone and modem classic",
+      "phone and modem control panel",
+      "phone and modem controlpanel",
+      "phone modem",
+      "show phone and modem"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.recovery",
+    "aliases": [
+      "go to recovery",
+      "open recovery",
+      "open recovery classic",
+      "open recovery control panel",
+      "open recovery controlpanel",
+      "recovery",
+      "recovery classic",
+      "recovery control panel",
+      "recovery controlpanel",
+      "show recovery"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.remoteapp-and-desktop-connections",
+    "aliases": [
+      "go to remoteapp and desktop connections",
+      "open remoteapp and desktop connections",
+      "open remoteapp and desktop connections classic",
+      "open remoteapp and desktop connections control panel",
+      "open remoteapp and desktop connections controlpanel",
+      "remoteapp and desktop connections",
+      "remoteapp and desktop connections classic",
+      "remoteapp and desktop connections control panel",
+      "remoteapp and desktop connections controlpanel",
+      "remoteapp desktop connections",
+      "show remoteapp and desktop connections"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.speech-recognition",
+    "aliases": [
+      "go to speech recognition",
+      "open speech recognition",
+      "open speech recognition classic",
+      "open speech recognition control panel",
+      "open speech recognition controlpanel",
+      "show speech recognition",
+      "speech recognition",
+      "speech recognition classic",
+      "speech recognition control panel",
+      "speech recognition controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.storage-spaces",
+    "aliases": [
+      "go to storage spaces",
+      "open storage spaces",
+      "open storage spaces classic",
+      "open storage spaces control panel",
+      "open storage spaces controlpanel",
+      "show storage spaces",
+      "storage spaces",
+      "storage spaces classic",
+      "storage spaces control panel",
+      "storage spaces controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.taskbar-and-navigation",
+    "aliases": [
+      "go to taskbar and navigation",
+      "open taskbar and navigation",
+      "open taskbar and navigation classic",
+      "open taskbar and navigation control panel",
+      "open taskbar and navigation controlpanel",
+      "show taskbar and navigation",
+      "taskbar and navigation",
+      "taskbar and navigation classic",
+      "taskbar and navigation control panel",
+      "taskbar and navigation controlpanel",
+      "taskbar navigation"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.troubleshooting",
+    "aliases": [
+      "go to troubleshooting",
+      "open troubleshooting",
+      "open troubleshooting classic",
+      "open troubleshooting control panel",
+      "open troubleshooting controlpanel",
+      "show troubleshooting",
+      "troubleshooting",
+      "troubleshooting classic",
+      "troubleshooting control panel",
+      "troubleshooting controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.pen-and-touch",
+    "aliases": [
+      "go to pen and touch",
+      "open pen and touch",
+      "open pen and touch classic",
+      "open pen and touch control panel",
+      "open pen and touch controlpanel",
+      "pen and touch",
+      "pen and touch classic",
+      "pen and touch control panel",
+      "pen and touch controlpanel",
+      "pen touch",
+      "show pen and touch"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "controlpanel.work-folders",
+    "aliases": [
+      "go to work folders",
+      "open work folders",
+      "open work folders classic",
+      "open work folders control panel",
+      "open work folders controlpanel",
+      "show work folders",
+      "work folders",
+      "work folders classic",
+      "work folders control panel",
+      "work folders controlpanel"
+    ],
+    "category": "controlpanel.canonical",
+    "executor": "controlPanel",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.task-manager",
+    "aliases": [
+      "go to task manager",
+      "open task manager",
+      "open task manager system tool",
+      "open task manager tool",
+      "open task manager windows tool",
+      "show task manager",
+      "task manager",
+      "task manager system tool",
+      "task manager tool",
+      "task manager windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.device-manager",
+    "aliases": [
+      "device manager",
+      "device manager system tool",
+      "device manager tool",
+      "device manager windows tool",
+      "go to device manager",
+      "open device manager",
+      "open device manager system tool",
+      "open device manager tool",
+      "open device manager windows tool",
+      "show device manager"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.services",
+    "aliases": [
+      "go to services",
+      "open services",
+      "open services system tool",
+      "open services tool",
+      "open services windows tool",
+      "services",
+      "services system tool",
+      "services tool",
+      "services windows tool",
+      "show services"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.computer-management",
+    "aliases": [
+      "computer management",
+      "computer management system tool",
+      "computer management tool",
+      "computer management windows tool",
+      "go to computer management",
+      "open computer management",
+      "open computer management system tool",
+      "open computer management tool",
+      "open computer management windows tool",
+      "show computer management"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.disk-management",
+    "aliases": [
+      "disk management",
+      "disk management system tool",
+      "disk management tool",
+      "disk management windows tool",
+      "go to disk management",
+      "open disk management",
+      "open disk management system tool",
+      "open disk management tool",
+      "open disk management windows tool",
+      "show disk management"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.event-viewer",
+    "aliases": [
+      "event viewer",
+      "event viewer system tool",
+      "event viewer tool",
+      "event viewer windows tool",
+      "go to event viewer",
+      "open event viewer",
+      "open event viewer system tool",
+      "open event viewer tool",
+      "open event viewer windows tool",
+      "show event viewer"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.task-scheduler",
+    "aliases": [
+      "go to task scheduler",
+      "open task scheduler",
+      "open task scheduler system tool",
+      "open task scheduler tool",
+      "open task scheduler windows tool",
+      "show task scheduler",
+      "task scheduler",
+      "task scheduler system tool",
+      "task scheduler tool",
+      "task scheduler windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.system-configuration",
+    "aliases": [
+      "go to system configuration",
+      "open system configuration",
+      "open system configuration system tool",
+      "open system configuration tool",
+      "open system configuration windows tool",
+      "show system configuration",
+      "system configuration",
+      "system configuration system tool",
+      "system configuration tool",
+      "system configuration windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.registry-editor",
+    "aliases": [
+      "go to registry editor",
+      "open registry editor",
+      "open registry editor system tool",
+      "open registry editor tool",
+      "open registry editor windows tool",
+      "registry editor",
+      "registry editor system tool",
+      "registry editor tool",
+      "registry editor windows tool",
+      "show registry editor"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.system-information",
+    "aliases": [
+      "go to system information",
+      "open system information",
+      "open system information system tool",
+      "open system information tool",
+      "open system information windows tool",
+      "show system information",
+      "system information",
+      "system information system tool",
+      "system information tool",
+      "system information windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.performance-monitor",
+    "aliases": [
+      "go to performance monitor",
+      "open performance monitor",
+      "open performance monitor system tool",
+      "open performance monitor tool",
+      "open performance monitor windows tool",
+      "performance monitor",
+      "performance monitor system tool",
+      "performance monitor tool",
+      "performance monitor windows tool",
+      "show performance monitor"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.resource-monitor",
+    "aliases": [
+      "go to resource monitor",
+      "open resource monitor",
+      "open resource monitor system tool",
+      "open resource monitor tool",
+      "open resource monitor windows tool",
+      "resource monitor",
+      "resource monitor system tool",
+      "resource monitor tool",
+      "resource monitor windows tool",
+      "show resource monitor"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.local-security-policy",
+    "aliases": [
+      "go to local security policy",
+      "local security policy",
+      "local security policy system tool",
+      "local security policy tool",
+      "local security policy windows tool",
+      "open local security policy",
+      "open local security policy system tool",
+      "open local security policy tool",
+      "open local security policy windows tool",
+      "show local security policy"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.local-users-and-groups",
+    "aliases": [
+      "go to local users and groups",
+      "local users and groups",
+      "local users and groups system tool",
+      "local users and groups tool",
+      "local users and groups windows tool",
+      "local users groups",
+      "open local users and groups",
+      "open local users and groups system tool",
+      "open local users and groups tool",
+      "open local users and groups windows tool",
+      "show local users and groups"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.group-policy-editor",
+    "aliases": [
+      "go to group policy editor",
+      "group policy editor",
+      "group policy editor system tool",
+      "group policy editor tool",
+      "group policy editor windows tool",
+      "open group policy editor",
+      "open group policy editor system tool",
+      "open group policy editor tool",
+      "open group policy editor windows tool",
+      "show group policy editor"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.windows-defender-firewall-with-advanced-security",
+    "aliases": [
+      "defender firewall with advanced security",
+      "go to windows defender firewall with advanced security",
+      "open windows defender firewall with advanced security",
+      "open windows defender firewall with advanced security system tool",
+      "open windows defender firewall with advanced security tool",
+      "open windows defender firewall with advanced security windows tool",
+      "show windows defender firewall with advanced security",
+      "windows defender firewall with advanced security",
+      "windows defender firewall with advanced security system tool",
+      "windows defender firewall with advanced security tool",
+      "windows defender firewall with advanced security windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.windows-memory-diagnostic",
+    "aliases": [
+      "go to windows memory diagnostic",
+      "memory diagnostic",
+      "open windows memory diagnostic",
+      "open windows memory diagnostic system tool",
+      "open windows memory diagnostic tool",
+      "open windows memory diagnostic windows tool",
+      "show windows memory diagnostic",
+      "windows memory diagnostic",
+      "windows memory diagnostic system tool",
+      "windows memory diagnostic tool",
+      "windows memory diagnostic windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.character-map",
+    "aliases": [
+      "character map",
+      "character map system tool",
+      "character map tool",
+      "character map windows tool",
+      "go to character map",
+      "open character map",
+      "open character map system tool",
+      "open character map tool",
+      "open character map windows tool",
+      "show character map"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.directx-diagnostic-tool",
+    "aliases": [
+      "directx diagnostic tool",
+      "directx diagnostic tool system tool",
+      "directx diagnostic tool tool",
+      "directx diagnostic tool windows tool",
+      "go to directx diagnostic tool",
+      "open directx diagnostic tool",
+      "open directx diagnostic tool system tool",
+      "open directx diagnostic tool tool",
+      "open directx diagnostic tool windows tool",
+      "show directx diagnostic tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.odbc-data-sources",
+    "aliases": [
+      "go to odbc data sources",
+      "odbc data sources",
+      "odbc data sources system tool",
+      "odbc data sources tool",
+      "odbc data sources windows tool",
+      "open odbc data sources",
+      "open odbc data sources system tool",
+      "open odbc data sources tool",
+      "open odbc data sources windows tool",
+      "show odbc data sources"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.programs-and-features-classic",
+    "aliases": [
+      "go to programs and features classic",
+      "open programs and features classic",
+      "open programs and features classic system tool",
+      "open programs and features classic tool",
+      "open programs and features classic windows tool",
+      "programs and features classic",
+      "programs and features classic system tool",
+      "programs and features classic tool",
+      "programs and features classic windows tool",
+      "programs features classic",
+      "show programs and features classic"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.mouse-properties",
+    "aliases": [
+      "go to mouse properties",
+      "mouse properties",
+      "mouse properties system tool",
+      "mouse properties tool",
+      "mouse properties windows tool",
+      "open mouse properties",
+      "open mouse properties system tool",
+      "open mouse properties tool",
+      "open mouse properties windows tool",
+      "show mouse properties"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.internet-options",
+    "aliases": [
+      "go to internet options",
+      "internet options",
+      "internet options system tool",
+      "internet options tool",
+      "internet options windows tool",
+      "open internet options",
+      "open internet options system tool",
+      "open internet options tool",
+      "open internet options windows tool",
+      "show internet options"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.sound-classic",
+    "aliases": [
+      "go to sound classic",
+      "open sound classic",
+      "open sound classic system tool",
+      "open sound classic tool",
+      "open sound classic windows tool",
+      "show sound classic",
+      "sound classic",
+      "sound classic system tool",
+      "sound classic tool",
+      "sound classic windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.date-and-time-classic",
+    "aliases": [
+      "date and time classic",
+      "date and time classic system tool",
+      "date and time classic tool",
+      "date and time classic windows tool",
+      "date time classic",
+      "go to date and time classic",
+      "open date and time classic",
+      "open date and time classic system tool",
+      "open date and time classic tool",
+      "open date and time classic windows tool",
+      "show date and time classic"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.display-adapter-advanced",
+    "aliases": [
+      "display adapter advanced",
+      "display adapter advanced system tool",
+      "display adapter advanced tool",
+      "display adapter advanced windows tool",
+      "go to display adapter advanced",
+      "open display adapter advanced",
+      "open display adapter advanced system tool",
+      "open display adapter advanced tool",
+      "open display adapter advanced windows tool",
+      "show display adapter advanced"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.power-options-classic",
+    "aliases": [
+      "go to power options classic",
+      "open power options classic",
+      "open power options classic system tool",
+      "open power options classic tool",
+      "open power options classic windows tool",
+      "power options classic",
+      "power options classic system tool",
+      "power options classic tool",
+      "power options classic windows tool",
+      "show power options classic"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.credential-manager-classic",
+    "aliases": [
+      "credential manager classic",
+      "credential manager classic system tool",
+      "credential manager classic tool",
+      "credential manager classic windows tool",
+      "go to credential manager classic",
+      "open credential manager classic",
+      "open credential manager classic system tool",
+      "open credential manager classic tool",
+      "open credential manager classic windows tool",
+      "show credential manager classic"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.windows-tools",
+    "aliases": [
+      "go to windows tools",
+      "open windows tools",
+      "open windows tools system tool",
+      "open windows tools tool",
+      "open windows tools windows tool",
+      "show windows tools",
+      "tools",
+      "windows tools",
+      "windows tools system tool",
+      "windows tools tool",
+      "windows tools windows tool"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "tool.bluetooth-file-transfer",
+    "aliases": [
+      "bluetooth file transfer",
+      "bluetooth file transfer system tool",
+      "bluetooth file transfer tool",
+      "bluetooth file transfer windows tool",
+      "go to bluetooth file transfer",
+      "open bluetooth file transfer",
+      "open bluetooth file transfer system tool",
+      "open bluetooth file transfer tool",
+      "open bluetooth file transfer windows tool",
+      "show bluetooth file transfer"
+    ],
+    "category": "tool.system-tools",
+    "executor": "command",
+    "params": [
+      {
+        "name": "command",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "args",
+        "type": "array",
+        "required": false
+      }
+    ],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.desktop",
+    "aliases": [
+      "desktop",
+      "desktop folder",
+      "desktop location",
+      "go to desktop",
+      "open desktop",
+      "open desktop folder",
+      "open desktop location",
+      "show desktop"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.downloads",
+    "aliases": [
+      "downloads",
+      "downloads folder",
+      "downloads location",
+      "go to downloads",
+      "open downloads",
+      "open downloads folder",
+      "open downloads location",
+      "show downloads"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.documents",
+    "aliases": [
+      "documents",
+      "documents folder",
+      "documents location",
+      "go to documents",
+      "open documents",
+      "open documents folder",
+      "open documents location",
+      "show documents"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.pictures",
+    "aliases": [
+      "go to pictures",
+      "open pictures",
+      "open pictures folder",
+      "open pictures location",
+      "pictures",
+      "pictures folder",
+      "pictures location",
+      "show pictures"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.music",
+    "aliases": [
+      "go to music",
+      "music",
+      "music folder",
+      "music location",
+      "open music",
+      "open music folder",
+      "open music location",
+      "show music"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.videos",
+    "aliases": [
+      "go to videos",
+      "open videos",
+      "open videos folder",
+      "open videos location",
+      "show videos",
+      "videos",
+      "videos folder",
+      "videos location"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.this-pc",
+    "aliases": [
+      "go to this pc",
+      "open this pc",
+      "open this pc folder",
+      "open this pc location",
+      "show this pc",
+      "this pc",
+      "this pc folder",
+      "this pc location"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.network",
+    "aliases": [
+      "go to network",
+      "network",
+      "network folder",
+      "network location",
+      "open network",
+      "open network folder",
+      "open network location",
+      "show network"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.recycle-bin",
+    "aliases": [
+      "go to recycle bin",
+      "open recycle bin",
+      "open recycle bin folder",
+      "open recycle bin location",
+      "recycle bin",
+      "recycle bin folder",
+      "recycle bin location",
+      "show recycle bin"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.control-panel-home",
+    "aliases": [
+      "control panel home",
+      "control panel home folder",
+      "control panel home location",
+      "go to control panel home",
+      "open control panel home",
+      "open control panel home folder",
+      "open control panel home location",
+      "show control panel home"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.apps-folder",
+    "aliases": [
+      "apps folder",
+      "apps folder folder",
+      "apps folder location",
+      "go to apps folder",
+      "open apps folder",
+      "open apps folder folder",
+      "open apps folder location",
+      "show apps folder"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.startup-folder",
+    "aliases": [
+      "go to startup folder",
+      "open startup folder",
+      "open startup folder folder",
+      "open startup folder location",
+      "show startup folder",
+      "startup folder",
+      "startup folder folder",
+      "startup folder location"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.programs-menu",
+    "aliases": [
+      "go to programs menu",
+      "open programs menu",
+      "open programs menu folder",
+      "open programs menu location",
+      "programs menu",
+      "programs menu folder",
+      "programs menu location",
+      "show programs menu"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.sendto-folder",
+    "aliases": [
+      "go to sendto folder",
+      "open sendto folder",
+      "open sendto folder folder",
+      "open sendto folder location",
+      "sendto folder",
+      "sendto folder folder",
+      "sendto folder location",
+      "show sendto folder"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  },
+  {
+    "skill_id": "folder.recent-items",
+    "aliases": [
+      "go to recent items",
+      "open recent items",
+      "open recent items folder",
+      "open recent items location",
+      "recent items",
+      "recent items folder",
+      "recent items location",
+      "show recent items"
+    ],
+    "category": "folder.shell-folders",
+    "executor": "shellFolder",
+    "params": [],
+    "safety": {
+      "risk": "safe",
+      "admin_required": false
+    },
+    "entrypoint": "scripts/windows/tools/runner.js::runSkill"
+  }
+]

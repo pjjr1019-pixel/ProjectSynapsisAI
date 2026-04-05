@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "744f7cc461e2a3d6",
+      "aliasId": "hz.web.744f7cc461e2a3d6.alias.1",
+      "canonical": "awesome | home"
+    },
+    {
+      "alias": "awesome home",
+      "aliasId": "hz.web.744f7cc461e2a3d6.alias.2",
+      "canonical": "awesome | home"
+    },
+    {
+      "alias": "web 744f7cc461e2a3d6",
+      "aliasId": "hz.web.744f7cc461e2a3d6.alias.3",
+      "canonical": "awesome | home"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.86,
+  "docId": "hz.web.744f7cc461e2a3d6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.744f7cc461e2a3d6.entity.1",
+      "kind": "document",
+      "name": "Awesome | Home",
+      "tokens": [
+        "awesome",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.744f7cc461e2a3d6.entity.2",
+      "kind": "heading",
+      "name": "Awesome | Home",
+      "tokens": [
+        "awesome",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.744f7cc461e2a3d6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.744f7cc461e2a3d6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.744f7cc461e2a3d6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 46,
+      "charStart": 19,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.1",
+      "kind": "summary",
+      "text": "Source: https://awesome.co/",
+      "tokens": [
+        "source",
+        "https",
+        "awesome",
+        "co"
+      ]
+    },
+    {
+      "charEnd": 192,
+      "charStart": 98,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.1",
+      "kind": "bullet",
+      "text": "Awesome | Home Mission Values Brands Folklore Certified Evergeen People Ready to be Awesome?",
+      "tokens": [
+        "awesome",
+        "home",
+        "mission",
+        "values",
+        "brands",
+        "folklore",
+        "certified",
+        "evergeen",
+        "people",
+        "ready",
+        "awesome"
+      ]
+    },
+    {
+      "charEnd": 208,
+      "charStart": 193,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.2",
+      "kind": "bullet",
+      "text": "Work with us!",
+      "tokens": [
+        "work",
+        "us"
+      ]
+    },
+    {
+      "charEnd": 271,
+      "charStart": 209,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.3",
+      "kind": "bullet",
+      "text": "MENU SCROLL TO LAUNCH November 2022 Preserving what matters.",
+      "tokens": [
+        "menu",
+        "scroll",
+        "launch",
+        "november",
+        "2022",
+        "preserving",
+        "matters"
+      ]
+    },
+    {
+      "charEnd": 398,
+      "charStart": 272,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.4",
+      "kind": "bullet",
+      "text": "Nearing its 20-year anniversary, Flickr continues to represent the most important corpus of historical photos on the planet.",
+      "tokens": [
+        "nearing",
+        "its",
+        "20",
+        "year",
+        "anniversary",
+        "flickr",
+        "continues",
+        "represent",
+        "most",
+        "important",
+        "corpus",
+        "historical",
+        "photos",
+        "planet"
+      ]
+    },
+    {
+      "charEnd": 422,
+      "charStart": 413,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.5",
+      "kind": "bullet",
+      "text": "smugmug",
+      "tokens": [
+        "smugmug"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 423,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.6",
+      "kind": "bullet",
+      "text": "awesome",
+      "tokens": [
+        "awesome"
+      ]
+    },
+    {
+      "charEnd": 448,
+      "charStart": 433,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.7",
+      "kind": "bullet",
+      "text": "photographers",
+      "tokens": [
+        "photographers"
+      ]
+    },
+    {
+      "charEnd": 462,
+      "charStart": 449,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.8",
+      "kind": "bullet",
+      "text": "photography",
+      "tokens": [
+        "photography"
+      ]
+    },
+    {
+      "charEnd": 470,
+      "charStart": 463,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.9",
+      "kind": "bullet",
+      "text": "first",
+      "tokens": [
+        "first"
+      ]
+    },
+    {
+      "charEnd": 476,
+      "charStart": 471,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.10",
+      "kind": "bullet",
+      "text": "its",
+      "tokens": [
+        "its"
+      ]
+    },
+    {
+      "charEnd": 485,
+      "charStart": 477,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.11",
+      "kind": "bullet",
+      "text": "flickr",
+      "tokens": [
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 491,
+      "charStart": 486,
+      "factId": "hz.web.744f7cc461e2a3d6.fact.12",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.744f7cc461e2a3d6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Awesome | Home"
+    },
+    {
+      "charEnd": 96,
+      "charStart": 86,
+      "headingId": "hz.web.744f7cc461e2a3d6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 411,
+      "charStart": 400,
+      "headingId": "hz.web.744f7cc461e2a3d6.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 503,
+      "charStart": 493,
+      "headingId": "hz.web.744f7cc461e2a3d6.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/744f7cc461e2a3d6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3723,
+        "start": 0
+      }
+    ],
+    "hash": "e3d7cba9db7f4aded8af97cd5706cb12346b508008a386faf57a47192484a416",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.744f7cc461e2a3d6.rule.1",
+      "text": "Intent on making sure that, no matter what, the priceless collection of imagery is always accessible to the public and institutions are able to invest in saving their own collections of publicly accessible images, Awesome launches the Flickr Foundation , a 501(c)(3) aimed at the preservation and accessibility of the world’s most important historical artifacts: photos.",
+      "tokens": [
+        "intent",
+        "making",
+        "sure",
+        "no",
+        "matter",
+        "priceless",
+        "collection",
+        "imagery",
+        "always",
+        "accessible",
+        "public",
+        "institutions",
+        "able",
+        "invest",
+        "saving",
+        "their",
+        "own",
+        "collections",
+        "publicly",
+        "accessible",
+        "images",
+        "awesome",
+        "launches",
+        "flickr",
+        "foundation",
+        "501",
+        "aimed",
+        "preservation",
+        "accessibility",
+        "world",
+        "most",
+        "important",
+        "historical",
+        "artifacts",
+        "photos"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Awesome | Home Mission Values Brands Folklore Certified Evergeen People Ready to be Awesome?",
+      "Work with us!",
+      "MENU SCROLL TO LAUNCH November 2022 Preserving what matters."
+    ],
+    "medium": "Source: https://awesome.co/",
+    "short": "Source: https://awesome.co/",
+    "tokens": [
+      "awesome",
+      "home",
+      "source",
+      "https",
+      "awesome",
+      "co",
+      "source",
+      "https",
+      "awesome",
+      "co"
+    ]
+  },
+  "title": "Awesome | Home"
+}

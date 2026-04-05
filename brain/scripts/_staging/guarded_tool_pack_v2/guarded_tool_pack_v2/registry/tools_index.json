@@ -1,0 +1,4403 @@
+[
+  {
+    "id": "list_processes",
+    "title": "List processes",
+    "description": "Lists running processes with normalized fields.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "tasks",
+      "runtime"
+    ],
+    "intent_examples": [
+      "list running processes",
+      "show processes"
+    ],
+    "inputs": {},
+    "outputs": {
+      "items": "array"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/list_processes.js",
+    "handler": "process_query",
+    "defaults": {}
+  },
+  {
+    "id": "process_count",
+    "title": "Process count",
+    "description": "Counts running processes.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "count"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_count.js",
+    "handler": "process_query",
+    "defaults": {
+      "countOnly": true
+    }
+  },
+  {
+    "id": "process_names",
+    "title": "Process names",
+    "description": "Lists normalized process names only.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "names"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_names.js",
+    "handler": "process_query",
+    "defaults": {
+      "namesOnly": true
+    }
+  },
+  {
+    "id": "top_cpu_processes",
+    "title": "Top CPU processes",
+    "description": "Ranks processes by cpu_pct.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "rank"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/top_cpu_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "cpu_pct",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "top_memory_processes",
+    "title": "Top memory processes",
+    "description": "Ranks processes by memory_mb.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "rank"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/top_memory_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "memory_mb",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "top_threads_processes",
+    "title": "Top thread count processes",
+    "description": "Ranks processes by threads.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "rank"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/top_threads_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "threads",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "top_handles_processes",
+    "title": "Top handle count processes",
+    "description": "Ranks processes by handles.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "rank"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/top_handles_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "handles",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "top_elapsed_processes",
+    "title": "Top elapsed-time processes",
+    "description": "Ranks processes by elapsed runtime where available.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "elapsed"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/top_elapsed_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "elapsed_seconds",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "processes_sorted_by_name",
+    "title": "Processes sorted by name",
+    "description": "Sorts processes by name.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "sort"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_sorted_by_name.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "name",
+      "sortDir": "asc"
+    }
+  },
+  {
+    "id": "processes_sorted_by_pid",
+    "title": "Processes sorted by pid",
+    "description": "Sorts processes by pid.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "sort"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_sorted_by_pid.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "pid",
+      "sortDir": "asc"
+    }
+  },
+  {
+    "id": "processes_sorted_by_ppid",
+    "title": "Processes sorted by parent pid",
+    "description": "Sorts processes by parent pid.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "sort"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_sorted_by_ppid.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "ppid",
+      "sortDir": "asc"
+    }
+  },
+  {
+    "id": "find_process_by_name",
+    "title": "Find process by name",
+    "description": "Filters processes by exact or partial name.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "query": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/find_process_by_name.js",
+    "handler": "process_query",
+    "defaults": {
+      "nameFilterMode": "contains"
+    }
+  },
+  {
+    "id": "find_process_by_pid",
+    "title": "Find process by pid",
+    "description": "Returns a process matching a pid.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "pid": "number"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/find_process_by_pid.js",
+    "handler": "process_query",
+    "defaults": {
+      "pidMatchRequired": true
+    }
+  },
+  {
+    "id": "find_processes_by_query",
+    "title": "Find processes by query",
+    "description": "Searches processes by query text.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "query": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/find_processes_by_query.js",
+    "handler": "process_query",
+    "defaults": {
+      "nameFilterMode": "contains"
+    }
+  },
+  {
+    "id": "processes_over_memory_mb",
+    "title": "Processes over memory threshold",
+    "description": "Returns processes above a memory threshold.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "memory"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "min_memory_mb": "number"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_over_memory_mb.js",
+    "handler": "process_query",
+    "defaults": {
+      "min_memory_mb": 100
+    }
+  },
+  {
+    "id": "processes_over_cpu_pct",
+    "title": "Processes over CPU threshold",
+    "description": "Returns processes above a CPU threshold.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "cpu"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "min_cpu_pct": "number"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_over_cpu_pct.js",
+    "handler": "process_query",
+    "defaults": {
+      "min_cpu_pct": 5
+    }
+  },
+  {
+    "id": "small_memory_processes",
+    "title": "Small-memory processes",
+    "description": "Returns low-memory processes.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "memory"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/small_memory_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "max_memory_mb": 50,
+      "sortBy": "memory_mb",
+      "sortDir": "asc"
+    }
+  },
+  {
+    "id": "small_cpu_processes",
+    "title": "Small-CPU processes",
+    "description": "Returns low-CPU processes.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "cpu"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/small_cpu_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "max_cpu_pct": 1,
+      "sortBy": "cpu_pct",
+      "sortDir": "asc"
+    }
+  },
+  {
+    "id": "long_running_processes",
+    "title": "Long-running processes",
+    "description": "Returns processes with large elapsed time when available.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "elapsed"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/long_running_processes.js",
+    "handler": "process_query",
+    "defaults": {
+      "min_elapsed_seconds": 3600,
+      "sortBy": "elapsed_seconds",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "process_name_frequency",
+    "title": "Process name frequency",
+    "description": "Counts process names.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "frequency"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_name_frequency.js",
+    "handler": "process_name_frequency",
+    "defaults": {}
+  },
+  {
+    "id": "duplicate_process_names",
+    "title": "Duplicate process names",
+    "description": "Shows process names that occur more than once.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "duplicate"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/duplicate_process_names.js",
+    "handler": "process_name_frequency",
+    "defaults": {
+      "duplicatesOnly": true
+    }
+  },
+  {
+    "id": "group_processes_by_name",
+    "title": "Group processes by name",
+    "description": "Groups processes by normalized name.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "group"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/group_processes_by_name.js",
+    "handler": "process_group",
+    "defaults": {}
+  },
+  {
+    "id": "pid_name_pairs",
+    "title": "PID name pairs",
+    "description": "Returns only pid and name pairs.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "pairs"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/pid_name_pairs.js",
+    "handler": "process_query",
+    "defaults": {
+      "fieldSubset": [
+        "pid",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": "process_parent_pairs",
+    "title": "Parent-child pid pairs",
+    "description": "Returns pid, ppid, and name.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "pairs"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_parent_pairs.js",
+    "handler": "process_query",
+    "defaults": {
+      "fieldSubset": [
+        "pid",
+        "ppid",
+        "name"
+      ]
+    }
+  },
+  {
+    "id": "process_summary",
+    "title": "Process summary",
+    "description": "Returns counts and totals for process metrics.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "summary"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_summary.js",
+    "handler": "process_summary",
+    "defaults": {}
+  },
+  {
+    "id": "process_tree_guess",
+    "title": "Process tree guess",
+    "description": "Sorts by parent-child fields for quick tree analysis.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "tree"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_tree_guess.js",
+    "handler": "process_query",
+    "defaults": {
+      "sortBy": "ppid",
+      "sortDir": "asc",
+      "fieldSubset": [
+        "pid",
+        "ppid",
+        "name",
+        "cpu_pct",
+        "memory_mb"
+      ]
+    }
+  },
+  {
+    "id": "process_stats_totals",
+    "title": "Process stats totals",
+    "description": "Returns totals across cpu, memory, handles, and threads.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "totals"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_stats_totals.js",
+    "handler": "process_summary",
+    "defaults": {
+      "totalsOnly": true
+    }
+  },
+  {
+    "id": "critical_process_matches",
+    "title": "Critical process matches",
+    "description": "Shows currently running critical/system process names.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "critical"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/critical_process_matches.js",
+    "handler": "process_query",
+    "defaults": {
+      "criticalOnly": true
+    }
+  },
+  {
+    "id": "user_process_candidates",
+    "title": "User process candidates",
+    "description": "Filters out common critical/system process names.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "user"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/user_process_candidates.js",
+    "handler": "process_query",
+    "defaults": {
+      "nonCriticalOnly": true
+    }
+  },
+  {
+    "id": "background_process_candidates",
+    "title": "Background process candidates",
+    "description": "Shows non-critical low-window helper style processes by name patterns.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "background"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/background_process_candidates.js",
+    "handler": "process_query",
+    "defaults": {
+      "nonCriticalOnly": true,
+      "backgroundLike": true
+    }
+  },
+  {
+    "id": "processes_with_many_threads",
+    "title": "Processes with many threads",
+    "description": "Filters thread-heavy processes.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "threads"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_with_many_threads.js",
+    "handler": "process_query",
+    "defaults": {
+      "min_threads": 20,
+      "sortBy": "threads",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "processes_with_many_handles",
+    "title": "Processes with many handles",
+    "description": "Filters handle-heavy processes.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "handles"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_with_many_handles.js",
+    "handler": "process_query",
+    "defaults": {
+      "min_handles": 200,
+      "sortBy": "handles",
+      "sortDir": "desc"
+    }
+  },
+  {
+    "id": "processes_limit_preview",
+    "title": "Process limit preview",
+    "description": "Returns a small preview list of processes.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "preview"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_limit_preview.js",
+    "handler": "process_query",
+    "defaults": {
+      "limit": 20
+    }
+  },
+  {
+    "id": "process_snapshot_save",
+    "title": "Save process snapshot",
+    "description": "Saves a process snapshot to JSON.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "snapshot"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "output_path": "string"
+    },
+    "outputs": {
+      "output_path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_snapshot_save.js",
+    "handler": "process_snapshot_save",
+    "defaults": {}
+  },
+  {
+    "id": "process_snapshot_compare",
+    "title": "Compare process snapshots",
+    "description": "Compares two saved process snapshots.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "snapshot"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "left": "string",
+      "right": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_snapshot_compare.js",
+    "handler": "process_snapshot_compare",
+    "defaults": {}
+  },
+  {
+    "id": "process_snapshot_hash",
+    "title": "Process snapshot hash",
+    "description": "Hashes a normalized live process snapshot.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "snapshot",
+      "hash"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_snapshot_hash.js",
+    "handler": "process_snapshot_hash",
+    "defaults": {}
+  },
+  {
+    "id": "process_csv_export",
+    "title": "Export processes to CSV",
+    "description": "Exports live process list to CSV.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "csv",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "output_path": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_csv_export.js",
+    "handler": "process_export",
+    "defaults": {}
+  },
+  {
+    "id": "process_json_export",
+    "title": "Export processes to JSON",
+    "description": "Exports live process list to JSON.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "json",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "output_path": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/process_json_export.js",
+    "handler": "process_export",
+    "defaults": {
+      "format": "json"
+    }
+  },
+  {
+    "id": "processes_matching_allowlist",
+    "title": "Processes matching allowlist",
+    "description": "Matches process names against an allowlist.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "allowlist"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "allowlist": "array|string",
+      "allowlist_path": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_matching_allowlist.js",
+    "handler": "process_policy_match",
+    "defaults": {}
+  },
+  {
+    "id": "processes_matching_blocklist",
+    "title": "Processes matching blocklist",
+    "description": "Matches process names against a blocklist.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "blocklist"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "blocklist": "array|string",
+      "blocklist_path": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_matching_blocklist.js",
+    "handler": "process_policy_match",
+    "defaults": {
+      "mode": "blocklist"
+    }
+  },
+  {
+    "id": "processes_not_in_allowlist",
+    "title": "Processes not in allowlist",
+    "description": "Shows process names not in a provided allowlist.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "allowlist"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "allowlist": "array|string",
+      "allowlist_path": "string"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/processes_not_in_allowlist.js",
+    "handler": "process_policy_match",
+    "defaults": {
+      "mode": "not_in_allowlist"
+    }
+  },
+  {
+    "id": "kill_process_by_pid",
+    "title": "Kill process by pid",
+    "description": "Terminates a process by pid with confirmation and critical-process guardrails.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "pid": "number",
+      "approve": "boolean",
+      "dry_run": "boolean"
+    },
+    "outputs": {},
+    "side_effects": [
+      "Terminates a process"
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/kill_process_by_pid.js",
+    "handler": "process_kill",
+    "defaults": {}
+  },
+  {
+    "id": "kill_process_by_name",
+    "title": "Kill process by name",
+    "description": "Terminates one or more processes by name with confirmation and critical-process guardrails.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "kill"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "query": "string",
+      "approve": "boolean",
+      "dry_run": "boolean"
+    },
+    "outputs": {},
+    "side_effects": [
+      "Terminates processes"
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/kill_process_by_name.js",
+    "handler": "process_kill",
+    "defaults": {
+      "matchMode": "name"
+    }
+  },
+  {
+    "id": "kill_process_tree_by_pid",
+    "title": "Kill process tree by pid",
+    "description": "Terminates a process tree by pid where supported.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "kill",
+      "tree"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "pid": "number",
+      "approve": "boolean",
+      "dry_run": "boolean"
+    },
+    "outputs": {},
+    "side_effects": [
+      "Terminates a process tree"
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/kill_process_tree_by_pid.js",
+    "handler": "process_kill",
+    "defaults": {
+      "tree": true
+    }
+  },
+  {
+    "id": "terminate_noncritical_by_query",
+    "title": "Terminate noncritical by query",
+    "description": "Preview or terminate noncritical processes matching a query.",
+    "category": "processes",
+    "tags": [
+      "process",
+      "kill",
+      "query"
+    ],
+    "intent_examples": [],
+    "inputs": {
+      "query": "string",
+      "approve": "boolean",
+      "dry_run": "boolean"
+    },
+    "outputs": {},
+    "side_effects": [
+      "Terminates matched processes"
+    ],
+    "risk_level": "critical",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/processes/terminate_noncritical_by_query.js",
+    "handler": "process_kill",
+    "defaults": {
+      "nonCriticalRequired": true
+    }
+  },
+  {
+    "id": "list_services",
+    "title": "List services",
+    "description": "Lists system services.",
+    "category": "services",
+    "tags": [
+      "service",
+      "list"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/list_services.js",
+    "handler": "service_query",
+    "defaults": {}
+  },
+  {
+    "id": "service_count",
+    "title": "Service count",
+    "description": "Counts services.",
+    "category": "services",
+    "tags": [
+      "service",
+      "count"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/service_count.js",
+    "handler": "service_query",
+    "defaults": {
+      "countOnly": true
+    }
+  },
+  {
+    "id": "running_services",
+    "title": "Running services",
+    "description": "Lists running services.",
+    "category": "services",
+    "tags": [
+      "service",
+      "running"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/running_services.js",
+    "handler": "service_query",
+    "defaults": {
+      "status": "running"
+    }
+  },
+  {
+    "id": "stopped_services",
+    "title": "Stopped services",
+    "description": "Lists stopped services.",
+    "category": "services",
+    "tags": [
+      "service",
+      "stopped"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/stopped_services.js",
+    "handler": "service_query",
+    "defaults": {
+      "status": "stopped"
+    }
+  },
+  {
+    "id": "auto_start_services",
+    "title": "Auto-start services",
+    "description": "Lists auto-start services where available.",
+    "category": "services",
+    "tags": [
+      "service",
+      "auto"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/auto_start_services.js",
+    "handler": "service_query",
+    "defaults": {
+      "startType": "auto"
+    }
+  },
+  {
+    "id": "manual_start_services",
+    "title": "Manual-start services",
+    "description": "Lists manual services where available.",
+    "category": "services",
+    "tags": [
+      "service",
+      "manual"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/manual_start_services.js",
+    "handler": "service_query",
+    "defaults": {
+      "startType": "manual"
+    }
+  },
+  {
+    "id": "disabled_services",
+    "title": "Disabled services",
+    "description": "Lists disabled services where available.",
+    "category": "services",
+    "tags": [
+      "service",
+      "disabled"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/disabled_services.js",
+    "handler": "service_query",
+    "defaults": {
+      "startType": "disabled"
+    }
+  },
+  {
+    "id": "find_service_by_name",
+    "title": "Find service by name",
+    "description": "Finds services by exact or partial name.",
+    "category": "services",
+    "tags": [
+      "service",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/find_service_by_name.js",
+    "handler": "service_query",
+    "defaults": {
+      "nameFilterMode": "contains"
+    }
+  },
+  {
+    "id": "find_service_by_query",
+    "title": "Find service by query",
+    "description": "Searches services by display or service name.",
+    "category": "services",
+    "tags": [
+      "service",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/find_service_by_query.js",
+    "handler": "service_query",
+    "defaults": {
+      "nameFilterMode": "contains"
+    }
+  },
+  {
+    "id": "service_status_summary",
+    "title": "Service status summary",
+    "description": "Counts services by status.",
+    "category": "services",
+    "tags": [
+      "service",
+      "summary"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/service_status_summary.js",
+    "handler": "service_summary",
+    "defaults": {}
+  },
+  {
+    "id": "service_start_type_summary",
+    "title": "Service start-type summary",
+    "description": "Counts services by start type.",
+    "category": "services",
+    "tags": [
+      "service",
+      "summary"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/service_start_type_summary.js",
+    "handler": "service_summary",
+    "defaults": {
+      "by": "startType"
+    }
+  },
+  {
+    "id": "service_names",
+    "title": "Service names",
+    "description": "Lists service names only.",
+    "category": "services",
+    "tags": [
+      "service",
+      "names"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/service_names.js",
+    "handler": "service_query",
+    "defaults": {
+      "namesOnly": true
+    }
+  },
+  {
+    "id": "services_matching_allowlist",
+    "title": "Services matching allowlist",
+    "description": "Matches service names against an allowlist.",
+    "category": "services",
+    "tags": [
+      "service",
+      "allowlist"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/services_matching_allowlist.js",
+    "handler": "service_policy_match",
+    "defaults": {}
+  },
+  {
+    "id": "services_matching_blocklist",
+    "title": "Services matching blocklist",
+    "description": "Matches service names against a blocklist.",
+    "category": "services",
+    "tags": [
+      "service",
+      "blocklist"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/services_matching_blocklist.js",
+    "handler": "service_policy_match",
+    "defaults": {
+      "mode": "blocklist"
+    }
+  },
+  {
+    "id": "services_not_in_allowlist",
+    "title": "Services not in allowlist",
+    "description": "Shows services not present in the allowlist.",
+    "category": "services",
+    "tags": [
+      "service",
+      "allowlist"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/services_not_in_allowlist.js",
+    "handler": "service_policy_match",
+    "defaults": {
+      "mode": "not_in_allowlist"
+    }
+  },
+  {
+    "id": "start_service_by_name",
+    "title": "Start service by name",
+    "description": "Starts a service with confirmation.",
+    "category": "services",
+    "tags": [
+      "service",
+      "start"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [
+      "Starts a service"
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/start_service_by_name.js",
+    "handler": "service_change",
+    "defaults": {
+      "verb": "start"
+    }
+  },
+  {
+    "id": "stop_service_by_name",
+    "title": "Stop service by name",
+    "description": "Stops a service with confirmation.",
+    "category": "services",
+    "tags": [
+      "service",
+      "stop"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [
+      "Stops a service"
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/stop_service_by_name.js",
+    "handler": "service_change",
+    "defaults": {
+      "verb": "stop"
+    }
+  },
+  {
+    "id": "restart_service_by_name",
+    "title": "Restart service by name",
+    "description": "Restarts a service with confirmation.",
+    "category": "services",
+    "tags": [
+      "service",
+      "restart"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [
+      "Restarts a service"
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/restart_service_by_name.js",
+    "handler": "service_change",
+    "defaults": {
+      "verb": "restart"
+    }
+  },
+  {
+    "id": "service_csv_export",
+    "title": "Export services to CSV",
+    "description": "Exports service list to CSV.",
+    "category": "services",
+    "tags": [
+      "service",
+      "csv",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/service_csv_export.js",
+    "handler": "service_export",
+    "defaults": {}
+  },
+  {
+    "id": "service_json_export",
+    "title": "Export services to JSON",
+    "description": "Exports service list to JSON.",
+    "category": "services",
+    "tags": [
+      "service",
+      "json",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/services/service_json_export.js",
+    "handler": "service_export",
+    "defaults": {
+      "format": "json"
+    }
+  },
+  {
+    "id": "list_startup_entries",
+    "title": "List startup entries",
+    "description": "Lists startup entries and launch commands.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "list"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/list_startup_entries.js",
+    "handler": "startup_query",
+    "defaults": {}
+  },
+  {
+    "id": "startup_entry_count",
+    "title": "Startup entry count",
+    "description": "Counts startup entries.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "count"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_entry_count.js",
+    "handler": "startup_query",
+    "defaults": {
+      "countOnly": true
+    }
+  },
+  {
+    "id": "find_startup_entry",
+    "title": "Find startup entry",
+    "description": "Searches startup entries by name or command.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/find_startup_entry.js",
+    "handler": "startup_query",
+    "defaults": {
+      "queryMode": "contains"
+    }
+  },
+  {
+    "id": "startup_locations",
+    "title": "Startup locations",
+    "description": "Lists startup entry locations only.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "location"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_locations.js",
+    "handler": "startup_summary",
+    "defaults": {
+      "by": "location"
+    }
+  },
+  {
+    "id": "startup_by_user",
+    "title": "Startup by user",
+    "description": "Groups startup entries by user.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "user"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_by_user.js",
+    "handler": "startup_summary",
+    "defaults": {
+      "by": "user"
+    }
+  },
+  {
+    "id": "startup_command_search",
+    "title": "Startup command search",
+    "description": "Searches startup commands for text.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_command_search.js",
+    "handler": "startup_query",
+    "defaults": {
+      "queryField": "command"
+    }
+  },
+  {
+    "id": "startup_csv_export",
+    "title": "Export startup entries to CSV",
+    "description": "Exports startup entries to CSV.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "csv",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_csv_export.js",
+    "handler": "startup_export",
+    "defaults": {}
+  },
+  {
+    "id": "startup_json_export",
+    "title": "Export startup entries to JSON",
+    "description": "Exports startup entries to JSON.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "json",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_json_export.js",
+    "handler": "startup_export",
+    "defaults": {
+      "format": "json"
+    }
+  },
+  {
+    "id": "startup_name_summary",
+    "title": "Startup name summary",
+    "description": "Counts startup entries by name.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "summary"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_name_summary.js",
+    "handler": "startup_summary",
+    "defaults": {
+      "by": "name"
+    }
+  },
+  {
+    "id": "startup_duplicates",
+    "title": "Startup duplicates",
+    "description": "Shows duplicate startup entry names.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "duplicate"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/startup/startup_duplicates.js",
+    "handler": "startup_duplicates",
+    "defaults": {}
+  },
+  {
+    "id": "list_tcp_connections",
+    "title": "List TCP connections",
+    "description": "Lists TCP connections and endpoints.",
+    "category": "network",
+    "tags": [
+      "network",
+      "tcp"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/list_tcp_connections.js",
+    "handler": "network_query",
+    "defaults": {
+      "proto": "tcp"
+    }
+  },
+  {
+    "id": "list_udp_endpoints",
+    "title": "List UDP endpoints",
+    "description": "Lists UDP endpoints.",
+    "category": "network",
+    "tags": [
+      "network",
+      "udp"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/list_udp_endpoints.js",
+    "handler": "network_query",
+    "defaults": {
+      "proto": "udp"
+    }
+  },
+  {
+    "id": "list_listening_ports",
+    "title": "List listening ports",
+    "description": "Lists listening ports only.",
+    "category": "network",
+    "tags": [
+      "network",
+      "listen",
+      "ports"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/list_listening_ports.js",
+    "handler": "network_query",
+    "defaults": {
+      "listeningOnly": true
+    }
+  },
+  {
+    "id": "connection_count",
+    "title": "Connection count",
+    "description": "Counts active connections.",
+    "category": "network",
+    "tags": [
+      "network",
+      "count"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/connection_count.js",
+    "handler": "network_query",
+    "defaults": {
+      "countOnly": true
+    }
+  },
+  {
+    "id": "port_count",
+    "title": "Port count",
+    "description": "Counts unique local ports.",
+    "category": "network",
+    "tags": [
+      "network",
+      "count",
+      "ports"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/port_count.js",
+    "handler": "network_summary",
+    "defaults": {
+      "by": "local_port"
+    }
+  },
+  {
+    "id": "find_connection_by_pid",
+    "title": "Find connection by pid",
+    "description": "Finds connections by owning pid.",
+    "category": "network",
+    "tags": [
+      "network",
+      "pid"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/find_connection_by_pid.js",
+    "handler": "network_query",
+    "defaults": {
+      "pidRequired": true
+    }
+  },
+  {
+    "id": "find_connection_by_port",
+    "title": "Find connection by port",
+    "description": "Finds connections by local or remote port.",
+    "category": "network",
+    "tags": [
+      "network",
+      "port"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/find_connection_by_port.js",
+    "handler": "network_query",
+    "defaults": {
+      "portMatch": true
+    }
+  },
+  {
+    "id": "find_connection_by_process",
+    "title": "Find connection by process",
+    "description": "Finds connections by process name where available.",
+    "category": "network",
+    "tags": [
+      "network",
+      "process"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/find_connection_by_process.js",
+    "handler": "network_query",
+    "defaults": {
+      "queryField": "process_name"
+    }
+  },
+  {
+    "id": "connections_established",
+    "title": "Established connections",
+    "description": "Lists established TCP connections.",
+    "category": "network",
+    "tags": [
+      "network",
+      "established"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/connections_established.js",
+    "handler": "network_query",
+    "defaults": {
+      "state": "ESTABLISHED",
+      "proto": "tcp"
+    }
+  },
+  {
+    "id": "connections_time_wait",
+    "title": "TIME_WAIT connections",
+    "description": "Lists TIME_WAIT TCP connections.",
+    "category": "network",
+    "tags": [
+      "network",
+      "time_wait"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/connections_time_wait.js",
+    "handler": "network_query",
+    "defaults": {
+      "state": "TIME_WAIT",
+      "proto": "tcp"
+    }
+  },
+  {
+    "id": "remote_address_summary",
+    "title": "Remote address summary",
+    "description": "Counts connections by remote address.",
+    "category": "network",
+    "tags": [
+      "network",
+      "remote"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/remote_address_summary.js",
+    "handler": "network_summary",
+    "defaults": {
+      "by": "remote_address"
+    }
+  },
+  {
+    "id": "local_port_summary",
+    "title": "Local port summary",
+    "description": "Counts connections by local port.",
+    "category": "network",
+    "tags": [
+      "network",
+      "port"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/local_port_summary.js",
+    "handler": "network_summary",
+    "defaults": {
+      "by": "local_port"
+    }
+  },
+  {
+    "id": "pid_connection_counts",
+    "title": "PID connection counts",
+    "description": "Counts connections by pid.",
+    "category": "network",
+    "tags": [
+      "network",
+      "pid"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/pid_connection_counts.js",
+    "handler": "network_summary",
+    "defaults": {
+      "by": "pid"
+    }
+  },
+  {
+    "id": "suspicious_remote_ports",
+    "title": "Suspicious remote ports",
+    "description": "Filters remote connections with uncommon or high ports.",
+    "category": "network",
+    "tags": [
+      "network",
+      "suspicious"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/suspicious_remote_ports.js",
+    "handler": "network_query",
+    "defaults": {
+      "suspiciousRemotePorts": true
+    }
+  },
+  {
+    "id": "network_snapshot_save",
+    "title": "Save network snapshot",
+    "description": "Saves a network snapshot to JSON.",
+    "category": "network",
+    "tags": [
+      "network",
+      "snapshot"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/network_snapshot_save.js",
+    "handler": "network_snapshot_save",
+    "defaults": {}
+  },
+  {
+    "id": "network_snapshot_compare",
+    "title": "Compare network snapshots",
+    "description": "Compares two network snapshots.",
+    "category": "network",
+    "tags": [
+      "network",
+      "snapshot"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/network_snapshot_compare.js",
+    "handler": "network_snapshot_compare",
+    "defaults": {}
+  },
+  {
+    "id": "network_csv_export",
+    "title": "Export network data to CSV",
+    "description": "Exports connections to CSV.",
+    "category": "network",
+    "tags": [
+      "network",
+      "csv",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/network_csv_export.js",
+    "handler": "network_export",
+    "defaults": {}
+  },
+  {
+    "id": "network_json_export",
+    "title": "Export network data to JSON",
+    "description": "Exports connections to JSON.",
+    "category": "network",
+    "tags": [
+      "network",
+      "json",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/network/network_json_export.js",
+    "handler": "network_export",
+    "defaults": {
+      "format": "json"
+    }
+  },
+  {
+    "id": "system_summary",
+    "title": "System summary",
+    "description": "Returns OS, host, cpu, memory, and uptime summary.",
+    "category": "system",
+    "tags": [
+      "system",
+      "summary"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/system/system_summary.js",
+    "handler": "system_info",
+    "defaults": {
+      "kind": "summary"
+    }
+  },
+  {
+    "id": "memory_summary",
+    "title": "Memory summary",
+    "description": "Returns total and free memory summary.",
+    "category": "system",
+    "tags": [
+      "system",
+      "memory"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/system/memory_summary.js",
+    "handler": "system_info",
+    "defaults": {
+      "kind": "memory"
+    }
+  },
+  {
+    "id": "cpu_summary",
+    "title": "CPU summary",
+    "description": "Returns CPU model, count, load averages, and usage hints.",
+    "category": "system",
+    "tags": [
+      "system",
+      "cpu"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/system/cpu_summary.js",
+    "handler": "system_info",
+    "defaults": {
+      "kind": "cpu"
+    }
+  },
+  {
+    "id": "uptime_info",
+    "title": "Uptime info",
+    "description": "Returns system uptime.",
+    "category": "system",
+    "tags": [
+      "system",
+      "uptime"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/system/uptime_info.js",
+    "handler": "system_info",
+    "defaults": {
+      "kind": "uptime"
+    }
+  },
+  {
+    "id": "hostname_info",
+    "title": "Hostname info",
+    "description": "Returns hostname and platform identifiers.",
+    "category": "system",
+    "tags": [
+      "system",
+      "hostname"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/system/hostname_info.js",
+    "handler": "system_info",
+    "defaults": {
+      "kind": "hostname"
+    }
+  },
+  {
+    "id": "os_info",
+    "title": "OS info",
+    "description": "Returns platform, release, arch, and temp directory.",
+    "category": "system",
+    "tags": [
+      "system",
+      "os"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/system/os_info.js",
+    "handler": "system_info",
+    "defaults": {
+      "kind": "os"
+    }
+  },
+  {
+    "id": "temp_directory_info",
+    "title": "Temp directory info",
+    "description": "Returns temp directory details.",
+    "category": "system",
+    "tags": [
+      "system",
+      "temp"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/system/temp_directory_info.js",
+    "handler": "system_info",
+    "defaults": {
+      "kind": "tempdir"
+    }
+  },
+  {
+    "id": "list_temp_candidates",
+    "title": "List temp candidates",
+    "description": "Lists temp files under the temp directory.",
+    "category": "cleanup",
+    "tags": [
+      "temp",
+      "cleanup"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/cleanup/list_temp_candidates.js",
+    "handler": "temp_query",
+    "defaults": {}
+  },
+  {
+    "id": "temp_candidates_older_than_days",
+    "title": "Temp candidates older than days",
+    "description": "Lists temp files older than N days.",
+    "category": "cleanup",
+    "tags": [
+      "temp",
+      "cleanup",
+      "age"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/cleanup/temp_candidates_older_than_days.js",
+    "handler": "temp_query",
+    "defaults": {
+      "min_age_days": 7
+    }
+  },
+  {
+    "id": "clear_temp_candidates",
+    "title": "Clear temp candidates",
+    "description": "Deletes selected temp files with confirmation and dry-run support.",
+    "category": "cleanup",
+    "tags": [
+      "temp",
+      "cleanup",
+      "delete"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [
+      "Deletes temp files"
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/cleanup/clear_temp_candidates.js",
+    "handler": "temp_delete",
+    "defaults": {}
+  },
+  {
+    "id": "approval_requirements_report",
+    "title": "Approval requirements report",
+    "description": "Lists which tools require confirmation or dry-run.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "approval"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/approval_requirements_report.js",
+    "handler": "report_tool_summary",
+    "defaults": {
+      "mode": "approval"
+    }
+  },
+  {
+    "id": "critical_process_policy",
+    "title": "Critical process policy",
+    "description": "Shows built-in critical-process guard rules.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "critical"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/critical_process_policy.js",
+    "handler": "report_policy",
+    "defaults": {
+      "mode": "critical_processes"
+    }
+  },
+  {
+    "id": "tool_risk_summary",
+    "title": "Tool risk summary",
+    "description": "Counts tools by risk level.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "risk"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/tool_risk_summary.js",
+    "handler": "report_tool_summary",
+    "defaults": {
+      "mode": "risk"
+    }
+  },
+  {
+    "id": "tool_category_summary",
+    "title": "Tool category summary",
+    "description": "Counts tools by category.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "category"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/tool_category_summary.js",
+    "handler": "report_tool_summary",
+    "defaults": {
+      "mode": "category"
+    }
+  },
+  {
+    "id": "registry_search",
+    "title": "Registry search",
+    "description": "Searches the tool registry by id, title, description, tags, or intents.",
+    "category": "policy",
+    "tags": [
+      "registry",
+      "search"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/registry_search.js",
+    "handler": "registry_search",
+    "defaults": {}
+  },
+  {
+    "id": "tool_detail",
+    "title": "Tool detail",
+    "description": "Returns one tool definition by id.",
+    "category": "policy",
+    "tags": [
+      "registry",
+      "detail"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/tool_detail.js",
+    "handler": "tool_detail",
+    "defaults": {}
+  },
+  {
+    "id": "playbook_detail",
+    "title": "Playbook detail",
+    "description": "Returns a playbook definition by id.",
+    "category": "policy",
+    "tags": [
+      "playbook",
+      "detail"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/playbook_detail.js",
+    "handler": "playbook_detail",
+    "defaults": {}
+  },
+  {
+    "id": "safe_mode_report",
+    "title": "Safe mode report",
+    "description": "Shows safe read-only tools by category.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "safe"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/safe_mode_report.js",
+    "handler": "report_tool_summary",
+    "defaults": {
+      "mode": "safe"
+    }
+  },
+  {
+    "id": "preflight_for_process_action",
+    "title": "Preflight for process action",
+    "description": "Runs policy checks before a process-kill action.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "preflight"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/preflight_for_process_action.js",
+    "handler": "preflight_action",
+    "defaults": {
+      "scope": "process"
+    }
+  },
+  {
+    "id": "preflight_for_service_action",
+    "title": "Preflight for service action",
+    "description": "Runs policy checks before a service action.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "preflight"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/preflight_for_service_action.js",
+    "handler": "preflight_action",
+    "defaults": {
+      "scope": "service"
+    }
+  },
+  {
+    "id": "policy_export",
+    "title": "Policy export",
+    "description": "Exports a compact policy summary.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "export"
+    ],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Command unavailable on this OS.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "scripts/policy/policy_export.js",
+    "handler": "report_policy",
+    "defaults": {
+      "mode": "export"
+    }
+  }
+]

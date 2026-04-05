@@ -1,0 +1,337 @@
+{
+  "aliases": [
+    {
+      "alias": "12b3716abed867fd",
+      "aliasId": "hz.web.12b3716abed867fd.alias.1",
+      "canonical": "linkedinログイン | linkedin"
+    },
+    {
+      "alias": "linkedin linkedin",
+      "aliasId": "hz.web.12b3716abed867fd.alias.2",
+      "canonical": "linkedinログイン | linkedin"
+    },
+    {
+      "alias": "web 12b3716abed867fd",
+      "aliasId": "hz.web.12b3716abed867fd.alias.3",
+      "canonical": "linkedinログイン | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.62,
+  "docId": "hz.web.12b3716abed867fd",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.12b3716abed867fd.entity.1",
+      "kind": "document",
+      "name": "LinkedInログイン | LinkedIn",
+      "tokens": [
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.12b3716abed867fd.entity.2",
+      "kind": "heading",
+      "name": "LinkedInログイン | LinkedIn",
+      "tokens": [
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.12b3716abed867fd.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.12b3716abed867fd.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.12b3716abed867fd.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 69,
+      "charStart": 28,
+      "factId": "hz.web.12b3716abed867fd.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login/ja",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "ja"
+      ]
+    },
+    {
+      "charEnd": 429,
+      "charStart": 121,
+      "factId": "hz.web.12b3716abed867fd.fact.1",
+      "kind": "bullet",
+      "text": "LinkedInログイン | LinkedIn サインイン Appleでサインイン パスキーでサインイン [続行] をクリックすることにより、LinkedInの 利用規約 、 プライバシーポリシー 、 Cookieポリシー に同意したものとみなされます。 または メールまたは携帯番号 パスワード 表示 パスワードをお忘れの場合 ログインしたままにする サインイン ワンタイムリンクをプライマリメールアドレスに送信しました リンクをクリックしてLinkedInアカウントにサインインしてください。 メールが見つからない場合は、「迷惑メール」のフォルダーをご確認ください。 メールを再送 戻る 初めてご利用ですか?",
+      "tokens": [
+        "linkedin",
+        "linkedin",
+        "apple",
+        "linkedin",
+        "cookie",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 1289,
+      "charStart": 430,
+      "factId": "hz.web.12b3716abed867fd.fact.2",
+      "kind": "bullet",
+      "text": "ユーザー登録 同意してLinkedInに登録 [続行] をクリックすることにより、LinkedInの 利用規約 、 プライバシーポリシー 、 Cookieポリシー に同意したものとみなされます。 LinkedIn © 2026 利用規約 プライバシーポリシー カリフォルニア州のプライバシー権 コミュニティガイドライン Cookieポリシー 著作権ポリシー フィードバックを送信 言語 العربية (Arabic) বাংলা (Bangla) Čeština (Czech) Dansk (Danish) Deutsch (German) Ελληνικά (Greek) English (English) Español (Spanish) فارسی (Persian) Suomi (Finnish) Français (French) हिंदी (Hindi) Magyar (Hungarian) Bahasa Indonesia (Indonesian) Italiano (Italian) עברית (Hebrew) 日本語 (Japanese) 한국어 (Korean) मराठी (Marathi) Bahasa Malaysia (Malay) Nederlands (Dutch) Norsk (Norwegian) ਪੰਜਾਬੀ (Punjabi) Polski (Polish) Português (Portuguese) Română (Romanian) Русский (Russian) Svenska (Swedish) తెలుగు (Telugu) ภาษาไทย (Thai) Tagalog (Tagalog) Türkçe (Turkish) Українська (Ukrainian) Tiếng Việt (Vietnamese) 简体中文 (Chinese (Simplified)) 正體中文 (Chinese (Traditional))",
+      "tokens": [
+        "linkedin",
+        "linkedin",
+        "cookie",
+        "linkedin",
+        "2026",
+        "cookie",
+        "arabic",
+        "bangla",
+        "tina",
+        "czech",
+        "dansk",
+        "danish",
+        "deutsch",
+        "german",
+        "greek",
+        "english",
+        "english",
+        "espa",
+        "ol",
+        "spanish",
+        "persian",
+        "suomi",
+        "finnish",
+        "fran",
+        "ais",
+        "french",
+        "hindi",
+        "magyar",
+        "hungarian",
+        "bahasa",
+        "indonesia",
+        "indonesian",
+        "italiano",
+        "italian",
+        "hebrew",
+        "japanese",
+        "korean",
+        "marathi",
+        "bahasa",
+        "malaysia",
+        "malay",
+        "nederlands",
+        "dutch",
+        "norsk",
+        "norwegian",
+        "punjabi",
+        "polski",
+        "polish",
+        "portugu",
+        "portuguese",
+        "rom",
+        "romanian",
+        "russian",
+        "svenska",
+        "swedish",
+        "telugu",
+        "thai",
+        "tagalog",
+        "tagalog",
+        "rk",
+        "turkish",
+        "ukrainian",
+        "ti",
+        "ng",
+        "vi",
+        "vietnamese",
+        "chinese",
+        "simplified",
+        "chinese",
+        "traditional"
+      ]
+    },
+    {
+      "charEnd": 1314,
+      "charStart": 1304,
+      "factId": "hz.web.12b3716abed867fd.fact.3",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 1323,
+      "charStart": 1315,
+      "factId": "hz.web.12b3716abed867fd.fact.4",
+      "kind": "bullet",
+      "text": "cookie",
+      "tokens": [
+        "cookie"
+      ]
+    },
+    {
+      "charEnd": 1332,
+      "charStart": 1324,
+      "factId": "hz.web.12b3716abed867fd.fact.5",
+      "kind": "bullet",
+      "text": "bahasa",
+      "tokens": [
+        "bahasa"
+      ]
+    },
+    {
+      "charEnd": 1342,
+      "charStart": 1333,
+      "factId": "hz.web.12b3716abed867fd.fact.6",
+      "kind": "bullet",
+      "text": "chinese",
+      "tokens": [
+        "chinese"
+      ]
+    },
+    {
+      "charEnd": 1352,
+      "charStart": 1343,
+      "factId": "hz.web.12b3716abed867fd.fact.7",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    },
+    {
+      "charEnd": 1362,
+      "charStart": 1353,
+      "factId": "hz.web.12b3716abed867fd.fact.8",
+      "kind": "bullet",
+      "text": "tagalog",
+      "tokens": [
+        "tagalog"
+      ]
+    },
+    {
+      "charEnd": 1369,
+      "charStart": 1363,
+      "factId": "hz.web.12b3716abed867fd.fact.9",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1375,
+      "charStart": 1370,
+      "factId": "hz.web.12b3716abed867fd.fact.10",
+      "kind": "bullet",
+      "text": "ais",
+      "tokens": [
+        "ais"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.12b3716abed867fd.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedInログイン | LinkedIn"
+    },
+    {
+      "charEnd": 119,
+      "charStart": 109,
+      "headingId": "hz.web.12b3716abed867fd.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1302,
+      "charStart": 1291,
+      "headingId": "hz.web.12b3716abed867fd.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1387,
+      "charStart": 1377,
+      "headingId": "hz.web.12b3716abed867fd.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/12b3716abed867fd.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2794,
+        "start": 0
+      }
+    ],
+    "hash": "1a94286a8aad89c2220905c1baefd2f7904b56a2f8ab7ccf6583f901dc5adf3b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedInログイン | LinkedIn サインイン Appleでサインイン パスキーでサインイン [続行] をクリックすることにより、LinkedInの 利用規約 、 プライバシーポリシー 、 Cookieポリシー に同意したものとみなされます。 または メールまたは携帯番号 パスワード 表示 パスワードをお忘れの場合 ログインしたままにする サインイン ワンタイムリンクをプライマリメールアドレスに送信しました リンクをクリックしてLinkedInアカウントにサインインしてください。 メールが見つからない場合は、「迷惑メール」のフォルダーをご確認ください。 メールを再送 戻る 初めてご利用ですか?",
+      "ユーザー登録 同意してLinkedInに登録 [続行] をクリックすることにより、LinkedInの 利用規約 、 プライバシーポリシー 、 Cookieポリシー に同意したものとみなされます。 LinkedIn © 2026 利用規約 プライバシーポリシー カリフォルニア州のプライバシー権 コミュニティガイドライン Cookieポリシー 著作権ポリシー フィードバックを送信 言語 العربية (Arabic) বাংলা (Bangla) Čeština (Czech) Dansk (Danish) Deutsch (German) Ελληνικά (Greek) English (English) Español (Spanish) فارسی (Persian) Suomi (Finnish) Français (French) हिंदी (Hindi) Magyar (Hungarian) Bahasa Indonesia (Indonesian) Italiano (Italian) עברית (Hebrew) 日本語 (Japanese) 한국어 (Korean) मराठी (Marathi) Bahasa Malaysia (Malay) Nederlands (Dutch) Norsk (Norwegian) ਪੰਜਾਬੀ (Punjabi) Polski (Polish) Português (Portuguese) Română (Romanian) Русский (Russian) Svenska (Swedish) తెలుగు (Telugu) ภาษาไทย (Thai) Tagalog (Tagalog) Türkçe (Turkish) Українська (Ukrainian) Tiếng Việt (Vietnamese) 简体中文 (Chinese (Simplified)) 正體中文 (Chinese (Traditional))",
+      "linkedin"
+    ],
+    "medium": "Source: https://www.linkedin.com/login/ja",
+    "short": "Source: https://www.linkedin.com/login/ja",
+    "tokens": [
+      "linkedin",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "ja",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "ja"
+    ]
+  },
+  "title": "LinkedInログイン | LinkedIn"
+}

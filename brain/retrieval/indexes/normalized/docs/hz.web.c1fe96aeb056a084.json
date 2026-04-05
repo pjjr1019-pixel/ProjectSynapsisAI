@@ -1,0 +1,354 @@
+{
+  "aliases": [
+    {
+      "alias": "c1fe96aeb056a084",
+      "aliasId": "hz.web.c1fe96aeb056a084.alias.1",
+      "canonical": "community.atlassian.com"
+    },
+    {
+      "alias": "community.atlassian.com",
+      "aliasId": "hz.web.c1fe96aeb056a084.alias.2",
+      "canonical": "community.atlassian.com"
+    },
+    {
+      "alias": "web c1fe96aeb056a084",
+      "aliasId": "hz.web.c1fe96aeb056a084.alias.3",
+      "canonical": "community.atlassian.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.c1fe96aeb056a084",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c1fe96aeb056a084.entity.1",
+      "kind": "document",
+      "name": "community.atlassian.com",
+      "tokens": [
+        "community",
+        "atlassian",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.c1fe96aeb056a084.entity.2",
+      "kind": "heading",
+      "name": "community.atlassian.com",
+      "tokens": [
+        "community",
+        "atlassian",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.c1fe96aeb056a084.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c1fe96aeb056a084.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c1fe96aeb056a084.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 137,
+      "charStart": 28,
+      "factId": "hz.web.c1fe96aeb056a084.fact.1",
+      "kind": "summary",
+      "text": "Source: https://community.atlassian.com/forums/s/html/@047F93190ACD2AB38A763495904EB79C/assets/opensearch.xml",
+      "tokens": [
+        "source",
+        "https",
+        "community",
+        "atlassian",
+        "com",
+        "forums",
+        "html",
+        "047f93190acd2ab38a763495904eb79c",
+        "assets",
+        "opensearch",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 930,
+      "charStart": 189,
+      "factId": "hz.web.c1fe96aeb056a084.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>Atlassian Community</ShortName> <Description>Search Atlassian Community: Find answers, support, and inspiration from other Atlassian users</Description> <InputEncoding>UTF-8</InputEncoding> <Image width=\"16\" height=\"16\" type=\"image/x-icon\">https://tnckb94959.i.lithium.com/html/assets/favicon.png</Image> <Url type=\"text/html\" method=\"get\" template=\"https://community.atlassian.com/t5/forums/searchpage/tab/message?q={searchTerms}\" /> <Url type=\"application/rss+xml\" template=\"https://community.atlassian.com/rss/search?q={searchTerms}\"/> </OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "xmlns",
+        "moz",
+        "http",
+        "www",
+        "mozilla",
+        "org",
+        "2006",
+        "browser",
+        "search",
+        "shortname",
+        "atlassian",
+        "community",
+        "shortname",
+        "description",
+        "search",
+        "atlassian",
+        "community",
+        "find",
+        "answers",
+        "support",
+        "inspiration",
+        "other",
+        "atlassian",
+        "users",
+        "description",
+        "inputencoding",
+        "utf",
+        "inputencoding",
+        "image",
+        "width",
+        "16",
+        "height",
+        "16",
+        "type",
+        "image",
+        "icon",
+        "https",
+        "tnckb94959",
+        "lithium",
+        "com",
+        "html",
+        "assets",
+        "favicon",
+        "png",
+        "image",
+        "url",
+        "type",
+        "text",
+        "html",
+        "method",
+        "get",
+        "template",
+        "https",
+        "community",
+        "atlassian",
+        "com",
+        "t5",
+        "forums",
+        "searchpage",
+        "tab",
+        "message",
+        "searchterms",
+        "url",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "template",
+        "https",
+        "community",
+        "atlassian",
+        "com",
+        "rss",
+        "search",
+        "searchterms",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 956,
+      "charStart": 945,
+      "factId": "hz.web.c1fe96aeb056a084.fact.2",
+      "kind": "bullet",
+      "text": "atlassian",
+      "tokens": [
+        "atlassian"
+      ]
+    },
+    {
+      "charEnd": 962,
+      "charStart": 957,
+      "factId": "hz.web.c1fe96aeb056a084.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 974,
+      "charStart": 963,
+      "factId": "hz.web.c1fe96aeb056a084.fact.4",
+      "kind": "bullet",
+      "text": "community",
+      "tokens": [
+        "community"
+      ]
+    },
+    {
+      "charEnd": 982,
+      "charStart": 975,
+      "factId": "hz.web.c1fe96aeb056a084.fact.5",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 983,
+      "factId": "hz.web.c1fe96aeb056a084.fact.6",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 999,
+      "charStart": 991,
+      "factId": "hz.web.c1fe96aeb056a084.fact.7",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 1006,
+      "charStart": 1000,
+      "factId": "hz.web.c1fe96aeb056a084.fact.8",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 1011,
+      "charStart": 1007,
+      "factId": "hz.web.c1fe96aeb056a084.fact.9",
+      "kind": "bullet",
+      "text": "16",
+      "tokens": [
+        "16"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.c1fe96aeb056a084.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "community.atlassian.com"
+    },
+    {
+      "charEnd": 187,
+      "charStart": 177,
+      "headingId": "hz.web.c1fe96aeb056a084.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 943,
+      "charStart": 932,
+      "headingId": "hz.web.c1fe96aeb056a084.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1023,
+      "charStart": 1013,
+      "headingId": "hz.web.c1fe96aeb056a084.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/c1fe96aeb056a084.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2073,
+        "start": 0
+      }
+    ],
+    "hash": "36513695bf79d84119789c186ef0dba6b235869695ea70ed24539c66d10d0953",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\" ?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>Atlassian Community</ShortName> <Description>Search Atlassian Community: Find answers, support, and inspiration from other Atlassian users</Description> <InputEncoding>UTF-8</InputEncoding> <Image width=\"16\" height=\"16\" type=\"image/x-icon\">https://tnckb94959.i.lithium.com/html/assets/favicon.png</Image> <Url type=\"text/html\" method=\"get\" template=\"https://community.atlassian.com/t5/forums/searchpage/tab/message?q={searchTerms}\" /> <Url type=\"application/rss+xml\" template=\"https://community.atlassian.com/rss/search?q={searchTerms}\"/> </OpenSearchDescription>",
+      "atlassian",
+      "com"
+    ],
+    "medium": "Source: https://community.atlassian.com/forums/s/html/@047F93190ACD2AB38A763495904EB79C/assets/opensearch.xml",
+    "short": "Source: https://community.atlassian.com/forums/s/html/@047F93190ACD2AB38A763495904EB79C/assets/opensearch.xml",
+    "tokens": [
+      "community",
+      "atlassian",
+      "com",
+      "source",
+      "https",
+      "community",
+      "atlassian",
+      "com",
+      "forums",
+      "html",
+      "047f93190acd2ab38a763495904eb79c",
+      "assets",
+      "opensearch",
+      "xml",
+      "source",
+      "https",
+      "community",
+      "atlassian",
+      "com",
+      "forums",
+      "html",
+      "047f93190acd2ab38a763495904eb79c",
+      "assets",
+      "opensearch",
+      "xml"
+    ]
+  },
+  "title": "community.atlassian.com"
+}

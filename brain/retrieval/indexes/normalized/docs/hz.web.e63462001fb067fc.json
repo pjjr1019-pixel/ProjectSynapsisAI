@@ -1,0 +1,408 @@
+{
+  "aliases": [
+    {
+      "alias": "bylaws - arxiv info",
+      "aliasId": "hz.web.e63462001fb067fc.alias.1",
+      "canonical": "bylaws - arxiv info"
+    },
+    {
+      "alias": "e63462001fb067fc",
+      "aliasId": "hz.web.e63462001fb067fc.alias.2",
+      "canonical": "bylaws - arxiv info"
+    },
+    {
+      "alias": "web e63462001fb067fc",
+      "aliasId": "hz.web.e63462001fb067fc.alias.3",
+      "canonical": "bylaws - arxiv info"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.e63462001fb067fc",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e63462001fb067fc.entity.1",
+      "kind": "document",
+      "name": "Bylaws - arXiv info",
+      "tokens": [
+        "bylaws",
+        "arxiv",
+        "info"
+      ]
+    },
+    {
+      "entityId": "hz.web.e63462001fb067fc.entity.2",
+      "kind": "heading",
+      "name": "Bylaws - arXiv info",
+      "tokens": [
+        "bylaws",
+        "arxiv",
+        "info"
+      ]
+    },
+    {
+      "entityId": "hz.web.e63462001fb067fc.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e63462001fb067fc.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e63462001fb067fc.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 78,
+      "charStart": 24,
+      "factId": "hz.web.e63462001fb067fc.fact.1",
+      "kind": "summary",
+      "text": "Source: https://info.arxiv.org/about/arXiv_bylaws.html",
+      "tokens": [
+        "source",
+        "https",
+        "info",
+        "arxiv",
+        "org",
+        "about",
+        "arxiv_bylaws",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 299,
+      "charStart": 130,
+      "factId": "hz.web.e63462001fb067fc.fact.1",
+      "kind": "bullet",
+      "text": "Bylaws - arXiv info | arXiv e-print repository Skip to content We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors.",
+      "tokens": [
+        "bylaws",
+        "arxiv",
+        "info",
+        "arxiv",
+        "print",
+        "repository",
+        "skip",
+        "content",
+        "gratefully",
+        "acknowledge",
+        "support",
+        "simons",
+        "foundation",
+        "member",
+        "institutions",
+        "all",
+        "contributors"
+      ]
+    },
+    {
+      "charEnd": 924,
+      "charStart": 300,
+      "factId": "hz.web.e63462001fb067fc.fact.2",
+      "kind": "bullet",
+      "text": "arXiv info Bylaws Initializing search GitHub arXiv info GitHub Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+      "tokens": [
+        "arxiv",
+        "info",
+        "bylaws",
+        "initializing",
+        "search",
+        "github",
+        "arxiv",
+        "info",
+        "github",
+        "permission",
+        "hereby",
+        "granted",
+        "free",
+        "charge",
+        "any",
+        "person",
+        "obtaining",
+        "copy",
+        "software",
+        "associated",
+        "documentation",
+        "files",
+        "software",
+        "deal",
+        "software",
+        "without",
+        "restriction",
+        "including",
+        "without",
+        "limitation",
+        "rights",
+        "use",
+        "copy",
+        "modify",
+        "merge",
+        "publish",
+        "distribute",
+        "sublicense",
+        "sell",
+        "copies",
+        "software",
+        "permit",
+        "persons",
+        "whom",
+        "software",
+        "furnished",
+        "so",
+        "subject",
+        "following",
+        "conditions",
+        "above",
+        "copyright",
+        "notice",
+        "permission",
+        "notice",
+        "shall",
+        "included",
+        "all",
+        "copies",
+        "substantial",
+        "portions",
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1129,
+      "charStart": 925,
+      "factId": "hz.web.e63462001fb067fc.fact.3",
+      "kind": "bullet",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.",
+      "tokens": [
+        "software",
+        "provided",
+        "without",
+        "warranty",
+        "any",
+        "kind",
+        "express",
+        "implied",
+        "including",
+        "but",
+        "not",
+        "limited",
+        "warranties",
+        "merchantability",
+        "fitness",
+        "particular",
+        "purpose",
+        "non",
+        "infringement"
+      ]
+    },
+    {
+      "charEnd": 1390,
+      "charStart": 1130,
+      "factId": "hz.web.e63462001fb067fc.fact.4",
+      "kind": "bullet",
+      "text": "IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+      "tokens": [
+        "no",
+        "event",
+        "shall",
+        "authors",
+        "copyright",
+        "holders",
+        "liable",
+        "any",
+        "claim",
+        "damages",
+        "other",
+        "liability",
+        "whether",
+        "action",
+        "contract",
+        "tort",
+        "otherwise",
+        "arising",
+        "out",
+        "connection",
+        "software",
+        "use",
+        "other",
+        "dealings",
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1415,
+      "charStart": 1405,
+      "factId": "hz.web.e63462001fb067fc.fact.5",
+      "kind": "bullet",
+      "text": "advisory",
+      "tokens": [
+        "advisory"
+      ]
+    },
+    {
+      "charEnd": 1423,
+      "charStart": 1416,
+      "factId": "hz.web.e63462001fb067fc.fact.6",
+      "kind": "bullet",
+      "text": "arxiv",
+      "tokens": [
+        "arxiv"
+      ]
+    },
+    {
+      "charEnd": 1434,
+      "charStart": 1424,
+      "factId": "hz.web.e63462001fb067fc.fact.7",
+      "kind": "bullet",
+      "text": "software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1444,
+      "charStart": 1435,
+      "factId": "hz.web.e63462001fb067fc.fact.8",
+      "kind": "bullet",
+      "text": "council",
+      "tokens": [
+        "council"
+      ]
+    },
+    {
+      "charEnd": 1456,
+      "charStart": 1445,
+      "factId": "hz.web.e63462001fb067fc.fact.9",
+      "kind": "bullet",
+      "text": "executive",
+      "tokens": [
+        "executive"
+      ]
+    },
+    {
+      "charEnd": 1467,
+      "charStart": 1457,
+      "factId": "hz.web.e63462001fb067fc.fact.10",
+      "kind": "bullet",
+      "text": "director",
+      "tokens": [
+        "director"
+      ]
+    },
+    {
+      "charEnd": 1473,
+      "charStart": 1468,
+      "factId": "hz.web.e63462001fb067fc.fact.11",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 1480,
+      "charStart": 1474,
+      "factId": "hz.web.e63462001fb067fc.fact.12",
+      "kind": "bullet",
+      "text": "will",
+      "tokens": [
+        "will"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.e63462001fb067fc.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Bylaws - arXiv info"
+    },
+    {
+      "charEnd": 128,
+      "charStart": 118,
+      "headingId": "hz.web.e63462001fb067fc.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1403,
+      "charStart": 1392,
+      "headingId": "hz.web.e63462001fb067fc.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1492,
+      "charStart": 1482,
+      "headingId": "hz.web.e63462001fb067fc.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e63462001fb067fc.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4744,
+        "start": 0
+      }
+    ],
+    "hash": "b30f9fdbf0d0f9ece8b27218ac02c87f0614557e617f5b57285a7f3a516fd170",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Bylaws - arXiv info | arXiv e-print repository Skip to content We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors.",
+      "arXiv info Bylaws Initializing search GitHub arXiv info GitHub Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+      "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT."
+    ],
+    "medium": "Source: https://info.arxiv.org/about/arXiv_bylaws.html",
+    "short": "Source: https://info.arxiv.org/about/arXiv_bylaws.html",
+    "tokens": [
+      "bylaws",
+      "arxiv",
+      "info",
+      "source",
+      "https",
+      "info",
+      "arxiv",
+      "org",
+      "about",
+      "arxiv_bylaws",
+      "html",
+      "source",
+      "https",
+      "info",
+      "arxiv",
+      "org",
+      "about",
+      "arxiv_bylaws",
+      "html"
+    ]
+  },
+  "title": "Bylaws - arXiv info"
+}

@@ -1,0 +1,405 @@
+{
+  "aliases": [
+    {
+      "alias": "027792184b073bdf",
+      "aliasId": "hz.web.027792184b073bdf.alias.1",
+      "canonical": "harvard business school"
+    },
+    {
+      "alias": "harvard business school",
+      "aliasId": "hz.web.027792184b073bdf.alias.2",
+      "canonical": "harvard business school"
+    },
+    {
+      "alias": "web 027792184b073bdf",
+      "aliasId": "hz.web.027792184b073bdf.alias.3",
+      "canonical": "harvard business school"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.027792184b073bdf",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.027792184b073bdf.entity.1",
+      "kind": "document",
+      "name": "Harvard Business School",
+      "tokens": [
+        "harvard",
+        "business",
+        "school"
+      ]
+    },
+    {
+      "entityId": "hz.web.027792184b073bdf.entity.2",
+      "kind": "heading",
+      "name": "Harvard Business School",
+      "tokens": [
+        "harvard",
+        "business",
+        "school"
+      ]
+    },
+    {
+      "entityId": "hz.web.027792184b073bdf.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.027792184b073bdf.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.027792184b073bdf.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 28,
+      "factId": "hz.web.027792184b073bdf.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.hbs.edu/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "hbs",
+        "edu"
+      ]
+    },
+    {
+      "charEnd": 821,
+      "charStart": 107,
+      "factId": "hz.web.027792184b073bdf.fact.1",
+      "kind": "bullet",
+      "text": "Harvard Business School Skip to Main Content Harvard Business School Academic Programs MBA Doctoral Programs Executive Education Online Faculty & Research Faculty Research Research Topics Academic Units Initiatives & Projects Baker Library Alumni Alumni Directory Stories Lifelong Learning Careers Programs & Events Giving Insights Working Knowledge Podcasts Faculty Publications Harvard Business Review About History Annual Report Campus & Culture Commencement Leadership Newsroom Events Contact More More Academic Programs Back Academic Programs Combining bold ideas, powerful pedagogy, and collaborative cohort-based learning to deliver unparalleled management education and foster lifelong learning networks.",
+      "tokens": [
+        "harvard",
+        "business",
+        "school",
+        "skip",
+        "main",
+        "content",
+        "harvard",
+        "business",
+        "school",
+        "academic",
+        "programs",
+        "mba",
+        "doctoral",
+        "programs",
+        "executive",
+        "education",
+        "online",
+        "faculty",
+        "research",
+        "faculty",
+        "research",
+        "research",
+        "topics",
+        "academic",
+        "units",
+        "initiatives",
+        "projects",
+        "baker",
+        "library",
+        "alumni",
+        "alumni",
+        "directory",
+        "stories",
+        "lifelong",
+        "learning",
+        "careers",
+        "programs",
+        "events",
+        "giving",
+        "insights",
+        "working",
+        "knowledge",
+        "podcasts",
+        "faculty",
+        "publications",
+        "harvard",
+        "business",
+        "review",
+        "about",
+        "history",
+        "annual",
+        "report",
+        "campus",
+        "culture",
+        "commencement",
+        "leadership",
+        "newsroom",
+        "events",
+        "contact",
+        "more",
+        "more",
+        "academic",
+        "programs",
+        "back",
+        "academic",
+        "programs",
+        "combining",
+        "bold",
+        "ideas",
+        "powerful",
+        "pedagogy",
+        "collaborative",
+        "cohort",
+        "based",
+        "learning",
+        "deliver",
+        "unparalleled",
+        "management",
+        "education",
+        "foster",
+        "lifelong",
+        "learning",
+        "networks"
+      ]
+    },
+    {
+      "charEnd": 863,
+      "charStart": 822,
+      "factId": "hz.web.027792184b073bdf.fact.2",
+      "kind": "bullet",
+      "text": "MBA Program Back MBA Program Two Years.",
+      "tokens": [
+        "mba",
+        "program",
+        "back",
+        "mba",
+        "program",
+        "two",
+        "years"
+      ]
+    },
+    {
+      "charEnd": 888,
+      "charStart": 864,
+      "factId": "hz.web.027792184b073bdf.fact.3",
+      "kind": "bullet",
+      "text": "A World of Difference.",
+      "tokens": [
+        "world",
+        "difference"
+      ]
+    },
+    {
+      "charEnd": 1224,
+      "charStart": 889,
+      "factId": "hz.web.027792184b073bdf.fact.4",
+      "kind": "bullet",
+      "text": "Academic Experience Entrepreneurship Student Life Career Path Admissions Commencement Financial Aid Doctoral Programs Back Doctoral Programs New ideas for a changing world Overview PhD Programs Research Community Admissions & Financial Support Placement Executive Education Back Executive Education Breakthrough learning for leaders.",
+      "tokens": [
+        "academic",
+        "experience",
+        "entrepreneurship",
+        "student",
+        "life",
+        "career",
+        "path",
+        "admissions",
+        "commencement",
+        "financial",
+        "aid",
+        "doctoral",
+        "programs",
+        "back",
+        "doctoral",
+        "programs",
+        "new",
+        "ideas",
+        "changing",
+        "world",
+        "overview",
+        "phd",
+        "programs",
+        "research",
+        "community",
+        "admissions",
+        "financial",
+        "support",
+        "placement",
+        "executive",
+        "education",
+        "back",
+        "executive",
+        "education",
+        "breakthrough",
+        "learning",
+        "leaders"
+      ]
+    },
+    {
+      "charEnd": 1249,
+      "charStart": 1239,
+      "factId": "hz.web.027792184b073bdf.fact.5",
+      "kind": "bullet",
+      "text": "business",
+      "tokens": [
+        "business"
+      ]
+    },
+    {
+      "charEnd": 1256,
+      "charStart": 1250,
+      "factId": "hz.web.027792184b073bdf.fact.6",
+      "kind": "bullet",
+      "text": "back",
+      "tokens": [
+        "back"
+      ]
+    },
+    {
+      "charEnd": 1262,
+      "charStart": 1257,
+      "factId": "hz.web.027792184b073bdf.fact.7",
+      "kind": "bullet",
+      "text": "hbs",
+      "tokens": [
+        "hbs"
+      ]
+    },
+    {
+      "charEnd": 1273,
+      "charStart": 1263,
+      "factId": "hz.web.027792184b073bdf.fact.8",
+      "kind": "bullet",
+      "text": "research",
+      "tokens": [
+        "research"
+      ]
+    },
+    {
+      "charEnd": 1284,
+      "charStart": 1274,
+      "factId": "hz.web.027792184b073bdf.fact.9",
+      "kind": "bullet",
+      "text": "programs",
+      "tokens": [
+        "programs"
+      ]
+    },
+    {
+      "charEnd": 1294,
+      "charStart": 1285,
+      "factId": "hz.web.027792184b073bdf.fact.10",
+      "kind": "bullet",
+      "text": "harvard",
+      "tokens": [
+        "harvard"
+      ]
+    },
+    {
+      "charEnd": 1305,
+      "charStart": 1295,
+      "factId": "hz.web.027792184b073bdf.fact.11",
+      "kind": "bullet",
+      "text": "learning",
+      "tokens": [
+        "learning"
+      ]
+    },
+    {
+      "charEnd": 1313,
+      "charStart": 1306,
+      "factId": "hz.web.027792184b073bdf.fact.12",
+      "kind": "bullet",
+      "text": "world",
+      "tokens": [
+        "world"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.027792184b073bdf.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Harvard Business School"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.027792184b073bdf.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1237,
+      "charStart": 1226,
+      "headingId": "hz.web.027792184b073bdf.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1325,
+      "charStart": 1315,
+      "headingId": "hz.web.027792184b073bdf.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/027792184b073bdf.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4554,
+        "start": 0
+      }
+    ],
+    "hash": "105ea5d19f8acd203c0773d5518fcab16ae343a87fdd2ae0694e7da6ad66e466",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Harvard Business School Skip to Main Content Harvard Business School Academic Programs MBA Doctoral Programs Executive Education Online Faculty & Research Faculty Research Research Topics Academic Units Initiatives & Projects Baker Library Alumni Alumni Directory Stories Lifelong Learning Careers Programs & Events Giving Insights Working Knowledge Podcasts Faculty Publications Harvard Business Review About History Annual Report Campus & Culture Commencement Leadership Newsroom Events Contact More More Academic Programs Back Academic Programs Combining bold ideas, powerful pedagogy, and collaborative cohort-based learning to deliver unparalleled management education and foster lifelong learning networks.",
+      "MBA Program Back MBA Program Two Years.",
+      "A World of Difference."
+    ],
+    "medium": "Source: http://www.hbs.edu/",
+    "short": "Source: http://www.hbs.edu/",
+    "tokens": [
+      "harvard",
+      "business",
+      "school",
+      "source",
+      "http",
+      "www",
+      "hbs",
+      "edu",
+      "source",
+      "http",
+      "www",
+      "hbs",
+      "edu"
+    ]
+  },
+  "title": "Harvard Business School"
+}

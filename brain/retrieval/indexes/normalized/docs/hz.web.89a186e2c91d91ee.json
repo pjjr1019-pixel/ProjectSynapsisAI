@@ -1,0 +1,401 @@
+{
+  "aliases": [
+    {
+      "alias": "89a186e2c91d91ee",
+      "aliasId": "hz.web.89a186e2c91d91ee.alias.1",
+      "canonical": "use.typekit.net"
+    },
+    {
+      "alias": "use.typekit.net",
+      "aliasId": "hz.web.89a186e2c91d91ee.alias.2",
+      "canonical": "use.typekit.net"
+    },
+    {
+      "alias": "web 89a186e2c91d91ee",
+      "aliasId": "hz.web.89a186e2c91d91ee.alias.3",
+      "canonical": "use.typekit.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.89a186e2c91d91ee",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.89a186e2c91d91ee.entity.1",
+      "kind": "document",
+      "name": "use.typekit.net",
+      "tokens": [
+        "use",
+        "typekit",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.89a186e2c91d91ee.entity.2",
+      "kind": "heading",
+      "name": "use.typekit.net",
+      "tokens": [
+        "use",
+        "typekit",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.89a186e2c91d91ee.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.89a186e2c91d91ee.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.89a186e2c91d91ee.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 63,
+      "charStart": 20,
+      "factId": "hz.web.89a186e2c91d91ee.fact.1",
+      "kind": "summary",
+      "text": "Source: https://use.typekit.net/kkn2tyz.css",
+      "tokens": [
+        "source",
+        "https",
+        "use",
+        "typekit",
+        "net",
+        "kkn2tyz",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 307,
+      "charStart": 115,
+      "factId": "hz.web.89a186e2c91d91ee.fact.1",
+      "kind": "bullet",
+      "text": "/* * The Typekit service used to deliver this font or fonts for use on websites * is provided by Adobe and is subject to these Terms of Use * http://www.adobe.com/products/eulas/tou_typekit.",
+      "tokens": [
+        "typekit",
+        "service",
+        "used",
+        "deliver",
+        "font",
+        "fonts",
+        "use",
+        "websites",
+        "provided",
+        "adobe",
+        "subject",
+        "these",
+        "terms",
+        "use",
+        "http",
+        "www",
+        "adobe",
+        "com",
+        "products",
+        "eulas",
+        "tou_typekit"
+      ]
+    },
+    {
+      "charEnd": 361,
+      "charStart": 308,
+      "factId": "hz.web.89a186e2c91d91ee.fact.2",
+      "kind": "bullet",
+      "text": "For font license * information, see the list below.",
+      "tokens": [
+        "font",
+        "license",
+        "information",
+        "see",
+        "list",
+        "below"
+      ]
+    },
+    {
+      "charEnd": 1276,
+      "charStart": 362,
+      "factId": "hz.web.89a186e2c91d91ee.fact.3",
+      "kind": "bullet",
+      "text": "* * freight-sans-pro: * - http://typekit.com/eulas/000000000000000000010b5a * - http://typekit.com/eulas/000000000000000000010b5b * - http://typekit.com/eulas/000000000000000000010b60 * - http://typekit.com/eulas/000000000000000000010b5c * - http://typekit.com/eulas/000000000000000000010b5d * - http://typekit.com/eulas/000000000000000000010b5e * - http://typekit.com/eulas/000000000000000000010b62 * freight-text-pro: * - http://typekit.com/eulas/000000000000000000012059 * - http://typekit.com/eulas/00000000000000000001205a * - http://typekit.com/eulas/00000000000000000001205b * - http://typekit.com/eulas/000000000000000077359fbd * - http://typekit.com/eulas/000000000000000077359fc0 * - http://typekit.com/eulas/000000000000000077359fcb * ibm-plex-mono: * - http://typekit.com/eulas/00000000000000007735944d * - http://typekit.com/eulas/00000000000000007735945e * * © 2009-2026 Adobe Systems Incorporated.",
+      "tokens": [
+        "freight",
+        "sans",
+        "pro",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000010b5a",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000010b5b",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000010b60",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000010b5c",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000010b5d",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000010b5e",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000010b62",
+        "freight",
+        "text",
+        "pro",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000000012059",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "00000000000000000001205a",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "00000000000000000001205b",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000077359fbd",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000077359fc0",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "000000000000000077359fcb",
+        "ibm",
+        "plex",
+        "mono",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "00000000000000007735944d",
+        "http",
+        "typekit",
+        "com",
+        "eulas",
+        "00000000000000007735945e",
+        "2009",
+        "2026",
+        "adobe",
+        "systems",
+        "incorporated"
+      ]
+    },
+    {
+      "charEnd": 1299,
+      "charStart": 1277,
+      "factId": "hz.web.89a186e2c91d91ee.fact.4",
+      "kind": "bullet",
+      "text": "All Rights Reserved.",
+      "tokens": [
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 1320,
+      "charStart": 1314,
+      "factId": "hz.web.89a186e2c91d91ee.fact.5",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1330,
+      "charStart": 1321,
+      "factId": "hz.web.89a186e2c91d91ee.fact.6",
+      "kind": "bullet",
+      "text": "typekit",
+      "tokens": [
+        "typekit"
+      ]
+    },
+    {
+      "charEnd": 1336,
+      "charStart": 1331,
+      "factId": "hz.web.89a186e2c91d91ee.fact.7",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 1344,
+      "charStart": 1337,
+      "factId": "hz.web.89a186e2c91d91ee.fact.8",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1350,
+      "charStart": 1345,
+      "factId": "hz.web.89a186e2c91d91ee.fact.9",
+      "kind": "bullet",
+      "text": "net",
+      "tokens": [
+        "net"
+      ]
+    },
+    {
+      "charEnd": 1356,
+      "charStart": 1351,
+      "factId": "hz.web.89a186e2c91d91ee.fact.10",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    },
+    {
+      "charEnd": 1423,
+      "charStart": 1357,
+      "factId": "hz.web.89a186e2c91d91ee.fact.11",
+      "kind": "bullet",
+      "text": "7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191",
+      "tokens": [
+        "7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191"
+      ]
+    },
+    {
+      "charEnd": 1428,
+      "charStart": 1424,
+      "factId": "hz.web.89a186e2c91d91ee.fact.12",
+      "kind": "bullet",
+      "text": "af",
+      "tokens": [
+        "af"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.89a186e2c91d91ee.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "use.typekit.net"
+    },
+    {
+      "charEnd": 113,
+      "charStart": 103,
+      "headingId": "hz.web.89a186e2c91d91ee.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1312,
+      "charStart": 1301,
+      "headingId": "hz.web.89a186e2c91d91ee.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1440,
+      "charStart": 1430,
+      "headingId": "hz.web.89a186e2c91d91ee.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/89a186e2c91d91ee.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4677,
+        "start": 0
+      }
+    ],
+    "hash": "b5075b0fd23c98affe0ff2a187dad7bdf7c6352add4ac8cf552b2a31653cc91c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* * The Typekit service used to deliver this font or fonts for use on websites * is provided by Adobe and is subject to these Terms of Use * http://www.adobe.com/products/eulas/tou_typekit.",
+      "For font license * information, see the list below.",
+      "* * freight-sans-pro: * - http://typekit.com/eulas/000000000000000000010b5a * - http://typekit.com/eulas/000000000000000000010b5b * - http://typekit.com/eulas/000000000000000000010b60 * - http://typekit.com/eulas/000000000000000000010b5c * - http://typekit.com/eulas/000000000000000000010b5d * - http://typekit.com/eulas/000000000000000000010b5e * - http://typekit.com/eulas/000000000000000000010b62 * freight-text-pro: * - http://typekit.com/eulas/000000000000000000012059 * - http://typekit.com/eulas/00000000000000000001205a * - http://typekit.com/eulas/00000000000000000001205b * - http://typekit.com/eulas/000000000000000077359fbd * - http://typekit.com/eulas/000000000000000077359fc0 * - http://typekit.com/eulas/000000000000000077359fcb * ibm-plex-mono: * - http://typekit.com/eulas/00000000000000007735944d * - http://typekit.com/eulas/00000000000000007735945e * * © 2009-2026 Adobe Systems Incorporated."
+    ],
+    "medium": "Source: https://use.typekit.net/kkn2tyz.css",
+    "short": "Source: https://use.typekit.net/kkn2tyz.css",
+    "tokens": [
+      "use",
+      "typekit",
+      "net",
+      "source",
+      "https",
+      "use",
+      "typekit",
+      "net",
+      "kkn2tyz",
+      "css",
+      "source",
+      "https",
+      "use",
+      "typekit",
+      "net",
+      "kkn2tyz",
+      "css"
+    ]
+  },
+  "title": "use.typekit.net"
+}

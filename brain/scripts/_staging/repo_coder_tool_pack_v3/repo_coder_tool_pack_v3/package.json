@@ -1,0 +1,14 @@
+{
+  "name": "repo-coder-tool-pack-v3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny repo/coder-ai support tools with fast registry lookup.",
+  "type": "commonjs",
+  "bin": {
+    "repo-tools": "./run-tool.js"
+  },
+  "scripts": {
+    "list": "node run-tool.js registry_search",
+    "demo": "node run-tool.js generate_low_token_pack --path ."
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "aliases": [
+    {
+      "alias": "6925fce17e76dc9c",
+      "aliasId": "hz.web.6925fce17e76dc9c.alias.1",
+      "canonical": "business: us &amp; international top business news | ap news"
+    },
+    {
+      "alias": "business us amp international top business news ap news",
+      "aliasId": "hz.web.6925fce17e76dc9c.alias.2",
+      "canonical": "business: us &amp; international top business news | ap news"
+    },
+    {
+      "alias": "web 6925fce17e76dc9c",
+      "aliasId": "hz.web.6925fce17e76dc9c.alias.3",
+      "canonical": "business: us &amp; international top business news | ap news"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.6925fce17e76dc9c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6925fce17e76dc9c.entity.1",
+      "kind": "document",
+      "name": "Business: US &amp; International Top Business News | AP News",
+      "tokens": [
+        "business",
+        "us",
+        "amp",
+        "international",
+        "top",
+        "business",
+        "news",
+        "ap",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.6925fce17e76dc9c.entity.2",
+      "kind": "heading",
+      "name": "Business: US &amp; International Top Business News | AP News",
+      "tokens": [
+        "business",
+        "us",
+        "amp",
+        "international",
+        "top",
+        "business",
+        "news",
+        "ap",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.6925fce17e76dc9c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6925fce17e76dc9c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6925fce17e76dc9c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 104,
+      "charStart": 65,
+      "factId": "hz.web.6925fce17e76dc9c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://apnews.com/hub/business",
+      "tokens": [
+        "source",
+        "https",
+        "apnews",
+        "com",
+        "hub",
+        "business"
+      ]
+    },
+    {
+      "charEnd": 695,
+      "charStart": 156,
+      "factId": "hz.web.6925fce17e76dc9c.fact.1",
+      "kind": "bullet",
+      "text": "Business: US & International Top Business News | AP News Menu World SECTIONS Iran war Russia-Ukraine war Español China Asia Pacific Latin America Europe Africa TOP STORIES LIVE Rubio lashes out at Spain and other NATO allies over lack of support for Iran war Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade Trump again threatens widespread destruction in Iran if a deal is not reached 'shortly' Newsletters The Morning Wire Our flagship newsletter breaks down the biggest headlines of the day.",
+      "tokens": [
+        "business",
+        "us",
+        "international",
+        "top",
+        "business",
+        "news",
+        "ap",
+        "news",
+        "menu",
+        "world",
+        "sections",
+        "iran",
+        "war",
+        "russia",
+        "ukraine",
+        "war",
+        "espa",
+        "ol",
+        "china",
+        "asia",
+        "pacific",
+        "latin",
+        "america",
+        "europe",
+        "africa",
+        "top",
+        "stories",
+        "live",
+        "rubio",
+        "lashes",
+        "out",
+        "spain",
+        "other",
+        "nato",
+        "allies",
+        "over",
+        "lack",
+        "support",
+        "iran",
+        "war",
+        "trump",
+        "says",
+        "he",
+        "has",
+        "no",
+        "problem",
+        "russian",
+        "tanker",
+        "bringing",
+        "oil",
+        "cuba",
+        "despite",
+        "us",
+        "blockade",
+        "trump",
+        "again",
+        "threatens",
+        "widespread",
+        "destruction",
+        "iran",
+        "if",
+        "deal",
+        "not",
+        "reached",
+        "shortly",
+        "newsletters",
+        "morning",
+        "wire",
+        "our",
+        "flagship",
+        "newsletter",
+        "breaks",
+        "down",
+        "biggest",
+        "headlines",
+        "day"
+      ]
+    },
+    {
+      "charEnd": 778,
+      "charStart": 696,
+      "factId": "hz.web.6925fce17e76dc9c.fact.2",
+      "kind": "bullet",
+      "text": "The Afternoon Wire Get caught up on what you may have missed throughout the day.",
+      "tokens": [
+        "afternoon",
+        "wire",
+        "get",
+        "caught",
+        "up",
+        "may",
+        "have",
+        "missed",
+        "throughout",
+        "day"
+      ]
+    },
+    {
+      "charEnd": 805,
+      "charStart": 779,
+      "factId": "hz.web.6925fce17e76dc9c.fact.3",
+      "kind": "bullet",
+      "text": "See All Newsletters U.S.",
+      "tokens": [
+        "see",
+        "all",
+        "newsletters"
+      ]
+    },
+    {
+      "charEnd": 1259,
+      "charStart": 806,
+      "factId": "hz.web.6925fce17e76dc9c.fact.4",
+      "kind": "bullet",
+      "text": "SECTIONS Immigration Weather Education Transportation Abortion LGBTQ+ Notable Deaths TOP STORIES Student shoots a teacher at Texas high school before fatally shooting self, authorities say Founder of 'orgasmic meditation’ company gets 9 years in prison in forced labor conspiracy Airport bottlenecks ease as TSA workers get paid, but shutdown continues Newsletters The Morning Wire Our flagship newsletter breaks down the biggest headlines of the day.",
+      "tokens": [
+        "sections",
+        "immigration",
+        "weather",
+        "education",
+        "transportation",
+        "abortion",
+        "lgbtq",
+        "notable",
+        "deaths",
+        "top",
+        "stories",
+        "student",
+        "shoots",
+        "teacher",
+        "texas",
+        "high",
+        "school",
+        "before",
+        "fatally",
+        "shooting",
+        "self",
+        "authorities",
+        "say",
+        "founder",
+        "orgasmic",
+        "meditation",
+        "company",
+        "gets",
+        "years",
+        "prison",
+        "forced",
+        "labor",
+        "conspiracy",
+        "airport",
+        "bottlenecks",
+        "ease",
+        "tsa",
+        "workers",
+        "get",
+        "paid",
+        "but",
+        "shutdown",
+        "continues",
+        "newsletters",
+        "morning",
+        "wire",
+        "our",
+        "flagship",
+        "newsletter",
+        "breaks",
+        "down",
+        "biggest",
+        "headlines",
+        "day"
+      ]
+    },
+    {
+      "charEnd": 1278,
+      "charStart": 1274,
+      "factId": "hz.web.6925fce17e76dc9c.fact.5",
+      "kind": "bullet",
+      "text": "ap",
+      "tokens": [
+        "ap"
+      ]
+    },
+    {
+      "charEnd": 1284,
+      "charStart": 1279,
+      "factId": "hz.web.6925fce17e76dc9c.fact.6",
+      "kind": "bullet",
+      "text": "top",
+      "tokens": [
+        "top"
+      ]
+    },
+    {
+      "charEnd": 1294,
+      "charStart": 1285,
+      "factId": "hz.web.6925fce17e76dc9c.fact.7",
+      "kind": "bullet",
+      "text": "stories",
+      "tokens": [
+        "stories"
+      ]
+    },
+    {
+      "charEnd": 1304,
+      "charStart": 1295,
+      "factId": "hz.web.6925fce17e76dc9c.fact.8",
+      "kind": "bullet",
+      "text": "climate",
+      "tokens": [
+        "climate"
+      ]
+    },
+    {
+      "charEnd": 1318,
+      "charStart": 1305,
+      "factId": "hz.web.6925fce17e76dc9c.fact.9",
+      "kind": "bullet",
+      "text": "newsletters",
+      "tokens": [
+        "newsletters"
+      ]
+    },
+    {
+      "charEnd": 1329,
+      "charStart": 1319,
+      "factId": "hz.web.6925fce17e76dc9c.fact.10",
+      "kind": "bullet",
+      "text": "sections",
+      "tokens": [
+        "sections"
+      ]
+    },
+    {
+      "charEnd": 1337,
+      "charStart": 1330,
+      "factId": "hz.web.6925fce17e76dc9c.fact.11",
+      "kind": "bullet",
+      "text": "world",
+      "tokens": [
+        "world"
+      ]
+    },
+    {
+      "charEnd": 1344,
+      "charStart": 1338,
+      "factId": "hz.web.6925fce17e76dc9c.fact.12",
+      "kind": "bullet",
+      "text": "news",
+      "tokens": [
+        "news"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 63,
+      "charStart": 1,
+      "headingId": "hz.web.6925fce17e76dc9c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Business: US &amp; International Top Business News | AP News"
+    },
+    {
+      "charEnd": 154,
+      "charStart": 144,
+      "headingId": "hz.web.6925fce17e76dc9c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1272,
+      "charStart": 1261,
+      "headingId": "hz.web.6925fce17e76dc9c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1356,
+      "charStart": 1346,
+      "headingId": "hz.web.6925fce17e76dc9c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6925fce17e76dc9c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4634,
+        "start": 0
+      }
+    ],
+    "hash": "ab914061638a37717060be4d235e7a5e862db1a589629466e1cbcb9c0420d7bd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Business: US & International Top Business News | AP News Menu World SECTIONS Iran war Russia-Ukraine war Español China Asia Pacific Latin America Europe Africa TOP STORIES LIVE Rubio lashes out at Spain and other NATO allies over lack of support for Iran war Trump says he has no problem with a Russian tanker bringing oil to Cuba despite US blockade Trump again threatens widespread destruction in Iran if a deal is not reached 'shortly' Newsletters The Morning Wire Our flagship newsletter breaks down the biggest headlines of the day.",
+      "The Afternoon Wire Get caught up on what you may have missed throughout the day.",
+      "See All Newsletters U.S."
+    ],
+    "medium": "Source: https://apnews.com/hub/business",
+    "short": "Source: https://apnews.com/hub/business",
+    "tokens": [
+      "business",
+      "us",
+      "amp",
+      "international",
+      "top",
+      "business",
+      "news",
+      "ap",
+      "news",
+      "source",
+      "https",
+      "apnews",
+      "com",
+      "hub",
+      "business",
+      "source",
+      "https",
+      "apnews",
+      "com",
+      "hub",
+      "business"
+    ]
+  },
+  "title": "Business: US &amp; International Top Business News | AP News"
+}

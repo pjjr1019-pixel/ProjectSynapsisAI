@@ -1,0 +1,133 @@
+{
+  "aliases": [
+    {
+      "alias": "sample module.manifest",
+      "aliasId": "hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json.alias.1",
+      "canonical": "sample module.manifest"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json",
+  "domain": "assistant",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json.entity.1",
+      "kind": "document",
+      "name": "sample module.manifest",
+      "tokens": [
+        "sample",
+        "module",
+        "manifest"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json.fact.1",
+      "kind": "summary",
+      "text": "Structured JSON keys: moduleId, version, entry, brainPaths, requiredApps, retrievalScopes, promptRefs",
+      "tokens": [
+        "structured",
+        "json",
+        "keys",
+        "moduleid",
+        "version",
+        "entry",
+        "brainpaths",
+        "requiredapps",
+        "retrievalscopes",
+        "promptrefs"
+      ]
+    }
+  ],
+  "headings": [],
+  "moduleIds": [
+    "hz.module.assistant.sample"
+  ],
+  "path": "apps/assistant/knowledge/modules/sample-module.manifest.json",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 376,
+        "start": 0
+      }
+    ],
+    "hash": "e8d0ec84907bf5155ab73367e56a8a1761212193818385c38bc939c5f0d4af39",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "{ \"moduleId\": \"hz.module.assistant.sample\", \"version\": \"0.1.0\", \"entry\": \"assistant-sample\", \"brainPaths\": [ \"apps/assistant/canonical/*.md\", \"prompts/library/assistant-system-baseline.md\" ], \"requiredApps\": [\"assistant\"], \"retrievalScopes\": [\"assistant-default\", \"core-default\"], \"promptRefs\": [\"hz.prompt.assistant.system-baseline.v1\"] }",
+    "short": "{ \"moduleId\": \"hz.module.assistant.sample\", \"version\": \"0.1.0\", \"entry\": \"assistant-sample\", \"brainPaths\": [ \"apps/assistant/canonical/*.md\", \"prompts/library/assistant-system-baseline.md\" ], \"requiredApps\": [\"assistant\"], \"retrievalScopes\"",
+    "tokens": [
+      "sample",
+      "module",
+      "manifest",
+      "moduleid",
+      "hz",
+      "module",
+      "assistant",
+      "sample",
+      "version",
+      "entry",
+      "assistant",
+      "sample",
+      "brainpaths",
+      "apps",
+      "assistant",
+      "canonical",
+      "md",
+      "prompts",
+      "library",
+      "assistant",
+      "system",
+      "baseline",
+      "md",
+      "requiredapps",
+      "assistant",
+      "retrievalscopes",
+      "moduleid",
+      "hz",
+      "module",
+      "assistant",
+      "sample",
+      "version",
+      "entry",
+      "assistant",
+      "sample",
+      "brainpaths",
+      "apps",
+      "assistant",
+      "canonical",
+      "md",
+      "prompts",
+      "library",
+      "assistant",
+      "system",
+      "baseline",
+      "md",
+      "requiredapps",
+      "assistant",
+      "retrievalscopes",
+      "assistant",
+      "default",
+      "core",
+      "default",
+      "promptrefs",
+      "hz",
+      "prompt",
+      "assistant",
+      "system",
+      "baseline",
+      "v1"
+    ]
+  },
+  "title": "sample module.manifest"
+}

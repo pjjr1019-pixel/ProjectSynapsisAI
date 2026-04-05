@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "99c171950d1f42e2",
+      "aliasId": "hz.web.99c171950d1f42e2.alias.1",
+      "canonical": "media.x.com"
+    },
+    {
+      "alias": "media.x.com",
+      "aliasId": "hz.web.99c171950d1f42e2.alias.2",
+      "canonical": "media.x.com"
+    },
+    {
+      "alias": "web 99c171950d1f42e2",
+      "aliasId": "hz.web.99c171950d1f42e2.alias.3",
+      "canonical": "media.x.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.99c171950d1f42e2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.99c171950d1f42e2.entity.1",
+      "kind": "document",
+      "name": "media.x.com",
+      "tokens": [
+        "media",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.99c171950d1f42e2.entity.2",
+      "kind": "heading",
+      "name": "media.x.com",
+      "tokens": [
+        "media",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.99c171950d1f42e2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.99c171950d1f42e2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.99c171950d1f42e2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 148,
+      "charStart": 16,
+      "factId": "hz.web.99c171950d1f42e2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://media.x.com/etc/designs/boilerplate-twitter/public/css/languages.css.twhash.a.f.ad7062672948db2fe784ee48cbba355a.css",
+      "tokens": [
+        "source",
+        "https",
+        "media",
+        "com",
+        "etc",
+        "designs",
+        "boilerplate",
+        "twitter",
+        "public",
+        "css",
+        "languages",
+        "css",
+        "twhash",
+        "ad7062672948db2fe784ee48cbba355a",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 200,
+      "factId": "hz.web.99c171950d1f42e2.fact.1",
+      "kind": "bullet",
+      "text": "html:lang(ar) *{font-family:Tahoma,Arial,sans-serif!important}html:lang(ja){font-family:Arial,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif!important}html:lang(zh) *,html:lang(zh-CN) *,html:lang(zh-TW) *{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Microsoft YaHei New,Microsoft Yahei,微软雅黑,宋体,SimSun,STXihei,华文细黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important}",
+      "tokens": [
+        "html",
+        "lang",
+        "ar",
+        "font",
+        "family",
+        "tahoma",
+        "arial",
+        "sans",
+        "serif",
+        "important",
+        "html",
+        "lang",
+        "ja",
+        "font",
+        "family",
+        "arial",
+        "pro",
+        "w3",
+        "hiragino",
+        "kaku",
+        "gothic",
+        "pro",
+        "osaka",
+        "meiryo",
+        "ms",
+        "pgothic",
+        "sans",
+        "serif",
+        "important",
+        "html",
+        "lang",
+        "zh",
+        "html",
+        "lang",
+        "zh",
+        "cn",
+        "html",
+        "lang",
+        "zh",
+        "tw",
+        "font",
+        "family",
+        "apple",
+        "system",
+        "blinkmacsystemfont",
+        "segoe",
+        "ui",
+        "roboto",
+        "helvetica",
+        "neue",
+        "arial",
+        "microsoft",
+        "yahei",
+        "new",
+        "microsoft",
+        "yahei",
+        "simsun",
+        "stxihei",
+        "sans",
+        "serif",
+        "apple",
+        "color",
+        "emoji",
+        "segoe",
+        "ui",
+        "emoji",
+        "segoe",
+        "ui",
+        "symbol",
+        "important"
+      ]
+    },
+    {
+      "charEnd": 685,
+      "charStart": 679,
+      "factId": "hz.web.99c171950d1f42e2.fact.2",
+      "kind": "bullet",
+      "text": "html",
+      "tokens": [
+        "html"
+      ]
+    },
+    {
+      "charEnd": 692,
+      "charStart": 686,
+      "factId": "hz.web.99c171950d1f42e2.fact.3",
+      "kind": "bullet",
+      "text": "lang",
+      "tokens": [
+        "lang"
+      ]
+    },
+    {
+      "charEnd": 700,
+      "charStart": 693,
+      "factId": "hz.web.99c171950d1f42e2.fact.4",
+      "kind": "bullet",
+      "text": "arial",
+      "tokens": [
+        "arial"
+      ]
+    },
+    {
+      "charEnd": 709,
+      "charStart": 701,
+      "factId": "hz.web.99c171950d1f42e2.fact.5",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 716,
+      "charStart": 710,
+      "factId": "hz.web.99c171950d1f42e2.fact.6",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 728,
+      "charStart": 717,
+      "factId": "hz.web.99c171950d1f42e2.fact.7",
+      "kind": "bullet",
+      "text": "important",
+      "tokens": [
+        "important"
+      ]
+    },
+    {
+      "charEnd": 735,
+      "charStart": 729,
+      "factId": "hz.web.99c171950d1f42e2.fact.8",
+      "kind": "bullet",
+      "text": "sans",
+      "tokens": [
+        "sans"
+      ]
+    },
+    {
+      "charEnd": 743,
+      "charStart": 736,
+      "factId": "hz.web.99c171950d1f42e2.fact.9",
+      "kind": "bullet",
+      "text": "segoe",
+      "tokens": [
+        "segoe"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.99c171950d1f42e2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "media.x.com"
+    },
+    {
+      "charEnd": 198,
+      "charStart": 188,
+      "headingId": "hz.web.99c171950d1f42e2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 677,
+      "charStart": 666,
+      "headingId": "hz.web.99c171950d1f42e2.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 755,
+      "charStart": 745,
+      "headingId": "hz.web.99c171950d1f42e2.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/99c171950d1f42e2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1539,
+        "start": 0
+      }
+    ],
+    "hash": "eb23f46b7cce7d7a9328ec68742fff9a75850229deac589620d0d67fc9998ccb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "html:lang(ar) *{font-family:Tahoma,Arial,sans-serif!important}html:lang(ja){font-family:Arial,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif!important}html:lang(zh) *,html:lang(zh-CN) *,html:lang(zh-TW) *{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Microsoft YaHei New,Microsoft Yahei,微软雅黑,宋体,SimSun,STXihei,华文细黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important}",
+      "html",
+      "lang"
+    ],
+    "medium": "Source: https://media.x.com/etc/designs/boilerplate-twitter/public/css/languages.css.twhash.a.f.ad7062672948db2fe784ee48cbba355a.css",
+    "short": "Source: https://media.x.com/etc/designs/boilerplate-twitter/public/css/languages.css.twhash.a.f.ad7062672948db2fe784ee48cbba355a.css",
+    "tokens": [
+      "media",
+      "com",
+      "source",
+      "https",
+      "media",
+      "com",
+      "etc",
+      "designs",
+      "boilerplate",
+      "twitter",
+      "public",
+      "css",
+      "languages",
+      "css",
+      "twhash",
+      "ad7062672948db2fe784ee48cbba355a",
+      "css",
+      "source",
+      "https",
+      "media",
+      "com",
+      "etc",
+      "designs",
+      "boilerplate",
+      "twitter",
+      "public",
+      "css",
+      "languages",
+      "css",
+      "twhash",
+      "ad7062672948db2fe784ee48cbba355a",
+      "css"
+    ]
+  },
+  "title": "media.x.com"
+}

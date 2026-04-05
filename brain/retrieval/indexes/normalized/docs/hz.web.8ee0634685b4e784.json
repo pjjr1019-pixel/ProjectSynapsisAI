@@ -1,0 +1,342 @@
+{
+  "aliases": [
+    {
+      "alias": "8ee0634685b4e784",
+      "aliasId": "hz.web.8ee0634685b4e784.alias.1",
+      "canonical": "find my photos"
+    },
+    {
+      "alias": "find my photos",
+      "aliasId": "hz.web.8ee0634685b4e784.alias.2",
+      "canonical": "find my photos"
+    },
+    {
+      "alias": "web 8ee0634685b4e784",
+      "aliasId": "hz.web.8ee0634685b4e784.alias.3",
+      "canonical": "find my photos"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.8ee0634685b4e784",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8ee0634685b4e784.entity.1",
+      "kind": "document",
+      "name": "Find My Photos",
+      "tokens": [
+        "find",
+        "photos"
+      ]
+    },
+    {
+      "entityId": "hz.web.8ee0634685b4e784.entity.2",
+      "kind": "heading",
+      "name": "Find My Photos",
+      "tokens": [
+        "find",
+        "photos"
+      ]
+    },
+    {
+      "entityId": "hz.web.8ee0634685b4e784.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8ee0634685b4e784.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8ee0634685b4e784.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 66,
+      "charStart": 19,
+      "factId": "hz.web.8ee0634685b4e784.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.smugmug.com/find-my-photos/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "smugmug",
+        "com",
+        "find",
+        "photos"
+      ]
+    },
+    {
+      "charEnd": 209,
+      "charStart": 118,
+      "factId": "hz.web.8ee0634685b4e784.fact.1",
+      "kind": "bullet",
+      "text": "Find My Photos Privacy and Cookie Policy Your privacy is your business, and our priority.",
+      "tokens": [
+        "find",
+        "photos",
+        "privacy",
+        "cookie",
+        "policy",
+        "your",
+        "privacy",
+        "your",
+        "business",
+        "our",
+        "priority"
+      ]
+    },
+    {
+      "charEnd": 262,
+      "charStart": 210,
+      "factId": "hz.web.8ee0634685b4e784.fact.2",
+      "kind": "bullet",
+      "text": "For decades, SmugMug has put member privacy first.",
+      "tokens": [
+        "decades",
+        "smugmug",
+        "has",
+        "put",
+        "member",
+        "privacy",
+        "first"
+      ]
+    },
+    {
+      "charEnd": 368,
+      "charStart": 263,
+      "factId": "hz.web.8ee0634685b4e784.fact.3",
+      "kind": "bullet",
+      "text": "Please know that we do use cookies to deliver a world-class experience with optimal site functionality.",
+      "tokens": [
+        "please",
+        "know",
+        "use",
+        "cookies",
+        "deliver",
+        "world",
+        "class",
+        "experience",
+        "optimal",
+        "site",
+        "functionality"
+      ]
+    },
+    {
+      "charEnd": 468,
+      "charStart": 369,
+      "factId": "hz.web.8ee0634685b4e784.fact.4",
+      "kind": "bullet",
+      "text": "By continuing to use our site, you agree to our use of cookies and our stewardship of your data .",
+      "tokens": [
+        "continuing",
+        "use",
+        "our",
+        "site",
+        "agree",
+        "our",
+        "use",
+        "cookies",
+        "our",
+        "stewardship",
+        "your",
+        "data"
+      ]
+    },
+    {
+      "charEnd": 489,
+      "charStart": 483,
+      "factId": "hz.web.8ee0634685b4e784.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 498,
+      "charStart": 490,
+      "factId": "hz.web.8ee0634685b4e784.fact.6",
+      "kind": "bullet",
+      "text": "photos",
+      "tokens": [
+        "photos"
+      ]
+    },
+    {
+      "charEnd": 513,
+      "charStart": 499,
+      "factId": "hz.web.8ee0634685b4e784.fact.7",
+      "kind": "bullet",
+      "text": "photographer",
+      "tokens": [
+        "photographer"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 514,
+      "factId": "hz.web.8ee0634685b4e784.fact.8",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 520,
+      "factId": "hz.web.8ee0634685b4e784.fact.9",
+      "kind": "bullet",
+      "text": "smugmug",
+      "tokens": [
+        "smugmug"
+      ]
+    },
+    {
+      "charEnd": 535,
+      "charStart": 530,
+      "factId": "hz.web.8ee0634685b4e784.fact.10",
+      "kind": "bullet",
+      "text": "x27",
+      "tokens": [
+        "x27"
+      ]
+    },
+    {
+      "charEnd": 542,
+      "charStart": 536,
+      "factId": "hz.web.8ee0634685b4e784.fact.11",
+      "kind": "bullet",
+      "text": "find",
+      "tokens": [
+        "find"
+      ]
+    },
+    {
+      "charEnd": 549,
+      "charStart": 543,
+      "factId": "hz.web.8ee0634685b4e784.fact.12",
+      "kind": "bullet",
+      "text": "free",
+      "tokens": [
+        "free"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.8ee0634685b4e784.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Find My Photos"
+    },
+    {
+      "charEnd": 116,
+      "charStart": 106,
+      "headingId": "hz.web.8ee0634685b4e784.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 481,
+      "charStart": 470,
+      "headingId": "hz.web.8ee0634685b4e784.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 561,
+      "charStart": 551,
+      "headingId": "hz.web.8ee0634685b4e784.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/8ee0634685b4e784.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3103,
+        "start": 0
+      }
+    ],
+    "hash": "48284969dd7e7df179224e431843420960956aed2932ff3a366312c26a8ea487",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.8ee0634685b4e784.rule.1",
+      "text": "(No credit card required.) Try Free Photo by Ryo Suehiro our good company is your good company.",
+      "tokens": [
+        "no",
+        "credit",
+        "card",
+        "required",
+        "try",
+        "free",
+        "photo",
+        "ryo",
+        "suehiro",
+        "our",
+        "good",
+        "company",
+        "your",
+        "good",
+        "company"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Find My Photos Privacy and Cookie Policy Your privacy is your business, and our priority.",
+      "For decades, SmugMug has put member privacy first.",
+      "Please know that we do use cookies to deliver a world-class experience with optimal site functionality."
+    ],
+    "medium": "Source: https://www.smugmug.com/find-my-photos/",
+    "short": "Source: https://www.smugmug.com/find-my-photos/",
+    "tokens": [
+      "find",
+      "photos",
+      "source",
+      "https",
+      "www",
+      "smugmug",
+      "com",
+      "find",
+      "photos",
+      "source",
+      "https",
+      "www",
+      "smugmug",
+      "com",
+      "find",
+      "photos"
+    ]
+  },
+  "title": "Find My Photos"
+}

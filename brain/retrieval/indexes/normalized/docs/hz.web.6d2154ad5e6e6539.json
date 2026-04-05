@@ -1,0 +1,391 @@
+{
+  "aliases": [
+    {
+      "alias": "6d2154ad5e6e6539",
+      "aliasId": "hz.web.6d2154ad5e6e6539.alias.1",
+      "canonical": "rel='me' - microformats wiki"
+    },
+    {
+      "alias": "rel me - microformats wiki",
+      "aliasId": "hz.web.6d2154ad5e6e6539.alias.2",
+      "canonical": "rel='me' - microformats wiki"
+    },
+    {
+      "alias": "web 6d2154ad5e6e6539",
+      "aliasId": "hz.web.6d2154ad5e6e6539.alias.3",
+      "canonical": "rel='me' - microformats wiki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.99,
+  "docId": "hz.web.6d2154ad5e6e6539",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6d2154ad5e6e6539.entity.1",
+      "kind": "document",
+      "name": "rel='me' - Microformats Wiki",
+      "tokens": [
+        "rel",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.6d2154ad5e6e6539.entity.2",
+      "kind": "heading",
+      "name": "rel=\"me\" - Microformats Wiki",
+      "tokens": [
+        "rel",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.6d2154ad5e6e6539.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6d2154ad5e6e6539.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6d2154ad5e6e6539.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 33,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.1",
+      "kind": "summary",
+      "text": "Source: http://ufs.cc/w/relme",
+      "tokens": [
+        "source",
+        "http",
+        "ufs",
+        "cc",
+        "relme"
+      ]
+    },
+    {
+      "charEnd": 384,
+      "charStart": 114,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.1",
+      "kind": "bullet",
+      "text": "rel=\"me\" - Microformats Wiki rel=\"me\" From Microformats Wiki (Redirected from relme ) Jump to navigation Jump to search short URL http://ufs.cc/w/relme XFN 1.1 introduced the \"me\" rel value which is used to indicate profile equivalence and for identity-consolidation .",
+      "tokens": [
+        "rel",
+        "microformats",
+        "wiki",
+        "rel",
+        "microformats",
+        "wiki",
+        "redirected",
+        "relme",
+        "jump",
+        "navigation",
+        "jump",
+        "search",
+        "short",
+        "url",
+        "http",
+        "ufs",
+        "cc",
+        "relme",
+        "xfn",
+        "introduced",
+        "rel",
+        "value",
+        "used",
+        "indicate",
+        "profile",
+        "equivalence",
+        "identity",
+        "consolidation"
+      ]
+    },
+    {
+      "charEnd": 685,
+      "charStart": 385,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.2",
+      "kind": "bullet",
+      "text": "Contents 1 example 2 screencast and videos 3 tutorials 4 domain verification 5 rel-me-auth 6 implementations 6.1 past implementations 6.2 advocacy 7 examples in the wild 8 articles 9 see also example rel=\"me\" is used on hyperlinks from one page about a person to other pages about that same person.",
+      "tokens": [
+        "contents",
+        "example",
+        "screencast",
+        "videos",
+        "tutorials",
+        "domain",
+        "verification",
+        "rel",
+        "auth",
+        "implementations",
+        "past",
+        "implementations",
+        "advocacy",
+        "examples",
+        "wild",
+        "articles",
+        "see",
+        "also",
+        "example",
+        "rel",
+        "used",
+        "hyperlinks",
+        "one",
+        "page",
+        "about",
+        "person",
+        "other",
+        "pages",
+        "about",
+        "same",
+        "person"
+      ]
+    },
+    {
+      "charEnd": 1064,
+      "charStart": 686,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.3",
+      "kind": "bullet",
+      "text": "For example, Tantek 's home page has (markup simplified) &lt; a href = \"https://github.com/tantek\" rel = \"me\" &gt; @t &lt;/ a &gt; And his GitHub profile itself has (markup simplified) &lt; a href = \"https://tantek.com/\" rel = \"me\" &gt; https://tantek.com/ &lt;/ a &gt; Thus establishing a bi-directional rel-me link and confirming that the two URLs represent the same person.",
+      "tokens": [
+        "example",
+        "tantek",
+        "home",
+        "page",
+        "has",
+        "markup",
+        "simplified",
+        "lt",
+        "href",
+        "https",
+        "github",
+        "com",
+        "tantek",
+        "rel",
+        "gt",
+        "lt",
+        "gt",
+        "his",
+        "github",
+        "profile",
+        "itself",
+        "has",
+        "markup",
+        "simplified",
+        "lt",
+        "href",
+        "https",
+        "tantek",
+        "com",
+        "rel",
+        "gt",
+        "https",
+        "tantek",
+        "com",
+        "lt",
+        "gt",
+        "thus",
+        "establishing",
+        "bi",
+        "directional",
+        "rel",
+        "link",
+        "confirming",
+        "two",
+        "urls",
+        "represent",
+        "same",
+        "person"
+      ]
+    },
+    {
+      "charEnd": 1135,
+      "charStart": 1065,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.4",
+      "kind": "bullet",
+      "text": "Publishers can use the XFN creator form to create rel-me hyperlinks.",
+      "tokens": [
+        "publishers",
+        "use",
+        "xfn",
+        "creator",
+        "form",
+        "create",
+        "rel",
+        "hyperlinks"
+      ]
+    },
+    {
+      "charEnd": 1155,
+      "charStart": 1150,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.5",
+      "kind": "bullet",
+      "text": "rel",
+      "tokens": [
+        "rel"
+      ]
+    },
+    {
+      "charEnd": 1162,
+      "charStart": 1156,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.6",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 1170,
+      "charStart": 1163,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.7",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1178,
+      "charStart": 1171,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.8",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 1187,
+      "charStart": 1179,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.9",
+      "kind": "bullet",
+      "text": "domain",
+      "tokens": [
+        "domain"
+      ]
+    },
+    {
+      "charEnd": 1194,
+      "charStart": 1188,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.10",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 1205,
+      "charStart": 1195,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.11",
+      "kind": "bullet",
+      "text": "profiles",
+      "tokens": [
+        "profiles"
+      ]
+    },
+    {
+      "charEnd": 1215,
+      "charStart": 1206,
+      "factId": "hz.web.6d2154ad5e6e6539.fact.12",
+      "kind": "bullet",
+      "text": "support",
+      "tokens": [
+        "support"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.6d2154ad5e6e6539.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "rel=\"me\" - Microformats Wiki"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.6d2154ad5e6e6539.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1148,
+      "charStart": 1137,
+      "headingId": "hz.web.6d2154ad5e6e6539.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1227,
+      "charStart": 1217,
+      "headingId": "hz.web.6d2154ad5e6e6539.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6d2154ad5e6e6539.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4463,
+        "start": 0
+      }
+    ],
+    "hash": "0f850a018616f4e213a930b1a064a7bd48213c01ee50c4fec554001f91b8e3e3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "rel=\"me\" - Microformats Wiki rel=\"me\" From Microformats Wiki (Redirected from relme ) Jump to navigation Jump to search short URL http://ufs.cc/w/relme XFN 1.1 introduced the \"me\" rel value which is used to indicate profile equivalence and for identity-consolidation .",
+      "Contents 1 example 2 screencast and videos 3 tutorials 4 domain verification 5 rel-me-auth 6 implementations 6.1 past implementations 6.2 advocacy 7 examples in the wild 8 articles 9 see also example rel=\"me\" is used on hyperlinks from one page about a person to other pages about that same person.",
+      "For example, Tantek 's home page has (markup simplified) &lt; a href = \"https://github.com/tantek\" rel = \"me\" &gt; @t &lt;/ a &gt; And his GitHub profile itself has (markup simplified) &lt; a href = \"https://tantek.com/\" rel = \"me\" &gt; https://tantek.com/ &lt;/ a &gt; Thus establishing a bi-directional rel-me link and confirming that the two URLs represent the same person."
+    ],
+    "medium": "Source: http://ufs.cc/w/relme",
+    "short": "Source: http://ufs.cc/w/relme",
+    "tokens": [
+      "rel",
+      "microformats",
+      "wiki",
+      "source",
+      "http",
+      "ufs",
+      "cc",
+      "relme",
+      "source",
+      "http",
+      "ufs",
+      "cc",
+      "relme"
+    ]
+  },
+  "title": "rel='me' - Microformats Wiki"
+}

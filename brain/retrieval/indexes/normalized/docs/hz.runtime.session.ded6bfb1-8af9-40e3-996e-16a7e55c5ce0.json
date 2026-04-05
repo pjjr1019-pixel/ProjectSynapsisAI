@@ -1,0 +1,245 @@
+{
+  "aliases": [
+    {
+      "alias": "session ded6bfb1 8af9 40e3 996e 16a7e55c5ce0.summary",
+      "aliasId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.alias.1",
+      "canonical": "session snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0"
+    },
+    {
+      "alias": "session ded6bfb1-8af9-40e3-996e-16a7e55c5ce0",
+      "aliasId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.alias.2",
+      "canonical": "session snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0"
+    },
+    {
+      "alias": "session snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0",
+      "aliasId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.alias.3",
+      "canonical": "session snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0",
+  "domain": "runtime",
+  "entities": [
+    {
+      "entityId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.entity.1",
+      "kind": "document",
+      "name": "Session snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0",
+      "tokens": [
+        "session",
+        "snapshot",
+        "ded6bfb1",
+        "8af9",
+        "40e3",
+        "996e",
+        "16a7e55c5ce0"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.entity.2",
+      "kind": "heading",
+      "name": "Session Snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0",
+      "tokens": [
+        "session",
+        "snapshot",
+        "ded6bfb1",
+        "8af9",
+        "40e3",
+        "996e",
+        "16a7e55c5ce0"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.entity.3",
+      "kind": "heading",
+      "name": "Overview",
+      "tokens": [
+        "overview"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.entity.4",
+      "kind": "heading",
+      "name": "Referenced docs",
+      "tokens": [
+        "referenced",
+        "docs"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.entity.5",
+      "kind": "heading",
+      "name": "Safety",
+      "tokens": [
+        "safety"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 96,
+      "charStart": 58,
+      "factId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.fact.1",
+      "kind": "summary",
+      "text": "Last updated: 2026-03-29T20:04:01.581Z",
+      "tokens": [
+        "last",
+        "updated",
+        "2026",
+        "03",
+        "29t20",
+        "04",
+        "01",
+        "581z"
+      ]
+    },
+    {
+      "charEnd": 127,
+      "charStart": 111,
+      "factId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.fact.1",
+      "kind": "bullet",
+      "text": "App: assistant",
+      "tokens": [
+        "app",
+        "assistant"
+      ]
+    },
+    {
+      "charEnd": 166,
+      "charStart": 128,
+      "factId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.fact.2",
+      "kind": "bullet",
+      "text": "Retrieval profile: assistant-default",
+      "tokens": [
+        "retrieval",
+        "profile",
+        "assistant",
+        "default"
+      ]
+    },
+    {
+      "charEnd": 182,
+      "charStart": 167,
+      "factId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.fact.3",
+      "kind": "bullet",
+      "text": "Turn count: 6",
+      "tokens": [
+        "turn",
+        "count"
+      ]
+    },
+    {
+      "charEnd": 213,
+      "charStart": 183,
+      "factId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.fact.4",
+      "kind": "bullet",
+      "text": "Last draft source: retrieval",
+      "tokens": [
+        "last",
+        "draft",
+        "source",
+        "retrieval"
+      ]
+    },
+    {
+      "charEnd": 281,
+      "charStart": 235,
+      "factId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.fact.5",
+      "kind": "bullet",
+      "text": "hz.pipeline.imports.megapack-all-recommended",
+      "tokens": [
+        "hz",
+        "pipeline",
+        "imports",
+        "megapack",
+        "all",
+        "recommended"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 56,
+      "charStart": 1,
+      "headingId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Session Snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 98,
+      "headingId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.heading.2",
+      "level": 2,
+      "line": 6,
+      "text": "Overview"
+    },
+    {
+      "charEnd": 233,
+      "charStart": 215,
+      "headingId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Referenced docs"
+    },
+    {
+      "charEnd": 292,
+      "charStart": 283,
+      "headingId": "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.heading.4",
+      "level": 2,
+      "line": 17,
+      "text": "Safety"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/sessions/snapshots/session-ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.summary.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 647,
+        "start": 0
+      }
+    ],
+    "hash": "58caa25836a8599b59d547faca8e7564c3090337367eb089dbee9e538bdde101",
+    "sourceType": "runtime"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "App: assistant",
+      "Retrieval profile: assistant-default",
+      "Turn count: 6"
+    ],
+    "medium": "Last updated: 2026-03-29T20:04:01.581Z",
+    "short": "Last updated: 2026-03-29T20:04:01.581Z",
+    "tokens": [
+      "session",
+      "snapshot",
+      "ded6bfb1",
+      "8af9",
+      "40e3",
+      "996e",
+      "16a7e55c5ce0",
+      "last",
+      "updated",
+      "2026",
+      "03",
+      "29t20",
+      "04",
+      "01",
+      "581z",
+      "last",
+      "updated",
+      "2026",
+      "03",
+      "29t20",
+      "04",
+      "01",
+      "581z"
+    ]
+  },
+  "title": "Session snapshot ded6bfb1-8af9-40e3-996e-16a7e55c5ce0"
+}

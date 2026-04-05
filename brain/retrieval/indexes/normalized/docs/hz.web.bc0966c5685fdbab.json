@@ -1,0 +1,380 @@
+{
+  "aliases": [
+    {
+      "alias": "bc0966c5685fdbab",
+      "aliasId": "hz.web.bc0966c5685fdbab.alias.1",
+      "canonical": "www.navy.mil"
+    },
+    {
+      "alias": "web bc0966c5685fdbab",
+      "aliasId": "hz.web.bc0966c5685fdbab.alias.2",
+      "canonical": "www.navy.mil"
+    },
+    {
+      "alias": "www.navy.mil",
+      "aliasId": "hz.web.bc0966c5685fdbab.alias.3",
+      "canonical": "www.navy.mil"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.bc0966c5685fdbab",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bc0966c5685fdbab.entity.1",
+      "kind": "document",
+      "name": "www.navy.mil",
+      "tokens": [
+        "www",
+        "navy",
+        "mil"
+      ]
+    },
+    {
+      "entityId": "hz.web.bc0966c5685fdbab.entity.2",
+      "kind": "heading",
+      "name": "www.navy.mil",
+      "tokens": [
+        "www",
+        "navy",
+        "mil"
+      ]
+    },
+    {
+      "entityId": "hz.web.bc0966c5685fdbab.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.bc0966c5685fdbab.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.bc0966c5685fdbab.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 127,
+      "charStart": 17,
+      "factId": "hz.web.bc0966c5685fdbab.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.navy.mil/Desktopmodules/SharedLibrary/Plugins/SocialIcons/css/fa-social-icons.css?cdv=1624",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "navy",
+        "mil",
+        "desktopmodules",
+        "sharedlibrary",
+        "plugins",
+        "socialicons",
+        "css",
+        "fa",
+        "social",
+        "icons",
+        "css",
+        "cdv",
+        "1624"
+      ]
+    },
+    {
+      "charEnd": 900,
+      "charStart": 179,
+      "factId": "hz.web.bc0966c5685fdbab.fact.1",
+      "kind": "bullet",
+      "text": ".social-icon-fb:hover span{background:#3B5998} .social-icon-youtube:hover span{background:#C4302B} .social-icon-twitter:hover span{background:#00A0D1} .social-icon-twitter-x:hover span{background:#000} .social-icon-rss:hover span{background:#FA9B39} .social-icon-blog:hover span{background:#FA9B39} .social-icon-pinterest:hover span{background:#910101} .social-icon-snapchat:hover span{background:#FFFC00} .social-icon-instagram:hover span{background:#4E433C} .social-icon-email:hover span {background: #eceec4;} .social-icon-widget:hover span{background:#205D7A} .social-icon-podcast:hover span{background:#34526F} .social-icon-flickr:hover span{background:#FE0883} .social-icon-linkedin:hover span{background:#007bb5}",
+      "tokens": [
+        "social",
+        "icon",
+        "fb",
+        "hover",
+        "span",
+        "background",
+        "3b5998",
+        "social",
+        "icon",
+        "youtube",
+        "hover",
+        "span",
+        "background",
+        "c4302b",
+        "social",
+        "icon",
+        "twitter",
+        "hover",
+        "span",
+        "background",
+        "00a0d1",
+        "social",
+        "icon",
+        "twitter",
+        "hover",
+        "span",
+        "background",
+        "000",
+        "social",
+        "icon",
+        "rss",
+        "hover",
+        "span",
+        "background",
+        "fa9b39",
+        "social",
+        "icon",
+        "blog",
+        "hover",
+        "span",
+        "background",
+        "fa9b39",
+        "social",
+        "icon",
+        "pinterest",
+        "hover",
+        "span",
+        "background",
+        "910101",
+        "social",
+        "icon",
+        "snapchat",
+        "hover",
+        "span",
+        "background",
+        "fffc00",
+        "social",
+        "icon",
+        "instagram",
+        "hover",
+        "span",
+        "background",
+        "4e433c",
+        "social",
+        "icon",
+        "email",
+        "hover",
+        "span",
+        "background",
+        "eceec4",
+        "social",
+        "icon",
+        "widget",
+        "hover",
+        "span",
+        "background",
+        "205d7a",
+        "social",
+        "icon",
+        "podcast",
+        "hover",
+        "span",
+        "background",
+        "34526f",
+        "social",
+        "icon",
+        "flickr",
+        "hover",
+        "span",
+        "background",
+        "fe0883",
+        "social",
+        "icon",
+        "linkedin",
+        "hover",
+        "span",
+        "background",
+        "007bb5"
+      ]
+    },
+    {
+      "charEnd": 927,
+      "charStart": 915,
+      "factId": "hz.web.bc0966c5685fdbab.fact.2",
+      "kind": "bullet",
+      "text": "background",
+      "tokens": [
+        "background"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 928,
+      "factId": "hz.web.bc0966c5685fdbab.fact.3",
+      "kind": "bullet",
+      "text": "hover",
+      "tokens": [
+        "hover"
+      ]
+    },
+    {
+      "charEnd": 942,
+      "charStart": 936,
+      "factId": "hz.web.bc0966c5685fdbab.fact.4",
+      "kind": "bullet",
+      "text": "icon",
+      "tokens": [
+        "icon"
+      ]
+    },
+    {
+      "charEnd": 951,
+      "charStart": 943,
+      "factId": "hz.web.bc0966c5685fdbab.fact.5",
+      "kind": "bullet",
+      "text": "social",
+      "tokens": [
+        "social"
+      ]
+    },
+    {
+      "charEnd": 958,
+      "charStart": 952,
+      "factId": "hz.web.bc0966c5685fdbab.fact.6",
+      "kind": "bullet",
+      "text": "span",
+      "tokens": [
+        "span"
+      ]
+    },
+    {
+      "charEnd": 967,
+      "charStart": 959,
+      "factId": "hz.web.bc0966c5685fdbab.fact.7",
+      "kind": "bullet",
+      "text": "fa9b39",
+      "tokens": [
+        "fa9b39"
+      ]
+    },
+    {
+      "charEnd": 977,
+      "charStart": 968,
+      "factId": "hz.web.bc0966c5685fdbab.fact.8",
+      "kind": "bullet",
+      "text": "twitter",
+      "tokens": [
+        "twitter"
+      ]
+    },
+    {
+      "charEnd": 983,
+      "charStart": 978,
+      "factId": "hz.web.bc0966c5685fdbab.fact.9",
+      "kind": "bullet",
+      "text": "000",
+      "tokens": [
+        "000"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.bc0966c5685fdbab.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.navy.mil"
+    },
+    {
+      "charEnd": 177,
+      "charStart": 167,
+      "headingId": "hz.web.bc0966c5685fdbab.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 913,
+      "charStart": 902,
+      "headingId": "hz.web.bc0966c5685fdbab.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 995,
+      "charStart": 985,
+      "headingId": "hz.web.bc0966c5685fdbab.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/bc0966c5685fdbab.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2015,
+        "start": 0
+      }
+    ],
+    "hash": "2542b9c2c512acd8a870b9cca3747b110bcaeb4f46dd594d6a955d23e8b2b9c0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".social-icon-fb:hover span{background:#3B5998} .social-icon-youtube:hover span{background:#C4302B} .social-icon-twitter:hover span{background:#00A0D1} .social-icon-twitter-x:hover span{background:#000} .social-icon-rss:hover span{background:#FA9B39} .social-icon-blog:hover span{background:#FA9B39} .social-icon-pinterest:hover span{background:#910101} .social-icon-snapchat:hover span{background:#FFFC00} .social-icon-instagram:hover span{background:#4E433C} .social-icon-email:hover span {background: #eceec4;} .social-icon-widget:hover span{background:#205D7A} .social-icon-podcast:hover span{background:#34526F} .social-icon-flickr:hover span{background:#FE0883} .social-icon-linkedin:hover span{background:#007bb5}",
+      "background",
+      "hover"
+    ],
+    "medium": "Source: https://www.navy.mil/Desktopmodules/SharedLibrary/Plugins/SocialIcons/css/fa-social-icons.css?cdv=1624",
+    "short": "Source: https://www.navy.mil/Desktopmodules/SharedLibrary/Plugins/SocialIcons/css/fa-social-icons.css?cdv=1624",
+    "tokens": [
+      "www",
+      "navy",
+      "mil",
+      "source",
+      "https",
+      "www",
+      "navy",
+      "mil",
+      "desktopmodules",
+      "sharedlibrary",
+      "plugins",
+      "socialicons",
+      "css",
+      "fa",
+      "social",
+      "icons",
+      "css",
+      "cdv",
+      "1624",
+      "source",
+      "https",
+      "www",
+      "navy",
+      "mil",
+      "desktopmodules",
+      "sharedlibrary",
+      "plugins",
+      "socialicons",
+      "css",
+      "fa",
+      "social",
+      "icons",
+      "css",
+      "cdv",
+      "1624"
+    ]
+  },
+  "title": "www.navy.mil"
+}

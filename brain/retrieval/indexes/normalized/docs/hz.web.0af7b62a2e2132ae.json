@@ -1,0 +1,333 @@
+{
+  "aliases": [
+    {
+      "alias": "0af7b62a2e2132ae",
+      "aliasId": "hz.web.0af7b62a2e2132ae.alias.1",
+      "canonical": "oauth community site"
+    },
+    {
+      "alias": "oauth community site",
+      "aliasId": "hz.web.0af7b62a2e2132ae.alias.2",
+      "canonical": "oauth community site"
+    },
+    {
+      "alias": "web 0af7b62a2e2132ae",
+      "aliasId": "hz.web.0af7b62a2e2132ae.alias.3",
+      "canonical": "oauth community site"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.0af7b62a2e2132ae",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0af7b62a2e2132ae.entity.1",
+      "kind": "document",
+      "name": "OAuth Community Site",
+      "tokens": [
+        "oauth",
+        "community",
+        "site"
+      ]
+    },
+    {
+      "entityId": "hz.web.0af7b62a2e2132ae.entity.2",
+      "kind": "heading",
+      "name": "OAuth Community Site",
+      "tokens": [
+        "oauth",
+        "community",
+        "site"
+      ]
+    },
+    {
+      "entityId": "hz.web.0af7b62a2e2132ae.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0af7b62a2e2132ae.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0af7b62a2e2132ae.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 25,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.1",
+      "kind": "summary",
+      "text": "Source: https://oauth.net/",
+      "tokens": [
+        "source",
+        "https",
+        "oauth",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 382,
+      "charStart": 103,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.1",
+      "kind": "bullet",
+      "text": "OAuth Community Site OAuth 2.0 Specs Code Articles Videos Events Books Security Merch About oauth.net/ Featured Video Course: The Nuts & Bolts of OAuth 2.0 An open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications.",
+      "tokens": [
+        "oauth",
+        "community",
+        "site",
+        "oauth",
+        "specs",
+        "code",
+        "articles",
+        "videos",
+        "events",
+        "books",
+        "security",
+        "merch",
+        "about",
+        "oauth",
+        "net",
+        "featured",
+        "video",
+        "course",
+        "nuts",
+        "bolts",
+        "oauth",
+        "open",
+        "protocol",
+        "allow",
+        "secure",
+        "authorization",
+        "simple",
+        "standard",
+        "method",
+        "web",
+        "mobile",
+        "desktop",
+        "applications"
+      ]
+    },
+    {
+      "charEnd": 441,
+      "charStart": 383,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.2",
+      "kind": "bullet",
+      "text": "Learn more about OAuth 2.0 &raquo; For app developers...",
+      "tokens": [
+        "learn",
+        "more",
+        "about",
+        "oauth",
+        "raquo",
+        "app",
+        "developers"
+      ]
+    },
+    {
+      "charEnd": 465,
+      "charStart": 442,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.3",
+      "kind": "bullet",
+      "text": "If you're building...",
+      "tokens": [
+        "if",
+        "re",
+        "building"
+      ]
+    },
+    {
+      "charEnd": 626,
+      "charStart": 466,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.4",
+      "kind": "bullet",
+      "text": "web applications desktop applications mobile applications JavaScript or browser-based apps OAuth is a way to get access to protected data from an application.",
+      "tokens": [
+        "web",
+        "applications",
+        "desktop",
+        "applications",
+        "mobile",
+        "applications",
+        "javascript",
+        "browser",
+        "based",
+        "apps",
+        "oauth",
+        "way",
+        "get",
+        "access",
+        "protected",
+        "data",
+        "application"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 641,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.5",
+      "kind": "bullet",
+      "text": "oauth",
+      "tokens": [
+        "oauth"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 649,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.6",
+      "kind": "bullet",
+      "text": "applications",
+      "tokens": [
+        "applications"
+      ]
+    },
+    {
+      "charEnd": 676,
+      "charStart": 664,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.7",
+      "kind": "bullet",
+      "text": "developers",
+      "tokens": [
+        "developers"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 677,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.8",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 683,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.9",
+      "kind": "bullet",
+      "text": "mobile",
+      "tokens": [
+        "mobile"
+      ]
+    },
+    {
+      "charEnd": 697,
+      "charStart": 692,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.10",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 698,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.11",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 714,
+      "charStart": 706,
+      "factId": "hz.web.0af7b62a2e2132ae.fact.12",
+      "kind": "bullet",
+      "text": "access",
+      "tokens": [
+        "access"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.0af7b62a2e2132ae.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "OAuth Community Site"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.0af7b62a2e2132ae.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 639,
+      "charStart": 628,
+      "headingId": "hz.web.0af7b62a2e2132ae.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 726,
+      "charStart": 716,
+      "headingId": "hz.web.0af7b62a2e2132ae.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/0af7b62a2e2132ae.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1809,
+        "start": 0
+      }
+    ],
+    "hash": "5f037501fdfb0d4424d79718a6d22ba46af2d4a4fb8fa86165f1c2d04436f86a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "OAuth Community Site OAuth 2.0 Specs Code Articles Videos Events Books Security Merch About oauth.net/ Featured Video Course: The Nuts & Bolts of OAuth 2.0 An open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications.",
+      "Learn more about OAuth 2.0 &raquo; For app developers...",
+      "If you're building..."
+    ],
+    "medium": "Source: https://oauth.net/",
+    "short": "Source: https://oauth.net/",
+    "tokens": [
+      "oauth",
+      "community",
+      "site",
+      "source",
+      "https",
+      "oauth",
+      "net",
+      "source",
+      "https",
+      "oauth",
+      "net"
+    ]
+  },
+  "title": "OAuth Community Site"
+}

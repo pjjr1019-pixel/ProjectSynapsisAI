@@ -1,0 +1,615 @@
+{
+  "aliases": [
+    {
+      "alias": "d2b9db523b584634",
+      "aliasId": "hz.web.d2b9db523b584634.alias.1",
+      "canonical": "www.census.gov"
+    },
+    {
+      "alias": "web d2b9db523b584634",
+      "aliasId": "hz.web.d2b9db523b584634.alias.2",
+      "canonical": "www.census.gov"
+    },
+    {
+      "alias": "www.census.gov",
+      "aliasId": "hz.web.d2b9db523b584634.alias.3",
+      "canonical": "www.census.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.7,
+  "docId": "hz.web.d2b9db523b584634",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d2b9db523b584634.entity.1",
+      "kind": "document",
+      "name": "www.census.gov",
+      "tokens": [
+        "www",
+        "census",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.d2b9db523b584634.entity.2",
+      "kind": "heading",
+      "name": "www.census.gov",
+      "tokens": [
+        "www",
+        "census",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.d2b9db523b584634.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d2b9db523b584634.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d2b9db523b584634.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 128,
+      "charStart": 19,
+      "factId": "hz.web.d2b9db523b584634.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.census.gov/etc.clientlibs/census-core/clientlibs.min.9556bf894a0d404c4e4f4bf83ef3c63b.css",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "census",
+        "gov",
+        "etc",
+        "clientlibs",
+        "census",
+        "core",
+        "clientlibs",
+        "min",
+        "9556bf894a0d404c4e4f4bf83ef3c63b",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 342,
+      "charStart": 180,
+      "factId": "hz.web.d2b9db523b584634.fact.1",
+      "kind": "bullet",
+      "text": "/* * Copyright 2018 Adobe * * Licensed under the Apache License, Version 2.0 (the \"License\"); * you may not use this file except in compliance with the License.",
+      "tokens": [
+        "copyright",
+        "2018",
+        "adobe",
+        "licensed",
+        "under",
+        "apache",
+        "license",
+        "version",
+        "license",
+        "may",
+        "not",
+        "use",
+        "file",
+        "except",
+        "compliance",
+        "license"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 343,
+      "factId": "hz.web.d2b9db523b584634.fact.2",
+      "kind": "bullet",
+      "text": "* You may obtain a copy of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+      "tokens": [
+        "may",
+        "obtain",
+        "copy",
+        "license",
+        "http",
+        "www",
+        "apache",
+        "org",
+        "licenses",
+        "license",
+        "unless",
+        "required",
+        "applicable",
+        "law",
+        "agreed",
+        "writing",
+        "software",
+        "distributed",
+        "under",
+        "license",
+        "distributed",
+        "basis",
+        "without",
+        "warranties",
+        "conditions",
+        "any",
+        "kind",
+        "either",
+        "express",
+        "implied"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 649,
+      "factId": "hz.web.d2b9db523b584634.fact.3",
+      "kind": "bullet",
+      "text": "* See the License for the specific language governing permissions and * limitations under the License.",
+      "tokens": [
+        "see",
+        "license",
+        "specific",
+        "language",
+        "governing",
+        "permissions",
+        "limitations",
+        "under",
+        "license"
+      ]
+    },
+    {
+      "charEnd": 1550,
+      "charStart": 754,
+      "factId": "hz.web.d2b9db523b584634.fact.4",
+      "kind": "bullet",
+      "text": "*/ .cmp-carousel__content { position: relative; } .cmp-carousel__item { display: none; } .cmp-carousel__item--active { display: block; } .cmp-carousel__action { -webkit-appearance: none; -moz-appearance: none; appearance: none; } .cmp-carousel__indicators { display: flex; flex-wrap: wrap; justify-content: center; margin: 0; padding: 0; list-style: none; } .cmp-carousel__indicator { position: relative; flex: 0 1 auto; width: 10px; height: 10px; margin: 0 7px; border-radius: 50%; font-size: 0; text-indent: -3000px; background-color: rgba(0, 0, 0, 0.5); } .cmp-carousel__indicator--active { background-color: rgba(0, 0, 0, 0.8); } /* * Copyright 2017 Adobe * * Licensed under the Apache License, Version 2.0 (the \"License\"); * you may not use this file except in compliance with the License.",
+      "tokens": [
+        "cmp",
+        "carousel__content",
+        "position",
+        "relative",
+        "cmp",
+        "carousel__item",
+        "display",
+        "none",
+        "cmp",
+        "carousel__item",
+        "active",
+        "display",
+        "block",
+        "cmp",
+        "carousel__action",
+        "webkit",
+        "appearance",
+        "none",
+        "moz",
+        "appearance",
+        "none",
+        "appearance",
+        "none",
+        "cmp",
+        "carousel__indicators",
+        "display",
+        "flex",
+        "flex",
+        "wrap",
+        "wrap",
+        "justify",
+        "content",
+        "center",
+        "margin",
+        "padding",
+        "list",
+        "style",
+        "none",
+        "cmp",
+        "carousel__indicator",
+        "position",
+        "relative",
+        "flex",
+        "auto",
+        "width",
+        "10px",
+        "height",
+        "10px",
+        "margin",
+        "7px",
+        "border",
+        "radius",
+        "50",
+        "font",
+        "size",
+        "text",
+        "indent",
+        "3000px",
+        "background",
+        "color",
+        "rgba",
+        "cmp",
+        "carousel__indicator",
+        "active",
+        "background",
+        "color",
+        "rgba",
+        "copyright",
+        "2017",
+        "adobe",
+        "licensed",
+        "under",
+        "apache",
+        "license",
+        "version",
+        "license",
+        "may",
+        "not",
+        "use",
+        "file",
+        "except",
+        "compliance",
+        "license"
+      ]
+    },
+    {
+      "charEnd": 1574,
+      "charStart": 1565,
+      "factId": "hz.web.d2b9db523b584634.fact.5",
+      "kind": "bullet",
+      "text": "license",
+      "tokens": [
+        "license"
+      ]
+    },
+    {
+      "charEnd": 1580,
+      "charStart": 1575,
+      "factId": "hz.web.d2b9db523b584634.fact.6",
+      "kind": "bullet",
+      "text": "cmp",
+      "tokens": [
+        "cmp"
+      ]
+    },
+    {
+      "charEnd": 1588,
+      "charStart": 1581,
+      "factId": "hz.web.d2b9db523b584634.fact.7",
+      "kind": "bullet",
+      "text": "under",
+      "tokens": [
+        "under"
+      ]
+    },
+    {
+      "charEnd": 1598,
+      "charStart": 1589,
+      "factId": "hz.web.d2b9db523b584634.fact.8",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 1607,
+      "charStart": 1599,
+      "factId": "hz.web.d2b9db523b584634.fact.9",
+      "kind": "bullet",
+      "text": "apache",
+      "tokens": [
+        "apache"
+      ]
+    },
+    {
+      "charEnd": 1621,
+      "charStart": 1608,
+      "factId": "hz.web.d2b9db523b584634.fact.10",
+      "kind": "bullet",
+      "text": "distributed",
+      "tokens": [
+        "distributed"
+      ]
+    },
+    {
+      "charEnd": 1627,
+      "charStart": 1622,
+      "factId": "hz.web.d2b9db523b584634.fact.11",
+      "kind": "bullet",
+      "text": "may",
+      "tokens": [
+        "may"
+      ]
+    },
+    {
+      "charEnd": 1634,
+      "charStart": 1628,
+      "factId": "hz.web.d2b9db523b584634.fact.12",
+      "kind": "bullet",
+      "text": "none",
+      "tokens": [
+        "none"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.d2b9db523b584634.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.census.gov"
+    },
+    {
+      "charEnd": 178,
+      "charStart": 168,
+      "headingId": "hz.web.d2b9db523b584634.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1563,
+      "charStart": 1552,
+      "headingId": "hz.web.d2b9db523b584634.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1646,
+      "charStart": 1636,
+      "headingId": "hz.web.d2b9db523b584634.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d2b9db523b584634.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4948,
+        "start": 0
+      }
+    ],
+    "hash": "350adf763bc4caa416dbf903d3515470c2b8427f79a3b8a848c4c94c5fc46aaf",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.d2b9db523b584634.rule.1",
+      "text": "- * You may obtain a copy of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+      "tokens": [
+        "may",
+        "obtain",
+        "copy",
+        "license",
+        "http",
+        "www",
+        "apache",
+        "org",
+        "licenses",
+        "license",
+        "unless",
+        "required",
+        "applicable",
+        "law",
+        "agreed",
+        "writing",
+        "software",
+        "distributed",
+        "under",
+        "license",
+        "distributed",
+        "basis",
+        "without",
+        "warranties",
+        "conditions",
+        "any",
+        "kind",
+        "either",
+        "express",
+        "implied"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d2b9db523b584634.rule.2",
+      "text": "* You may obtain a copy of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+      "tokens": [
+        "may",
+        "obtain",
+        "copy",
+        "license",
+        "http",
+        "www",
+        "apache",
+        "org",
+        "licenses",
+        "license",
+        "unless",
+        "required",
+        "applicable",
+        "law",
+        "agreed",
+        "writing",
+        "software",
+        "distributed",
+        "under",
+        "license",
+        "distributed",
+        "basis",
+        "without",
+        "warranties",
+        "conditions",
+        "any",
+        "kind",
+        "either",
+        "express",
+        "implied"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d2b9db523b584634.rule.3",
+      "text": "* You may obtain a copy of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+      "tokens": [
+        "may",
+        "obtain",
+        "copy",
+        "license",
+        "http",
+        "www",
+        "apache",
+        "org",
+        "licenses",
+        "license",
+        "unless",
+        "required",
+        "applicable",
+        "law",
+        "agreed",
+        "writing",
+        "software",
+        "distributed",
+        "under",
+        "license",
+        "distributed",
+        "basis",
+        "without",
+        "warranties",
+        "conditions",
+        "any",
+        "kind",
+        "either",
+        "express",
+        "implied"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d2b9db523b584634.rule.4",
+      "text": "* You may obtain a copy of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+      "tokens": [
+        "may",
+        "obtain",
+        "copy",
+        "license",
+        "http",
+        "www",
+        "apache",
+        "org",
+        "licenses",
+        "license",
+        "unless",
+        "required",
+        "applicable",
+        "law",
+        "agreed",
+        "writing",
+        "software",
+        "distributed",
+        "under",
+        "license",
+        "distributed",
+        "basis",
+        "without",
+        "warranties",
+        "conditions",
+        "any",
+        "kind",
+        "either",
+        "express",
+        "implied"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d2b9db523b584634.rule.5",
+      "text": "* You may obtain a copy of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY",
+      "tokens": [
+        "may",
+        "obtain",
+        "copy",
+        "license",
+        "http",
+        "www",
+        "apache",
+        "org",
+        "licenses",
+        "license",
+        "unless",
+        "required",
+        "applicable",
+        "law",
+        "agreed",
+        "writing",
+        "software",
+        "distributed",
+        "under",
+        "license",
+        "distributed",
+        "basis",
+        "without",
+        "warranties",
+        "conditions",
+        "any"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* * Copyright 2018 Adobe * * Licensed under the Apache License, Version 2.0 (the \"License\"); * you may not use this file except in compliance with the License.",
+      "* You may obtain a copy of the License at * * http://www.apache.org/licenses/LICENSE-2.0 * * Unless required by applicable law or agreed to in writing, software * distributed under the License is distributed on an \"AS IS\" BASIS, * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+      "* See the License for the specific language governing permissions and * limitations under the License."
+    ],
+    "medium": "Source: https://www.census.gov/etc.clientlibs/census-core/clientlibs.min.9556bf894a0d404c4e4f4bf83ef3c63b.css",
+    "short": "Source: https://www.census.gov/etc.clientlibs/census-core/clientlibs.min.9556bf894a0d404c4e4f4bf83ef3c63b.css",
+    "tokens": [
+      "www",
+      "census",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "census",
+      "gov",
+      "etc",
+      "clientlibs",
+      "census",
+      "core",
+      "clientlibs",
+      "min",
+      "9556bf894a0d404c4e4f4bf83ef3c63b",
+      "css",
+      "source",
+      "https",
+      "www",
+      "census",
+      "gov",
+      "etc",
+      "clientlibs",
+      "census",
+      "core",
+      "clientlibs",
+      "min",
+      "9556bf894a0d404c4e4f4bf83ef3c63b",
+      "css"
+    ]
+  },
+  "title": "www.census.gov"
+}

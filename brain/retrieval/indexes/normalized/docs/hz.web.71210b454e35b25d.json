@@ -1,0 +1,329 @@
+{
+  "aliases": [
+    {
+      "alias": "71210b454e35b25d",
+      "aliasId": "hz.web.71210b454e35b25d.alias.1",
+      "canonical": "welcome to gmpg"
+    },
+    {
+      "alias": "web 71210b454e35b25d",
+      "aliasId": "hz.web.71210b454e35b25d.alias.2",
+      "canonical": "welcome to gmpg"
+    },
+    {
+      "alias": "welcome to gmpg",
+      "aliasId": "hz.web.71210b454e35b25d.alias.3",
+      "canonical": "welcome to gmpg"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.56,
+  "docId": "hz.web.71210b454e35b25d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.71210b454e35b25d.entity.1",
+      "kind": "document",
+      "name": "Welcome to GMPG",
+      "tokens": [
+        "welcome",
+        "gmpg"
+      ]
+    },
+    {
+      "entityId": "hz.web.71210b454e35b25d.entity.2",
+      "kind": "heading",
+      "name": "Welcome to GMPG",
+      "tokens": [
+        "welcome",
+        "gmpg"
+      ]
+    },
+    {
+      "entityId": "hz.web.71210b454e35b25d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.71210b454e35b25d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.71210b454e35b25d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 45,
+      "charStart": 20,
+      "factId": "hz.web.71210b454e35b25d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://gmpg.org/",
+      "tokens": [
+        "source",
+        "https",
+        "gmpg",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 208,
+      "charStart": 97,
+      "factId": "hz.web.71210b454e35b25d.fact.1",
+      "kind": "bullet",
+      "text": "Welcome to GMPG Global Multimedia Protocols Group The GMPG can be explained as an experiment in Metamemetics.",
+      "tokens": [
+        "welcome",
+        "gmpg",
+        "global",
+        "multimedia",
+        "protocols",
+        "group",
+        "gmpg",
+        "explained",
+        "experiment",
+        "metamemetics"
+      ]
+    },
+    {
+      "charEnd": 344,
+      "charStart": 209,
+      "factId": "hz.web.71210b454e35b25d.fact.2",
+      "kind": "bullet",
+      "text": "The first aim of Metamemetics is to create a structure of principles that foster the construction and propagation of elemental ideas.",
+      "tokens": [
+        "first",
+        "aim",
+        "metamemetics",
+        "create",
+        "structure",
+        "principles",
+        "foster",
+        "construction",
+        "propagation",
+        "elemental",
+        "ideas"
+      ]
+    },
+    {
+      "charEnd": 494,
+      "charStart": 345,
+      "factId": "hz.web.71210b454e35b25d.fact.3",
+      "kind": "bullet",
+      "text": "The GMPG attempts to stimulate simplification of virtual substructures and bring people to question established structures and their relationships.",
+      "tokens": [
+        "gmpg",
+        "attempts",
+        "stimulate",
+        "simplification",
+        "virtual",
+        "substructures",
+        "bring",
+        "people",
+        "question",
+        "established",
+        "structures",
+        "their",
+        "relationships"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 495,
+      "factId": "hz.web.71210b454e35b25d.fact.4",
+      "kind": "bullet",
+      "text": "Because people are not used to seeing elemental technologies or concepts which are powerful and immediately usable, frequent and novel encounters with GMPG efforts provoke optimism and empowerment, nevertheless reawakening criticism of complexity and a desire for simplicity.",
+      "tokens": [
+        "because",
+        "people",
+        "not",
+        "used",
+        "seeing",
+        "elemental",
+        "technologies",
+        "concepts",
+        "powerful",
+        "immediately",
+        "usable",
+        "frequent",
+        "novel",
+        "encounters",
+        "gmpg",
+        "efforts",
+        "provoke",
+        "optimism",
+        "empowerment",
+        "nevertheless",
+        "reawakening",
+        "criticism",
+        "complexity",
+        "desire",
+        "simplicity"
+      ]
+    },
+    {
+      "charEnd": 793,
+      "charStart": 787,
+      "factId": "hz.web.71210b454e35b25d.fact.5",
+      "kind": "bullet",
+      "text": "gmpg",
+      "tokens": [
+        "gmpg"
+      ]
+    },
+    {
+      "charEnd": 803,
+      "charStart": 794,
+      "factId": "hz.web.71210b454e35b25d.fact.6",
+      "kind": "bullet",
+      "text": "efforts",
+      "tokens": [
+        "efforts"
+      ]
+    },
+    {
+      "charEnd": 812,
+      "charStart": 804,
+      "factId": "hz.web.71210b454e35b25d.fact.7",
+      "kind": "bullet",
+      "text": "people",
+      "tokens": [
+        "people"
+      ]
+    },
+    {
+      "charEnd": 825,
+      "charStart": 813,
+      "factId": "hz.web.71210b454e35b25d.fact.8",
+      "kind": "bullet",
+      "text": "principles",
+      "tokens": [
+        "principles"
+      ]
+    },
+    {
+      "charEnd": 837,
+      "charStart": 826,
+      "factId": "hz.web.71210b454e35b25d.fact.9",
+      "kind": "bullet",
+      "text": "elemental",
+      "tokens": [
+        "elemental"
+      ]
+    },
+    {
+      "charEnd": 845,
+      "charStart": 838,
+      "factId": "hz.web.71210b454e35b25d.fact.10",
+      "kind": "bullet",
+      "text": "group",
+      "tokens": [
+        "group"
+      ]
+    },
+    {
+      "charEnd": 855,
+      "charStart": 846,
+      "factId": "hz.web.71210b454e35b25d.fact.11",
+      "kind": "bullet",
+      "text": "history",
+      "tokens": [
+        "history"
+      ]
+    },
+    {
+      "charEnd": 870,
+      "charStart": 856,
+      "factId": "hz.web.71210b454e35b25d.fact.12",
+      "kind": "bullet",
+      "text": "metamemetics",
+      "tokens": [
+        "metamemetics"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.71210b454e35b25d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Welcome to GMPG"
+    },
+    {
+      "charEnd": 95,
+      "charStart": 85,
+      "headingId": "hz.web.71210b454e35b25d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 785,
+      "charStart": 774,
+      "headingId": "hz.web.71210b454e35b25d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 882,
+      "charStart": 872,
+      "headingId": "hz.web.71210b454e35b25d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/71210b454e35b25d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2091,
+        "start": 0
+      }
+    ],
+    "hash": "00db11daae01a900488225c5995b271753ac6161f303f7a90b1fad3bd64f4128",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Welcome to GMPG Global Multimedia Protocols Group The GMPG can be explained as an experiment in Metamemetics.",
+      "The first aim of Metamemetics is to create a structure of principles that foster the construction and propagation of elemental ideas.",
+      "The GMPG attempts to stimulate simplification of virtual substructures and bring people to question established structures and their relationships."
+    ],
+    "medium": "Source: https://gmpg.org/",
+    "short": "Source: https://gmpg.org/",
+    "tokens": [
+      "welcome",
+      "gmpg",
+      "source",
+      "https",
+      "gmpg",
+      "org",
+      "source",
+      "https",
+      "gmpg",
+      "org"
+    ]
+  },
+  "title": "Welcome to GMPG"
+}

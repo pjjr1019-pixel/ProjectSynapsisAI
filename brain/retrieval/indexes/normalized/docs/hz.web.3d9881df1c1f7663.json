@@ -1,0 +1,433 @@
+{
+  "aliases": [
+    {
+      "alias": "3d9881df1c1f7663",
+      "aliasId": "hz.web.3d9881df1c1f7663.alias.1",
+      "canonical": "html 4.01 specification"
+    },
+    {
+      "alias": "html 4.01 specification",
+      "aliasId": "hz.web.3d9881df1c1f7663.alias.2",
+      "canonical": "html 4.01 specification"
+    },
+    {
+      "alias": "web 3d9881df1c1f7663",
+      "aliasId": "hz.web.3d9881df1c1f7663.alias.3",
+      "canonical": "html 4.01 specification"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.3d9881df1c1f7663",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3d9881df1c1f7663.entity.1",
+      "kind": "document",
+      "name": "HTML 4.01 Specification",
+      "tokens": [
+        "html",
+        "01",
+        "specification"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d9881df1c1f7663.entity.2",
+      "kind": "heading",
+      "name": "HTML 4.01 Specification",
+      "tokens": [
+        "html",
+        "01",
+        "specification"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d9881df1c1f7663.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d9881df1c1f7663.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d9881df1c1f7663.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 28,
+      "factId": "hz.web.3d9881df1c1f7663.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/TR/html401",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "html401"
+      ]
+    },
+    {
+      "charEnd": 825,
+      "charStart": 117,
+      "factId": "hz.web.3d9881df1c1f7663.fact.1",
+      "kind": "bullet",
+      "text": "HTML 4.01 Specification next table of contents elements attributes index HTML 4.01 Specification W3C Recommendation 24 December 1999 superseded 27 March 2018 This version: https://www.w3.org/TR/2018/SPSD-html401-20180327/ Latest version of HTML 4.01: http://www.w3.org/TR/html401 Latest version of HTML 4: http://www.w3.org/TR/html4 Latest version of HTML: https://www.w3.org/TR/html/ Previous version of HTML 4.01: http://www.w3.org/TR/1999/REC-html401-19991224 Previous HTML 4 Recommendation: http://www.w3.org/TR/1998/REC-html40-19980424 Editors: Dave Raggett &lt; [redacted-email] &gt; Arnaud Le Hors, W3C Ian Jacobs, W3C Copyright &copy;1997-1999 W3C &reg; ( MIT , INRIA , Keio ), All Rights Reserved.",
+      "tokens": [
+        "html",
+        "01",
+        "specification",
+        "next",
+        "table",
+        "contents",
+        "elements",
+        "attributes",
+        "index",
+        "html",
+        "01",
+        "specification",
+        "w3c",
+        "recommendation",
+        "24",
+        "december",
+        "1999",
+        "superseded",
+        "27",
+        "march",
+        "2018",
+        "version",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2018",
+        "spsd",
+        "html401",
+        "20180327",
+        "latest",
+        "version",
+        "html",
+        "01",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "html401",
+        "latest",
+        "version",
+        "html",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "html4",
+        "latest",
+        "version",
+        "html",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "html",
+        "previous",
+        "version",
+        "html",
+        "01",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "1999",
+        "rec",
+        "html401",
+        "19991224",
+        "previous",
+        "html",
+        "recommendation",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "1998",
+        "rec",
+        "html40",
+        "19980424",
+        "editors",
+        "dave",
+        "raggett",
+        "lt",
+        "redacted",
+        "email",
+        "gt",
+        "arnaud",
+        "le",
+        "hors",
+        "w3c",
+        "ian",
+        "jacobs",
+        "w3c",
+        "copyright",
+        "copy",
+        "1997",
+        "1999",
+        "w3c",
+        "reg",
+        "mit",
+        "inria",
+        "keio",
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 904,
+      "charStart": 826,
+      "factId": "hz.web.3d9881df1c1f7663.fact.2",
+      "kind": "bullet",
+      "text": "W3C liability , trademark , document use and software licensing rules apply.",
+      "tokens": [
+        "w3c",
+        "liability",
+        "trademark",
+        "document",
+        "use",
+        "software",
+        "licensing",
+        "rules",
+        "apply"
+      ]
+    },
+    {
+      "charEnd": 1027,
+      "charStart": 905,
+      "factId": "hz.web.3d9881df1c1f7663.fact.3",
+      "kind": "bullet",
+      "text": "Abstract This specification defines the HyperText Markup Language (HTML), the publishing language of the World Wide Web.",
+      "tokens": [
+        "abstract",
+        "specification",
+        "defines",
+        "hypertext",
+        "markup",
+        "language",
+        "html",
+        "publishing",
+        "language",
+        "world",
+        "wide",
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1100,
+      "charStart": 1028,
+      "factId": "hz.web.3d9881df1c1f7663.fact.4",
+      "kind": "bullet",
+      "text": "This specification defines HTML 4.01, which is a subversion of HTML 4.",
+      "tokens": [
+        "specification",
+        "defines",
+        "html",
+        "01",
+        "subversion",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 1121,
+      "charStart": 1115,
+      "factId": "hz.web.3d9881df1c1f7663.fact.5",
+      "kind": "bullet",
+      "text": "html",
+      "tokens": [
+        "html"
+      ]
+    },
+    {
+      "charEnd": 1131,
+      "charStart": 1122,
+      "factId": "hz.web.3d9881df1c1f7663.fact.6",
+      "kind": "bullet",
+      "text": "element",
+      "tokens": [
+        "element"
+      ]
+    },
+    {
+      "charEnd": 1142,
+      "charStart": 1132,
+      "factId": "hz.web.3d9881df1c1f7663.fact.7",
+      "kind": "bullet",
+      "text": "elements",
+      "tokens": [
+        "elements"
+      ]
+    },
+    {
+      "charEnd": 1153,
+      "charStart": 1143,
+      "factId": "hz.web.3d9881df1c1f7663.fact.8",
+      "kind": "bullet",
+      "text": "document",
+      "tokens": [
+        "document"
+      ]
+    },
+    {
+      "charEnd": 1161,
+      "charStart": 1154,
+      "factId": "hz.web.3d9881df1c1f7663.fact.9",
+      "kind": "bullet",
+      "text": "style",
+      "tokens": [
+        "style"
+      ]
+    },
+    {
+      "charEnd": 1171,
+      "charStart": 1162,
+      "factId": "hz.web.3d9881df1c1f7663.fact.10",
+      "kind": "bullet",
+      "text": "changes",
+      "tokens": [
+        "changes"
+      ]
+    },
+    {
+      "charEnd": 1183,
+      "charStart": 1172,
+      "factId": "hz.web.3d9881df1c1f7663.fact.11",
+      "kind": "bullet",
+      "text": "character",
+      "tokens": [
+        "character"
+      ]
+    },
+    {
+      "charEnd": 1190,
+      "charStart": 1184,
+      "factId": "hz.web.3d9881df1c1f7663.fact.12",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.3d9881df1c1f7663.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "HTML 4.01 Specification"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.3d9881df1c1f7663.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1113,
+      "charStart": 1102,
+      "headingId": "hz.web.3d9881df1c1f7663.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1202,
+      "charStart": 1192,
+      "headingId": "hz.web.3d9881df1c1f7663.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/3d9881df1c1f7663.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4441,
+        "start": 0
+      }
+    ],
+    "hash": "84dca9010635347479408d9a902a378f80e8823b052227b9cfed6ea310fd69b4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.3d9881df1c1f7663.rule.1",
+      "text": "New implementations should follow the latest version of the HTML specification.",
+      "tokens": [
+        "new",
+        "implementations",
+        "follow",
+        "latest",
+        "version",
+        "html",
+        "specification"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "HTML 4.01 Specification next table of contents elements attributes index HTML 4.01 Specification W3C Recommendation 24 December 1999 superseded 27 March 2018 This version: https://www.w3.org/TR/2018/SPSD-html401-20180327/ Latest version of HTML 4.01: http://www.w3.org/TR/html401 Latest version of HTML 4: http://www.w3.org/TR/html4 Latest version of HTML: https://www.w3.org/TR/html/ Previous version of HTML 4.01: http://www.w3.org/TR/1999/REC-html401-19991224 Previous HTML 4 Recommendation: http://www.w3.org/TR/1998/REC-html40-19980424 Editors: Dave Raggett &lt; [redacted-email] &gt; Arnaud Le Hors, W3C Ian Jacobs, W3C Copyright &copy;1997-1999 W3C &reg; ( MIT , INRIA , Keio ), All Rights Reserved.",
+      "W3C liability , trademark , document use and software licensing rules apply.",
+      "Abstract This specification defines the HyperText Markup Language (HTML), the publishing language of the World Wide Web."
+    ],
+    "medium": "Source: https://www.w3.org/TR/html401",
+    "short": "Source: https://www.w3.org/TR/html401",
+    "tokens": [
+      "html",
+      "01",
+      "specification",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "html401",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "html401"
+    ]
+  },
+  "title": "HTML 4.01 Specification"
+}

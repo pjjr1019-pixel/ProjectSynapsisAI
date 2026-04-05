@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    {
+      "alias": "sample user.sample memory",
+      "aliasId": "hz.auto.memory.user.sample-user.sample-memory.src-json.alias.1",
+      "canonical": "sample user.sample memory"
+    }
+  ],
+  "app": "memory",
+  "confidence": 0.8,
+  "docId": "hz.auto.memory.user.sample-user.sample-memory.src-json",
+  "domain": "memory",
+  "entities": [
+    {
+      "entityId": "hz.auto.memory.user.sample-user.sample-memory.src-json.entity.1",
+      "kind": "document",
+      "name": "sample user.sample memory",
+      "tokens": [
+        "sample",
+        "user",
+        "sample",
+        "memory"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.auto.memory.user.sample-user.sample-memory.src-json.fact.1",
+      "kind": "summary",
+      "text": "Structured JSON keys: userId, recordId, type, sensitivity, confidence, summary, evidence, updatedAt",
+      "tokens": [
+        "structured",
+        "json",
+        "keys",
+        "userid",
+        "recordid",
+        "type",
+        "sensitivity",
+        "confidence",
+        "summary",
+        "evidence",
+        "updatedat"
+      ]
+    }
+  ],
+  "headings": [],
+  "moduleIds": [],
+  "path": "memory/user/sample-user.sample-memory.json",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 419,
+        "start": 0
+      }
+    ],
+    "hash": "5a657e6068b1580d1e4d6e04f1125114bac91ba430940f56e4317e6393a281e1",
+    "sourceType": "memory"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "{ \"userId\": \"sample-user\", \"recordId\": \"mem-pref-timezone-001\", \"type\": \"preference\", \"sensitivity\": \"low\", \"confidence\": 0.9, \"summary\": \"Prefers concise answers in the morning; more detail after 17:00 local.\", \"evidence\": [ { \"kind\": \"utterance\", \"ref\": \"session-2026-03-27T10-local\", \"at\": \"2026-03-27T10:15:00Z\" } ], \"updatedAt\": \"2026-03-27T12:00:00Z\" }",
+    "short": "{ \"userId\": \"sample-user\", \"recordId\": \"mem-pref-timezone-001\", \"type\": \"preference\", \"sensitivity\": \"low\", \"confidence\": 0.9, \"summary\": \"Prefers concise answers in the morning; more detail after 17:00 local.\", \"evidence\": [ { \"kind\": \"utt",
+    "tokens": [
+      "sample",
+      "user",
+      "sample",
+      "memory",
+      "userid",
+      "sample",
+      "user",
+      "recordid",
+      "mem",
+      "pref",
+      "timezone",
+      "001",
+      "type",
+      "preference",
+      "sensitivity",
+      "low",
+      "confidence",
+      "summary",
+      "prefers",
+      "concise",
+      "answers",
+      "morning",
+      "more",
+      "detail",
+      "after",
+      "17",
+      "00",
+      "local",
+      "evidence",
+      "kind",
+      "utt",
+      "userid",
+      "sample",
+      "user",
+      "recordid",
+      "mem",
+      "pref",
+      "timezone",
+      "001",
+      "type",
+      "preference",
+      "sensitivity",
+      "low",
+      "confidence",
+      "summary",
+      "prefers",
+      "concise",
+      "answers",
+      "morning",
+      "more",
+      "detail",
+      "after",
+      "17",
+      "00",
+      "local",
+      "evidence",
+      "kind",
+      "utterance",
+      "ref",
+      "session",
+      "2026",
+      "03",
+      "27t10",
+      "local",
+      "2026",
+      "03",
+      "27t10",
+      "15",
+      "00z",
+      "updatedat",
+      "2026",
+      "03",
+      "27t12",
+      "00",
+      "00z"
+    ]
+  },
+  "title": "sample user.sample memory"
+}

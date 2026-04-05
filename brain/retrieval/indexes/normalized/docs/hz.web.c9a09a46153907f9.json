@@ -1,0 +1,323 @@
+{
+  "aliases": [
+    {
+      "alias": "c9a09a46153907f9",
+      "aliasId": "hz.web.c9a09a46153907f9.alias.1",
+      "canonical": "www.neatnik.net"
+    },
+    {
+      "alias": "web c9a09a46153907f9",
+      "aliasId": "hz.web.c9a09a46153907f9.alias.2",
+      "canonical": "www.neatnik.net"
+    },
+    {
+      "alias": "www.neatnik.net",
+      "aliasId": "hz.web.c9a09a46153907f9.alias.3",
+      "canonical": "www.neatnik.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.c9a09a46153907f9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c9a09a46153907f9.entity.1",
+      "kind": "document",
+      "name": "www.neatnik.net",
+      "tokens": [
+        "www",
+        "neatnik",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9a09a46153907f9.entity.2",
+      "kind": "heading",
+      "name": "www.neatnik.net",
+      "tokens": [
+        "www",
+        "neatnik",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9a09a46153907f9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9a09a46153907f9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9a09a46153907f9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 20,
+      "factId": "hz.web.c9a09a46153907f9.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.neatnik.net/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "neatnik",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 171,
+      "charStart": 104,
+      "factId": "hz.web.c9a09a46153907f9.fact.1",
+      "kind": "bullet",
+      "text": "Neatnik Quality internet miscellany made here Welcome to Neatnik!",
+      "tokens": [
+        "neatnik",
+        "quality",
+        "internet",
+        "miscellany",
+        "made",
+        "here",
+        "welcome",
+        "neatnik"
+      ]
+    },
+    {
+      "charEnd": 244,
+      "charStart": 172,
+      "factId": "hz.web.c9a09a46153907f9.fact.2",
+      "kind": "bullet",
+      "text": "I’m Adam Newbold , and neatnik.net has been my online home since 2001.",
+      "tokens": [
+        "adam",
+        "newbold",
+        "neatnik",
+        "net",
+        "has",
+        "online",
+        "home",
+        "since",
+        "2001"
+      ]
+    },
+    {
+      "charEnd": 381,
+      "charStart": 245,
+      "factId": "hz.web.c9a09a46153907f9.fact.3",
+      "kind": "bullet",
+      "text": "Like any aging website, it’s been moved (and battered) around a bit over the years—with things falling off and breaking along the way.",
+      "tokens": [
+        "like",
+        "any",
+        "aging",
+        "website",
+        "moved",
+        "battered",
+        "around",
+        "bit",
+        "over",
+        "years",
+        "things",
+        "falling",
+        "off",
+        "breaking",
+        "along",
+        "way"
+      ]
+    },
+    {
+      "charEnd": 477,
+      "charStart": 382,
+      "factId": "hz.web.c9a09a46153907f9.fact.4",
+      "kind": "bullet",
+      "text": "But now, in its 25th year, it’s time to tidy things up and get everything back in order here.",
+      "tokens": [
+        "but",
+        "now",
+        "its",
+        "25th",
+        "year",
+        "time",
+        "tidy",
+        "things",
+        "up",
+        "get",
+        "everything",
+        "back",
+        "order",
+        "here"
+      ]
+    },
+    {
+      "charEnd": 501,
+      "charStart": 492,
+      "factId": "hz.web.c9a09a46153907f9.fact.5",
+      "kind": "bullet",
+      "text": "neatnik",
+      "tokens": [
+        "neatnik"
+      ]
+    },
+    {
+      "charEnd": 513,
+      "charStart": 502,
+      "factId": "hz.web.c9a09a46153907f9.fact.6",
+      "kind": "bullet",
+      "text": "severance",
+      "tokens": [
+        "severance"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 514,
+      "factId": "hz.web.c9a09a46153907f9.fact.7",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 525,
+      "charStart": 520,
+      "factId": "hz.web.c9a09a46153907f9.fact.8",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 531,
+      "charStart": 526,
+      "factId": "hz.web.c9a09a46153907f9.fact.9",
+      "kind": "bullet",
+      "text": "fun",
+      "tokens": [
+        "fun"
+      ]
+    },
+    {
+      "charEnd": 539,
+      "charStart": 532,
+      "factId": "hz.web.c9a09a46153907f9.fact.10",
+      "kind": "bullet",
+      "text": "neato",
+      "tokens": [
+        "neato"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 540,
+      "factId": "hz.web.c9a09a46153907f9.fact.11",
+      "kind": "bullet",
+      "text": "rad",
+      "tokens": [
+        "rad"
+      ]
+    },
+    {
+      "charEnd": 553,
+      "charStart": 546,
+      "factId": "hz.web.c9a09a46153907f9.fact.12",
+      "kind": "bullet",
+      "text": "reply",
+      "tokens": [
+        "reply"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.c9a09a46153907f9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.neatnik.net"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.c9a09a46153907f9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 490,
+      "charStart": 479,
+      "headingId": "hz.web.c9a09a46153907f9.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 565,
+      "charStart": 555,
+      "headingId": "hz.web.c9a09a46153907f9.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/c9a09a46153907f9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2559,
+        "start": 0
+      }
+    ],
+    "hash": "bdc530b63bc7065a44d437d89f02e5fecde3ac4cb7f7ca43a6e50dd2f5607cb9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Neatnik Quality internet miscellany made here Welcome to Neatnik!",
+      "I’m Adam Newbold , and neatnik.net has been my online home since 2001.",
+      "Like any aging website, it’s been moved (and battered) around a bit over the years—with things falling off and breaking along the way."
+    ],
+    "medium": "Source: https://www.neatnik.net/",
+    "short": "Source: https://www.neatnik.net/",
+    "tokens": [
+      "www",
+      "neatnik",
+      "net",
+      "source",
+      "https",
+      "www",
+      "neatnik",
+      "net",
+      "source",
+      "https",
+      "www",
+      "neatnik",
+      "net"
+    ]
+  },
+  "title": "www.neatnik.net"
+}

@@ -1,0 +1,419 @@
+{
+  "aliases": [
+    {
+      "alias": "189ad22d933f42de",
+      "aliasId": "hz.web.189ad22d933f42de.alias.1",
+      "canonical": "hardware | oracle apac"
+    },
+    {
+      "alias": "hardware oracle apac",
+      "aliasId": "hz.web.189ad22d933f42de.alias.2",
+      "canonical": "hardware | oracle apac"
+    },
+    {
+      "alias": "web 189ad22d933f42de",
+      "aliasId": "hz.web.189ad22d933f42de.alias.3",
+      "canonical": "hardware | oracle apac"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.189ad22d933f42de",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.189ad22d933f42de.entity.1",
+      "kind": "document",
+      "name": "Hardware | Oracle APAC",
+      "tokens": [
+        "hardware",
+        "oracle",
+        "apac"
+      ]
+    },
+    {
+      "entityId": "hz.web.189ad22d933f42de.entity.2",
+      "kind": "heading",
+      "name": "Hardware | Oracle APAC",
+      "tokens": [
+        "hardware",
+        "oracle",
+        "apac"
+      ]
+    },
+    {
+      "entityId": "hz.web.189ad22d933f42de.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.189ad22d933f42de.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.189ad22d933f42de.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 27,
+      "factId": "hz.web.189ad22d933f42de.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.oracle.com/apac/it-infrastructure/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "oracle",
+        "com",
+        "apac",
+        "infrastructure"
+      ]
+    },
+    {
+      "charEnd": 622,
+      "charStart": 133,
+      "factId": "hz.web.189ad22d933f42de.fact.1",
+      "kind": "bullet",
+      "text": "Hardware | Oracle APAC Skip to content Accessibility Policy Menu QUICK LINKS Cloud Database Java AI SUGGESTED LINKS SUGGESTED SEARCHES Country Back Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier Oracle Account Sign-In Create an Account Help Sign Out Oracle APAC Oracle Hardware Oracle hardware includes a full suite of scalable engineered systems, servers, and storage that let enterprises optimize application and database performance, protect crucial data, and lower costs.",
+      "tokens": [
+        "hardware",
+        "oracle",
+        "apac",
+        "skip",
+        "content",
+        "accessibility",
+        "policy",
+        "menu",
+        "quick",
+        "links",
+        "cloud",
+        "database",
+        "java",
+        "ai",
+        "suggested",
+        "links",
+        "suggested",
+        "searches",
+        "country",
+        "back",
+        "cloud",
+        "account",
+        "sign",
+        "cloud",
+        "sign",
+        "up",
+        "free",
+        "cloud",
+        "tier",
+        "oracle",
+        "account",
+        "sign",
+        "create",
+        "account",
+        "help",
+        "sign",
+        "out",
+        "oracle",
+        "apac",
+        "oracle",
+        "hardware",
+        "oracle",
+        "hardware",
+        "includes",
+        "full",
+        "suite",
+        "scalable",
+        "engineered",
+        "systems",
+        "servers",
+        "storage",
+        "let",
+        "enterprises",
+        "optimize",
+        "application",
+        "database",
+        "performance",
+        "protect",
+        "crucial",
+        "data",
+        "lower",
+        "costs"
+      ]
+    },
+    {
+      "charEnd": 798,
+      "charStart": 623,
+      "factId": "hz.web.189ad22d933f42de.fact.2",
+      "kind": "bullet",
+      "text": "Organizations improve database performance, simplify management, and lower costs with exclusive features and automated operations that aren’t available with other solutions.",
+      "tokens": [
+        "organizations",
+        "improve",
+        "database",
+        "performance",
+        "simplify",
+        "management",
+        "lower",
+        "costs",
+        "exclusive",
+        "features",
+        "automated",
+        "operations",
+        "aren",
+        "available",
+        "other",
+        "solutions"
+      ]
+    },
+    {
+      "charEnd": 1104,
+      "charStart": 799,
+      "factId": "hz.web.189ad22d933f42de.fact.3",
+      "kind": "bullet",
+      "text": "Watch the webinar Exadata X11M Deep Dive Try Oracle Cloud Free Tier Announcing Oracle Globally Distributed Exadata Database on Exascale Infrastructure Automatically distribute Oracle databases across nodes, regions, and countries to help meet data residency, extreme availability, and performance needs.",
+      "tokens": [
+        "watch",
+        "webinar",
+        "exadata",
+        "x11m",
+        "deep",
+        "dive",
+        "try",
+        "oracle",
+        "cloud",
+        "free",
+        "tier",
+        "announcing",
+        "oracle",
+        "globally",
+        "distributed",
+        "exadata",
+        "database",
+        "exascale",
+        "infrastructure",
+        "automatically",
+        "distribute",
+        "oracle",
+        "databases",
+        "across",
+        "nodes",
+        "regions",
+        "countries",
+        "help",
+        "meet",
+        "data",
+        "residency",
+        "extreme",
+        "availability",
+        "performance",
+        "needs"
+      ]
+    },
+    {
+      "charEnd": 1315,
+      "charStart": 1105,
+      "factId": "hz.web.189ad22d933f42de.fact.4",
+      "kind": "bullet",
+      "text": "Read the press release Deep-dive webinar on Oracle Globally Distributed Exadata Database on Exascale Infrastructure Get an exclusive, in-depth look at this new Oracle Globally Distributed AI Database service.",
+      "tokens": [
+        "read",
+        "press",
+        "release",
+        "deep",
+        "dive",
+        "webinar",
+        "oracle",
+        "globally",
+        "distributed",
+        "exadata",
+        "database",
+        "exascale",
+        "infrastructure",
+        "get",
+        "exclusive",
+        "depth",
+        "look",
+        "new",
+        "oracle",
+        "globally",
+        "distributed",
+        "ai",
+        "database",
+        "service"
+      ]
+    },
+    {
+      "charEnd": 1338,
+      "charStart": 1330,
+      "factId": "hz.web.189ad22d933f42de.fact.5",
+      "kind": "bullet",
+      "text": "oracle",
+      "tokens": [
+        "oracle"
+      ]
+    },
+    {
+      "charEnd": 1346,
+      "charStart": 1339,
+      "factId": "hz.web.189ad22d933f42de.fact.6",
+      "kind": "bullet",
+      "text": "cloud",
+      "tokens": [
+        "cloud"
+      ]
+    },
+    {
+      "charEnd": 1357,
+      "charStart": 1347,
+      "factId": "hz.web.189ad22d933f42de.fact.7",
+      "kind": "bullet",
+      "text": "database",
+      "tokens": [
+        "database"
+      ]
+    },
+    {
+      "charEnd": 1367,
+      "charStart": 1358,
+      "factId": "hz.web.189ad22d933f42de.fact.8",
+      "kind": "bullet",
+      "text": "exadata",
+      "tokens": [
+        "exadata"
+      ]
+    },
+    {
+      "charEnd": 1374,
+      "charStart": 1368,
+      "factId": "hz.web.189ad22d933f42de.fact.9",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 1379,
+      "charStart": 1375,
+      "factId": "hz.web.189ad22d933f42de.fact.10",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 1393,
+      "charStart": 1380,
+      "factId": "hz.web.189ad22d933f42de.fact.11",
+      "kind": "bullet",
+      "text": "performance",
+      "tokens": [
+        "performance"
+      ]
+    },
+    {
+      "charEnd": 1404,
+      "charStart": 1394,
+      "factId": "hz.web.189ad22d933f42de.fact.12",
+      "kind": "bullet",
+      "text": "hardware",
+      "tokens": [
+        "hardware"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.189ad22d933f42de.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Hardware | Oracle APAC"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.189ad22d933f42de.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1328,
+      "charStart": 1317,
+      "headingId": "hz.web.189ad22d933f42de.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1416,
+      "charStart": 1406,
+      "headingId": "hz.web.189ad22d933f42de.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/189ad22d933f42de.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4671,
+        "start": 0
+      }
+    ],
+    "hash": "ceb4a6c2d87955a38e2b8a286446b13760a6f63e231baa10aedaf30372b43067",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Hardware | Oracle APAC Skip to content Accessibility Policy Menu QUICK LINKS Cloud Database Java AI SUGGESTED LINKS SUGGESTED SEARCHES Country Back Cloud Account Sign in to Cloud Sign Up for Free Cloud Tier Oracle Account Sign-In Create an Account Help Sign Out Oracle APAC Oracle Hardware Oracle hardware includes a full suite of scalable engineered systems, servers, and storage that let enterprises optimize application and database performance, protect crucial data, and lower costs.",
+      "Organizations improve database performance, simplify management, and lower costs with exclusive features and automated operations that aren’t available with other solutions.",
+      "Watch the webinar Exadata X11M Deep Dive Try Oracle Cloud Free Tier Announcing Oracle Globally Distributed Exadata Database on Exascale Infrastructure Automatically distribute Oracle databases across nodes, regions, and countries to help meet data residency, extreme availability, and performance needs."
+    ],
+    "medium": "Source: https://www.oracle.com/apac/it-infrastructure/",
+    "short": "Source: https://www.oracle.com/apac/it-infrastructure/",
+    "tokens": [
+      "hardware",
+      "oracle",
+      "apac",
+      "source",
+      "https",
+      "www",
+      "oracle",
+      "com",
+      "apac",
+      "infrastructure",
+      "source",
+      "https",
+      "www",
+      "oracle",
+      "com",
+      "apac",
+      "infrastructure"
+    ]
+  },
+  "title": "Hardware | Oracle APAC"
+}

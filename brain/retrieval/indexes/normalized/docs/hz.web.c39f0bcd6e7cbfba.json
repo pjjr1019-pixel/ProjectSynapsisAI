@@ -1,0 +1,466 @@
+{
+  "aliases": [
+    {
+      "alias": "c39f0bcd6e7cbfba",
+      "aliasId": "hz.web.c39f0bcd6e7cbfba.alias.1",
+      "canonical": "🔐🕸️💍 restored sign-in options for an indieweb webring - marty mcguire"
+    },
+    {
+      "alias": "restored sign-in options for an indieweb webring - marty mcguire",
+      "aliasId": "hz.web.c39f0bcd6e7cbfba.alias.2",
+      "canonical": "🔐🕸️💍 restored sign-in options for an indieweb webring - marty mcguire"
+    },
+    {
+      "alias": "web c39f0bcd6e7cbfba",
+      "aliasId": "hz.web.c39f0bcd6e7cbfba.alias.3",
+      "canonical": "🔐🕸️💍 restored sign-in options for an indieweb webring - marty mcguire"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.78,
+  "docId": "hz.web.c39f0bcd6e7cbfba",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c39f0bcd6e7cbfba.entity.1",
+      "kind": "document",
+      "name": "🔐🕸️💍 Restored sign-in options for an IndieWeb webring - Marty McGuire",
+      "tokens": [
+        "restored",
+        "sign",
+        "options",
+        "indieweb",
+        "webring",
+        "marty",
+        "mcguire"
+      ]
+    },
+    {
+      "entityId": "hz.web.c39f0bcd6e7cbfba.entity.2",
+      "kind": "heading",
+      "name": "🔐🕸️💍 Restored sign-in options for an IndieWeb webring - Marty McGuire",
+      "tokens": [
+        "restored",
+        "sign",
+        "options",
+        "indieweb",
+        "webring",
+        "marty",
+        "mcguire"
+      ]
+    },
+    {
+      "entityId": "hz.web.c39f0bcd6e7cbfba.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c39f0bcd6e7cbfba.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c39f0bcd6e7cbfba.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 167,
+      "charStart": 77,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.1",
+      "kind": "summary",
+      "text": "Source: https://martymcgui.re/2024/08/25/restored-sign-in-options-for-an-indieweb-webring/",
+      "tokens": [
+        "source",
+        "https",
+        "martymcgui",
+        "re",
+        "2024",
+        "08",
+        "25",
+        "restored",
+        "sign",
+        "options",
+        "indieweb",
+        "webring"
+      ]
+    },
+    {
+      "charEnd": 413,
+      "charStart": 219,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.1",
+      "kind": "bullet",
+      "text": "🔐🕸️💍 Restored sign-in options for an IndieWeb webring - Marty McGuire Marty McGuire 🔐🕸️💍 Restored sign-in options for an IndieWeb webring Are you a member of the 🕸️💍 IndieWeb Webring ?",
+      "tokens": [
+        "restored",
+        "sign",
+        "options",
+        "indieweb",
+        "webring",
+        "marty",
+        "mcguire",
+        "marty",
+        "mcguire",
+        "restored",
+        "sign",
+        "options",
+        "indieweb",
+        "webring",
+        "member",
+        "indieweb",
+        "webring"
+      ]
+    },
+    {
+      "charEnd": 518,
+      "charStart": 414,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.2",
+      "kind": "bullet",
+      "text": "Or have you wanted to be, but you couldn't sign in because it strictly required IndieAuth for sign-in?",
+      "tokens": [
+        "have",
+        "wanted",
+        "but",
+        "couldn",
+        "sign",
+        "because",
+        "strictly",
+        "required",
+        "indieauth",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 519,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.3",
+      "kind": "bullet",
+      "text": "I was recently gently reminded that the IndieWeb webring at one time allowed you to verify your identity using an alternative sign-in mechanism.",
+      "tokens": [
+        "recently",
+        "gently",
+        "reminded",
+        "indieweb",
+        "webring",
+        "one",
+        "time",
+        "allowed",
+        "verify",
+        "your",
+        "identity",
+        "using",
+        "alternative",
+        "sign",
+        "mechanism"
+      ]
+    },
+    {
+      "charEnd": 933,
+      "charStart": 666,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.4",
+      "kind": "bullet",
+      "text": "For instance, by making bi-directional links between your home page and your GitHub account, you can delegate the step of \"proving\" that you are the person in control of your homepage to GitHub, and let them worry about storing and checking usernames and passwords.",
+      "tokens": [
+        "instance",
+        "making",
+        "bi",
+        "directional",
+        "links",
+        "between",
+        "your",
+        "home",
+        "page",
+        "your",
+        "github",
+        "account",
+        "delegate",
+        "step",
+        "proving",
+        "person",
+        "control",
+        "your",
+        "homepage",
+        "github",
+        "let",
+        "them",
+        "worry",
+        "about",
+        "storing",
+        "checking",
+        "usernames",
+        "passwords"
+      ]
+    },
+    {
+      "charEnd": 954,
+      "charStart": 948,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 964,
+      "charStart": 955,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.6",
+      "kind": "bullet",
+      "text": "webring",
+      "tokens": [
+        "webring"
+      ]
+    },
+    {
+      "charEnd": 975,
+      "charStart": 965,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.7",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 982,
+      "charStart": 976,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.8",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 983,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.9",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 996,
+      "charStart": 991,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.10",
+      "kind": "bullet",
+      "text": "but",
+      "tokens": [
+        "but"
+      ]
+    },
+    {
+      "charEnd": 1001,
+      "charStart": 997,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.11",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 1002,
+      "factId": "hz.web.c39f0bcd6e7cbfba.fact.12",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 75,
+      "charStart": 1,
+      "headingId": "hz.web.c39f0bcd6e7cbfba.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "🔐🕸️💍 Restored sign-in options for an IndieWeb webring - Marty McGuire"
+    },
+    {
+      "charEnd": 217,
+      "charStart": 207,
+      "headingId": "hz.web.c39f0bcd6e7cbfba.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 946,
+      "charStart": 935,
+      "headingId": "hz.web.c39f0bcd6e7cbfba.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1025,
+      "charStart": 1015,
+      "headingId": "hz.web.c39f0bcd6e7cbfba.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/c39f0bcd6e7cbfba.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3531,
+        "start": 0
+      }
+    ],
+    "hash": "24c3aeddfa7a48f86ec3de7f6096813d298d58723b59559a878480600c42546e",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.c39f0bcd6e7cbfba.rule.1",
+      "text": "- Or have you wanted to be, but you couldn't sign in because it strictly required IndieAuth for sign-in?",
+      "tokens": [
+        "have",
+        "wanted",
+        "but",
+        "couldn",
+        "sign",
+        "because",
+        "strictly",
+        "required",
+        "indieauth",
+        "sign"
+      ]
+    },
+    {
+      "ruleId": "hz.web.c39f0bcd6e7cbfba.rule.2",
+      "text": "Or have you wanted to be, but you couldn't sign in because it strictly required IndieAuth for sign-in?",
+      "tokens": [
+        "have",
+        "wanted",
+        "but",
+        "couldn",
+        "sign",
+        "because",
+        "strictly",
+        "required",
+        "indieauth",
+        "sign"
+      ]
+    },
+    {
+      "ruleId": "hz.web.c39f0bcd6e7cbfba.rule.3",
+      "text": "It should!",
+      "tokens": []
+    },
+    {
+      "ruleId": "hz.web.c39f0bcd6e7cbfba.rule.4",
+      "text": "If your homepage has no IndieAuth server specified, but has rel=\"me\" links to your GitHub or an email \"mailto:\" link, you should be able to sign in to the webring using those methods!",
+      "tokens": [
+        "if",
+        "your",
+        "homepage",
+        "has",
+        "no",
+        "indieauth",
+        "server",
+        "specified",
+        "but",
+        "has",
+        "rel",
+        "links",
+        "your",
+        "github",
+        "email",
+        "mailto",
+        "link",
+        "able",
+        "sign",
+        "webring",
+        "using",
+        "those",
+        "methods"
+      ]
+    },
+    {
+      "ruleId": "hz.web.c39f0bcd6e7cbfba.rule.5",
+      "text": "Please don't share any links to code- Here are the updates I added today to enable indielogin.com support .",
+      "tokens": [
+        "please",
+        "don",
+        "share",
+        "any",
+        "links",
+        "code",
+        "here",
+        "updates",
+        "added",
+        "today",
+        "enable",
+        "indielogin",
+        "com",
+        "support"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "🔐🕸️💍 Restored sign-in options for an IndieWeb webring - Marty McGuire Marty McGuire 🔐🕸️💍 Restored sign-in options for an IndieWeb webring Are you a member of the 🕸️💍 IndieWeb Webring ?",
+      "Or have you wanted to be, but you couldn't sign in because it strictly required IndieAuth for sign-in?",
+      "I was recently gently reminded that the IndieWeb webring at one time allowed you to verify your identity using an alternative sign-in mechanism."
+    ],
+    "medium": "Source: https://martymcgui.re/2024/08/25/restored-sign-in-options-for-an-indieweb-webring/",
+    "short": "Source: https://martymcgui.re/2024/08/25/restored-sign-in-options-for-an-indieweb-webring/",
+    "tokens": [
+      "restored",
+      "sign",
+      "options",
+      "indieweb",
+      "webring",
+      "marty",
+      "mcguire",
+      "source",
+      "https",
+      "martymcgui",
+      "re",
+      "2024",
+      "08",
+      "25",
+      "restored",
+      "sign",
+      "options",
+      "indieweb",
+      "webring",
+      "source",
+      "https",
+      "martymcgui",
+      "re",
+      "2024",
+      "08",
+      "25",
+      "restored",
+      "sign",
+      "options",
+      "indieweb",
+      "webring"
+    ]
+  },
+  "title": "🔐🕸️💍 Restored sign-in options for an IndieWeb webring - Marty McGuire"
+}

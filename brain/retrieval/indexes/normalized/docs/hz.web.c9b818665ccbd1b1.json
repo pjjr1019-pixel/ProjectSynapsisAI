@@ -1,0 +1,490 @@
+{
+  "aliases": [
+    {
+      "alias": "c9b818665ccbd1b1",
+      "aliasId": "hz.web.c9b818665ccbd1b1.alias.1",
+      "canonical": "thisweekinphoto.com"
+    },
+    {
+      "alias": "thisweekinphoto.com",
+      "aliasId": "hz.web.c9b818665ccbd1b1.alias.2",
+      "canonical": "thisweekinphoto.com"
+    },
+    {
+      "alias": "web c9b818665ccbd1b1",
+      "aliasId": "hz.web.c9b818665ccbd1b1.alias.3",
+      "canonical": "thisweekinphoto.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.56,
+  "docId": "hz.web.c9b818665ccbd1b1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c9b818665ccbd1b1.entity.1",
+      "kind": "document",
+      "name": "thisweekinphoto.com",
+      "tokens": [
+        "thisweekinphoto",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9b818665ccbd1b1.entity.2",
+      "kind": "heading",
+      "name": "thisweekinphoto.com",
+      "tokens": [
+        "thisweekinphoto",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9b818665ccbd1b1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9b818665ccbd1b1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c9b818665ccbd1b1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 125,
+      "charStart": 24,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://thisweekinphoto.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthisweekinphoto.com%2F",
+      "tokens": [
+        "source",
+        "https",
+        "thisweekinphoto",
+        "com",
+        "wp",
+        "json",
+        "oembed",
+        "embed",
+        "url",
+        "https",
+        "3a",
+        "2f",
+        "2fthisweekinphoto",
+        "com",
+        "2f"
+      ]
+    },
+    {
+      "charEnd": 944,
+      "charStart": 177,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.1",
+      "kind": "bullet",
+      "text": "{\"version\":\"1.0\",\"provider_name\":\"This Week in Photo\",\"provider_url\":\"https:\\/\\/thisweekinphoto.com\",\"author_name\":\"Frederick Van Johnson\",\"author_url\":\"https:\\/\\/thisweekinphoto.com\\/author\\/frederick\\/\",\"title\":\"Home\",\"type\":\"rich\",\"width\":600,\"height\":338,\"html\":\"<blockquote class=\\\"wp-embedded-content\\\" data-secret=\\\"v0BPVzlIyD\\\"><a href=\\\"https:\\/\\/thisweekinphoto.com\\/\\\">Home<\\/a><\\/blockquote><iframe sandbox=\\\"allow-scripts\\\" security=\\\"restricted\\\" src=\\\"https:\\/\\/thisweekinphoto.com\\/embed\\/#?secret=v0BPVzlIyD\\\" width=\\\"600\\\" height=\\\"338\\\" title=\\\"&#8220;Home&#8221; &#8212; This Week in Photo\\\" data-secret=\\\"v0BPVzlIyD\\\" frameborder=\\\"0\\\" marginwidth=\\\"0\\\" marginheight=\\\"0\\\" scrolling=\\\"no\\\" class=\\\"wp-embedded-content\\\"><\\/iframe><script>\\n\\/*!",
+      "tokens": [
+        "version",
+        "provider_name",
+        "week",
+        "photo",
+        "provider_url",
+        "https",
+        "thisweekinphoto",
+        "com",
+        "author_name",
+        "frederick",
+        "van",
+        "johnson",
+        "author_url",
+        "https",
+        "thisweekinphoto",
+        "com",
+        "author",
+        "frederick",
+        "title",
+        "home",
+        "type",
+        "rich",
+        "width",
+        "600",
+        "height",
+        "338",
+        "html",
+        "blockquote",
+        "class",
+        "wp",
+        "embedded",
+        "content",
+        "data",
+        "secret",
+        "v0bpvzliyd",
+        "href",
+        "https",
+        "thisweekinphoto",
+        "com",
+        "home",
+        "blockquote",
+        "iframe",
+        "sandbox",
+        "allow",
+        "scripts",
+        "security",
+        "restricted",
+        "src",
+        "https",
+        "thisweekinphoto",
+        "com",
+        "embed",
+        "secret",
+        "v0bpvzliyd",
+        "width",
+        "600",
+        "height",
+        "338",
+        "title",
+        "8220",
+        "home",
+        "8221",
+        "8212",
+        "week",
+        "photo",
+        "data",
+        "secret",
+        "v0bpvzliyd",
+        "frameborder",
+        "marginwidth",
+        "marginheight",
+        "scrolling",
+        "no",
+        "class",
+        "wp",
+        "embedded",
+        "content",
+        "iframe",
+        "script"
+      ]
+    },
+    {
+      "charEnd": 2333,
+      "charStart": 945,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.2",
+      "kind": "bullet",
+      "text": "This file is auto-generated *\\/\\n!function(d,l){\\\"use strict\\\";l.querySelector&&d.addEventListener&&\\\"undefined\\\"!=typeof URL&&(d.wp=d.wp||{},d.wp.receiveEmbedMessage||(d.wp.receiveEmbedMessage=function(e){var t=e.data;if((t||t.secret||t.message||t.value)&&!\\/[^a-zA-Z0-9]\\/.test(t.secret)){for(var s,r,n,a=l.querySelectorAll('iframe[data-secret=\\\"'+t.secret+'\\\"]'),o=l.querySelectorAll('blockquote[data-secret=\\\"'+t.secret+'\\\"]'),c=new RegExp(\\\"^https?:$\\\",\\\"i\\\"),i=0;i<o.length;i++)o[i].style.display=\\\"none\\\";for(i=0;i<a.length;i++)s=a[i],e.source===s.contentWindow&&(s.removeAttribute(\\\"style\\\"),\\\"height\\\"===t.message?(1e3<(r=parseInt(t.value,10))?r=1e3:~~r<200&&(r=200),s.height=r):\\\"link\\\"===t.message&&(r=new URL(s.getAttribute(\\\"src\\\")),n=new URL(t.value),c.test(n.protocol))&&n.host===r.host&&l.activeElement===s&&(d.top.location.href=t.value))}},d.addEventListener(\\\"message\\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\\"DOMContentLoaded\\\",function(){for(var e,t,s=l.querySelectorAll(\\\"iframe.wp-embedded-content\\\"),r=0;r<s.length;r++)(t=(e=s[r]).getAttribute(\\\"data-secret\\\"))||(t=Math.random().toString(36).substring(2,12),e.src+=\\\"#?secret=\\\"+t,e.setAttribute(\\\"data-secret\\\",t)),e.contentWindow.postMessage({message:\\\"ready\\\",secret:t},\\\"*\\\")},!1)))}(window,document);\\n\\/\\/# sourceURL=https:\\/\\/thisweekinphoto.com\\/wp-includes\\/js\\/wp-embed.min.js\\n<\\/script>\\n\"}",
+      "tokens": [
+        "file",
+        "auto",
+        "generated",
+        "function",
+        "use",
+        "strict",
+        "queryselector",
+        "addeventlistener",
+        "undefined",
+        "typeof",
+        "url",
+        "wp",
+        "wp",
+        "wp",
+        "receiveembedmessage",
+        "wp",
+        "receiveembedmessage",
+        "function",
+        "var",
+        "data",
+        "if",
+        "secret",
+        "message",
+        "value",
+        "za",
+        "z0",
+        "test",
+        "secret",
+        "var",
+        "queryselectorall",
+        "iframe",
+        "data",
+        "secret",
+        "secret",
+        "queryselectorall",
+        "blockquote",
+        "data",
+        "secret",
+        "secret",
+        "new",
+        "regexp",
+        "https",
+        "length",
+        "style",
+        "display",
+        "none",
+        "length",
+        "source",
+        "contentwindow",
+        "removeattribute",
+        "style",
+        "height",
+        "message",
+        "1e3",
+        "parseint",
+        "value",
+        "10",
+        "1e3",
+        "200",
+        "200",
+        "height",
+        "link",
+        "message",
+        "new",
+        "url",
+        "getattribute",
+        "src",
+        "new",
+        "url",
+        "value",
+        "test",
+        "protocol",
+        "host",
+        "host",
+        "activeelement",
+        "top",
+        "location",
+        "href",
+        "value",
+        "addeventlistener",
+        "message",
+        "wp",
+        "receiveembedmessage",
+        "addeventlistener",
+        "domcontentloaded",
+        "function",
+        "var",
+        "queryselectorall",
+        "iframe",
+        "wp",
+        "embedded",
+        "content",
+        "length",
+        "getattribute",
+        "data",
+        "secret",
+        "math",
+        "random",
+        "tostring",
+        "36",
+        "substring",
+        "12",
+        "src",
+        "secret",
+        "setattribute",
+        "data",
+        "secret",
+        "contentwindow",
+        "postmessage",
+        "message",
+        "ready",
+        "secret",
+        "window",
+        "document",
+        "sourceurl",
+        "https",
+        "thisweekinphoto",
+        "com",
+        "wp",
+        "includes",
+        "js",
+        "wp",
+        "embed",
+        "min",
+        "js",
+        "script"
+      ]
+    },
+    {
+      "charEnd": 2356,
+      "charStart": 2348,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.3",
+      "kind": "bullet",
+      "text": "secret",
+      "tokens": [
+        "secret"
+      ]
+    },
+    {
+      "charEnd": 2361,
+      "charStart": 2357,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.4",
+      "kind": "bullet",
+      "text": "wp",
+      "tokens": [
+        "wp"
+      ]
+    },
+    {
+      "charEnd": 2368,
+      "charStart": 2362,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.5",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 2376,
+      "charStart": 2369,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 2382,
+      "charStart": 2377,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 2392,
+      "charStart": 2383,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.8",
+      "kind": "bullet",
+      "text": "message",
+      "tokens": [
+        "message"
+      ]
+    },
+    {
+      "charEnd": 2410,
+      "charStart": 2393,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.9",
+      "kind": "bullet",
+      "text": "thisweekinphoto",
+      "tokens": [
+        "thisweekinphoto"
+      ]
+    },
+    {
+      "charEnd": 2419,
+      "charStart": 2411,
+      "factId": "hz.web.c9b818665ccbd1b1.fact.10",
+      "kind": "bullet",
+      "text": "height",
+      "tokens": [
+        "height"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.c9b818665ccbd1b1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "thisweekinphoto.com"
+    },
+    {
+      "charEnd": 175,
+      "charStart": 165,
+      "headingId": "hz.web.c9b818665ccbd1b1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2346,
+      "charStart": 2335,
+      "headingId": "hz.web.c9b818665ccbd1b1.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2431,
+      "charStart": 2421,
+      "headingId": "hz.web.c9b818665ccbd1b1.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/c9b818665ccbd1b1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4882,
+        "start": 0
+      }
+    ],
+    "hash": "24589bf9563a6127a8b4a454e79803418a436b14b2c247867e5219c184b6ea97",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"version\":\"1.0\",\"provider_name\":\"This Week in Photo\",\"provider_url\":\"https:\\/\\/thisweekinphoto.com\",\"author_name\":\"Frederick Van Johnson\",\"author_url\":\"https:\\/\\/thisweekinphoto.com\\/author\\/frederick\\/\",\"title\":\"Home\",\"type\":\"rich\",\"width\":600,\"height\":338,\"html\":\"<blockquote class=\\\"wp-embedded-content\\\" data-secret=\\\"v0BPVzlIyD\\\"><a href=\\\"https:\\/\\/thisweekinphoto.com\\/\\\">Home<\\/a><\\/blockquote><iframe sandbox=\\\"allow-scripts\\\" security=\\\"restricted\\\" src=\\\"https:\\/\\/thisweekinphoto.com\\/embed\\/#?secret=v0BPVzlIyD\\\" width=\\\"600\\\" height=\\\"338\\\" title=\\\"&#8220;Home&#8221; &#8212; This Week in Photo\\\" data-secret=\\\"v0BPVzlIyD\\\" frameborder=\\\"0\\\" marginwidth=\\\"0\\\" marginheight=\\\"0\\\" scrolling=\\\"no\\\" class=\\\"wp-embedded-content\\\"><\\/iframe><script>\\n\\/*!",
+      "This file is auto-generated *\\/\\n!function(d,l){\\\"use strict\\\";l.querySelector&&d.addEventListener&&\\\"undefined\\\"!=typeof URL&&(d.wp=d.wp||{},d.wp.receiveEmbedMessage||(d.wp.receiveEmbedMessage=function(e){var t=e.data;if((t||t.secret||t.message||t.value)&&!\\/[^a-zA-Z0-9]\\/.test(t.secret)){for(var s,r,n,a=l.querySelectorAll('iframe[data-secret=\\\"'+t.secret+'\\\"]'),o=l.querySelectorAll('blockquote[data-secret=\\\"'+t.secret+'\\\"]'),c=new RegExp(\\\"^https?:$\\\",\\\"i\\\"),i=0;i<o.length;i++)o[i].style.display=\\\"none\\\";for(i=0;i<a.length;i++)s=a[i],e.source===s.contentWindow&&(s.removeAttribute(\\\"style\\\"),\\\"height\\\"===t.message?(1e3<(r=parseInt(t.value,10))?r=1e3:~~r<200&&(r=200),s.height=r):\\\"link\\\"===t.message&&(r=new URL(s.getAttribute(\\\"src\\\")),n=new URL(t.value),c.test(n.protocol))&&n.host===r.host&&l.activeElement===s&&(d.top.location.href=t.value))}},d.addEventListener(\\\"message\\\",d.wp.receiveEmbedMessage,!1),l.addEventListener(\\\"DOMContentLoaded\\\",function(){for(var e,t,s=l.querySelectorAll(\\\"iframe.wp-embedded-content\\\"),r=0;r<s.length;r++)(t=(e=s[r]).getAttribute(\\\"data-secret\\\"))||(t=Math.random().toString(36).substring(2,12),e.src+=\\\"#?secret=\\\"+t,e.setAttribute(\\\"data-secret\\\",t)),e.contentWindow.postMessage({message:\\\"ready\\\",secret:t},\\\"*\\\")},!1)))}(window,document);\\n\\/\\/# sourceURL=https:\\/\\/thisweekinphoto.com\\/wp-includes\\/js\\/wp-embed.min.js\\n<\\/script>\\n\"}",
+      "secret"
+    ],
+    "medium": "Source: https://thisweekinphoto.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthisweekinphoto.com%2F",
+    "short": "Source: https://thisweekinphoto.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthisweekinphoto.com%2F",
+    "tokens": [
+      "thisweekinphoto",
+      "com",
+      "source",
+      "https",
+      "thisweekinphoto",
+      "com",
+      "wp",
+      "json",
+      "oembed",
+      "embed",
+      "url",
+      "https",
+      "3a",
+      "2f",
+      "2fthisweekinphoto",
+      "com",
+      "2f",
+      "source",
+      "https",
+      "thisweekinphoto",
+      "com",
+      "wp",
+      "json",
+      "oembed",
+      "embed",
+      "url",
+      "https",
+      "3a",
+      "2f",
+      "2fthisweekinphoto",
+      "com",
+      "2f"
+    ]
+  },
+  "title": "thisweekinphoto.com"
+}

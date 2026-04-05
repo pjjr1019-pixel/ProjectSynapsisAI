@@ -1,0 +1,615 @@
+{
+  "aliases": [
+    {
+      "alias": "abs.twimg.com",
+      "aliasId": "hz.web.aed3ddf29445ba70.alias.1",
+      "canonical": "abs.twimg.com"
+    },
+    {
+      "alias": "aed3ddf29445ba70",
+      "aliasId": "hz.web.aed3ddf29445ba70.alias.2",
+      "canonical": "abs.twimg.com"
+    },
+    {
+      "alias": "web aed3ddf29445ba70",
+      "aliasId": "hz.web.aed3ddf29445ba70.alias.3",
+      "canonical": "abs.twimg.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.aed3ddf29445ba70",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.aed3ddf29445ba70.entity.1",
+      "kind": "document",
+      "name": "abs.twimg.com",
+      "tokens": [
+        "abs",
+        "twimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.aed3ddf29445ba70.entity.2",
+      "kind": "heading",
+      "name": "abs.twimg.com",
+      "tokens": [
+        "abs",
+        "twimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.aed3ddf29445ba70.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.aed3ddf29445ba70.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.aed3ddf29445ba70.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 93,
+      "charStart": 18,
+      "factId": "hz.web.aed3ddf29445ba70.fact.1",
+      "kind": "summary",
+      "text": "Source: https://abs.twimg.com/responsive-web/client-web/i18n/en.a6b6128a.js",
+      "tokens": [
+        "source",
+        "https",
+        "abs",
+        "twimg",
+        "com",
+        "responsive",
+        "web",
+        "client",
+        "web",
+        "i18n",
+        "en",
+        "a6b6128a",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1513,
+      "charStart": 145,
+      "factId": "hz.web.aed3ddf29445ba70.fact.1",
+      "kind": "bullet",
+      "text": "try{!function(){var e=\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof self?self:{},t=(new e.Error).stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]=\"1bfac646-745d-4518-83f0-53342b954b10\",e._sentryDebugIdIdentifier=\"sentry-dbid-1bfac646-745d-4518-83f0-53342b954b10\")}()}catch(e){}!function(){try{(\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof self?self:{}).SENTRY_RELEASE={id:\"928b9afd51f2402cdd3dfd5ec2be051661dbe75f\"}}catch(e){}}(),(self.webpackChunk_twitter_responsive_web=self.webpackChunk_twitter_responsive_web||[]).push([[82331],{417346:(e,t,o)=>{var a=o(693440)._register(\"en\",{get emoji(){return o.e(57186).then(o.t.bind(o,920747,23))}});function n(e,t,o){return\"one\"==(a=e,n=!String(a).split(\".\")[1],1==a&&n?\"one\":\"other\")?t:o;var a,n}a(\"c64e46f8\",\"This member was removed from the Community, so their posts are hidden.\"),a(\"b3f1cb42\",\"A moderator hid this post for breaking a Community rule.\"),a(\"cbd2dc9c\",\"You reported this post.\"),a(\"fa9adac1\",(function(e){return'Search for \"'+e.query+'\"'})),a(\"c39b0e24\",\"X\"),a(\"ac0d27be\",\"Sorry, this account has been suspended.\"),a(\"bcee7444\",\"Account update failed.\"),a(\"e0cbf77a\",\"Add phone\"),a(\"f377195c\",\"X is over capacity.",
+      "tokens": [
+        "try",
+        "function",
+        "var",
+        "undefined",
+        "typeof",
+        "window",
+        "window",
+        "undefined",
+        "typeof",
+        "global",
+        "global",
+        "undefined",
+        "typeof",
+        "globalthis",
+        "globalthis",
+        "undefined",
+        "typeof",
+        "self",
+        "self",
+        "new",
+        "error",
+        "stack",
+        "_sentrydebugids",
+        "_sentrydebugids",
+        "_sentrydebugids",
+        "1bfac646",
+        "745d",
+        "4518",
+        "83f0",
+        "53342b954b10",
+        "_sentrydebugididentifier",
+        "sentry",
+        "dbid",
+        "1bfac646",
+        "745d",
+        "4518",
+        "83f0",
+        "53342b954b10",
+        "catch",
+        "function",
+        "try",
+        "undefined",
+        "typeof",
+        "window",
+        "window",
+        "undefined",
+        "typeof",
+        "global",
+        "global",
+        "undefined",
+        "typeof",
+        "globalthis",
+        "globalthis",
+        "undefined",
+        "typeof",
+        "self",
+        "self",
+        "sentry_release",
+        "id",
+        "928b9afd51f2402cdd3dfd5ec2be051661dbe75f",
+        "catch",
+        "self",
+        "webpackchunk_twitter_responsive_web",
+        "self",
+        "webpackchunk_twitter_responsive_web",
+        "push",
+        "82331",
+        "417346",
+        "var",
+        "693440",
+        "_register",
+        "en",
+        "get",
+        "emoji",
+        "return",
+        "57186",
+        "then",
+        "bind",
+        "920747",
+        "23",
+        "function",
+        "return",
+        "one",
+        "string",
+        "split",
+        "one",
+        "other",
+        "var",
+        "c64e46f8",
+        "member",
+        "removed",
+        "community",
+        "so",
+        "their",
+        "posts",
+        "hidden",
+        "b3f1cb42",
+        "moderator",
+        "hid",
+        "post",
+        "breaking",
+        "community",
+        "rule",
+        "cbd2dc9c",
+        "reported",
+        "post",
+        "fa9adac1",
+        "function",
+        "return",
+        "search",
+        "query",
+        "c39b0e24",
+        "ac0d27be",
+        "sorry",
+        "account",
+        "has",
+        "suspended",
+        "bcee7444",
+        "account",
+        "update",
+        "failed",
+        "e0cbf77a",
+        "add",
+        "phone",
+        "f377195c",
+        "over",
+        "capacity"
+      ]
+    },
+    {
+      "charEnd": 1828,
+      "charStart": 1514,
+      "factId": "hz.web.aed3ddf29445ba70.fact.2",
+      "kind": "bullet",
+      "text": "Please wait a few moments then try again.\"),a(\"d67f9456\",\"You have been blocked from performing this action.\"),a(\"e0ece1b6\",\"Cannot attach media, try re-uploading.\"),a(\"i82e8f04\",\"To protect our users from spam and other malicious activity, this account is temporarily blocked from following additional accounts.",
+      "tokens": [
+        "please",
+        "wait",
+        "few",
+        "moments",
+        "then",
+        "try",
+        "again",
+        "d67f9456",
+        "have",
+        "blocked",
+        "performing",
+        "action",
+        "e0ece1b6",
+        "cannot",
+        "attach",
+        "media",
+        "try",
+        "re",
+        "uploading",
+        "i82e8f04",
+        "protect",
+        "our",
+        "users",
+        "spam",
+        "other",
+        "malicious",
+        "activity",
+        "account",
+        "temporarily",
+        "blocked",
+        "following",
+        "additional",
+        "accounts"
+      ]
+    },
+    {
+      "charEnd": 2008,
+      "charStart": 1829,
+      "factId": "hz.web.aed3ddf29445ba70.fact.3",
+      "kind": "bullet",
+      "text": "Please make sure you understand the X Rules.\"),a(\"jf7be47a\",\"To protect our users from spam and other malicious activity, this account is temporarily blocked from sending posts.",
+      "tokens": [
+        "please",
+        "make",
+        "sure",
+        "understand",
+        "rules",
+        "jf7be47a",
+        "protect",
+        "our",
+        "users",
+        "spam",
+        "other",
+        "malicious",
+        "activity",
+        "account",
+        "temporarily",
+        "blocked",
+        "sending",
+        "posts"
+      ]
+    },
+    {
+      "charEnd": 2122,
+      "charStart": 2009,
+      "factId": "hz.web.aed3ddf29445ba70.fact.4",
+      "kind": "bullet",
+      "text": "Please make sure you understand the X Rules.\"),a(\"g75fec74\",\"You have reached your daily limit for this action.",
+      "tokens": [
+        "please",
+        "make",
+        "sure",
+        "understand",
+        "rules",
+        "g75fec74",
+        "have",
+        "reached",
+        "your",
+        "daily",
+        "limit",
+        "action"
+      ]
+    },
+    {
+      "charEnd": 2143,
+      "charStart": 2137,
+      "factId": "hz.web.aed3ddf29445ba70.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 2153,
+      "charStart": 2144,
+      "factId": "hz.web.aed3ddf29445ba70.fact.6",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 2164,
+      "charStart": 2154,
+      "factId": "hz.web.aed3ddf29445ba70.fact.7",
+      "kind": "bullet",
+      "text": "function",
+      "tokens": [
+        "function"
+      ]
+    },
+    {
+      "charEnd": 2173,
+      "charStart": 2165,
+      "factId": "hz.web.aed3ddf29445ba70.fact.8",
+      "kind": "bullet",
+      "text": "return",
+      "tokens": [
+        "return"
+      ]
+    },
+    {
+      "charEnd": 2182,
+      "charStart": 2174,
+      "factId": "hz.web.aed3ddf29445ba70.fact.9",
+      "kind": "bullet",
+      "text": "please",
+      "tokens": [
+        "please"
+      ]
+    },
+    {
+      "charEnd": 2188,
+      "charStart": 2183,
+      "factId": "hz.web.aed3ddf29445ba70.fact.10",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    },
+    {
+      "charEnd": 2194,
+      "charStart": 2189,
+      "factId": "hz.web.aed3ddf29445ba70.fact.11",
+      "kind": "bullet",
+      "text": "try",
+      "tokens": [
+        "try"
+      ]
+    },
+    {
+      "charEnd": 2201,
+      "charStart": 2195,
+      "factId": "hz.web.aed3ddf29445ba70.fact.12",
+      "kind": "bullet",
+      "text": "post",
+      "tokens": [
+        "post"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.aed3ddf29445ba70.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "abs.twimg.com"
+    },
+    {
+      "charEnd": 143,
+      "charStart": 133,
+      "headingId": "hz.web.aed3ddf29445ba70.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2135,
+      "charStart": 2124,
+      "headingId": "hz.web.aed3ddf29445ba70.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2213,
+      "charStart": 2203,
+      "headingId": "hz.web.aed3ddf29445ba70.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/aed3ddf29445ba70.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5480,
+        "start": 0
+      }
+    ],
+    "hash": "2e0e35dc315c77d139930358211ca6c63589ad1018da1184843cad46b88e434c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.aed3ddf29445ba70.rule.1",
+      "text": "- Please wait a few moments then try again.\"),a(\"d67f9456\",\"You have been blocked from performing this action.\"),a(\"e0ece1b6\",\"Cannot attach media, try re-uploading.\"),a(\"i82e8f04\",\"To protect our users from spam and other malicious activity, this account is temporarily blocked from following additional accounts.",
+      "tokens": [
+        "please",
+        "wait",
+        "few",
+        "moments",
+        "then",
+        "try",
+        "again",
+        "d67f9456",
+        "have",
+        "blocked",
+        "performing",
+        "action",
+        "e0ece1b6",
+        "cannot",
+        "attach",
+        "media",
+        "try",
+        "re",
+        "uploading",
+        "i82e8f04",
+        "protect",
+        "our",
+        "users",
+        "spam",
+        "other",
+        "malicious",
+        "activity",
+        "account",
+        "temporarily",
+        "blocked",
+        "following",
+        "additional",
+        "accounts"
+      ]
+    },
+    {
+      "ruleId": "hz.web.aed3ddf29445ba70.rule.2",
+      "text": "Please wait a few moments then try again.\"),a(\"d67f9456\",\"You have been blocked from performing this action.\"),a(\"e0ece1b6\",\"Cannot attach media, try re-uploading.\"),a(\"i82e8f04\",\"To protect our users from spam and other malicious activity, this account is temporarily blocked from following additional accounts.",
+      "tokens": [
+        "please",
+        "wait",
+        "few",
+        "moments",
+        "then",
+        "try",
+        "again",
+        "d67f9456",
+        "have",
+        "blocked",
+        "performing",
+        "action",
+        "e0ece1b6",
+        "cannot",
+        "attach",
+        "media",
+        "try",
+        "re",
+        "uploading",
+        "i82e8f04",
+        "protect",
+        "our",
+        "users",
+        "spam",
+        "other",
+        "malicious",
+        "activity",
+        "account",
+        "temporarily",
+        "blocked",
+        "following",
+        "additional",
+        "accounts"
+      ]
+    },
+    {
+      "ruleId": "hz.web.aed3ddf29445ba70.rule.3",
+      "text": "Please add a phone to your account to remove the limit.\"),a(\"abb8b6e0\",\"This phone number is already registered.\"),a(\"f30bd1fc\",\"We cannot send a text message to this phone number because its operator is not supported.\"),a(\"i54e550c\",\"We are unable to verify this phone number.\"),a(\"h154702a\",\"We can't complete this request because this link has been identified by X or our partners as being potentially harmful.",
+      "tokens": [
+        "please",
+        "add",
+        "phone",
+        "your",
+        "account",
+        "remove",
+        "limit",
+        "abb8b6e0",
+        "phone",
+        "number",
+        "already",
+        "registered",
+        "f30bd1fc",
+        "cannot",
+        "send",
+        "text",
+        "message",
+        "phone",
+        "number",
+        "because",
+        "its",
+        "operator",
+        "not",
+        "supported",
+        "i54e550c",
+        "unable",
+        "verify",
+        "phone",
+        "number",
+        "h154702a",
+        "complete",
+        "request",
+        "because",
+        "link",
+        "has",
+        "identified",
+        "our",
+        "partners",
+        "potentially",
+        "harmful"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "try{!function(){var e=\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof self?self:{},t=(new e.Error).stack;t&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[t]=\"1bfac646-745d-4518-83f0-53342b954b10\",e._sentryDebugIdIdentifier=\"sentry-dbid-1bfac646-745d-4518-83f0-53342b954b10\")}()}catch(e){}!function(){try{(\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof self?self:{}).SENTRY_RELEASE={id:\"928b9afd51f2402cdd3dfd5ec2be051661dbe75f\"}}catch(e){}}(),(self.webpackChunk_twitter_responsive_web=self.webpackChunk_twitter_responsive_web||[]).push([[82331],{417346:(e,t,o)=>{var a=o(693440)._register(\"en\",{get emoji(){return o.e(57186).then(o.t.bind(o,920747,23))}});function n(e,t,o){return\"one\"==(a=e,n=!String(a).split(\".\")[1],1==a&&n?\"one\":\"other\")?t:o;var a,n}a(\"c64e46f8\",\"This member was removed from the Community, so their posts are hidden.\"),a(\"b3f1cb42\",\"A moderator hid this post for breaking a Community rule.\"),a(\"cbd2dc9c\",\"You reported this post.\"),a(\"fa9adac1\",(function(e){return'Search for \"'+e.query+'\"'})),a(\"c39b0e24\",\"X\"),a(\"ac0d27be\",\"Sorry, this account has been suspended.\"),a(\"bcee7444\",\"Account update failed.\"),a(\"e0cbf77a\",\"Add phone\"),a(\"f377195c\",\"X is over capacity.",
+      "Please wait a few moments then try again.\"),a(\"d67f9456\",\"You have been blocked from performing this action.\"),a(\"e0ece1b6\",\"Cannot attach media, try re-uploading.\"),a(\"i82e8f04\",\"To protect our users from spam and other malicious activity, this account is temporarily blocked from following additional accounts.",
+      "Please make sure you understand the X Rules.\"),a(\"jf7be47a\",\"To protect our users from spam and other malicious activity, this account is temporarily blocked from sending posts."
+    ],
+    "medium": "Source: https://abs.twimg.com/responsive-web/client-web/i18n/en.a6b6128a.js",
+    "short": "Source: https://abs.twimg.com/responsive-web/client-web/i18n/en.a6b6128a.js",
+    "tokens": [
+      "abs",
+      "twimg",
+      "com",
+      "source",
+      "https",
+      "abs",
+      "twimg",
+      "com",
+      "responsive",
+      "web",
+      "client",
+      "web",
+      "i18n",
+      "en",
+      "a6b6128a",
+      "js",
+      "source",
+      "https",
+      "abs",
+      "twimg",
+      "com",
+      "responsive",
+      "web",
+      "client",
+      "web",
+      "i18n",
+      "en",
+      "a6b6128a",
+      "js"
+    ]
+  },
+  "title": "abs.twimg.com"
+}

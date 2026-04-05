@@ -1,0 +1,491 @@
+{
+  "aliases": [
+    {
+      "alias": "db8e6ed260cf41f3",
+      "aliasId": "hz.web.db8e6ed260cf41f3.alias.1",
+      "canonical": "webring - wikipedia"
+    },
+    {
+      "alias": "web db8e6ed260cf41f3",
+      "aliasId": "hz.web.db8e6ed260cf41f3.alias.2",
+      "canonical": "webring - wikipedia"
+    },
+    {
+      "alias": "webring - wikipedia",
+      "aliasId": "hz.web.db8e6ed260cf41f3.alias.3",
+      "canonical": "webring - wikipedia"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.db8e6ed260cf41f3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.db8e6ed260cf41f3.entity.1",
+      "kind": "document",
+      "name": "Webring - Wikipedia",
+      "tokens": [
+        "webring",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.db8e6ed260cf41f3.entity.2",
+      "kind": "heading",
+      "name": "Webring - Wikipedia",
+      "tokens": [
+        "webring",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.db8e6ed260cf41f3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.db8e6ed260cf41f3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.db8e6ed260cf41f3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 69,
+      "charStart": 24,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://en.wikipedia.org/wiki/Webring",
+      "tokens": [
+        "source",
+        "https",
+        "en",
+        "wikipedia",
+        "org",
+        "wiki",
+        "webring"
+      ]
+    },
+    {
+      "charEnd": 1333,
+      "charStart": 121,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.1",
+      "kind": "bullet",
+      "text": "Webring - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 WebRing.com 2 Other webring websites 3 Webring software 4 See also 5 References Toggle the table of contents Webring 11 languages Deutsch Español Français Italiano 日本語 Nederlands Polski Português Русский Svenska Українська Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Group of websites linked in a ring structure A webring (or web ring ) is a collection of websites linked together in a circular structure, usually organized around a specific theme, and often educational or social.",
+      "tokens": [
+        "webring",
+        "wikipedia",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "navigation",
+        "main",
+        "page",
+        "contents",
+        "current",
+        "events",
+        "random",
+        "article",
+        "about",
+        "wikipedia",
+        "contact",
+        "us",
+        "contribute",
+        "help",
+        "learn",
+        "edit",
+        "community",
+        "portal",
+        "recent",
+        "changes",
+        "upload",
+        "file",
+        "special",
+        "pages",
+        "search",
+        "search",
+        "appearance",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "personal",
+        "tools",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "top",
+        "webring",
+        "com",
+        "other",
+        "webring",
+        "websites",
+        "webring",
+        "software",
+        "see",
+        "also",
+        "references",
+        "toggle",
+        "table",
+        "contents",
+        "webring",
+        "11",
+        "languages",
+        "deutsch",
+        "espa",
+        "ol",
+        "fran",
+        "ais",
+        "italiano",
+        "nederlands",
+        "polski",
+        "portugu",
+        "svenska",
+        "edit",
+        "links",
+        "article",
+        "talk",
+        "english",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "upload",
+        "file",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "cite",
+        "page",
+        "get",
+        "shortened",
+        "url",
+        "print",
+        "export",
+        "download",
+        "pdf",
+        "printable",
+        "version",
+        "other",
+        "projects",
+        "wikidata",
+        "item",
+        "appearance",
+        "move",
+        "sidebar",
+        "hide",
+        "wikipedia",
+        "free",
+        "encyclopedia",
+        "group",
+        "websites",
+        "linked",
+        "ring",
+        "structure",
+        "webring",
+        "web",
+        "ring",
+        "collection",
+        "websites",
+        "linked",
+        "together",
+        "circular",
+        "structure",
+        "usually",
+        "organized",
+        "around",
+        "specific",
+        "theme",
+        "often",
+        "educational",
+        "social"
+      ]
+    },
+    {
+      "charEnd": 1434,
+      "charStart": 1334,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.2",
+      "kind": "bullet",
+      "text": "&#91; 1 &#93; They were popular in the 1990s and early 2000s, particularly among amateur websites.",
+      "tokens": [
+        "91",
+        "93",
+        "popular",
+        "1990s",
+        "early",
+        "2000s",
+        "particularly",
+        "among",
+        "amateur",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1555,
+      "charStart": 1435,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.3",
+      "kind": "bullet",
+      "text": "To be a part of the webring, each site has a common navigation bar ; it contains links to the previous and next sites.",
+      "tokens": [
+        "part",
+        "webring",
+        "each",
+        "site",
+        "has",
+        "common",
+        "navigation",
+        "bar",
+        "contains",
+        "links",
+        "previous",
+        "next",
+        "sites"
+      ]
+    },
+    {
+      "charEnd": 1903,
+      "charStart": 1556,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.4",
+      "kind": "bullet",
+      "text": "By selecting next (or previous) repeatedly, the user will eventually reach the site they started at; this is the origin of the term \"webring.\" However, the select-through route around the ring is usually supplemented by a central site with links to all member sites; this prevents the ring from breaking completely if a member site goes offline.",
+      "tokens": [
+        "selecting",
+        "next",
+        "previous",
+        "repeatedly",
+        "user",
+        "will",
+        "eventually",
+        "reach",
+        "site",
+        "started",
+        "origin",
+        "term",
+        "webring",
+        "however",
+        "select",
+        "through",
+        "route",
+        "around",
+        "ring",
+        "usually",
+        "supplemented",
+        "central",
+        "site",
+        "links",
+        "all",
+        "member",
+        "sites",
+        "prevents",
+        "ring",
+        "breaking",
+        "completely",
+        "if",
+        "member",
+        "site",
+        "goes",
+        "offline"
+      ]
+    },
+    {
+      "charEnd": 1927,
+      "charStart": 1918,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.5",
+      "kind": "bullet",
+      "text": "webring",
+      "tokens": [
+        "webring"
+      ]
+    },
+    {
+      "charEnd": 1932,
+      "charStart": 1928,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.6",
+      "kind": "bullet",
+      "text": "91",
+      "tokens": [
+        "91"
+      ]
+    },
+    {
+      "charEnd": 1937,
+      "charStart": 1933,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.7",
+      "kind": "bullet",
+      "text": "93",
+      "tokens": [
+        "93"
+      ]
+    },
+    {
+      "charEnd": 1945,
+      "charStart": 1938,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.8",
+      "kind": "bullet",
+      "text": "yahoo",
+      "tokens": [
+        "yahoo"
+      ]
+    },
+    {
+      "charEnd": 1957,
+      "charStart": 1946,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.9",
+      "kind": "bullet",
+      "text": "retrieved",
+      "tokens": [
+        "retrieved"
+      ]
+    },
+    {
+      "charEnd": 1964,
+      "charStart": 1958,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.10",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 1971,
+      "charStart": 1965,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.11",
+      "kind": "bullet",
+      "text": "ring",
+      "tokens": [
+        "ring"
+      ]
+    },
+    {
+      "charEnd": 1977,
+      "charStart": 1972,
+      "factId": "hz.web.db8e6ed260cf41f3.fact.12",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.db8e6ed260cf41f3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Webring - Wikipedia"
+    },
+    {
+      "charEnd": 119,
+      "charStart": 109,
+      "headingId": "hz.web.db8e6ed260cf41f3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1916,
+      "charStart": 1905,
+      "headingId": "hz.web.db8e6ed260cf41f3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1989,
+      "charStart": 1979,
+      "headingId": "hz.web.db8e6ed260cf41f3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/db8e6ed260cf41f3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5232,
+        "start": 0
+      }
+    ],
+    "hash": "7995d2f294585227b892973cb28c3b100b5f61bd2e4ee4b3ca301fc1b1adc6fd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Webring - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 WebRing.com 2 Other webring websites 3 Webring software 4 See also 5 References Toggle the table of contents Webring 11 languages Deutsch Español Français Italiano 日本語 Nederlands Polski Português Русский Svenska Українська Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Group of websites linked in a ring structure A webring (or web ring ) is a collection of websites linked together in a circular structure, usually organized around a specific theme, and often educational or social.",
+      "&#91; 1 &#93; They were popular in the 1990s and early 2000s, particularly among amateur websites.",
+      "To be a part of the webring, each site has a common navigation bar ; it contains links to the previous and next sites."
+    ],
+    "medium": "Source: https://en.wikipedia.org/wiki/Webring",
+    "short": "Source: https://en.wikipedia.org/wiki/Webring",
+    "tokens": [
+      "webring",
+      "wikipedia",
+      "source",
+      "https",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "webring",
+      "source",
+      "https",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "webring"
+    ]
+  },
+  "title": "Webring - Wikipedia"
+}

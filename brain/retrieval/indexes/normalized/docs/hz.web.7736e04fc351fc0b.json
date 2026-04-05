@@ -1,0 +1,292 @@
+{
+  "aliases": [
+    {
+      "alias": "7736e04fc351fc0b",
+      "aliasId": "hz.web.7736e04fc351fc0b.alias.1",
+      "canonical": "indieauth rocks!"
+    },
+    {
+      "alias": "indieauth rocks",
+      "aliasId": "hz.web.7736e04fc351fc0b.alias.2",
+      "canonical": "indieauth rocks!"
+    },
+    {
+      "alias": "web 7736e04fc351fc0b",
+      "aliasId": "hz.web.7736e04fc351fc0b.alias.3",
+      "canonical": "indieauth rocks!"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.55,
+  "docId": "hz.web.7736e04fc351fc0b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7736e04fc351fc0b.entity.1",
+      "kind": "document",
+      "name": "IndieAuth Rocks!",
+      "tokens": [
+        "indieauth",
+        "rocks"
+      ]
+    },
+    {
+      "entityId": "hz.web.7736e04fc351fc0b.entity.2",
+      "kind": "heading",
+      "name": "IndieAuth Rocks!",
+      "tokens": [
+        "indieauth",
+        "rocks"
+      ]
+    },
+    {
+      "entityId": "hz.web.7736e04fc351fc0b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7736e04fc351fc0b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7736e04fc351fc0b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 21,
+      "factId": "hz.web.7736e04fc351fc0b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieauth.rocks/",
+      "tokens": [
+        "source",
+        "https",
+        "indieauth",
+        "rocks"
+      ]
+    },
+    {
+      "charEnd": 123,
+      "charStart": 105,
+      "factId": "hz.web.7736e04fc351fc0b.fact.1",
+      "kind": "bullet",
+      "text": "IndieAuth Rocks!",
+      "tokens": [
+        "indieauth",
+        "rocks"
+      ]
+    },
+    {
+      "charEnd": 177,
+      "charStart": 124,
+      "factId": "hz.web.7736e04fc351fc0b.fact.2",
+      "kind": "bullet",
+      "text": "Home Server Client About this site IndieAuth Rocks!",
+      "tokens": [
+        "home",
+        "server",
+        "client",
+        "about",
+        "site",
+        "indieauth",
+        "rocks"
+      ]
+    },
+    {
+      "charEnd": 261,
+      "charStart": 178,
+      "factId": "hz.web.7736e04fc351fc0b.fact.3",
+      "kind": "bullet",
+      "text": "is a validator to help you test your IndieAuth client and server implementations.",
+      "tokens": [
+        "validator",
+        "help",
+        "test",
+        "your",
+        "indieauth",
+        "client",
+        "server",
+        "implementations"
+      ]
+    },
+    {
+      "charEnd": 313,
+      "charStart": 262,
+      "factId": "hz.web.7736e04fc351fc0b.fact.4",
+      "kind": "bullet",
+      "text": "Several kinds of tests are available on the site.",
+      "tokens": [
+        "several",
+        "kinds",
+        "tests",
+        "available",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 328,
+      "factId": "hz.web.7736e04fc351fc0b.fact.5",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 348,
+      "charStart": 340,
+      "factId": "hz.web.7736e04fc351fc0b.fact.6",
+      "kind": "bullet",
+      "text": "client",
+      "tokens": [
+        "client"
+      ]
+    },
+    {
+      "charEnd": 357,
+      "charStart": 349,
+      "factId": "hz.web.7736e04fc351fc0b.fact.7",
+      "kind": "bullet",
+      "text": "server",
+      "tokens": [
+        "server"
+      ]
+    },
+    {
+      "charEnd": 364,
+      "charStart": 358,
+      "factId": "hz.web.7736e04fc351fc0b.fact.8",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    },
+    {
+      "charEnd": 371,
+      "charStart": 365,
+      "factId": "hz.web.7736e04fc351fc0b.fact.9",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 379,
+      "charStart": 372,
+      "factId": "hz.web.7736e04fc351fc0b.fact.10",
+      "kind": "bullet",
+      "text": "tests",
+      "tokens": [
+        "tests"
+      ]
+    },
+    {
+      "charEnd": 386,
+      "charStart": 380,
+      "factId": "hz.web.7736e04fc351fc0b.fact.11",
+      "kind": "bullet",
+      "text": "will",
+      "tokens": [
+        "will"
+      ]
+    },
+    {
+      "charEnd": 393,
+      "charStart": 387,
+      "factId": "hz.web.7736e04fc351fc0b.fact.12",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.7736e04fc351fc0b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IndieAuth Rocks!"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.7736e04fc351fc0b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 326,
+      "charStart": 315,
+      "headingId": "hz.web.7736e04fc351fc0b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 405,
+      "charStart": 395,
+      "headingId": "hz.web.7736e04fc351fc0b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7736e04fc351fc0b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1327,
+        "start": 0
+      }
+    ],
+    "hash": "6794048d455fa0a0e5a2e977e08bb47b04a2142c02447414dd81057349baa1e9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "IndieAuth Rocks!",
+      "Home Server Client About this site IndieAuth Rocks!",
+      "is a validator to help you test your IndieAuth client and server implementations."
+    ],
+    "medium": "Source: https://indieauth.rocks/",
+    "short": "Source: https://indieauth.rocks/",
+    "tokens": [
+      "indieauth",
+      "rocks",
+      "source",
+      "https",
+      "indieauth",
+      "rocks",
+      "source",
+      "https",
+      "indieauth",
+      "rocks"
+    ]
+  },
+  "title": "IndieAuth Rocks!"
+}

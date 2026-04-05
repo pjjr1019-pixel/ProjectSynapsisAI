@@ -1,0 +1,444 @@
+{
+  "aliases": [
+    {
+      "alias": "5ae26891c1991e98",
+      "aliasId": "hz.web.5ae26891c1991e98.alias.1",
+      "canonical": "tantek.com"
+    },
+    {
+      "alias": "tantek.com",
+      "aliasId": "hz.web.5ae26891c1991e98.alias.2",
+      "canonical": "tantek.com"
+    },
+    {
+      "alias": "web 5ae26891c1991e98",
+      "aliasId": "hz.web.5ae26891c1991e98.alias.3",
+      "canonical": "tantek.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.51,
+  "docId": "hz.web.5ae26891c1991e98",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5ae26891c1991e98.entity.1",
+      "kind": "document",
+      "name": "tantek.com",
+      "tokens": [
+        "tantek",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5ae26891c1991e98.entity.2",
+      "kind": "heading",
+      "name": "tantek.com",
+      "tokens": [
+        "tantek",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5ae26891c1991e98.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5ae26891c1991e98.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5ae26891c1991e98.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 15,
+      "factId": "hz.web.5ae26891c1991e98.fact.1",
+      "kind": "summary",
+      "text": "Source: http://tantek.com/contact-style.css",
+      "tokens": [
+        "source",
+        "http",
+        "tantek",
+        "com",
+        "contact",
+        "style",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1511,
+      "charStart": 110,
+      "factId": "hz.web.5ae26891c1991e98.fact.1",
+      "kind": "bullet",
+      "text": "body { background: black; margin: 0; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-align-items: center; -moz-align-items: center; align-items: center; -webkit-flex-direction: column; -moz-flex-direction: column; flex-direction: column; } .indieweb-contact { font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif; background: black; padding: 0 10px; } .indieweb-contact h2 { text-align: center; color: white; font-weight: 100; font-size: 30px; margin: 40px 0; letter-spacing: 2px; } .indieweb-contact ol { padding: 22px 10px 18px; margin: 0; width: 100%; max-width: 320px; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; flex-wrap: wrap; background: #4e4e50; list-style: none; border-radius: 32px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } .indieweb-contact li { width: 33%; text-align: center; } .indieweb-contact li a { font-size: 11px; font-weight: 100; letter-spacing: 0.08em; padding: 7px 0; display: block; color: white; text-decoration: none; } .indieweb-contact a img { width: 60px; height: 60px; border-radius: 13px; overflow: hidden; display: block; margin: 0 auto 5px; } /* mobile only */ @media only screen and (max-width: 768px) { .indieweb-contact h2 { font-weight: 200; } .indieweb-contact li a { font-weight: normal; font-size: 12px; letter-spacing: 0; } }",
+      "tokens": [
+        "body",
+        "background",
+        "black",
+        "margin",
+        "display",
+        "webkit",
+        "flex",
+        "display",
+        "moz",
+        "flex",
+        "display",
+        "flex",
+        "webkit",
+        "align",
+        "items",
+        "center",
+        "moz",
+        "align",
+        "items",
+        "center",
+        "align",
+        "items",
+        "center",
+        "webkit",
+        "flex",
+        "direction",
+        "column",
+        "moz",
+        "flex",
+        "direction",
+        "column",
+        "flex",
+        "direction",
+        "column",
+        "indieweb",
+        "contact",
+        "font",
+        "family",
+        "helvetica",
+        "neue",
+        "helvetica",
+        "arial",
+        "sans",
+        "serif",
+        "background",
+        "black",
+        "padding",
+        "10px",
+        "indieweb",
+        "contact",
+        "h2",
+        "text",
+        "align",
+        "center",
+        "color",
+        "white",
+        "font",
+        "weight",
+        "100",
+        "font",
+        "size",
+        "30px",
+        "margin",
+        "40px",
+        "letter",
+        "spacing",
+        "2px",
+        "indieweb",
+        "contact",
+        "ol",
+        "padding",
+        "22px",
+        "10px",
+        "18px",
+        "margin",
+        "width",
+        "100",
+        "max",
+        "width",
+        "320px",
+        "display",
+        "webkit",
+        "flex",
+        "display",
+        "moz",
+        "flex",
+        "display",
+        "flex",
+        "webkit",
+        "flex",
+        "wrap",
+        "wrap",
+        "moz",
+        "flex",
+        "wrap",
+        "wrap",
+        "flex",
+        "wrap",
+        "wrap",
+        "background",
+        "4e4e50",
+        "list",
+        "style",
+        "none",
+        "border",
+        "radius",
+        "32px",
+        "webkit",
+        "box",
+        "sizing",
+        "border",
+        "box",
+        "moz",
+        "box",
+        "sizing",
+        "border",
+        "box",
+        "box",
+        "sizing",
+        "border",
+        "box",
+        "indieweb",
+        "contact",
+        "li",
+        "width",
+        "33",
+        "text",
+        "align",
+        "center",
+        "indieweb",
+        "contact",
+        "li",
+        "font",
+        "size",
+        "11px",
+        "font",
+        "weight",
+        "100",
+        "letter",
+        "spacing",
+        "08em",
+        "padding",
+        "7px",
+        "display",
+        "block",
+        "color",
+        "white",
+        "text",
+        "decoration",
+        "none",
+        "indieweb",
+        "contact",
+        "img",
+        "width",
+        "60px",
+        "height",
+        "60px",
+        "border",
+        "radius",
+        "13px",
+        "overflow",
+        "hidden",
+        "display",
+        "block",
+        "margin",
+        "auto",
+        "5px",
+        "mobile",
+        "only",
+        "media",
+        "only",
+        "screen",
+        "max",
+        "width",
+        "768px",
+        "indieweb",
+        "contact",
+        "h2",
+        "font",
+        "weight",
+        "200",
+        "indieweb",
+        "contact",
+        "li",
+        "font",
+        "weight",
+        "normal",
+        "font",
+        "size",
+        "12px",
+        "letter",
+        "spacing"
+      ]
+    },
+    {
+      "charEnd": 1532,
+      "charStart": 1526,
+      "factId": "hz.web.5ae26891c1991e98.fact.2",
+      "kind": "bullet",
+      "text": "flex",
+      "tokens": [
+        "flex"
+      ]
+    },
+    {
+      "charEnd": 1542,
+      "charStart": 1533,
+      "factId": "hz.web.5ae26891c1991e98.fact.3",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 1552,
+      "charStart": 1543,
+      "factId": "hz.web.5ae26891c1991e98.fact.4",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 1559,
+      "charStart": 1553,
+      "factId": "hz.web.5ae26891c1991e98.fact.5",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1570,
+      "charStart": 1560,
+      "factId": "hz.web.5ae26891c1991e98.fact.6",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 1576,
+      "charStart": 1571,
+      "factId": "hz.web.5ae26891c1991e98.fact.7",
+      "kind": "bullet",
+      "text": "box",
+      "tokens": [
+        "box"
+      ]
+    },
+    {
+      "charEnd": 1582,
+      "charStart": 1577,
+      "factId": "hz.web.5ae26891c1991e98.fact.8",
+      "kind": "bullet",
+      "text": "moz",
+      "tokens": [
+        "moz"
+      ]
+    },
+    {
+      "charEnd": 1591,
+      "charStart": 1583,
+      "factId": "hz.web.5ae26891c1991e98.fact.9",
+      "kind": "bullet",
+      "text": "webkit",
+      "tokens": [
+        "webkit"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.5ae26891c1991e98.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "tantek.com"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.5ae26891c1991e98.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1524,
+      "charStart": 1513,
+      "headingId": "hz.web.5ae26891c1991e98.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1603,
+      "charStart": 1593,
+      "headingId": "hz.web.5ae26891c1991e98.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5ae26891c1991e98.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3234,
+        "start": 0
+      }
+    ],
+    "hash": "c4deef0d6317edfdba33e4ee2bf168f0e07fcbd36ae814010108c75856fedb9f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "body { background: black; margin: 0; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-align-items: center; -moz-align-items: center; align-items: center; -webkit-flex-direction: column; -moz-flex-direction: column; flex-direction: column; } .indieweb-contact { font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif; background: black; padding: 0 10px; } .indieweb-contact h2 { text-align: center; color: white; font-weight: 100; font-size: 30px; margin: 40px 0; letter-spacing: 2px; } .indieweb-contact ol { padding: 22px 10px 18px; margin: 0; width: 100%; max-width: 320px; display: -webkit-flex; display: -moz-flex; display: flex; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; flex-wrap: wrap; background: #4e4e50; list-style: none; border-radius: 32px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; } .indieweb-contact li { width: 33%; text-align: center; } .indieweb-contact li a { font-size: 11px; font-weight: 100; letter-spacing: 0.08em; padding: 7px 0; display: block; color: white; text-decoration: none; } .indieweb-contact a img { width: 60px; height: 60px; border-radius: 13px; overflow: hidden; display: block; margin: 0 auto 5px; } /* mobile only */ @media only screen and (max-width: 768px) { .indieweb-contact h2 { font-weight: 200; } .indieweb-contact li a { font-weight: normal; font-size: 12px; letter-spacing: 0; } }",
+      "flex",
+      "contact"
+    ],
+    "medium": "Source: http://tantek.com/contact-style.css",
+    "short": "Source: http://tantek.com/contact-style.css",
+    "tokens": [
+      "tantek",
+      "com",
+      "source",
+      "http",
+      "tantek",
+      "com",
+      "contact",
+      "style",
+      "css",
+      "source",
+      "http",
+      "tantek",
+      "com",
+      "contact",
+      "style",
+      "css"
+    ]
+  },
+  "title": "tantek.com"
+}

@@ -1,0 +1,350 @@
+{
+  "aliases": [
+    {
+      "alias": "7f522d83fd80d598",
+      "aliasId": "hz.web.7f522d83fd80d598.alias.1",
+      "canonical": "cdnjs.cloudflare.com"
+    },
+    {
+      "alias": "cdnjs.cloudflare.com",
+      "aliasId": "hz.web.7f522d83fd80d598.alias.2",
+      "canonical": "cdnjs.cloudflare.com"
+    },
+    {
+      "alias": "web 7f522d83fd80d598",
+      "aliasId": "hz.web.7f522d83fd80d598.alias.3",
+      "canonical": "cdnjs.cloudflare.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.65,
+  "docId": "hz.web.7f522d83fd80d598",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7f522d83fd80d598.entity.1",
+      "kind": "document",
+      "name": "cdnjs.cloudflare.com",
+      "tokens": [
+        "cdnjs",
+        "cloudflare",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f522d83fd80d598.entity.2",
+      "kind": "heading",
+      "name": "cdnjs.cloudflare.com",
+      "tokens": [
+        "cdnjs",
+        "cloudflare",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f522d83fd80d598.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f522d83fd80d598.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f522d83fd80d598.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 61,
+      "charStart": 25,
+      "factId": "hz.web.7f522d83fd80d598.fact.1",
+      "kind": "summary",
+      "text": "Source: http://cdnjs.cloudflare.com/",
+      "tokens": [
+        "source",
+        "http",
+        "cdnjs",
+        "cloudflare",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 300,
+      "charStart": 113,
+      "factId": "hz.web.7f522d83fd80d598.fact.1",
+      "kind": "bullet",
+      "text": "cdnjs.cloudflare.com Cloudflare cdnjs.cloudflare.com Introduction cdnjs.cloudflare.com is an ultra-fast, reliable, globally available content delivery network for open-source libraries.",
+      "tokens": [
+        "cdnjs",
+        "cloudflare",
+        "com",
+        "cloudflare",
+        "cdnjs",
+        "cloudflare",
+        "com",
+        "introduction",
+        "cdnjs",
+        "cloudflare",
+        "com",
+        "ultra",
+        "fast",
+        "reliable",
+        "globally",
+        "available",
+        "content",
+        "delivery",
+        "network",
+        "open",
+        "source",
+        "libraries"
+      ]
+    },
+    {
+      "charEnd": 419,
+      "charStart": 301,
+      "factId": "hz.web.7f522d83fd80d598.fact.2",
+      "kind": "bullet",
+      "text": "Cloudflare works with the maintainers of the cdnjs project and distributes the latest versions as they are released.",
+      "tokens": [
+        "cloudflare",
+        "works",
+        "maintainers",
+        "cdnjs",
+        "project",
+        "distributes",
+        "latest",
+        "versions",
+        "released"
+      ]
+    },
+    {
+      "charEnd": 473,
+      "charStart": 420,
+      "factId": "hz.web.7f522d83fd80d598.fact.3",
+      "kind": "bullet",
+      "text": "What else should I know about cdnjs.cloudflare.com?",
+      "tokens": [
+        "else",
+        "know",
+        "about",
+        "cdnjs",
+        "cloudflare",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 592,
+      "charStart": 474,
+      "factId": "hz.web.7f522d83fd80d598.fact.4",
+      "kind": "bullet",
+      "text": "You can find the libraries made available through cdnjs.cloudflare.com by searching on the cdnjs project's website .",
+      "tokens": [
+        "find",
+        "libraries",
+        "made",
+        "available",
+        "through",
+        "cdnjs",
+        "cloudflare",
+        "com",
+        "searching",
+        "cdnjs",
+        "project",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 614,
+      "charStart": 607,
+      "factId": "hz.web.7f522d83fd80d598.fact.5",
+      "kind": "bullet",
+      "text": "cdnjs",
+      "tokens": [
+        "cdnjs"
+      ]
+    },
+    {
+      "charEnd": 627,
+      "charStart": 615,
+      "factId": "hz.web.7f522d83fd80d598.fact.6",
+      "kind": "bullet",
+      "text": "cloudflare",
+      "tokens": [
+        "cloudflare"
+      ]
+    },
+    {
+      "charEnd": 633,
+      "charStart": 628,
+      "factId": "hz.web.7f522d83fd80d598.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 639,
+      "charStart": 634,
+      "factId": "hz.web.7f522d83fd80d598.fact.8",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 640,
+      "factId": "hz.web.7f522d83fd80d598.fact.9",
+      "kind": "bullet",
+      "text": "project",
+      "tokens": [
+        "project"
+      ]
+    },
+    {
+      "charEnd": 656,
+      "charStart": 650,
+      "factId": "hz.web.7f522d83fd80d598.fact.10",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 657,
+      "factId": "hz.web.7f522d83fd80d598.fact.11",
+      "kind": "bullet",
+      "text": "terms",
+      "tokens": [
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 676,
+      "charStart": 665,
+      "factId": "hz.web.7f522d83fd80d598.fact.12",
+      "kind": "bullet",
+      "text": "available",
+      "tokens": [
+        "available"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.7f522d83fd80d598.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cdnjs.cloudflare.com"
+    },
+    {
+      "charEnd": 111,
+      "charStart": 101,
+      "headingId": "hz.web.7f522d83fd80d598.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 605,
+      "charStart": 594,
+      "headingId": "hz.web.7f522d83fd80d598.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 688,
+      "charStart": 678,
+      "headingId": "hz.web.7f522d83fd80d598.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7f522d83fd80d598.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2762,
+        "start": 0
+      }
+    ],
+    "hash": "1c94640efdad8cdeb83093ddcbdf6a5d1494132430a55d1b33d412a22025db50",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.7f522d83fd80d598.rule.1",
+      "text": "- What else should I know about cdnjs.cloudflare.com?",
+      "tokens": [
+        "else",
+        "know",
+        "about",
+        "cdnjs",
+        "cloudflare",
+        "com"
+      ]
+    },
+    {
+      "ruleId": "hz.web.7f522d83fd80d598.rule.2",
+      "text": "What else should I know about cdnjs.cloudflare.com?",
+      "tokens": [
+        "else",
+        "know",
+        "about",
+        "cdnjs",
+        "cloudflare",
+        "com"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "cdnjs.cloudflare.com Cloudflare cdnjs.cloudflare.com Introduction cdnjs.cloudflare.com is an ultra-fast, reliable, globally available content delivery network for open-source libraries.",
+      "Cloudflare works with the maintainers of the cdnjs project and distributes the latest versions as they are released.",
+      "What else should I know about cdnjs.cloudflare.com?"
+    ],
+    "medium": "Source: http://cdnjs.cloudflare.com/",
+    "short": "Source: http://cdnjs.cloudflare.com/",
+    "tokens": [
+      "cdnjs",
+      "cloudflare",
+      "com",
+      "source",
+      "http",
+      "cdnjs",
+      "cloudflare",
+      "com",
+      "source",
+      "http",
+      "cdnjs",
+      "cloudflare",
+      "com"
+    ]
+  },
+  "title": "cdnjs.cloudflare.com"
+}

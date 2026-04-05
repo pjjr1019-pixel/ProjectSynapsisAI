@@ -1,0 +1,468 @@
+{
+  "aliases": [
+    {
+      "alias": "aa5bb3e72b7ef83f",
+      "aliasId": "hz.web.aa5bb3e72b7ef83f.alias.1",
+      "canonical": "share some access to your google account data with third-party apps - google account help"
+    },
+    {
+      "alias": "share some access to your google account data with third-party apps - google account help",
+      "aliasId": "hz.web.aa5bb3e72b7ef83f.alias.2",
+      "canonical": "share some access to your google account data with third-party apps - google account help"
+    },
+    {
+      "alias": "web aa5bb3e72b7ef83f",
+      "aliasId": "hz.web.aa5bb3e72b7ef83f.alias.3",
+      "canonical": "share some access to your google account data with third-party apps - google account help"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.aa5bb3e72b7ef83f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.aa5bb3e72b7ef83f.entity.1",
+      "kind": "document",
+      "name": "Share some access to your Google Account data with third-party apps - Google Account Help",
+      "tokens": [
+        "share",
+        "some",
+        "access",
+        "your",
+        "google",
+        "account",
+        "data",
+        "third",
+        "party",
+        "apps",
+        "google",
+        "account",
+        "help"
+      ]
+    },
+    {
+      "entityId": "hz.web.aa5bb3e72b7ef83f.entity.2",
+      "kind": "heading",
+      "name": "Share some access to your Google Account data with third-party apps - Google Account Help",
+      "tokens": [
+        "share",
+        "some",
+        "access",
+        "your",
+        "google",
+        "account",
+        "data",
+        "third",
+        "party",
+        "apps",
+        "google",
+        "account",
+        "help"
+      ]
+    },
+    {
+      "entityId": "hz.web.aa5bb3e72b7ef83f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.aa5bb3e72b7ef83f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.aa5bb3e72b7ef83f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 153,
+      "charStart": 94,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://support.google.com/accounts/answer/14012355",
+      "tokens": [
+        "source",
+        "https",
+        "support",
+        "google",
+        "com",
+        "accounts",
+        "answer",
+        "14012355"
+      ]
+    },
+    {
+      "charEnd": 462,
+      "charStart": 205,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.1",
+      "kind": "bullet",
+      "text": "Share some access to your Google Account data with third-party apps - Google Account Help Skip to main content Google Account Help Sign in Google Help Help Center Community Google Account Privacy Policy Terms of Service Submit feedback Send feedback on...",
+      "tokens": [
+        "share",
+        "some",
+        "access",
+        "your",
+        "google",
+        "account",
+        "data",
+        "third",
+        "party",
+        "apps",
+        "google",
+        "account",
+        "help",
+        "skip",
+        "main",
+        "content",
+        "google",
+        "account",
+        "help",
+        "sign",
+        "google",
+        "help",
+        "help",
+        "center",
+        "community",
+        "google",
+        "account",
+        "privacy",
+        "policy",
+        "terms",
+        "service",
+        "submit",
+        "feedback",
+        "send",
+        "feedback"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 463,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.2",
+      "kind": "bullet",
+      "text": "This help content & information General Help Center experience Next Help Center Community Improve your Google Account Google Account Share some access to your Google Account data with third-party apps To unlock certain features, you can give third-party apps and services some access to your Google Account data.",
+      "tokens": [
+        "help",
+        "content",
+        "information",
+        "general",
+        "help",
+        "center",
+        "experience",
+        "next",
+        "help",
+        "center",
+        "community",
+        "improve",
+        "your",
+        "google",
+        "account",
+        "google",
+        "account",
+        "share",
+        "some",
+        "access",
+        "your",
+        "google",
+        "account",
+        "data",
+        "third",
+        "party",
+        "apps",
+        "unlock",
+        "certain",
+        "features",
+        "give",
+        "third",
+        "party",
+        "apps",
+        "services",
+        "some",
+        "access",
+        "your",
+        "google",
+        "account",
+        "data"
+      ]
+    },
+    {
+      "charEnd": 870,
+      "charStart": 778,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.3",
+      "kind": "bullet",
+      "text": "For example, a photo editor app may request access to your Google Photos to apply filters.",
+      "tokens": [
+        "example",
+        "photo",
+        "editor",
+        "app",
+        "may",
+        "request",
+        "access",
+        "your",
+        "google",
+        "photos",
+        "apply",
+        "filters"
+      ]
+    },
+    {
+      "charEnd": 1004,
+      "charStart": 871,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.4",
+      "kind": "bullet",
+      "text": "Some Google products that third-party apps and services may request access to include Gmail, Drive, Calendar, Photos, and Contacts.",
+      "tokens": [
+        "some",
+        "google",
+        "products",
+        "third",
+        "party",
+        "apps",
+        "services",
+        "may",
+        "request",
+        "access",
+        "include",
+        "gmail",
+        "drive",
+        "calendar",
+        "photos",
+        "contacts"
+      ]
+    },
+    {
+      "charEnd": 1027,
+      "charStart": 1019,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.5",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "charEnd": 1034,
+      "charStart": 1028,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1044,
+      "charStart": 1035,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.7",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 1050,
+      "charStart": 1045,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.8",
+      "kind": "bullet",
+      "text": "lrm",
+      "tokens": [
+        "lrm"
+      ]
+    },
+    {
+      "charEnd": 1058,
+      "charStart": 1051,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.9",
+      "kind": "bullet",
+      "text": "third",
+      "tokens": [
+        "third"
+      ]
+    },
+    {
+      "charEnd": 1066,
+      "charStart": 1059,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.10",
+      "kind": "bullet",
+      "text": "party",
+      "tokens": [
+        "party"
+      ]
+    },
+    {
+      "charEnd": 1075,
+      "charStart": 1067,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.11",
+      "kind": "bullet",
+      "text": "access",
+      "tokens": [
+        "access"
+      ]
+    },
+    {
+      "charEnd": 1082,
+      "charStart": 1076,
+      "factId": "hz.web.aa5bb3e72b7ef83f.fact.12",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 92,
+      "charStart": 1,
+      "headingId": "hz.web.aa5bb3e72b7ef83f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Share some access to your Google Account data with third-party apps - Google Account Help"
+    },
+    {
+      "charEnd": 203,
+      "charStart": 193,
+      "headingId": "hz.web.aa5bb3e72b7ef83f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1017,
+      "charStart": 1006,
+      "headingId": "hz.web.aa5bb3e72b7ef83f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1094,
+      "charStart": 1084,
+      "headingId": "hz.web.aa5bb3e72b7ef83f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/aa5bb3e72b7ef83f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4421,
+        "start": 0
+      }
+    ],
+    "hash": "efef90b39d4e049c4519651818a6a24488c346275ff6e30ed8992ce7c1681e30",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.aa5bb3e72b7ef83f.rule.1",
+      "text": "To give access to a third-party app or service, you must sign in to your Google Account.",
+      "tokens": [
+        "give",
+        "access",
+        "third",
+        "party",
+        "app",
+        "service",
+        "must",
+        "sign",
+        "your",
+        "google",
+        "account"
+      ]
+    },
+    {
+      "ruleId": "hz.web.aa5bb3e72b7ef83f.rule.2",
+      "text": "Do not share your Google Account password on a third-party app or service.",
+      "tokens": [
+        "not",
+        "share",
+        "your",
+        "google",
+        "account",
+        "password",
+        "third",
+        "party",
+        "app",
+        "service"
+      ]
+    },
+    {
+      "ruleId": "hz.web.aa5bb3e72b7ef83f.rule.3",
+      "text": "If you decide to share access, you must sign in to your Google Account.",
+      "tokens": [
+        "if",
+        "decide",
+        "share",
+        "access",
+        "must",
+        "sign",
+        "your",
+        "google",
+        "account"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Share some access to your Google Account data with third-party apps - Google Account Help Skip to main content Google Account Help Sign in Google Help Help Center Community Google Account Privacy Policy Terms of Service Submit feedback Send feedback on...",
+      "This help content & information General Help Center experience Next Help Center Community Improve your Google Account Google Account Share some access to your Google Account data with third-party apps To unlock certain features, you can give third-party apps and services some access to your Google Account data.",
+      "For example, a photo editor app may request access to your Google Photos to apply filters."
+    ],
+    "medium": "Source: https://support.google.com/accounts/answer/14012355",
+    "short": "Source: https://support.google.com/accounts/answer/14012355",
+    "tokens": [
+      "share",
+      "some",
+      "access",
+      "your",
+      "google",
+      "account",
+      "data",
+      "third",
+      "party",
+      "apps",
+      "google",
+      "account",
+      "help",
+      "source",
+      "https",
+      "support",
+      "google",
+      "com",
+      "accounts",
+      "answer",
+      "14012355",
+      "source",
+      "https",
+      "support",
+      "google",
+      "com",
+      "accounts",
+      "answer",
+      "14012355"
+    ]
+  },
+  "title": "Share some access to your Google Account data with third-party apps - Google Account Help"
+}

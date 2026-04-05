@@ -1,0 +1,449 @@
+{
+  "aliases": [
+    {
+      "alias": "ae6c72872e63a69c",
+      "aliasId": "hz.web.ae6c72872e63a69c.alias.1",
+      "canonical": "faq - indieweb"
+    },
+    {
+      "alias": "faq - indieweb",
+      "aliasId": "hz.web.ae6c72872e63a69c.alias.2",
+      "canonical": "faq - indieweb"
+    },
+    {
+      "alias": "web ae6c72872e63a69c",
+      "aliasId": "hz.web.ae6c72872e63a69c.alias.3",
+      "canonical": "faq - indieweb"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.ae6c72872e63a69c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ae6c72872e63a69c.entity.1",
+      "kind": "document",
+      "name": "FAQ - IndieWeb",
+      "tokens": [
+        "faq",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.ae6c72872e63a69c.entity.2",
+      "kind": "heading",
+      "name": "FAQ - IndieWeb",
+      "tokens": [
+        "faq",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.ae6c72872e63a69c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ae6c72872e63a69c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ae6c72872e63a69c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 19,
+      "factId": "hz.web.ae6c72872e63a69c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieweb.org/FAQ",
+      "tokens": [
+        "source",
+        "https",
+        "indieweb",
+        "org",
+        "faq"
+      ]
+    },
+    {
+      "charEnd": 334,
+      "charStart": 103,
+      "factId": "hz.web.ae6c72872e63a69c.fact.1",
+      "kind": "bullet",
+      "text": "FAQ - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "tokens": [
+        "faq",
+        "indieweb",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "explore",
+        "indieweb",
+        "principles",
+        "community",
+        "posts",
+        "visit",
+        "random",
+        "site",
+        "get",
+        "personal",
+        "site",
+        "faq",
+        "subscribe",
+        "newsletter",
+        "new",
+        "coming",
+        "up",
+        "soon"
+      ]
+    },
+    {
+      "charEnd": 363,
+      "charStart": 335,
+      "factId": "hz.web.ae6c72872e63a69c.fact.2",
+      "kind": "bullet",
+      "text": "🎁 IndieWeb Gift Calendar!",
+      "tokens": [
+        "indieweb",
+        "gift",
+        "calendar"
+      ]
+    },
+    {
+      "charEnd": 411,
+      "charStart": 364,
+      "factId": "hz.web.ae6c72872e63a69c.fact.3",
+      "kind": "bullet",
+      "text": "🎪 IWC Düsseldorf 4/25…26 Join the community!",
+      "tokens": [
+        "iwc",
+        "sseldorf",
+        "25",
+        "26",
+        "join",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 1476,
+      "charStart": 412,
+      "factId": "hz.web.ae6c72872e63a69c.fact.4",
+      "kind": "bullet",
+      "text": "🌈 Code of conduct 💬 Join #indieweb chat 📜 Chat log 📅 Events 👥 Meetups: 2026-03-31 👕☕️ IndieWeb shirts & mugs ❤️ Sponsor Developers 🔩 Building Blocks 🛠 Tools 🧰 Projects 🔌 Standards 💬 Join developer chat Wiki resources 👤 Login ✳️ Recent changes 🖼 Recent uploads 🎲 Random page 📑 6,006 articles © Wiki content is CC0 Search Search Log in Personal tools Log in Contents move to sidebar hide Beginning 1 How to answer a question 2 What is new 3 Who is the audience for IndieWebCamps 4 What is the purpose of IndieWebCamps 5 What is a personal website 6 Is everyone going to want to run their own website 7 Do I need to self-host my website 8 What are the most important things about an indieweb site 9 How do I export my data 10 Is this just federated social networks 11 Is there an IndieWeb mailing list 12 How do you figure stuff out 13 What if my timezone is very different 14 Is the indieweb giving in to silos with POSSE and backfeed 15 How do I set or change my name on the IndieWebCamp wiki 16 How do I confirm my email address on the wiki 17 ...",
+      "tokens": [
+        "code",
+        "conduct",
+        "join",
+        "indieweb",
+        "chat",
+        "chat",
+        "log",
+        "events",
+        "meetups",
+        "2026",
+        "03",
+        "31",
+        "indieweb",
+        "shirts",
+        "mugs",
+        "sponsor",
+        "developers",
+        "building",
+        "blocks",
+        "tools",
+        "projects",
+        "standards",
+        "join",
+        "developer",
+        "chat",
+        "wiki",
+        "resources",
+        "login",
+        "recent",
+        "changes",
+        "recent",
+        "uploads",
+        "random",
+        "page",
+        "006",
+        "articles",
+        "wiki",
+        "content",
+        "cc0",
+        "search",
+        "search",
+        "log",
+        "personal",
+        "tools",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "beginning",
+        "answer",
+        "question",
+        "new",
+        "audience",
+        "indiewebcamps",
+        "purpose",
+        "indiewebcamps",
+        "personal",
+        "website",
+        "everyone",
+        "going",
+        "want",
+        "run",
+        "their",
+        "own",
+        "website",
+        "need",
+        "self",
+        "host",
+        "website",
+        "most",
+        "important",
+        "things",
+        "about",
+        "indieweb",
+        "site",
+        "export",
+        "data",
+        "10",
+        "just",
+        "federated",
+        "social",
+        "networks",
+        "11",
+        "there",
+        "indieweb",
+        "mailing",
+        "list",
+        "12",
+        "figure",
+        "stuff",
+        "out",
+        "13",
+        "if",
+        "timezone",
+        "very",
+        "different",
+        "14",
+        "indieweb",
+        "giving",
+        "silos",
+        "posse",
+        "backfeed",
+        "15",
+        "set",
+        "change",
+        "name",
+        "indiewebcamp",
+        "wiki",
+        "16",
+        "confirm",
+        "email",
+        "address",
+        "wiki",
+        "17"
+      ]
+    },
+    {
+      "charEnd": 1501,
+      "charStart": 1491,
+      "factId": "hz.web.ae6c72872e63a69c.fact.5",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 1508,
+      "charStart": 1502,
+      "factId": "hz.web.ae6c72872e63a69c.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1515,
+      "charStart": 1509,
+      "factId": "hz.web.ae6c72872e63a69c.fact.7",
+      "kind": "bullet",
+      "text": "wiki",
+      "tokens": [
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 1521,
+      "charStart": 1516,
+      "factId": "hz.web.ae6c72872e63a69c.fact.8",
+      "kind": "bullet",
+      "text": "own",
+      "tokens": [
+        "own"
+      ]
+    },
+    {
+      "charEnd": 1528,
+      "charStart": 1522,
+      "factId": "hz.web.ae6c72872e63a69c.fact.9",
+      "kind": "bullet",
+      "text": "chat",
+      "tokens": [
+        "chat"
+      ]
+    },
+    {
+      "charEnd": 1536,
+      "charStart": 1529,
+      "factId": "hz.web.ae6c72872e63a69c.fact.10",
+      "kind": "bullet",
+      "text": "their",
+      "tokens": [
+        "their"
+      ]
+    },
+    {
+      "charEnd": 1543,
+      "charStart": 1537,
+      "factId": "hz.web.ae6c72872e63a69c.fact.11",
+      "kind": "bullet",
+      "text": "have",
+      "tokens": [
+        "have"
+      ]
+    },
+    {
+      "charEnd": 1548,
+      "charStart": 1544,
+      "factId": "hz.web.ae6c72872e63a69c.fact.12",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.ae6c72872e63a69c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "FAQ - IndieWeb"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.ae6c72872e63a69c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1489,
+      "charStart": 1478,
+      "headingId": "hz.web.ae6c72872e63a69c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1560,
+      "charStart": 1550,
+      "headingId": "hz.web.ae6c72872e63a69c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ae6c72872e63a69c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4785,
+        "start": 0
+      }
+    ],
+    "hash": "67e2cc44d93c12be8a45577658fe6e484f22f8ff0f1acae2074349b6f015d82c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.ae6c72872e63a69c.rule.1",
+      "text": "If you don't quickly find an answer on the wiki, then try to brainstorm something similar to other questions/answers, in the online chat .",
+      "tokens": [
+        "if",
+        "don",
+        "quickly",
+        "find",
+        "answer",
+        "wiki",
+        "then",
+        "try",
+        "brainstorm",
+        "something",
+        "similar",
+        "other",
+        "questions",
+        "answers",
+        "online",
+        "chat"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "FAQ - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "🎁 IndieWeb Gift Calendar!",
+      "🎪 IWC Düsseldorf 4/25…26 Join the community!"
+    ],
+    "medium": "Source: https://indieweb.org/FAQ",
+    "short": "Source: https://indieweb.org/FAQ",
+    "tokens": [
+      "faq",
+      "indieweb",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "faq",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "faq"
+    ]
+  },
+  "title": "FAQ - IndieWeb"
+}

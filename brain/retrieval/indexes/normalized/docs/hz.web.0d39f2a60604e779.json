@@ -1,0 +1,350 @@
+{
+  "aliases": [
+    {
+      "alias": "0d39f2a60604e779",
+      "aliasId": "hz.web.0d39f2a60604e779.alias.1",
+      "canonical": "reference"
+    },
+    {
+      "alias": "reference",
+      "aliasId": "hz.web.0d39f2a60604e779.alias.2",
+      "canonical": "reference"
+    },
+    {
+      "alias": "web 0d39f2a60604e779",
+      "aliasId": "hz.web.0d39f2a60604e779.alias.3",
+      "canonical": "reference"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.73,
+  "docId": "hz.web.0d39f2a60604e779",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0d39f2a60604e779.entity.1",
+      "kind": "document",
+      "name": "Reference",
+      "tokens": [
+        "reference"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d39f2a60604e779.entity.2",
+      "kind": "heading",
+      "name": "Reference",
+      "tokens": [
+        "reference"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d39f2a60604e779.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d39f2a60604e779.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d39f2a60604e779.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 67,
+      "charStart": 14,
+      "factId": "hz.web.0d39f2a60604e779.fact.1",
+      "kind": "summary",
+      "text": "Source: https://editor.datatables.net/reference/index",
+      "tokens": [
+        "source",
+        "https",
+        "editor",
+        "datatables",
+        "net",
+        "reference",
+        "index"
+      ]
+    },
+    {
+      "charEnd": 188,
+      "charStart": 119,
+      "factId": "hz.web.0d39f2a60604e779.fact.1",
+      "kind": "bullet",
+      "text": "Reference DataTables Advanced interaction features for your tables.",
+      "tokens": [
+        "reference",
+        "datatables",
+        "advanced",
+        "interaction",
+        "features",
+        "your",
+        "tables"
+      ]
+    },
+    {
+      "charEnd": 243,
+      "charStart": 189,
+      "factId": "hz.web.0d39f2a60604e779.fact.2",
+      "kind": "bullet",
+      "text": "Editor Comprehensive editing library for DataTables.",
+      "tokens": [
+        "editor",
+        "comprehensive",
+        "editing",
+        "library",
+        "datatables"
+      ]
+    },
+    {
+      "charEnd": 271,
+      "charStart": 244,
+      "factId": "hz.web.0d39f2a60604e779.fact.3",
+      "kind": "bullet",
+      "text": "Manual Download Search...",
+      "tokens": [
+        "manual",
+        "download",
+        "search"
+      ]
+    },
+    {
+      "charEnd": 624,
+      "charStart": 272,
+      "factId": "hz.web.0d39f2a60604e779.fact.4",
+      "kind": "bullet",
+      "text": "Examples Manual Reference Options API Events Field type Buttons Display controllers Types Generator Plug-ins Blog Forums Contact Support Download Purchase Show site navigation Reference The Editor reference details the public APIs that Editor presents, with all of the information that you need to be able to interact with the table programmatically.",
+      "tokens": [
+        "examples",
+        "manual",
+        "reference",
+        "options",
+        "api",
+        "events",
+        "field",
+        "type",
+        "buttons",
+        "display",
+        "controllers",
+        "types",
+        "generator",
+        "plug",
+        "ins",
+        "blog",
+        "forums",
+        "contact",
+        "support",
+        "download",
+        "purchase",
+        "show",
+        "site",
+        "navigation",
+        "reference",
+        "editor",
+        "reference",
+        "details",
+        "public",
+        "apis",
+        "editor",
+        "presents",
+        "all",
+        "information",
+        "need",
+        "able",
+        "interact",
+        "table",
+        "programmatically"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 639,
+      "factId": "hz.web.0d39f2a60604e779.fact.5",
+      "kind": "bullet",
+      "text": "editor",
+      "tokens": [
+        "editor"
+      ]
+    },
+    {
+      "charEnd": 653,
+      "charStart": 648,
+      "factId": "hz.web.0d39f2a60604e779.fact.6",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 660,
+      "charStart": 654,
+      "factId": "hz.web.0d39f2a60604e779.fact.7",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 670,
+      "charStart": 661,
+      "factId": "hz.web.0d39f2a60604e779.fact.8",
+      "kind": "bullet",
+      "text": "options",
+      "tokens": [
+        "options"
+      ]
+    },
+    {
+      "charEnd": 678,
+      "charStart": 671,
+      "factId": "hz.web.0d39f2a60604e779.fact.9",
+      "kind": "bullet",
+      "text": "raquo",
+      "tokens": [
+        "raquo"
+      ]
+    },
+    {
+      "charEnd": 685,
+      "charStart": 679,
+      "factId": "hz.web.0d39f2a60604e779.fact.10",
+      "kind": "bullet",
+      "text": "read",
+      "tokens": [
+        "read"
+      ]
+    },
+    {
+      "charEnd": 693,
+      "charStart": 686,
+      "factId": "hz.web.0d39f2a60604e779.fact.11",
+      "kind": "bullet",
+      "text": "field",
+      "tokens": [
+        "field"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 694,
+      "factId": "hz.web.0d39f2a60604e779.fact.12",
+      "kind": "bullet",
+      "text": "reference",
+      "tokens": [
+        "reference"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.0d39f2a60604e779.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Reference"
+    },
+    {
+      "charEnd": 117,
+      "charStart": 107,
+      "headingId": "hz.web.0d39f2a60604e779.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 637,
+      "charStart": 626,
+      "headingId": "hz.web.0d39f2a60604e779.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 717,
+      "charStart": 707,
+      "headingId": "hz.web.0d39f2a60604e779.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/0d39f2a60604e779.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3736,
+        "start": 0
+      }
+    ],
+    "hash": "ba4f9f06d0300bf1e7f92fd3f324796bf855164bbf288522b5a7f60eb9830ebf",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.0d39f2a60604e779.rule.1",
+      "text": "This section of the reference documents the built-in display controllers, and more can be added through plug-ins if required.",
+      "tokens": [
+        "section",
+        "reference",
+        "documents",
+        "built",
+        "display",
+        "controllers",
+        "more",
+        "added",
+        "through",
+        "plug",
+        "ins",
+        "if",
+        "required"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Reference DataTables Advanced interaction features for your tables.",
+      "Editor Comprehensive editing library for DataTables.",
+      "Manual Download Search..."
+    ],
+    "medium": "Source: https://editor.datatables.net/reference/index",
+    "short": "Source: https://editor.datatables.net/reference/index",
+    "tokens": [
+      "reference",
+      "source",
+      "https",
+      "editor",
+      "datatables",
+      "net",
+      "reference",
+      "index",
+      "source",
+      "https",
+      "editor",
+      "datatables",
+      "net",
+      "reference",
+      "index"
+    ]
+  },
+  "title": "Reference"
+}

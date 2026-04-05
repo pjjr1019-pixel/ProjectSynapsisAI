@@ -1,0 +1,366 @@
+{
+  "aliases": [
+    {
+      "alias": "bedce943a6a1b81d",
+      "aliasId": "hz.web.bedce943a6a1b81d.alias.1",
+      "canonical": "developer.mozilla.org"
+    },
+    {
+      "alias": "developer.mozilla.org",
+      "aliasId": "hz.web.bedce943a6a1b81d.alias.2",
+      "canonical": "developer.mozilla.org"
+    },
+    {
+      "alias": "web bedce943a6a1b81d",
+      "aliasId": "hz.web.bedce943a6a1b81d.alias.3",
+      "canonical": "developer.mozilla.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.bedce943a6a1b81d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bedce943a6a1b81d.entity.1",
+      "kind": "document",
+      "name": "developer.mozilla.org",
+      "tokens": [
+        "developer",
+        "mozilla",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.bedce943a6a1b81d.entity.2",
+      "kind": "heading",
+      "name": "developer.mozilla.org",
+      "tokens": [
+        "developer",
+        "mozilla",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.bedce943a6a1b81d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.bedce943a6a1b81d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.bedce943a6a1b81d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 117,
+      "charStart": 26,
+      "factId": "hz.web.bedce943a6a1b81d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://developer.mozilla.org/static/client/styles-page-layout.5a4354f33e894319.css",
+      "tokens": [
+        "source",
+        "https",
+        "developer",
+        "mozilla",
+        "org",
+        "static",
+        "client",
+        "styles",
+        "page",
+        "layout",
+        "5a4354f33e894319",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 889,
+      "charStart": 169,
+      "factId": "hz.web.bedce943a6a1b81d.fact.1",
+      "kind": "bullet",
+      "text": ".page-layout{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:min-content min-content 1fr min-content;margin:0;margin-inline:auto;min-height:100svh}.page-layout__header{position:sticky;top:0;z-index:var(--z-index-sticky-header)}.page-layout__banner{background-color:var(--color-background-primary);border-bottom:1px solid var(--color-border-primary);height:calc(5.625rem + 1px)}.page-layout__banner[data-scheme=dark]{--csstools-color-scheme--light: ;color-scheme:dark}@media (width <= 769px) or (width < calc(1rem * 2 + 15rem + 2rem + 31rem)){.page-layout__banner{display:none}}[data-nop=yes]:root .page-layout__banner{display:none} /*# sourceMappingURL=styles-page-layout.5a4354f33e894319.css.map*/",
+      "tokens": [
+        "page",
+        "layout",
+        "display",
+        "grid",
+        "grid",
+        "template",
+        "columns",
+        "minmax",
+        "1fr",
+        "grid",
+        "template",
+        "rows",
+        "min",
+        "content",
+        "min",
+        "content",
+        "1fr",
+        "min",
+        "content",
+        "margin",
+        "margin",
+        "inline",
+        "auto",
+        "min",
+        "height",
+        "100svh",
+        "page",
+        "layout__header",
+        "position",
+        "sticky",
+        "top",
+        "index",
+        "var",
+        "index",
+        "sticky",
+        "header",
+        "page",
+        "layout__banner",
+        "background",
+        "color",
+        "var",
+        "color",
+        "background",
+        "primary",
+        "border",
+        "bottom",
+        "1px",
+        "solid",
+        "var",
+        "color",
+        "border",
+        "primary",
+        "height",
+        "calc",
+        "625rem",
+        "1px",
+        "page",
+        "layout__banner",
+        "data",
+        "scheme",
+        "dark",
+        "csstools",
+        "color",
+        "scheme",
+        "light",
+        "color",
+        "scheme",
+        "dark",
+        "media",
+        "width",
+        "769px",
+        "width",
+        "calc",
+        "1rem",
+        "15rem",
+        "2rem",
+        "31rem",
+        "page",
+        "layout__banner",
+        "display",
+        "none",
+        "data",
+        "nop",
+        "yes",
+        "root",
+        "page",
+        "layout__banner",
+        "display",
+        "none",
+        "sourcemappingurl",
+        "styles",
+        "page",
+        "layout",
+        "5a4354f33e894319",
+        "css",
+        "map"
+      ]
+    },
+    {
+      "charEnd": 910,
+      "charStart": 904,
+      "factId": "hz.web.bedce943a6a1b81d.fact.2",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 918,
+      "charStart": 911,
+      "factId": "hz.web.bedce943a6a1b81d.fact.3",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 919,
+      "factId": "hz.web.bedce943a6a1b81d.fact.4",
+      "kind": "bullet",
+      "text": "layout__banner",
+      "tokens": [
+        "layout__banner"
+      ]
+    },
+    {
+      "charEnd": 941,
+      "charStart": 936,
+      "factId": "hz.web.bedce943a6a1b81d.fact.5",
+      "kind": "bullet",
+      "text": "min",
+      "tokens": [
+        "min"
+      ]
+    },
+    {
+      "charEnd": 951,
+      "charStart": 942,
+      "factId": "hz.web.bedce943a6a1b81d.fact.6",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 961,
+      "charStart": 952,
+      "factId": "hz.web.bedce943a6a1b81d.fact.7",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 968,
+      "charStart": 962,
+      "factId": "hz.web.bedce943a6a1b81d.fact.8",
+      "kind": "bullet",
+      "text": "grid",
+      "tokens": [
+        "grid"
+      ]
+    },
+    {
+      "charEnd": 977,
+      "charStart": 969,
+      "factId": "hz.web.bedce943a6a1b81d.fact.9",
+      "kind": "bullet",
+      "text": "scheme",
+      "tokens": [
+        "scheme"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.bedce943a6a1b81d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "developer.mozilla.org"
+    },
+    {
+      "charEnd": 167,
+      "charStart": 157,
+      "headingId": "hz.web.bedce943a6a1b81d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 902,
+      "charStart": 891,
+      "headingId": "hz.web.bedce943a6a1b81d.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 989,
+      "charStart": 979,
+      "headingId": "hz.web.bedce943a6a1b81d.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/bedce943a6a1b81d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1998,
+        "start": 0
+      }
+    ],
+    "hash": "ce682c3f35518741c5c92e7e3a1758c59e22136c10323e042d5581b2fe2e9aec",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".page-layout{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:min-content min-content 1fr min-content;margin:0;margin-inline:auto;min-height:100svh}.page-layout__header{position:sticky;top:0;z-index:var(--z-index-sticky-header)}.page-layout__banner{background-color:var(--color-background-primary);border-bottom:1px solid var(--color-border-primary);height:calc(5.625rem + 1px)}.page-layout__banner[data-scheme=dark]{--csstools-color-scheme--light: ;color-scheme:dark}@media (width <= 769px) or (width < calc(1rem * 2 + 15rem + 2rem + 31rem)){.page-layout__banner{display:none}}[data-nop=yes]:root .page-layout__banner{display:none} /*# sourceMappingURL=styles-page-layout.5a4354f33e894319.css.map*/",
+      "page",
+      "color"
+    ],
+    "medium": "Source: https://developer.mozilla.org/static/client/styles-page-layout.5a4354f33e894319.css",
+    "short": "Source: https://developer.mozilla.org/static/client/styles-page-layout.5a4354f33e894319.css",
+    "tokens": [
+      "developer",
+      "mozilla",
+      "org",
+      "source",
+      "https",
+      "developer",
+      "mozilla",
+      "org",
+      "static",
+      "client",
+      "styles",
+      "page",
+      "layout",
+      "5a4354f33e894319",
+      "css",
+      "source",
+      "https",
+      "developer",
+      "mozilla",
+      "org",
+      "static",
+      "client",
+      "styles",
+      "page",
+      "layout",
+      "5a4354f33e894319",
+      "css"
+    ]
+  },
+  "title": "developer.mozilla.org"
+}

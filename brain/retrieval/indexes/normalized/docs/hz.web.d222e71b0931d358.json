@@ -1,0 +1,356 @@
+{
+  "aliases": [
+    {
+      "alias": "d222e71b0931d358",
+      "aliasId": "hz.web.d222e71b0931d358.alias.1",
+      "canonical": "vic demuzere"
+    },
+    {
+      "alias": "vic demuzere",
+      "aliasId": "hz.web.d222e71b0931d358.alias.2",
+      "canonical": "vic demuzere"
+    },
+    {
+      "alias": "web d222e71b0931d358",
+      "aliasId": "hz.web.d222e71b0931d358.alias.3",
+      "canonical": "vic demuzere"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.d222e71b0931d358",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d222e71b0931d358.entity.1",
+      "kind": "document",
+      "name": "Vic Demuzere",
+      "tokens": [
+        "vic",
+        "demuzere"
+      ]
+    },
+    {
+      "entityId": "hz.web.d222e71b0931d358.entity.2",
+      "kind": "heading",
+      "name": "Vic Demuzere",
+      "tokens": [
+        "vic",
+        "demuzere"
+      ]
+    },
+    {
+      "entityId": "hz.web.d222e71b0931d358.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d222e71b0931d358.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d222e71b0931d358.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 17,
+      "factId": "hz.web.d222e71b0931d358.fact.1",
+      "kind": "summary",
+      "text": "Source: https://xn--sr8hvo.ws/random",
+      "tokens": [
+        "source",
+        "https",
+        "xn",
+        "sr8hvo",
+        "ws",
+        "random"
+      ]
+    },
+    {
+      "charEnd": 228,
+      "charStart": 105,
+      "factId": "hz.web.d222e71b0931d358.fact.1",
+      "kind": "bullet",
+      "text": "Vic Demuzere Blog More Vic Demuzere Developer and Linux enthusiast at home, Senior Site Reliability Engineer at Combell .",
+      "tokens": [
+        "vic",
+        "demuzere",
+        "blog",
+        "more",
+        "vic",
+        "demuzere",
+        "developer",
+        "linux",
+        "enthusiast",
+        "home",
+        "senior",
+        "site",
+        "reliability",
+        "engineer",
+        "combell"
+      ]
+    },
+    {
+      "charEnd": 377,
+      "charStart": 229,
+      "factId": "hz.web.d222e71b0931d358.fact.2",
+      "kind": "bullet",
+      "text": "[redacted-email] Signal Threema Website More profiles Bluesky Github Gitlab Steam Reddit Hacker News I'm currently rebuilding my personal website.",
+      "tokens": [
+        "redacted",
+        "email",
+        "signal",
+        "threema",
+        "website",
+        "more",
+        "profiles",
+        "bluesky",
+        "github",
+        "gitlab",
+        "steam",
+        "reddit",
+        "hacker",
+        "news",
+        "currently",
+        "rebuilding",
+        "personal",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 378,
+      "factId": "hz.web.d222e71b0931d358.fact.3",
+      "kind": "bullet",
+      "text": "This page should be less empty next week/month/year.",
+      "tokens": [
+        "page",
+        "less",
+        "empty",
+        "next",
+        "week",
+        "month",
+        "year"
+      ]
+    },
+    {
+      "charEnd": 522,
+      "charStart": 433,
+      "factId": "hz.web.d222e71b0931d358.fact.4",
+      "kind": "bullet",
+      "text": "#nobridge #nobot IndieWeb Webring © 2026 Vic Demuzere Blog PGP age SSH Colophon Contact",
+      "tokens": [
+        "nobridge",
+        "nobot",
+        "indieweb",
+        "webring",
+        "2026",
+        "vic",
+        "demuzere",
+        "blog",
+        "pgp",
+        "age",
+        "ssh",
+        "colophon",
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 547,
+      "charStart": 537,
+      "factId": "hz.web.d222e71b0931d358.fact.5",
+      "kind": "bullet",
+      "text": "demuzere",
+      "tokens": [
+        "demuzere"
+      ]
+    },
+    {
+      "charEnd": 553,
+      "charStart": 548,
+      "factId": "hz.web.d222e71b0931d358.fact.6",
+      "kind": "bullet",
+      "text": "vic",
+      "tokens": [
+        "vic"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 554,
+      "factId": "hz.web.d222e71b0931d358.fact.7",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 561,
+      "factId": "hz.web.d222e71b0931d358.fact.8",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 577,
+      "charStart": 568,
+      "factId": "hz.web.d222e71b0931d358.fact.9",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    },
+    {
+      "charEnd": 584,
+      "charStart": 578,
+      "factId": "hz.web.d222e71b0931d358.fact.10",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 590,
+      "charStart": 585,
+      "factId": "hz.web.d222e71b0931d358.fact.11",
+      "kind": "bullet",
+      "text": "age",
+      "tokens": [
+        "age"
+      ]
+    },
+    {
+      "charEnd": 600,
+      "charStart": 591,
+      "factId": "hz.web.d222e71b0931d358.fact.12",
+      "kind": "bullet",
+      "text": "bluesky",
+      "tokens": [
+        "bluesky"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.d222e71b0931d358.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Vic Demuzere"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.d222e71b0931d358.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 535,
+      "charStart": 524,
+      "headingId": "hz.web.d222e71b0931d358.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 612,
+      "charStart": 602,
+      "headingId": "hz.web.d222e71b0931d358.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d222e71b0931d358.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1248,
+        "start": 0
+      }
+    ],
+    "hash": "a23ac8b45966f19df9763f69d51735ea1f15e9f871188868d485c7bb08f0d1b2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.d222e71b0931d358.rule.1",
+      "text": "- This page should be less empty next week/month/year.",
+      "tokens": [
+        "page",
+        "less",
+        "empty",
+        "next",
+        "week",
+        "month",
+        "year"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d222e71b0931d358.rule.2",
+      "text": "This page should be less empty next week/month/year.",
+      "tokens": [
+        "page",
+        "less",
+        "empty",
+        "next",
+        "week",
+        "month",
+        "year"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Vic Demuzere Blog More Vic Demuzere Developer and Linux enthusiast at home, Senior Site Reliability Engineer at Combell .",
+      "[redacted-email] Signal Threema Website More profiles Bluesky Github Gitlab Steam Reddit Hacker News I'm currently rebuilding my personal website.",
+      "This page should be less empty next week/month/year."
+    ],
+    "medium": "Source: https://xn--sr8hvo.ws/random",
+    "short": "Source: https://xn--sr8hvo.ws/random",
+    "tokens": [
+      "vic",
+      "demuzere",
+      "source",
+      "https",
+      "xn",
+      "sr8hvo",
+      "ws",
+      "random",
+      "source",
+      "https",
+      "xn",
+      "sr8hvo",
+      "ws",
+      "random"
+    ]
+  },
+  "title": "Vic Demuzere"
+}

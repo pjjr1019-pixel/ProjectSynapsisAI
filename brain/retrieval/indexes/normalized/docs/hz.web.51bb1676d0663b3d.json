@@ -1,0 +1,335 @@
+{
+  "aliases": [
+    {
+      "alias": "51bb1676d0663b3d",
+      "aliasId": "hz.web.51bb1676d0663b3d.alias.1",
+      "canonical": "microformats.org"
+    },
+    {
+      "alias": "microformats.org",
+      "aliasId": "hz.web.51bb1676d0663b3d.alias.2",
+      "canonical": "microformats.org"
+    },
+    {
+      "alias": "web 51bb1676d0663b3d",
+      "aliasId": "hz.web.51bb1676d0663b3d.alias.3",
+      "canonical": "microformats.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.51bb1676d0663b3d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.51bb1676d0663b3d.entity.1",
+      "kind": "document",
+      "name": "microformats.org",
+      "tokens": [
+        "microformats",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.51bb1676d0663b3d.entity.2",
+      "kind": "heading",
+      "name": "microformats.org",
+      "tokens": [
+        "microformats",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.51bb1676d0663b3d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.51bb1676d0663b3d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.51bb1676d0663b3d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 76,
+      "charStart": 21,
+      "factId": "hz.web.51bb1676d0663b3d.fact.1",
+      "kind": "summary",
+      "text": "Source: http://microformats.org/wiki/api.php?action=rsd",
+      "tokens": [
+        "source",
+        "http",
+        "microformats",
+        "org",
+        "wiki",
+        "api",
+        "php",
+        "action",
+        "rsd"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 128,
+      "factId": "hz.web.51bb1676d0663b3d.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\"?><rsd version=\"1.0\" xmlns=\"http://archipelago.phrasewise.com/rsd\"><service><apis><api name=\"MediaWiki\" preferred=\"true\" apiLink=\"http://microformats.org/wiki/api.php\" blogID=\"\"><settings><docs xml:space=\"preserve\">https://www.mediawiki.org/wiki/Special:MyLanguage/API</docs><setting name=\"OAuth\" xml:space=\"preserve\">false</setting></settings></api></apis><engineName xml:space=\"preserve\">MediaWiki</engineName><engineLink xml:space=\"preserve\">https://www.mediawiki.org/</engineLink><homePageLink xml:space=\"preserve\">http://microformats.org/wiki/Main_Page</homePageLink></service></rsd>",
+      "tokens": [
+        "xml",
+        "version",
+        "rsd",
+        "version",
+        "xmlns",
+        "http",
+        "archipelago",
+        "phrasewise",
+        "com",
+        "rsd",
+        "service",
+        "apis",
+        "api",
+        "name",
+        "mediawiki",
+        "preferred",
+        "true",
+        "apilink",
+        "http",
+        "microformats",
+        "org",
+        "wiki",
+        "api",
+        "php",
+        "blogid",
+        "settings",
+        "docs",
+        "xml",
+        "space",
+        "preserve",
+        "https",
+        "www",
+        "mediawiki",
+        "org",
+        "wiki",
+        "special",
+        "mylanguage",
+        "api",
+        "docs",
+        "setting",
+        "name",
+        "oauth",
+        "xml",
+        "space",
+        "preserve",
+        "false",
+        "setting",
+        "settings",
+        "api",
+        "apis",
+        "enginename",
+        "xml",
+        "space",
+        "preserve",
+        "mediawiki",
+        "enginename",
+        "enginelink",
+        "xml",
+        "space",
+        "preserve",
+        "https",
+        "www",
+        "mediawiki",
+        "org",
+        "enginelink",
+        "homepagelink",
+        "xml",
+        "space",
+        "preserve",
+        "http",
+        "microformats",
+        "org",
+        "wiki",
+        "main_page",
+        "homepagelink",
+        "service",
+        "rsd"
+      ]
+    },
+    {
+      "charEnd": 757,
+      "charStart": 752,
+      "factId": "hz.web.51bb1676d0663b3d.fact.2",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 768,
+      "charStart": 758,
+      "factId": "hz.web.51bb1676d0663b3d.fact.3",
+      "kind": "bullet",
+      "text": "preserve",
+      "tokens": [
+        "preserve"
+      ]
+    },
+    {
+      "charEnd": 776,
+      "charStart": 769,
+      "factId": "hz.web.51bb1676d0663b3d.fact.4",
+      "kind": "bullet",
+      "text": "space",
+      "tokens": [
+        "space"
+      ]
+    },
+    {
+      "charEnd": 782,
+      "charStart": 777,
+      "factId": "hz.web.51bb1676d0663b3d.fact.5",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 794,
+      "charStart": 783,
+      "factId": "hz.web.51bb1676d0663b3d.fact.6",
+      "kind": "bullet",
+      "text": "mediawiki",
+      "tokens": [
+        "mediawiki"
+      ]
+    },
+    {
+      "charEnd": 800,
+      "charStart": 795,
+      "factId": "hz.web.51bb1676d0663b3d.fact.7",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 807,
+      "charStart": 801,
+      "factId": "hz.web.51bb1676d0663b3d.fact.8",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 813,
+      "charStart": 808,
+      "factId": "hz.web.51bb1676d0663b3d.fact.9",
+      "kind": "bullet",
+      "text": "rsd",
+      "tokens": [
+        "rsd"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.51bb1676d0663b3d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "microformats.org"
+    },
+    {
+      "charEnd": 126,
+      "charStart": 116,
+      "headingId": "hz.web.51bb1676d0663b3d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 750,
+      "charStart": 739,
+      "headingId": "hz.web.51bb1676d0663b3d.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 825,
+      "charStart": 815,
+      "headingId": "hz.web.51bb1676d0663b3d.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/51bb1676d0663b3d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1682,
+        "start": 0
+      }
+    ],
+    "hash": "fd2dabc9d5f629d3a1fffd61b43fc2ef5bcd40c1bc68eb97b85d9c56e219f956",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\"?><rsd version=\"1.0\" xmlns=\"http://archipelago.phrasewise.com/rsd\"><service><apis><api name=\"MediaWiki\" preferred=\"true\" apiLink=\"http://microformats.org/wiki/api.php\" blogID=\"\"><settings><docs xml:space=\"preserve\">https://www.mediawiki.org/wiki/Special:MyLanguage/API</docs><setting name=\"OAuth\" xml:space=\"preserve\">false</setting></settings></api></apis><engineName xml:space=\"preserve\">MediaWiki</engineName><engineLink xml:space=\"preserve\">https://www.mediawiki.org/</engineLink><homePageLink xml:space=\"preserve\">http://microformats.org/wiki/Main_Page</homePageLink></service></rsd>",
+      "xml",
+      "preserve"
+    ],
+    "medium": "Source: http://microformats.org/wiki/api.php?action=rsd",
+    "short": "Source: http://microformats.org/wiki/api.php?action=rsd",
+    "tokens": [
+      "microformats",
+      "org",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "api",
+      "php",
+      "action",
+      "rsd",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "api",
+      "php",
+      "action",
+      "rsd"
+    ]
+  },
+  "title": "microformats.org"
+}

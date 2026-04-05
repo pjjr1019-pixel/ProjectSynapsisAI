@@ -1,0 +1,365 @@
+{
+  "aliases": [
+    {
+      "alias": "578cf9f6229b3ff6",
+      "aliasId": "hz.web.578cf9f6229b3ff6.alias.1",
+      "canonical": "john halcyon styn &#8211; life student"
+    },
+    {
+      "alias": "john halcyon styn 8211 life student",
+      "aliasId": "hz.web.578cf9f6229b3ff6.alias.2",
+      "canonical": "john halcyon styn &#8211; life student"
+    },
+    {
+      "alias": "web 578cf9f6229b3ff6",
+      "aliasId": "hz.web.578cf9f6229b3ff6.alias.3",
+      "canonical": "john halcyon styn &#8211; life student"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.578cf9f6229b3ff6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.578cf9f6229b3ff6.entity.1",
+      "kind": "document",
+      "name": "John Halcyon Styn &#8211; Life Student",
+      "tokens": [
+        "john",
+        "halcyon",
+        "styn",
+        "8211",
+        "life",
+        "student"
+      ]
+    },
+    {
+      "entityId": "hz.web.578cf9f6229b3ff6.entity.2",
+      "kind": "heading",
+      "name": "John Halcyon Styn &#8211; Life Student",
+      "tokens": [
+        "john",
+        "halcyon",
+        "styn",
+        "8211",
+        "life",
+        "student"
+      ]
+    },
+    {
+      "entityId": "hz.web.578cf9f6229b3ff6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.578cf9f6229b3ff6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.578cf9f6229b3ff6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 78,
+      "charStart": 43,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.lifestudent.com/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "lifestudent",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 380,
+      "charStart": 130,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.1",
+      "kind": "bullet",
+      "text": "John Halcyon Styn &#8211; Life Student Skip to content John Halcyon Styn Gratitude Evangelist, Lifestyle Artist, & Authenticity Amplifier About Me John has been exploring collective healing through Gratitude & Radical Self-Expression for 3 decades.",
+      "tokens": [
+        "john",
+        "halcyon",
+        "styn",
+        "8211",
+        "life",
+        "student",
+        "skip",
+        "content",
+        "john",
+        "halcyon",
+        "styn",
+        "gratitude",
+        "evangelist",
+        "lifestyle",
+        "artist",
+        "authenticity",
+        "amplifier",
+        "about",
+        "john",
+        "has",
+        "exploring",
+        "collective",
+        "healing",
+        "through",
+        "gratitude",
+        "radical",
+        "self",
+        "expression",
+        "decades"
+      ]
+    },
+    {
+      "charEnd": 429,
+      "charStart": 381,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.2",
+      "kind": "bullet",
+      "text": "He is an author, speaker, coach, and YouTuber.",
+      "tokens": [
+        "he",
+        "author",
+        "speaker",
+        "coach",
+        "youtuber"
+      ]
+    },
+    {
+      "charEnd": 580,
+      "charStart": 430,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.3",
+      "kind": "bullet",
+      "text": "He is the co-founder of the Pink Heart Burning Man camp, the homeless outreach organization, “ 1st Saturdays, ” & \"Heart-Centered Men\" Men's Groups.",
+      "tokens": [
+        "he",
+        "co",
+        "founder",
+        "pink",
+        "heart",
+        "burning",
+        "man",
+        "camp",
+        "homeless",
+        "outreach",
+        "organization",
+        "1st",
+        "saturdays",
+        "heart",
+        "centered",
+        "men",
+        "men",
+        "groups"
+      ]
+    },
+    {
+      "charEnd": 809,
+      "charStart": 581,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.4",
+      "kind": "bullet",
+      "text": "My Books About Me Hug Nation Events, Podcasts, Books & More 1st Saturdays Monthly Events for the Unhoused Info & Next Event \"Stay Sparked\" Podcast Weekly episodes about Radical Self-Expression, Creativity, and Personal Growth.",
+      "tokens": [
+        "books",
+        "about",
+        "hug",
+        "nation",
+        "events",
+        "podcasts",
+        "books",
+        "more",
+        "1st",
+        "saturdays",
+        "monthly",
+        "events",
+        "unhoused",
+        "info",
+        "next",
+        "event",
+        "stay",
+        "sparked",
+        "podcast",
+        "weekly",
+        "episodes",
+        "about",
+        "radical",
+        "self",
+        "expression",
+        "creativity",
+        "personal",
+        "growth"
+      ]
+    },
+    {
+      "charEnd": 835,
+      "charStart": 824,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.5",
+      "kind": "bullet",
+      "text": "gratitude",
+      "tokens": [
+        "gratitude"
+      ]
+    },
+    {
+      "charEnd": 841,
+      "charStart": 836,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.6",
+      "kind": "bullet",
+      "text": "now",
+      "tokens": [
+        "now"
+      ]
+    },
+    {
+      "charEnd": 849,
+      "charStart": 842,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.7",
+      "kind": "bullet",
+      "text": "heart",
+      "tokens": [
+        "heart"
+      ]
+    },
+    {
+      "charEnd": 855,
+      "charStart": 850,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.8",
+      "kind": "bullet",
+      "text": "men",
+      "tokens": [
+        "men"
+      ]
+    },
+    {
+      "charEnd": 862,
+      "charStart": 856,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 870,
+      "charStart": 863,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.10",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 878,
+      "charStart": 871,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.11",
+      "kind": "bullet",
+      "text": "daily",
+      "tokens": [
+        "daily"
+      ]
+    },
+    {
+      "charEnd": 887,
+      "charStart": 879,
+      "factId": "hz.web.578cf9f6229b3ff6.fact.12",
+      "kind": "bullet",
+      "text": "events",
+      "tokens": [
+        "events"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 41,
+      "charStart": 1,
+      "headingId": "hz.web.578cf9f6229b3ff6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "John Halcyon Styn &#8211; Life Student"
+    },
+    {
+      "charEnd": 128,
+      "charStart": 118,
+      "headingId": "hz.web.578cf9f6229b3ff6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 822,
+      "charStart": 811,
+      "headingId": "hz.web.578cf9f6229b3ff6.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 899,
+      "charStart": 889,
+      "headingId": "hz.web.578cf9f6229b3ff6.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/578cf9f6229b3ff6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2973,
+        "start": 0
+      }
+    ],
+    "hash": "4b78e589032e0370de5b2dac315f4d7f380ea062d9afbacec219d5a1e0e65606",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "John Halcyon Styn &#8211; Life Student Skip to content John Halcyon Styn Gratitude Evangelist, Lifestyle Artist, & Authenticity Amplifier About Me John has been exploring collective healing through Gratitude & Radical Self-Expression for 3 decades.",
+      "He is an author, speaker, coach, and YouTuber.",
+      "He is the co-founder of the Pink Heart Burning Man camp, the homeless outreach organization, “ 1st Saturdays, ” & \"Heart-Centered Men\" Men's Groups."
+    ],
+    "medium": "Source: http://www.lifestudent.com/",
+    "short": "Source: http://www.lifestudent.com/",
+    "tokens": [
+      "john",
+      "halcyon",
+      "styn",
+      "8211",
+      "life",
+      "student",
+      "source",
+      "http",
+      "www",
+      "lifestudent",
+      "com",
+      "source",
+      "http",
+      "www",
+      "lifestudent",
+      "com"
+    ]
+  },
+  "title": "John Halcyon Styn &#8211; Life Student"
+}

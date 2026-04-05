@@ -1,0 +1,328 @@
+{
+  "aliases": [
+    {
+      "alias": "a270523ac08ea9e3",
+      "aliasId": "hz.web.a270523ac08ea9e3.alias.1",
+      "canonical": "tm"
+    },
+    {
+      "alias": "tm",
+      "aliasId": "hz.web.a270523ac08ea9e3.alias.2",
+      "canonical": "tm"
+    },
+    {
+      "alias": "web a270523ac08ea9e3",
+      "aliasId": "hz.web.a270523ac08ea9e3.alias.3",
+      "canonical": "tm"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.71,
+  "docId": "hz.web.a270523ac08ea9e3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a270523ac08ea9e3.entity.1",
+      "kind": "document",
+      "name": "TM",
+      "tokens": [
+        "tm"
+      ]
+    },
+    {
+      "entityId": "hz.web.a270523ac08ea9e3.entity.2",
+      "kind": "heading",
+      "name": "TM",
+      "tokens": [
+        "tm"
+      ]
+    },
+    {
+      "entityId": "hz.web.a270523ac08ea9e3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a270523ac08ea9e3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a270523ac08ea9e3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 54,
+      "charStart": 7,
+      "factId": "hz.web.a270523ac08ea9e3.fact.1",
+      "kind": "summary",
+      "text": "Source: http://goessner.net/learn/tm/index.html",
+      "tokens": [
+        "source",
+        "http",
+        "goessner",
+        "net",
+        "learn",
+        "tm",
+        "index",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 368,
+      "charStart": 106,
+      "factId": "hz.web.a270523ac08ea9e3.fact.1",
+      "kind": "bullet",
+      "text": "TM &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | [edit] [comment] [remove] | 2006-01-27 | e3 &#35; Aktuelle Klausurformelsammlung Die aktuelle Klausurformelsammlung f�r TM1 und TM2 ist nunmehr hier verf�gbar .",
+      "tokens": [
+        "tm",
+        "lt",
+        "stefan",
+        "goessner",
+        "gt",
+        "mechanik",
+        "das",
+        "web",
+        "und",
+        "der",
+        "ganze",
+        "rest",
+        "home",
+        "lehre",
+        "download",
+        "info",
+        "edit",
+        "comment",
+        "remove",
+        "2006",
+        "01",
+        "27",
+        "e3",
+        "35",
+        "aktuelle",
+        "klausurformelsammlung",
+        "die",
+        "aktuelle",
+        "klausurformelsammlung",
+        "tm1",
+        "und",
+        "tm2",
+        "ist",
+        "nunmehr",
+        "hier",
+        "verf",
+        "gbar"
+      ]
+    },
+    {
+      "charEnd": 383,
+      "charStart": 369,
+      "factId": "hz.web.a270523ac08ea9e3.fact.2",
+      "kind": "bullet",
+      "text": "Viel Erfolg.",
+      "tokens": [
+        "viel",
+        "erfolg"
+      ]
+    },
+    {
+      "charEnd": 417,
+      "charStart": 384,
+      "factId": "hz.web.a270523ac08ea9e3.fact.3",
+      "kind": "bullet",
+      "text": "Kommt noch eine neuere Version?",
+      "tokens": [
+        "kommt",
+        "noch",
+        "eine",
+        "neuere",
+        "version"
+      ]
+    },
+    {
+      "charEnd": 449,
+      "charStart": 418,
+      "factId": "hz.web.a270523ac08ea9e3.fact.4",
+      "kind": "bullet",
+      "text": "(ow) nein &#8230; (sg) sch�n!",
+      "tokens": [
+        "ow",
+        "nein",
+        "8230",
+        "sg",
+        "sch"
+      ]
+    },
+    {
+      "charEnd": 469,
+      "charStart": 464,
+      "factId": "hz.web.a270523ac08ea9e3.fact.5",
+      "kind": "bullet",
+      "text": "die",
+      "tokens": [
+        "die"
+      ]
+    },
+    {
+      "charEnd": 493,
+      "charStart": 470,
+      "factId": "hz.web.a270523ac08ea9e3.fact.6",
+      "kind": "bullet",
+      "text": "klausurformelsammlung",
+      "tokens": [
+        "klausurformelsammlung"
+      ]
+    },
+    {
+      "charEnd": 501,
+      "charStart": 494,
+      "factId": "hz.web.a270523ac08ea9e3.fact.7",
+      "kind": "bullet",
+      "text": "raquo",
+      "tokens": [
+        "raquo"
+      ]
+    },
+    {
+      "charEnd": 507,
+      "charStart": 502,
+      "factId": "hz.web.a270523ac08ea9e3.fact.8",
+      "kind": "bullet",
+      "text": "ist",
+      "tokens": [
+        "ist"
+      ]
+    },
+    {
+      "charEnd": 514,
+      "charStart": 508,
+      "factId": "hz.web.a270523ac08ea9e3.fact.9",
+      "kind": "bullet",
+      "text": "2005",
+      "tokens": [
+        "2005"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 515,
+      "factId": "hz.web.a270523ac08ea9e3.fact.10",
+      "kind": "bullet",
+      "text": "35",
+      "tokens": [
+        "35"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 520,
+      "factId": "hz.web.a270523ac08ea9e3.fact.11",
+      "kind": "bullet",
+      "text": "comment",
+      "tokens": [
+        "comment"
+      ]
+    },
+    {
+      "charEnd": 536,
+      "charStart": 530,
+      "factId": "hz.web.a270523ac08ea9e3.fact.12",
+      "kind": "bullet",
+      "text": "edit",
+      "tokens": [
+        "edit"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 5,
+      "charStart": 1,
+      "headingId": "hz.web.a270523ac08ea9e3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "TM"
+    },
+    {
+      "charEnd": 104,
+      "charStart": 94,
+      "headingId": "hz.web.a270523ac08ea9e3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 462,
+      "charStart": 451,
+      "headingId": "hz.web.a270523ac08ea9e3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 548,
+      "charStart": 538,
+      "headingId": "hz.web.a270523ac08ea9e3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/a270523ac08ea9e3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1783,
+        "start": 0
+      }
+    ],
+    "hash": "f93187306eedf85afec14e1a9f411d70ec6c7800019fc99fa61110bf7c29319b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "TM &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | [edit] [comment] [remove] | 2006-01-27 | e3 &#35; Aktuelle Klausurformelsammlung Die aktuelle Klausurformelsammlung f�r TM1 und TM2 ist nunmehr hier verf�gbar .",
+      "Viel Erfolg.",
+      "Kommt noch eine neuere Version?"
+    ],
+    "medium": "Source: http://goessner.net/learn/tm/index.html",
+    "short": "Source: http://goessner.net/learn/tm/index.html",
+    "tokens": [
+      "tm",
+      "source",
+      "http",
+      "goessner",
+      "net",
+      "learn",
+      "tm",
+      "index",
+      "html",
+      "source",
+      "http",
+      "goessner",
+      "net",
+      "learn",
+      "tm",
+      "index",
+      "html"
+    ]
+  },
+  "title": "TM"
+}

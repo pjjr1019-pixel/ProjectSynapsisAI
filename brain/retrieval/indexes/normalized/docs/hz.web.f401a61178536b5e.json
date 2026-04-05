@@ -1,0 +1,438 @@
+{
+  "aliases": [
+    {
+      "alias": "f401a61178536b5e",
+      "aliasId": "hz.web.f401a61178536b5e.alias.1",
+      "canonical": "meyerweb.com"
+    },
+    {
+      "alias": "meyerweb.com",
+      "aliasId": "hz.web.f401a61178536b5e.alias.2",
+      "canonical": "meyerweb.com"
+    },
+    {
+      "alias": "web f401a61178536b5e",
+      "aliasId": "hz.web.f401a61178536b5e.alias.3",
+      "canonical": "meyerweb.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.f401a61178536b5e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f401a61178536b5e.entity.1",
+      "kind": "document",
+      "name": "meyerweb.com",
+      "tokens": [
+        "meyerweb",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f401a61178536b5e.entity.2",
+      "kind": "heading",
+      "name": "meyerweb.com",
+      "tokens": [
+        "meyerweb",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f401a61178536b5e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f401a61178536b5e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f401a61178536b5e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 45,
+      "charStart": 17,
+      "factId": "hz.web.f401a61178536b5e.fact.1",
+      "kind": "summary",
+      "text": "Source: http://meyerweb.com/",
+      "tokens": [
+        "source",
+        "http",
+        "meyerweb",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 397,
+      "charStart": 97,
+      "factId": "hz.web.f401a61178536b5e.fact.1",
+      "kind": "bullet",
+      "text": "meyerweb.com meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Targeting by Reference in the Shadow DOM Published 3 months, 1 week past I’ve long made it clear that I don’t particularly care for the whole Shadow DOM thing.",
+      "tokens": [
+        "meyerweb",
+        "com",
+        "meyerweb",
+        "com",
+        "main",
+        "content",
+        "navigation",
+        "links",
+        "footer",
+        "post",
+        "archives",
+        "css",
+        "work",
+        "toolbox",
+        "writing",
+        "speaking",
+        "other",
+        "stuff",
+        "about",
+        "site",
+        "targeting",
+        "reference",
+        "shadow",
+        "dom",
+        "published",
+        "months",
+        "week",
+        "past",
+        "ve",
+        "long",
+        "made",
+        "clear",
+        "don",
+        "particularly",
+        "care",
+        "whole",
+        "shadow",
+        "dom",
+        "thing"
+      ]
+    },
+    {
+      "charEnd": 517,
+      "charStart": 398,
+      "factId": "hz.web.f401a61178536b5e.fact.2",
+      "kind": "bullet",
+      "text": "I believe I understand the problems it tries to solve, and I fully acknowledge that those are problems worth solving.",
+      "tokens": [
+        "believe",
+        "understand",
+        "problems",
+        "tries",
+        "solve",
+        "fully",
+        "acknowledge",
+        "those",
+        "problems",
+        "worth",
+        "solving"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 518,
+      "factId": "hz.web.f401a61178536b5e.fact.3",
+      "kind": "bullet",
+      "text": "There are just a bunch of things about it that don’t feel right to me, like how it can break accessibility in a number of ways.",
+      "tokens": [
+        "there",
+        "just",
+        "bunch",
+        "things",
+        "about",
+        "don",
+        "feel",
+        "right",
+        "like",
+        "break",
+        "accessibility",
+        "number",
+        "ways"
+      ]
+    },
+    {
+      "charEnd": 833,
+      "charStart": 648,
+      "factId": "hz.web.f401a61178536b5e.fact.4",
+      "kind": "bullet",
+      "text": "One of those things is how it breaks stuff like the commandFor attribute on &lt;button&gt; s, or the popoverTarget attribute, or a variety of ARIA attributes such as aria-labelledby .",
+      "tokens": [
+        "one",
+        "those",
+        "things",
+        "breaks",
+        "stuff",
+        "like",
+        "commandfor",
+        "attribute",
+        "lt",
+        "button",
+        "gt",
+        "popovertarget",
+        "attribute",
+        "variety",
+        "aria",
+        "attributes",
+        "such",
+        "aria",
+        "labelledby"
+      ]
+    },
+    {
+      "charEnd": 852,
+      "charStart": 848,
+      "factId": "hz.web.f401a61178536b5e.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 857,
+      "charStart": 853,
+      "factId": "hz.web.f401a61178536b5e.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 869,
+      "charStart": 858,
+      "factId": "hz.web.f401a61178536b5e.fact.7",
+      "kind": "bullet",
+      "text": "asidenote",
+      "tokens": [
+        "asidenote"
+      ]
+    },
+    {
+      "charEnd": 874,
+      "charStart": 870,
+      "factId": "hz.web.f401a61178536b5e.fact.8",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 879,
+      "charStart": 875,
+      "factId": "hz.web.f401a61178536b5e.fact.9",
+      "kind": "bullet",
+      "text": "so",
+      "tokens": [
+        "so"
+      ]
+    },
+    {
+      "charEnd": 885,
+      "charStart": 880,
+      "factId": "hz.web.f401a61178536b5e.fact.10",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    },
+    {
+      "charEnd": 892,
+      "charStart": 886,
+      "factId": "hz.web.f401a61178536b5e.fact.11",
+      "kind": "bullet",
+      "text": "text",
+      "tokens": [
+        "text"
+      ]
+    },
+    {
+      "charEnd": 905,
+      "charStart": 893,
+      "factId": "hz.web.f401a61178536b5e.fact.12",
+      "kind": "bullet",
+      "text": "asidenotes",
+      "tokens": [
+        "asidenotes"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.f401a61178536b5e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "meyerweb.com"
+    },
+    {
+      "charEnd": 95,
+      "charStart": 85,
+      "headingId": "hz.web.f401a61178536b5e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 846,
+      "charStart": 835,
+      "headingId": "hz.web.f401a61178536b5e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 917,
+      "charStart": 907,
+      "headingId": "hz.web.f401a61178536b5e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f401a61178536b5e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4136,
+        "start": 0
+      }
+    ],
+    "hash": "24284d907646b801787cb559ef76adc89a1cf6df8d495cb99b93535931bcfa07",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.f401a61178536b5e.rule.1",
+      "text": "The proposal at hand is for a shadowRootReferenceTarget attribute, which is a string used to identify an element within the Shadowed DOM tree that should be the actual target of any references.",
+      "tokens": [
+        "proposal",
+        "hand",
+        "shadowrootreferencetarget",
+        "attribute",
+        "string",
+        "used",
+        "identify",
+        "element",
+        "within",
+        "shadowed",
+        "dom",
+        "tree",
+        "actual",
+        "target",
+        "any",
+        "references"
+      ]
+    },
+    {
+      "ruleId": "hz.web.f401a61178536b5e.rule.2",
+      "text": "(No, nothing this simple should really be a web component, but let’s assume that someone has created a whole multi-faceted component system for handling rich user interactions or whatever, and someone else has to use it for job-related reasons, and this is one small use of that system.) The problem is, the &lt;label&gt; element’s for is pointing at consent , which is the ID of the component.",
+      "tokens": [
+        "no",
+        "nothing",
+        "simple",
+        "really",
+        "web",
+        "component",
+        "but",
+        "let",
+        "assume",
+        "someone",
+        "has",
+        "created",
+        "whole",
+        "multi",
+        "faceted",
+        "component",
+        "system",
+        "handling",
+        "rich",
+        "user",
+        "interactions",
+        "whatever",
+        "someone",
+        "else",
+        "has",
+        "use",
+        "job",
+        "related",
+        "reasons",
+        "one",
+        "small",
+        "use",
+        "system",
+        "problem",
+        "lt",
+        "label",
+        "gt",
+        "element",
+        "pointing",
+        "consent",
+        "id",
+        "component"
+      ]
+    },
+    {
+      "ruleId": "hz.web.f401a61178536b5e.rule.3",
+      "text": "The actual thing that should be targeted is the &lt;input&gt; element with the ID of setting .",
+      "tokens": [
+        "actual",
+        "thing",
+        "targeted",
+        "lt",
+        "input",
+        "gt",
+        "element",
+        "id",
+        "setting"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "meyerweb.com meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Targeting by Reference in the Shadow DOM Published 3 months, 1 week past I’ve long made it clear that I don’t particularly care for the whole Shadow DOM thing.",
+      "I believe I understand the problems it tries to solve, and I fully acknowledge that those are problems worth solving.",
+      "There are just a bunch of things about it that don’t feel right to me, like how it can break accessibility in a number of ways."
+    ],
+    "medium": "Source: http://meyerweb.com/",
+    "short": "Source: http://meyerweb.com/",
+    "tokens": [
+      "meyerweb",
+      "com",
+      "source",
+      "http",
+      "meyerweb",
+      "com",
+      "source",
+      "http",
+      "meyerweb",
+      "com"
+    ]
+  },
+  "title": "meyerweb.com"
+}

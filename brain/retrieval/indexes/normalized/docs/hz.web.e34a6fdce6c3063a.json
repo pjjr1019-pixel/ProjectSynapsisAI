@@ -1,0 +1,338 @@
+{
+  "aliases": [
+    {
+      "alias": "e34a6fdce6c3063a",
+      "aliasId": "hz.web.e34a6fdce6c3063a.alias.1",
+      "canonical": "fans | bandcamp"
+    },
+    {
+      "alias": "fans bandcamp",
+      "aliasId": "hz.web.e34a6fdce6c3063a.alias.2",
+      "canonical": "fans | bandcamp"
+    },
+    {
+      "alias": "web e34a6fdce6c3063a",
+      "aliasId": "hz.web.e34a6fdce6c3063a.alias.3",
+      "canonical": "fans | bandcamp"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.89,
+  "docId": "hz.web.e34a6fdce6c3063a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e34a6fdce6c3063a.entity.1",
+      "kind": "document",
+      "name": "Fans | Bandcamp",
+      "tokens": [
+        "fans",
+        "bandcamp"
+      ]
+    },
+    {
+      "entityId": "hz.web.e34a6fdce6c3063a.entity.2",
+      "kind": "heading",
+      "name": "Fans | Bandcamp",
+      "tokens": [
+        "fans",
+        "bandcamp"
+      ]
+    },
+    {
+      "entityId": "hz.web.e34a6fdce6c3063a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e34a6fdce6c3063a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e34a6fdce6c3063a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 20,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://bandcamp.com/fans",
+      "tokens": [
+        "source",
+        "https",
+        "bandcamp",
+        "com",
+        "fans"
+      ]
+    },
+    {
+      "charEnd": 196,
+      "charStart": 105,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.1",
+      "kind": "bullet",
+      "text": "Fans | Bandcamp --> Get fresh music recommendations delivered to your inbox every Friday.",
+      "tokens": [
+        "fans",
+        "bandcamp",
+        "get",
+        "fresh",
+        "music",
+        "recommendations",
+        "delivered",
+        "your",
+        "inbox",
+        "every",
+        "friday"
+      ]
+    },
+    {
+      "charEnd": 271,
+      "charStart": 197,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.2",
+      "kind": "bullet",
+      "text": "Discover amazing new music and directly support the artists who make it.",
+      "tokens": [
+        "discover",
+        "amazing",
+        "new",
+        "music",
+        "directly",
+        "support",
+        "artists",
+        "make"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 272,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.3",
+      "kind": "bullet",
+      "text": "× See all results No matching results Try a different filter or a new search keyword.",
+      "tokens": [
+        "see",
+        "all",
+        "results",
+        "no",
+        "matching",
+        "results",
+        "try",
+        "different",
+        "filter",
+        "new",
+        "search",
+        "keyword"
+      ]
+    },
+    {
+      "charEnd": 456,
+      "charStart": 360,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.4",
+      "kind": "bullet",
+      "text": "Search all Bandcamp artists, tracks, and albums cancel sign up log in Bandcamp Gift Cards Hey!",
+      "tokens": [
+        "search",
+        "all",
+        "bandcamp",
+        "artists",
+        "tracks",
+        "albums",
+        "cancel",
+        "sign",
+        "up",
+        "log",
+        "bandcamp",
+        "gift",
+        "cards",
+        "hey"
+      ]
+    },
+    {
+      "charEnd": 477,
+      "charStart": 471,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 488,
+      "charStart": 478,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.6",
+      "kind": "bullet",
+      "text": "bandcamp",
+      "tokens": [
+        "bandcamp"
+      ]
+    },
+    {
+      "charEnd": 496,
+      "charStart": 489,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.7",
+      "kind": "bullet",
+      "text": "music",
+      "tokens": [
+        "music"
+      ]
+    },
+    {
+      "charEnd": 509,
+      "charStart": 497,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.8",
+      "kind": "bullet",
+      "text": "collection",
+      "tokens": [
+        "collection"
+      ]
+    },
+    {
+      "charEnd": 515,
+      "charStart": 510,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.9",
+      "kind": "bullet",
+      "text": "new",
+      "tokens": [
+        "new"
+      ]
+    },
+    {
+      "charEnd": 525,
+      "charStart": 516,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.10",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 531,
+      "charStart": 526,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.11",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 541,
+      "charStart": 532,
+      "factId": "hz.web.e34a6fdce6c3063a.fact.12",
+      "kind": "bullet",
+      "text": "artists",
+      "tokens": [
+        "artists"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.e34a6fdce6c3063a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Fans | Bandcamp"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.e34a6fdce6c3063a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 469,
+      "charStart": 458,
+      "headingId": "hz.web.e34a6fdce6c3063a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 553,
+      "charStart": 543,
+      "headingId": "hz.web.e34a6fdce6c3063a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/e34a6fdce6c3063a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3780,
+        "start": 0
+      }
+    ],
+    "hash": "6c3d67448c0d8a94bf3349704d0cf71c6d7350349f9600740ada1dac449e0cdd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.e34a6fdce6c3063a.rule.1",
+      "text": "Never miss a release Follow your favorite artists and be the first to know when they put out new music.",
+      "tokens": [
+        "never",
+        "miss",
+        "release",
+        "follow",
+        "your",
+        "favorite",
+        "artists",
+        "first",
+        "know",
+        "put",
+        "out",
+        "new",
+        "music"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Fans | Bandcamp --> Get fresh music recommendations delivered to your inbox every Friday.",
+      "Discover amazing new music and directly support the artists who make it.",
+      "× See all results No matching results Try a different filter or a new search keyword."
+    ],
+    "medium": "Source: https://bandcamp.com/fans",
+    "short": "Source: https://bandcamp.com/fans",
+    "tokens": [
+      "fans",
+      "bandcamp",
+      "source",
+      "https",
+      "bandcamp",
+      "com",
+      "fans",
+      "source",
+      "https",
+      "bandcamp",
+      "com",
+      "fans"
+    ]
+  },
+  "title": "Fans | Bandcamp"
+}

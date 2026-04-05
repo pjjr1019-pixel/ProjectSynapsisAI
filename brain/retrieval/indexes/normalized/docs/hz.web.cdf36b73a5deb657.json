@@ -1,0 +1,367 @@
+{
+  "aliases": [
+    {
+      "alias": "cdf36b73a5deb657",
+      "aliasId": "hz.web.cdf36b73a5deb657.alias.1",
+      "canonical": "privacy policy"
+    },
+    {
+      "alias": "privacy policy",
+      "aliasId": "hz.web.cdf36b73a5deb657.alias.2",
+      "canonical": "privacy policy"
+    },
+    {
+      "alias": "web cdf36b73a5deb657",
+      "aliasId": "hz.web.cdf36b73a5deb657.alias.3",
+      "canonical": "privacy policy"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.cdf36b73a5deb657",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.cdf36b73a5deb657.entity.1",
+      "kind": "document",
+      "name": "Privacy Policy",
+      "tokens": [
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "entityId": "hz.web.cdf36b73a5deb657.entity.2",
+      "kind": "heading",
+      "name": "Privacy Policy",
+      "tokens": [
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "entityId": "hz.web.cdf36b73a5deb657.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.cdf36b73a5deb657.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.cdf36b73a5deb657.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 19,
+      "factId": "hz.web.cdf36b73a5deb657.fact.1",
+      "kind": "summary",
+      "text": "Source: https://stripe.com/privacy",
+      "tokens": [
+        "source",
+        "https",
+        "stripe",
+        "com",
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 105,
+      "factId": "hz.web.cdf36b73a5deb657.fact.1",
+      "kind": "bullet",
+      "text": "Chat with Stripe sales Privacy Policy Legal Stripe Privacy Policy & Privacy Center Privacy Policy Stripe Privacy Center Data Processing Agreement Data Transfer Addendum Supplier Data Processing Agreement Supplier Data Transfers Addendum Data Privacy Framework Sub-Processors List Cookies Policy Privacy Policy Last updated: February 23, 2026 This Privacy Policy includes important information about your personal data and we encourage you to read it carefully.",
+      "tokens": [
+        "chat",
+        "stripe",
+        "sales",
+        "privacy",
+        "policy",
+        "legal",
+        "stripe",
+        "privacy",
+        "policy",
+        "privacy",
+        "center",
+        "privacy",
+        "policy",
+        "stripe",
+        "privacy",
+        "center",
+        "data",
+        "processing",
+        "agreement",
+        "data",
+        "transfer",
+        "addendum",
+        "supplier",
+        "data",
+        "processing",
+        "agreement",
+        "supplier",
+        "data",
+        "transfers",
+        "addendum",
+        "data",
+        "privacy",
+        "framework",
+        "sub",
+        "processors",
+        "list",
+        "cookies",
+        "policy",
+        "privacy",
+        "policy",
+        "last",
+        "updated",
+        "february",
+        "23",
+        "2026",
+        "privacy",
+        "policy",
+        "includes",
+        "important",
+        "information",
+        "about",
+        "your",
+        "personal",
+        "data",
+        "encourage",
+        "read",
+        "carefully"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 568,
+      "factId": "hz.web.cdf36b73a5deb657.fact.2",
+      "kind": "bullet",
+      "text": "Welcome We provide financial infrastructure for the internet.",
+      "tokens": [
+        "welcome",
+        "provide",
+        "financial",
+        "infrastructure",
+        "internet"
+      ]
+    },
+    {
+      "charEnd": 797,
+      "charStart": 632,
+      "factId": "hz.web.cdf36b73a5deb657.fact.3",
+      "kind": "bullet",
+      "text": "Individuals and businesses of all sizes use our technology and services to facilitate purchases, accept payments, send payouts, and manage their online businesses.",
+      "tokens": [
+        "individuals",
+        "businesses",
+        "all",
+        "sizes",
+        "use",
+        "our",
+        "technology",
+        "services",
+        "facilitate",
+        "purchases",
+        "accept",
+        "payments",
+        "send",
+        "payouts",
+        "manage",
+        "their",
+        "online",
+        "businesses"
+      ]
+    },
+    {
+      "charEnd": 957,
+      "charStart": 798,
+      "factId": "hz.web.cdf36b73a5deb657.fact.4",
+      "kind": "bullet",
+      "text": "This Privacy Policy (“Policy”) describes the Personal Data that we collect, how we use and share it, and how you can reach us with privacy-related inquiries.",
+      "tokens": [
+        "privacy",
+        "policy",
+        "policy",
+        "describes",
+        "personal",
+        "data",
+        "collect",
+        "use",
+        "share",
+        "reach",
+        "us",
+        "privacy",
+        "related",
+        "inquiries"
+      ]
+    },
+    {
+      "charEnd": 978,
+      "charStart": 972,
+      "factId": "hz.web.cdf36b73a5deb657.fact.5",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 989,
+      "charStart": 979,
+      "factId": "hz.web.cdf36b73a5deb657.fact.6",
+      "kind": "bullet",
+      "text": "business",
+      "tokens": [
+        "business"
+      ]
+    },
+    {
+      "charEnd": 996,
+      "charStart": 990,
+      "factId": "hz.web.cdf36b73a5deb657.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1007,
+      "charStart": 997,
+      "factId": "hz.web.cdf36b73a5deb657.fact.8",
+      "kind": "bullet",
+      "text": "personal",
+      "tokens": [
+        "personal"
+      ]
+    },
+    {
+      "charEnd": 1018,
+      "charStart": 1008,
+      "factId": "hz.web.cdf36b73a5deb657.fact.9",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 1024,
+      "charStart": 1019,
+      "factId": "hz.web.cdf36b73a5deb657.fact.10",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 1033,
+      "charStart": 1025,
+      "factId": "hz.web.cdf36b73a5deb657.fact.11",
+      "kind": "bullet",
+      "text": "stripe",
+      "tokens": [
+        "stripe"
+      ]
+    },
+    {
+      "charEnd": 1039,
+      "charStart": 1034,
+      "factId": "hz.web.cdf36b73a5deb657.fact.12",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.cdf36b73a5deb657.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Privacy Policy"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.cdf36b73a5deb657.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 970,
+      "charStart": 959,
+      "headingId": "hz.web.cdf36b73a5deb657.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1051,
+      "charStart": 1041,
+      "headingId": "hz.web.cdf36b73a5deb657.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/cdf36b73a5deb657.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4278,
+        "start": 0
+      }
+    ],
+    "hash": "31160a194374405f4273add460bf894e9edda9fae8f73240926f7d7d281588d1",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Chat with Stripe sales Privacy Policy Legal Stripe Privacy Policy & Privacy Center Privacy Policy Stripe Privacy Center Data Processing Agreement Data Transfer Addendum Supplier Data Processing Agreement Supplier Data Transfers Addendum Data Privacy Framework Sub-Processors List Cookies Policy Privacy Policy Last updated: February 23, 2026 This Privacy Policy includes important information about your personal data and we encourage you to read it carefully.",
+      "Welcome We provide financial infrastructure for the internet.",
+      "Individuals and businesses of all sizes use our technology and services to facilitate purchases, accept payments, send payouts, and manage their online businesses."
+    ],
+    "medium": "Source: https://stripe.com/privacy",
+    "short": "Source: https://stripe.com/privacy",
+    "tokens": [
+      "privacy",
+      "policy",
+      "source",
+      "https",
+      "stripe",
+      "com",
+      "privacy",
+      "source",
+      "https",
+      "stripe",
+      "com",
+      "privacy"
+    ]
+  },
+  "title": "Privacy Policy"
+}

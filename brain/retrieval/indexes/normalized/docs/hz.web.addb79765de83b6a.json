@@ -1,0 +1,302 @@
+{
+  "aliases": [
+    {
+      "alias": "addb79765de83b6a",
+      "aliasId": "hz.web.addb79765de83b6a.alias.1",
+      "canonical": "freedom250.org"
+    },
+    {
+      "alias": "freedom250.org",
+      "aliasId": "hz.web.addb79765de83b6a.alias.2",
+      "canonical": "freedom250.org"
+    },
+    {
+      "alias": "web addb79765de83b6a",
+      "aliasId": "hz.web.addb79765de83b6a.alias.3",
+      "canonical": "freedom250.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.addb79765de83b6a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.addb79765de83b6a.entity.1",
+      "kind": "document",
+      "name": "freedom250.org",
+      "tokens": [
+        "freedom250",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.addb79765de83b6a.entity.2",
+      "kind": "heading",
+      "name": "freedom250.org",
+      "tokens": [
+        "freedom250",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.addb79765de83b6a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.addb79765de83b6a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.addb79765de83b6a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 92,
+      "charStart": 19,
+      "factId": "hz.web.addb79765de83b6a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://freedom250.org/assets/images/favicon/site.webmanifest?v=1",
+      "tokens": [
+        "source",
+        "https",
+        "freedom250",
+        "org",
+        "assets",
+        "images",
+        "favicon",
+        "site",
+        "webmanifest"
+      ]
+    },
+    {
+      "charEnd": 548,
+      "charStart": 144,
+      "factId": "hz.web.addb79765de83b6a.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"Freedom 250\", \"short_name\": \"F250\", \"icons\": [ { \"src\": \"/assets/images/favicon/web-app-manifest-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\", \"purpose\": \"maskable\" }, { \"src\": \"/assets/images/favicon/web-app-manifest-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"maskable\" } ], \"theme_color\": \"#ffffff\", \"background_color\": \"#fffff9\", \"display\": \"standalone\" }",
+      "tokens": [
+        "name",
+        "freedom",
+        "250",
+        "short_name",
+        "f250",
+        "icons",
+        "src",
+        "assets",
+        "images",
+        "favicon",
+        "web",
+        "app",
+        "manifest",
+        "192x192",
+        "png",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "maskable",
+        "src",
+        "assets",
+        "images",
+        "favicon",
+        "web",
+        "app",
+        "manifest",
+        "512x512",
+        "png",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "maskable",
+        "theme_color",
+        "ffffff",
+        "background_color",
+        "fffff9",
+        "display",
+        "standalone"
+      ]
+    },
+    {
+      "charEnd": 568,
+      "charStart": 563,
+      "factId": "hz.web.addb79765de83b6a.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 578,
+      "charStart": 569,
+      "factId": "hz.web.addb79765de83b6a.fact.3",
+      "kind": "bullet",
+      "text": "192x192",
+      "tokens": [
+        "192x192"
+      ]
+    },
+    {
+      "charEnd": 588,
+      "charStart": 579,
+      "factId": "hz.web.addb79765de83b6a.fact.4",
+      "kind": "bullet",
+      "text": "512x512",
+      "tokens": [
+        "512x512"
+      ]
+    },
+    {
+      "charEnd": 594,
+      "charStart": 589,
+      "factId": "hz.web.addb79765de83b6a.fact.5",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    },
+    {
+      "charEnd": 603,
+      "charStart": 595,
+      "factId": "hz.web.addb79765de83b6a.fact.6",
+      "kind": "bullet",
+      "text": "assets",
+      "tokens": [
+        "assets"
+      ]
+    },
+    {
+      "charEnd": 613,
+      "charStart": 604,
+      "factId": "hz.web.addb79765de83b6a.fact.7",
+      "kind": "bullet",
+      "text": "favicon",
+      "tokens": [
+        "favicon"
+      ]
+    },
+    {
+      "charEnd": 621,
+      "charStart": 614,
+      "factId": "hz.web.addb79765de83b6a.fact.8",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 630,
+      "charStart": 622,
+      "factId": "hz.web.addb79765de83b6a.fact.9",
+      "kind": "bullet",
+      "text": "images",
+      "tokens": [
+        "images"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.addb79765de83b6a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "freedom250.org"
+    },
+    {
+      "charEnd": 142,
+      "charStart": 132,
+      "headingId": "hz.web.addb79765de83b6a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 561,
+      "charStart": 550,
+      "headingId": "hz.web.addb79765de83b6a.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 642,
+      "charStart": 632,
+      "headingId": "hz.web.addb79765de83b6a.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/addb79765de83b6a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1310,
+        "start": 0
+      }
+    ],
+    "hash": "7a71aa6f1172fb4708148e487311e8dd69cfec760679959f6521ec646ca28420",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"Freedom 250\", \"short_name\": \"F250\", \"icons\": [ { \"src\": \"/assets/images/favicon/web-app-manifest-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\", \"purpose\": \"maskable\" }, { \"src\": \"/assets/images/favicon/web-app-manifest-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"maskable\" } ], \"theme_color\": \"#ffffff\", \"background_color\": \"#fffff9\", \"display\": \"standalone\" }",
+      "png",
+      "192x192"
+    ],
+    "medium": "Source: https://freedom250.org/assets/images/favicon/site.webmanifest?v=1",
+    "short": "Source: https://freedom250.org/assets/images/favicon/site.webmanifest?v=1",
+    "tokens": [
+      "freedom250",
+      "org",
+      "source",
+      "https",
+      "freedom250",
+      "org",
+      "assets",
+      "images",
+      "favicon",
+      "site",
+      "webmanifest",
+      "source",
+      "https",
+      "freedom250",
+      "org",
+      "assets",
+      "images",
+      "favicon",
+      "site",
+      "webmanifest"
+    ]
+  },
+  "title": "freedom250.org"
+}

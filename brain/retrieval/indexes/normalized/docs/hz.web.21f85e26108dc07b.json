@@ -1,0 +1,385 @@
+{
+  "aliases": [
+    {
+      "alias": "21f85e26108dc07b",
+      "aliasId": "hz.web.21f85e26108dc07b.alias.1",
+      "canonical": "static.licdn.com"
+    },
+    {
+      "alias": "static.licdn.com",
+      "aliasId": "hz.web.21f85e26108dc07b.alias.2",
+      "canonical": "static.licdn.com"
+    },
+    {
+      "alias": "web 21f85e26108dc07b",
+      "aliasId": "hz.web.21f85e26108dc07b.alias.3",
+      "canonical": "static.licdn.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.21f85e26108dc07b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.21f85e26108dc07b.entity.1",
+      "kind": "document",
+      "name": "static.licdn.com",
+      "tokens": [
+        "static",
+        "licdn",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.21f85e26108dc07b.entity.2",
+      "kind": "heading",
+      "name": "static.licdn.com",
+      "tokens": [
+        "static",
+        "licdn",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.21f85e26108dc07b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.21f85e26108dc07b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.21f85e26108dc07b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 92,
+      "charStart": 21,
+      "factId": "hz.web.21f85e26108dc07b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://static.licdn.com/aero-v1/sc/h/akt4ae504epesldzj74dzred8",
+      "tokens": [
+        "source",
+        "https",
+        "static",
+        "licdn",
+        "com",
+        "aero",
+        "v1",
+        "sc",
+        "akt4ae504epesldzj74dzred8"
+      ]
+    },
+    {
+      "charEnd": 963,
+      "charStart": 144,
+      "factId": "hz.web.21f85e26108dc07b.fact.1",
+      "kind": "bullet",
+      "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <style> .favicon-background { fill: #0a66c2; } .favicon-text { fill: #fff; } </style> <path class=\"favicon-background\" d=\"M55.92,4H8.08A4.08,4.08,0,0,0,4,8.08V55.92A4.08,4.08,0,0,0,8.08,60H55.92A4.08,4.08,0,0,0,60,55.92V8.08A4.08,4.08,0,0,0,55.92,4ZM20,52H12V25h8ZM16,20.7a4.7,4.7,0,0,1,0-9.4h0a4.7,4.7,0,0,1,0,9.4ZM52,52H44V37.81c0-4.31-2.73-6.11-5-6.11a5.82,5.82,0,0,0-6,6.21V52H25V25h7.53v3.79h.11c.8-1.64,4.44-4.37,9.13-4.37S52,27.59,52,35.76Z\"/> <path class=\"favicon-text\" d=\"M52,35.76V52H44V37.81c0-4.31-2.73-6.11-5-6.11a5.82,5.82,0,0,0-6,6.21V52H25V25h7.53v3.79h.11c.8-1.64,4.44-4.37,9.13-4.37S52,27.59,52,35.76ZM16,11.3A4.7,4.7,0,1,0,20.7,16,4.69,4.69,0,0,0,16,11.3ZM12,52h8V25H12Z\" /> </svg>",
+      "tokens": [
+        "svg",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2000",
+        "svg",
+        "id",
+        "layer_1",
+        "data",
+        "name",
+        "layer",
+        "width",
+        "64",
+        "height",
+        "64",
+        "viewbox",
+        "64",
+        "64",
+        "style",
+        "favicon",
+        "background",
+        "fill",
+        "0a66c2",
+        "favicon",
+        "text",
+        "fill",
+        "fff",
+        "style",
+        "path",
+        "class",
+        "favicon",
+        "background",
+        "m55",
+        "92",
+        "4h8",
+        "08a4",
+        "08",
+        "08",
+        "08v55",
+        "92a4",
+        "08",
+        "08",
+        "08",
+        "60h55",
+        "92a4",
+        "08",
+        "08",
+        "60",
+        "55",
+        "92v8",
+        "08a4",
+        "08",
+        "08",
+        "55",
+        "92",
+        "4zm20",
+        "52h12v25h8zm16",
+        "20",
+        "7a4",
+        "4h0a4",
+        "4zm52",
+        "52h44v37",
+        "81c0",
+        "31",
+        "73",
+        "11",
+        "11a5",
+        "82",
+        "82",
+        "21v52h25v25h7",
+        "53v3",
+        "79h",
+        "11c",
+        "64",
+        "44",
+        "37",
+        "13",
+        "37s52",
+        "27",
+        "59",
+        "52",
+        "35",
+        "76z",
+        "path",
+        "class",
+        "favicon",
+        "text",
+        "m52",
+        "35",
+        "76v52h44v37",
+        "81c0",
+        "31",
+        "73",
+        "11",
+        "11a5",
+        "82",
+        "82",
+        "21v52h25v25h7",
+        "53v3",
+        "79h",
+        "11c",
+        "64",
+        "44",
+        "37",
+        "13",
+        "37s52",
+        "27",
+        "59",
+        "52",
+        "35",
+        "76zm16",
+        "11",
+        "3a4",
+        "20",
+        "16",
+        "69",
+        "69",
+        "16",
+        "11",
+        "3zm12",
+        "52h8v25h12z",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 982,
+      "charStart": 978,
+      "factId": "hz.web.21f85e26108dc07b.fact.2",
+      "kind": "bullet",
+      "text": "08",
+      "tokens": [
+        "08"
+      ]
+    },
+    {
+      "charEnd": 987,
+      "charStart": 983,
+      "factId": "hz.web.21f85e26108dc07b.fact.3",
+      "kind": "bullet",
+      "text": "64",
+      "tokens": [
+        "64"
+      ]
+    },
+    {
+      "charEnd": 992,
+      "charStart": 988,
+      "factId": "hz.web.21f85e26108dc07b.fact.4",
+      "kind": "bullet",
+      "text": "11",
+      "tokens": [
+        "11"
+      ]
+    },
+    {
+      "charEnd": 997,
+      "charStart": 993,
+      "factId": "hz.web.21f85e26108dc07b.fact.5",
+      "kind": "bullet",
+      "text": "82",
+      "tokens": [
+        "82"
+      ]
+    },
+    {
+      "charEnd": 1007,
+      "charStart": 998,
+      "factId": "hz.web.21f85e26108dc07b.fact.6",
+      "kind": "bullet",
+      "text": "favicon",
+      "tokens": [
+        "favicon"
+      ]
+    },
+    {
+      "charEnd": 1012,
+      "charStart": 1008,
+      "factId": "hz.web.21f85e26108dc07b.fact.7",
+      "kind": "bullet",
+      "text": "35",
+      "tokens": [
+        "35"
+      ]
+    },
+    {
+      "charEnd": 1018,
+      "charStart": 1013,
+      "factId": "hz.web.21f85e26108dc07b.fact.8",
+      "kind": "bullet",
+      "text": "svg",
+      "tokens": [
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 1025,
+      "charStart": 1019,
+      "factId": "hz.web.21f85e26108dc07b.fact.9",
+      "kind": "bullet",
+      "text": "08a4",
+      "tokens": [
+        "08a4"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.21f85e26108dc07b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "static.licdn.com"
+    },
+    {
+      "charEnd": 142,
+      "charStart": 132,
+      "headingId": "hz.web.21f85e26108dc07b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 976,
+      "charStart": 965,
+      "headingId": "hz.web.21f85e26108dc07b.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1037,
+      "charStart": 1027,
+      "headingId": "hz.web.21f85e26108dc07b.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/21f85e26108dc07b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2120,
+        "start": 0
+      }
+    ],
+    "hash": "9f8255a914f1a957ec86dd1f32f2ce3fa4e927063d52d73171741353162d6625",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"> <style> .favicon-background { fill: #0a66c2; } .favicon-text { fill: #fff; } </style> <path class=\"favicon-background\" d=\"M55.92,4H8.08A4.08,4.08,0,0,0,4,8.08V55.92A4.08,4.08,0,0,0,8.08,60H55.92A4.08,4.08,0,0,0,60,55.92V8.08A4.08,4.08,0,0,0,55.92,4ZM20,52H12V25h8ZM16,20.7a4.7,4.7,0,0,1,0-9.4h0a4.7,4.7,0,0,1,0,9.4ZM52,52H44V37.81c0-4.31-2.73-6.11-5-6.11a5.82,5.82,0,0,0-6,6.21V52H25V25h7.53v3.79h.11c.8-1.64,4.44-4.37,9.13-4.37S52,27.59,52,35.76Z\"/> <path class=\"favicon-text\" d=\"M52,35.76V52H44V37.81c0-4.31-2.73-6.11-5-6.11a5.82,5.82,0,0,0-6,6.21V52H25V25h7.53v3.79h.11c.8-1.64,4.44-4.37,9.13-4.37S52,27.59,52,35.76ZM16,11.3A4.7,4.7,0,1,0,20.7,16,4.69,4.69,0,0,0,16,11.3ZM12,52h8V25H12Z\" /> </svg>",
+      "08",
+      "64"
+    ],
+    "medium": "Source: https://static.licdn.com/aero-v1/sc/h/akt4ae504epesldzj74dzred8",
+    "short": "Source: https://static.licdn.com/aero-v1/sc/h/akt4ae504epesldzj74dzred8",
+    "tokens": [
+      "static",
+      "licdn",
+      "com",
+      "source",
+      "https",
+      "static",
+      "licdn",
+      "com",
+      "aero",
+      "v1",
+      "sc",
+      "akt4ae504epesldzj74dzred8",
+      "source",
+      "https",
+      "static",
+      "licdn",
+      "com",
+      "aero",
+      "v1",
+      "sc",
+      "akt4ae504epesldzj74dzred8"
+    ]
+  },
+  "title": "static.licdn.com"
+}

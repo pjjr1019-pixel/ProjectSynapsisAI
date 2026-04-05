@@ -1,0 +1,294 @@
+{
+  "aliases": [
+    {
+      "alias": "db3b989f85cf458a",
+      "aliasId": "hz.web.db3b989f85cf458a.alias.1",
+      "canonical": "jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-wordpress"
+    },
+    {
+      "alias": "jetpack -wordpress",
+      "aliasId": "hz.web.db3b989f85cf458a.alias.2",
+      "canonical": "jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-wordpress"
+    },
+    {
+      "alias": "web db3b989f85cf458a",
+      "aliasId": "hz.web.db3b989f85cf458a.alias.3",
+      "canonical": "jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-wordpress"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.db3b989f85cf458a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.db3b989f85cf458a.entity.1",
+      "kind": "document",
+      "name": "Jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-WordPress",
+      "tokens": [
+        "jetpack",
+        "wordpress"
+      ]
+    },
+    {
+      "entityId": "hz.web.db3b989f85cf458a.entity.2",
+      "kind": "heading",
+      "name": "Jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-WordPress",
+      "tokens": [
+        "jetpack",
+        "wordpress"
+      ]
+    },
+    {
+      "entityId": "hz.web.db3b989f85cf458a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.db3b989f85cf458a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.db3b989f85cf458a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 86,
+      "charStart": 55,
+      "factId": "hz.web.db3b989f85cf458a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://jetpack.com/he/",
+      "tokens": [
+        "source",
+        "https",
+        "jetpack",
+        "com",
+        "he"
+      ]
+    },
+    {
+      "charEnd": 508,
+      "charStart": 138,
+      "factId": "hz.web.db3b989f85cf458a.fact.1",
+      "kind": "bullet",
+      "text": "Jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-WordPress לדלג לתוכן הראשי תפריט מוצרים חזרה מוצרים יחידים אבטחה VaultPress Backup Scan Akismet Anti-spam ביצועים Site Search Boost VideoPress צמיחה Stats Social Newsletter Blaze CRM ניהול Manage אפליקציה לנייד ליצור AI Assistant Product Bundles Complete Security צמיחה תימחור שותפים תמיכה משאבים חיפוש להתחבר להתחיל יותר בטוח.",
+      "tokens": [
+        "jetpack",
+        "wordpress",
+        "vaultpress",
+        "backup",
+        "scan",
+        "akismet",
+        "anti",
+        "spam",
+        "site",
+        "search",
+        "boost",
+        "videopress",
+        "stats",
+        "social",
+        "newsletter",
+        "blaze",
+        "crm",
+        "manage",
+        "ai",
+        "assistant",
+        "product",
+        "bundles",
+        "complete",
+        "security"
+      ]
+    },
+    {
+      "charEnd": 521,
+      "charStart": 509,
+      "factId": "hz.web.db3b989f85cf458a.fact.2",
+      "kind": "bullet",
+      "text": "יותר מהיר.",
+      "tokens": []
+    },
+    {
+      "charEnd": 536,
+      "charStart": 522,
+      "factId": "hz.web.db3b989f85cf458a.fact.3",
+      "kind": "bullet",
+      "text": "יותר תעבורה.",
+      "tokens": []
+    },
+    {
+      "charEnd": 549,
+      "charStart": 537,
+      "factId": "hz.web.db3b989f85cf458a.fact.4",
+      "kind": "bullet",
+      "text": "יותר בטוח.",
+      "tokens": []
+    },
+    {
+      "charEnd": 573,
+      "charStart": 564,
+      "factId": "hz.web.db3b989f85cf458a.fact.5",
+      "kind": "bullet",
+      "text": "jetpack",
+      "tokens": [
+        "jetpack"
+      ]
+    },
+    {
+      "charEnd": 578,
+      "charStart": 574,
+      "factId": "hz.web.db3b989f85cf458a.fact.6",
+      "kind": "bullet",
+      "text": "95",
+      "tokens": [
+        "95"
+      ]
+    },
+    {
+      "charEnd": 590,
+      "charStart": 579,
+      "factId": "hz.web.db3b989f85cf458a.fact.7",
+      "kind": "bullet",
+      "text": "wordpress",
+      "tokens": [
+        "wordpress"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 591,
+      "factId": "hz.web.db3b989f85cf458a.fact.8",
+      "kind": "bullet",
+      "text": "backup",
+      "tokens": [
+        "backup"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 600,
+      "factId": "hz.web.db3b989f85cf458a.fact.9",
+      "kind": "bullet",
+      "text": "vaultpress",
+      "tokens": [
+        "vaultpress"
+      ]
+    },
+    {
+      "charEnd": 618,
+      "charStart": 613,
+      "factId": "hz.web.db3b989f85cf458a.fact.10",
+      "kind": "bullet",
+      "text": "000",
+      "tokens": [
+        "000"
+      ]
+    },
+    {
+      "charEnd": 628,
+      "charStart": 619,
+      "factId": "hz.web.db3b989f85cf458a.fact.11",
+      "kind": "bullet",
+      "text": "akismet",
+      "tokens": [
+        "akismet"
+      ]
+    },
+    {
+      "charEnd": 639,
+      "charStart": 629,
+      "factId": "hz.web.db3b989f85cf458a.fact.12",
+      "kind": "bullet",
+      "text": "security",
+      "tokens": [
+        "security"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 53,
+      "charStart": 1,
+      "headingId": "hz.web.db3b989f85cf458a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-WordPress"
+    },
+    {
+      "charEnd": 136,
+      "charStart": 126,
+      "headingId": "hz.web.db3b989f85cf458a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 562,
+      "charStart": 551,
+      "headingId": "hz.web.db3b989f85cf458a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 651,
+      "charStart": 641,
+      "headingId": "hz.web.db3b989f85cf458a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/db3b989f85cf458a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3911,
+        "start": 0
+      }
+    ],
+    "hash": "286978ddef86e0607067e11adbfa8d9720d68b1f29b68931145654f272f3d9fe",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-WordPress לדלג לתוכן הראשי תפריט מוצרים חזרה מוצרים יחידים אבטחה VaultPress Backup Scan Akismet Anti-spam ביצועים Site Search Boost VideoPress צמיחה Stats Social Newsletter Blaze CRM ניהול Manage אפליקציה לנייד ליצור AI Assistant Product Bundles Complete Security צמיחה תימחור שותפים תמיכה משאבים חיפוש להתחבר להתחיל יותר בטוח.",
+      "יותר מהיר.",
+      "יותר תעבורה."
+    ],
+    "medium": "Source: https://jetpack.com/he/",
+    "short": "Source: https://jetpack.com/he/",
+    "tokens": [
+      "jetpack",
+      "wordpress",
+      "source",
+      "https",
+      "jetpack",
+      "com",
+      "he",
+      "source",
+      "https",
+      "jetpack",
+      "com",
+      "he"
+    ]
+  },
+  "title": "Jetpack: אבטחה, גיבויים, מהירות וצמיחה ב-WordPress"
+}

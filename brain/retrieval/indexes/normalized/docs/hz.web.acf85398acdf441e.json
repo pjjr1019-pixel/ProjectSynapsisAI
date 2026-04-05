@@ -1,0 +1,330 @@
+{
+  "aliases": [
+    {
+      "alias": "acf85398acdf441e",
+      "aliasId": "hz.web.acf85398acdf441e.alias.1",
+      "canonical": "release listing - schema.org"
+    },
+    {
+      "alias": "release listing - schema.org",
+      "aliasId": "hz.web.acf85398acdf441e.alias.2",
+      "canonical": "release listing - schema.org"
+    },
+    {
+      "alias": "web acf85398acdf441e",
+      "aliasId": "hz.web.acf85398acdf441e.alias.3",
+      "canonical": "release listing - schema.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.acf85398acdf441e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.acf85398acdf441e.entity.1",
+      "kind": "document",
+      "name": "Release listing - schema.org",
+      "tokens": [
+        "release",
+        "listing",
+        "schema",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.acf85398acdf441e.entity.2",
+      "kind": "heading",
+      "name": "Release listing - schema.org",
+      "tokens": [
+        "release",
+        "listing",
+        "schema",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.acf85398acdf441e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.acf85398acdf441e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.acf85398acdf441e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 77,
+      "charStart": 33,
+      "factId": "hz.web.acf85398acdf441e.fact.1",
+      "kind": "summary",
+      "text": "Source: http://schema.org/docs/releases.html",
+      "tokens": [
+        "source",
+        "http",
+        "schema",
+        "org",
+        "docs",
+        "releases",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 222,
+      "charStart": 129,
+      "factId": "hz.web.acf85398acdf441e.fact.1",
+      "kind": "bullet",
+      "text": "Release listing - schema.org Note : You are viewing the development version of Schema.org .",
+      "tokens": [
+        "release",
+        "listing",
+        "schema",
+        "org",
+        "note",
+        "viewing",
+        "development",
+        "version",
+        "schema",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 258,
+      "charStart": 223,
+      "factId": "hz.web.acf85398acdf441e.fact.2",
+      "kind": "bullet",
+      "text": "See how we work for more details.",
+      "tokens": [
+        "see",
+        "work",
+        "more",
+        "details"
+      ]
+    },
+    {
+      "charEnd": 364,
+      "charStart": 259,
+      "factId": "hz.web.acf85398acdf441e.fact.3",
+      "kind": "bullet",
+      "text": "Schema.org Docs Schemas Validate About Releases This page lists schema.org releases, most recent first.",
+      "tokens": [
+        "schema",
+        "org",
+        "docs",
+        "schemas",
+        "validate",
+        "about",
+        "releases",
+        "page",
+        "lists",
+        "schema",
+        "org",
+        "releases",
+        "most",
+        "recent",
+        "first"
+      ]
+    },
+    {
+      "charEnd": 527,
+      "charStart": 365,
+      "factId": "hz.web.acf85398acdf441e.fact.4",
+      "kind": "bullet",
+      "text": "New developments are discussed on Github ; editorial works-in-progress are publicly staged on the staging.schema.org drafting site for review and collaboration.",
+      "tokens": [
+        "new",
+        "developments",
+        "discussed",
+        "github",
+        "editorial",
+        "works",
+        "progress",
+        "publicly",
+        "staged",
+        "staging",
+        "schema",
+        "org",
+        "drafting",
+        "site",
+        "review",
+        "collaboration"
+      ]
+    },
+    {
+      "charEnd": 546,
+      "charStart": 542,
+      "factId": "hz.web.acf85398acdf441e.fact.5",
+      "kind": "bullet",
+      "text": "pr",
+      "tokens": [
+        "pr"
+      ]
+    },
+    {
+      "charEnd": 554,
+      "charStart": 547,
+      "factId": "hz.web.acf85398acdf441e.fact.6",
+      "kind": "bullet",
+      "text": "issue",
+      "tokens": [
+        "issue"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 555,
+      "factId": "hz.web.acf85398acdf441e.fact.7",
+      "kind": "bullet",
+      "text": "add",
+      "tokens": [
+        "add"
+      ]
+    },
+    {
+      "charEnd": 566,
+      "charStart": 561,
+      "factId": "hz.web.acf85398acdf441e.fact.8",
+      "kind": "bullet",
+      "text": "new",
+      "tokens": [
+        "new"
+      ]
+    },
+    {
+      "charEnd": 574,
+      "charStart": 567,
+      "factId": "hz.web.acf85398acdf441e.fact.9",
+      "kind": "bullet",
+      "text": "added",
+      "tokens": [
+        "added"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 575,
+      "factId": "hz.web.acf85398acdf441e.fact.10",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 592,
+      "charStart": 582,
+      "factId": "hz.web.acf85398acdf441e.fact.11",
+      "kind": "bullet",
+      "text": "property",
+      "tokens": [
+        "property"
+      ]
+    },
+    {
+      "charEnd": 598,
+      "charStart": 593,
+      "factId": "hz.web.acf85398acdf441e.fact.12",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.acf85398acdf441e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Release listing - schema.org"
+    },
+    {
+      "charEnd": 127,
+      "charStart": 117,
+      "headingId": "hz.web.acf85398acdf441e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 540,
+      "charStart": 529,
+      "headingId": "hz.web.acf85398acdf441e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 610,
+      "charStart": 600,
+      "headingId": "hz.web.acf85398acdf441e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/acf85398acdf441e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3861,
+        "start": 0
+      }
+    ],
+    "hash": "0896f8e02575e43bf7c11e87ea114da9223652fe0441914af89968a789e8aeea",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Release listing - schema.org Note : You are viewing the development version of Schema.org .",
+      "See how we work for more details.",
+      "Schema.org Docs Schemas Validate About Releases This page lists schema.org releases, most recent first."
+    ],
+    "medium": "Source: http://schema.org/docs/releases.html",
+    "short": "Source: http://schema.org/docs/releases.html",
+    "tokens": [
+      "release",
+      "listing",
+      "schema",
+      "org",
+      "source",
+      "http",
+      "schema",
+      "org",
+      "docs",
+      "releases",
+      "html",
+      "source",
+      "http",
+      "schema",
+      "org",
+      "docs",
+      "releases",
+      "html"
+    ]
+  },
+  "title": "Release listing - schema.org"
+}

@@ -1,0 +1,354 @@
+{
+  "aliases": [
+    {
+      "alias": "8c49e3217de85140",
+      "aliasId": "hz.web.8c49e3217de85140.alias.1",
+      "canonical": "videopress2.wordpress.com"
+    },
+    {
+      "alias": "videopress2.wordpress.com",
+      "aliasId": "hz.web.8c49e3217de85140.alias.2",
+      "canonical": "videopress2.wordpress.com"
+    },
+    {
+      "alias": "web 8c49e3217de85140",
+      "aliasId": "hz.web.8c49e3217de85140.alias.3",
+      "canonical": "videopress2.wordpress.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.8c49e3217de85140",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8c49e3217de85140.entity.1",
+      "kind": "document",
+      "name": "videopress2.wordpress.com",
+      "tokens": [
+        "videopress2",
+        "wordpress",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.8c49e3217de85140.entity.2",
+      "kind": "heading",
+      "name": "videopress2.wordpress.com",
+      "tokens": [
+        "videopress2",
+        "wordpress",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.8c49e3217de85140.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8c49e3217de85140.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8c49e3217de85140.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 86,
+      "charStart": 30,
+      "factId": "hz.web.8c49e3217de85140.fact.1",
+      "kind": "summary",
+      "text": "Source: https://videopress2.wordpress.com/xmlrpc.php?rsd",
+      "tokens": [
+        "source",
+        "https",
+        "videopress2",
+        "wordpress",
+        "com",
+        "xmlrpc",
+        "php",
+        "rsd"
+      ]
+    },
+    {
+      "charEnd": 965,
+      "charStart": 138,
+      "factId": "hz.web.8c49e3217de85140.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rsd version=\"1.0\" xmlns=\"http://archipelago.phrasewise.com/rsd\"> <service> <engineName>WordPress</engineName> <engineLink>https://wordpress.org/</engineLink> <homePageLink>https://videopress2.wordpress.com</homePageLink> <apis> <api name=\"WordPress\" blogID=\"1\" preferred=\"true\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"Movable Type\" blogID=\"1\" preferred=\"false\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"MetaWeblog\" blogID=\"1\" preferred=\"false\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"Blogger\" blogID=\"1\" preferred=\"false\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"Twitter\" blogID=\"\" preferred=\"false\" apiLink=\"https://twitter-api.wordpress.com/\" /> </apis> </service> </rsd>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rsd",
+        "version",
+        "xmlns",
+        "http",
+        "archipelago",
+        "phrasewise",
+        "com",
+        "rsd",
+        "service",
+        "enginename",
+        "wordpress",
+        "enginename",
+        "enginelink",
+        "https",
+        "wordpress",
+        "org",
+        "enginelink",
+        "homepagelink",
+        "https",
+        "videopress2",
+        "wordpress",
+        "com",
+        "homepagelink",
+        "apis",
+        "api",
+        "name",
+        "wordpress",
+        "blogid",
+        "preferred",
+        "true",
+        "apilink",
+        "https",
+        "videopress2",
+        "wordpress",
+        "com",
+        "xmlrpc",
+        "php",
+        "api",
+        "name",
+        "movable",
+        "type",
+        "blogid",
+        "preferred",
+        "false",
+        "apilink",
+        "https",
+        "videopress2",
+        "wordpress",
+        "com",
+        "xmlrpc",
+        "php",
+        "api",
+        "name",
+        "metaweblog",
+        "blogid",
+        "preferred",
+        "false",
+        "apilink",
+        "https",
+        "videopress2",
+        "wordpress",
+        "com",
+        "xmlrpc",
+        "php",
+        "api",
+        "name",
+        "blogger",
+        "blogid",
+        "preferred",
+        "false",
+        "apilink",
+        "https",
+        "videopress2",
+        "wordpress",
+        "com",
+        "xmlrpc",
+        "php",
+        "api",
+        "name",
+        "twitter",
+        "blogid",
+        "preferred",
+        "false",
+        "apilink",
+        "https",
+        "twitter",
+        "api",
+        "wordpress",
+        "com",
+        "apis",
+        "service",
+        "rsd"
+      ]
+    },
+    {
+      "charEnd": 991,
+      "charStart": 980,
+      "factId": "hz.web.8c49e3217de85140.fact.2",
+      "kind": "bullet",
+      "text": "wordpress",
+      "tokens": [
+        "wordpress"
+      ]
+    },
+    {
+      "charEnd": 997,
+      "charStart": 992,
+      "factId": "hz.web.8c49e3217de85140.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1005,
+      "charStart": 998,
+      "factId": "hz.web.8c49e3217de85140.fact.4",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1011,
+      "charStart": 1006,
+      "factId": "hz.web.8c49e3217de85140.fact.5",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 1021,
+      "charStart": 1012,
+      "factId": "hz.web.8c49e3217de85140.fact.6",
+      "kind": "bullet",
+      "text": "apilink",
+      "tokens": [
+        "apilink"
+      ]
+    },
+    {
+      "charEnd": 1030,
+      "charStart": 1022,
+      "factId": "hz.web.8c49e3217de85140.fact.7",
+      "kind": "bullet",
+      "text": "blogid",
+      "tokens": [
+        "blogid"
+      ]
+    },
+    {
+      "charEnd": 1037,
+      "charStart": 1031,
+      "factId": "hz.web.8c49e3217de85140.fact.8",
+      "kind": "bullet",
+      "text": "name",
+      "tokens": [
+        "name"
+      ]
+    },
+    {
+      "charEnd": 1049,
+      "charStart": 1038,
+      "factId": "hz.web.8c49e3217de85140.fact.9",
+      "kind": "bullet",
+      "text": "preferred",
+      "tokens": [
+        "preferred"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.8c49e3217de85140.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "videopress2.wordpress.com"
+    },
+    {
+      "charEnd": 136,
+      "charStart": 126,
+      "headingId": "hz.web.8c49e3217de85140.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 978,
+      "charStart": 967,
+      "headingId": "hz.web.8c49e3217de85140.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1061,
+      "charStart": 1051,
+      "headingId": "hz.web.8c49e3217de85140.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/8c49e3217de85140.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2146,
+        "start": 0
+      }
+    ],
+    "hash": "0298811ad61d4d5a91f54a7a9b7bc1be447230910204359e71b1e323d59f2854",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rsd version=\"1.0\" xmlns=\"http://archipelago.phrasewise.com/rsd\"> <service> <engineName>WordPress</engineName> <engineLink>https://wordpress.org/</engineLink> <homePageLink>https://videopress2.wordpress.com</homePageLink> <apis> <api name=\"WordPress\" blogID=\"1\" preferred=\"true\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"Movable Type\" blogID=\"1\" preferred=\"false\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"MetaWeblog\" blogID=\"1\" preferred=\"false\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"Blogger\" blogID=\"1\" preferred=\"false\" apiLink=\"https://videopress2.wordpress.com/xmlrpc.php\" /> <api name=\"Twitter\" blogID=\"\" preferred=\"false\" apiLink=\"https://twitter-api.wordpress.com/\" /> </apis> </service> </rsd>",
+      "wordpress",
+      "com"
+    ],
+    "medium": "Source: https://videopress2.wordpress.com/xmlrpc.php?rsd",
+    "short": "Source: https://videopress2.wordpress.com/xmlrpc.php?rsd",
+    "tokens": [
+      "videopress2",
+      "wordpress",
+      "com",
+      "source",
+      "https",
+      "videopress2",
+      "wordpress",
+      "com",
+      "xmlrpc",
+      "php",
+      "rsd",
+      "source",
+      "https",
+      "videopress2",
+      "wordpress",
+      "com",
+      "xmlrpc",
+      "php",
+      "rsd"
+    ]
+  },
+  "title": "videopress2.wordpress.com"
+}

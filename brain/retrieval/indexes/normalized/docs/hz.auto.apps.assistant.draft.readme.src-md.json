@@ -1,0 +1,134 @@
+{
+  "aliases": [
+    {
+      "alias": "assistant draft",
+      "aliasId": "hz.auto.apps.assistant.draft.readme.src-md.alias.1",
+      "canonical": "assistant — draft"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.assistant.draft.readme.src-md",
+  "domain": "assistant",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.assistant.draft.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Assistant — draft",
+      "tokens": [
+        "assistant",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.assistant.draft.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Assistant — draft",
+      "tokens": [
+        "assistant",
+        "draft"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 187,
+      "charStart": 23,
+      "factId": "hz.auto.apps.assistant.draft.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "Work-in-progress knowledge. **Not** loaded for production retrieval unless `allowDraft` is enabled. Promote to `../canonical/` per `brain/_meta/expansion-rules.md`.",
+      "tokens": [
+        "work",
+        "progress",
+        "knowledge",
+        "not",
+        "loaded",
+        "production",
+        "retrieval",
+        "unless",
+        "allowdraft",
+        "enabled",
+        "promote",
+        "canonical",
+        "per",
+        "brain",
+        "_meta",
+        "expansion",
+        "rules",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.assistant.draft.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Assistant — draft"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/assistant/draft/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 189,
+        "start": 0
+      }
+    ],
+    "hash": "5c0f8a83a46a0f599dbb48ebac1d4dcf1cd00b49ec9f905031d3d2377b9a4bff",
+    "sourceType": "draft"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "Work-in-progress knowledge. **Not** loaded for production retrieval unless `allowDraft` is enabled. Promote to `../canonical/` per `brain/_meta/expansion-rules.md`.",
+    "short": "Work-in-progress knowledge. **Not** loaded for production retrieval unless `allowDraft` is enabled. Promote to `../canonical/` per `brain/_meta/expansion-rules.md`.",
+    "tokens": [
+      "assistant",
+      "draft",
+      "work",
+      "progress",
+      "knowledge",
+      "not",
+      "loaded",
+      "production",
+      "retrieval",
+      "unless",
+      "allowdraft",
+      "enabled",
+      "promote",
+      "canonical",
+      "per",
+      "brain",
+      "_meta",
+      "expansion",
+      "rules",
+      "md",
+      "work",
+      "progress",
+      "knowledge",
+      "not",
+      "loaded",
+      "production",
+      "retrieval",
+      "unless",
+      "allowdraft",
+      "enabled",
+      "promote",
+      "canonical",
+      "per",
+      "brain",
+      "_meta",
+      "expansion",
+      "rules",
+      "md"
+    ]
+  },
+  "title": "Assistant — draft"
+}

@@ -1,0 +1,376 @@
+{
+  "aliases": [
+    {
+      "alias": "1822af3018e24670",
+      "aliasId": "hz.web.1822af3018e24670.alias.1",
+      "canonical": "tickets | august 12 &amp; 13, 2026"
+    },
+    {
+      "alias": "tickets august 12 amp 13 2026",
+      "aliasId": "hz.web.1822af3018e24670.alias.2",
+      "canonical": "tickets | august 12 &amp; 13, 2026"
+    },
+    {
+      "alias": "web 1822af3018e24670",
+      "aliasId": "hz.web.1822af3018e24670.alias.3",
+      "canonical": "tickets | august 12 &amp; 13, 2026"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.74,
+  "docId": "hz.web.1822af3018e24670",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1822af3018e24670.entity.1",
+      "kind": "document",
+      "name": "Tickets | August 12 &amp; 13, 2026",
+      "tokens": [
+        "tickets",
+        "august",
+        "12",
+        "amp",
+        "13",
+        "2026"
+      ]
+    },
+    {
+      "entityId": "hz.web.1822af3018e24670.entity.2",
+      "kind": "heading",
+      "name": "Tickets | August 12 &amp; 13, 2026",
+      "tokens": [
+        "tickets",
+        "august",
+        "12",
+        "amp",
+        "13",
+        "2026"
+      ]
+    },
+    {
+      "entityId": "hz.web.1822af3018e24670.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1822af3018e24670.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1822af3018e24670.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 80,
+      "charStart": 39,
+      "factId": "hz.web.1822af3018e24670.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.renderatl.com/tickets",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "renderatl",
+        "com",
+        "tickets"
+      ]
+    },
+    {
+      "charEnd": 423,
+      "charStart": 132,
+      "factId": "hz.web.1822af3018e24670.fact.1",
+      "kind": "bullet",
+      "text": "Tickets | August 12 & 13, 2026 📍 Conference venue: 230 John Portman Blvd NW Building 2, Atlanta, GA 30303 subscribe Past Speakers Agenda Summits & Concert Sponsors Community & Resources ★ Get tickets ★ Render 2026 Tickets What&#x27;s Included Your ticket includes more than just sessions.",
+      "tokens": [
+        "tickets",
+        "august",
+        "12",
+        "13",
+        "2026",
+        "conference",
+        "venue",
+        "230",
+        "john",
+        "portman",
+        "blvd",
+        "nw",
+        "building",
+        "atlanta",
+        "ga",
+        "30303",
+        "subscribe",
+        "past",
+        "speakers",
+        "agenda",
+        "summits",
+        "concert",
+        "sponsors",
+        "community",
+        "resources",
+        "get",
+        "tickets",
+        "render",
+        "2026",
+        "tickets",
+        "x27",
+        "included",
+        "your",
+        "ticket",
+        "includes",
+        "more",
+        "than",
+        "just",
+        "sessions"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 424,
+      "factId": "hz.web.1822af3018e24670.fact.2",
+      "kind": "bullet",
+      "text": "Check out everything you&#x27;re getting: All days with access to all conference programming.",
+      "tokens": [
+        "check",
+        "out",
+        "everything",
+        "x27",
+        "re",
+        "getting",
+        "all",
+        "days",
+        "access",
+        "all",
+        "conference",
+        "programming"
+      ]
+    },
+    {
+      "charEnd": 740,
+      "charStart": 520,
+      "factId": "hz.web.1822af3018e24670.fact.3",
+      "kind": "bullet",
+      "text": "Access to the interactive product exhibition hall & career expo Admission to official RenderATL Side Events New for 2026 - Access to the OpenJS Summit at RenderATL New for 2026 - Admission to the Atlanta Tech Week A.I.",
+      "tokens": [
+        "access",
+        "interactive",
+        "product",
+        "exhibition",
+        "hall",
+        "career",
+        "expo",
+        "admission",
+        "official",
+        "renderatl",
+        "side",
+        "events",
+        "new",
+        "2026",
+        "access",
+        "openjs",
+        "summit",
+        "renderatl",
+        "new",
+        "2026",
+        "admission",
+        "atlanta",
+        "tech",
+        "week"
+      ]
+    },
+    {
+      "charEnd": 857,
+      "charStart": 741,
+      "factId": "hz.web.1822af3018e24670.fact.4",
+      "kind": "bullet",
+      "text": "Summit New for 2026 - RenderFEST (music concert) access is included for all attendees And MORE listed at checkout.",
+      "tokens": [
+        "summit",
+        "new",
+        "2026",
+        "renderfest",
+        "music",
+        "concert",
+        "access",
+        "included",
+        "all",
+        "attendees",
+        "more",
+        "listed",
+        "checkout"
+      ]
+    },
+    {
+      "charEnd": 881,
+      "charStart": 872,
+      "factId": "hz.web.1822af3018e24670.fact.5",
+      "kind": "bullet",
+      "text": "tickets",
+      "tokens": [
+        "tickets"
+      ]
+    },
+    {
+      "charEnd": 888,
+      "charStart": 882,
+      "factId": "hz.web.1822af3018e24670.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 897,
+      "charStart": 889,
+      "factId": "hz.web.1822af3018e24670.fact.7",
+      "kind": "bullet",
+      "text": "access",
+      "tokens": [
+        "access"
+      ]
+    },
+    {
+      "charEnd": 906,
+      "charStart": 898,
+      "factId": "hz.web.1822af3018e24670.fact.8",
+      "kind": "bullet",
+      "text": "ticket",
+      "tokens": [
+        "ticket"
+      ]
+    },
+    {
+      "charEnd": 918,
+      "charStart": 907,
+      "factId": "hz.web.1822af3018e24670.fact.9",
+      "kind": "bullet",
+      "text": "renderatl",
+      "tokens": [
+        "renderatl"
+      ]
+    },
+    {
+      "charEnd": 925,
+      "charStart": 919,
+      "factId": "hz.web.1822af3018e24670.fact.10",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 931,
+      "charStart": 926,
+      "factId": "hz.web.1822af3018e24670.fact.11",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 944,
+      "charStart": 932,
+      "factId": "hz.web.1822af3018e24670.fact.12",
+      "kind": "bullet",
+      "text": "conference",
+      "tokens": [
+        "conference"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 37,
+      "charStart": 1,
+      "headingId": "hz.web.1822af3018e24670.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Tickets | August 12 &amp; 13, 2026"
+    },
+    {
+      "charEnd": 130,
+      "charStart": 120,
+      "headingId": "hz.web.1822af3018e24670.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 870,
+      "charStart": 859,
+      "headingId": "hz.web.1822af3018e24670.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 956,
+      "charStart": 946,
+      "headingId": "hz.web.1822af3018e24670.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/1822af3018e24670.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2648,
+        "start": 0
+      }
+    ],
+    "hash": "29311d620aea0fbc457179cb6bb6ef98ec4376e127483731fc693ffac87d3363",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Tickets | August 12 & 13, 2026 📍 Conference venue: 230 John Portman Blvd NW Building 2, Atlanta, GA 30303 subscribe Past Speakers Agenda Summits & Concert Sponsors Community & Resources ★ Get tickets ★ Render 2026 Tickets What&#x27;s Included Your ticket includes more than just sessions.",
+      "Check out everything you&#x27;re getting: All days with access to all conference programming.",
+      "Access to the interactive product exhibition hall & career expo Admission to official RenderATL Side Events New for 2026 - Access to the OpenJS Summit at RenderATL New for 2026 - Admission to the Atlanta Tech Week A.I."
+    ],
+    "medium": "Source: https://www.renderatl.com/tickets",
+    "short": "Source: https://www.renderatl.com/tickets",
+    "tokens": [
+      "tickets",
+      "august",
+      "12",
+      "amp",
+      "13",
+      "2026",
+      "source",
+      "https",
+      "www",
+      "renderatl",
+      "com",
+      "tickets",
+      "source",
+      "https",
+      "www",
+      "renderatl",
+      "com",
+      "tickets"
+    ]
+  },
+  "title": "Tickets | August 12 &amp; 13, 2026"
+}

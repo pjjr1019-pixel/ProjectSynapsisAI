@@ -1,0 +1,358 @@
+{
+  "aliases": [
+    {
+      "alias": "151c4cf94e380870",
+      "aliasId": "hz.web.151c4cf94e380870.alias.1",
+      "canonical": "www.krogerprecisionmarketing.com"
+    },
+    {
+      "alias": "web 151c4cf94e380870",
+      "aliasId": "hz.web.151c4cf94e380870.alias.2",
+      "canonical": "www.krogerprecisionmarketing.com"
+    },
+    {
+      "alias": "www.krogerprecisionmarketing.com",
+      "aliasId": "hz.web.151c4cf94e380870.alias.3",
+      "canonical": "www.krogerprecisionmarketing.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.151c4cf94e380870",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.151c4cf94e380870.entity.1",
+      "kind": "document",
+      "name": "www.krogerprecisionmarketing.com",
+      "tokens": [
+        "www",
+        "krogerprecisionmarketing",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.151c4cf94e380870.entity.2",
+      "kind": "heading",
+      "name": "www.krogerprecisionmarketing.com",
+      "tokens": [
+        "www",
+        "krogerprecisionmarketing",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.151c4cf94e380870.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.151c4cf94e380870.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.151c4cf94e380870.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 106,
+      "charStart": 37,
+      "factId": "hz.web.151c4cf94e380870.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.krogerprecisionmarketing.com/manifest.webmanifest",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "krogerprecisionmarketing",
+        "com",
+        "manifest",
+        "webmanifest"
+      ]
+    },
+    {
+      "charEnd": 1144,
+      "charStart": 158,
+      "factId": "hz.web.151c4cf94e380870.fact.1",
+      "kind": "bullet",
+      "text": "{\"name\":\"gatsby-starter-ample\",\"short_name\":\"starter\",\"start_url\":\"/\",\"background_color\":\"#0095df\",\"theme_color\":\"#0095df\",\"display\":\"minimal-ui\",\"icons\":[{\"src\":\"icons/icon-48x48.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"48x48\",\"type\":\"image/png\"},{\"src\":\"icons/icon-72x72.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"72x72\",\"type\":\"image/png\"},{\"src\":\"icons/icon-96x96.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"96x96\",\"type\":\"image/png\"},{\"src\":\"icons/icon-144x144.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"144x144\",\"type\":\"image/png\"},{\"src\":\"icons/icon-192x192.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"192x192\",\"type\":\"image/png\"},{\"src\":\"icons/icon-256x256.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"256x256\",\"type\":\"image/png\"},{\"src\":\"icons/icon-384x384.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"384x384\",\"type\":\"image/png\"},{\"src\":\"icons/icon-512x512.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"512x512\",\"type\":\"image/png\"}]}",
+      "tokens": [
+        "name",
+        "gatsby",
+        "starter",
+        "ample",
+        "short_name",
+        "starter",
+        "start_url",
+        "background_color",
+        "0095df",
+        "theme_color",
+        "0095df",
+        "display",
+        "minimal",
+        "ui",
+        "icons",
+        "src",
+        "icons",
+        "icon",
+        "48x48",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "48x48",
+        "type",
+        "image",
+        "png",
+        "src",
+        "icons",
+        "icon",
+        "72x72",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "72x72",
+        "type",
+        "image",
+        "png",
+        "src",
+        "icons",
+        "icon",
+        "96x96",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "96x96",
+        "type",
+        "image",
+        "png",
+        "src",
+        "icons",
+        "icon",
+        "144x144",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "144x144",
+        "type",
+        "image",
+        "png",
+        "src",
+        "icons",
+        "icon",
+        "192x192",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "src",
+        "icons",
+        "icon",
+        "256x256",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "256x256",
+        "type",
+        "image",
+        "png",
+        "src",
+        "icons",
+        "icon",
+        "384x384",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "384x384",
+        "type",
+        "image",
+        "png",
+        "src",
+        "icons",
+        "icon",
+        "512x512",
+        "png",
+        "ec6ff10155aae75061ef026e561ace99",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 1164,
+      "charStart": 1159,
+      "factId": "hz.web.151c4cf94e380870.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 1172,
+      "charStart": 1165,
+      "factId": "hz.web.151c4cf94e380870.fact.3",
+      "kind": "bullet",
+      "text": "icons",
+      "tokens": [
+        "icons"
+      ]
+    },
+    {
+      "charEnd": 1207,
+      "charStart": 1173,
+      "factId": "hz.web.151c4cf94e380870.fact.4",
+      "kind": "bullet",
+      "text": "ec6ff10155aae75061ef026e561ace99",
+      "tokens": [
+        "ec6ff10155aae75061ef026e561ace99"
+      ]
+    },
+    {
+      "charEnd": 1214,
+      "charStart": 1208,
+      "factId": "hz.web.151c4cf94e380870.fact.5",
+      "kind": "bullet",
+      "text": "icon",
+      "tokens": [
+        "icon"
+      ]
+    },
+    {
+      "charEnd": 1222,
+      "charStart": 1215,
+      "factId": "hz.web.151c4cf94e380870.fact.6",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 1230,
+      "charStart": 1223,
+      "factId": "hz.web.151c4cf94e380870.fact.7",
+      "kind": "bullet",
+      "text": "sizes",
+      "tokens": [
+        "sizes"
+      ]
+    },
+    {
+      "charEnd": 1236,
+      "charStart": 1231,
+      "factId": "hz.web.151c4cf94e380870.fact.8",
+      "kind": "bullet",
+      "text": "src",
+      "tokens": [
+        "src"
+      ]
+    },
+    {
+      "charEnd": 1243,
+      "charStart": 1237,
+      "factId": "hz.web.151c4cf94e380870.fact.9",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.151c4cf94e380870.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.krogerprecisionmarketing.com"
+    },
+    {
+      "charEnd": 156,
+      "charStart": 146,
+      "headingId": "hz.web.151c4cf94e380870.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1157,
+      "charStart": 1146,
+      "headingId": "hz.web.151c4cf94e380870.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1255,
+      "charStart": 1245,
+      "headingId": "hz.web.151c4cf94e380870.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/151c4cf94e380870.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2519,
+        "start": 0
+      }
+    ],
+    "hash": "1c7873487b83b47211b3b2e35cef08909d6362c36f7ff9457472ddafa473e86c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"name\":\"gatsby-starter-ample\",\"short_name\":\"starter\",\"start_url\":\"/\",\"background_color\":\"#0095df\",\"theme_color\":\"#0095df\",\"display\":\"minimal-ui\",\"icons\":[{\"src\":\"icons/icon-48x48.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"48x48\",\"type\":\"image/png\"},{\"src\":\"icons/icon-72x72.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"72x72\",\"type\":\"image/png\"},{\"src\":\"icons/icon-96x96.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"96x96\",\"type\":\"image/png\"},{\"src\":\"icons/icon-144x144.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"144x144\",\"type\":\"image/png\"},{\"src\":\"icons/icon-192x192.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"192x192\",\"type\":\"image/png\"},{\"src\":\"icons/icon-256x256.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"256x256\",\"type\":\"image/png\"},{\"src\":\"icons/icon-384x384.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"384x384\",\"type\":\"image/png\"},{\"src\":\"icons/icon-512x512.png?v=ec6ff10155aae75061ef026e561ace99\",\"sizes\":\"512x512\",\"type\":\"image/png\"}]}",
+      "png",
+      "icons"
+    ],
+    "medium": "Source: https://www.krogerprecisionmarketing.com/manifest.webmanifest",
+    "short": "Source: https://www.krogerprecisionmarketing.com/manifest.webmanifest",
+    "tokens": [
+      "www",
+      "krogerprecisionmarketing",
+      "com",
+      "source",
+      "https",
+      "www",
+      "krogerprecisionmarketing",
+      "com",
+      "manifest",
+      "webmanifest",
+      "source",
+      "https",
+      "www",
+      "krogerprecisionmarketing",
+      "com",
+      "manifest",
+      "webmanifest"
+    ]
+  },
+  "title": "www.krogerprecisionmarketing.com"
+}

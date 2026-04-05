@@ -1,0 +1,290 @@
+{
+  "aliases": [
+    {
+      "alias": "browse happy",
+      "aliasId": "hz.web.dee9597b7e448ee0.alias.1",
+      "canonical": "browse happy"
+    },
+    {
+      "alias": "dee9597b7e448ee0",
+      "aliasId": "hz.web.dee9597b7e448ee0.alias.2",
+      "canonical": "browse happy"
+    },
+    {
+      "alias": "web dee9597b7e448ee0",
+      "aliasId": "hz.web.dee9597b7e448ee0.alias.3",
+      "canonical": "browse happy"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.dee9597b7e448ee0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.dee9597b7e448ee0.entity.1",
+      "kind": "document",
+      "name": "Browse Happy",
+      "tokens": [
+        "browse",
+        "happy"
+      ]
+    },
+    {
+      "entityId": "hz.web.dee9597b7e448ee0.entity.2",
+      "kind": "heading",
+      "name": "Browse Happy",
+      "tokens": [
+        "browse",
+        "happy"
+      ]
+    },
+    {
+      "entityId": "hz.web.dee9597b7e448ee0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.dee9597b7e448ee0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.dee9597b7e448ee0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 49,
+      "charStart": 17,
+      "factId": "hz.web.dee9597b7e448ee0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://browsehappy.com/",
+      "tokens": [
+        "source",
+        "https",
+        "browsehappy",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 136,
+      "charStart": 101,
+      "factId": "hz.web.dee9597b7e448ee0.fact.1",
+      "kind": "bullet",
+      "text": "Browse Happy Browse Happy Online.",
+      "tokens": [
+        "browse",
+        "happy",
+        "browse",
+        "happy",
+        "online"
+      ]
+    },
+    {
+      "charEnd": 150,
+      "charStart": 137,
+      "factId": "hz.web.dee9597b7e448ee0.fact.2",
+      "kind": "bullet",
+      "text": "Worry-free.",
+      "tokens": [
+        "worry",
+        "free"
+      ]
+    },
+    {
+      "charEnd": 181,
+      "charStart": 151,
+      "factId": "hz.web.dee9597b7e448ee0.fact.3",
+      "kind": "bullet",
+      "text": "Upgrade your browser today !",
+      "tokens": [
+        "upgrade",
+        "your",
+        "browser",
+        "today"
+      ]
+    },
+    {
+      "charEnd": 246,
+      "charStart": 182,
+      "factId": "hz.web.dee9597b7e448ee0.fact.4",
+      "kind": "bullet",
+      "text": "Google Chrome &#8220;Get more done with the new Google Chrome.",
+      "tokens": [
+        "google",
+        "chrome",
+        "8220",
+        "get",
+        "more",
+        "done",
+        "new",
+        "google",
+        "chrome"
+      ]
+    },
+    {
+      "charEnd": 267,
+      "charStart": 261,
+      "factId": "hz.web.dee9597b7e448ee0.fact.5",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 276,
+      "charStart": 268,
+      "factId": "hz.web.dee9597b7e448ee0.fact.6",
+      "kind": "bullet",
+      "text": "latest",
+      "tokens": [
+        "latest"
+      ]
+    },
+    {
+      "charEnd": 283,
+      "charStart": 277,
+      "factId": "hz.web.dee9597b7e448ee0.fact.7",
+      "kind": "bullet",
+      "text": "8220",
+      "tokens": [
+        "8220"
+      ]
+    },
+    {
+      "charEnd": 290,
+      "charStart": 284,
+      "factId": "hz.web.dee9597b7e448ee0.fact.8",
+      "kind": "bullet",
+      "text": "8221",
+      "tokens": [
+        "8221"
+      ]
+    },
+    {
+      "charEnd": 300,
+      "charStart": 291,
+      "factId": "hz.web.dee9597b7e448ee0.fact.9",
+      "kind": "bullet",
+      "text": "browser",
+      "tokens": [
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 307,
+      "charStart": 301,
+      "factId": "hz.web.dee9597b7e448ee0.fact.10",
+      "kind": "bullet",
+      "text": "info",
+      "tokens": [
+        "info"
+      ]
+    },
+    {
+      "charEnd": 317,
+      "charStart": 308,
+      "factId": "hz.web.dee9597b7e448ee0.fact.11",
+      "kind": "bullet",
+      "text": "version",
+      "tokens": [
+        "version"
+      ]
+    },
+    {
+      "charEnd": 325,
+      "charStart": 318,
+      "factId": "hz.web.dee9597b7e448ee0.fact.12",
+      "kind": "bullet",
+      "text": "visit",
+      "tokens": [
+        "visit"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.dee9597b7e448ee0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Browse Happy"
+    },
+    {
+      "charEnd": 99,
+      "charStart": 89,
+      "headingId": "hz.web.dee9597b7e448ee0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 259,
+      "charStart": 248,
+      "headingId": "hz.web.dee9597b7e448ee0.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 337,
+      "charStart": 327,
+      "headingId": "hz.web.dee9597b7e448ee0.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/dee9597b7e448ee0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2055,
+        "start": 0
+      }
+    ],
+    "hash": "567191518e440eee72c1d2da88a2787aa79008e2f2d23b097735b58543054713",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Browse Happy Browse Happy Online.",
+      "Worry-free.",
+      "Upgrade your browser today !"
+    ],
+    "medium": "Source: https://browsehappy.com/",
+    "short": "Source: https://browsehappy.com/",
+    "tokens": [
+      "browse",
+      "happy",
+      "source",
+      "https",
+      "browsehappy",
+      "com",
+      "source",
+      "https",
+      "browsehappy",
+      "com"
+    ]
+  },
+  "title": "Browse Happy"
+}

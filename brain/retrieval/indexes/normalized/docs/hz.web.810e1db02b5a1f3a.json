@@ -1,0 +1,547 @@
+{
+  "aliases": [
+    {
+      "alias": "810e1db02b5a1f3a",
+      "aliasId": "hz.web.810e1db02b5a1f3a.alias.1",
+      "canonical": "ifttt explore"
+    },
+    {
+      "alias": "ifttt explore",
+      "aliasId": "hz.web.810e1db02b5a1f3a.alias.2",
+      "canonical": "ifttt explore"
+    },
+    {
+      "alias": "web 810e1db02b5a1f3a",
+      "aliasId": "hz.web.810e1db02b5a1f3a.alias.3",
+      "canonical": "ifttt explore"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.810e1db02b5a1f3a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.810e1db02b5a1f3a.entity.1",
+      "kind": "document",
+      "name": "IFTTT Explore",
+      "tokens": [
+        "ifttt",
+        "explore"
+      ]
+    },
+    {
+      "entityId": "hz.web.810e1db02b5a1f3a.entity.2",
+      "kind": "heading",
+      "name": "IFTTT Explore",
+      "tokens": [
+        "ifttt",
+        "explore"
+      ]
+    },
+    {
+      "entityId": "hz.web.810e1db02b5a1f3a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.810e1db02b5a1f3a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.810e1db02b5a1f3a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 18,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://ifttt.com/stories.rss",
+      "tokens": [
+        "source",
+        "https",
+        "ifttt",
+        "com",
+        "stories",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 107,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\"> <channel> <title>IFTTT Explore</title> <description>See what’s new on IFTTT</description> <link>https://ifttt.com/explore</link> <atom:link rel=\"self\" type=\"application/rss+xml\" href=\"https://ifttt.com/stories.rss\"/> <item> <title>Wyze cameras, lights, and action</title> <description>Wyze is an extremely popular smart home brand for their modern and sleek appearance, accessible pricing, and the broad spectrum of devices on their site.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "media",
+        "http",
+        "search",
+        "yahoo",
+        "com",
+        "mrss",
+        "channel",
+        "title",
+        "ifttt",
+        "explore",
+        "title",
+        "description",
+        "see",
+        "new",
+        "ifttt",
+        "description",
+        "link",
+        "https",
+        "ifttt",
+        "com",
+        "explore",
+        "link",
+        "atom",
+        "link",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "href",
+        "https",
+        "ifttt",
+        "com",
+        "stories",
+        "rss",
+        "item",
+        "title",
+        "wyze",
+        "cameras",
+        "lights",
+        "action",
+        "title",
+        "description",
+        "wyze",
+        "extremely",
+        "popular",
+        "smart",
+        "home",
+        "brand",
+        "their",
+        "modern",
+        "sleek",
+        "appearance",
+        "accessible",
+        "pricing",
+        "broad",
+        "spectrum",
+        "devices",
+        "their",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 1371,
+      "charStart": 692,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.2",
+      "kind": "bullet",
+      "text": "From home monitoring, health accessories, and other smart home solutions, Wyze can be a one-stop shop for some.</description> <category>Smart home</category> <media:content url=\"https://images.ctfassets.net/mrsnpomeucef/6IJbXsgbW36yTC17X3KQN1/c1dc6fd72502e74aa006aaca244bf91f/Wyze_see_100_000_customer_connections_with_IFTTT_Header.jpg?w=720&amp;h=360\" medium=\"image\"/> <link>https://ifttt.com/explore/what-you-can-do-with-wyze</link> <guid>https://ifttt.com/explore/what-you-can-do-with-wyze</guid> </item> <item> <title>How an IFTTTer is automating their project management</title> <description>IFTTT can now help teams and businesses alike automate their project management.",
+      "tokens": [
+        "home",
+        "monitoring",
+        "health",
+        "accessories",
+        "other",
+        "smart",
+        "home",
+        "solutions",
+        "wyze",
+        "one",
+        "stop",
+        "shop",
+        "some",
+        "description",
+        "category",
+        "smart",
+        "home",
+        "category",
+        "media",
+        "content",
+        "url",
+        "https",
+        "images",
+        "ctfassets",
+        "net",
+        "mrsnpomeucef",
+        "6ijbxsgbw36ytc17x3kqn1",
+        "c1dc6fd72502e74aa006aaca244bf91f",
+        "wyze_see_100_000_customer_connections_with_ifttt_header",
+        "jpg",
+        "720",
+        "amp",
+        "360",
+        "medium",
+        "image",
+        "link",
+        "https",
+        "ifttt",
+        "com",
+        "explore",
+        "wyze",
+        "link",
+        "guid",
+        "https",
+        "ifttt",
+        "com",
+        "explore",
+        "wyze",
+        "guid",
+        "item",
+        "item",
+        "title",
+        "ifttter",
+        "automating",
+        "their",
+        "project",
+        "management",
+        "title",
+        "description",
+        "ifttt",
+        "now",
+        "help",
+        "teams",
+        "businesses",
+        "alike",
+        "automate",
+        "their",
+        "project",
+        "management"
+      ]
+    },
+    {
+      "charEnd": 1881,
+      "charStart": 1372,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.3",
+      "kind": "bullet",
+      "text": "Click to learn more!</description> <category>Popular</category> <media:content url=\"https://images.ctfassets.net/mrsnpomeucef/6FYmnjqcTzL5enICIS1Y7k/f7b7f2871ceb2a9f8c6418286cf84372/project-management.webp?w=720&amp;h=360\" medium=\"image\"/> <link>https://ifttt.com/explore/how-to-automate-project-management</link> <guid>https://ifttt.com/explore/how-to-automate-project-management</guid> </item> <item> <title>Introducing the AI Applet maker</title> <description>Create custom Applets with natural language.",
+      "tokens": [
+        "click",
+        "learn",
+        "more",
+        "description",
+        "category",
+        "popular",
+        "category",
+        "media",
+        "content",
+        "url",
+        "https",
+        "images",
+        "ctfassets",
+        "net",
+        "mrsnpomeucef",
+        "6fymnjqctzl5enicis1y7k",
+        "f7b7f2871ceb2a9f8c6418286cf84372",
+        "project",
+        "management",
+        "webp",
+        "720",
+        "amp",
+        "360",
+        "medium",
+        "image",
+        "link",
+        "https",
+        "ifttt",
+        "com",
+        "explore",
+        "automate",
+        "project",
+        "management",
+        "link",
+        "guid",
+        "https",
+        "ifttt",
+        "com",
+        "explore",
+        "automate",
+        "project",
+        "management",
+        "guid",
+        "item",
+        "item",
+        "title",
+        "introducing",
+        "ai",
+        "applet",
+        "maker",
+        "title",
+        "description",
+        "create",
+        "custom",
+        "applets",
+        "natural",
+        "language"
+      ]
+    },
+    {
+      "charEnd": 2468,
+      "charStart": 1882,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.4",
+      "kind": "bullet",
+      "text": "Try out the AI Applet maker today!</description> <category>Popular</category> <media:content url=\"https://images.ctfassets.net/mrsnpomeucef/5enhNPK59xnlYozHqgTWeh/e99d49b710bdf884887b667de8f3012a/applet-maker.webp?w=720&amp;h=360\" medium=\"image\"/> <link>https://ifttt.com/explore/introducing-ai-applet-maker</link> <guid>https://ifttt.com/explore/introducing-ai-applet-maker</guid> </item> <item> <title>Go green with automation: Earth Day 2025</title> <description>At IFTTT, we believe that technology can be a powerful tool to support and streamline your sustainability initiatives.",
+      "tokens": [
+        "try",
+        "out",
+        "ai",
+        "applet",
+        "maker",
+        "today",
+        "description",
+        "category",
+        "popular",
+        "category",
+        "media",
+        "content",
+        "url",
+        "https",
+        "images",
+        "ctfassets",
+        "net",
+        "mrsnpomeucef",
+        "5enhnpk59xnlyozhqgtweh",
+        "e99d49b710bdf884887b667de8f3012a",
+        "applet",
+        "maker",
+        "webp",
+        "720",
+        "amp",
+        "360",
+        "medium",
+        "image",
+        "link",
+        "https",
+        "ifttt",
+        "com",
+        "explore",
+        "introducing",
+        "ai",
+        "applet",
+        "maker",
+        "link",
+        "guid",
+        "https",
+        "ifttt",
+        "com",
+        "explore",
+        "introducing",
+        "ai",
+        "applet",
+        "maker",
+        "guid",
+        "item",
+        "item",
+        "title",
+        "go",
+        "green",
+        "automation",
+        "earth",
+        "day",
+        "2025",
+        "title",
+        "description",
+        "ifttt",
+        "believe",
+        "technology",
+        "powerful",
+        "tool",
+        "support",
+        "streamline",
+        "your",
+        "sustainability",
+        "initiatives"
+      ]
+    },
+    {
+      "charEnd": 2490,
+      "charStart": 2483,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.5",
+      "kind": "bullet",
+      "text": "ifttt",
+      "tokens": [
+        "ifttt"
+      ]
+    },
+    {
+      "charEnd": 2498,
+      "charStart": 2491,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 2504,
+      "charStart": 2499,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 2514,
+      "charStart": 2505,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.8",
+      "kind": "bullet",
+      "text": "explore",
+      "tokens": [
+        "explore"
+      ]
+    },
+    {
+      "charEnd": 2521,
+      "charStart": 2515,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.9",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 2529,
+      "charStart": 2522,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.10",
+      "kind": "bullet",
+      "text": "title",
+      "tokens": [
+        "title"
+      ]
+    },
+    {
+      "charEnd": 2540,
+      "charStart": 2530,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.11",
+      "kind": "bullet",
+      "text": "category",
+      "tokens": [
+        "category"
+      ]
+    },
+    {
+      "charEnd": 2554,
+      "charStart": 2541,
+      "factId": "hz.web.810e1db02b5a1f3a.fact.12",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.810e1db02b5a1f3a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IFTTT Explore"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.810e1db02b5a1f3a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2481,
+      "charStart": 2470,
+      "headingId": "hz.web.810e1db02b5a1f3a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2566,
+      "charStart": 2556,
+      "headingId": "hz.web.810e1db02b5a1f3a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/810e1db02b5a1f3a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5795,
+        "start": 0
+      }
+    ],
+    "hash": "47f8b38e8b35f4e402bc4399fae569799655a9debf6fb498e8515ef6cf10a2cd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\"> <channel> <title>IFTTT Explore</title> <description>See what’s new on IFTTT</description> <link>https://ifttt.com/explore</link> <atom:link rel=\"self\" type=\"application/rss+xml\" href=\"https://ifttt.com/stories.rss\"/> <item> <title>Wyze cameras, lights, and action</title> <description>Wyze is an extremely popular smart home brand for their modern and sleek appearance, accessible pricing, and the broad spectrum of devices on their site.",
+      "From home monitoring, health accessories, and other smart home solutions, Wyze can be a one-stop shop for some.</description> <category>Smart home</category> <media:content url=\"https://images.ctfassets.net/mrsnpomeucef/6IJbXsgbW36yTC17X3KQN1/c1dc6fd72502e74aa006aaca244bf91f/Wyze_see_100_000_customer_connections_with_IFTTT_Header.jpg?w=720&amp;h=360\" medium=\"image\"/> <link>https://ifttt.com/explore/what-you-can-do-with-wyze</link> <guid>https://ifttt.com/explore/what-you-can-do-with-wyze</guid> </item> <item> <title>How an IFTTTer is automating their project management</title> <description>IFTTT can now help teams and businesses alike automate their project management.",
+      "Click to learn more!</description> <category>Popular</category> <media:content url=\"https://images.ctfassets.net/mrsnpomeucef/6FYmnjqcTzL5enICIS1Y7k/f7b7f2871ceb2a9f8c6418286cf84372/project-management.webp?w=720&amp;h=360\" medium=\"image\"/> <link>https://ifttt.com/explore/how-to-automate-project-management</link> <guid>https://ifttt.com/explore/how-to-automate-project-management</guid> </item> <item> <title>Introducing the AI Applet maker</title> <description>Create custom Applets with natural language."
+    ],
+    "medium": "Source: https://ifttt.com/stories.rss",
+    "short": "Source: https://ifttt.com/stories.rss",
+    "tokens": [
+      "ifttt",
+      "explore",
+      "source",
+      "https",
+      "ifttt",
+      "com",
+      "stories",
+      "rss",
+      "source",
+      "https",
+      "ifttt",
+      "com",
+      "stories",
+      "rss"
+    ]
+  },
+  "title": "IFTTT Explore"
+}

@@ -1,0 +1,474 @@
+{
+  "aliases": [
+    {
+      "alias": "1fefad13b3932bf4",
+      "aliasId": "hz.web.1fefad13b3932bf4.alias.1",
+      "canonical": "welcome to the apache software foundation | apache software foundation"
+    },
+    {
+      "alias": "web 1fefad13b3932bf4",
+      "aliasId": "hz.web.1fefad13b3932bf4.alias.2",
+      "canonical": "welcome to the apache software foundation | apache software foundation"
+    },
+    {
+      "alias": "welcome to the apache software foundation apache software foundation",
+      "aliasId": "hz.web.1fefad13b3932bf4.alias.3",
+      "canonical": "welcome to the apache software foundation | apache software foundation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.1fefad13b3932bf4",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1fefad13b3932bf4.entity.1",
+      "kind": "document",
+      "name": "Welcome to The Apache Software Foundation | Apache Software Foundation",
+      "tokens": [
+        "welcome",
+        "apache",
+        "software",
+        "foundation",
+        "apache",
+        "software",
+        "foundation"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fefad13b3932bf4.entity.2",
+      "kind": "heading",
+      "name": "Welcome to The Apache Software Foundation | Apache Software Foundation",
+      "tokens": [
+        "welcome",
+        "apache",
+        "software",
+        "foundation",
+        "apache",
+        "software",
+        "foundation"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fefad13b3932bf4.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fefad13b3932bf4.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fefad13b3932bf4.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 106,
+      "charStart": 75,
+      "factId": "hz.web.1fefad13b3932bf4.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.apache.org/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "apache",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1104,
+      "charStart": 158,
+      "factId": "hz.web.1fefad13b3932bf4.fact.1",
+      "kind": "bullet",
+      "text": "Welcome to The Apache Software Foundation | Apache Software Foundation Introducing The ASF’s New Logo Read Now Toggle navigation Community Contributor Getting Started Becoming a Committer Code of Conduct Community Resources Community Over Code Events Projects Projects Incubator Projects Projects Directory Mailing Lists Report a Vulnerability The Apache Attic Downloads Distributions Releases Learn Blog How the ASF Works The Apache Way Legal & Trademark Licenses Glossary FAQ Resources & Tools Developer Information Wiki Issues Slack Self Serve Portal Infrastructure Infrastructure Status Infrastructure Statistics Whimsy Brand Guidelines Project Logos About About Our Sponsors Corporate Sponsorship Individual Supporters Leadership Members Diversity & Inclusion Newsroom Contact Sponsor Search Software For The Public Good &para; The Apache&reg; Software Foundation (ASF) provides software for the public good, guided by community over code.",
+      "tokens": [
+        "welcome",
+        "apache",
+        "software",
+        "foundation",
+        "apache",
+        "software",
+        "foundation",
+        "introducing",
+        "asf",
+        "new",
+        "logo",
+        "read",
+        "now",
+        "toggle",
+        "navigation",
+        "community",
+        "contributor",
+        "getting",
+        "started",
+        "becoming",
+        "committer",
+        "code",
+        "conduct",
+        "community",
+        "resources",
+        "community",
+        "over",
+        "code",
+        "events",
+        "projects",
+        "projects",
+        "incubator",
+        "projects",
+        "projects",
+        "directory",
+        "mailing",
+        "lists",
+        "report",
+        "vulnerability",
+        "apache",
+        "attic",
+        "downloads",
+        "distributions",
+        "releases",
+        "learn",
+        "blog",
+        "asf",
+        "works",
+        "apache",
+        "way",
+        "legal",
+        "trademark",
+        "licenses",
+        "glossary",
+        "faq",
+        "resources",
+        "tools",
+        "developer",
+        "information",
+        "wiki",
+        "issues",
+        "slack",
+        "self",
+        "serve",
+        "portal",
+        "infrastructure",
+        "infrastructure",
+        "status",
+        "infrastructure",
+        "statistics",
+        "whimsy",
+        "brand",
+        "guidelines",
+        "project",
+        "logos",
+        "about",
+        "about",
+        "our",
+        "sponsors",
+        "corporate",
+        "sponsorship",
+        "individual",
+        "supporters",
+        "leadership",
+        "members",
+        "diversity",
+        "inclusion",
+        "newsroom",
+        "contact",
+        "sponsor",
+        "search",
+        "software",
+        "public",
+        "good",
+        "para",
+        "apache",
+        "reg",
+        "software",
+        "foundation",
+        "asf",
+        "provides",
+        "software",
+        "public",
+        "good",
+        "guided",
+        "community",
+        "over",
+        "code"
+      ]
+    },
+    {
+      "charEnd": 1204,
+      "charStart": 1105,
+      "factId": "hz.web.1fefad13b3932bf4.fact.2",
+      "kind": "bullet",
+      "text": "Like the enduring oak tree, our projects thrive through the contributions of thousands worldwide.",
+      "tokens": [
+        "like",
+        "enduring",
+        "oak",
+        "tree",
+        "our",
+        "projects",
+        "thrive",
+        "through",
+        "contributions",
+        "thousands",
+        "worldwide"
+      ]
+    },
+    {
+      "charEnd": 1489,
+      "charStart": 1205,
+      "factId": "hz.web.1fefad13b3932bf4.fact.3",
+      "kind": "bullet",
+      "text": "See Projects Our Impact &para; 290+ Open Source Projects 1300+ Software Releases 9900+ Committers 1190+ Members Our Open Source Projects &para; The ASF is the home of the world&rsquo;s most trusted open source projects in data, cloud, search, libraries, geospatial, IoT, and beyond.",
+      "tokens": [
+        "see",
+        "projects",
+        "our",
+        "impact",
+        "para",
+        "290",
+        "open",
+        "source",
+        "projects",
+        "1300",
+        "software",
+        "releases",
+        "9900",
+        "committers",
+        "1190",
+        "members",
+        "our",
+        "open",
+        "source",
+        "projects",
+        "para",
+        "asf",
+        "home",
+        "world",
+        "rsquo",
+        "most",
+        "trusted",
+        "open",
+        "source",
+        "projects",
+        "data",
+        "cloud",
+        "search",
+        "libraries",
+        "geospatial",
+        "iot",
+        "beyond"
+      ]
+    },
+    {
+      "charEnd": 1742,
+      "charStart": 1490,
+      "factId": "hz.web.1fefad13b3932bf4.fact.4",
+      "kind": "bullet",
+      "text": "See All Projects Our Incubating Projects &para; See All Incubating Projects Incubate a Project &para; Give your project a neutral, trusted home where communities flourish &mdash; with the ASF&rsquo;s expertise, tools, and support to help you succeed.",
+      "tokens": [
+        "see",
+        "all",
+        "projects",
+        "our",
+        "incubating",
+        "projects",
+        "para",
+        "see",
+        "all",
+        "incubating",
+        "projects",
+        "incubate",
+        "project",
+        "para",
+        "give",
+        "your",
+        "project",
+        "neutral",
+        "trusted",
+        "home",
+        "communities",
+        "flourish",
+        "mdash",
+        "asf",
+        "rsquo",
+        "expertise",
+        "tools",
+        "support",
+        "help",
+        "succeed"
+      ]
+    },
+    {
+      "charEnd": 1763,
+      "charStart": 1757,
+      "factId": "hz.web.1fefad13b3932bf4.fact.5",
+      "kind": "bullet",
+      "text": "para",
+      "tokens": [
+        "para"
+      ]
+    },
+    {
+      "charEnd": 1769,
+      "charStart": 1764,
+      "factId": "hz.web.1fefad13b3932bf4.fact.6",
+      "kind": "bullet",
+      "text": "asf",
+      "tokens": [
+        "asf"
+      ]
+    },
+    {
+      "charEnd": 1780,
+      "charStart": 1770,
+      "factId": "hz.web.1fefad13b3932bf4.fact.7",
+      "kind": "bullet",
+      "text": "projects",
+      "tokens": [
+        "projects"
+      ]
+    },
+    {
+      "charEnd": 1789,
+      "charStart": 1781,
+      "factId": "hz.web.1fefad13b3932bf4.fact.8",
+      "kind": "bullet",
+      "text": "apache",
+      "tokens": [
+        "apache"
+      ]
+    },
+    {
+      "charEnd": 1796,
+      "charStart": 1790,
+      "factId": "hz.web.1fefad13b3932bf4.fact.9",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1807,
+      "charStart": 1797,
+      "factId": "hz.web.1fefad13b3932bf4.fact.10",
+      "kind": "bullet",
+      "text": "software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1819,
+      "charStart": 1808,
+      "factId": "hz.web.1fefad13b3932bf4.fact.11",
+      "kind": "bullet",
+      "text": "community",
+      "tokens": [
+        "community"
+      ]
+    },
+    {
+      "charEnd": 1825,
+      "charStart": 1820,
+      "factId": "hz.web.1fefad13b3932bf4.fact.12",
+      "kind": "bullet",
+      "text": "one",
+      "tokens": [
+        "one"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 73,
+      "charStart": 1,
+      "headingId": "hz.web.1fefad13b3932bf4.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Welcome to The Apache Software Foundation | Apache Software Foundation"
+    },
+    {
+      "charEnd": 156,
+      "charStart": 146,
+      "headingId": "hz.web.1fefad13b3932bf4.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1755,
+      "charStart": 1744,
+      "headingId": "hz.web.1fefad13b3932bf4.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1837,
+      "charStart": 1827,
+      "headingId": "hz.web.1fefad13b3932bf4.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1fefad13b3932bf4.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5117,
+        "start": 0
+      }
+    ],
+    "hash": "0affb2a0d3c1d05d4656084366b11da7db90f774ca55cb7c3f2bce43a67c5950",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Welcome to The Apache Software Foundation | Apache Software Foundation Introducing The ASF’s New Logo Read Now Toggle navigation Community Contributor Getting Started Becoming a Committer Code of Conduct Community Resources Community Over Code Events Projects Projects Incubator Projects Projects Directory Mailing Lists Report a Vulnerability The Apache Attic Downloads Distributions Releases Learn Blog How the ASF Works The Apache Way Legal & Trademark Licenses Glossary FAQ Resources & Tools Developer Information Wiki Issues Slack Self Serve Portal Infrastructure Infrastructure Status Infrastructure Statistics Whimsy Brand Guidelines Project Logos About About Our Sponsors Corporate Sponsorship Individual Supporters Leadership Members Diversity & Inclusion Newsroom Contact Sponsor Search Software For The Public Good &para; The Apache&reg; Software Foundation (ASF) provides software for the public good, guided by community over code.",
+      "Like the enduring oak tree, our projects thrive through the contributions of thousands worldwide.",
+      "See Projects Our Impact &para; 290+ Open Source Projects 1300+ Software Releases 9900+ Committers 1190+ Members Our Open Source Projects &para; The ASF is the home of the world&rsquo;s most trusted open source projects in data, cloud, search, libraries, geospatial, IoT, and beyond."
+    ],
+    "medium": "Source: https://www.apache.org/",
+    "short": "Source: https://www.apache.org/",
+    "tokens": [
+      "welcome",
+      "apache",
+      "software",
+      "foundation",
+      "apache",
+      "software",
+      "foundation",
+      "source",
+      "https",
+      "www",
+      "apache",
+      "org",
+      "source",
+      "https",
+      "www",
+      "apache",
+      "org"
+    ]
+  },
+  "title": "Welcome to The Apache Software Foundation | Apache Software Foundation"
+}

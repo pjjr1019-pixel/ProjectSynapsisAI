@@ -1,0 +1,533 @@
+{
+  "aliases": [
+    {
+      "alias": "cornell university cornell maps",
+      "aliasId": "hz.web.d646f5e4c8d5b5c2.alias.1",
+      "canonical": "cornell university | cornell maps"
+    },
+    {
+      "alias": "d646f5e4c8d5b5c2",
+      "aliasId": "hz.web.d646f5e4c8d5b5c2.alias.2",
+      "canonical": "cornell university | cornell maps"
+    },
+    {
+      "alias": "web d646f5e4c8d5b5c2",
+      "aliasId": "hz.web.d646f5e4c8d5b5c2.alias.3",
+      "canonical": "cornell university | cornell maps"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.d646f5e4c8d5b5c2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d646f5e4c8d5b5c2.entity.1",
+      "kind": "document",
+      "name": "Cornell University | Cornell Maps",
+      "tokens": [
+        "cornell",
+        "university",
+        "cornell",
+        "maps"
+      ]
+    },
+    {
+      "entityId": "hz.web.d646f5e4c8d5b5c2.entity.2",
+      "kind": "heading",
+      "name": "Cornell University | Cornell Maps",
+      "tokens": [
+        "cornell",
+        "university",
+        "cornell",
+        "maps"
+      ]
+    },
+    {
+      "entityId": "hz.web.d646f5e4c8d5b5c2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d646f5e4c8d5b5c2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d646f5e4c8d5b5c2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 38,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cornell.edu/about/maps/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cornell",
+        "edu",
+        "about",
+        "maps"
+      ]
+    },
+    {
+      "charEnd": 1898,
+      "charStart": 133,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.1",
+      "kind": "bullet",
+      "text": "Cornell University | Cornell Maps --> Skip to content Cornell University Search toggle menu close About Cornell About Cornell Overview Cornell History Maps & Directions Mission & Vision Core Values Locations Ithaca New York City Related Links Cornell Leadership Diversity Indigenous Engagement Economic Impact Sustainability Global Admissions Overview Undergraduate Apply Admissions Dates and Deadlines Costs and Aid Graduate Admissions Fields of Study Financial Support Continuing Education & Summer Sessions Summer Sessions Winter Sessions Part-time Study Academics Academics Overview Fields of Study Colleges & Schools Departments Library Continuing Education Related Links Office of the Provost Undergraduate Education Academic Calendar Course Catalog Global Learning Learning Goals Research Overview Explore Cornell Research Keep up with research and innovation in the Cornell Chronicle Related Links Cornell Research & Innovation Centers & Institutes Technology Licensing (CTL) Undergraduate Research Research Publications Public Engagement Overview Featured CCE helps Buffalo get school food truck rolling Related Links Cornell Cooperative Extension Engaged Cornell Hub Land Grant to New York State New York State Impact Life at Cornell Life at Cornell Overview Athletics & Recreation Arts & Culture Health & Safety Live, Work, Travel Student Life Cornell in a Day Related Links Find Your Networks Center for First-Year Students Clubs & Student Groups Military Community More Toggle navigation Apply Undergraduate Graduate Visit Give Students Families Faculty & Staff Alumni Search Search Overview Cornell History Mission & Vision Core Values Locations Ithaca New York City Maps & Directions {{ pageTitle }} For GPS, use the street address of the Martin Y.",
+      "tokens": [
+        "cornell",
+        "university",
+        "cornell",
+        "maps",
+        "skip",
+        "content",
+        "cornell",
+        "university",
+        "search",
+        "toggle",
+        "menu",
+        "close",
+        "about",
+        "cornell",
+        "about",
+        "cornell",
+        "overview",
+        "cornell",
+        "history",
+        "maps",
+        "directions",
+        "mission",
+        "vision",
+        "core",
+        "values",
+        "locations",
+        "ithaca",
+        "new",
+        "york",
+        "city",
+        "related",
+        "links",
+        "cornell",
+        "leadership",
+        "diversity",
+        "indigenous",
+        "engagement",
+        "economic",
+        "impact",
+        "sustainability",
+        "global",
+        "admissions",
+        "overview",
+        "undergraduate",
+        "apply",
+        "admissions",
+        "dates",
+        "deadlines",
+        "costs",
+        "aid",
+        "graduate",
+        "admissions",
+        "fields",
+        "study",
+        "financial",
+        "support",
+        "continuing",
+        "education",
+        "summer",
+        "sessions",
+        "summer",
+        "sessions",
+        "winter",
+        "sessions",
+        "part",
+        "time",
+        "study",
+        "academics",
+        "academics",
+        "overview",
+        "fields",
+        "study",
+        "colleges",
+        "schools",
+        "departments",
+        "library",
+        "continuing",
+        "education",
+        "related",
+        "links",
+        "office",
+        "provost",
+        "undergraduate",
+        "education",
+        "academic",
+        "calendar",
+        "course",
+        "catalog",
+        "global",
+        "learning",
+        "learning",
+        "goals",
+        "research",
+        "overview",
+        "explore",
+        "cornell",
+        "research",
+        "keep",
+        "up",
+        "research",
+        "innovation",
+        "cornell",
+        "chronicle",
+        "related",
+        "links",
+        "cornell",
+        "research",
+        "innovation",
+        "centers",
+        "institutes",
+        "technology",
+        "licensing",
+        "ctl",
+        "undergraduate",
+        "research",
+        "research",
+        "publications",
+        "public",
+        "engagement",
+        "overview",
+        "featured",
+        "cce",
+        "helps",
+        "buffalo",
+        "get",
+        "school",
+        "food",
+        "truck",
+        "rolling",
+        "related",
+        "links",
+        "cornell",
+        "cooperative",
+        "extension",
+        "engaged",
+        "cornell",
+        "hub",
+        "land",
+        "grant",
+        "new",
+        "york",
+        "state",
+        "new",
+        "york",
+        "state",
+        "impact",
+        "life",
+        "cornell",
+        "life",
+        "cornell",
+        "overview",
+        "athletics",
+        "recreation",
+        "arts",
+        "culture",
+        "health",
+        "safety",
+        "live",
+        "work",
+        "travel",
+        "student",
+        "life",
+        "cornell",
+        "day",
+        "related",
+        "links",
+        "find",
+        "your",
+        "networks",
+        "center",
+        "first",
+        "year",
+        "students",
+        "clubs",
+        "student",
+        "groups",
+        "military",
+        "community",
+        "more",
+        "toggle",
+        "navigation",
+        "apply",
+        "undergraduate",
+        "graduate",
+        "visit",
+        "give",
+        "students",
+        "families",
+        "faculty",
+        "staff",
+        "alumni",
+        "search",
+        "search",
+        "overview",
+        "cornell",
+        "history",
+        "mission",
+        "vision",
+        "core",
+        "values",
+        "locations",
+        "ithaca",
+        "new",
+        "york",
+        "city",
+        "maps",
+        "directions",
+        "pagetitle",
+        "gps",
+        "use",
+        "street",
+        "address",
+        "martin"
+      ]
+    },
+    {
+      "charEnd": 1991,
+      "charStart": 1899,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.2",
+      "kind": "bullet",
+      "text": "Tang Welcome Center at 616 Thurston Ave., Ithaca, NY 14853 (lat./lng.: 42.4522, -76.4804).",
+      "tokens": [
+        "tang",
+        "welcome",
+        "center",
+        "616",
+        "thurston",
+        "ave",
+        "ithaca",
+        "ny",
+        "14853",
+        "lat",
+        "lng",
+        "42",
+        "4522",
+        "76",
+        "4804"
+      ]
+    },
+    {
+      "charEnd": 2069,
+      "charStart": 1992,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.3",
+      "kind": "bullet",
+      "text": "Our road closures page contains details that may affect driving directions.",
+      "tokens": [
+        "our",
+        "road",
+        "closures",
+        "page",
+        "contains",
+        "details",
+        "may",
+        "affect",
+        "driving",
+        "directions"
+      ]
+    },
+    {
+      "charEnd": 2139,
+      "charStart": 2070,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.4",
+      "kind": "bullet",
+      "text": "Our alternative text listings page presents our map data in tables.",
+      "tokens": [
+        "our",
+        "alternative",
+        "text",
+        "listings",
+        "page",
+        "presents",
+        "our",
+        "map",
+        "data",
+        "tables"
+      ]
+    },
+    {
+      "charEnd": 2163,
+      "charStart": 2154,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.5",
+      "kind": "bullet",
+      "text": "cornell",
+      "tokens": [
+        "cornell"
+      ]
+    },
+    {
+      "charEnd": 2169,
+      "charStart": 2164,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.6",
+      "kind": "bullet",
+      "text": "map",
+      "tokens": [
+        "map"
+      ]
+    },
+    {
+      "charEnd": 2179,
+      "charStart": 2170,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.7",
+      "kind": "bullet",
+      "text": "address",
+      "tokens": [
+        "address"
+      ]
+    },
+    {
+      "charEnd": 2188,
+      "charStart": 2180,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.8",
+      "kind": "bullet",
+      "text": "ithaca",
+      "tokens": [
+        "ithaca"
+      ]
+    },
+    {
+      "charEnd": 2195,
+      "charStart": 2189,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.9",
+      "kind": "bullet",
+      "text": "name",
+      "tokens": [
+        "name"
+      ]
+    },
+    {
+      "charEnd": 2206,
+      "charStart": 2196,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.10",
+      "kind": "bullet",
+      "text": "overview",
+      "tokens": [
+        "overview"
+      ]
+    },
+    {
+      "charEnd": 2219,
+      "charStart": 2207,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.11",
+      "kind": "bullet",
+      "text": "directions",
+      "tokens": [
+        "directions"
+      ]
+    },
+    {
+      "charEnd": 2227,
+      "charStart": 2220,
+      "factId": "hz.web.d646f5e4c8d5b5c2.fact.12",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.web.d646f5e4c8d5b5c2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Cornell University | Cornell Maps"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.d646f5e4c8d5b5c2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2152,
+      "charStart": 2141,
+      "headingId": "hz.web.d646f5e4c8d5b5c2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2239,
+      "charStart": 2229,
+      "headingId": "hz.web.d646f5e4c8d5b5c2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d646f5e4c8d5b5c2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5494,
+        "start": 0
+      }
+    ],
+    "hash": "ec05dad2908a728c750150e918adba797a00284d757412de94f1895b12d46778",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Cornell University | Cornell Maps --> Skip to content Cornell University Search toggle menu close About Cornell About Cornell Overview Cornell History Maps & Directions Mission & Vision Core Values Locations Ithaca New York City Related Links Cornell Leadership Diversity Indigenous Engagement Economic Impact Sustainability Global Admissions Overview Undergraduate Apply Admissions Dates and Deadlines Costs and Aid Graduate Admissions Fields of Study Financial Support Continuing Education & Summer Sessions Summer Sessions Winter Sessions Part-time Study Academics Academics Overview Fields of Study Colleges & Schools Departments Library Continuing Education Related Links Office of the Provost Undergraduate Education Academic Calendar Course Catalog Global Learning Learning Goals Research Overview Explore Cornell Research Keep up with research and innovation in the Cornell Chronicle Related Links Cornell Research & Innovation Centers & Institutes Technology Licensing (CTL) Undergraduate Research Research Publications Public Engagement Overview Featured CCE helps Buffalo get school food truck rolling Related Links Cornell Cooperative Extension Engaged Cornell Hub Land Grant to New York State New York State Impact Life at Cornell Life at Cornell Overview Athletics & Recreation Arts & Culture Health & Safety Live, Work, Travel Student Life Cornell in a Day Related Links Find Your Networks Center for First-Year Students Clubs & Student Groups Military Community More Toggle navigation Apply Undergraduate Graduate Visit Give Students Families Faculty & Staff Alumni Search Search Overview Cornell History Mission & Vision Core Values Locations Ithaca New York City Maps & Directions {{ pageTitle }} For GPS, use the street address of the Martin Y.",
+      "Tang Welcome Center at 616 Thurston Ave., Ithaca, NY 14853 (lat./lng.: 42.4522, -76.4804).",
+      "Our road closures page contains details that may affect driving directions."
+    ],
+    "medium": "Source: https://www.cornell.edu/about/maps/",
+    "short": "Source: https://www.cornell.edu/about/maps/",
+    "tokens": [
+      "cornell",
+      "university",
+      "cornell",
+      "maps",
+      "source",
+      "https",
+      "www",
+      "cornell",
+      "edu",
+      "about",
+      "maps",
+      "source",
+      "https",
+      "www",
+      "cornell",
+      "edu",
+      "about",
+      "maps"
+    ]
+  },
+  "title": "Cornell University | Cornell Maps"
+}

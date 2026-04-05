@@ -1,0 +1,379 @@
+{
+  "aliases": [
+    {
+      "alias": "845cd6791dd0f21c",
+      "aliasId": "hz.web.845cd6791dd0f21c.alias.1",
+      "canonical": "start [melonland wiki]"
+    },
+    {
+      "alias": "start melonland wiki",
+      "aliasId": "hz.web.845cd6791dd0f21c.alias.2",
+      "canonical": "start [melonland wiki]"
+    },
+    {
+      "alias": "web 845cd6791dd0f21c",
+      "aliasId": "hz.web.845cd6791dd0f21c.alias.3",
+      "canonical": "start [melonland wiki]"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.85,
+  "docId": "hz.web.845cd6791dd0f21c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.845cd6791dd0f21c.entity.1",
+      "kind": "document",
+      "name": "start [MelonLand Wiki]",
+      "tokens": [
+        "start",
+        "melonland",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.845cd6791dd0f21c.entity.2",
+      "kind": "heading",
+      "name": "start [MelonLand Wiki]",
+      "tokens": [
+        "start",
+        "melonland",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.845cd6791dd0f21c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.845cd6791dd0f21c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.845cd6791dd0f21c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 67,
+      "charStart": 27,
+      "factId": "hz.web.845cd6791dd0f21c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://wiki.melonland.net/start",
+      "tokens": [
+        "source",
+        "https",
+        "wiki",
+        "melonland",
+        "net",
+        "start"
+      ]
+    },
+    {
+      "charEnd": 405,
+      "charStart": 119,
+      "factId": "hz.web.845cd6791dd0f21c.fact.1",
+      "kind": "bullet",
+      "text": "start [MelonLand Wiki] skip to content User Tools Site Tools Recent Changes Media Manager Sitemap Page Tools Show pagesource Discuss the Page Old revisions Backlinks Cite current page Back to top Search Trace: • start --> Table of Contents Welcome to the Wiki :^] How to use the wiki?",
+      "tokens": [
+        "start",
+        "melonland",
+        "wiki",
+        "skip",
+        "content",
+        "user",
+        "tools",
+        "site",
+        "tools",
+        "recent",
+        "changes",
+        "media",
+        "manager",
+        "sitemap",
+        "page",
+        "tools",
+        "show",
+        "pagesource",
+        "discuss",
+        "page",
+        "old",
+        "revisions",
+        "backlinks",
+        "cite",
+        "current",
+        "page",
+        "back",
+        "top",
+        "search",
+        "trace",
+        "start",
+        "table",
+        "contents",
+        "welcome",
+        "wiki",
+        "use",
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 615,
+      "charStart": 406,
+      "factId": "hz.web.845cd6791dd0f21c.fact.2",
+      "kind": "bullet",
+      "text": "MelonLand Sections Web Revival Info Web Crafting Guides & Resources General Advice Step-by-step Guides Resource Lists Games & Virtual Worlds Welcome to the Wiki :^] You&#039;ve arrived on the MelonLand Wiki!",
+      "tokens": [
+        "melonland",
+        "sections",
+        "web",
+        "revival",
+        "info",
+        "web",
+        "crafting",
+        "guides",
+        "resources",
+        "general",
+        "advice",
+        "step",
+        "step",
+        "guides",
+        "resource",
+        "lists",
+        "games",
+        "virtual",
+        "worlds",
+        "welcome",
+        "wiki",
+        "039",
+        "ve",
+        "arrived",
+        "melonland",
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 721,
+      "charStart": 616,
+      "factId": "hz.web.845cd6791dd0f21c.fact.3",
+      "kind": "bullet",
+      "text": "This is a wiki for all sorts of cool stuff, like tips for making sites n stuff and I hope you enjoy it!",
+      "tokens": [
+        "wiki",
+        "all",
+        "sorts",
+        "cool",
+        "stuff",
+        "like",
+        "tips",
+        "making",
+        "sites",
+        "stuff",
+        "hope",
+        "enjoy"
+      ]
+    },
+    {
+      "charEnd": 744,
+      "charStart": 722,
+      "factId": "hz.web.845cd6791dd0f21c.fact.4",
+      "kind": "bullet",
+      "text": "How to use the wiki?",
+      "tokens": [
+        "use",
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 770,
+      "charStart": 759,
+      "factId": "hz.web.845cd6791dd0f21c.fact.5",
+      "kind": "bullet",
+      "text": "melonland",
+      "tokens": [
+        "melonland"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 771,
+      "factId": "hz.web.845cd6791dd0f21c.fact.6",
+      "kind": "bullet",
+      "text": "wiki",
+      "tokens": [
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 783,
+      "charStart": 778,
+      "factId": "hz.web.845cd6791dd0f21c.fact.7",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 790,
+      "charStart": 784,
+      "factId": "hz.web.845cd6791dd0f21c.fact.8",
+      "kind": "bullet",
+      "text": "info",
+      "tokens": [
+        "info"
+      ]
+    },
+    {
+      "charEnd": 798,
+      "charStart": 791,
+      "factId": "hz.web.845cd6791dd0f21c.fact.9",
+      "kind": "bullet",
+      "text": "forum",
+      "tokens": [
+        "forum"
+      ]
+    },
+    {
+      "charEnd": 805,
+      "charStart": 799,
+      "factId": "hz.web.845cd6791dd0f21c.fact.10",
+      "kind": "bullet",
+      "text": "list",
+      "tokens": [
+        "list"
+      ]
+    },
+    {
+      "charEnd": 811,
+      "charStart": 806,
+      "factId": "hz.web.845cd6791dd0f21c.fact.11",
+      "kind": "bullet",
+      "text": "039",
+      "tokens": [
+        "039"
+      ]
+    },
+    {
+      "charEnd": 820,
+      "charStart": 812,
+      "factId": "hz.web.845cd6791dd0f21c.fact.12",
+      "kind": "bullet",
+      "text": "guides",
+      "tokens": [
+        "guides"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.845cd6791dd0f21c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "start [MelonLand Wiki]"
+    },
+    {
+      "charEnd": 117,
+      "charStart": 107,
+      "headingId": "hz.web.845cd6791dd0f21c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 757,
+      "charStart": 746,
+      "headingId": "hz.web.845cd6791dd0f21c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 832,
+      "charStart": 822,
+      "headingId": "hz.web.845cd6791dd0f21c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/845cd6791dd0f21c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4073,
+        "start": 0
+      }
+    ],
+    "hash": "1103590e366aa6cdf8a6b3f0966dd79d3e99a6974a6dff5f0fb9bad0233a9686",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.845cd6791dd0f21c.rule.1",
+      "text": "Collected Web Gardens Web Crafting Guides & Resources General Advice General Tips for webcraft and creative coding How should I organize my files?",
+      "tokens": [
+        "collected",
+        "web",
+        "gardens",
+        "web",
+        "crafting",
+        "guides",
+        "resources",
+        "general",
+        "advice",
+        "general",
+        "tips",
+        "webcraft",
+        "creative",
+        "coding",
+        "organize",
+        "files"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "start [MelonLand Wiki] skip to content User Tools Site Tools Recent Changes Media Manager Sitemap Page Tools Show pagesource Discuss the Page Old revisions Backlinks Cite current page Back to top Search Trace: • start --> Table of Contents Welcome to the Wiki :^] How to use the wiki?",
+      "MelonLand Sections Web Revival Info Web Crafting Guides & Resources General Advice Step-by-step Guides Resource Lists Games & Virtual Worlds Welcome to the Wiki :^] You&#039;ve arrived on the MelonLand Wiki!",
+      "This is a wiki for all sorts of cool stuff, like tips for making sites n stuff and I hope you enjoy it!"
+    ],
+    "medium": "Source: https://wiki.melonland.net/start",
+    "short": "Source: https://wiki.melonland.net/start",
+    "tokens": [
+      "start",
+      "melonland",
+      "wiki",
+      "source",
+      "https",
+      "wiki",
+      "melonland",
+      "net",
+      "start",
+      "source",
+      "https",
+      "wiki",
+      "melonland",
+      "net",
+      "start"
+    ]
+  },
+  "title": "start [MelonLand Wiki]"
+}

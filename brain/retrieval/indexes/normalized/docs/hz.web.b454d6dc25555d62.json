@@ -1,0 +1,390 @@
+{
+  "aliases": [
+    {
+      "alias": "b454d6dc25555d62",
+      "aliasId": "hz.web.b454d6dc25555d62.alias.1",
+      "canonical": "help | privacy | flickr"
+    },
+    {
+      "alias": "help privacy flickr",
+      "aliasId": "hz.web.b454d6dc25555d62.alias.2",
+      "canonical": "help | privacy | flickr"
+    },
+    {
+      "alias": "web b454d6dc25555d62",
+      "aliasId": "hz.web.b454d6dc25555d62.alias.3",
+      "canonical": "help | privacy | flickr"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.b454d6dc25555d62",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.b454d6dc25555d62.entity.1",
+      "kind": "document",
+      "name": "Help | Privacy | Flickr",
+      "tokens": [
+        "help",
+        "privacy",
+        "flickr"
+      ]
+    },
+    {
+      "entityId": "hz.web.b454d6dc25555d62.entity.2",
+      "kind": "heading",
+      "name": "Help | Privacy | Flickr",
+      "tokens": [
+        "help",
+        "privacy",
+        "flickr"
+      ]
+    },
+    {
+      "entityId": "hz.web.b454d6dc25555d62.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.b454d6dc25555d62.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.b454d6dc25555d62.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 71,
+      "charStart": 28,
+      "factId": "hz.web.b454d6dc25555d62.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.flickr.com/help/privacy",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "help",
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 123,
+      "factId": "hz.web.b454d6dc25555d62.fact.1",
+      "kind": "bullet",
+      "text": "Help | Privacy | Flickr Explore What’s New Recent Photos Trending Events The Commons Flickr Galleries World Map Camera Finder Flickr Blog Prints The Print Shop Prints & Wall Art Photo Books MODE ✨ Get Pro Pro Plans Stats Dashboard Get Auto-Uploadr Log In Sign Up ✨ Get Pro MODE Log In Explore What’s New Camera Finder Trending Events The Commons Flickr Galleries Flickr Blog The Print Shop Prints & Wall Art Photo Books About Jobs Blog Advertise Developers Guidelines Help Privacy Legal Terms Cookies English Policies & Guidelines Terms Privacy API Community Cookies Data Processing Legal Flickr Privacy Policy For SmugMug’s Privacy Policy click here .",
+      "tokens": [
+        "help",
+        "privacy",
+        "flickr",
+        "explore",
+        "new",
+        "recent",
+        "photos",
+        "trending",
+        "events",
+        "commons",
+        "flickr",
+        "galleries",
+        "world",
+        "map",
+        "camera",
+        "finder",
+        "flickr",
+        "blog",
+        "prints",
+        "print",
+        "shop",
+        "prints",
+        "wall",
+        "art",
+        "photo",
+        "books",
+        "mode",
+        "get",
+        "pro",
+        "pro",
+        "plans",
+        "stats",
+        "dashboard",
+        "get",
+        "auto",
+        "uploadr",
+        "log",
+        "sign",
+        "up",
+        "get",
+        "pro",
+        "mode",
+        "log",
+        "explore",
+        "new",
+        "camera",
+        "finder",
+        "trending",
+        "events",
+        "commons",
+        "flickr",
+        "galleries",
+        "flickr",
+        "blog",
+        "print",
+        "shop",
+        "prints",
+        "wall",
+        "art",
+        "photo",
+        "books",
+        "about",
+        "jobs",
+        "blog",
+        "advertise",
+        "developers",
+        "guidelines",
+        "help",
+        "privacy",
+        "legal",
+        "terms",
+        "cookies",
+        "english",
+        "policies",
+        "guidelines",
+        "terms",
+        "privacy",
+        "api",
+        "community",
+        "cookies",
+        "data",
+        "processing",
+        "legal",
+        "flickr",
+        "privacy",
+        "policy",
+        "smugmug",
+        "privacy",
+        "policy",
+        "click",
+        "here"
+      ]
+    },
+    {
+      "charEnd": 832,
+      "charStart": 778,
+      "factId": "hz.web.b454d6dc25555d62.fact.2",
+      "kind": "bullet",
+      "text": "Date of Last Revision: August 26, 2025 Awes.me, Inc.",
+      "tokens": [
+        "date",
+        "last",
+        "revision",
+        "august",
+        "26",
+        "2025",
+        "awes",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 863,
+      "charStart": 833,
+      "factId": "hz.web.b454d6dc25555d62.fact.3",
+      "kind": "bullet",
+      "text": "d/b/a Awesome & Flickr, Inc.",
+      "tokens": [
+        "awesome",
+        "flickr",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 864,
+      "factId": "hz.web.b454d6dc25555d62.fact.4",
+      "kind": "bullet",
+      "text": "(\"Flickr\") is passionately committed to the privacy of our customers.",
+      "tokens": [
+        "flickr",
+        "passionately",
+        "committed",
+        "privacy",
+        "our",
+        "customers"
+      ]
+    },
+    {
+      "charEnd": 956,
+      "charStart": 950,
+      "factId": "hz.web.b454d6dc25555d62.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 970,
+      "charStart": 957,
+      "factId": "hz.web.b454d6dc25555d62.fact.6",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 977,
+      "charStart": 971,
+      "factId": "hz.web.b454d6dc25555d62.fact.7",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 983,
+      "charStart": 978,
+      "factId": "hz.web.b454d6dc25555d62.fact.8",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 992,
+      "charStart": 984,
+      "factId": "hz.web.b454d6dc25555d62.fact.9",
+      "kind": "bullet",
+      "text": "flickr",
+      "tokens": [
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 1002,
+      "charStart": 993,
+      "factId": "hz.web.b454d6dc25555d62.fact.10",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 1003,
+      "factId": "hz.web.b454d6dc25555d62.fact.11",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 1019,
+      "charStart": 1014,
+      "factId": "hz.web.b454d6dc25555d62.fact.12",
+      "kind": "bullet",
+      "text": "dpf",
+      "tokens": [
+        "dpf"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.b454d6dc25555d62.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Help | Privacy | Flickr"
+    },
+    {
+      "charEnd": 121,
+      "charStart": 111,
+      "headingId": "hz.web.b454d6dc25555d62.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 948,
+      "charStart": 937,
+      "headingId": "hz.web.b454d6dc25555d62.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1031,
+      "charStart": 1021,
+      "headingId": "hz.web.b454d6dc25555d62.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/b454d6dc25555d62.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4276,
+        "start": 0
+      }
+    ],
+    "hash": "8cebc3271827864dd53bc4270628e936dd22d002d11ad354b63f9bc047a7df62",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Help | Privacy | Flickr Explore What’s New Recent Photos Trending Events The Commons Flickr Galleries World Map Camera Finder Flickr Blog Prints The Print Shop Prints & Wall Art Photo Books MODE ✨ Get Pro Pro Plans Stats Dashboard Get Auto-Uploadr Log In Sign Up ✨ Get Pro MODE Log In Explore What’s New Camera Finder Trending Events The Commons Flickr Galleries Flickr Blog The Print Shop Prints & Wall Art Photo Books About Jobs Blog Advertise Developers Guidelines Help Privacy Legal Terms Cookies English Policies & Guidelines Terms Privacy API Community Cookies Data Processing Legal Flickr Privacy Policy For SmugMug’s Privacy Policy click here .",
+      "Date of Last Revision: August 26, 2025 Awes.me, Inc.",
+      "d/b/a Awesome & Flickr, Inc."
+    ],
+    "medium": "Source: https://www.flickr.com/help/privacy",
+    "short": "Source: https://www.flickr.com/help/privacy",
+    "tokens": [
+      "help",
+      "privacy",
+      "flickr",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "help",
+      "privacy",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "help",
+      "privacy"
+    ]
+  },
+  "title": "Help | Privacy | Flickr"
+}

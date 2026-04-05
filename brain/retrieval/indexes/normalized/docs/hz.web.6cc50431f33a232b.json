@@ -1,0 +1,375 @@
+{
+  "aliases": [
+    {
+      "alias": "6cc50431f33a232b",
+      "aliasId": "hz.web.6cc50431f33a232b.alias.1",
+      "canonical": "log masuk linkedin, daftar masuk | linkedin"
+    },
+    {
+      "alias": "log masuk linkedin daftar masuk linkedin",
+      "aliasId": "hz.web.6cc50431f33a232b.alias.2",
+      "canonical": "log masuk linkedin, daftar masuk | linkedin"
+    },
+    {
+      "alias": "web 6cc50431f33a232b",
+      "aliasId": "hz.web.6cc50431f33a232b.alias.3",
+      "canonical": "log masuk linkedin, daftar masuk | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.65,
+  "docId": "hz.web.6cc50431f33a232b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6cc50431f33a232b.entity.1",
+      "kind": "document",
+      "name": "Log Masuk LinkedIn, Daftar Masuk | LinkedIn",
+      "tokens": [
+        "log",
+        "masuk",
+        "linkedin",
+        "daftar",
+        "masuk",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cc50431f33a232b.entity.2",
+      "kind": "heading",
+      "name": "Log Masuk LinkedIn, Daftar Masuk | LinkedIn",
+      "tokens": [
+        "log",
+        "masuk",
+        "linkedin",
+        "daftar",
+        "masuk",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cc50431f33a232b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cc50431f33a232b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cc50431f33a232b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 89,
+      "charStart": 48,
+      "factId": "hz.web.6cc50431f33a232b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login/ms",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "ms"
+      ]
+    },
+    {
+      "charEnd": 362,
+      "charStart": 141,
+      "factId": "hz.web.6cc50431f33a232b.fact.1",
+      "kind": "bullet",
+      "text": "Log Masuk LinkedIn, Daftar Masuk | LinkedIn Daftar masuk Daftar masuk dengan Apple Daftar masuk dengan passkey Dengan mengklik Teruskan, anda bersetuju dengan Perjanjian Pengguna , Dasar Privasi dan Dasar Kuki LinkedIn.",
+      "tokens": [
+        "log",
+        "masuk",
+        "linkedin",
+        "daftar",
+        "masuk",
+        "linkedin",
+        "daftar",
+        "masuk",
+        "daftar",
+        "masuk",
+        "dengan",
+        "apple",
+        "daftar",
+        "masuk",
+        "dengan",
+        "passkey",
+        "dengan",
+        "mengklik",
+        "teruskan",
+        "anda",
+        "bersetuju",
+        "dengan",
+        "perjanjian",
+        "pengguna",
+        "dasar",
+        "privasi",
+        "dan",
+        "dasar",
+        "kuki",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 438,
+      "charStart": 363,
+      "factId": "hz.web.6cc50431f33a232b.fact.2",
+      "kind": "bullet",
+      "text": "atau E-mel atau nombor telefon Kata laluan Tunjukkan Terlupa kata laluan?",
+      "tokens": [
+        "atau",
+        "mel",
+        "atau",
+        "nombor",
+        "telefon",
+        "kata",
+        "laluan",
+        "tunjukkan",
+        "terlupa",
+        "kata",
+        "laluan"
+      ]
+    },
+    {
+      "charEnd": 643,
+      "charStart": 439,
+      "factId": "hz.web.6cc50431f33a232b.fact.3",
+      "kind": "bullet",
+      "text": "Pastikan saya sentiasa didaftarkan masuk Daftar masuk Kami telah menghantar pautan sekali guna kepada alamat e-mel utama anda Klik pada pautan untuk mendaftar masuk ke akaun LinkedIn anda dengan segera.",
+      "tokens": [
+        "pastikan",
+        "saya",
+        "sentiasa",
+        "didaftarkan",
+        "masuk",
+        "daftar",
+        "masuk",
+        "kami",
+        "telah",
+        "menghantar",
+        "pautan",
+        "sekali",
+        "guna",
+        "kepada",
+        "alamat",
+        "mel",
+        "utama",
+        "anda",
+        "klik",
+        "pada",
+        "pautan",
+        "untuk",
+        "mendaftar",
+        "masuk",
+        "ke",
+        "akaun",
+        "linkedin",
+        "anda",
+        "dengan",
+        "segera"
+      ]
+    },
+    {
+      "charEnd": 722,
+      "charStart": 644,
+      "factId": "hz.web.6cc50431f33a232b.fact.4",
+      "kind": "bullet",
+      "text": "Jika anda tidak melihat e-mel dalam peti masuk anda, semak folder spam anda.",
+      "tokens": [
+        "jika",
+        "anda",
+        "tidak",
+        "melihat",
+        "mel",
+        "dalam",
+        "peti",
+        "masuk",
+        "anda",
+        "semak",
+        "folder",
+        "spam",
+        "anda"
+      ]
+    },
+    {
+      "charEnd": 744,
+      "charStart": 737,
+      "factId": "hz.web.6cc50431f33a232b.fact.5",
+      "kind": "bullet",
+      "text": "masuk",
+      "tokens": [
+        "masuk"
+      ]
+    },
+    {
+      "charEnd": 751,
+      "charStart": 745,
+      "factId": "hz.web.6cc50431f33a232b.fact.6",
+      "kind": "bullet",
+      "text": "anda",
+      "tokens": [
+        "anda"
+      ]
+    },
+    {
+      "charEnd": 762,
+      "charStart": 752,
+      "factId": "hz.web.6cc50431f33a232b.fact.7",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 770,
+      "charStart": 763,
+      "factId": "hz.web.6cc50431f33a232b.fact.8",
+      "kind": "bullet",
+      "text": "dasar",
+      "tokens": [
+        "dasar"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 771,
+      "factId": "hz.web.6cc50431f33a232b.fact.9",
+      "kind": "bullet",
+      "text": "dengan",
+      "tokens": [
+        "dengan"
+      ]
+    },
+    {
+      "charEnd": 788,
+      "charStart": 780,
+      "factId": "hz.web.6cc50431f33a232b.fact.10",
+      "kind": "bullet",
+      "text": "daftar",
+      "tokens": [
+        "daftar"
+      ]
+    },
+    {
+      "charEnd": 794,
+      "charStart": 789,
+      "factId": "hz.web.6cc50431f33a232b.fact.11",
+      "kind": "bullet",
+      "text": "mel",
+      "tokens": [
+        "mel"
+      ]
+    },
+    {
+      "charEnd": 805,
+      "charStart": 795,
+      "factId": "hz.web.6cc50431f33a232b.fact.12",
+      "kind": "bullet",
+      "text": "pengguna",
+      "tokens": [
+        "pengguna"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 46,
+      "charStart": 1,
+      "headingId": "hz.web.6cc50431f33a232b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Log Masuk LinkedIn, Daftar Masuk | LinkedIn"
+    },
+    {
+      "charEnd": 139,
+      "charStart": 129,
+      "headingId": "hz.web.6cc50431f33a232b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 735,
+      "charStart": 724,
+      "headingId": "hz.web.6cc50431f33a232b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 817,
+      "charStart": 807,
+      "headingId": "hz.web.6cc50431f33a232b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6cc50431f33a232b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2681,
+        "start": 0
+      }
+    ],
+    "hash": "a4629958999703599962f2c88b10e5ee80f39ff8a01b9544b989f3f1f726fec8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Log Masuk LinkedIn, Daftar Masuk | LinkedIn Daftar masuk Daftar masuk dengan Apple Daftar masuk dengan passkey Dengan mengklik Teruskan, anda bersetuju dengan Perjanjian Pengguna , Dasar Privasi dan Dasar Kuki LinkedIn.",
+      "atau E-mel atau nombor telefon Kata laluan Tunjukkan Terlupa kata laluan?",
+      "Pastikan saya sentiasa didaftarkan masuk Daftar masuk Kami telah menghantar pautan sekali guna kepada alamat e-mel utama anda Klik pada pautan untuk mendaftar masuk ke akaun LinkedIn anda dengan segera."
+    ],
+    "medium": "Source: https://www.linkedin.com/login/ms",
+    "short": "Source: https://www.linkedin.com/login/ms",
+    "tokens": [
+      "log",
+      "masuk",
+      "linkedin",
+      "daftar",
+      "masuk",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "ms",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "ms"
+    ]
+  },
+  "title": "Log Masuk LinkedIn, Daftar Masuk | LinkedIn"
+}

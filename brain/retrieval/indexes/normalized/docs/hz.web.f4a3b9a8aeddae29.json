@@ -1,0 +1,358 @@
+{
+  "aliases": [
+    {
+      "alias": "f4a3b9a8aeddae29",
+      "aliasId": "hz.web.f4a3b9a8aeddae29.alias.1",
+      "canonical": "nlm products and services"
+    },
+    {
+      "alias": "nlm products and services",
+      "aliasId": "hz.web.f4a3b9a8aeddae29.alias.2",
+      "canonical": "nlm products and services"
+    },
+    {
+      "alias": "web f4a3b9a8aeddae29",
+      "aliasId": "hz.web.f4a3b9a8aeddae29.alias.3",
+      "canonical": "nlm products and services"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.f4a3b9a8aeddae29",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f4a3b9a8aeddae29.entity.1",
+      "kind": "document",
+      "name": "NLM Products and Services",
+      "tokens": [
+        "nlm",
+        "products",
+        "services"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4a3b9a8aeddae29.entity.2",
+      "kind": "heading",
+      "name": "NLM Products and Services",
+      "tokens": [
+        "nlm",
+        "products",
+        "services"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4a3b9a8aeddae29.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4a3b9a8aeddae29.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4a3b9a8aeddae29.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 84,
+      "charStart": 30,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.1",
+      "kind": "summary",
+      "text": "Source: https://eresources.nlm.nih.gov/nlm_eresources/",
+      "tokens": [
+        "source",
+        "https",
+        "eresources",
+        "nlm",
+        "nih",
+        "gov",
+        "nlm_eresources"
+      ]
+    },
+    {
+      "charEnd": 387,
+      "charStart": 136,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.1",
+      "kind": "bullet",
+      "text": "NLM Products and Services Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "nlm",
+        "products",
+        "services",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 516,
+      "charStart": 388,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "lock",
+        "locked",
+        "padlock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 517,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 832,
+      "charStart": 582,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.4",
+      "kind": "bullet",
+      "text": "x Because of a lapse in government funding, the information on this website may not be up to date, transactions submitted via the website may not be processed, and the agency may not be able to respond to inquiries until appropriations are enacted.",
+      "tokens": [
+        "because",
+        "lapse",
+        "government",
+        "funding",
+        "information",
+        "website",
+        "may",
+        "not",
+        "up",
+        "date",
+        "transactions",
+        "submitted",
+        "via",
+        "website",
+        "may",
+        "not",
+        "processed",
+        "agency",
+        "may",
+        "not",
+        "able",
+        "respond",
+        "inquiries",
+        "until",
+        "appropriations",
+        "enacted"
+      ]
+    },
+    {
+      "charEnd": 852,
+      "charStart": 847,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.5",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 860,
+      "charStart": 853,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.6",
+      "kind": "bullet",
+      "text": "terms",
+      "tokens": [
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 869,
+      "charStart": 861,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.7",
+      "kind": "bullet",
+      "text": "filter",
+      "tokens": [
+        "filter"
+      ]
+    },
+    {
+      "charEnd": 879,
+      "charStart": 870,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.8",
+      "kind": "bullet",
+      "text": "filters",
+      "tokens": [
+        "filters"
+      ]
+    },
+    {
+      "charEnd": 889,
+      "charStart": 880,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.9",
+      "kind": "bullet",
+      "text": "subject",
+      "tokens": [
+        "subject"
+      ]
+    },
+    {
+      "charEnd": 897,
+      "charStart": 890,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.10",
+      "kind": "bullet",
+      "text": "ndash",
+      "tokens": [
+        "ndash"
+      ]
+    },
+    {
+      "charEnd": 908,
+      "charStart": 898,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.11",
+      "kind": "bullet",
+      "text": "resource",
+      "tokens": [
+        "resource"
+      ]
+    },
+    {
+      "charEnd": 914,
+      "charStart": 909,
+      "factId": "hz.web.f4a3b9a8aeddae29.fact.12",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.f4a3b9a8aeddae29.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "NLM Products and Services"
+    },
+    {
+      "charEnd": 134,
+      "charStart": 124,
+      "headingId": "hz.web.f4a3b9a8aeddae29.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 845,
+      "charStart": 834,
+      "headingId": "hz.web.f4a3b9a8aeddae29.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 926,
+      "charStart": 916,
+      "headingId": "hz.web.f4a3b9a8aeddae29.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f4a3b9a8aeddae29.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4184,
+        "start": 0
+      }
+    ],
+    "hash": "40fa607c89e13d1a11261becb738b99b7bdd61f1a4edbf7530581a2128b17ecc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "NLM Products and Services Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://eresources.nlm.nih.gov/nlm_eresources/",
+    "short": "Source: https://eresources.nlm.nih.gov/nlm_eresources/",
+    "tokens": [
+      "nlm",
+      "products",
+      "services",
+      "source",
+      "https",
+      "eresources",
+      "nlm",
+      "nih",
+      "gov",
+      "nlm_eresources",
+      "source",
+      "https",
+      "eresources",
+      "nlm",
+      "nih",
+      "gov",
+      "nlm_eresources"
+    ]
+  },
+  "title": "NLM Products and Services"
+}

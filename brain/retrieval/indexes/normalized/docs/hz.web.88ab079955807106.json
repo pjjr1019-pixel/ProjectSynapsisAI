@@ -1,0 +1,389 @@
+{
+  "aliases": [
+    {
+      "alias": "88ab079955807106",
+      "aliasId": "hz.web.88ab079955807106.alias.1",
+      "canonical": "learning help"
+    },
+    {
+      "alias": "learning help",
+      "aliasId": "hz.web.88ab079955807106.alias.2",
+      "canonical": "learning help"
+    },
+    {
+      "alias": "web 88ab079955807106",
+      "aliasId": "hz.web.88ab079955807106.alias.3",
+      "canonical": "learning help"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.79,
+  "docId": "hz.web.88ab079955807106",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.88ab079955807106.entity.1",
+      "kind": "document",
+      "name": "Learning Help",
+      "tokens": [
+        "learning",
+        "help"
+      ]
+    },
+    {
+      "entityId": "hz.web.88ab079955807106.entity.2",
+      "kind": "heading",
+      "name": "Learning Help",
+      "tokens": [
+        "learning",
+        "help"
+      ]
+    },
+    {
+      "entityId": "hz.web.88ab079955807106.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.88ab079955807106.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.88ab079955807106.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 18,
+      "factId": "hz.web.88ab079955807106.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/help/learning?trk=help_me_menu",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "help",
+        "learning",
+        "trk",
+        "help_me_menu"
+      ]
+    },
+    {
+      "charEnd": 268,
+      "charStart": 133,
+      "factId": "hz.web.88ab079955807106.fact.1",
+      "kind": "bullet",
+      "text": "Learning Help Attention screen reader users, you are in a mobile optimized view and content may not appear where you expect it to be.",
+      "tokens": [
+        "learning",
+        "help",
+        "attention",
+        "screen",
+        "reader",
+        "users",
+        "mobile",
+        "optimized",
+        "view",
+        "content",
+        "may",
+        "not",
+        "appear",
+        "expect"
+      ]
+    },
+    {
+      "charEnd": 342,
+      "charStart": 269,
+      "factId": "hz.web.88ab079955807106.fact.2",
+      "kind": "bullet",
+      "text": "To return the screen to its desktop view, please maximize your browser.",
+      "tokens": [
+        "return",
+        "screen",
+        "its",
+        "desktop",
+        "view",
+        "please",
+        "maximize",
+        "your",
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 651,
+      "charStart": 343,
+      "factId": "hz.web.88ab079955807106.fact.3",
+      "kind": "bullet",
+      "text": "Skip to content Skip to search Close jump menu Help LinkedIn Help Dropdown menu, expand to explore help for other LinkedIn products Close menu Get help with: LinkedIn Corporate Billing Learning Marketing Solutions Recruiter Sales Navigator Talent Insights Go to Learning Sign in Sign in We’re here to help.",
+      "tokens": [
+        "skip",
+        "content",
+        "skip",
+        "search",
+        "close",
+        "jump",
+        "menu",
+        "help",
+        "linkedin",
+        "help",
+        "dropdown",
+        "menu",
+        "expand",
+        "explore",
+        "help",
+        "other",
+        "linkedin",
+        "products",
+        "close",
+        "menu",
+        "get",
+        "help",
+        "linkedin",
+        "corporate",
+        "billing",
+        "learning",
+        "marketing",
+        "solutions",
+        "recruiter",
+        "sales",
+        "navigator",
+        "talent",
+        "insights",
+        "go",
+        "learning",
+        "sign",
+        "sign",
+        "re",
+        "here",
+        "help"
+      ]
+    },
+    {
+      "charEnd": 1000,
+      "charStart": 652,
+      "factId": "hz.web.88ab079955807106.fact.4",
+      "kind": "bullet",
+      "text": "Learning shortcuts Access your billing history in Learning Add Learning Certificates of Completion and Skills to your LinkedIn profile Cancel my Learning subscription Learning FAQ: Use an Enterprise license to log into Learning Disconnect your LinkedIn profile from your Learning license Manage billing on behalf of your company Opens in new tab.",
+      "tokens": [
+        "learning",
+        "shortcuts",
+        "access",
+        "your",
+        "billing",
+        "history",
+        "learning",
+        "add",
+        "learning",
+        "certificates",
+        "completion",
+        "skills",
+        "your",
+        "linkedin",
+        "profile",
+        "cancel",
+        "learning",
+        "subscription",
+        "learning",
+        "faq",
+        "use",
+        "enterprise",
+        "license",
+        "log",
+        "into",
+        "learning",
+        "disconnect",
+        "your",
+        "linkedin",
+        "profile",
+        "your",
+        "learning",
+        "license",
+        "manage",
+        "billing",
+        "behalf",
+        "your",
+        "company",
+        "opens",
+        "new",
+        "tab"
+      ]
+    },
+    {
+      "charEnd": 1025,
+      "charStart": 1015,
+      "factId": "hz.web.88ab079955807106.fact.5",
+      "kind": "bullet",
+      "text": "learning",
+      "tokens": [
+        "learning"
+      ]
+    },
+    {
+      "charEnd": 1032,
+      "charStart": 1026,
+      "factId": "hz.web.88ab079955807106.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1043,
+      "charStart": 1033,
+      "factId": "hz.web.88ab079955807106.fact.7",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 1052,
+      "charStart": 1044,
+      "factId": "hz.web.88ab079955807106.fact.8",
+      "kind": "bullet",
+      "text": "access",
+      "tokens": [
+        "access"
+      ]
+    },
+    {
+      "charEnd": 1067,
+      "charStart": 1053,
+      "factId": "hz.web.88ab079955807106.fact.9",
+      "kind": "bullet",
+      "text": "certificates",
+      "tokens": [
+        "certificates"
+      ]
+    },
+    {
+      "charEnd": 1074,
+      "charStart": 1068,
+      "factId": "hz.web.88ab079955807106.fact.10",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    },
+    {
+      "charEnd": 1084,
+      "charStart": 1075,
+      "factId": "hz.web.88ab079955807106.fact.11",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 1097,
+      "charStart": 1085,
+      "factId": "hz.web.88ab079955807106.fact.12",
+      "kind": "bullet",
+      "text": "completion",
+      "tokens": [
+        "completion"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.88ab079955807106.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Learning Help"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.88ab079955807106.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 1002,
+      "headingId": "hz.web.88ab079955807106.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1109,
+      "charStart": 1099,
+      "headingId": "hz.web.88ab079955807106.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/88ab079955807106.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4364,
+        "start": 0
+      }
+    ],
+    "hash": "479a15aa9ec392c25d2f1cafe808d6871ed85a62e507c61923f9e2c9a09ffd9f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Learning Help Attention screen reader users, you are in a mobile optimized view and content may not appear where you expect it to be.",
+      "To return the screen to its desktop view, please maximize your browser.",
+      "Skip to content Skip to search Close jump menu Help LinkedIn Help Dropdown menu, expand to explore help for other LinkedIn products Close menu Get help with: LinkedIn Corporate Billing Learning Marketing Solutions Recruiter Sales Navigator Talent Insights Go to Learning Sign in Sign in We’re here to help."
+    ],
+    "medium": "Source: https://www.linkedin.com/help/learning?trk=help_me_menu",
+    "short": "Source: https://www.linkedin.com/help/learning?trk=help_me_menu",
+    "tokens": [
+      "learning",
+      "help",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "help",
+      "learning",
+      "trk",
+      "help_me_menu",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "help",
+      "learning",
+      "trk",
+      "help_me_menu"
+    ]
+  },
+  "title": "Learning Help"
+}

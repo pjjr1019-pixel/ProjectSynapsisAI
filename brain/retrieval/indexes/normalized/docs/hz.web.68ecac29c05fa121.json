@@ -1,0 +1,411 @@
+{
+  "aliases": [
+    {
+      "alias": "68ecac29c05fa121",
+      "aliasId": "hz.web.68ecac29c05fa121.alias.1",
+      "canonical": "edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ... | hacker news"
+    },
+    {
+      "alias": "edit 2026-03-28 we can x27 t respond to emails about this any more because there ... hacker news",
+      "aliasId": "hz.web.68ecac29c05fa121.alias.2",
+      "canonical": "edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ... | hacker news"
+    },
+    {
+      "alias": "web 68ecac29c05fa121",
+      "aliasId": "hz.web.68ecac29c05fa121.alias.3",
+      "canonical": "edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ... | hacker news"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.91,
+  "docId": "hz.web.68ecac29c05fa121",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.68ecac29c05fa121.entity.1",
+      "kind": "document",
+      "name": "Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ... | Hacker News",
+      "tokens": [
+        "edit",
+        "2026",
+        "03",
+        "28",
+        "x27",
+        "respond",
+        "emails",
+        "about",
+        "any",
+        "more",
+        "because",
+        "there",
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.68ecac29c05fa121.entity.2",
+      "kind": "heading",
+      "name": "Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ... | Hacker News",
+      "tokens": [
+        "edit",
+        "2026",
+        "03",
+        "28",
+        "x27",
+        "respond",
+        "emails",
+        "about",
+        "any",
+        "more",
+        "because",
+        "there",
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.68ecac29c05fa121.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.68ecac29c05fa121.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.68ecac29c05fa121.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 160,
+      "charStart": 107,
+      "factId": "hz.web.68ecac29c05fa121.fact.1",
+      "kind": "summary",
+      "text": "Source: https://news.ycombinator.com/item?id=22336638",
+      "tokens": [
+        "source",
+        "https",
+        "news",
+        "ycombinator",
+        "com",
+        "item",
+        "id",
+        "22336638"
+      ]
+    },
+    {
+      "charEnd": 302,
+      "charStart": 212,
+      "factId": "hz.web.68ecac29c05fa121.fact.1",
+      "kind": "bullet",
+      "text": "Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ...",
+      "tokens": [
+        "edit",
+        "2026",
+        "03",
+        "28",
+        "x27",
+        "respond",
+        "emails",
+        "about",
+        "any",
+        "more",
+        "because",
+        "there"
+      ]
+    },
+    {
+      "charEnd": 602,
+      "charStart": 303,
+      "factId": "hz.web.68ecac29c05fa121.fact.2",
+      "kind": "bullet",
+      "text": "| Hacker News Hacker News new | past | comments | ask | show | jobs | submit login dang on Feb 15, 2020 | parent | context | favorite | on: Show HN: Enkel – A clean and simple RSS Reader Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there are far too many of them.",
+      "tokens": [
+        "hacker",
+        "news",
+        "hacker",
+        "news",
+        "new",
+        "past",
+        "comments",
+        "ask",
+        "show",
+        "jobs",
+        "submit",
+        "login",
+        "dang",
+        "feb",
+        "15",
+        "2020",
+        "parent",
+        "context",
+        "favorite",
+        "show",
+        "hn",
+        "enkel",
+        "clean",
+        "simple",
+        "rss",
+        "reader",
+        "edit",
+        "2026",
+        "03",
+        "28",
+        "x27",
+        "respond",
+        "emails",
+        "about",
+        "any",
+        "more",
+        "because",
+        "there",
+        "far",
+        "too",
+        "many",
+        "them"
+      ]
+    },
+    {
+      "charEnd": 640,
+      "charStart": 603,
+      "factId": "hz.web.68ecac29c05fa121.fact.3",
+      "kind": "bullet",
+      "text": "But the tips below are still valid.",
+      "tokens": [
+        "but",
+        "tips",
+        "below",
+        "still",
+        "valid"
+      ]
+    },
+    {
+      "charEnd": 704,
+      "charStart": 641,
+      "factId": "hz.web.68ecac29c05fa121.fact.4",
+      "kind": "bullet",
+      "text": "I can add another important one too: Write your text by hand.",
+      "tokens": [
+        "add",
+        "another",
+        "important",
+        "one",
+        "too",
+        "write",
+        "your",
+        "text",
+        "hand"
+      ]
+    },
+    {
+      "charEnd": 724,
+      "charStart": 719,
+      "factId": "hz.web.68ecac29c05fa121.fact.5",
+      "kind": "bullet",
+      "text": "x27",
+      "tokens": [
+        "x27"
+      ]
+    },
+    {
+      "charEnd": 729,
+      "charStart": 725,
+      "factId": "hz.web.68ecac29c05fa121.fact.6",
+      "kind": "bullet",
+      "text": "hn",
+      "tokens": [
+        "hn"
+      ]
+    },
+    {
+      "charEnd": 736,
+      "charStart": 730,
+      "factId": "hz.web.68ecac29c05fa121.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 741,
+      "charStart": 737,
+      "factId": "hz.web.68ecac29c05fa121.fact.8",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 748,
+      "charStart": 742,
+      "factId": "hz.web.68ecac29c05fa121.fact.9",
+      "kind": "bullet",
+      "text": "show",
+      "tokens": [
+        "show"
+      ]
+    },
+    {
+      "charEnd": 754,
+      "charStart": 749,
+      "factId": "hz.web.68ecac29c05fa121.fact.10",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    },
+    {
+      "charEnd": 760,
+      "charStart": 755,
+      "factId": "hz.web.68ecac29c05fa121.fact.11",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 766,
+      "charStart": 761,
+      "factId": "hz.web.68ecac29c05fa121.fact.12",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 105,
+      "charStart": 1,
+      "headingId": "hz.web.68ecac29c05fa121.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ... | Hacker News"
+    },
+    {
+      "charEnd": 210,
+      "charStart": 200,
+      "headingId": "hz.web.68ecac29c05fa121.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 717,
+      "charStart": 706,
+      "headingId": "hz.web.68ecac29c05fa121.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 778,
+      "charStart": 768,
+      "headingId": "hz.web.68ecac29c05fa121.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/68ecac29c05fa121.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4112,
+        "start": 0
+      }
+    ],
+    "hash": "fcb141250a414e011d6991217d4bfb3bb8a6e16c49b5eee4dff15e67b95079aa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.68ecac29c05fa121.rule.1",
+      "text": "(Your text should show up at the top of the Show HN submission, but if for some reason it doesn&#x27;t, add it as a first comment to the thread.",
+      "tokens": [
+        "your",
+        "text",
+        "show",
+        "up",
+        "top",
+        "show",
+        "hn",
+        "submission",
+        "but",
+        "if",
+        "some",
+        "reason",
+        "doesn",
+        "x27",
+        "add",
+        "first",
+        "comment",
+        "thread"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ...",
+      "| Hacker News Hacker News new | past | comments | ask | show | jobs | submit login dang on Feb 15, 2020 | parent | context | favorite | on: Show HN: Enkel – A clean and simple RSS Reader Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there are far too many of them.",
+      "But the tips below are still valid."
+    ],
+    "medium": "Source: https://news.ycombinator.com/item?id=22336638",
+    "short": "Source: https://news.ycombinator.com/item?id=22336638",
+    "tokens": [
+      "edit",
+      "2026",
+      "03",
+      "28",
+      "x27",
+      "respond",
+      "emails",
+      "about",
+      "any",
+      "more",
+      "because",
+      "there",
+      "hacker",
+      "news",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com",
+      "item",
+      "id",
+      "22336638",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com",
+      "item",
+      "id",
+      "22336638"
+    ]
+  },
+  "title": "Edit (2026-03-28): we can&#x27;t respond to emails about this any more because there ... | Hacker News"
+}

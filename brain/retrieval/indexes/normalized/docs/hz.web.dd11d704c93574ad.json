@@ -1,0 +1,349 @@
+{
+  "aliases": [
+    {
+      "alias": "dd11d704c93574ad",
+      "aliasId": "hz.web.dd11d704c93574ad.alias.1",
+      "canonical": "www.ncbi.nlm.nih.gov"
+    },
+    {
+      "alias": "web dd11d704c93574ad",
+      "aliasId": "hz.web.dd11d704c93574ad.alias.2",
+      "canonical": "www.ncbi.nlm.nih.gov"
+    },
+    {
+      "alias": "www.ncbi.nlm.nih.gov",
+      "aliasId": "hz.web.dd11d704c93574ad.alias.3",
+      "canonical": "www.ncbi.nlm.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.dd11d704c93574ad",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.dd11d704c93574ad.entity.1",
+      "kind": "document",
+      "name": "www.ncbi.nlm.nih.gov",
+      "tokens": [
+        "www",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.dd11d704c93574ad.entity.2",
+      "kind": "heading",
+      "name": "www.ncbi.nlm.nih.gov",
+      "tokens": [
+        "www",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.dd11d704c93574ad.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.dd11d704c93574ad.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.dd11d704c93574ad.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 98,
+      "charStart": 25,
+      "factId": "hz.web.dd11d704c93574ad.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.ncbi.nlm.nih.gov/home/check_youtube/check_youtube.css",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "home",
+        "check_youtube",
+        "check_youtube",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 842,
+      "charStart": 150,
+      "factId": "hz.web.dd11d704c93574ad.fact.1",
+      "kind": "bullet",
+      "text": ".youtube-container { position: relative; } .youtube-container .youtube-unavailable, .youtube-container .youtube-available { font-weight: bold; color: #fff; background: #369; margin-top: 0; padding: 0; /* positioning */ position: absolute; top: 0; bottom: 0; right: 0; left: 0; } .youtube-container .youtube-available { /* #336699 */ background: rgba(51, 102, 153, 0.1); cursor: pointer; } .youtube-container .youtube-available .youtube-msg { color: #fff; background: #336699; } .youtube-unavailable .youtube-msg, .youtube-available .youtube-msg { display: block; position: relative; top: 50%; transform: translateY(-50%); text-align: center; } .ui-widget-overlay { opacity: .8 !important; }",
+      "tokens": [
+        "youtube",
+        "container",
+        "position",
+        "relative",
+        "youtube",
+        "container",
+        "youtube",
+        "unavailable",
+        "youtube",
+        "container",
+        "youtube",
+        "available",
+        "font",
+        "weight",
+        "bold",
+        "color",
+        "fff",
+        "background",
+        "369",
+        "margin",
+        "top",
+        "padding",
+        "positioning",
+        "position",
+        "absolute",
+        "top",
+        "bottom",
+        "right",
+        "left",
+        "youtube",
+        "container",
+        "youtube",
+        "available",
+        "336699",
+        "background",
+        "rgba",
+        "51",
+        "102",
+        "153",
+        "cursor",
+        "pointer",
+        "youtube",
+        "container",
+        "youtube",
+        "available",
+        "youtube",
+        "msg",
+        "color",
+        "fff",
+        "background",
+        "336699",
+        "youtube",
+        "unavailable",
+        "youtube",
+        "msg",
+        "youtube",
+        "available",
+        "youtube",
+        "msg",
+        "display",
+        "block",
+        "position",
+        "relative",
+        "top",
+        "50",
+        "transform",
+        "translatey",
+        "50",
+        "text",
+        "align",
+        "center",
+        "ui",
+        "widget",
+        "overlay",
+        "opacity",
+        "important"
+      ]
+    },
+    {
+      "charEnd": 866,
+      "charStart": 857,
+      "factId": "hz.web.dd11d704c93574ad.fact.2",
+      "kind": "bullet",
+      "text": "youtube",
+      "tokens": [
+        "youtube"
+      ]
+    },
+    {
+      "charEnd": 878,
+      "charStart": 867,
+      "factId": "hz.web.dd11d704c93574ad.fact.3",
+      "kind": "bullet",
+      "text": "container",
+      "tokens": [
+        "container"
+      ]
+    },
+    {
+      "charEnd": 890,
+      "charStart": 879,
+      "factId": "hz.web.dd11d704c93574ad.fact.4",
+      "kind": "bullet",
+      "text": "available",
+      "tokens": [
+        "available"
+      ]
+    },
+    {
+      "charEnd": 903,
+      "charStart": 891,
+      "factId": "hz.web.dd11d704c93574ad.fact.5",
+      "kind": "bullet",
+      "text": "background",
+      "tokens": [
+        "background"
+      ]
+    },
+    {
+      "charEnd": 909,
+      "charStart": 904,
+      "factId": "hz.web.dd11d704c93574ad.fact.6",
+      "kind": "bullet",
+      "text": "msg",
+      "tokens": [
+        "msg"
+      ]
+    },
+    {
+      "charEnd": 920,
+      "charStart": 910,
+      "factId": "hz.web.dd11d704c93574ad.fact.7",
+      "kind": "bullet",
+      "text": "position",
+      "tokens": [
+        "position"
+      ]
+    },
+    {
+      "charEnd": 926,
+      "charStart": 921,
+      "factId": "hz.web.dd11d704c93574ad.fact.8",
+      "kind": "bullet",
+      "text": "top",
+      "tokens": [
+        "top"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 927,
+      "factId": "hz.web.dd11d704c93574ad.fact.9",
+      "kind": "bullet",
+      "text": "336699",
+      "tokens": [
+        "336699"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.dd11d704c93574ad.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.ncbi.nlm.nih.gov"
+    },
+    {
+      "charEnd": 148,
+      "charStart": 138,
+      "headingId": "hz.web.dd11d704c93574ad.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 855,
+      "charStart": 844,
+      "headingId": "hz.web.dd11d704c93574ad.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 947,
+      "charStart": 937,
+      "headingId": "hz.web.dd11d704c93574ad.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/dd11d704c93574ad.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1909,
+        "start": 0
+      }
+    ],
+    "hash": "10c03aaf2273e73d51fdc9425be0dd8b67bcdf24317b487618a5a127005cc5cc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".youtube-container { position: relative; } .youtube-container .youtube-unavailable, .youtube-container .youtube-available { font-weight: bold; color: #fff; background: #369; margin-top: 0; padding: 0; /* positioning */ position: absolute; top: 0; bottom: 0; right: 0; left: 0; } .youtube-container .youtube-available { /* #336699 */ background: rgba(51, 102, 153, 0.1); cursor: pointer; } .youtube-container .youtube-available .youtube-msg { color: #fff; background: #336699; } .youtube-unavailable .youtube-msg, .youtube-available .youtube-msg { display: block; position: relative; top: 50%; transform: translateY(-50%); text-align: center; } .ui-widget-overlay { opacity: .8 !important; }",
+      "youtube",
+      "container"
+    ],
+    "medium": "Source: https://www.ncbi.nlm.nih.gov/home/check_youtube/check_youtube.css",
+    "short": "Source: https://www.ncbi.nlm.nih.gov/home/check_youtube/check_youtube.css",
+    "tokens": [
+      "www",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "home",
+      "check_youtube",
+      "check_youtube",
+      "css",
+      "source",
+      "https",
+      "www",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "home",
+      "check_youtube",
+      "check_youtube",
+      "css"
+    ]
+  },
+  "title": "www.ncbi.nlm.nih.gov"
+}

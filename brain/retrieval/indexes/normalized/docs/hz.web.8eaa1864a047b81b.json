@@ -1,0 +1,525 @@
+{
+  "aliases": [
+    {
+      "alias": "8eaa1864a047b81b",
+      "aliasId": "hz.web.8eaa1864a047b81b.alias.1",
+      "canonical": "cloudfest"
+    },
+    {
+      "alias": "cloudfest",
+      "aliasId": "hz.web.8eaa1864a047b81b.alias.2",
+      "canonical": "cloudfest"
+    },
+    {
+      "alias": "web 8eaa1864a047b81b",
+      "aliasId": "hz.web.8eaa1864a047b81b.alias.3",
+      "canonical": "cloudfest"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.8eaa1864a047b81b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8eaa1864a047b81b.entity.1",
+      "kind": "document",
+      "name": "CloudFest",
+      "tokens": [
+        "cloudfest"
+      ]
+    },
+    {
+      "entityId": "hz.web.8eaa1864a047b81b.entity.2",
+      "kind": "heading",
+      "name": "CloudFest",
+      "tokens": [
+        "cloudfest"
+      ]
+    },
+    {
+      "entityId": "hz.web.8eaa1864a047b81b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8eaa1864a047b81b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8eaa1864a047b81b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 14,
+      "factId": "hz.web.8eaa1864a047b81b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cloudfest.com/feed",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1651,
+      "charStart": 104,
+      "factId": "hz.web.8eaa1864a047b81b.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" > <channel> <title>CloudFest</title> <atom:link href=\"https://www.cloudfest.com/feed\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://www.cloudfest.com/</link> <description>Uniting the Nations of Cloud</description> <lastBuildDate>Wed, 25 Mar 2026 15:53:55 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=6.9.4</generator> <image> <url>https://www.cloudfest.com/wp-content/uploads/2025/01/cropped-Fav_icon_2025-150x150.jpg</url> <title>CloudFest</title> <link>https://www.cloudfest.com/</link> <width>32</width> <height>32</height> </image> <item> <title>Registration Now Open for MSP GLOBAL 2026</title> <link>https://www.cloudfest.com/blog/registration-now-open-for-msp-global-2026</link> <comments>https://www.cloudfest.com/blog/registration-now-open-for-msp-global-2026#respond</comments> <dc:creator><![CDATA[Miles Kendall]]></dc:creator> <pubDate>Wed, 25 Mar 2026 15:53:55 +0000</pubDate> <category><![CDATA[Industry News]]></category> <guid isPermaLink=\"false\">https://www.cloudfest.com/?p=86284</guid> <description><![CDATA[<p>MSPs love CloudFest.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "wfw",
+        "http",
+        "wellformedweb",
+        "org",
+        "commentapi",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "xmlns",
+        "slash",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "slash",
+        "channel",
+        "title",
+        "cloudfest",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "link",
+        "description",
+        "uniting",
+        "nations",
+        "cloud",
+        "description",
+        "lastbuilddate",
+        "wed",
+        "25",
+        "mar",
+        "2026",
+        "15",
+        "53",
+        "55",
+        "0000",
+        "lastbuilddate",
+        "language",
+        "en",
+        "us",
+        "language",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "generator",
+        "https",
+        "wordpress",
+        "org",
+        "generator",
+        "image",
+        "url",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "wp",
+        "content",
+        "uploads",
+        "2025",
+        "01",
+        "cropped",
+        "fav_icon_2025",
+        "150x150",
+        "jpg",
+        "url",
+        "title",
+        "cloudfest",
+        "title",
+        "link",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "link",
+        "width",
+        "32",
+        "width",
+        "height",
+        "32",
+        "height",
+        "image",
+        "item",
+        "title",
+        "registration",
+        "now",
+        "open",
+        "msp",
+        "global",
+        "2026",
+        "title",
+        "link",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "blog",
+        "registration",
+        "now",
+        "open",
+        "msp",
+        "global",
+        "2026",
+        "link",
+        "comments",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "blog",
+        "registration",
+        "now",
+        "open",
+        "msp",
+        "global",
+        "2026",
+        "respond",
+        "comments",
+        "dc",
+        "creator",
+        "cdata",
+        "miles",
+        "kendall",
+        "dc",
+        "creator",
+        "pubdate",
+        "wed",
+        "25",
+        "mar",
+        "2026",
+        "15",
+        "53",
+        "55",
+        "0000",
+        "pubdate",
+        "category",
+        "cdata",
+        "industry",
+        "news",
+        "category",
+        "guid",
+        "ispermalink",
+        "false",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "86284",
+        "guid",
+        "description",
+        "cdata",
+        "msps",
+        "love",
+        "cloudfest"
+      ]
+    },
+    {
+      "charEnd": 1826,
+      "charStart": 1652,
+      "factId": "hz.web.8eaa1864a047b81b.fact.2",
+      "kind": "bullet",
+      "text": "That&#8217;s why we created MSP GLOBAL—a sister festival for the managed service and digital transformation community where serious business takes place in the Spanish sun.",
+      "tokens": [
+        "8217",
+        "why",
+        "created",
+        "msp",
+        "global",
+        "sister",
+        "festival",
+        "managed",
+        "service",
+        "digital",
+        "transformation",
+        "community",
+        "serious",
+        "business",
+        "takes",
+        "place",
+        "spanish",
+        "sun"
+      ]
+    },
+    {
+      "charEnd": 1915,
+      "charStart": 1827,
+      "factId": "hz.web.8eaa1864a047b81b.fact.3",
+      "kind": "bullet",
+      "text": "Last year&#8217;s event was a blast, and registration is now open for MPS GLOBAL 2026.",
+      "tokens": [
+        "last",
+        "year",
+        "8217",
+        "event",
+        "blast",
+        "registration",
+        "now",
+        "open",
+        "mps",
+        "global",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1998,
+      "charStart": 1916,
+      "factId": "hz.web.8eaa1864a047b81b.fact.4",
+      "kind": "bullet",
+      "text": "The action takes place at PortAventura theme park near Barcelona, October 21-22.",
+      "tokens": [
+        "action",
+        "takes",
+        "place",
+        "portaventura",
+        "theme",
+        "park",
+        "near",
+        "barcelona",
+        "october",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "charEnd": 2024,
+      "charStart": 2013,
+      "factId": "hz.web.8eaa1864a047b81b.fact.5",
+      "kind": "bullet",
+      "text": "cloudfest",
+      "tokens": [
+        "cloudfest"
+      ]
+    },
+    {
+      "charEnd": 2029,
+      "charStart": 2025,
+      "factId": "hz.web.8eaa1864a047b81b.fact.6",
+      "kind": "bullet",
+      "text": "li",
+      "tokens": [
+        "li"
+      ]
+    },
+    {
+      "charEnd": 2037,
+      "charStart": 2030,
+      "factId": "hz.web.8eaa1864a047b81b.fact.7",
+      "kind": "bullet",
+      "text": "cloud",
+      "tokens": [
+        "cloud"
+      ]
+    },
+    {
+      "charEnd": 2045,
+      "charStart": 2038,
+      "factId": "hz.web.8eaa1864a047b81b.fact.8",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 2051,
+      "charStart": 2046,
+      "factId": "hz.web.8eaa1864a047b81b.fact.9",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 2057,
+      "charStart": 2052,
+      "factId": "hz.web.8eaa1864a047b81b.fact.10",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 2064,
+      "charStart": 2058,
+      "factId": "hz.web.8eaa1864a047b81b.fact.11",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 2069,
+      "charStart": 2065,
+      "factId": "hz.web.8eaa1864a047b81b.fact.12",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.8eaa1864a047b81b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "CloudFest"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.8eaa1864a047b81b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2011,
+      "charStart": 2000,
+      "headingId": "hz.web.8eaa1864a047b81b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2081,
+      "charStart": 2071,
+      "headingId": "hz.web.8eaa1864a047b81b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/8eaa1864a047b81b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5307,
+        "start": 0
+      }
+    ],
+    "hash": "f5f6ff498af2bfbc2818c2c92da044af5e0266fdc2a0a68fc3ea48bf85b5b281",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" > <channel> <title>CloudFest</title> <atom:link href=\"https://www.cloudfest.com/feed\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://www.cloudfest.com/</link> <description>Uniting the Nations of Cloud</description> <lastBuildDate>Wed, 25 Mar 2026 15:53:55 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=6.9.4</generator> <image> <url>https://www.cloudfest.com/wp-content/uploads/2025/01/cropped-Fav_icon_2025-150x150.jpg</url> <title>CloudFest</title> <link>https://www.cloudfest.com/</link> <width>32</width> <height>32</height> </image> <item> <title>Registration Now Open for MSP GLOBAL 2026</title> <link>https://www.cloudfest.com/blog/registration-now-open-for-msp-global-2026</link> <comments>https://www.cloudfest.com/blog/registration-now-open-for-msp-global-2026#respond</comments> <dc:creator><![CDATA[Miles Kendall]]></dc:creator> <pubDate>Wed, 25 Mar 2026 15:53:55 +0000</pubDate> <category><![CDATA[Industry News]]></category> <guid isPermaLink=\"false\">https://www.cloudfest.com/?p=86284</guid> <description><![CDATA[<p>MSPs love CloudFest.",
+      "That&#8217;s why we created MSP GLOBAL—a sister festival for the managed service and digital transformation community where serious business takes place in the Spanish sun.",
+      "Last year&#8217;s event was a blast, and registration is now open for MPS GLOBAL 2026."
+    ],
+    "medium": "Source: https://www.cloudfest.com/feed",
+    "short": "Source: https://www.cloudfest.com/feed",
+    "tokens": [
+      "cloudfest",
+      "source",
+      "https",
+      "www",
+      "cloudfest",
+      "com",
+      "feed",
+      "source",
+      "https",
+      "www",
+      "cloudfest",
+      "com",
+      "feed"
+    ]
+  },
+  "title": "CloudFest"
+}

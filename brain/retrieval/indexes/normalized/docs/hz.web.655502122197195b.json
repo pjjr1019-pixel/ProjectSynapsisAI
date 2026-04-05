@@ -1,0 +1,332 @@
+{
+  "aliases": [
+    {
+      "alias": "655502122197195b",
+      "aliasId": "hz.web.655502122197195b.alias.1",
+      "canonical": "web-assets.ifttt.com"
+    },
+    {
+      "alias": "web 655502122197195b",
+      "aliasId": "hz.web.655502122197195b.alias.2",
+      "canonical": "web-assets.ifttt.com"
+    },
+    {
+      "alias": "web-assets.ifttt.com",
+      "aliasId": "hz.web.655502122197195b.alias.3",
+      "canonical": "web-assets.ifttt.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.655502122197195b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.655502122197195b.entity.1",
+      "kind": "document",
+      "name": "web-assets.ifttt.com",
+      "tokens": [
+        "web",
+        "assets",
+        "ifttt",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.655502122197195b.entity.2",
+      "kind": "heading",
+      "name": "web-assets.ifttt.com",
+      "tokens": [
+        "web",
+        "assets",
+        "ifttt",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.655502122197195b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.655502122197195b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.655502122197195b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 117,
+      "charStart": 25,
+      "factId": "hz.web.655502122197195b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://web-assets.ifttt.com/builds/assets/setup_unified_header_dropdown-BvRXZELe.js",
+      "tokens": [
+        "source",
+        "https",
+        "web",
+        "assets",
+        "ifttt",
+        "com",
+        "builds",
+        "assets",
+        "setup_unified_header_dropdown",
+        "bvrxzele",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 884,
+      "charStart": 169,
+      "factId": "hz.web.655502122197195b.fact.1",
+      "kind": "bullet",
+      "text": "function e(e){let t=!1,n=document.querySelector(e);if(!n)return;let r=n.getElementsByClassName(`menu-title`),i=document.getElementsByClassName(`right-group`)[0],a=e=>{t=e,t?(n.classList.add(`open`),n.classList.remove(`closed`),i.classList.add(`open`),i.classList.remove(`closed`),window.document.addEventListener(`click`,o)):(n.classList.add(`closed`),n.classList.remove(`open`),i.classList.add(`closed`),i.classList.remove(`open`),window.document.removeEventListener(`click`,o))},o=e=>{t&&(n.contains(e.target)||a(!1))},s=e=>{e.target.classList.contains(`item`)||a(!t)};for(let e=0;e<r.length;e++)r[e].addEventListener(`click`,s)}export{e as t}; //# sourceMappingURL=setup_unified_header_dropdown-BvRXZELe.js.map",
+      "tokens": [
+        "function",
+        "let",
+        "document",
+        "queryselector",
+        "if",
+        "return",
+        "let",
+        "getelementsbyclassname",
+        "menu",
+        "title",
+        "document",
+        "getelementsbyclassname",
+        "right",
+        "group",
+        "classlist",
+        "add",
+        "open",
+        "classlist",
+        "remove",
+        "closed",
+        "classlist",
+        "add",
+        "open",
+        "classlist",
+        "remove",
+        "closed",
+        "window",
+        "document",
+        "addeventlistener",
+        "click",
+        "classlist",
+        "add",
+        "closed",
+        "classlist",
+        "remove",
+        "open",
+        "classlist",
+        "add",
+        "closed",
+        "classlist",
+        "remove",
+        "open",
+        "window",
+        "document",
+        "removeeventlistener",
+        "click",
+        "contains",
+        "target",
+        "target",
+        "classlist",
+        "contains",
+        "item",
+        "let",
+        "length",
+        "addeventlistener",
+        "click",
+        "export",
+        "sourcemappingurl",
+        "setup_unified_header_dropdown",
+        "bvrxzele",
+        "js",
+        "map"
+      ]
+    },
+    {
+      "charEnd": 910,
+      "charStart": 899,
+      "factId": "hz.web.655502122197195b.fact.2",
+      "kind": "bullet",
+      "text": "classlist",
+      "tokens": [
+        "classlist"
+      ]
+    },
+    {
+      "charEnd": 916,
+      "charStart": 911,
+      "factId": "hz.web.655502122197195b.fact.3",
+      "kind": "bullet",
+      "text": "add",
+      "tokens": [
+        "add"
+      ]
+    },
+    {
+      "charEnd": 925,
+      "charStart": 917,
+      "factId": "hz.web.655502122197195b.fact.4",
+      "kind": "bullet",
+      "text": "closed",
+      "tokens": [
+        "closed"
+      ]
+    },
+    {
+      "charEnd": 936,
+      "charStart": 926,
+      "factId": "hz.web.655502122197195b.fact.5",
+      "kind": "bullet",
+      "text": "document",
+      "tokens": [
+        "document"
+      ]
+    },
+    {
+      "charEnd": 943,
+      "charStart": 937,
+      "factId": "hz.web.655502122197195b.fact.6",
+      "kind": "bullet",
+      "text": "open",
+      "tokens": [
+        "open"
+      ]
+    },
+    {
+      "charEnd": 952,
+      "charStart": 944,
+      "factId": "hz.web.655502122197195b.fact.7",
+      "kind": "bullet",
+      "text": "remove",
+      "tokens": [
+        "remove"
+      ]
+    },
+    {
+      "charEnd": 960,
+      "charStart": 953,
+      "factId": "hz.web.655502122197195b.fact.8",
+      "kind": "bullet",
+      "text": "click",
+      "tokens": [
+        "click"
+      ]
+    },
+    {
+      "charEnd": 966,
+      "charStart": 961,
+      "factId": "hz.web.655502122197195b.fact.9",
+      "kind": "bullet",
+      "text": "let",
+      "tokens": [
+        "let"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.655502122197195b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "web-assets.ifttt.com"
+    },
+    {
+      "charEnd": 167,
+      "charStart": 157,
+      "headingId": "hz.web.655502122197195b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 897,
+      "charStart": 886,
+      "headingId": "hz.web.655502122197195b.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 978,
+      "charStart": 968,
+      "headingId": "hz.web.655502122197195b.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/655502122197195b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1982,
+        "start": 0
+      }
+    ],
+    "hash": "471365e35ea022c2497f43bcd97ed618b7fbac631afd7eef349660f303d8093f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "function e(e){let t=!1,n=document.querySelector(e);if(!n)return;let r=n.getElementsByClassName(`menu-title`),i=document.getElementsByClassName(`right-group`)[0],a=e=>{t=e,t?(n.classList.add(`open`),n.classList.remove(`closed`),i.classList.add(`open`),i.classList.remove(`closed`),window.document.addEventListener(`click`,o)):(n.classList.add(`closed`),n.classList.remove(`open`),i.classList.add(`closed`),i.classList.remove(`open`),window.document.removeEventListener(`click`,o))},o=e=>{t&&(n.contains(e.target)||a(!1))},s=e=>{e.target.classList.contains(`item`)||a(!t)};for(let e=0;e<r.length;e++)r[e].addEventListener(`click`,s)}export{e as t}; //# sourceMappingURL=setup_unified_header_dropdown-BvRXZELe.js.map",
+      "classlist",
+      "add"
+    ],
+    "medium": "Source: https://web-assets.ifttt.com/builds/assets/setup_unified_header_dropdown-BvRXZELe.js",
+    "short": "Source: https://web-assets.ifttt.com/builds/assets/setup_unified_header_dropdown-BvRXZELe.js",
+    "tokens": [
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "source",
+      "https",
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "builds",
+      "assets",
+      "setup_unified_header_dropdown",
+      "bvrxzele",
+      "js",
+      "source",
+      "https",
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "builds",
+      "assets",
+      "setup_unified_header_dropdown",
+      "bvrxzele",
+      "js"
+    ]
+  },
+  "title": "web-assets.ifttt.com"
+}

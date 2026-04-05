@@ -1,0 +1,293 @@
+{
+  "aliases": [
+    {
+      "alias": "e62d381f359b14d9",
+      "aliasId": "hz.web.e62d381f359b14d9.alias.1",
+      "canonical": "新闻网"
+    },
+    {
+      "alias": "web e62d381f359b14d9",
+      "aliasId": "hz.web.e62d381f359b14d9.alias.2",
+      "canonical": "新闻网"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.e62d381f359b14d9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e62d381f359b14d9.entity.1",
+      "kind": "document",
+      "name": "新闻网",
+      "tokens": []
+    },
+    {
+      "entityId": "hz.web.e62d381f359b14d9.entity.2",
+      "kind": "heading",
+      "name": "新闻网",
+      "tokens": []
+    },
+    {
+      "entityId": "hz.web.e62d381f359b14d9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e62d381f359b14d9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e62d381f359b14d9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 40,
+      "charStart": 8,
+      "factId": "hz.web.e62d381f359b14d9.fact.1",
+      "kind": "summary",
+      "text": "Source: http://news.buaa.edu.cn/",
+      "tokens": [
+        "source",
+        "http",
+        "news",
+        "buaa",
+        "edu",
+        "cn"
+      ]
+    },
+    {
+      "charEnd": 317,
+      "charStart": 92,
+      "factId": "hz.web.e62d381f359b14d9.fact.1",
+      "kind": "bullet",
+      "text": "新闻网 --> 北航官网 > ENGLISH > 首页 综合新闻 专题新闻 北航人物 校园风采 科教在线 媒体北航 光影北航 视频新闻 文艺园地 通知公告 网上投稿 首页 综合新闻 专题新闻 北航人物 校园风采 科教在线 媒体北航 光影北航 视频新闻 文艺园地 通知公告 网上投稿 北航官网 &gt; ENGLISH &gt; 党委书记赵长禄到马克思主义学院调研并主持召开专题交流会 北京航空航天大学举行树立和践行正确政绩观学习教育专题辅导...",
+      "tokens": [
+        "english",
+        "gt",
+        "english",
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 416,
+      "charStart": 318,
+      "factId": "hz.web.e62d381f359b14d9.fact.2",
+      "kind": "bullet",
+      "text": "综合新闻 更多 + 30 2026.03 北航举办2026年安全生产管理人员专题培训 29 2026.03 北航《机制贯通、全员汇聚、精准施策 系统推动“一站式”学生社区建设提质增效》入...",
+      "tokens": [
+        "30",
+        "2026",
+        "03",
+        "2026",
+        "29",
+        "2026",
+        "03"
+      ]
+    },
+    {
+      "charEnd": 474,
+      "charStart": 417,
+      "factId": "hz.web.e62d381f359b14d9.fact.3",
+      "kind": "bullet",
+      "text": "27 2026.03 青春逐梦 职击未来——北航举办2026届毕业生春季沙河暨低空经济特色专场大型综合双...",
+      "tokens": [
+        "27",
+        "2026",
+        "03",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 684,
+      "charStart": 475,
+      "factId": "hz.web.e62d381f359b14d9.fact.4",
+      "kind": "bullet",
+      "text": "27 2026.03 北航荣获2025年首都高等学校阳光体育联赛“阳光杯”和“朝阳杯” 27 2026.03 北航第3期教师青马班专题讲座举行 27 2026.03 中国美术家协会漫画艺委会秘书长王立军做客北航美育大讲堂漫谈中国绘本 科教在线 更多 + 士谔书院举办《如何写一篇优秀的科技论文》博雅讲座 2026.03.29 宇航学院举办“AI for Science进展讨论”专题讲座 聚焦人工智能赋能科学...",
+      "tokens": [
+        "27",
+        "2026",
+        "03",
+        "2025",
+        "27",
+        "2026",
+        "03",
+        "27",
+        "2026",
+        "03",
+        "2026",
+        "03",
+        "29",
+        "ai",
+        "science"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 699,
+      "factId": "hz.web.e62d381f359b14d9.fact.5",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 710,
+      "charStart": 706,
+      "factId": "hz.web.e62d381f359b14d9.fact.6",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 715,
+      "charStart": 711,
+      "factId": "hz.web.e62d381f359b14d9.fact.7",
+      "kind": "bullet",
+      "text": "27",
+      "tokens": [
+        "27"
+      ]
+    },
+    {
+      "charEnd": 720,
+      "charStart": 716,
+      "factId": "hz.web.e62d381f359b14d9.fact.8",
+      "kind": "bullet",
+      "text": "29",
+      "tokens": [
+        "29"
+      ]
+    },
+    {
+      "charEnd": 727,
+      "charStart": 721,
+      "factId": "hz.web.e62d381f359b14d9.fact.9",
+      "kind": "bullet",
+      "text": "2025",
+      "tokens": [
+        "2025"
+      ]
+    },
+    {
+      "charEnd": 732,
+      "charStart": 728,
+      "factId": "hz.web.e62d381f359b14d9.fact.10",
+      "kind": "bullet",
+      "text": "23",
+      "tokens": [
+        "23"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 733,
+      "factId": "hz.web.e62d381f359b14d9.fact.11",
+      "kind": "bullet",
+      "text": "16",
+      "tokens": [
+        "16"
+      ]
+    },
+    {
+      "charEnd": 742,
+      "charStart": 738,
+      "factId": "hz.web.e62d381f359b14d9.fact.12",
+      "kind": "bullet",
+      "text": "20",
+      "tokens": [
+        "20"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 6,
+      "charStart": 1,
+      "headingId": "hz.web.e62d381f359b14d9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "新闻网"
+    },
+    {
+      "charEnd": 90,
+      "charStart": 80,
+      "headingId": "hz.web.e62d381f359b14d9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 697,
+      "charStart": 686,
+      "headingId": "hz.web.e62d381f359b14d9.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 754,
+      "charStart": 744,
+      "headingId": "hz.web.e62d381f359b14d9.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/e62d381f359b14d9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2820,
+        "start": 0
+      }
+    ],
+    "hash": "e01ac219339919f6f62b0e01186f2655bcd3c262c6c51df433a5483928062761",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "新闻网 --> 北航官网 > ENGLISH > 首页 综合新闻 专题新闻 北航人物 校园风采 科教在线 媒体北航 光影北航 视频新闻 文艺园地 通知公告 网上投稿 首页 综合新闻 专题新闻 北航人物 校园风采 科教在线 媒体北航 光影北航 视频新闻 文艺园地 通知公告 网上投稿 北航官网 &gt; ENGLISH &gt; 党委书记赵长禄到马克思主义学院调研并主持召开专题交流会 北京航空航天大学举行树立和践行正确政绩观学习教育专题辅导...",
+      "综合新闻 更多 + 30 2026.03 北航举办2026年安全生产管理人员专题培训 29 2026.03 北航《机制贯通、全员汇聚、精准施策 系统推动“一站式”学生社区建设提质增效》入...",
+      "27 2026.03 青春逐梦 职击未来——北航举办2026届毕业生春季沙河暨低空经济特色专场大型综合双..."
+    ],
+    "medium": "Source: http://news.buaa.edu.cn/",
+    "short": "Source: http://news.buaa.edu.cn/",
+    "tokens": [
+      "source",
+      "http",
+      "news",
+      "buaa",
+      "edu",
+      "cn",
+      "source",
+      "http",
+      "news",
+      "buaa",
+      "edu",
+      "cn"
+    ]
+  },
+  "title": "新闻网"
+}

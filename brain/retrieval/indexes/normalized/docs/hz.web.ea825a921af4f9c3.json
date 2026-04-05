@@ -1,0 +1,474 @@
+{
+  "aliases": [
+    {
+      "alias": "ea825a921af4f9c3",
+      "aliasId": "hz.web.ea825a921af4f9c3.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.ea825a921af4f9c3.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web ea825a921af4f9c3",
+      "aliasId": "hz.web.ea825a921af4f9c3.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.52,
+  "docId": "hz.web.ea825a921af4f9c3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ea825a921af4f9c3.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea825a921af4f9c3.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea825a921af4f9c3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea825a921af4f9c3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea825a921af4f9c3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 137,
+      "charStart": 25,
+      "factId": "hz.web.ea825a921af4f9c3.fact.1",
+      "kind": "summary",
+      "text": "Source: http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic|Source+Code+Pro:400,600",
+      "tokens": [
+        "source",
+        "http",
+        "fonts",
+        "googleapis",
+        "com",
+        "css",
+        "family",
+        "source",
+        "sans",
+        "pro",
+        "300",
+        "400",
+        "600",
+        "700",
+        "400italic",
+        "source",
+        "code",
+        "pro",
+        "400",
+        "600"
+      ]
+    },
+    {
+      "charEnd": 1620,
+      "charStart": 189,
+      "factId": "hz.web.ea825a921af4f9c3.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Source Code Pro'; font-style: normal; font-weight: 400; src: url(http://fonts.gstatic.com/s/sourcecodepro/v31/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrSQ.ttf) format('truetype'); } @font-face { font-family: 'Source Code Pro'; font-style: normal; font-weight: 600; src: url(http://fonts.gstatic.com/s/sourcecodepro/v31/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DBKXtMlrSQ.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: italic; font-weight: 400; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDc.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 300; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 400; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 600; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 700; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "source",
+        "code",
+        "pro",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "http",
+        "fonts",
+        "gstatic",
+        "com",
+        "sourcecodepro",
+        "v31",
+        "hi_diyskilxrpg3hip6sj7fm7pqpmcmnzfquwx28dmyqtmlrsq",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "source",
+        "code",
+        "pro",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "600",
+        "src",
+        "url",
+        "http",
+        "fonts",
+        "gstatic",
+        "com",
+        "sourcecodepro",
+        "v31",
+        "hi_diyskilxrpg3hip6sj7fm7pqpmcmnzfquwx28dbkxtmlrsq",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "source",
+        "sans",
+        "pro",
+        "font",
+        "style",
+        "italic",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "http",
+        "fonts",
+        "gstatic",
+        "com",
+        "sourcesanspro",
+        "v23",
+        "6xk1dsbykcsv",
+        "lcoeqqfx1ryoo3qpz7nsdc",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "source",
+        "sans",
+        "pro",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "300",
+        "src",
+        "url",
+        "http",
+        "fonts",
+        "gstatic",
+        "com",
+        "sourcesanspro",
+        "v23",
+        "6xkydsbykcsv",
+        "lcoeqqfx1ryoo3ik4zwlxdr",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "source",
+        "sans",
+        "pro",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "http",
+        "fonts",
+        "gstatic",
+        "com",
+        "sourcesanspro",
+        "v23",
+        "6xk3dsbykcsv",
+        "lcoeqqfx1ryoo3qok7g",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "source",
+        "sans",
+        "pro",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "600",
+        "src",
+        "url",
+        "http",
+        "fonts",
+        "gstatic",
+        "com",
+        "sourcesanspro",
+        "v23",
+        "6xkydsbykcsv",
+        "lcoeqqfx1ryoo3i54rwlxdr",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "source",
+        "sans",
+        "pro",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "src",
+        "url",
+        "http",
+        "fonts",
+        "gstatic",
+        "com",
+        "sourcesanspro",
+        "v23",
+        "6xkydsbykcsv",
+        "lcoeqqfx1ryoo3ig4vwlxdr",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 1641,
+      "charStart": 1635,
+      "factId": "hz.web.ea825a921af4f9c3.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1647,
+      "charStart": 1642,
+      "factId": "hz.web.ea825a921af4f9c3.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1654,
+      "charStart": 1648,
+      "factId": "hz.web.ea825a921af4f9c3.fact.4",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 1663,
+      "charStart": 1655,
+      "factId": "hz.web.ea825a921af4f9c3.fact.5",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 1671,
+      "charStart": 1664,
+      "factId": "hz.web.ea825a921af4f9c3.fact.6",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 1680,
+      "charStart": 1672,
+      "factId": "hz.web.ea825a921af4f9c3.fact.7",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    },
+    {
+      "charEnd": 1690,
+      "charStart": 1681,
+      "factId": "hz.web.ea825a921af4f9c3.fact.8",
+      "kind": "bullet",
+      "text": "gstatic",
+      "tokens": [
+        "gstatic"
+      ]
+    },
+    {
+      "charEnd": 1697,
+      "charStart": 1691,
+      "factId": "hz.web.ea825a921af4f9c3.fact.9",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.ea825a921af4f9c3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 187,
+      "charStart": 177,
+      "headingId": "hz.web.ea825a921af4f9c3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1633,
+      "charStart": 1622,
+      "headingId": "hz.web.ea825a921af4f9c3.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1709,
+      "charStart": 1699,
+      "headingId": "hz.web.ea825a921af4f9c3.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ea825a921af4f9c3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3449,
+        "start": 0
+      }
+    ],
+    "hash": "7c4c45dabef34ac88bd25f0c4a02e0934c85cf27d30573a9d1024fe9b7e87072",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Source Code Pro'; font-style: normal; font-weight: 400; src: url(http://fonts.gstatic.com/s/sourcecodepro/v31/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQtMlrSQ.ttf) format('truetype'); } @font-face { font-family: 'Source Code Pro'; font-style: normal; font-weight: 600; src: url(http://fonts.gstatic.com/s/sourcecodepro/v31/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DBKXtMlrSQ.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: italic; font-weight: 400; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDc.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 300; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 400; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 600; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype'); } @font-face { font-family: 'Source Sans Pro'; font-style: normal; font-weight: 700; src: url(http://fonts.gstatic.com/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype'); }",
+      "font",
+      "com"
+    ],
+    "medium": "Source: http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic|Source+Code+Pro:400,600",
+    "short": "Source: http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic|Source+Code+Pro:400,600",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "http",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "source",
+      "sans",
+      "pro",
+      "300",
+      "400",
+      "600",
+      "700",
+      "400italic",
+      "source",
+      "code",
+      "pro",
+      "400",
+      "600",
+      "source",
+      "http",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "source",
+      "sans",
+      "pro",
+      "300",
+      "400",
+      "600",
+      "700",
+      "400italic",
+      "source",
+      "code",
+      "pro",
+      "400",
+      "600"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

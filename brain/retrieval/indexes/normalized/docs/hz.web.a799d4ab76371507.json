@@ -1,0 +1,338 @@
+{
+  "aliases": [
+    {
+      "alias": "a799d4ab76371507",
+      "aliasId": "hz.web.a799d4ab76371507.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.a799d4ab76371507.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web a799d4ab76371507",
+      "aliasId": "hz.web.a799d4ab76371507.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.a799d4ab76371507",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a799d4ab76371507.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a799d4ab76371507.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a799d4ab76371507.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a799d4ab76371507.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a799d4ab76371507.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 109,
+      "charStart": 25,
+      "factId": "hz.web.a799d4ab76371507.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "css2",
+        "family",
+        "noto",
+        "sans",
+        "wght",
+        "400",
+        "700",
+        "display",
+        "swap"
+      ]
+    },
+    {
+      "charEnd": 668,
+      "charStart": 161,
+      "factId": "hz.web.a799d4ab76371507.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Noto Sans'; font-style: normal; font-weight: 400; font-stretch: normal; font-display: swap; src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf) format('truetype'); } @font-face { font-family: 'Noto Sans'; font-style: normal; font-weight: 700; font-stretch: normal; font-display: swap; src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "noto",
+        "sans",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "font",
+        "stretch",
+        "normal",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "notosans",
+        "v42",
+        "0mipqlx3qulc5a4pnb6ryti20_6n1iphjcz6l1som",
+        "jcpoiyd9a99d",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "noto",
+        "sans",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "font",
+        "stretch",
+        "normal",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "notosans",
+        "v42",
+        "0mipqlx3qulc5a4pnb6ryti20_6n1iphjcz6l1som",
+        "jcpoiyaabn9d",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 689,
+      "charStart": 683,
+      "factId": "hz.web.a799d4ab76371507.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 690,
+      "factId": "hz.web.a799d4ab76371507.fact.3",
+      "kind": "bullet",
+      "text": "normal",
+      "tokens": [
+        "normal"
+      ]
+    },
+    {
+      "charEnd": 742,
+      "charStart": 699,
+      "factId": "hz.web.a799d4ab76371507.fact.4",
+      "kind": "bullet",
+      "text": "0mipqlx3qulc5a4pnb6ryti20_6n1iphjcz6l1som",
+      "tokens": [
+        "0mipqlx3qulc5a4pnb6ryti20_6n1iphjcz6l1som"
+      ]
+    },
+    {
+      "charEnd": 748,
+      "charStart": 743,
+      "factId": "hz.web.a799d4ab76371507.fact.5",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 758,
+      "charStart": 749,
+      "factId": "hz.web.a799d4ab76371507.fact.6",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 765,
+      "charStart": 759,
+      "factId": "hz.web.a799d4ab76371507.fact.7",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 774,
+      "charStart": 766,
+      "factId": "hz.web.a799d4ab76371507.fact.8",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 782,
+      "charStart": 775,
+      "factId": "hz.web.a799d4ab76371507.fact.9",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.a799d4ab76371507.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 159,
+      "charStart": 149,
+      "headingId": "hz.web.a799d4ab76371507.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 681,
+      "charStart": 670,
+      "headingId": "hz.web.a799d4ab76371507.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 794,
+      "charStart": 784,
+      "headingId": "hz.web.a799d4ab76371507.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a799d4ab76371507.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1582,
+        "start": 0
+      }
+    ],
+    "hash": "28f48ffc822cf2e9941ae2a93a3fcfa710cc4ff74318fb7f5f3d78876b3cd46b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Noto Sans'; font-style: normal; font-weight: 400; font-stretch: normal; font-display: swap; src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99d.ttf) format('truetype'); } @font-face { font-family: 'Noto Sans'; font-style: normal; font-weight: 700; font-stretch: normal; font-display: swap; src: url(https://fonts.gstatic.com/s/notosans/v42/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9d.ttf) format('truetype'); }",
+      "font",
+      "normal"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap",
+    "short": "Source: https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "noto",
+      "sans",
+      "wght",
+      "400",
+      "700",
+      "display",
+      "swap",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "noto",
+      "sans",
+      "wght",
+      "400",
+      "700",
+      "display",
+      "swap"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

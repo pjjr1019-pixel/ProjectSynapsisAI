@@ -1,0 +1,594 @@
+{
+  "aliases": [
+    {
+      "alias": "1b278a77f5abd8a8",
+      "aliasId": "hz.web.1b278a77f5abd8a8.alias.1",
+      "canonical": "lf16-cdn-tos.tiktokcdn-us.com"
+    },
+    {
+      "alias": "lf16-cdn-tos.tiktokcdn-us.com",
+      "aliasId": "hz.web.1b278a77f5abd8a8.alias.2",
+      "canonical": "lf16-cdn-tos.tiktokcdn-us.com"
+    },
+    {
+      "alias": "web 1b278a77f5abd8a8",
+      "aliasId": "hz.web.1b278a77f5abd8a8.alias.3",
+      "canonical": "lf16-cdn-tos.tiktokcdn-us.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.51,
+  "docId": "hz.web.1b278a77f5abd8a8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1b278a77f5abd8a8.entity.1",
+      "kind": "document",
+      "name": "lf16-cdn-tos.tiktokcdn-us.com",
+      "tokens": [
+        "lf16",
+        "cdn",
+        "tos",
+        "tiktokcdn",
+        "us",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.1b278a77f5abd8a8.entity.2",
+      "kind": "heading",
+      "name": "lf16-cdn-tos.tiktokcdn-us.com",
+      "tokens": [
+        "lf16",
+        "cdn",
+        "tos",
+        "tiktokcdn",
+        "us",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.1b278a77f5abd8a8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1b278a77f5abd8a8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1b278a77f5abd8a8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 137,
+      "charStart": 34,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://lf16-cdn-tos.tiktokcdn-us.com/obj/static-tx/tiktok-infra/csp/sdk-pre/slardar.web.pre.js",
+      "tokens": [
+        "source",
+        "https",
+        "lf16",
+        "cdn",
+        "tos",
+        "tiktokcdn",
+        "us",
+        "com",
+        "obj",
+        "static",
+        "tx",
+        "tiktok",
+        "infra",
+        "csp",
+        "sdk",
+        "pre",
+        "slardar",
+        "web",
+        "pre",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1528,
+      "charStart": 189,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.1",
+      "kind": "bullet",
+      "text": "try{var config=JSON.parse(document.getElementById(\"slardar-config\").textContent),slardarClient=config.slardarClient||\"Slardar\";!function(w,d,u,b,n,pc,ga,ae,po,s,p,e,t,pp){pc=\"precollect\",ga=\"getAttribute\",ae=\"addEventListener\",s=function(m){(p=[].slice.call(arguments)).push(Date.now(),location.href),(m==pc?s.p.a:s.q).push(p)},s.q=[],s.p={a:[]},w[n]=s,(e=document.createElement(\"script\")).onload=function(){config.disableInit||(w[n](\"init\",config),w[n](\"start\"))},e.src=u+\"?bid=\"+b+\"&globalName=\"+n,e.crossOrigin=\"anonymous\",d.getElementsByTagName(\"head\")[0].appendChild(e),ae in w&&(s.pcErr=function(e){e=e||w.event,(t=e.target||e.srcElement)instanceof Element||t instanceof HTMLElement?t[ga](\"integrity\")?w[n](pc,\"sri\",t[ga](\"href\")||t[ga](\"src\")):w[n](pc,\"st\",{tagName:t.tagName,url:t[ga](\"href\")||t[ga](\"src\")}):w[n](pc,\"err\",e.error)},s.pcRej=function(e){e=e||w.event,w[n](pc,\"err\",e.reason||e.detail&&e.detail.reason)},w[ae](\"error\",s.pcErr,!0),w[ae](\"unhandledrejection\",s.pcRej,!0)),\"PerformanceLongTaskTiming\"in w&&((pp=s.pp={entries:[]}).observer=new PerformanceObserver((function(l){pp.entries=pp.entries.concat(l.getEntries())})),pp.observer.observe({entryTypes:[\"longtask\",\"largest-contentful-paint\",\"layout-shift\"]}))}(window,document,config.sdkUrl,config.bid,slardarClient)}catch(e){console.log(\"[ERROR] SlardarWeb: \",e)}",
+      "tokens": [
+        "try",
+        "var",
+        "config",
+        "json",
+        "parse",
+        "document",
+        "getelementbyid",
+        "slardar",
+        "config",
+        "textcontent",
+        "slardarclient",
+        "config",
+        "slardarclient",
+        "slardar",
+        "function",
+        "pc",
+        "ga",
+        "ae",
+        "po",
+        "pp",
+        "pc",
+        "precollect",
+        "ga",
+        "getattribute",
+        "ae",
+        "addeventlistener",
+        "function",
+        "slice",
+        "call",
+        "arguments",
+        "push",
+        "date",
+        "now",
+        "location",
+        "href",
+        "pc",
+        "push",
+        "document",
+        "createelement",
+        "script",
+        "onload",
+        "function",
+        "config",
+        "disableinit",
+        "init",
+        "config",
+        "start",
+        "src",
+        "bid",
+        "globalname",
+        "crossorigin",
+        "anonymous",
+        "getelementsbytagname",
+        "head",
+        "appendchild",
+        "ae",
+        "pcerr",
+        "function",
+        "event",
+        "target",
+        "srcelement",
+        "instanceof",
+        "element",
+        "instanceof",
+        "htmlelement",
+        "ga",
+        "integrity",
+        "pc",
+        "sri",
+        "ga",
+        "href",
+        "ga",
+        "src",
+        "pc",
+        "st",
+        "tagname",
+        "tagname",
+        "url",
+        "ga",
+        "href",
+        "ga",
+        "src",
+        "pc",
+        "err",
+        "error",
+        "pcrej",
+        "function",
+        "event",
+        "pc",
+        "err",
+        "reason",
+        "detail",
+        "detail",
+        "reason",
+        "ae",
+        "error",
+        "pcerr",
+        "ae",
+        "unhandledrejection",
+        "pcrej",
+        "performancelongtasktiming",
+        "pp",
+        "pp",
+        "entries",
+        "observer",
+        "new",
+        "performanceobserver",
+        "function",
+        "pp",
+        "entries",
+        "pp",
+        "entries",
+        "concat",
+        "getentries",
+        "pp",
+        "observer",
+        "observe",
+        "entrytypes",
+        "longtask",
+        "largest",
+        "contentful",
+        "paint",
+        "layout",
+        "shift",
+        "window",
+        "document",
+        "config",
+        "sdkurl",
+        "config",
+        "bid",
+        "slardarclient",
+        "catch",
+        "console",
+        "log",
+        "error",
+        "slardarweb"
+      ]
+    },
+    {
+      "charEnd": 1551,
+      "charStart": 1543,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.2",
+      "kind": "bullet",
+      "text": "config",
+      "tokens": [
+        "config"
+      ]
+    },
+    {
+      "charEnd": 1556,
+      "charStart": 1552,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.3",
+      "kind": "bullet",
+      "text": "ga",
+      "tokens": [
+        "ga"
+      ]
+    },
+    {
+      "charEnd": 1561,
+      "charStart": 1557,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.4",
+      "kind": "bullet",
+      "text": "pc",
+      "tokens": [
+        "pc"
+      ]
+    },
+    {
+      "charEnd": 1572,
+      "charStart": 1562,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.5",
+      "kind": "bullet",
+      "text": "function",
+      "tokens": [
+        "function"
+      ]
+    },
+    {
+      "charEnd": 1577,
+      "charStart": 1573,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.6",
+      "kind": "bullet",
+      "text": "pp",
+      "tokens": [
+        "pp"
+      ]
+    },
+    {
+      "charEnd": 1582,
+      "charStart": 1578,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.7",
+      "kind": "bullet",
+      "text": "ae",
+      "tokens": [
+        "ae"
+      ]
+    },
+    {
+      "charEnd": 1593,
+      "charStart": 1583,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.8",
+      "kind": "bullet",
+      "text": "document",
+      "tokens": [
+        "document"
+      ]
+    },
+    {
+      "charEnd": 1603,
+      "charStart": 1594,
+      "factId": "hz.web.1b278a77f5abd8a8.fact.9",
+      "kind": "bullet",
+      "text": "entries",
+      "tokens": [
+        "entries"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 32,
+      "charStart": 1,
+      "headingId": "hz.web.1b278a77f5abd8a8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "lf16-cdn-tos.tiktokcdn-us.com"
+    },
+    {
+      "charEnd": 187,
+      "charStart": 177,
+      "headingId": "hz.web.1b278a77f5abd8a8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1541,
+      "charStart": 1530,
+      "headingId": "hz.web.1b278a77f5abd8a8.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1615,
+      "charStart": 1605,
+      "headingId": "hz.web.1b278a77f5abd8a8.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/1b278a77f5abd8a8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3263,
+        "start": 0
+      }
+    ],
+    "hash": "a73fd3abbe3277c9bac5480a016a2107ec6036a75096d183110e3ae962125e34",
+    "sourceType": "web"
+  },
+  "relations": [
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.1",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"init\",config",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.2",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"start\"",
+      "type": "references"
+    },
+    {
+      "label": "ga",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.3",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"integrity\"",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.4",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"sri\",t[ga](\"href\"",
+      "type": "references"
+    },
+    {
+      "label": "ga",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.5",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"src\"",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.6",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"st\",{tagName:t.tagName,url:t[ga](\"href\"",
+      "type": "references"
+    },
+    {
+      "label": "ga",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.7",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"src\"",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.8",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"err\",e.error",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.9",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"err\",e.reason||e.detail&&e.detail.reason",
+      "type": "references"
+    },
+    {
+      "label": "ae",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.10",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"error\",s.pcErr,!0",
+      "type": "references"
+    },
+    {
+      "label": "ae",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.11",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"unhandledrejection\",s.pcRej,!0",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.12",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"init\",config",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.13",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"start\"",
+      "type": "references"
+    },
+    {
+      "label": "ga",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.14",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"integrity\"",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.15",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"sri\",t[ga](\"href\"",
+      "type": "references"
+    },
+    {
+      "label": "ga",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.16",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"src\"",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.17",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"st\",{tagName:t.tagName,url:t[ga](\"href\"",
+      "type": "references"
+    },
+    {
+      "label": "ga",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.18",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"src\"",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.19",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"err\",e.error",
+      "type": "references"
+    },
+    {
+      "label": "n",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.20",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/pc,\"err\",e.reason||e.detail&&e.detail.reason",
+      "type": "references"
+    },
+    {
+      "label": "ae",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.21",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"error\",s.pcErr,!0",
+      "type": "references"
+    },
+    {
+      "label": "ae",
+      "relationId": "hz.web.1b278a77f5abd8a8.relation.22",
+      "sourceDocId": "hz.web.1b278a77f5abd8a8",
+      "targetPath": "runtime/learning/promoted/2026-03-30/\"unhandledrejection\",s.pcRej,!0",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "try{var config=JSON.parse(document.getElementById(\"slardar-config\").textContent),slardarClient=config.slardarClient||\"Slardar\";!function(w,d,u,b,n,pc,ga,ae,po,s,p,e,t,pp){pc=\"precollect\",ga=\"getAttribute\",ae=\"addEventListener\",s=function(m){(p=[].slice.call(arguments)).push(Date.now(),location.href),(m==pc?s.p.a:s.q).push(p)},s.q=[],s.p={a:[]},w[n]=s,(e=document.createElement(\"script\")).onload=function(){config.disableInit||(w[n](\"init\",config),w[n](\"start\"))},e.src=u+\"?bid=\"+b+\"&globalName=\"+n,e.crossOrigin=\"anonymous\",d.getElementsByTagName(\"head\")[0].appendChild(e),ae in w&&(s.pcErr=function(e){e=e||w.event,(t=e.target||e.srcElement)instanceof Element||t instanceof HTMLElement?t[ga](\"integrity\")?w[n](pc,\"sri\",t[ga](\"href\")||t[ga](\"src\")):w[n](pc,\"st\",{tagName:t.tagName,url:t[ga](\"href\")||t[ga](\"src\")}):w[n](pc,\"err\",e.error)},s.pcRej=function(e){e=e||w.event,w[n](pc,\"err\",e.reason||e.detail&&e.detail.reason)},w[ae](\"error\",s.pcErr,!0),w[ae](\"unhandledrejection\",s.pcRej,!0)),\"PerformanceLongTaskTiming\"in w&&((pp=s.pp={entries:[]}).observer=new PerformanceObserver((function(l){pp.entries=pp.entries.concat(l.getEntries())})),pp.observer.observe({entryTypes:[\"longtask\",\"largest-contentful-paint\",\"layout-shift\"]}))}(window,document,config.sdkUrl,config.bid,slardarClient)}catch(e){console.log(\"[ERROR] SlardarWeb: \",e)}",
+      "config",
+      "ga"
+    ],
+    "medium": "Source: https://lf16-cdn-tos.tiktokcdn-us.com/obj/static-tx/tiktok-infra/csp/sdk-pre/slardar.web.pre.js",
+    "short": "Source: https://lf16-cdn-tos.tiktokcdn-us.com/obj/static-tx/tiktok-infra/csp/sdk-pre/slardar.web.pre.js",
+    "tokens": [
+      "lf16",
+      "cdn",
+      "tos",
+      "tiktokcdn",
+      "us",
+      "com",
+      "source",
+      "https",
+      "lf16",
+      "cdn",
+      "tos",
+      "tiktokcdn",
+      "us",
+      "com",
+      "obj",
+      "static",
+      "tx",
+      "tiktok",
+      "infra",
+      "csp",
+      "sdk",
+      "pre",
+      "slardar",
+      "web",
+      "pre",
+      "js",
+      "source",
+      "https",
+      "lf16",
+      "cdn",
+      "tos",
+      "tiktokcdn",
+      "us",
+      "com",
+      "obj",
+      "static",
+      "tx",
+      "tiktok",
+      "infra",
+      "csp",
+      "sdk",
+      "pre",
+      "slardar",
+      "web",
+      "pre",
+      "js"
+    ]
+  },
+  "title": "lf16-cdn-tos.tiktokcdn-us.com"
+}

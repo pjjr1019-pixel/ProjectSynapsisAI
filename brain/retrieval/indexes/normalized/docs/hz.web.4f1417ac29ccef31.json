@@ -1,0 +1,395 @@
+{
+  "aliases": [
+    {
+      "alias": "4f1417ac29ccef31",
+      "aliasId": "hz.web.4f1417ac29ccef31.alias.1",
+      "canonical": "indieauth - sign in with your domain name"
+    },
+    {
+      "alias": "indieauth - sign in with your domain name",
+      "aliasId": "hz.web.4f1417ac29ccef31.alias.2",
+      "canonical": "indieauth - sign in with your domain name"
+    },
+    {
+      "alias": "web 4f1417ac29ccef31",
+      "aliasId": "hz.web.4f1417ac29ccef31.alias.3",
+      "canonical": "indieauth - sign in with your domain name"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.75,
+  "docId": "hz.web.4f1417ac29ccef31",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4f1417ac29ccef31.entity.1",
+      "kind": "document",
+      "name": "IndieAuth - Sign in with your domain name",
+      "tokens": [
+        "indieauth",
+        "sign",
+        "your",
+        "domain",
+        "name"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1417ac29ccef31.entity.2",
+      "kind": "heading",
+      "name": "IndieAuth - Sign in with your domain name",
+      "tokens": [
+        "indieauth",
+        "sign",
+        "your",
+        "domain",
+        "name"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1417ac29ccef31.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1417ac29ccef31.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1417ac29ccef31.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 99,
+      "charStart": 46,
+      "factId": "hz.web.4f1417ac29ccef31.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieauth.com/auth/indieauth/redirect",
+      "tokens": [
+        "source",
+        "https",
+        "indieauth",
+        "com",
+        "auth",
+        "indieauth",
+        "redirect"
+      ]
+    },
+    {
+      "charEnd": 351,
+      "charStart": 151,
+      "factId": "hz.web.4f1417ac29ccef31.fact.1",
+      "kind": "bullet",
+      "text": "IndieAuth - Sign in with your domain name Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History IndieAuth.com: Sign in with your domain name Are you looking for the IndieAuth spec?",
+      "tokens": [
+        "indieauth",
+        "sign",
+        "your",
+        "domain",
+        "name",
+        "toggle",
+        "navigation",
+        "indieauth",
+        "com",
+        "setup",
+        "pgp",
+        "openid",
+        "developers",
+        "faq",
+        "history",
+        "indieauth",
+        "com",
+        "sign",
+        "your",
+        "domain",
+        "name",
+        "looking",
+        "indieauth",
+        "spec"
+      ]
+    },
+    {
+      "charEnd": 397,
+      "charStart": 352,
+      "factId": "hz.web.4f1417ac29ccef31.fact.2",
+      "kind": "bullet",
+      "text": "Visit indieauth.net What is IndieAuth.com ?",
+      "tokens": [
+        "visit",
+        "indieauth",
+        "net",
+        "indieauth",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 398,
+      "factId": "hz.web.4f1417ac29ccef31.fact.3",
+      "kind": "bullet",
+      "text": "IndieAuth.com provides an IndieAuth server for your website that authenticates you using your existing social accounts.",
+      "tokens": [
+        "indieauth",
+        "com",
+        "provides",
+        "indieauth",
+        "server",
+        "your",
+        "website",
+        "authenticates",
+        "using",
+        "your",
+        "existing",
+        "social",
+        "accounts"
+      ]
+    },
+    {
+      "charEnd": 762,
+      "charStart": 520,
+      "factId": "hz.web.4f1417ac29ccef31.fact.4",
+      "kind": "bullet",
+      "text": "First you link from your website to one or more authentication providers such as GitHub or a PGP key, then when you enter your domain name in the web sign-in form on websites that support IndieAuth, you can sign in without using a password.",
+      "tokens": [
+        "first",
+        "link",
+        "your",
+        "website",
+        "one",
+        "more",
+        "authentication",
+        "providers",
+        "such",
+        "github",
+        "pgp",
+        "key",
+        "then",
+        "enter",
+        "your",
+        "domain",
+        "name",
+        "web",
+        "sign",
+        "form",
+        "websites",
+        "support",
+        "indieauth",
+        "sign",
+        "without",
+        "using",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 788,
+      "charStart": 777,
+      "factId": "hz.web.4f1417ac29ccef31.fact.5",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 795,
+      "charStart": 789,
+      "factId": "hz.web.4f1417ac29ccef31.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 801,
+      "charStart": 796,
+      "factId": "hz.web.4f1417ac29ccef31.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 808,
+      "charStart": 802,
+      "factId": "hz.web.4f1417ac29ccef31.fact.8",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 809,
+      "factId": "hz.web.4f1417ac29ccef31.fact.9",
+      "kind": "bullet",
+      "text": "domain",
+      "tokens": [
+        "domain"
+      ]
+    },
+    {
+      "charEnd": 828,
+      "charStart": 818,
+      "factId": "hz.web.4f1417ac29ccef31.fact.10",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 838,
+      "charStart": 829,
+      "factId": "hz.web.4f1417ac29ccef31.fact.11",
+      "kind": "bullet",
+      "text": "service",
+      "tokens": [
+        "service"
+      ]
+    },
+    {
+      "charEnd": 844,
+      "charStart": 839,
+      "factId": "hz.web.4f1417ac29ccef31.fact.12",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 44,
+      "charStart": 1,
+      "headingId": "hz.web.4f1417ac29ccef31.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IndieAuth - Sign in with your domain name"
+    },
+    {
+      "charEnd": 149,
+      "charStart": 139,
+      "headingId": "hz.web.4f1417ac29ccef31.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 775,
+      "charStart": 764,
+      "headingId": "hz.web.4f1417ac29ccef31.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 856,
+      "charStart": 846,
+      "headingId": "hz.web.4f1417ac29ccef31.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4f1417ac29ccef31.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4129,
+        "start": 0
+      }
+    ],
+    "hash": "87e481218047fb3178872b33f1e13f73487edea86c43652b07c69cefdb0a9984",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.4f1417ac29ccef31.rule.1",
+      "text": "Instead of logging in to websites as \"you on Twitter\" or \"you on Facebook\", you should be able to log in as just \"you\".",
+      "tokens": [
+        "instead",
+        "logging",
+        "websites",
+        "twitter",
+        "facebook",
+        "able",
+        "log",
+        "just"
+      ]
+    },
+    {
+      "ruleId": "hz.web.4f1417ac29ccef31.rule.2",
+      "text": "We should not be relying on Twitter or Facebook to provide our authenticated identities, we should be able to use our own domain names to log in to sites everywhere.",
+      "tokens": [
+        "not",
+        "relying",
+        "twitter",
+        "facebook",
+        "provide",
+        "our",
+        "authenticated",
+        "identities",
+        "able",
+        "use",
+        "our",
+        "own",
+        "domain",
+        "names",
+        "log",
+        "sites",
+        "everywhere"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "IndieAuth - Sign in with your domain name Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History IndieAuth.com: Sign in with your domain name Are you looking for the IndieAuth spec?",
+      "Visit indieauth.net What is IndieAuth.com ?",
+      "IndieAuth.com provides an IndieAuth server for your website that authenticates you using your existing social accounts."
+    ],
+    "medium": "Source: https://indieauth.com/auth/indieauth/redirect",
+    "short": "Source: https://indieauth.com/auth/indieauth/redirect",
+    "tokens": [
+      "indieauth",
+      "sign",
+      "your",
+      "domain",
+      "name",
+      "source",
+      "https",
+      "indieauth",
+      "com",
+      "auth",
+      "indieauth",
+      "redirect",
+      "source",
+      "https",
+      "indieauth",
+      "com",
+      "auth",
+      "indieauth",
+      "redirect"
+    ]
+  },
+  "title": "IndieAuth - Sign in with your domain name"
+}

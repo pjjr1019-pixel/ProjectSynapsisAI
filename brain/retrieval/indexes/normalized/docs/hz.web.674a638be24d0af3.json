@@ -1,0 +1,325 @@
+{
+  "aliases": [
+    {
+      "alias": "674a638be24d0af3",
+      "aliasId": "hz.web.674a638be24d0af3.alias.1",
+      "canonical": "dcmi: home"
+    },
+    {
+      "alias": "dcmi home",
+      "aliasId": "hz.web.674a638be24d0af3.alias.2",
+      "canonical": "dcmi: home"
+    },
+    {
+      "alias": "web 674a638be24d0af3",
+      "aliasId": "hz.web.674a638be24d0af3.alias.3",
+      "canonical": "dcmi: home"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.674a638be24d0af3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.674a638be24d0af3.entity.1",
+      "kind": "document",
+      "name": "DCMI: Home",
+      "tokens": [
+        "dcmi",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.674a638be24d0af3.entity.2",
+      "kind": "heading",
+      "name": "DCMI: Home",
+      "tokens": [
+        "dcmi",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.674a638be24d0af3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.674a638be24d0af3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.674a638be24d0af3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 46,
+      "charStart": 15,
+      "factId": "hz.web.674a638be24d0af3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://dublincore.org/",
+      "tokens": [
+        "source",
+        "https",
+        "dublincore",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 259,
+      "charStart": 98,
+      "factId": "hz.web.674a638be24d0af3.fact.1",
+      "kind": "bullet",
+      "text": "DCMI: Home Dublin Core Open menu Specifications Events Annual Conferences Continuing an unbroken sequence of more than twenty years of DCMI Annual Conferences.",
+      "tokens": [
+        "dcmi",
+        "home",
+        "dublin",
+        "core",
+        "open",
+        "menu",
+        "specifications",
+        "events",
+        "annual",
+        "conferences",
+        "continuing",
+        "unbroken",
+        "sequence",
+        "more",
+        "than",
+        "twenty",
+        "years",
+        "dcmi",
+        "annual",
+        "conferences"
+      ]
+    },
+    {
+      "charEnd": 368,
+      "charStart": 260,
+      "factId": "hz.web.674a638be24d0af3.fact.2",
+      "kind": "bullet",
+      "text": "Workshops (1995&ndash;2000) The foundational Dublin Core workshops that established the metadata standard.",
+      "tokens": [
+        "workshops",
+        "1995",
+        "ndash",
+        "2000",
+        "foundational",
+        "dublin",
+        "core",
+        "workshops",
+        "established",
+        "metadata",
+        "standard"
+      ]
+    },
+    {
+      "charEnd": 456,
+      "charStart": 369,
+      "factId": "hz.web.674a638be24d0af3.fact.3",
+      "kind": "bullet",
+      "text": "Webinars & Tutorials Occasional webinars and online tutorials orgainized by the DCMI.",
+      "tokens": [
+        "webinars",
+        "tutorials",
+        "occasional",
+        "webinars",
+        "online",
+        "tutorials",
+        "orgainized",
+        "dcmi"
+      ]
+    },
+    {
+      "charEnd": 619,
+      "charStart": 457,
+      "factId": "hz.web.674a638be24d0af3.fact.4",
+      "kind": "bullet",
+      "text": "DCMI 2026 Conference Community DCMI Community DCMI is defined by its community which is responsible for the innovative developments and evolving good practices.",
+      "tokens": [
+        "dcmi",
+        "2026",
+        "conference",
+        "community",
+        "dcmi",
+        "community",
+        "dcmi",
+        "defined",
+        "its",
+        "community",
+        "responsible",
+        "innovative",
+        "developments",
+        "evolving",
+        "good",
+        "practices"
+      ]
+    },
+    {
+      "charEnd": 640,
+      "charStart": 634,
+      "factId": "hz.web.674a638be24d0af3.fact.5",
+      "kind": "bullet",
+      "text": "dcmi",
+      "tokens": [
+        "dcmi"
+      ]
+    },
+    {
+      "charEnd": 651,
+      "charStart": 641,
+      "factId": "hz.web.674a638be24d0af3.fact.6",
+      "kind": "bullet",
+      "text": "metadata",
+      "tokens": [
+        "metadata"
+      ]
+    },
+    {
+      "charEnd": 656,
+      "charStart": 652,
+      "factId": "hz.web.674a638be24d0af3.fact.7",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 657,
+      "factId": "hz.web.674a638be24d0af3.fact.8",
+      "kind": "bullet",
+      "text": "core",
+      "tokens": [
+        "core"
+      ]
+    },
+    {
+      "charEnd": 670,
+      "charStart": 664,
+      "factId": "hz.web.674a638be24d0af3.fact.9",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 679,
+      "charStart": 671,
+      "factId": "hz.web.674a638be24d0af3.fact.10",
+      "kind": "bullet",
+      "text": "dublin",
+      "tokens": [
+        "dublin"
+      ]
+    },
+    {
+      "charEnd": 686,
+      "charStart": 680,
+      "factId": "hz.web.674a638be24d0af3.fact.11",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 687,
+      "factId": "hz.web.674a638be24d0af3.fact.12",
+      "kind": "bullet",
+      "text": "community",
+      "tokens": [
+        "community"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.674a638be24d0af3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "DCMI: Home"
+    },
+    {
+      "charEnd": 96,
+      "charStart": 86,
+      "headingId": "hz.web.674a638be24d0af3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 632,
+      "charStart": 621,
+      "headingId": "hz.web.674a638be24d0af3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 710,
+      "charStart": 700,
+      "headingId": "hz.web.674a638be24d0af3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/674a638be24d0af3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3930,
+        "start": 0
+      }
+    ],
+    "hash": "3ef8751e01f250e4cc023dcada05e7341ca81b64e514cef76f4877893e4a4af4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "DCMI: Home Dublin Core Open menu Specifications Events Annual Conferences Continuing an unbroken sequence of more than twenty years of DCMI Annual Conferences.",
+      "Workshops (1995&ndash;2000) The foundational Dublin Core workshops that established the metadata standard.",
+      "Webinars & Tutorials Occasional webinars and online tutorials orgainized by the DCMI."
+    ],
+    "medium": "Source: https://dublincore.org/",
+    "short": "Source: https://dublincore.org/",
+    "tokens": [
+      "dcmi",
+      "home",
+      "source",
+      "https",
+      "dublincore",
+      "org",
+      "source",
+      "https",
+      "dublincore",
+      "org"
+    ]
+  },
+  "title": "DCMI: Home"
+}

@@ -1,0 +1,305 @@
+{
+  "aliases": [
+    {
+      "alias": "32bb501c5c7229b0",
+      "aliasId": "hz.web.32bb501c5c7229b0.alias.1",
+      "canonical": "x.com"
+    },
+    {
+      "alias": "web 32bb501c5c7229b0",
+      "aliasId": "hz.web.32bb501c5c7229b0.alias.2",
+      "canonical": "x.com"
+    },
+    {
+      "alias": "x.com",
+      "aliasId": "hz.web.32bb501c5c7229b0.alias.3",
+      "canonical": "x.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.32bb501c5c7229b0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.32bb501c5c7229b0.entity.1",
+      "kind": "document",
+      "name": "x.com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.32bb501c5c7229b0.entity.2",
+      "kind": "heading",
+      "name": "x.com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.32bb501c5c7229b0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.32bb501c5c7229b0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.32bb501c5c7229b0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 43,
+      "charStart": 10,
+      "factId": "hz.web.32bb501c5c7229b0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://x.com/os-grok.xml",
+      "tokens": [
+        "source",
+        "https",
+        "com",
+        "os",
+        "grok",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 572,
+      "charStart": 95,
+      "factId": "hz.web.32bb501c5c7229b0.fact.1",
+      "kind": "bullet",
+      "text": "<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>Grok</ShortName> <Description>Ask Grok</Description> <Url type=\"text/html\" method=\"get\" template=\"https://x.com/i/grok?text={searchTerms}\"/> <Image width=\"16\" height=\"16\">https://abs.twimg.com/favicons/twitter.3.ico</Image> <InputEncoding>UTF-8</InputEncoding> <moz:SearchForm>https://x.com/i/grok</moz:SearchForm> </OpenSearchDescription>",
+      "tokens": [
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "xmlns",
+        "moz",
+        "http",
+        "www",
+        "mozilla",
+        "org",
+        "2006",
+        "browser",
+        "search",
+        "shortname",
+        "grok",
+        "shortname",
+        "description",
+        "ask",
+        "grok",
+        "description",
+        "url",
+        "type",
+        "text",
+        "html",
+        "method",
+        "get",
+        "template",
+        "https",
+        "com",
+        "grok",
+        "text",
+        "searchterms",
+        "image",
+        "width",
+        "16",
+        "height",
+        "16",
+        "https",
+        "abs",
+        "twimg",
+        "com",
+        "favicons",
+        "twitter",
+        "ico",
+        "image",
+        "inputencoding",
+        "utf",
+        "inputencoding",
+        "moz",
+        "searchform",
+        "https",
+        "com",
+        "grok",
+        "moz",
+        "searchform",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 592,
+      "charStart": 587,
+      "factId": "hz.web.32bb501c5c7229b0.fact.2",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 593,
+      "factId": "hz.web.32bb501c5c7229b0.fact.3",
+      "kind": "bullet",
+      "text": "grok",
+      "tokens": [
+        "grok"
+      ]
+    },
+    {
+      "charEnd": 607,
+      "charStart": 600,
+      "factId": "hz.web.32bb501c5c7229b0.fact.4",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 613,
+      "charStart": 608,
+      "factId": "hz.web.32bb501c5c7229b0.fact.5",
+      "kind": "bullet",
+      "text": "moz",
+      "tokens": [
+        "moz"
+      ]
+    },
+    {
+      "charEnd": 618,
+      "charStart": 614,
+      "factId": "hz.web.32bb501c5c7229b0.fact.6",
+      "kind": "bullet",
+      "text": "16",
+      "tokens": [
+        "16"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 619,
+      "factId": "hz.web.32bb501c5c7229b0.fact.7",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 639,
+      "charStart": 633,
+      "factId": "hz.web.32bb501c5c7229b0.fact.8",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 640,
+      "factId": "hz.web.32bb501c5c7229b0.fact.9",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 8,
+      "charStart": 1,
+      "headingId": "hz.web.32bb501c5c7229b0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "x.com"
+    },
+    {
+      "charEnd": 93,
+      "charStart": 83,
+      "headingId": "hz.web.32bb501c5c7229b0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 585,
+      "charStart": 574,
+      "headingId": "hz.web.32bb501c5c7229b0.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 659,
+      "charStart": 649,
+      "headingId": "hz.web.32bb501c5c7229b0.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/32bb501c5c7229b0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1351,
+        "start": 0
+      }
+    ],
+    "hash": "79fc866faa3528272f751b02ae123a2367f467d891c4730dc87e1846470e3fdf",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>Grok</ShortName> <Description>Ask Grok</Description> <Url type=\"text/html\" method=\"get\" template=\"https://x.com/i/grok?text={searchTerms}\"/> <Image width=\"16\" height=\"16\">https://abs.twimg.com/favicons/twitter.3.ico</Image> <InputEncoding>UTF-8</InputEncoding> <moz:SearchForm>https://x.com/i/grok</moz:SearchForm> </OpenSearchDescription>",
+      "com",
+      "grok"
+    ],
+    "medium": "Source: https://x.com/os-grok.xml",
+    "short": "Source: https://x.com/os-grok.xml",
+    "tokens": [
+      "com",
+      "source",
+      "https",
+      "com",
+      "os",
+      "grok",
+      "xml",
+      "source",
+      "https",
+      "com",
+      "os",
+      "grok",
+      "xml"
+    ]
+  },
+  "title": "x.com"
+}

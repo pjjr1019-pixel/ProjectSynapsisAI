@@ -1,0 +1,490 @@
+{
+  "aliases": [
+    {
+      "alias": "723809fc7ce9ea4b",
+      "aliasId": "hz.web.723809fc7ce9ea4b.alias.1",
+      "canonical": "accessgudid - resources home"
+    },
+    {
+      "alias": "accessgudid - resources home",
+      "aliasId": "hz.web.723809fc7ce9ea4b.alias.2",
+      "canonical": "accessgudid - resources home"
+    },
+    {
+      "alias": "web 723809fc7ce9ea4b",
+      "aliasId": "hz.web.723809fc7ce9ea4b.alias.3",
+      "canonical": "accessgudid - resources home"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.web.723809fc7ce9ea4b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.723809fc7ce9ea4b.entity.1",
+      "kind": "document",
+      "name": "AccessGUDID - Resources Home",
+      "tokens": [
+        "accessgudid",
+        "resources",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.723809fc7ce9ea4b.entity.2",
+      "kind": "heading",
+      "name": "AccessGUDID - Resources Home",
+      "tokens": [
+        "accessgudid",
+        "resources",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.723809fc7ce9ea4b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.723809fc7ce9ea4b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.723809fc7ce9ea4b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 87,
+      "charStart": 33,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://accessgudid.nlm.nih.gov/resources/home",
+      "tokens": [
+        "source",
+        "https",
+        "accessgudid",
+        "nlm",
+        "nih",
+        "gov",
+        "resources",
+        "home"
+      ]
+    },
+    {
+      "charEnd": 204,
+      "charStart": 139,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.1",
+      "kind": "bullet",
+      "text": "AccessGUDID - Resources Home You are using an outdated browser.",
+      "tokens": [
+        "accessgudid",
+        "resources",
+        "home",
+        "using",
+        "outdated",
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 262,
+      "charStart": 205,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.2",
+      "kind": "bullet",
+      "text": "Please upgrade your browser to improve your experience.",
+      "tokens": [
+        "please",
+        "upgrade",
+        "your",
+        "browser",
+        "improve",
+        "your",
+        "experience"
+      ]
+    },
+    {
+      "charEnd": 1494,
+      "charStart": 263,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.3",
+      "kind": "bullet",
+      "text": "Skip to Main Content National Library of Medicine NLM Tools and Resources FDA UDI Home FDA Medical Devices Home Report a Device Problem (MedWatch) Device Recalls Device Safety Communications Home About News Download API Help Customer Support & FAQ FDA Tools and Resources FDA UDI Home FDA Medical Devices Home Report a Device Problem (MedWatch) Device Recalls Device Safety Communications GUDID Advanced Search Search Help Home About News API Download Help View More Home About News API Download Help Resources Home Resources Home Notice Generating UMLS Tickets Feeds RSS APIs V3 APIs Implantable List Device Lookup Device History API Device SNOMED Parse UDI V2 APIs Implantable List Implantable List Download Device Lookup Device History API Device SNOMED Parse UDI V1 APIs Implantable List Implantable List Download Device Lookup Device SNOMED Parse UDI Download Files Implantable List Download Importing Delimited Device Files Microsoft Excel Microsoft Access Oracle Database (Manual) Oracle Database (SQL Loader) MySQL Database (Load Data Script) Notice ** Update April 13, 2022 ** AccessGUDID V1 APIs are currently deprecated (no longer supported for bug fixes and enhancements) and will be removed after December 31, 2023 .",
+      "tokens": [
+        "skip",
+        "main",
+        "content",
+        "national",
+        "library",
+        "medicine",
+        "nlm",
+        "tools",
+        "resources",
+        "fda",
+        "udi",
+        "home",
+        "fda",
+        "medical",
+        "devices",
+        "home",
+        "report",
+        "device",
+        "problem",
+        "medwatch",
+        "device",
+        "recalls",
+        "device",
+        "safety",
+        "communications",
+        "home",
+        "about",
+        "news",
+        "download",
+        "api",
+        "help",
+        "customer",
+        "support",
+        "faq",
+        "fda",
+        "tools",
+        "resources",
+        "fda",
+        "udi",
+        "home",
+        "fda",
+        "medical",
+        "devices",
+        "home",
+        "report",
+        "device",
+        "problem",
+        "medwatch",
+        "device",
+        "recalls",
+        "device",
+        "safety",
+        "communications",
+        "gudid",
+        "advanced",
+        "search",
+        "search",
+        "help",
+        "home",
+        "about",
+        "news",
+        "api",
+        "download",
+        "help",
+        "view",
+        "more",
+        "home",
+        "about",
+        "news",
+        "api",
+        "download",
+        "help",
+        "resources",
+        "home",
+        "resources",
+        "home",
+        "notice",
+        "generating",
+        "umls",
+        "tickets",
+        "feeds",
+        "rss",
+        "apis",
+        "v3",
+        "apis",
+        "implantable",
+        "list",
+        "device",
+        "lookup",
+        "device",
+        "history",
+        "api",
+        "device",
+        "snomed",
+        "parse",
+        "udi",
+        "v2",
+        "apis",
+        "implantable",
+        "list",
+        "implantable",
+        "list",
+        "download",
+        "device",
+        "lookup",
+        "device",
+        "history",
+        "api",
+        "device",
+        "snomed",
+        "parse",
+        "udi",
+        "v1",
+        "apis",
+        "implantable",
+        "list",
+        "implantable",
+        "list",
+        "download",
+        "device",
+        "lookup",
+        "device",
+        "snomed",
+        "parse",
+        "udi",
+        "download",
+        "files",
+        "implantable",
+        "list",
+        "download",
+        "importing",
+        "delimited",
+        "device",
+        "files",
+        "microsoft",
+        "excel",
+        "microsoft",
+        "access",
+        "oracle",
+        "database",
+        "manual",
+        "oracle",
+        "database",
+        "sql",
+        "loader",
+        "mysql",
+        "database",
+        "load",
+        "data",
+        "script",
+        "notice",
+        "update",
+        "april",
+        "13",
+        "2022",
+        "accessgudid",
+        "v1",
+        "apis",
+        "currently",
+        "deprecated",
+        "no",
+        "longer",
+        "supported",
+        "bug",
+        "fixes",
+        "enhancements",
+        "will",
+        "removed",
+        "after",
+        "december",
+        "31",
+        "2023"
+      ]
+    },
+    {
+      "charEnd": 1663,
+      "charStart": 1495,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.4",
+      "kind": "bullet",
+      "text": "** Update July 2021 ** AccessGUDID V1 APIs are currently deprecated (no longer supported for bug fixes and enhancements) and will be removed after December 31, 2022 .",
+      "tokens": [
+        "update",
+        "july",
+        "2021",
+        "accessgudid",
+        "v1",
+        "apis",
+        "currently",
+        "deprecated",
+        "no",
+        "longer",
+        "supported",
+        "bug",
+        "fixes",
+        "enhancements",
+        "will",
+        "removed",
+        "after",
+        "december",
+        "31",
+        "2022"
+      ]
+    },
+    {
+      "charEnd": 1686,
+      "charStart": 1678,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.5",
+      "kind": "bullet",
+      "text": "device",
+      "tokens": [
+        "device"
+      ]
+    },
+    {
+      "charEnd": 1693,
+      "charStart": 1687,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.6",
+      "kind": "bullet",
+      "text": "home",
+      "tokens": [
+        "home"
+      ]
+    },
+    {
+      "charEnd": 1700,
+      "charStart": 1694,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.7",
+      "kind": "bullet",
+      "text": "apis",
+      "tokens": [
+        "apis"
+      ]
+    },
+    {
+      "charEnd": 1711,
+      "charStart": 1701,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.8",
+      "kind": "bullet",
+      "text": "download",
+      "tokens": [
+        "download"
+      ]
+    },
+    {
+      "charEnd": 1717,
+      "charStart": 1712,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.9",
+      "kind": "bullet",
+      "text": "fda",
+      "tokens": [
+        "fda"
+      ]
+    },
+    {
+      "charEnd": 1731,
+      "charStart": 1718,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.10",
+      "kind": "bullet",
+      "text": "implantable",
+      "tokens": [
+        "implantable"
+      ]
+    },
+    {
+      "charEnd": 1738,
+      "charStart": 1732,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.11",
+      "kind": "bullet",
+      "text": "list",
+      "tokens": [
+        "list"
+      ]
+    },
+    {
+      "charEnd": 1744,
+      "charStart": 1739,
+      "factId": "hz.web.723809fc7ce9ea4b.fact.12",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.723809fc7ce9ea4b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "AccessGUDID - Resources Home"
+    },
+    {
+      "charEnd": 137,
+      "charStart": 127,
+      "headingId": "hz.web.723809fc7ce9ea4b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1676,
+      "charStart": 1665,
+      "headingId": "hz.web.723809fc7ce9ea4b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1756,
+      "charStart": 1746,
+      "headingId": "hz.web.723809fc7ce9ea4b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/723809fc7ce9ea4b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4666,
+        "start": 0
+      }
+    ],
+    "hash": "1332129f2b564da453af1c4dfbbfebd3227757316854fede5a14c995e9558231",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "AccessGUDID - Resources Home You are using an outdated browser.",
+      "Please upgrade your browser to improve your experience.",
+      "Skip to Main Content National Library of Medicine NLM Tools and Resources FDA UDI Home FDA Medical Devices Home Report a Device Problem (MedWatch) Device Recalls Device Safety Communications Home About News Download API Help Customer Support & FAQ FDA Tools and Resources FDA UDI Home FDA Medical Devices Home Report a Device Problem (MedWatch) Device Recalls Device Safety Communications GUDID Advanced Search Search Help Home About News API Download Help View More Home About News API Download Help Resources Home Resources Home Notice Generating UMLS Tickets Feeds RSS APIs V3 APIs Implantable List Device Lookup Device History API Device SNOMED Parse UDI V2 APIs Implantable List Implantable List Download Device Lookup Device History API Device SNOMED Parse UDI V1 APIs Implantable List Implantable List Download Device Lookup Device SNOMED Parse UDI Download Files Implantable List Download Importing Delimited Device Files Microsoft Excel Microsoft Access Oracle Database (Manual) Oracle Database (SQL Loader) MySQL Database (Load Data Script) Notice ** Update April 13, 2022 ** AccessGUDID V1 APIs are currently deprecated (no longer supported for bug fixes and enhancements) and will be removed after December 31, 2023 ."
+    ],
+    "medium": "Source: https://accessgudid.nlm.nih.gov/resources/home",
+    "short": "Source: https://accessgudid.nlm.nih.gov/resources/home",
+    "tokens": [
+      "accessgudid",
+      "resources",
+      "home",
+      "source",
+      "https",
+      "accessgudid",
+      "nlm",
+      "nih",
+      "gov",
+      "resources",
+      "home",
+      "source",
+      "https",
+      "accessgudid",
+      "nlm",
+      "nih",
+      "gov",
+      "resources",
+      "home"
+    ]
+  },
+  "title": "AccessGUDID - Resources Home"
+}

@@ -1,0 +1,377 @@
+{
+  "aliases": [
+    {
+      "alias": "5e18204cf0849aff",
+      "aliasId": "hz.web.5e18204cf0849aff.alias.1",
+      "canonical": "s1.wp.com"
+    },
+    {
+      "alias": "s1.wp.com",
+      "aliasId": "hz.web.5e18204cf0849aff.alias.2",
+      "canonical": "s1.wp.com"
+    },
+    {
+      "alias": "web 5e18204cf0849aff",
+      "aliasId": "hz.web.5e18204cf0849aff.alias.3",
+      "canonical": "s1.wp.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.5e18204cf0849aff",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5e18204cf0849aff.entity.1",
+      "kind": "document",
+      "name": "s1.wp.com",
+      "tokens": [
+        "s1",
+        "wp",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5e18204cf0849aff.entity.2",
+      "kind": "heading",
+      "name": "s1.wp.com",
+      "tokens": [
+        "s1",
+        "wp",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5e18204cf0849aff.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5e18204cf0849aff.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5e18204cf0849aff.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 54,
+      "charStart": 14,
+      "factId": "hz.web.5e18204cf0849aff.fact.1",
+      "kind": "summary",
+      "text": "Source: https://s1.wp.com/opensearch.xml",
+      "tokens": [
+        "source",
+        "https",
+        "s1",
+        "wp",
+        "com",
+        "opensearch",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 1103,
+      "charStart": 106,
+      "factId": "hz.web.5e18204cf0849aff.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>WordPress.com</ShortName> <LongName>Search WordPress.com Blogs</LongName> <Description>Search content from blog posts hosted at WordPress.com.</Description> <Image type=\"image/vnd.microsoft.icon\" height=\"16\" width=\"16\">http://s.wordpress.com/favicon.ico</Image> <Developer>Automattic</Developer> <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"http://en.wordpress.com/opensearch.xml\" /> <Url type=\"text/html\" rel=\"results\" template=\"http://en.search.wordpress.com/?q={searchTerms}&amp;page={startPage?}\" /> <Url type=\"application/rss+xml\" rel=\"results\" template=\"http://en.search.wordpress.com/?q={searchTerms}&amp;f=feed&amp;page={startPage?}\" /> <Url type=\"application/json\" rel=\"results\" template=\"http://en.search.wordpress.com/?q={searchTerms}&amp;f=json&amp;page={startPage?}\" /> <Query role=\"example\" searchTerms=\"BBQ\" /> </OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "shortname",
+        "wordpress",
+        "com",
+        "shortname",
+        "longname",
+        "search",
+        "wordpress",
+        "com",
+        "blogs",
+        "longname",
+        "description",
+        "search",
+        "content",
+        "blog",
+        "posts",
+        "hosted",
+        "wordpress",
+        "com",
+        "description",
+        "image",
+        "type",
+        "image",
+        "vnd",
+        "microsoft",
+        "icon",
+        "height",
+        "16",
+        "width",
+        "16",
+        "http",
+        "wordpress",
+        "com",
+        "favicon",
+        "ico",
+        "image",
+        "developer",
+        "automattic",
+        "developer",
+        "url",
+        "type",
+        "application",
+        "opensearchdescription",
+        "xml",
+        "rel",
+        "self",
+        "template",
+        "http",
+        "en",
+        "wordpress",
+        "com",
+        "opensearch",
+        "xml",
+        "url",
+        "type",
+        "text",
+        "html",
+        "rel",
+        "results",
+        "template",
+        "http",
+        "en",
+        "search",
+        "wordpress",
+        "com",
+        "searchterms",
+        "amp",
+        "page",
+        "startpage",
+        "url",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "rel",
+        "results",
+        "template",
+        "http",
+        "en",
+        "search",
+        "wordpress",
+        "com",
+        "searchterms",
+        "amp",
+        "feed",
+        "amp",
+        "page",
+        "startpage",
+        "url",
+        "type",
+        "application",
+        "json",
+        "rel",
+        "results",
+        "template",
+        "http",
+        "en",
+        "search",
+        "wordpress",
+        "com",
+        "searchterms",
+        "amp",
+        "json",
+        "amp",
+        "page",
+        "startpage",
+        "query",
+        "role",
+        "example",
+        "searchterms",
+        "bbq",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 1123,
+      "charStart": 1118,
+      "factId": "hz.web.5e18204cf0849aff.fact.2",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1135,
+      "charStart": 1124,
+      "factId": "hz.web.5e18204cf0849aff.fact.3",
+      "kind": "bullet",
+      "text": "wordpress",
+      "tokens": [
+        "wordpress"
+      ]
+    },
+    {
+      "charEnd": 1142,
+      "charStart": 1136,
+      "factId": "hz.web.5e18204cf0849aff.fact.4",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 1148,
+      "charStart": 1143,
+      "factId": "hz.web.5e18204cf0849aff.fact.5",
+      "kind": "bullet",
+      "text": "amp",
+      "tokens": [
+        "amp"
+      ]
+    },
+    {
+      "charEnd": 1157,
+      "charStart": 1149,
+      "factId": "hz.web.5e18204cf0849aff.fact.6",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 1164,
+      "charStart": 1158,
+      "factId": "hz.web.5e18204cf0849aff.fact.7",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 1169,
+      "charStart": 1165,
+      "factId": "hz.web.5e18204cf0849aff.fact.8",
+      "kind": "bullet",
+      "text": "en",
+      "tokens": [
+        "en"
+      ]
+    },
+    {
+      "charEnd": 1175,
+      "charStart": 1170,
+      "factId": "hz.web.5e18204cf0849aff.fact.9",
+      "kind": "bullet",
+      "text": "rel",
+      "tokens": [
+        "rel"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.5e18204cf0849aff.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "s1.wp.com"
+    },
+    {
+      "charEnd": 104,
+      "charStart": 94,
+      "headingId": "hz.web.5e18204cf0849aff.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1116,
+      "charStart": 1105,
+      "headingId": "hz.web.5e18204cf0849aff.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1187,
+      "charStart": 1177,
+      "headingId": "hz.web.5e18204cf0849aff.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5e18204cf0849aff.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2410,
+        "start": 0
+      }
+    ],
+    "hash": "9c9388625f1c0548355845352f50cfcfe15299f9e64325af89f6a993f3957ed0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>WordPress.com</ShortName> <LongName>Search WordPress.com Blogs</LongName> <Description>Search content from blog posts hosted at WordPress.com.</Description> <Image type=\"image/vnd.microsoft.icon\" height=\"16\" width=\"16\">http://s.wordpress.com/favicon.ico</Image> <Developer>Automattic</Developer> <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"http://en.wordpress.com/opensearch.xml\" /> <Url type=\"text/html\" rel=\"results\" template=\"http://en.search.wordpress.com/?q={searchTerms}&amp;page={startPage?}\" /> <Url type=\"application/rss+xml\" rel=\"results\" template=\"http://en.search.wordpress.com/?q={searchTerms}&amp;f=feed&amp;page={startPage?}\" /> <Url type=\"application/json\" rel=\"results\" template=\"http://en.search.wordpress.com/?q={searchTerms}&amp;f=json&amp;page={startPage?}\" /> <Query role=\"example\" searchTerms=\"BBQ\" /> </OpenSearchDescription>",
+      "com",
+      "wordpress"
+    ],
+    "medium": "Source: https://s1.wp.com/opensearch.xml",
+    "short": "Source: https://s1.wp.com/opensearch.xml",
+    "tokens": [
+      "s1",
+      "wp",
+      "com",
+      "source",
+      "https",
+      "s1",
+      "wp",
+      "com",
+      "opensearch",
+      "xml",
+      "source",
+      "https",
+      "s1",
+      "wp",
+      "com",
+      "opensearch",
+      "xml"
+    ]
+  },
+  "title": "s1.wp.com"
+}

@@ -1,0 +1,360 @@
+{
+  "aliases": [
+    {
+      "alias": "0bf644f0fee450a2",
+      "aliasId": "hz.web.0bf644f0fee450a2.alias.1",
+      "canonical": "first invisible xml symposium, 2026-02-26, online"
+    },
+    {
+      "alias": "first invisible xml symposium 2026-02-26 online",
+      "aliasId": "hz.web.0bf644f0fee450a2.alias.2",
+      "canonical": "first invisible xml symposium, 2026-02-26, online"
+    },
+    {
+      "alias": "web 0bf644f0fee450a2",
+      "aliasId": "hz.web.0bf644f0fee450a2.alias.3",
+      "canonical": "first invisible xml symposium, 2026-02-26, online"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.79,
+  "docId": "hz.web.0bf644f0fee450a2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0bf644f0fee450a2.entity.1",
+      "kind": "document",
+      "name": "First Invisible XML Symposium, 2026-02-26, online",
+      "tokens": [
+        "first",
+        "invisible",
+        "xml",
+        "symposium",
+        "2026",
+        "02",
+        "26",
+        "online"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bf644f0fee450a2.entity.2",
+      "kind": "heading",
+      "name": "First Invisible XML Symposium, 2026-02-26, online",
+      "tokens": [
+        "first",
+        "invisible",
+        "xml",
+        "symposium",
+        "2026",
+        "02",
+        "26",
+        "online"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bf644f0fee450a2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bf644f0fee450a2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bf644f0fee450a2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 108,
+      "charStart": 54,
+      "factId": "hz.web.0bf644f0fee450a2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://invisiblexml.org/events/symposium2026/",
+      "tokens": [
+        "source",
+        "https",
+        "invisiblexml",
+        "org",
+        "events",
+        "symposium2026"
+      ]
+    },
+    {
+      "charEnd": 377,
+      "charStart": 160,
+      "factId": "hz.web.0bf644f0fee450a2.fact.1",
+      "kind": "bullet",
+      "text": "First Invisible XML Symposium, 2026-02-26, online The First International Symposium on Invisible XML 26/27 February 2026, online Invisible XML (ixml) is a language and process for identifying structure in documents.",
+      "tokens": [
+        "first",
+        "invisible",
+        "xml",
+        "symposium",
+        "2026",
+        "02",
+        "26",
+        "online",
+        "first",
+        "international",
+        "symposium",
+        "invisible",
+        "xml",
+        "26",
+        "27",
+        "february",
+        "2026",
+        "online",
+        "invisible",
+        "xml",
+        "ixml",
+        "language",
+        "process",
+        "identifying",
+        "structure",
+        "documents"
+      ]
+    },
+    {
+      "charEnd": 495,
+      "charStart": 378,
+      "factId": "hz.web.0bf644f0fee450a2.fact.2",
+      "kind": "bullet",
+      "text": "Invisible markup allows users to exploit the implicit structures in documents without the need for explicit markup.",
+      "tokens": [
+        "invisible",
+        "markup",
+        "allows",
+        "users",
+        "exploit",
+        "implicit",
+        "structures",
+        "documents",
+        "without",
+        "need",
+        "explicit",
+        "markup"
+      ]
+    },
+    {
+      "charEnd": 669,
+      "charStart": 496,
+      "factId": "hz.web.0bf644f0fee450a2.fact.3",
+      "kind": "bullet",
+      "text": "Since the release of the ixml standard in 2022, we have seen a steady increase in the use of ixml, as well as many interesting conference presentations about the language.",
+      "tokens": [
+        "since",
+        "release",
+        "ixml",
+        "standard",
+        "2022",
+        "have",
+        "seen",
+        "steady",
+        "increase",
+        "use",
+        "ixml",
+        "well",
+        "many",
+        "interesting",
+        "conference",
+        "presentations",
+        "about",
+        "language"
+      ]
+    },
+    {
+      "charEnd": 771,
+      "charStart": 670,
+      "factId": "hz.web.0bf644f0fee450a2.fact.4",
+      "kind": "bullet",
+      "text": "The community group felt the time was right for an event exclusively dedicated to invisible markup.",
+      "tokens": [
+        "community",
+        "group",
+        "felt",
+        "time",
+        "right",
+        "event",
+        "exclusively",
+        "dedicated",
+        "invisible",
+        "markup"
+      ]
+    },
+    {
+      "charEnd": 792,
+      "charStart": 786,
+      "factId": "hz.web.0bf644f0fee450a2.fact.5",
+      "kind": "bullet",
+      "text": "ixml",
+      "tokens": [
+        "ixml"
+      ]
+    },
+    {
+      "charEnd": 804,
+      "charStart": 793,
+      "factId": "hz.web.0bf644f0fee450a2.fact.6",
+      "kind": "bullet",
+      "text": "invisible",
+      "tokens": [
+        "invisible"
+      ]
+    },
+    {
+      "charEnd": 810,
+      "charStart": 805,
+      "factId": "hz.web.0bf644f0fee450a2.fact.7",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 819,
+      "charStart": 811,
+      "factId": "hz.web.0bf644f0fee450a2.fact.8",
+      "kind": "bullet",
+      "text": "online",
+      "tokens": [
+        "online"
+      ]
+    },
+    {
+      "charEnd": 826,
+      "charStart": 820,
+      "factId": "hz.web.0bf644f0fee450a2.fact.9",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 837,
+      "charStart": 827,
+      "factId": "hz.web.0bf644f0fee450a2.fact.10",
+      "kind": "bullet",
+      "text": "february",
+      "tokens": [
+        "february"
+      ]
+    },
+    {
+      "charEnd": 843,
+      "charStart": 838,
+      "factId": "hz.web.0bf644f0fee450a2.fact.11",
+      "kind": "bullet",
+      "text": "pdf",
+      "tokens": [
+        "pdf"
+      ]
+    },
+    {
+      "charEnd": 848,
+      "charStart": 844,
+      "factId": "hz.web.0bf644f0fee450a2.fact.12",
+      "kind": "bullet",
+      "text": "26",
+      "tokens": [
+        "26"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 52,
+      "charStart": 1,
+      "headingId": "hz.web.0bf644f0fee450a2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "First Invisible XML Symposium, 2026-02-26, online"
+    },
+    {
+      "charEnd": 158,
+      "charStart": 148,
+      "headingId": "hz.web.0bf644f0fee450a2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 784,
+      "charStart": 773,
+      "headingId": "hz.web.0bf644f0fee450a2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 860,
+      "charStart": 850,
+      "headingId": "hz.web.0bf644f0fee450a2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0bf644f0fee450a2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3384,
+        "start": 0
+      }
+    ],
+    "hash": "b3bc9f2ee04b68f08b83bb5574c8cda89435f5cf5e64d5ab158bfba132aa7612",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "First Invisible XML Symposium, 2026-02-26, online The First International Symposium on Invisible XML 26/27 February 2026, online Invisible XML (ixml) is a language and process for identifying structure in documents.",
+      "Invisible markup allows users to exploit the implicit structures in documents without the need for explicit markup.",
+      "Since the release of the ixml standard in 2022, we have seen a steady increase in the use of ixml, as well as many interesting conference presentations about the language."
+    ],
+    "medium": "Source: https://invisiblexml.org/events/symposium2026/",
+    "short": "Source: https://invisiblexml.org/events/symposium2026/",
+    "tokens": [
+      "first",
+      "invisible",
+      "xml",
+      "symposium",
+      "2026",
+      "02",
+      "26",
+      "online",
+      "source",
+      "https",
+      "invisiblexml",
+      "org",
+      "events",
+      "symposium2026",
+      "source",
+      "https",
+      "invisiblexml",
+      "org",
+      "events",
+      "symposium2026"
+    ]
+  },
+  "title": "First Invisible XML Symposium, 2026-02-26, online"
+}

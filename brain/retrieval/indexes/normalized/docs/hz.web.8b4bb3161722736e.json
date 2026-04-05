@@ -1,0 +1,303 @@
+{
+  "aliases": [
+    {
+      "alias": "8b4bb3161722736e",
+      "aliasId": "hz.web.8b4bb3161722736e.alias.1",
+      "canonical": "articles"
+    },
+    {
+      "alias": "articles",
+      "aliasId": "hz.web.8b4bb3161722736e.alias.2",
+      "canonical": "articles"
+    },
+    {
+      "alias": "web 8b4bb3161722736e",
+      "aliasId": "hz.web.8b4bb3161722736e.alias.3",
+      "canonical": "articles"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.8b4bb3161722736e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8b4bb3161722736e.entity.1",
+      "kind": "document",
+      "name": "articles",
+      "tokens": [
+        "articles"
+      ]
+    },
+    {
+      "entityId": "hz.web.8b4bb3161722736e.entity.2",
+      "kind": "heading",
+      "name": "articles",
+      "tokens": [
+        "articles"
+      ]
+    },
+    {
+      "entityId": "hz.web.8b4bb3161722736e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8b4bb3161722736e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8b4bb3161722736e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 13,
+      "factId": "hz.web.8b4bb3161722736e.fact.1",
+      "kind": "summary",
+      "text": "Source: http://goessner.net/articles/index.html",
+      "tokens": [
+        "source",
+        "http",
+        "goessner",
+        "net",
+        "articles",
+        "index",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 237,
+      "charStart": 112,
+      "factId": "hz.web.8b4bb3161722736e.fact.1",
+      "kind": "bullet",
+      "text": "articles &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | &raquo; Search ..",
+      "tokens": [
+        "articles",
+        "lt",
+        "stefan",
+        "goessner",
+        "gt",
+        "mechanik",
+        "das",
+        "web",
+        "und",
+        "der",
+        "ganze",
+        "rest",
+        "home",
+        "lehre",
+        "download",
+        "info",
+        "raquo",
+        "search"
+      ]
+    },
+    {
+      "charEnd": 274,
+      "charStart": 238,
+      "factId": "hz.web.8b4bb3161722736e.fact.2",
+      "kind": "bullet",
+      "text": "Web goessner.net &raquo; Inhalt ..",
+      "tokens": [
+        "web",
+        "goessner",
+        "net",
+        "raquo",
+        "inhalt"
+      ]
+    },
+    {
+      "charEnd": 296,
+      "charStart": 275,
+      "factId": "hz.web.8b4bb3161722736e.fact.3",
+      "kind": "bullet",
+      "text": "&raquo; comments ..",
+      "tokens": [
+        "raquo",
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 319,
+      "charStart": 297,
+      "factId": "hz.web.8b4bb3161722736e.fact.4",
+      "kind": "bullet",
+      "text": "&raquo; delicious ..",
+      "tokens": [
+        "raquo",
+        "delicious"
+      ]
+    },
+    {
+      "charEnd": 341,
+      "charStart": 334,
+      "factId": "hz.web.8b4bb3161722736e.fact.5",
+      "kind": "bullet",
+      "text": "raquo",
+      "tokens": [
+        "raquo"
+      ]
+    },
+    {
+      "charEnd": 347,
+      "charStart": 342,
+      "factId": "hz.web.8b4bb3161722736e.fact.6",
+      "kind": "bullet",
+      "text": "der",
+      "tokens": [
+        "der"
+      ]
+    },
+    {
+      "charEnd": 353,
+      "charStart": 348,
+      "factId": "hz.web.8b4bb3161722736e.fact.7",
+      "kind": "bullet",
+      "text": "die",
+      "tokens": [
+        "die"
+      ]
+    },
+    {
+      "charEnd": 364,
+      "charStart": 354,
+      "factId": "hz.web.8b4bb3161722736e.fact.8",
+      "kind": "bullet",
+      "text": "goessner",
+      "tokens": [
+        "goessner"
+      ]
+    },
+    {
+      "charEnd": 373,
+      "charStart": 365,
+      "factId": "hz.web.8b4bb3161722736e.fact.9",
+      "kind": "bullet",
+      "text": "stefan",
+      "tokens": [
+        "stefan"
+      ]
+    },
+    {
+      "charEnd": 380,
+      "charStart": 374,
+      "factId": "hz.web.8b4bb3161722736e.fact.10",
+      "kind": "bullet",
+      "text": "uuml",
+      "tokens": [
+        "uuml"
+      ]
+    },
+    {
+      "charEnd": 386,
+      "charStart": 381,
+      "factId": "hz.web.8b4bb3161722736e.fact.11",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 393,
+      "charStart": 387,
+      "factId": "hz.web.8b4bb3161722736e.fact.12",
+      "kind": "bullet",
+      "text": "2006",
+      "tokens": [
+        "2006"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.8b4bb3161722736e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "articles"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.8b4bb3161722736e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 332,
+      "charStart": 321,
+      "headingId": "hz.web.8b4bb3161722736e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 405,
+      "charStart": 395,
+      "headingId": "hz.web.8b4bb3161722736e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/8b4bb3161722736e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1041,
+        "start": 0
+      }
+    ],
+    "hash": "0599d3cc85ea9afbd8a7cd4bb5128453446ea5b22850ef88e2a6f6e84ac742da",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "articles &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | &raquo; Search ..",
+      "Web goessner.net &raquo; Inhalt ..",
+      "&raquo; comments .."
+    ],
+    "medium": "Source: http://goessner.net/articles/index.html",
+    "short": "Source: http://goessner.net/articles/index.html",
+    "tokens": [
+      "articles",
+      "source",
+      "http",
+      "goessner",
+      "net",
+      "articles",
+      "index",
+      "html",
+      "source",
+      "http",
+      "goessner",
+      "net",
+      "articles",
+      "index",
+      "html"
+    ]
+  },
+  "title": "articles"
+}

@@ -1,0 +1,92 @@
+{
+  "aliases": [
+    {
+      "alias": "life draft",
+      "aliasId": "hz.auto.apps.life.draft.readme.src-md.alias.1",
+      "canonical": "life — draft"
+    }
+  ],
+  "app": "life",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.life.draft.readme.src-md",
+  "domain": "life",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.life.draft.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Life — draft",
+      "tokens": [
+        "life",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.life.draft.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Life — draft",
+      "tokens": [
+        "life",
+        "draft"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 43,
+      "charStart": 18,
+      "factId": "hz.auto.apps.life.draft.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "WIP life-surface content.",
+      "tokens": [
+        "wip",
+        "life",
+        "surface",
+        "content"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.life.draft.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Life — draft"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/life/draft/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 45,
+        "start": 0
+      }
+    ],
+    "hash": "e299cc387a4242c923f69a61453eabb9cb90118a55df6f5089da02dd8aabe5da",
+    "sourceType": "draft"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "WIP life-surface content.",
+    "short": "WIP life-surface content.",
+    "tokens": [
+      "life",
+      "draft",
+      "wip",
+      "life",
+      "surface",
+      "content",
+      "wip",
+      "life",
+      "surface",
+      "content"
+    ]
+  },
+  "title": "Life — draft"
+}

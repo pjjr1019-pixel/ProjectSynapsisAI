@@ -1,0 +1,383 @@
+{
+  "aliases": [
+    {
+      "alias": "8246e9fedf52ef97",
+      "aliasId": "hz.web.8246e9fedf52ef97.alias.1",
+      "canonical": "google analytics"
+    },
+    {
+      "alias": "google analytics",
+      "aliasId": "hz.web.8246e9fedf52ef97.alias.2",
+      "canonical": "google analytics"
+    },
+    {
+      "alias": "web 8246e9fedf52ef97",
+      "aliasId": "hz.web.8246e9fedf52ef97.alias.3",
+      "canonical": "google analytics"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.58,
+  "docId": "hz.web.8246e9fedf52ef97",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8246e9fedf52ef97.entity.1",
+      "kind": "document",
+      "name": "Google Analytics",
+      "tokens": [
+        "google",
+        "analytics"
+      ]
+    },
+    {
+      "entityId": "hz.web.8246e9fedf52ef97.entity.2",
+      "kind": "heading",
+      "name": "Google Analytics",
+      "tokens": [
+        "google",
+        "analytics"
+      ]
+    },
+    {
+      "entityId": "hz.web.8246e9fedf52ef97.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8246e9fedf52ef97.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8246e9fedf52ef97.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 90,
+      "charStart": 21,
+      "factId": "hz.web.8246e9fedf52ef97.fact.1",
+      "kind": "summary",
+      "text": "Source: https://marketingplatform.google.com/static/css/index.min.css",
+      "tokens": [
+        "source",
+        "https",
+        "marketingplatform",
+        "google",
+        "com",
+        "static",
+        "css",
+        "index",
+        "min",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 229,
+      "charStart": 142,
+      "factId": "hz.web.8246e9fedf52ef97.fact.1",
+      "kind": "bullet",
+      "text": "Google Analytics Sign in to continue to Google Analytics Email or phone Forgot email?",
+      "tokens": [
+        "google",
+        "analytics",
+        "sign",
+        "continue",
+        "google",
+        "analytics",
+        "email",
+        "phone",
+        "forgot",
+        "email"
+      ]
+    },
+    {
+      "charEnd": 250,
+      "charStart": 230,
+      "factId": "hz.web.8246e9fedf52ef97.fact.2",
+      "kind": "bullet",
+      "text": "Not your computer?",
+      "tokens": [
+        "not",
+        "your",
+        "computer"
+      ]
+    },
+    {
+      "charEnd": 294,
+      "charStart": 251,
+      "factId": "hz.web.8246e9fedf52ef97.fact.3",
+      "kind": "bullet",
+      "text": "Use a private browsing window to sign in.",
+      "tokens": [
+        "use",
+        "private",
+        "browsing",
+        "window",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1140,
+      "charStart": 295,
+      "factId": "hz.web.8246e9fedf52ef97.fact.4",
+      "kind": "bullet",
+      "text": "Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqip Slovenčina slovenščina srpski (latinica) Suomi Svenska Tiếng Việt Türkçe Ελληνικά беларуская български кыргызча қазақ тілі македонски монгол Русский српски (ћирилица) Українська ქართული հայերեն ‫עברית‬‎ ‫اردو‬‎ ‫العربية‬‎ ‫فارسی‬‎ አማርኛ नेपाली मराठी हिन्दी অসমীয়া বাংলা ਪੰਜਾਬੀ ગુજરાતી ଓଡ଼ିଆ தமிழ் తెలుగు ಕನ್ನಡ മലയാളം සිංහල ไทย ລາວ မြန်မာ ខ្មែរ 한국어 中文（香港） 日本語 简体中文 繁體中文 Help Privacy Terms",
+      "tokens": [
+        "learn",
+        "more",
+        "about",
+        "using",
+        "guest",
+        "mode",
+        "next",
+        "create",
+        "account",
+        "afrikaans",
+        "az",
+        "rbaycan",
+        "bosanski",
+        "catal",
+        "tina",
+        "cymraeg",
+        "dansk",
+        "deutsch",
+        "eesti",
+        "english",
+        "united",
+        "kingdom",
+        "english",
+        "united",
+        "states",
+        "espa",
+        "ol",
+        "espa",
+        "espa",
+        "ol",
+        "latinoam",
+        "rica",
+        "euskara",
+        "filipino",
+        "fran",
+        "ais",
+        "canada",
+        "fran",
+        "ais",
+        "france",
+        "gaeilge",
+        "galego",
+        "hrvatski",
+        "indonesia",
+        "isizulu",
+        "slenska",
+        "italiano",
+        "kiswahili",
+        "latvie",
+        "lietuvi",
+        "magyar",
+        "melayu",
+        "nederlands",
+        "norsk",
+        "zbek",
+        "polski",
+        "portugu",
+        "brasil",
+        "portugu",
+        "portugal",
+        "rom",
+        "shqip",
+        "sloven",
+        "ina",
+        "sloven",
+        "ina",
+        "srpski",
+        "latinica",
+        "suomi",
+        "svenska",
+        "ti",
+        "ng",
+        "vi",
+        "rk",
+        "help",
+        "privacy",
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 1161,
+      "charStart": 1155,
+      "factId": "hz.web.8246e9fedf52ef97.fact.5",
+      "kind": "bullet",
+      "text": "espa",
+      "tokens": [
+        "espa"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1162,
+      "factId": "hz.web.8246e9fedf52ef97.fact.6",
+      "kind": "bullet",
+      "text": "ais",
+      "tokens": [
+        "ais"
+      ]
+    },
+    {
+      "charEnd": 1179,
+      "charStart": 1168,
+      "factId": "hz.web.8246e9fedf52ef97.fact.7",
+      "kind": "bullet",
+      "text": "analytics",
+      "tokens": [
+        "analytics"
+      ]
+    },
+    {
+      "charEnd": 1187,
+      "charStart": 1180,
+      "factId": "hz.web.8246e9fedf52ef97.fact.8",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 1197,
+      "charStart": 1188,
+      "factId": "hz.web.8246e9fedf52ef97.fact.9",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    },
+    {
+      "charEnd": 1204,
+      "charStart": 1198,
+      "factId": "hz.web.8246e9fedf52ef97.fact.10",
+      "kind": "bullet",
+      "text": "fran",
+      "tokens": [
+        "fran"
+      ]
+    },
+    {
+      "charEnd": 1213,
+      "charStart": 1205,
+      "factId": "hz.web.8246e9fedf52ef97.fact.11",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "charEnd": 1219,
+      "charStart": 1214,
+      "factId": "hz.web.8246e9fedf52ef97.fact.12",
+      "kind": "bullet",
+      "text": "ina",
+      "tokens": [
+        "ina"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.8246e9fedf52ef97.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Google Analytics"
+    },
+    {
+      "charEnd": 140,
+      "charStart": 130,
+      "headingId": "hz.web.8246e9fedf52ef97.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1153,
+      "charStart": 1142,
+      "headingId": "hz.web.8246e9fedf52ef97.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1231,
+      "charStart": 1221,
+      "headingId": "hz.web.8246e9fedf52ef97.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/8246e9fedf52ef97.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2485,
+        "start": 0
+      }
+    ],
+    "hash": "4798354481d9b6276272481bfad61687aaeaddb6d54ba9a60fd1faff7e662d08",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Google Analytics Sign in to continue to Google Analytics Email or phone Forgot email?",
+      "Not your computer?",
+      "Use a private browsing window to sign in."
+    ],
+    "medium": "Source: https://marketingplatform.google.com/static/css/index.min.css",
+    "short": "Source: https://marketingplatform.google.com/static/css/index.min.css",
+    "tokens": [
+      "google",
+      "analytics",
+      "source",
+      "https",
+      "marketingplatform",
+      "google",
+      "com",
+      "static",
+      "css",
+      "index",
+      "min",
+      "css",
+      "source",
+      "https",
+      "marketingplatform",
+      "google",
+      "com",
+      "static",
+      "css",
+      "index",
+      "min",
+      "css"
+    ]
+  },
+  "title": "Google Analytics"
+}

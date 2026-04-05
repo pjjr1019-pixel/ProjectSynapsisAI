@@ -1,0 +1,468 @@
+{
+  "aliases": [
+    {
+      "alias": "09c48d224eb1f172",
+      "aliasId": "hz.web.09c48d224eb1f172.alias.1",
+      "canonical": "upcoming events | clinical center"
+    },
+    {
+      "alias": "upcoming events clinical center",
+      "aliasId": "hz.web.09c48d224eb1f172.alias.2",
+      "canonical": "upcoming events | clinical center"
+    },
+    {
+      "alias": "web 09c48d224eb1f172",
+      "aliasId": "hz.web.09c48d224eb1f172.alias.3",
+      "canonical": "upcoming events | clinical center"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.09c48d224eb1f172",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.09c48d224eb1f172.entity.1",
+      "kind": "document",
+      "name": "Upcoming Events | Clinical Center",
+      "tokens": [
+        "upcoming",
+        "events",
+        "clinical",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.09c48d224eb1f172.entity.2",
+      "kind": "heading",
+      "name": "Upcoming Events | Clinical Center",
+      "tokens": [
+        "upcoming",
+        "events",
+        "clinical",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.09c48d224eb1f172.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.09c48d224eb1f172.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.09c48d224eb1f172.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 75,
+      "charStart": 38,
+      "factId": "hz.web.09c48d224eb1f172.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cc.nih.gov/events",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cc",
+        "nih",
+        "gov",
+        "events"
+      ]
+    },
+    {
+      "charEnd": 386,
+      "charStart": 127,
+      "factId": "hz.web.09c48d224eb1f172.fact.1",
+      "kind": "bullet",
+      "text": "Upcoming Events | Clinical Center Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "upcoming",
+        "events",
+        "clinical",
+        "center",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 493,
+      "charStart": 387,
+      "factId": "hz.web.09c48d224eb1f172.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 558,
+      "charStart": 494,
+      "factId": "hz.web.09c48d224eb1f172.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1733,
+      "charStart": 559,
+      "factId": "hz.web.09c48d224eb1f172.fact.4",
+      "kind": "bullet",
+      "text": "Menu Patient Information All Patient Services Access and Directions FollowMyHealth Patient Portal Learn about Clinical Trials Medical Records Requests Patient Handbook Folleto para pacientes Patient Protections Pharmacy Guide Farmacia para pacientes ambulatorios Telehealth Resources Upcoming Events More Find a Study Meet Our Doctors Education & Training Office of Clinical Research Training and Medical Education Continuing Medical Education (CME) Information Graduate Medical Education Medical Research Scholars Program Postbaccalaureate IRTA Program Upcoming Events More Our Organization Accreditation & Governance Information for Referring Physicians Jobs and Opportunities Resources for Researchers Senior Staff & Departments Upcoming Events More About Us About the Clinical Center Access and Directions Clinical Center News Clinical Center Tours Our History Clinical Center Published Research More Search Clinical Center Intranet (Staff Only) Upcoming Events Breadcrumb Home Upcoming Events Share Print The NIH Clinical Center Events Calendar promotes health by providing high quality events, educational opportunities and concerts for patients, families and staff.",
+      "tokens": [
+        "menu",
+        "patient",
+        "information",
+        "all",
+        "patient",
+        "services",
+        "access",
+        "directions",
+        "followmyhealth",
+        "patient",
+        "portal",
+        "learn",
+        "about",
+        "clinical",
+        "trials",
+        "medical",
+        "records",
+        "requests",
+        "patient",
+        "handbook",
+        "folleto",
+        "para",
+        "pacientes",
+        "patient",
+        "protections",
+        "pharmacy",
+        "guide",
+        "farmacia",
+        "para",
+        "pacientes",
+        "ambulatorios",
+        "telehealth",
+        "resources",
+        "upcoming",
+        "events",
+        "more",
+        "find",
+        "study",
+        "meet",
+        "our",
+        "doctors",
+        "education",
+        "training",
+        "office",
+        "clinical",
+        "research",
+        "training",
+        "medical",
+        "education",
+        "continuing",
+        "medical",
+        "education",
+        "cme",
+        "information",
+        "graduate",
+        "medical",
+        "education",
+        "medical",
+        "research",
+        "scholars",
+        "program",
+        "postbaccalaureate",
+        "irta",
+        "program",
+        "upcoming",
+        "events",
+        "more",
+        "our",
+        "organization",
+        "accreditation",
+        "governance",
+        "information",
+        "referring",
+        "physicians",
+        "jobs",
+        "opportunities",
+        "resources",
+        "researchers",
+        "senior",
+        "staff",
+        "departments",
+        "upcoming",
+        "events",
+        "more",
+        "about",
+        "us",
+        "about",
+        "clinical",
+        "center",
+        "access",
+        "directions",
+        "clinical",
+        "center",
+        "news",
+        "clinical",
+        "center",
+        "tours",
+        "our",
+        "history",
+        "clinical",
+        "center",
+        "published",
+        "research",
+        "more",
+        "search",
+        "clinical",
+        "center",
+        "intranet",
+        "staff",
+        "only",
+        "upcoming",
+        "events",
+        "breadcrumb",
+        "home",
+        "upcoming",
+        "events",
+        "share",
+        "print",
+        "nih",
+        "clinical",
+        "center",
+        "events",
+        "calendar",
+        "promotes",
+        "health",
+        "providing",
+        "high",
+        "quality",
+        "events",
+        "educational",
+        "opportunities",
+        "concerts",
+        "patients",
+        "families",
+        "staff"
+      ]
+    },
+    {
+      "charEnd": 1758,
+      "charStart": 1748,
+      "factId": "hz.web.09c48d224eb1f172.fact.5",
+      "kind": "bullet",
+      "text": "clinical",
+      "tokens": [
+        "clinical"
+      ]
+    },
+    {
+      "charEnd": 1767,
+      "charStart": 1759,
+      "factId": "hz.web.09c48d224eb1f172.fact.6",
+      "kind": "bullet",
+      "text": "center",
+      "tokens": [
+        "center"
+      ]
+    },
+    {
+      "charEnd": 1773,
+      "charStart": 1768,
+      "factId": "hz.web.09c48d224eb1f172.fact.7",
+      "kind": "bullet",
+      "text": "nih",
+      "tokens": [
+        "nih"
+      ]
+    },
+    {
+      "charEnd": 1782,
+      "charStart": 1774,
+      "factId": "hz.web.09c48d224eb1f172.fact.8",
+      "kind": "bullet",
+      "text": "events",
+      "tokens": [
+        "events"
+      ]
+    },
+    {
+      "charEnd": 1792,
+      "charStart": 1783,
+      "factId": "hz.web.09c48d224eb1f172.fact.9",
+      "kind": "bullet",
+      "text": "patient",
+      "tokens": [
+        "patient"
+      ]
+    },
+    {
+      "charEnd": 1803,
+      "charStart": 1793,
+      "factId": "hz.web.09c48d224eb1f172.fact.10",
+      "kind": "bullet",
+      "text": "research",
+      "tokens": [
+        "research"
+      ]
+    },
+    {
+      "charEnd": 1811,
+      "charStart": 1804,
+      "factId": "hz.web.09c48d224eb1f172.fact.11",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1821,
+      "charStart": 1812,
+      "factId": "hz.web.09c48d224eb1f172.fact.12",
+      "kind": "bullet",
+      "text": "medical",
+      "tokens": [
+        "medical"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.web.09c48d224eb1f172.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Upcoming Events | Clinical Center"
+    },
+    {
+      "charEnd": 125,
+      "charStart": 115,
+      "headingId": "hz.web.09c48d224eb1f172.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1746,
+      "charStart": 1735,
+      "headingId": "hz.web.09c48d224eb1f172.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1833,
+      "charStart": 1823,
+      "headingId": "hz.web.09c48d224eb1f172.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/09c48d224eb1f172.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5082,
+        "start": 0
+      }
+    ],
+    "hash": "b18fd77b424818c5d6402e7f6a854f81d27973584ed3dafd3be73979a462eda9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Upcoming Events | Clinical Center Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.cc.nih.gov/events",
+    "short": "Source: https://www.cc.nih.gov/events",
+    "tokens": [
+      "upcoming",
+      "events",
+      "clinical",
+      "center",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "events",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "events"
+    ]
+  },
+  "title": "Upcoming Events | Clinical Center"
+}

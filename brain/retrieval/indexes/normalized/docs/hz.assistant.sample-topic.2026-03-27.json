@@ -1,0 +1,233 @@
+{
+  "aliases": [
+    {
+      "alias": "sample canonical knowledge topic",
+      "aliasId": "hz.assistant.sample-topic.2026-03-27.alias.1",
+      "canonical": "sample canonical knowledge topic"
+    },
+    {
+      "alias": "sample topic",
+      "aliasId": "hz.assistant.sample-topic.2026-03-27.alias.2",
+      "canonical": "sample canonical knowledge topic"
+    },
+    {
+      "alias": "sample-topic 2026-03-27",
+      "aliasId": "hz.assistant.sample-topic.2026-03-27.alias.3",
+      "canonical": "sample canonical knowledge topic"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.85,
+  "docId": "hz.assistant.sample-topic.2026-03-27",
+  "domain": "assistant",
+  "entities": [
+    {
+      "entityId": "hz.assistant.sample-topic.2026-03-27.entity.1",
+      "kind": "document",
+      "name": "Sample canonical knowledge topic",
+      "tokens": [
+        "sample",
+        "canonical",
+        "knowledge",
+        "topic"
+      ]
+    },
+    {
+      "entityId": "hz.assistant.sample-topic.2026-03-27.entity.2",
+      "kind": "tag",
+      "name": "sample",
+      "tokens": [
+        "sample"
+      ]
+    },
+    {
+      "entityId": "hz.assistant.sample-topic.2026-03-27.entity.3",
+      "kind": "tag",
+      "name": "onboarding",
+      "tokens": [
+        "onboarding"
+      ]
+    },
+    {
+      "entityId": "hz.assistant.sample-topic.2026-03-27.entity.4",
+      "kind": "heading",
+      "name": "Sample topic",
+      "tokens": [
+        "sample",
+        "topic"
+      ]
+    },
+    {
+      "entityId": "hz.assistant.sample-topic.2026-03-27.entity.5",
+      "kind": "heading",
+      "name": "Retrieval behavior",
+      "tokens": [
+        "retrieval",
+        "behavior"
+      ]
+    },
+    {
+      "entityId": "hz.assistant.sample-topic.2026-03-27.entity.6",
+      "kind": "heading",
+      "name": "Citations",
+      "tokens": [
+        "citations"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 205,
+      "charStart": 20,
+      "factId": "hz.assistant.sample-topic.2026-03-27.fact.1",
+      "kind": "summary",
+      "text": "This document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.",
+      "tokens": [
+        "document",
+        "demonstrates",
+        "canonical",
+        "assistant",
+        "knowledge",
+        "front",
+        "matter",
+        "matches",
+        "brain",
+        "schemas",
+        "knowledge",
+        "document",
+        "schema",
+        "json",
+        "body",
+        "plain",
+        "markdown",
+        "human",
+        "readers",
+        "chunking"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.assistant.sample-topic.2026-03-27.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Sample topic"
+    },
+    {
+      "charEnd": 225,
+      "charStart": 204,
+      "headingId": "hz.assistant.sample-topic.2026-03-27.heading.2",
+      "level": 2,
+      "line": 6,
+      "text": "Retrieval behavior"
+    },
+    {
+      "charEnd": 440,
+      "charStart": 428,
+      "headingId": "hz.assistant.sample-topic.2026-03-27.heading.3",
+      "level": 2,
+      "line": 10,
+      "text": "Citations"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/assistant/canonical/sample-topic.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1014,
+        "start": 0
+      }
+    ],
+    "hash": "5950207516361b6e6ae6dcd2613f04331fb5ce77f8b147cd2dc02bea608fdbf3",
+    "sourceType": "canonical"
+  },
+  "relations": [
+    {
+      "label": "retrieval contract",
+      "relationId": "hz.assistant.sample-topic.2026-03-27.relation.1",
+      "sourceDocId": "hz.assistant.sample-topic.2026-03-27",
+      "targetPath": "core/retrieval-contract.md",
+      "type": "references"
+    }
+  ],
+  "rules": [
+    {
+      "ruleId": "hz.assistant.sample-topic.2026-03-27.rule.1",
+      "text": "## Retrieval behavior Loaders should merge `brain/core/` contracts first, then apply app-specific facts like this file.",
+      "tokens": [
+        "retrieval",
+        "behavior",
+        "loaders",
+        "merge",
+        "brain",
+        "core",
+        "contracts",
+        "first",
+        "then",
+        "apply",
+        "app",
+        "specific",
+        "facts",
+        "like",
+        "file"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "This document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.",
+    "short": "This document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.",
+    "tokens": [
+      "sample",
+      "canonical",
+      "knowledge",
+      "topic",
+      "document",
+      "demonstrates",
+      "canonical",
+      "assistant",
+      "knowledge",
+      "front",
+      "matter",
+      "matches",
+      "brain",
+      "schemas",
+      "knowledge",
+      "document",
+      "schema",
+      "json",
+      "body",
+      "plain",
+      "markdown",
+      "human",
+      "readers",
+      "chunking",
+      "document",
+      "demonstrates",
+      "canonical",
+      "assistant",
+      "knowledge",
+      "front",
+      "matter",
+      "matches",
+      "brain",
+      "schemas",
+      "knowledge",
+      "document",
+      "schema",
+      "json",
+      "body",
+      "plain",
+      "markdown",
+      "human",
+      "readers",
+      "chunking"
+    ]
+  },
+  "title": "Sample canonical knowledge topic"
+}

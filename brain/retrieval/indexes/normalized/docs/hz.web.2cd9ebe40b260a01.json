@@ -1,0 +1,382 @@
+{
+  "aliases": [
+    {
+      "alias": "2cd9ebe40b260a01",
+      "aliasId": "hz.web.2cd9ebe40b260a01.alias.1",
+      "canonical": "www.youtube.com"
+    },
+    {
+      "alias": "web 2cd9ebe40b260a01",
+      "aliasId": "hz.web.2cd9ebe40b260a01.alias.2",
+      "canonical": "www.youtube.com"
+    },
+    {
+      "alias": "www.youtube.com",
+      "aliasId": "hz.web.2cd9ebe40b260a01.alias.3",
+      "canonical": "www.youtube.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.2cd9ebe40b260a01",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2cd9ebe40b260a01.entity.1",
+      "kind": "document",
+      "name": "www.youtube.com",
+      "tokens": [
+        "www",
+        "youtube",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.2cd9ebe40b260a01.entity.2",
+      "kind": "heading",
+      "name": "www.youtube.com",
+      "tokens": [
+        "www",
+        "youtube",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.2cd9ebe40b260a01.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2cd9ebe40b260a01.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2cd9ebe40b260a01.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 93,
+      "charStart": 20,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.youtube.com/s/desktop/7cf77294/cssbin/www-onepick.css",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "youtube",
+        "com",
+        "desktop",
+        "7cf77294",
+        "cssbin",
+        "www",
+        "onepick",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 944,
+      "charStart": 145,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.1",
+      "kind": "bullet",
+      "text": ".picker-frame{width:100%;height:100%;border:0;overflow:hidden}.picker.modal-dialog-bg{position:absolute;top:0;left:0;right:auto;bottom:auto;border:none;background-color:#FFF}.picker.modal-dialog{position:absolute;top:0;bottom:auto;left:0;right:auto;background-color:#FFF;border:1px solid #ACACAC;width:auto;padding:0;z-index:1001;overflow:auto;-webkit-box-shadow:rgba(0,0,0,.2) 0 4px 16px;box-shadow:rgba(0,0,0,.2) 0 4px 16px;-webkit-transition:top .5s ease-in-out;transition:top .5s ease-in-out}.picker-min{position:absolute;z-index:1002}.picker.modal-dialog-content{font-size:0;padding:0}.picker.modal-dialog-title{height:0;margin:0}.picker.modal-dialog-title-text,.picker.modal-dialog-buttons{display:none}.picker.modal-dialog-bg,.picker.modal-dialog.picker-dialog{z-index:1999999999}sentinel{}",
+      "tokens": [
+        "picker",
+        "frame",
+        "width",
+        "100",
+        "height",
+        "100",
+        "border",
+        "overflow",
+        "hidden",
+        "picker",
+        "modal",
+        "dialog",
+        "bg",
+        "position",
+        "absolute",
+        "top",
+        "left",
+        "right",
+        "auto",
+        "bottom",
+        "auto",
+        "border",
+        "none",
+        "background",
+        "color",
+        "fff",
+        "picker",
+        "modal",
+        "dialog",
+        "position",
+        "absolute",
+        "top",
+        "bottom",
+        "auto",
+        "left",
+        "right",
+        "auto",
+        "background",
+        "color",
+        "fff",
+        "border",
+        "1px",
+        "solid",
+        "acacac",
+        "width",
+        "auto",
+        "padding",
+        "index",
+        "1001",
+        "overflow",
+        "auto",
+        "webkit",
+        "box",
+        "shadow",
+        "rgba",
+        "4px",
+        "16px",
+        "box",
+        "shadow",
+        "rgba",
+        "4px",
+        "16px",
+        "webkit",
+        "transition",
+        "top",
+        "5s",
+        "ease",
+        "out",
+        "transition",
+        "top",
+        "5s",
+        "ease",
+        "out",
+        "picker",
+        "min",
+        "position",
+        "absolute",
+        "index",
+        "1002",
+        "picker",
+        "modal",
+        "dialog",
+        "content",
+        "font",
+        "size",
+        "padding",
+        "picker",
+        "modal",
+        "dialog",
+        "title",
+        "height",
+        "margin",
+        "picker",
+        "modal",
+        "dialog",
+        "title",
+        "text",
+        "picker",
+        "modal",
+        "dialog",
+        "buttons",
+        "display",
+        "none",
+        "picker",
+        "modal",
+        "dialog",
+        "bg",
+        "picker",
+        "modal",
+        "dialog",
+        "picker",
+        "dialog",
+        "index",
+        "1999999999",
+        "sentinel"
+      ]
+    },
+    {
+      "charEnd": 967,
+      "charStart": 959,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.2",
+      "kind": "bullet",
+      "text": "picker",
+      "tokens": [
+        "picker"
+      ]
+    },
+    {
+      "charEnd": 976,
+      "charStart": 968,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.3",
+      "kind": "bullet",
+      "text": "dialog",
+      "tokens": [
+        "dialog"
+      ]
+    },
+    {
+      "charEnd": 984,
+      "charStart": 977,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.4",
+      "kind": "bullet",
+      "text": "modal",
+      "tokens": [
+        "modal"
+      ]
+    },
+    {
+      "charEnd": 991,
+      "charStart": 985,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.5",
+      "kind": "bullet",
+      "text": "auto",
+      "tokens": [
+        "auto"
+      ]
+    },
+    {
+      "charEnd": 997,
+      "charStart": 992,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.6",
+      "kind": "bullet",
+      "text": "top",
+      "tokens": [
+        "top"
+      ]
+    },
+    {
+      "charEnd": 1008,
+      "charStart": 998,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.7",
+      "kind": "bullet",
+      "text": "absolute",
+      "tokens": [
+        "absolute"
+      ]
+    },
+    {
+      "charEnd": 1017,
+      "charStart": 1009,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.8",
+      "kind": "bullet",
+      "text": "border",
+      "tokens": [
+        "border"
+      ]
+    },
+    {
+      "charEnd": 1025,
+      "charStart": 1018,
+      "factId": "hz.web.2cd9ebe40b260a01.fact.9",
+      "kind": "bullet",
+      "text": "index",
+      "tokens": [
+        "index"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.2cd9ebe40b260a01.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.youtube.com"
+    },
+    {
+      "charEnd": 143,
+      "charStart": 133,
+      "headingId": "hz.web.2cd9ebe40b260a01.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 957,
+      "charStart": 946,
+      "headingId": "hz.web.2cd9ebe40b260a01.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1037,
+      "charStart": 1027,
+      "headingId": "hz.web.2cd9ebe40b260a01.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2cd9ebe40b260a01.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2101,
+        "start": 0
+      }
+    ],
+    "hash": "00dcd6c8e6f0d3a6e70d2ce4d3cdaf6ab9b08b7db3f58676cc380ad74590d915",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".picker-frame{width:100%;height:100%;border:0;overflow:hidden}.picker.modal-dialog-bg{position:absolute;top:0;left:0;right:auto;bottom:auto;border:none;background-color:#FFF}.picker.modal-dialog{position:absolute;top:0;bottom:auto;left:0;right:auto;background-color:#FFF;border:1px solid #ACACAC;width:auto;padding:0;z-index:1001;overflow:auto;-webkit-box-shadow:rgba(0,0,0,.2) 0 4px 16px;box-shadow:rgba(0,0,0,.2) 0 4px 16px;-webkit-transition:top .5s ease-in-out;transition:top .5s ease-in-out}.picker-min{position:absolute;z-index:1002}.picker.modal-dialog-content{font-size:0;padding:0}.picker.modal-dialog-title{height:0;margin:0}.picker.modal-dialog-title-text,.picker.modal-dialog-buttons{display:none}.picker.modal-dialog-bg,.picker.modal-dialog.picker-dialog{z-index:1999999999}sentinel{}",
+      "picker",
+      "dialog"
+    ],
+    "medium": "Source: https://www.youtube.com/s/desktop/7cf77294/cssbin/www-onepick.css",
+    "short": "Source: https://www.youtube.com/s/desktop/7cf77294/cssbin/www-onepick.css",
+    "tokens": [
+      "www",
+      "youtube",
+      "com",
+      "source",
+      "https",
+      "www",
+      "youtube",
+      "com",
+      "desktop",
+      "7cf77294",
+      "cssbin",
+      "www",
+      "onepick",
+      "css",
+      "source",
+      "https",
+      "www",
+      "youtube",
+      "com",
+      "desktop",
+      "7cf77294",
+      "cssbin",
+      "www",
+      "onepick",
+      "css"
+    ]
+  },
+  "title": "www.youtube.com"
+}

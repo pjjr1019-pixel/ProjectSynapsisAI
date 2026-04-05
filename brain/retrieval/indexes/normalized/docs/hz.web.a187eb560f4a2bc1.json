@@ -1,0 +1,505 @@
+{
+  "aliases": [
+    {
+      "alias": "a187eb560f4a2bc1",
+      "aliasId": "hz.web.a187eb560f4a2bc1.alias.1",
+      "canonical": "improve a documentation page &#8212; python 3.14.3 documentation"
+    },
+    {
+      "alias": "improve a documentation page 8212 python 3.14.3 documentation",
+      "aliasId": "hz.web.a187eb560f4a2bc1.alias.2",
+      "canonical": "improve a documentation page &#8212; python 3.14.3 documentation"
+    },
+    {
+      "alias": "web a187eb560f4a2bc1",
+      "aliasId": "hz.web.a187eb560f4a2bc1.alias.3",
+      "canonical": "improve a documentation page &#8212; python 3.14.3 documentation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.63,
+  "docId": "hz.web.a187eb560f4a2bc1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a187eb560f4a2bc1.entity.1",
+      "kind": "document",
+      "name": "Improve a documentation page &#8212; Python 3.14.3 documentation",
+      "tokens": [
+        "improve",
+        "documentation",
+        "page",
+        "8212",
+        "python",
+        "14",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.a187eb560f4a2bc1.entity.2",
+      "kind": "heading",
+      "name": "Improve a documentation page &#8212; Python 3.14.3 documentation",
+      "tokens": [
+        "improve",
+        "documentation",
+        "page",
+        "8212",
+        "python",
+        "14",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.a187eb560f4a2bc1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a187eb560f4a2bc1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a187eb560f4a2bc1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 125,
+      "charStart": 69,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://docs.python.org/3/improve-page-nojs.html",
+      "tokens": [
+        "source",
+        "https",
+        "docs",
+        "python",
+        "org",
+        "improve",
+        "page",
+        "nojs",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 553,
+      "charStart": 177,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.1",
+      "kind": "bullet",
+      "text": "Improve a documentation page &#8212; Python 3.14.3 documentation Theme Auto Light Dark This page Report a bug Improve this page Show source Navigation index modules | Python &#187; 3.14.3 Documentation &#187; Improve a documentation page | Theme Auto Light Dark | Improve a documentation page ¶ We are always interested to hear ideas about improvements to the documentation.",
+      "tokens": [
+        "improve",
+        "documentation",
+        "page",
+        "8212",
+        "python",
+        "14",
+        "documentation",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "page",
+        "report",
+        "bug",
+        "improve",
+        "page",
+        "show",
+        "source",
+        "navigation",
+        "index",
+        "modules",
+        "python",
+        "187",
+        "14",
+        "documentation",
+        "187",
+        "improve",
+        "documentation",
+        "page",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "improve",
+        "documentation",
+        "page",
+        "always",
+        "interested",
+        "hear",
+        "ideas",
+        "about",
+        "improvements",
+        "documentation"
+      ]
+    },
+    {
+      "charEnd": 686,
+      "charStart": 554,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.2",
+      "kind": "bullet",
+      "text": "You have a few ways to ask questions or suggest changes: You can start a discussion about the page on the Python discussion forum.",
+      "tokens": [
+        "have",
+        "few",
+        "ways",
+        "ask",
+        "questions",
+        "suggest",
+        "changes",
+        "start",
+        "discussion",
+        "about",
+        "page",
+        "python",
+        "discussion",
+        "forum"
+      ]
+    },
+    {
+      "charEnd": 774,
+      "charStart": 687,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.3",
+      "kind": "bullet",
+      "text": "This link will start a topic in the Documentation category: New Documentation topic .",
+      "tokens": [
+        "link",
+        "will",
+        "start",
+        "topic",
+        "documentation",
+        "category",
+        "new",
+        "documentation",
+        "topic"
+      ]
+    },
+    {
+      "charEnd": 834,
+      "charStart": 775,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.4",
+      "kind": "bullet",
+      "text": "You can open an issue on the Python GitHub issue tracker.",
+      "tokens": [
+        "open",
+        "issue",
+        "python",
+        "github",
+        "issue",
+        "tracker"
+      ]
+    },
+    {
+      "charEnd": 864,
+      "charStart": 849,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.5",
+      "kind": "bullet",
+      "text": "documentation",
+      "tokens": [
+        "documentation"
+      ]
+    },
+    {
+      "charEnd": 871,
+      "charStart": 865,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.6",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 880,
+      "charStart": 872,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.7",
+      "kind": "bullet",
+      "text": "python",
+      "tokens": [
+        "python"
+      ]
+    },
+    {
+      "charEnd": 890,
+      "charStart": 881,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.8",
+      "kind": "bullet",
+      "text": "improve",
+      "tokens": [
+        "improve"
+      ]
+    },
+    {
+      "charEnd": 896,
+      "charStart": 891,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.9",
+      "kind": "bullet",
+      "text": "187",
+      "tokens": [
+        "187"
+      ]
+    },
+    {
+      "charEnd": 904,
+      "charStart": 897,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.10",
+      "kind": "bullet",
+      "text": "issue",
+      "tokens": [
+        "issue"
+      ]
+    },
+    {
+      "charEnd": 909,
+      "charStart": 905,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.11",
+      "kind": "bullet",
+      "text": "14",
+      "tokens": [
+        "14"
+      ]
+    },
+    {
+      "charEnd": 916,
+      "charStart": 910,
+      "factId": "hz.web.a187eb560f4a2bc1.fact.12",
+      "kind": "bullet",
+      "text": "auto",
+      "tokens": [
+        "auto"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 67,
+      "charStart": 1,
+      "headingId": "hz.web.a187eb560f4a2bc1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Improve a documentation page &#8212; Python 3.14.3 documentation"
+    },
+    {
+      "charEnd": 175,
+      "charStart": 165,
+      "headingId": "hz.web.a187eb560f4a2bc1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 847,
+      "charStart": 836,
+      "headingId": "hz.web.a187eb560f4a2bc1.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 928,
+      "charStart": 918,
+      "headingId": "hz.web.a187eb560f4a2bc1.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/a187eb560f4a2bc1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2578,
+        "start": 0
+      }
+    ],
+    "hash": "01594e7603fa5d57eb9a145a25b758899fb0b14c28cd897642f75b62cde38992",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.a187eb560f4a2bc1.rule.1",
+      "text": "# Improve a documentation page &#8212; Python 3.14.3 documentation Source: https://docs.python.org/3/improve-page-nojs.html Fetched at: 2026-03-29T20:23:54.177Z ## Summary - Improve a documentation page &#8212; Python 3.14.3 documentation Theme Auto Light Dark This page Report a bug Improve this page Show source Navigation index modules | Python &#187; 3.14.3 Documentation &#187; Improve a documentation page | Theme Auto Light Dark | Improve a documentation page ¶ We are always interested to hear ideas about improvements to the documentation.",
+      "tokens": [
+        "improve",
+        "documentation",
+        "page",
+        "8212",
+        "python",
+        "14",
+        "documentation",
+        "source",
+        "https",
+        "docs",
+        "python",
+        "org",
+        "improve",
+        "page",
+        "nojs",
+        "html",
+        "fetched",
+        "2026",
+        "03",
+        "29t20",
+        "23",
+        "54",
+        "177z",
+        "summary",
+        "improve",
+        "documentation",
+        "page",
+        "8212",
+        "python",
+        "14",
+        "documentation",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "page",
+        "report",
+        "bug",
+        "improve",
+        "page",
+        "show",
+        "source",
+        "navigation",
+        "index",
+        "modules",
+        "python",
+        "187",
+        "14",
+        "documentation",
+        "187",
+        "improve",
+        "documentation",
+        "page",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "improve",
+        "documentation",
+        "page",
+        "always",
+        "interested",
+        "hear",
+        "ideas",
+        "about",
+        "improvements",
+        "documentation"
+      ]
+    },
+    {
+      "ruleId": "hz.web.a187eb560f4a2bc1.rule.2",
+      "text": "## Keywords - documentation - page - python - improve - 187 - issue - 14 - auto ## Excerpt Improve a documentation page &#8212; Python 3.14.3 documentation Theme Auto Light Dark This page Report a bug Improve this page Show source Navigation index modules | Python &#187; 3.14.3 Documentation &#187; Improve a documentation page | Theme Auto Light Dark | Improve a documentation page ¶ We are always interested to hear ideas about improvements to the documentation.",
+      "tokens": [
+        "keywords",
+        "documentation",
+        "page",
+        "python",
+        "improve",
+        "187",
+        "issue",
+        "14",
+        "auto",
+        "excerpt",
+        "improve",
+        "documentation",
+        "page",
+        "8212",
+        "python",
+        "14",
+        "documentation",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "page",
+        "report",
+        "bug",
+        "improve",
+        "page",
+        "show",
+        "source",
+        "navigation",
+        "index",
+        "modules",
+        "python",
+        "187",
+        "14",
+        "documentation",
+        "187",
+        "improve",
+        "documentation",
+        "page",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "improve",
+        "documentation",
+        "page",
+        "always",
+        "interested",
+        "hear",
+        "ideas",
+        "about",
+        "improvements",
+        "documentation"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Improve a documentation page &#8212; Python 3.14.3 documentation Theme Auto Light Dark This page Report a bug Improve this page Show source Navigation index modules | Python &#187; 3.14.3 Documentation &#187; Improve a documentation page | Theme Auto Light Dark | Improve a documentation page ¶ We are always interested to hear ideas about improvements to the documentation.",
+      "You have a few ways to ask questions or suggest changes: You can start a discussion about the page on the Python discussion forum.",
+      "This link will start a topic in the Documentation category: New Documentation topic ."
+    ],
+    "medium": "Source: https://docs.python.org/3/improve-page-nojs.html",
+    "short": "Source: https://docs.python.org/3/improve-page-nojs.html",
+    "tokens": [
+      "improve",
+      "documentation",
+      "page",
+      "8212",
+      "python",
+      "14",
+      "documentation",
+      "source",
+      "https",
+      "docs",
+      "python",
+      "org",
+      "improve",
+      "page",
+      "nojs",
+      "html",
+      "source",
+      "https",
+      "docs",
+      "python",
+      "org",
+      "improve",
+      "page",
+      "nojs",
+      "html"
+    ]
+  },
+  "title": "Improve a documentation page &#8212; Python 3.14.3 documentation"
+}

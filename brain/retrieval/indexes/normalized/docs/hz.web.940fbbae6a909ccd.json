@@ -1,0 +1,408 @@
+{
+  "aliases": [
+    {
+      "alias": "940fbbae6a909ccd",
+      "aliasId": "hz.web.940fbbae6a909ccd.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.940fbbae6a909ccd.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web 940fbbae6a909ccd",
+      "aliasId": "hz.web.940fbbae6a909ccd.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.940fbbae6a909ccd",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.940fbbae6a909ccd.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.940fbbae6a909ccd.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.940fbbae6a909ccd.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.940fbbae6a909ccd.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.940fbbae6a909ccd.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 116,
+      "charStart": 25,
+      "factId": "hz.web.940fbbae6a909ccd.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:700",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "css",
+        "family",
+        "roboto",
+        "300",
+        "400",
+        "500",
+        "700",
+        "roboto",
+        "condensed",
+        "700"
+      ]
+    },
+    {
+      "charEnd": 1297,
+      "charStart": 168,
+      "factId": "hz.web.940fbbae6a909ccd.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Roboto'; font-style: normal; font-weight: 300; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 400; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 500; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 700; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto Condensed'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBO5Xk.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "300",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwuaabvmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwubebvmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "500",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwub2bvmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwuyjalmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "condensed",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "robotocondensed",
+        "v31",
+        "ievo2zhzi2ecn5jzbjeets9weq8",
+        "_d6t_pol0frjeyvvpcbo5xk",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 1318,
+      "charStart": 1312,
+      "factId": "hz.web.940fbbae6a909ccd.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1327,
+      "charStart": 1319,
+      "factId": "hz.web.940fbbae6a909ccd.fact.3",
+      "kind": "bullet",
+      "text": "normal",
+      "tokens": [
+        "normal"
+      ]
+    },
+    {
+      "charEnd": 1336,
+      "charStart": 1328,
+      "factId": "hz.web.940fbbae6a909ccd.fact.4",
+      "kind": "bullet",
+      "text": "roboto",
+      "tokens": [
+        "roboto"
+      ]
+    },
+    {
+      "charEnd": 1342,
+      "charStart": 1337,
+      "factId": "hz.web.940fbbae6a909ccd.fact.5",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1349,
+      "charStart": 1343,
+      "factId": "hz.web.940fbbae6a909ccd.fact.6",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 1358,
+      "charStart": 1350,
+      "factId": "hz.web.940fbbae6a909ccd.fact.7",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 1366,
+      "charStart": 1359,
+      "factId": "hz.web.940fbbae6a909ccd.fact.8",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 1375,
+      "charStart": 1367,
+      "factId": "hz.web.940fbbae6a909ccd.fact.9",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.940fbbae6a909ccd.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 166,
+      "charStart": 156,
+      "headingId": "hz.web.940fbbae6a909ccd.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1310,
+      "charStart": 1299,
+      "headingId": "hz.web.940fbbae6a909ccd.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1387,
+      "charStart": 1377,
+      "headingId": "hz.web.940fbbae6a909ccd.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/940fbbae6a909ccd.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2804,
+        "start": 0
+      }
+    ],
+    "hash": "1a310351c990793a17e1d9cdb9fd0e738655216bd144b135cd1e3dc2d53df5bd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Roboto'; font-style: normal; font-weight: 300; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 400; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 500; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 700; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto Condensed'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/robotocondensed/v31/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBO5Xk.ttf) format('truetype'); }",
+      "font",
+      "normal"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:700",
+    "short": "Source: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:700",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "roboto",
+      "300",
+      "400",
+      "500",
+      "700",
+      "roboto",
+      "condensed",
+      "700",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "roboto",
+      "300",
+      "400",
+      "500",
+      "700",
+      "roboto",
+      "condensed",
+      "700"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

@@ -1,0 +1,318 @@
+{
+  "aliases": [
+    {
+      "alias": "e9e9fc88176f4432",
+      "aliasId": "hz.web.e9e9fc88176f4432.alias.1",
+      "canonical": "home page | mit csail"
+    },
+    {
+      "alias": "home page mit csail",
+      "aliasId": "hz.web.e9e9fc88176f4432.alias.2",
+      "canonical": "home page | mit csail"
+    },
+    {
+      "alias": "web e9e9fc88176f4432",
+      "aliasId": "hz.web.e9e9fc88176f4432.alias.3",
+      "canonical": "home page | mit csail"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.e9e9fc88176f4432",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e9e9fc88176f4432.entity.1",
+      "kind": "document",
+      "name": "Home Page | MIT CSAIL",
+      "tokens": [
+        "home",
+        "page",
+        "mit",
+        "csail"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9e9fc88176f4432.entity.2",
+      "kind": "heading",
+      "name": "Home Page | MIT CSAIL",
+      "tokens": [
+        "home",
+        "page",
+        "mit",
+        "csail"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9e9fc88176f4432.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9e9fc88176f4432.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9e9fc88176f4432.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 26,
+      "factId": "hz.web.e9e9fc88176f4432.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.csail.mit.edu/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "csail",
+        "mit",
+        "edu"
+      ]
+    },
+    {
+      "charEnd": 630,
+      "charStart": 112,
+      "factId": "hz.web.e9e9fc88176f4432.fact.1",
+      "kind": "bullet",
+      "text": "Home Page | MIT CSAIL Skip to main content For Students For Industry For Members Accessibility Login MIT CSAIL Research People News Events Symposia Forum About Research People News Events Symposia Forum About For Students For Industry For Members Accessibility Login Contact Press Requests Accessibility Search FEATURED Rotate Panorama See more MIT CSAIL Massachusetts Institute of Technology Computer Science & Artificial Intelligence Laboratory 32 Vassar St, Cambridge MA 02139 Contact Press Requests Accessibility",
+      "tokens": [
+        "home",
+        "page",
+        "mit",
+        "csail",
+        "skip",
+        "main",
+        "content",
+        "students",
+        "industry",
+        "members",
+        "accessibility",
+        "login",
+        "mit",
+        "csail",
+        "research",
+        "people",
+        "news",
+        "events",
+        "symposia",
+        "forum",
+        "about",
+        "research",
+        "people",
+        "news",
+        "events",
+        "symposia",
+        "forum",
+        "about",
+        "students",
+        "industry",
+        "members",
+        "accessibility",
+        "login",
+        "contact",
+        "press",
+        "requests",
+        "accessibility",
+        "search",
+        "featured",
+        "rotate",
+        "panorama",
+        "see",
+        "more",
+        "mit",
+        "csail",
+        "massachusetts",
+        "institute",
+        "technology",
+        "computer",
+        "science",
+        "artificial",
+        "intelligence",
+        "laboratory",
+        "32",
+        "vassar",
+        "st",
+        "cambridge",
+        "ma",
+        "02139",
+        "contact",
+        "press",
+        "requests",
+        "accessibility"
+      ]
+    },
+    {
+      "charEnd": 660,
+      "charStart": 645,
+      "factId": "hz.web.e9e9fc88176f4432.fact.2",
+      "kind": "bullet",
+      "text": "accessibility",
+      "tokens": [
+        "accessibility"
+      ]
+    },
+    {
+      "charEnd": 668,
+      "charStart": 661,
+      "factId": "hz.web.e9e9fc88176f4432.fact.3",
+      "kind": "bullet",
+      "text": "csail",
+      "tokens": [
+        "csail"
+      ]
+    },
+    {
+      "charEnd": 674,
+      "charStart": 669,
+      "factId": "hz.web.e9e9fc88176f4432.fact.4",
+      "kind": "bullet",
+      "text": "mit",
+      "tokens": [
+        "mit"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 675,
+      "factId": "hz.web.e9e9fc88176f4432.fact.5",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 692,
+      "charStart": 683,
+      "factId": "hz.web.e9e9fc88176f4432.fact.6",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 701,
+      "charStart": 693,
+      "factId": "hz.web.e9e9fc88176f4432.fact.7",
+      "kind": "bullet",
+      "text": "events",
+      "tokens": [
+        "events"
+      ]
+    },
+    {
+      "charEnd": 709,
+      "charStart": 702,
+      "factId": "hz.web.e9e9fc88176f4432.fact.8",
+      "kind": "bullet",
+      "text": "forum",
+      "tokens": [
+        "forum"
+      ]
+    },
+    {
+      "charEnd": 720,
+      "charStart": 710,
+      "factId": "hz.web.e9e9fc88176f4432.fact.9",
+      "kind": "bullet",
+      "text": "industry",
+      "tokens": [
+        "industry"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.e9e9fc88176f4432.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Home Page | MIT CSAIL"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.e9e9fc88176f4432.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 643,
+      "charStart": 632,
+      "headingId": "hz.web.e9e9fc88176f4432.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 732,
+      "charStart": 722,
+      "headingId": "hz.web.e9e9fc88176f4432.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e9e9fc88176f4432.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1482,
+        "start": 0
+      }
+    ],
+    "hash": "87f44a9298d80619b9dc4485ae6a51b9cac790f536ea916728d1699d6cf9788a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Home Page | MIT CSAIL Skip to main content For Students For Industry For Members Accessibility Login MIT CSAIL Research People News Events Symposia Forum About Research People News Events Symposia Forum About For Students For Industry For Members Accessibility Login Contact Press Requests Accessibility Search FEATURED Rotate Panorama See more MIT CSAIL Massachusetts Institute of Technology Computer Science & Artificial Intelligence Laboratory 32 Vassar St, Cambridge MA 02139 Contact Press Requests Accessibility",
+      "accessibility",
+      "csail"
+    ],
+    "medium": "Source: https://www.csail.mit.edu/",
+    "short": "Source: https://www.csail.mit.edu/",
+    "tokens": [
+      "home",
+      "page",
+      "mit",
+      "csail",
+      "source",
+      "https",
+      "www",
+      "csail",
+      "mit",
+      "edu",
+      "source",
+      "https",
+      "www",
+      "csail",
+      "mit",
+      "edu"
+    ]
+  },
+  "title": "Home Page | MIT CSAIL"
+}

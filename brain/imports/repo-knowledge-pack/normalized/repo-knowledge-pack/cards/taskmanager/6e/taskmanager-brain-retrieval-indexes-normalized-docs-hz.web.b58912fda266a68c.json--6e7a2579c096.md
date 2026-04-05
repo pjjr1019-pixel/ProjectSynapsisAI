@@ -1,0 +1,78 @@
+---
+schema_version: 1
+pack_id: "repo-knowledge-pack"
+card_type: "file-summary"
+source_path: "taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.b58912fda266a68c.json"
+source_name: "hz.web.b58912fda266a68c.json"
+top_level: "taskmanager"
+surface: "brain-retrieval"
+classification: "generated"
+kind: "json"
+language: "json"
+extension: ".json"
+score: 60
+selected_rank: 2592
+content_hash: "ac064ecbab10f99db8357fc38208147f99db091c0508d7833de3c4a3963dc8c4"
+generated_at: "2026-04-02T15:23:30.410Z"
+tags:
+  - "brain"
+  - "brain-retrieval"
+  - "generated"
+  - "index"
+  - "json"
+---
+
+# taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.b58912fda266a68c.json
+
+> JSON data file
+
+## Key Signals
+
+- Source path: taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.b58912fda266a68c.json
+- Surface: brain-retrieval
+- Classification: generated
+- Kind: json
+- Language: json
+- Top level: taskmanager
+- Score: 60
+- Tags: brain, brain-retrieval, generated, index, json
+
+## Lookup Notes
+
+- Use the card path in lookup.json to jump directly to this summary.
+- Open the source from this card with the repository-relative path.
+- Primary lookup terms: brain, brain-retrieval, generated, index, json, taskmanager
+- Source link target: taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.b58912fda266a68c.json
+
+## Excerpt
+
+~~~json
+{
+  "aliases": [
+    {
+      "alias": "b58912fda266a68c",
+      "aliasId": "hz.web.b58912fda266a68c.alias.1",
+      "canonical": "s0.wp.com"
+    },
+    {
+      "alias": "s0.wp.com",
+      "aliasId": "hz.web.b58912fda266a68c.alias.2",
+      "canonical": "s0.wp.com"
+    },
+    {
+      "alias": "web b58912fda266a68c",
+      "aliasId": "hz.web.b58912fda266a68c.alias.3",
+      "canonical": "s0.wp.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.b58912fda266a68c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.b58912fda266a68c.entity.1",
+      "kind": "document",
+      "name": "s0.wp.com",
+      "tokens": [
+~~~

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "system_triage_read_only",
+    "title": "System triage (read-only)",
+    "description": "Collects a quick system/process/network snapshot without changing anything.",
+    "steps": [
+      "system_summary",
+      "top_cpu_processes",
+      "top_memory_processes",
+      "list_listening_ports",
+      "service_status_summary",
+      "list_startup_entries"
+    ],
+    "risk_level": "low"
+  },
+  {
+    "id": "process_kill_preflight",
+    "title": "Process kill preflight",
+    "description": "Checks policy and previews candidate processes before a kill action.",
+    "steps": [
+      "preflight_for_process_action",
+      "find_processes_by_query",
+      "critical_process_matches"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "id": "service_restart_preflight",
+    "title": "Service restart preflight",
+    "description": "Checks policy and current service status before a service restart.",
+    "steps": [
+      "preflight_for_service_action",
+      "find_service_by_query",
+      "service_status_summary"
+    ],
+    "risk_level": "medium"
+  },
+  {
+    "id": "temp_cleanup_preview",
+    "title": "Temp cleanup preview",
+    "description": "Shows temp candidates before any deletion.",
+    "steps": [
+      "temp_directory_info",
+      "temp_candidates_older_than_days",
+      "clear_temp_candidates"
+    ],
+    "risk_level": "high"
+  },
+  {
+    "id": "allowlist_audit",
+    "title": "Allowlist audit",
+    "description": "Compares running processes and services against allowlists.",
+    "steps": [
+      "processes_not_in_allowlist",
+      "services_not_in_allowlist"
+    ],
+    "risk_level": "low"
+  },
+  {
+    "id": "snapshot_compare_workflow",
+    "title": "Snapshot compare workflow",
+    "description": "Saves process and network snapshots for before/after comparison.",
+    "steps": [
+      "process_snapshot_save",
+      "network_snapshot_save",
+      "process_snapshot_compare",
+      "network_snapshot_compare"
+    ],
+    "risk_level": "low"
+  }
+]

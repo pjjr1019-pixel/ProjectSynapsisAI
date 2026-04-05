@@ -1,0 +1,308 @@
+{
+  "aliases": [
+    {
+      "alias": "01f62970d548f222",
+      "aliasId": "hz.web.01f62970d548f222.alias.1",
+      "canonical": "awesome | our values"
+    },
+    {
+      "alias": "awesome our values",
+      "aliasId": "hz.web.01f62970d548f222.alias.2",
+      "canonical": "awesome | our values"
+    },
+    {
+      "alias": "web 01f62970d548f222",
+      "aliasId": "hz.web.01f62970d548f222.alias.3",
+      "canonical": "awesome | our values"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.01f62970d548f222",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.01f62970d548f222.entity.1",
+      "kind": "document",
+      "name": "Awesome | Our Values",
+      "tokens": [
+        "awesome",
+        "our",
+        "values"
+      ]
+    },
+    {
+      "entityId": "hz.web.01f62970d548f222.entity.2",
+      "kind": "heading",
+      "name": "Awesome | Our Values",
+      "tokens": [
+        "awesome",
+        "our",
+        "values"
+      ]
+    },
+    {
+      "entityId": "hz.web.01f62970d548f222.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.01f62970d548f222.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.01f62970d548f222.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 25,
+      "factId": "hz.web.01f62970d548f222.fact.1",
+      "kind": "summary",
+      "text": "Source: https://awesome.co/values",
+      "tokens": [
+        "source",
+        "https",
+        "awesome",
+        "co",
+        "values"
+      ]
+    },
+    {
+      "charEnd": 210,
+      "charStart": 110,
+      "factId": "hz.web.01f62970d548f222.fact.1",
+      "kind": "bullet",
+      "text": "Awesome | Our Values Mission Values Brands Folklore Certified Evergeen People Ready to be Awesome?",
+      "tokens": [
+        "awesome",
+        "our",
+        "values",
+        "mission",
+        "values",
+        "brands",
+        "folklore",
+        "certified",
+        "evergeen",
+        "people",
+        "ready",
+        "awesome"
+      ]
+    },
+    {
+      "charEnd": 226,
+      "charStart": 211,
+      "factId": "hz.web.01f62970d548f222.fact.2",
+      "kind": "bullet",
+      "text": "Work with us!",
+      "tokens": [
+        "work",
+        "us"
+      ]
+    },
+    {
+      "charEnd": 259,
+      "charStart": 227,
+      "factId": "hz.web.01f62970d548f222.fact.3",
+      "kind": "bullet",
+      "text": "MENU OUR VALUES Mission-bound.",
+      "tokens": [
+        "menu",
+        "our",
+        "values",
+        "mission",
+        "bound"
+      ]
+    },
+    {
+      "charEnd": 276,
+      "charStart": 260,
+      "factId": "hz.web.01f62970d548f222.fact.4",
+      "kind": "bullet",
+      "text": "Values-driven.",
+      "tokens": [
+        "values",
+        "driven"
+      ]
+    },
+    {
+      "charEnd": 296,
+      "charStart": 291,
+      "factId": "hz.web.01f62970d548f222.fact.5",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 305,
+      "charStart": 297,
+      "factId": "hz.web.01f62970d548f222.fact.6",
+      "kind": "bullet",
+      "text": "values",
+      "tokens": [
+        "values"
+      ]
+    },
+    {
+      "charEnd": 310,
+      "charStart": 306,
+      "factId": "hz.web.01f62970d548f222.fact.7",
+      "kind": "bullet",
+      "text": "re",
+      "tokens": [
+        "re"
+      ]
+    },
+    {
+      "charEnd": 315,
+      "charStart": 311,
+      "factId": "hz.web.01f62970d548f222.fact.8",
+      "kind": "bullet",
+      "text": "us",
+      "tokens": [
+        "us"
+      ]
+    },
+    {
+      "charEnd": 327,
+      "charStart": 316,
+      "factId": "hz.web.01f62970d548f222.fact.9",
+      "kind": "bullet",
+      "text": "customers",
+      "tokens": [
+        "customers"
+      ]
+    },
+    {
+      "charEnd": 337,
+      "charStart": 328,
+      "factId": "hz.web.01f62970d548f222.fact.10",
+      "kind": "bullet",
+      "text": "awesome",
+      "tokens": [
+        "awesome"
+      ]
+    },
+    {
+      "charEnd": 344,
+      "charStart": 338,
+      "factId": "hz.web.01f62970d548f222.fact.11",
+      "kind": "bullet",
+      "text": "have",
+      "tokens": [
+        "have"
+      ]
+    },
+    {
+      "charEnd": 351,
+      "charStart": 345,
+      "factId": "hz.web.01f62970d548f222.fact.12",
+      "kind": "bullet",
+      "text": "make",
+      "tokens": [
+        "make"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.01f62970d548f222.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Awesome | Our Values"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.01f62970d548f222.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 289,
+      "charStart": 278,
+      "headingId": "hz.web.01f62970d548f222.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 363,
+      "charStart": 353,
+      "headingId": "hz.web.01f62970d548f222.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/01f62970d548f222.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2146,
+        "start": 0
+      }
+    ],
+    "hash": "4ddb2c3ae17d019c285f219b2ccc415ca519b96d5f49f7f051688a966ca88049",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.01f62970d548f222.rule.1",
+      "text": "We’re never done learning.",
+      "tokens": [
+        "re",
+        "never",
+        "done",
+        "learning"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Awesome | Our Values Mission Values Brands Folklore Certified Evergeen People Ready to be Awesome?",
+      "Work with us!",
+      "MENU OUR VALUES Mission-bound."
+    ],
+    "medium": "Source: https://awesome.co/values",
+    "short": "Source: https://awesome.co/values",
+    "tokens": [
+      "awesome",
+      "our",
+      "values",
+      "source",
+      "https",
+      "awesome",
+      "co",
+      "values",
+      "source",
+      "https",
+      "awesome",
+      "co",
+      "values"
+    ]
+  },
+  "title": "Awesome | Our Values"
+}

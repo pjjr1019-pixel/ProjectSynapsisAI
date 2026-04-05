@@ -1,0 +1,423 @@
+{
+  "aliases": [
+    {
+      "alias": "a4634abd8ef49dc0",
+      "aliasId": "hz.web.a4634abd8ef49dc0.alias.1",
+      "canonical": "www.ercim.eu"
+    },
+    {
+      "alias": "web a4634abd8ef49dc0",
+      "aliasId": "hz.web.a4634abd8ef49dc0.alias.2",
+      "canonical": "www.ercim.eu"
+    },
+    {
+      "alias": "www.ercim.eu",
+      "aliasId": "hz.web.a4634abd8ef49dc0.alias.3",
+      "canonical": "www.ercim.eu"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.a4634abd8ef49dc0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a4634abd8ef49dc0.entity.1",
+      "kind": "document",
+      "name": "www.ercim.eu",
+      "tokens": [
+        "www",
+        "ercim",
+        "eu"
+      ]
+    },
+    {
+      "entityId": "hz.web.a4634abd8ef49dc0.entity.2",
+      "kind": "heading",
+      "name": "www.ercim.eu",
+      "tokens": [
+        "www",
+        "ercim",
+        "eu"
+      ]
+    },
+    {
+      "entityId": "hz.web.a4634abd8ef49dc0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a4634abd8ef49dc0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a4634abd8ef49dc0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 102,
+      "charStart": 17,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.ercim.eu/component/finder/search?format=opensearch&amp;Itemid=155",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "component",
+        "finder",
+        "search",
+        "format",
+        "opensearch",
+        "amp",
+        "itemid",
+        "155"
+      ]
+    },
+    {
+      "charEnd": 1314,
+      "charStart": 154,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"><ShortName>ERCIM</ShortName><Description>ERCIM - The European Research Consortium for Informatics and Mathematics</Description><InputEncoding>UTF-8</InputEncoding><Image type=\"image/vnd.microsoft.icon\" width=\"16\" height=\"16\">https://www.ercim.eu/templates/purity_iii/favicon.ico</Image><Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"https://www.ercim.eu/component/finder/search?format=opensearch&amp;Itemid=155\"/><Url type=\"text/html\" template=\"https://www.ercim.eu/component/finder/search?q={searchTerms}&amp;Itemid=155\"/><Url type=\"application/rss+xml\" template=\"https://www.ercim.eu/component/finder/search?q={searchTerms}&amp;format=feed&amp;type=rss&amp;Itemid=155\"/><Url type=\"application/atom+xml\" template=\"https://www.ercim.eu/component/finder/search?q={searchTerms}&amp;format=feed&amp;type=atom&amp;Itemid=155\"/><Url type=\"application/x-suggestions+json\" template=\"https://www.ercim.eu/component/finder/?task=suggestions.opensearchsuggest&amp;format=json&amp;q={searchTerms}&amp;Itemid=155\"/></OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "shortname",
+        "ercim",
+        "shortname",
+        "description",
+        "ercim",
+        "european",
+        "research",
+        "consortium",
+        "informatics",
+        "mathematics",
+        "description",
+        "inputencoding",
+        "utf",
+        "inputencoding",
+        "image",
+        "type",
+        "image",
+        "vnd",
+        "microsoft",
+        "icon",
+        "width",
+        "16",
+        "height",
+        "16",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "templates",
+        "purity_iii",
+        "favicon",
+        "ico",
+        "image",
+        "url",
+        "type",
+        "application",
+        "opensearchdescription",
+        "xml",
+        "rel",
+        "self",
+        "template",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "component",
+        "finder",
+        "search",
+        "format",
+        "opensearch",
+        "amp",
+        "itemid",
+        "155",
+        "url",
+        "type",
+        "text",
+        "html",
+        "template",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "component",
+        "finder",
+        "search",
+        "searchterms",
+        "amp",
+        "itemid",
+        "155",
+        "url",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "template",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "component",
+        "finder",
+        "search",
+        "searchterms",
+        "amp",
+        "format",
+        "feed",
+        "amp",
+        "type",
+        "rss",
+        "amp",
+        "itemid",
+        "155",
+        "url",
+        "type",
+        "application",
+        "atom",
+        "xml",
+        "template",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "component",
+        "finder",
+        "search",
+        "searchterms",
+        "amp",
+        "format",
+        "feed",
+        "amp",
+        "type",
+        "atom",
+        "amp",
+        "itemid",
+        "155",
+        "url",
+        "type",
+        "application",
+        "suggestions",
+        "json",
+        "template",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "component",
+        "finder",
+        "task",
+        "suggestions",
+        "opensearchsuggest",
+        "amp",
+        "format",
+        "json",
+        "amp",
+        "searchterms",
+        "amp",
+        "itemid",
+        "155",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 1334,
+      "charStart": 1329,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.2",
+      "kind": "bullet",
+      "text": "amp",
+      "tokens": [
+        "amp"
+      ]
+    },
+    {
+      "charEnd": 1342,
+      "charStart": 1335,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.3",
+      "kind": "bullet",
+      "text": "ercim",
+      "tokens": [
+        "ercim"
+      ]
+    },
+    {
+      "charEnd": 1349,
+      "charStart": 1343,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.4",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 1354,
+      "charStart": 1350,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.5",
+      "kind": "bullet",
+      "text": "eu",
+      "tokens": [
+        "eu"
+      ]
+    },
+    {
+      "charEnd": 1362,
+      "charStart": 1355,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1368,
+      "charStart": 1363,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.7",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 1374,
+      "charStart": 1369,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.8",
+      "kind": "bullet",
+      "text": "155",
+      "tokens": [
+        "155"
+      ]
+    },
+    {
+      "charEnd": 1386,
+      "charStart": 1375,
+      "factId": "hz.web.a4634abd8ef49dc0.fact.9",
+      "kind": "bullet",
+      "text": "component",
+      "tokens": [
+        "component"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.a4634abd8ef49dc0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.ercim.eu"
+    },
+    {
+      "charEnd": 152,
+      "charStart": 142,
+      "headingId": "hz.web.a4634abd8ef49dc0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1327,
+      "charStart": 1316,
+      "headingId": "hz.web.a4634abd8ef49dc0.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1398,
+      "charStart": 1388,
+      "headingId": "hz.web.a4634abd8ef49dc0.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a4634abd8ef49dc0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2832,
+        "start": 0
+      }
+    ],
+    "hash": "3a8314c360cbb9870679f832d06af8952d66877518f51f872eac74504d664cc5",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"utf-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"><ShortName>ERCIM</ShortName><Description>ERCIM - The European Research Consortium for Informatics and Mathematics</Description><InputEncoding>UTF-8</InputEncoding><Image type=\"image/vnd.microsoft.icon\" width=\"16\" height=\"16\">https://www.ercim.eu/templates/purity_iii/favicon.ico</Image><Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"https://www.ercim.eu/component/finder/search?format=opensearch&amp;Itemid=155\"/><Url type=\"text/html\" template=\"https://www.ercim.eu/component/finder/search?q={searchTerms}&amp;Itemid=155\"/><Url type=\"application/rss+xml\" template=\"https://www.ercim.eu/component/finder/search?q={searchTerms}&amp;format=feed&amp;type=rss&amp;Itemid=155\"/><Url type=\"application/atom+xml\" template=\"https://www.ercim.eu/component/finder/search?q={searchTerms}&amp;format=feed&amp;type=atom&amp;Itemid=155\"/><Url type=\"application/x-suggestions+json\" template=\"https://www.ercim.eu/component/finder/?task=suggestions.opensearchsuggest&amp;format=json&amp;q={searchTerms}&amp;Itemid=155\"/></OpenSearchDescription>",
+      "amp",
+      "ercim"
+    ],
+    "medium": "Source: https://www.ercim.eu/component/finder/search?format=opensearch&amp;Itemid=155",
+    "short": "Source: https://www.ercim.eu/component/finder/search?format=opensearch&amp;Itemid=155",
+    "tokens": [
+      "www",
+      "ercim",
+      "eu",
+      "source",
+      "https",
+      "www",
+      "ercim",
+      "eu",
+      "component",
+      "finder",
+      "search",
+      "format",
+      "opensearch",
+      "amp",
+      "itemid",
+      "155",
+      "source",
+      "https",
+      "www",
+      "ercim",
+      "eu",
+      "component",
+      "finder",
+      "search",
+      "format",
+      "opensearch",
+      "amp",
+      "itemid",
+      "155"
+    ]
+  },
+  "title": "www.ercim.eu"
+}

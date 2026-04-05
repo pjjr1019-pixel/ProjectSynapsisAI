@@ -1,0 +1,315 @@
+{
+  "aliases": [
+    {
+      "alias": "3b13df7aad0c8759",
+      "aliasId": "hz.web.3b13df7aad0c8759.alias.1",
+      "canonical": "example-app.com"
+    },
+    {
+      "alias": "example-app.com",
+      "aliasId": "hz.web.3b13df7aad0c8759.alias.2",
+      "canonical": "example-app.com"
+    },
+    {
+      "alias": "web 3b13df7aad0c8759",
+      "aliasId": "hz.web.3b13df7aad0c8759.alias.3",
+      "canonical": "example-app.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.3b13df7aad0c8759",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3b13df7aad0c8759.entity.1",
+      "kind": "document",
+      "name": "example-app.com",
+      "tokens": [
+        "example",
+        "app",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.3b13df7aad0c8759.entity.2",
+      "kind": "heading",
+      "name": "example-app.com",
+      "tokens": [
+        "example",
+        "app",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.3b13df7aad0c8759.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3b13df7aad0c8759.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3b13df7aad0c8759.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 20,
+      "factId": "hz.web.3b13df7aad0c8759.fact.1",
+      "kind": "summary",
+      "text": "Source: https://example-app.com/styles.css",
+      "tokens": [
+        "source",
+        "https",
+        "example",
+        "app",
+        "com",
+        "styles",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 564,
+      "charStart": 114,
+      "factId": "hz.web.3b13df7aad0c8759.fact.1",
+      "kind": "bullet",
+      "text": "body { padding: 0; margin: 0; min-height: 100vh; font-family: arial, sans-serif; } @media(max-width: 400px) { body { padding: 10px; } } .full-height { min-height: 100vh; } .flex-center { align-items: center; display: flex; justify-content: center; } .content { max-width: 400px; } h2 { text-align: center; } .code, textarea { font-family: \"Courier New\", \"Courier\", monospace; width: 100%; padding: 4px; border: 1px #ccc solid; border-radius: 4px; }",
+      "tokens": [
+        "body",
+        "padding",
+        "margin",
+        "min",
+        "height",
+        "100vh",
+        "font",
+        "family",
+        "arial",
+        "sans",
+        "serif",
+        "media",
+        "max",
+        "width",
+        "400px",
+        "body",
+        "padding",
+        "10px",
+        "full",
+        "height",
+        "min",
+        "height",
+        "100vh",
+        "flex",
+        "center",
+        "align",
+        "items",
+        "center",
+        "display",
+        "flex",
+        "justify",
+        "content",
+        "center",
+        "content",
+        "max",
+        "width",
+        "400px",
+        "h2",
+        "text",
+        "align",
+        "center",
+        "code",
+        "textarea",
+        "font",
+        "family",
+        "courier",
+        "new",
+        "courier",
+        "monospace",
+        "width",
+        "100",
+        "padding",
+        "4px",
+        "border",
+        "1px",
+        "ccc",
+        "solid",
+        "border",
+        "radius",
+        "4px"
+      ]
+    },
+    {
+      "charEnd": 587,
+      "charStart": 579,
+      "factId": "hz.web.3b13df7aad0c8759.fact.2",
+      "kind": "bullet",
+      "text": "center",
+      "tokens": [
+        "center"
+      ]
+    },
+    {
+      "charEnd": 596,
+      "charStart": 588,
+      "factId": "hz.web.3b13df7aad0c8759.fact.3",
+      "kind": "bullet",
+      "text": "height",
+      "tokens": [
+        "height"
+      ]
+    },
+    {
+      "charEnd": 606,
+      "charStart": 597,
+      "factId": "hz.web.3b13df7aad0c8759.fact.4",
+      "kind": "bullet",
+      "text": "padding",
+      "tokens": [
+        "padding"
+      ]
+    },
+    {
+      "charEnd": 614,
+      "charStart": 607,
+      "factId": "hz.web.3b13df7aad0c8759.fact.5",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    },
+    {
+      "charEnd": 622,
+      "charStart": 615,
+      "factId": "hz.web.3b13df7aad0c8759.fact.6",
+      "kind": "bullet",
+      "text": "100vh",
+      "tokens": [
+        "100vh"
+      ]
+    },
+    {
+      "charEnd": 630,
+      "charStart": 623,
+      "factId": "hz.web.3b13df7aad0c8759.fact.7",
+      "kind": "bullet",
+      "text": "400px",
+      "tokens": [
+        "400px"
+      ]
+    },
+    {
+      "charEnd": 636,
+      "charStart": 631,
+      "factId": "hz.web.3b13df7aad0c8759.fact.8",
+      "kind": "bullet",
+      "text": "4px",
+      "tokens": [
+        "4px"
+      ]
+    },
+    {
+      "charEnd": 644,
+      "charStart": 637,
+      "factId": "hz.web.3b13df7aad0c8759.fact.9",
+      "kind": "bullet",
+      "text": "align",
+      "tokens": [
+        "align"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.3b13df7aad0c8759.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "example-app.com"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.3b13df7aad0c8759.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 577,
+      "charStart": 566,
+      "headingId": "hz.web.3b13df7aad0c8759.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 656,
+      "charStart": 646,
+      "headingId": "hz.web.3b13df7aad0c8759.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3b13df7aad0c8759.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1340,
+        "start": 0
+      }
+    ],
+    "hash": "f9e6442069303c1849dae61c53d782e6f61dfd0e26981bd16094166a8146d703",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "body { padding: 0; margin: 0; min-height: 100vh; font-family: arial, sans-serif; } @media(max-width: 400px) { body { padding: 10px; } } .full-height { min-height: 100vh; } .flex-center { align-items: center; display: flex; justify-content: center; } .content { max-width: 400px; } h2 { text-align: center; } .code, textarea { font-family: \"Courier New\", \"Courier\", monospace; width: 100%; padding: 4px; border: 1px #ccc solid; border-radius: 4px; }",
+      "center",
+      "height"
+    ],
+    "medium": "Source: https://example-app.com/styles.css",
+    "short": "Source: https://example-app.com/styles.css",
+    "tokens": [
+      "example",
+      "app",
+      "com",
+      "source",
+      "https",
+      "example",
+      "app",
+      "com",
+      "styles",
+      "css",
+      "source",
+      "https",
+      "example",
+      "app",
+      "com",
+      "styles",
+      "css"
+    ]
+  },
+  "title": "example-app.com"
+}

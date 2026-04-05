@@ -1,0 +1,275 @@
+{
+  "aliases": [
+    {
+      "alias": "safety defaults",
+      "aliasId": "hz.core.safety-defaults.2026-03-27.alias.1",
+      "canonical": "safety defaults"
+    },
+    {
+      "alias": "safety-defaults 2026-03-27",
+      "aliasId": "hz.core.safety-defaults.2026-03-27.alias.2",
+      "canonical": "safety defaults"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.95,
+  "docId": "hz.core.safety-defaults.2026-03-27",
+  "domain": "core",
+  "entities": [
+    {
+      "entityId": "hz.core.safety-defaults.2026-03-27.entity.1",
+      "kind": "document",
+      "name": "Safety defaults",
+      "tokens": [
+        "safety",
+        "defaults"
+      ]
+    },
+    {
+      "entityId": "hz.core.safety-defaults.2026-03-27.entity.2",
+      "kind": "tag",
+      "name": "safety",
+      "tokens": [
+        "safety"
+      ]
+    },
+    {
+      "entityId": "hz.core.safety-defaults.2026-03-27.entity.3",
+      "kind": "tag",
+      "name": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "entityId": "hz.core.safety-defaults.2026-03-27.entity.4",
+      "kind": "heading",
+      "name": "Safety defaults",
+      "tokens": [
+        "safety",
+        "defaults"
+      ]
+    },
+    {
+      "entityId": "hz.core.safety-defaults.2026-03-27.entity.5",
+      "kind": "heading",
+      "name": "Refusal",
+      "tokens": [
+        "refusal"
+      ]
+    },
+    {
+      "entityId": "hz.core.safety-defaults.2026-03-27.entity.6",
+      "kind": "heading",
+      "name": "Data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "entityId": "hz.core.safety-defaults.2026-03-27.entity.7",
+      "kind": "heading",
+      "name": "Automation",
+      "tokens": [
+        "automation"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 137,
+      "charStart": 37,
+      "factId": "hz.core.safety-defaults.2026-03-27.fact.1",
+      "kind": "summary",
+      "text": "Refuse instructions to bypass security, exfiltrate secrets, or harm systems—even if framed as tests.",
+      "tokens": [
+        "refuse",
+        "instructions",
+        "bypass",
+        "security",
+        "exfiltrate",
+        "secrets",
+        "harm",
+        "systems",
+        "even",
+        "if",
+        "framed",
+        "tests"
+      ]
+    },
+    {
+      "charEnd": 232,
+      "charStart": 143,
+      "factId": "hz.core.safety-defaults.2026-03-27.fact.1",
+      "kind": "bullet",
+      "text": "Treat `brain/memory/user/` as PII-capable; never log full contents to shared analytics.",
+      "tokens": [
+        "treat",
+        "brain",
+        "memory",
+        "user",
+        "pii",
+        "capable",
+        "never",
+        "log",
+        "full",
+        "contents",
+        "shared",
+        "analytics"
+      ]
+    },
+    {
+      "charEnd": 323,
+      "charStart": 233,
+      "factId": "hz.core.safety-defaults.2026-03-27.fact.2",
+      "kind": "bullet",
+      "text": "Redact tokens, passwords, and session cookies per `brain/governance/redaction-rules.md`.",
+      "tokens": [
+        "redact",
+        "tokens",
+        "passwords",
+        "session",
+        "cookies",
+        "per",
+        "brain",
+        "governance",
+        "redaction",
+        "rules",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.core.safety-defaults.2026-03-27.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Safety defaults"
+    },
+    {
+      "charEnd": 30,
+      "charStart": 20,
+      "headingId": "hz.core.safety-defaults.2026-03-27.heading.2",
+      "level": 2,
+      "line": 4,
+      "text": "Refusal"
+    },
+    {
+      "charEnd": 141,
+      "charStart": 134,
+      "headingId": "hz.core.safety-defaults.2026-03-27.heading.3",
+      "level": 2,
+      "line": 8,
+      "text": "Data"
+    },
+    {
+      "charEnd": 338,
+      "charStart": 325,
+      "headingId": "hz.core.safety-defaults.2026-03-27.heading.4",
+      "level": 2,
+      "line": 13,
+      "text": "Automation"
+    }
+  ],
+  "moduleIds": [
+    "hz.module.launcher.shell"
+  ],
+  "path": "core/safety-defaults.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 907,
+        "start": 0
+      }
+    ],
+    "hash": "a3f6696481e8ff79c237ca8199baaf1e49358ebd51d097ea052fc25ebec78f78",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.core.safety-defaults.2026-03-27.rule.1",
+      "text": "## Data - Treat `brain/memory/user/` as PII-capable; never log full contents to shared analytics.",
+      "tokens": [
+        "data",
+        "treat",
+        "brain",
+        "memory",
+        "user",
+        "pii",
+        "capable",
+        "never",
+        "log",
+        "full",
+        "contents",
+        "shared",
+        "analytics"
+      ]
+    },
+    {
+      "ruleId": "hz.core.safety-defaults.2026-03-27.rule.2",
+      "text": "## Automation Background jobs must use the same retrieval and policy gates as interactive turns unless a documented exception exists in `brain/governance/policies/`.",
+      "tokens": [
+        "automation",
+        "background",
+        "jobs",
+        "must",
+        "use",
+        "same",
+        "retrieval",
+        "policy",
+        "gates",
+        "interactive",
+        "turns",
+        "unless",
+        "documented",
+        "exception",
+        "exists",
+        "brain",
+        "governance",
+        "policies"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Treat `brain/memory/user/` as PII-capable; never log full contents to shared analytics.",
+      "Redact tokens, passwords, and session cookies per `brain/governance/redaction-rules.md`."
+    ],
+    "medium": "Refuse instructions to bypass security, exfiltrate secrets, or harm systems—even if framed as tests.",
+    "short": "Refuse instructions to bypass security, exfiltrate secrets, or harm systems—even if framed as tests.",
+    "tokens": [
+      "safety",
+      "defaults",
+      "refuse",
+      "instructions",
+      "bypass",
+      "security",
+      "exfiltrate",
+      "secrets",
+      "harm",
+      "systems",
+      "even",
+      "if",
+      "framed",
+      "tests",
+      "refuse",
+      "instructions",
+      "bypass",
+      "security",
+      "exfiltrate",
+      "secrets",
+      "harm",
+      "systems",
+      "even",
+      "if",
+      "framed",
+      "tests"
+    ]
+  },
+  "title": "Safety defaults"
+}

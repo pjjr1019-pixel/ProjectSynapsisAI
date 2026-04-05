@@ -1,0 +1,387 @@
+{
+  "aliases": [
+    {
+      "alias": "08cf1b7228e0cb3e",
+      "aliasId": "hz.web.08cf1b7228e0cb3e.alias.1",
+      "canonical": "home | declarative amsterdam"
+    },
+    {
+      "alias": "home declarative amsterdam",
+      "aliasId": "hz.web.08cf1b7228e0cb3e.alias.2",
+      "canonical": "home | declarative amsterdam"
+    },
+    {
+      "alias": "web 08cf1b7228e0cb3e",
+      "aliasId": "hz.web.08cf1b7228e0cb3e.alias.3",
+      "canonical": "home | declarative amsterdam"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.62,
+  "docId": "hz.web.08cf1b7228e0cb3e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.08cf1b7228e0cb3e.entity.1",
+      "kind": "document",
+      "name": "Home | Declarative Amsterdam",
+      "tokens": [
+        "home",
+        "declarative",
+        "amsterdam"
+      ]
+    },
+    {
+      "entityId": "hz.web.08cf1b7228e0cb3e.entity.2",
+      "kind": "heading",
+      "name": "Home | Declarative Amsterdam",
+      "tokens": [
+        "home",
+        "declarative",
+        "amsterdam"
+      ]
+    },
+    {
+      "entityId": "hz.web.08cf1b7228e0cb3e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.08cf1b7228e0cb3e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.08cf1b7228e0cb3e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 71,
+      "charStart": 33,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://declarative.amsterdam/",
+      "tokens": [
+        "source",
+        "https",
+        "declarative",
+        "amsterdam"
+      ]
+    },
+    {
+      "charEnd": 709,
+      "charStart": 123,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.1",
+      "kind": "bullet",
+      "text": "Home | Declarative Amsterdam D e c l a r a t i v e A m s t e r d a m amp1.benjamins.com Mailing list Archive All presentations Declarative Amsterdam 2025 Declarative Amsterdam 2024 Declarative Amsterdam 2023 Declarative Amsterdam 2022 Declarative Amsterdam 2021 Declarative Amsterdam 2020 Declarative Amsterdam 2019 About us Organizing committee Policies DA on YouTube DA on LinkedIn About this site Sister conferences Sponsors Log in Welcome Declarative Amsterdam is an annual conference focusing on the technologies and methods used for declarative programming and declarative data.",
+      "tokens": [
+        "home",
+        "declarative",
+        "amsterdam",
+        "amp1",
+        "benjamins",
+        "com",
+        "mailing",
+        "list",
+        "archive",
+        "all",
+        "presentations",
+        "declarative",
+        "amsterdam",
+        "2025",
+        "declarative",
+        "amsterdam",
+        "2024",
+        "declarative",
+        "amsterdam",
+        "2023",
+        "declarative",
+        "amsterdam",
+        "2022",
+        "declarative",
+        "amsterdam",
+        "2021",
+        "declarative",
+        "amsterdam",
+        "2020",
+        "declarative",
+        "amsterdam",
+        "2019",
+        "about",
+        "us",
+        "organizing",
+        "committee",
+        "policies",
+        "da",
+        "youtube",
+        "da",
+        "linkedin",
+        "about",
+        "site",
+        "sister",
+        "conferences",
+        "sponsors",
+        "log",
+        "welcome",
+        "declarative",
+        "amsterdam",
+        "annual",
+        "conference",
+        "focusing",
+        "technologies",
+        "methods",
+        "used",
+        "declarative",
+        "programming",
+        "declarative",
+        "data"
+      ]
+    },
+    {
+      "charEnd": 834,
+      "charStart": 710,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.2",
+      "kind": "bullet",
+      "text": "The eighth conference will take place on 12 and 13 November 2026, at the Conference center of the Science Park, Amsterdam.",
+      "tokens": [
+        "eighth",
+        "conference",
+        "will",
+        "take",
+        "place",
+        "12",
+        "13",
+        "november",
+        "2026",
+        "conference",
+        "center",
+        "science",
+        "park",
+        "amsterdam"
+      ]
+    },
+    {
+      "charEnd": 963,
+      "charStart": 835,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.3",
+      "kind": "bullet",
+      "text": "Declarative programming is a style of programming that expresses the logic of computation without describing its control flow.",
+      "tokens": [
+        "declarative",
+        "programming",
+        "style",
+        "programming",
+        "expresses",
+        "logic",
+        "computation",
+        "without",
+        "describing",
+        "its",
+        "control",
+        "flow"
+      ]
+    },
+    {
+      "charEnd": 1039,
+      "charStart": 964,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.4",
+      "kind": "bullet",
+      "text": "It allows you to focus on the ‘what’ of a program, rather than the ‘how’.",
+      "tokens": [
+        "allows",
+        "focus",
+        "program",
+        "rather",
+        "than"
+      ]
+    },
+    {
+      "charEnd": 1067,
+      "charStart": 1054,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.5",
+      "kind": "bullet",
+      "text": "declarative",
+      "tokens": [
+        "declarative"
+      ]
+    },
+    {
+      "charEnd": 1079,
+      "charStart": 1068,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.6",
+      "kind": "bullet",
+      "text": "amsterdam",
+      "tokens": [
+        "amsterdam"
+      ]
+    },
+    {
+      "charEnd": 1093,
+      "charStart": 1080,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.7",
+      "kind": "bullet",
+      "text": "programming",
+      "tokens": [
+        "programming"
+      ]
+    },
+    {
+      "charEnd": 1106,
+      "charStart": 1094,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.8",
+      "kind": "bullet",
+      "text": "conference",
+      "tokens": [
+        "conference"
+      ]
+    },
+    {
+      "charEnd": 1114,
+      "charStart": 1107,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.9",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1119,
+      "charStart": 1115,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.10",
+      "kind": "bullet",
+      "text": "da",
+      "tokens": [
+        "da"
+      ]
+    },
+    {
+      "charEnd": 1126,
+      "charStart": 1120,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.11",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 1136,
+      "charStart": 1127,
+      "factId": "hz.web.08cf1b7228e0cb3e.fact.12",
+      "kind": "bullet",
+      "text": "methods",
+      "tokens": [
+        "methods"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.08cf1b7228e0cb3e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Home | Declarative Amsterdam"
+    },
+    {
+      "charEnd": 121,
+      "charStart": 111,
+      "headingId": "hz.web.08cf1b7228e0cb3e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1052,
+      "charStart": 1041,
+      "headingId": "hz.web.08cf1b7228e0cb3e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1148,
+      "charStart": 1138,
+      "headingId": "hz.web.08cf1b7228e0cb3e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/08cf1b7228e0cb3e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2581,
+        "start": 0
+      }
+    ],
+    "hash": "0895ef39ace239089b3e8ec60b7dc9b598dabf7acf1bfb04d4187cc14f88dee4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.08cf1b7228e0cb3e.rule.1",
+      "text": "Declarative methods for programming and data modelling can help avoid making the mistakes that have lead to failing software projects for several decades.",
+      "tokens": [
+        "declarative",
+        "methods",
+        "programming",
+        "data",
+        "modelling",
+        "help",
+        "avoid",
+        "making",
+        "mistakes",
+        "have",
+        "lead",
+        "failing",
+        "software",
+        "projects",
+        "several",
+        "decades"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Home | Declarative Amsterdam D e c l a r a t i v e A m s t e r d a m amp1.benjamins.com Mailing list Archive All presentations Declarative Amsterdam 2025 Declarative Amsterdam 2024 Declarative Amsterdam 2023 Declarative Amsterdam 2022 Declarative Amsterdam 2021 Declarative Amsterdam 2020 Declarative Amsterdam 2019 About us Organizing committee Policies DA on YouTube DA on LinkedIn About this site Sister conferences Sponsors Log in Welcome Declarative Amsterdam is an annual conference focusing on the technologies and methods used for declarative programming and declarative data.",
+      "The eighth conference will take place on 12 and 13 November 2026, at the Conference center of the Science Park, Amsterdam.",
+      "Declarative programming is a style of programming that expresses the logic of computation without describing its control flow."
+    ],
+    "medium": "Source: https://declarative.amsterdam/",
+    "short": "Source: https://declarative.amsterdam/",
+    "tokens": [
+      "home",
+      "declarative",
+      "amsterdam",
+      "source",
+      "https",
+      "declarative",
+      "amsterdam",
+      "source",
+      "https",
+      "declarative",
+      "amsterdam"
+    ]
+  },
+  "title": "Home | Declarative Amsterdam"
+}

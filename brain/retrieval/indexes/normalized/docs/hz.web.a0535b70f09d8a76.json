@@ -1,0 +1,390 @@
+{
+  "aliases": [
+    {
+      "alias": "a0535b70f09d8a76",
+      "aliasId": "hz.web.a0535b70f09d8a76.alias.1",
+      "canonical": "cppa.ca.gov"
+    },
+    {
+      "alias": "cppa.ca.gov",
+      "aliasId": "hz.web.a0535b70f09d8a76.alias.2",
+      "canonical": "cppa.ca.gov"
+    },
+    {
+      "alias": "web a0535b70f09d8a76",
+      "aliasId": "hz.web.a0535b70f09d8a76.alias.3",
+      "canonical": "cppa.ca.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.a0535b70f09d8a76",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a0535b70f09d8a76.entity.1",
+      "kind": "document",
+      "name": "cppa.ca.gov",
+      "tokens": [
+        "cppa",
+        "ca",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0535b70f09d8a76.entity.2",
+      "kind": "heading",
+      "name": "cppa.ca.gov",
+      "tokens": [
+        "cppa",
+        "ca",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0535b70f09d8a76.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0535b70f09d8a76.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0535b70f09d8a76.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 63,
+      "charStart": 16,
+      "factId": "hz.web.a0535b70f09d8a76.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cppa.ca.gov/fonts/web/style.css",
+      "tokens": [
+        "source",
+        "https",
+        "cppa",
+        "ca",
+        "gov",
+        "fonts",
+        "web",
+        "style",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 287,
+      "charStart": 115,
+      "factId": "hz.web.a0535b70f09d8a76.fact.1",
+      "kind": "bullet",
+      "text": "/* asap-condensed-regular - latin */ @font-face { font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.",
+      "tokens": [
+        "asap",
+        "condensed",
+        "regular",
+        "latin",
+        "font",
+        "face",
+        "font",
+        "display",
+        "swap",
+        "check",
+        "https",
+        "developer",
+        "mozilla",
+        "org",
+        "en",
+        "us",
+        "docs",
+        "web",
+        "css",
+        "font",
+        "face",
+        "font",
+        "display",
+        "other",
+        "options"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 288,
+      "factId": "hz.web.a0535b70f09d8a76.fact.2",
+      "kind": "bullet",
+      "text": "*/ font-family: 'Asap Condensed'; font-style: normal; font-weight: 400; src: url('./asap-condensed-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ } /* source-sans-3-regular - latin */ @font-face { font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.",
+      "tokens": [
+        "font",
+        "family",
+        "asap",
+        "condensed",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "asap",
+        "condensed",
+        "v17",
+        "latin",
+        "regular",
+        "woff2",
+        "format",
+        "woff2",
+        "chrome",
+        "36",
+        "opera",
+        "23",
+        "firefox",
+        "39",
+        "safari",
+        "12",
+        "ios",
+        "10",
+        "source",
+        "sans",
+        "regular",
+        "latin",
+        "font",
+        "face",
+        "font",
+        "display",
+        "swap",
+        "check",
+        "https",
+        "developer",
+        "mozilla",
+        "org",
+        "en",
+        "us",
+        "docs",
+        "web",
+        "css",
+        "font",
+        "face",
+        "font",
+        "display",
+        "other",
+        "options"
+      ]
+    },
+    {
+      "charEnd": 871,
+      "charStart": 666,
+      "factId": "hz.web.a0535b70f09d8a76.fact.3",
+      "kind": "bullet",
+      "text": "*/ font-family: 'Source Sans Pro'; font-style: normal; font-weight: 400; src: url('./source-sans-pro-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ }",
+      "tokens": [
+        "font",
+        "family",
+        "source",
+        "sans",
+        "pro",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "source",
+        "sans",
+        "pro",
+        "latin",
+        "regular",
+        "woff2",
+        "format",
+        "woff2",
+        "chrome",
+        "36",
+        "opera",
+        "23",
+        "firefox",
+        "39",
+        "safari",
+        "12",
+        "ios",
+        "10"
+      ]
+    },
+    {
+      "charEnd": 892,
+      "charStart": 886,
+      "factId": "hz.web.a0535b70f09d8a76.fact.4",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 902,
+      "charStart": 893,
+      "factId": "hz.web.a0535b70f09d8a76.fact.5",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 909,
+      "charStart": 903,
+      "factId": "hz.web.a0535b70f09d8a76.fact.6",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 917,
+      "charStart": 910,
+      "factId": "hz.web.a0535b70f09d8a76.fact.7",
+      "kind": "bullet",
+      "text": "latin",
+      "tokens": [
+        "latin"
+      ]
+    },
+    {
+      "charEnd": 927,
+      "charStart": 918,
+      "factId": "hz.web.a0535b70f09d8a76.fact.8",
+      "kind": "bullet",
+      "text": "regular",
+      "tokens": [
+        "regular"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 928,
+      "factId": "hz.web.a0535b70f09d8a76.fact.9",
+      "kind": "bullet",
+      "text": "woff2",
+      "tokens": [
+        "woff2"
+      ]
+    },
+    {
+      "charEnd": 942,
+      "charStart": 936,
+      "factId": "hz.web.a0535b70f09d8a76.fact.10",
+      "kind": "bullet",
+      "text": "asap",
+      "tokens": [
+        "asap"
+      ]
+    },
+    {
+      "charEnd": 954,
+      "charStart": 943,
+      "factId": "hz.web.a0535b70f09d8a76.fact.11",
+      "kind": "bullet",
+      "text": "condensed",
+      "tokens": [
+        "condensed"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.a0535b70f09d8a76.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cppa.ca.gov"
+    },
+    {
+      "charEnd": 113,
+      "charStart": 103,
+      "headingId": "hz.web.a0535b70f09d8a76.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 884,
+      "charStart": 873,
+      "headingId": "hz.web.a0535b70f09d8a76.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 966,
+      "charStart": 956,
+      "headingId": "hz.web.a0535b70f09d8a76.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a0535b70f09d8a76.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1953,
+        "start": 0
+      }
+    ],
+    "hash": "794d891497af4913d0635f3baf537cfc27134fdd33a08044b5f2e9a601b07fda",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* asap-condensed-regular - latin */ @font-face { font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.",
+      "*/ font-family: 'Asap Condensed'; font-style: normal; font-weight: 400; src: url('./asap-condensed-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ } /* source-sans-3-regular - latin */ @font-face { font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options.",
+      "*/ font-family: 'Source Sans Pro'; font-style: normal; font-weight: 400; src: url('./source-sans-pro-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ }"
+    ],
+    "medium": "Source: https://cppa.ca.gov/fonts/web/style.css",
+    "short": "Source: https://cppa.ca.gov/fonts/web/style.css",
+    "tokens": [
+      "cppa",
+      "ca",
+      "gov",
+      "source",
+      "https",
+      "cppa",
+      "ca",
+      "gov",
+      "fonts",
+      "web",
+      "style",
+      "css",
+      "source",
+      "https",
+      "cppa",
+      "ca",
+      "gov",
+      "fonts",
+      "web",
+      "style",
+      "css"
+    ]
+  },
+  "title": "cppa.ca.gov"
+}

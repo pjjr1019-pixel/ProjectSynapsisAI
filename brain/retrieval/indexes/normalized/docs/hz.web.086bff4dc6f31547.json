@@ -1,0 +1,299 @@
+{
+  "aliases": [
+    {
+      "alias": "086bff4dc6f31547",
+      "aliasId": "hz.web.086bff4dc6f31547.alias.1",
+      "canonical": "arxiv.org"
+    },
+    {
+      "alias": "arxiv.org",
+      "aliasId": "hz.web.086bff4dc6f31547.alias.2",
+      "canonical": "arxiv.org"
+    },
+    {
+      "alias": "web 086bff4dc6f31547",
+      "aliasId": "hz.web.086bff4dc6f31547.alias.3",
+      "canonical": "arxiv.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.086bff4dc6f31547",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.086bff4dc6f31547.entity.1",
+      "kind": "document",
+      "name": "arxiv.org",
+      "tokens": [
+        "arxiv",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.086bff4dc6f31547.entity.2",
+      "kind": "heading",
+      "name": "arxiv.org",
+      "tokens": [
+        "arxiv",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.086bff4dc6f31547.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.086bff4dc6f31547.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.086bff4dc6f31547.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 90,
+      "charStart": 14,
+      "factId": "hz.web.086bff4dc6f31547.fact.1",
+      "kind": "summary",
+      "text": "Source: https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+      "tokens": [
+        "source",
+        "https",
+        "arxiv",
+        "org",
+        "static",
+        "browse",
+        "css",
+        "arxiv",
+        "print",
+        "css",
+        "20200611"
+      ]
+    },
+    {
+      "charEnd": 564,
+      "charStart": 142,
+      "factId": "hz.web.086bff4dc6f31547.fact.1",
+      "kind": "bullet",
+      "text": "/**************************************** * arXiv.org Cascading Style Sheet:: Print * $Date: 2019/11/20 $ *****************************************/ /**************************************** * Print rules *****************************************/ #cu-identity, .extra-services, .search-block, footer .columns { display:none; } .header-breadcrumbs { font-size:18px; } .subheader h1 { font-size:14px; font-weight: bold; }",
+      "tokens": [
+        "arxiv",
+        "org",
+        "cascading",
+        "style",
+        "sheet",
+        "print",
+        "date",
+        "2019",
+        "11",
+        "20",
+        "print",
+        "rules",
+        "cu",
+        "identity",
+        "extra",
+        "services",
+        "search",
+        "block",
+        "footer",
+        "columns",
+        "display",
+        "none",
+        "header",
+        "breadcrumbs",
+        "font",
+        "size",
+        "18px",
+        "subheader",
+        "h1",
+        "font",
+        "size",
+        "14px",
+        "font",
+        "weight",
+        "bold"
+      ]
+    },
+    {
+      "charEnd": 585,
+      "charStart": 579,
+      "factId": "hz.web.086bff4dc6f31547.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 593,
+      "charStart": 586,
+      "factId": "hz.web.086bff4dc6f31547.fact.3",
+      "kind": "bullet",
+      "text": "print",
+      "tokens": [
+        "print"
+      ]
+    },
+    {
+      "charEnd": 600,
+      "charStart": 594,
+      "factId": "hz.web.086bff4dc6f31547.fact.4",
+      "kind": "bullet",
+      "text": "size",
+      "tokens": [
+        "size"
+      ]
+    },
+    {
+      "charEnd": 605,
+      "charStart": 601,
+      "factId": "hz.web.086bff4dc6f31547.fact.5",
+      "kind": "bullet",
+      "text": "11",
+      "tokens": [
+        "11"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 606,
+      "factId": "hz.web.086bff4dc6f31547.fact.6",
+      "kind": "bullet",
+      "text": "14px",
+      "tokens": [
+        "14px"
+      ]
+    },
+    {
+      "charEnd": 619,
+      "charStart": 613,
+      "factId": "hz.web.086bff4dc6f31547.fact.7",
+      "kind": "bullet",
+      "text": "18px",
+      "tokens": [
+        "18px"
+      ]
+    },
+    {
+      "charEnd": 624,
+      "charStart": 620,
+      "factId": "hz.web.086bff4dc6f31547.fact.8",
+      "kind": "bullet",
+      "text": "20",
+      "tokens": [
+        "20"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 625,
+      "factId": "hz.web.086bff4dc6f31547.fact.9",
+      "kind": "bullet",
+      "text": "2019",
+      "tokens": [
+        "2019"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.086bff4dc6f31547.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "arxiv.org"
+    },
+    {
+      "charEnd": 140,
+      "charStart": 130,
+      "headingId": "hz.web.086bff4dc6f31547.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 577,
+      "charStart": 566,
+      "headingId": "hz.web.086bff4dc6f31547.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 643,
+      "charStart": 633,
+      "headingId": "hz.web.086bff4dc6f31547.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/086bff4dc6f31547.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1327,
+        "start": 0
+      }
+    ],
+    "hash": "214cfcdd75a090b5ec7bb0b4fff9b7eed81c6649a7091396694154780c71b630",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/**************************************** * arXiv.org Cascading Style Sheet:: Print * $Date: 2019/11/20 $ *****************************************/ /**************************************** * Print rules *****************************************/ #cu-identity, .extra-services, .search-block, footer .columns { display:none; } .header-breadcrumbs { font-size:18px; } .subheader h1 { font-size:14px; font-weight: bold; }",
+      "font",
+      "print"
+    ],
+    "medium": "Source: https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+    "short": "Source: https://arxiv.org/static/browse/0.3.4/css/arXiv-print.css?v=20200611",
+    "tokens": [
+      "arxiv",
+      "org",
+      "source",
+      "https",
+      "arxiv",
+      "org",
+      "static",
+      "browse",
+      "css",
+      "arxiv",
+      "print",
+      "css",
+      "20200611",
+      "source",
+      "https",
+      "arxiv",
+      "org",
+      "static",
+      "browse",
+      "css",
+      "arxiv",
+      "print",
+      "css",
+      "20200611"
+    ]
+  },
+  "title": "arxiv.org"
+}

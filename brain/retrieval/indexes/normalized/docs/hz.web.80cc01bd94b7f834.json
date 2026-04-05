@@ -1,0 +1,450 @@
+{
+  "aliases": [
+    {
+      "alias": "80cc01bd94b7f834",
+      "aliasId": "hz.web.80cc01bd94b7f834.alias.1",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "node.js blog",
+      "aliasId": "hz.web.80cc01bd94b7f834.alias.2",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "web 80cc01bd94b7f834",
+      "aliasId": "hz.web.80cc01bd94b7f834.alias.3",
+      "canonical": "node.js — blog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.75,
+  "docId": "hz.web.80cc01bd94b7f834",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.80cc01bd94b7f834.entity.1",
+      "kind": "document",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.80cc01bd94b7f834.entity.2",
+      "kind": "heading",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.80cc01bd94b7f834.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.80cc01bd94b7f834.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.80cc01bd94b7f834.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 19,
+      "factId": "hz.web.80cc01bd94b7f834.fact.1",
+      "kind": "summary",
+      "text": "Source: https://nodejs.org/en/blog",
+      "tokens": [
+        "source",
+        "https",
+        "nodejs",
+        "org",
+        "en",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 203,
+      "charStart": 105,
+      "factId": "hz.web.80cc01bd94b7f834.fact.1",
+      "kind": "bullet",
+      "text": "Node.js — Blog Skip to content Learn About Download Blog Docs Contribute Courses Start typing...",
+      "tokens": [
+        "node",
+        "js",
+        "blog",
+        "skip",
+        "content",
+        "learn",
+        "about",
+        "download",
+        "blog",
+        "docs",
+        "contribute",
+        "courses",
+        "start",
+        "typing"
+      ]
+    },
+    {
+      "charEnd": 1165,
+      "charStart": 204,
+      "factId": "hz.web.80cc01bd94b7f834.fact.2",
+      "kind": "bullet",
+      "text": "⌘ K Blog The latest Node.js news, migration guides and events summaries Everything Announcements Releases Vulnerabilities Migration Guides Events Categories Everything Everything Announcements Releases Vulnerabilities Migration Guides Events Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 Vulnerabilities Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung Mar 24, 2026 Node.js 25.8.2 (Current) Releases Node.js 25.8.2 (Current) RG Rafael Gonzaga Mar 24, 2026 Node.js 24.14.1 (LTS) Releases Node.js 24.14.1 (LTS) RG Rafael Gonzaga Mar 24, 2026 Node.js 22.22.2 (LTS) Releases Node.js 22.22.2 (LTS) RG Rafael Gonzaga Mar 24, 2026 Node.js 20.20.2 (LTS) Releases Node.js 20.20.2 (LTS) MI Marco Ippolito Mar 24, 2026 Tuesday, March 24, 2026 Security Releases Vulnerabilities Tuesday, March 24, 2026 Security Releases TNJP The Node.js Project Mar 24, 2026 Previous 1 2 3 4 5 ...",
+      "tokens": [
+        "blog",
+        "latest",
+        "node",
+        "js",
+        "news",
+        "migration",
+        "guides",
+        "events",
+        "summaries",
+        "everything",
+        "announcements",
+        "releases",
+        "vulnerabilities",
+        "migration",
+        "guides",
+        "events",
+        "categories",
+        "everything",
+        "everything",
+        "announcements",
+        "releases",
+        "vulnerabilities",
+        "migration",
+        "guides",
+        "events",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "vulnerabilities",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "jc",
+        "joyee",
+        "cheung",
+        "mar",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "25",
+        "current",
+        "releases",
+        "node",
+        "js",
+        "25",
+        "current",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "mar",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "24",
+        "14",
+        "lts",
+        "releases",
+        "node",
+        "js",
+        "24",
+        "14",
+        "lts",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "mar",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "22",
+        "22",
+        "lts",
+        "releases",
+        "node",
+        "js",
+        "22",
+        "22",
+        "lts",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "mar",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "20",
+        "20",
+        "lts",
+        "releases",
+        "node",
+        "js",
+        "20",
+        "20",
+        "lts",
+        "mi",
+        "marco",
+        "ippolito",
+        "mar",
+        "24",
+        "2026",
+        "tuesday",
+        "march",
+        "24",
+        "2026",
+        "security",
+        "releases",
+        "vulnerabilities",
+        "tuesday",
+        "march",
+        "24",
+        "2026",
+        "security",
+        "releases",
+        "tnjp",
+        "node",
+        "js",
+        "project",
+        "mar",
+        "24",
+        "2026",
+        "previous"
+      ]
+    },
+    {
+      "charEnd": 1273,
+      "charStart": 1166,
+      "factId": "hz.web.80cc01bd94b7f834.fact.3",
+      "kind": "bullet",
+      "text": "171 Next v24.14.1 Latest LTS v25.8.2 Latest Release Copyright OpenJS Foundation and Node.js contributors.",
+      "tokens": [
+        "171",
+        "next",
+        "v24",
+        "14",
+        "latest",
+        "lts",
+        "v25",
+        "latest",
+        "release",
+        "copyright",
+        "openjs",
+        "foundation",
+        "node",
+        "js",
+        "contributors"
+      ]
+    },
+    {
+      "charEnd": 1296,
+      "charStart": 1274,
+      "factId": "hz.web.80cc01bd94b7f834.fact.4",
+      "kind": "bullet",
+      "text": "All rights reserved.",
+      "tokens": [
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 1315,
+      "charStart": 1311,
+      "factId": "hz.web.80cc01bd94b7f834.fact.5",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1322,
+      "charStart": 1316,
+      "factId": "hz.web.80cc01bd94b7f834.fact.6",
+      "kind": "bullet",
+      "text": "node",
+      "tokens": [
+        "node"
+      ]
+    },
+    {
+      "charEnd": 1327,
+      "charStart": 1323,
+      "factId": "hz.web.80cc01bd94b7f834.fact.7",
+      "kind": "bullet",
+      "text": "24",
+      "tokens": [
+        "24"
+      ]
+    },
+    {
+      "charEnd": 1334,
+      "charStart": 1328,
+      "factId": "hz.web.80cc01bd94b7f834.fact.8",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1345,
+      "charStart": 1335,
+      "factId": "hz.web.80cc01bd94b7f834.fact.9",
+      "kind": "bullet",
+      "text": "releases",
+      "tokens": [
+        "releases"
+      ]
+    },
+    {
+      "charEnd": 1351,
+      "charStart": 1346,
+      "factId": "hz.web.80cc01bd94b7f834.fact.10",
+      "kind": "bullet",
+      "text": "lts",
+      "tokens": [
+        "lts"
+      ]
+    },
+    {
+      "charEnd": 1364,
+      "charStart": 1352,
+      "factId": "hz.web.80cc01bd94b7f834.fact.11",
+      "kind": "bullet",
+      "text": "trademarks",
+      "tokens": [
+        "trademarks"
+      ]
+    },
+    {
+      "charEnd": 1370,
+      "charStart": 1365,
+      "factId": "hz.web.80cc01bd94b7f834.fact.12",
+      "kind": "bullet",
+      "text": "mar",
+      "tokens": [
+        "mar"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.80cc01bd94b7f834.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Node.js — Blog"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.80cc01bd94b7f834.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1309,
+      "charStart": 1298,
+      "headingId": "hz.web.80cc01bd94b7f834.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1382,
+      "charStart": 1372,
+      "headingId": "hz.web.80cc01bd94b7f834.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/80cc01bd94b7f834.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3319,
+        "start": 0
+      }
+    ],
+    "hash": "00adcee3ce47df385e07602a1538cef92f4b9f9df807ebcc85b9150cffe64c1d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Node.js — Blog Skip to content Learn About Download Blog Docs Contribute Courses Start typing...",
+      "⌘ K Blog The latest Node.js news, migration guides and events summaries Everything Announcements Releases Vulnerabilities Migration Guides Events Categories Everything Everything Announcements Releases Vulnerabilities Migration Guides Events Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 Vulnerabilities Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung Mar 24, 2026 Node.js 25.8.2 (Current) Releases Node.js 25.8.2 (Current) RG Rafael Gonzaga Mar 24, 2026 Node.js 24.14.1 (LTS) Releases Node.js 24.14.1 (LTS) RG Rafael Gonzaga Mar 24, 2026 Node.js 22.22.2 (LTS) Releases Node.js 22.22.2 (LTS) RG Rafael Gonzaga Mar 24, 2026 Node.js 20.20.2 (LTS) Releases Node.js 20.20.2 (LTS) MI Marco Ippolito Mar 24, 2026 Tuesday, March 24, 2026 Security Releases Vulnerabilities Tuesday, March 24, 2026 Security Releases TNJP The Node.js Project Mar 24, 2026 Previous 1 2 3 4 5 ...",
+      "171 Next v24.14.1 Latest LTS v25.8.2 Latest Release Copyright OpenJS Foundation and Node.js contributors."
+    ],
+    "medium": "Source: https://nodejs.org/en/blog",
+    "short": "Source: https://nodejs.org/en/blog",
+    "tokens": [
+      "node",
+      "js",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "en",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "en",
+      "blog"
+    ]
+  },
+  "title": "Node.js — Blog"
+}

@@ -1,0 +1,446 @@
+{
+  "aliases": [
+    {
+      "alias": "d492acee327a1473",
+      "aliasId": "hz.web.d492acee327a1473.alias.1",
+      "canonical": "web sign-in - microformats wiki"
+    },
+    {
+      "alias": "web d492acee327a1473",
+      "aliasId": "hz.web.d492acee327a1473.alias.2",
+      "canonical": "web sign-in - microformats wiki"
+    },
+    {
+      "alias": "web sign-in - microformats wiki",
+      "aliasId": "hz.web.d492acee327a1473.alias.3",
+      "canonical": "web sign-in - microformats wiki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.73,
+  "docId": "hz.web.d492acee327a1473",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d492acee327a1473.entity.1",
+      "kind": "document",
+      "name": "Web sign-in - Microformats Wiki",
+      "tokens": [
+        "web",
+        "sign",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.d492acee327a1473.entity.2",
+      "kind": "heading",
+      "name": "Web sign-in - Microformats Wiki",
+      "tokens": [
+        "web",
+        "sign",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.d492acee327a1473.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d492acee327a1473.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d492acee327a1473.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 84,
+      "charStart": 36,
+      "factId": "hz.web.d492acee327a1473.fact.1",
+      "kind": "summary",
+      "text": "Source: http://microformats.org/wiki/web-sign-in",
+      "tokens": [
+        "source",
+        "http",
+        "microformats",
+        "org",
+        "wiki",
+        "web",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 320,
+      "charStart": 136,
+      "factId": "hz.web.d492acee327a1473.fact.1",
+      "kind": "bullet",
+      "text": "Web sign-in - Microformats Wiki Web sign-in From Microformats Wiki Jump to navigation Jump to search Use the (Web sign-in) button on a site to sign-in with your personal web address.",
+      "tokens": [
+        "web",
+        "sign",
+        "microformats",
+        "wiki",
+        "web",
+        "sign",
+        "microformats",
+        "wiki",
+        "jump",
+        "navigation",
+        "jump",
+        "search",
+        "use",
+        "web",
+        "sign",
+        "button",
+        "site",
+        "sign",
+        "your",
+        "personal",
+        "web",
+        "address"
+      ]
+    },
+    {
+      "charEnd": 590,
+      "charStart": 321,
+      "factId": "hz.web.d492acee327a1473.fact.2",
+      "kind": "bullet",
+      "text": "When you click a (Web sign-in) button, the site will ask you for your web address, e.g.: Web address: [........................] (Sign-in) or: Web address: [........................] (Sign-in) &#160; Enter your personal web address and press return / click (Sign-in).",
+      "tokens": [
+        "click",
+        "web",
+        "sign",
+        "button",
+        "site",
+        "will",
+        "ask",
+        "your",
+        "web",
+        "address",
+        "web",
+        "address",
+        "sign",
+        "web",
+        "address",
+        "sign",
+        "160",
+        "enter",
+        "your",
+        "personal",
+        "web",
+        "address",
+        "press",
+        "return",
+        "click",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 747,
+      "charStart": 591,
+      "factId": "hz.web.d492acee327a1473.fact.3",
+      "kind": "bullet",
+      "text": "Contents 1 set up 2 developers 2.1 user interface 2.2 protocol 2.3 example implementations 3 why set up Your personal site must be set up for web sign-in.",
+      "tokens": [
+        "contents",
+        "set",
+        "up",
+        "developers",
+        "user",
+        "interface",
+        "protocol",
+        "example",
+        "implementations",
+        "why",
+        "set",
+        "up",
+        "your",
+        "personal",
+        "site",
+        "must",
+        "set",
+        "up",
+        "web",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 802,
+      "charStart": 748,
+      "factId": "hz.web.d492acee327a1473.fact.4",
+      "kind": "bullet",
+      "text": "Link from your personal site to your other profiles.",
+      "tokens": [
+        "link",
+        "your",
+        "personal",
+        "site",
+        "your",
+        "other",
+        "profiles"
+      ]
+    },
+    {
+      "charEnd": 823,
+      "charStart": 817,
+      "factId": "hz.web.d492acee327a1473.fact.5",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 829,
+      "charStart": 824,
+      "factId": "hz.web.d492acee327a1473.fact.6",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 836,
+      "charStart": 830,
+      "factId": "hz.web.d492acee327a1473.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 843,
+      "charStart": 837,
+      "factId": "hz.web.d492acee327a1473.fact.8",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 853,
+      "charStart": 844,
+      "factId": "hz.web.d492acee327a1473.fact.9",
+      "kind": "bullet",
+      "text": "address",
+      "tokens": [
+        "address"
+      ]
+    },
+    {
+      "charEnd": 864,
+      "charStart": 854,
+      "factId": "hz.web.d492acee327a1473.fact.10",
+      "kind": "bullet",
+      "text": "personal",
+      "tokens": [
+        "personal"
+      ]
+    },
+    {
+      "charEnd": 872,
+      "charStart": 865,
+      "factId": "hz.web.d492acee327a1473.fact.11",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 887,
+      "charStart": 873,
+      "factId": "hz.web.d492acee327a1473.fact.12",
+      "kind": "bullet",
+      "text": "microformats",
+      "tokens": [
+        "microformats"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 34,
+      "charStart": 1,
+      "headingId": "hz.web.d492acee327a1473.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Web sign-in - Microformats Wiki"
+    },
+    {
+      "charEnd": 134,
+      "charStart": 124,
+      "headingId": "hz.web.d492acee327a1473.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 815,
+      "charStart": 804,
+      "headingId": "hz.web.d492acee327a1473.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 899,
+      "charStart": 889,
+      "headingId": "hz.web.d492acee327a1473.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d492acee327a1473.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4023,
+        "start": 0
+      }
+    ],
+    "hash": "86b294d757d30ba7b09c90cfc47a3b977063c09135e9747a61ad1463277978df",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.d492acee327a1473.rule.1",
+      "text": "- Contents 1 set up 2 developers 2.1 user interface 2.2 protocol 2.3 example implementations 3 why set up Your personal site must be set up for web sign-in.",
+      "tokens": [
+        "contents",
+        "set",
+        "up",
+        "developers",
+        "user",
+        "interface",
+        "protocol",
+        "example",
+        "implementations",
+        "why",
+        "set",
+        "up",
+        "your",
+        "personal",
+        "site",
+        "must",
+        "set",
+        "up",
+        "web",
+        "sign"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d492acee327a1473.rule.2",
+      "text": "Contents 1 set up 2 developers 2.1 user interface 2.2 protocol 2.3 example implementations 3 why set up Your personal site must be set up for web sign-in.",
+      "tokens": [
+        "contents",
+        "set",
+        "up",
+        "developers",
+        "user",
+        "interface",
+        "protocol",
+        "example",
+        "implementations",
+        "why",
+        "set",
+        "up",
+        "your",
+        "personal",
+        "site",
+        "must",
+        "set",
+        "up",
+        "web",
+        "sign"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d492acee327a1473.rule.3",
+      "text": "* Subsequent sign-ins to the same web sign-in form should be pre-filled with your domain name (e.g.",
+      "tokens": [
+        "subsequent",
+        "sign",
+        "ins",
+        "same",
+        "web",
+        "sign",
+        "form",
+        "pre",
+        "filled",
+        "your",
+        "domain",
+        "name"
+      ]
+    },
+    {
+      "ruleId": "hz.web.d492acee327a1473.rule.4",
+      "text": "Important details: The web address input \"[........................]\" MUST accept a \"plain domain\" e.g.",
+      "tokens": [
+        "important",
+        "details",
+        "web",
+        "address",
+        "input",
+        "must",
+        "accept",
+        "plain",
+        "domain"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Web sign-in - Microformats Wiki Web sign-in From Microformats Wiki Jump to navigation Jump to search Use the (Web sign-in) button on a site to sign-in with your personal web address.",
+      "When you click a (Web sign-in) button, the site will ask you for your web address, e.g.: Web address: [........................] (Sign-in) or: Web address: [........................] (Sign-in) &#160; Enter your personal web address and press return / click (Sign-in).",
+      "Contents 1 set up 2 developers 2.1 user interface 2.2 protocol 2.3 example implementations 3 why set up Your personal site must be set up for web sign-in."
+    ],
+    "medium": "Source: http://microformats.org/wiki/web-sign-in",
+    "short": "Source: http://microformats.org/wiki/web-sign-in",
+    "tokens": [
+      "web",
+      "sign",
+      "microformats",
+      "wiki",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "web",
+      "sign",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "web",
+      "sign"
+    ]
+  },
+  "title": "Web sign-in - Microformats Wiki"
+}

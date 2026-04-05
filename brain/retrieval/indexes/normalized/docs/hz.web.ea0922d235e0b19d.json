@@ -1,0 +1,569 @@
+{
+  "aliases": [
+    {
+      "alias": "ea0922d235e0b19d",
+      "aliasId": "hz.web.ea0922d235e0b19d.alias.1",
+      "canonical": "public documents | investor.gov"
+    },
+    {
+      "alias": "public documents investor.gov",
+      "aliasId": "hz.web.ea0922d235e0b19d.alias.2",
+      "canonical": "public documents | investor.gov"
+    },
+    {
+      "alias": "web ea0922d235e0b19d",
+      "aliasId": "hz.web.ea0922d235e0b19d.alias.3",
+      "canonical": "public documents | investor.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.ea0922d235e0b19d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ea0922d235e0b19d.entity.1",
+      "kind": "document",
+      "name": "Public Documents | Investor.gov",
+      "tokens": [
+        "public",
+        "documents",
+        "investor",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea0922d235e0b19d.entity.2",
+      "kind": "heading",
+      "name": "Public Documents | Investor.gov",
+      "tokens": [
+        "public",
+        "documents",
+        "investor",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea0922d235e0b19d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea0922d235e0b19d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea0922d235e0b19d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 86,
+      "charStart": 36,
+      "factId": "hz.web.ea0922d235e0b19d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.sec.gov/answers/publicdocs.htm",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "sec",
+        "gov",
+        "answers",
+        "publicdocs",
+        "htm"
+      ]
+    },
+    {
+      "charEnd": 314,
+      "charStart": 138,
+      "factId": "hz.web.ea0922d235e0b19d.fact.1",
+      "kind": "bullet",
+      "text": "Public Documents | Investor.gov Skip to main content An official website of the United States government Here’s how you know Here’s how you know The .gov means it’s official.",
+      "tokens": [
+        "public",
+        "documents",
+        "investor",
+        "gov",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "gov",
+        "means",
+        "official"
+      ]
+    },
+    {
+      "charEnd": 371,
+      "charStart": 315,
+      "factId": "hz.web.ea0922d235e0b19d.fact.2",
+      "kind": "bullet",
+      "text": "Federal government websites often end in .gov or .mil.",
+      "tokens": [
+        "federal",
+        "government",
+        "websites",
+        "often",
+        "end",
+        "gov",
+        "mil"
+      ]
+    },
+    {
+      "charEnd": 458,
+      "charStart": 372,
+      "factId": "hz.web.ea0922d235e0b19d.fact.3",
+      "kind": "bullet",
+      "text": "Before sharing sensitive information, make sure you’re on a federal government site.",
+      "tokens": [
+        "before",
+        "sharing",
+        "sensitive",
+        "information",
+        "make",
+        "sure",
+        "re",
+        "federal",
+        "government",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 480,
+      "charStart": 459,
+      "factId": "hz.web.ea0922d235e0b19d.fact.4",
+      "kind": "bullet",
+      "text": "The site is secure.",
+      "tokens": [
+        "site",
+        "secure"
+      ]
+    },
+    {
+      "charEnd": 500,
+      "charStart": 495,
+      "factId": "hz.web.ea0922d235e0b19d.fact.5",
+      "kind": "bullet",
+      "text": "sec",
+      "tokens": [
+        "sec"
+      ]
+    },
+    {
+      "charEnd": 510,
+      "charStart": 501,
+      "factId": "hz.web.ea0922d235e0b19d.fact.6",
+      "kind": "bullet",
+      "text": "request",
+      "tokens": [
+        "request"
+      ]
+    },
+    {
+      "charEnd": 517,
+      "charStart": 511,
+      "factId": "hz.web.ea0922d235e0b19d.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 525,
+      "charStart": 518,
+      "factId": "hz.web.ea0922d235e0b19d.fact.8",
+      "kind": "bullet",
+      "text": "funds",
+      "tokens": [
+        "funds"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 526,
+      "factId": "hz.web.ea0922d235e0b19d.fact.9",
+      "kind": "bullet",
+      "text": "public",
+      "tokens": [
+        "public"
+      ]
+    },
+    {
+      "charEnd": 544,
+      "charStart": 535,
+      "factId": "hz.web.ea0922d235e0b19d.fact.10",
+      "kind": "bullet",
+      "text": "records",
+      "tokens": [
+        "records"
+      ]
+    },
+    {
+      "charEnd": 557,
+      "charStart": 545,
+      "factId": "hz.web.ea0922d235e0b19d.fact.11",
+      "kind": "bullet",
+      "text": "investment",
+      "tokens": [
+        "investment"
+      ]
+    },
+    {
+      "charEnd": 563,
+      "charStart": 558,
+      "factId": "hz.web.ea0922d235e0b19d.fact.12",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 34,
+      "charStart": 1,
+      "headingId": "hz.web.ea0922d235e0b19d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Public Documents | Investor.gov"
+    },
+    {
+      "charEnd": 136,
+      "charStart": 126,
+      "headingId": "hz.web.ea0922d235e0b19d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 493,
+      "charStart": 482,
+      "headingId": "hz.web.ea0922d235e0b19d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 575,
+      "charStart": 565,
+      "headingId": "hz.web.ea0922d235e0b19d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ea0922d235e0b19d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3835,
+        "start": 0
+      }
+    ],
+    "hash": "adbe5793c30f9249ad3a1e5ab776546fcd0a673a0ebe971a7654fd43a6784aa0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.ea0922d235e0b19d.rule.1",
+      "text": "Glossary Role of the SEC General Resources Investor Alerts & Bulletins Publications and Research Financial Tools & Calculators Financial Tools Investment Professional Background Check EDGAR - Search Company Filings Fund Analyzer Retirement Ballpark E$timate Social Security Retirement Estimator Calculators Compound Interest Calculator Calculadora de distribución mínima requerida Calculadora de interés compuesto Savings Goal Calculator Calculadora de objetivo de ahorro Required Minimum Distribution Calculator College Savings Calculator Protect Your Investments Fraud Types of Fraud How to Avoid Fraud Resources for Victims Get Help Submit Questions and Complaints Arbitration and Mediation Clinics Additional Resources Spotlight Common Scams Crypto Assets HoweyTrade Never Stop Learning Public Service Campaign World Investor Week Investing Quizzes Videos Retirement Toolkit First Job Switching Jobs Employer-Sponsored Plans Federal Government Plans Managing Lifetime Income Senior Specialist Designations Social Security Avoiding Retirement Fraud Information For: Military Veterans Older Investors Teachers Youth Entrepreneurs Breadcrumb Home Introduction to Investing Glossary Main navigation (glossary) Save and Invest Define Your Goals Diversify Your Investments Figure Out Your Finances Gauge Your Risk Tolerance Learn About Investment Options Pay Off Credit Cards or Other High Interest Debt Save for a Rainy Day Small Savings Add Up to Big Money Understand What It Means to Invest Invest For Your Goals How Stock Markets Work Public Companies Market Participants Types of Orders Types of Brokerage Accounts Stock Purchases and Sales: Long and Short Executing an Order Investment Accounts Advisory Accounts Brokerage Accounts Tax-Advantaged Accounts ABLE Accounts Education Savings - 529 Plans HSAs (Health Savings Accounts) Retirement Savings 401 (k) 403(b) and 457(b) Plans Individual Retirement Accounts (IRAs) Trump Accounts Investment Products Annuities Indexed Annuities Variable",
+      "tokens": [
+        "glossary",
+        "role",
+        "sec",
+        "general",
+        "resources",
+        "investor",
+        "alerts",
+        "bulletins",
+        "publications",
+        "research",
+        "financial",
+        "tools",
+        "calculators",
+        "financial",
+        "tools",
+        "investment",
+        "professional",
+        "background",
+        "check",
+        "edgar",
+        "search",
+        "company",
+        "filings",
+        "fund",
+        "analyzer",
+        "retirement",
+        "ballpark",
+        "timate",
+        "social",
+        "security",
+        "retirement",
+        "estimator",
+        "calculators",
+        "compound",
+        "interest",
+        "calculator",
+        "calculadora",
+        "de",
+        "distribuci",
+        "nima",
+        "requerida",
+        "calculadora",
+        "de",
+        "inter",
+        "compuesto",
+        "savings",
+        "goal",
+        "calculator",
+        "calculadora",
+        "de",
+        "objetivo",
+        "de",
+        "ahorro",
+        "required",
+        "minimum",
+        "distribution",
+        "calculator",
+        "college",
+        "savings",
+        "calculator",
+        "protect",
+        "your",
+        "investments",
+        "fraud",
+        "types",
+        "fraud",
+        "avoid",
+        "fraud",
+        "resources",
+        "victims",
+        "get",
+        "help",
+        "submit",
+        "questions",
+        "complaints",
+        "arbitration",
+        "mediation",
+        "clinics",
+        "additional",
+        "resources",
+        "spotlight",
+        "common",
+        "scams",
+        "crypto",
+        "assets",
+        "howeytrade",
+        "never",
+        "stop",
+        "learning",
+        "public",
+        "service",
+        "campaign",
+        "world",
+        "investor",
+        "week",
+        "investing",
+        "quizzes",
+        "videos",
+        "retirement",
+        "toolkit",
+        "first",
+        "job",
+        "switching",
+        "jobs",
+        "employer",
+        "sponsored",
+        "plans",
+        "federal",
+        "government",
+        "plans",
+        "managing",
+        "lifetime",
+        "income",
+        "senior",
+        "specialist",
+        "designations",
+        "social",
+        "security",
+        "avoiding",
+        "retirement",
+        "fraud",
+        "information",
+        "military",
+        "veterans",
+        "older",
+        "investors",
+        "teachers",
+        "youth",
+        "entrepreneurs",
+        "breadcrumb",
+        "home",
+        "introduction",
+        "investing",
+        "glossary",
+        "main",
+        "navigation",
+        "glossary",
+        "save",
+        "invest",
+        "define",
+        "your",
+        "goals",
+        "diversify",
+        "your",
+        "investments",
+        "figure",
+        "out",
+        "your",
+        "finances",
+        "gauge",
+        "your",
+        "risk",
+        "tolerance",
+        "learn",
+        "about",
+        "investment",
+        "options",
+        "pay",
+        "off",
+        "credit",
+        "cards",
+        "other",
+        "high",
+        "interest",
+        "debt",
+        "save",
+        "rainy",
+        "day",
+        "small",
+        "savings",
+        "add",
+        "up",
+        "big",
+        "money",
+        "understand",
+        "means",
+        "invest",
+        "invest",
+        "your",
+        "goals",
+        "stock",
+        "markets",
+        "work",
+        "public",
+        "companies",
+        "market",
+        "participants",
+        "types",
+        "orders",
+        "types",
+        "brokerage",
+        "accounts",
+        "stock",
+        "purchases",
+        "sales",
+        "long",
+        "short",
+        "executing",
+        "order",
+        "investment",
+        "accounts",
+        "advisory",
+        "accounts",
+        "brokerage",
+        "accounts",
+        "tax",
+        "advantaged",
+        "accounts",
+        "able",
+        "accounts",
+        "education",
+        "savings",
+        "529",
+        "plans",
+        "hsas",
+        "health",
+        "savings",
+        "accounts",
+        "retirement",
+        "savings",
+        "401",
+        "403",
+        "457",
+        "plans",
+        "individual",
+        "retirement",
+        "accounts",
+        "iras",
+        "trump",
+        "accounts",
+        "investment",
+        "products",
+        "annuities",
+        "indexed",
+        "annuities",
+        "variable"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Public Documents | Investor.gov Skip to main content An official website of the United States government Here’s how you know Here’s how you know The .gov means it’s official.",
+      "Federal government websites often end in .gov or .mil.",
+      "Before sharing sensitive information, make sure you’re on a federal government site."
+    ],
+    "medium": "Source: https://www.sec.gov/answers/publicdocs.htm",
+    "short": "Source: https://www.sec.gov/answers/publicdocs.htm",
+    "tokens": [
+      "public",
+      "documents",
+      "investor",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "sec",
+      "gov",
+      "answers",
+      "publicdocs",
+      "htm",
+      "source",
+      "https",
+      "www",
+      "sec",
+      "gov",
+      "answers",
+      "publicdocs",
+      "htm"
+    ]
+  },
+  "title": "Public Documents | Investor.gov"
+}

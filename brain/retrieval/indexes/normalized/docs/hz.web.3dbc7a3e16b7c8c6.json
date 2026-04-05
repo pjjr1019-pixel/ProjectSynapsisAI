@@ -1,0 +1,330 @@
+{
+  "aliases": [
+    {
+      "alias": "3dbc7a3e16b7c8c6",
+      "aliasId": "hz.web.3dbc7a3e16b7c8c6.alias.1",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "aaronparecki.com",
+      "aliasId": "hz.web.3dbc7a3e16b7c8c6.alias.2",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "web 3dbc7a3e16b7c8c6",
+      "aliasId": "hz.web.3dbc7a3e16b7c8c6.alias.3",
+      "canonical": "aaronparecki.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.3dbc7a3e16b7c8c6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3dbc7a3e16b7c8c6.entity.1",
+      "kind": "document",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dbc7a3e16b7c8c6.entity.2",
+      "kind": "heading",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dbc7a3e16b7c8c6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dbc7a3e16b7c8c6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dbc7a3e16b7c8c6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 86,
+      "charStart": 21,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.1",
+      "kind": "summary",
+      "text": "Source: https://aaronparecki.com/.well-known/openid-configuration",
+      "tokens": [
+        "source",
+        "https",
+        "aaronparecki",
+        "com",
+        "well",
+        "known",
+        "openid",
+        "configuration"
+      ]
+    },
+    {
+      "charEnd": 1102,
+      "charStart": 138,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.1",
+      "kind": "bullet",
+      "text": "{\"issuer\":\"https:\\/\\/aaronparecki.com\\/\",\"authorization_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\",\"token_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/token\",\"scopes_supported\":[\"profile\",\"email\",\"create\",\"draft\",\"update\",\"delete\",\"media\",\"read\",\"follow\",\"mute\",\"block\",\"channels\",\"subject\",\"openid\"],\"code_challenge_methods_supported\":[\"S256\"],\"id_token_signing_alg_values_supported\":[\"RS256\"],\"authorization_response_iss_parameter_supported\":true,\"revocation_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/token\\/revoke\",\"revocation_endpoint_auth_methods_supported\":[\"none\"],\"userinfo_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/userinfo\",\"introspection_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/introspect\",\"introspection_endpoint_auth_methods_supported\":[\"none\"],\"service_documentation\":\"https:\\/\\/indieauth.spec.indieweb.org\\/\",\"jwks_uri\":\"https:\\/\\/aaronparecki.com\\/auth\\/keys\",\"response_modes_supported\":[\"query\"],\"response_types_supported\":[\"code\"]}",
+      "tokens": [
+        "issuer",
+        "https",
+        "aaronparecki",
+        "com",
+        "authorization_endpoint",
+        "https",
+        "aaronparecki",
+        "com",
+        "auth",
+        "token_endpoint",
+        "https",
+        "aaronparecki",
+        "com",
+        "auth",
+        "token",
+        "scopes_supported",
+        "profile",
+        "email",
+        "create",
+        "draft",
+        "update",
+        "delete",
+        "media",
+        "read",
+        "follow",
+        "mute",
+        "block",
+        "channels",
+        "subject",
+        "openid",
+        "code_challenge_methods_supported",
+        "s256",
+        "id_token_signing_alg_values_supported",
+        "rs256",
+        "authorization_response_iss_parameter_supported",
+        "true",
+        "revocation_endpoint",
+        "https",
+        "aaronparecki",
+        "com",
+        "auth",
+        "token",
+        "revoke",
+        "revocation_endpoint_auth_methods_supported",
+        "none",
+        "userinfo_endpoint",
+        "https",
+        "aaronparecki",
+        "com",
+        "auth",
+        "userinfo",
+        "introspection_endpoint",
+        "https",
+        "aaronparecki",
+        "com",
+        "auth",
+        "introspect",
+        "introspection_endpoint_auth_methods_supported",
+        "none",
+        "service_documentation",
+        "https",
+        "indieauth",
+        "spec",
+        "indieweb",
+        "org",
+        "jwks_uri",
+        "https",
+        "aaronparecki",
+        "com",
+        "auth",
+        "keys",
+        "response_modes_supported",
+        "query",
+        "response_types_supported",
+        "code"
+      ]
+    },
+    {
+      "charEnd": 1124,
+      "charStart": 1117,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.2",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1139,
+      "charStart": 1125,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.3",
+      "kind": "bullet",
+      "text": "aaronparecki",
+      "tokens": [
+        "aaronparecki"
+      ]
+    },
+    {
+      "charEnd": 1145,
+      "charStart": 1140,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.4",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1152,
+      "charStart": 1146,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.5",
+      "kind": "bullet",
+      "text": "auth",
+      "tokens": [
+        "auth"
+      ]
+    },
+    {
+      "charEnd": 1159,
+      "charStart": 1153,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.6",
+      "kind": "bullet",
+      "text": "none",
+      "tokens": [
+        "none"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1160,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.7",
+      "kind": "bullet",
+      "text": "token",
+      "tokens": [
+        "token"
+      ]
+    },
+    {
+      "charEnd": 1192,
+      "charStart": 1168,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.8",
+      "kind": "bullet",
+      "text": "authorization_endpoint",
+      "tokens": [
+        "authorization_endpoint"
+      ]
+    },
+    {
+      "charEnd": 1241,
+      "charStart": 1193,
+      "factId": "hz.web.3dbc7a3e16b7c8c6.fact.9",
+      "kind": "bullet",
+      "text": "authorization_response_iss_parameter_supported",
+      "tokens": [
+        "authorization_response_iss_parameter_supported"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.3dbc7a3e16b7c8c6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "aaronparecki.com"
+    },
+    {
+      "charEnd": 136,
+      "charStart": 126,
+      "headingId": "hz.web.3dbc7a3e16b7c8c6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1115,
+      "charStart": 1104,
+      "headingId": "hz.web.3dbc7a3e16b7c8c6.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1253,
+      "charStart": 1243,
+      "headingId": "hz.web.3dbc7a3e16b7c8c6.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3dbc7a3e16b7c8c6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2475,
+        "start": 0
+      }
+    ],
+    "hash": "c952b74b069c06f341d32ea81fd8a3b2f2b7aa5a8c87d77d15114406e419ab14",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"issuer\":\"https:\\/\\/aaronparecki.com\\/\",\"authorization_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\",\"token_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/token\",\"scopes_supported\":[\"profile\",\"email\",\"create\",\"draft\",\"update\",\"delete\",\"media\",\"read\",\"follow\",\"mute\",\"block\",\"channels\",\"subject\",\"openid\"],\"code_challenge_methods_supported\":[\"S256\"],\"id_token_signing_alg_values_supported\":[\"RS256\"],\"authorization_response_iss_parameter_supported\":true,\"revocation_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/token\\/revoke\",\"revocation_endpoint_auth_methods_supported\":[\"none\"],\"userinfo_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/userinfo\",\"introspection_endpoint\":\"https:\\/\\/aaronparecki.com\\/auth\\/introspect\",\"introspection_endpoint_auth_methods_supported\":[\"none\"],\"service_documentation\":\"https:\\/\\/indieauth.spec.indieweb.org\\/\",\"jwks_uri\":\"https:\\/\\/aaronparecki.com\\/auth\\/keys\",\"response_modes_supported\":[\"query\"],\"response_types_supported\":[\"code\"]}",
+      "https",
+      "aaronparecki"
+    ],
+    "medium": "Source: https://aaronparecki.com/.well-known/openid-configuration",
+    "short": "Source: https://aaronparecki.com/.well-known/openid-configuration",
+    "tokens": [
+      "aaronparecki",
+      "com",
+      "source",
+      "https",
+      "aaronparecki",
+      "com",
+      "well",
+      "known",
+      "openid",
+      "configuration",
+      "source",
+      "https",
+      "aaronparecki",
+      "com",
+      "well",
+      "known",
+      "openid",
+      "configuration"
+    ]
+  },
+  "title": "aaronparecki.com"
+}

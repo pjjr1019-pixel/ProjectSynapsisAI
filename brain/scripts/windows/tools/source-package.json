@@ -1,0 +1,20 @@
+{
+  "name": "windows-js-skill-pack",
+  "version": "0.1.0",
+  "description": "Searchable Windows action/launcher skill pack for Node/Electron apps.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "bin": {
+    "windows-skill-pack": "src/cli.js"
+  },
+  "scripts": {
+    "list": "node src/cli.js list",
+    "search": "node src/cli.js search bluetooth",
+    "doctor": "node src/cli.js doctor",
+    "build-index": "node src/createIndex.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

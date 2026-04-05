@@ -1,0 +1,375 @@
+{
+  "aliases": [
+    {
+      "alias": "3a20e0fff1971f74",
+      "aliasId": "hz.web.3a20e0fff1971f74.alias.1",
+      "canonical": "xfn: thanks"
+    },
+    {
+      "alias": "web 3a20e0fff1971f74",
+      "aliasId": "hz.web.3a20e0fff1971f74.alias.2",
+      "canonical": "xfn: thanks"
+    },
+    {
+      "alias": "xfn thanks",
+      "aliasId": "hz.web.3a20e0fff1971f74.alias.3",
+      "canonical": "xfn: thanks"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.3a20e0fff1971f74",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3a20e0fff1971f74.entity.1",
+      "kind": "document",
+      "name": "XFN: Thanks",
+      "tokens": [
+        "xfn",
+        "thanks"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a20e0fff1971f74.entity.2",
+      "kind": "heading",
+      "name": "XFN: Thanks",
+      "tokens": [
+        "xfn",
+        "thanks"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a20e0fff1971f74.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a20e0fff1971f74.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a20e0fff1971f74.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 16,
+      "factId": "hz.web.3a20e0fff1971f74.fact.1",
+      "kind": "summary",
+      "text": "Source: https://gmpg.org/xfn/thanks",
+      "tokens": [
+        "source",
+        "https",
+        "gmpg",
+        "org",
+        "xfn",
+        "thanks"
+      ]
+    },
+    {
+      "charEnd": 160,
+      "charStart": 103,
+      "factId": "hz.web.3a20e0fff1971f74.fact.1",
+      "kind": "bullet",
+      "text": "XFN: Thanks Home Intro Join Background FAQ Tools And...",
+      "tokens": [
+        "xfn",
+        "thanks",
+        "home",
+        "intro",
+        "join",
+        "background",
+        "faq",
+        "tools"
+      ]
+    },
+    {
+      "charEnd": 200,
+      "charStart": 161,
+      "factId": "hz.web.3a20e0fff1971f74.fact.2",
+      "kind": "bullet",
+      "text": "Helping Thanks Feedback XFN : Thanks!",
+      "tokens": [
+        "helping",
+        "thanks",
+        "feedback",
+        "xfn",
+        "thanks"
+      ]
+    },
+    {
+      "charEnd": 516,
+      "charStart": 201,
+      "factId": "hz.web.3a20e0fff1971f74.fact.3",
+      "kind": "bullet",
+      "text": "The Founders would like to offer thanks for all the feedback, constructive criticisms, and suggestions from the following individuals, and acknowledge them accordingly: 1.1 Previewers Christopher Allen Douglas Bowman Jeroen Budts Dan Cederholm Daniel Glazman Molly Holzschlag Arthur Jennings Jonas Luster Serge K.",
+      "tokens": [
+        "founders",
+        "like",
+        "offer",
+        "thanks",
+        "all",
+        "feedback",
+        "constructive",
+        "criticisms",
+        "suggestions",
+        "following",
+        "individuals",
+        "acknowledge",
+        "them",
+        "accordingly",
+        "previewers",
+        "christopher",
+        "allen",
+        "douglas",
+        "bowman",
+        "jeroen",
+        "budts",
+        "dan",
+        "cederholm",
+        "daniel",
+        "glazman",
+        "molly",
+        "holzschlag",
+        "arthur",
+        "jennings",
+        "jonas",
+        "luster",
+        "serge"
+      ]
+    },
+    {
+      "charEnd": 909,
+      "charStart": 517,
+      "factId": "hz.web.3a20e0fff1971f74.fact.4",
+      "kind": "bullet",
+      "text": "Keller Kevin Marks Phil McCluskey Amber Nixon Tanya Rabourn Manuel Razzari Keith Robinson Dinah Sanders Dave Shea Jim Winstead Jeffrey Zeldman Angela 1.0 Previewers Cheyenne Burnsworth Chris Pirillo Jason DeFillippo Jeffrey Zeldman Kevin Smokler Dave Shea Min Jung Kim Ian Lloyd Tanya Rabourn Early birds Douglas Bowman Amber Nixon XFN would not be what it is today if it were not for them.",
+      "tokens": [
+        "keller",
+        "kevin",
+        "marks",
+        "phil",
+        "mccluskey",
+        "amber",
+        "nixon",
+        "tanya",
+        "rabourn",
+        "manuel",
+        "razzari",
+        "keith",
+        "robinson",
+        "dinah",
+        "sanders",
+        "dave",
+        "shea",
+        "jim",
+        "winstead",
+        "jeffrey",
+        "zeldman",
+        "angela",
+        "previewers",
+        "cheyenne",
+        "burnsworth",
+        "chris",
+        "pirillo",
+        "jason",
+        "defillippo",
+        "jeffrey",
+        "zeldman",
+        "kevin",
+        "smokler",
+        "dave",
+        "shea",
+        "min",
+        "jung",
+        "kim",
+        "ian",
+        "lloyd",
+        "tanya",
+        "rabourn",
+        "early",
+        "birds",
+        "douglas",
+        "bowman",
+        "amber",
+        "nixon",
+        "xfn",
+        "not",
+        "today",
+        "if",
+        "not",
+        "them"
+      ]
+    },
+    {
+      "charEnd": 932,
+      "charStart": 924,
+      "factId": "hz.web.3a20e0fff1971f74.fact.5",
+      "kind": "bullet",
+      "text": "thanks",
+      "tokens": [
+        "thanks"
+      ]
+    },
+    {
+      "charEnd": 938,
+      "charStart": 933,
+      "factId": "hz.web.3a20e0fff1971f74.fact.6",
+      "kind": "bullet",
+      "text": "xfn",
+      "tokens": [
+        "xfn"
+      ]
+    },
+    {
+      "charEnd": 946,
+      "charStart": 939,
+      "factId": "hz.web.3a20e0fff1971f74.fact.7",
+      "kind": "bullet",
+      "text": "amber",
+      "tokens": [
+        "amber"
+      ]
+    },
+    {
+      "charEnd": 955,
+      "charStart": 947,
+      "factId": "hz.web.3a20e0fff1971f74.fact.8",
+      "kind": "bullet",
+      "text": "bowman",
+      "tokens": [
+        "bowman"
+      ]
+    },
+    {
+      "charEnd": 962,
+      "charStart": 956,
+      "factId": "hz.web.3a20e0fff1971f74.fact.9",
+      "kind": "bullet",
+      "text": "dave",
+      "tokens": [
+        "dave"
+      ]
+    },
+    {
+      "charEnd": 972,
+      "charStart": 963,
+      "factId": "hz.web.3a20e0fff1971f74.fact.10",
+      "kind": "bullet",
+      "text": "douglas",
+      "tokens": [
+        "douglas"
+      ]
+    },
+    {
+      "charEnd": 983,
+      "charStart": 973,
+      "factId": "hz.web.3a20e0fff1971f74.fact.11",
+      "kind": "bullet",
+      "text": "feedback",
+      "tokens": [
+        "feedback"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 984,
+      "factId": "hz.web.3a20e0fff1971f74.fact.12",
+      "kind": "bullet",
+      "text": "gmpg",
+      "tokens": [
+        "gmpg"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.3a20e0fff1971f74.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "XFN: Thanks"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.3a20e0fff1971f74.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 922,
+      "charStart": 911,
+      "headingId": "hz.web.3a20e0fff1971f74.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1002,
+      "charStart": 992,
+      "headingId": "hz.web.3a20e0fff1971f74.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3a20e0fff1971f74.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2100,
+        "start": 0
+      }
+    ],
+    "hash": "5030ac6f9d4f362013e5077f49af1c5ec874cba3eb5c41543f6f6276555322ce",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "XFN: Thanks Home Intro Join Background FAQ Tools And...",
+      "Helping Thanks Feedback XFN : Thanks!",
+      "The Founders would like to offer thanks for all the feedback, constructive criticisms, and suggestions from the following individuals, and acknowledge them accordingly: 1.1 Previewers Christopher Allen Douglas Bowman Jeroen Budts Dan Cederholm Daniel Glazman Molly Holzschlag Arthur Jennings Jonas Luster Serge K."
+    ],
+    "medium": "Source: https://gmpg.org/xfn/thanks",
+    "short": "Source: https://gmpg.org/xfn/thanks",
+    "tokens": [
+      "xfn",
+      "thanks",
+      "source",
+      "https",
+      "gmpg",
+      "org",
+      "xfn",
+      "thanks",
+      "source",
+      "https",
+      "gmpg",
+      "org",
+      "xfn",
+      "thanks"
+    ]
+  },
+  "title": "XFN: Thanks"
+}

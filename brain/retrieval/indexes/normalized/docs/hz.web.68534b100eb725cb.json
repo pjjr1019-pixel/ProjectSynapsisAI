@@ -1,0 +1,367 @@
+{
+  "aliases": [
+    {
+      "alias": "68534b100eb725cb",
+      "aliasId": "hz.web.68534b100eb725cb.alias.1",
+      "canonical": "wordpress.org"
+    },
+    {
+      "alias": "web 68534b100eb725cb",
+      "aliasId": "hz.web.68534b100eb725cb.alias.2",
+      "canonical": "wordpress.org"
+    },
+    {
+      "alias": "wordpress.org",
+      "aliasId": "hz.web.68534b100eb725cb.alias.3",
+      "canonical": "wordpress.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.68534b100eb725cb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.68534b100eb725cb.entity.1",
+      "kind": "document",
+      "name": "wordpress.org",
+      "tokens": [
+        "wordpress",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.68534b100eb725cb.entity.2",
+      "kind": "heading",
+      "name": "wordpress.org",
+      "tokens": [
+        "wordpress",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.68534b100eb725cb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.68534b100eb725cb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.68534b100eb725cb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 121,
+      "charStart": 18,
+      "factId": "hz.web.68534b100eb725cb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://wordpress.org/wp-content/themes/wporg-parent-2021/build/block-styles.css?ver=1748271785",
+      "tokens": [
+        "source",
+        "https",
+        "wordpress",
+        "org",
+        "wp",
+        "content",
+        "themes",
+        "wporg",
+        "parent",
+        "2021",
+        "build",
+        "block",
+        "styles",
+        "css",
+        "ver",
+        "1748271785"
+      ]
+    },
+    {
+      "charEnd": 281,
+      "charStart": 173,
+      "factId": "hz.web.68534b100eb725cb.fact.1",
+      "kind": "bullet",
+      "text": "@charset \"UTF-8\"; /** * Breakpoints & Media Queries */ /** * Converts a hex value into the rgb equivalent.",
+      "tokens": [
+        "charset",
+        "utf",
+        "breakpoints",
+        "media",
+        "queries",
+        "converts",
+        "hex",
+        "value",
+        "into",
+        "rgb",
+        "equivalent"
+      ]
+    },
+    {
+      "charEnd": 513,
+      "charStart": 282,
+      "factId": "hz.web.68534b100eb725cb.fact.2",
+      "kind": "bullet",
+      "text": "* * @param {string} hex - the hexadecimal value to convert * @return {string} comma separated rgb values */ /** * Long content fade mixin * * Creates a fading overlay to signify that the content is longer * than the space allows.",
+      "tokens": [
+        "param",
+        "string",
+        "hex",
+        "hexadecimal",
+        "value",
+        "convert",
+        "return",
+        "string",
+        "comma",
+        "separated",
+        "rgb",
+        "values",
+        "long",
+        "content",
+        "fade",
+        "mixin",
+        "creates",
+        "fading",
+        "overlay",
+        "signify",
+        "content",
+        "longer",
+        "than",
+        "space",
+        "allows"
+      ]
+    },
+    {
+      "charEnd": 565,
+      "charStart": 514,
+      "factId": "hz.web.68534b100eb725cb.fact.3",
+      "kind": "bullet",
+      "text": "*/ /** * Breakpoint mixins */ /** * Focus styles.",
+      "tokens": [
+        "breakpoint",
+        "mixins",
+        "focus",
+        "styles"
+      ]
+    },
+    {
+      "charEnd": 770,
+      "charStart": 566,
+      "factId": "hz.web.68534b100eb725cb.fact.4",
+      "kind": "bullet",
+      "text": "*/ /** * Applies editor left position to the selector passed as argument */ /** * Styles that are reused verbatim in a few places */ /** * Allows users to opt-out of animations via OS-level preferences.",
+      "tokens": [
+        "applies",
+        "editor",
+        "left",
+        "position",
+        "selector",
+        "passed",
+        "argument",
+        "styles",
+        "reused",
+        "verbatim",
+        "few",
+        "places",
+        "allows",
+        "users",
+        "opt",
+        "out",
+        "animations",
+        "via",
+        "os",
+        "level",
+        "preferences"
+      ]
+    },
+    {
+      "charEnd": 792,
+      "charStart": 785,
+      "factId": "hz.web.68534b100eb725cb.fact.5",
+      "kind": "bullet",
+      "text": "style",
+      "tokens": [
+        "style"
+      ]
+    },
+    {
+      "charEnd": 797,
+      "charStart": 793,
+      "factId": "hz.web.68534b100eb725cb.fact.6",
+      "kind": "bullet",
+      "text": "wp",
+      "tokens": [
+        "wp"
+      ]
+    },
+    {
+      "charEnd": 805,
+      "charStart": 798,
+      "factId": "hz.web.68534b100eb725cb.fact.7",
+      "kind": "bullet",
+      "text": "block",
+      "tokens": [
+        "block"
+      ]
+    },
+    {
+      "charEnd": 812,
+      "charStart": 806,
+      "factId": "hz.web.68534b100eb725cb.fact.8",
+      "kind": "bullet",
+      "text": "grid",
+      "tokens": [
+        "grid"
+      ]
+    },
+    {
+      "charEnd": 818,
+      "charStart": 813,
+      "factId": "hz.web.68534b100eb725cb.fact.9",
+      "kind": "bullet",
+      "text": "var",
+      "tokens": [
+        "var"
+      ]
+    },
+    {
+      "charEnd": 826,
+      "charStart": 819,
+      "factId": "hz.web.68534b100eb725cb.fact.10",
+      "kind": "bullet",
+      "text": "cards",
+      "tokens": [
+        "cards"
+      ]
+    },
+    {
+      "charEnd": 835,
+      "charStart": 827,
+      "factId": "hz.web.68534b100eb725cb.fact.11",
+      "kind": "bullet",
+      "text": "preset",
+      "tokens": [
+        "preset"
+      ]
+    },
+    {
+      "charEnd": 840,
+      "charStart": 836,
+      "factId": "hz.web.68534b100eb725cb.fact.12",
+      "kind": "bullet",
+      "text": "li",
+      "tokens": [
+        "li"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.68534b100eb725cb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "wordpress.org"
+    },
+    {
+      "charEnd": 171,
+      "charStart": 161,
+      "headingId": "hz.web.68534b100eb725cb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 783,
+      "charStart": 772,
+      "headingId": "hz.web.68534b100eb725cb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 852,
+      "charStart": 842,
+      "headingId": "hz.web.68534b100eb725cb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/68534b100eb725cb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4147,
+        "start": 0
+      }
+    ],
+    "hash": "603bb94b3ab38740206d28150b516540f31c4b8f9456bd655cece4adb78b6ff2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@charset \"UTF-8\"; /** * Breakpoints & Media Queries */ /** * Converts a hex value into the rgb equivalent.",
+      "* * @param {string} hex - the hexadecimal value to convert * @return {string} comma separated rgb values */ /** * Long content fade mixin * * Creates a fading overlay to signify that the content is longer * than the space allows.",
+      "*/ /** * Breakpoint mixins */ /** * Focus styles."
+    ],
+    "medium": "Source: https://wordpress.org/wp-content/themes/wporg-parent-2021/build/block-styles.css?ver=1748271785",
+    "short": "Source: https://wordpress.org/wp-content/themes/wporg-parent-2021/build/block-styles.css?ver=1748271785",
+    "tokens": [
+      "wordpress",
+      "org",
+      "source",
+      "https",
+      "wordpress",
+      "org",
+      "wp",
+      "content",
+      "themes",
+      "wporg",
+      "parent",
+      "2021",
+      "build",
+      "block",
+      "styles",
+      "css",
+      "ver",
+      "1748271785",
+      "source",
+      "https",
+      "wordpress",
+      "org",
+      "wp",
+      "content",
+      "themes",
+      "wporg",
+      "parent",
+      "2021",
+      "build",
+      "block",
+      "styles",
+      "css",
+      "ver",
+      "1748271785"
+    ]
+  },
+  "title": "wordpress.org"
+}

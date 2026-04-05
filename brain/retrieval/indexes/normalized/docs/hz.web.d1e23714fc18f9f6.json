@@ -1,0 +1,373 @@
+{
+  "aliases": [
+    {
+      "alias": "d1e23714fc18f9f6",
+      "aliasId": "hz.web.d1e23714fc18f9f6.alias.1",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "node.js blog",
+      "aliasId": "hz.web.d1e23714fc18f9f6.alias.2",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "web d1e23714fc18f9f6",
+      "aliasId": "hz.web.d1e23714fc18f9f6.alias.3",
+      "canonical": "node.js — blog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.76,
+  "docId": "hz.web.d1e23714fc18f9f6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d1e23714fc18f9f6.entity.1",
+      "kind": "document",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.d1e23714fc18f9f6.entity.2",
+      "kind": "heading",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.d1e23714fc18f9f6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d1e23714fc18f9f6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d1e23714fc18f9f6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 19,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.1",
+      "kind": "summary",
+      "text": "Source: https://nodejs.org/ro/blog",
+      "tokens": [
+        "source",
+        "https",
+        "nodejs",
+        "org",
+        "ro",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 258,
+      "charStart": 105,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.1",
+      "kind": "bullet",
+      "text": "Node.js — Blog Skip to content March Security Release is available Învață Despre Descarcă Blog Documentație Contribuie Certificări Începe să tastezi...",
+      "tokens": [
+        "node",
+        "js",
+        "blog",
+        "skip",
+        "content",
+        "march",
+        "security",
+        "release",
+        "available",
+        "nva",
+        "despre",
+        "descarc",
+        "blog",
+        "documenta",
+        "ie",
+        "contribuie",
+        "certific",
+        "ri",
+        "ncepe",
+        "tastezi"
+      ]
+    },
+    {
+      "charEnd": 338,
+      "charStart": 259,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.2",
+      "kind": "bullet",
+      "text": "⌘ K Blog Cele mai recente știri, studii de caz, tutoriale și resurse Node.js.",
+      "tokens": [
+        "blog",
+        "cele",
+        "mai",
+        "recente",
+        "tiri",
+        "studii",
+        "de",
+        "caz",
+        "tutoriale",
+        "resurse",
+        "node",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 700,
+      "charStart": 339,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.3",
+      "kind": "bullet",
+      "text": "Toate Anunțuri Lansări Vulnerabilități Migration Guides Evenimente Categorii Toate Toate Anunțuri Lansări Vulnerabilități Migration Guides Evenimente Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 Vulnerabilități Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung 24 mar.",
+      "tokens": [
+        "toate",
+        "anun",
+        "uri",
+        "lans",
+        "ri",
+        "vulnerabilit",
+        "migration",
+        "guides",
+        "evenimente",
+        "categorii",
+        "toate",
+        "toate",
+        "anun",
+        "uri",
+        "lans",
+        "ri",
+        "vulnerabilit",
+        "migration",
+        "guides",
+        "evenimente",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "vulnerabilit",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "jc",
+        "joyee",
+        "cheung",
+        "24",
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 791,
+      "charStart": 701,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.4",
+      "kind": "bullet",
+      "text": "2026 Node.js 25.8.2 (Current) Lansări Node.js 25.8.2 (Current) RG Rafael Gonzaga 24 mar.",
+      "tokens": [
+        "2026",
+        "node",
+        "js",
+        "25",
+        "current",
+        "lans",
+        "ri",
+        "node",
+        "js",
+        "25",
+        "current",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "24",
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 810,
+      "charStart": 806,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.5",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 811,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.6",
+      "kind": "bullet",
+      "text": "node",
+      "tokens": [
+        "node"
+      ]
+    },
+    {
+      "charEnd": 822,
+      "charStart": 818,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.7",
+      "kind": "bullet",
+      "text": "24",
+      "tokens": [
+        "24"
+      ]
+    },
+    {
+      "charEnd": 829,
+      "charStart": 823,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.8",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 835,
+      "charStart": 830,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.9",
+      "kind": "bullet",
+      "text": "lts",
+      "tokens": [
+        "lts"
+      ]
+    },
+    {
+      "charEnd": 840,
+      "charStart": 836,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.10",
+      "kind": "bullet",
+      "text": "ri",
+      "tokens": [
+        "ri"
+      ]
+    },
+    {
+      "charEnd": 853,
+      "charStart": 841,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.11",
+      "kind": "bullet",
+      "text": "trademarks",
+      "tokens": [
+        "trademarks"
+      ]
+    },
+    {
+      "charEnd": 860,
+      "charStart": 854,
+      "factId": "hz.web.d1e23714fc18f9f6.fact.12",
+      "kind": "bullet",
+      "text": "lans",
+      "tokens": [
+        "lans"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.d1e23714fc18f9f6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Node.js — Blog"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.d1e23714fc18f9f6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 804,
+      "charStart": 793,
+      "headingId": "hz.web.d1e23714fc18f9f6.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 872,
+      "charStart": 862,
+      "headingId": "hz.web.d1e23714fc18f9f6.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/d1e23714fc18f9f6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2892,
+        "start": 0
+      }
+    ],
+    "hash": "ba70cc6755eea85195e37f7f01695931ae0527dab7e19fea0828fa9a414081e8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Node.js — Blog Skip to content March Security Release is available Învață Despre Descarcă Blog Documentație Contribuie Certificări Începe să tastezi...",
+      "⌘ K Blog Cele mai recente știri, studii de caz, tutoriale și resurse Node.js.",
+      "Toate Anunțuri Lansări Vulnerabilități Migration Guides Evenimente Categorii Toate Toate Anunțuri Lansări Vulnerabilități Migration Guides Evenimente Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 Vulnerabilități Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung 24 mar."
+    ],
+    "medium": "Source: https://nodejs.org/ro/blog",
+    "short": "Source: https://nodejs.org/ro/blog",
+    "tokens": [
+      "node",
+      "js",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "ro",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "ro",
+      "blog"
+    ]
+  },
+  "title": "Node.js — Blog"
+}

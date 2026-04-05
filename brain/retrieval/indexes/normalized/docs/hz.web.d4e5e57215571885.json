@@ -1,0 +1,463 @@
+{
+  "aliases": [
+    {
+      "alias": "d4e5e57215571885",
+      "aliasId": "hz.web.d4e5e57215571885.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.d4e5e57215571885.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web d4e5e57215571885",
+      "aliasId": "hz.web.d4e5e57215571885.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.53,
+  "docId": "hz.web.d4e5e57215571885",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d4e5e57215571885.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d4e5e57215571885.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d4e5e57215571885.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d4e5e57215571885.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d4e5e57215571885.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 109,
+      "charStart": 25,
+      "factId": "hz.web.d4e5e57215571885.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "css",
+        "family",
+        "roboto",
+        "300",
+        "400",
+        "400i",
+        "500",
+        "500i",
+        "700",
+        "900"
+      ]
+    },
+    {
+      "charEnd": 1757,
+      "charStart": 161,
+      "factId": "hz.web.d4e5e57215571885.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Roboto'; font-style: italic; font-weight: 400; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: italic; font-weight: 500; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 300; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 400; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 500; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 700; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 900; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "italic",
+        "font",
+        "weight",
+        "400",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfokcnqeu92fr1mu53zec9_vu3r1gihoszmoclhrs6ljxfmmlohquaj",
+        "lg",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "italic",
+        "font",
+        "weight",
+        "500",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfokcnqeu92fr1mu53zec9_vu3r1gihoszmoclhrs6ljxfmmlrpquaj",
+        "lg",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "300",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwuaabvmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwubebvmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "500",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwub2bvmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwuyjalmuia8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "roboto",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "900",
+        "font",
+        "stretch",
+        "normal",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "roboto",
+        "v51",
+        "kfomcnqeu92fr1me7ksn66agldtyluamqxc89ymc2dpnwuztalmuia8",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 1778,
+      "charStart": 1772,
+      "factId": "hz.web.d4e5e57215571885.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1787,
+      "charStart": 1779,
+      "factId": "hz.web.d4e5e57215571885.fact.3",
+      "kind": "bullet",
+      "text": "roboto",
+      "tokens": [
+        "roboto"
+      ]
+    },
+    {
+      "charEnd": 1796,
+      "charStart": 1788,
+      "factId": "hz.web.d4e5e57215571885.fact.4",
+      "kind": "bullet",
+      "text": "normal",
+      "tokens": [
+        "normal"
+      ]
+    },
+    {
+      "charEnd": 1802,
+      "charStart": 1797,
+      "factId": "hz.web.d4e5e57215571885.fact.5",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1809,
+      "charStart": 1803,
+      "factId": "hz.web.d4e5e57215571885.fact.6",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 1818,
+      "charStart": 1810,
+      "factId": "hz.web.d4e5e57215571885.fact.7",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 1826,
+      "charStart": 1819,
+      "factId": "hz.web.d4e5e57215571885.fact.8",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 1835,
+      "charStart": 1827,
+      "factId": "hz.web.d4e5e57215571885.fact.9",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.d4e5e57215571885.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 159,
+      "charStart": 149,
+      "headingId": "hz.web.d4e5e57215571885.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1770,
+      "charStart": 1759,
+      "headingId": "hz.web.d4e5e57215571885.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1847,
+      "charStart": 1837,
+      "headingId": "hz.web.d4e5e57215571885.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d4e5e57215571885.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3724,
+        "start": 0
+      }
+    ],
+    "hash": "f3fa5a69f56ca142b0d20112ed35fcf075a0789fecf34ce2c8a0748b4adf46de",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Roboto'; font-style: italic; font-weight: 400; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: italic; font-weight: 500; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 300; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 400; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 500; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 700; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf) format('truetype'); } @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 900; font-stretch: normal; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf) format('truetype'); }",
+      "font",
+      "roboto"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900",
+    "short": "Source: https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "roboto",
+      "300",
+      "400",
+      "400i",
+      "500",
+      "500i",
+      "700",
+      "900",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "roboto",
+      "300",
+      "400",
+      "400i",
+      "500",
+      "500i",
+      "700",
+      "900"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

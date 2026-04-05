@@ -1,0 +1,149 @@
+{
+  "aliases": [
+    {
+      "alias": "session 2026 03 27t12 00 00z demo",
+      "aliasId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.src-json.alias.1",
+      "canonical": "session 2026 03 27t12 00 00z demo"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.src-json",
+  "domain": "runtime",
+  "entities": [
+    {
+      "entityId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.src-json.entity.1",
+      "kind": "document",
+      "name": "session 2026 03 27T12 00 00Z demo",
+      "tokens": [
+        "session",
+        "2026",
+        "03",
+        "27t12",
+        "00",
+        "00z",
+        "demo"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.src-json.fact.1",
+      "kind": "summary",
+      "text": "Structured JSON keys: sessionId, app, startedAt, endedAt, retrievalProfile, pinnedDocIds, toolTraceSummary",
+      "tokens": [
+        "structured",
+        "json",
+        "keys",
+        "sessionid",
+        "app",
+        "startedat",
+        "endedat",
+        "retrievalprofile",
+        "pinneddocids",
+        "tooltracesummary"
+      ]
+    }
+  ],
+  "headings": [],
+  "moduleIds": [],
+  "path": "runtime/sessions/snapshots/session-2026-03-27T12-00-00Z-demo.json",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 351,
+        "start": 0
+      }
+    ],
+    "hash": "2eecfeabdf62bf640daa52d41e86e2e20e5eb79a5996cee86f37196cfb25a939",
+    "sourceType": "runtime"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "{ \"sessionId\": \"sess-demo-2026-03-27\", \"app\": \"assistant\", \"startedAt\": \"2026-03-27T11:55:00Z\", \"endedAt\": \"2026-03-27T12:05:00Z\", \"retrievalProfile\": \"assistant-default\", \"pinnedDocIds\": [ \"hz.assistant.sample-topic.2026-03-27\" ], \"toolTraceSummary\": { \"turnCount\": 3, \"toolCalls\": 0, \"errors\": 0 } }",
+    "short": "{ \"sessionId\": \"sess-demo-2026-03-27\", \"app\": \"assistant\", \"startedAt\": \"2026-03-27T11:55:00Z\", \"endedAt\": \"2026-03-27T12:05:00Z\", \"retrievalProfile\": \"assistant-default\", \"pinnedDocIds\": [ \"hz.assistant.sample-topic.2026-03-27\" ], \"toolTra",
+    "tokens": [
+      "session",
+      "2026",
+      "03",
+      "27t12",
+      "00",
+      "00z",
+      "demo",
+      "sessionid",
+      "sess",
+      "demo",
+      "2026",
+      "03",
+      "27",
+      "app",
+      "assistant",
+      "startedat",
+      "2026",
+      "03",
+      "27t11",
+      "55",
+      "00z",
+      "endedat",
+      "2026",
+      "03",
+      "27t12",
+      "05",
+      "00z",
+      "retrievalprofile",
+      "assistant",
+      "default",
+      "pinneddocids",
+      "hz",
+      "assistant",
+      "sample",
+      "topic",
+      "2026",
+      "03",
+      "27",
+      "tooltra",
+      "sessionid",
+      "sess",
+      "demo",
+      "2026",
+      "03",
+      "27",
+      "app",
+      "assistant",
+      "startedat",
+      "2026",
+      "03",
+      "27t11",
+      "55",
+      "00z",
+      "endedat",
+      "2026",
+      "03",
+      "27t12",
+      "05",
+      "00z",
+      "retrievalprofile",
+      "assistant",
+      "default",
+      "pinneddocids",
+      "hz",
+      "assistant",
+      "sample",
+      "topic",
+      "2026",
+      "03",
+      "27",
+      "tooltracesummary",
+      "turncount",
+      "toolcalls",
+      "errors"
+    ]
+  },
+  "title": "session 2026 03 27T12 00 00Z demo"
+}

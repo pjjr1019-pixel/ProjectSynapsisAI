@@ -1,0 +1,811 @@
+{
+  "artifactType": "brain-contradiction-report",
+  "builtAt": "2026-03-29T19:57:45.494Z",
+  "counts": {
+    "contradictions": 0,
+    "duplicates": 0,
+    "supports": 38,
+    "total": 38
+  },
+  "findings": [
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.9,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "overlap": 0.8,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8611111111111112,
+      "excerpts": {
+        "left": "Source: https://news.ycombinator.com/ Hacker News Hacker News new | past | comments | ask | show | jobs | submit login 1. Voyager 1 runs on 69 KB of memory and an 8-track tape recorder ( techfixated.com ) 206 points by speckx 3 hours ago | ",
+        "right": "Source: https://news.ycombinator.com/news Hacker News Hacker News new | past | comments | ask | show | jobs | submit login 1. Voyager 1 runs on 69 KB of memory and an 8-track tape recorder ( techfixated.com ) 216 points by speckx 3 hours ag"
+      },
+      "left": {
+        "docId": "hz.web.0f63a2a5a5620b74",
+        "path": "runtime/learning/promoted/2026-03-29/0f63a2a5a5620b74.md",
+        "sourceType": "web",
+        "title": "Hacker News"
+      },
+      "overlap": 0.7222222222222222,
+      "right": {
+        "docId": "hz.web.686bbf90c952f873",
+        "path": "runtime/learning/promoted/2026-03-29/686bbf90c952f873.md",
+        "sourceType": "web",
+        "title": "Hacker News"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.action-automation-v6",
+        "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+        "sourceType": "import",
+        "title": "Import pack — Action and Automation v6"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.common-questions-v3",
+        "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+        "sourceType": "import",
+        "title": "Import pack — Common Questions and Workflows v3"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.edge-cases-v4",
+        "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+        "sourceType": "import",
+        "title": "Import pack — Edge Cases and Messy Inputs v4"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v1",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v1"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v2/`](../HorizonsAI_Knowledge_Pack_v2/README.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.knowledge-pack-v2",
+        "path": "imports/base-knowledge/_catalog/knowledge-pack-v2.md",
+        "sourceType": "import",
+        "title": "Import pack — HorizonsAI Knowledge Pack v2"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.live-data-v5",
+        "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+        "sourceType": "import",
+        "title": "Import pack — Live Data and Changing World v5"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.memory-user-model-v8",
+        "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+        "sourceType": "import",
+        "title": "Import pack — Memory and User Model v8"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.8,
+      "excerpts": {
+        "left": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)",
+        "right": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)"
+      },
+      "left": {
+        "docId": "hz.pipeline.imports.megapack-all-recommended",
+        "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+        "sourceType": "import",
+        "title": "Import pack — Brain Mega Pack (all recommended)"
+      },
+      "overlap": 0.6,
+      "right": {
+        "docId": "hz.pipeline.imports.planning-orchestration-v7",
+        "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+        "sourceType": "import",
+        "title": "Import pack — Planning and Orchestration v7"
+      },
+      "type": "support"
+    },
+    {
+      "confidence": 0.7708333333333333,
+      "excerpts": {
+        "left": "- Turns logged: 18 - Local AI turns: 18 - Logged errors: 1 Turns logged: 18 Local AI turns: 18 Logged errors: 1 idk: 16 retrieval: 1 scenario: 1 whats: 6 indicators: 3 know: 3 stock: 3 weather: 3 florida: 2 life: 2 meaning: 2 qwen2.5:3b-ins",
+        "right": "- Turns logged: 17 - Local AI turns: 17 - Logged errors: 0 Turns logged: 17 Local AI turns: 17 Logged errors: 0 idk: 4 scenario: 4 compact_fact: 3 retrieval: 3 summary: 3 story: 4 about: 3 short: 3 write: 3 ai: 2 count: 2 out: 2 strawberry:"
+      },
+      "left": {
+        "docId": "hz.runtime.logs.chat-turns.2026-03-28",
+        "path": "runtime/logs/digests/chat-turns-2026-03-28.md",
+        "sourceType": "runtime",
+        "title": "Runtime chat log digest 2026-03-28"
+      },
+      "overlap": 0.5416666666666666,
+      "right": {
+        "docId": "hz.runtime.logs.chat-turns.2026-03-29",
+        "path": "runtime/logs/digests/chat-turns-2026-03-29.md",
+        "sourceType": "runtime",
+        "title": "Runtime chat log digest 2026-03-29"
+      },
+      "type": "support"
+    }
+  ],
+  "schemaVersion": "1.0"
+}

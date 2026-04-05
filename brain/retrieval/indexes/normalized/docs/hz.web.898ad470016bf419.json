@@ -1,0 +1,335 @@
+{
+  "aliases": [
+    {
+      "alias": "898ad470016bf419",
+      "aliasId": "hz.web.898ad470016bf419.alias.1",
+      "canonical": "email signature | about.me"
+    },
+    {
+      "alias": "email signature about.me",
+      "aliasId": "hz.web.898ad470016bf419.alias.2",
+      "canonical": "email signature | about.me"
+    },
+    {
+      "alias": "web 898ad470016bf419",
+      "aliasId": "hz.web.898ad470016bf419.alias.3",
+      "canonical": "email signature | about.me"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.68,
+  "docId": "hz.web.898ad470016bf419",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.898ad470016bf419.entity.1",
+      "kind": "document",
+      "name": "Email Signature | about.me",
+      "tokens": [
+        "email",
+        "signature",
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.898ad470016bf419.entity.2",
+      "kind": "heading",
+      "name": "Email Signature | about.me",
+      "tokens": [
+        "email",
+        "signature",
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.898ad470016bf419.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.898ad470016bf419.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.898ad470016bf419.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 70,
+      "charStart": 31,
+      "factId": "hz.web.898ad470016bf419.fact.1",
+      "kind": "summary",
+      "text": "Source: https://about.me/emailsignature",
+      "tokens": [
+        "source",
+        "https",
+        "about",
+        "emailsignature"
+      ]
+    },
+    {
+      "charEnd": 275,
+      "charStart": 122,
+      "factId": "hz.web.898ad470016bf419.fact.1",
+      "kind": "bullet",
+      "text": "Email Signature | about.me Features Pricing Log In Home Features Pricing The email signature that helps your audience and clients learn more about you.",
+      "tokens": [
+        "email",
+        "signature",
+        "about",
+        "features",
+        "pricing",
+        "log",
+        "home",
+        "features",
+        "pricing",
+        "email",
+        "signature",
+        "helps",
+        "your",
+        "audience",
+        "clients",
+        "learn",
+        "more",
+        "about"
+      ]
+    },
+    {
+      "charEnd": 435,
+      "charStart": 276,
+      "factId": "hz.web.898ad470016bf419.fact.2",
+      "kind": "bullet",
+      "text": "Get your free email signature Add to Gmail automatically All it takes is one click to add your new email signature to any Gmail account, and keep it updated.",
+      "tokens": [
+        "get",
+        "your",
+        "free",
+        "email",
+        "signature",
+        "add",
+        "gmail",
+        "automatically",
+        "all",
+        "takes",
+        "one",
+        "click",
+        "add",
+        "your",
+        "new",
+        "email",
+        "signature",
+        "any",
+        "gmail",
+        "account",
+        "keep",
+        "updated"
+      ]
+    },
+    {
+      "charEnd": 521,
+      "charStart": 436,
+      "factId": "hz.web.898ad470016bf419.fact.3",
+      "kind": "bullet",
+      "text": "Include your photo Include your photo in your email signature to make it memorable.",
+      "tokens": [
+        "include",
+        "your",
+        "photo",
+        "include",
+        "your",
+        "photo",
+        "your",
+        "email",
+        "signature",
+        "make",
+        "memorable"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 522,
+      "factId": "hz.web.898ad470016bf419.fact.4",
+      "kind": "bullet",
+      "text": "Use it in your favorite app Easily paste your new email signature anywhere.",
+      "tokens": [
+        "use",
+        "your",
+        "favorite",
+        "app",
+        "easily",
+        "paste",
+        "your",
+        "new",
+        "email",
+        "signature",
+        "anywhere"
+      ]
+    },
+    {
+      "charEnd": 621,
+      "charStart": 614,
+      "factId": "hz.web.898ad470016bf419.fact.5",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 628,
+      "charStart": 622,
+      "factId": "hz.web.898ad470016bf419.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 640,
+      "charStart": 629,
+      "factId": "hz.web.898ad470016bf419.fact.7",
+      "kind": "bullet",
+      "text": "signature",
+      "tokens": [
+        "signature"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 641,
+      "factId": "hz.web.898ad470016bf419.fact.8",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 649,
+      "factId": "hz.web.898ad470016bf419.fact.9",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 661,
+      "charStart": 655,
+      "factId": "hz.web.898ad470016bf419.fact.10",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 668,
+      "charStart": 662,
+      "factId": "hz.web.898ad470016bf419.fact.11",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 675,
+      "charStart": 669,
+      "factId": "hz.web.898ad470016bf419.fact.12",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 29,
+      "charStart": 1,
+      "headingId": "hz.web.898ad470016bf419.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Email Signature | about.me"
+    },
+    {
+      "charEnd": 120,
+      "charStart": 110,
+      "headingId": "hz.web.898ad470016bf419.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 612,
+      "charStart": 601,
+      "headingId": "hz.web.898ad470016bf419.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 687,
+      "charStart": 677,
+      "headingId": "hz.web.898ad470016bf419.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/898ad470016bf419.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3032,
+        "start": 0
+      }
+    ],
+    "hash": "dcde1b939766985425150e50f4920d4e51ca8d2a3fc17fa9cc082cf8c7ed59ec",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Email Signature | about.me Features Pricing Log In Home Features Pricing The email signature that helps your audience and clients learn more about you.",
+      "Get your free email signature Add to Gmail automatically All it takes is one click to add your new email signature to any Gmail account, and keep it updated.",
+      "Include your photo Include your photo in your email signature to make it memorable."
+    ],
+    "medium": "Source: https://about.me/emailsignature",
+    "short": "Source: https://about.me/emailsignature",
+    "tokens": [
+      "email",
+      "signature",
+      "about",
+      "source",
+      "https",
+      "about",
+      "emailsignature",
+      "source",
+      "https",
+      "about",
+      "emailsignature"
+    ]
+  },
+  "title": "Email Signature | about.me"
+}

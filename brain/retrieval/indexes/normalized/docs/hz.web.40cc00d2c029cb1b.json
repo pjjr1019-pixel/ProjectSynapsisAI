@@ -1,0 +1,436 @@
+{
+  "aliases": [
+    {
+      "alias": "40cc00d2c029cb1b",
+      "aliasId": "hz.web.40cc00d2c029cb1b.alias.1",
+      "canonical": "localwp.com"
+    },
+    {
+      "alias": "localwp.com",
+      "aliasId": "hz.web.40cc00d2c029cb1b.alias.2",
+      "canonical": "localwp.com"
+    },
+    {
+      "alias": "web 40cc00d2c029cb1b",
+      "aliasId": "hz.web.40cc00d2c029cb1b.alias.3",
+      "canonical": "localwp.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.76,
+  "docId": "hz.web.40cc00d2c029cb1b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.40cc00d2c029cb1b.entity.1",
+      "kind": "document",
+      "name": "localwp.com",
+      "tokens": [
+        "localwp",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.40cc00d2c029cb1b.entity.2",
+      "kind": "heading",
+      "name": "localwp.com",
+      "tokens": [
+        "localwp",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.40cc00d2c029cb1b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.40cc00d2c029cb1b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.40cc00d2c029cb1b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 168,
+      "charStart": 16,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://localwp.com/wp-content/cache/min/1/wp-content/themes/flywheel-local-theme/fonts/museo_sans_rounded/museo_sans_rounded.css?ver=1762301185",
+      "tokens": [
+        "source",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "content",
+        "cache",
+        "min",
+        "wp",
+        "content",
+        "themes",
+        "flywheel",
+        "local",
+        "theme",
+        "fonts",
+        "museo_sans_rounded",
+        "museo_sans_rounded",
+        "css",
+        "ver",
+        "1762301185"
+      ]
+    },
+    {
+      "charEnd": 419,
+      "charStart": 220,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.1",
+      "kind": "bullet",
+      "text": "/** * @license * MyFonts Webfont Build ID 3215075, 2016-05-06T12:11:44-0400 * * The fonts listed in this notice are subject to the End User License * Agreement(s) entered into by the website owner.",
+      "tokens": [
+        "license",
+        "myfonts",
+        "webfont",
+        "build",
+        "id",
+        "3215075",
+        "2016",
+        "05",
+        "06t12",
+        "11",
+        "44",
+        "0400",
+        "fonts",
+        "listed",
+        "notice",
+        "subject",
+        "end",
+        "user",
+        "license",
+        "agreement",
+        "entered",
+        "into",
+        "website",
+        "owner"
+      ]
+    },
+    {
+      "charEnd": 504,
+      "charStart": 420,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.2",
+      "kind": "bullet",
+      "text": "All other parties are * explicitly restricted from using the Licensed Webfonts(s).",
+      "tokens": [
+        "all",
+        "other",
+        "parties",
+        "explicitly",
+        "restricted",
+        "using",
+        "licensed",
+        "webfonts"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 505,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.3",
+      "kind": "bullet",
+      "text": "* * You may obtain a valid license at the URLs below.",
+      "tokens": [
+        "may",
+        "obtain",
+        "valid",
+        "license",
+        "urls",
+        "below"
+      ]
+    },
+    {
+      "charEnd": 1185,
+      "charStart": 561,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.4",
+      "kind": "bullet",
+      "text": "* * Webfont: MuseoSansRounded-300 by exljbris * URL: http://www.myfonts.com/fonts/exljbris/museo-sans-rounded/300/ * * Webfont: MuseoSansRounded-500 by exljbris * URL: http://www.myfonts.com/fonts/exljbris/museo-sans-rounded/500/ * * Webfont: MuseoSansRounded-100 by exljbris * URL: http://www.myfonts.com/fonts/exljbris/museo-sans-rounded/100/ * * Webfont: MuseoSansRounded-700 by exljbris * URL: http://www.myfonts.com/fonts/exljbris/museo-sans-rounded/700/ * * * License: http://www.myfonts.com/viewlicense?type=web&buildid=3215075 * Licensed pageviews: 500,000 * Webfonts copyright: Copyright (c) 2011 by Jos Buivenga.",
+      "tokens": [
+        "webfont",
+        "museosansrounded",
+        "300",
+        "exljbris",
+        "url",
+        "http",
+        "www",
+        "myfonts",
+        "com",
+        "fonts",
+        "exljbris",
+        "museo",
+        "sans",
+        "rounded",
+        "300",
+        "webfont",
+        "museosansrounded",
+        "500",
+        "exljbris",
+        "url",
+        "http",
+        "www",
+        "myfonts",
+        "com",
+        "fonts",
+        "exljbris",
+        "museo",
+        "sans",
+        "rounded",
+        "500",
+        "webfont",
+        "museosansrounded",
+        "100",
+        "exljbris",
+        "url",
+        "http",
+        "www",
+        "myfonts",
+        "com",
+        "fonts",
+        "exljbris",
+        "museo",
+        "sans",
+        "rounded",
+        "100",
+        "webfont",
+        "museosansrounded",
+        "700",
+        "exljbris",
+        "url",
+        "http",
+        "www",
+        "myfonts",
+        "com",
+        "fonts",
+        "exljbris",
+        "museo",
+        "sans",
+        "rounded",
+        "700",
+        "license",
+        "http",
+        "www",
+        "myfonts",
+        "com",
+        "viewlicense",
+        "type",
+        "web",
+        "buildid",
+        "3215075",
+        "licensed",
+        "pageviews",
+        "500",
+        "000",
+        "webfonts",
+        "copyright",
+        "copyright",
+        "2011",
+        "jos",
+        "buivenga"
+      ]
+    },
+    {
+      "charEnd": 1207,
+      "charStart": 1200,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.5",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 1213,
+      "charStart": 1208,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.6",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    },
+    {
+      "charEnd": 1224,
+      "charStart": 1214,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.7",
+      "kind": "bullet",
+      "text": "flywheel",
+      "tokens": [
+        "flywheel"
+      ]
+    },
+    {
+      "charEnd": 1232,
+      "charStart": 1225,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.8",
+      "kind": "bullet",
+      "text": "local",
+      "tokens": [
+        "local"
+      ]
+    },
+    {
+      "charEnd": 1253,
+      "charStart": 1233,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.9",
+      "kind": "bullet",
+      "text": "museo_sans_rounded",
+      "tokens": [
+        "museo_sans_rounded"
+      ]
+    },
+    {
+      "charEnd": 1261,
+      "charStart": 1254,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.10",
+      "kind": "bullet",
+      "text": "theme",
+      "tokens": [
+        "theme"
+      ]
+    },
+    {
+      "charEnd": 1270,
+      "charStart": 1262,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.11",
+      "kind": "bullet",
+      "text": "themes",
+      "tokens": [
+        "themes"
+      ]
+    },
+    {
+      "charEnd": 1277,
+      "charStart": 1271,
+      "factId": "hz.web.40cc00d2c029cb1b.fact.12",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.40cc00d2c029cb1b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "localwp.com"
+    },
+    {
+      "charEnd": 218,
+      "charStart": 208,
+      "headingId": "hz.web.40cc00d2c029cb1b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1198,
+      "charStart": 1187,
+      "headingId": "hz.web.40cc00d2c029cb1b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1289,
+      "charStart": 1279,
+      "headingId": "hz.web.40cc00d2c029cb1b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/40cc00d2c029cb1b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4631,
+        "start": 0
+      }
+    ],
+    "hash": "08ce35b2d51a7541489faba9508e89754a84f6d48f4ec6a21188f50e70e78d90",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/** * @license * MyFonts Webfont Build ID 3215075, 2016-05-06T12:11:44-0400 * * The fonts listed in this notice are subject to the End User License * Agreement(s) entered into by the website owner.",
+      "All other parties are * explicitly restricted from using the Licensed Webfonts(s).",
+      "* * You may obtain a valid license at the URLs below."
+    ],
+    "medium": "Source: https://localwp.com/wp-content/cache/min/1/wp-content/themes/flywheel-local-theme/fonts/museo_sans_rounded/museo_sans_rounded.css?ver=1762301185",
+    "short": "Source: https://localwp.com/wp-content/cache/min/1/wp-content/themes/flywheel-local-theme/fonts/museo_sans_rounded/museo_sans_rounded.css?ver=1762301185",
+    "tokens": [
+      "localwp",
+      "com",
+      "source",
+      "https",
+      "localwp",
+      "com",
+      "wp",
+      "content",
+      "cache",
+      "min",
+      "wp",
+      "content",
+      "themes",
+      "flywheel",
+      "local",
+      "theme",
+      "fonts",
+      "museo_sans_rounded",
+      "museo_sans_rounded",
+      "css",
+      "ver",
+      "1762301185",
+      "source",
+      "https",
+      "localwp",
+      "com",
+      "wp",
+      "content",
+      "cache",
+      "min",
+      "wp",
+      "content",
+      "themes",
+      "flywheel",
+      "local",
+      "theme",
+      "fonts",
+      "museo_sans_rounded",
+      "museo_sans_rounded",
+      "css",
+      "ver",
+      "1762301185"
+    ]
+  },
+  "title": "localwp.com"
+}

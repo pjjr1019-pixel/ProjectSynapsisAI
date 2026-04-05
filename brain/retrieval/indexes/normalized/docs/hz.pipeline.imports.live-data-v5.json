@@ -1,0 +1,177 @@
+{
+  "aliases": [
+    {
+      "alias": "import pack live data and changing world v5",
+      "aliasId": "hz.pipeline.imports.live-data-v5.alias.1",
+      "canonical": "import pack — live data and changing world v5"
+    },
+    {
+      "alias": "imports live-data-v5",
+      "aliasId": "hz.pipeline.imports.live-data-v5.alias.2",
+      "canonical": "import pack — live data and changing world v5"
+    },
+    {
+      "alias": "live data v5",
+      "aliasId": "hz.pipeline.imports.live-data-v5.alias.3",
+      "canonical": "import pack — live data and changing world v5"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.live-data-v5",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.live-data-v5.entity.1",
+      "kind": "document",
+      "name": "Import pack — Live Data and Changing World v5",
+      "tokens": [
+        "import",
+        "pack",
+        "live",
+        "data",
+        "changing",
+        "world",
+        "v5"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.live-data-v5.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.live-data-v5.entity.3",
+      "kind": "tag",
+      "name": "live-data",
+      "tokens": [
+        "live",
+        "data"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.live-data-v5.entity.4",
+      "kind": "tag",
+      "name": "freshness",
+      "tokens": [
+        "freshness"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.live-data-v5.entity.5",
+      "kind": "tag",
+      "name": "temporal",
+      "tokens": [
+        "temporal"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.live-data-v5.entity.6",
+      "kind": "tag",
+      "name": "verification",
+      "tokens": [
+        "verification"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.live-data-v5.entity.7",
+      "kind": "heading",
+      "name": "Live data v5 (import anchor)",
+      "tokens": [
+        "live",
+        "data",
+        "v5",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 159,
+      "charStart": 36,
+      "factId": "hz.pipeline.imports.live-data-v5.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_brain_livedata_v5",
+        "horizonsai_brain_livedata_v5",
+        "readme_v5_livedata_and_changingworld",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.live-data-v5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Live data v5 (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/live-data-v5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 839,
+        "start": 0
+      }
+    ],
+    "hash": "26a5b1dab1e8856491d9fad4786a170d20ad12ddf4d31d48a48674eacdc7dd55",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Brain_LiveData_v5/`",
+      "relationId": "hz.pipeline.imports.live-data-v5.relation.1",
+      "sourceDocId": "hz.pipeline.imports.live-data-v5",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.live-data-v5.relation.2",
+      "sourceDocId": "hz.pipeline.imports.live-data-v5",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)",
+    "short": "**Source tree:** [`HorizonsAI_Brain_LiveData_v5/`](../HorizonsAI_Brain_LiveData_v5/README_v5_LiveData_and_ChangingWorld.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "live",
+      "data",
+      "changing",
+      "world",
+      "v5",
+      "source",
+      "tree",
+      "horizonsai_brain_livedata_v5",
+      "horizonsai_brain_livedata_v5",
+      "readme_v5_livedata_and_changingworld",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_brain_livedata_v5",
+      "horizonsai_brain_livedata_v5",
+      "readme_v5_livedata_and_changingworld",
+      "md"
+    ]
+  },
+  "title": "Import pack — Live Data and Changing World v5"
+}

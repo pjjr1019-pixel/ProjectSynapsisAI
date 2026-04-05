@@ -1,0 +1,551 @@
+{
+  "aliases": [
+    {
+      "alias": "7e830e860ebf3612",
+      "aliasId": "hz.web.7e830e860ebf3612.alias.1",
+      "canonical": "step security blog"
+    },
+    {
+      "alias": "step security blog",
+      "aliasId": "hz.web.7e830e860ebf3612.alias.2",
+      "canonical": "step security blog"
+    },
+    {
+      "alias": "web 7e830e860ebf3612",
+      "aliasId": "hz.web.7e830e860ebf3612.alias.3",
+      "canonical": "step security blog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.7e830e860ebf3612",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7e830e860ebf3612.entity.1",
+      "kind": "document",
+      "name": "Step Security Blog",
+      "tokens": [
+        "step",
+        "security",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e830e860ebf3612.entity.2",
+      "kind": "heading",
+      "name": "Step Security Blog",
+      "tokens": [
+        "step",
+        "security",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e830e860ebf3612.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e830e860ebf3612.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e830e860ebf3612.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 71,
+      "charStart": 23,
+      "factId": "hz.web.7e830e860ebf3612.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.stepsecurity.io/blog/rss.xml",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blog",
+        "rss",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 1146,
+      "charStart": 123,
+      "factId": "hz.web.7e830e860ebf3612.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><title>Step Security Blog</title><link>https://www.stepsecurity.io</link><description>The latest from StepSecurity — practical guidance, product updates, and threat insights to help secure your CI/CD pipelines and stay ahead of supply chain attacks </description><pubDate>Sat, 28 Mar 2026 10:03:43 GMT</pubDate><generator>Webflow</generator><atom:link href=\"https://www.stepsecurity.io/blog/rss.xml\" rel=\"self\" type=\"application/rss+xml\"/><item><title>axios Compromised on npm - Malicious Versions Drop Remote Access Trojan</title><link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link><guid>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</guid><description>Hijacked maintainer account used to publish poisoned axios releases including 1.14.1 and 0.30.4.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "media",
+        "http",
+        "search",
+        "yahoo",
+        "com",
+        "mrss",
+        "channel",
+        "title",
+        "step",
+        "security",
+        "blog",
+        "title",
+        "link",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "link",
+        "description",
+        "latest",
+        "stepsecurity",
+        "practical",
+        "guidance",
+        "product",
+        "updates",
+        "threat",
+        "insights",
+        "help",
+        "secure",
+        "your",
+        "ci",
+        "cd",
+        "pipelines",
+        "stay",
+        "ahead",
+        "supply",
+        "chain",
+        "attacks",
+        "description",
+        "pubdate",
+        "sat",
+        "28",
+        "mar",
+        "2026",
+        "10",
+        "03",
+        "43",
+        "gmt",
+        "pubdate",
+        "generator",
+        "webflow",
+        "generator",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blog",
+        "rss",
+        "xml",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "item",
+        "title",
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "title",
+        "link",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blog",
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "link",
+        "guid",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blog",
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "guid",
+        "description",
+        "hijacked",
+        "maintainer",
+        "account",
+        "used",
+        "publish",
+        "poisoned",
+        "axios",
+        "releases",
+        "including",
+        "14",
+        "30"
+      ]
+    },
+    {
+      "charEnd": 1223,
+      "charStart": 1147,
+      "factId": "hz.web.7e830e860ebf3612.fact.2",
+      "kind": "bullet",
+      "text": "The attacker injected a hidden dependency that drops a cross platform RAT.",
+      "tokens": [
+        "attacker",
+        "injected",
+        "hidden",
+        "dependency",
+        "drops",
+        "cross",
+        "platform",
+        "rat"
+      ]
+    },
+    {
+      "charEnd": 2100,
+      "charStart": 1224,
+      "factId": "hz.web.7e830e860ebf3612.fact.3",
+      "kind": "bullet",
+      "text": "We are actively investigating and will update this post with a full technical analysis.</description><pubDate>Tue, 31 Mar 2026 09:26:23 GMT</pubDate><media:content url=\"https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/69cb930b2cc878f01f6f3e63_image%20(90).png\" medium=\"image\"/><media:thumbnail url=\"https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/69cb930b2cc878f01f6f3e63_image%20(90).png\"/></item><item><title>10 Layers Deep: How StepSecurity Stops TeamPCP&#39;s Trivy Supply Chain Attack on GitHub Actions</title><link>https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions</link><guid>https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions</guid><description>TeamPCP weaponized 76 Trivy version tags overnight.",
+      "tokens": [
+        "actively",
+        "investigating",
+        "will",
+        "update",
+        "post",
+        "full",
+        "technical",
+        "analysis",
+        "description",
+        "pubdate",
+        "tue",
+        "31",
+        "mar",
+        "2026",
+        "09",
+        "26",
+        "23",
+        "gmt",
+        "pubdate",
+        "media",
+        "content",
+        "url",
+        "https",
+        "cdn",
+        "prod",
+        "website",
+        "files",
+        "com",
+        "673b71f0790aabf30bd30bf8",
+        "69cb930b2cc878f01f6f3e63_image",
+        "20",
+        "90",
+        "png",
+        "medium",
+        "image",
+        "media",
+        "thumbnail",
+        "url",
+        "https",
+        "cdn",
+        "prod",
+        "website",
+        "files",
+        "com",
+        "673b71f0790aabf30bd30bf8",
+        "69cb930b2cc878f01f6f3e63_image",
+        "20",
+        "90",
+        "png",
+        "item",
+        "item",
+        "title",
+        "10",
+        "layers",
+        "deep",
+        "stepsecurity",
+        "stops",
+        "teampcp",
+        "39",
+        "trivy",
+        "supply",
+        "chain",
+        "attack",
+        "github",
+        "actions",
+        "title",
+        "link",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blog",
+        "10",
+        "layers",
+        "deep",
+        "stepsecurity",
+        "stops",
+        "teampcps",
+        "trivy",
+        "supply",
+        "chain",
+        "attack",
+        "github",
+        "actions",
+        "link",
+        "guid",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blog",
+        "10",
+        "layers",
+        "deep",
+        "stepsecurity",
+        "stops",
+        "teampcps",
+        "trivy",
+        "supply",
+        "chain",
+        "attack",
+        "github",
+        "actions",
+        "guid",
+        "description",
+        "teampcp",
+        "weaponized",
+        "76",
+        "trivy",
+        "version",
+        "tags",
+        "overnight"
+      ]
+    },
+    {
+      "charEnd": 2157,
+      "charStart": 2101,
+      "factId": "hz.web.7e830e860ebf3612.fact.4",
+      "kind": "bullet",
+      "text": "The KICS attack followed the same playbook days later.",
+      "tokens": [
+        "kics",
+        "attack",
+        "followed",
+        "same",
+        "playbook",
+        "days",
+        "later"
+      ]
+    },
+    {
+      "charEnd": 2179,
+      "charStart": 2172,
+      "factId": "hz.web.7e830e860ebf3612.fact.5",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 2194,
+      "charStart": 2180,
+      "factId": "hz.web.7e830e860ebf3612.fact.6",
+      "kind": "bullet",
+      "text": "stepsecurity",
+      "tokens": [
+        "stepsecurity"
+      ]
+    },
+    {
+      "charEnd": 2201,
+      "charStart": 2195,
+      "factId": "hz.web.7e830e860ebf3612.fact.7",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 2209,
+      "charStart": 2202,
+      "factId": "hz.web.7e830e860ebf3612.fact.8",
+      "kind": "bullet",
+      "text": "title",
+      "tokens": [
+        "title"
+      ]
+    },
+    {
+      "charEnd": 2215,
+      "charStart": 2210,
+      "factId": "hz.web.7e830e860ebf3612.fact.9",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 2222,
+      "charStart": 2216,
+      "factId": "hz.web.7e830e860ebf3612.fact.10",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 2236,
+      "charStart": 2223,
+      "factId": "hz.web.7e830e860ebf3612.fact.11",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 2241,
+      "charStart": 2237,
+      "factId": "hz.web.7e830e860ebf3612.fact.12",
+      "kind": "bullet",
+      "text": "io",
+      "tokens": [
+        "io"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.7e830e860ebf3612.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Step Security Blog"
+    },
+    {
+      "charEnd": 121,
+      "charStart": 111,
+      "headingId": "hz.web.7e830e860ebf3612.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2170,
+      "charStart": 2159,
+      "headingId": "hz.web.7e830e860ebf3612.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2253,
+      "charStart": 2243,
+      "headingId": "hz.web.7e830e860ebf3612.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7e830e860ebf3612.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5498,
+        "start": 0
+      }
+    ],
+    "hash": "41c690eadd8f6254008862bd9b402ab0691208c0e500474a751a5cb8cda68c6f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><title>Step Security Blog</title><link>https://www.stepsecurity.io</link><description>The latest from StepSecurity — practical guidance, product updates, and threat insights to help secure your CI/CD pipelines and stay ahead of supply chain attacks </description><pubDate>Sat, 28 Mar 2026 10:03:43 GMT</pubDate><generator>Webflow</generator><atom:link href=\"https://www.stepsecurity.io/blog/rss.xml\" rel=\"self\" type=\"application/rss+xml\"/><item><title>axios Compromised on npm - Malicious Versions Drop Remote Access Trojan</title><link>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</link><guid>https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan</guid><description>Hijacked maintainer account used to publish poisoned axios releases including 1.14.1 and 0.30.4.",
+      "The attacker injected a hidden dependency that drops a cross platform RAT.",
+      "We are actively investigating and will update this post with a full technical analysis.</description><pubDate>Tue, 31 Mar 2026 09:26:23 GMT</pubDate><media:content url=\"https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/69cb930b2cc878f01f6f3e63_image%20(90).png\" medium=\"image\"/><media:thumbnail url=\"https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/69cb930b2cc878f01f6f3e63_image%20(90).png\"/></item><item><title>10 Layers Deep: How StepSecurity Stops TeamPCP&#39;s Trivy Supply Chain Attack on GitHub Actions</title><link>https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions</link><guid>https://www.stepsecurity.io/blog/10-layers-deep-how-stepsecurity-stops-teampcps-trivy-supply-chain-attack-on-github-actions</guid><description>TeamPCP weaponized 76 Trivy version tags overnight."
+    ],
+    "medium": "Source: https://www.stepsecurity.io/blog/rss.xml",
+    "short": "Source: https://www.stepsecurity.io/blog/rss.xml",
+    "tokens": [
+      "step",
+      "security",
+      "blog",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "blog",
+      "rss",
+      "xml",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "blog",
+      "rss",
+      "xml"
+    ]
+  },
+  "title": "Step Security Blog"
+}

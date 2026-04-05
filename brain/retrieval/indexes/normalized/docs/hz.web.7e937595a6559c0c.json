@@ -1,0 +1,453 @@
+{
+  "aliases": [
+    {
+      "alias": "7e937595a6559c0c",
+      "aliasId": "hz.web.7e937595a6559c0c.alias.1",
+      "canonical": "app.stepsecurity.io"
+    },
+    {
+      "alias": "app.stepsecurity.io",
+      "aliasId": "hz.web.7e937595a6559c0c.alias.2",
+      "canonical": "app.stepsecurity.io"
+    },
+    {
+      "alias": "web 7e937595a6559c0c",
+      "aliasId": "hz.web.7e937595a6559c0c.alias.3",
+      "canonical": "app.stepsecurity.io"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.7e937595a6559c0c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7e937595a6559c0c.entity.1",
+      "kind": "document",
+      "name": "app.stepsecurity.io",
+      "tokens": [
+        "app",
+        "stepsecurity",
+        "io"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e937595a6559c0c.entity.2",
+      "kind": "heading",
+      "name": "app.stepsecurity.io",
+      "tokens": [
+        "app",
+        "stepsecurity",
+        "io"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e937595a6559c0c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e937595a6559c0c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7e937595a6559c0c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 95,
+      "charStart": 24,
+      "factId": "hz.web.7e937595a6559c0c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://app.stepsecurity.io/assets/brand/step-security-icon.svg",
+      "tokens": [
+        "source",
+        "https",
+        "app",
+        "stepsecurity",
+        "io",
+        "assets",
+        "brand",
+        "step",
+        "security",
+        "icon",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 147,
+      "factId": "hz.web.7e937595a6559c0c.fact.1",
+      "kind": "bullet",
+      "text": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"442\" height=\"460\" fill=\"none\"><g fill=\"#7037F5\" clip-path=\"url(#a)\"><path d=\"M12.199 207.758h169.657c22.476 0 43.567-10.405 57.649-27.923 28.434-35.37 96.371-86.08 185.143-48.01 8.089 3.47 17.098-2.366 17.098-11.168l.001-66.861c0-10.211-6.355-19.327-15.927-22.882C396.8 20.135 328.222 0 220.874 0 113.525 0 44.947 20.135 15.927 30.914 6.355 34.469 0 43.584 0 53.794v141.764c0 6.737 5.461 12.2 12.199 12.2m186.324 37.741c15.199-18.799 39.317-25.276 63.495-25.227l161.007.316c7.054.014 12.595 5.992 12.153 13.032-8.786 140.079-158.041 206.888-203.303 223.99-8.348 3.154-17.545 3.127-25.892-.03-34.053-12.875-126.584-53.746-174.305-132.568-5.464-9.025 2.272-20.289 12.64-18.329 39.785 7.519 101.173 4.387 154.205-61.184\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h441.747v459.961H0z\"/></clipPath></defs></svg>",
+      "tokens": [
+        "svg",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2000",
+        "svg",
+        "width",
+        "442",
+        "height",
+        "460",
+        "fill",
+        "none",
+        "fill",
+        "7037f5",
+        "clip",
+        "path",
+        "url",
+        "path",
+        "m12",
+        "199",
+        "207",
+        "758h169",
+        "657c22",
+        "476",
+        "43",
+        "567",
+        "10",
+        "405",
+        "57",
+        "649",
+        "27",
+        "923",
+        "28",
+        "434",
+        "35",
+        "37",
+        "96",
+        "371",
+        "86",
+        "08",
+        "185",
+        "143",
+        "48",
+        "01",
+        "089",
+        "47",
+        "17",
+        "098",
+        "366",
+        "17",
+        "098",
+        "11",
+        "168l",
+        "001",
+        "66",
+        "861c0",
+        "10",
+        "211",
+        "355",
+        "19",
+        "327",
+        "15",
+        "927",
+        "22",
+        "882c396",
+        "20",
+        "135",
+        "328",
+        "222",
+        "220",
+        "874",
+        "113",
+        "525",
+        "44",
+        "947",
+        "20",
+        "135",
+        "15",
+        "927",
+        "30",
+        "914",
+        "355",
+        "34",
+        "469",
+        "43",
+        "584",
+        "53",
+        "794v141",
+        "764c0",
+        "737",
+        "461",
+        "12",
+        "12",
+        "199",
+        "12",
+        "2m186",
+        "324",
+        "37",
+        "741c15",
+        "199",
+        "18",
+        "799",
+        "39",
+        "317",
+        "25",
+        "276",
+        "63",
+        "495",
+        "25",
+        "227l161",
+        "007",
+        "316c7",
+        "054",
+        "014",
+        "12",
+        "595",
+        "992",
+        "12",
+        "153",
+        "13",
+        "032",
+        "786",
+        "140",
+        "079",
+        "158",
+        "041",
+        "206",
+        "888",
+        "203",
+        "303",
+        "223",
+        "99",
+        "348",
+        "154",
+        "17",
+        "545",
+        "127",
+        "25",
+        "892",
+        "03",
+        "34",
+        "053",
+        "12",
+        "875",
+        "126",
+        "584",
+        "53",
+        "746",
+        "174",
+        "305",
+        "132",
+        "568",
+        "464",
+        "025",
+        "272",
+        "20",
+        "289",
+        "12",
+        "64",
+        "18",
+        "329",
+        "39",
+        "785",
+        "519",
+        "101",
+        "173",
+        "387",
+        "154",
+        "205",
+        "61",
+        "184",
+        "defs",
+        "clippath",
+        "id",
+        "path",
+        "fill",
+        "fff",
+        "m0",
+        "0h441",
+        "747v459",
+        "961h0z",
+        "clippath",
+        "defs",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 1032,
+      "charStart": 1028,
+      "factId": "hz.web.7e937595a6559c0c.fact.2",
+      "kind": "bullet",
+      "text": "12",
+      "tokens": [
+        "12"
+      ]
+    },
+    {
+      "charEnd": 1037,
+      "charStart": 1033,
+      "factId": "hz.web.7e937595a6559c0c.fact.3",
+      "kind": "bullet",
+      "text": "17",
+      "tokens": [
+        "17"
+      ]
+    },
+    {
+      "charEnd": 1043,
+      "charStart": 1038,
+      "factId": "hz.web.7e937595a6559c0c.fact.4",
+      "kind": "bullet",
+      "text": "199",
+      "tokens": [
+        "199"
+      ]
+    },
+    {
+      "charEnd": 1048,
+      "charStart": 1044,
+      "factId": "hz.web.7e937595a6559c0c.fact.5",
+      "kind": "bullet",
+      "text": "20",
+      "tokens": [
+        "20"
+      ]
+    },
+    {
+      "charEnd": 1053,
+      "charStart": 1049,
+      "factId": "hz.web.7e937595a6559c0c.fact.6",
+      "kind": "bullet",
+      "text": "25",
+      "tokens": [
+        "25"
+      ]
+    },
+    {
+      "charEnd": 1060,
+      "charStart": 1054,
+      "factId": "hz.web.7e937595a6559c0c.fact.7",
+      "kind": "bullet",
+      "text": "fill",
+      "tokens": [
+        "fill"
+      ]
+    },
+    {
+      "charEnd": 1067,
+      "charStart": 1061,
+      "factId": "hz.web.7e937595a6559c0c.fact.8",
+      "kind": "bullet",
+      "text": "path",
+      "tokens": [
+        "path"
+      ]
+    },
+    {
+      "charEnd": 1073,
+      "charStart": 1068,
+      "factId": "hz.web.7e937595a6559c0c.fact.9",
+      "kind": "bullet",
+      "text": "svg",
+      "tokens": [
+        "svg"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.7e937595a6559c0c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "app.stepsecurity.io"
+    },
+    {
+      "charEnd": 145,
+      "charStart": 135,
+      "headingId": "hz.web.7e937595a6559c0c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1026,
+      "charStart": 1015,
+      "headingId": "hz.web.7e937595a6559c0c.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1085,
+      "charStart": 1075,
+      "headingId": "hz.web.7e937595a6559c0c.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7e937595a6559c0c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2218,
+        "start": 0
+      }
+    ],
+    "hash": "02b5bcb9407ea8d2b935c8116e2ae9dfd700a752c99a5880a530cf305d75e000",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"442\" height=\"460\" fill=\"none\"><g fill=\"#7037F5\" clip-path=\"url(#a)\"><path d=\"M12.199 207.758h169.657c22.476 0 43.567-10.405 57.649-27.923 28.434-35.37 96.371-86.08 185.143-48.01 8.089 3.47 17.098-2.366 17.098-11.168l.001-66.861c0-10.211-6.355-19.327-15.927-22.882C396.8 20.135 328.222 0 220.874 0 113.525 0 44.947 20.135 15.927 30.914 6.355 34.469 0 43.584 0 53.794v141.764c0 6.737 5.461 12.2 12.199 12.2m186.324 37.741c15.199-18.799 39.317-25.276 63.495-25.227l161.007.316c7.054.014 12.595 5.992 12.153 13.032-8.786 140.079-158.041 206.888-203.303 223.99-8.348 3.154-17.545 3.127-25.892-.03-34.053-12.875-126.584-53.746-174.305-132.568-5.464-9.025 2.272-20.289 12.64-18.329 39.785 7.519 101.173 4.387 154.205-61.184\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h441.747v459.961H0z\"/></clipPath></defs></svg>",
+      "12",
+      "17"
+    ],
+    "medium": "Source: https://app.stepsecurity.io/assets/brand/step-security-icon.svg",
+    "short": "Source: https://app.stepsecurity.io/assets/brand/step-security-icon.svg",
+    "tokens": [
+      "app",
+      "stepsecurity",
+      "io",
+      "source",
+      "https",
+      "app",
+      "stepsecurity",
+      "io",
+      "assets",
+      "brand",
+      "step",
+      "security",
+      "icon",
+      "svg",
+      "source",
+      "https",
+      "app",
+      "stepsecurity",
+      "io",
+      "assets",
+      "brand",
+      "step",
+      "security",
+      "icon",
+      "svg"
+    ]
+  },
+  "title": "app.stepsecurity.io"
+}

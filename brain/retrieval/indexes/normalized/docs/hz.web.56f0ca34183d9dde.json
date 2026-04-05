@@ -1,0 +1,374 @@
+{
+  "aliases": [
+    {
+      "alias": "56f0ca34183d9dde",
+      "aliasId": "hz.web.56f0ca34183d9dde.alias.1",
+      "canonical": "eat real food"
+    },
+    {
+      "alias": "eat real food",
+      "aliasId": "hz.web.56f0ca34183d9dde.alias.2",
+      "canonical": "eat real food"
+    },
+    {
+      "alias": "web 56f0ca34183d9dde",
+      "aliasId": "hz.web.56f0ca34183d9dde.alias.3",
+      "canonical": "eat real food"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.56f0ca34183d9dde",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.56f0ca34183d9dde.entity.1",
+      "kind": "document",
+      "name": "Eat Real Food",
+      "tokens": [
+        "eat",
+        "real",
+        "food"
+      ]
+    },
+    {
+      "entityId": "hz.web.56f0ca34183d9dde.entity.2",
+      "kind": "heading",
+      "name": "Eat Real Food",
+      "tokens": [
+        "eat",
+        "real",
+        "food"
+      ]
+    },
+    {
+      "entityId": "hz.web.56f0ca34183d9dde.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.56f0ca34183d9dde.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.56f0ca34183d9dde.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 47,
+      "charStart": 18,
+      "factId": "hz.web.56f0ca34183d9dde.fact.1",
+      "kind": "summary",
+      "text": "Source: https://realfood.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "realfood",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 324,
+      "charStart": 99,
+      "factId": "hz.web.56f0ca34183d9dde.fact.1",
+      "kind": "bullet",
+      "text": "Eat Real Food An official website of the United States government Real Food State Of Our Health The Solution New Pyramid Resources Real Answers Winning FAQs Real Food Real Food Wins America is the greatest country on Earth.",
+      "tokens": [
+        "eat",
+        "real",
+        "food",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "real",
+        "food",
+        "state",
+        "our",
+        "health",
+        "solution",
+        "new",
+        "pyramid",
+        "resources",
+        "real",
+        "answers",
+        "winning",
+        "faqs",
+        "real",
+        "food",
+        "real",
+        "food",
+        "wins",
+        "america",
+        "greatest",
+        "country",
+        "earth"
+      ]
+    },
+    {
+      "charEnd": 343,
+      "charStart": 325,
+      "factId": "hz.web.56f0ca34183d9dde.fact.2",
+      "kind": "bullet",
+      "text": "And the sickest.",
+      "tokens": [
+        "sickest"
+      ]
+    },
+    {
+      "charEnd": 455,
+      "charStart": 344,
+      "factId": "hz.web.56f0ca34183d9dde.fact.3",
+      "kind": "bullet",
+      "text": "Highly processed food has hollowed out our health, driving obesity, diabetes, heart disease, and early death.",
+      "tokens": [
+        "highly",
+        "processed",
+        "food",
+        "has",
+        "hollowed",
+        "out",
+        "our",
+        "health",
+        "driving",
+        "obesity",
+        "diabetes",
+        "heart",
+        "disease",
+        "early",
+        "death"
+      ]
+    },
+    {
+      "charEnd": 505,
+      "charStart": 456,
+      "factId": "hz.web.56f0ca34183d9dde.fact.4",
+      "kind": "bullet",
+      "text": "The truth is simple: real food restores health.",
+      "tokens": [
+        "truth",
+        "simple",
+        "real",
+        "food",
+        "restores",
+        "health"
+      ]
+    },
+    {
+      "charEnd": 526,
+      "charStart": 520,
+      "factId": "hz.web.56f0ca34183d9dde.fact.5",
+      "kind": "bullet",
+      "text": "food",
+      "tokens": [
+        "food"
+      ]
+    },
+    {
+      "charEnd": 533,
+      "charStart": 527,
+      "factId": "hz.web.56f0ca34183d9dde.fact.6",
+      "kind": "bullet",
+      "text": "real",
+      "tokens": [
+        "real"
+      ]
+    },
+    {
+      "charEnd": 539,
+      "charStart": 534,
+      "factId": "hz.web.56f0ca34183d9dde.fact.7",
+      "kind": "bullet",
+      "text": "x27",
+      "tokens": [
+        "x27"
+      ]
+    },
+    {
+      "charEnd": 547,
+      "charStart": 540,
+      "factId": "hz.web.56f0ca34183d9dde.fact.8",
+      "kind": "bullet",
+      "text": "foods",
+      "tokens": [
+        "foods"
+      ]
+    },
+    {
+      "charEnd": 556,
+      "charStart": 548,
+      "factId": "hz.web.56f0ca34183d9dde.fact.9",
+      "kind": "bullet",
+      "text": "health",
+      "tokens": [
+        "health"
+      ]
+    },
+    {
+      "charEnd": 562,
+      "charStart": 557,
+      "factId": "hz.web.56f0ca34183d9dde.fact.10",
+      "kind": "bullet",
+      "text": "eat",
+      "tokens": [
+        "eat"
+      ]
+    },
+    {
+      "charEnd": 574,
+      "charStart": 563,
+      "factId": "hz.web.56f0ca34183d9dde.fact.11",
+      "kind": "bullet",
+      "text": "processed",
+      "tokens": [
+        "processed"
+      ]
+    },
+    {
+      "charEnd": 582,
+      "charStart": 575,
+      "factId": "hz.web.56f0ca34183d9dde.fact.12",
+      "kind": "bullet",
+      "text": "whole",
+      "tokens": [
+        "whole"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.56f0ca34183d9dde.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Eat Real Food"
+    },
+    {
+      "charEnd": 97,
+      "charStart": 87,
+      "headingId": "hz.web.56f0ca34183d9dde.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 518,
+      "charStart": 507,
+      "headingId": "hz.web.56f0ca34183d9dde.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 594,
+      "charStart": 584,
+      "headingId": "hz.web.56f0ca34183d9dde.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/56f0ca34183d9dde.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3815,
+        "start": 0
+      }
+    ],
+    "hash": "642cc01641576f4c3419984ead1dc02c916ab930b1d7a7c7977f79ec39f0c6aa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.56f0ca34183d9dde.rule.1",
+      "text": "guidance calls on Americans to avoid highly processed food.",
+      "tokens": [
+        "guidance",
+        "calls",
+        "americans",
+        "avoid",
+        "highly",
+        "processed",
+        "food"
+      ]
+    },
+    {
+      "ruleId": "hz.web.56f0ca34183d9dde.rule.2",
+      "text": "Every meal must prioritize high-quality, nutrient-dense protein from both animal and plant sources, paired with healthy fats from whole foods such as eggs, seafood, meats, full-fat dairy, nuts, seeds, olives, and avocados.",
+      "tokens": [
+        "every",
+        "meal",
+        "must",
+        "prioritize",
+        "high",
+        "quality",
+        "nutrient",
+        "dense",
+        "protein",
+        "both",
+        "animal",
+        "plant",
+        "sources",
+        "paired",
+        "healthy",
+        "fats",
+        "whole",
+        "foods",
+        "such",
+        "eggs",
+        "seafood",
+        "meats",
+        "full",
+        "fat",
+        "dairy",
+        "nuts",
+        "seeds",
+        "olives",
+        "avocados"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Eat Real Food An official website of the United States government Real Food State Of Our Health The Solution New Pyramid Resources Real Answers Winning FAQs Real Food Real Food Wins America is the greatest country on Earth.",
+      "And the sickest.",
+      "Highly processed food has hollowed out our health, driving obesity, diabetes, heart disease, and early death."
+    ],
+    "medium": "Source: https://realfood.gov/",
+    "short": "Source: https://realfood.gov/",
+    "tokens": [
+      "eat",
+      "real",
+      "food",
+      "source",
+      "https",
+      "realfood",
+      "gov",
+      "source",
+      "https",
+      "realfood",
+      "gov"
+    ]
+  },
+  "title": "Eat Real Food"
+}

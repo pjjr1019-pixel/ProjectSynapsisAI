@@ -1,0 +1,317 @@
+{
+  "aliases": [
+    {
+      "alias": "612e30245edff3ae",
+      "aliasId": "hz.web.612e30245edff3ae.alias.1",
+      "canonical": "psyche.nu"
+    },
+    {
+      "alias": "psyche.nu",
+      "aliasId": "hz.web.612e30245edff3ae.alias.2",
+      "canonical": "psyche.nu"
+    },
+    {
+      "alias": "web 612e30245edff3ae",
+      "aliasId": "hz.web.612e30245edff3ae.alias.3",
+      "canonical": "psyche.nu"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.612e30245edff3ae",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.612e30245edff3ae.entity.1",
+      "kind": "document",
+      "name": "psyche.nu",
+      "tokens": [
+        "psyche",
+        "nu"
+      ]
+    },
+    {
+      "entityId": "hz.web.612e30245edff3ae.entity.2",
+      "kind": "heading",
+      "name": "psyche.nu",
+      "tokens": [
+        "psyche",
+        "nu"
+      ]
+    },
+    {
+      "entityId": "hz.web.612e30245edff3ae.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.612e30245edff3ae.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.612e30245edff3ae.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 14,
+      "factId": "hz.web.612e30245edff3ae.fact.1",
+      "kind": "summary",
+      "text": "Source: http://psyche.nu/domains/style.css",
+      "tokens": [
+        "source",
+        "http",
+        "psyche",
+        "nu",
+        "domains",
+        "style",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 770,
+      "charStart": 108,
+      "factId": "hz.web.612e30245edff3ae.fact.1",
+      "kind": "bullet",
+      "text": "a { text-decoration: none; font-weight: bold; color: #74886F; } a:hover { text-decoration: underline overline; } td { font-family: verdana,arial,helvetica; font-size: 12px; text-align: justify; } textarea, input { font-family: verdana,arial,helvetica; font-size 11px; color: #FFFFFF; border-color: #8ABC74; background: #3A5230; } .show_join_url_field, .show_update_url_field { width: 400px; } .show_join_name_field, .show_update_name_field { width: 200px; } .show_join_email_field, .show_update_email_field, .show_update_old_email_field { width: 300px; } .enth3_domains { width: 400px; height: 80px; } .show_update_domains_field { width: 400px; height: 80px; }",
+      "tokens": [
+        "text",
+        "decoration",
+        "none",
+        "font",
+        "weight",
+        "bold",
+        "color",
+        "74886f",
+        "hover",
+        "text",
+        "decoration",
+        "underline",
+        "overline",
+        "td",
+        "font",
+        "family",
+        "verdana",
+        "arial",
+        "helvetica",
+        "font",
+        "size",
+        "12px",
+        "text",
+        "align",
+        "justify",
+        "textarea",
+        "input",
+        "font",
+        "family",
+        "verdana",
+        "arial",
+        "helvetica",
+        "font",
+        "size",
+        "11px",
+        "color",
+        "ffffff",
+        "border",
+        "color",
+        "8abc74",
+        "background",
+        "3a5230",
+        "show_join_url_field",
+        "show_update_url_field",
+        "width",
+        "400px",
+        "show_join_name_field",
+        "show_update_name_field",
+        "width",
+        "200px",
+        "show_join_email_field",
+        "show_update_email_field",
+        "show_update_old_email_field",
+        "width",
+        "300px",
+        "enth3_domains",
+        "width",
+        "400px",
+        "height",
+        "80px",
+        "show_update_domains_field",
+        "width",
+        "400px",
+        "height",
+        "80px"
+      ]
+    },
+    {
+      "charEnd": 791,
+      "charStart": 785,
+      "factId": "hz.web.612e30245edff3ae.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 799,
+      "charStart": 792,
+      "factId": "hz.web.612e30245edff3ae.fact.3",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    },
+    {
+      "charEnd": 807,
+      "charStart": 800,
+      "factId": "hz.web.612e30245edff3ae.fact.4",
+      "kind": "bullet",
+      "text": "400px",
+      "tokens": [
+        "400px"
+      ]
+    },
+    {
+      "charEnd": 815,
+      "charStart": 808,
+      "factId": "hz.web.612e30245edff3ae.fact.5",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 822,
+      "charStart": 816,
+      "factId": "hz.web.612e30245edff3ae.fact.6",
+      "kind": "bullet",
+      "text": "text",
+      "tokens": [
+        "text"
+      ]
+    },
+    {
+      "charEnd": 829,
+      "charStart": 823,
+      "factId": "hz.web.612e30245edff3ae.fact.7",
+      "kind": "bullet",
+      "text": "80px",
+      "tokens": [
+        "80px"
+      ]
+    },
+    {
+      "charEnd": 837,
+      "charStart": 830,
+      "factId": "hz.web.612e30245edff3ae.fact.8",
+      "kind": "bullet",
+      "text": "arial",
+      "tokens": [
+        "arial"
+      ]
+    },
+    {
+      "charEnd": 850,
+      "charStart": 838,
+      "factId": "hz.web.612e30245edff3ae.fact.9",
+      "kind": "bullet",
+      "text": "decoration",
+      "tokens": [
+        "decoration"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.612e30245edff3ae.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "psyche.nu"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.612e30245edff3ae.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 783,
+      "charStart": 772,
+      "headingId": "hz.web.612e30245edff3ae.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 862,
+      "charStart": 852,
+      "headingId": "hz.web.612e30245edff3ae.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/612e30245edff3ae.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1752,
+        "start": 0
+      }
+    ],
+    "hash": "11cdc12299559aeb1a3e89e105046f9dcd50b3471eff4a3c90ffaf1ba5a216bc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "a { text-decoration: none; font-weight: bold; color: #74886F; } a:hover { text-decoration: underline overline; } td { font-family: verdana,arial,helvetica; font-size: 12px; text-align: justify; } textarea, input { font-family: verdana,arial,helvetica; font-size 11px; color: #FFFFFF; border-color: #8ABC74; background: #3A5230; } .show_join_url_field, .show_update_url_field { width: 400px; } .show_join_name_field, .show_update_name_field { width: 200px; } .show_join_email_field, .show_update_email_field, .show_update_old_email_field { width: 300px; } .enth3_domains { width: 400px; height: 80px; } .show_update_domains_field { width: 400px; height: 80px; }",
+      "font",
+      "width"
+    ],
+    "medium": "Source: http://psyche.nu/domains/style.css",
+    "short": "Source: http://psyche.nu/domains/style.css",
+    "tokens": [
+      "psyche",
+      "nu",
+      "source",
+      "http",
+      "psyche",
+      "nu",
+      "domains",
+      "style",
+      "css",
+      "source",
+      "http",
+      "psyche",
+      "nu",
+      "domains",
+      "style",
+      "css"
+    ]
+  },
+  "title": "psyche.nu"
+}

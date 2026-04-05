@@ -1,0 +1,293 @@
+{
+  "aliases": [
+    {
+      "alias": "96b7fca1eeb1e950",
+      "aliasId": "hz.web.96b7fca1eeb1e950.alias.1",
+      "canonical": "www.cdc.gov"
+    },
+    {
+      "alias": "web 96b7fca1eeb1e950",
+      "aliasId": "hz.web.96b7fca1eeb1e950.alias.2",
+      "canonical": "www.cdc.gov"
+    },
+    {
+      "alias": "www.cdc.gov",
+      "aliasId": "hz.web.96b7fca1eeb1e950.alias.3",
+      "canonical": "www.cdc.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.96b7fca1eeb1e950",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.96b7fca1eeb1e950.entity.1",
+      "kind": "document",
+      "name": "www.cdc.gov",
+      "tokens": [
+        "www",
+        "cdc",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.96b7fca1eeb1e950.entity.2",
+      "kind": "heading",
+      "name": "www.cdc.gov",
+      "tokens": [
+        "www",
+        "cdc",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.96b7fca1eeb1e950.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.96b7fca1eeb1e950.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.96b7fca1eeb1e950.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 93,
+      "charStart": 16,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cdc.gov/TemplatePackage/5.0/img/favicon/favicon-32x32.png",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cdc",
+        "gov",
+        "templatepackage",
+        "img",
+        "favicon",
+        "favicon",
+        "32x32",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 145,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.1",
+      "kind": "bullet",
+      "text": "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0003\u0000\u0000\u0000D���\u0000\u0000\u0000\u0004gAMA\u0000\u0000�� �a\u0005\u0000\u0000\u0000\u0001sRGB\u0000��\u001c�\u0000\u0000\u0000ZPLTELiq���������\u0000N�h�Ի��\u0000W�\u0000W�\u0000W�'qÁ����� ^�\u001bi�\u0001X������:}����������\u0000U�\u0000W����N��\u0000X�\u0000a�\u0000W�����r�}\u0000\u0000\u0000\u001ctRNS\u0000��� ����+������Ŀ���� ��Ѓ\u0007���x\u0000\u0000\u0000 pHYs\u0000\u0000\u0000�\u0000\u0000\u0000�\u00019 �\u0000\u0000\u0000�IDAT8���\u000e� \u0014E\u0019�V�\u0016Z�����M�\u000e� �� \u0013�\u0002�p�\u0003\u0002c?�nj��l\u0019��\u0019Eh_\b\u001bzKPNʽ���:뉢�9,B\u000f�\u0006�4�\u0000FO�fin��HD�4\u0014\u0019\u0007�P\u0016cXJX�P\u0015(a����p��\u0005�a�ׂ�~\u0011\u000ep���M�\u0012ܛ�kX�\u0006� �-9.�8H\u0014��-r$%����!�Q�y�f��K~O��\u0017�T>T���9s\u0002��2o�6{�\u0000\u0000\u0000WzTXtRaw profile type iptc\u0000\u0000x��� \bqV((�O��I�R\u0000\u0003# .c \u0013#\u0013K�\u0014\u0003\u0013 D�4�d\u0003#�T �������\u001c�\u0007ˀH�J.\u0000�\u0017\u0011t�B5�\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "png",
+        "ihdr",
+        "gama",
+        "srgb",
+        "zplteliq",
+        "trns",
+        "phys",
+        "idat8",
+        "nj",
+        "eh_",
+        "zkpn",
+        "fo",
+        "fin",
+        "hd",
+        "cxjx",
+        "kx",
+        "8h",
+        "9s",
+        "2o",
+        "wztxtraw",
+        "profile",
+        "type",
+        "iptc",
+        "qv",
+        "b5",
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 685,
+      "charStart": 681,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.2",
+      "kind": "bullet",
+      "text": "2o",
+      "tokens": [
+        "2o"
+      ]
+    },
+    {
+      "charEnd": 690,
+      "charStart": 686,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.3",
+      "kind": "bullet",
+      "text": "8h",
+      "tokens": [
+        "8h"
+      ]
+    },
+    {
+      "charEnd": 695,
+      "charStart": 691,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.4",
+      "kind": "bullet",
+      "text": "9s",
+      "tokens": [
+        "9s"
+      ]
+    },
+    {
+      "charEnd": 700,
+      "charStart": 696,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.5",
+      "kind": "bullet",
+      "text": "b5",
+      "tokens": [
+        "b5"
+      ]
+    },
+    {
+      "charEnd": 707,
+      "charStart": 701,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.6",
+      "kind": "bullet",
+      "text": "cxjx",
+      "tokens": [
+        "cxjx"
+      ]
+    },
+    {
+      "charEnd": 713,
+      "charStart": 708,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.7",
+      "kind": "bullet",
+      "text": "eh_",
+      "tokens": [
+        "eh_"
+      ]
+    },
+    {
+      "charEnd": 719,
+      "charStart": 714,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.8",
+      "kind": "bullet",
+      "text": "fin",
+      "tokens": [
+        "fin"
+      ]
+    },
+    {
+      "charEnd": 724,
+      "charStart": 720,
+      "factId": "hz.web.96b7fca1eeb1e950.fact.9",
+      "kind": "bullet",
+      "text": "fo",
+      "tokens": [
+        "fo"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.96b7fca1eeb1e950.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.cdc.gov"
+    },
+    {
+      "charEnd": 143,
+      "charStart": 133,
+      "headingId": "hz.web.96b7fca1eeb1e950.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 679,
+      "charStart": 668,
+      "headingId": "hz.web.96b7fca1eeb1e950.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 736,
+      "charStart": 726,
+      "headingId": "hz.web.96b7fca1eeb1e950.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/96b7fca1eeb1e950.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1522,
+        "start": 0
+      }
+    ],
+    "hash": "fb969acdda14d1c6d58b4439b0cb919cc794f94c4aab6069b532279acbcb14b3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0003\u0000\u0000\u0000D���\u0000\u0000\u0000\u0004gAMA\u0000\u0000�� �a\u0005\u0000\u0000\u0000\u0001sRGB\u0000��\u001c�\u0000\u0000\u0000ZPLTELiq���������\u0000N�h�Ի��\u0000W�\u0000W�\u0000W�'qÁ����� ^�\u001bi�\u0001X������:}����������\u0000U�\u0000W����N��\u0000X�\u0000a�\u0000W�����r�}\u0000\u0000\u0000\u001ctRNS\u0000��� ����+������Ŀ���� ��Ѓ\u0007���x\u0000\u0000\u0000 pHYs\u0000\u0000\u0000�\u0000\u0000\u0000�\u00019 �\u0000\u0000\u0000�IDAT8���\u000e� \u0014E\u0019�V�\u0016Z�����M�\u000e� �� \u0013�\u0002�p�\u0003\u0002c?�nj��l\u0019��\u0019Eh_\b\u001bzKPNʽ���:뉢�9,B\u000f�\u0006�4�\u0000FO�fin��HD�4\u0014\u0019\u0007�P\u0016cXJX�P\u0015(a����p��\u0005�a�ׂ�~\u0011\u000ep���M�\u0012ܛ�kX�\u0006� �-9.�8H\u0014��-r$%����!�Q�y�f��K~O��\u0017�T>T���9s\u0002��2o�6{�\u0000\u0000\u0000WzTXtRaw profile type iptc\u0000\u0000x��� \bqV((�O��I�R\u0000\u0003# .c \u0013#\u0013K�\u0014\u0003\u0013 D�4�d\u0003#�T �������\u001c�\u0007ˀH�J.\u0000�\u0017\u0011t�B5�\u0000\u0000\u0000\u0000IEND�B`�",
+      "2o",
+      "8h"
+    ],
+    "medium": "Source: https://www.cdc.gov/TemplatePackage/5.0/img/favicon/favicon-32x32.png",
+    "short": "Source: https://www.cdc.gov/TemplatePackage/5.0/img/favicon/favicon-32x32.png",
+    "tokens": [
+      "www",
+      "cdc",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "cdc",
+      "gov",
+      "templatepackage",
+      "img",
+      "favicon",
+      "favicon",
+      "32x32",
+      "png",
+      "source",
+      "https",
+      "www",
+      "cdc",
+      "gov",
+      "templatepackage",
+      "img",
+      "favicon",
+      "favicon",
+      "32x32",
+      "png"
+    ]
+  },
+  "title": "www.cdc.gov"
+}

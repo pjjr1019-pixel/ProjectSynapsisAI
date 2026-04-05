@@ -1,0 +1,321 @@
+{
+  "aliases": [
+    {
+      "alias": "5de4a69371c08229",
+      "aliasId": "hz.web.5de4a69371c08229.alias.1",
+      "canonical": "sign up - superfeedr"
+    },
+    {
+      "alias": "sign up - superfeedr",
+      "aliasId": "hz.web.5de4a69371c08229.alias.2",
+      "canonical": "sign up - superfeedr"
+    },
+    {
+      "alias": "web 5de4a69371c08229",
+      "aliasId": "hz.web.5de4a69371c08229.alias.3",
+      "canonical": "sign up - superfeedr"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.5de4a69371c08229",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5de4a69371c08229.entity.1",
+      "kind": "document",
+      "name": "Sign up - Superfeedr",
+      "tokens": [
+        "sign",
+        "up",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.5de4a69371c08229.entity.2",
+      "kind": "heading",
+      "name": "Sign up - Superfeedr",
+      "tokens": [
+        "sign",
+        "up",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.5de4a69371c08229.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5de4a69371c08229.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5de4a69371c08229.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 25,
+      "factId": "hz.web.5de4a69371c08229.fact.1",
+      "kind": "summary",
+      "text": "Source: https://superfeedr.com/users/new",
+      "tokens": [
+        "source",
+        "https",
+        "superfeedr",
+        "com",
+        "users",
+        "new"
+      ]
+    },
+    {
+      "charEnd": 255,
+      "charStart": 117,
+      "factId": "hz.web.5de4a69371c08229.fact.1",
+      "kind": "bullet",
+      "text": "Sign up - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Sign Up Ready to supercharge your feed experience?",
+      "tokens": [
+        "sign",
+        "up",
+        "superfeedr",
+        "superfeedr",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "sign",
+        "up",
+        "ready",
+        "supercharge",
+        "your",
+        "feed",
+        "experience"
+      ]
+    },
+    {
+      "charEnd": 289,
+      "charStart": 256,
+      "factId": "hz.web.5de4a69371c08229.fact.2",
+      "kind": "bullet",
+      "text": "You've come to the right place.",
+      "tokens": [
+        "ve",
+        "come",
+        "right",
+        "place"
+      ]
+    },
+    {
+      "charEnd": 373,
+      "charStart": 290,
+      "factId": "hz.web.5de4a69371c08229.fact.3",
+      "kind": "bullet",
+      "text": "To sign up for Superfeedr, choose your account type and fill in the sign up form.",
+      "tokens": [
+        "sign",
+        "up",
+        "superfeedr",
+        "choose",
+        "your",
+        "account",
+        "type",
+        "fill",
+        "sign",
+        "up",
+        "form"
+      ]
+    },
+    {
+      "charEnd": 438,
+      "charStart": 374,
+      "factId": "hz.web.5de4a69371c08229.fact.4",
+      "kind": "bullet",
+      "text": "You can get started right away&mdash;no credit card necessary.",
+      "tokens": [
+        "get",
+        "started",
+        "right",
+        "away",
+        "mdash",
+        "no",
+        "credit",
+        "card",
+        "necessary"
+      ]
+    },
+    {
+      "charEnd": 459,
+      "charStart": 453,
+      "factId": "hz.web.5de4a69371c08229.fact.5",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 464,
+      "charStart": 460,
+      "factId": "hz.web.5de4a69371c08229.fact.6",
+      "kind": "bullet",
+      "text": "up",
+      "tokens": [
+        "up"
+      ]
+    },
+    {
+      "charEnd": 477,
+      "charStart": 465,
+      "factId": "hz.web.5de4a69371c08229.fact.7",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 487,
+      "charStart": 478,
+      "factId": "hz.web.5de4a69371c08229.fact.8",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 494,
+      "charStart": 488,
+      "factId": "hz.web.5de4a69371c08229.fact.9",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 502,
+      "charStart": 495,
+      "factId": "hz.web.5de4a69371c08229.fact.10",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 511,
+      "charStart": 503,
+      "factId": "hz.web.5de4a69371c08229.fact.11",
+      "kind": "bullet",
+      "text": "choose",
+      "tokens": [
+        "choose"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 512,
+      "factId": "hz.web.5de4a69371c08229.fact.12",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.5de4a69371c08229.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Sign up - Superfeedr"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.5de4a69371c08229.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 451,
+      "charStart": 440,
+      "headingId": "hz.web.5de4a69371c08229.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 531,
+      "charStart": 521,
+      "headingId": "hz.web.5de4a69371c08229.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5de4a69371c08229.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1527,
+        "start": 0
+      }
+    ],
+    "hash": "98342cb1198e0e2efff4b2684c35ab07f5d3e02aa1bb93ead81f3e76c3a8e0e9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Sign up - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Sign Up Ready to supercharge your feed experience?",
+      "You've come to the right place.",
+      "To sign up for Superfeedr, choose your account type and fill in the sign up form."
+    ],
+    "medium": "Source: https://superfeedr.com/users/new",
+    "short": "Source: https://superfeedr.com/users/new",
+    "tokens": [
+      "sign",
+      "up",
+      "superfeedr",
+      "source",
+      "https",
+      "superfeedr",
+      "com",
+      "users",
+      "new",
+      "source",
+      "https",
+      "superfeedr",
+      "com",
+      "users",
+      "new"
+    ]
+  },
+  "title": "Sign up - Superfeedr"
+}

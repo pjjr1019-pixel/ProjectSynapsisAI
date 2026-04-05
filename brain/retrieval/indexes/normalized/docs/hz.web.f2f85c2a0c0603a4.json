@@ -1,0 +1,347 @@
+{
+  "aliases": [
+    {
+      "alias": "f2f85c2a0c0603a4",
+      "aliasId": "hz.web.f2f85c2a0c0603a4.alias.1",
+      "canonical": "google ads on air"
+    },
+    {
+      "alias": "google ads on air",
+      "aliasId": "hz.web.f2f85c2a0c0603a4.alias.2",
+      "canonical": "google ads on air"
+    },
+    {
+      "alias": "web f2f85c2a0c0603a4",
+      "aliasId": "hz.web.f2f85c2a0c0603a4.alias.3",
+      "canonical": "google ads on air"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.68,
+  "docId": "hz.web.f2f85c2a0c0603a4",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f2f85c2a0c0603a4.entity.1",
+      "kind": "document",
+      "name": "Google Ads On Air",
+      "tokens": [
+        "google",
+        "ads",
+        "air"
+      ]
+    },
+    {
+      "entityId": "hz.web.f2f85c2a0c0603a4.entity.2",
+      "kind": "heading",
+      "name": "Google Ads On Air",
+      "tokens": [
+        "google",
+        "ads",
+        "air"
+      ]
+    },
+    {
+      "entityId": "hz.web.f2f85c2a0c0603a4.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f2f85c2a0c0603a4.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f2f85c2a0c0603a4.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 22,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.1",
+      "kind": "summary",
+      "text": "Source: https://adsonair.withgoogle.com/",
+      "tokens": [
+        "source",
+        "https",
+        "adsonair",
+        "withgoogle",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 135,
+      "charStart": 114,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.1",
+      "kind": "bullet",
+      "text": "Google Ads On Air .",
+      "tokens": [
+        "google",
+        "ads",
+        "air"
+      ]
+    },
+    {
+      "charEnd": 415,
+      "charStart": 136,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.2",
+      "kind": "bullet",
+      "text": "Sign in or create account To register for events Continue with Google Continue with email Privacy Policy Sign in with email Enter your email info Enter a valid email address Back Next Privacy Policy Sign in with Google The email you entered is associated with a Google account.",
+      "tokens": [
+        "sign",
+        "create",
+        "account",
+        "register",
+        "events",
+        "continue",
+        "google",
+        "continue",
+        "email",
+        "privacy",
+        "policy",
+        "sign",
+        "email",
+        "enter",
+        "your",
+        "email",
+        "info",
+        "enter",
+        "valid",
+        "email",
+        "address",
+        "back",
+        "next",
+        "privacy",
+        "policy",
+        "sign",
+        "google",
+        "email",
+        "entered",
+        "associated",
+        "google",
+        "account"
+      ]
+    },
+    {
+      "charEnd": 450,
+      "charStart": 416,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.3",
+      "kind": "bullet",
+      "text": "Sign in with Google to continue.",
+      "tokens": [
+        "sign",
+        "google",
+        "continue"
+      ]
+    },
+    {
+      "charEnd": 574,
+      "charStart": 451,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.4",
+      "kind": "bullet",
+      "text": "Back Sign in with Google Privacy Policy Sign in with email Enter your password info Enter a password info Wrong password.",
+      "tokens": [
+        "back",
+        "sign",
+        "google",
+        "privacy",
+        "policy",
+        "sign",
+        "email",
+        "enter",
+        "your",
+        "password",
+        "info",
+        "enter",
+        "password",
+        "info",
+        "wrong",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 596,
+      "charStart": 589,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.5",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 603,
+      "charStart": 597,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.6",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 614,
+      "charStart": 604,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.7",
+      "kind": "bullet",
+      "text": "password",
+      "tokens": [
+        "password"
+      ]
+    },
+    {
+      "charEnd": 621,
+      "charStart": 615,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 628,
+      "charStart": 622,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.9",
+      "kind": "bullet",
+      "text": "back",
+      "tokens": [
+        "back"
+      ]
+    },
+    {
+      "charEnd": 637,
+      "charStart": 629,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.10",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "charEnd": 645,
+      "charStart": 638,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.11",
+      "kind": "bullet",
+      "text": "enter",
+      "tokens": [
+        "enter"
+      ]
+    },
+    {
+      "charEnd": 652,
+      "charStart": 646,
+      "factId": "hz.web.f2f85c2a0c0603a4.fact.12",
+      "kind": "bullet",
+      "text": "info",
+      "tokens": [
+        "info"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.f2f85c2a0c0603a4.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Google Ads On Air"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.f2f85c2a0c0603a4.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 587,
+      "charStart": 576,
+      "headingId": "hz.web.f2f85c2a0c0603a4.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 664,
+      "charStart": 654,
+      "headingId": "hz.web.f2f85c2a0c0603a4.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f2f85c2a0c0603a4.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3396,
+        "start": 0
+      }
+    ],
+    "hash": "ecb0f1d8a8d7a33071850b40d7be939dbc10debbb93bdc198eb1178e0aa7d134",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.f2f85c2a0c0603a4.rule.1",
+      "text": "Back Privacy Policy Forbidden Sorry, you do not have permission to access this resource.",
+      "tokens": [
+        "back",
+        "privacy",
+        "policy",
+        "forbidden",
+        "sorry",
+        "not",
+        "have",
+        "permission",
+        "access",
+        "resource"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Google Ads On Air .",
+      "Sign in or create account To register for events Continue with Google Continue with email Privacy Policy Sign in with email Enter your email info Enter a valid email address Back Next Privacy Policy Sign in with Google The email you entered is associated with a Google account.",
+      "Sign in with Google to continue."
+    ],
+    "medium": "Source: https://adsonair.withgoogle.com/",
+    "short": "Source: https://adsonair.withgoogle.com/",
+    "tokens": [
+      "google",
+      "ads",
+      "air",
+      "source",
+      "https",
+      "adsonair",
+      "withgoogle",
+      "com",
+      "source",
+      "https",
+      "adsonair",
+      "withgoogle",
+      "com"
+    ]
+  },
+  "title": "Google Ads On Air"
+}

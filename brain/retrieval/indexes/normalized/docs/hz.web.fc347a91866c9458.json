@@ -1,0 +1,382 @@
+{
+  "aliases": [
+    {
+      "alias": "cdc newsroom cdc",
+      "aliasId": "hz.web.fc347a91866c9458.alias.1",
+      "canonical": "cdc newsroom | cdc"
+    },
+    {
+      "alias": "fc347a91866c9458",
+      "aliasId": "hz.web.fc347a91866c9458.alias.2",
+      "canonical": "cdc newsroom | cdc"
+    },
+    {
+      "alias": "web fc347a91866c9458",
+      "aliasId": "hz.web.fc347a91866c9458.alias.3",
+      "canonical": "cdc newsroom | cdc"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.83,
+  "docId": "hz.web.fc347a91866c9458",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fc347a91866c9458.entity.1",
+      "kind": "document",
+      "name": "CDC Newsroom | CDC",
+      "tokens": [
+        "cdc",
+        "newsroom",
+        "cdc"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc347a91866c9458.entity.2",
+      "kind": "heading",
+      "name": "CDC Newsroom | CDC",
+      "tokens": [
+        "cdc",
+        "newsroom",
+        "cdc"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc347a91866c9458.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc347a91866c9458.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc347a91866c9458.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 67,
+      "charStart": 23,
+      "factId": "hz.web.fc347a91866c9458.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cdc.gov/media/index.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cdc",
+        "gov",
+        "media",
+        "index",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 376,
+      "charStart": 119,
+      "factId": "hz.web.fc347a91866c9458.fact.1",
+      "kind": "bullet",
+      "text": "CDC Newsroom | CDC Skip directly to site content Skip directly to search An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "cdc",
+        "newsroom",
+        "cdc",
+        "skip",
+        "directly",
+        "site",
+        "content",
+        "skip",
+        "directly",
+        "search",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 483,
+      "charStart": 377,
+      "factId": "hz.web.fc347a91866c9458.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 548,
+      "charStart": 484,
+      "factId": "hz.web.fc347a91866c9458.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 886,
+      "charStart": 549,
+      "factId": "hz.web.fc347a91866c9458.fact.4",
+      "kind": "bullet",
+      "text": "CDC Newsroom Search Search Clear Search Releases Contact Media Relations View All search clear search CDC Newsroom Menu clear search For Everyone Releases Contact Media Relations View All Home Related Topics NCHS Pressroom NIOSH Newsroom GHC Newsroom CDC Newsroom Releases Contact Media Relations View Menu CDC Newsroom CDC Warns of E.",
+      "tokens": [
+        "cdc",
+        "newsroom",
+        "search",
+        "search",
+        "clear",
+        "search",
+        "releases",
+        "contact",
+        "media",
+        "relations",
+        "view",
+        "all",
+        "search",
+        "clear",
+        "search",
+        "cdc",
+        "newsroom",
+        "menu",
+        "clear",
+        "search",
+        "everyone",
+        "releases",
+        "contact",
+        "media",
+        "relations",
+        "view",
+        "all",
+        "home",
+        "related",
+        "topics",
+        "nchs",
+        "pressroom",
+        "niosh",
+        "newsroom",
+        "ghc",
+        "newsroom",
+        "cdc",
+        "newsroom",
+        "releases",
+        "contact",
+        "media",
+        "relations",
+        "view",
+        "menu",
+        "cdc",
+        "newsroom",
+        "cdc",
+        "warns"
+      ]
+    },
+    {
+      "charEnd": 906,
+      "charStart": 901,
+      "factId": "hz.web.fc347a91866c9458.fact.5",
+      "kind": "bullet",
+      "text": "cdc",
+      "tokens": [
+        "cdc"
+      ]
+    },
+    {
+      "charEnd": 916,
+      "charStart": 907,
+      "factId": "hz.web.fc347a91866c9458.fact.6",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 927,
+      "charStart": 917,
+      "factId": "hz.web.fc347a91866c9458.fact.7",
+      "kind": "bullet",
+      "text": "newsroom",
+      "tokens": [
+        "newsroom"
+      ]
+    },
+    {
+      "charEnd": 936,
+      "charStart": 928,
+      "factId": "hz.web.fc347a91866c9458.fact.8",
+      "kind": "bullet",
+      "text": "health",
+      "tokens": [
+        "health"
+      ]
+    },
+    {
+      "charEnd": 945,
+      "charStart": 937,
+      "factId": "hz.web.fc347a91866c9458.fact.9",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 951,
+      "charStart": 946,
+      "factId": "hz.web.fc347a91866c9458.fact.10",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 960,
+      "charStart": 952,
+      "factId": "hz.web.fc347a91866c9458.fact.11",
+      "kind": "bullet",
+      "text": "public",
+      "tokens": [
+        "public"
+      ]
+    },
+    {
+      "charEnd": 971,
+      "charStart": 961,
+      "factId": "hz.web.fc347a91866c9458.fact.12",
+      "kind": "bullet",
+      "text": "releases",
+      "tokens": [
+        "releases"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.fc347a91866c9458.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "CDC Newsroom | CDC"
+    },
+    {
+      "charEnd": 117,
+      "charStart": 107,
+      "headingId": "hz.web.fc347a91866c9458.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 899,
+      "charStart": 888,
+      "headingId": "hz.web.fc347a91866c9458.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 983,
+      "charStart": 973,
+      "headingId": "hz.web.fc347a91866c9458.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/fc347a91866c9458.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4001,
+        "start": 0
+      }
+    ],
+    "hash": "481ac48f8a8d5437b4404df15ffce648cda9cc814b10964aba85b7087edf74c4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "CDC Newsroom | CDC Skip directly to site content Skip directly to search An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.cdc.gov/media/index.html",
+    "short": "Source: https://www.cdc.gov/media/index.html",
+    "tokens": [
+      "cdc",
+      "newsroom",
+      "cdc",
+      "source",
+      "https",
+      "www",
+      "cdc",
+      "gov",
+      "media",
+      "index",
+      "html",
+      "source",
+      "https",
+      "www",
+      "cdc",
+      "gov",
+      "media",
+      "index",
+      "html"
+    ]
+  },
+  "title": "CDC Newsroom | CDC"
+}

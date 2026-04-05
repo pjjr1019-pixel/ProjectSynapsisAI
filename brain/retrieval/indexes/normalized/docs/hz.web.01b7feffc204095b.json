@@ -1,0 +1,314 @@
+{
+  "aliases": [
+    {
+      "alias": "01b7feffc204095b",
+      "aliasId": "hz.web.01b7feffc204095b.alias.1",
+      "canonical": "embedr.flickr.com"
+    },
+    {
+      "alias": "embedr.flickr.com",
+      "aliasId": "hz.web.01b7feffc204095b.alias.2",
+      "canonical": "embedr.flickr.com"
+    },
+    {
+      "alias": "web 01b7feffc204095b",
+      "aliasId": "hz.web.01b7feffc204095b.alias.3",
+      "canonical": "embedr.flickr.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.01b7feffc204095b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.01b7feffc204095b.entity.1",
+      "kind": "document",
+      "name": "embedr.flickr.com",
+      "tokens": [
+        "embedr",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.01b7feffc204095b.entity.2",
+      "kind": "heading",
+      "name": "embedr.flickr.com",
+      "tokens": [
+        "embedr",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.01b7feffc204095b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.01b7feffc204095b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.01b7feffc204095b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 77,
+      "charStart": 22,
+      "factId": "hz.web.01b7feffc204095b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://embedr.flickr.com/assets/client-code.js",
+      "tokens": [
+        "source",
+        "https",
+        "embedr",
+        "flickr",
+        "com",
+        "assets",
+        "client",
+        "code",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 773,
+      "charStart": 129,
+      "factId": "hz.web.01b7feffc204095b.fact.1",
+      "kind": "bullet",
+      "text": "!function(e,t,n,r,c){var i=function(e,t){var n,r=\"IE\",c=document.createElement(\"B\"),i=document.documentElement;return e&&(r+=\" \"+e,t&&(r=t+\" \"+r)),c.innerHTML=\"<!--[if \"+r+']><b id=\"iecctest\"></b><![endif]-->',i.appendChild(c),n=!!document.getElementById(\"iecctest\"),i.removeChild(c),n};if(!e[n]&&(e[n]={process:function(t){(e[n].q=e[n].q||[]).push(t)},baseURL:\"https://embedr.flickr.com\"},!i(8,\"lte\"))){var d=t.createElement(r),m=t.getElementsByTagName(r)[0];d.async=1,d.src=c,m.parentNode.insertBefore(d,m)}}(window,document,\"FlickrEmbedr\",\"script\",\"https://embedr.flickr.com/assets/embedr-loader.js\"),window.FlickrEmbedr.process(\"inline\");",
+      "tokens": [
+        "function",
+        "var",
+        "function",
+        "var",
+        "ie",
+        "document",
+        "createelement",
+        "document",
+        "documentelement",
+        "return",
+        "innerhtml",
+        "if",
+        "id",
+        "iecctest",
+        "endif",
+        "appendchild",
+        "document",
+        "getelementbyid",
+        "iecctest",
+        "removechild",
+        "if",
+        "process",
+        "function",
+        "push",
+        "baseurl",
+        "https",
+        "embedr",
+        "flickr",
+        "com",
+        "lte",
+        "var",
+        "createelement",
+        "getelementsbytagname",
+        "async",
+        "src",
+        "parentnode",
+        "insertbefore",
+        "window",
+        "document",
+        "flickrembedr",
+        "script",
+        "https",
+        "embedr",
+        "flickr",
+        "com",
+        "assets",
+        "embedr",
+        "loader",
+        "js",
+        "window",
+        "flickrembedr",
+        "process",
+        "inline"
+      ]
+    },
+    {
+      "charEnd": 798,
+      "charStart": 788,
+      "factId": "hz.web.01b7feffc204095b.fact.2",
+      "kind": "bullet",
+      "text": "document",
+      "tokens": [
+        "document"
+      ]
+    },
+    {
+      "charEnd": 807,
+      "charStart": 799,
+      "factId": "hz.web.01b7feffc204095b.fact.3",
+      "kind": "bullet",
+      "text": "embedr",
+      "tokens": [
+        "embedr"
+      ]
+    },
+    {
+      "charEnd": 818,
+      "charStart": 808,
+      "factId": "hz.web.01b7feffc204095b.fact.4",
+      "kind": "bullet",
+      "text": "function",
+      "tokens": [
+        "function"
+      ]
+    },
+    {
+      "charEnd": 824,
+      "charStart": 819,
+      "factId": "hz.web.01b7feffc204095b.fact.5",
+      "kind": "bullet",
+      "text": "var",
+      "tokens": [
+        "var"
+      ]
+    },
+    {
+      "charEnd": 830,
+      "charStart": 825,
+      "factId": "hz.web.01b7feffc204095b.fact.6",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 846,
+      "charStart": 831,
+      "factId": "hz.web.01b7feffc204095b.fact.7",
+      "kind": "bullet",
+      "text": "createelement",
+      "tokens": [
+        "createelement"
+      ]
+    },
+    {
+      "charEnd": 855,
+      "charStart": 847,
+      "factId": "hz.web.01b7feffc204095b.fact.8",
+      "kind": "bullet",
+      "text": "flickr",
+      "tokens": [
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 870,
+      "charStart": 856,
+      "factId": "hz.web.01b7feffc204095b.fact.9",
+      "kind": "bullet",
+      "text": "flickrembedr",
+      "tokens": [
+        "flickrembedr"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.01b7feffc204095b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "embedr.flickr.com"
+    },
+    {
+      "charEnd": 127,
+      "charStart": 117,
+      "headingId": "hz.web.01b7feffc204095b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 786,
+      "charStart": 775,
+      "headingId": "hz.web.01b7feffc204095b.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 882,
+      "charStart": 872,
+      "headingId": "hz.web.01b7feffc204095b.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/01b7feffc204095b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1775,
+        "start": 0
+      }
+    ],
+    "hash": "6156b67d744d7bac3766257af06993f4abea6e589fdc94f4ba3b02f4f30867f4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "!function(e,t,n,r,c){var i=function(e,t){var n,r=\"IE\",c=document.createElement(\"B\"),i=document.documentElement;return e&&(r+=\" \"+e,t&&(r=t+\" \"+r)),c.innerHTML=\"<!--[if \"+r+']><b id=\"iecctest\"></b><![endif]-->',i.appendChild(c),n=!!document.getElementById(\"iecctest\"),i.removeChild(c),n};if(!e[n]&&(e[n]={process:function(t){(e[n].q=e[n].q||[]).push(t)},baseURL:\"https://embedr.flickr.com\"},!i(8,\"lte\"))){var d=t.createElement(r),m=t.getElementsByTagName(r)[0];d.async=1,d.src=c,m.parentNode.insertBefore(d,m)}}(window,document,\"FlickrEmbedr\",\"script\",\"https://embedr.flickr.com/assets/embedr-loader.js\"),window.FlickrEmbedr.process(\"inline\");",
+      "document",
+      "embedr"
+    ],
+    "medium": "Source: https://embedr.flickr.com/assets/client-code.js",
+    "short": "Source: https://embedr.flickr.com/assets/client-code.js",
+    "tokens": [
+      "embedr",
+      "flickr",
+      "com",
+      "source",
+      "https",
+      "embedr",
+      "flickr",
+      "com",
+      "assets",
+      "client",
+      "code",
+      "js",
+      "source",
+      "https",
+      "embedr",
+      "flickr",
+      "com",
+      "assets",
+      "client",
+      "code",
+      "js"
+    ]
+  },
+  "title": "embedr.flickr.com"
+}

@@ -1,0 +1,368 @@
+{
+  "aliases": [
+    {
+      "alias": "931359d860341250",
+      "aliasId": "hz.web.931359d860341250.alias.1",
+      "canonical": "default pubsubhubbub hub"
+    },
+    {
+      "alias": "default pubsubhubbub hub",
+      "aliasId": "hz.web.931359d860341250.alias.2",
+      "canonical": "default pubsubhubbub hub"
+    },
+    {
+      "alias": "web 931359d860341250",
+      "aliasId": "hz.web.931359d860341250.alias.3",
+      "canonical": "default pubsubhubbub hub"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.931359d860341250",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.931359d860341250.entity.1",
+      "kind": "document",
+      "name": "Default PubSubHubbub Hub",
+      "tokens": [
+        "default",
+        "pubsubhubbub",
+        "hub"
+      ]
+    },
+    {
+      "entityId": "hz.web.931359d860341250.entity.2",
+      "kind": "heading",
+      "name": "Default PubSubHubbub Hub",
+      "tokens": [
+        "default",
+        "pubsubhubbub",
+        "hub"
+      ]
+    },
+    {
+      "entityId": "hz.web.931359d860341250.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.931359d860341250.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.931359d860341250.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 29,
+      "factId": "hz.web.931359d860341250.fact.1",
+      "kind": "summary",
+      "text": "Source: https://push.superfeedr.com/",
+      "tokens": [
+        "source",
+        "https",
+        "push",
+        "superfeedr",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 293,
+      "charStart": 117,
+      "factId": "hz.web.931359d860341250.fact.1",
+      "kind": "bullet",
+      "text": "Default PubSubHubbub Hub Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Default PubSubHubbub Hub This PubSubHubbub hub works with any feed or HTTP resource.",
+      "tokens": [
+        "default",
+        "pubsubhubbub",
+        "hub",
+        "superfeedr",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "default",
+        "pubsubhubbub",
+        "hub",
+        "pubsubhubbub",
+        "hub",
+        "works",
+        "any",
+        "feed",
+        "http",
+        "resource"
+      ]
+    },
+    {
+      "charEnd": 697,
+      "charStart": 294,
+      "factId": "hz.web.931359d860341250.fact.2",
+      "kind": "bullet",
+      "text": "Get Started Open a subscriber account Identify a resource to which you want to subscribe (an RSS/Atom feed , a JSON document , or an HTML fragment , a keyword ...) Setup a webhook to which we'll send you that data curl -X POST https://push.superfeedr.com/ \\ -ulogin:password \\ -d'hub.mode=subscribe' \\ -d'hub.topic=the-resource-url' \\ -d'hub.callback=the-webhook-url' Wait for us to send you the data!",
+      "tokens": [
+        "get",
+        "started",
+        "open",
+        "subscriber",
+        "account",
+        "identify",
+        "resource",
+        "want",
+        "subscribe",
+        "rss",
+        "atom",
+        "feed",
+        "json",
+        "document",
+        "html",
+        "fragment",
+        "keyword",
+        "setup",
+        "webhook",
+        "ll",
+        "send",
+        "data",
+        "curl",
+        "post",
+        "https",
+        "push",
+        "superfeedr",
+        "com",
+        "ulogin",
+        "password",
+        "hub",
+        "mode",
+        "subscribe",
+        "hub",
+        "topic",
+        "resource",
+        "url",
+        "hub",
+        "callback",
+        "webhook",
+        "url",
+        "wait",
+        "us",
+        "send",
+        "data"
+      ]
+    },
+    {
+      "charEnd": 756,
+      "charStart": 698,
+      "factId": "hz.web.931359d860341250.fact.3",
+      "kind": "bullet",
+      "text": "Check our docs for more details and additional features.",
+      "tokens": [
+        "check",
+        "our",
+        "docs",
+        "more",
+        "details",
+        "additional",
+        "features"
+      ]
+    },
+    {
+      "charEnd": 910,
+      "charStart": 757,
+      "factId": "hz.web.931359d860341250.fact.4",
+      "kind": "bullet",
+      "text": "Superfeedr &copy; 2009–2026 Superfeedr About Pricing Terms For developers Documentation Code Libraries Support Connect with us Contact Us Email Twitter",
+      "tokens": [
+        "superfeedr",
+        "copy",
+        "2009",
+        "2026",
+        "superfeedr",
+        "about",
+        "pricing",
+        "terms",
+        "developers",
+        "documentation",
+        "code",
+        "libraries",
+        "support",
+        "connect",
+        "us",
+        "contact",
+        "us",
+        "email",
+        "twitter"
+      ]
+    },
+    {
+      "charEnd": 930,
+      "charStart": 925,
+      "factId": "hz.web.931359d860341250.fact.5",
+      "kind": "bullet",
+      "text": "hub",
+      "tokens": [
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 943,
+      "charStart": 931,
+      "factId": "hz.web.931359d860341250.fact.6",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 958,
+      "charStart": 944,
+      "factId": "hz.web.931359d860341250.fact.7",
+      "kind": "bullet",
+      "text": "pubsubhubbub",
+      "tokens": [
+        "pubsubhubbub"
+      ]
+    },
+    {
+      "charEnd": 969,
+      "charStart": 959,
+      "factId": "hz.web.931359d860341250.fact.8",
+      "kind": "bullet",
+      "text": "resource",
+      "tokens": [
+        "resource"
+      ]
+    },
+    {
+      "charEnd": 974,
+      "charStart": 970,
+      "factId": "hz.web.931359d860341250.fact.9",
+      "kind": "bullet",
+      "text": "us",
+      "tokens": [
+        "us"
+      ]
+    },
+    {
+      "charEnd": 981,
+      "charStart": 975,
+      "factId": "hz.web.931359d860341250.fact.10",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 991,
+      "charStart": 982,
+      "factId": "hz.web.931359d860341250.fact.11",
+      "kind": "bullet",
+      "text": "default",
+      "tokens": [
+        "default"
+      ]
+    },
+    {
+      "charEnd": 998,
+      "charStart": 992,
+      "factId": "hz.web.931359d860341250.fact.12",
+      "kind": "bullet",
+      "text": "feed",
+      "tokens": [
+        "feed"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.931359d860341250.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Default PubSubHubbub Hub"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.931359d860341250.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 923,
+      "charStart": 912,
+      "headingId": "hz.web.931359d860341250.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 1000,
+      "headingId": "hz.web.931359d860341250.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/931359d860341250.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2034,
+        "start": 0
+      }
+    ],
+    "hash": "55e8d3a238bcd1895e37afb3dfd714cacf93fcc7fd06b51d067d8dee82e358fb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Default PubSubHubbub Hub Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Default PubSubHubbub Hub This PubSubHubbub hub works with any feed or HTTP resource.",
+      "Get Started Open a subscriber account Identify a resource to which you want to subscribe (an RSS/Atom feed , a JSON document , or an HTML fragment , a keyword ...) Setup a webhook to which we'll send you that data curl -X POST https://push.superfeedr.com/ \\ -ulogin:password \\ -d'hub.mode=subscribe' \\ -d'hub.topic=the-resource-url' \\ -d'hub.callback=the-webhook-url' Wait for us to send you the data!",
+      "Check our docs for more details and additional features."
+    ],
+    "medium": "Source: https://push.superfeedr.com/",
+    "short": "Source: https://push.superfeedr.com/",
+    "tokens": [
+      "default",
+      "pubsubhubbub",
+      "hub",
+      "source",
+      "https",
+      "push",
+      "superfeedr",
+      "com",
+      "source",
+      "https",
+      "push",
+      "superfeedr",
+      "com"
+    ]
+  },
+  "title": "Default PubSubHubbub Hub"
+}

@@ -1,0 +1,323 @@
+{
+  "aliases": [
+    {
+      "alias": "blo.gs",
+      "aliasId": "hz.web.ffecf680eb78fbc8.alias.1",
+      "canonical": "blo.gs"
+    },
+    {
+      "alias": "ffecf680eb78fbc8",
+      "aliasId": "hz.web.ffecf680eb78fbc8.alias.2",
+      "canonical": "blo.gs"
+    },
+    {
+      "alias": "web ffecf680eb78fbc8",
+      "aliasId": "hz.web.ffecf680eb78fbc8.alias.3",
+      "canonical": "blo.gs"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.54,
+  "docId": "hz.web.ffecf680eb78fbc8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ffecf680eb78fbc8.entity.1",
+      "kind": "document",
+      "name": "blo.gs",
+      "tokens": [
+        "blo",
+        "gs"
+      ]
+    },
+    {
+      "entityId": "hz.web.ffecf680eb78fbc8.entity.2",
+      "kind": "heading",
+      "name": "blo.gs",
+      "tokens": [
+        "blo",
+        "gs"
+      ]
+    },
+    {
+      "entityId": "hz.web.ffecf680eb78fbc8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ffecf680eb78fbc8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ffecf680eb78fbc8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 33,
+      "charStart": 11,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.1",
+      "kind": "summary",
+      "text": "Source: http://blo.gs/",
+      "tokens": [
+        "source",
+        "http",
+        "blo",
+        "gs"
+      ]
+    },
+    {
+      "charEnd": 128,
+      "charStart": 85,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.1",
+      "kind": "bullet",
+      "text": "blo.gs home about ping welcome, stranger!",
+      "tokens": [
+        "blo",
+        "gs",
+        "home",
+        "about",
+        "ping",
+        "welcome",
+        "stranger"
+      ]
+    },
+    {
+      "charEnd": 154,
+      "charStart": 129,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.2",
+      "kind": "bullet",
+      "text": "why don't you sign up ?",
+      "tokens": [
+        "why",
+        "don",
+        "sign",
+        "up"
+      ]
+    },
+    {
+      "charEnd": 179,
+      "charStart": 155,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.3",
+      "kind": "bullet",
+      "text": "--> Welcome to blo.gs!",
+      "tokens": [
+        "welcome",
+        "blo",
+        "gs"
+      ]
+    },
+    {
+      "charEnd": 300,
+      "charStart": 180,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.4",
+      "kind": "bullet",
+      "text": "\"Running just fine since 2002!\" blo.gs lets you keep an eye on your favorite sites across the web via a streaming API.",
+      "tokens": [
+        "running",
+        "just",
+        "fine",
+        "since",
+        "2002",
+        "blo",
+        "gs",
+        "lets",
+        "keep",
+        "eye",
+        "your",
+        "favorite",
+        "sites",
+        "across",
+        "web",
+        "via",
+        "streaming",
+        "api"
+      ]
+    },
+    {
+      "charEnd": 320,
+      "charStart": 315,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.5",
+      "kind": "bullet",
+      "text": "blo",
+      "tokens": [
+        "blo"
+      ]
+    },
+    {
+      "charEnd": 325,
+      "charStart": 321,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.6",
+      "kind": "bullet",
+      "text": "gs",
+      "tokens": [
+        "gs"
+      ]
+    },
+    {
+      "charEnd": 332,
+      "charStart": 326,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.7",
+      "kind": "bullet",
+      "text": "2002",
+      "tokens": [
+        "2002"
+      ]
+    },
+    {
+      "charEnd": 338,
+      "charStart": 333,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.8",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 344,
+      "charStart": 339,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.9",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 351,
+      "charStart": 345,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.10",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 358,
+      "charStart": 352,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.11",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 363,
+      "charStart": 359,
+      "factId": "hz.web.ffecf680eb78fbc8.fact.12",
+      "kind": "bullet",
+      "text": "up",
+      "tokens": [
+        "up"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 9,
+      "charStart": 1,
+      "headingId": "hz.web.ffecf680eb78fbc8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "blo.gs"
+    },
+    {
+      "charEnd": 83,
+      "charStart": 73,
+      "headingId": "hz.web.ffecf680eb78fbc8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 313,
+      "charStart": 302,
+      "headingId": "hz.web.ffecf680eb78fbc8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 375,
+      "charStart": 365,
+      "headingId": "hz.web.ffecf680eb78fbc8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ffecf680eb78fbc8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1089,
+        "start": 0
+      }
+    ],
+    "hash": "e3618cc83cb2d4d951e798c8b9af48f7258f55e6a633f7aa2dfe6be1627802cb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.ffecf680eb78fbc8.rule.1",
+      "text": "- why don't you sign up ?",
+      "tokens": [
+        "why",
+        "don",
+        "sign",
+        "up"
+      ]
+    },
+    {
+      "ruleId": "hz.web.ffecf680eb78fbc8.rule.2",
+      "text": "why don't you sign up ?",
+      "tokens": [
+        "why",
+        "don",
+        "sign",
+        "up"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "blo.gs home about ping welcome, stranger!",
+      "why don't you sign up ?",
+      "--> Welcome to blo.gs!"
+    ],
+    "medium": "Source: http://blo.gs/",
+    "short": "Source: http://blo.gs/",
+    "tokens": [
+      "blo",
+      "gs",
+      "source",
+      "http",
+      "blo",
+      "gs",
+      "source",
+      "http",
+      "blo",
+      "gs"
+    ]
+  },
+  "title": "blo.gs"
+}

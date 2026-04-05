@@ -1,0 +1,454 @@
+{
+  "aliases": [
+    {
+      "alias": "9e7db0301e752bde",
+      "aliasId": "hz.web.9e7db0301e752bde.alias.1",
+      "canonical": "collections.nlm.nih.gov"
+    },
+    {
+      "alias": "collections.nlm.nih.gov",
+      "aliasId": "hz.web.9e7db0301e752bde.alias.2",
+      "canonical": "collections.nlm.nih.gov"
+    },
+    {
+      "alias": "web 9e7db0301e752bde",
+      "aliasId": "hz.web.9e7db0301e752bde.alias.3",
+      "canonical": "collections.nlm.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.9e7db0301e752bde",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9e7db0301e752bde.entity.1",
+      "kind": "document",
+      "name": "collections.nlm.nih.gov",
+      "tokens": [
+        "collections",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.9e7db0301e752bde.entity.2",
+      "kind": "heading",
+      "name": "collections.nlm.nih.gov",
+      "tokens": [
+        "collections",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.9e7db0301e752bde.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9e7db0301e752bde.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9e7db0301e752bde.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 169,
+      "charStart": 28,
+      "factId": "hz.web.9e7db0301e752bde.fact.1",
+      "kind": "summary",
+      "text": "Source: https://collections.nlm.nih.gov/assets/blacklight/checkbox_submit-7487e8aab30e3b1509ab58ee473b9a886d755332ade14642ecd98b4cff0c72ef.js",
+      "tokens": [
+        "source",
+        "https",
+        "collections",
+        "nlm",
+        "nih",
+        "gov",
+        "assets",
+        "blacklight",
+        "checkbox_submit",
+        "7487e8aab30e3b1509ab58ee473b9a886d755332ade14642ecd98b4cff0c72ef",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 221,
+      "factId": "hz.web.9e7db0301e752bde.fact.1",
+      "kind": "bullet",
+      "text": "/* Converts a \"toggle\" form, with single submit button to add/remove something, like used for Bookmarks, into an AJAXy checkbox instead.",
+      "tokens": [
+        "converts",
+        "toggle",
+        "form",
+        "single",
+        "submit",
+        "button",
+        "add",
+        "remove",
+        "something",
+        "like",
+        "used",
+        "bookmarks",
+        "into",
+        "ajaxy",
+        "checkbox",
+        "instead"
+      ]
+    },
+    {
+      "charEnd": 378,
+      "charStart": 360,
+      "factId": "hz.web.9e7db0301e752bde.fact.2",
+      "kind": "bullet",
+      "text": "Apply to a form.",
+      "tokens": [
+        "apply",
+        "form"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 379,
+      "factId": "hz.web.9e7db0301e752bde.fact.3",
+      "kind": "bullet",
+      "text": "Does require certain assumption about the form: 1) The same form 'action' href must be used for both ADD and REMOVE actions, with the different being the hidden input name=\"_method\" being set to \"put\" or \"delete\" -- that's the Rails method to pretend to be doing a certain HTTP verb.",
+      "tokens": [
+        "require",
+        "certain",
+        "assumption",
+        "about",
+        "form",
+        "same",
+        "form",
+        "action",
+        "href",
+        "must",
+        "used",
+        "both",
+        "add",
+        "remove",
+        "actions",
+        "different",
+        "hidden",
+        "input",
+        "name",
+        "_method",
+        "set",
+        "put",
+        "delete",
+        "rails",
+        "method",
+        "pretend",
+        "doing",
+        "certain",
+        "http",
+        "verb"
+      ]
+    },
+    {
+      "charEnd": 709,
+      "charStart": 665,
+      "factId": "hz.web.9e7db0301e752bde.fact.4",
+      "kind": "bullet",
+      "text": "So same URL, PUT to add, DELETE to remove.",
+      "tokens": [
+        "so",
+        "same",
+        "url",
+        "put",
+        "add",
+        "delete",
+        "remove"
+      ]
+    },
+    {
+      "charEnd": 730,
+      "charStart": 724,
+      "factId": "hz.web.9e7db0301e752bde.fact.5",
+      "kind": "bullet",
+      "text": "form",
+      "tokens": [
+        "form"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 731,
+      "factId": "hz.web.9e7db0301e752bde.fact.6",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 738,
+      "factId": "hz.web.9e7db0301e752bde.fact.7",
+      "kind": "bullet",
+      "text": "queryselector",
+      "tokens": [
+        "queryselector"
+      ]
+    },
+    {
+      "charEnd": 764,
+      "charStart": 754,
+      "factId": "hz.web.9e7db0301e752bde.fact.8",
+      "kind": "bullet",
+      "text": "disabled",
+      "tokens": [
+        "disabled"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 765,
+      "factId": "hz.web.9e7db0301e752bde.fact.9",
+      "kind": "bullet",
+      "text": "formtarget",
+      "tokens": [
+        "formtarget"
+      ]
+    },
+    {
+      "charEnd": 794,
+      "charStart": 778,
+      "factId": "hz.web.9e7db0301e752bde.fact.10",
+      "kind": "bullet",
+      "text": "checkboxsubmit",
+      "tokens": [
+        "checkboxsubmit"
+      ]
+    },
+    {
+      "charEnd": 804,
+      "charStart": 795,
+      "factId": "hz.web.9e7db0301e752bde.fact.11",
+      "kind": "bullet",
+      "text": "checked",
+      "tokens": [
+        "checked"
+      ]
+    },
+    {
+      "charEnd": 810,
+      "charStart": 805,
+      "factId": "hz.web.9e7db0301e752bde.fact.12",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.9e7db0301e752bde.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "collections.nlm.nih.gov"
+    },
+    {
+      "charEnd": 219,
+      "charStart": 209,
+      "headingId": "hz.web.9e7db0301e752bde.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 722,
+      "charStart": 711,
+      "headingId": "hz.web.9e7db0301e752bde.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 822,
+      "charStart": 812,
+      "headingId": "hz.web.9e7db0301e752bde.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/9e7db0301e752bde.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3867,
+        "start": 0
+      }
+    ],
+    "hash": "68cf9e4ed2d9865b0a4b50931fea76d2fc5f22d477b685241b9a530e2b42867b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.9e7db0301e752bde.rule.1",
+      "text": "- Does require certain assumption about the form: 1) The same form 'action' href must be used for both ADD and REMOVE actions, with the different being the hidden input name=\"_method\" being set to \"put\" or \"delete\" -- that's the Rails method to pretend to be doing a certain HTTP verb.",
+      "tokens": [
+        "require",
+        "certain",
+        "assumption",
+        "about",
+        "form",
+        "same",
+        "form",
+        "action",
+        "href",
+        "must",
+        "used",
+        "both",
+        "add",
+        "remove",
+        "actions",
+        "different",
+        "hidden",
+        "input",
+        "name",
+        "_method",
+        "set",
+        "put",
+        "delete",
+        "rails",
+        "method",
+        "pretend",
+        "doing",
+        "certain",
+        "http",
+        "verb"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9e7db0301e752bde.rule.2",
+      "text": "Does require certain assumption about the form: 1) The same form 'action' href must be used for both ADD and REMOVE actions, with the different being the hidden input name=\"_method\" being set to \"put\" or \"delete\" -- that's the Rails method to pretend to be doing a certain HTTP verb.",
+      "tokens": [
+        "require",
+        "certain",
+        "assumption",
+        "about",
+        "form",
+        "same",
+        "form",
+        "action",
+        "href",
+        "must",
+        "used",
+        "both",
+        "add",
+        "remove",
+        "actions",
+        "different",
+        "hidden",
+        "input",
+        "name",
+        "_method",
+        "set",
+        "put",
+        "delete",
+        "rails",
+        "method",
+        "pretend",
+        "doing",
+        "certain",
+        "http",
+        "verb"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9e7db0301e752bde.rule.3",
+      "text": "Plus, the form this is applied to should provide a data-doc-id attribute (HTML5-style doc-*) that contains the id/primary key of the object in question -- used by plugin for a unique value for DOM id's.",
+      "tokens": [
+        "plus",
+        "form",
+        "applied",
+        "provide",
+        "data",
+        "doc",
+        "id",
+        "attribute",
+        "html5",
+        "style",
+        "doc",
+        "contains",
+        "id",
+        "primary",
+        "key",
+        "object",
+        "question",
+        "used",
+        "plugin",
+        "unique",
+        "value",
+        "dom",
+        "id"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* Converts a \"toggle\" form, with single submit button to add/remove something, like used for Bookmarks, into an AJAXy checkbox instead.",
+      "Apply to a form.",
+      "Does require certain assumption about the form: 1) The same form 'action' href must be used for both ADD and REMOVE actions, with the different being the hidden input name=\"_method\" being set to \"put\" or \"delete\" -- that's the Rails method to pretend to be doing a certain HTTP verb."
+    ],
+    "medium": "Source: https://collections.nlm.nih.gov/assets/blacklight/checkbox_submit-7487e8aab30e3b1509ab58ee473b9a886d755332ade14642ecd98b4cff0c72ef.js",
+    "short": "Source: https://collections.nlm.nih.gov/assets/blacklight/checkbox_submit-7487e8aab30e3b1509ab58ee473b9a886d755332ade14642ecd98b4cff0c72ef.js",
+    "tokens": [
+      "collections",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "collections",
+      "nlm",
+      "nih",
+      "gov",
+      "assets",
+      "blacklight",
+      "checkbox_submit",
+      "7487e8aab30e3b1509ab58ee473b9a886d755332ade14642ecd98b4cff0c72ef",
+      "js",
+      "source",
+      "https",
+      "collections",
+      "nlm",
+      "nih",
+      "gov",
+      "assets",
+      "blacklight",
+      "checkbox_submit",
+      "7487e8aab30e3b1509ab58ee473b9a886d755332ade14642ecd98b4cff0c72ef",
+      "js"
+    ]
+  },
+  "title": "collections.nlm.nih.gov"
+}

@@ -1,0 +1,394 @@
+{
+  "aliases": [
+    {
+      "alias": "600c6ee4bb86e0c5",
+      "aliasId": "hz.web.600c6ee4bb86e0c5.alias.1",
+      "canonical": "linkedin help"
+    },
+    {
+      "alias": "linkedin help",
+      "aliasId": "hz.web.600c6ee4bb86e0c5.alias.2",
+      "canonical": "linkedin help"
+    },
+    {
+      "alias": "web 600c6ee4bb86e0c5",
+      "aliasId": "hz.web.600c6ee4bb86e0c5.alias.3",
+      "canonical": "linkedin help"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.81,
+  "docId": "hz.web.600c6ee4bb86e0c5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.600c6ee4bb86e0c5.entity.1",
+      "kind": "document",
+      "name": "LinkedIn Help",
+      "tokens": [
+        "linkedin",
+        "help"
+      ]
+    },
+    {
+      "entityId": "hz.web.600c6ee4bb86e0c5.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn Help",
+      "tokens": [
+        "linkedin",
+        "help"
+      ]
+    },
+    {
+      "entityId": "hz.web.600c6ee4bb86e0c5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.600c6ee4bb86e0c5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.600c6ee4bb86e0c5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 18,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/help/linkedin",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "help",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 251,
+      "charStart": 116,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn Help Attention screen reader users, you are in a mobile optimized view and content may not appear where you expect it to be.",
+      "tokens": [
+        "linkedin",
+        "help",
+        "attention",
+        "screen",
+        "reader",
+        "users",
+        "mobile",
+        "optimized",
+        "view",
+        "content",
+        "may",
+        "not",
+        "appear",
+        "expect"
+      ]
+    },
+    {
+      "charEnd": 325,
+      "charStart": 252,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.2",
+      "kind": "bullet",
+      "text": "To return the screen to its desktop view, please maximize your browser.",
+      "tokens": [
+        "return",
+        "screen",
+        "its",
+        "desktop",
+        "view",
+        "please",
+        "maximize",
+        "your",
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 634,
+      "charStart": 326,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.3",
+      "kind": "bullet",
+      "text": "Skip to content Skip to search Close jump menu Help LinkedIn Help Dropdown menu, expand to explore help for other LinkedIn products Close menu Get help with: LinkedIn Corporate Billing Learning Marketing Solutions Recruiter Sales Navigator Talent Insights Go to LinkedIn Sign in Sign in We’re here to help.",
+      "tokens": [
+        "skip",
+        "content",
+        "skip",
+        "search",
+        "close",
+        "jump",
+        "menu",
+        "help",
+        "linkedin",
+        "help",
+        "dropdown",
+        "menu",
+        "expand",
+        "explore",
+        "help",
+        "other",
+        "linkedin",
+        "products",
+        "close",
+        "menu",
+        "get",
+        "help",
+        "linkedin",
+        "corporate",
+        "billing",
+        "learning",
+        "marketing",
+        "solutions",
+        "recruiter",
+        "sales",
+        "navigator",
+        "talent",
+        "insights",
+        "go",
+        "linkedin",
+        "sign",
+        "sign",
+        "re",
+        "here",
+        "help"
+      ]
+    },
+    {
+      "charEnd": 704,
+      "charStart": 635,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.4",
+      "kind": "bullet",
+      "text": "LinkedIn shortcuts Change or add an email address Opens in new tab.",
+      "tokens": [
+        "linkedin",
+        "shortcuts",
+        "change",
+        "add",
+        "email",
+        "address",
+        "opens",
+        "new",
+        "tab"
+      ]
+    },
+    {
+      "charEnd": 729,
+      "charStart": 719,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 736,
+      "charStart": 730,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 743,
+      "charStart": 737,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.7",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    },
+    {
+      "charEnd": 750,
+      "charStart": 744,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.8",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 760,
+      "charStart": 751,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.9",
+      "kind": "bullet",
+      "text": "premium",
+      "tokens": [
+        "premium"
+      ]
+    },
+    {
+      "charEnd": 770,
+      "charStart": 761,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.10",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 780,
+      "charStart": 771,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.11",
+      "kind": "bullet",
+      "text": "profile",
+      "tokens": [
+        "profile"
+      ]
+    },
+    {
+      "charEnd": 793,
+      "charStart": 781,
+      "factId": "hz.web.600c6ee4bb86e0c5.fact.12",
+      "kind": "bullet",
+      "text": "visibility",
+      "tokens": [
+        "visibility"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.600c6ee4bb86e0c5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn Help"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.600c6ee4bb86e0c5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 717,
+      "charStart": 706,
+      "headingId": "hz.web.600c6ee4bb86e0c5.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 805,
+      "charStart": 795,
+      "headingId": "hz.web.600c6ee4bb86e0c5.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/600c6ee4bb86e0c5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4043,
+        "start": 0
+      }
+    ],
+    "hash": "b69681799303336c894be9bddb03cf691b1d778029f4bb7a95eb932de297d786",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.600c6ee4bb86e0c5.rule.1",
+      "text": "You can't change the visibility option after you've shared your post.",
+      "tokens": [
+        "change",
+        "visibility",
+        "option",
+        "after",
+        "ve",
+        "shared",
+        "your",
+        "post"
+      ]
+    },
+    {
+      "ruleId": "hz.web.600c6ee4bb86e0c5.rule.2",
+      "text": "Note: You must change the location on your introduction section in order to access a new… More help Other ways we can help Please sign in so we can provide the best support possible.",
+      "tokens": [
+        "note",
+        "must",
+        "change",
+        "location",
+        "your",
+        "introduction",
+        "section",
+        "order",
+        "access",
+        "new",
+        "more",
+        "help",
+        "other",
+        "ways",
+        "help",
+        "please",
+        "sign",
+        "so",
+        "provide",
+        "best",
+        "support",
+        "possible"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn Help Attention screen reader users, you are in a mobile optimized view and content may not appear where you expect it to be.",
+      "To return the screen to its desktop view, please maximize your browser.",
+      "Skip to content Skip to search Close jump menu Help LinkedIn Help Dropdown menu, expand to explore help for other LinkedIn products Close menu Get help with: LinkedIn Corporate Billing Learning Marketing Solutions Recruiter Sales Navigator Talent Insights Go to LinkedIn Sign in Sign in We’re here to help."
+    ],
+    "medium": "Source: https://www.linkedin.com/help/linkedin",
+    "short": "Source: https://www.linkedin.com/help/linkedin",
+    "tokens": [
+      "linkedin",
+      "help",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "help",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "help",
+      "linkedin"
+    ]
+  },
+  "title": "LinkedIn Help"
+}

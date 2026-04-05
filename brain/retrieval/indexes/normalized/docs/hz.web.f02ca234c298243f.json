@@ -1,0 +1,386 @@
+{
+  "aliases": [
+    {
+      "alias": "f02ca234c298243f",
+      "aliasId": "hz.web.f02ca234c298243f.alias.1",
+      "canonical": "pubsubhubbub core 0.4 -- working draft"
+    },
+    {
+      "alias": "pubsubhubbub core 0.4 -- working draft",
+      "aliasId": "hz.web.f02ca234c298243f.alias.2",
+      "canonical": "pubsubhubbub core 0.4 -- working draft"
+    },
+    {
+      "alias": "web f02ca234c298243f",
+      "aliasId": "hz.web.f02ca234c298243f.alias.3",
+      "canonical": "pubsubhubbub core 0.4 -- working draft"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.f02ca234c298243f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f02ca234c298243f.entity.1",
+      "kind": "document",
+      "name": "PubSubHubbub Core 0.4 -- Working Draft",
+      "tokens": [
+        "pubsubhubbub",
+        "core",
+        "working",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.web.f02ca234c298243f.entity.2",
+      "kind": "heading",
+      "name": "PubSubHubbub Core 0.4 -- Working Draft",
+      "tokens": [
+        "pubsubhubbub",
+        "core",
+        "working",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.web.f02ca234c298243f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f02ca234c298243f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f02ca234c298243f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 120,
+      "charStart": 43,
+      "factId": "hz.web.f02ca234c298243f.fact.1",
+      "kind": "summary",
+      "text": "Source: http://pubsubhubbub.github.io/PubSubHubbub/pubsubhubbub-core-0.4.html",
+      "tokens": [
+        "source",
+        "http",
+        "pubsubhubbub",
+        "github",
+        "io",
+        "pubsubhubbub",
+        "pubsubhubbub",
+        "core",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 237,
+      "charStart": 172,
+      "factId": "hz.web.f02ca234c298243f.fact.1",
+      "kind": "bullet",
+      "text": "PubSubHubbub Core 0.4 -- Working Draft Network Working Group B.",
+      "tokens": [
+        "pubsubhubbub",
+        "core",
+        "working",
+        "draft",
+        "network",
+        "working",
+        "group"
+      ]
+    },
+    {
+      "charEnd": 269,
+      "charStart": 238,
+      "factId": "hz.web.f02ca234c298243f.fact.2",
+      "kind": "bullet",
+      "text": "Fitzpatrick Internet-Draft B.",
+      "tokens": [
+        "fitzpatrick",
+        "internet",
+        "draft"
+      ]
+    },
+    {
+      "charEnd": 349,
+      "charStart": 270,
+      "factId": "hz.web.f02ca234c298243f.fact.3",
+      "kind": "bullet",
+      "text": "Slatkin Intended status: Informational Google, Inc Expires: August 8, 2014 M.",
+      "tokens": [
+        "slatkin",
+        "intended",
+        "status",
+        "informational",
+        "google",
+        "inc",
+        "expires",
+        "august",
+        "2014"
+      ]
+    },
+    {
+      "charEnd": 373,
+      "charStart": 350,
+      "factId": "hz.web.f02ca234c298243f.fact.4",
+      "kind": "bullet",
+      "text": "Atkins Six Apart Ltd.",
+      "tokens": [
+        "atkins",
+        "six",
+        "apart",
+        "ltd"
+      ]
+    },
+    {
+      "charEnd": 393,
+      "charStart": 388,
+      "factId": "hz.web.f02ca234c298243f.fact.5",
+      "kind": "bullet",
+      "text": "hub",
+      "tokens": [
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 406,
+      "charStart": 394,
+      "factId": "hz.web.f02ca234c298243f.fact.6",
+      "kind": "bullet",
+      "text": "subscriber",
+      "tokens": [
+        "subscriber"
+      ]
+    },
+    {
+      "charEnd": 421,
+      "charStart": 407,
+      "factId": "hz.web.f02ca234c298243f.fact.7",
+      "kind": "bullet",
+      "text": "subscription",
+      "tokens": [
+        "subscription"
+      ]
+    },
+    {
+      "charEnd": 428,
+      "charStart": 422,
+      "factId": "hz.web.f02ca234c298243f.fact.8",
+      "kind": "bullet",
+      "text": "must",
+      "tokens": [
+        "must"
+      ]
+    },
+    {
+      "charEnd": 438,
+      "charStart": 429,
+      "factId": "hz.web.f02ca234c298243f.fact.9",
+      "kind": "bullet",
+      "text": "request",
+      "tokens": [
+        "request"
+      ]
+    },
+    {
+      "charEnd": 446,
+      "charStart": 439,
+      "factId": "hz.web.f02ca234c298243f.fact.10",
+      "kind": "bullet",
+      "text": "topic",
+      "tokens": [
+        "topic"
+      ]
+    },
+    {
+      "charEnd": 452,
+      "charStart": 447,
+      "factId": "hz.web.f02ca234c298243f.fact.11",
+      "kind": "bullet",
+      "text": "may",
+      "tokens": [
+        "may"
+      ]
+    },
+    {
+      "charEnd": 458,
+      "charStart": 453,
+      "factId": "hz.web.f02ca234c298243f.fact.12",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 41,
+      "charStart": 1,
+      "headingId": "hz.web.f02ca234c298243f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "PubSubHubbub Core 0.4 -- Working Draft"
+    },
+    {
+      "charEnd": 170,
+      "charStart": 160,
+      "headingId": "hz.web.f02ca234c298243f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 386,
+      "charStart": 375,
+      "headingId": "hz.web.f02ca234c298243f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 470,
+      "charStart": 460,
+      "headingId": "hz.web.f02ca234c298243f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f02ca234c298243f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3764,
+        "start": 0
+      }
+    ],
+    "hash": "b94f4c29857fe972d170a69135433851a5776591256b656cd46da04ceeca8f2e",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.f02ca234c298243f.rule.1",
+      "text": "## Keywords - hub - subscriber - subscription - must - request - topic - may - url ## Excerpt PubSubHubbub Core 0.4 -- Working Draft Network Working Group B.",
+      "tokens": [
+        "keywords",
+        "hub",
+        "subscriber",
+        "subscription",
+        "must",
+        "request",
+        "topic",
+        "may",
+        "url",
+        "excerpt",
+        "pubsubhubbub",
+        "core",
+        "working",
+        "draft",
+        "network",
+        "working",
+        "group"
+      ]
+    },
+    {
+      "ruleId": "hz.web.f02ca234c298243f.rule.2",
+      "text": "The fancy bits required for high-volume publishers and subscribers are optional.",
+      "tokens": [
+        "fancy",
+        "bits",
+        "required",
+        "high",
+        "volume",
+        "publishers",
+        "subscribers",
+        "optional"
+      ]
+    },
+    {
+      "ruleId": "hz.web.f02ca234c298243f.rule.3",
+      "text": "We think a decentralized pubsub layer is a fundamental, missing layer in the Internet architecture today and its existence, more than just enabling the obvious lower latency feed readers, would enable many cool applications, most of which we can't even imagine.",
+      "tokens": [
+        "think",
+        "decentralized",
+        "pubsub",
+        "layer",
+        "fundamental",
+        "missing",
+        "layer",
+        "internet",
+        "architecture",
+        "today",
+        "its",
+        "existence",
+        "more",
+        "than",
+        "just",
+        "enabling",
+        "obvious",
+        "lower",
+        "latency",
+        "feed",
+        "readers",
+        "enable",
+        "many",
+        "cool",
+        "applications",
+        "most",
+        "even",
+        "imagine"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "PubSubHubbub Core 0.4 -- Working Draft Network Working Group B.",
+      "Fitzpatrick Internet-Draft B.",
+      "Slatkin Intended status: Informational Google, Inc Expires: August 8, 2014 M."
+    ],
+    "medium": "Source: http://pubsubhubbub.github.io/PubSubHubbub/pubsubhubbub-core-0.4.html",
+    "short": "Source: http://pubsubhubbub.github.io/PubSubHubbub/pubsubhubbub-core-0.4.html",
+    "tokens": [
+      "pubsubhubbub",
+      "core",
+      "working",
+      "draft",
+      "source",
+      "http",
+      "pubsubhubbub",
+      "github",
+      "io",
+      "pubsubhubbub",
+      "pubsubhubbub",
+      "core",
+      "html",
+      "source",
+      "http",
+      "pubsubhubbub",
+      "github",
+      "io",
+      "pubsubhubbub",
+      "pubsubhubbub",
+      "core",
+      "html"
+    ]
+  },
+  "title": "PubSubHubbub Core 0.4 -- Working Draft"
+}

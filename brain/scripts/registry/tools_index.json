@@ -1,0 +1,4251 @@
+[
+  {
+    "id": "list_running_processes",
+    "title": "List running processes",
+    "description": "Collect normalized process rows with CPU, memory, PID, parent PID, and command metadata.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "list running processes"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_by": {
+        "type": "string",
+        "default": "memory_mb"
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/list_running_processes.js",
+    "status": "ready",
+    "handler": "list_running_processes"
+  },
+  {
+    "id": "top_cpu_processes",
+    "title": "Top CPU processes",
+    "description": "Rank processes by CPU usage.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "top cpu processes"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 15
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/top_cpu_processes.js",
+    "status": "ready",
+    "handler": "top_cpu_processes"
+  },
+  {
+    "id": "top_memory_processes",
+    "title": "Top memory processes",
+    "description": "Rank processes by working set memory.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "top memory processes"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 15
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/top_memory_processes.js",
+    "status": "ready",
+    "handler": "top_memory_processes"
+  },
+  {
+    "id": "process_details_by_pid",
+    "title": "Process details by PID",
+    "description": "Return merged process details for one PID.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "process details by pid"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/process_details_by_pid.js",
+    "status": "ready",
+    "handler": "process_details_by_pid"
+  },
+  {
+    "id": "process_details_by_name",
+    "title": "Process details by name",
+    "description": "Return merged process details for one exact process name.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "process details by name"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/process_details_by_name.js",
+    "status": "ready",
+    "handler": "process_details_by_name"
+  },
+  {
+    "id": "process_tree_by_pid",
+    "title": "Process tree by PID",
+    "description": "Build a parent-child tree around one PID.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "process tree by pid"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/process_tree_by_pid.js",
+    "status": "ready",
+    "handler": "process_tree_by_pid"
+  },
+  {
+    "id": "process_executable_path",
+    "title": "Process executable path",
+    "description": "Return the executable path for matching processes.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "process executable path"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/process_executable_path.js",
+    "status": "ready",
+    "handler": "process_executable_path"
+  },
+  {
+    "id": "process_command_line",
+    "title": "Process command line",
+    "description": "Return command-line text when available.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "process command line"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/process_command_line.js",
+    "status": "ready",
+    "handler": "process_command_line"
+  },
+  {
+    "id": "process_count",
+    "title": "Process count",
+    "description": "Count running processes after filters are applied.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "process count"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "query": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/process_count.js",
+    "status": "ready",
+    "handler": "process_count"
+  },
+  {
+    "id": "duplicate_process_names",
+    "title": "Duplicate process names",
+    "description": "Detect process names that appear more than once.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "duplicate process names"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/duplicate_process_names.js",
+    "status": "ready",
+    "handler": "duplicate_process_names"
+  },
+  {
+    "id": "long_running_processes",
+    "title": "Long-running processes",
+    "description": "Find processes that have been alive for a long time.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "long running processes"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "min_age_minutes": {
+        "type": "number",
+        "default": 30
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/long_running_processes.js",
+    "status": "ready",
+    "handler": "long_running_processes"
+  },
+  {
+    "id": "likely_idle_heavy_processes",
+    "title": "Likely idle heavy processes",
+    "description": "Flag processes with high memory use and low CPU.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "likely idle heavy processes"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "min_memory_mb": {
+        "type": "number",
+        "default": 250
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 1.5
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/likely_idle_heavy_processes.js",
+    "status": "ready",
+    "handler": "likely_idle_heavy_processes"
+  },
+  {
+    "id": "process_risk_classification",
+    "title": "Process risk classification",
+    "description": "Classify candidate processes using protected and helper heuristics.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "process risk classification"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/process_risk_classification.js",
+    "status": "ready",
+    "handler": "process_risk_classification"
+  },
+  {
+    "id": "dry_run_kill_process_by_pid",
+    "title": "Dry-run kill process by PID",
+    "description": "Preview what would be killed for a PID.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "dry run kill process by pid"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/dry_run_kill_process_by_pid.js",
+    "status": "ready",
+    "handler": "dry_run_kill_process_by_pid"
+  },
+  {
+    "id": "kill_process_by_pid",
+    "title": "Kill process by PID",
+    "description": "Terminate a process by PID using a guarded action.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "kill process by pid"
+    ],
+    "avoid_if": [
+      "You do not have explicit approval for a mutation."
+    ],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "taskkill"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/kill_process_by_pid.js",
+    "status": "ready",
+    "handler": "kill_process_by_pid"
+  },
+  {
+    "id": "dry_run_kill_process_by_name",
+    "title": "Dry-run kill process by name",
+    "description": "Preview what would be killed for an exact process name.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "dry run kill process by name"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/dry_run_kill_process_by_name.js",
+    "status": "ready",
+    "handler": "dry_run_kill_process_by_name"
+  },
+  {
+    "id": "kill_process_by_name",
+    "title": "Kill process by name",
+    "description": "Terminate processes by exact image name using a guarded action.",
+    "category": "process",
+    "tags": [
+      "process",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "kill process by name"
+    ],
+    "avoid_if": [
+      "You do not have explicit approval for a mutation."
+    ],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "taskkill"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows process query unavailable.",
+      "Permission denied.",
+      "Target not found."
+    ],
+    "entrypoint": "process/kill_process_by_name.js",
+    "status": "ready",
+    "handler": "kill_process_by_name"
+  },
+  {
+    "id": "cpu_summary",
+    "title": "CPU summary",
+    "description": "Summarize CPU state, logical cores, and recent utilization.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "cpu summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "sample_seconds": {
+        "type": "number",
+        "default": 1
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/cpu_summary.js",
+    "status": "ready",
+    "handler": "cpu_summary"
+  },
+  {
+    "id": "memory_summary",
+    "title": "Memory summary",
+    "description": "Summarize physical and virtual memory state.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "memory summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/memory_summary.js",
+    "status": "ready",
+    "handler": "memory_summary"
+  },
+  {
+    "id": "disk_usage_summary",
+    "title": "Disk usage summary",
+    "description": "Summarize disk capacity and free space.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "disk usage summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/disk_usage_summary.js",
+    "status": "ready",
+    "handler": "disk_usage_summary"
+  },
+  {
+    "id": "uptime_summary",
+    "title": "Uptime summary",
+    "description": "Summarize boot time and elapsed uptime.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "uptime summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/uptime_summary.js",
+    "status": "ready",
+    "handler": "uptime_summary"
+  },
+  {
+    "id": "machine_summary",
+    "title": "Machine summary",
+    "description": "Summarize host, OS, CPU, memory, and session data.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "machine summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/machine_summary.js",
+    "status": "ready",
+    "handler": "machine_summary"
+  },
+  {
+    "id": "os_version_summary",
+    "title": "OS version summary",
+    "description": "Summarize the OS version and build information.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "os version summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/os_version_summary.js",
+    "status": "ready",
+    "handler": "os_version_summary"
+  },
+  {
+    "id": "live_counter_snapshot",
+    "title": "Live counter snapshot",
+    "description": "Capture a current performance counter snapshot.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "live counter snapshot"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "sample_seconds": {
+        "type": "number",
+        "default": 1
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/live_counter_snapshot.js",
+    "status": "ready",
+    "handler": "live_counter_snapshot"
+  },
+  {
+    "id": "threshold_warning_report",
+    "title": "Threshold warning report",
+    "description": "Compare live system metrics against warning thresholds.",
+    "category": "system",
+    "tags": [
+      "system",
+      "health",
+      "windows"
+    ],
+    "intent_examples": [
+      "threshold warning report"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "cpu_warn_pct": {
+        "type": "number",
+        "default": 75
+      },
+      "memory_warn_pct": {
+        "type": "number",
+        "default": 80
+      },
+      "disk_warn_pct": {
+        "type": "number",
+        "default": 85
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Windows performance counters unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "system/threshold_warning_report.js",
+    "status": "ready",
+    "handler": "threshold_warning_report"
+  },
+  {
+    "id": "running_services",
+    "title": "Running services",
+    "description": "List running services with normalized metadata.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "running services"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/running_services.js",
+    "status": "ready",
+    "handler": "running_services"
+  },
+  {
+    "id": "stopped_services",
+    "title": "Stopped services",
+    "description": "List stopped services with normalized metadata.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "stopped services"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/stopped_services.js",
+    "status": "ready",
+    "handler": "stopped_services"
+  },
+  {
+    "id": "service_details_by_name",
+    "title": "Service details by name",
+    "description": "Return service metadata for one exact service name.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "service details by name"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/service_details_by_name.js",
+    "status": "ready",
+    "handler": "service_details_by_name"
+  },
+  {
+    "id": "auto_start_services",
+    "title": "Auto-start services",
+    "description": "List services configured to start automatically.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "auto start services"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/auto_start_services.js",
+    "status": "ready",
+    "handler": "auto_start_services"
+  },
+  {
+    "id": "non_microsoft_services",
+    "title": "Non-Microsoft services",
+    "description": "List services whose binary paths look third-party or custom.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "non microsoft services"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/non_microsoft_services.js",
+    "status": "ready",
+    "handler": "non_microsoft_services"
+  },
+  {
+    "id": "service_control_preview",
+    "title": "Service control preview",
+    "description": "Preview a start, stop, or restart action for a service.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "service control preview"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "action": {
+        "type": "string",
+        "default": "stop"
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/service_control_preview.js",
+    "status": "ready",
+    "handler": "service_control_preview"
+  },
+  {
+    "id": "start_service_by_name",
+    "title": "Start service by name",
+    "description": "Start a service using guarded approval and dry-run support.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "start service by name"
+    ],
+    "avoid_if": [
+      "You do not have explicit approval for a mutation."
+    ],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/start_service_by_name.js",
+    "status": "ready",
+    "handler": "start_service_by_name"
+  },
+  {
+    "id": "stop_service_by_name",
+    "title": "Stop service by name",
+    "description": "Stop a service using guarded approval and dry-run support.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "stop service by name"
+    ],
+    "avoid_if": [
+      "You do not have explicit approval for a mutation."
+    ],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/stop_service_by_name.js",
+    "status": "ready",
+    "handler": "stop_service_by_name"
+  },
+  {
+    "id": "restart_service_by_name",
+    "title": "Restart service by name",
+    "description": "Restart a service using guarded approval and dry-run support.",
+    "category": "services",
+    "tags": [
+      "service",
+      "windows",
+      "control"
+    ],
+    "intent_examples": [
+      "restart service by name"
+    ],
+    "avoid_if": [
+      "You do not have explicit approval for a mutation."
+    ],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "sc.exe"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Service control unavailable.",
+      "Permission denied.",
+      "Service not found."
+    ],
+    "entrypoint": "services/restart_service_by_name.js",
+    "status": "ready",
+    "handler": "restart_service_by_name"
+  },
+  {
+    "id": "list_startup_entries",
+    "title": "List startup entries",
+    "description": "List startup commands from Windows startup metadata.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "list startup entries"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "schtasks"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Startup query unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "startup/list_startup_entries.js",
+    "status": "ready",
+    "handler": "list_startup_entries"
+  },
+  {
+    "id": "startup_folder_items",
+    "title": "Startup folder items",
+    "description": "List items in user and common startup folders.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "startup folder items"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "schtasks"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Startup query unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "startup/startup_folder_items.js",
+    "status": "ready",
+    "handler": "startup_folder_items"
+  },
+  {
+    "id": "registry_startup_items",
+    "title": "Registry startup items",
+    "description": "List Run and RunOnce registry startup entries.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "registry startup items"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "schtasks"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Startup query unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "startup/registry_startup_items.js",
+    "status": "ready",
+    "handler": "registry_startup_items"
+  },
+  {
+    "id": "scheduled_tasks_summary",
+    "title": "Scheduled tasks summary",
+    "description": "Summarize scheduled tasks and their state.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "scheduled tasks summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "schtasks"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Startup query unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "startup/scheduled_tasks_summary.js",
+    "status": "ready",
+    "handler": "scheduled_tasks_summary"
+  },
+  {
+    "id": "suspicious_startup_candidates",
+    "title": "Suspicious startup candidates",
+    "description": "Flag startup items that look path-based or script-based.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "suspicious startup candidates"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "schtasks"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Startup query unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "startup/suspicious_startup_candidates.js",
+    "status": "ready",
+    "handler": "suspicious_startup_candidates"
+  },
+  {
+    "id": "duplicate_startup_candidates",
+    "title": "Duplicate startup candidates",
+    "description": "Detect startup names and commands that appear multiple times.",
+    "category": "startup",
+    "tags": [
+      "startup",
+      "task-manager",
+      "windows"
+    ],
+    "intent_examples": [
+      "duplicate startup candidates"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "schtasks"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Startup query unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "startup/duplicate_startup_candidates.js",
+    "status": "ready",
+    "handler": "duplicate_startup_candidates"
+  },
+  {
+    "id": "list_listening_ports",
+    "title": "List listening ports",
+    "description": "List listening TCP ports and UDP endpoints.",
+    "category": "network",
+    "tags": [
+      "network",
+      "ports",
+      "connections"
+    ],
+    "intent_examples": [
+      "list listening ports"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "netstat"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Network inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "network/list_listening_ports.js",
+    "status": "ready",
+    "handler": "list_listening_ports"
+  },
+  {
+    "id": "list_established_connections",
+    "title": "List established connections",
+    "description": "List established TCP connections.",
+    "category": "network",
+    "tags": [
+      "network",
+      "ports",
+      "connections"
+    ],
+    "intent_examples": [
+      "list established connections"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "netstat"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Network inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "network/list_established_connections.js",
+    "status": "ready",
+    "handler": "list_established_connections"
+  },
+  {
+    "id": "process_port_mapping",
+    "title": "Process-port mapping",
+    "description": "Map processes to their listening ports and connections.",
+    "category": "network",
+    "tags": [
+      "network",
+      "ports",
+      "connections"
+    ],
+    "intent_examples": [
+      "process port mapping"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "netstat"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Network inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "network/process_port_mapping.js",
+    "status": "ready",
+    "handler": "process_port_mapping"
+  },
+  {
+    "id": "basic_network_activity_summary",
+    "title": "Basic network activity summary",
+    "description": "Summarize port, connection, and remote peer activity.",
+    "category": "network",
+    "tags": [
+      "network",
+      "ports",
+      "connections"
+    ],
+    "intent_examples": [
+      "basic network activity summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "netstat"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Network inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "network/basic_network_activity_summary.js",
+    "status": "ready",
+    "handler": "basic_network_activity_summary"
+  },
+  {
+    "id": "local_network_diagnostics_summary",
+    "title": "Local network diagnostics summary",
+    "description": "Summarize local adapter and IP configuration.",
+    "category": "network",
+    "tags": [
+      "network",
+      "ports",
+      "connections"
+    ],
+    "intent_examples": [
+      "local network diagnostics summary"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell",
+      "netstat"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Network inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "network/local_network_diagnostics_summary.js",
+    "status": "ready",
+    "handler": "local_network_diagnostics_summary"
+  },
+  {
+    "id": "temp_cleanup_candidates",
+    "title": "Temp cleanup candidates",
+    "description": "List candidate temp files and directories for cleanup review.",
+    "category": "cleanup",
+    "tags": [
+      "cleanup",
+      "diagnostics",
+      "windows"
+    ],
+    "intent_examples": [
+      "temp cleanup candidates"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "File system inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "cleanup/temp_cleanup_candidates.js",
+    "status": "ready",
+    "handler": "temp_cleanup_candidates"
+  },
+  {
+    "id": "stale_log_candidates",
+    "title": "Stale log candidates",
+    "description": "List old log files and likely stale log artifacts.",
+    "category": "cleanup",
+    "tags": [
+      "cleanup",
+      "diagnostics",
+      "windows"
+    ],
+    "intent_examples": [
+      "stale log candidates"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "File system inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "cleanup/stale_log_candidates.js",
+    "status": "ready",
+    "handler": "stale_log_candidates"
+  },
+  {
+    "id": "generate_diagnostics_report",
+    "title": "Generate diagnostics report",
+    "description": "Build a combined Task Manager style diagnostics report.",
+    "category": "cleanup",
+    "tags": [
+      "cleanup",
+      "diagnostics",
+      "windows"
+    ],
+    "intent_examples": [
+      "generate diagnostics report"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "File system inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "cleanup/generate_diagnostics_report.js",
+    "status": "ready",
+    "handler": "generate_diagnostics_report"
+  },
+  {
+    "id": "generate_machine_readiness_report",
+    "title": "Generate machine readiness report",
+    "description": "Build a local AI readiness and command availability report.",
+    "category": "cleanup",
+    "tags": [
+      "cleanup",
+      "diagnostics",
+      "windows"
+    ],
+    "intent_examples": [
+      "generate machine readiness report"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "File system inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "cleanup/generate_machine_readiness_report.js",
+    "status": "ready",
+    "handler": "generate_machine_readiness_report"
+  },
+  {
+    "id": "generate_process_health_snapshot",
+    "title": "Generate process health snapshot",
+    "description": "Build a focused process health snapshot.",
+    "category": "cleanup",
+    "tags": [
+      "cleanup",
+      "diagnostics",
+      "windows"
+    ],
+    "intent_examples": [
+      "generate process health snapshot"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "File system inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "cleanup/generate_process_health_snapshot.js",
+    "status": "ready",
+    "handler": "generate_process_health_snapshot"
+  },
+  {
+    "id": "before_after_optimization_snapshot",
+    "title": "Before/after optimization snapshot",
+    "description": "Compare two snapshot payloads for resource changes.",
+    "category": "cleanup",
+    "tags": [
+      "cleanup",
+      "diagnostics",
+      "windows"
+    ],
+    "intent_examples": [
+      "before after optimization snapshot"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "before_path": {
+        "type": "string",
+        "default": ""
+      },
+      "after_path": {
+        "type": "string",
+        "default": ""
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node",
+      "powershell"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "File system inspection unavailable.",
+      "Permission denied."
+    ],
+    "entrypoint": "cleanup/before_after_optimization_snapshot.js",
+    "status": "ready",
+    "handler": "before_after_optimization_snapshot"
+  },
+  {
+    "id": "protected_processes",
+    "title": "Protected processes",
+    "description": "Return the protected process allowlist used by the pack.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "safety",
+      "guardrails"
+    ],
+    "intent_examples": [
+      "protected processes"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Policy metadata unavailable."
+    ],
+    "entrypoint": "policy/protected_processes.js",
+    "status": "ready",
+    "handler": "protected_processes"
+  },
+  {
+    "id": "protected_services",
+    "title": "Protected services",
+    "description": "Return the protected service allowlist used by the pack.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "safety",
+      "guardrails"
+    ],
+    "intent_examples": [
+      "protected services"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "limit": {
+        "type": "number",
+        "default": 25
+      },
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": true
+      },
+      "approve": {
+        "type": "boolean",
+        "default": false
+      },
+      "sort_by": {
+        "type": "string",
+        "default": ""
+      },
+      "sort_dir": {
+        "type": "string",
+        "default": "desc"
+      },
+      "min_age_minutes": {
+        "type": "number",
+        "default": 10
+      },
+      "min_memory_mb": {
+        "type": "number",
+        "default": 0
+      },
+      "min_cpu_pct": {
+        "type": "number",
+        "default": 0
+      },
+      "max_cpu_pct": {
+        "type": "number",
+        "default": 100
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Policy metadata unavailable."
+    ],
+    "entrypoint": "policy/protected_services.js",
+    "status": "ready",
+    "handler": "protected_services"
+  },
+  {
+    "id": "process_action_policy",
+    "title": "Process action policy",
+    "description": "Classify a process or process name against kill safety rules.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "safety",
+      "guardrails"
+    ],
+    "intent_examples": [
+      "process action policy"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "pid": {
+        "type": "number",
+        "default": null
+      },
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "action": {
+        "type": "string",
+        "default": "end"
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Policy metadata unavailable."
+    ],
+    "entrypoint": "policy/process_action_policy.js",
+    "status": "ready",
+    "handler": "process_action_policy"
+  },
+  {
+    "id": "service_action_policy",
+    "title": "Service action policy",
+    "description": "Classify a service or service name against control safety rules.",
+    "category": "policy",
+    "tags": [
+      "policy",
+      "safety",
+      "guardrails"
+    ],
+    "intent_examples": [
+      "service action policy"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "name": {
+        "type": "string",
+        "default": ""
+      },
+      "action": {
+        "type": "string",
+        "default": "stop"
+      }
+    },
+    "outputs": {
+      "items": "array",
+      "summary": "string",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Policy metadata unavailable."
+    ],
+    "entrypoint": "policy/service_action_policy.js",
+    "status": "ready",
+    "handler": "service_action_policy"
+  },
+  {
+    "id": "windows_skill_pack_lookup",
+    "title": "Windows skill pack lookup",
+    "description": "Resolve Windows requests to imported skill candidates.",
+    "category": "windows",
+    "tags": [
+      "windows",
+      "skill-pack",
+      "lookup",
+      "routing"
+    ],
+    "intent_examples": [
+      "open bluetooth settings",
+      "find programs and features"
+    ],
+    "avoid_if": [],
+    "inputs": {
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "limit": {
+        "type": "number",
+        "default": 5
+      }
+    },
+    "outputs": {
+      "match": "object",
+      "candidates": "array",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Resolved exact or ranked candidate skills from imported pack."
+    ],
+    "failure_modes": [
+      "No match for query."
+    ],
+    "entrypoint": "windows/windows_skill_pack_lookup.js",
+    "status": "ready",
+    "handler": "windows_skill_pack_lookup"
+  },
+  {
+    "id": "windows_skill_pack_execute",
+    "title": "Windows skill pack execute",
+    "description": "Execute a resolved Windows skill with confirmation guardrails.",
+    "category": "windows",
+    "tags": [
+      "windows",
+      "skill-pack",
+      "execute"
+    ],
+    "intent_examples": [
+      "open display settings",
+      "launch device manager"
+    ],
+    "avoid_if": [
+      "The user did not approve risky/admin actions.",
+      "Resolver confidence is low; use lookup first."
+    ],
+    "inputs": {
+      "query": {
+        "type": "string",
+        "default": ""
+      },
+      "skill_id": {
+        "type": "string",
+        "default": ""
+      },
+      "confirm": {
+        "type": "boolean",
+        "default": false
+      },
+      "dry_run": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "outputs": {
+      "execution_result": "object",
+      "warnings": "array",
+      "errors": "array",
+      "meta": "object"
+    },
+    "side_effects": [
+      "May open Windows settings/control panel/tools/windows."
+    ],
+    "risk_level": "high",
+    "requires_confirmation": true,
+    "supports_dry_run": true,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Requested target launched through executor."
+    ],
+    "failure_modes": [
+      "No skill match.",
+      "Unsupported executor.",
+      "Permission denied."
+    ],
+    "entrypoint": "windows/windows_skill_pack_execute.js",
+    "status": "ready",
+    "handler": "windows_skill_pack_execute"
+  }
+]

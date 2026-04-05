@@ -1,0 +1,92 @@
+{
+  "aliases": [
+    {
+      "alias": "work draft",
+      "aliasId": "hz.auto.apps.work.draft.readme.src-md.alias.1",
+      "canonical": "work — draft"
+    }
+  ],
+  "app": "work",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.work.draft.readme.src-md",
+  "domain": "work",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.work.draft.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Work — draft",
+      "tokens": [
+        "work",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.work.draft.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Work — draft",
+      "tokens": [
+        "work",
+        "draft"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 43,
+      "charStart": 18,
+      "factId": "hz.auto.apps.work.draft.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "WIP work-surface content.",
+      "tokens": [
+        "wip",
+        "work",
+        "surface",
+        "content"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.work.draft.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Work — draft"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/work/draft/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 45,
+        "start": 0
+      }
+    ],
+    "hash": "01732da09a50d3139053a03f27d54c1cb861b7169981b82464e733c073bf8a6d",
+    "sourceType": "draft"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "WIP work-surface content.",
+    "short": "WIP work-surface content.",
+    "tokens": [
+      "work",
+      "draft",
+      "wip",
+      "work",
+      "surface",
+      "content",
+      "wip",
+      "work",
+      "surface",
+      "content"
+    ]
+  },
+  "title": "Work — draft"
+}

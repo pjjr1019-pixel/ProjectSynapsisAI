@@ -1,0 +1,531 @@
+{
+  "aliases": [
+    {
+      "alias": "0d008dbdc5f9a04f",
+      "aliasId": "hz.web.0d008dbdc5f9a04f.alias.1",
+      "canonical": "webmention - indieweb"
+    },
+    {
+      "alias": "web 0d008dbdc5f9a04f",
+      "aliasId": "hz.web.0d008dbdc5f9a04f.alias.2",
+      "canonical": "webmention - indieweb"
+    },
+    {
+      "alias": "webmention - indieweb",
+      "aliasId": "hz.web.0d008dbdc5f9a04f.alias.3",
+      "canonical": "webmention - indieweb"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.0d008dbdc5f9a04f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0d008dbdc5f9a04f.entity.1",
+      "kind": "document",
+      "name": "Webmention - IndieWeb",
+      "tokens": [
+        "webmention",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d008dbdc5f9a04f.entity.2",
+      "kind": "heading",
+      "name": "Webmention - IndieWeb",
+      "tokens": [
+        "webmention",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d008dbdc5f9a04f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d008dbdc5f9a04f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0d008dbdc5f9a04f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 26,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieweb.org/Webmention",
+      "tokens": [
+        "source",
+        "https",
+        "indieweb",
+        "org",
+        "webmention"
+      ]
+    },
+    {
+      "charEnd": 355,
+      "charStart": 117,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.1",
+      "kind": "bullet",
+      "text": "Webmention - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "tokens": [
+        "webmention",
+        "indieweb",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "explore",
+        "indieweb",
+        "principles",
+        "community",
+        "posts",
+        "visit",
+        "random",
+        "site",
+        "get",
+        "personal",
+        "site",
+        "faq",
+        "subscribe",
+        "newsletter",
+        "new",
+        "coming",
+        "up",
+        "soon"
+      ]
+    },
+    {
+      "charEnd": 384,
+      "charStart": 356,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.2",
+      "kind": "bullet",
+      "text": "🎁 IndieWeb Gift Calendar!",
+      "tokens": [
+        "indieweb",
+        "gift",
+        "calendar"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 385,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.3",
+      "kind": "bullet",
+      "text": "🎪 IWC Düsseldorf 4/25…26 Join the community!",
+      "tokens": [
+        "iwc",
+        "sseldorf",
+        "25",
+        "26",
+        "join",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 2234,
+      "charStart": 433,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.4",
+      "kind": "bullet",
+      "text": "🌈 Code of conduct 💬 Join #indieweb chat 📜 Chat log 📅 Events 👥 Meetups: 2026-03-31 👕☕️ IndieWeb shirts & mugs ❤️ Sponsor Developers 🔩 Building Blocks 🛠 Tools 🧰 Projects 🔌 Standards 💬 Join developer chat Wiki resources 👤 Login ✳️ Recent changes 🖼 Recent uploads 🎲 Random page 📑 6,006 articles © Wiki content is CC0 Search Search Log in Personal tools Log in Contents move to sidebar hide Beginning 1 Why 2 How to implement or display 3 IndieWeb Examples Toggle IndieWeb Examples subsection 3.1 Aaron Parecki with p3k 3.2 Ben Werdmuller with Known 3.3 Barnaby Walters with Taproot 3.4 Jeremy Keith with adactio.com 3.5 Barry Frost with barryfrost.com 3.6 Bear with bear.im 3.7 Kartik Prabhu with kartikprabhu.com 3.8 Jeena with jeena.net 3.9 Pelle Wessman with webmention.herokuapp.com 3.10 Christian Kruse with wwwtech.de 3.11 Andy Sylvester with WordPress plugin 3.12 gRegor Morrill with ProcessWire plugin 3.13 David Shanske with WordPress plugin 3.14 Ben Roberts with ben.thatmustbe.me 3.15 Chris Aldrich with WordPress plugin 3.16 Khürt Williams with WordPress plugin 3.17 Will Norris with webmention.herokuapp.com 3.18 Joel Dueck with thelocalyarn.com 3.19 Johnny Oskarsson with joskar.se 3.20 Stuart Langridge with Pelican additions 3.21 Alex Kearney with IndieAnndroid 3.22 Tantek with Falcon 3.23 Jason Garber with FrancisCMS 3.24 Calum Ryan with calumryan.com 3.25 Sebastiaan Andeweg on seblog.nl 3.26 Daniel Goldsmith with Hugo 3.27 Amit Gawande with amitgawande.com 3.28 fluffy with beesbuzz.biz 3.29 Jamie Tanna with Hugo 3.30 Wouter Groeneveld with Hugo 3.31 Alberto Mardegan with Bussator 3.32 Jan-Lukas Else with Hugo and now GoBlog 3.33 Danny Steenman with GatsbyJS 3.34 Ferdinand Mütsch with Hexo 3.35 Rasul Kireev with Gridsome 3.36 Max Dietrich with Next.js 3.37 Mrs.",
+      "tokens": [
+        "code",
+        "conduct",
+        "join",
+        "indieweb",
+        "chat",
+        "chat",
+        "log",
+        "events",
+        "meetups",
+        "2026",
+        "03",
+        "31",
+        "indieweb",
+        "shirts",
+        "mugs",
+        "sponsor",
+        "developers",
+        "building",
+        "blocks",
+        "tools",
+        "projects",
+        "standards",
+        "join",
+        "developer",
+        "chat",
+        "wiki",
+        "resources",
+        "login",
+        "recent",
+        "changes",
+        "recent",
+        "uploads",
+        "random",
+        "page",
+        "006",
+        "articles",
+        "wiki",
+        "content",
+        "cc0",
+        "search",
+        "search",
+        "log",
+        "personal",
+        "tools",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "beginning",
+        "why",
+        "implement",
+        "display",
+        "indieweb",
+        "examples",
+        "toggle",
+        "indieweb",
+        "examples",
+        "subsection",
+        "aaron",
+        "parecki",
+        "p3k",
+        "ben",
+        "werdmuller",
+        "known",
+        "barnaby",
+        "walters",
+        "taproot",
+        "jeremy",
+        "keith",
+        "adactio",
+        "com",
+        "barry",
+        "frost",
+        "barryfrost",
+        "com",
+        "bear",
+        "bear",
+        "im",
+        "kartik",
+        "prabhu",
+        "kartikprabhu",
+        "com",
+        "jeena",
+        "jeena",
+        "net",
+        "pelle",
+        "wessman",
+        "webmention",
+        "herokuapp",
+        "com",
+        "10",
+        "christian",
+        "kruse",
+        "wwwtech",
+        "de",
+        "11",
+        "andy",
+        "sylvester",
+        "wordpress",
+        "plugin",
+        "12",
+        "gregor",
+        "morrill",
+        "processwire",
+        "plugin",
+        "13",
+        "david",
+        "shanske",
+        "wordpress",
+        "plugin",
+        "14",
+        "ben",
+        "roberts",
+        "ben",
+        "thatmustbe",
+        "15",
+        "chris",
+        "aldrich",
+        "wordpress",
+        "plugin",
+        "16",
+        "kh",
+        "rt",
+        "williams",
+        "wordpress",
+        "plugin",
+        "17",
+        "will",
+        "norris",
+        "webmention",
+        "herokuapp",
+        "com",
+        "18",
+        "joel",
+        "dueck",
+        "thelocalyarn",
+        "com",
+        "19",
+        "johnny",
+        "oskarsson",
+        "joskar",
+        "se",
+        "20",
+        "stuart",
+        "langridge",
+        "pelican",
+        "additions",
+        "21",
+        "alex",
+        "kearney",
+        "indieanndroid",
+        "22",
+        "tantek",
+        "falcon",
+        "23",
+        "jason",
+        "garber",
+        "franciscms",
+        "24",
+        "calum",
+        "ryan",
+        "calumryan",
+        "com",
+        "25",
+        "sebastiaan",
+        "andeweg",
+        "seblog",
+        "nl",
+        "26",
+        "daniel",
+        "goldsmith",
+        "hugo",
+        "27",
+        "amit",
+        "gawande",
+        "amitgawande",
+        "com",
+        "28",
+        "fluffy",
+        "beesbuzz",
+        "biz",
+        "29",
+        "jamie",
+        "tanna",
+        "hugo",
+        "30",
+        "wouter",
+        "groeneveld",
+        "hugo",
+        "31",
+        "alberto",
+        "mardegan",
+        "bussator",
+        "32",
+        "jan",
+        "lukas",
+        "else",
+        "hugo",
+        "now",
+        "goblog",
+        "33",
+        "danny",
+        "steenman",
+        "gatsbyjs",
+        "34",
+        "ferdinand",
+        "tsch",
+        "hexo",
+        "35",
+        "rasul",
+        "kireev",
+        "gridsome",
+        "36",
+        "max",
+        "dietrich",
+        "next",
+        "js",
+        "37",
+        "mrs"
+      ]
+    },
+    {
+      "charEnd": 2262,
+      "charStart": 2249,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.5",
+      "kind": "bullet",
+      "text": "webmentions",
+      "tokens": [
+        "webmentions"
+      ]
+    },
+    {
+      "charEnd": 2275,
+      "charStart": 2263,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.6",
+      "kind": "bullet",
+      "text": "webmention",
+      "tokens": [
+        "webmention"
+      ]
+    },
+    {
+      "charEnd": 2281,
+      "charStart": 2276,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 2289,
+      "charStart": 2282,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.8",
+      "kind": "bullet",
+      "text": "using",
+      "tokens": [
+        "using"
+      ]
+    },
+    {
+      "charEnd": 2296,
+      "charStart": 2290,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.9",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 2303,
+      "charStart": 2297,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.10",
+      "kind": "bullet",
+      "text": "send",
+      "tokens": [
+        "send"
+      ]
+    },
+    {
+      "charEnd": 2311,
+      "charStart": 2304,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.11",
+      "kind": "bullet",
+      "text": "posts",
+      "tokens": [
+        "posts"
+      ]
+    },
+    {
+      "charEnd": 2320,
+      "charStart": 2312,
+      "factId": "hz.web.0d008dbdc5f9a04f.fact.12",
+      "kind": "bullet",
+      "text": "plugin",
+      "tokens": [
+        "plugin"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.0d008dbdc5f9a04f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Webmention - IndieWeb"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.0d008dbdc5f9a04f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2247,
+      "charStart": 2236,
+      "headingId": "hz.web.0d008dbdc5f9a04f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2332,
+      "charStart": 2322,
+      "headingId": "hz.web.0d008dbdc5f9a04f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0d008dbdc5f9a04f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5571,
+        "start": 0
+      }
+    ],
+    "hash": "1e94aea16e9b64420afa72ecd717fc45cdf8559ac1f1e00e1ddf54e4954b2f79",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Webmention - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "🎁 IndieWeb Gift Calendar!",
+      "🎪 IWC Düsseldorf 4/25…26 Join the community!"
+    ],
+    "medium": "Source: https://indieweb.org/Webmention",
+    "short": "Source: https://indieweb.org/Webmention",
+    "tokens": [
+      "webmention",
+      "indieweb",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "webmention",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "webmention"
+    ]
+  },
+  "title": "Webmention - IndieWeb"
+}

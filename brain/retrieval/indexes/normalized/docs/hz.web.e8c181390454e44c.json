@@ -1,0 +1,400 @@
+{
+  "aliases": [
+    {
+      "alias": "e8c181390454e44c",
+      "aliasId": "hz.web.e8c181390454e44c.alias.1",
+      "canonical": "www.threads.net"
+    },
+    {
+      "alias": "web e8c181390454e44c",
+      "aliasId": "hz.web.e8c181390454e44c.alias.2",
+      "canonical": "www.threads.net"
+    },
+    {
+      "alias": "www.threads.net",
+      "aliasId": "hz.web.e8c181390454e44c.alias.3",
+      "canonical": "www.threads.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.e8c181390454e44c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e8c181390454e44c.entity.1",
+      "kind": "document",
+      "name": "www.threads.net",
+      "tokens": [
+        "www",
+        "threads",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8c181390454e44c.entity.2",
+      "kind": "heading",
+      "name": "www.threads.net",
+      "tokens": [
+        "www",
+        "threads",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8c181390454e44c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8c181390454e44c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8c181390454e44c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 70,
+      "charStart": 20,
+      "factId": "hz.web.e8c181390454e44c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.threads.net/data/manifest.json",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "threads",
+        "net",
+        "data",
+        "manifest",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 1342,
+      "charStart": 122,
+      "factId": "hz.web.e8c181390454e44c.fact.1",
+      "kind": "bullet",
+      "text": "{\"id\":\"barcelona_web\",\"name\":\"Threads\",\"short_name\":\"Threads\",\"description\":\"Say more with Threads \\u2014 Instagram\\u2019s text-based conversation app.\",\"related_applications\":[{\"platform\":\"play\",\"url\":\"https:\\/\\/play.google.com\\/store\\/apps\\/details?id=com.instagram.barcelona\",\"id\":\"com.instagram.barcelona\"}],\"edge_side_panel\":{\"preferred_width\":376},\"start_url\":\"\\/?utm_source=pwa_homescreen&__pwa=1\",\"orientation\":\"landscape-primary\",\"display\":\"standalone\",\"background_color\":\"#ffffff\",\"theme_color\":\"#ffffff\",\"icons\":[{\"purpose\":\"any\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yp\\/r\\/9gglsIJZ8Bt.webp\",\"sizes\":\"192x192\",\"type\":\"image\\/png\"},{\"purpose\":\"any\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yB\\/r\\/kX_g6fTRN9F.webp\",\"sizes\":\"512x512\",\"type\":\"image\\/png\"},{\"purpose\":\"maskable\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yM\\/r\\/h1DANLym4e8.webp\",\"sizes\":\"192x192\",\"type\":\"image\\/png\"},{\"purpose\":\"maskable\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yj\\/r\\/LB3SnKD5tQj.webp\",\"sizes\":\"512x512\",\"type\":\"image\\/png\"},{\"purpose\":\"any\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yp\\/r\\/a39oFm06sEy.svg\",\"sizes\":\"192x192\",\"type\":\"image\\/svg+xml\"}],\"lang\":\"en-US\"}",
+      "tokens": [
+        "id",
+        "barcelona_web",
+        "name",
+        "threads",
+        "short_name",
+        "threads",
+        "description",
+        "say",
+        "more",
+        "threads",
+        "u2014",
+        "instagram",
+        "u2019s",
+        "text",
+        "based",
+        "conversation",
+        "app",
+        "related_applications",
+        "platform",
+        "play",
+        "url",
+        "https",
+        "play",
+        "google",
+        "com",
+        "store",
+        "apps",
+        "details",
+        "id",
+        "com",
+        "instagram",
+        "barcelona",
+        "id",
+        "com",
+        "instagram",
+        "barcelona",
+        "edge_side_panel",
+        "preferred_width",
+        "376",
+        "start_url",
+        "utm_source",
+        "pwa_homescreen",
+        "__pwa",
+        "orientation",
+        "landscape",
+        "primary",
+        "display",
+        "standalone",
+        "background_color",
+        "ffffff",
+        "theme_color",
+        "ffffff",
+        "icons",
+        "purpose",
+        "any",
+        "src",
+        "https",
+        "static",
+        "cdninstagram",
+        "com",
+        "rsrc",
+        "php",
+        "yp",
+        "9gglsijz8bt",
+        "webp",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "any",
+        "src",
+        "https",
+        "static",
+        "cdninstagram",
+        "com",
+        "rsrc",
+        "php",
+        "yb",
+        "kx_g6ftrn9f",
+        "webp",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "maskable",
+        "src",
+        "https",
+        "static",
+        "cdninstagram",
+        "com",
+        "rsrc",
+        "php",
+        "ym",
+        "h1danlym4e8",
+        "webp",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "maskable",
+        "src",
+        "https",
+        "static",
+        "cdninstagram",
+        "com",
+        "rsrc",
+        "php",
+        "yj",
+        "lb3snkd5tqj",
+        "webp",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "any",
+        "src",
+        "https",
+        "static",
+        "cdninstagram",
+        "com",
+        "rsrc",
+        "php",
+        "yp",
+        "a39ofm06sey",
+        "svg",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "svg",
+        "xml",
+        "lang",
+        "en",
+        "us"
+      ]
+    },
+    {
+      "charEnd": 1362,
+      "charStart": 1357,
+      "factId": "hz.web.e8c181390454e44c.fact.2",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1370,
+      "charStart": 1363,
+      "factId": "hz.web.e8c181390454e44c.fact.3",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1385,
+      "charStart": 1371,
+      "factId": "hz.web.e8c181390454e44c.fact.4",
+      "kind": "bullet",
+      "text": "cdninstagram",
+      "tokens": [
+        "cdninstagram"
+      ]
+    },
+    {
+      "charEnd": 1393,
+      "charStart": 1386,
+      "factId": "hz.web.e8c181390454e44c.fact.5",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 1399,
+      "charStart": 1394,
+      "factId": "hz.web.e8c181390454e44c.fact.6",
+      "kind": "bullet",
+      "text": "php",
+      "tokens": [
+        "php"
+      ]
+    },
+    {
+      "charEnd": 1409,
+      "charStart": 1400,
+      "factId": "hz.web.e8c181390454e44c.fact.7",
+      "kind": "bullet",
+      "text": "purpose",
+      "tokens": [
+        "purpose"
+      ]
+    },
+    {
+      "charEnd": 1416,
+      "charStart": 1410,
+      "factId": "hz.web.e8c181390454e44c.fact.8",
+      "kind": "bullet",
+      "text": "rsrc",
+      "tokens": [
+        "rsrc"
+      ]
+    },
+    {
+      "charEnd": 1424,
+      "charStart": 1417,
+      "factId": "hz.web.e8c181390454e44c.fact.9",
+      "kind": "bullet",
+      "text": "sizes",
+      "tokens": [
+        "sizes"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.e8c181390454e44c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.threads.net"
+    },
+    {
+      "charEnd": 120,
+      "charStart": 110,
+      "headingId": "hz.web.e8c181390454e44c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1355,
+      "charStart": 1344,
+      "headingId": "hz.web.e8c181390454e44c.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1436,
+      "charStart": 1426,
+      "headingId": "hz.web.e8c181390454e44c.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e8c181390454e44c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2898,
+        "start": 0
+      }
+    ],
+    "hash": "e8edf954dc766456a648afe76fd7df0f4b141de6ea996a353069163c8e2352ce",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"id\":\"barcelona_web\",\"name\":\"Threads\",\"short_name\":\"Threads\",\"description\":\"Say more with Threads \\u2014 Instagram\\u2019s text-based conversation app.\",\"related_applications\":[{\"platform\":\"play\",\"url\":\"https:\\/\\/play.google.com\\/store\\/apps\\/details?id=com.instagram.barcelona\",\"id\":\"com.instagram.barcelona\"}],\"edge_side_panel\":{\"preferred_width\":376},\"start_url\":\"\\/?utm_source=pwa_homescreen&__pwa=1\",\"orientation\":\"landscape-primary\",\"display\":\"standalone\",\"background_color\":\"#ffffff\",\"theme_color\":\"#ffffff\",\"icons\":[{\"purpose\":\"any\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yp\\/r\\/9gglsIJZ8Bt.webp\",\"sizes\":\"192x192\",\"type\":\"image\\/png\"},{\"purpose\":\"any\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yB\\/r\\/kX_g6fTRN9F.webp\",\"sizes\":\"512x512\",\"type\":\"image\\/png\"},{\"purpose\":\"maskable\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yM\\/r\\/h1DANLym4e8.webp\",\"sizes\":\"192x192\",\"type\":\"image\\/png\"},{\"purpose\":\"maskable\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yj\\/r\\/LB3SnKD5tQj.webp\",\"sizes\":\"512x512\",\"type\":\"image\\/png\"},{\"purpose\":\"any\",\"src\":\"https:\\/\\/static.cdninstagram.com\\/rsrc.php\\/yp\\/r\\/a39oFm06sEy.svg\",\"sizes\":\"192x192\",\"type\":\"image\\/svg+xml\"}],\"lang\":\"en-US\"}",
+      "com",
+      "https"
+    ],
+    "medium": "Source: https://www.threads.net/data/manifest.json",
+    "short": "Source: https://www.threads.net/data/manifest.json",
+    "tokens": [
+      "www",
+      "threads",
+      "net",
+      "source",
+      "https",
+      "www",
+      "threads",
+      "net",
+      "data",
+      "manifest",
+      "json",
+      "source",
+      "https",
+      "www",
+      "threads",
+      "net",
+      "data",
+      "manifest",
+      "json"
+    ]
+  },
+  "title": "www.threads.net"
+}

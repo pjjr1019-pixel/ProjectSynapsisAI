@@ -1,0 +1,381 @@
+{
+  "aliases": [
+    {
+      "alias": "6a755bb551f9461c",
+      "aliasId": "hz.web.6a755bb551f9461c.alias.1",
+      "canonical": "přihlášení a připojení na linkedin | linkedin"
+    },
+    {
+      "alias": "p ihl en a p ipojen na linkedin linkedin",
+      "aliasId": "hz.web.6a755bb551f9461c.alias.2",
+      "canonical": "přihlášení a připojení na linkedin | linkedin"
+    },
+    {
+      "alias": "web 6a755bb551f9461c",
+      "aliasId": "hz.web.6a755bb551f9461c.alias.3",
+      "canonical": "přihlášení a připojení na linkedin | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.65,
+  "docId": "hz.web.6a755bb551f9461c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6a755bb551f9461c.entity.1",
+      "kind": "document",
+      "name": "Přihlášení a připojení na LinkedIn | LinkedIn",
+      "tokens": [
+        "ihl",
+        "en",
+        "ipojen",
+        "na",
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a755bb551f9461c.entity.2",
+      "kind": "heading",
+      "name": "Přihlášení a připojení na LinkedIn | LinkedIn",
+      "tokens": [
+        "ihl",
+        "en",
+        "ipojen",
+        "na",
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a755bb551f9461c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a755bb551f9461c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a755bb551f9461c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 91,
+      "charStart": 50,
+      "factId": "hz.web.6a755bb551f9461c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login/cs",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "cs"
+      ]
+    },
+    {
+      "charEnd": 428,
+      "charStart": 143,
+      "factId": "hz.web.6a755bb551f9461c.fact.1",
+      "kind": "bullet",
+      "text": "Přihlášení a připojení na LinkedIn | LinkedIn Přihlásit se Přihlásit se pomocí Apple Přihlášení pomocí klíče Kliknutím na tlačítko Pokračovat vyjadřujete souhlas s podmínkami uvedenými v dokumentech Smlouva s uživatelem , Zásady ochrany soukromí a Zásady pro soubory cookie LinkedIn.",
+      "tokens": [
+        "ihl",
+        "en",
+        "ipojen",
+        "na",
+        "linkedin",
+        "linkedin",
+        "ihl",
+        "sit",
+        "se",
+        "ihl",
+        "sit",
+        "se",
+        "pomoc",
+        "apple",
+        "ihl",
+        "en",
+        "pomoc",
+        "kl",
+        "kliknut",
+        "na",
+        "tla",
+        "tko",
+        "pokra",
+        "ovat",
+        "vyjad",
+        "ujete",
+        "souhlas",
+        "podm",
+        "nkami",
+        "uveden",
+        "mi",
+        "dokumentech",
+        "smlouva",
+        "ivatelem",
+        "sady",
+        "ochrany",
+        "soukrom",
+        "sady",
+        "pro",
+        "soubory",
+        "cookie",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 492,
+      "charStart": 429,
+      "factId": "hz.web.6a755bb551f9461c.fact.2",
+      "kind": "bullet",
+      "text": "nebo E-mail nebo telefon Heslo Zobrazit Zapomněli jste heslo?",
+      "tokens": [
+        "nebo",
+        "mail",
+        "nebo",
+        "telefon",
+        "heslo",
+        "zobrazit",
+        "zapomn",
+        "li",
+        "jste",
+        "heslo"
+      ]
+    },
+    {
+      "charEnd": 645,
+      "charStart": 493,
+      "factId": "hz.web.6a755bb551f9461c.fact.3",
+      "kind": "bullet",
+      "text": "Zůstat přihlášen(a) Přihlásit se Na vaši primární e-mailovou adresu jsme poslali jednorázový odkaz Pomocí odkazu se přihlásíte ke svému účtu LinkedIn.",
+      "tokens": [
+        "stat",
+        "ihl",
+        "en",
+        "ihl",
+        "sit",
+        "se",
+        "na",
+        "va",
+        "prim",
+        "rn",
+        "mailovou",
+        "adresu",
+        "jsme",
+        "poslali",
+        "jednor",
+        "zov",
+        "odkaz",
+        "pomoc",
+        "odkazu",
+        "se",
+        "ihl",
+        "te",
+        "ke",
+        "sv",
+        "mu",
+        "tu",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 646,
+      "factId": "hz.web.6a755bb551f9461c.fact.4",
+      "kind": "bullet",
+      "text": "Pokud nevidíte e-mail ve schránce, podívejte se do spamu.",
+      "tokens": [
+        "pokud",
+        "nevid",
+        "te",
+        "mail",
+        "ve",
+        "schr",
+        "nce",
+        "pod",
+        "vejte",
+        "se",
+        "spamu"
+      ]
+    },
+    {
+      "charEnd": 730,
+      "charStart": 720,
+      "factId": "hz.web.6a755bb551f9461c.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 731,
+      "factId": "hz.web.6a755bb551f9461c.fact.6",
+      "kind": "bullet",
+      "text": "sady",
+      "tokens": [
+        "sady"
+      ]
+    },
+    {
+      "charEnd": 743,
+      "charStart": 738,
+      "factId": "hz.web.6a755bb551f9461c.fact.7",
+      "kind": "bullet",
+      "text": "ihl",
+      "tokens": [
+        "ihl"
+      ]
+    },
+    {
+      "charEnd": 748,
+      "charStart": 744,
+      "factId": "hz.web.6a755bb551f9461c.fact.8",
+      "kind": "bullet",
+      "text": "se",
+      "tokens": [
+        "se"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 749,
+      "factId": "hz.web.6a755bb551f9461c.fact.9",
+      "kind": "bullet",
+      "text": "na",
+      "tokens": [
+        "na"
+      ]
+    },
+    {
+      "charEnd": 763,
+      "charStart": 754,
+      "factId": "hz.web.6a755bb551f9461c.fact.10",
+      "kind": "bullet",
+      "text": "ochrany",
+      "tokens": [
+        "ochrany"
+      ]
+    },
+    {
+      "charEnd": 773,
+      "charStart": 764,
+      "factId": "hz.web.6a755bb551f9461c.fact.11",
+      "kind": "bullet",
+      "text": "soukrom",
+      "tokens": [
+        "soukrom"
+      ]
+    },
+    {
+      "charEnd": 782,
+      "charStart": 774,
+      "factId": "hz.web.6a755bb551f9461c.fact.12",
+      "kind": "bullet",
+      "text": "cookie",
+      "tokens": [
+        "cookie"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 48,
+      "charStart": 1,
+      "headingId": "hz.web.6a755bb551f9461c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Přihlášení a připojení na LinkedIn | LinkedIn"
+    },
+    {
+      "charEnd": 141,
+      "charStart": 131,
+      "headingId": "hz.web.6a755bb551f9461c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 718,
+      "charStart": 707,
+      "headingId": "hz.web.6a755bb551f9461c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 794,
+      "charStart": 784,
+      "headingId": "hz.web.6a755bb551f9461c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6a755bb551f9461c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2754,
+        "start": 0
+      }
+    ],
+    "hash": "8af1b5217958e66f8cc4a6e562789553bcbeda2b4e4698823eaf9831c2c20d49",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Přihlášení a připojení na LinkedIn | LinkedIn Přihlásit se Přihlásit se pomocí Apple Přihlášení pomocí klíče Kliknutím na tlačítko Pokračovat vyjadřujete souhlas s podmínkami uvedenými v dokumentech Smlouva s uživatelem , Zásady ochrany soukromí a Zásady pro soubory cookie LinkedIn.",
+      "nebo E-mail nebo telefon Heslo Zobrazit Zapomněli jste heslo?",
+      "Zůstat přihlášen(a) Přihlásit se Na vaši primární e-mailovou adresu jsme poslali jednorázový odkaz Pomocí odkazu se přihlásíte ke svému účtu LinkedIn."
+    ],
+    "medium": "Source: https://www.linkedin.com/login/cs",
+    "short": "Source: https://www.linkedin.com/login/cs",
+    "tokens": [
+      "ihl",
+      "en",
+      "ipojen",
+      "na",
+      "linkedin",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "cs",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "cs"
+    ]
+  },
+  "title": "Přihlášení a připojení na LinkedIn | LinkedIn"
+}

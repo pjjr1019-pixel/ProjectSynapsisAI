@@ -1,0 +1,353 @@
+{
+  "aliases": [
+    {
+      "alias": "1546e19f43912dcb",
+      "aliasId": "hz.web.1546e19f43912dcb.alias.1",
+      "canonical": "neatnik id / sign in"
+    },
+    {
+      "alias": "neatnik id sign in",
+      "aliasId": "hz.web.1546e19f43912dcb.alias.2",
+      "canonical": "neatnik id / sign in"
+    },
+    {
+      "alias": "web 1546e19f43912dcb",
+      "aliasId": "hz.web.1546e19f43912dcb.alias.3",
+      "canonical": "neatnik id / sign in"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.53,
+  "docId": "hz.web.1546e19f43912dcb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1546e19f43912dcb.entity.1",
+      "kind": "document",
+      "name": "Neatnik ID / Sign in",
+      "tokens": [
+        "neatnik",
+        "id",
+        "sign"
+      ]
+    },
+    {
+      "entityId": "hz.web.1546e19f43912dcb.entity.2",
+      "kind": "heading",
+      "name": "Neatnik ID / Sign in",
+      "tokens": [
+        "neatnik",
+        "id",
+        "sign"
+      ]
+    },
+    {
+      "entityId": "hz.web.1546e19f43912dcb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1546e19f43912dcb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1546e19f43912dcb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 25,
+      "factId": "hz.web.1546e19f43912dcb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://app.neatnik.net/id/",
+      "tokens": [
+        "source",
+        "https",
+        "app",
+        "neatnik",
+        "net",
+        "id"
+      ]
+    },
+    {
+      "charEnd": 242,
+      "charStart": 112,
+      "factId": "hz.web.1546e19f43912dcb.fact.1",
+      "kind": "bullet",
+      "text": "Neatnik ID / Sign in Neatnik ID Sign in Help Sign into Neatnik ID Access and manage all of your Neatnik stuff in one neat place.",
+      "tokens": [
+        "neatnik",
+        "id",
+        "sign",
+        "neatnik",
+        "id",
+        "sign",
+        "help",
+        "sign",
+        "into",
+        "neatnik",
+        "id",
+        "access",
+        "manage",
+        "all",
+        "your",
+        "neatnik",
+        "stuff",
+        "one",
+        "neat",
+        "place"
+      ]
+    },
+    {
+      "charEnd": 281,
+      "charStart": 243,
+      "factId": "hz.web.1546e19f43912dcb.fact.2",
+      "kind": "bullet",
+      "text": "Sign in below to get things rolling.",
+      "tokens": [
+        "sign",
+        "below",
+        "get",
+        "things",
+        "rolling"
+      ]
+    },
+    {
+      "charEnd": 316,
+      "charStart": 282,
+      "factId": "hz.web.1546e19f43912dcb.fact.3",
+      "kind": "bullet",
+      "text": "Which email do I use to sign in?",
+      "tokens": [
+        "email",
+        "use",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 412,
+      "charStart": 317,
+      "factId": "hz.web.1546e19f43912dcb.fact.4",
+      "kind": "bullet",
+      "text": "You should use the account email that you have on file with omg.lol, rad.dad, or DNS Kitchen.",
+      "tokens": [
+        "use",
+        "account",
+        "email",
+        "have",
+        "file",
+        "omg",
+        "lol",
+        "rad",
+        "dad",
+        "dns",
+        "kitchen"
+      ]
+    },
+    {
+      "charEnd": 436,
+      "charStart": 427,
+      "factId": "hz.web.1546e19f43912dcb.fact.5",
+      "kind": "bullet",
+      "text": "neatnik",
+      "tokens": [
+        "neatnik"
+      ]
+    },
+    {
+      "charEnd": 443,
+      "charStart": 437,
+      "factId": "hz.web.1546e19f43912dcb.fact.6",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 451,
+      "charStart": 444,
+      "factId": "hz.web.1546e19f43912dcb.fact.7",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 456,
+      "charStart": 452,
+      "factId": "hz.web.1546e19f43912dcb.fact.8",
+      "kind": "bullet",
+      "text": "id",
+      "tokens": [
+        "id"
+      ]
+    },
+    {
+      "charEnd": 462,
+      "charStart": 457,
+      "factId": "hz.web.1546e19f43912dcb.fact.9",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 468,
+      "charStart": 463,
+      "factId": "hz.web.1546e19f43912dcb.fact.10",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 474,
+      "charStart": 469,
+      "factId": "hz.web.1546e19f43912dcb.fact.11",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 481,
+      "charStart": 475,
+      "factId": "hz.web.1546e19f43912dcb.fact.12",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.1546e19f43912dcb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Neatnik ID / Sign in"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.1546e19f43912dcb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 425,
+      "charStart": 414,
+      "headingId": "hz.web.1546e19f43912dcb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 493,
+      "charStart": 483,
+      "headingId": "hz.web.1546e19f43912dcb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1546e19f43912dcb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1243,
+        "start": 0
+      }
+    ],
+    "hash": "08b5d175a6d3f9f5297af44fc6638267b1a8fe5174b4ed47d1628cb4ad2d170f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.1546e19f43912dcb.rule.1",
+      "text": "- You should use the account email that you have on file with omg.lol, rad.dad, or DNS Kitchen.",
+      "tokens": [
+        "use",
+        "account",
+        "email",
+        "have",
+        "file",
+        "omg",
+        "lol",
+        "rad",
+        "dad",
+        "dns",
+        "kitchen"
+      ]
+    },
+    {
+      "ruleId": "hz.web.1546e19f43912dcb.rule.2",
+      "text": "You should use the account email that you have on file with omg.lol, rad.dad, or DNS Kitchen.",
+      "tokens": [
+        "use",
+        "account",
+        "email",
+        "have",
+        "file",
+        "omg",
+        "lol",
+        "rad",
+        "dad",
+        "dns",
+        "kitchen"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Neatnik ID / Sign in Neatnik ID Sign in Help Sign into Neatnik ID Access and manage all of your Neatnik stuff in one neat place.",
+      "Sign in below to get things rolling.",
+      "Which email do I use to sign in?"
+    ],
+    "medium": "Source: https://app.neatnik.net/id/",
+    "short": "Source: https://app.neatnik.net/id/",
+    "tokens": [
+      "neatnik",
+      "id",
+      "sign",
+      "source",
+      "https",
+      "app",
+      "neatnik",
+      "net",
+      "id",
+      "source",
+      "https",
+      "app",
+      "neatnik",
+      "net",
+      "id"
+    ]
+  },
+  "title": "Neatnik ID / Sign in"
+}

@@ -1,0 +1,332 @@
+{
+  "aliases": [
+    {
+      "alias": "3ec752a900d20667",
+      "aliasId": "hz.web.3ec752a900d20667.alias.1",
+      "canonical": "qunit"
+    },
+    {
+      "alias": "qunit",
+      "aliasId": "hz.web.3ec752a900d20667.alias.2",
+      "canonical": "qunit"
+    },
+    {
+      "alias": "web 3ec752a900d20667",
+      "aliasId": "hz.web.3ec752a900d20667.alias.3",
+      "canonical": "qunit"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.3ec752a900d20667",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3ec752a900d20667.entity.1",
+      "kind": "document",
+      "name": "QUnit",
+      "tokens": [
+        "qunit"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec752a900d20667.entity.2",
+      "kind": "heading",
+      "name": "QUnit",
+      "tokens": [
+        "qunit"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec752a900d20667.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec752a900d20667.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec752a900d20667.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 38,
+      "charStart": 10,
+      "factId": "hz.web.3ec752a900d20667.fact.1",
+      "kind": "summary",
+      "text": "Source: https://qunitjs.com/",
+      "tokens": [
+        "source",
+        "https",
+        "qunitjs",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 291,
+      "charStart": 90,
+      "factId": "hz.web.3ec752a900d20667.fact.1",
+      "kind": "bullet",
+      "text": "QUnit Guides Getting Started Download Browser Runner Command-line Interface Compatibility Test lifecycle QUnit 2.0 Upgrade Guide Documentation Blog Community Support & Chat Plugins Who's using QUnit?",
+      "tokens": [
+        "qunit",
+        "guides",
+        "getting",
+        "started",
+        "download",
+        "browser",
+        "runner",
+        "command",
+        "line",
+        "interface",
+        "compatibility",
+        "test",
+        "lifecycle",
+        "qunit",
+        "upgrade",
+        "guide",
+        "documentation",
+        "blog",
+        "community",
+        "support",
+        "chat",
+        "plugins",
+        "using",
+        "qunit"
+      ]
+    },
+    {
+      "charEnd": 396,
+      "charStart": 292,
+      "factId": "hz.web.3ec752a900d20667.fact.2",
+      "kind": "bullet",
+      "text": "About QUnit Badge Brand Guidelines Search Menu The powerful, easy-to-use JavaScript testing framework.",
+      "tokens": [
+        "about",
+        "qunit",
+        "badge",
+        "brand",
+        "guidelines",
+        "search",
+        "menu",
+        "powerful",
+        "easy",
+        "use",
+        "javascript",
+        "testing",
+        "framework"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 397,
+      "factId": "hz.web.3ec752a900d20667.fact.3",
+      "kind": "bullet",
+      "text": "Get Started View the Docs Easy Zero configuration and setup for any Node.js project, and minimal setup for Browser-based projects.",
+      "tokens": [
+        "get",
+        "started",
+        "view",
+        "docs",
+        "easy",
+        "zero",
+        "configuration",
+        "setup",
+        "any",
+        "node",
+        "js",
+        "project",
+        "minimal",
+        "setup",
+        "browser",
+        "based",
+        "projects"
+      ]
+    },
+    {
+      "charEnd": 621,
+      "charStart": 530,
+      "factId": "hz.web.3ec752a900d20667.fact.4",
+      "kind": "bullet",
+      "text": "Universal QUnit can run anywhere; web browsers, Node, SpiderMonkey, even in a Web Worker!",
+      "tokens": [
+        "universal",
+        "qunit",
+        "run",
+        "anywhere",
+        "web",
+        "browsers",
+        "node",
+        "spidermonkey",
+        "even",
+        "web",
+        "worker"
+      ]
+    },
+    {
+      "charEnd": 643,
+      "charStart": 636,
+      "factId": "hz.web.3ec752a900d20667.fact.5",
+      "kind": "bullet",
+      "text": "qunit",
+      "tokens": [
+        "qunit"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 644,
+      "factId": "hz.web.3ec752a900d20667.fact.6",
+      "kind": "bullet",
+      "text": "add",
+      "tokens": [
+        "add"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 650,
+      "factId": "hz.web.3ec752a900d20667.fact.7",
+      "kind": "bullet",
+      "text": "25",
+      "tokens": [
+        "25"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 655,
+      "factId": "hz.web.3ec752a900d20667.fact.8",
+      "kind": "bullet",
+      "text": "browser",
+      "tokens": [
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 671,
+      "charStart": 665,
+      "factId": "hz.web.3ec752a900d20667.fact.9",
+      "kind": "bullet",
+      "text": "chat",
+      "tokens": [
+        "chat"
+      ]
+    },
+    {
+      "charEnd": 677,
+      "charStart": 672,
+      "factId": "hz.web.3ec752a900d20667.fact.10",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 678,
+      "factId": "hz.web.3ec752a900d20667.fact.11",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 692,
+      "charStart": 683,
+      "factId": "hz.web.3ec752a900d20667.fact.12",
+      "kind": "bullet",
+      "text": "release",
+      "tokens": [
+        "release"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 8,
+      "charStart": 1,
+      "headingId": "hz.web.3ec752a900d20667.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "QUnit"
+    },
+    {
+      "charEnd": 88,
+      "charStart": 78,
+      "headingId": "hz.web.3ec752a900d20667.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 634,
+      "charStart": 623,
+      "headingId": "hz.web.3ec752a900d20667.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 704,
+      "charStart": 694,
+      "headingId": "hz.web.3ec752a900d20667.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3ec752a900d20667.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2442,
+        "start": 0
+      }
+    ],
+    "hash": "d261b30622fb215eb961d786becc969a675cfcf6d4fa558d3015774c4b0a710c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "QUnit Guides Getting Started Download Browser Runner Command-line Interface Compatibility Test lifecycle QUnit 2.0 Upgrade Guide Documentation Blog Community Support & Chat Plugins Who's using QUnit?",
+      "About QUnit Badge Brand Guidelines Search Menu The powerful, easy-to-use JavaScript testing framework.",
+      "Get Started View the Docs Easy Zero configuration and setup for any Node.js project, and minimal setup for Browser-based projects."
+    ],
+    "medium": "Source: https://qunitjs.com/",
+    "short": "Source: https://qunitjs.com/",
+    "tokens": [
+      "qunit",
+      "source",
+      "https",
+      "qunitjs",
+      "com",
+      "source",
+      "https",
+      "qunitjs",
+      "com"
+    ]
+  },
+  "title": "QUnit"
+}

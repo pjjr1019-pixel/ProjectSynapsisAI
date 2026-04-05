@@ -1,0 +1,353 @@
+{
+  "aliases": [
+    {
+      "alias": "about.me your personal homepage",
+      "aliasId": "hz.web.fa6761a89aa21c35.alias.1",
+      "canonical": "about.me | your personal homepage"
+    },
+    {
+      "alias": "fa6761a89aa21c35",
+      "aliasId": "hz.web.fa6761a89aa21c35.alias.2",
+      "canonical": "about.me | your personal homepage"
+    },
+    {
+      "alias": "web fa6761a89aa21c35",
+      "aliasId": "hz.web.fa6761a89aa21c35.alias.3",
+      "canonical": "about.me | your personal homepage"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.web.fa6761a89aa21c35",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fa6761a89aa21c35.entity.1",
+      "kind": "document",
+      "name": "about.me | your personal homepage",
+      "tokens": [
+        "about",
+        "your",
+        "personal",
+        "homepage"
+      ]
+    },
+    {
+      "entityId": "hz.web.fa6761a89aa21c35.entity.2",
+      "kind": "heading",
+      "name": "about.me | your personal homepage",
+      "tokens": [
+        "about",
+        "your",
+        "personal",
+        "homepage"
+      ]
+    },
+    {
+      "entityId": "hz.web.fa6761a89aa21c35.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fa6761a89aa21c35.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fa6761a89aa21c35.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 63,
+      "charStart": 38,
+      "factId": "hz.web.fa6761a89aa21c35.fact.1",
+      "kind": "summary",
+      "text": "Source: https://about.me/",
+      "tokens": [
+        "source",
+        "https",
+        "about"
+      ]
+    },
+    {
+      "charEnd": 324,
+      "charStart": 115,
+      "factId": "hz.web.fa6761a89aa21c35.fact.1",
+      "kind": "bullet",
+      "text": "about.me | your personal homepage Get your free page Get your page Features Pricing Log In Home Features Pricing The Next Evolution of Your Profile MEET YOUR AI TWIN The next evolution of your about.me page.",
+      "tokens": [
+        "about",
+        "your",
+        "personal",
+        "homepage",
+        "get",
+        "your",
+        "free",
+        "page",
+        "get",
+        "your",
+        "page",
+        "features",
+        "pricing",
+        "log",
+        "home",
+        "features",
+        "pricing",
+        "next",
+        "evolution",
+        "your",
+        "profile",
+        "meet",
+        "your",
+        "ai",
+        "twin",
+        "next",
+        "evolution",
+        "your",
+        "about",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 353,
+      "charStart": 325,
+      "factId": "hz.web.fa6761a89aa21c35.fact.2",
+      "kind": "bullet",
+      "text": "Now alive and interactive.",
+      "tokens": [
+        "now",
+        "alive",
+        "interactive"
+      ]
+    },
+    {
+      "charEnd": 361,
+      "charStart": 354,
+      "factId": "hz.web.fa6761a89aa21c35.fact.3",
+      "kind": "bullet",
+      "text": "\"Hey!",
+      "tokens": [
+        "hey"
+      ]
+    },
+    {
+      "charEnd": 404,
+      "charStart": 362,
+      "factId": "hz.web.fa6761a89aa21c35.fact.4",
+      "kind": "bullet",
+      "text": "You&#x27;re chatting with Virtual Brad .",
+      "tokens": [
+        "x27",
+        "re",
+        "chatting",
+        "virtual",
+        "brad"
+      ]
+    },
+    {
+      "charEnd": 425,
+      "charStart": 419,
+      "factId": "hz.web.fa6761a89aa21c35.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 426,
+      "factId": "hz.web.fa6761a89aa21c35.fact.6",
+      "kind": "bullet",
+      "text": "twin",
+      "tokens": [
+        "twin"
+      ]
+    },
+    {
+      "charEnd": 440,
+      "charStart": 433,
+      "factId": "hz.web.fa6761a89aa21c35.fact.7",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 447,
+      "charStart": 441,
+      "factId": "hz.web.fa6761a89aa21c35.fact.8",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 452,
+      "charStart": 448,
+      "factId": "hz.web.fa6761a89aa21c35.fact.9",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 462,
+      "charStart": 453,
+      "factId": "hz.web.fa6761a89aa21c35.fact.10",
+      "kind": "bullet",
+      "text": "virtual",
+      "tokens": [
+        "virtual"
+      ]
+    },
+    {
+      "charEnd": 468,
+      "charStart": 463,
+      "factId": "hz.web.fa6761a89aa21c35.fact.11",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 484,
+      "charStart": 469,
+      "factId": "hz.web.fa6761a89aa21c35.fact.12",
+      "kind": "bullet",
+      "text": "automatically",
+      "tokens": [
+        "automatically"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.web.fa6761a89aa21c35.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "about.me | your personal homepage"
+    },
+    {
+      "charEnd": 113,
+      "charStart": 103,
+      "headingId": "hz.web.fa6761a89aa21c35.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 417,
+      "charStart": 406,
+      "headingId": "hz.web.fa6761a89aa21c35.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 496,
+      "charStart": 486,
+      "headingId": "hz.web.fa6761a89aa21c35.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/fa6761a89aa21c35.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3476,
+        "start": 0
+      }
+    ],
+    "hash": "613ba2aa06a1a67c4bcd4b536b89a6b8334e2460a9f4b3117d9733d09332442d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.fa6761a89aa21c35.rule.1",
+      "text": "Available 24/7 Instant responses Builds credibility Never misses a lead Speaks in your tone Shares your story Reflects your personality Represents you authentically Authentic The Real You, Amplified.",
+      "tokens": [
+        "available",
+        "24",
+        "instant",
+        "responses",
+        "builds",
+        "credibility",
+        "never",
+        "misses",
+        "lead",
+        "speaks",
+        "your",
+        "tone",
+        "shares",
+        "your",
+        "story",
+        "reflects",
+        "your",
+        "personality",
+        "represents",
+        "authentically",
+        "authentic",
+        "real",
+        "amplified"
+      ]
+    },
+    {
+      "ruleId": "hz.web.fa6761a89aa21c35.rule.2",
+      "text": "Simple Because AI Should Feel Effortless.",
+      "tokens": [
+        "simple",
+        "because",
+        "ai",
+        "feel",
+        "effortless"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "about.me | your personal homepage Get your free page Get your page Features Pricing Log In Home Features Pricing The Next Evolution of Your Profile MEET YOUR AI TWIN The next evolution of your about.me page.",
+      "Now alive and interactive.",
+      "\"Hey!"
+    ],
+    "medium": "Source: https://about.me/",
+    "short": "Source: https://about.me/",
+    "tokens": [
+      "about",
+      "your",
+      "personal",
+      "homepage",
+      "source",
+      "https",
+      "about",
+      "source",
+      "https",
+      "about"
+    ]
+  },
+  "title": "about.me | your personal homepage"
+}

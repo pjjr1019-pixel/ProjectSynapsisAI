@@ -1,0 +1,334 @@
+{
+  "aliases": [
+    {
+      "alias": "e6974b43264d7017",
+      "aliasId": "hz.web.e6974b43264d7017.alias.1",
+      "canonical": "feedster"
+    },
+    {
+      "alias": "feedster",
+      "aliasId": "hz.web.e6974b43264d7017.alias.2",
+      "canonical": "feedster"
+    },
+    {
+      "alias": "web e6974b43264d7017",
+      "aliasId": "hz.web.e6974b43264d7017.alias.3",
+      "canonical": "feedster"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.e6974b43264d7017",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e6974b43264d7017.entity.1",
+      "kind": "document",
+      "name": "Feedster",
+      "tokens": [
+        "feedster"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6974b43264d7017.entity.2",
+      "kind": "heading",
+      "name": "Feedster",
+      "tokens": [
+        "feedster"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6974b43264d7017.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6974b43264d7017.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6974b43264d7017.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 45,
+      "charStart": 13,
+      "factId": "hz.web.e6974b43264d7017.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.feedster.com/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "feedster",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 470,
+      "charStart": 97,
+      "factId": "hz.web.e6974b43264d7017.fact.1",
+      "kind": "bullet",
+      "text": "Feedster Feedster Feedster Feedster Feedster Feedster Feedster Feedster Feedster Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Contact Us Drop us a line!",
+      "tokens": [
+        "feedster",
+        "feedster",
+        "feedster",
+        "feedster",
+        "feedster",
+        "feedster",
+        "feedster",
+        "feedster",
+        "feedster",
+        "consulting",
+        "brighter",
+        "future",
+        "consulting",
+        "brighter",
+        "future",
+        "consulting",
+        "brighter",
+        "future",
+        "consulting",
+        "brighter",
+        "future",
+        "consulting",
+        "brighter",
+        "future",
+        "consulting",
+        "brighter",
+        "future",
+        "consulting",
+        "brighter",
+        "future",
+        "consulting",
+        "brighter",
+        "future",
+        "contact",
+        "us",
+        "drop",
+        "us",
+        "line"
+      ]
+    },
+    {
+      "charEnd": 546,
+      "charStart": 471,
+      "factId": "hz.web.e6974b43264d7017.fact.2",
+      "kind": "bullet",
+      "text": "Name Email* Sign up for our email list for updates, promotions, and more.",
+      "tokens": [
+        "name",
+        "email",
+        "sign",
+        "up",
+        "our",
+        "email",
+        "list",
+        "updates",
+        "promotions",
+        "more"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 547,
+      "factId": "hz.web.e6974b43264d7017.fact.3",
+      "kind": "bullet",
+      "text": "Send This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.",
+      "tokens": [
+        "send",
+        "site",
+        "protected",
+        "recaptcha",
+        "google",
+        "privacy",
+        "policy",
+        "terms",
+        "service",
+        "apply"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 648,
+      "factId": "hz.web.e6974b43264d7017.fact.4",
+      "kind": "bullet",
+      "text": "Copyright © 2026 Feedster - All Rights Reserved.",
+      "tokens": [
+        "copyright",
+        "2026",
+        "feedster",
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 723,
+      "charStart": 713,
+      "factId": "hz.web.e6974b43264d7017.fact.5",
+      "kind": "bullet",
+      "text": "feedster",
+      "tokens": [
+        "feedster"
+      ]
+    },
+    {
+      "charEnd": 734,
+      "charStart": 724,
+      "factId": "hz.web.e6974b43264d7017.fact.6",
+      "kind": "bullet",
+      "text": "brighter",
+      "tokens": [
+        "brighter"
+      ]
+    },
+    {
+      "charEnd": 747,
+      "charStart": 735,
+      "factId": "hz.web.e6974b43264d7017.fact.7",
+      "kind": "bullet",
+      "text": "consulting",
+      "tokens": [
+        "consulting"
+      ]
+    },
+    {
+      "charEnd": 756,
+      "charStart": 748,
+      "factId": "hz.web.e6974b43264d7017.fact.8",
+      "kind": "bullet",
+      "text": "future",
+      "tokens": [
+        "future"
+      ]
+    },
+    {
+      "charEnd": 766,
+      "charStart": 757,
+      "factId": "hz.web.e6974b43264d7017.fact.9",
+      "kind": "bullet",
+      "text": "cookies",
+      "tokens": [
+        "cookies"
+      ]
+    },
+    {
+      "charEnd": 776,
+      "charStart": 767,
+      "factId": "hz.web.e6974b43264d7017.fact.10",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    },
+    {
+      "charEnd": 782,
+      "charStart": 777,
+      "factId": "hz.web.e6974b43264d7017.fact.11",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 789,
+      "charStart": 783,
+      "factId": "hz.web.e6974b43264d7017.fact.12",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.e6974b43264d7017.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Feedster"
+    },
+    {
+      "charEnd": 95,
+      "charStart": 85,
+      "headingId": "hz.web.e6974b43264d7017.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 711,
+      "charStart": 700,
+      "headingId": "hz.web.e6974b43264d7017.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 801,
+      "charStart": 791,
+      "headingId": "hz.web.e6974b43264d7017.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e6974b43264d7017.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1826,
+        "start": 0
+      }
+    ],
+    "hash": "4e94e21e1cd647d7d551604179fd1612f354fc80e0ae9687a02b5e0489f3b39d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Feedster Feedster Feedster Feedster Feedster Feedster Feedster Feedster Feedster Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Consulting for a brighter future Contact Us Drop us a line!",
+      "Name Email* Sign up for our email list for updates, promotions, and more.",
+      "Send This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply."
+    ],
+    "medium": "Source: http://www.feedster.com/",
+    "short": "Source: http://www.feedster.com/",
+    "tokens": [
+      "feedster",
+      "source",
+      "http",
+      "www",
+      "feedster",
+      "com",
+      "source",
+      "http",
+      "www",
+      "feedster",
+      "com"
+    ]
+  },
+  "title": "Feedster"
+}

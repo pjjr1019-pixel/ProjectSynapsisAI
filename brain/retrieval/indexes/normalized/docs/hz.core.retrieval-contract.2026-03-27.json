@@ -1,0 +1,513 @@
+{
+  "aliases": [
+    {
+      "alias": "retrieval contract",
+      "aliasId": "hz.core.retrieval-contract.2026-03-27.alias.1",
+      "canonical": "retrieval contract"
+    },
+    {
+      "alias": "retrieval-contract 2026-03-27",
+      "aliasId": "hz.core.retrieval-contract.2026-03-27.alias.2",
+      "canonical": "retrieval contract"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.95,
+  "docId": "hz.core.retrieval-contract.2026-03-27",
+  "domain": "core",
+  "entities": [
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.1",
+      "kind": "document",
+      "name": "Retrieval contract",
+      "tokens": [
+        "retrieval",
+        "contract"
+      ]
+    },
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.2",
+      "kind": "tag",
+      "name": "retrieval",
+      "tokens": [
+        "retrieval"
+      ]
+    },
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.3",
+      "kind": "tag",
+      "name": "rag",
+      "tokens": [
+        "rag"
+      ]
+    },
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.4",
+      "kind": "heading",
+      "name": "Retrieval contract",
+      "tokens": [
+        "retrieval",
+        "contract"
+      ]
+    },
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.5",
+      "kind": "heading",
+      "name": "Inputs",
+      "tokens": [
+        "inputs"
+      ]
+    },
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.6",
+      "kind": "heading",
+      "name": "Outputs",
+      "tokens": [
+        "outputs"
+      ]
+    },
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.7",
+      "kind": "heading",
+      "name": "Rules",
+      "tokens": [
+        "rules"
+      ]
+    },
+    {
+      "entityId": "hz.core.retrieval-contract.2026-03-27.entity.8",
+      "kind": "heading",
+      "name": "Profiles",
+      "tokens": [
+        "profiles"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.1",
+      "kind": "summary",
+      "text": "- `retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces. - `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+      "tokens": [
+        "retrievalprofile",
+        "string",
+        "assistant",
+        "default",
+        "manifest",
+        "yaml",
+        "surfaces",
+        "docids",
+        "chunk",
+        "filters",
+        "optional",
+        "must",
+        "respect",
+        "visibility",
+        "status",
+        "default",
+        "canonical",
+        "only",
+        "production"
+      ]
+    },
+    {
+      "charEnd": 120,
+      "charStart": 34,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.1",
+      "kind": "bullet",
+      "text": "`retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces.",
+      "tokens": [
+        "retrievalprofile",
+        "string",
+        "assistant",
+        "default",
+        "manifest",
+        "yaml",
+        "surfaces"
+      ]
+    },
+    {
+      "charEnd": 240,
+      "charStart": 121,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.2",
+      "kind": "bullet",
+      "text": "`docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+      "tokens": [
+        "docids",
+        "chunk",
+        "filters",
+        "optional",
+        "must",
+        "respect",
+        "visibility",
+        "status",
+        "default",
+        "canonical",
+        "only",
+        "production"
+      ]
+    },
+    {
+      "charEnd": 352,
+      "charStart": 254,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.3",
+      "kind": "bullet",
+      "text": "Chunks from `brain/retrieval/indexes/chunks.jsonl` joined by `chunkId` to future embedding rows.",
+      "tokens": [
+        "chunks",
+        "brain",
+        "retrieval",
+        "indexes",
+        "chunks",
+        "jsonl",
+        "joined",
+        "chunkid",
+        "future",
+        "embedding",
+        "rows"
+      ]
+    },
+    {
+      "charEnd": 467,
+      "charStart": 353,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.4",
+      "kind": "bullet",
+      "text": "Provenance and `confidence` must flow to the model; low-confidence chunks should be labeled in context assembly.",
+      "tokens": [
+        "provenance",
+        "confidence",
+        "must",
+        "flow",
+        "model",
+        "low",
+        "confidence",
+        "chunks",
+        "labeled",
+        "context",
+        "assembly"
+      ]
+    },
+    {
+      "charEnd": 597,
+      "charStart": 479,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.5",
+      "kind": "bullet",
+      "text": "Do not retrieve from `draft/` or `pipeline/research/intake/` unless `allowDraft=true` (dev) or explicit user opt-in.",
+      "tokens": [
+        "not",
+        "retrieve",
+        "draft",
+        "pipeline",
+        "research",
+        "intake",
+        "unless",
+        "allowdraft",
+        "true",
+        "dev",
+        "explicit",
+        "user",
+        "opt"
+      ]
+    },
+    {
+      "charEnd": 676,
+      "charStart": 598,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.6",
+      "kind": "bullet",
+      "text": "User memory: only load records matching current user and sensitivity policy.",
+      "tokens": [
+        "user",
+        "memory",
+        "only",
+        "load",
+        "records",
+        "matching",
+        "current",
+        "user",
+        "sensitivity",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 844,
+      "charStart": 691,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.7",
+      "kind": "bullet",
+      "text": "Load [`../retrieval/profiles.json`](../retrieval/profiles.json) by the surface’s `defaultRetrievalProfile` from [`../MANIFEST.yaml`](../MANIFEST.yaml).",
+      "tokens": [
+        "load",
+        "retrieval",
+        "profiles",
+        "json",
+        "retrieval",
+        "profiles",
+        "json",
+        "surface",
+        "defaultretrievalprofile",
+        "manifest",
+        "yaml",
+        "manifest",
+        "yaml"
+      ]
+    },
+    {
+      "charEnd": 1122,
+      "charStart": 845,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.8",
+      "kind": "bullet",
+      "text": "Filter [`../retrieval/indexes/chunks.jsonl`](../retrieval/indexes/chunks.jsonl) with the profile’s `includeDomains`, `allowDraft`, `minConfidence`, and `importLibrary` (see [`../imports/base-knowledge/RETRIEVAL_STRATEGY.md`](../imports/base-knowledge/RETRIEVAL_STRATEGY.md)).",
+      "tokens": [
+        "filter",
+        "retrieval",
+        "indexes",
+        "chunks",
+        "jsonl",
+        "retrieval",
+        "indexes",
+        "chunks",
+        "jsonl",
+        "profile",
+        "includedomains",
+        "allowdraft",
+        "minconfidence",
+        "importlibrary",
+        "see",
+        "imports",
+        "base",
+        "knowledge",
+        "retrieval_strategy",
+        "md",
+        "imports",
+        "base",
+        "knowledge",
+        "retrieval_strategy",
+        "md"
+      ]
+    },
+    {
+      "charEnd": 1232,
+      "charStart": 1123,
+      "factId": "hz.core.retrieval-contract.2026-03-27.fact.9",
+      "kind": "bullet",
+      "text": "Reference implementation: [`../../scripts/lib/brain-retrieval.mjs`](../../scripts/lib/brain-retrieval.mjs).",
+      "tokens": [
+        "reference",
+        "implementation",
+        "scripts",
+        "lib",
+        "brain",
+        "retrieval",
+        "mjs",
+        "scripts",
+        "lib",
+        "brain",
+        "retrieval",
+        "mjs"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.core.retrieval-contract.2026-03-27.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Retrieval contract"
+    },
+    {
+      "charEnd": 32,
+      "charStart": 23,
+      "headingId": "hz.core.retrieval-contract.2026-03-27.heading.2",
+      "level": 2,
+      "line": 4,
+      "text": "Inputs"
+    },
+    {
+      "charEnd": 252,
+      "charStart": 242,
+      "headingId": "hz.core.retrieval-contract.2026-03-27.heading.3",
+      "level": 2,
+      "line": 9,
+      "text": "Outputs"
+    },
+    {
+      "charEnd": 477,
+      "charStart": 469,
+      "headingId": "hz.core.retrieval-contract.2026-03-27.heading.4",
+      "level": 2,
+      "line": 14,
+      "text": "Rules"
+    },
+    {
+      "charEnd": 689,
+      "charStart": 678,
+      "headingId": "hz.core.retrieval-contract.2026-03-27.heading.5",
+      "level": 2,
+      "line": 19,
+      "text": "Profiles"
+    }
+  ],
+  "moduleIds": [],
+  "path": "core/retrieval-contract.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1638,
+        "start": 0
+      }
+    ],
+    "hash": "b44c10feaa3ed73977f781b45d65f1c17e3d9ac5ab08dd8c24b46e406894ce70",
+    "sourceType": "canonical"
+  },
+  "relations": [
+    {
+      "label": "`../retrieval/profiles.json`",
+      "relationId": "hz.core.retrieval-contract.2026-03-27.relation.1",
+      "sourceDocId": "hz.core.retrieval-contract.2026-03-27",
+      "targetPath": "retrieval/profiles.json",
+      "type": "references"
+    },
+    {
+      "label": "`../MANIFEST.yaml`",
+      "relationId": "hz.core.retrieval-contract.2026-03-27.relation.2",
+      "sourceDocId": "hz.core.retrieval-contract.2026-03-27",
+      "targetPath": "MANIFEST.yaml",
+      "type": "references"
+    },
+    {
+      "label": "`../retrieval/indexes/chunks.jsonl`",
+      "relationId": "hz.core.retrieval-contract.2026-03-27.relation.3",
+      "sourceDocId": "hz.core.retrieval-contract.2026-03-27",
+      "targetPath": "retrieval/indexes/chunks.jsonl",
+      "type": "references"
+    },
+    {
+      "label": "`../imports/base-knowledge/RETRIEVAL_STRATEGY.md`",
+      "relationId": "hz.core.retrieval-contract.2026-03-27.relation.4",
+      "sourceDocId": "hz.core.retrieval-contract.2026-03-27",
+      "targetPath": "imports/base-knowledge/RETRIEVAL_STRATEGY.md",
+      "type": "references"
+    },
+    {
+      "label": "`../../scripts/lib/brain-retrieval.mjs`",
+      "relationId": "hz.core.retrieval-contract.2026-03-27.relation.5",
+      "sourceDocId": "hz.core.retrieval-contract.2026-03-27",
+      "targetPath": "../scripts/lib/brain-retrieval.mjs",
+      "type": "references"
+    }
+  ],
+  "rules": [
+    {
+      "ruleId": "hz.core.retrieval-contract.2026-03-27.rule.1",
+      "text": "- `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+      "tokens": [
+        "docids",
+        "chunk",
+        "filters",
+        "optional",
+        "must",
+        "respect",
+        "visibility",
+        "status",
+        "default",
+        "canonical",
+        "only",
+        "production"
+      ]
+    },
+    {
+      "ruleId": "hz.core.retrieval-contract.2026-03-27.rule.2",
+      "text": "- Provenance and `confidence` must flow to the model; low-confidence chunks should be labeled in context assembly.",
+      "tokens": [
+        "provenance",
+        "confidence",
+        "must",
+        "flow",
+        "model",
+        "low",
+        "confidence",
+        "chunks",
+        "labeled",
+        "context",
+        "assembly"
+      ]
+    },
+    {
+      "ruleId": "hz.core.retrieval-contract.2026-03-27.rule.3",
+      "text": "## Rules - Do not retrieve from `draft/` or `pipeline/research/intake/` unless `allowDraft=true` (dev) or explicit user opt-in.",
+      "tokens": [
+        "rules",
+        "not",
+        "retrieve",
+        "draft",
+        "pipeline",
+        "research",
+        "intake",
+        "unless",
+        "allowdraft",
+        "true",
+        "dev",
+        "explicit",
+        "user",
+        "opt"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "`retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces.",
+      "`docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+      "Chunks from `brain/retrieval/indexes/chunks.jsonl` joined by `chunkId` to future embedding rows."
+    ],
+    "medium": "- `retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces. - `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+    "short": "- `retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces. - `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+    "tokens": [
+      "retrieval",
+      "contract",
+      "retrievalprofile",
+      "string",
+      "assistant",
+      "default",
+      "manifest",
+      "yaml",
+      "surfaces",
+      "docids",
+      "chunk",
+      "filters",
+      "optional",
+      "must",
+      "respect",
+      "visibility",
+      "status",
+      "default",
+      "canonical",
+      "only",
+      "production",
+      "retrievalprofile",
+      "string",
+      "assistant",
+      "default",
+      "manifest",
+      "yaml",
+      "surfaces",
+      "docids",
+      "chunk",
+      "filters",
+      "optional",
+      "must",
+      "respect",
+      "visibility",
+      "status",
+      "default",
+      "canonical",
+      "only",
+      "production"
+    ]
+  },
+  "title": "Retrieval contract"
+}

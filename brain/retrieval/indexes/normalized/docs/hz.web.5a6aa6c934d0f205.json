@@ -1,0 +1,342 @@
+{
+  "aliases": [
+    {
+      "alias": "5a6aa6c934d0f205",
+      "aliasId": "hz.web.5a6aa6c934d0f205.alias.1",
+      "canonical": "comments for omni auth"
+    },
+    {
+      "alias": "comments for omni auth",
+      "aliasId": "hz.web.5a6aa6c934d0f205.alias.2",
+      "canonical": "comments for omni auth"
+    },
+    {
+      "alias": "web 5a6aa6c934d0f205",
+      "aliasId": "hz.web.5a6aa6c934d0f205.alias.3",
+      "canonical": "comments for omni auth"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.5a6aa6c934d0f205",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5a6aa6c934d0f205.entity.1",
+      "kind": "document",
+      "name": "Comments for Omni Auth",
+      "tokens": [
+        "comments",
+        "omni",
+        "auth"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a6aa6c934d0f205.entity.2",
+      "kind": "heading",
+      "name": "Comments for Omni Auth",
+      "tokens": [
+        "comments",
+        "omni",
+        "auth"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a6aa6c934d0f205.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a6aa6c934d0f205.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a6aa6c934d0f205.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 27,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.omniauth.org/comments/feed/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "omniauth",
+        "org",
+        "comments",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 794,
+      "charStart": 125,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" > <channel> <title> Comments for Omni Auth </title> <atom:link href=\"/comments/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://omniauth.org</link> <description></description> <lastBuildDate>Mon, 13 Jul 2020 17:08:59 +0000</lastBuildDate> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=5.8.1</generator> </channel> </rss>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "channel",
+        "title",
+        "comments",
+        "omni",
+        "auth",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "comments",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "omniauth",
+        "org",
+        "link",
+        "description",
+        "description",
+        "lastbuilddate",
+        "mon",
+        "13",
+        "jul",
+        "2020",
+        "17",
+        "08",
+        "59",
+        "0000",
+        "lastbuilddate",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "generator",
+        "https",
+        "wordpress",
+        "org",
+        "generator",
+        "channel",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 814,
+      "charStart": 809,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.2",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 820,
+      "charStart": 815,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.3",
+      "kind": "bullet",
+      "text": "rss",
+      "tokens": [
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 825,
+      "charStart": 821,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.4",
+      "kind": "bullet",
+      "text": "sy",
+      "tokens": [
+        "sy"
+      ]
+    },
+    {
+      "charEnd": 832,
+      "charStart": 826,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.5",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 840,
+      "charStart": 833,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.6",
+      "kind": "bullet",
+      "text": "xmlns",
+      "tokens": [
+        "xmlns"
+      ]
+    },
+    {
+      "charEnd": 847,
+      "charStart": 841,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.7",
+      "kind": "bullet",
+      "text": "atom",
+      "tokens": [
+        "atom"
+      ]
+    },
+    {
+      "charEnd": 854,
+      "charStart": 848,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.8",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 861,
+      "charStart": 855,
+      "factId": "hz.web.5a6aa6c934d0f205.fact.9",
+      "kind": "bullet",
+      "text": "purl",
+      "tokens": [
+        "purl"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.5a6aa6c934d0f205.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Comments for Omni Auth"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.5a6aa6c934d0f205.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 807,
+      "charStart": 796,
+      "headingId": "hz.web.5a6aa6c934d0f205.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 873,
+      "charStart": 863,
+      "headingId": "hz.web.5a6aa6c934d0f205.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5a6aa6c934d0f205.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1787,
+        "start": 0
+      }
+    ],
+    "hash": "860f788b6bd91e765f3f0b054ccc87fbea156ac6053fea6d3bc7f66787805de8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" > <channel> <title> Comments for Omni Auth </title> <atom:link href=\"/comments/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://omniauth.org</link> <description></description> <lastBuildDate>Mon, 13 Jul 2020 17:08:59 +0000</lastBuildDate> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=5.8.1</generator> </channel> </rss>",
+      "org",
+      "rss"
+    ],
+    "medium": "Source: http://www.omniauth.org/comments/feed/",
+    "short": "Source: http://www.omniauth.org/comments/feed/",
+    "tokens": [
+      "comments",
+      "omni",
+      "auth",
+      "source",
+      "http",
+      "www",
+      "omniauth",
+      "org",
+      "comments",
+      "feed",
+      "source",
+      "http",
+      "www",
+      "omniauth",
+      "org",
+      "comments",
+      "feed"
+    ]
+  },
+  "title": "Comments for Omni Auth"
+}

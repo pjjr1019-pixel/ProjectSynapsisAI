@@ -1,0 +1,451 @@
+{
+  "aliases": [
+    {
+      "alias": "community.akamai.steamstatic.com",
+      "aliasId": "hz.web.de2bacfd6da0cf66.alias.1",
+      "canonical": "community.akamai.steamstatic.com"
+    },
+    {
+      "alias": "de2bacfd6da0cf66",
+      "aliasId": "hz.web.de2bacfd6da0cf66.alias.2",
+      "canonical": "community.akamai.steamstatic.com"
+    },
+    {
+      "alias": "web de2bacfd6da0cf66",
+      "aliasId": "hz.web.de2bacfd6da0cf66.alias.3",
+      "canonical": "community.akamai.steamstatic.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.de2bacfd6da0cf66",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.de2bacfd6da0cf66.entity.1",
+      "kind": "document",
+      "name": "community.akamai.steamstatic.com",
+      "tokens": [
+        "community",
+        "akamai",
+        "steamstatic",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.de2bacfd6da0cf66.entity.2",
+      "kind": "heading",
+      "name": "community.akamai.steamstatic.com",
+      "tokens": [
+        "community",
+        "akamai",
+        "steamstatic",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.de2bacfd6da0cf66.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.de2bacfd6da0cf66.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.de2bacfd6da0cf66.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 164,
+      "charStart": 37,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.1",
+      "kind": "summary",
+      "text": "Source: https://community.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=G517uopaUy8x&amp;l=english&amp;_cdn=akamai",
+      "tokens": [
+        "source",
+        "https",
+        "community",
+        "akamai",
+        "steamstatic",
+        "com",
+        "public",
+        "shared",
+        "css",
+        "motiva_sans",
+        "css",
+        "g517uopauy8x",
+        "amp",
+        "english",
+        "amp",
+        "_cdn",
+        "akamai"
+      ]
+    },
+    {
+      "charEnd": 421,
+      "charStart": 216,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.1",
+      "kind": "bullet",
+      "text": "/* Font: Motiva Sans URL: http://www.youworkforthem.com/product.php?sku=T2982 Foundry: Niramekko Foundry: http://www.youworkforthem.com/designer/293/niramekko Copyright: Copyright 2011 by Rodrigo Saiani.",
+      "tokens": [
+        "font",
+        "motiva",
+        "sans",
+        "url",
+        "http",
+        "www",
+        "youworkforthem",
+        "com",
+        "product",
+        "php",
+        "sku",
+        "t2982",
+        "foundry",
+        "niramekko",
+        "foundry",
+        "http",
+        "www",
+        "youworkforthem",
+        "com",
+        "designer",
+        "293",
+        "niramekko",
+        "copyright",
+        "copyright",
+        "2011",
+        "rodrigo",
+        "saiani"
+      ]
+    },
+    {
+      "charEnd": 444,
+      "charStart": 422,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.2",
+      "kind": "bullet",
+      "text": "All rights reserved.",
+      "tokens": [
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 638,
+      "charStart": 445,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.3",
+      "kind": "bullet",
+      "text": "Version: 1.0 Created: August 09, 2012 License: http://www.youworkforthem.com/font-license License: The WebFont(s) listed in this document must follow the YouWorkForThem WebFont license rules.",
+      "tokens": [
+        "version",
+        "created",
+        "august",
+        "09",
+        "2012",
+        "license",
+        "http",
+        "www",
+        "youworkforthem",
+        "com",
+        "font",
+        "license",
+        "license",
+        "webfont",
+        "listed",
+        "document",
+        "must",
+        "follow",
+        "youworkforthem",
+        "webfont",
+        "license",
+        "rules"
+      ]
+    },
+    {
+      "charEnd": 745,
+      "charStart": 639,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.4",
+      "kind": "bullet",
+      "text": "All other parties are strictly restricted from using the WebFonts(s) listed without a purchased license.",
+      "tokens": [
+        "all",
+        "other",
+        "parties",
+        "strictly",
+        "restricted",
+        "using",
+        "webfonts",
+        "listed",
+        "without",
+        "purchased",
+        "license"
+      ]
+    },
+    {
+      "charEnd": 766,
+      "charStart": 760,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.5",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 767,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.6",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 781,
+      "charStart": 773,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.7",
+      "kind": "bullet",
+      "text": "motiva",
+      "tokens": [
+        "motiva"
+      ]
+    },
+    {
+      "charEnd": 788,
+      "charStart": 782,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.8",
+      "kind": "bullet",
+      "text": "sans",
+      "tokens": [
+        "sans"
+      ]
+    },
+    {
+      "charEnd": 794,
+      "charStart": 789,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.9",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    },
+    {
+      "charEnd": 800,
+      "charStart": 795,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.10",
+      "kind": "bullet",
+      "text": "015",
+      "tokens": [
+        "015"
+      ]
+    },
+    {
+      "charEnd": 809,
+      "charStart": 801,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.11",
+      "kind": "bullet",
+      "text": "akamai",
+      "tokens": [
+        "akamai"
+      ]
+    },
+    {
+      "charEnd": 821,
+      "charStart": 810,
+      "factId": "hz.web.de2bacfd6da0cf66.fact.12",
+      "kind": "bullet",
+      "text": "community",
+      "tokens": [
+        "community"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.de2bacfd6da0cf66.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "community.akamai.steamstatic.com"
+    },
+    {
+      "charEnd": 214,
+      "charStart": 204,
+      "headingId": "hz.web.de2bacfd6da0cf66.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 758,
+      "charStart": 747,
+      "headingId": "hz.web.de2bacfd6da0cf66.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 833,
+      "charStart": 823,
+      "headingId": "hz.web.de2bacfd6da0cf66.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/de2bacfd6da0cf66.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3696,
+        "start": 0
+      }
+    ],
+    "hash": "d6b14836c3edb2feb700da242cd11f42aba2f8da90772981ab4b476be80df019",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.de2bacfd6da0cf66.rule.1",
+      "text": "- Version: 1.0 Created: August 09, 2012 License: http://www.youworkforthem.com/font-license License: The WebFont(s) listed in this document must follow the YouWorkForThem WebFont license rules.",
+      "tokens": [
+        "version",
+        "created",
+        "august",
+        "09",
+        "2012",
+        "license",
+        "http",
+        "www",
+        "youworkforthem",
+        "com",
+        "font",
+        "license",
+        "license",
+        "webfont",
+        "listed",
+        "document",
+        "must",
+        "follow",
+        "youworkforthem",
+        "webfont",
+        "license",
+        "rules"
+      ]
+    },
+    {
+      "ruleId": "hz.web.de2bacfd6da0cf66.rule.2",
+      "text": "Version: 1.0 Created: August 09, 2012 License: http://www.youworkforthem.com/font-license License: The WebFont(s) listed in this document must follow the YouWorkForThem WebFont license rules.",
+      "tokens": [
+        "version",
+        "created",
+        "august",
+        "09",
+        "2012",
+        "license",
+        "http",
+        "www",
+        "youworkforthem",
+        "com",
+        "font",
+        "license",
+        "license",
+        "webfont",
+        "listed",
+        "document",
+        "must",
+        "follow",
+        "youworkforthem",
+        "webfont",
+        "license",
+        "rules"
+      ]
+    },
+    {
+      "ruleId": "hz.web.de2bacfd6da0cf66.rule.3",
+      "text": "All details above must always remain unaltered and visible in your CSS.",
+      "tokens": [
+        "all",
+        "details",
+        "above",
+        "must",
+        "always",
+        "remain",
+        "unaltered",
+        "visible",
+        "your",
+        "css"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* Font: Motiva Sans URL: http://www.youworkforthem.com/product.php?sku=T2982 Foundry: Niramekko Foundry: http://www.youworkforthem.com/designer/293/niramekko Copyright: Copyright 2011 by Rodrigo Saiani.",
+      "All rights reserved.",
+      "Version: 1.0 Created: August 09, 2012 License: http://www.youworkforthem.com/font-license License: The WebFont(s) listed in this document must follow the YouWorkForThem WebFont license rules."
+    ],
+    "medium": "Source: https://community.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=G517uopaUy8x&amp;l=english&amp;_cdn=akamai",
+    "short": "Source: https://community.akamai.steamstatic.com/public/shared/css/motiva_sans.css?v=G517uopaUy8x&amp;l=english&amp;_cdn=akamai",
+    "tokens": [
+      "community",
+      "akamai",
+      "steamstatic",
+      "com",
+      "source",
+      "https",
+      "community",
+      "akamai",
+      "steamstatic",
+      "com",
+      "public",
+      "shared",
+      "css",
+      "motiva_sans",
+      "css",
+      "g517uopauy8x",
+      "amp",
+      "english",
+      "amp",
+      "_cdn",
+      "akamai",
+      "source",
+      "https",
+      "community",
+      "akamai",
+      "steamstatic",
+      "com",
+      "public",
+      "shared",
+      "css",
+      "motiva_sans",
+      "css",
+      "g517uopauy8x",
+      "amp",
+      "english",
+      "amp",
+      "_cdn",
+      "akamai"
+    ]
+  },
+  "title": "community.akamai.steamstatic.com"
+}

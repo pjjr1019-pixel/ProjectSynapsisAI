@@ -1,0 +1,464 @@
+{
+  "aliases": [
+    {
+      "alias": "73fe728b4b9d909c",
+      "aliasId": "hz.web.73fe728b4b9d909c.alias.1",
+      "canonical": "xhtml&#8482; modularization 1.1"
+    },
+    {
+      "alias": "web 73fe728b4b9d909c",
+      "aliasId": "hz.web.73fe728b4b9d909c.alias.2",
+      "canonical": "xhtml&#8482; modularization 1.1"
+    },
+    {
+      "alias": "xhtml 8482 modularization 1.1",
+      "aliasId": "hz.web.73fe728b4b9d909c.alias.3",
+      "canonical": "xhtml&#8482; modularization 1.1"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.73fe728b4b9d909c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.73fe728b4b9d909c.entity.1",
+      "kind": "document",
+      "name": "XHTML&#8482; Modularization 1.1",
+      "tokens": [
+        "xhtml",
+        "8482",
+        "modularization"
+      ]
+    },
+    {
+      "entityId": "hz.web.73fe728b4b9d909c.entity.2",
+      "kind": "heading",
+      "name": "XHTML&#8482; Modularization 1.1",
+      "tokens": [
+        "xhtml",
+        "8482",
+        "modularization"
+      ]
+    },
+    {
+      "entityId": "hz.web.73fe728b4b9d909c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.73fe728b4b9d909c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.73fe728b4b9d909c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 104,
+      "charStart": 36,
+      "factId": "hz.web.73fe728b4b9d909c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/TR/2008/REC-xhtml-modularization-20081008",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2008",
+        "rec",
+        "xhtml",
+        "modularization",
+        "20081008"
+      ]
+    },
+    {
+      "charEnd": 912,
+      "charStart": 156,
+      "factId": "hz.web.73fe728b4b9d909c.fact.1",
+      "kind": "bullet",
+      "text": "XHTML&#8482; Modularization 1.1 [ next ]&#160;[ table of contents ] XHTML&#8482; Modularization 1.1 W3C Recommendation 8 October 2008 This version: http://www.w3.org/TR/2008/REC-xhtml-modularization-20081008 Latest version: http://www.w3.org/TR/xhtml-modularization Previous Editor's Draft: http://www.w3.org/MarkUp/2008/PR-xhtml-modularization-20080611 Diff from previous Editor's Draft: xhtml-modularization-diff.html --> Previous version: http://www.w3.org/TR/2008/PR-xhtml-modularization-20080611 Diff-marked version: xhtml-modularization-diff.html Diff-marked from version 1.0 xhtml-modularization-rec-diff.html Editors: Daniel Austin , Sun Microsystems Subramanian Peruvemba, Oracle Corporation Shane McCarron , Applied Testing and Technology, Inc.",
+      "tokens": [
+        "xhtml",
+        "8482",
+        "modularization",
+        "next",
+        "160",
+        "table",
+        "contents",
+        "xhtml",
+        "8482",
+        "modularization",
+        "w3c",
+        "recommendation",
+        "october",
+        "2008",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2008",
+        "rec",
+        "xhtml",
+        "modularization",
+        "20081008",
+        "latest",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "xhtml",
+        "modularization",
+        "previous",
+        "editor",
+        "draft",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "markup",
+        "2008",
+        "pr",
+        "xhtml",
+        "modularization",
+        "20080611",
+        "diff",
+        "previous",
+        "editor",
+        "draft",
+        "xhtml",
+        "modularization",
+        "diff",
+        "html",
+        "previous",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2008",
+        "pr",
+        "xhtml",
+        "modularization",
+        "20080611",
+        "diff",
+        "marked",
+        "version",
+        "xhtml",
+        "modularization",
+        "diff",
+        "html",
+        "diff",
+        "marked",
+        "version",
+        "xhtml",
+        "modularization",
+        "rec",
+        "diff",
+        "html",
+        "editors",
+        "daniel",
+        "austin",
+        "sun",
+        "microsystems",
+        "subramanian",
+        "peruvemba",
+        "oracle",
+        "corporation",
+        "shane",
+        "mccarron",
+        "applied",
+        "testing",
+        "technology",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 1383,
+      "charStart": 913,
+      "factId": "hz.web.73fe728b4b9d909c.fact.2",
+      "kind": "bullet",
+      "text": "Masayasu Ishikawa , W3C Mark Birbeck, webBackplane [redacted-email] Version 1.0 Editors: Murray Altheim , Sun Microsystems Frank Boumphrey , HTML Writers Guild Sam Dooley , IBM Shane McCarron , Applied Testing and Technology Sebastian Schnitzenbaumer , Mozquito Technologies AG --> Sebastian Schnitzenbaumer, Mozquito Technologies AG Ted Wugofski , Openwave (formerly Gateway) Please refer to the errata for this document, which may include some normative corrections.",
+      "tokens": [
+        "masayasu",
+        "ishikawa",
+        "w3c",
+        "mark",
+        "birbeck",
+        "webbackplane",
+        "redacted",
+        "email",
+        "version",
+        "editors",
+        "murray",
+        "altheim",
+        "sun",
+        "microsystems",
+        "frank",
+        "boumphrey",
+        "html",
+        "writers",
+        "guild",
+        "sam",
+        "dooley",
+        "ibm",
+        "shane",
+        "mccarron",
+        "applied",
+        "testing",
+        "technology",
+        "sebastian",
+        "schnitzenbaumer",
+        "mozquito",
+        "technologies",
+        "ag",
+        "sebastian",
+        "schnitzenbaumer",
+        "mozquito",
+        "technologies",
+        "ag",
+        "ted",
+        "wugofski",
+        "openwave",
+        "formerly",
+        "gateway",
+        "please",
+        "refer",
+        "errata",
+        "document",
+        "may",
+        "include",
+        "some",
+        "normative",
+        "corrections"
+      ]
+    },
+    {
+      "charEnd": 1541,
+      "charStart": 1384,
+      "factId": "hz.web.73fe728b4b9d909c.fact.3",
+      "kind": "bullet",
+      "text": "This document is also available in these non-normative formats: Single HTML file , PostScript version , PDF version , ZIP archive , or Gzip'd TAR archive .",
+      "tokens": [
+        "document",
+        "also",
+        "available",
+        "these",
+        "non",
+        "normative",
+        "formats",
+        "single",
+        "html",
+        "file",
+        "postscript",
+        "version",
+        "pdf",
+        "version",
+        "zip",
+        "archive",
+        "gzip",
+        "tar",
+        "archive"
+      ]
+    },
+    {
+      "charEnd": 1567,
+      "charStart": 1542,
+      "factId": "hz.web.73fe728b4b9d909c.fact.4",
+      "kind": "bullet",
+      "text": "See also translations .",
+      "tokens": [
+        "see",
+        "also",
+        "translations"
+      ]
+    },
+    {
+      "charEnd": 1589,
+      "charStart": 1582,
+      "factId": "hz.web.73fe728b4b9d909c.fact.5",
+      "kind": "bullet",
+      "text": "xhtml",
+      "tokens": [
+        "xhtml"
+      ]
+    },
+    {
+      "charEnd": 1598,
+      "charStart": 1590,
+      "factId": "hz.web.73fe728b4b9d909c.fact.6",
+      "kind": "bullet",
+      "text": "module",
+      "tokens": [
+        "module"
+      ]
+    },
+    {
+      "charEnd": 1608,
+      "charStart": 1599,
+      "factId": "hz.web.73fe728b4b9d909c.fact.7",
+      "kind": "bullet",
+      "text": "modules",
+      "tokens": [
+        "modules"
+      ]
+    },
+    {
+      "charEnd": 1619,
+      "charStart": 1609,
+      "factId": "hz.web.73fe728b4b9d909c.fact.8",
+      "kind": "bullet",
+      "text": "document",
+      "tokens": [
+        "document"
+      ]
+    },
+    {
+      "charEnd": 1636,
+      "charStart": 1620,
+      "factId": "hz.web.73fe728b4b9d909c.fact.9",
+      "kind": "bullet",
+      "text": "modularization",
+      "tokens": [
+        "modularization"
+      ]
+    },
+    {
+      "charEnd": 1642,
+      "charStart": 1637,
+      "factId": "hz.web.73fe728b4b9d909c.fact.10",
+      "kind": "bullet",
+      "text": "w3c",
+      "tokens": [
+        "w3c"
+      ]
+    },
+    {
+      "charEnd": 1648,
+      "charStart": 1643,
+      "factId": "hz.web.73fe728b4b9d909c.fact.11",
+      "kind": "bullet",
+      "text": "dtd",
+      "tokens": [
+        "dtd"
+      ]
+    },
+    {
+      "charEnd": 1658,
+      "charStart": 1649,
+      "factId": "hz.web.73fe728b4b9d909c.fact.12",
+      "kind": "bullet",
+      "text": "version",
+      "tokens": [
+        "version"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 34,
+      "charStart": 1,
+      "headingId": "hz.web.73fe728b4b9d909c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "XHTML&#8482; Modularization 1.1"
+    },
+    {
+      "charEnd": 154,
+      "charStart": 144,
+      "headingId": "hz.web.73fe728b4b9d909c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1580,
+      "charStart": 1569,
+      "headingId": "hz.web.73fe728b4b9d909c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1670,
+      "charStart": 1660,
+      "headingId": "hz.web.73fe728b4b9d909c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/73fe728b4b9d909c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4948,
+        "start": 0
+      }
+    ],
+    "hash": "1a40bcf8d27c143dfa2dd679d6d6593e4f6a8bc88e6b6bef24f6bb7cca128c2d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "XHTML&#8482; Modularization 1.1 [ next ]&#160;[ table of contents ] XHTML&#8482; Modularization 1.1 W3C Recommendation 8 October 2008 This version: http://www.w3.org/TR/2008/REC-xhtml-modularization-20081008 Latest version: http://www.w3.org/TR/xhtml-modularization Previous Editor's Draft: http://www.w3.org/MarkUp/2008/PR-xhtml-modularization-20080611 Diff from previous Editor's Draft: xhtml-modularization-diff.html --> Previous version: http://www.w3.org/TR/2008/PR-xhtml-modularization-20080611 Diff-marked version: xhtml-modularization-diff.html Diff-marked from version 1.0 xhtml-modularization-rec-diff.html Editors: Daniel Austin , Sun Microsystems Subramanian Peruvemba, Oracle Corporation Shane McCarron , Applied Testing and Technology, Inc.",
+      "Masayasu Ishikawa , W3C Mark Birbeck, webBackplane [redacted-email] Version 1.0 Editors: Murray Altheim , Sun Microsystems Frank Boumphrey , HTML Writers Guild Sam Dooley , IBM Shane McCarron , Applied Testing and Technology Sebastian Schnitzenbaumer , Mozquito Technologies AG --> Sebastian Schnitzenbaumer, Mozquito Technologies AG Ted Wugofski , Openwave (formerly Gateway) Please refer to the errata for this document, which may include some normative corrections.",
+      "This document is also available in these non-normative formats: Single HTML file , PostScript version , PDF version , ZIP archive , or Gzip'd TAR archive ."
+    ],
+    "medium": "Source: https://www.w3.org/TR/2008/REC-xhtml-modularization-20081008",
+    "short": "Source: https://www.w3.org/TR/2008/REC-xhtml-modularization-20081008",
+    "tokens": [
+      "xhtml",
+      "8482",
+      "modularization",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "2008",
+      "rec",
+      "xhtml",
+      "modularization",
+      "20081008",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "2008",
+      "rec",
+      "xhtml",
+      "modularization",
+      "20081008"
+    ]
+  },
+  "title": "XHTML&#8482; Modularization 1.1"
+}

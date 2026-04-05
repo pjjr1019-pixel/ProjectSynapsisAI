@@ -1,0 +1,303 @@
+{
+  "$comment": "Filter chunks.jsonl by docId/domain/path. Pick ONE import library: megapack OR individual_packs OR knowledge_v1_v2 OR repo_knowledge_pack and opt into live/bulk explicitly.",
+  "version": "1.1",
+  "importLibraryModes": {
+    "none": "No imports/base-knowledge chunks (canonical + core only).",
+    "megapack": "Only hz.pipeline.imports.megapack-all-recommended plus files under HorizonsAI_Brain_MegaPack_AllRecommended/.",
+    "individual_packs": "Individual brain zip anchors (v3-v8, knowledge packs) excluding the megapack anchor and paths.",
+    "knowledge_v1_v2": "Only Knowledge Pack v1/v2 anchors and paths.",
+    "repo_knowledge_pack": "Whole-repo repo knowledge pack imports and file cards.",
+    "all": "All legacy import libraries. Live/bulk import families still require explicit opt-in."
+  },
+  "defaults": {
+    "allowDraft": false,
+    "minConfidence": 0.5,
+    "rrfK": 60,
+    "queryExpansion": true,
+    "queryDecomposition": false,
+    "rerankMode": "heuristic",
+    "freshnessBias": 1,
+    "notes": "Production keeps draft knowledge off by default. Live/bulk imports remain opt-in by profile."
+  },
+  "profiles": {
+    "assistant-default": {
+      "description": "Core + assistant + launcher; megapack as single import library.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack"
+      ],
+      "includeDomains": [
+        "core",
+        "assistant",
+        "launcher",
+        "pipeline",
+        "runtime",
+        "web"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": true,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "heuristic",
+      "freshnessBias": 1
+    },
+    "assistant-imports-individual": {
+      "description": "Same as assistant but individual zip packs instead of megapack.",
+      "importLibrary": "individual_packs",
+      "importFamilies": [
+        "individual_packs"
+      ],
+      "includeDomains": [
+        "core",
+        "assistant",
+        "launcher",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": false,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "heuristic",
+      "freshnessBias": 1
+    },
+    "assistant-knowledge-packs-only": {
+      "description": "Core + assistant + Knowledge Pack v1/v2 only (smallest import surface).",
+      "importLibrary": "knowledge_v1_v2",
+      "importFamilies": [
+        "knowledge_v1_v2"
+      ],
+      "includeDomains": [
+        "core",
+        "assistant",
+        "launcher",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": false,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "heuristic",
+      "freshnessBias": 1
+    },
+    "repo-knowledge-pack": {
+      "description": "Core + pipeline + repo knowledge pack imports for whole-repo lookup.",
+      "importLibrary": "repo_knowledge_pack",
+      "importFamilies": [
+        "repo_knowledge_pack"
+      ],
+      "includeDomains": [
+        "core",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.4,
+      "denseEnabled": true,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "heuristic",
+      "freshnessBias": 1.05
+    },
+    "financial-default": {
+      "description": "Core + financial + intel; megapack baseline plus live and bulk external knowledge.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack",
+        "live",
+        "bulk"
+      ],
+      "includeDomains": [
+        "core",
+        "financial",
+        "intel",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": true,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "model",
+      "freshnessBias": 1.25
+    },
+    "work-default": {
+      "description": "Core + work; megapack import library.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack"
+      ],
+      "includeDomains": [
+        "core",
+        "work",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": false,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": false,
+      "rerankMode": "heuristic",
+      "freshnessBias": 1
+    },
+    "social-default": {
+      "description": "Core + social; megapack import library.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack"
+      ],
+      "includeDomains": [
+        "core",
+        "social",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": false,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": false,
+      "rerankMode": "heuristic",
+      "freshnessBias": 0.95
+    },
+    "life-default": {
+      "description": "Core + life; megapack import library.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack"
+      ],
+      "includeDomains": [
+        "core",
+        "life",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": false,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": false,
+      "rerankMode": "heuristic",
+      "freshnessBias": 0.95
+    },
+    "intel-default": {
+      "description": "Core + intel; megapack baseline plus live and bulk external knowledge.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack",
+        "live",
+        "bulk"
+      ],
+      "includeDomains": [
+        "core",
+        "intel",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": true,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "model",
+      "freshnessBias": 1.2
+    },
+    "launcher-default": {
+      "description": "Core + launcher; megapack import library.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack"
+      ],
+      "includeDomains": [
+        "core",
+        "launcher",
+        "pipeline"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": false,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": false,
+      "rerankMode": "heuristic",
+      "freshnessBias": 1
+    },
+    "dev-all-drafts": {
+      "description": "Development: all domains, all import libraries mixed (noisy, not for production).",
+      "importLibrary": "all",
+      "importFamilies": [
+        "megapack",
+        "individual_packs",
+        "knowledge_v1_v2",
+        "live",
+        "bulk"
+      ],
+      "includeDomains": [
+        "core",
+        "assistant",
+        "financial",
+        "work",
+        "social",
+        "life",
+        "intel",
+        "launcher",
+        "pipeline",
+        "governance",
+        "ops",
+        "runtime",
+        "web"
+      ],
+      "allowDraft": true,
+      "minConfidence": 0,
+      "denseEnabled": true,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "model",
+      "freshnessBias": 1.15
+    },
+    "assistant-windows-skill-pack": {
+      "description": "Assistant profile extended with windows skill pack retrieval summaries and compact indexes.",
+      "importLibrary": "megapack",
+      "importFamilies": [
+        "megapack"
+      ],
+      "includeDomains": [
+        "core",
+        "assistant",
+        "launcher",
+        "pipeline",
+        "runtime",
+        "web",
+        "windows"
+      ],
+      "allowDraft": false,
+      "minConfidence": 0.5,
+      "denseEnabled": true,
+      "denseModel": "Xenova/bge-small-en-v1.5",
+      "rrfK": 60,
+      "queryExpansion": true,
+      "queryDecomposition": true,
+      "rerankMode": "heuristic",
+      "freshnessBias": 1
+    }
+  }
+}

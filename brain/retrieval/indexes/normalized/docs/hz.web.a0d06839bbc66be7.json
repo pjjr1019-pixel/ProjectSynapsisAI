@@ -1,0 +1,550 @@
+{
+  "aliases": [
+    {
+      "alias": "a0d06839bbc66be7",
+      "aliasId": "hz.web.a0d06839bbc66be7.alias.1",
+      "canonical": "gif - wikipedia"
+    },
+    {
+      "alias": "gif - wikipedia",
+      "aliasId": "hz.web.a0d06839bbc66be7.alias.2",
+      "canonical": "gif - wikipedia"
+    },
+    {
+      "alias": "web a0d06839bbc66be7",
+      "aliasId": "hz.web.a0d06839bbc66be7.alias.3",
+      "canonical": "gif - wikipedia"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.a0d06839bbc66be7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a0d06839bbc66be7.entity.1",
+      "kind": "document",
+      "name": "GIF - Wikipedia",
+      "tokens": [
+        "gif",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0d06839bbc66be7.entity.2",
+      "kind": "heading",
+      "name": "GIF - Wikipedia",
+      "tokens": [
+        "gif",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0d06839bbc66be7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0d06839bbc66be7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a0d06839bbc66be7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 61,
+      "charStart": 20,
+      "factId": "hz.web.a0d06839bbc66be7.fact.1",
+      "kind": "summary",
+      "text": "Source: https://en.wikipedia.org/wiki/GIF",
+      "tokens": [
+        "source",
+        "https",
+        "en",
+        "wikipedia",
+        "org",
+        "wiki",
+        "gif"
+      ]
+    },
+    {
+      "charEnd": 2129,
+      "charStart": 113,
+      "factId": "hz.web.a0d06839bbc66be7.fact.1",
+      "kind": "bullet",
+      "text": "GIF - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 History 2 Terminology Toggle Terminology subsection 2.1 Pronunciation 3 Usage 4 File format 5 Palettes Toggle Palettes subsection 5.1 True color 6 Example GIF file Toggle Example GIF file subsection 6.1 Image coding 6.2 Image decoding 6.3 LZW code lengths 6.4 Uncompressed GIF 7 Compression example 8 Interlacing 9 Animated GIF 10 Metadata 11 Unisys and LZW patent enforcement 12 Alternatives Toggle Alternatives subsection 12.1 PNG 12.2 Animation formats 12.2.1 Uses 13 See also 14 References 15 External links Toggle the table of contents GIF 68 languages Afrikaans العربية Azərbaycanca Bikol Central Беларуская Български Bosanski Català کوردی Čeština Cymraeg Dansk Deutsch Ελληνικά Esperanto Español Eesti Euskara فارسی Suomi Français Galego עברית हिन्दी Hrvatski Magyar Հայերեն Bahasa Indonesia Íslenska Italiano 日本語 Jawa ქართული 한국어 Кыргызча Lëtzebuergesch Lietuvių മലയാളം Bahasa Melayu မြန်မာဘာသာ Nederlands Norsk nynorsk Norsk bokmål Kapampangan Polski Português Română Русский سنڌي Simple English Slovenčina Slovenščina Shqip Српски / srpski Svenska తెలుగు Тоҷикӣ ไทย Türkçe Українська اردو Oʻzbekcha / ўзбекча Vèneto Tiếng Việt 吴语 Yorùbá 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Bitmap image file format family For other uses, see GIF (disambiguation) .",
+      "tokens": [
+        "gif",
+        "wikipedia",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "navigation",
+        "main",
+        "page",
+        "contents",
+        "current",
+        "events",
+        "random",
+        "article",
+        "about",
+        "wikipedia",
+        "contact",
+        "us",
+        "contribute",
+        "help",
+        "learn",
+        "edit",
+        "community",
+        "portal",
+        "recent",
+        "changes",
+        "upload",
+        "file",
+        "special",
+        "pages",
+        "search",
+        "search",
+        "appearance",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "personal",
+        "tools",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "top",
+        "history",
+        "terminology",
+        "toggle",
+        "terminology",
+        "subsection",
+        "pronunciation",
+        "usage",
+        "file",
+        "format",
+        "palettes",
+        "toggle",
+        "palettes",
+        "subsection",
+        "true",
+        "color",
+        "example",
+        "gif",
+        "file",
+        "toggle",
+        "example",
+        "gif",
+        "file",
+        "subsection",
+        "image",
+        "coding",
+        "image",
+        "decoding",
+        "lzw",
+        "code",
+        "lengths",
+        "uncompressed",
+        "gif",
+        "compression",
+        "example",
+        "interlacing",
+        "animated",
+        "gif",
+        "10",
+        "metadata",
+        "11",
+        "unisys",
+        "lzw",
+        "patent",
+        "enforcement",
+        "12",
+        "alternatives",
+        "toggle",
+        "alternatives",
+        "subsection",
+        "12",
+        "png",
+        "12",
+        "animation",
+        "formats",
+        "12",
+        "uses",
+        "13",
+        "see",
+        "also",
+        "14",
+        "references",
+        "15",
+        "external",
+        "links",
+        "toggle",
+        "table",
+        "contents",
+        "gif",
+        "68",
+        "languages",
+        "afrikaans",
+        "az",
+        "rbaycanca",
+        "bikol",
+        "central",
+        "bosanski",
+        "catal",
+        "tina",
+        "cymraeg",
+        "dansk",
+        "deutsch",
+        "esperanto",
+        "espa",
+        "ol",
+        "eesti",
+        "euskara",
+        "suomi",
+        "fran",
+        "ais",
+        "galego",
+        "hrvatski",
+        "magyar",
+        "bahasa",
+        "indonesia",
+        "slenska",
+        "italiano",
+        "jawa",
+        "tzebuergesch",
+        "lietuvi",
+        "bahasa",
+        "melayu",
+        "nederlands",
+        "norsk",
+        "nynorsk",
+        "norsk",
+        "bokm",
+        "kapampangan",
+        "polski",
+        "portugu",
+        "rom",
+        "simple",
+        "english",
+        "sloven",
+        "ina",
+        "sloven",
+        "ina",
+        "shqip",
+        "srpski",
+        "svenska",
+        "rk",
+        "zbekcha",
+        "neto",
+        "ti",
+        "ng",
+        "vi",
+        "yor",
+        "edit",
+        "links",
+        "article",
+        "talk",
+        "english",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "upload",
+        "file",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "cite",
+        "page",
+        "get",
+        "shortened",
+        "url",
+        "print",
+        "export",
+        "download",
+        "pdf",
+        "printable",
+        "version",
+        "other",
+        "projects",
+        "wikimedia",
+        "commons",
+        "wikidata",
+        "item",
+        "appearance",
+        "move",
+        "sidebar",
+        "hide",
+        "wikipedia",
+        "free",
+        "encyclopedia",
+        "bitmap",
+        "image",
+        "file",
+        "format",
+        "family",
+        "other",
+        "uses",
+        "see",
+        "gif",
+        "disambiguation"
+      ]
+    },
+    {
+      "charEnd": 2195,
+      "charStart": 2130,
+      "factId": "hz.web.a0d06839bbc66be7.fact.2",
+      "kind": "bullet",
+      "text": "This article contains an excessive amount of intricate detail .",
+      "tokens": [
+        "article",
+        "contains",
+        "excessive",
+        "amount",
+        "intricate",
+        "detail"
+      ]
+    },
+    {
+      "charEnd": 2264,
+      "charStart": 2196,
+      "factId": "hz.web.a0d06839bbc66be7.fact.3",
+      "kind": "bullet",
+      "text": "Specifically, color palettes and the structure of the file format.",
+      "tokens": [
+        "specifically",
+        "color",
+        "palettes",
+        "structure",
+        "file",
+        "format"
+      ]
+    },
+    {
+      "charEnd": 2419,
+      "charStart": 2265,
+      "factId": "hz.web.a0d06839bbc66be7.fact.4",
+      "kind": "bullet",
+      "text": "Please help improve it by spinning off or relocating relevant information and removing excessive detail that goes against Wikipedia's inclusion policy .",
+      "tokens": [
+        "please",
+        "help",
+        "improve",
+        "spinning",
+        "off",
+        "relocating",
+        "relevant",
+        "information",
+        "removing",
+        "excessive",
+        "detail",
+        "goes",
+        "against",
+        "wikipedia",
+        "inclusion",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 2441,
+      "charStart": 2434,
+      "factId": "hz.web.a0d06839bbc66be7.fact.5",
+      "kind": "bullet",
+      "text": "table",
+      "tokens": [
+        "table"
+      ]
+    },
+    {
+      "charEnd": 2446,
+      "charStart": 2442,
+      "factId": "hz.web.a0d06839bbc66be7.fact.6",
+      "kind": "bullet",
+      "text": "ff",
+      "tokens": [
+        "ff"
+      ]
+    },
+    {
+      "charEnd": 2452,
+      "charStart": 2447,
+      "factId": "hz.web.a0d06839bbc66be7.fact.7",
+      "kind": "bullet",
+      "text": "gif",
+      "tokens": [
+        "gif"
+      ]
+    },
+    {
+      "charEnd": 2460,
+      "charStart": 2453,
+      "factId": "hz.web.a0d06839bbc66be7.fact.8",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 2468,
+      "charStart": 2461,
+      "factId": "hz.web.a0d06839bbc66be7.fact.9",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 2473,
+      "charStart": 2469,
+      "factId": "hz.web.a0d06839bbc66be7.fact.10",
+      "kind": "bullet",
+      "text": "91",
+      "tokens": [
+        "91"
+      ]
+    },
+    {
+      "charEnd": 2478,
+      "charStart": 2474,
+      "factId": "hz.web.a0d06839bbc66be7.fact.11",
+      "kind": "bullet",
+      "text": "93",
+      "tokens": [
+        "93"
+      ]
+    },
+    {
+      "charEnd": 2487,
+      "charStart": 2479,
+      "factId": "hz.web.a0d06839bbc66be7.fact.12",
+      "kind": "bullet",
+      "text": "string",
+      "tokens": [
+        "string"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.a0d06839bbc66be7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "GIF - Wikipedia"
+    },
+    {
+      "charEnd": 111,
+      "charStart": 101,
+      "headingId": "hz.web.a0d06839bbc66be7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2432,
+      "charStart": 2421,
+      "headingId": "hz.web.a0d06839bbc66be7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2499,
+      "charStart": 2489,
+      "headingId": "hz.web.a0d06839bbc66be7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a0d06839bbc66be7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5734,
+        "start": 0
+      }
+    ],
+    "hash": "628a9b13c0acc421af961505c4e8158a3d083ddd990482f509f58d155f6f7336",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "GIF - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 History 2 Terminology Toggle Terminology subsection 2.1 Pronunciation 3 Usage 4 File format 5 Palettes Toggle Palettes subsection 5.1 True color 6 Example GIF file Toggle Example GIF file subsection 6.1 Image coding 6.2 Image decoding 6.3 LZW code lengths 6.4 Uncompressed GIF 7 Compression example 8 Interlacing 9 Animated GIF 10 Metadata 11 Unisys and LZW patent enforcement 12 Alternatives Toggle Alternatives subsection 12.1 PNG 12.2 Animation formats 12.2.1 Uses 13 See also 14 References 15 External links Toggle the table of contents GIF 68 languages Afrikaans العربية Azərbaycanca Bikol Central Беларуская Български Bosanski Català کوردی Čeština Cymraeg Dansk Deutsch Ελληνικά Esperanto Español Eesti Euskara فارسی Suomi Français Galego עברית हिन्दी Hrvatski Magyar Հայերեն Bahasa Indonesia Íslenska Italiano 日本語 Jawa ქართული 한국어 Кыргызча Lëtzebuergesch Lietuvių മലയാളം Bahasa Melayu မြန်မာဘာသာ Nederlands Norsk nynorsk Norsk bokmål Kapampangan Polski Português Română Русский سنڌي Simple English Slovenčina Slovenščina Shqip Српски / srpski Svenska తెలుగు Тоҷикӣ ไทย Türkçe Українська اردو Oʻzbekcha / ўзбекча Vèneto Tiếng Việt 吴语 Yorùbá 粵語 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Bitmap image file format family For other uses, see GIF (disambiguation) .",
+      "This article contains an excessive amount of intricate detail .",
+      "Specifically, color palettes and the structure of the file format."
+    ],
+    "medium": "Source: https://en.wikipedia.org/wiki/GIF",
+    "short": "Source: https://en.wikipedia.org/wiki/GIF",
+    "tokens": [
+      "gif",
+      "wikipedia",
+      "source",
+      "https",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "gif",
+      "source",
+      "https",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "gif"
+    ]
+  },
+  "title": "GIF - Wikipedia"
+}

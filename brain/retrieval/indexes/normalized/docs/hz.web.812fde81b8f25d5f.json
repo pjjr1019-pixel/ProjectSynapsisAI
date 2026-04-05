@@ -1,0 +1,414 @@
+{
+  "aliases": [
+    {
+      "alias": "812fde81b8f25d5f",
+      "aliasId": "hz.web.812fde81b8f25d5f.alias.1",
+      "canonical": "sign in"
+    },
+    {
+      "alias": "sign in",
+      "aliasId": "hz.web.812fde81b8f25d5f.alias.2",
+      "canonical": "sign in"
+    },
+    {
+      "alias": "web 812fde81b8f25d5f",
+      "aliasId": "hz.web.812fde81b8f25d5f.alias.3",
+      "canonical": "sign in"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.812fde81b8f25d5f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.812fde81b8f25d5f.entity.1",
+      "kind": "document",
+      "name": "Sign In",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "entityId": "hz.web.812fde81b8f25d5f.entity.2",
+      "kind": "heading",
+      "name": "Sign In",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "entityId": "hz.web.812fde81b8f25d5f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.812fde81b8f25d5f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.812fde81b8f25d5f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 12,
+      "factId": "hz.web.812fde81b8f25d5f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://store.steampowered.com/explore/",
+      "tokens": [
+        "source",
+        "https",
+        "store",
+        "steampowered",
+        "com",
+        "explore"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 111,
+      "factId": "hz.web.812fde81b8f25d5f.fact.1",
+      "kind": "bullet",
+      "text": "Sign In Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation.",
+      "tokens": [
+        "sign",
+        "sign",
+        "store",
+        "home",
+        "discovery",
+        "queue",
+        "wishlist",
+        "points",
+        "shop",
+        "news",
+        "charts",
+        "community",
+        "home",
+        "discussions",
+        "workshop",
+        "market",
+        "broadcasts",
+        "about",
+        "support",
+        "change",
+        "language",
+        "get",
+        "steam",
+        "mobile",
+        "app",
+        "view",
+        "desktop",
+        "website",
+        "valve",
+        "corporation"
+      ]
+    },
+    {
+      "charEnd": 362,
+      "charStart": 340,
+      "factId": "hz.web.812fde81b8f25d5f.fact.2",
+      "kind": "bullet",
+      "text": "All rights reserved.",
+      "tokens": [
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 450,
+      "charStart": 363,
+      "factId": "hz.web.812fde81b8f25d5f.fact.3",
+      "kind": "bullet",
+      "text": "All trademarks are property of their respective owners in the US and other countries.",
+      "tokens": [
+        "all",
+        "trademarks",
+        "property",
+        "their",
+        "respective",
+        "owners",
+        "us",
+        "other",
+        "countries"
+      ]
+    },
+    {
+      "charEnd": 1356,
+      "charStart": 451,
+      "factId": "hz.web.812fde81b8f25d5f.fact.4",
+      "kind": "bullet",
+      "text": "Privacy Policy | Legal | Accessibility | Steam Subscriber Agreement | Refunds | Cookies STORE Home Discovery Queue Wishlist Points Shop News Charts COMMUNITY Home Discussions Workshop Market Broadcasts About SUPPORT Install Steam sign in | language 简体中文 (Simplified Chinese) 繁體中文 (Traditional Chinese) 日本語 (Japanese) 한국어 (Korean) ไทย (Thai) Български (Bulgarian) Čeština (Czech) Dansk (Danish) Deutsch (German) Español - España (Spanish - Spain) Español - Latinoamérica (Spanish - Latin America) Ελληνικά (Greek) Français (French) Italiano (Italian) Bahasa Indonesia (Indonesian) Magyar (Hungarian) Nederlands (Dutch) Norsk (Norwegian) Polski (Polish) Português (Portuguese - Portugal) Português - Brasil (Portuguese - Brazil) Română (Romanian) Русский (Russian) Suomi (Finnish) Svenska (Swedish) Türkçe (Turkish) Tiếng Việt (Vietnamese) Українська (Ukrainian) Report a translation problem New to Steam?",
+      "tokens": [
+        "privacy",
+        "policy",
+        "legal",
+        "accessibility",
+        "steam",
+        "subscriber",
+        "agreement",
+        "refunds",
+        "cookies",
+        "store",
+        "home",
+        "discovery",
+        "queue",
+        "wishlist",
+        "points",
+        "shop",
+        "news",
+        "charts",
+        "community",
+        "home",
+        "discussions",
+        "workshop",
+        "market",
+        "broadcasts",
+        "about",
+        "support",
+        "install",
+        "steam",
+        "sign",
+        "language",
+        "simplified",
+        "chinese",
+        "traditional",
+        "chinese",
+        "japanese",
+        "korean",
+        "thai",
+        "bulgarian",
+        "tina",
+        "czech",
+        "dansk",
+        "danish",
+        "deutsch",
+        "german",
+        "espa",
+        "ol",
+        "espa",
+        "spanish",
+        "spain",
+        "espa",
+        "ol",
+        "latinoam",
+        "rica",
+        "spanish",
+        "latin",
+        "america",
+        "greek",
+        "fran",
+        "ais",
+        "french",
+        "italiano",
+        "italian",
+        "bahasa",
+        "indonesia",
+        "indonesian",
+        "magyar",
+        "hungarian",
+        "nederlands",
+        "dutch",
+        "norsk",
+        "norwegian",
+        "polski",
+        "polish",
+        "portugu",
+        "portuguese",
+        "portugal",
+        "portugu",
+        "brasil",
+        "portuguese",
+        "brazil",
+        "rom",
+        "romanian",
+        "russian",
+        "suomi",
+        "finnish",
+        "svenska",
+        "swedish",
+        "rk",
+        "turkish",
+        "ti",
+        "ng",
+        "vi",
+        "vietnamese",
+        "ukrainian",
+        "report",
+        "translation",
+        "problem",
+        "new",
+        "steam"
+      ]
+    },
+    {
+      "charEnd": 1378,
+      "charStart": 1371,
+      "factId": "hz.web.812fde81b8f25d5f.fact.5",
+      "kind": "bullet",
+      "text": "steam",
+      "tokens": [
+        "steam"
+      ]
+    },
+    {
+      "charEnd": 1384,
+      "charStart": 1379,
+      "factId": "hz.web.812fde81b8f25d5f.fact.6",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 1392,
+      "charStart": 1385,
+      "factId": "hz.web.812fde81b8f25d5f.fact.7",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1399,
+      "charStart": 1393,
+      "factId": "hz.web.812fde81b8f25d5f.fact.8",
+      "kind": "bullet",
+      "text": "home",
+      "tokens": [
+        "home"
+      ]
+    },
+    {
+      "charEnd": 1406,
+      "charStart": 1400,
+      "factId": "hz.web.812fde81b8f25d5f.fact.9",
+      "kind": "bullet",
+      "text": "espa",
+      "tokens": [
+        "espa"
+      ]
+    },
+    {
+      "charEnd": 1413,
+      "charStart": 1407,
+      "factId": "hz.web.812fde81b8f25d5f.fact.10",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1423,
+      "charStart": 1414,
+      "factId": "hz.web.812fde81b8f25d5f.fact.11",
+      "kind": "bullet",
+      "text": "support",
+      "tokens": [
+        "support"
+      ]
+    },
+    {
+      "charEnd": 1431,
+      "charStart": 1424,
+      "factId": "hz.web.812fde81b8f25d5f.fact.12",
+      "kind": "bullet",
+      "text": "valve",
+      "tokens": [
+        "valve"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 10,
+      "charStart": 1,
+      "headingId": "hz.web.812fde81b8f25d5f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Sign In"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.812fde81b8f25d5f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1369,
+      "charStart": 1358,
+      "headingId": "hz.web.812fde81b8f25d5f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1443,
+      "charStart": 1433,
+      "headingId": "hz.web.812fde81b8f25d5f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/812fde81b8f25d5f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3425,
+        "start": 0
+      }
+    ],
+    "hash": "89cd989f5d75986454ff609ea9b60387e9e5d02108fc101b7db84f756d0acde5",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Sign In Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation.",
+      "All rights reserved.",
+      "All trademarks are property of their respective owners in the US and other countries."
+    ],
+    "medium": "Source: https://store.steampowered.com/explore/",
+    "short": "Source: https://store.steampowered.com/explore/",
+    "tokens": [
+      "sign",
+      "source",
+      "https",
+      "store",
+      "steampowered",
+      "com",
+      "explore",
+      "source",
+      "https",
+      "store",
+      "steampowered",
+      "com",
+      "explore"
+    ]
+  },
+  "title": "Sign In"
+}

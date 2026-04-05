@@ -1,0 +1,307 @@
+{
+  "aliases": [
+    {
+      "alias": "28a729eb5b4f3557",
+      "aliasId": "hz.web.28a729eb5b4f3557.alias.1",
+      "canonical": "awesome | our mission"
+    },
+    {
+      "alias": "awesome our mission",
+      "aliasId": "hz.web.28a729eb5b4f3557.alias.2",
+      "canonical": "awesome | our mission"
+    },
+    {
+      "alias": "web 28a729eb5b4f3557",
+      "aliasId": "hz.web.28a729eb5b4f3557.alias.3",
+      "canonical": "awesome | our mission"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.68,
+  "docId": "hz.web.28a729eb5b4f3557",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.28a729eb5b4f3557.entity.1",
+      "kind": "document",
+      "name": "Awesome | Our Mission",
+      "tokens": [
+        "awesome",
+        "our",
+        "mission"
+      ]
+    },
+    {
+      "entityId": "hz.web.28a729eb5b4f3557.entity.2",
+      "kind": "heading",
+      "name": "Awesome | Our Mission",
+      "tokens": [
+        "awesome",
+        "our",
+        "mission"
+      ]
+    },
+    {
+      "entityId": "hz.web.28a729eb5b4f3557.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.28a729eb5b4f3557.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.28a729eb5b4f3557.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 26,
+      "factId": "hz.web.28a729eb5b4f3557.fact.1",
+      "kind": "summary",
+      "text": "Source: https://awesome.co/our-friends",
+      "tokens": [
+        "source",
+        "https",
+        "awesome",
+        "co",
+        "our",
+        "friends"
+      ]
+    },
+    {
+      "charEnd": 217,
+      "charStart": 116,
+      "factId": "hz.web.28a729eb5b4f3557.fact.1",
+      "kind": "bullet",
+      "text": "Awesome | Our Mission Mission Values Brands Folklore Certified Evergeen People Ready to be Awesome?",
+      "tokens": [
+        "awesome",
+        "our",
+        "mission",
+        "mission",
+        "values",
+        "brands",
+        "folklore",
+        "certified",
+        "evergeen",
+        "people",
+        "ready",
+        "awesome"
+      ]
+    },
+    {
+      "charEnd": 233,
+      "charStart": 218,
+      "factId": "hz.web.28a729eb5b4f3557.fact.2",
+      "kind": "bullet",
+      "text": "Work with us!",
+      "tokens": [
+        "work",
+        "us"
+      ]
+    },
+    {
+      "charEnd": 300,
+      "charStart": 234,
+      "factId": "hz.web.28a729eb5b4f3557.fact.3",
+      "kind": "bullet",
+      "text": "MENU our Mission Becoming the most trusted brand in photography.",
+      "tokens": [
+        "menu",
+        "our",
+        "mission",
+        "becoming",
+        "most",
+        "trusted",
+        "brand",
+        "photography"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 301,
+      "factId": "hz.web.28a729eb5b4f3557.fact.4",
+      "kind": "bullet",
+      "text": "Growth is more than just head count.",
+      "tokens": [
+        "growth",
+        "more",
+        "than",
+        "just",
+        "head",
+        "count"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 354,
+      "factId": "hz.web.28a729eb5b4f3557.fact.5",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 369,
+      "charStart": 360,
+      "factId": "hz.web.28a729eb5b4f3557.fact.6",
+      "kind": "bullet",
+      "text": "awesome",
+      "tokens": [
+        "awesome"
+      ]
+    },
+    {
+      "charEnd": 379,
+      "charStart": 370,
+      "factId": "hz.web.28a729eb5b4f3557.fact.7",
+      "kind": "bullet",
+      "text": "mission",
+      "tokens": [
+        "mission"
+      ]
+    },
+    {
+      "charEnd": 391,
+      "charStart": 380,
+      "factId": "hz.web.28a729eb5b4f3557.fact.8",
+      "kind": "bullet",
+      "text": "certified",
+      "tokens": [
+        "certified"
+      ]
+    },
+    {
+      "charEnd": 401,
+      "charStart": 392,
+      "factId": "hz.web.28a729eb5b4f3557.fact.9",
+      "kind": "bullet",
+      "text": "climate",
+      "tokens": [
+        "climate"
+      ]
+    },
+    {
+      "charEnd": 408,
+      "charStart": 402,
+      "factId": "hz.web.28a729eb5b4f3557.fact.10",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 417,
+      "charStart": 409,
+      "factId": "hz.web.28a729eb5b4f3557.fact.11",
+      "kind": "bullet",
+      "text": "people",
+      "tokens": [
+        "people"
+      ]
+    },
+    {
+      "charEnd": 424,
+      "charStart": 418,
+      "factId": "hz.web.28a729eb5b4f3557.fact.12",
+      "kind": "bullet",
+      "text": "than",
+      "tokens": [
+        "than"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.28a729eb5b4f3557.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Awesome | Our Mission"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.28a729eb5b4f3557.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 352,
+      "charStart": 341,
+      "headingId": "hz.web.28a729eb5b4f3557.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 436,
+      "charStart": 426,
+      "headingId": "hz.web.28a729eb5b4f3557.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/28a729eb5b4f3557.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2705,
+        "start": 0
+      }
+    ],
+    "hash": "884e808a4c2bf11632bb33c00038eb86833a9e70f5b31dbc692a7ab0a1736aaa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Awesome | Our Mission Mission Values Brands Folklore Certified Evergeen People Ready to be Awesome?",
+      "Work with us!",
+      "MENU our Mission Becoming the most trusted brand in photography."
+    ],
+    "medium": "Source: https://awesome.co/our-friends",
+    "short": "Source: https://awesome.co/our-friends",
+    "tokens": [
+      "awesome",
+      "our",
+      "mission",
+      "source",
+      "https",
+      "awesome",
+      "co",
+      "our",
+      "friends",
+      "source",
+      "https",
+      "awesome",
+      "co",
+      "our",
+      "friends"
+    ]
+  },
+  "title": "Awesome | Our Mission"
+}

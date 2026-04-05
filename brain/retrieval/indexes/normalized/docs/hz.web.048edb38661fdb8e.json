@@ -1,0 +1,450 @@
+{
+  "aliases": [
+    {
+      "alias": "048edb38661fdb8e",
+      "aliasId": "hz.web.048edb38661fdb8e.alias.1",
+      "canonical": "websub - wikipedia"
+    },
+    {
+      "alias": "web 048edb38661fdb8e",
+      "aliasId": "hz.web.048edb38661fdb8e.alias.2",
+      "canonical": "websub - wikipedia"
+    },
+    {
+      "alias": "websub - wikipedia",
+      "aliasId": "hz.web.048edb38661fdb8e.alias.3",
+      "canonical": "websub - wikipedia"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.048edb38661fdb8e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.048edb38661fdb8e.entity.1",
+      "kind": "document",
+      "name": "WebSub - Wikipedia",
+      "tokens": [
+        "websub",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.048edb38661fdb8e.entity.2",
+      "kind": "heading",
+      "name": "WebSub - Wikipedia",
+      "tokens": [
+        "websub",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.048edb38661fdb8e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.048edb38661fdb8e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.048edb38661fdb8e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 72,
+      "charStart": 23,
+      "factId": "hz.web.048edb38661fdb8e.fact.1",
+      "kind": "summary",
+      "text": "Source: http://en.wikipedia.org/wiki/PubSubHubbub",
+      "tokens": [
+        "source",
+        "http",
+        "en",
+        "wikipedia",
+        "org",
+        "wiki",
+        "pubsubhubbub"
+      ]
+    },
+    {
+      "charEnd": 1212,
+      "charStart": 124,
+      "factId": "hz.web.048edb38661fdb8e.fact.1",
+      "kind": "bullet",
+      "text": "WebSub - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Protocol 2 Usage 3 See also 4 References Toggle the table of contents WebSub 10 languages Български Deutsch Suomi Français Magyar Italiano 日本語 한국어 Српски / srpski 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from PubSubHubbub ) Distributed publish-subscribe communication protocol Not to be confused with WebVTT , a W3C standard for timed text.",
+      "tokens": [
+        "websub",
+        "wikipedia",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "navigation",
+        "main",
+        "page",
+        "contents",
+        "current",
+        "events",
+        "random",
+        "article",
+        "about",
+        "wikipedia",
+        "contact",
+        "us",
+        "contribute",
+        "help",
+        "learn",
+        "edit",
+        "community",
+        "portal",
+        "recent",
+        "changes",
+        "upload",
+        "file",
+        "special",
+        "pages",
+        "search",
+        "search",
+        "appearance",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "personal",
+        "tools",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "top",
+        "protocol",
+        "usage",
+        "see",
+        "also",
+        "references",
+        "toggle",
+        "table",
+        "contents",
+        "websub",
+        "10",
+        "languages",
+        "deutsch",
+        "suomi",
+        "fran",
+        "ais",
+        "magyar",
+        "italiano",
+        "srpski",
+        "edit",
+        "links",
+        "article",
+        "talk",
+        "english",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "upload",
+        "file",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "cite",
+        "page",
+        "get",
+        "shortened",
+        "url",
+        "print",
+        "export",
+        "download",
+        "pdf",
+        "printable",
+        "version",
+        "other",
+        "projects",
+        "wikidata",
+        "item",
+        "appearance",
+        "move",
+        "sidebar",
+        "hide",
+        "wikipedia",
+        "free",
+        "encyclopedia",
+        "redirected",
+        "pubsubhubbub",
+        "distributed",
+        "publish",
+        "subscribe",
+        "communication",
+        "protocol",
+        "not",
+        "confused",
+        "webvtt",
+        "w3c",
+        "standard",
+        "timed",
+        "text"
+      ]
+    },
+    {
+      "charEnd": 1332,
+      "charStart": 1213,
+      "factId": "hz.web.048edb38661fdb8e.fact.2",
+      "kind": "bullet",
+      "text": "WebSub (formerly PubSubHubbub ) is an open protocol for distributed publish–subscribe communication on the Internet .",
+      "tokens": [
+        "websub",
+        "formerly",
+        "pubsubhubbub",
+        "open",
+        "protocol",
+        "distributed",
+        "publish",
+        "subscribe",
+        "communication",
+        "internet"
+      ]
+    },
+    {
+      "charEnd": 1474,
+      "charStart": 1333,
+      "factId": "hz.web.048edb38661fdb8e.fact.3",
+      "kind": "bullet",
+      "text": "&#91; 1 &#93; Initially designed to extend the Atom (and RSS ) protocols for data feeds, the protocol can be applied to any data type (e.g.",
+      "tokens": [
+        "91",
+        "93",
+        "initially",
+        "designed",
+        "extend",
+        "atom",
+        "rss",
+        "protocols",
+        "data",
+        "feeds",
+        "protocol",
+        "applied",
+        "any",
+        "data",
+        "type"
+      ]
+    },
+    {
+      "charEnd": 1551,
+      "charStart": 1475,
+      "factId": "hz.web.048edb38661fdb8e.fact.4",
+      "kind": "bullet",
+      "text": "HTML , text, pictures, audio, video) as long as it is accessible via HTTP.",
+      "tokens": [
+        "html",
+        "text",
+        "pictures",
+        "audio",
+        "video",
+        "long",
+        "accessible",
+        "via",
+        "http"
+      ]
+    },
+    {
+      "charEnd": 1574,
+      "charStart": 1566,
+      "factId": "hz.web.048edb38661fdb8e.fact.5",
+      "kind": "bullet",
+      "text": "websub",
+      "tokens": [
+        "websub"
+      ]
+    },
+    {
+      "charEnd": 1579,
+      "charStart": 1575,
+      "factId": "hz.web.048edb38661fdb8e.fact.6",
+      "kind": "bullet",
+      "text": "91",
+      "tokens": [
+        "91"
+      ]
+    },
+    {
+      "charEnd": 1584,
+      "charStart": 1580,
+      "factId": "hz.web.048edb38661fdb8e.fact.7",
+      "kind": "bullet",
+      "text": "93",
+      "tokens": [
+        "93"
+      ]
+    },
+    {
+      "charEnd": 1599,
+      "charStart": 1585,
+      "factId": "hz.web.048edb38661fdb8e.fact.8",
+      "kind": "bullet",
+      "text": "pubsubhubbub",
+      "tokens": [
+        "pubsubhubbub"
+      ]
+    },
+    {
+      "charEnd": 1605,
+      "charStart": 1600,
+      "factId": "hz.web.048edb38661fdb8e.fact.9",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1611,
+      "charStart": 1606,
+      "factId": "hz.web.048edb38661fdb8e.fact.10",
+      "kind": "bullet",
+      "text": "hub",
+      "tokens": [
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 1624,
+      "charStart": 1612,
+      "factId": "hz.web.048edb38661fdb8e.fact.11",
+      "kind": "bullet",
+      "text": "subscriber",
+      "tokens": [
+        "subscriber"
+      ]
+    },
+    {
+      "charEnd": 1631,
+      "charStart": 1625,
+      "factId": "hz.web.048edb38661fdb8e.fact.12",
+      "kind": "bullet",
+      "text": "edit",
+      "tokens": [
+        "edit"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.048edb38661fdb8e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "WebSub - Wikipedia"
+    },
+    {
+      "charEnd": 122,
+      "charStart": 112,
+      "headingId": "hz.web.048edb38661fdb8e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1564,
+      "charStart": 1553,
+      "headingId": "hz.web.048edb38661fdb8e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1643,
+      "charStart": 1633,
+      "headingId": "hz.web.048edb38661fdb8e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/048edb38661fdb8e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4889,
+        "start": 0
+      }
+    ],
+    "hash": "88445d31ee119e37cfe3feb5064125c02e9571eb8556b2bfae9014f3eba5f61e",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "WebSub - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Protocol 2 Usage 3 See also 4 References Toggle the table of contents WebSub 10 languages Български Deutsch Suomi Français Magyar Italiano 日本語 한국어 Српски / srpski 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia (Redirected from PubSubHubbub ) Distributed publish-subscribe communication protocol Not to be confused with WebVTT , a W3C standard for timed text.",
+      "WebSub (formerly PubSubHubbub ) is an open protocol for distributed publish–subscribe communication on the Internet .",
+      "&#91; 1 &#93; Initially designed to extend the Atom (and RSS ) protocols for data feeds, the protocol can be applied to any data type (e.g."
+    ],
+    "medium": "Source: http://en.wikipedia.org/wiki/PubSubHubbub",
+    "short": "Source: http://en.wikipedia.org/wiki/PubSubHubbub",
+    "tokens": [
+      "websub",
+      "wikipedia",
+      "source",
+      "http",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "pubsubhubbub",
+      "source",
+      "http",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "pubsubhubbub"
+    ]
+  },
+  "title": "WebSub - Wikipedia"
+}

@@ -1,0 +1,440 @@
+{
+  "aliases": [
+    {
+      "alias": "e8662f831650e049",
+      "aliasId": "hz.web.e8662f831650e049.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.e8662f831650e049.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web e8662f831650e049",
+      "aliasId": "hz.web.e8662f831650e049.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.e8662f831650e049",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e8662f831650e049.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8662f831650e049.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8662f831650e049.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8662f831650e049.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e8662f831650e049.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 153,
+      "charStart": 25,
+      "factId": "hz.web.e8662f831650e049.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/css?family=Montserrat%3A700%2C800%7CDM+Sans%3A700%2C400%2C500%7CAbel%3A400&amp;display=swap",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "css",
+        "family",
+        "montserrat",
+        "3a700",
+        "2c800",
+        "7cdm",
+        "sans",
+        "3a700",
+        "2c400",
+        "2c500",
+        "7cabel",
+        "3a400",
+        "amp",
+        "display",
+        "swap"
+      ]
+    },
+    {
+      "charEnd": 1393,
+      "charStart": 205,
+      "factId": "hz.web.e8662f831650e049.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Abel'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BOA.ttf) format('truetype'); } @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW3z.ttf) format('truetype'); } @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxRSW3z.ttf) format('truetype'); } @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZtRSW3z.ttf) format('truetype'); } @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf) format('truetype'); } @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 800; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "abel",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "abel",
+        "v18",
+        "mwq5bhbm2poe2v9boa",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "dm",
+        "sans",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "dmsans",
+        "v17",
+        "rp2tp2ywxg089urii5",
+        "g4vlh9vod8cmcqzg40f9jadbnoewaopxrsw3z",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "dm",
+        "sans",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "500",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "dmsans",
+        "v17",
+        "rp2tp2ywxg089urii5",
+        "g4vlh9vod8cmcqzg40f9jadbnoewakjxrsw3z",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "dm",
+        "sans",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "dmsans",
+        "v17",
+        "rp2tp2ywxg089urii5",
+        "g4vlh9vod8cmcqzg40f9jadbnoewarztrsw3z",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "montserrat",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "montserrat",
+        "v31",
+        "jtuhjig1_i6t8kchkm4532vjot5",
+        "qnfgpcum73w5ax8",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "montserrat",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "800",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "montserrat",
+        "v31",
+        "jtuhjig1_i6t8kchkm4532vjot5",
+        "qnfgpcvr73w5ax8",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 1414,
+      "charStart": 1408,
+      "factId": "hz.web.e8662f831650e049.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1420,
+      "charStart": 1415,
+      "factId": "hz.web.e8662f831650e049.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1427,
+      "charStart": 1421,
+      "factId": "hz.web.e8662f831650e049.fact.4",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 1436,
+      "charStart": 1428,
+      "factId": "hz.web.e8662f831650e049.fact.5",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 1444,
+      "charStart": 1437,
+      "factId": "hz.web.e8662f831650e049.fact.6",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 1453,
+      "charStart": 1445,
+      "factId": "hz.web.e8662f831650e049.fact.7",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    },
+    {
+      "charEnd": 1463,
+      "charStart": 1454,
+      "factId": "hz.web.e8662f831650e049.fact.8",
+      "kind": "bullet",
+      "text": "gstatic",
+      "tokens": [
+        "gstatic"
+      ]
+    },
+    {
+      "charEnd": 1471,
+      "charStart": 1464,
+      "factId": "hz.web.e8662f831650e049.fact.9",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.e8662f831650e049.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 203,
+      "charStart": 193,
+      "headingId": "hz.web.e8662f831650e049.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1406,
+      "charStart": 1395,
+      "headingId": "hz.web.e8662f831650e049.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1483,
+      "charStart": 1473,
+      "headingId": "hz.web.e8662f831650e049.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/e8662f831650e049.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2996,
+        "start": 0
+      }
+    ],
+    "hash": "e783ec8e193b774c0c8fc5be5a37fef912130b02e870d03dca569b66f278d441",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Abel'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BOA.ttf) format('truetype'); } @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxRSW3z.ttf) format('truetype'); } @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxRSW3z.ttf) format('truetype'); } @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZtRSW3z.ttf) format('truetype'); } @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 700; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf) format('truetype'); } @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 800; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf) format('truetype'); }",
+      "font",
+      "com"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/css?family=Montserrat%3A700%2C800%7CDM+Sans%3A700%2C400%2C500%7CAbel%3A400&amp;display=swap",
+    "short": "Source: https://fonts.googleapis.com/css?family=Montserrat%3A700%2C800%7CDM+Sans%3A700%2C400%2C500%7CAbel%3A400&amp;display=swap",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "montserrat",
+      "3a700",
+      "2c800",
+      "7cdm",
+      "sans",
+      "3a700",
+      "2c400",
+      "2c500",
+      "7cabel",
+      "3a400",
+      "amp",
+      "display",
+      "swap",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css",
+      "family",
+      "montserrat",
+      "3a700",
+      "2c800",
+      "7cdm",
+      "sans",
+      "3a700",
+      "2c400",
+      "2c500",
+      "7cabel",
+      "3a400",
+      "amp",
+      "display",
+      "swap"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

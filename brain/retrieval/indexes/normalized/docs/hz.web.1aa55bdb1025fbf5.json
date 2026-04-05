@@ -1,0 +1,418 @@
+{
+  "aliases": [
+    {
+      "alias": "1aa55bdb1025fbf5",
+      "aliasId": "hz.web.1aa55bdb1025fbf5.alias.1",
+      "canonical": "librewolf - lemmy"
+    },
+    {
+      "alias": "librewolf - lemmy",
+      "aliasId": "hz.web.1aa55bdb1025fbf5.alias.2",
+      "canonical": "librewolf - lemmy"
+    },
+    {
+      "alias": "web 1aa55bdb1025fbf5",
+      "aliasId": "hz.web.1aa55bdb1025fbf5.alias.3",
+      "canonical": "librewolf - lemmy"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.1aa55bdb1025fbf5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1aa55bdb1025fbf5.entity.1",
+      "kind": "document",
+      "name": "LibreWolf - Lemmy",
+      "tokens": [
+        "librewolf",
+        "lemmy"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa55bdb1025fbf5.entity.2",
+      "kind": "heading",
+      "name": "LibreWolf - Lemmy",
+      "tokens": [
+        "librewolf",
+        "lemmy"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa55bdb1025fbf5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa55bdb1025fbf5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa55bdb1025fbf5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 22,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://lemmy.ml/c/librewolf",
+      "tokens": [
+        "source",
+        "https",
+        "lemmy",
+        "ml",
+        "librewolf"
+      ]
+    },
+    {
+      "charEnd": 986,
+      "charStart": 110,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.1",
+      "kind": "bullet",
+      "text": "LibreWolf - Lemmy Jump to content Lemmy Communities Create Post Create Community Support Lemmy Search Login Sign Up LibreWolf librewolf Sidebar Posts Comments Sort type Hot Active Scaled Controversial New Old Most Comments New Comments ───── Top Hour Top Six Hours Top Twelve Hours Top Day Top Week Top Month Top Three Months Top Six Months Top Nine Months Top Year Top All Time observantTrapezium @lemmy.ca · 17 days ago YSK that LibreWolf creates persistent connections to Mozilla 3 22 2 20 YSK that LibreWolf creates persistent connections to Mozilla observantTrapezium @lemmy.ca · 17 days ago 3 Alas Poor Erinaceus English · 1 month ago Minor issue with KeePassXC and LW 1 5 0 5 Minor issue with KeePassXC and LW Alas Poor Erinaceus English · 1 month ago 1 Alas Poor Erinaceus English · 1 month ago JOOC why and when was .librewolf folder moved to .config on Linux Mint?",
+      "tokens": [
+        "librewolf",
+        "lemmy",
+        "jump",
+        "content",
+        "lemmy",
+        "communities",
+        "create",
+        "post",
+        "create",
+        "community",
+        "support",
+        "lemmy",
+        "search",
+        "login",
+        "sign",
+        "up",
+        "librewolf",
+        "librewolf",
+        "sidebar",
+        "posts",
+        "comments",
+        "sort",
+        "type",
+        "hot",
+        "active",
+        "scaled",
+        "controversial",
+        "new",
+        "old",
+        "most",
+        "comments",
+        "new",
+        "comments",
+        "top",
+        "hour",
+        "top",
+        "six",
+        "hours",
+        "top",
+        "twelve",
+        "hours",
+        "top",
+        "day",
+        "top",
+        "week",
+        "top",
+        "month",
+        "top",
+        "three",
+        "months",
+        "top",
+        "six",
+        "months",
+        "top",
+        "nine",
+        "months",
+        "top",
+        "year",
+        "top",
+        "all",
+        "time",
+        "observanttrapezium",
+        "lemmy",
+        "ca",
+        "17",
+        "days",
+        "ago",
+        "ysk",
+        "librewolf",
+        "creates",
+        "persistent",
+        "connections",
+        "mozilla",
+        "22",
+        "20",
+        "ysk",
+        "librewolf",
+        "creates",
+        "persistent",
+        "connections",
+        "mozilla",
+        "observanttrapezium",
+        "lemmy",
+        "ca",
+        "17",
+        "days",
+        "ago",
+        "alas",
+        "poor",
+        "erinaceus",
+        "english",
+        "month",
+        "ago",
+        "minor",
+        "issue",
+        "keepassxc",
+        "lw",
+        "minor",
+        "issue",
+        "keepassxc",
+        "lw",
+        "alas",
+        "poor",
+        "erinaceus",
+        "english",
+        "month",
+        "ago",
+        "alas",
+        "poor",
+        "erinaceus",
+        "english",
+        "month",
+        "ago",
+        "jooc",
+        "why",
+        "librewolf",
+        "folder",
+        "moved",
+        "config",
+        "linux",
+        "mint"
+      ]
+    },
+    {
+      "charEnd": 1068,
+      "charStart": 987,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.2",
+      "kind": "bullet",
+      "text": "5 8 0 8 JOOC why and when was .librewolf folder moved to .config on Linux Mint?",
+      "tokens": [
+        "jooc",
+        "why",
+        "librewolf",
+        "folder",
+        "moved",
+        "config",
+        "linux",
+        "mint"
+      ]
+    },
+    {
+      "charEnd": 1189,
+      "charStart": 1069,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.3",
+      "kind": "bullet",
+      "text": "Alas Poor Erinaceus English · 1 month ago 5 cibicibi @discuss.tchncs.de · 1 month ago Is xcalib -i -a fingerprintable?",
+      "tokens": [
+        "alas",
+        "poor",
+        "erinaceus",
+        "english",
+        "month",
+        "ago",
+        "cibicibi",
+        "discuss",
+        "tchncs",
+        "de",
+        "month",
+        "ago",
+        "xcalib",
+        "fingerprintable"
+      ]
+    },
+    {
+      "charEnd": 1232,
+      "charStart": 1190,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.4",
+      "kind": "bullet",
+      "text": "1 7 0 7 Is xcalib -i -a fingerprintable?",
+      "tokens": [
+        "xcalib",
+        "fingerprintable"
+      ]
+    },
+    {
+      "charEnd": 1252,
+      "charStart": 1247,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.5",
+      "kind": "bullet",
+      "text": "ago",
+      "tokens": [
+        "ago"
+      ]
+    },
+    {
+      "charEnd": 1261,
+      "charStart": 1253,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.6",
+      "kind": "bullet",
+      "text": "months",
+      "tokens": [
+        "months"
+      ]
+    },
+    {
+      "charEnd": 1271,
+      "charStart": 1262,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.7",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    },
+    {
+      "charEnd": 1279,
+      "charStart": 1272,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.8",
+      "kind": "bullet",
+      "text": "lemmy",
+      "tokens": [
+        "lemmy"
+      ]
+    },
+    {
+      "charEnd": 1291,
+      "charStart": 1280,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.9",
+      "kind": "bullet",
+      "text": "librewolf",
+      "tokens": [
+        "librewolf"
+      ]
+    },
+    {
+      "charEnd": 1297,
+      "charStart": 1292,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.10",
+      "kind": "bullet",
+      "text": "top",
+      "tokens": [
+        "top"
+      ]
+    },
+    {
+      "charEnd": 1305,
+      "charStart": 1298,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.11",
+      "kind": "bullet",
+      "text": "month",
+      "tokens": [
+        "month"
+      ]
+    },
+    {
+      "charEnd": 1311,
+      "charStart": 1306,
+      "factId": "hz.web.1aa55bdb1025fbf5.fact.12",
+      "kind": "bullet",
+      "text": "new",
+      "tokens": [
+        "new"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.1aa55bdb1025fbf5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LibreWolf - Lemmy"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.1aa55bdb1025fbf5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1245,
+      "charStart": 1234,
+      "headingId": "hz.web.1aa55bdb1025fbf5.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1323,
+      "charStart": 1313,
+      "headingId": "hz.web.1aa55bdb1025fbf5.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1aa55bdb1025fbf5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4555,
+        "start": 0
+      }
+    ],
+    "hash": "b29071a8d59d93aa61155b13585e3054f29769c4ee955e1d482b6360f83ad975",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LibreWolf - Lemmy Jump to content Lemmy Communities Create Post Create Community Support Lemmy Search Login Sign Up LibreWolf librewolf Sidebar Posts Comments Sort type Hot Active Scaled Controversial New Old Most Comments New Comments ───── Top Hour Top Six Hours Top Twelve Hours Top Day Top Week Top Month Top Three Months Top Six Months Top Nine Months Top Year Top All Time observantTrapezium @lemmy.ca · 17 days ago YSK that LibreWolf creates persistent connections to Mozilla 3 22 2 20 YSK that LibreWolf creates persistent connections to Mozilla observantTrapezium @lemmy.ca · 17 days ago 3 Alas Poor Erinaceus English · 1 month ago Minor issue with KeePassXC and LW 1 5 0 5 Minor issue with KeePassXC and LW Alas Poor Erinaceus English · 1 month ago 1 Alas Poor Erinaceus English · 1 month ago JOOC why and when was .librewolf folder moved to .config on Linux Mint?",
+      "5 8 0 8 JOOC why and when was .librewolf folder moved to .config on Linux Mint?",
+      "Alas Poor Erinaceus English · 1 month ago 5 cibicibi @discuss.tchncs.de · 1 month ago Is xcalib -i -a fingerprintable?"
+    ],
+    "medium": "Source: https://lemmy.ml/c/librewolf",
+    "short": "Source: https://lemmy.ml/c/librewolf",
+    "tokens": [
+      "librewolf",
+      "lemmy",
+      "source",
+      "https",
+      "lemmy",
+      "ml",
+      "librewolf",
+      "source",
+      "https",
+      "lemmy",
+      "ml",
+      "librewolf"
+    ]
+  },
+  "title": "LibreWolf - Lemmy"
+}

@@ -1,0 +1,534 @@
+{
+  "aliases": [
+    {
+      "alias": "a28cb250d16801b8",
+      "aliasId": "hz.web.a28cb250d16801b8.alias.1",
+      "canonical": "cla | openjs foundation"
+    },
+    {
+      "alias": "cla openjs foundation",
+      "aliasId": "hz.web.a28cb250d16801b8.alias.2",
+      "canonical": "cla | openjs foundation"
+    },
+    {
+      "alias": "web a28cb250d16801b8",
+      "aliasId": "hz.web.a28cb250d16801b8.alias.3",
+      "canonical": "cla | openjs foundation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.web.a28cb250d16801b8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a28cb250d16801b8.entity.1",
+      "kind": "document",
+      "name": "CLA | OpenJS Foundation",
+      "tokens": [
+        "cla",
+        "openjs",
+        "foundation"
+      ]
+    },
+    {
+      "entityId": "hz.web.a28cb250d16801b8.entity.2",
+      "kind": "heading",
+      "name": "CLA | OpenJS Foundation",
+      "tokens": [
+        "cla",
+        "openjs",
+        "foundation"
+      ]
+    },
+    {
+      "entityId": "hz.web.a28cb250d16801b8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a28cb250d16801b8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a28cb250d16801b8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 28,
+      "factId": "hz.web.a28cb250d16801b8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cla.openjsf.org/",
+      "tokens": [
+        "source",
+        "https",
+        "cla",
+        "openjsf",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 435,
+      "charStart": 112,
+      "factId": "hz.web.a28cb250d16801b8.fact.1",
+      "kind": "bullet",
+      "text": "CLA | OpenJS Foundation OpenJS Foundation Open main menu About About Projects Projects Blog Blog Community Community Become a member CLA The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "tokens": [
+        "cla",
+        "openjs",
+        "foundation",
+        "openjs",
+        "foundation",
+        "open",
+        "main",
+        "menu",
+        "about",
+        "about",
+        "projects",
+        "projects",
+        "blog",
+        "blog",
+        "community",
+        "community",
+        "become",
+        "member",
+        "cla",
+        "openjs",
+        "foundation",
+        "board",
+        "directors",
+        "has",
+        "approved",
+        "ip",
+        "policy",
+        "allows",
+        "projects",
+        "determine",
+        "project",
+        "project",
+        "basis",
+        "whether",
+        "contributors",
+        "will",
+        "required",
+        "sign",
+        "cla"
+      ]
+    },
+    {
+      "charEnd": 622,
+      "charStart": 436,
+      "factId": "hz.web.a28cb250d16801b8.fact.2",
+      "kind": "bullet",
+      "text": "The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "tokens": [
+        "openjs",
+        "foundation",
+        "board",
+        "directors",
+        "has",
+        "approved",
+        "ip",
+        "policy",
+        "allows",
+        "projects",
+        "determine",
+        "project",
+        "project",
+        "basis",
+        "whether",
+        "contributors",
+        "will",
+        "required",
+        "sign",
+        "cla"
+      ]
+    },
+    {
+      "charEnd": 735,
+      "charStart": 623,
+      "factId": "hz.web.a28cb250d16801b8.fact.3",
+      "kind": "bullet",
+      "text": "In addition, the Board has approved a CLA for individual contributors , and a CLA for corporate contributors .",
+      "tokens": [
+        "addition",
+        "board",
+        "has",
+        "approved",
+        "cla",
+        "individual",
+        "contributors",
+        "cla",
+        "corporate",
+        "contributors"
+      ]
+    },
+    {
+      "charEnd": 930,
+      "charStart": 736,
+      "factId": "hz.web.a28cb250d16801b8.fact.4",
+      "kind": "bullet",
+      "text": "Project maintainers may choose to use the DCO signoff process, an individual CLA and a corporate CLA (which covers multiple contributors from a single organization), or just an individual CLA.",
+      "tokens": [
+        "project",
+        "maintainers",
+        "may",
+        "choose",
+        "use",
+        "dco",
+        "signoff",
+        "process",
+        "individual",
+        "cla",
+        "corporate",
+        "cla",
+        "covers",
+        "multiple",
+        "contributors",
+        "single",
+        "organization",
+        "just",
+        "individual",
+        "cla"
+      ]
+    },
+    {
+      "charEnd": 950,
+      "charStart": 945,
+      "factId": "hz.web.a28cb250d16801b8.fact.5",
+      "kind": "bullet",
+      "text": "cla",
+      "tokens": [
+        "cla"
+      ]
+    },
+    {
+      "charEnd": 959,
+      "charStart": 951,
+      "factId": "hz.web.a28cb250d16801b8.fact.6",
+      "kind": "bullet",
+      "text": "openjs",
+      "tokens": [
+        "openjs"
+      ]
+    },
+    {
+      "charEnd": 972,
+      "charStart": 960,
+      "factId": "hz.web.a28cb250d16801b8.fact.7",
+      "kind": "bullet",
+      "text": "foundation",
+      "tokens": [
+        "foundation"
+      ]
+    },
+    {
+      "charEnd": 981,
+      "charStart": 973,
+      "factId": "hz.web.a28cb250d16801b8.fact.8",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 994,
+      "charStart": 982,
+      "factId": "hz.web.a28cb250d16801b8.fact.9",
+      "kind": "bullet",
+      "text": "trademarks",
+      "tokens": [
+        "trademarks"
+      ]
+    },
+    {
+      "charEnd": 1009,
+      "charStart": 995,
+      "factId": "hz.web.a28cb250d16801b8.fact.10",
+      "kind": "bullet",
+      "text": "contributors",
+      "tokens": [
+        "contributors"
+      ]
+    },
+    {
+      "charEnd": 1019,
+      "charStart": 1010,
+      "factId": "hz.web.a28cb250d16801b8.fact.11",
+      "kind": "bullet",
+      "text": "easycla",
+      "tokens": [
+        "easycla"
+      ]
+    },
+    {
+      "charEnd": 1025,
+      "charStart": 1020,
+      "factId": "hz.web.a28cb250d16801b8.fact.12",
+      "kind": "bullet",
+      "text": "has",
+      "tokens": [
+        "has"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.a28cb250d16801b8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "CLA | OpenJS Foundation"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.a28cb250d16801b8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 943,
+      "charStart": 932,
+      "headingId": "hz.web.a28cb250d16801b8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1037,
+      "charStart": 1027,
+      "headingId": "hz.web.a28cb250d16801b8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a28cb250d16801b8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3739,
+        "start": 0
+      }
+    ],
+    "hash": "fd70291262b5a7731ecf6529196b2f276fe21c036f66337ce41e0a3ce18541c9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.a28cb250d16801b8.rule.1",
+      "text": "# CLA | OpenJS Foundation Source: https://cla.openjsf.org/ Fetched at: 2026-03-31T09:43:55.457Z ## Summary - CLA | OpenJS Foundation OpenJS Foundation Open main menu About About Projects Projects Blog Blog Community Community Become a member CLA The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "tokens": [
+        "cla",
+        "openjs",
+        "foundation",
+        "source",
+        "https",
+        "cla",
+        "openjsf",
+        "org",
+        "fetched",
+        "2026",
+        "03",
+        "31t09",
+        "43",
+        "55",
+        "457z",
+        "summary",
+        "cla",
+        "openjs",
+        "foundation",
+        "openjs",
+        "foundation",
+        "open",
+        "main",
+        "menu",
+        "about",
+        "about",
+        "projects",
+        "projects",
+        "blog",
+        "blog",
+        "community",
+        "community",
+        "become",
+        "member",
+        "cla",
+        "openjs",
+        "foundation",
+        "board",
+        "directors",
+        "has",
+        "approved",
+        "ip",
+        "policy",
+        "allows",
+        "projects",
+        "determine",
+        "project",
+        "project",
+        "basis",
+        "whether",
+        "contributors",
+        "will",
+        "required",
+        "sign",
+        "cla"
+      ]
+    },
+    {
+      "ruleId": "hz.web.a28cb250d16801b8.rule.2",
+      "text": "- The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "tokens": [
+        "openjs",
+        "foundation",
+        "board",
+        "directors",
+        "has",
+        "approved",
+        "ip",
+        "policy",
+        "allows",
+        "projects",
+        "determine",
+        "project",
+        "project",
+        "basis",
+        "whether",
+        "contributors",
+        "will",
+        "required",
+        "sign",
+        "cla"
+      ]
+    },
+    {
+      "ruleId": "hz.web.a28cb250d16801b8.rule.3",
+      "text": "## Keywords - cla - openjs - foundation - policy - trademarks - contributors - easycla - has ## Excerpt CLA | OpenJS Foundation OpenJS Foundation Open main menu About About Projects Projects Blog Blog Community Community Become a member CLA The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "tokens": [
+        "keywords",
+        "cla",
+        "openjs",
+        "foundation",
+        "policy",
+        "trademarks",
+        "contributors",
+        "easycla",
+        "has",
+        "excerpt",
+        "cla",
+        "openjs",
+        "foundation",
+        "openjs",
+        "foundation",
+        "open",
+        "main",
+        "menu",
+        "about",
+        "about",
+        "projects",
+        "projects",
+        "blog",
+        "blog",
+        "community",
+        "community",
+        "become",
+        "member",
+        "cla",
+        "openjs",
+        "foundation",
+        "board",
+        "directors",
+        "has",
+        "approved",
+        "ip",
+        "policy",
+        "allows",
+        "projects",
+        "determine",
+        "project",
+        "project",
+        "basis",
+        "whether",
+        "contributors",
+        "will",
+        "required",
+        "sign",
+        "cla"
+      ]
+    },
+    {
+      "ruleId": "hz.web.a28cb250d16801b8.rule.4",
+      "text": "The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "tokens": [
+        "openjs",
+        "foundation",
+        "board",
+        "directors",
+        "has",
+        "approved",
+        "ip",
+        "policy",
+        "allows",
+        "projects",
+        "determine",
+        "project",
+        "project",
+        "basis",
+        "whether",
+        "contributors",
+        "will",
+        "required",
+        "sign",
+        "cla"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "CLA | OpenJS Foundation OpenJS Foundation Open main menu About About Projects Projects Blog Blog Community Community Become a member CLA The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "The OpenJS Foundation Board of Directors has approved an IP policy which allows projects to determine on a project-by-project basis whether contributors will be required to sign a CLA.",
+      "In addition, the Board has approved a CLA for individual contributors , and a CLA for corporate contributors ."
+    ],
+    "medium": "Source: https://cla.openjsf.org/",
+    "short": "Source: https://cla.openjsf.org/",
+    "tokens": [
+      "cla",
+      "openjs",
+      "foundation",
+      "source",
+      "https",
+      "cla",
+      "openjsf",
+      "org",
+      "source",
+      "https",
+      "cla",
+      "openjsf",
+      "org"
+    ]
+  },
+  "title": "CLA | OpenJS Foundation"
+}

@@ -1,0 +1,279 @@
+{
+  "aliases": [
+    {
+      "alias": "d32a32ee9033e99b",
+      "aliasId": "hz.web.d32a32ee9033e99b.alias.1",
+      "canonical": "linkedin україна: увійдіть або зареєструйтеся"
+    },
+    {
+      "alias": "linkedin",
+      "aliasId": "hz.web.d32a32ee9033e99b.alias.2",
+      "canonical": "linkedin україна: увійдіть або зареєструйтеся"
+    },
+    {
+      "alias": "web d32a32ee9033e99b",
+      "aliasId": "hz.web.d32a32ee9033e99b.alias.3",
+      "canonical": "linkedin україна: увійдіть або зареєструйтеся"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.91,
+  "docId": "hz.web.d32a32ee9033e99b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d32a32ee9033e99b.entity.1",
+      "kind": "document",
+      "name": "LinkedIn Україна: увійдіть або зареєструйтеся",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.d32a32ee9033e99b.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn Україна: увійдіть або зареєструйтеся",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.d32a32ee9033e99b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d32a32ee9033e99b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d32a32ee9033e99b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 82,
+      "charStart": 50,
+      "factId": "hz.web.d32a32ee9033e99b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://ua.linkedin.com/",
+      "tokens": [
+        "source",
+        "https",
+        "ua",
+        "linkedin",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 404,
+      "charStart": 134,
+      "factId": "hz.web.d32a32ee9033e99b.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn Україна: увійдіть або зареєструйтеся Перейти до основного контенту Прийняти та приєднатися до LinkedIn Натискаючи «Продовжити», щоб приєднатися чи увійти, ви приймаєте Угоду про користування LinkedIn , Політику конфіденційності і Політику щодо файлів cookie .",
+      "tokens": [
+        "linkedin",
+        "linkedin",
+        "linkedin",
+        "cookie"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 405,
+      "factId": "hz.web.d32a32ee9033e99b.fact.2",
+      "kind": "bullet",
+      "text": "LinkedIn Найпопулярніший контент Люди Learning Вакансії Ігри Увійти Приєднатися зараз Ласкаво просимо до професійної спільноти!",
+      "tokens": [
+        "linkedin",
+        "learning"
+      ]
+    },
+    {
+      "charEnd": 731,
+      "charStart": 535,
+      "factId": "hz.web.d32a32ee9033e99b.fact.3",
+      "kind": "bullet",
+      "text": "Увійти за допомогою електронної пошти Натискаючи «Продовжити», щоб приєднатися чи увійти, ви приймаєте Угоду про користування LinkedIn , Політику конфіденційності і Політику щодо файлів cookie .",
+      "tokens": [
+        "linkedin",
+        "cookie"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 732,
+      "factId": "hz.web.d32a32ee9033e99b.fact.4",
+      "kind": "bullet",
+      "text": "Вперше на LinkedIn?",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 778,
+      "charStart": 768,
+      "factId": "hz.web.d32a32ee9033e99b.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 792,
+      "charStart": 779,
+      "factId": "hz.web.d32a32ee9033e99b.fact.6",
+      "kind": "bullet",
+      "text": "development",
+      "tokens": [
+        "development"
+      ]
+    },
+    {
+      "charEnd": 803,
+      "charStart": 793,
+      "factId": "hz.web.d32a32ee9033e99b.fact.7",
+      "kind": "bullet",
+      "text": "business",
+      "tokens": [
+        "business"
+      ]
+    },
+    {
+      "charEnd": 812,
+      "charStart": 804,
+      "factId": "hz.web.d32a32ee9033e99b.fact.8",
+      "kind": "bullet",
+      "text": "cookie",
+      "tokens": [
+        "cookie"
+      ]
+    },
+    {
+      "charEnd": 825,
+      "charStart": 813,
+      "factId": "hz.web.d32a32ee9033e99b.fact.9",
+      "kind": "bullet",
+      "text": "management",
+      "tokens": [
+        "management"
+      ]
+    },
+    {
+      "charEnd": 831,
+      "charStart": 826,
+      "factId": "hz.web.d32a32ee9033e99b.fact.10",
+      "kind": "bullet",
+      "text": "370",
+      "tokens": [
+        "370"
+      ]
+    },
+    {
+      "charEnd": 837,
+      "charStart": 832,
+      "factId": "hz.web.d32a32ee9033e99b.fact.11",
+      "kind": "bullet",
+      "text": "380",
+      "tokens": [
+        "380"
+      ]
+    },
+    {
+      "charEnd": 843,
+      "charStart": 838,
+      "factId": "hz.web.d32a32ee9033e99b.fact.12",
+      "kind": "bullet",
+      "text": "410",
+      "tokens": [
+        "410"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 48,
+      "charStart": 1,
+      "headingId": "hz.web.d32a32ee9033e99b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn Україна: увійдіть або зареєструйтеся"
+    },
+    {
+      "charEnd": 132,
+      "charStart": 122,
+      "headingId": "hz.web.d32a32ee9033e99b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 766,
+      "charStart": 755,
+      "headingId": "hz.web.d32a32ee9033e99b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 855,
+      "charStart": 845,
+      "headingId": "hz.web.d32a32ee9033e99b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d32a32ee9033e99b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4111,
+        "start": 0
+      }
+    ],
+    "hash": "ee5ec89c7a5b6672a1c508147f4e72eee4f9343af4dd8baaaa9a7105e7b24bbd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn Україна: увійдіть або зареєструйтеся Перейти до основного контенту Прийняти та приєднатися до LinkedIn Натискаючи «Продовжити», щоб приєднатися чи увійти, ви приймаєте Угоду про користування LinkedIn , Політику конфіденційності і Політику щодо файлів cookie .",
+      "LinkedIn Найпопулярніший контент Люди Learning Вакансії Ігри Увійти Приєднатися зараз Ласкаво просимо до професійної спільноти!",
+      "Увійти за допомогою електронної пошти Натискаючи «Продовжити», щоб приєднатися чи увійти, ви приймаєте Угоду про користування LinkedIn , Політику конфіденційності і Політику щодо файлів cookie ."
+    ],
+    "medium": "Source: https://ua.linkedin.com/",
+    "short": "Source: https://ua.linkedin.com/",
+    "tokens": [
+      "linkedin",
+      "source",
+      "https",
+      "ua",
+      "linkedin",
+      "com",
+      "source",
+      "https",
+      "ua",
+      "linkedin",
+      "com"
+    ]
+  },
+  "title": "LinkedIn Україна: увійдіть або зареєструйтеся"
+}

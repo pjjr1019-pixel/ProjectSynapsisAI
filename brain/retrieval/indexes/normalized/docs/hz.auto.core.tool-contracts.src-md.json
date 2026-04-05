@@ -1,0 +1,243 @@
+{
+  "aliases": [
+    {
+      "alias": "tool contracts",
+      "aliasId": "hz.auto.core.tool-contracts.src-md.alias.1",
+      "canonical": "tool contracts (shared)"
+    },
+    {
+      "alias": "tool contracts shared",
+      "aliasId": "hz.auto.core.tool-contracts.src-md.alias.2",
+      "canonical": "tool contracts (shared)"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.core.tool-contracts.src-md",
+  "domain": "core",
+  "entities": [
+    {
+      "entityId": "hz.auto.core.tool-contracts.src-md.entity.1",
+      "kind": "document",
+      "name": "Tool contracts (shared)",
+      "tokens": [
+        "tool",
+        "contracts",
+        "shared"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.tool-contracts.src-md.entity.2",
+      "kind": "heading",
+      "name": "Tool contracts (shared)",
+      "tokens": [
+        "tool",
+        "contracts",
+        "shared"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.tool-contracts.src-md.entity.3",
+      "kind": "heading",
+      "name": "General",
+      "tokens": [
+        "general"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.tool-contracts.src-md.entity.4",
+      "kind": "heading",
+      "name": "Extensibility",
+      "tokens": [
+        "extensibility"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 88,
+      "charStart": 29,
+      "factId": "hz.auto.core.tool-contracts.src-md.fact.1",
+      "kind": "summary",
+      "text": "Define how tools are invoked and what the model may assume.",
+      "tokens": [
+        "define",
+        "tools",
+        "invoked",
+        "model",
+        "may",
+        "assume"
+      ]
+    },
+    {
+      "charEnd": 185,
+      "charStart": 100,
+      "factId": "hz.auto.core.tool-contracts.src-md.fact.1",
+      "kind": "bullet",
+      "text": "Tools may return errors; the model must surface failures without inventing success.",
+      "tokens": [
+        "tools",
+        "may",
+        "return",
+        "errors",
+        "model",
+        "must",
+        "surface",
+        "failures",
+        "without",
+        "inventing",
+        "success"
+      ]
+    },
+    {
+      "charEnd": 329,
+      "charStart": 186,
+      "factId": "hz.auto.core.tool-contracts.src-md.fact.2",
+      "kind": "bullet",
+      "text": "Destructive or high-impact actions require explicit user confirmation per product policy (see `brain/governance/policies/default-policy.md`).",
+      "tokens": [
+        "destructive",
+        "high",
+        "impact",
+        "actions",
+        "require",
+        "explicit",
+        "user",
+        "confirmation",
+        "per",
+        "product",
+        "policy",
+        "see",
+        "brain",
+        "governance",
+        "policies",
+        "default",
+        "policy",
+        "md"
+      ]
+    },
+    {
+      "charEnd": 423,
+      "charStart": 330,
+      "factId": "hz.auto.core.tool-contracts.src-md.fact.3",
+      "kind": "bullet",
+      "text": "Log references: use `traceId` from runtime when describing “what ran,” never paste secrets.",
+      "tokens": [
+        "log",
+        "references",
+        "use",
+        "traceid",
+        "runtime",
+        "describing",
+        "ran",
+        "never",
+        "paste",
+        "secrets"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 0,
+      "headingId": "hz.auto.core.tool-contracts.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Tool contracts (shared)"
+    },
+    {
+      "charEnd": 98,
+      "charStart": 88,
+      "headingId": "hz.auto.core.tool-contracts.src-md.heading.2",
+      "level": 2,
+      "line": 5,
+      "text": "General"
+    },
+    {
+      "charEnd": 441,
+      "charStart": 425,
+      "headingId": "hz.auto.core.tool-contracts.src-md.heading.3",
+      "level": 2,
+      "line": 11,
+      "text": "Extensibility"
+    }
+  ],
+  "moduleIds": [],
+  "path": "core/tool-contracts.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 625,
+        "start": 0
+      }
+    ],
+    "hash": "ed7adeaf4da4e4ffa1d4e4776a9b4611c06daa354ecc7bf0a7cebae3d24e0a4b",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.auto.core.tool-contracts.src-md.rule.1",
+      "text": "## General - Tools may return errors; the model must surface failures without inventing success.",
+      "tokens": [
+        "general",
+        "tools",
+        "may",
+        "return",
+        "errors",
+        "model",
+        "must",
+        "surface",
+        "failures",
+        "without",
+        "inventing",
+        "success"
+      ]
+    },
+    {
+      "ruleId": "hz.auto.core.tool-contracts.src-md.rule.2",
+      "text": "- Log references: use `traceId` from runtime when describing “what ran,” never paste secrets.",
+      "tokens": [
+        "log",
+        "references",
+        "use",
+        "traceid",
+        "runtime",
+        "describing",
+        "ran",
+        "never",
+        "paste",
+        "secrets"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Tools may return errors; the model must surface failures without inventing success.",
+      "Destructive or high-impact actions require explicit user confirmation per product policy (see `brain/governance/policies/default-policy.md`).",
+      "Log references: use `traceId` from runtime when describing “what ran,” never paste secrets."
+    ],
+    "medium": "Define how tools are invoked and what the model may assume.",
+    "short": "Define how tools are invoked and what the model may assume.",
+    "tokens": [
+      "tool",
+      "contracts",
+      "shared",
+      "define",
+      "tools",
+      "invoked",
+      "model",
+      "may",
+      "assume",
+      "define",
+      "tools",
+      "invoked",
+      "model",
+      "may",
+      "assume"
+    ]
+  },
+  "title": "Tool contracts (shared)"
+}

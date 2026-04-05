@@ -1,0 +1,461 @@
+{
+  "aliases": [
+    {
+      "alias": "6961ce643a796914",
+      "aliasId": "hz.web.6961ce643a796914.alias.1",
+      "canonical": "startseite | fachhochschule dortmund"
+    },
+    {
+      "alias": "startseite fachhochschule dortmund",
+      "aliasId": "hz.web.6961ce643a796914.alias.2",
+      "canonical": "startseite | fachhochschule dortmund"
+    },
+    {
+      "alias": "web 6961ce643a796914",
+      "aliasId": "hz.web.6961ce643a796914.alias.3",
+      "canonical": "startseite | fachhochschule dortmund"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.86,
+  "docId": "hz.web.6961ce643a796914",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6961ce643a796914.entity.1",
+      "kind": "document",
+      "name": "Startseite | Fachhochschule Dortmund",
+      "tokens": [
+        "startseite",
+        "fachhochschule",
+        "dortmund"
+      ]
+    },
+    {
+      "entityId": "hz.web.6961ce643a796914.entity.2",
+      "kind": "heading",
+      "name": "Startseite | Fachhochschule Dortmund",
+      "tokens": [
+        "startseite",
+        "fachhochschule",
+        "dortmund"
+      ]
+    },
+    {
+      "entityId": "hz.web.6961ce643a796914.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6961ce643a796914.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6961ce643a796914.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 71,
+      "charStart": 41,
+      "factId": "hz.web.6961ce643a796914.fact.1",
+      "kind": "summary",
+      "text": "Source: http://fh-dortmund.de/",
+      "tokens": [
+        "source",
+        "http",
+        "fh",
+        "dortmund",
+        "de"
+      ]
+    },
+    {
+      "charEnd": 577,
+      "charStart": 123,
+      "factId": "hz.web.6961ce643a796914.fact.1",
+      "kind": "bullet",
+      "text": "Startseite | Fachhochschule Dortmund Inhalt anspringen zurück schließen Fachhochschule Dortmund Informationen für Studieninteressierte Lehrende an Schulen Erstsemester Alumni Unternehmen & Kooperationspartner Presse / Medien Studierende & Beschäftigte (Öffnet in einem neuen Tab) Sprache DE EN Suche Jetzt bewerben im Studienportal Willkommen an der Fachhochschule Dortmund Entdecken Sie rund 70 Bachelor- und Master-Studiengänge in acht Fachbereichen.",
+      "tokens": [
+        "startseite",
+        "fachhochschule",
+        "dortmund",
+        "inhalt",
+        "anspringen",
+        "zur",
+        "ck",
+        "schlie",
+        "en",
+        "fachhochschule",
+        "dortmund",
+        "informationen",
+        "studieninteressierte",
+        "lehrende",
+        "schulen",
+        "erstsemester",
+        "alumni",
+        "unternehmen",
+        "kooperationspartner",
+        "presse",
+        "medien",
+        "studierende",
+        "besch",
+        "ftigte",
+        "ffnet",
+        "einem",
+        "neuen",
+        "tab",
+        "sprache",
+        "de",
+        "en",
+        "suche",
+        "jetzt",
+        "bewerben",
+        "im",
+        "studienportal",
+        "willkommen",
+        "der",
+        "fachhochschule",
+        "dortmund",
+        "entdecken",
+        "sie",
+        "rund",
+        "70",
+        "bachelor",
+        "und",
+        "master",
+        "studieng",
+        "nge",
+        "acht",
+        "fachbereichen"
+      ]
+    },
+    {
+      "charEnd": 1056,
+      "charStart": 578,
+      "factId": "hz.web.6961ce643a796914.fact.2",
+      "kind": "bullet",
+      "text": "Unser Studienangebot News 11.2.2025 Studieren Freie Studienplätze für das Sommersemester 2026 25.3.2026 Ruhr Metropolitan School Interdisziplinäres Studium schon im Bachelor 20.3.2026 Internationalisierung Studierende aus Medellín zu Gast an der FH 19.3.2026 Projekt Page 21 storyLab kiU rettet die Kunst Alle News im fh-radar 31.3.2026 9.00 – 1.4.2026 15.00 1.4.2026 0.00 (seit 31.3.2026, letzter Tag) Ferien-Workshop: Robotik in Aktion 15.4.2026 12.30 – 14.00 Stipendien...?",
+      "tokens": [
+        "unser",
+        "studienangebot",
+        "news",
+        "11",
+        "2025",
+        "studieren",
+        "freie",
+        "studienpl",
+        "tze",
+        "das",
+        "sommersemester",
+        "2026",
+        "25",
+        "2026",
+        "ruhr",
+        "metropolitan",
+        "school",
+        "interdisziplin",
+        "res",
+        "studium",
+        "schon",
+        "im",
+        "bachelor",
+        "20",
+        "2026",
+        "internationalisierung",
+        "studierende",
+        "aus",
+        "medell",
+        "zu",
+        "gast",
+        "der",
+        "fh",
+        "19",
+        "2026",
+        "projekt",
+        "page",
+        "21",
+        "storylab",
+        "kiu",
+        "rettet",
+        "die",
+        "kunst",
+        "alle",
+        "news",
+        "im",
+        "fh",
+        "radar",
+        "31",
+        "2026",
+        "00",
+        "2026",
+        "15",
+        "00",
+        "2026",
+        "00",
+        "seit",
+        "31",
+        "2026",
+        "letzter",
+        "tag",
+        "ferien",
+        "workshop",
+        "robotik",
+        "aktion",
+        "15",
+        "2026",
+        "12",
+        "30",
+        "14",
+        "00",
+        "stipendien"
+      ]
+    },
+    {
+      "charEnd": 1087,
+      "charStart": 1057,
+      "factId": "hz.web.6961ce643a796914.fact.3",
+      "kind": "bullet",
+      "text": "Doch (k)ein Thema für mich!?",
+      "tokens": [
+        "doch",
+        "ein",
+        "thema",
+        "mich"
+      ]
+    },
+    {
+      "charEnd": 1508,
+      "charStart": 1088,
+      "factId": "hz.web.6961ce643a796914.fact.4",
+      "kind": "bullet",
+      "text": "15.4.2026 19.00 – 20.00 Infoveranstaltung für Studieninteressierte - Betriebswirtschaft für New Public Management 21.4.2026 8.30 – 22.4.2026 14.45 22.4.2026 0.00 (seit 21.4.2026, letzter Tag) FH Dortmund auf der vocatium-Messe Gelsenkirchen 23.4.2026 Girls&#039;Day für Schülerinnen Alle Termine Angebote für Studieninteressierte Mach was mit Wissen Du suchst ein Studium, das dich direkt ins Berufsleben katapultiert?",
+      "tokens": [
+        "15",
+        "2026",
+        "19",
+        "00",
+        "20",
+        "00",
+        "infoveranstaltung",
+        "studieninteressierte",
+        "betriebswirtschaft",
+        "new",
+        "public",
+        "management",
+        "21",
+        "2026",
+        "30",
+        "22",
+        "2026",
+        "14",
+        "45",
+        "22",
+        "2026",
+        "00",
+        "seit",
+        "21",
+        "2026",
+        "letzter",
+        "tag",
+        "fh",
+        "dortmund",
+        "auf",
+        "der",
+        "vocatium",
+        "messe",
+        "gelsenkirchen",
+        "23",
+        "2026",
+        "girls",
+        "039",
+        "day",
+        "sch",
+        "lerinnen",
+        "alle",
+        "termine",
+        "angebote",
+        "studieninteressierte",
+        "mach",
+        "mit",
+        "wissen",
+        "du",
+        "suchst",
+        "ein",
+        "studium",
+        "das",
+        "dich",
+        "direkt",
+        "ins",
+        "berufsleben",
+        "katapultiert"
+      ]
+    },
+    {
+      "charEnd": 1529,
+      "charStart": 1523,
+      "factId": "hz.web.6961ce643a796914.fact.5",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1535,
+      "charStart": 1530,
+      "factId": "hz.web.6961ce643a796914.fact.6",
+      "kind": "bullet",
+      "text": "und",
+      "tokens": [
+        "und"
+      ]
+    },
+    {
+      "charEnd": 1541,
+      "charStart": 1536,
+      "factId": "hz.web.6961ce643a796914.fact.7",
+      "kind": "bullet",
+      "text": "die",
+      "tokens": [
+        "die"
+      ]
+    },
+    {
+      "charEnd": 1552,
+      "charStart": 1542,
+      "factId": "hz.web.6961ce643a796914.fact.8",
+      "kind": "bullet",
+      "text": "dortmund",
+      "tokens": [
+        "dortmund"
+      ]
+    },
+    {
+      "charEnd": 1558,
+      "charStart": 1553,
+      "factId": "hz.web.6961ce643a796914.fact.9",
+      "kind": "bullet",
+      "text": "sie",
+      "tokens": [
+        "sie"
+      ]
+    },
+    {
+      "charEnd": 1564,
+      "charStart": 1559,
+      "factId": "hz.web.6961ce643a796914.fact.10",
+      "kind": "bullet",
+      "text": "das",
+      "tokens": [
+        "das"
+      ]
+    },
+    {
+      "charEnd": 1572,
+      "charStart": 1565,
+      "factId": "hz.web.6961ce643a796914.fact.11",
+      "kind": "bullet",
+      "text": "einem",
+      "tokens": [
+        "einem"
+      ]
+    },
+    {
+      "charEnd": 1580,
+      "charStart": 1573,
+      "factId": "hz.web.6961ce643a796914.fact.12",
+      "kind": "bullet",
+      "text": "ffnet",
+      "tokens": [
+        "ffnet"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 39,
+      "charStart": 1,
+      "headingId": "hz.web.6961ce643a796914.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Startseite | Fachhochschule Dortmund"
+    },
+    {
+      "charEnd": 121,
+      "charStart": 111,
+      "headingId": "hz.web.6961ce643a796914.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1521,
+      "charStart": 1510,
+      "headingId": "hz.web.6961ce643a796914.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1592,
+      "charStart": 1582,
+      "headingId": "hz.web.6961ce643a796914.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/6961ce643a796914.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4837,
+        "start": 0
+      }
+    ],
+    "hash": "5b3d95e9f500b2464c813109cded8937cc4d6c498aa2ebc4b523ea3622f5f655",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Startseite | Fachhochschule Dortmund Inhalt anspringen zurück schließen Fachhochschule Dortmund Informationen für Studieninteressierte Lehrende an Schulen Erstsemester Alumni Unternehmen & Kooperationspartner Presse / Medien Studierende & Beschäftigte (Öffnet in einem neuen Tab) Sprache DE EN Suche Jetzt bewerben im Studienportal Willkommen an der Fachhochschule Dortmund Entdecken Sie rund 70 Bachelor- und Master-Studiengänge in acht Fachbereichen.",
+      "Unser Studienangebot News 11.2.2025 Studieren Freie Studienplätze für das Sommersemester 2026 25.3.2026 Ruhr Metropolitan School Interdisziplinäres Studium schon im Bachelor 20.3.2026 Internationalisierung Studierende aus Medellín zu Gast an der FH 19.3.2026 Projekt Page 21 storyLab kiU rettet die Kunst Alle News im fh-radar 31.3.2026 9.00 – 1.4.2026 15.00 1.4.2026 0.00 (seit 31.3.2026, letzter Tag) Ferien-Workshop: Robotik in Aktion 15.4.2026 12.30 – 14.00 Stipendien...?",
+      "Doch (k)ein Thema für mich!?"
+    ],
+    "medium": "Source: http://fh-dortmund.de/",
+    "short": "Source: http://fh-dortmund.de/",
+    "tokens": [
+      "startseite",
+      "fachhochschule",
+      "dortmund",
+      "source",
+      "http",
+      "fh",
+      "dortmund",
+      "de",
+      "source",
+      "http",
+      "fh",
+      "dortmund",
+      "de"
+    ]
+  },
+  "title": "Startseite | Fachhochschule Dortmund"
+}

@@ -1,0 +1,311 @@
+{
+  "aliases": [
+    {
+      "alias": "8e9b845cb44304ef",
+      "aliasId": "hz.web.8e9b845cb44304ef.alias.1",
+      "canonical": "www.manton.org"
+    },
+    {
+      "alias": "web 8e9b845cb44304ef",
+      "aliasId": "hz.web.8e9b845cb44304ef.alias.2",
+      "canonical": "www.manton.org"
+    },
+    {
+      "alias": "www.manton.org",
+      "aliasId": "hz.web.8e9b845cb44304ef.alias.3",
+      "canonical": "www.manton.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.8e9b845cb44304ef",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8e9b845cb44304ef.entity.1",
+      "kind": "document",
+      "name": "www.manton.org",
+      "tokens": [
+        "www",
+        "manton",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e9b845cb44304ef.entity.2",
+      "kind": "heading",
+      "name": "www.manton.org",
+      "tokens": [
+        "www",
+        "manton",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e9b845cb44304ef.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e9b845cb44304ef.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e9b845cb44304ef.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 57,
+      "charStart": 19,
+      "factId": "hz.web.8e9b845cb44304ef.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.manton.org/rsd.xml",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "manton",
+        "org",
+        "rsd",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 569,
+      "charStart": 109,
+      "factId": "hz.web.8e9b845cb44304ef.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rsd xmlns=\"http://archipelago.phrasewise.com/rsd\" version=\"1.0\"> <service> <engineName>Micro.blog</engineName> <engineLink>https://micro.blog/</engineLink> <homePageLink>https://micro.blog/</homePageLink> <apis> <api name=\"Micro.blog\" blogID=\"10\" preferred=\"true\" apiLink=\"https://micro.blog/xmlrpc\"/> <api name=\"MetaWeblog\" blogID=\"10\" preferred=\"false\" apiLink=\"https://micro.blog/xmlrpc\"/> </apis> </service> </rsd>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rsd",
+        "xmlns",
+        "http",
+        "archipelago",
+        "phrasewise",
+        "com",
+        "rsd",
+        "version",
+        "service",
+        "enginename",
+        "micro",
+        "blog",
+        "enginename",
+        "enginelink",
+        "https",
+        "micro",
+        "blog",
+        "enginelink",
+        "homepagelink",
+        "https",
+        "micro",
+        "blog",
+        "homepagelink",
+        "apis",
+        "api",
+        "name",
+        "micro",
+        "blog",
+        "blogid",
+        "10",
+        "preferred",
+        "true",
+        "apilink",
+        "https",
+        "micro",
+        "blog",
+        "xmlrpc",
+        "api",
+        "name",
+        "metaweblog",
+        "blogid",
+        "10",
+        "preferred",
+        "false",
+        "apilink",
+        "https",
+        "micro",
+        "blog",
+        "xmlrpc",
+        "apis",
+        "service",
+        "rsd"
+      ]
+    },
+    {
+      "charEnd": 590,
+      "charStart": 584,
+      "factId": "hz.web.8e9b845cb44304ef.fact.2",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 598,
+      "charStart": 591,
+      "factId": "hz.web.8e9b845cb44304ef.fact.3",
+      "kind": "bullet",
+      "text": "micro",
+      "tokens": [
+        "micro"
+      ]
+    },
+    {
+      "charEnd": 606,
+      "charStart": 599,
+      "factId": "hz.web.8e9b845cb44304ef.fact.4",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 607,
+      "factId": "hz.web.8e9b845cb44304ef.fact.5",
+      "kind": "bullet",
+      "text": "rsd",
+      "tokens": [
+        "rsd"
+      ]
+    },
+    {
+      "charEnd": 617,
+      "charStart": 613,
+      "factId": "hz.web.8e9b845cb44304ef.fact.6",
+      "kind": "bullet",
+      "text": "10",
+      "tokens": [
+        "10"
+      ]
+    },
+    {
+      "charEnd": 623,
+      "charStart": 618,
+      "factId": "hz.web.8e9b845cb44304ef.fact.7",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 633,
+      "charStart": 624,
+      "factId": "hz.web.8e9b845cb44304ef.fact.8",
+      "kind": "bullet",
+      "text": "apilink",
+      "tokens": [
+        "apilink"
+      ]
+    },
+    {
+      "charEnd": 640,
+      "charStart": 634,
+      "factId": "hz.web.8e9b845cb44304ef.fact.9",
+      "kind": "bullet",
+      "text": "apis",
+      "tokens": [
+        "apis"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.8e9b845cb44304ef.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.manton.org"
+    },
+    {
+      "charEnd": 107,
+      "charStart": 97,
+      "headingId": "hz.web.8e9b845cb44304ef.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 582,
+      "charStart": 571,
+      "headingId": "hz.web.8e9b845cb44304ef.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 652,
+      "charStart": 642,
+      "headingId": "hz.web.8e9b845cb44304ef.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/8e9b845cb44304ef.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1341,
+        "start": 0
+      }
+    ],
+    "hash": "0bbb3358c4fcff95bd87241c77440a45b87c562790bc6d22292c3e8d5ea4c53c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rsd xmlns=\"http://archipelago.phrasewise.com/rsd\" version=\"1.0\"> <service> <engineName>Micro.blog</engineName> <engineLink>https://micro.blog/</engineLink> <homePageLink>https://micro.blog/</homePageLink> <apis> <api name=\"Micro.blog\" blogID=\"10\" preferred=\"true\" apiLink=\"https://micro.blog/xmlrpc\"/> <api name=\"MetaWeblog\" blogID=\"10\" preferred=\"false\" apiLink=\"https://micro.blog/xmlrpc\"/> </apis> </service> </rsd>",
+      "blog",
+      "micro"
+    ],
+    "medium": "Source: https://www.manton.org/rsd.xml",
+    "short": "Source: https://www.manton.org/rsd.xml",
+    "tokens": [
+      "www",
+      "manton",
+      "org",
+      "source",
+      "https",
+      "www",
+      "manton",
+      "org",
+      "rsd",
+      "xml",
+      "source",
+      "https",
+      "www",
+      "manton",
+      "org",
+      "rsd",
+      "xml"
+    ]
+  },
+  "title": "www.manton.org"
+}

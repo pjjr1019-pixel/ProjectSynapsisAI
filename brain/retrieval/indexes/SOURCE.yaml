@@ -1,0 +1,10 @@
+# Purpose: Source mapping and regeneration commands for brain/retrieval/indexes/
+# Responsibility: Document which files are derived, their authoritative source, and how to regenerate
+# Invariants: Update with any retrieval, structure, or build change; always validate after edit
+# Why: Enables reliable, traceable regeneration and prevents accidental edits
+
+brain/retrieval/indexes/:
+  generated-by: scripts/build-brain-ir.mjs
+  authoritative-source: brain/
+  regenerate-command: npm run build-brain-ir
+  do-not-edit: true

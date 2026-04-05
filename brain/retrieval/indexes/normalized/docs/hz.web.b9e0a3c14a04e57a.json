@@ -1,0 +1,520 @@
+{
+  "aliases": [
+    {
+      "alias": "b9e0a3c14a04e57a",
+      "aliasId": "hz.web.b9e0a3c14a04e57a.alias.1",
+      "canonical": "<![cdata[react blog]]>"
+    },
+    {
+      "alias": "cdata react blog",
+      "aliasId": "hz.web.b9e0a3c14a04e57a.alias.2",
+      "canonical": "<![cdata[react blog]]>"
+    },
+    {
+      "alias": "web b9e0a3c14a04e57a",
+      "aliasId": "hz.web.b9e0a3c14a04e57a.alias.3",
+      "canonical": "<![cdata[react blog]]>"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.b9e0a3c14a04e57a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.b9e0a3c14a04e57a.entity.1",
+      "kind": "document",
+      "name": "<![CDATA[React Blog]]>",
+      "tokens": [
+        "cdata",
+        "react",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.b9e0a3c14a04e57a.entity.2",
+      "kind": "heading",
+      "name": "<![CDATA[React Blog]]>",
+      "tokens": [
+        "cdata",
+        "react",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.b9e0a3c14a04e57a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.b9e0a3c14a04e57a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.b9e0a3c14a04e57a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 68,
+      "charStart": 27,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://zh-hans.react.dev/rss.xml",
+      "tokens": [
+        "source",
+        "https",
+        "zh",
+        "hans",
+        "react",
+        "dev",
+        "rss",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 461,
+      "charStart": 120,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\"> <channel> <title><![CDATA[React Blog]]></title> <description><![CDATA[This blog is the official source for the updates from the React team.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "version",
+        "channel",
+        "title",
+        "cdata",
+        "react",
+        "blog",
+        "title",
+        "description",
+        "cdata",
+        "blog",
+        "official",
+        "source",
+        "updates",
+        "react",
+        "team"
+      ]
+    },
+    {
+      "charEnd": 1190,
+      "charStart": 462,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.2",
+      "kind": "bullet",
+      "text": "Anything important, including release notes or deprecation notices, will be posted here first.]]></description> <link>https://react.dev/</link> <generator>react.dev rss module</generator> <lastBuildDate>Mon, 30 Mar 2026 15:16:48 GMT</lastBuildDate> <atom:link href=\"https://react.dev/rss.xml\" rel=\"self\" type=\"application/rss+xml\"/> <pubDate>Mon, 30 Mar 2026 15:16:48 GMT</pubDate> <language><![CDATA[en]]></language> <item> <title><![CDATA[Denial of Service and Source Code Exposure in React Server Components]]></title> <description><![CDATA[Security researchers have found and disclosed two additional vulnerabilities in React Server Components while attempting to exploit the patches in last week’s critical vulnerability.",
+      "tokens": [
+        "anything",
+        "important",
+        "including",
+        "release",
+        "notes",
+        "deprecation",
+        "notices",
+        "will",
+        "posted",
+        "here",
+        "first",
+        "description",
+        "link",
+        "https",
+        "react",
+        "dev",
+        "link",
+        "generator",
+        "react",
+        "dev",
+        "rss",
+        "module",
+        "generator",
+        "lastbuilddate",
+        "mon",
+        "30",
+        "mar",
+        "2026",
+        "15",
+        "16",
+        "48",
+        "gmt",
+        "lastbuilddate",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "react",
+        "dev",
+        "rss",
+        "xml",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "pubdate",
+        "mon",
+        "30",
+        "mar",
+        "2026",
+        "15",
+        "16",
+        "48",
+        "gmt",
+        "pubdate",
+        "language",
+        "cdata",
+        "en",
+        "language",
+        "item",
+        "title",
+        "cdata",
+        "denial",
+        "service",
+        "source",
+        "code",
+        "exposure",
+        "react",
+        "server",
+        "components",
+        "title",
+        "description",
+        "cdata",
+        "security",
+        "researchers",
+        "have",
+        "found",
+        "disclosed",
+        "two",
+        "additional",
+        "vulnerabilities",
+        "react",
+        "server",
+        "components",
+        "while",
+        "attempting",
+        "exploit",
+        "patches",
+        "last",
+        "week",
+        "critical",
+        "vulnerability"
+      ]
+    },
+    {
+      "charEnd": 1896,
+      "charStart": 1191,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.3",
+      "kind": "bullet",
+      "text": "High vulnerability Denial of Service (CVE-2025-55184), and medium vulnerability Source Code Exposure (CVE-2025-55183)]]></description> <link>https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components</link> <guid isPermaLink=\"true\">https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components</guid> <dc:creator><![CDATA[The React Team]]></dc:creator> <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate> </item> <item> <title><![CDATA[Critical Security Vulnerability in React Server Components]]></title> <description><![CDATA[There is an unauthenticated remote code execution vulnerability in React Server Components.",
+      "tokens": [
+        "high",
+        "vulnerability",
+        "denial",
+        "service",
+        "cve",
+        "2025",
+        "55184",
+        "medium",
+        "vulnerability",
+        "source",
+        "code",
+        "exposure",
+        "cve",
+        "2025",
+        "55183",
+        "description",
+        "link",
+        "https",
+        "react",
+        "dev",
+        "blog",
+        "2025",
+        "12",
+        "11",
+        "denial",
+        "service",
+        "source",
+        "code",
+        "exposure",
+        "react",
+        "server",
+        "components",
+        "link",
+        "guid",
+        "ispermalink",
+        "true",
+        "https",
+        "react",
+        "dev",
+        "blog",
+        "2025",
+        "12",
+        "11",
+        "denial",
+        "service",
+        "source",
+        "code",
+        "exposure",
+        "react",
+        "server",
+        "components",
+        "guid",
+        "dc",
+        "creator",
+        "cdata",
+        "react",
+        "team",
+        "dc",
+        "creator",
+        "pubdate",
+        "thu",
+        "11",
+        "dec",
+        "2025",
+        "00",
+        "00",
+        "00",
+        "gmt",
+        "pubdate",
+        "item",
+        "item",
+        "title",
+        "cdata",
+        "critical",
+        "security",
+        "vulnerability",
+        "react",
+        "server",
+        "components",
+        "title",
+        "description",
+        "cdata",
+        "there",
+        "unauthenticated",
+        "remote",
+        "code",
+        "execution",
+        "vulnerability",
+        "react",
+        "server",
+        "components"
+      ]
+    },
+    {
+      "charEnd": 1963,
+      "charStart": 1897,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.4",
+      "kind": "bullet",
+      "text": "A fix has been published in versions 19.0.1, 19.1.2, and 19.2.1.",
+      "tokens": [
+        "fix",
+        "has",
+        "published",
+        "versions",
+        "19",
+        "19",
+        "19"
+      ]
+    },
+    {
+      "charEnd": 1985,
+      "charStart": 1978,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.5",
+      "kind": "bullet",
+      "text": "react",
+      "tokens": [
+        "react"
+      ]
+    },
+    {
+      "charEnd": 1993,
+      "charStart": 1986,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.6",
+      "kind": "bullet",
+      "text": "cdata",
+      "tokens": [
+        "cdata"
+      ]
+    },
+    {
+      "charEnd": 1998,
+      "charStart": 1994,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.7",
+      "kind": "bullet",
+      "text": "00",
+      "tokens": [
+        "00"
+      ]
+    },
+    {
+      "charEnd": 2004,
+      "charStart": 1999,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.8",
+      "kind": "bullet",
+      "text": "dev",
+      "tokens": [
+        "dev"
+      ]
+    },
+    {
+      "charEnd": 2011,
+      "charStart": 2005,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.9",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 2018,
+      "charStart": 2012,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.10",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 2023,
+      "charStart": 2019,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.11",
+      "kind": "bullet",
+      "text": "dc",
+      "tokens": [
+        "dc"
+      ]
+    },
+    {
+      "charEnd": 2037,
+      "charStart": 2024,
+      "factId": "hz.web.b9e0a3c14a04e57a.fact.12",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.b9e0a3c14a04e57a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "<![CDATA[React Blog]]>"
+    },
+    {
+      "charEnd": 118,
+      "charStart": 108,
+      "headingId": "hz.web.b9e0a3c14a04e57a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1976,
+      "charStart": 1965,
+      "headingId": "hz.web.b9e0a3c14a04e57a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2049,
+      "charStart": 2039,
+      "headingId": "hz.web.b9e0a3c14a04e57a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/b9e0a3c14a04e57a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5291,
+        "start": 0
+      }
+    ],
+    "hash": "43cfdf59fcba7bec00746b72cee532e6b443fdcb589c2732759e638d45558a45",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\"> <channel> <title><![CDATA[React Blog]]></title> <description><![CDATA[This blog is the official source for the updates from the React team.",
+      "Anything important, including release notes or deprecation notices, will be posted here first.]]></description> <link>https://react.dev/</link> <generator>react.dev rss module</generator> <lastBuildDate>Mon, 30 Mar 2026 15:16:48 GMT</lastBuildDate> <atom:link href=\"https://react.dev/rss.xml\" rel=\"self\" type=\"application/rss+xml\"/> <pubDate>Mon, 30 Mar 2026 15:16:48 GMT</pubDate> <language><![CDATA[en]]></language> <item> <title><![CDATA[Denial of Service and Source Code Exposure in React Server Components]]></title> <description><![CDATA[Security researchers have found and disclosed two additional vulnerabilities in React Server Components while attempting to exploit the patches in last week’s critical vulnerability.",
+      "High vulnerability Denial of Service (CVE-2025-55184), and medium vulnerability Source Code Exposure (CVE-2025-55183)]]></description> <link>https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components</link> <guid isPermaLink=\"true\">https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components</guid> <dc:creator><![CDATA[The React Team]]></dc:creator> <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate> </item> <item> <title><![CDATA[Critical Security Vulnerability in React Server Components]]></title> <description><![CDATA[There is an unauthenticated remote code execution vulnerability in React Server Components."
+    ],
+    "medium": "Source: https://zh-hans.react.dev/rss.xml",
+    "short": "Source: https://zh-hans.react.dev/rss.xml",
+    "tokens": [
+      "cdata",
+      "react",
+      "blog",
+      "source",
+      "https",
+      "zh",
+      "hans",
+      "react",
+      "dev",
+      "rss",
+      "xml",
+      "source",
+      "https",
+      "zh",
+      "hans",
+      "react",
+      "dev",
+      "rss",
+      "xml"
+    ]
+  },
+  "title": "<![CDATA[React Blog]]>"
+}

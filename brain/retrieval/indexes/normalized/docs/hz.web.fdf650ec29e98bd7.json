@@ -1,0 +1,526 @@
+{
+  "aliases": [
+    {
+      "alias": "fdf650ec29e98bd7",
+      "aliasId": "hz.web.fdf650ec29e98bd7.alias.1",
+      "canonical": "php"
+    },
+    {
+      "alias": "php",
+      "aliasId": "hz.web.fdf650ec29e98bd7.alias.2",
+      "canonical": "php"
+    },
+    {
+      "alias": "web fdf650ec29e98bd7",
+      "aliasId": "hz.web.fdf650ec29e98bd7.alias.3",
+      "canonical": "php"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.fdf650ec29e98bd7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fdf650ec29e98bd7.entity.1",
+      "kind": "document",
+      "name": "PHP",
+      "tokens": [
+        "php"
+      ]
+    },
+    {
+      "entityId": "hz.web.fdf650ec29e98bd7.entity.2",
+      "kind": "heading",
+      "name": "PHP",
+      "tokens": [
+        "php"
+      ]
+    },
+    {
+      "entityId": "hz.web.fdf650ec29e98bd7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fdf650ec29e98bd7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fdf650ec29e98bd7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 36,
+      "charStart": 8,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.php.net/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "php",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 1718,
+      "charStart": 88,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.1",
+      "kind": "bullet",
+      "text": "PHP update page now Downloads Documentation Get Involved Help Search docs Getting Started Introduction A simple tutorial Language Reference Basic syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Errors Exceptions Fibers Generators Attributes References Explained Predefined Variables Predefined Exceptions Predefined Interfaces and Classes Predefined Attributes Context options and parameters Supported Protocols and Wrappers Security Introduction General considerations Installed as CGI binary Installed as an Apache module Session Security Filesystem Security Database Security Error Reporting User Submitted Data Hiding PHP Keeping Current Features HTTP authentication with PHP Cookies Sessions Handling file uploads Using remote files Connection handling Persistent Database Connections Command line usage Garbage Collection DTrace Dynamic Tracing Function Reference Affecting PHP's Behaviour Audio Formats Manipulation Authentication Services Command Line Specific Extensions Compression and Archive Extensions Cryptography Extensions Database Extensions Date and Time Related Extensions File System Related Extensions Human Language and Character Encoding Support Image Processing and Generation Mail Related Extensions Mathematical Extensions Non-Text MIME Output Process Control Extensions Other Basic Extensions Other Services Search Engine Extensions Server Specific Extensions Session Extensions Text Processing Variable and Type Related Extensions Web Services Windows Only Extensions XML Manipulation GUI Extensions Keyboard Shortcuts ?",
+      "tokens": [
+        "php",
+        "update",
+        "page",
+        "now",
+        "downloads",
+        "documentation",
+        "get",
+        "involved",
+        "help",
+        "search",
+        "docs",
+        "getting",
+        "started",
+        "introduction",
+        "simple",
+        "tutorial",
+        "language",
+        "reference",
+        "basic",
+        "syntax",
+        "types",
+        "variables",
+        "constants",
+        "expressions",
+        "operators",
+        "control",
+        "structures",
+        "functions",
+        "classes",
+        "objects",
+        "namespaces",
+        "enumerations",
+        "errors",
+        "exceptions",
+        "fibers",
+        "generators",
+        "attributes",
+        "references",
+        "explained",
+        "predefined",
+        "variables",
+        "predefined",
+        "exceptions",
+        "predefined",
+        "interfaces",
+        "classes",
+        "predefined",
+        "attributes",
+        "context",
+        "options",
+        "parameters",
+        "supported",
+        "protocols",
+        "wrappers",
+        "security",
+        "introduction",
+        "general",
+        "considerations",
+        "installed",
+        "cgi",
+        "binary",
+        "installed",
+        "apache",
+        "module",
+        "session",
+        "security",
+        "filesystem",
+        "security",
+        "database",
+        "security",
+        "error",
+        "reporting",
+        "user",
+        "submitted",
+        "data",
+        "hiding",
+        "php",
+        "keeping",
+        "current",
+        "features",
+        "http",
+        "authentication",
+        "php",
+        "cookies",
+        "sessions",
+        "handling",
+        "file",
+        "uploads",
+        "using",
+        "remote",
+        "files",
+        "connection",
+        "handling",
+        "persistent",
+        "database",
+        "connections",
+        "command",
+        "line",
+        "usage",
+        "garbage",
+        "collection",
+        "dtrace",
+        "dynamic",
+        "tracing",
+        "function",
+        "reference",
+        "affecting",
+        "php",
+        "behaviour",
+        "audio",
+        "formats",
+        "manipulation",
+        "authentication",
+        "services",
+        "command",
+        "line",
+        "specific",
+        "extensions",
+        "compression",
+        "archive",
+        "extensions",
+        "cryptography",
+        "extensions",
+        "database",
+        "extensions",
+        "date",
+        "time",
+        "related",
+        "extensions",
+        "file",
+        "system",
+        "related",
+        "extensions",
+        "human",
+        "language",
+        "character",
+        "encoding",
+        "support",
+        "image",
+        "processing",
+        "generation",
+        "mail",
+        "related",
+        "extensions",
+        "mathematical",
+        "extensions",
+        "non",
+        "text",
+        "mime",
+        "output",
+        "process",
+        "control",
+        "extensions",
+        "other",
+        "basic",
+        "extensions",
+        "other",
+        "services",
+        "search",
+        "engine",
+        "extensions",
+        "server",
+        "specific",
+        "extensions",
+        "session",
+        "extensions",
+        "text",
+        "processing",
+        "variable",
+        "type",
+        "related",
+        "extensions",
+        "web",
+        "services",
+        "windows",
+        "only",
+        "extensions",
+        "xml",
+        "manipulation",
+        "gui",
+        "extensions",
+        "keyboard",
+        "shortcuts"
+      ]
+    },
+    {
+      "charEnd": 2004,
+      "charStart": 1719,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.2",
+      "kind": "bullet",
+      "text": "This help j Next menu item k Previous menu item g p Previous man page g n Next man page G Scroll to bottom g g Scroll to top g h Goto homepage g s Goto search (current page) / Focus search box A popular general-purpose scripting language that is especially suited to web development.",
+      "tokens": [
+        "help",
+        "next",
+        "menu",
+        "item",
+        "previous",
+        "menu",
+        "item",
+        "previous",
+        "man",
+        "page",
+        "next",
+        "man",
+        "page",
+        "scroll",
+        "bottom",
+        "scroll",
+        "top",
+        "goto",
+        "homepage",
+        "goto",
+        "search",
+        "current",
+        "page",
+        "focus",
+        "search",
+        "box",
+        "popular",
+        "general",
+        "purpose",
+        "scripting",
+        "language",
+        "especially",
+        "suited",
+        "web",
+        "development"
+      ]
+    },
+    {
+      "charEnd": 2116,
+      "charStart": 2005,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.3",
+      "kind": "bullet",
+      "text": "Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
+      "tokens": [
+        "fast",
+        "flexible",
+        "pragmatic",
+        "php",
+        "powers",
+        "everything",
+        "your",
+        "blog",
+        "most",
+        "popular",
+        "websites",
+        "world"
+      ]
+    },
+    {
+      "charEnd": 2356,
+      "charStart": 2117,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.4",
+      "kind": "bullet",
+      "text": "What's new in 8.5 Download 8.5.4 &middot; Changelog &middot; Upgrading 8.4.19 &middot; Changelog &middot; Upgrading 8.3.30 &middot; Changelog &middot; Upgrading 8.2.30 &middot; Changelog &middot; Upgrading 12 Mar 2026 PHP 8.5.4 Released!",
+      "tokens": [
+        "new",
+        "download",
+        "middot",
+        "changelog",
+        "middot",
+        "upgrading",
+        "19",
+        "middot",
+        "changelog",
+        "middot",
+        "upgrading",
+        "30",
+        "middot",
+        "changelog",
+        "middot",
+        "upgrading",
+        "30",
+        "middot",
+        "changelog",
+        "middot",
+        "upgrading",
+        "12",
+        "mar",
+        "2026",
+        "php",
+        "released"
+      ]
+    },
+    {
+      "charEnd": 2376,
+      "charStart": 2371,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.5",
+      "kind": "bullet",
+      "text": "php",
+      "tokens": [
+        "php"
+      ]
+    },
+    {
+      "charEnd": 2386,
+      "charStart": 2377,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.6",
+      "kind": "bullet",
+      "text": "release",
+      "tokens": [
+        "release"
+      ]
+    },
+    {
+      "charEnd": 2398,
+      "charStart": 2387,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.7",
+      "kind": "bullet",
+      "text": "downloads",
+      "tokens": [
+        "downloads"
+      ]
+    },
+    {
+      "charEnd": 2407,
+      "charStart": 2399,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.8",
+      "kind": "bullet",
+      "text": "source",
+      "tokens": [
+        "source"
+      ]
+    },
+    {
+      "charEnd": 2416,
+      "charStart": 2408,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.9",
+      "kind": "bullet",
+      "text": "please",
+      "tokens": [
+        "please"
+      ]
+    },
+    {
+      "charEnd": 2424,
+      "charStart": 2417,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.10",
+      "kind": "bullet",
+      "text": "found",
+      "tokens": [
+        "found"
+      ]
+    },
+    {
+      "charEnd": 2434,
+      "charStart": 2425,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.11",
+      "kind": "bullet",
+      "text": "version",
+      "tokens": [
+        "version"
+      ]
+    },
+    {
+      "charEnd": 2441,
+      "charStart": 2435,
+      "factId": "hz.web.fdf650ec29e98bd7.fact.12",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 6,
+      "charStart": 1,
+      "headingId": "hz.web.fdf650ec29e98bd7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "PHP"
+    },
+    {
+      "charEnd": 86,
+      "charStart": 76,
+      "headingId": "hz.web.fdf650ec29e98bd7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2369,
+      "charStart": 2358,
+      "headingId": "hz.web.fdf650ec29e98bd7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2453,
+      "charStart": 2443,
+      "headingId": "hz.web.fdf650ec29e98bd7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/fdf650ec29e98bd7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5663,
+        "start": 0
+      }
+    ],
+    "hash": "39ff565f2a9e227e2101b29c79b7654b519258c45adc03205e4d57996250cdf2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "PHP update page now Downloads Documentation Get Involved Help Search docs Getting Started Introduction A simple tutorial Language Reference Basic syntax Types Variables Constants Expressions Operators Control Structures Functions Classes and Objects Namespaces Enumerations Errors Exceptions Fibers Generators Attributes References Explained Predefined Variables Predefined Exceptions Predefined Interfaces and Classes Predefined Attributes Context options and parameters Supported Protocols and Wrappers Security Introduction General considerations Installed as CGI binary Installed as an Apache module Session Security Filesystem Security Database Security Error Reporting User Submitted Data Hiding PHP Keeping Current Features HTTP authentication with PHP Cookies Sessions Handling file uploads Using remote files Connection handling Persistent Database Connections Command line usage Garbage Collection DTrace Dynamic Tracing Function Reference Affecting PHP's Behaviour Audio Formats Manipulation Authentication Services Command Line Specific Extensions Compression and Archive Extensions Cryptography Extensions Database Extensions Date and Time Related Extensions File System Related Extensions Human Language and Character Encoding Support Image Processing and Generation Mail Related Extensions Mathematical Extensions Non-Text MIME Output Process Control Extensions Other Basic Extensions Other Services Search Engine Extensions Server Specific Extensions Session Extensions Text Processing Variable and Type Related Extensions Web Services Windows Only Extensions XML Manipulation GUI Extensions Keyboard Shortcuts ?",
+      "This help j Next menu item k Previous menu item g p Previous man page g n Next man page G Scroll to bottom g g Scroll to top g h Goto homepage g s Goto search (current page) / Focus search box A popular general-purpose scripting language that is especially suited to web development.",
+      "Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world."
+    ],
+    "medium": "Source: https://www.php.net/",
+    "short": "Source: https://www.php.net/",
+    "tokens": [
+      "php",
+      "source",
+      "https",
+      "www",
+      "php",
+      "net",
+      "source",
+      "https",
+      "www",
+      "php",
+      "net"
+    ]
+  },
+  "title": "PHP"
+}

@@ -1,0 +1,253 @@
+{
+  "aliases": [
+    {
+      "alias": "system prompt baseline",
+      "aliasId": "hz.auto.core.system-prompt-baseline.src-md.alias.1",
+      "canonical": "system prompt baseline (shared)"
+    },
+    {
+      "alias": "system prompt baseline shared",
+      "aliasId": "hz.auto.core.system-prompt-baseline.src-md.alias.2",
+      "canonical": "system prompt baseline (shared)"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.core.system-prompt-baseline.src-md",
+  "domain": "core",
+  "entities": [
+    {
+      "entityId": "hz.auto.core.system-prompt-baseline.src-md.entity.1",
+      "kind": "document",
+      "name": "System prompt baseline (shared)",
+      "tokens": [
+        "system",
+        "prompt",
+        "baseline",
+        "shared"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.system-prompt-baseline.src-md.entity.2",
+      "kind": "heading",
+      "name": "System prompt baseline (shared)",
+      "tokens": [
+        "system",
+        "prompt",
+        "baseline",
+        "shared"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.system-prompt-baseline.src-md.entity.3",
+      "kind": "heading",
+      "name": "Principles",
+      "tokens": [
+        "principles"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.system-prompt-baseline.src-md.entity.4",
+      "kind": "heading",
+      "name": "Scope",
+      "tokens": [
+        "scope"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 236,
+      "charStart": 37,
+      "factId": "hz.auto.core.system-prompt-baseline.src-md.fact.1",
+      "kind": "summary",
+      "text": "This file describes **non-secret** baseline behavior for all surfaces. Actual runtime system strings may live in `brain/prompts/library/`; keep this doc aligned when changing global tone or refusals.",
+      "tokens": [
+        "file",
+        "describes",
+        "non",
+        "secret",
+        "baseline",
+        "behavior",
+        "all",
+        "surfaces",
+        "actual",
+        "runtime",
+        "system",
+        "strings",
+        "may",
+        "live",
+        "brain",
+        "prompts",
+        "library",
+        "keep",
+        "doc",
+        "aligned",
+        "changing",
+        "global",
+        "tone",
+        "refusals"
+      ]
+    },
+    {
+      "charEnd": 335,
+      "charStart": 251,
+      "factId": "hz.auto.core.system-prompt-baseline.src-md.fact.1",
+      "kind": "bullet",
+      "text": "Be accurate; say when uncertain and cite `brain/` docs when making product claims.",
+      "tokens": [
+        "accurate",
+        "say",
+        "uncertain",
+        "cite",
+        "brain",
+        "docs",
+        "making",
+        "product",
+        "claims"
+      ]
+    },
+    {
+      "charEnd": 421,
+      "charStart": 336,
+      "factId": "hz.auto.core.system-prompt-baseline.src-md.fact.2",
+      "kind": "bullet",
+      "text": "Respect governance: no bypassing policy, kill switches, or user consent boundaries.",
+      "tokens": [
+        "respect",
+        "governance",
+        "no",
+        "bypassing",
+        "policy",
+        "kill",
+        "switches",
+        "user",
+        "consent",
+        "boundaries"
+      ]
+    },
+    {
+      "charEnd": 502,
+      "charStart": 422,
+      "factId": "hz.auto.core.system-prompt-baseline.src-md.fact.3",
+      "kind": "bullet",
+      "text": "Prefer structured answers when the user asks for steps, lists, or comparisons.",
+      "tokens": [
+        "prefer",
+        "structured",
+        "answers",
+        "user",
+        "asks",
+        "steps",
+        "lists",
+        "comparisons"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 33,
+      "charStart": 0,
+      "headingId": "hz.auto.core.system-prompt-baseline.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "System prompt baseline (shared)"
+    },
+    {
+      "charEnd": 249,
+      "charStart": 236,
+      "headingId": "hz.auto.core.system-prompt-baseline.src-md.heading.2",
+      "level": 2,
+      "line": 5,
+      "text": "Principles"
+    },
+    {
+      "charEnd": 512,
+      "charStart": 504,
+      "headingId": "hz.auto.core.system-prompt-baseline.src-md.heading.3",
+      "level": 2,
+      "line": 11,
+      "text": "Scope"
+    }
+  ],
+  "moduleIds": [],
+  "path": "core/system-prompt-baseline.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 690,
+        "start": 0
+      }
+    ],
+    "hash": "481a49c166e660f6341b515054ae9c4491375d42c87dab8c975a09b3cbff4bb6",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Be accurate; say when uncertain and cite `brain/` docs when making product claims.",
+      "Respect governance: no bypassing policy, kill switches, or user consent boundaries.",
+      "Prefer structured answers when the user asks for steps, lists, or comparisons."
+    ],
+    "medium": "This file describes **non-secret** baseline behavior for all surfaces. Actual runtime system strings may live in `brain/prompts/library/`; keep this doc aligned when changing global tone or refusals.",
+    "short": "This file describes **non-secret** baseline behavior for all surfaces. Actual runtime system strings may live in `brain/prompts/library/`; keep this doc aligned when changing global tone or refusals.",
+    "tokens": [
+      "system",
+      "prompt",
+      "baseline",
+      "shared",
+      "file",
+      "describes",
+      "non",
+      "secret",
+      "baseline",
+      "behavior",
+      "all",
+      "surfaces",
+      "actual",
+      "runtime",
+      "system",
+      "strings",
+      "may",
+      "live",
+      "brain",
+      "prompts",
+      "library",
+      "keep",
+      "doc",
+      "aligned",
+      "changing",
+      "global",
+      "tone",
+      "refusals",
+      "file",
+      "describes",
+      "non",
+      "secret",
+      "baseline",
+      "behavior",
+      "all",
+      "surfaces",
+      "actual",
+      "runtime",
+      "system",
+      "strings",
+      "may",
+      "live",
+      "brain",
+      "prompts",
+      "library",
+      "keep",
+      "doc",
+      "aligned",
+      "changing",
+      "global",
+      "tone",
+      "refusals"
+    ]
+  },
+  "title": "System prompt baseline (shared)"
+}

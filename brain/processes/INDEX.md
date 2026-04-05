@@ -1,0 +1,266 @@
+# Process Knowledge Index
+
+Generated: 2026-04-04T14:33:22.646Z
+Total entries: 125
+Pending queue items: 63
+
+## Status Counts
+- known: 16
+- pending: 50
+- queued: 13
+- resolved_high_confidence: 30
+- resolved_medium_confidence: 11
+- suspicious: 5
+
+## Entries
+- [crossdeviceresume--unknown--sha256_ed54d3c86724.md](crossdeviceresume--unknown--sha256_ed54d3c86724.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 86%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- backgroundtaskhost--microsoft-corporation--sha256_b7d2c17e0038 - backgroundtaskhost (queued, 0%)
+  - backgroundtaskhost is tracked with status queued.
+- codex--unknown--sha256_0ab833662d3c - codex (queued, 0%)
+  - codex is tracked with status queued.
+- pet--unknown--sha256_f98d13f7fb60 - pet (queued, 0%)
+  - pet is tracked with status queued.
+- [cmd--microsoft-corporation--sha256_14cc8ab1dcf0.md](cmd--microsoft-corporation--sha256_14cc8ab1dcf0.md) - Microsoftr Windowsr Operating System (pending, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [applicationframehost--microsoft-corporation--sha256_81206934b8e1.md](applicationframehost--microsoft-corporation--sha256_81206934b8e1.md) - Microsoftr Windowsr Operating System (pending, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [conhost--microsoft-corporation--sha256_804c132aa005.md](conhost--microsoft-corporation--sha256_804c132aa005.md) - Microsoftr Windowsr Operating System (pending, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=windows_host_process, trusted_source_level=high.
+- [docker--docker--sha256_29583dc7b34b.md](docker--docker--sha256_29583dc7b34b.md) - Docker Client (resolved_high_confidence, 80%)
+  - Docker Client was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- searchprotocolhost--unknown--sha256_c2c579fdf822 - searchprotocolhost (queued, 0%)
+  - searchprotocolhost is tracked with status queued.
+- sppsvc--unknown--sha256_dc636050b90c - sppsvc (queued, 0%)
+  - sppsvc is tracked with status queued.
+- powershell--unknown--sha256_32b04ead87b8 - powershell (queued, 0%)
+  - powershell is tracked with status queued.
+- searchfilterhost--unknown--sha256_ce78f78d3fd4 - searchfilterhost (queued, 0%)
+  - searchfilterhost is tracked with status queued.
+- snippingtool--windowsapps--sha256_0708928f863c - snippingtool (queued, 0%)
+  - snippingtool is tracked with status queued.
+- [dllhost--microsoft-corporation--sha256_14f8a7d17793.md](dllhost--microsoft-corporation--sha256_14f8a7d17793.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 86%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=windows_host_process, trusted_source_level=high.
+- [appactions--unknown--sha256_3b67272d6bef.md](appactions--unknown--sha256_3b67272d6bef.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 80%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- ollama-app--ollama--sha256_783164caf080 - ollama-app (pending, 0%)
+  - ollama-app is tracked with status pending.
+- ollama--ollama--sha256_50710b5ab605 - ollama (pending, 0%)
+  - ollama is tracked with status pending.
+- [dataexchangehost--microsoft-corporation--sha256_b0f252dbf6e5.md](dataexchangehost--microsoft-corporation--sha256_b0f252dbf6e5.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 86%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- ngciso--unknown--sha256_4174bfdbcb0e - ngciso (queued, 0%)
+  - ngciso is tracked with status queued.
+- mpcmdrun--unknown--sha256_68d372878652 - mpcmdrun (pending, 0%)
+  - mpcmdrun is tracked with status pending.
+- duckduckgo--windowsapps--sha256_f8c9963d86a9 - DuckDuckGo (pending, 35%)
+  - DuckDuckGo is tracked with status pending.
+- [duckduckgo-webview--windowsapps--sha256_4adf9aa4076b.md](duckduckgo-webview--windowsapps--sha256_4adf9aa4076b.md) - DuckDuckGo.WebView (resolved_high_confidence, 86%)
+  - DuckDuckGo.WebView was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- updater--unknown--sha256_1e400796d07a - updater (pending, 0%)
+  - updater is tracked with status pending.
+- [nvngx-update--microsoft-corporation--sha256_1f6c21bcb18d.md](nvngx-update--microsoft-corporation--sha256_1f6c21bcb18d.md) - NGX Updater (resolved_high_confidence, 80%)
+  - NGX Updater was identified with high confidence from local executable evidence; classification=helper_or_updater, trusted_source_level=high.
+- nvngx-update--unknown--sha256_55c2c51fc015 - nvngx-update (pending, 0%)
+  - nvngx-update is tracked with status pending.
+- [explorer--unknown--sha256_f468e15e73aa.md](explorer--unknown--sha256_f468e15e73aa.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- claude--unknown--sha256_ebd9007c464d - Claude Code (pending, 0%)
+  - Claude Code is tracked with status pending.
+- gk--unknown--sha256_a0ba2657070e - gk (pending, 0%)
+  - gk is tracked with status pending.
+- gk--gitkrakencli--sha256_507f3d034f24 - gk (pending, 0%)
+  - gk is tracked with status pending.
+- [systemsettingsbroker--microsoft-corporation--sha256_7b8ab68860f7.md](systemsettingsbroker--microsoft-corporation--sha256_7b8ab68860f7.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [git--git--sha256_d09a1324132a.md](git--git--sha256_d09a1324132a.md) - Git (resolved_medium_confidence, 0%)
+  - Git was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=none.
+- git--unknown--sha256_13be89e899ce - git (pending, 0%)
+  - git is tracked with status pending.
+- nvidia-smi--unknown--sha256_f0315dc2f4ce - nvidia-smi (queued, 0%)
+  - nvidia-smi is tracked with status queued.
+- claude--unknown--sha256_f6be38fbdcad - Claude Code (pending, 0%)
+  - Claude Code is tracked with status pending.
+- [conhost--microsoft-corporation--sha256_804c132aa005.md](conhost--microsoft-corporation--sha256_804c132aa005.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 80%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=windows_host_process, trusted_source_level=high.
+- notepad--notepad--sha256_a21550189e7d - Notepad++ (pending, 0%)
+  - Notepad++ is tracked with status pending.
+- bash--git--sha256_fc362aae1f21 - bash (pending, 0%)
+  - bash is tracked with status pending.
+- [cmd--microsoft-corporation--sha256_f682aadda9de.md](cmd--microsoft-corporation--sha256_f682aadda9de.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 80%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [applicationframehost--microsoft-corporation--sha256_71e9e013b724.md](applicationframehost--microsoft-corporation--sha256_71e9e013b724.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 86%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [dllhost--microsoft-corporation--sha256_69a7865772a1.md](dllhost--microsoft-corporation--sha256_69a7865772a1.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 80%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=windows_host_process, trusted_source_level=high.
+- [codesetup-stable-e7fb5e96c0730b9deb70b33781f98e2f35975036--unknown--sha256_12fb1b09a51d.md](codesetup-stable-e7fb5e96c0730b9deb70b33781f98e2f35975036--unknown--sha256_12fb1b09a51d.md) - Visual Studio Code (resolved_medium_confidence, 75%)
+  - Visual Studio Code was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [codesetup-stable-e7fb5e96c0730b9deb70b33781f98e2f35975036-tmp--unknown--sha256_96e8b9029395.md](codesetup-stable-e7fb5e96c0730b9deb70b33781f98e2f35975036-tmp--unknown--sha256_96e8b9029395.md) - Visual Studio Code (resolved_medium_confidence, 69%)
+  - Visual Studio Code was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [dotnet--dotnet--sha256_6e7de4acfabb.md](dotnet--dotnet--sha256_6e7de4acfabb.md) - .NET (resolved_high_confidence, 86%)
+  - .NET was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [mspaint--windowsapps--sha256_04c5213226c9.md](mspaint--windowsapps--sha256_04c5213226c9.md) - Paint (resolved_medium_confidence, 74%)
+  - Paint was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [node--nodejs--sha256_e3be0545990c.md](node--nodejs--sha256_e3be0545990c.md) - Node.js (resolved_medium_confidence, 0%)
+  - Node.js was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=none.
+- [msedgewebview2--microsoft--sha256_1ead36c87f7b.md](msedgewebview2--microsoft--sha256_1ead36c87f7b.md) - Microsoft Edge WebView2 (resolved_high_confidence, 0%)
+  - Microsoft Edge WebView2 was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [monotificationux--unknown--sha256_6efc09ce2239.md](monotificationux--unknown--sha256_6efc09ce2239.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 80%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- inno-updater--microsoft-vs-code--sha256_09283a1f6137 - inno-updater (pending, 0%)
+  - inno-updater is tracked with status pending.
+- code--microsoft-vs-code--sha256_e13c8b3dfc53 - code (pending, 0%)
+  - code is tracked with status pending.
+- [windowspackagemanagerserver--windowsapps--sha256_30ca243786c9.md](windowspackagemanagerserver--windowsapps--sha256_30ca243786c9.md) - Microsoft Desktop App Installer (resolved_high_confidence, 0%)
+  - Microsoft Desktop App Installer was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- taskhostw--unknown--sha256_bcdd6ff4b0fb - taskhostw (pending, 0%)
+  - taskhostw is tracked with status pending.
+- rammap64--unknown--sha256_a0a9a717fa31 - rammap64 (pending, 0%)
+  - rammap64 is tracked with status pending.
+- rammap--unknown--sha256_f1e5ffc51ca6 - rammap (pending, 0%)
+  - rammap is tracked with status pending.
+- [useroobebroker--microsoft-corporation--sha256_b6d0cf6c45be.md](useroobebroker--microsoft-corporation--sha256_b6d0cf6c45be.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [textinputhost--unknown--sha256_821f955022be.md](textinputhost--unknown--sha256_821f955022be.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [systemsettings--unknown--sha256_b2b56b4ee894.md](systemsettings--unknown--sha256_b2b56b4ee894.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [startmenuexperiencehost--unknown--sha256_3e2891abfd72.md](startmenuexperiencehost--unknown--sha256_3e2891abfd72.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [smartscreen--microsoft-corporation--sha256_9aea19d95383.md](smartscreen--microsoft-corporation--sha256_9aea19d95383.md) - Microsoftr Windowsr Operating System (resolved_medium_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [sihost--microsoft-corporation--sha256_5c95962d2b1d.md](sihost--microsoft-corporation--sha256_5c95962d2b1d.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [shellhost--microsoft-corporation--sha256_839e6ad46c74.md](shellhost--microsoft-corporation--sha256_839e6ad46c74.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [shellexperiencehost--unknown--sha256_ff456c6b47a0.md](shellexperiencehost--unknown--sha256_ff456c6b47a0.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [searchhost--unknown--sha256_1f951521afd3.md](searchhost--unknown--sha256_1f951521afd3.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [runtimebroker--microsoft-corporation--sha256_61fd42509c02.md](runtimebroker--microsoft-corporation--sha256_61fd42509c02.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- nvcontainer--unknown--sha256_b398df9a0853 - nvcontainer (pending, 0%)
+  - nvcontainer is tracked with status pending.
+- nvcontainer--nvidia-corporation--sha256_7168361755ec - nvcontainer (pending, 0%)
+  - nvcontainer is tracked with status pending.
+- [m365copilot--windowsapps--sha256_08b393498bd3.md](m365copilot--windowsapps--sha256_08b393498bd3.md) - Microsoft 365 Copilot (resolved_medium_confidence, 58%)
+  - Microsoft 365 Copilot was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=none.
+- cowork-svc--unknown--sha256_fadd725bb9fa - cowork-svc (pending, 0%)
+  - cowork-svc is tracked with status pending.
+- [copilot--windowsapps--sha256_b5ce5b11e86f.md](copilot--windowsapps--sha256_b5ce5b11e86f.md) - Copilot (resolved_high_confidence, 80%)
+  - Copilot was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- code--microsoft-vs-code--sha256_229382adea51 - code (queued, 0%)
+  - code is tracked with status queued.
+- [explorer--unknown--sha256_6d560ce5e751.md](explorer--unknown--sha256_6d560ce5e751.md) - Microsoftr Windowsr Operating System (resolved_medium_confidence, 58%)
+  - Microsoftr Windowsr Operating System was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=none.
+- [dllhost--microsoft-corporation--sha256_d2e60fde36ca.md](dllhost--microsoft-corporation--sha256_d2e60fde36ca.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 80%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=windows_host_process, trusted_source_level=high.
+- [crossdeviceresume--unknown--sha256_7f812c9afd9e.md](crossdeviceresume--unknown--sha256_7f812c9afd9e.md) - Microsoftr Windowsr Operating System (resolved_medium_confidence, 58%)
+  - Microsoftr Windowsr Operating System was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=none.
+- rsvpnsvc--unknown--sha256_e0a7097f15b4 - rsvpnsvc (pending, 0%)
+  - rsvpnsvc is tracked with status pending.
+- prow-file-compressor--unknown--sha256_1285f7bc6b70 - prow-file-compressor (pending, 0%)
+  - prow-file-compressor is tracked with status pending.
+- [powershell--microsoft-corporation--sha256_0ff6f2c94bc7.md](powershell--microsoft-corporation--sha256_0ff6f2c94bc7.md) - Microsoftr Windowsr Operating System (resolved_medium_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=none.
+- ollama-app--ollama--sha256_c0a5b968deda - ollama-app (pending, 0%)
+  - ollama-app is tracked with status pending.
+- docker--unknown--sha256_c43db0b1df7f - docker (pending, 0%)
+  - docker is tracked with status pending.
+- ollama--ollama--sha256_031b1c69fe8a - ollama (pending, 0%)
+  - ollama is tracked with status pending.
+- nissrv--unknown--sha256_7679574efdb6 - nissrv (pending, 0%)
+  - nissrv is tracked with status pending.
+- msmpeng--unknown--sha256_fbc8c1d94fbd - msmpeng (pending, 0%)
+  - msmpeng is tracked with status pending.
+- mpdefendercoreservice--unknown--sha256_74f275405c39 - mpdefendercoreservice (pending, 0%)
+  - mpdefendercoreservice is tracked with status pending.
+- memory-compression--unknown--sha256_9210f289ee2f - memory-compression (pending, 0%)
+  - memory-compression is tracked with status pending.
+- lsaiso--unknown--sha256_c4e3299a2ff5 - lsaiso (pending, 0%)
+  - lsaiso is tracked with status pending.
+- jhi-service--unknown--sha256_19d494d47257 - jhi-service (pending, 0%)
+  - jhi-service is tracked with status pending.
+- esbuild--unknown--sha256_b868c8d988ff - esbuild (pending, 0%)
+  - esbuild is tracked with status pending.
+- electron--unknown--sha256_1fa93c3471c1 - Electron (pending, 0%)
+  - Electron is tracked with status pending.
+- ctfmon--unknown--sha256_6d3d45e658d4 - ctfmon (pending, 0%)
+  - ctfmon is tracked with status pending.
+- crashpad-handler--unknown--sha256_d5aa1761ff18 - crashpad-handler (pending, 0%)
+  - crashpad-handler is tracked with status pending.
+- chatgpt--windowsapps--sha256_a4f0da84a141 - ChatGPT (pending, 0%)
+  - ChatGPT is tracked with status pending.
+- audiodg--unknown--sha256_6a84d5b34c34 - audiodg (pending, 0%)
+  - audiodg is tracked with status pending.
+- artaimmxservice--unknown--sha256_baf237ab21f6 - artaimmxservice (pending, 0%)
+  - artaimmxservice is tracked with status pending.
+- aggregatorhost--unknown--sha256_7534eb6c09fe - aggregatorhost (pending, 0%)
+  - aggregatorhost is tracked with status pending.
+- acerpixyservice--unknown--sha256_03d01608b664 - acerpixyservice (pending, 0%)
+  - acerpixyservice is tracked with status pending.
+- aaadsvc--unknown--sha256_353197ae0233 - aaadsvc (pending, 0%)
+  - aaadsvc is tracked with status pending.
+- mousocoreworker--unknown--sha256_418f2086b830 - mousocoreworker (pending, 0%)
+  - mousocoreworker is tracked with status pending.
+- securityhealthservice--unknown--sha256_a371af745389 - securityhealthservice (pending, 0%)
+  - securityhealthservice is tracked with status pending.
+- wudfhost--unknown--sha256_418cd53f64a7 - wudfhost (pending, 0%)
+  - wudfhost is tracked with status pending.
+- svchost--unknown--sha256_bfb9254d9183 - svchost (pending, 0%)
+  - svchost is tracked with status pending.
+- [svchost--microsoft-corporation--sha256_44fd6f9347ce.md](svchost--microsoft-corporation--sha256_44fd6f9347ce.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=service_host, trusted_source_level=high.
+- [sihost--microsoft-corporation--sha256_1e115ef87c00.md](sihost--microsoft-corporation--sha256_1e115ef87c00.md) - Microsoftr Windowsr Operating System (resolved_high_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with high confidence from local executable evidence; classification=standard, trusted_source_level=high.
+- [runtimebroker--microsoft-corporation--sha256_9d4571f9c93b.md](runtimebroker--microsoft-corporation--sha256_9d4571f9c93b.md) - Microsoftr Windowsr Operating System (resolved_medium_confidence, 0%)
+  - Microsoftr Windowsr Operating System was identified with medium confidence from local executable evidence; classification=standard, trusted_source_level=none.
+- conhost--unknown--sha256_606c58b0170e - conhost (pending, 0%)
+  - conhost is tracked with status pending.
+- [wslservice--unknown--sha256_15061d23787b.md](wslservice--unknown--sha256_15061d23787b.md) - wslservice (suspicious, 0%)
+  - Web search returned 5 result(s) for "wslservice Windows process" via duckduckgo. Publisher evidence was weak or unavailable. The entry combines live observation with public refere...
+- [wmiprvse--unknown--sha256_c42abede42ad.md](wmiprvse--unknown--sha256_c42abede42ad.md) - wmiprvse (suspicious, 0%)
+  - Web search returned 5 result(s) for "wmiprvse Windows process" via duckduckgo. Publisher evidence was weak or unavailable. The entry combines live observation with public referenc...
+- [wlanext--unknown--sha256_60a1900f8642.md](wlanext--unknown--sha256_60a1900f8642.md) - wlanext (suspicious, 0%)
+  - Web search returned 5 result(s) for "wlanext Windows process" via duckduckgo. Publisher evidence was weak or unavailable. The entry combines live observation with public reference...
+- [winsw--unknown--sha256_2380f15bd1ae.md](winsw--unknown--sha256_2380f15bd1ae.md) - winsw (suspicious, 0%)
+  - Web search returned 5 result(s) for "winsw Windows process" via duckduckgo. Publisher evidence was weak or unavailable. The entry combines live observation with public reference m...
+- [vmcompute--unknown--sha256_c7b14673ad13.md](vmcompute--unknown--sha256_c7b14673ad13.md) - vmcompute (suspicious, 0%)
+  - Web search returned 5 result(s) for "vmcompute Windows process" via duckduckgo. Publisher evidence was weak or unavailable. The entry combines live observation with public referen...
+- [textinputhost--unknown--sha256_723ed8bedd83.md](textinputhost--unknown--sha256_723ed8bedd83.md) - textinputhost (known, 0%)
+  - Web search did not return usable snippets for "textinputhost Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [teamviewer-service--unknown--sha256_568fe2f81533.md](teamviewer-service--unknown--sha256_568fe2f81533.md) - teamviewer-service (known, 0%)
+  - Web search did not return usable snippets for "teamviewer-service Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [taskmgr--unknown--sha256_faa788124006.md](taskmgr--unknown--sha256_faa788124006.md) - taskmgr (known, 0%)
+  - Web search did not return usable snippets for "taskmgr Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [taskhostw--microsoft-corporation--sha256_5016d2e17347.md](taskhostw--microsoft-corporation--sha256_5016d2e17347.md) - taskhostw (known, 0%)
+  - Web search did not return usable snippets for "taskhostw microsoft corporation Windows process" (timeout). This entry is based on the live process snapshot and observed file metad...
+- [systemsettingsbroker--microsoft-corporation--sha256_01d456990ca5.md](systemsettingsbroker--microsoft-corporation--sha256_01d456990ca5.md) - systemsettingsbroker (known, 0%)
+  - Web search did not return usable snippets for "systemsettingsbroker microsoft corporation Windows process" (timeout). This entry is based on the live process snapshot and observed...
+- [systemsettings--unknown--sha256_86f45812e251.md](systemsettings--unknown--sha256_86f45812e251.md) - systemsettings (known, 0%)
+  - Web search did not return usable snippets for "systemsettings Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [startmenuexperiencehost--unknown--sha256_87b6b7b874ac.md](startmenuexperiencehost--unknown--sha256_87b6b7b874ac.md) - startmenuexperiencehost (known, 0%)
+  - Web search did not return usable snippets for "startmenuexperiencehost Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [ss-conn-service2--unknown--sha256_1283d3400632.md](ss-conn-service2--unknown--sha256_1283d3400632.md) - ss-conn-service2 (known, 0%)
+  - Web search did not return usable snippets for "ss-conn-service2 Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [ss-conn-service--unknown--sha256_1adf503e9fcf.md](ss-conn-service--unknown--sha256_1adf503e9fcf.md) - ss-conn-service (known, 0%)
+  - Web search did not return usable snippets for "ss-conn-service Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [smartscreen--microsoft-corporation--sha256_320529ad57be.md](smartscreen--microsoft-corporation--sha256_320529ad57be.md) - smartscreen (known, 0%)
+  - Web search did not return usable snippets for "smartscreen microsoft corporation Windows process" (timeout). This entry is based on the live process snapshot and observed file met...
+- [shellhost--microsoft-corporation--sha256_5fbb50f2b80d.md](shellhost--microsoft-corporation--sha256_5fbb50f2b80d.md) - shellhost (known, 0%)
+  - Web search did not return usable snippets for "shellhost microsoft corporation Windows process" (timeout). This entry is based on the live process snapshot and observed file metad...
+- [shellexperiencehost--unknown--sha256_8662d1661b62.md](shellexperiencehost--unknown--sha256_8662d1661b62.md) - shellexperiencehost (known, 0%)
+  - Web search did not return usable snippets for "shellexperiencehost Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [secure-system--unknown--sha256_8388b19b07f6.md](secure-system--unknown--sha256_8388b19b07f6.md) - secure-system (known, 0%)
+  - Web search did not return usable snippets for "secure-system Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [searchindexer--unknown--sha256_9ef172408ca4.md](searchindexer--unknown--sha256_9ef172408ca4.md) - searchindexer (known, 0%)
+  - Web search did not return usable snippets for "searchindexer Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [searchhost--unknown--sha256_c4c6761a91c4.md](searchhost--unknown--sha256_c4c6761a91c4.md) - searchhost (known, 0%)
+  - Web search did not return usable snippets for "searchhost Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- [rustdesk--unknown--sha256_8164ea75eab5.md](rustdesk--unknown--sha256_8164ea75eab5.md) - rustdesk (known, 0%)
+  - Web search did not return usable snippets for "rustdesk Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+- python--unknown--sha256_97c3228a59dc - python (queued, 0%)
+  - python is tracked with status queued.
+- python--unknown--sha256_cce21c0e8710 - python (queued, 0%)
+  - python is tracked with status queued.
+

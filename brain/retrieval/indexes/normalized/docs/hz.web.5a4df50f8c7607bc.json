@@ -1,0 +1,291 @@
+{
+  "aliases": [
+    {
+      "alias": "5a4df50f8c7607bc",
+      "aliasId": "hz.web.5a4df50f8c7607bc.alias.1",
+      "canonical": "img6.wsimg.com"
+    },
+    {
+      "alias": "img6.wsimg.com",
+      "aliasId": "hz.web.5a4df50f8c7607bc.alias.2",
+      "canonical": "img6.wsimg.com"
+    },
+    {
+      "alias": "web 5a4df50f8c7607bc",
+      "aliasId": "hz.web.5a4df50f8c7607bc.alias.3",
+      "canonical": "img6.wsimg.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.5a4df50f8c7607bc",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5a4df50f8c7607bc.entity.1",
+      "kind": "document",
+      "name": "img6.wsimg.com",
+      "tokens": [
+        "img6",
+        "wsimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a4df50f8c7607bc.entity.2",
+      "kind": "heading",
+      "name": "img6.wsimg.com",
+      "tokens": [
+        "img6",
+        "wsimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a4df50f8c7607bc.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a4df50f8c7607bc.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5a4df50f8c7607bc.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 85,
+      "charStart": 19,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.1",
+      "kind": "summary",
+      "text": "Source: https://img6.wsimg.com/ux-assets/favicon/favicon-16x16.png",
+      "tokens": [
+        "source",
+        "https",
+        "img6",
+        "wsimg",
+        "com",
+        "ux",
+        "assets",
+        "favicon",
+        "favicon",
+        "16x16",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 536,
+      "charStart": 137,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.1",
+      "kind": "bullet",
+      "text": "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001f��a\u0000\u0000\u0001dIDATx\u0001\\�\u0001d�q\u0018��g�I�7�95ȢA9�` �\u0000��h\u0019\u0012�@e@\u0000\\�\u0018$ \u001d\u0000��F.D2\u0003\u0003XMn��\u001e�\"����ȋ����}�q����$3�1K�H5f��f� ��E^�>\u0007��.Klq@?\u001b��i:tyN�G|a�\u001f�xL3�.\u001d�ü���D��\u001f,S#\u0000-������\u0014�i^�\u0005�*�6�a�Y!�m�xH� �� � �aF<!8�;>R\u0010��{���\u0004O�\u001b�d��A�\u0007\u0004��0`�\u001e �5�0��Pp��+\u00043�f�k�,Q��z�E\u00064y�W�\u0004\u0013L\u0012���M�\u0001���m�Ռ�\u0013\u0015\u0017��&��8O�\u001e��NT��[�.����2G�xCA���\u0019�+ۨ>p�;�1d��i�!{�h�\u000f$.�b�2���[\u0000�GJ�`�F��ߘ��\u0005\u0000JD?M��Ȉ\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "png",
+        "ihdr",
+        "didatx",
+        "95",
+        "a9",
+        "d2",
+        "xmn",
+        "1k",
+        "h5f",
+        "klq",
+        "tyn",
+        "xl3",
+        "xh",
+        "af",
+        "pp",
+        "4y",
+        "8o",
+        "nt",
+        "2g",
+        "xca",
+        "1d",
+        "gj",
+        "jd",
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 555,
+      "charStart": 551,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.2",
+      "kind": "bullet",
+      "text": "1d",
+      "tokens": [
+        "1d"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 556,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.3",
+      "kind": "bullet",
+      "text": "1k",
+      "tokens": [
+        "1k"
+      ]
+    },
+    {
+      "charEnd": 565,
+      "charStart": 561,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.4",
+      "kind": "bullet",
+      "text": "2g",
+      "tokens": [
+        "2g"
+      ]
+    },
+    {
+      "charEnd": 570,
+      "charStart": 566,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.5",
+      "kind": "bullet",
+      "text": "4y",
+      "tokens": [
+        "4y"
+      ]
+    },
+    {
+      "charEnd": 575,
+      "charStart": 571,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.6",
+      "kind": "bullet",
+      "text": "8o",
+      "tokens": [
+        "8o"
+      ]
+    },
+    {
+      "charEnd": 580,
+      "charStart": 576,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.7",
+      "kind": "bullet",
+      "text": "95",
+      "tokens": [
+        "95"
+      ]
+    },
+    {
+      "charEnd": 585,
+      "charStart": 581,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.8",
+      "kind": "bullet",
+      "text": "a9",
+      "tokens": [
+        "a9"
+      ]
+    },
+    {
+      "charEnd": 590,
+      "charStart": 586,
+      "factId": "hz.web.5a4df50f8c7607bc.fact.9",
+      "kind": "bullet",
+      "text": "af",
+      "tokens": [
+        "af"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.5a4df50f8c7607bc.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "img6.wsimg.com"
+    },
+    {
+      "charEnd": 135,
+      "charStart": 125,
+      "headingId": "hz.web.5a4df50f8c7607bc.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 549,
+      "charStart": 538,
+      "headingId": "hz.web.5a4df50f8c7607bc.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 602,
+      "charStart": 592,
+      "headingId": "hz.web.5a4df50f8c7607bc.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5a4df50f8c7607bc.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1258,
+        "start": 0
+      }
+    ],
+    "hash": "0dcfb01c6e1737ade47272fce36bbdcd9bf936822dc9b17da4a7a20794b6e64a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000\u001f��a\u0000\u0000\u0001dIDATx\u0001\\�\u0001d�q\u0018��g�I�7�95ȢA9�` �\u0000��h\u0019\u0012�@e@\u0000\\�\u0018$ \u001d\u0000��F.D2\u0003\u0003XMn��\u001e�\"����ȋ����}�q����$3�1K�H5f��f� ��E^�>\u0007��.Klq@?\u001b��i:tyN�G|a�\u001f�xL3�.\u001d�ü���D��\u001f,S#\u0000-������\u0014�i^�\u0005�*�6�a�Y!�m�xH� �� � �aF<!8�;>R\u0010��{���\u0004O�\u001b�d��A�\u0007\u0004��0`�\u001e �5�0��Pp��+\u00043�f�k�,Q��z�E\u00064y�W�\u0004\u0013L\u0012���M�\u0001���m�Ռ�\u0013\u0015\u0017��&��8O�\u001e��NT��[�.����2G�xCA���\u0019�+ۨ>p�;�1d��i�!{�h�\u000f$.�b�2���[\u0000�GJ�`�F��ߘ��\u0005\u0000JD?M��Ȉ\u0000\u0000\u0000\u0000IEND�B`�",
+      "1d",
+      "1k"
+    ],
+    "medium": "Source: https://img6.wsimg.com/ux-assets/favicon/favicon-16x16.png",
+    "short": "Source: https://img6.wsimg.com/ux-assets/favicon/favicon-16x16.png",
+    "tokens": [
+      "img6",
+      "wsimg",
+      "com",
+      "source",
+      "https",
+      "img6",
+      "wsimg",
+      "com",
+      "ux",
+      "assets",
+      "favicon",
+      "favicon",
+      "16x16",
+      "png",
+      "source",
+      "https",
+      "img6",
+      "wsimg",
+      "com",
+      "ux",
+      "assets",
+      "favicon",
+      "favicon",
+      "16x16",
+      "png"
+    ]
+  },
+  "title": "img6.wsimg.com"
+}

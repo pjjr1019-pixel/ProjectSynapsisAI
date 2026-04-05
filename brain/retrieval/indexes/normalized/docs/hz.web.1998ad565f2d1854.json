@@ -1,0 +1,478 @@
+{
+  "aliases": [
+    {
+      "alias": "1998ad565f2d1854",
+      "aliasId": "hz.web.1998ad565f2d1854.alias.1",
+      "canonical": "wordpress.com developer resources"
+    },
+    {
+      "alias": "web 1998ad565f2d1854",
+      "aliasId": "hz.web.1998ad565f2d1854.alias.2",
+      "canonical": "wordpress.com developer resources"
+    },
+    {
+      "alias": "wordpress.com developer resources",
+      "aliasId": "hz.web.1998ad565f2d1854.alias.3",
+      "canonical": "wordpress.com developer resources"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.53,
+  "docId": "hz.web.1998ad565f2d1854",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1998ad565f2d1854.entity.1",
+      "kind": "document",
+      "name": "WordPress.com Developer Resources",
+      "tokens": [
+        "wordpress",
+        "com",
+        "developer",
+        "resources"
+      ]
+    },
+    {
+      "entityId": "hz.web.1998ad565f2d1854.entity.2",
+      "kind": "heading",
+      "name": "WordPress.com Developer Resources",
+      "tokens": [
+        "wordpress",
+        "com",
+        "developer",
+        "resources"
+      ]
+    },
+    {
+      "entityId": "hz.web.1998ad565f2d1854.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1998ad565f2d1854.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1998ad565f2d1854.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 83,
+      "charStart": 38,
+      "factId": "hz.web.1998ad565f2d1854.fact.1",
+      "kind": "summary",
+      "text": "Source: https://developer.wordpress.com/feed/",
+      "tokens": [
+        "source",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1783,
+      "charStart": 135,
+      "factId": "hz.web.1998ad565f2d1854.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" xmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title>WordPress.com Developer Resources</title> <atom:link href=\"https://developer.wordpress.com/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://developer.wordpress.com</link> <description></description> <lastBuildDate>Fri, 27 Mar 2026 13:27:16 +0000</lastBuildDate> <language>en</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>http://wordpress.com/</generator> <image> <url>https://developer.wordpress.com/wp-content/uploads/2025/03/cropped-favicon-64x64-from-figma.png?w=32</url> <title>WordPress.com Developer Resources</title> <link>https://developer.wordpress.com</link> <width>32</width> <height>32</height> </image> <site xmlns=\"com-wordpress:feed-additions:1\">33534099</site><cloud domain='developer.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' /> <atom:link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"https://developer.wordpress.com/osd.xml\" title=\"WordPress.com Developer Resources\" /> <atom:link rel='hub' href='https://developer.wordpress.com/?pushpress=hub'/> </channel> </rss>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "wfw",
+        "http",
+        "wellformedweb",
+        "org",
+        "commentapi",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "xmlns",
+        "slash",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "slash",
+        "xmlns",
+        "georss",
+        "http",
+        "www",
+        "georss",
+        "org",
+        "georss",
+        "xmlns",
+        "geo",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2003",
+        "01",
+        "geo",
+        "wgs84_pos",
+        "xmlns",
+        "media",
+        "http",
+        "search",
+        "yahoo",
+        "com",
+        "mrss",
+        "channel",
+        "title",
+        "wordpress",
+        "com",
+        "developer",
+        "resources",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "link",
+        "description",
+        "description",
+        "lastbuilddate",
+        "fri",
+        "27",
+        "mar",
+        "2026",
+        "13",
+        "27",
+        "16",
+        "0000",
+        "lastbuilddate",
+        "language",
+        "en",
+        "language",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "generator",
+        "http",
+        "wordpress",
+        "com",
+        "generator",
+        "image",
+        "url",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "wp",
+        "content",
+        "uploads",
+        "2025",
+        "03",
+        "cropped",
+        "favicon",
+        "64x64",
+        "figma",
+        "png",
+        "32",
+        "url",
+        "title",
+        "wordpress",
+        "com",
+        "developer",
+        "resources",
+        "title",
+        "link",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "link",
+        "width",
+        "32",
+        "width",
+        "height",
+        "32",
+        "height",
+        "image",
+        "site",
+        "xmlns",
+        "com",
+        "wordpress",
+        "feed",
+        "additions",
+        "33534099",
+        "site",
+        "cloud",
+        "domain",
+        "developer",
+        "wordpress",
+        "com",
+        "port",
+        "80",
+        "path",
+        "rsscloud",
+        "notify",
+        "registerprocedure",
+        "protocol",
+        "http",
+        "post",
+        "atom",
+        "link",
+        "rel",
+        "search",
+        "type",
+        "application",
+        "opensearchdescription",
+        "xml",
+        "href",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "osd",
+        "xml",
+        "title",
+        "wordpress",
+        "com",
+        "developer",
+        "resources",
+        "atom",
+        "link",
+        "rel",
+        "hub",
+        "href",
+        "https",
+        "developer",
+        "wordpress",
+        "com",
+        "pushpress",
+        "hub",
+        "channel",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 1803,
+      "charStart": 1798,
+      "factId": "hz.web.1998ad565f2d1854.fact.2",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1815,
+      "charStart": 1804,
+      "factId": "hz.web.1998ad565f2d1854.fact.3",
+      "kind": "bullet",
+      "text": "wordpress",
+      "tokens": [
+        "wordpress"
+      ]
+    },
+    {
+      "charEnd": 1822,
+      "charStart": 1816,
+      "factId": "hz.web.1998ad565f2d1854.fact.4",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 1834,
+      "charStart": 1823,
+      "factId": "hz.web.1998ad565f2d1854.fact.5",
+      "kind": "bullet",
+      "text": "developer",
+      "tokens": [
+        "developer"
+      ]
+    },
+    {
+      "charEnd": 1842,
+      "charStart": 1835,
+      "factId": "hz.web.1998ad565f2d1854.fact.6",
+      "kind": "bullet",
+      "text": "xmlns",
+      "tokens": [
+        "xmlns"
+      ]
+    },
+    {
+      "charEnd": 1848,
+      "charStart": 1843,
+      "factId": "hz.web.1998ad565f2d1854.fact.7",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1855,
+      "charStart": 1849,
+      "factId": "hz.web.1998ad565f2d1854.fact.8",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 1863,
+      "charStart": 1856,
+      "factId": "hz.web.1998ad565f2d1854.fact.9",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.web.1998ad565f2d1854.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "WordPress.com Developer Resources"
+    },
+    {
+      "charEnd": 133,
+      "charStart": 123,
+      "headingId": "hz.web.1998ad565f2d1854.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1796,
+      "charStart": 1785,
+      "headingId": "hz.web.1998ad565f2d1854.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1875,
+      "charStart": 1865,
+      "headingId": "hz.web.1998ad565f2d1854.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1998ad565f2d1854.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3778,
+        "start": 0
+      }
+    ],
+    "hash": "84fb653ad8b9f4424e718b59bdc9cbfc72a9607f19b3e91b0d8f869d6fd32616",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" xmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title>WordPress.com Developer Resources</title> <atom:link href=\"https://developer.wordpress.com/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://developer.wordpress.com</link> <description></description> <lastBuildDate>Fri, 27 Mar 2026 13:27:16 +0000</lastBuildDate> <language>en</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>http://wordpress.com/</generator> <image> <url>https://developer.wordpress.com/wp-content/uploads/2025/03/cropped-favicon-64x64-from-figma.png?w=32</url> <title>WordPress.com Developer Resources</title> <link>https://developer.wordpress.com</link> <width>32</width> <height>32</height> </image> <site xmlns=\"com-wordpress:feed-additions:1\">33534099</site><cloud domain='developer.wordpress.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' /> <atom:link rel=\"search\" type=\"application/opensearchdescription+xml\" href=\"https://developer.wordpress.com/osd.xml\" title=\"WordPress.com Developer Resources\" /> <atom:link rel='hub' href='https://developer.wordpress.com/?pushpress=hub'/> </channel> </rss>",
+      "com",
+      "wordpress"
+    ],
+    "medium": "Source: https://developer.wordpress.com/feed/",
+    "short": "Source: https://developer.wordpress.com/feed/",
+    "tokens": [
+      "wordpress",
+      "com",
+      "developer",
+      "resources",
+      "source",
+      "https",
+      "developer",
+      "wordpress",
+      "com",
+      "feed",
+      "source",
+      "https",
+      "developer",
+      "wordpress",
+      "com",
+      "feed"
+    ]
+  },
+  "title": "WordPress.com Developer Resources"
+}

@@ -1,0 +1,419 @@
+{
+  "aliases": [
+    {
+      "alias": "f4e0a94e1ba1db9c",
+      "aliasId": "hz.web.f4e0a94e1ba1db9c.alias.1",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "facebook",
+      "aliasId": "hz.web.f4e0a94e1ba1db9c.alias.2",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "web f4e0a94e1ba1db9c",
+      "aliasId": "hz.web.f4e0a94e1ba1db9c.alias.3",
+      "canonical": "facebook"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.f4e0a94e1ba1db9c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f4e0a94e1ba1db9c.entity.1",
+      "kind": "document",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4e0a94e1ba1db9c.entity.2",
+      "kind": "heading",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4e0a94e1ba1db9c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4e0a94e1ba1db9c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4e0a94e1ba1db9c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 414,
+      "charStart": 13,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzc0OTMyMjgzfQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fblog.google%252Fproducts%252Fmarketingplatform%252F360%252F%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "facebook",
+        "com",
+        "recover",
+        "initiate",
+        "privacy_mutation_token",
+        "eyj0exblijo1lcjjcmvhdglvbl90aw1lijoxnzc0otmymjgzfq",
+        "3d",
+        "3d",
+        "amp",
+        "ars",
+        "facebook_login",
+        "amp",
+        "next",
+        "https",
+        "3a",
+        "2f",
+        "2fwww",
+        "facebook",
+        "com",
+        "2fshare_channel",
+        "2f",
+        "3ftype",
+        "3dreshare",
+        "26link",
+        "3dhttps",
+        "253a",
+        "252f",
+        "252fblog",
+        "google",
+        "252fproducts",
+        "252fmarketingplatform",
+        "252f360",
+        "252f",
+        "26app_id",
+        "3d966242223397117",
+        "26source_surface",
+        "3dexternal_reshare",
+        "26display",
+        "26hashtag"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 466,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.1",
+      "kind": "bullet",
+      "text": "Facebook Find your account Enter your mobile number or email.",
+      "tokens": [
+        "facebook",
+        "find",
+        "your",
+        "account",
+        "enter",
+        "your",
+        "mobile",
+        "number",
+        "email"
+      ]
+    },
+    {
+      "charEnd": 949,
+      "charStart": 530,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.2",
+      "kind": "bullet",
+      "text": "Mobile number or email Continue English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026",
+      "tokens": [
+        "mobile",
+        "number",
+        "email",
+        "continue",
+        "english",
+        "us",
+        "espa",
+        "ol",
+        "fran",
+        "ais",
+        "france",
+        "portugu",
+        "brasil",
+        "italiano",
+        "more",
+        "languages",
+        "sign",
+        "up",
+        "log",
+        "messenger",
+        "facebook",
+        "lite",
+        "video",
+        "meta",
+        "pay",
+        "meta",
+        "store",
+        "meta",
+        "quest",
+        "ray",
+        "ban",
+        "meta",
+        "meta",
+        "ai",
+        "instagram",
+        "threads",
+        "privacy",
+        "policy",
+        "consumer",
+        "health",
+        "privacy",
+        "privacy",
+        "center",
+        "about",
+        "create",
+        "ad",
+        "create",
+        "page",
+        "developers",
+        "careers",
+        "cookies",
+        "ad",
+        "choices",
+        "terms",
+        "help",
+        "contact",
+        "uploading",
+        "non",
+        "users",
+        "meta",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 970,
+      "charStart": 964,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.3",
+      "kind": "bullet",
+      "text": "meta",
+      "tokens": [
+        "meta"
+      ]
+    },
+    {
+      "charEnd": 980,
+      "charStart": 971,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.4",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 985,
+      "charStart": 981,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.5",
+      "kind": "bullet",
+      "text": "ad",
+      "tokens": [
+        "ad"
+      ]
+    },
+    {
+      "charEnd": 994,
+      "charStart": 986,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.6",
+      "kind": "bullet",
+      "text": "create",
+      "tokens": [
+        "create"
+      ]
+    },
+    {
+      "charEnd": 1002,
+      "charStart": 995,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.7",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 1003,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.8",
+      "kind": "bullet",
+      "text": "facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "charEnd": 1022,
+      "charStart": 1014,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.9",
+      "kind": "bullet",
+      "text": "mobile",
+      "tokens": [
+        "mobile"
+      ]
+    },
+    {
+      "charEnd": 1031,
+      "charStart": 1023,
+      "factId": "hz.web.f4e0a94e1ba1db9c.fact.10",
+      "kind": "bullet",
+      "text": "number",
+      "tokens": [
+        "number"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.f4e0a94e1ba1db9c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Facebook"
+    },
+    {
+      "charEnd": 464,
+      "charStart": 454,
+      "headingId": "hz.web.f4e0a94e1ba1db9c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 962,
+      "charStart": 951,
+      "headingId": "hz.web.f4e0a94e1ba1db9c.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1043,
+      "charStart": 1033,
+      "headingId": "hz.web.f4e0a94e1ba1db9c.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f4e0a94e1ba1db9c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2110,
+        "start": 0
+      }
+    ],
+    "hash": "b00ddad85285f24425c6abc34dc9b7740bf2f27f80e7f1cccfc6e7e3b266cd6c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Facebook Find your account Enter your mobile number or email.",
+      "Mobile number or email Continue English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026",
+      "meta"
+    ],
+    "medium": "Source: https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzc0OTMyMjgzfQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fblog.google%252Fproducts%252Fmarketingplatform%252F360%252F%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
+    "short": "Source: https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzc0OTMyMjgzfQ%3D%3D&amp;ars=facebook_login&amp;next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dh",
+    "tokens": [
+      "facebook",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "recover",
+      "initiate",
+      "privacy_mutation_token",
+      "eyj0exblijo1lcjjcmvhdglvbl90aw1lijoxnzc0otmymjgzfq",
+      "3d",
+      "3d",
+      "amp",
+      "ars",
+      "facebook_login",
+      "amp",
+      "next",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "facebook",
+      "com",
+      "2fshare_channel",
+      "2f",
+      "3ftype",
+      "3dreshare",
+      "26link",
+      "3dh",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "recover",
+      "initiate",
+      "privacy_mutation_token",
+      "eyj0exblijo1lcjjcmvhdglvbl90aw1lijoxnzc0otmymjgzfq",
+      "3d",
+      "3d",
+      "amp",
+      "ars",
+      "facebook_login",
+      "amp",
+      "next",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "facebook",
+      "com",
+      "2fshare_channel",
+      "2f",
+      "3ftype",
+      "3dreshare",
+      "26link",
+      "3dhttps",
+      "253a",
+      "252f",
+      "252fblog",
+      "google",
+      "252fproducts",
+      "252fmarketingplatform",
+      "252f360",
+      "252f",
+      "26app_id",
+      "3d966242223397117",
+      "26source_surface",
+      "3dexternal_reshare",
+      "26display",
+      "26hashtag"
+    ]
+  },
+  "title": "Facebook"
+}

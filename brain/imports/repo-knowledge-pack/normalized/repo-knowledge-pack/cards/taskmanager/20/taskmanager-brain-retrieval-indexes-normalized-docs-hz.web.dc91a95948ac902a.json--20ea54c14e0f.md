@@ -1,0 +1,78 @@
+---
+schema_version: 1
+pack_id: "repo-knowledge-pack"
+card_type: "file-summary"
+source_path: "taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.dc91a95948ac902a.json"
+source_name: "hz.web.dc91a95948ac902a.json"
+top_level: "taskmanager"
+surface: "brain-retrieval"
+classification: "generated"
+kind: "json"
+language: "json"
+extension: ".json"
+score: 60
+selected_rank: 2989
+content_hash: "0e7784afa5083a83fb0012958b8762d63df151cd4b71493dfea3869623a43ffc"
+generated_at: "2026-04-02T15:23:30.410Z"
+tags:
+  - "brain"
+  - "brain-retrieval"
+  - "generated"
+  - "index"
+  - "json"
+---
+
+# taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.dc91a95948ac902a.json
+
+> JSON data file
+
+## Key Signals
+
+- Source path: taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.dc91a95948ac902a.json
+- Surface: brain-retrieval
+- Classification: generated
+- Kind: json
+- Language: json
+- Top level: taskmanager
+- Score: 60
+- Tags: brain, brain-retrieval, generated, index, json
+
+## Lookup Notes
+
+- Use the card path in lookup.json to jump directly to this summary.
+- Open the source from this card with the repository-relative path.
+- Primary lookup terms: brain, brain-retrieval, generated, index, json, taskmanager
+- Source link target: taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.dc91a95948ac902a.json
+
+## Excerpt
+
+~~~json
+{
+  "aliases": [
+    {
+      "alias": "dc91a95948ac902a",
+      "aliasId": "hz.web.dc91a95948ac902a.alias.1",
+      "canonical": "deed - reconeixement-compartirigual 4.0 internacional - creative commons"
+    },
+    {
+      "alias": "deed - reconeixement-compartirigual 4.0 internacional - creative commons",
+      "aliasId": "hz.web.dc91a95948ac902a.alias.2",
+      "canonical": "deed - reconeixement-compartirigual 4.0 internacional - creative commons"
+    },
+    {
+      "alias": "web dc91a95948ac902a",
+      "aliasId": "hz.web.dc91a95948ac902a.alias.3",
+      "canonical": "deed - reconeixement-compartirigual 4.0 internacional - creative commons"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.91,
+  "docId": "hz.web.dc91a95948ac902a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.dc91a95948ac902a.entity.1",
+      "kind": "document",
+      "name": "Deed - Reconeixement-CompartirIgual 4.0 Internacional - Creative Commons",
+      "tokens": [
+~~~

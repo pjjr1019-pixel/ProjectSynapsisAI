@@ -1,0 +1,323 @@
+{
+  "aliases": [
+    {
+      "alias": "a44b297ff26acbf0",
+      "aliasId": "hz.web.a44b297ff26acbf0.alias.1",
+      "canonical": "united states navy - home"
+    },
+    {
+      "alias": "united states navy - home",
+      "aliasId": "hz.web.a44b297ff26acbf0.alias.2",
+      "canonical": "united states navy - home"
+    },
+    {
+      "alias": "web a44b297ff26acbf0",
+      "aliasId": "hz.web.a44b297ff26acbf0.alias.3",
+      "canonical": "united states navy - home"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.84,
+  "docId": "hz.web.a44b297ff26acbf0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a44b297ff26acbf0.entity.1",
+      "kind": "document",
+      "name": "United States Navy - Home",
+      "tokens": [
+        "united",
+        "states",
+        "navy",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.a44b297ff26acbf0.entity.2",
+      "kind": "heading",
+      "name": "United States Navy - Home",
+      "tokens": [
+        "united",
+        "states",
+        "navy",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.a44b297ff26acbf0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a44b297ff26acbf0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a44b297ff26acbf0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 30,
+      "factId": "hz.web.a44b297ff26acbf0.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.navy.mil/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "navy",
+        "mil"
+      ]
+    },
+    {
+      "charEnd": 279,
+      "charStart": 110,
+      "factId": "hz.web.a44b297ff26acbf0.fact.1",
+      "kind": "bullet",
+      "text": "United States Navy - Home An official website of the United States government Here's how you know Official websites use .mil A .mil website belongs to an official U.S.",
+      "tokens": [
+        "united",
+        "states",
+        "navy",
+        "home",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "mil",
+        "mil",
+        "website",
+        "belongs",
+        "official"
+      ]
+    },
+    {
+      "charEnd": 338,
+      "charStart": 280,
+      "factId": "hz.web.a44b297ff26acbf0.fact.2",
+      "kind": "bullet",
+      "text": "Department of Defense organization in the United States.",
+      "tokens": [
+        "department",
+        "defense",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 445,
+      "charStart": 339,
+      "factId": "hz.web.a44b297ff26acbf0.fact.3",
+      "kind": "bullet",
+      "text": "Secure .mil websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .mil website.",
+      "tokens": [
+        "secure",
+        "mil",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "mil",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 510,
+      "charStart": 446,
+      "factId": "hz.web.a44b297ff26acbf0.fact.4",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 531,
+      "charStart": 525,
+      "factId": "hz.web.a44b297ff26acbf0.fact.5",
+      "kind": "bullet",
+      "text": "navy",
+      "tokens": [
+        "navy"
+      ]
+    },
+    {
+      "charEnd": 539,
+      "charStart": 532,
+      "factId": "hz.web.a44b297ff26acbf0.fact.6",
+      "kind": "bullet",
+      "text": "chief",
+      "tokens": [
+        "chief"
+      ]
+    },
+    {
+      "charEnd": 547,
+      "charStart": 540,
+      "factId": "hz.web.a44b297ff26acbf0.fact.7",
+      "kind": "bullet",
+      "text": "press",
+      "tokens": [
+        "press"
+      ]
+    },
+    {
+      "charEnd": 555,
+      "charStart": 548,
+      "factId": "hz.web.a44b297ff26acbf0.fact.8",
+      "kind": "bullet",
+      "text": "naval",
+      "tokens": [
+        "naval"
+      ]
+    },
+    {
+      "charEnd": 561,
+      "charStart": 556,
+      "factId": "hz.web.a44b297ff26acbf0.fact.9",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 568,
+      "charStart": 562,
+      "factId": "hz.web.a44b297ff26acbf0.fact.10",
+      "kind": "bullet",
+      "text": "core",
+      "tokens": [
+        "core"
+      ]
+    },
+    {
+      "charEnd": 580,
+      "charStart": 569,
+      "factId": "hz.web.a44b297ff26acbf0.fact.11",
+      "kind": "bullet",
+      "text": "secretary",
+      "tokens": [
+        "secretary"
+      ]
+    },
+    {
+      "charEnd": 588,
+      "charStart": 581,
+      "factId": "hz.web.a44b297ff26acbf0.fact.12",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.a44b297ff26acbf0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "United States Navy - Home"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.a44b297ff26acbf0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 523,
+      "charStart": 512,
+      "headingId": "hz.web.a44b297ff26acbf0.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 600,
+      "charStart": 590,
+      "headingId": "hz.web.a44b297ff26acbf0.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a44b297ff26acbf0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3832,
+        "start": 0
+      }
+    ],
+    "hash": "f40fb070fab2fba3fed854814ded11060893a5111c9d0f787684976ea6141029",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "United States Navy - Home An official website of the United States government Here's how you know Official websites use .mil A .mil website belongs to an official U.S.",
+      "Department of Defense organization in the United States.",
+      "Secure .mil websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .mil website."
+    ],
+    "medium": "Source: http://www.navy.mil/",
+    "short": "Source: http://www.navy.mil/",
+    "tokens": [
+      "united",
+      "states",
+      "navy",
+      "home",
+      "source",
+      "http",
+      "www",
+      "navy",
+      "mil",
+      "source",
+      "http",
+      "www",
+      "navy",
+      "mil"
+    ]
+  },
+  "title": "United States Navy - Home"
+}

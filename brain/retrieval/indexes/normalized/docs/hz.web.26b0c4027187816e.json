@@ -1,0 +1,328 @@
+{
+  "aliases": [
+    {
+      "alias": "26b0c4027187816e",
+      "aliasId": "hz.web.26b0c4027187816e.alias.1",
+      "canonical": "foxsignal"
+    },
+    {
+      "alias": "foxsignal",
+      "aliasId": "hz.web.26b0c4027187816e.alias.2",
+      "canonical": "foxsignal"
+    },
+    {
+      "alias": "web 26b0c4027187816e",
+      "aliasId": "hz.web.26b0c4027187816e.alias.3",
+      "canonical": "foxsignal"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.67,
+  "docId": "hz.web.26b0c4027187816e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.26b0c4027187816e.entity.1",
+      "kind": "document",
+      "name": "FoxSignal",
+      "tokens": [
+        "foxsignal"
+      ]
+    },
+    {
+      "entityId": "hz.web.26b0c4027187816e.entity.2",
+      "kind": "heading",
+      "name": "FoxSignal",
+      "tokens": [
+        "foxsignal"
+      ]
+    },
+    {
+      "entityId": "hz.web.26b0c4027187816e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.26b0c4027187816e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.26b0c4027187816e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 87,
+      "charStart": 14,
+      "factId": "hz.web.26b0c4027187816e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://web.archive.org/web/20250902144100/https://foxsignal.net/",
+      "tokens": [
+        "source",
+        "https",
+        "web",
+        "archive",
+        "org",
+        "web",
+        "20250902144100",
+        "https",
+        "foxsignal",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 398,
+      "charStart": 139,
+      "factId": "hz.web.26b0c4027187816e.fact.1",
+      "kind": "bullet",
+      "text": "FoxSignal 6 captures 02 Sep 2025 - 16 Feb 2026 Aug SEP Oct 02 2024 2025 2026 success fail About this capture COLLECTED BY Collection: Save Page Now TIMESTAMPS The Wayback Machine - https://web.archive.org/web/20250902144100/https://foxsignal.net/ Loading...",
+      "tokens": [
+        "foxsignal",
+        "captures",
+        "02",
+        "sep",
+        "2025",
+        "16",
+        "feb",
+        "2026",
+        "aug",
+        "sep",
+        "oct",
+        "02",
+        "2024",
+        "2025",
+        "2026",
+        "success",
+        "fail",
+        "about",
+        "capture",
+        "collected",
+        "collection",
+        "save",
+        "page",
+        "now",
+        "timestamps",
+        "wayback",
+        "machine",
+        "https",
+        "web",
+        "archive",
+        "org",
+        "web",
+        "20250902144100",
+        "https",
+        "foxsignal",
+        "net",
+        "loading"
+      ]
+    },
+    {
+      "charEnd": 473,
+      "charStart": 399,
+      "factId": "hz.web.26b0c4027187816e.fact.2",
+      "kind": "bullet",
+      "text": "Something went wrong while trying to load the full version of this site.",
+      "tokens": [
+        "something",
+        "went",
+        "wrong",
+        "while",
+        "trying",
+        "load",
+        "full",
+        "version",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 523,
+      "charStart": 474,
+      "factId": "hz.web.26b0c4027187816e.fact.3",
+      "kind": "bullet",
+      "text": "Try hard-refreshing this page to fix the error.",
+      "tokens": [
+        "try",
+        "hard",
+        "refreshing",
+        "page",
+        "fix",
+        "error"
+      ]
+    },
+    {
+      "charEnd": 542,
+      "charStart": 538,
+      "factId": "hz.web.26b0c4027187816e.fact.4",
+      "kind": "bullet",
+      "text": "02",
+      "tokens": [
+        "02"
+      ]
+    },
+    {
+      "charEnd": 549,
+      "charStart": 543,
+      "factId": "hz.web.26b0c4027187816e.fact.5",
+      "kind": "bullet",
+      "text": "2025",
+      "tokens": [
+        "2025"
+      ]
+    },
+    {
+      "charEnd": 556,
+      "charStart": 550,
+      "factId": "hz.web.26b0c4027187816e.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 568,
+      "charStart": 557,
+      "factId": "hz.web.26b0c4027187816e.fact.7",
+      "kind": "bullet",
+      "text": "foxsignal",
+      "tokens": [
+        "foxsignal"
+      ]
+    },
+    {
+      "charEnd": 576,
+      "charStart": 569,
+      "factId": "hz.web.26b0c4027187816e.fact.8",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 583,
+      "charStart": 577,
+      "factId": "hz.web.26b0c4027187816e.fact.9",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 589,
+      "charStart": 584,
+      "factId": "hz.web.26b0c4027187816e.fact.10",
+      "kind": "bullet",
+      "text": "sep",
+      "tokens": [
+        "sep"
+      ]
+    },
+    {
+      "charEnd": 595,
+      "charStart": 590,
+      "factId": "hz.web.26b0c4027187816e.fact.11",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.26b0c4027187816e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "FoxSignal"
+    },
+    {
+      "charEnd": 137,
+      "charStart": 127,
+      "headingId": "hz.web.26b0c4027187816e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 536,
+      "charStart": 525,
+      "headingId": "hz.web.26b0c4027187816e.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 607,
+      "charStart": 597,
+      "headingId": "hz.web.26b0c4027187816e.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/26b0c4027187816e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1246,
+        "start": 0
+      }
+    ],
+    "hash": "c1ae02bbe101ed9ca704a0446a61e2cd9432bc8cf0255350e81f74ef891591c9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "FoxSignal 6 captures 02 Sep 2025 - 16 Feb 2026 Aug SEP Oct 02 2024 2025 2026 success fail About this capture COLLECTED BY Collection: Save Page Now TIMESTAMPS The Wayback Machine - https://web.archive.org/web/20250902144100/https://foxsignal.net/ Loading...",
+      "Something went wrong while trying to load the full version of this site.",
+      "Try hard-refreshing this page to fix the error."
+    ],
+    "medium": "Source: https://web.archive.org/web/20250902144100/https://foxsignal.net/",
+    "short": "Source: https://web.archive.org/web/20250902144100/https://foxsignal.net/",
+    "tokens": [
+      "foxsignal",
+      "source",
+      "https",
+      "web",
+      "archive",
+      "org",
+      "web",
+      "20250902144100",
+      "https",
+      "foxsignal",
+      "net",
+      "source",
+      "https",
+      "web",
+      "archive",
+      "org",
+      "web",
+      "20250902144100",
+      "https",
+      "foxsignal",
+      "net"
+    ]
+  },
+  "title": "FoxSignal"
+}

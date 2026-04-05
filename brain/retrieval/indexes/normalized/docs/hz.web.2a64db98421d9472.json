@@ -1,0 +1,372 @@
+{
+  "aliases": [
+    {
+      "alias": "2a64db98421d9472",
+      "aliasId": "hz.web.2a64db98421d9472.alias.1",
+      "canonical": "google drive: sign-in"
+    },
+    {
+      "alias": "google drive sign-in",
+      "aliasId": "hz.web.2a64db98421d9472.alias.2",
+      "canonical": "google drive: sign-in"
+    },
+    {
+      "alias": "web 2a64db98421d9472",
+      "aliasId": "hz.web.2a64db98421d9472.alias.3",
+      "canonical": "google drive: sign-in"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.58,
+  "docId": "hz.web.2a64db98421d9472",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2a64db98421d9472.entity.1",
+      "kind": "document",
+      "name": "Google Drive: Sign-in",
+      "tokens": [
+        "google",
+        "drive",
+        "sign"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a64db98421d9472.entity.2",
+      "kind": "heading",
+      "name": "Google Drive: Sign-in",
+      "tokens": [
+        "google",
+        "drive",
+        "sign"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a64db98421d9472.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a64db98421d9472.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a64db98421d9472.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 26,
+      "factId": "hz.web.2a64db98421d9472.fact.1",
+      "kind": "summary",
+      "text": "Source: https://drive.google.com/",
+      "tokens": [
+        "source",
+        "https",
+        "drive",
+        "google",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 199,
+      "charStart": 111,
+      "factId": "hz.web.2a64db98421d9472.fact.1",
+      "kind": "bullet",
+      "text": "Google Drive: Sign-in Sign in to continue to Google Drive Email or phone Forgot email?",
+      "tokens": [
+        "google",
+        "drive",
+        "sign",
+        "sign",
+        "continue",
+        "google",
+        "drive",
+        "email",
+        "phone",
+        "forgot",
+        "email"
+      ]
+    },
+    {
+      "charEnd": 220,
+      "charStart": 200,
+      "factId": "hz.web.2a64db98421d9472.fact.2",
+      "kind": "bullet",
+      "text": "Not your computer?",
+      "tokens": [
+        "not",
+        "your",
+        "computer"
+      ]
+    },
+    {
+      "charEnd": 264,
+      "charStart": 221,
+      "factId": "hz.web.2a64db98421d9472.fact.3",
+      "kind": "bullet",
+      "text": "Use a private browsing window to sign in.",
+      "tokens": [
+        "use",
+        "private",
+        "browsing",
+        "window",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1110,
+      "charStart": 265,
+      "factId": "hz.web.2a64db98421d9472.fact.4",
+      "kind": "bullet",
+      "text": "Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqip Slovenčina slovenščina srpski (latinica) Suomi Svenska Tiếng Việt Türkçe Ελληνικά беларуская български кыргызча қазақ тілі македонски монгол Русский српски (ћирилица) Українська ქართული հայերեն ‫עברית‬‎ ‫اردو‬‎ ‫العربية‬‎ ‫فارسی‬‎ አማርኛ नेपाली मराठी हिन्दी অসমীয়া বাংলা ਪੰਜਾਬੀ ગુજરાતી ଓଡ଼ିଆ தமிழ் తెలుగు ಕನ್ನಡ മലയാളം සිංහල ไทย ລາວ မြန်မာ ខ្មែរ 한국어 中文（香港） 日本語 简体中文 繁體中文 Help Privacy Terms",
+      "tokens": [
+        "learn",
+        "more",
+        "about",
+        "using",
+        "guest",
+        "mode",
+        "next",
+        "create",
+        "account",
+        "afrikaans",
+        "az",
+        "rbaycan",
+        "bosanski",
+        "catal",
+        "tina",
+        "cymraeg",
+        "dansk",
+        "deutsch",
+        "eesti",
+        "english",
+        "united",
+        "kingdom",
+        "english",
+        "united",
+        "states",
+        "espa",
+        "ol",
+        "espa",
+        "espa",
+        "ol",
+        "latinoam",
+        "rica",
+        "euskara",
+        "filipino",
+        "fran",
+        "ais",
+        "canada",
+        "fran",
+        "ais",
+        "france",
+        "gaeilge",
+        "galego",
+        "hrvatski",
+        "indonesia",
+        "isizulu",
+        "slenska",
+        "italiano",
+        "kiswahili",
+        "latvie",
+        "lietuvi",
+        "magyar",
+        "melayu",
+        "nederlands",
+        "norsk",
+        "zbek",
+        "polski",
+        "portugu",
+        "brasil",
+        "portugu",
+        "portugal",
+        "rom",
+        "shqip",
+        "sloven",
+        "ina",
+        "sloven",
+        "ina",
+        "srpski",
+        "latinica",
+        "suomi",
+        "svenska",
+        "ti",
+        "ng",
+        "vi",
+        "rk",
+        "help",
+        "privacy",
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 1131,
+      "charStart": 1125,
+      "factId": "hz.web.2a64db98421d9472.fact.5",
+      "kind": "bullet",
+      "text": "espa",
+      "tokens": [
+        "espa"
+      ]
+    },
+    {
+      "charEnd": 1138,
+      "charStart": 1132,
+      "factId": "hz.web.2a64db98421d9472.fact.6",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1144,
+      "charStart": 1139,
+      "factId": "hz.web.2a64db98421d9472.fact.7",
+      "kind": "bullet",
+      "text": "ais",
+      "tokens": [
+        "ais"
+      ]
+    },
+    {
+      "charEnd": 1152,
+      "charStart": 1145,
+      "factId": "hz.web.2a64db98421d9472.fact.8",
+      "kind": "bullet",
+      "text": "drive",
+      "tokens": [
+        "drive"
+      ]
+    },
+    {
+      "charEnd": 1160,
+      "charStart": 1153,
+      "factId": "hz.web.2a64db98421d9472.fact.9",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 1170,
+      "charStart": 1161,
+      "factId": "hz.web.2a64db98421d9472.fact.10",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    },
+    {
+      "charEnd": 1177,
+      "charStart": 1171,
+      "factId": "hz.web.2a64db98421d9472.fact.11",
+      "kind": "bullet",
+      "text": "fran",
+      "tokens": [
+        "fran"
+      ]
+    },
+    {
+      "charEnd": 1186,
+      "charStart": 1178,
+      "factId": "hz.web.2a64db98421d9472.fact.12",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.2a64db98421d9472.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Google Drive: Sign-in"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.2a64db98421d9472.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1123,
+      "charStart": 1112,
+      "headingId": "hz.web.2a64db98421d9472.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1198,
+      "charStart": 1188,
+      "headingId": "hz.web.2a64db98421d9472.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2a64db98421d9472.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2422,
+        "start": 0
+      }
+    ],
+    "hash": "83a14805671fe52f5a1e9d0d9a87de7e696f33dbd3cdf8b35c36ca0e6041a309",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Google Drive: Sign-in Sign in to continue to Google Drive Email or phone Forgot email?",
+      "Not your computer?",
+      "Use a private browsing window to sign in."
+    ],
+    "medium": "Source: https://drive.google.com/",
+    "short": "Source: https://drive.google.com/",
+    "tokens": [
+      "google",
+      "drive",
+      "sign",
+      "source",
+      "https",
+      "drive",
+      "google",
+      "com",
+      "source",
+      "https",
+      "drive",
+      "google",
+      "com"
+    ]
+  },
+  "title": "Google Drive: Sign-in"
+}

@@ -1,0 +1,313 @@
+{
+  "aliases": [
+    {
+      "alias": "84a69984ca87fffa",
+      "aliasId": "hz.web.84a69984ca87fffa.alias.1",
+      "canonical": "micro.blog"
+    },
+    {
+      "alias": "micro.blog",
+      "aliasId": "hz.web.84a69984ca87fffa.alias.2",
+      "canonical": "micro.blog"
+    },
+    {
+      "alias": "web 84a69984ca87fffa",
+      "aliasId": "hz.web.84a69984ca87fffa.alias.3",
+      "canonical": "micro.blog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.58,
+  "docId": "hz.web.84a69984ca87fffa",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.84a69984ca87fffa.entity.1",
+      "kind": "document",
+      "name": "Micro.blog",
+      "tokens": [
+        "micro",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.84a69984ca87fffa.entity.2",
+      "kind": "heading",
+      "name": "Micro.blog",
+      "tokens": [
+        "micro",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.84a69984ca87fffa.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.84a69984ca87fffa.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.84a69984ca87fffa.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 42,
+      "charStart": 15,
+      "factId": "hz.web.84a69984ca87fffa.fact.1",
+      "kind": "summary",
+      "text": "Source: https://micro.blog/",
+      "tokens": [
+        "source",
+        "https",
+        "micro",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 348,
+      "charStart": 94,
+      "factId": "hz.web.84a69984ca87fffa.fact.1",
+      "kind": "bullet",
+      "text": "Micro.blog Blogging Fediverse Atmosphere Cross-posting Pricing Sign in Sign up → Easy blogging at your own domain name for short posts, full essays, photo blogs, and email newsletters, with a great community , cross-posting to other networks, and more.",
+      "tokens": [
+        "micro",
+        "blog",
+        "blogging",
+        "fediverse",
+        "atmosphere",
+        "cross",
+        "posting",
+        "pricing",
+        "sign",
+        "sign",
+        "up",
+        "easy",
+        "blogging",
+        "your",
+        "own",
+        "domain",
+        "name",
+        "short",
+        "posts",
+        "full",
+        "essays",
+        "photo",
+        "blogs",
+        "email",
+        "newsletters",
+        "great",
+        "community",
+        "cross",
+        "posting",
+        "other",
+        "networks",
+        "more"
+      ]
+    },
+    {
+      "charEnd": 362,
+      "charStart": 349,
+      "factId": "hz.web.84a69984ca87fffa.fact.2",
+      "kind": "bullet",
+      "text": "Small name.",
+      "tokens": [
+        "small",
+        "name"
+      ]
+    },
+    {
+      "charEnd": 389,
+      "charStart": 363,
+      "factId": "hz.web.84a69984ca87fffa.fact.3",
+      "kind": "bullet",
+      "text": "Huge number of features.",
+      "tokens": [
+        "huge",
+        "number",
+        "features"
+      ]
+    },
+    {
+      "charEnd": 451,
+      "charStart": 390,
+      "factId": "hz.web.84a69984ca87fffa.fact.4",
+      "kind": "bullet",
+      "text": "Micro.blog is an expansive platform with a streamlined UI .",
+      "tokens": [
+        "micro",
+        "blog",
+        "expansive",
+        "platform",
+        "streamlined",
+        "ui"
+      ]
+    },
+    {
+      "charEnd": 472,
+      "charStart": 466,
+      "factId": "hz.web.84a69984ca87fffa.fact.5",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 480,
+      "charStart": 473,
+      "factId": "hz.web.84a69984ca87fffa.fact.6",
+      "kind": "bullet",
+      "text": "micro",
+      "tokens": [
+        "micro"
+      ]
+    },
+    {
+      "charEnd": 491,
+      "charStart": 481,
+      "factId": "hz.web.84a69984ca87fffa.fact.7",
+      "kind": "bullet",
+      "text": "blogging",
+      "tokens": [
+        "blogging"
+      ]
+    },
+    {
+      "charEnd": 499,
+      "charStart": 492,
+      "factId": "hz.web.84a69984ca87fffa.fact.8",
+      "kind": "bullet",
+      "text": "cross",
+      "tokens": [
+        "cross"
+      ]
+    },
+    {
+      "charEnd": 507,
+      "charStart": 500,
+      "factId": "hz.web.84a69984ca87fffa.fact.9",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 518,
+      "charStart": 508,
+      "factId": "hz.web.84a69984ca87fffa.fact.10",
+      "kind": "bullet",
+      "text": "features",
+      "tokens": [
+        "features"
+      ]
+    },
+    {
+      "charEnd": 525,
+      "charStart": 519,
+      "factId": "hz.web.84a69984ca87fffa.fact.11",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    },
+    {
+      "charEnd": 532,
+      "charStart": 526,
+      "factId": "hz.web.84a69984ca87fffa.fact.12",
+      "kind": "bullet",
+      "text": "name",
+      "tokens": [
+        "name"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.84a69984ca87fffa.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Micro.blog"
+    },
+    {
+      "charEnd": 92,
+      "charStart": 82,
+      "headingId": "hz.web.84a69984ca87fffa.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 464,
+      "charStart": 453,
+      "headingId": "hz.web.84a69984ca87fffa.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 544,
+      "charStart": 534,
+      "headingId": "hz.web.84a69984ca87fffa.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/84a69984ca87fffa.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1337,
+        "start": 0
+      }
+    ],
+    "hash": "06af5c92045262707844e6a8873d24aaaabb26a9564e9b0529f9f6889ff295d2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Micro.blog Blogging Fediverse Atmosphere Cross-posting Pricing Sign in Sign up → Easy blogging at your own domain name for short posts, full essays, photo blogs, and email newsletters, with a great community , cross-posting to other networks, and more.",
+      "Small name.",
+      "Huge number of features."
+    ],
+    "medium": "Source: https://micro.blog/",
+    "short": "Source: https://micro.blog/",
+    "tokens": [
+      "micro",
+      "blog",
+      "source",
+      "https",
+      "micro",
+      "blog",
+      "source",
+      "https",
+      "micro",
+      "blog"
+    ]
+  },
+  "title": "Micro.blog"
+}

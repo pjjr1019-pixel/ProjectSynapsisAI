@@ -1,0 +1,514 @@
+{
+  "aliases": [
+    {
+      "alias": "1ee67b2a79f6e10d",
+      "aliasId": "hz.web.1ee67b2a79f6e10d.alias.1",
+      "canonical": "axios compromised on npm - malicious versions drop remote access trojan - stepsecurity"
+    },
+    {
+      "alias": "axios compromised on npm - malicious versions drop remote access trojan - stepsecurity",
+      "aliasId": "hz.web.1ee67b2a79f6e10d.alias.2",
+      "canonical": "axios compromised on npm - malicious versions drop remote access trojan - stepsecurity"
+    },
+    {
+      "alias": "web 1ee67b2a79f6e10d",
+      "aliasId": "hz.web.1ee67b2a79f6e10d.alias.3",
+      "canonical": "axios compromised on npm - malicious versions drop remote access trojan - stepsecurity"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.1ee67b2a79f6e10d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1ee67b2a79f6e10d.entity.1",
+      "kind": "document",
+      "name": "axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity",
+      "tokens": [
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "stepsecurity"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ee67b2a79f6e10d.entity.2",
+      "kind": "heading",
+      "name": "axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity",
+      "tokens": [
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "stepsecurity"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ee67b2a79f6e10d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ee67b2a79f6e10d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ee67b2a79f6e10d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 201,
+      "charStart": 91,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "blog",
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan"
+      ]
+    },
+    {
+      "charEnd": 989,
+      "charStart": 253,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.1",
+      "kind": "bullet",
+      "text": "axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity Skip to main content Solutions GitHub Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Request a Demo Login Solutions Github Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Start Free Login Back to Blog News axios Compromised on npm - Malicious Versions Drop Remote Access Trojan Hijacked maintainer account used to publish poisoned axios releases including 1.14.1 and 0.30.4.",
+      "tokens": [
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "stepsecurity",
+        "skip",
+        "main",
+        "content",
+        "solutions",
+        "github",
+        "actions",
+        "dev",
+        "machine",
+        "guard",
+        "npm",
+        "security",
+        "customers",
+        "pricing",
+        "resources",
+        "blog",
+        "documentation",
+        "product",
+        "tour",
+        "github",
+        "actions",
+        "advisor",
+        "github",
+        "actions",
+        "audit",
+        "roi",
+        "calculator",
+        "company",
+        "about",
+        "us",
+        "newsroom",
+        "request",
+        "demo",
+        "login",
+        "solutions",
+        "github",
+        "actions",
+        "dev",
+        "machine",
+        "guard",
+        "npm",
+        "security",
+        "customers",
+        "pricing",
+        "resources",
+        "blog",
+        "documentation",
+        "product",
+        "tour",
+        "github",
+        "actions",
+        "advisor",
+        "github",
+        "actions",
+        "audit",
+        "roi",
+        "calculator",
+        "company",
+        "about",
+        "us",
+        "newsroom",
+        "start",
+        "free",
+        "login",
+        "back",
+        "blog",
+        "news",
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "hijacked",
+        "maintainer",
+        "account",
+        "used",
+        "publish",
+        "poisoned",
+        "axios",
+        "releases",
+        "including",
+        "14",
+        "30"
+      ]
+    },
+    {
+      "charEnd": 1066,
+      "charStart": 990,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.2",
+      "kind": "bullet",
+      "text": "The attacker injected a hidden dependency that drops a cross platform RAT.",
+      "tokens": [
+        "attacker",
+        "injected",
+        "hidden",
+        "dependency",
+        "drops",
+        "cross",
+        "platform",
+        "rat"
+      ]
+    },
+    {
+      "charEnd": 1156,
+      "charStart": 1067,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.3",
+      "kind": "bullet",
+      "text": "We are actively investigating and will update this post with a full technical analysis.",
+      "tokens": [
+        "actively",
+        "investigating",
+        "will",
+        "update",
+        "post",
+        "full",
+        "technical",
+        "analysis"
+      ]
+    },
+    {
+      "charEnd": 1311,
+      "charStart": 1157,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.4",
+      "kind": "bullet",
+      "text": "Ashish Kurmi View LinkedIn March 30, 2026 Share on X Share on X Share on LinkedIn Share on Facebook Follow our RSS feed Table of Contents Loading nav...",
+      "tokens": [
+        "ashish",
+        "kurmi",
+        "view",
+        "linkedin",
+        "march",
+        "30",
+        "2026",
+        "share",
+        "share",
+        "share",
+        "linkedin",
+        "share",
+        "facebook",
+        "follow",
+        "our",
+        "rss",
+        "feed",
+        "table",
+        "contents",
+        "loading",
+        "nav"
+      ]
+    },
+    {
+      "charEnd": 1331,
+      "charStart": 1326,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.5",
+      "kind": "bullet",
+      "text": "npm",
+      "tokens": [
+        "npm"
+      ]
+    },
+    {
+      "charEnd": 1339,
+      "charStart": 1332,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.6",
+      "kind": "bullet",
+      "text": "axios",
+      "tokens": [
+        "axios"
+      ]
+    },
+    {
+      "charEnd": 1344,
+      "charStart": 1340,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.7",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1354,
+      "charStart": 1345,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.8",
+      "kind": "bullet",
+      "text": "package",
+      "tokens": [
+        "package"
+      ]
+    },
+    {
+      "charEnd": 1363,
+      "charStart": 1355,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.9",
+      "kind": "bullet",
+      "text": "crypto",
+      "tokens": [
+        "crypto"
+      ]
+    },
+    {
+      "charEnd": 1368,
+      "charStart": 1364,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.10",
+      "kind": "bullet",
+      "text": "14",
+      "tokens": [
+        "14"
+      ]
+    },
+    {
+      "charEnd": 1376,
+      "charStart": 1369,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.11",
+      "kind": "bullet",
+      "text": "plain",
+      "tokens": [
+        "plain"
+      ]
+    },
+    {
+      "charEnd": 1381,
+      "charStart": 1377,
+      "factId": "hz.web.1ee67b2a79f6e10d.fact.12",
+      "kind": "bullet",
+      "text": "30",
+      "tokens": [
+        "30"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 89,
+      "charStart": 1,
+      "headingId": "hz.web.1ee67b2a79f6e10d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity"
+    },
+    {
+      "charEnd": 251,
+      "charStart": 241,
+      "headingId": "hz.web.1ee67b2a79f6e10d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1324,
+      "charStart": 1313,
+      "headingId": "hz.web.1ee67b2a79f6e10d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1393,
+      "charStart": 1383,
+      "headingId": "hz.web.1ee67b2a79f6e10d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1ee67b2a79f6e10d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4768,
+        "start": 0
+      }
+    ],
+    "hash": "68d75cc3088b770ac54b1c8b9cfe6298edb57e9d5c972ebfeda11d2ef95f6b62",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.1ee67b2a79f6e10d.rule.1",
+      "text": "The malicious versions inject a new dependency, plain-crypto-js@4.2.1 , which is never imported anywhere in the axios source code.",
+      "tokens": [
+        "malicious",
+        "versions",
+        "inject",
+        "new",
+        "dependency",
+        "plain",
+        "crypto",
+        "js",
+        "never",
+        "imported",
+        "anywhere",
+        "axios",
+        "source",
+        "code"
+      ]
+    },
+    {
+      "ruleId": "hz.web.1ee67b2a79f6e10d.rule.2",
+      "text": "Instead, both inject a fake dependency, plain-crypto-js@4.2.1, a package that is never imported anywhere in the axios source, whose only purpose is to run a postinstall script that deploys a cross-platform remote access trojan (RAT).",
+      "tokens": [
+        "instead",
+        "both",
+        "inject",
+        "fake",
+        "dependency",
+        "plain",
+        "crypto",
+        "js",
+        "package",
+        "never",
+        "imported",
+        "anywhere",
+        "axios",
+        "source",
+        "whose",
+        "only",
+        "purpose",
+        "run",
+        "postinstall",
+        "script",
+        "deploys",
+        "cross",
+        "platform",
+        "remote",
+        "access",
+        "trojan",
+        "rat"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity Skip to main content Solutions GitHub Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Request a Demo Login Solutions Github Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Start Free Login Back to Blog News axios Compromised on npm - Malicious Versions Drop Remote Access Trojan Hijacked maintainer account used to publish poisoned axios releases including 1.14.1 and 0.30.4.",
+      "The attacker injected a hidden dependency that drops a cross platform RAT.",
+      "We are actively investigating and will update this post with a full technical analysis."
+    ],
+    "medium": "Source: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+    "short": "Source: https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+    "tokens": [
+      "axios",
+      "compromised",
+      "npm",
+      "malicious",
+      "versions",
+      "drop",
+      "remote",
+      "access",
+      "trojan",
+      "stepsecurity",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "blog",
+      "axios",
+      "compromised",
+      "npm",
+      "malicious",
+      "versions",
+      "drop",
+      "remote",
+      "access",
+      "trojan",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "blog",
+      "axios",
+      "compromised",
+      "npm",
+      "malicious",
+      "versions",
+      "drop",
+      "remote",
+      "access",
+      "trojan"
+    ]
+  },
+  "title": "axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity"
+}

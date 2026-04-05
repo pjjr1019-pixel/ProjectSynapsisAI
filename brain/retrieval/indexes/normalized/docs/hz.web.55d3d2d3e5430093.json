@@ -1,0 +1,414 @@
+{
+  "aliases": [
+    {
+      "alias": "55d3d2d3e5430093",
+      "aliasId": "hz.web.55d3d2d3e5430093.alias.1",
+      "canonical": "linkedin zimbabwe: log in or sign up"
+    },
+    {
+      "alias": "linkedin zimbabwe log in or sign up",
+      "aliasId": "hz.web.55d3d2d3e5430093.alias.2",
+      "canonical": "linkedin zimbabwe: log in or sign up"
+    },
+    {
+      "alias": "web 55d3d2d3e5430093",
+      "aliasId": "hz.web.55d3d2d3e5430093.alias.3",
+      "canonical": "linkedin zimbabwe: log in or sign up"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.87,
+  "docId": "hz.web.55d3d2d3e5430093",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.55d3d2d3e5430093.entity.1",
+      "kind": "document",
+      "name": "LinkedIn Zimbabwe: Log In or Sign Up",
+      "tokens": [
+        "linkedin",
+        "zimbabwe",
+        "log",
+        "sign",
+        "up"
+      ]
+    },
+    {
+      "entityId": "hz.web.55d3d2d3e5430093.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn Zimbabwe: Log In or Sign Up",
+      "tokens": [
+        "linkedin",
+        "zimbabwe",
+        "log",
+        "sign",
+        "up"
+      ]
+    },
+    {
+      "entityId": "hz.web.55d3d2d3e5430093.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.55d3d2d3e5430093.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.55d3d2d3e5430093.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 41,
+      "factId": "hz.web.55d3d2d3e5430093.fact.1",
+      "kind": "summary",
+      "text": "Source: https://zw.linkedin.com/",
+      "tokens": [
+        "source",
+        "https",
+        "zw",
+        "linkedin",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 325,
+      "charStart": 125,
+      "factId": "hz.web.55d3d2d3e5430093.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn Zimbabwe: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "tokens": [
+        "linkedin",
+        "zimbabwe",
+        "log",
+        "sign",
+        "up",
+        "skip",
+        "main",
+        "content",
+        "agree",
+        "join",
+        "linkedin",
+        "clicking",
+        "continue",
+        "join",
+        "sign",
+        "agree",
+        "linkedin",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 565,
+      "charStart": 326,
+      "factId": "hz.web.55d3d2d3e5430093.fact.2",
+      "kind": "bullet",
+      "text": "LinkedIn Top Content People Learning Jobs Games Sign in Join now Explore jobs and grow your network Sign in with email By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "tokens": [
+        "linkedin",
+        "top",
+        "content",
+        "people",
+        "learning",
+        "jobs",
+        "games",
+        "sign",
+        "join",
+        "now",
+        "explore",
+        "jobs",
+        "grow",
+        "your",
+        "network",
+        "sign",
+        "email",
+        "clicking",
+        "continue",
+        "join",
+        "sign",
+        "agree",
+        "linkedin",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 584,
+      "charStart": 566,
+      "factId": "hz.web.55d3d2d3e5430093.fact.3",
+      "kind": "bullet",
+      "text": "New to LinkedIn?",
+      "tokens": [
+        "new",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 1297,
+      "charStart": 585,
+      "factId": "hz.web.55d3d2d3e5430093.fact.4",
+      "kind": "bullet",
+      "text": "Join now Find the right job or internship for you Engineering Business Development Finance Administrative Assistant Retail Associate Customer Service Operations Information Technology Marketing Human Resources Healthcare Service Sales Program and Project Management Accounting Arts and Design Community and Social Services Consulting Education Entrepreneurship Legal Media and Communications Military and Protective Services Product Management Purchasing Quality Assurance Real Estate Research Support Administrative Show more Show less Post your job for millions of people to see Post a job Discover the best software tools Connect with buyers who have first-hand experience to find the best products for you.",
+      "tokens": [
+        "join",
+        "now",
+        "find",
+        "right",
+        "job",
+        "internship",
+        "engineering",
+        "business",
+        "development",
+        "finance",
+        "administrative",
+        "assistant",
+        "retail",
+        "associate",
+        "customer",
+        "service",
+        "operations",
+        "information",
+        "technology",
+        "marketing",
+        "human",
+        "resources",
+        "healthcare",
+        "service",
+        "sales",
+        "program",
+        "project",
+        "management",
+        "accounting",
+        "arts",
+        "design",
+        "community",
+        "social",
+        "services",
+        "consulting",
+        "education",
+        "entrepreneurship",
+        "legal",
+        "media",
+        "communications",
+        "military",
+        "protective",
+        "services",
+        "product",
+        "management",
+        "purchasing",
+        "quality",
+        "assurance",
+        "real",
+        "estate",
+        "research",
+        "support",
+        "administrative",
+        "show",
+        "more",
+        "show",
+        "less",
+        "post",
+        "your",
+        "job",
+        "millions",
+        "people",
+        "see",
+        "post",
+        "job",
+        "discover",
+        "best",
+        "software",
+        "tools",
+        "connect",
+        "buyers",
+        "have",
+        "first",
+        "hand",
+        "experience",
+        "find",
+        "best",
+        "products"
+      ]
+    },
+    {
+      "charEnd": 1321,
+      "charStart": 1312,
+      "factId": "hz.web.55d3d2d3e5430093.fact.5",
+      "kind": "bullet",
+      "text": "courses",
+      "tokens": [
+        "courses"
+      ]
+    },
+    {
+      "charEnd": 1330,
+      "charStart": 1322,
+      "factId": "hz.web.55d3d2d3e5430093.fact.6",
+      "kind": "bullet",
+      "text": "course",
+      "tokens": [
+        "course"
+      ]
+    },
+    {
+      "charEnd": 1341,
+      "charStart": 1331,
+      "factId": "hz.web.55d3d2d3e5430093.fact.7",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 1352,
+      "charStart": 1342,
+      "factId": "hz.web.55d3d2d3e5430093.fact.8",
+      "kind": "bullet",
+      "text": "software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1359,
+      "charStart": 1353,
+      "factId": "hz.web.55d3d2d3e5430093.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1368,
+      "charStart": 1360,
+      "factId": "hz.web.55d3d2d3e5430093.fact.10",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 1381,
+      "charStart": 1369,
+      "factId": "hz.web.55d3d2d3e5430093.fact.11",
+      "kind": "bullet",
+      "text": "management",
+      "tokens": [
+        "management"
+      ]
+    },
+    {
+      "charEnd": 1390,
+      "charStart": 1382,
+      "factId": "hz.web.55d3d2d3e5430093.fact.12",
+      "kind": "bullet",
+      "text": "people",
+      "tokens": [
+        "people"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 39,
+      "charStart": 1,
+      "headingId": "hz.web.55d3d2d3e5430093.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn Zimbabwe: Log In or Sign Up"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.55d3d2d3e5430093.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1310,
+      "charStart": 1299,
+      "headingId": "hz.web.55d3d2d3e5430093.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1402,
+      "charStart": 1392,
+      "headingId": "hz.web.55d3d2d3e5430093.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/55d3d2d3e5430093.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4649,
+        "start": 0
+      }
+    ],
+    "hash": "cdc9edc39b39ae06e1c80bdf6e73bc374759a1403f6b74f5d318cd542bfcdf53",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn Zimbabwe: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "LinkedIn Top Content People Learning Jobs Games Sign in Join now Explore jobs and grow your network Sign in with email By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "New to LinkedIn?"
+    ],
+    "medium": "Source: https://zw.linkedin.com/",
+    "short": "Source: https://zw.linkedin.com/",
+    "tokens": [
+      "linkedin",
+      "zimbabwe",
+      "log",
+      "sign",
+      "up",
+      "source",
+      "https",
+      "zw",
+      "linkedin",
+      "com",
+      "source",
+      "https",
+      "zw",
+      "linkedin",
+      "com"
+    ]
+  },
+  "title": "LinkedIn Zimbabwe: Log In or Sign Up"
+}

@@ -1,0 +1,128 @@
+{
+  "artifactType": "context-pack",
+  "budget": 220,
+  "buildVersion": "brain-ir-runtime-v1",
+  "builtAt": "2026-03-29T23:55:04.398Z",
+  "items": [
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.assistant.sample-topic.2026-03-27",
+        "pathRefs": [
+          "apps/assistant/canonical/sample-topic.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 1.1500000000000001,
+      "text": "This document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.",
+      "title": "hz.assistant.sample-topic.2026-03-27",
+      "tokens": 26
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.auto.apps.assistant.draft.readme.src-md",
+        "pathRefs": [
+          "apps/assistant/draft/README.md"
+        ],
+        "sourceType": "draft"
+      },
+      "score": 0.7666666666666667,
+      "text": "Work-in-progress knowledge. **Not** loaded for production retrieval unless `allowDraft` is enabled. Promote to `../canonical/` per `brain/_meta/expansion-rules.md`.",
+      "title": "hz.auto.apps.assistant.draft.readme.src-md",
+      "tokens": 22
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.launcher.launcher-overview.2026-03-27",
+        "pathRefs": [
+          "launcher/canonical/launcher-overview.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7666666666666667,
+      "text": "`brain/launcher/canonical/`",
+      "title": "hz.launcher.launcher-overview.2026-03-27",
+      "tokens": 2
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.prompt.assistant.system-baseline.v1",
+        "pathRefs": [
+          "prompts/library/assistant-system-baseline.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7666666666666667,
+      "text": "You are Horizons AI assistant. Follow `brain/core/safety-defaults.md` and `brain/core/retrieval-contract.md`. When using retrieved knowledge, prefer canonical docs and cite uncertainty when confidence is low.",
+      "title": "hz.prompt.assistant.system-baseline.v1",
+      "tokens": 32
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.auto.apps.financial.canonical.readme.src-md",
+        "pathRefs": [
+          "apps/financial/canonical/README.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7166666666666667,
+      "text": "Approved financial-domain knowledge (terminology, workflows, compliance **hints** — not legal advice). Use schema from `brain/SCHEMAS/knowledge-document.schema.json`.",
+      "title": "hz.auto.apps.financial.canonical.readme.src-md",
+      "tokens": 21
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.auto.apps.intel.canonical.readme.src-md",
+        "pathRefs": [
+          "apps/intel/canonical/README.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7166666666666667,
+      "text": "Approved research and intelligence-domain knowledge: OSINT hygiene, source triage, and analysis workflows (no illegal collection).",
+      "title": "hz.auto.apps.intel.canonical.readme.src-md",
+      "tokens": 21
+    },
+    {
+      "kind": "chunk",
+      "provenance": {
+        "chunkIds": [
+          "hz.chunk.hz.assistant.sample-topic.2026-03-27.0"
+        ],
+        "docId": "",
+        "pathRefs": [],
+        "sourceType": "canonical"
+      },
+      "score": 0.9621838652570415,
+      "text": "--- id: hz.assistant.sample-topic.2026-03-27 title: \"Sample canonical knowledge topic\" domain: assistant app: assistant kind: fact status: canonical confidence: 0.85 provenance: sourceType: internal sourceId: brain/README.md ingestedAt: \"2026-03-27T12:00:00Z\" verifiedBy: platform-seed tags: - sample - onboarding visibility: app reviewedAt: \"2026-03-27T12:00:00Z\" ---",
+      "title": "hz.chunk.hz.assistant.sample-topic.2026-03-27.0",
+      "tokens": 50
+    }
+  ],
+  "packId": "ctx.352035f74d41a196",
+  "profileId": "assistant-default",
+  "query": {
+    "expandedTerms": [
+      "canonical",
+      "chunking",
+      "knowledge"
+    ],
+    "normalized": "chunking canonical knowledge",
+    "raw": "chunking canonical knowledge"
+  },
+  "schemaVersion": "1.0",
+  "summaryFirst": true,
+  "text": "[fact] hz.assistant.sample-topic.2026-03-27\nThis document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.\n\n---\n\n[fact] hz.auto.apps.assistant.draft.readme.src-md\nWork-in-progress knowledge. **Not** loaded for production retrieval unless `allowDraft` is enabled. Promote to `../canonical/` per `brain/_meta/expansion-rules.md`.\n\n---\n\n[fact] hz.launcher.launcher-overview.2026-03-27\n`brain/launcher/canonical/`\n\n---\n\n[fact] hz.prompt.assistant.system-baseline.v1\nYou are Horizons AI assistant. Follow `brain/core/safety-defaults.md` and `brain/core/retrieval-contract.md`. When using retrieved knowledge, prefer canonical docs and cite uncertainty when confidence is low.\n\n---\n\n[fact] hz.auto.apps.financial.canonical.readme.src-md\nApproved financial-domain knowledge (terminology, workflows, compliance **hints** — not legal advice). Use schema from `brain/SCHEMAS/knowledge-document.schema.json`.\n\n---\n\n[fact] hz.auto.apps.intel.canonical.readme.src-md\nApproved research and intelligence-domain knowledge: OSINT hygiene, source triage, and analysis workflows (no illegal collection).\n\n---\n\n[chunk] hz.chunk.hz.assistant.sample-topic.2026-03-27.0\n--- id: hz.assistant.sample-topic.2026-03-27 title: \"Sample canonical knowledge topic\" domain: assistant app: assistant kind: fact status: canonical confidence: 0.85 provenance: sourceType: internal sourceId: brain/README.md ingestedAt: \"2026-03-27T12:00:00Z\" verifiedBy: platform-seed tags: - sample - onboarding visibility: app reviewedAt: \"2026-03-27T12:00:00Z\" ---",
+  "usedTokens": 174
+}

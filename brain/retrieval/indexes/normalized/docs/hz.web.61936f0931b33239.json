@@ -1,0 +1,298 @@
+{
+  "aliases": [
+    {
+      "alias": "61936f0931b33239",
+      "aliasId": "hz.web.61936f0931b33239.alias.1",
+      "canonical": "www.twitch.tv"
+    },
+    {
+      "alias": "web 61936f0931b33239",
+      "aliasId": "hz.web.61936f0931b33239.alias.2",
+      "canonical": "www.twitch.tv"
+    },
+    {
+      "alias": "www.twitch.tv",
+      "aliasId": "hz.web.61936f0931b33239.alias.3",
+      "canonical": "www.twitch.tv"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.61936f0931b33239",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.61936f0931b33239.entity.1",
+      "kind": "document",
+      "name": "www.twitch.tv",
+      "tokens": [
+        "www",
+        "twitch",
+        "tv"
+      ]
+    },
+    {
+      "entityId": "hz.web.61936f0931b33239.entity.2",
+      "kind": "heading",
+      "name": "www.twitch.tv",
+      "tokens": [
+        "www",
+        "twitch",
+        "tv"
+      ]
+    },
+    {
+      "entityId": "hz.web.61936f0931b33239.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.61936f0931b33239.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.61936f0931b33239.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 18,
+      "factId": "hz.web.61936f0931b33239.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.twitch.tv/opensearch.xml",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "twitch",
+        "tv",
+        "opensearch",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 498,
+      "charStart": 114,
+      "factId": "hz.web.61936f0931b33239.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Twitch</ShortName> <Description>Search Twitch</Description> <Url type=\"text/html\" template=\"https://www.twitch.tv/search?term={searchTerms}\" /> <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"https://www.twitch.tv/opensearch.xml\" /> </OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "shortname",
+        "twitch",
+        "shortname",
+        "description",
+        "search",
+        "twitch",
+        "description",
+        "url",
+        "type",
+        "text",
+        "html",
+        "template",
+        "https",
+        "www",
+        "twitch",
+        "tv",
+        "search",
+        "term",
+        "searchterms",
+        "url",
+        "type",
+        "application",
+        "opensearchdescription",
+        "xml",
+        "rel",
+        "self",
+        "template",
+        "https",
+        "www",
+        "twitch",
+        "tv",
+        "opensearch",
+        "xml",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 521,
+      "charStart": 513,
+      "factId": "hz.web.61936f0931b33239.fact.2",
+      "kind": "bullet",
+      "text": "twitch",
+      "tokens": [
+        "twitch"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 522,
+      "factId": "hz.web.61936f0931b33239.fact.3",
+      "kind": "bullet",
+      "text": "opensearchdescription",
+      "tokens": [
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 551,
+      "charStart": 546,
+      "factId": "hz.web.61936f0931b33239.fact.4",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 565,
+      "charStart": 552,
+      "factId": "hz.web.61936f0931b33239.fact.5",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 573,
+      "charStart": 566,
+      "factId": "hz.web.61936f0931b33239.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 586,
+      "charStart": 574,
+      "factId": "hz.web.61936f0931b33239.fact.7",
+      "kind": "bullet",
+      "text": "opensearch",
+      "tokens": [
+        "opensearch"
+      ]
+    },
+    {
+      "charEnd": 595,
+      "charStart": 587,
+      "factId": "hz.web.61936f0931b33239.fact.8",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 607,
+      "charStart": 596,
+      "factId": "hz.web.61936f0931b33239.fact.9",
+      "kind": "bullet",
+      "text": "shortname",
+      "tokens": [
+        "shortname"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.61936f0931b33239.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.twitch.tv"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.61936f0931b33239.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 511,
+      "charStart": 500,
+      "headingId": "hz.web.61936f0931b33239.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 619,
+      "charStart": 609,
+      "headingId": "hz.web.61936f0931b33239.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/61936f0931b33239.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1237,
+        "start": 0
+      }
+    ],
+    "hash": "49cf549cab70ad2794eece69e2f1cbf4a2b1c6a6fe7c24ed97bb0b2e85e2f506",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Twitch</ShortName> <Description>Search Twitch</Description> <Url type=\"text/html\" template=\"https://www.twitch.tv/search?term={searchTerms}\" /> <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"https://www.twitch.tv/opensearch.xml\" /> </OpenSearchDescription>",
+      "twitch",
+      "opensearchdescription"
+    ],
+    "medium": "Source: https://www.twitch.tv/opensearch.xml",
+    "short": "Source: https://www.twitch.tv/opensearch.xml",
+    "tokens": [
+      "www",
+      "twitch",
+      "tv",
+      "source",
+      "https",
+      "www",
+      "twitch",
+      "tv",
+      "opensearch",
+      "xml",
+      "source",
+      "https",
+      "www",
+      "twitch",
+      "tv",
+      "opensearch",
+      "xml"
+    ]
+  },
+  "title": "www.twitch.tv"
+}

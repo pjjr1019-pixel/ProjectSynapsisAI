@@ -1,0 +1,320 @@
+{
+  "aliases": [
+    {
+      "alias": "33054d0578c66c20",
+      "aliasId": "hz.web.33054d0578c66c20.alias.1",
+      "canonical": "alexa"
+    },
+    {
+      "alias": "alexa",
+      "aliasId": "hz.web.33054d0578c66c20.alias.2",
+      "canonical": "alexa"
+    },
+    {
+      "alias": "web 33054d0578c66c20",
+      "aliasId": "hz.web.33054d0578c66c20.alias.3",
+      "canonical": "alexa"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.81,
+  "docId": "hz.web.33054d0578c66c20",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.33054d0578c66c20.entity.1",
+      "kind": "document",
+      "name": "Alexa",
+      "tokens": [
+        "alexa"
+      ]
+    },
+    {
+      "entityId": "hz.web.33054d0578c66c20.entity.2",
+      "kind": "heading",
+      "name": "Alexa",
+      "tokens": [
+        "alexa"
+      ]
+    },
+    {
+      "entityId": "hz.web.33054d0578c66c20.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.33054d0578c66c20.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.33054d0578c66c20.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 39,
+      "charStart": 10,
+      "factId": "hz.web.33054d0578c66c20.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.alexa.com/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "alexa",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 258,
+      "charStart": 91,
+      "factId": "hz.web.33054d0578c66c20.fact.1",
+      "kind": "bullet",
+      "text": "Alexa Sign In Alexa+ Shop Echo & Alexa Alexa+ at your fingertips Try Alexa+ free on your browser Dive deep on topics, draft messages, create images, and plan events.",
+      "tokens": [
+        "alexa",
+        "sign",
+        "alexa",
+        "shop",
+        "echo",
+        "alexa",
+        "alexa",
+        "your",
+        "fingertips",
+        "try",
+        "alexa",
+        "free",
+        "your",
+        "browser",
+        "dive",
+        "deep",
+        "topics",
+        "draft",
+        "messages",
+        "create",
+        "images",
+        "plan",
+        "events"
+      ]
+    },
+    {
+      "charEnd": 350,
+      "charStart": 259,
+      "factId": "hz.web.33054d0578c66c20.fact.2",
+      "kind": "bullet",
+      "text": "All-in-one planning Get help turning your ideas into action with visuals and clear steps.",
+      "tokens": [
+        "all",
+        "one",
+        "planning",
+        "get",
+        "help",
+        "turning",
+        "your",
+        "ideas",
+        "into",
+        "action",
+        "visuals",
+        "clear",
+        "steps"
+      ]
+    },
+    {
+      "charEnd": 427,
+      "charStart": 351,
+      "factId": "hz.web.33054d0578c66c20.fact.3",
+      "kind": "bullet",
+      "text": "Pick up where you left off Move smoothly between your browser and devices.",
+      "tokens": [
+        "pick",
+        "up",
+        "left",
+        "off",
+        "move",
+        "smoothly",
+        "between",
+        "your",
+        "browser",
+        "devices"
+      ]
+    },
+    {
+      "charEnd": 457,
+      "charStart": 428,
+      "factId": "hz.web.33054d0578c66c20.fact.4",
+      "kind": "bullet",
+      "text": "Alexa keeps it all in sync.",
+      "tokens": [
+        "alexa",
+        "keeps",
+        "all",
+        "sync"
+      ]
+    },
+    {
+      "charEnd": 479,
+      "charStart": 472,
+      "factId": "hz.web.33054d0578c66c20.fact.5",
+      "kind": "bullet",
+      "text": "alexa",
+      "tokens": [
+        "alexa"
+      ]
+    },
+    {
+      "charEnd": 486,
+      "charStart": 480,
+      "factId": "hz.web.33054d0578c66c20.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 493,
+      "charStart": 487,
+      "factId": "hz.web.33054d0578c66c20.fact.7",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 503,
+      "charStart": 494,
+      "factId": "hz.web.33054d0578c66c20.fact.8",
+      "kind": "bullet",
+      "text": "devices",
+      "tokens": [
+        "devices"
+      ]
+    },
+    {
+      "charEnd": 513,
+      "charStart": 504,
+      "factId": "hz.web.33054d0578c66c20.fact.9",
+      "kind": "bullet",
+      "text": "browser",
+      "tokens": [
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 520,
+      "charStart": 514,
+      "factId": "hz.web.33054d0578c66c20.fact.10",
+      "kind": "bullet",
+      "text": "echo",
+      "tokens": [
+        "echo"
+      ]
+    },
+    {
+      "charEnd": 528,
+      "charStart": 521,
+      "factId": "hz.web.33054d0578c66c20.fact.11",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 529,
+      "factId": "hz.web.33054d0578c66c20.fact.12",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 8,
+      "charStart": 1,
+      "headingId": "hz.web.33054d0578c66c20.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Alexa"
+    },
+    {
+      "charEnd": 89,
+      "charStart": 79,
+      "headingId": "hz.web.33054d0578c66c20.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 470,
+      "charStart": 459,
+      "headingId": "hz.web.33054d0578c66c20.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 546,
+      "charStart": 536,
+      "headingId": "hz.web.33054d0578c66c20.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/33054d0578c66c20.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3285,
+        "start": 0
+      }
+    ],
+    "hash": "e29d0c574304fff8ab9f705bc7dca1b879ec85dd114c9d90d88dbd03d29fb884",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Alexa Sign In Alexa+ Shop Echo & Alexa Alexa+ at your fingertips Try Alexa+ free on your browser Dive deep on topics, draft messages, create images, and plan events.",
+      "All-in-one planning Get help turning your ideas into action with visuals and clear steps.",
+      "Pick up where you left off Move smoothly between your browser and devices."
+    ],
+    "medium": "Source: http://www.alexa.com/",
+    "short": "Source: http://www.alexa.com/",
+    "tokens": [
+      "alexa",
+      "source",
+      "http",
+      "www",
+      "alexa",
+      "com",
+      "source",
+      "http",
+      "www",
+      "alexa",
+      "com"
+    ]
+  },
+  "title": "Alexa"
+}

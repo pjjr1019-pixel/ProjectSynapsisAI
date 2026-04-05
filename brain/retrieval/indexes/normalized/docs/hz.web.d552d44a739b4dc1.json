@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    {
+      "alias": "d552d44a739b4dc1",
+      "aliasId": "hz.web.d552d44a739b4dc1.alias.1",
+      "canonical": "privacy policy - arxiv info"
+    },
+    {
+      "alias": "privacy policy - arxiv info",
+      "aliasId": "hz.web.d552d44a739b4dc1.alias.2",
+      "canonical": "privacy policy - arxiv info"
+    },
+    {
+      "alias": "web d552d44a739b4dc1",
+      "aliasId": "hz.web.d552d44a739b4dc1.alias.3",
+      "canonical": "privacy policy - arxiv info"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.d552d44a739b4dc1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d552d44a739b4dc1.entity.1",
+      "kind": "document",
+      "name": "Privacy policy - arXiv info",
+      "tokens": [
+        "privacy",
+        "policy",
+        "arxiv",
+        "info"
+      ]
+    },
+    {
+      "entityId": "hz.web.d552d44a739b4dc1.entity.2",
+      "kind": "heading",
+      "name": "Privacy policy - arXiv info",
+      "tokens": [
+        "privacy",
+        "policy",
+        "arxiv",
+        "info"
+      ]
+    },
+    {
+      "entityId": "hz.web.d552d44a739b4dc1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d552d44a739b4dc1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d552d44a739b4dc1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 96,
+      "charStart": 32,
+      "factId": "hz.web.d552d44a739b4dc1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://info.arxiv.org/help/policies/privacy_policy.html",
+      "tokens": [
+        "source",
+        "https",
+        "info",
+        "arxiv",
+        "org",
+        "help",
+        "policies",
+        "privacy_policy",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 325,
+      "charStart": 148,
+      "factId": "hz.web.d552d44a739b4dc1.fact.1",
+      "kind": "bullet",
+      "text": "Privacy policy - arXiv info | arXiv e-print repository Skip to content We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors.",
+      "tokens": [
+        "privacy",
+        "policy",
+        "arxiv",
+        "info",
+        "arxiv",
+        "print",
+        "repository",
+        "skip",
+        "content",
+        "gratefully",
+        "acknowledge",
+        "support",
+        "simons",
+        "foundation",
+        "member",
+        "institutions",
+        "all",
+        "contributors"
+      ]
+    },
+    {
+      "charEnd": 958,
+      "charStart": 326,
+      "factId": "hz.web.d552d44a739b4dc1.fact.2",
+      "kind": "bullet",
+      "text": "arXiv info Privacy policy Initializing search GitHub arXiv info GitHub Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+      "tokens": [
+        "arxiv",
+        "info",
+        "privacy",
+        "policy",
+        "initializing",
+        "search",
+        "github",
+        "arxiv",
+        "info",
+        "github",
+        "permission",
+        "hereby",
+        "granted",
+        "free",
+        "charge",
+        "any",
+        "person",
+        "obtaining",
+        "copy",
+        "software",
+        "associated",
+        "documentation",
+        "files",
+        "software",
+        "deal",
+        "software",
+        "without",
+        "restriction",
+        "including",
+        "without",
+        "limitation",
+        "rights",
+        "use",
+        "copy",
+        "modify",
+        "merge",
+        "publish",
+        "distribute",
+        "sublicense",
+        "sell",
+        "copies",
+        "software",
+        "permit",
+        "persons",
+        "whom",
+        "software",
+        "furnished",
+        "so",
+        "subject",
+        "following",
+        "conditions",
+        "above",
+        "copyright",
+        "notice",
+        "permission",
+        "notice",
+        "shall",
+        "included",
+        "all",
+        "copies",
+        "substantial",
+        "portions",
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1163,
+      "charStart": 959,
+      "factId": "hz.web.d552d44a739b4dc1.fact.3",
+      "kind": "bullet",
+      "text": "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.",
+      "tokens": [
+        "software",
+        "provided",
+        "without",
+        "warranty",
+        "any",
+        "kind",
+        "express",
+        "implied",
+        "including",
+        "but",
+        "not",
+        "limited",
+        "warranties",
+        "merchantability",
+        "fitness",
+        "particular",
+        "purpose",
+        "non",
+        "infringement"
+      ]
+    },
+    {
+      "charEnd": 1424,
+      "charStart": 1164,
+      "factId": "hz.web.d552d44a739b4dc1.fact.4",
+      "kind": "bullet",
+      "text": "IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+      "tokens": [
+        "no",
+        "event",
+        "shall",
+        "authors",
+        "copyright",
+        "holders",
+        "liable",
+        "any",
+        "claim",
+        "damages",
+        "other",
+        "liability",
+        "whether",
+        "action",
+        "contract",
+        "tort",
+        "otherwise",
+        "arising",
+        "out",
+        "connection",
+        "software",
+        "use",
+        "other",
+        "dealings",
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1449,
+      "charStart": 1439,
+      "factId": "hz.web.d552d44a739b4dc1.fact.5",
+      "kind": "bullet",
+      "text": "software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1457,
+      "charStart": 1450,
+      "factId": "hz.web.d552d44a739b4dc1.fact.6",
+      "kind": "bullet",
+      "text": "arxiv",
+      "tokens": [
+        "arxiv"
+      ]
+    },
+    {
+      "charEnd": 1463,
+      "charStart": 1458,
+      "factId": "hz.web.d552d44a739b4dc1.fact.7",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 1477,
+      "charStart": 1464,
+      "factId": "hz.web.d552d44a739b4dc1.fact.8",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 1483,
+      "charStart": 1478,
+      "factId": "hz.web.d552d44a739b4dc1.fact.9",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 1489,
+      "charStart": 1484,
+      "factId": "hz.web.d552d44a739b4dc1.fact.10",
+      "kind": "bullet",
+      "text": "may",
+      "tokens": [
+        "may"
+      ]
+    },
+    {
+      "charEnd": 1497,
+      "charStart": 1490,
+      "factId": "hz.web.d552d44a739b4dc1.fact.11",
+      "kind": "bullet",
+      "text": "other",
+      "tokens": [
+        "other"
+      ]
+    },
+    {
+      "charEnd": 1507,
+      "charStart": 1498,
+      "factId": "hz.web.d552d44a739b4dc1.fact.12",
+      "kind": "bullet",
+      "text": "without",
+      "tokens": [
+        "without"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 30,
+      "charStart": 1,
+      "headingId": "hz.web.d552d44a739b4dc1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Privacy policy - arXiv info"
+    },
+    {
+      "charEnd": 146,
+      "charStart": 136,
+      "headingId": "hz.web.d552d44a739b4dc1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1437,
+      "charStart": 1426,
+      "headingId": "hz.web.d552d44a739b4dc1.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1519,
+      "charStart": 1509,
+      "headingId": "hz.web.d552d44a739b4dc1.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d552d44a739b4dc1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4789,
+        "start": 0
+      }
+    ],
+    "hash": "47903571cce00f3d0551d61884ef5a857f9f05e0f001a65d4a1ca73a8701eaa0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Privacy policy - arXiv info | arXiv e-print repository Skip to content We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors.",
+      "arXiv info Privacy policy Initializing search GitHub arXiv info GitHub Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+      "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT."
+    ],
+    "medium": "Source: https://info.arxiv.org/help/policies/privacy_policy.html",
+    "short": "Source: https://info.arxiv.org/help/policies/privacy_policy.html",
+    "tokens": [
+      "privacy",
+      "policy",
+      "arxiv",
+      "info",
+      "source",
+      "https",
+      "info",
+      "arxiv",
+      "org",
+      "help",
+      "policies",
+      "privacy_policy",
+      "html",
+      "source",
+      "https",
+      "info",
+      "arxiv",
+      "org",
+      "help",
+      "policies",
+      "privacy_policy",
+      "html"
+    ]
+  },
+  "title": "Privacy policy - arXiv info"
+}

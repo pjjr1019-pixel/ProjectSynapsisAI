@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "93230b75564f4b14",
+      "aliasId": "hz.web.93230b75564f4b14.alias.1",
+      "canonical": "developer.mozilla.org"
+    },
+    {
+      "alias": "developer.mozilla.org",
+      "aliasId": "hz.web.93230b75564f4b14.alias.2",
+      "canonical": "developer.mozilla.org"
+    },
+    {
+      "alias": "web 93230b75564f4b14",
+      "aliasId": "hz.web.93230b75564f4b14.alias.3",
+      "canonical": "developer.mozilla.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.93230b75564f4b14",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.93230b75564f4b14.entity.1",
+      "kind": "document",
+      "name": "developer.mozilla.org",
+      "tokens": [
+        "developer",
+        "mozilla",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.93230b75564f4b14.entity.2",
+      "kind": "heading",
+      "name": "developer.mozilla.org",
+      "tokens": [
+        "developer",
+        "mozilla",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.93230b75564f4b14.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.93230b75564f4b14.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.93230b75564f4b14.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 115,
+      "charStart": 26,
+      "factId": "hz.web.93230b75564f4b14.fact.1",
+      "kind": "summary",
+      "text": "Source: https://developer.mozilla.org/static/client/styles-a11y-menu.5796ee87cb69f93f.css",
+      "tokens": [
+        "source",
+        "https",
+        "developer",
+        "mozilla",
+        "org",
+        "static",
+        "client",
+        "styles",
+        "a11y",
+        "menu",
+        "5796ee87cb69f93f",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 717,
+      "charStart": 167,
+      "factId": "hz.web.93230b75564f4b14.fact.1",
+      "kind": "bullet",
+      "text": ".a11y-menu{--offset:20em;--outline:2px;left:var(--outline);list-style:none;margin:0;position:absolute;right:var(--outline);top:calc(var(--offset)*-1);width:calc(100% - var(--outline)*2);z-index:1000}.a11y-menu a{background-color:var(--color-background-primary);font-weight:var(--font-weight-bold);left:0;padding:.8em;position:absolute;right:0;text-align:center;-webkit-text-decoration:none;text-decoration:none}:is(.a11y-menu a):focus-within{top:calc(var(--offset) + var(--outline))} /*# sourceMappingURL=styles-a11y-menu.5796ee87cb69f93f.css.map*/",
+      "tokens": [
+        "a11y",
+        "menu",
+        "offset",
+        "20em",
+        "outline",
+        "2px",
+        "left",
+        "var",
+        "outline",
+        "list",
+        "style",
+        "none",
+        "margin",
+        "position",
+        "absolute",
+        "right",
+        "var",
+        "outline",
+        "top",
+        "calc",
+        "var",
+        "offset",
+        "width",
+        "calc",
+        "100",
+        "var",
+        "outline",
+        "index",
+        "1000",
+        "a11y",
+        "menu",
+        "background",
+        "color",
+        "var",
+        "color",
+        "background",
+        "primary",
+        "font",
+        "weight",
+        "var",
+        "font",
+        "weight",
+        "bold",
+        "left",
+        "padding",
+        "8em",
+        "position",
+        "absolute",
+        "right",
+        "text",
+        "align",
+        "center",
+        "webkit",
+        "text",
+        "decoration",
+        "none",
+        "text",
+        "decoration",
+        "none",
+        "a11y",
+        "menu",
+        "focus",
+        "within",
+        "top",
+        "calc",
+        "var",
+        "offset",
+        "var",
+        "outline",
+        "sourcemappingurl",
+        "styles",
+        "a11y",
+        "menu",
+        "5796ee87cb69f93f",
+        "css",
+        "map"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 732,
+      "factId": "hz.web.93230b75564f4b14.fact.2",
+      "kind": "bullet",
+      "text": "var",
+      "tokens": [
+        "var"
+      ]
+    },
+    {
+      "charEnd": 747,
+      "charStart": 738,
+      "factId": "hz.web.93230b75564f4b14.fact.3",
+      "kind": "bullet",
+      "text": "outline",
+      "tokens": [
+        "outline"
+      ]
+    },
+    {
+      "charEnd": 754,
+      "charStart": 748,
+      "factId": "hz.web.93230b75564f4b14.fact.4",
+      "kind": "bullet",
+      "text": "a11y",
+      "tokens": [
+        "a11y"
+      ]
+    },
+    {
+      "charEnd": 761,
+      "charStart": 755,
+      "factId": "hz.web.93230b75564f4b14.fact.5",
+      "kind": "bullet",
+      "text": "menu",
+      "tokens": [
+        "menu"
+      ]
+    },
+    {
+      "charEnd": 768,
+      "charStart": 762,
+      "factId": "hz.web.93230b75564f4b14.fact.6",
+      "kind": "bullet",
+      "text": "calc",
+      "tokens": [
+        "calc"
+      ]
+    },
+    {
+      "charEnd": 775,
+      "charStart": 769,
+      "factId": "hz.web.93230b75564f4b14.fact.7",
+      "kind": "bullet",
+      "text": "none",
+      "tokens": [
+        "none"
+      ]
+    },
+    {
+      "charEnd": 784,
+      "charStart": 776,
+      "factId": "hz.web.93230b75564f4b14.fact.8",
+      "kind": "bullet",
+      "text": "offset",
+      "tokens": [
+        "offset"
+      ]
+    },
+    {
+      "charEnd": 791,
+      "charStart": 785,
+      "factId": "hz.web.93230b75564f4b14.fact.9",
+      "kind": "bullet",
+      "text": "text",
+      "tokens": [
+        "text"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.93230b75564f4b14.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "developer.mozilla.org"
+    },
+    {
+      "charEnd": 165,
+      "charStart": 155,
+      "headingId": "hz.web.93230b75564f4b14.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 730,
+      "charStart": 719,
+      "headingId": "hz.web.93230b75564f4b14.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 803,
+      "charStart": 793,
+      "headingId": "hz.web.93230b75564f4b14.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/93230b75564f4b14.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1640,
+        "start": 0
+      }
+    ],
+    "hash": "303b428d343ab3d65b4899cd2e79e84388412a005105b5d35d0dd1bb7f5c60e9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".a11y-menu{--offset:20em;--outline:2px;left:var(--outline);list-style:none;margin:0;position:absolute;right:var(--outline);top:calc(var(--offset)*-1);width:calc(100% - var(--outline)*2);z-index:1000}.a11y-menu a{background-color:var(--color-background-primary);font-weight:var(--font-weight-bold);left:0;padding:.8em;position:absolute;right:0;text-align:center;-webkit-text-decoration:none;text-decoration:none}:is(.a11y-menu a):focus-within{top:calc(var(--offset) + var(--outline))} /*# sourceMappingURL=styles-a11y-menu.5796ee87cb69f93f.css.map*/",
+      "var",
+      "outline"
+    ],
+    "medium": "Source: https://developer.mozilla.org/static/client/styles-a11y-menu.5796ee87cb69f93f.css",
+    "short": "Source: https://developer.mozilla.org/static/client/styles-a11y-menu.5796ee87cb69f93f.css",
+    "tokens": [
+      "developer",
+      "mozilla",
+      "org",
+      "source",
+      "https",
+      "developer",
+      "mozilla",
+      "org",
+      "static",
+      "client",
+      "styles",
+      "a11y",
+      "menu",
+      "5796ee87cb69f93f",
+      "css",
+      "source",
+      "https",
+      "developer",
+      "mozilla",
+      "org",
+      "static",
+      "client",
+      "styles",
+      "a11y",
+      "menu",
+      "5796ee87cb69f93f",
+      "css"
+    ]
+  },
+  "title": "developer.mozilla.org"
+}

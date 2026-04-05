@@ -1,0 +1,308 @@
+{
+  "aliases": [
+    {
+      "alias": "6169ef9dabee635d",
+      "aliasId": "hz.web.6169ef9dabee635d.alias.1",
+      "canonical": "welcome to nginx!"
+    },
+    {
+      "alias": "web 6169ef9dabee635d",
+      "aliasId": "hz.web.6169ef9dabee635d.alias.2",
+      "canonical": "welcome to nginx!"
+    },
+    {
+      "alias": "welcome to nginx",
+      "aliasId": "hz.web.6169ef9dabee635d.alias.3",
+      "canonical": "welcome to nginx!"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.6169ef9dabee635d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6169ef9dabee635d.entity.1",
+      "kind": "document",
+      "name": "Welcome to nginx!",
+      "tokens": [
+        "welcome",
+        "nginx"
+      ]
+    },
+    {
+      "entityId": "hz.web.6169ef9dabee635d.entity.2",
+      "kind": "heading",
+      "name": "Welcome to nginx!",
+      "tokens": [
+        "welcome",
+        "nginx"
+      ]
+    },
+    {
+      "entityId": "hz.web.6169ef9dabee635d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6169ef9dabee635d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6169ef9dabee635d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 22,
+      "factId": "hz.web.6169ef9dabee635d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fd.cleantalk.org/",
+      "tokens": [
+        "source",
+        "https",
+        "fd",
+        "cleantalk",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 126,
+      "charStart": 107,
+      "factId": "hz.web.6169ef9dabee635d.fact.1",
+      "kind": "bullet",
+      "text": "Welcome to nginx!",
+      "tokens": [
+        "welcome",
+        "nginx"
+      ]
+    },
+    {
+      "charEnd": 146,
+      "charStart": 127,
+      "factId": "hz.web.6169ef9dabee635d.fact.2",
+      "kind": "bullet",
+      "text": "Welcome to nginx!",
+      "tokens": [
+        "welcome",
+        "nginx"
+      ]
+    },
+    {
+      "charEnd": 230,
+      "charStart": 147,
+      "factId": "hz.web.6169ef9dabee635d.fact.3",
+      "kind": "bullet",
+      "text": "If you see this page, the nginx web server is successfully installed and working.",
+      "tokens": [
+        "if",
+        "see",
+        "page",
+        "nginx",
+        "web",
+        "server",
+        "successfully",
+        "installed",
+        "working"
+      ]
+    },
+    {
+      "charEnd": 267,
+      "charStart": 231,
+      "factId": "hz.web.6169ef9dabee635d.fact.4",
+      "kind": "bullet",
+      "text": "Further configuration is required.",
+      "tokens": [
+        "further",
+        "configuration",
+        "required"
+      ]
+    },
+    {
+      "charEnd": 289,
+      "charStart": 282,
+      "factId": "hz.web.6169ef9dabee635d.fact.5",
+      "kind": "bullet",
+      "text": "nginx",
+      "tokens": [
+        "nginx"
+      ]
+    },
+    {
+      "charEnd": 299,
+      "charStart": 290,
+      "factId": "hz.web.6169ef9dabee635d.fact.6",
+      "kind": "bullet",
+      "text": "welcome",
+      "tokens": [
+        "welcome"
+      ]
+    },
+    {
+      "charEnd": 311,
+      "charStart": 300,
+      "factId": "hz.web.6169ef9dabee635d.fact.7",
+      "kind": "bullet",
+      "text": "cleantalk",
+      "tokens": [
+        "cleantalk"
+      ]
+    },
+    {
+      "charEnd": 327,
+      "charStart": 312,
+      "factId": "hz.web.6169ef9dabee635d.fact.8",
+      "kind": "bullet",
+      "text": "documentation",
+      "tokens": [
+        "documentation"
+      ]
+    },
+    {
+      "charEnd": 333,
+      "charStart": 328,
+      "factId": "hz.web.6169ef9dabee635d.fact.9",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 334,
+      "factId": "hz.web.6169ef9dabee635d.fact.10",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 348,
+      "charStart": 340,
+      "factId": "hz.web.6169ef9dabee635d.fact.11",
+      "kind": "bullet",
+      "text": "please",
+      "tokens": [
+        "please"
+      ]
+    },
+    {
+      "charEnd": 356,
+      "charStart": 349,
+      "factId": "hz.web.6169ef9dabee635d.fact.12",
+      "kind": "bullet",
+      "text": "refer",
+      "tokens": [
+        "refer"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.6169ef9dabee635d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Welcome to nginx!"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.6169ef9dabee635d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 280,
+      "charStart": 269,
+      "headingId": "hz.web.6169ef9dabee635d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 368,
+      "charStart": 358,
+      "headingId": "hz.web.6169ef9dabee635d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/6169ef9dabee635d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1062,
+        "start": 0
+      }
+    ],
+    "hash": "c544aadb28e8ac01cfd3d1ca48667fca4f886f1ee633ba0ebba3f9553264d354",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.6169ef9dabee635d.rule.1",
+      "text": "- Further configuration is required.",
+      "tokens": [
+        "further",
+        "configuration",
+        "required"
+      ]
+    },
+    {
+      "ruleId": "hz.web.6169ef9dabee635d.rule.2",
+      "text": "Further configuration is required.",
+      "tokens": [
+        "further",
+        "configuration",
+        "required"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Welcome to nginx!",
+      "Welcome to nginx!",
+      "If you see this page, the nginx web server is successfully installed and working."
+    ],
+    "medium": "Source: https://fd.cleantalk.org/",
+    "short": "Source: https://fd.cleantalk.org/",
+    "tokens": [
+      "welcome",
+      "nginx",
+      "source",
+      "https",
+      "fd",
+      "cleantalk",
+      "org",
+      "source",
+      "https",
+      "fd",
+      "cleantalk",
+      "org"
+    ]
+  },
+  "title": "Welcome to nginx!"
+}

@@ -1,0 +1,384 @@
+{
+  "aliases": [
+    {
+      "alias": "fac5dc7119ccef06",
+      "aliasId": "hz.web.fac5dc7119ccef06.alias.1",
+      "canonical": "orkut"
+    },
+    {
+      "alias": "orkut",
+      "aliasId": "hz.web.fac5dc7119ccef06.alias.2",
+      "canonical": "orkut"
+    },
+    {
+      "alias": "web fac5dc7119ccef06",
+      "aliasId": "hz.web.fac5dc7119ccef06.alias.3",
+      "canonical": "orkut"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.fac5dc7119ccef06",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fac5dc7119ccef06.entity.1",
+      "kind": "document",
+      "name": "orkut",
+      "tokens": [
+        "orkut"
+      ]
+    },
+    {
+      "entityId": "hz.web.fac5dc7119ccef06.entity.2",
+      "kind": "heading",
+      "name": "orkut",
+      "tokens": [
+        "orkut"
+      ]
+    },
+    {
+      "entityId": "hz.web.fac5dc7119ccef06.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fac5dc7119ccef06.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fac5dc7119ccef06.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 35,
+      "charStart": 10,
+      "factId": "hz.web.fac5dc7119ccef06.fact.1",
+      "kind": "summary",
+      "text": "Source: http://orkut.com/",
+      "tokens": [
+        "source",
+        "http",
+        "orkut",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 144,
+      "charStart": 87,
+      "factId": "hz.web.fac5dc7119ccef06.fact.1",
+      "kind": "bullet",
+      "text": "orkut languages: English Português Hi there, I’m Orkut.",
+      "tokens": [
+        "orkut",
+        "languages",
+        "english",
+        "portugu",
+        "hi",
+        "there",
+        "orkut"
+      ]
+    },
+    {
+      "charEnd": 235,
+      "charStart": 145,
+      "factId": "hz.web.fac5dc7119ccef06.fact.2",
+      "kind": "bullet",
+      "text": "Seventeen years ago I started a little social network while I was an engineer at Google.",
+      "tokens": [
+        "seventeen",
+        "years",
+        "ago",
+        "started",
+        "little",
+        "social",
+        "network",
+        "while",
+        "engineer",
+        "google"
+      ]
+    },
+    {
+      "charEnd": 340,
+      "charStart": 236,
+      "factId": "hz.web.fac5dc7119ccef06.fact.3",
+      "kind": "bullet",
+      "text": "In just a few years, that social network - orkut.com - grew to a community of over 300 million people.",
+      "tokens": [
+        "just",
+        "few",
+        "years",
+        "social",
+        "network",
+        "orkut",
+        "com",
+        "grew",
+        "community",
+        "over",
+        "300",
+        "million",
+        "people"
+      ]
+    },
+    {
+      "charEnd": 472,
+      "charStart": 341,
+      "factId": "hz.web.fac5dc7119ccef06.fact.4",
+      "kind": "bullet",
+      "text": "I believe that orkut.com found a community because it brought so many diverse voices from around the world together in one place.",
+      "tokens": [
+        "believe",
+        "orkut",
+        "com",
+        "found",
+        "community",
+        "because",
+        "brought",
+        "so",
+        "many",
+        "diverse",
+        "voices",
+        "around",
+        "world",
+        "together",
+        "one",
+        "place"
+      ]
+    },
+    {
+      "charEnd": 494,
+      "charStart": 487,
+      "factId": "hz.web.fac5dc7119ccef06.fact.5",
+      "kind": "bullet",
+      "text": "orkut",
+      "tokens": [
+        "orkut"
+      ]
+    },
+    {
+      "charEnd": 502,
+      "charStart": 495,
+      "factId": "hz.web.fac5dc7119ccef06.fact.6",
+      "kind": "bullet",
+      "text": "world",
+      "tokens": [
+        "world"
+      ]
+    },
+    {
+      "charEnd": 509,
+      "charStart": 503,
+      "factId": "hz.web.fac5dc7119ccef06.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 515,
+      "charStart": 510,
+      "factId": "hz.web.fac5dc7119ccef06.fact.8",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 521,
+      "charStart": 516,
+      "factId": "hz.web.fac5dc7119ccef06.fact.9",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    },
+    {
+      "charEnd": 533,
+      "charStart": 522,
+      "factId": "hz.web.fac5dc7119ccef06.fact.10",
+      "kind": "bullet",
+      "text": "community",
+      "tokens": [
+        "community"
+      ]
+    },
+    {
+      "charEnd": 543,
+      "charStart": 534,
+      "factId": "hz.web.fac5dc7119ccef06.fact.11",
+      "kind": "bullet",
+      "text": "network",
+      "tokens": [
+        "network"
+      ]
+    },
+    {
+      "charEnd": 552,
+      "charStart": 544,
+      "factId": "hz.web.fac5dc7119ccef06.fact.12",
+      "kind": "bullet",
+      "text": "social",
+      "tokens": [
+        "social"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 8,
+      "charStart": 1,
+      "headingId": "hz.web.fac5dc7119ccef06.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "orkut"
+    },
+    {
+      "charEnd": 85,
+      "charStart": 75,
+      "headingId": "hz.web.fac5dc7119ccef06.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 485,
+      "charStart": 474,
+      "headingId": "hz.web.fac5dc7119ccef06.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 564,
+      "charStart": 554,
+      "headingId": "hz.web.fac5dc7119ccef06.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/fac5dc7119ccef06.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2690,
+        "start": 0
+      }
+    ],
+    "hash": "5f1175abcf0160bcb49e8dddcac8462e1092f358a9ce8115c177188e36792ee9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.fac5dc7119ccef06.rule.1",
+      "text": "I’ve always believed that a friendship is more than a friend request, and I have dedicated my life to helping millions of you build authentic connections with your neighbors, family members, employees and the beautiful strangers who come into your lives.",
+      "tokens": [
+        "ve",
+        "always",
+        "believed",
+        "friendship",
+        "more",
+        "than",
+        "friend",
+        "request",
+        "have",
+        "dedicated",
+        "life",
+        "helping",
+        "millions",
+        "build",
+        "authentic",
+        "connections",
+        "your",
+        "neighbors",
+        "family",
+        "members",
+        "employees",
+        "beautiful",
+        "strangers",
+        "come",
+        "into",
+        "your",
+        "lives"
+      ]
+    },
+    {
+      "ruleId": "hz.web.fac5dc7119ccef06.rule.2",
+      "text": "Our online tools should serve us, not divide us.",
+      "tokens": [
+        "our",
+        "online",
+        "tools",
+        "serve",
+        "us",
+        "not",
+        "divide",
+        "us"
+      ]
+    },
+    {
+      "ruleId": "hz.web.fac5dc7119ccef06.rule.3",
+      "text": "They should protect our data, not sell it.",
+      "tokens": [
+        "protect",
+        "our",
+        "data",
+        "not",
+        "sell"
+      ]
+    },
+    {
+      "ruleId": "hz.web.fac5dc7119ccef06.rule.4",
+      "text": "They should give us hope, not fear and anxiety.",
+      "tokens": [
+        "give",
+        "us",
+        "hope",
+        "not",
+        "fear",
+        "anxiety"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "orkut languages: English Português Hi there, I’m Orkut.",
+      "Seventeen years ago I started a little social network while I was an engineer at Google.",
+      "In just a few years, that social network - orkut.com - grew to a community of over 300 million people."
+    ],
+    "medium": "Source: http://orkut.com/",
+    "short": "Source: http://orkut.com/",
+    "tokens": [
+      "orkut",
+      "source",
+      "http",
+      "orkut",
+      "com",
+      "source",
+      "http",
+      "orkut",
+      "com"
+    ]
+  },
+  "title": "orkut"
+}

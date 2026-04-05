@@ -1,0 +1,411 @@
+{
+  "aliases": [
+    {
+      "alias": "ccd11faa01d66471",
+      "aliasId": "hz.web.ccd11faa01d66471.alias.1",
+      "canonical": "new comments | hacker news"
+    },
+    {
+      "alias": "new comments hacker news",
+      "aliasId": "hz.web.ccd11faa01d66471.alias.2",
+      "canonical": "new comments | hacker news"
+    },
+    {
+      "alias": "web ccd11faa01d66471",
+      "aliasId": "hz.web.ccd11faa01d66471.alias.3",
+      "canonical": "new comments | hacker news"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.ccd11faa01d66471",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ccd11faa01d66471.entity.1",
+      "kind": "document",
+      "name": "New Comments | Hacker News",
+      "tokens": [
+        "new",
+        "comments",
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.ccd11faa01d66471.entity.2",
+      "kind": "heading",
+      "name": "New Comments | Hacker News",
+      "tokens": [
+        "new",
+        "comments",
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.ccd11faa01d66471.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ccd11faa01d66471.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ccd11faa01d66471.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 79,
+      "charStart": 31,
+      "factId": "hz.web.ccd11faa01d66471.fact.1",
+      "kind": "summary",
+      "text": "Source: https://news.ycombinator.com/newcomments",
+      "tokens": [
+        "source",
+        "https",
+        "news",
+        "ycombinator",
+        "com",
+        "newcomments"
+      ]
+    },
+    {
+      "charEnd": 392,
+      "charStart": 131,
+      "factId": "hz.web.ccd11faa01d66471.fact.1",
+      "kind": "bullet",
+      "text": "New Comments | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login freehorse 0 minutes ago | parent | context | on: LinkedIn uses 2.4 GB RAM across two tabs &gt; comments on YT are superb training data This I find hard to believe.",
+      "tokens": [
+        "new",
+        "comments",
+        "hacker",
+        "news",
+        "hacker",
+        "news",
+        "new",
+        "past",
+        "comments",
+        "ask",
+        "show",
+        "jobs",
+        "submit",
+        "login",
+        "freehorse",
+        "minutes",
+        "ago",
+        "parent",
+        "context",
+        "linkedin",
+        "uses",
+        "gb",
+        "ram",
+        "across",
+        "two",
+        "tabs",
+        "gt",
+        "comments",
+        "yt",
+        "superb",
+        "training",
+        "data",
+        "find",
+        "hard",
+        "believe"
+      ]
+    },
+    {
+      "charEnd": 427,
+      "charStart": 393,
+      "factId": "hz.web.ccd11faa01d66471.fact.2",
+      "kind": "bullet",
+      "text": "Most YT comments are just noise.",
+      "tokens": [
+        "most",
+        "yt",
+        "comments",
+        "just",
+        "noise"
+      ]
+    },
+    {
+      "charEnd": 485,
+      "charStart": 428,
+      "factId": "hz.web.ccd11faa01d66471.fact.3",
+      "kind": "bullet",
+      "text": "Even the UX of writing comments in YT is just terrible.",
+      "tokens": [
+        "even",
+        "ux",
+        "writing",
+        "comments",
+        "yt",
+        "just",
+        "terrible"
+      ]
+    },
+    {
+      "charEnd": 629,
+      "charStart": 486,
+      "factId": "hz.web.ccd11faa01d66471.fact.4",
+      "kind": "bullet",
+      "text": "Comments randomly appear and disappear, and you are never sure if it is some yt algorithm, a technical issue or specific moderation practice.",
+      "tokens": [
+        "comments",
+        "randomly",
+        "appear",
+        "disappear",
+        "never",
+        "sure",
+        "if",
+        "some",
+        "yt",
+        "algorithm",
+        "technical",
+        "issue",
+        "specific",
+        "moderation",
+        "practice"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 644,
+      "factId": "hz.web.ccd11faa01d66471.fact.5",
+      "kind": "bullet",
+      "text": "x27",
+      "tokens": [
+        "x27"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 650,
+      "factId": "hz.web.ccd11faa01d66471.fact.6",
+      "kind": "bullet",
+      "text": "ago",
+      "tokens": [
+        "ago"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 656,
+      "factId": "hz.web.ccd11faa01d66471.fact.7",
+      "kind": "bullet",
+      "text": "context",
+      "tokens": [
+        "context"
+      ]
+    },
+    {
+      "charEnd": 674,
+      "charStart": 666,
+      "factId": "hz.web.ccd11faa01d66471.fact.8",
+      "kind": "bullet",
+      "text": "parent",
+      "tokens": [
+        "parent"
+      ]
+    },
+    {
+      "charEnd": 684,
+      "charStart": 675,
+      "factId": "hz.web.ccd11faa01d66471.fact.9",
+      "kind": "bullet",
+      "text": "minutes",
+      "tokens": [
+        "minutes"
+      ]
+    },
+    {
+      "charEnd": 690,
+      "charStart": 685,
+      "factId": "hz.web.ccd11faa01d66471.fact.10",
+      "kind": "bullet",
+      "text": "but",
+      "tokens": [
+        "but"
+      ]
+    },
+    {
+      "charEnd": 697,
+      "charStart": 691,
+      "factId": "hz.web.ccd11faa01d66471.fact.11",
+      "kind": "bullet",
+      "text": "have",
+      "tokens": [
+        "have"
+      ]
+    },
+    {
+      "charEnd": 702,
+      "charStart": 698,
+      "factId": "hz.web.ccd11faa01d66471.fact.12",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 29,
+      "charStart": 1,
+      "headingId": "hz.web.ccd11faa01d66471.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "New Comments | Hacker News"
+    },
+    {
+      "charEnd": 129,
+      "charStart": 119,
+      "headingId": "hz.web.ccd11faa01d66471.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 642,
+      "charStart": 631,
+      "headingId": "hz.web.ccd11faa01d66471.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 714,
+      "charStart": 704,
+      "headingId": "hz.web.ccd11faa01d66471.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/ccd11faa01d66471.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3967,
+        "start": 0
+      }
+    ],
+    "hash": "a1f718001b6daada75ba4ee1fd93a6a0733f56f4831efdf7cb32597096141b92",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.ccd11faa01d66471.rule.1",
+      "text": "- Comments randomly appear and disappear, and you are never sure if it is some yt algorithm, a technical issue or specific moderation practice.",
+      "tokens": [
+        "comments",
+        "randomly",
+        "appear",
+        "disappear",
+        "never",
+        "sure",
+        "if",
+        "some",
+        "yt",
+        "algorithm",
+        "technical",
+        "issue",
+        "specific",
+        "moderation",
+        "practice"
+      ]
+    },
+    {
+      "ruleId": "hz.web.ccd11faa01d66471.rule.2",
+      "text": "Comments randomly appear and disappear, and you are never sure if it is some yt algorithm, a technical issue or specific moderation practice.",
+      "tokens": [
+        "comments",
+        "randomly",
+        "appear",
+        "disappear",
+        "never",
+        "sure",
+        "if",
+        "some",
+        "yt",
+        "algorithm",
+        "technical",
+        "issue",
+        "specific",
+        "moderation",
+        "practice"
+      ]
+    },
+    {
+      "ruleId": "hz.web.ccd11faa01d66471.rule.3",
+      "text": "If you never type a lot in a row, it can be easy to miss ivraatiems 1 minute ago | parent | context | on: Typing and Keyboards Yeah, I&#x27;ve been told this.",
+      "tokens": [
+        "if",
+        "never",
+        "type",
+        "lot",
+        "row",
+        "easy",
+        "miss",
+        "ivraatiems",
+        "minute",
+        "ago",
+        "parent",
+        "context",
+        "typing",
+        "keyboards",
+        "yeah",
+        "x27",
+        "ve",
+        "told"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "New Comments | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login freehorse 0 minutes ago | parent | context | on: LinkedIn uses 2.4 GB RAM across two tabs &gt; comments on YT are superb training data This I find hard to believe.",
+      "Most YT comments are just noise.",
+      "Even the UX of writing comments in YT is just terrible."
+    ],
+    "medium": "Source: https://news.ycombinator.com/newcomments",
+    "short": "Source: https://news.ycombinator.com/newcomments",
+    "tokens": [
+      "new",
+      "comments",
+      "hacker",
+      "news",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com",
+      "newcomments",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com",
+      "newcomments"
+    ]
+  },
+  "title": "New Comments | Hacker News"
+}

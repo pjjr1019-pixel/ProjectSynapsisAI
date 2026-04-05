@@ -1,0 +1,535 @@
+{
+  "aliases": [
+    {
+      "alias": "295ad6e251209864",
+      "aliasId": "hz.web.295ad6e251209864.alias.1",
+      "canonical": "fediverse - wikipedia"
+    },
+    {
+      "alias": "fediverse - wikipedia",
+      "aliasId": "hz.web.295ad6e251209864.alias.2",
+      "canonical": "fediverse - wikipedia"
+    },
+    {
+      "alias": "web 295ad6e251209864",
+      "aliasId": "hz.web.295ad6e251209864.alias.3",
+      "canonical": "fediverse - wikipedia"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.295ad6e251209864",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.295ad6e251209864.entity.1",
+      "kind": "document",
+      "name": "Fediverse - Wikipedia",
+      "tokens": [
+        "fediverse",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.295ad6e251209864.entity.2",
+      "kind": "heading",
+      "name": "Fediverse - Wikipedia",
+      "tokens": [
+        "fediverse",
+        "wikipedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.295ad6e251209864.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.295ad6e251209864.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.295ad6e251209864.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 26,
+      "factId": "hz.web.295ad6e251209864.fact.1",
+      "kind": "summary",
+      "text": "Source: https://enwp.org/fediverse",
+      "tokens": [
+        "source",
+        "https",
+        "enwp",
+        "org",
+        "fediverse"
+      ]
+    },
+    {
+      "charEnd": 2111,
+      "charStart": 112,
+      "factId": "hz.web.295ad6e251209864.fact.1",
+      "kind": "bullet",
+      "text": "Fediverse - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Design Toggle Design subsection 1.1 Content moderation and user safety 2 History Toggle History subsection 2.1 Historical protocols 2.2 ActivityPub 2.3 AT Protocol 2.4 Other Fediverse protocols 3 Adoption Toggle Adoption subsection 3.1 Government and public-sector use 3.2 Content management systems 3.3 Microblogging 3.4 News aggregators 4 Software Toggle Software subsection 4.1 ActivityPub 4.2 AT Protocol 4.3 Others 5 See also 6 References 7 Further reading Toggle the table of contents Fediverse 37 languages Български Brezhoneg Català Čeština Dansk Deutsch Esperanto Español Eesti Euskara فارسی Suomi Français Galego ગુજરાતી עברית Interlingue Italiano 日本語 Taqbaylit 한국어 Lombard Nederlands Norsk bokmål Polski Português Română Русский Sardu Srpskohrvatski / српскохрватски Simple English Svenska Tagalog Українська Tiếng Việt 閩南語 / Bân-lâm-gí 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikiquote Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Network of federated social media platforms Proposed symbol for the Fediverse from 2018, the \"fedigram\" &#91; 1 &#93; The Fediverse (commonly shortened to fedi ) &#91; 2 &#93; &#91; 3 &#93; &#91; 4 &#93; is a collection of social networking services that can communicate with each other (formally known as federation ) using a common protocol.",
+      "tokens": [
+        "fediverse",
+        "wikipedia",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "navigation",
+        "main",
+        "page",
+        "contents",
+        "current",
+        "events",
+        "random",
+        "article",
+        "about",
+        "wikipedia",
+        "contact",
+        "us",
+        "contribute",
+        "help",
+        "learn",
+        "edit",
+        "community",
+        "portal",
+        "recent",
+        "changes",
+        "upload",
+        "file",
+        "special",
+        "pages",
+        "search",
+        "search",
+        "appearance",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "personal",
+        "tools",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "top",
+        "design",
+        "toggle",
+        "design",
+        "subsection",
+        "content",
+        "moderation",
+        "user",
+        "safety",
+        "history",
+        "toggle",
+        "history",
+        "subsection",
+        "historical",
+        "protocols",
+        "activitypub",
+        "protocol",
+        "other",
+        "fediverse",
+        "protocols",
+        "adoption",
+        "toggle",
+        "adoption",
+        "subsection",
+        "government",
+        "public",
+        "sector",
+        "use",
+        "content",
+        "management",
+        "systems",
+        "microblogging",
+        "news",
+        "aggregators",
+        "software",
+        "toggle",
+        "software",
+        "subsection",
+        "activitypub",
+        "protocol",
+        "others",
+        "see",
+        "also",
+        "references",
+        "further",
+        "reading",
+        "toggle",
+        "table",
+        "contents",
+        "fediverse",
+        "37",
+        "languages",
+        "brezhoneg",
+        "catal",
+        "tina",
+        "dansk",
+        "deutsch",
+        "esperanto",
+        "espa",
+        "ol",
+        "eesti",
+        "euskara",
+        "suomi",
+        "fran",
+        "ais",
+        "galego",
+        "interlingue",
+        "italiano",
+        "taqbaylit",
+        "lombard",
+        "nederlands",
+        "norsk",
+        "bokm",
+        "polski",
+        "portugu",
+        "rom",
+        "sardu",
+        "srpskohrvatski",
+        "simple",
+        "english",
+        "svenska",
+        "tagalog",
+        "ti",
+        "ng",
+        "vi",
+        "edit",
+        "links",
+        "article",
+        "talk",
+        "english",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "edit",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "upload",
+        "file",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "cite",
+        "page",
+        "get",
+        "shortened",
+        "url",
+        "print",
+        "export",
+        "download",
+        "pdf",
+        "printable",
+        "version",
+        "other",
+        "projects",
+        "wikimedia",
+        "commons",
+        "wikiquote",
+        "wikidata",
+        "item",
+        "appearance",
+        "move",
+        "sidebar",
+        "hide",
+        "wikipedia",
+        "free",
+        "encyclopedia",
+        "network",
+        "federated",
+        "social",
+        "media",
+        "platforms",
+        "proposed",
+        "symbol",
+        "fediverse",
+        "2018",
+        "fedigram",
+        "91",
+        "93",
+        "fediverse",
+        "commonly",
+        "shortened",
+        "fedi",
+        "91",
+        "93",
+        "91",
+        "93",
+        "91",
+        "93",
+        "collection",
+        "social",
+        "networking",
+        "services",
+        "communicate",
+        "each",
+        "other",
+        "formally",
+        "known",
+        "federation",
+        "using",
+        "common",
+        "protocol"
+      ]
+    },
+    {
+      "charEnd": 2230,
+      "charStart": 2112,
+      "factId": "hz.web.295ad6e251209864.fact.2",
+      "kind": "bullet",
+      "text": "Users of different websites can send and receive status updates, multimedia files and other data across the network.",
+      "tokens": [
+        "users",
+        "different",
+        "websites",
+        "send",
+        "receive",
+        "status",
+        "updates",
+        "multimedia",
+        "files",
+        "other",
+        "data",
+        "across",
+        "network"
+      ]
+    },
+    {
+      "charEnd": 2297,
+      "charStart": 2231,
+      "factId": "hz.web.295ad6e251209864.fact.3",
+      "kind": "bullet",
+      "text": "The term Fediverse is a portmanteau of federation and universe .",
+      "tokens": [
+        "term",
+        "fediverse",
+        "portmanteau",
+        "federation",
+        "universe"
+      ]
+    },
+    {
+      "charEnd": 2465,
+      "charStart": 2298,
+      "factId": "hz.web.295ad6e251209864.fact.4",
+      "kind": "bullet",
+      "text": "&#91; 5 &#93; The majority of Fediverse platforms are based on free and open-source software , and create connections between servers using the ActivityPub protocol.",
+      "tokens": [
+        "91",
+        "93",
+        "majority",
+        "fediverse",
+        "platforms",
+        "based",
+        "free",
+        "open",
+        "source",
+        "software",
+        "create",
+        "connections",
+        "between",
+        "servers",
+        "using",
+        "activitypub",
+        "protocol"
+      ]
+    },
+    {
+      "charEnd": 2484,
+      "charStart": 2480,
+      "factId": "hz.web.295ad6e251209864.fact.5",
+      "kind": "bullet",
+      "text": "91",
+      "tokens": [
+        "91"
+      ]
+    },
+    {
+      "charEnd": 2489,
+      "charStart": 2485,
+      "factId": "hz.web.295ad6e251209864.fact.6",
+      "kind": "bullet",
+      "text": "93",
+      "tokens": [
+        "93"
+      ]
+    },
+    {
+      "charEnd": 2496,
+      "charStart": 2490,
+      "factId": "hz.web.295ad6e251209864.fact.7",
+      "kind": "bullet",
+      "text": "2024",
+      "tokens": [
+        "2024"
+      ]
+    },
+    {
+      "charEnd": 2508,
+      "charStart": 2497,
+      "factId": "hz.web.295ad6e251209864.fact.8",
+      "kind": "bullet",
+      "text": "retrieved",
+      "tokens": [
+        "retrieved"
+      ]
+    },
+    {
+      "charEnd": 2520,
+      "charStart": 2509,
+      "factId": "hz.web.295ad6e251209864.fact.9",
+      "kind": "bullet",
+      "text": "fediverse",
+      "tokens": [
+        "fediverse"
+      ]
+    },
+    {
+      "charEnd": 2534,
+      "charStart": 2521,
+      "factId": "hz.web.295ad6e251209864.fact.10",
+      "kind": "bullet",
+      "text": "activitypub",
+      "tokens": [
+        "activitypub"
+      ]
+    },
+    {
+      "charEnd": 2545,
+      "charStart": 2535,
+      "factId": "hz.web.295ad6e251209864.fact.11",
+      "kind": "bullet",
+      "text": "protocol",
+      "tokens": [
+        "protocol"
+      ]
+    },
+    {
+      "charEnd": 2552,
+      "charStart": 2546,
+      "factId": "hz.web.295ad6e251209864.fact.12",
+      "kind": "bullet",
+      "text": "2023",
+      "tokens": [
+        "2023"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.295ad6e251209864.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Fediverse - Wikipedia"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.295ad6e251209864.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2478,
+      "charStart": 2467,
+      "headingId": "hz.web.295ad6e251209864.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2564,
+      "charStart": 2554,
+      "headingId": "hz.web.295ad6e251209864.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/295ad6e251209864.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5798,
+        "start": 0
+      }
+    ],
+    "hash": "73b122946c2c7751c902a970dcb0641c5770fbc762aa8152dce18324f90c809a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Fediverse - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Design Toggle Design subsection 1.1 Content moderation and user safety 2 History Toggle History subsection 2.1 Historical protocols 2.2 ActivityPub 2.3 AT Protocol 2.4 Other Fediverse protocols 3 Adoption Toggle Adoption subsection 3.1 Government and public-sector use 3.2 Content management systems 3.3 Microblogging 3.4 News aggregators 4 Software Toggle Software subsection 4.1 ActivityPub 4.2 AT Protocol 4.3 Others 5 See also 6 References 7 Further reading Toggle the table of contents Fediverse 37 languages Български Brezhoneg Català Čeština Dansk Deutsch Esperanto Español Eesti Euskara فارسی Suomi Français Galego ગુજરાતી עברית Interlingue Italiano 日本語 Taqbaylit 한국어 Lombard Nederlands Norsk bokmål Polski Português Română Русский Sardu Srpskohrvatski / српскохрватски Simple English Svenska Tagalog Українська Tiếng Việt 閩南語 / Bân-lâm-gí 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikiquote Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Network of federated social media platforms Proposed symbol for the Fediverse from 2018, the \"fedigram\" &#91; 1 &#93; The Fediverse (commonly shortened to fedi ) &#91; 2 &#93; &#91; 3 &#93; &#91; 4 &#93; is a collection of social networking services that can communicate with each other (formally known as federation ) using a common protocol.",
+      "Users of different websites can send and receive status updates, multimedia files and other data across the network.",
+      "The term Fediverse is a portmanteau of federation and universe ."
+    ],
+    "medium": "Source: https://enwp.org/fediverse",
+    "short": "Source: https://enwp.org/fediverse",
+    "tokens": [
+      "fediverse",
+      "wikipedia",
+      "source",
+      "https",
+      "enwp",
+      "org",
+      "fediverse",
+      "source",
+      "https",
+      "enwp",
+      "org",
+      "fediverse"
+    ]
+  },
+  "title": "Fediverse - Wikipedia"
+}

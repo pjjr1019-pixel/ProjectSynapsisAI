@@ -1,0 +1,173 @@
+{
+  "aliases": [
+    {
+      "alias": "import pack planning and orchestration v7",
+      "aliasId": "hz.pipeline.imports.planning-orchestration-v7.alias.1",
+      "canonical": "import pack — planning and orchestration v7"
+    },
+    {
+      "alias": "imports planning-orchestration-v7",
+      "aliasId": "hz.pipeline.imports.planning-orchestration-v7.alias.2",
+      "canonical": "import pack — planning and orchestration v7"
+    },
+    {
+      "alias": "planning orchestration v7",
+      "aliasId": "hz.pipeline.imports.planning-orchestration-v7.alias.3",
+      "canonical": "import pack — planning and orchestration v7"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.planning-orchestration-v7",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.planning-orchestration-v7.entity.1",
+      "kind": "document",
+      "name": "Import pack — Planning and Orchestration v7",
+      "tokens": [
+        "import",
+        "pack",
+        "planning",
+        "orchestration",
+        "v7"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.planning-orchestration-v7.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.planning-orchestration-v7.entity.3",
+      "kind": "tag",
+      "name": "planning",
+      "tokens": [
+        "planning"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.planning-orchestration-v7.entity.4",
+      "kind": "tag",
+      "name": "orchestration",
+      "tokens": [
+        "orchestration"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.planning-orchestration-v7.entity.5",
+      "kind": "tag",
+      "name": "multi-step",
+      "tokens": [
+        "multi",
+        "step"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.planning-orchestration-v7.entity.6",
+      "kind": "tag",
+      "name": "checkpoints",
+      "tokens": [
+        "checkpoints"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.planning-orchestration-v7.entity.7",
+      "kind": "heading",
+      "name": "Planning and orchestration v7 (import anchor)",
+      "tokens": [
+        "planning",
+        "orchestration",
+        "v7",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 172,
+      "charStart": 53,
+      "factId": "hz.pipeline.imports.planning-orchestration-v7.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_brain_planningorchestration_v7",
+        "horizonsai_brain_planningorchestration_v7",
+        "readme",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 48,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.planning-orchestration-v7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Planning and orchestration v7 (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/planning-orchestration-v7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 784,
+        "start": 0
+      }
+    ],
+    "hash": "2d6144f5e1d21808ad3709ca00bc5e64bf2031f6b70976e1dd60034803139c50",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Brain_PlanningOrchestration_v7/`",
+      "relationId": "hz.pipeline.imports.planning-orchestration-v7.relation.1",
+      "sourceDocId": "hz.pipeline.imports.planning-orchestration-v7",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_PlanningOrchestration_v7/README.md",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.planning-orchestration-v7.relation.2",
+      "sourceDocId": "hz.pipeline.imports.planning-orchestration-v7",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)",
+    "short": "**Source tree:** [`HorizonsAI_Brain_PlanningOrchestration_v7/`](../HorizonsAI_Brain_PlanningOrchestration_v7/README.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "planning",
+      "orchestration",
+      "v7",
+      "source",
+      "tree",
+      "horizonsai_brain_planningorchestration_v7",
+      "horizonsai_brain_planningorchestration_v7",
+      "readme",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_brain_planningorchestration_v7",
+      "horizonsai_brain_planningorchestration_v7",
+      "readme",
+      "md"
+    ]
+  },
+  "title": "Import pack — Planning and Orchestration v7"
+}

@@ -1,0 +1,366 @@
+{
+  "aliases": [
+    {
+      "alias": "f693acecddb878b1",
+      "aliasId": "hz.web.f693acecddb878b1.alias.1",
+      "canonical": "indieauth"
+    },
+    {
+      "alias": "indieauth",
+      "aliasId": "hz.web.f693acecddb878b1.alias.2",
+      "canonical": "indieauth"
+    },
+    {
+      "alias": "web f693acecddb878b1",
+      "aliasId": "hz.web.f693acecddb878b1.alias.3",
+      "canonical": "indieauth"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.f693acecddb878b1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f693acecddb878b1.entity.1",
+      "kind": "document",
+      "name": "IndieAuth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "entityId": "hz.web.f693acecddb878b1.entity.2",
+      "kind": "heading",
+      "name": "IndieAuth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "entityId": "hz.web.f693acecddb878b1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f693acecddb878b1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f693acecddb878b1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 67,
+      "charStart": 14,
+      "factId": "hz.web.f693acecddb878b1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieauth.spec.indieweb.org/20201126/",
+      "tokens": [
+        "source",
+        "https",
+        "indieauth",
+        "spec",
+        "indieweb",
+        "org",
+        "20201126"
+      ]
+    },
+    {
+      "charEnd": 467,
+      "charStart": 119,
+      "factId": "hz.web.f693acecddb878b1.fact.1",
+      "kind": "bullet",
+      "text": "IndieAuth IndieAuth IndieWeb Living Standard 26 November 2020 This version: https://indieauth.spec.indieweb.org/ Test suite: https://indieauth.rocks/ Previous version: https://indieauth.spec.indieweb.org/20200926/ Editor: Aaron Parecki Repository: Github Issues Commits Please check the errata for any errors or issues reported since publication.",
+      "tokens": [
+        "indieauth",
+        "indieauth",
+        "indieweb",
+        "living",
+        "standard",
+        "26",
+        "november",
+        "2020",
+        "version",
+        "https",
+        "indieauth",
+        "spec",
+        "indieweb",
+        "org",
+        "test",
+        "suite",
+        "https",
+        "indieauth",
+        "rocks",
+        "previous",
+        "version",
+        "https",
+        "indieauth",
+        "spec",
+        "indieweb",
+        "org",
+        "20200926",
+        "editor",
+        "aaron",
+        "parecki",
+        "repository",
+        "github",
+        "issues",
+        "commits",
+        "please",
+        "check",
+        "errata",
+        "any",
+        "errors",
+        "issues",
+        "reported",
+        "since",
+        "publication"
+      ]
+    },
+    {
+      "charEnd": 627,
+      "charStart": 468,
+      "factId": "hz.web.f693acecddb878b1.fact.2",
+      "kind": "bullet",
+      "text": "License: Per CC0 , to the extent possible under law, the editor(s) and contributors have waived all copyright and related or neighboring rights to this work.",
+      "tokens": [
+        "license",
+        "per",
+        "cc0",
+        "extent",
+        "possible",
+        "under",
+        "law",
+        "editor",
+        "contributors",
+        "have",
+        "waived",
+        "all",
+        "copyright",
+        "related",
+        "neighboring",
+        "rights",
+        "work"
+      ]
+    },
+    {
+      "charEnd": 766,
+      "charStart": 628,
+      "factId": "hz.web.f693acecddb878b1.fact.3",
+      "kind": "bullet",
+      "text": "In addition, the editor(s) and contributors have made this specification available under the Open Web Foundation Agreement Version 1.0 .",
+      "tokens": [
+        "addition",
+        "editor",
+        "contributors",
+        "have",
+        "made",
+        "specification",
+        "available",
+        "under",
+        "open",
+        "web",
+        "foundation",
+        "agreement",
+        "version"
+      ]
+    },
+    {
+      "charEnd": 937,
+      "charStart": 767,
+      "factId": "hz.web.f693acecddb878b1.fact.4",
+      "kind": "bullet",
+      "text": "Abstract IndieAuth is an identity layer on top of OAuth 2.0 [ RFC6749 ], primarily used to obtain an OAuth 2.0 Bearer Token [ RFC6750 ] for use by [ Micropub ] clients.",
+      "tokens": [
+        "abstract",
+        "indieauth",
+        "identity",
+        "layer",
+        "top",
+        "oauth",
+        "rfc6749",
+        "primarily",
+        "used",
+        "obtain",
+        "oauth",
+        "bearer",
+        "token",
+        "rfc6750",
+        "use",
+        "micropub",
+        "clients"
+      ]
+    },
+    {
+      "charEnd": 967,
+      "charStart": 952,
+      "factId": "hz.web.f693acecddb878b1.fact.5",
+      "kind": "bullet",
+      "text": "authorization",
+      "tokens": [
+        "authorization"
+      ]
+    },
+    {
+      "charEnd": 976,
+      "charStart": 968,
+      "factId": "hz.web.f693acecddb878b1.fact.6",
+      "kind": "bullet",
+      "text": "client",
+      "tokens": [
+        "client"
+      ]
+    },
+    {
+      "charEnd": 982,
+      "charStart": 977,
+      "factId": "hz.web.f693acecddb878b1.fact.7",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    },
+    {
+      "charEnd": 989,
+      "charStart": 983,
+      "factId": "hz.web.f693acecddb878b1.fact.8",
+      "kind": "bullet",
+      "text": "user",
+      "tokens": [
+        "user"
+      ]
+    },
+    {
+      "charEnd": 999,
+      "charStart": 990,
+      "factId": "hz.web.f693acecddb878b1.fact.9",
+      "kind": "bullet",
+      "text": "profile",
+      "tokens": [
+        "profile"
+      ]
+    },
+    {
+      "charEnd": 1007,
+      "charStart": 1000,
+      "factId": "hz.web.f693acecddb878b1.fact.10",
+      "kind": "bullet",
+      "text": "token",
+      "tokens": [
+        "token"
+      ]
+    },
+    {
+      "charEnd": 1014,
+      "charStart": 1008,
+      "factId": "hz.web.f693acecddb878b1.fact.11",
+      "kind": "bullet",
+      "text": "code",
+      "tokens": [
+        "code"
+      ]
+    },
+    {
+      "charEnd": 1025,
+      "charStart": 1015,
+      "factId": "hz.web.f693acecddb878b1.fact.12",
+      "kind": "bullet",
+      "text": "endpoint",
+      "tokens": [
+        "endpoint"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.f693acecddb878b1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IndieAuth"
+    },
+    {
+      "charEnd": 117,
+      "charStart": 107,
+      "headingId": "hz.web.f693acecddb878b1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 950,
+      "charStart": 939,
+      "headingId": "hz.web.f693acecddb878b1.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1037,
+      "charStart": 1027,
+      "headingId": "hz.web.f693acecddb878b1.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f693acecddb878b1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4278,
+        "start": 0
+      }
+    ],
+    "hash": "dc162c1686711be4b38de94320054b01a81c528649bf840d16158028a9f2f1c0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "IndieAuth IndieAuth IndieWeb Living Standard 26 November 2020 This version: https://indieauth.spec.indieweb.org/ Test suite: https://indieauth.rocks/ Previous version: https://indieauth.spec.indieweb.org/20200926/ Editor: Aaron Parecki Repository: Github Issues Commits Please check the errata for any errors or issues reported since publication.",
+      "License: Per CC0 , to the extent possible under law, the editor(s) and contributors have waived all copyright and related or neighboring rights to this work.",
+      "In addition, the editor(s) and contributors have made this specification available under the Open Web Foundation Agreement Version 1.0 ."
+    ],
+    "medium": "Source: https://indieauth.spec.indieweb.org/20201126/",
+    "short": "Source: https://indieauth.spec.indieweb.org/20201126/",
+    "tokens": [
+      "indieauth",
+      "source",
+      "https",
+      "indieauth",
+      "spec",
+      "indieweb",
+      "org",
+      "20201126",
+      "source",
+      "https",
+      "indieauth",
+      "spec",
+      "indieweb",
+      "org",
+      "20201126"
+    ]
+  },
+  "title": "IndieAuth"
+}

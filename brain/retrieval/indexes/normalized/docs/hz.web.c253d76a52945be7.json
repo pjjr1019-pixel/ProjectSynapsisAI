@@ -1,0 +1,501 @@
+{
+  "aliases": [
+    {
+      "alias": "aaron parecki",
+      "aliasId": "hz.web.c253d76a52945be7.alias.1",
+      "canonical": "aaron parecki"
+    },
+    {
+      "alias": "c253d76a52945be7",
+      "aliasId": "hz.web.c253d76a52945be7.alias.2",
+      "canonical": "aaron parecki"
+    },
+    {
+      "alias": "web c253d76a52945be7",
+      "aliasId": "hz.web.c253d76a52945be7.alias.3",
+      "canonical": "aaron parecki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.c253d76a52945be7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c253d76a52945be7.entity.1",
+      "kind": "document",
+      "name": "Aaron Parecki",
+      "tokens": [
+        "aaron",
+        "parecki"
+      ]
+    },
+    {
+      "entityId": "hz.web.c253d76a52945be7.entity.2",
+      "kind": "heading",
+      "name": "Aaron Parecki",
+      "tokens": [
+        "aaron",
+        "parecki"
+      ]
+    },
+    {
+      "entityId": "hz.web.c253d76a52945be7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c253d76a52945be7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c253d76a52945be7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 18,
+      "factId": "hz.web.c253d76a52945be7.fact.1",
+      "kind": "summary",
+      "text": "Source: http://aaronparecki.com/articles",
+      "tokens": [
+        "source",
+        "http",
+        "aaronparecki",
+        "com",
+        "articles"
+      ]
+    },
+    {
+      "charEnd": 735,
+      "charStart": 110,
+      "factId": "hz.web.c253d76a52945be7.fact.1",
+      "kind": "bullet",
+      "text": "Aaron Parecki --> 62&deg;F Aaron Parecki Articles Notes Photos Articles 2025-11-25 Client Registration and Enterprise Management in the November 2025 MCP Authorization Spec 2025-11-25 Recurring Events for Meetable 2025-10-11 Adding Support for BlueSky to IndieLogin.com 2025-10-08 Client ID Metadata Document Adopted by the OAuth Working Group 2025-10-04 Meetable Release Notes - October 2025 2025-08-06 San Francisco Billboards - August 2025 2025-05-12 Enterprise-Ready MCP 2025-04-03 Let&#039;s fix OAuth in MCP 2024-11-04 My IETF 121 Agenda 2024-08-31 Thoughts on the Resiliency of Web Projects 2024-08-29 OAuth Oh Yeah!",
+      "tokens": [
+        "aaron",
+        "parecki",
+        "62",
+        "deg",
+        "aaron",
+        "parecki",
+        "articles",
+        "notes",
+        "photos",
+        "articles",
+        "2025",
+        "11",
+        "25",
+        "client",
+        "registration",
+        "enterprise",
+        "management",
+        "november",
+        "2025",
+        "mcp",
+        "authorization",
+        "spec",
+        "2025",
+        "11",
+        "25",
+        "recurring",
+        "events",
+        "meetable",
+        "2025",
+        "10",
+        "11",
+        "adding",
+        "support",
+        "bluesky",
+        "indielogin",
+        "com",
+        "2025",
+        "10",
+        "08",
+        "client",
+        "id",
+        "metadata",
+        "document",
+        "adopted",
+        "oauth",
+        "working",
+        "group",
+        "2025",
+        "10",
+        "04",
+        "meetable",
+        "release",
+        "notes",
+        "october",
+        "2025",
+        "2025",
+        "08",
+        "06",
+        "san",
+        "francisco",
+        "billboards",
+        "august",
+        "2025",
+        "2025",
+        "05",
+        "12",
+        "enterprise",
+        "ready",
+        "mcp",
+        "2025",
+        "04",
+        "03",
+        "let",
+        "039",
+        "fix",
+        "oauth",
+        "mcp",
+        "2024",
+        "11",
+        "04",
+        "ietf",
+        "121",
+        "agenda",
+        "2024",
+        "08",
+        "31",
+        "thoughts",
+        "resiliency",
+        "web",
+        "projects",
+        "2024",
+        "08",
+        "29",
+        "oauth",
+        "oh",
+        "yeah"
+      ]
+    },
+    {
+      "charEnd": 863,
+      "charStart": 736,
+      "factId": "hz.web.c253d76a52945be7.fact.2",
+      "kind": "bullet",
+      "text": "2024-07-21 My IETF 120 Agenda 2024-05-12 FedCM for IndieAuth 2024-05-02 OAuth for Browser-Based Apps Working Group Last Call!",
+      "tokens": [
+        "2024",
+        "07",
+        "21",
+        "ietf",
+        "120",
+        "agenda",
+        "2024",
+        "05",
+        "12",
+        "fedcm",
+        "indieauth",
+        "2024",
+        "05",
+        "02",
+        "oauth",
+        "browser",
+        "based",
+        "apps",
+        "working",
+        "group",
+        "last",
+        "call"
+      ]
+    },
+    {
+      "charEnd": 1405,
+      "charStart": 864,
+      "factId": "hz.web.c253d76a52945be7.fact.3",
+      "kind": "bullet",
+      "text": "2024-03-29 OAuth: \"grant\" vs \"flow\" vs \"grant type\" 2023-12-01 I took the High-Speed Brightline Train from Miami to Orlando with only two hours notice 2023-10-23 OAuth for Browser-Based Apps Draft 15 2023-03-09 OAuth Support in Bluesky and AT Protocol 2023-03-07 How to use your own domain as your BlueSky handle 2022-12-22 How to create a keyboard shortcut to export the current slide in Keynote &larr; older Client Registration and Enterprise Management in the November 2025 MCP Authorization Spec The new MCP authorization spec is here!",
+      "tokens": [
+        "2024",
+        "03",
+        "29",
+        "oauth",
+        "grant",
+        "vs",
+        "flow",
+        "vs",
+        "grant",
+        "type",
+        "2023",
+        "12",
+        "01",
+        "took",
+        "high",
+        "speed",
+        "brightline",
+        "train",
+        "miami",
+        "orlando",
+        "only",
+        "two",
+        "hours",
+        "notice",
+        "2023",
+        "10",
+        "23",
+        "oauth",
+        "browser",
+        "based",
+        "apps",
+        "draft",
+        "15",
+        "2023",
+        "03",
+        "09",
+        "oauth",
+        "support",
+        "bluesky",
+        "protocol",
+        "2023",
+        "03",
+        "07",
+        "use",
+        "your",
+        "own",
+        "domain",
+        "your",
+        "bluesky",
+        "handle",
+        "2022",
+        "12",
+        "22",
+        "create",
+        "keyboard",
+        "shortcut",
+        "export",
+        "current",
+        "slide",
+        "keynote",
+        "larr",
+        "older",
+        "client",
+        "registration",
+        "enterprise",
+        "management",
+        "november",
+        "2025",
+        "mcp",
+        "authorization",
+        "spec",
+        "new",
+        "mcp",
+        "authorization",
+        "spec",
+        "here"
+      ]
+    },
+    {
+      "charEnd": 1536,
+      "charStart": 1406,
+      "factId": "hz.web.c253d76a52945be7.fact.4",
+      "kind": "bullet",
+      "text": "Today marks the one-year anniversary of the Model Context Protocol, and with it, the launch of the new 2025-11-25 specification.",
+      "tokens": [
+        "today",
+        "marks",
+        "one",
+        "year",
+        "anniversary",
+        "model",
+        "context",
+        "protocol",
+        "launch",
+        "new",
+        "2025",
+        "11",
+        "25",
+        "specification"
+      ]
+    },
+    {
+      "charEnd": 1558,
+      "charStart": 1551,
+      "factId": "hz.web.c253d76a52945be7.fact.5",
+      "kind": "bullet",
+      "text": "oauth",
+      "tokens": [
+        "oauth"
+      ]
+    },
+    {
+      "charEnd": 1565,
+      "charStart": 1559,
+      "factId": "hz.web.c253d76a52945be7.fact.6",
+      "kind": "bullet",
+      "text": "2025",
+      "tokens": [
+        "2025"
+      ]
+    },
+    {
+      "charEnd": 1570,
+      "charStart": 1566,
+      "factId": "hz.web.c253d76a52945be7.fact.7",
+      "kind": "bullet",
+      "text": "00",
+      "tokens": [
+        "00"
+      ]
+    },
+    {
+      "charEnd": 1581,
+      "charStart": 1571,
+      "factId": "hz.web.c253d76a52945be7.fact.8",
+      "kind": "bullet",
+      "text": "continue",
+      "tokens": [
+        "continue"
+      ]
+    },
+    {
+      "charEnd": 1591,
+      "charStart": 1582,
+      "factId": "hz.web.c253d76a52945be7.fact.9",
+      "kind": "bullet",
+      "text": "reading",
+      "tokens": [
+        "reading"
+      ]
+    },
+    {
+      "charEnd": 1596,
+      "charStart": 1592,
+      "factId": "hz.web.c253d76a52945be7.fact.10",
+      "kind": "bullet",
+      "text": "07",
+      "tokens": [
+        "07"
+      ]
+    },
+    {
+      "charEnd": 1603,
+      "charStart": 1597,
+      "factId": "hz.web.c253d76a52945be7.fact.11",
+      "kind": "bullet",
+      "text": "2024",
+      "tokens": [
+        "2024"
+      ]
+    },
+    {
+      "charEnd": 1610,
+      "charStart": 1604,
+      "factId": "hz.web.c253d76a52945be7.fact.12",
+      "kind": "bullet",
+      "text": "ietf",
+      "tokens": [
+        "ietf"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.c253d76a52945be7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Aaron Parecki"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.c253d76a52945be7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1549,
+      "charStart": 1538,
+      "headingId": "hz.web.c253d76a52945be7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1622,
+      "charStart": 1612,
+      "headingId": "hz.web.c253d76a52945be7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/c253d76a52945be7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4854,
+        "start": 0
+      }
+    ],
+    "hash": "4e67eb4e7ee09e7d99d74fae7797b382c670258b66f0018a9aaa79467e45f103",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.c253d76a52945be7.rule.1",
+      "text": "The billboards on 101 are always such a good snapshot in time of the current peak of the Silicon Valley hype cycle.",
+      "tokens": [
+        "billboards",
+        "101",
+        "always",
+        "such",
+        "good",
+        "snapshot",
+        "time",
+        "current",
+        "peak",
+        "silicon",
+        "valley",
+        "hype",
+        "cycle"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Aaron Parecki --> 62&deg;F Aaron Parecki Articles Notes Photos Articles 2025-11-25 Client Registration and Enterprise Management in the November 2025 MCP Authorization Spec 2025-11-25 Recurring Events for Meetable 2025-10-11 Adding Support for BlueSky to IndieLogin.com 2025-10-08 Client ID Metadata Document Adopted by the OAuth Working Group 2025-10-04 Meetable Release Notes - October 2025 2025-08-06 San Francisco Billboards - August 2025 2025-05-12 Enterprise-Ready MCP 2025-04-03 Let&#039;s fix OAuth in MCP 2024-11-04 My IETF 121 Agenda 2024-08-31 Thoughts on the Resiliency of Web Projects 2024-08-29 OAuth Oh Yeah!",
+      "2024-07-21 My IETF 120 Agenda 2024-05-12 FedCM for IndieAuth 2024-05-02 OAuth for Browser-Based Apps Working Group Last Call!",
+      "2024-03-29 OAuth: \"grant\" vs \"flow\" vs \"grant type\" 2023-12-01 I took the High-Speed Brightline Train from Miami to Orlando with only two hours notice 2023-10-23 OAuth for Browser-Based Apps Draft 15 2023-03-09 OAuth Support in Bluesky and AT Protocol 2023-03-07 How to use your own domain as your BlueSky handle 2022-12-22 How to create a keyboard shortcut to export the current slide in Keynote &larr; older Client Registration and Enterprise Management in the November 2025 MCP Authorization Spec The new MCP authorization spec is here!"
+    ],
+    "medium": "Source: http://aaronparecki.com/articles",
+    "short": "Source: http://aaronparecki.com/articles",
+    "tokens": [
+      "aaron",
+      "parecki",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "articles",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "articles"
+    ]
+  },
+  "title": "Aaron Parecki"
+}

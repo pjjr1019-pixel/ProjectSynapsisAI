@@ -1,0 +1,407 @@
+{
+  "aliases": [
+    {
+      "alias": "3d35acbf51733e84",
+      "aliasId": "hz.web.3d35acbf51733e84.alias.1",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "facebook",
+      "aliasId": "hz.web.3d35acbf51733e84.alias.2",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "web 3d35acbf51733e84",
+      "aliasId": "hz.web.3d35acbf51733e84.alias.3",
+      "canonical": "facebook"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.3d35acbf51733e84",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3d35acbf51733e84.entity.1",
+      "kind": "document",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d35acbf51733e84.entity.2",
+      "kind": "heading",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d35acbf51733e84.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d35acbf51733e84.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d35acbf51733e84.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 244,
+      "charStart": 13,
+      "factId": "hz.web.3d35acbf51733e84.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.facebook.com/sharer/sharer.php?caption=Google%20NewFront%202026%3A%20introducing%20the%20Gemini%20advantage&u=https://blog.google/products/marketingplatform/360/gemini-models-advantage-google-marketing-platform/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "facebook",
+        "com",
+        "sharer",
+        "sharer",
+        "php",
+        "caption",
+        "google",
+        "20newfront",
+        "202026",
+        "3a",
+        "20introducing",
+        "20the",
+        "20gemini",
+        "20advantage",
+        "https",
+        "blog",
+        "google",
+        "products",
+        "marketingplatform",
+        "360",
+        "gemini",
+        "models",
+        "advantage",
+        "google",
+        "marketing",
+        "platform"
+      ]
+    },
+    {
+      "charEnd": 336,
+      "charStart": 296,
+      "factId": "hz.web.3d35acbf51733e84.fact.1",
+      "kind": "bullet",
+      "text": "Facebook Explore the things you love .",
+      "tokens": [
+        "facebook",
+        "explore",
+        "things",
+        "love"
+      ]
+    },
+    {
+      "charEnd": 412,
+      "charStart": 337,
+      "factId": "hz.web.3d35acbf51733e84.fact.2",
+      "kind": "bullet",
+      "text": "Log into Facebook Email or mobile number Password Log in Forgot password?",
+      "tokens": [
+        "log",
+        "into",
+        "facebook",
+        "email",
+        "mobile",
+        "number",
+        "password",
+        "log",
+        "forgot",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 819,
+      "charStart": 413,
+      "factId": "hz.web.3d35acbf51733e84.fact.3",
+      "kind": "bullet",
+      "text": "Create new account English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026",
+      "tokens": [
+        "create",
+        "new",
+        "account",
+        "english",
+        "us",
+        "espa",
+        "ol",
+        "fran",
+        "ais",
+        "france",
+        "portugu",
+        "brasil",
+        "italiano",
+        "more",
+        "languages",
+        "sign",
+        "up",
+        "log",
+        "messenger",
+        "facebook",
+        "lite",
+        "video",
+        "meta",
+        "pay",
+        "meta",
+        "store",
+        "meta",
+        "quest",
+        "ray",
+        "ban",
+        "meta",
+        "meta",
+        "ai",
+        "instagram",
+        "threads",
+        "privacy",
+        "policy",
+        "consumer",
+        "health",
+        "privacy",
+        "privacy",
+        "center",
+        "about",
+        "create",
+        "ad",
+        "create",
+        "page",
+        "developers",
+        "careers",
+        "cookies",
+        "ad",
+        "choices",
+        "terms",
+        "help",
+        "contact",
+        "uploading",
+        "non",
+        "users",
+        "meta",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 840,
+      "charStart": 834,
+      "factId": "hz.web.3d35acbf51733e84.fact.4",
+      "kind": "bullet",
+      "text": "meta",
+      "tokens": [
+        "meta"
+      ]
+    },
+    {
+      "charEnd": 849,
+      "charStart": 841,
+      "factId": "hz.web.3d35acbf51733e84.fact.5",
+      "kind": "bullet",
+      "text": "create",
+      "tokens": [
+        "create"
+      ]
+    },
+    {
+      "charEnd": 860,
+      "charStart": 850,
+      "factId": "hz.web.3d35acbf51733e84.fact.6",
+      "kind": "bullet",
+      "text": "facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "charEnd": 866,
+      "charStart": 861,
+      "factId": "hz.web.3d35acbf51733e84.fact.7",
+      "kind": "bullet",
+      "text": "log",
+      "tokens": [
+        "log"
+      ]
+    },
+    {
+      "charEnd": 876,
+      "charStart": 867,
+      "factId": "hz.web.3d35acbf51733e84.fact.8",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 881,
+      "charStart": 877,
+      "factId": "hz.web.3d35acbf51733e84.fact.9",
+      "kind": "bullet",
+      "text": "ad",
+      "tokens": [
+        "ad"
+      ]
+    },
+    {
+      "charEnd": 892,
+      "charStart": 882,
+      "factId": "hz.web.3d35acbf51733e84.fact.10",
+      "kind": "bullet",
+      "text": "password",
+      "tokens": [
+        "password"
+      ]
+    },
+    {
+      "charEnd": 899,
+      "charStart": 893,
+      "factId": "hz.web.3d35acbf51733e84.fact.11",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.3d35acbf51733e84.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Facebook"
+    },
+    {
+      "charEnd": 294,
+      "charStart": 284,
+      "headingId": "hz.web.3d35acbf51733e84.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 832,
+      "charStart": 821,
+      "headingId": "hz.web.3d35acbf51733e84.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 911,
+      "charStart": 901,
+      "headingId": "hz.web.3d35acbf51733e84.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3d35acbf51733e84.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1846,
+        "start": 0
+      }
+    ],
+    "hash": "4cd11831c08ae97f5fdfe4af6999a58a30fd0a7e091a7f14a2dfc2882c92cdba",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Facebook Explore the things you love .",
+      "Log into Facebook Email or mobile number Password Log in Forgot password?",
+      "Create new account English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026"
+    ],
+    "medium": "Source: https://www.facebook.com/sharer/sharer.php?caption=Google%20NewFront%202026%3A%20introducing%20the%20Gemini%20advantage&u=https://blog.google/products/marketingplatform/360/gemini-models-advantage-google-marketing-platform/",
+    "short": "Source: https://www.facebook.com/sharer/sharer.php?caption=Google%20NewFront%202026%3A%20introducing%20the%20Gemini%20advantage&u=https://blog.google/products/marketingplatform/360/gemini-models-advantage-google-marketing-platform/",
+    "tokens": [
+      "facebook",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "sharer",
+      "sharer",
+      "php",
+      "caption",
+      "google",
+      "20newfront",
+      "202026",
+      "3a",
+      "20introducing",
+      "20the",
+      "20gemini",
+      "20advantage",
+      "https",
+      "blog",
+      "google",
+      "products",
+      "marketingplatform",
+      "360",
+      "gemini",
+      "models",
+      "advantage",
+      "google",
+      "marketing",
+      "platform",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "sharer",
+      "sharer",
+      "php",
+      "caption",
+      "google",
+      "20newfront",
+      "202026",
+      "3a",
+      "20introducing",
+      "20the",
+      "20gemini",
+      "20advantage",
+      "https",
+      "blog",
+      "google",
+      "products",
+      "marketingplatform",
+      "360",
+      "gemini",
+      "models",
+      "advantage",
+      "google",
+      "marketing",
+      "platform"
+    ]
+  },
+  "title": "Facebook"
+}

@@ -1,0 +1,211 @@
+{
+  "aliases": [
+    {
+      "alias": "import pack brain mega pack all recommended",
+      "aliasId": "hz.pipeline.imports.megapack-all-recommended.alias.1",
+      "canonical": "import pack — brain mega pack (all recommended)"
+    },
+    {
+      "alias": "imports megapack-all-recommended",
+      "aliasId": "hz.pipeline.imports.megapack-all-recommended.alias.2",
+      "canonical": "import pack — brain mega pack (all recommended)"
+    },
+    {
+      "alias": "megapack all recommended",
+      "aliasId": "hz.pipeline.imports.megapack-all-recommended.alias.3",
+      "canonical": "import pack — brain mega pack (all recommended)"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.megapack-all-recommended",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.1",
+      "kind": "document",
+      "name": "Import pack — Brain Mega Pack (all recommended)",
+      "tokens": [
+        "import",
+        "pack",
+        "brain",
+        "mega",
+        "pack",
+        "all",
+        "recommended"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.3",
+      "kind": "tag",
+      "name": "megapack",
+      "tokens": [
+        "megapack"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.4",
+      "kind": "tag",
+      "name": "consolidated",
+      "tokens": [
+        "consolidated"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.5",
+      "kind": "tag",
+      "name": "foundation",
+      "tokens": [
+        "foundation"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.6",
+      "kind": "tag",
+      "name": "finance",
+      "tokens": [
+        "finance"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.7",
+      "kind": "tag",
+      "name": "governance",
+      "tokens": [
+        "governance"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.megapack-all-recommended.entity.8",
+      "kind": "heading",
+      "name": "Mega Pack — all recommended (import anchor)",
+      "tokens": [
+        "mega",
+        "pack",
+        "all",
+        "recommended",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 178,
+      "charStart": 51,
+      "factId": "hz.pipeline.imports.megapack-all-recommended.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_brain_megapack_allrecommended",
+        "horizonsai_brain_megapack_allrecommended",
+        "readme_mega_pack",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 46,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.megapack-all-recommended.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Mega Pack — all recommended (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/megapack-all-recommended.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1180,
+        "start": 0
+      }
+    ],
+    "hash": "7069582c2ba0c9c028f5198f29f3abcd121ba72db65a9b403c130bf9afbb062c",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Brain_MegaPack_AllRecommended/`",
+      "relationId": "hz.pipeline.imports.megapack-all-recommended.relation.1",
+      "sourceDocId": "hz.pipeline.imports.megapack-all-recommended",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.megapack-all-recommended.relation.2",
+      "sourceDocId": "hz.pipeline.imports.megapack-all-recommended",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [
+    {
+      "ruleId": "hz.pipeline.imports.megapack-all-recommended.rule.1",
+      "text": "**Note:** This may overlap individual packs already under `imports/base-knowledge/`; prefer anchors or this mega tree consistently for retrieval to avoid duplication noise.",
+      "tokens": [
+        "note",
+        "may",
+        "overlap",
+        "individual",
+        "packs",
+        "already",
+        "under",
+        "imports",
+        "base",
+        "knowledge",
+        "prefer",
+        "anchors",
+        "mega",
+        "tree",
+        "consistently",
+        "retrieval",
+        "avoid",
+        "duplication",
+        "noise"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)",
+    "short": "**Source tree:** [`HorizonsAI_Brain_MegaPack_AllRecommended/`](../HorizonsAI_Brain_MegaPack_AllRecommended/README_MEGA_PACK.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "brain",
+      "mega",
+      "pack",
+      "all",
+      "recommended",
+      "source",
+      "tree",
+      "horizonsai_brain_megapack_allrecommended",
+      "horizonsai_brain_megapack_allrecommended",
+      "readme_mega_pack",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_brain_megapack_allrecommended",
+      "horizonsai_brain_megapack_allrecommended",
+      "readme_mega_pack",
+      "md"
+    ]
+  },
+  "title": "Import pack — Brain Mega Pack (all recommended)"
+}

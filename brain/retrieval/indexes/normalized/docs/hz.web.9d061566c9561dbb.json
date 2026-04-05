@@ -1,0 +1,508 @@
+{
+  "aliases": [
+    {
+      "alias": "9d061566c9561dbb",
+      "aliasId": "hz.web.9d061566c9561dbb.alias.1",
+      "canonical": "terms of service | about.me"
+    },
+    {
+      "alias": "terms of service about.me",
+      "aliasId": "hz.web.9d061566c9561dbb.alias.2",
+      "canonical": "terms of service | about.me"
+    },
+    {
+      "alias": "web 9d061566c9561dbb",
+      "aliasId": "hz.web.9d061566c9561dbb.alias.3",
+      "canonical": "terms of service | about.me"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.9d061566c9561dbb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9d061566c9561dbb.entity.1",
+      "kind": "document",
+      "name": "Terms of Service | about.me",
+      "tokens": [
+        "terms",
+        "service",
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d061566c9561dbb.entity.2",
+      "kind": "heading",
+      "name": "Terms of Service | about.me",
+      "tokens": [
+        "terms",
+        "service",
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d061566c9561dbb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d061566c9561dbb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d061566c9561dbb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 32,
+      "factId": "hz.web.9d061566c9561dbb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://about.me/legal",
+      "tokens": [
+        "source",
+        "https",
+        "about",
+        "legal"
+      ]
+    },
+    {
+      "charEnd": 431,
+      "charStart": 114,
+      "factId": "hz.web.9d061566c9561dbb.fact.1",
+      "kind": "bullet",
+      "text": "Terms of Service | about.me Get started for free Get your page Features Pricing Log In Home Features Pricing PLEASE NOTE THAT YOUR USE OF AND ACCESS TO OUR SERVICES (DEFINED BELOW) ARE SUBJECT TO THE FOLLOWING TERMS; IF YOU DO NOT AGREE TO ALL OF THE FOLLOWING, YOU MAY NOT USE OR ACCESS THE SERVICES IN ANY MANNER.",
+      "tokens": [
+        "terms",
+        "service",
+        "about",
+        "get",
+        "started",
+        "free",
+        "get",
+        "your",
+        "page",
+        "features",
+        "pricing",
+        "log",
+        "home",
+        "features",
+        "pricing",
+        "please",
+        "note",
+        "your",
+        "use",
+        "access",
+        "our",
+        "services",
+        "defined",
+        "below",
+        "subject",
+        "following",
+        "terms",
+        "if",
+        "not",
+        "agree",
+        "all",
+        "following",
+        "may",
+        "not",
+        "use",
+        "access",
+        "services",
+        "any",
+        "manner"
+      ]
+    },
+    {
+      "charEnd": 587,
+      "charStart": 432,
+      "factId": "hz.web.9d061566c9561dbb.fact.2",
+      "kind": "bullet",
+      "text": "Terms of Use Legal Terms of Use Privacy Policy EU Privacy Policy Cookie Policy Copyright Dispute Policy Effective date: June 7, 2018 Welcome to About.me.",
+      "tokens": [
+        "terms",
+        "use",
+        "legal",
+        "terms",
+        "use",
+        "privacy",
+        "policy",
+        "eu",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy",
+        "copyright",
+        "dispute",
+        "policy",
+        "effective",
+        "date",
+        "june",
+        "2018",
+        "welcome",
+        "about"
+      ]
+    },
+    {
+      "charEnd": 734,
+      "charStart": 588,
+      "factId": "hz.web.9d061566c9561dbb.fact.3",
+      "kind": "bullet",
+      "text": "Please read on to learn the rules and restrictions that govern your use of our website(s), products, services and applications (the “Services”).",
+      "tokens": [
+        "please",
+        "read",
+        "learn",
+        "rules",
+        "restrictions",
+        "govern",
+        "your",
+        "use",
+        "our",
+        "website",
+        "products",
+        "services",
+        "applications",
+        "services"
+      ]
+    },
+    {
+      "charEnd": 870,
+      "charStart": 735,
+      "factId": "hz.web.9d061566c9561dbb.fact.4",
+      "kind": "bullet",
+      "text": "If you have any questions, comments, or concerns regarding these terms or the Services, please contact us at [email&#160;protected] .",
+      "tokens": [
+        "if",
+        "have",
+        "any",
+        "questions",
+        "comments",
+        "concerns",
+        "regarding",
+        "these",
+        "terms",
+        "services",
+        "please",
+        "contact",
+        "us",
+        "email",
+        "160",
+        "protected"
+      ]
+    },
+    {
+      "charEnd": 891,
+      "charStart": 885,
+      "factId": "hz.web.9d061566c9561dbb.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 902,
+      "charStart": 892,
+      "factId": "hz.web.9d061566c9561dbb.fact.6",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 908,
+      "charStart": 903,
+      "factId": "hz.web.9d061566c9561dbb.fact.7",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 916,
+      "charStart": 909,
+      "factId": "hz.web.9d061566c9561dbb.fact.8",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 922,
+      "charStart": 917,
+      "factId": "hz.web.9d061566c9561dbb.fact.9",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    },
+    {
+      "charEnd": 928,
+      "charStart": 923,
+      "factId": "hz.web.9d061566c9561dbb.fact.10",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 934,
+      "charStart": 929,
+      "factId": "hz.web.9d061566c9561dbb.fact.11",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 939,
+      "charStart": 935,
+      "factId": "hz.web.9d061566c9561dbb.fact.12",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 30,
+      "charStart": 1,
+      "headingId": "hz.web.9d061566c9561dbb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Terms of Service | about.me"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.9d061566c9561dbb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 883,
+      "charStart": 872,
+      "headingId": "hz.web.9d061566c9561dbb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 951,
+      "charStart": 941,
+      "headingId": "hz.web.9d061566c9561dbb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/9d061566c9561dbb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4187,
+        "start": 0
+      }
+    ],
+    "hash": "3ec98e2639d2c20b289135147ac890a2aec83ac3242670a32127c63f36d5bc03",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.9d061566c9561dbb.rule.1",
+      "text": "# Terms of Service | about.me Source: https://about.me/legal Fetched at: 2026-03-31T06:04:48.118Z ## Summary - Terms of Service | about.me Get started for free Get your page Features Pricing Log In Home Features Pricing PLEASE NOTE THAT YOUR USE OF AND ACCESS TO OUR SERVICES (DEFINED BELOW) ARE SUBJECT TO THE FOLLOWING TERMS; IF YOU DO NOT AGREE TO ALL OF THE FOLLOWING, YOU MAY NOT USE OR ACCESS THE SERVICES IN ANY MANNER.",
+      "tokens": [
+        "terms",
+        "service",
+        "about",
+        "source",
+        "https",
+        "about",
+        "legal",
+        "fetched",
+        "2026",
+        "03",
+        "31t06",
+        "04",
+        "48",
+        "118z",
+        "summary",
+        "terms",
+        "service",
+        "about",
+        "get",
+        "started",
+        "free",
+        "get",
+        "your",
+        "page",
+        "features",
+        "pricing",
+        "log",
+        "home",
+        "features",
+        "pricing",
+        "please",
+        "note",
+        "your",
+        "use",
+        "access",
+        "our",
+        "services",
+        "defined",
+        "below",
+        "subject",
+        "following",
+        "terms",
+        "if",
+        "not",
+        "agree",
+        "all",
+        "following",
+        "may",
+        "not",
+        "use",
+        "access",
+        "services",
+        "any",
+        "manner"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9d061566c9561dbb.rule.2",
+      "text": "## Keywords - your - services - any - about - not - use - all - if ## Excerpt Terms of Service | about.me Get started for free Get your page Features Pricing Log In Home Features Pricing PLEASE NOTE THAT YOUR USE OF AND ACCESS TO OUR SERVICES (DEFINED BELOW) ARE SUBJECT TO THE FOLLOWING TERMS; IF YOU DO NOT AGREE TO ALL OF THE FOLLOWING, YOU MAY NOT USE OR ACCESS THE SERVICES IN ANY MANNER.",
+      "tokens": [
+        "keywords",
+        "your",
+        "services",
+        "any",
+        "about",
+        "not",
+        "use",
+        "all",
+        "if",
+        "excerpt",
+        "terms",
+        "service",
+        "about",
+        "get",
+        "started",
+        "free",
+        "get",
+        "your",
+        "page",
+        "features",
+        "pricing",
+        "log",
+        "home",
+        "features",
+        "pricing",
+        "please",
+        "note",
+        "your",
+        "use",
+        "access",
+        "our",
+        "services",
+        "defined",
+        "below",
+        "subject",
+        "following",
+        "terms",
+        "if",
+        "not",
+        "agree",
+        "all",
+        "following",
+        "may",
+        "not",
+        "use",
+        "access",
+        "services",
+        "any",
+        "manner"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9d061566c9561dbb.rule.3",
+      "text": "You must agree to and accept all of the Terms, or you don’t have the right to use the Services.",
+      "tokens": [
+        "must",
+        "agree",
+        "accept",
+        "all",
+        "terms",
+        "don",
+        "have",
+        "right",
+        "use",
+        "services"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9d061566c9561dbb.rule.4",
+      "text": "You must be at least 16 years old to use the services.",
+      "tokens": [
+        "must",
+        "least",
+        "16",
+        "years",
+        "old",
+        "use",
+        "services"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Terms of Service | about.me Get started for free Get your page Features Pricing Log In Home Features Pricing PLEASE NOTE THAT YOUR USE OF AND ACCESS TO OUR SERVICES (DEFINED BELOW) ARE SUBJECT TO THE FOLLOWING TERMS; IF YOU DO NOT AGREE TO ALL OF THE FOLLOWING, YOU MAY NOT USE OR ACCESS THE SERVICES IN ANY MANNER.",
+      "Terms of Use Legal Terms of Use Privacy Policy EU Privacy Policy Cookie Policy Copyright Dispute Policy Effective date: June 7, 2018 Welcome to About.me.",
+      "Please read on to learn the rules and restrictions that govern your use of our website(s), products, services and applications (the “Services”)."
+    ],
+    "medium": "Source: https://about.me/legal",
+    "short": "Source: https://about.me/legal",
+    "tokens": [
+      "terms",
+      "service",
+      "about",
+      "source",
+      "https",
+      "about",
+      "legal",
+      "source",
+      "https",
+      "about",
+      "legal"
+    ]
+  },
+  "title": "Terms of Service | about.me"
+}

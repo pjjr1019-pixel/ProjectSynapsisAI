@@ -1,0 +1,377 @@
+{
+  "aliases": [
+    {
+      "alias": "1bb30b5402533dab",
+      "aliasId": "hz.web.1bb30b5402533dab.alias.1",
+      "canonical": "linkedin bolivia: inicio de sesión o registro"
+    },
+    {
+      "alias": "linkedin bolivia inicio de sesi n o registro",
+      "aliasId": "hz.web.1bb30b5402533dab.alias.2",
+      "canonical": "linkedin bolivia: inicio de sesión o registro"
+    },
+    {
+      "alias": "web 1bb30b5402533dab",
+      "aliasId": "hz.web.1bb30b5402533dab.alias.3",
+      "canonical": "linkedin bolivia: inicio de sesión o registro"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.91,
+  "docId": "hz.web.1bb30b5402533dab",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1bb30b5402533dab.entity.1",
+      "kind": "document",
+      "name": "LinkedIn Bolivia: inicio de sesión o registro",
+      "tokens": [
+        "linkedin",
+        "bolivia",
+        "inicio",
+        "de",
+        "sesi",
+        "registro"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb30b5402533dab.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn Bolivia: inicio de sesión o registro",
+      "tokens": [
+        "linkedin",
+        "bolivia",
+        "inicio",
+        "de",
+        "sesi",
+        "registro"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb30b5402533dab.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb30b5402533dab.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb30b5402533dab.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 82,
+      "charStart": 50,
+      "factId": "hz.web.1bb30b5402533dab.fact.1",
+      "kind": "summary",
+      "text": "Source: https://bo.linkedin.com/",
+      "tokens": [
+        "source",
+        "https",
+        "bo",
+        "linkedin",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 394,
+      "charStart": 134,
+      "factId": "hz.web.1bb30b5402533dab.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn Bolivia: inicio de sesión o registro Pasar al contenido principal Aceptar y unirse a LinkedIn Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las Condiciones de uso , la Política de privacidad y la Política de cookies de LinkedIn.",
+      "tokens": [
+        "linkedin",
+        "bolivia",
+        "inicio",
+        "de",
+        "sesi",
+        "registro",
+        "pasar",
+        "al",
+        "contenido",
+        "principal",
+        "aceptar",
+        "unirse",
+        "linkedin",
+        "al",
+        "hacer",
+        "clic",
+        "en",
+        "continuar",
+        "para",
+        "unirte",
+        "iniciar",
+        "sesi",
+        "aceptas",
+        "las",
+        "condiciones",
+        "de",
+        "uso",
+        "la",
+        "pol",
+        "tica",
+        "de",
+        "privacidad",
+        "la",
+        "pol",
+        "tica",
+        "de",
+        "cookies",
+        "de",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 538,
+      "charStart": 395,
+      "factId": "hz.web.1bb30b5402533dab.fact.2",
+      "kind": "bullet",
+      "text": "LinkedIn Contenido destacado Personas Learning Empleos Juegos Iniciar sesión Unirse ahora ¡Te damos la bienvenida a tu comunidad profesional!",
+      "tokens": [
+        "linkedin",
+        "contenido",
+        "destacado",
+        "personas",
+        "learning",
+        "empleos",
+        "juegos",
+        "iniciar",
+        "sesi",
+        "unirse",
+        "ahora",
+        "te",
+        "damos",
+        "la",
+        "bienvenida",
+        "tu",
+        "comunidad",
+        "profesional"
+      ]
+    },
+    {
+      "charEnd": 724,
+      "charStart": 539,
+      "factId": "hz.web.1bb30b5402533dab.fact.3",
+      "kind": "bullet",
+      "text": "Iniciar sesión con el email Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las Condiciones de uso , la Política de privacidad y la Política de cookies de LinkedIn.",
+      "tokens": [
+        "iniciar",
+        "sesi",
+        "con",
+        "el",
+        "email",
+        "al",
+        "hacer",
+        "clic",
+        "en",
+        "continuar",
+        "para",
+        "unirte",
+        "iniciar",
+        "sesi",
+        "aceptas",
+        "las",
+        "condiciones",
+        "de",
+        "uso",
+        "la",
+        "pol",
+        "tica",
+        "de",
+        "privacidad",
+        "la",
+        "pol",
+        "tica",
+        "de",
+        "cookies",
+        "de",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 760,
+      "charStart": 725,
+      "factId": "hz.web.1bb30b5402533dab.fact.4",
+      "kind": "bullet",
+      "text": "¿Estás empezando a usar LinkedIn?",
+      "tokens": [
+        "est",
+        "empezando",
+        "usar",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 775,
+      "factId": "hz.web.1bb30b5402533dab.fact.5",
+      "kind": "bullet",
+      "text": "de",
+      "tokens": [
+        "de"
+      ]
+    },
+    {
+      "charEnd": 788,
+      "charStart": 780,
+      "factId": "hz.web.1bb30b5402533dab.fact.6",
+      "kind": "bullet",
+      "text": "cursos",
+      "tokens": [
+        "cursos"
+      ]
+    },
+    {
+      "charEnd": 799,
+      "charStart": 789,
+      "factId": "hz.web.1bb30b5402533dab.fact.7",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 804,
+      "charStart": 800,
+      "factId": "hz.web.1bb30b5402533dab.fact.8",
+      "kind": "bullet",
+      "text": "la",
+      "tokens": [
+        "la"
+      ]
+    },
+    {
+      "charEnd": 811,
+      "charStart": 805,
+      "factId": "hz.web.1bb30b5402533dab.fact.9",
+      "kind": "bullet",
+      "text": "para",
+      "tokens": [
+        "para"
+      ]
+    },
+    {
+      "charEnd": 822,
+      "charStart": 812,
+      "factId": "hz.web.1bb30b5402533dab.fact.10",
+      "kind": "bullet",
+      "text": "software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "charEnd": 828,
+      "charStart": 823,
+      "factId": "hz.web.1bb30b5402533dab.fact.11",
+      "kind": "bullet",
+      "text": "las",
+      "tokens": [
+        "las"
+      ]
+    },
+    {
+      "charEnd": 833,
+      "charStart": 829,
+      "factId": "hz.web.1bb30b5402533dab.fact.12",
+      "kind": "bullet",
+      "text": "al",
+      "tokens": [
+        "al"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 48,
+      "charStart": 1,
+      "headingId": "hz.web.1bb30b5402533dab.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn Bolivia: inicio de sesión o registro"
+    },
+    {
+      "charEnd": 132,
+      "charStart": 122,
+      "headingId": "hz.web.1bb30b5402533dab.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 773,
+      "charStart": 762,
+      "headingId": "hz.web.1bb30b5402533dab.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 845,
+      "charStart": 835,
+      "headingId": "hz.web.1bb30b5402533dab.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1bb30b5402533dab.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4101,
+        "start": 0
+      }
+    ],
+    "hash": "6554472f25e8a9e0d04b891c5bb023e8a0c128bd2829b0aceecde03b28b393c6",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn Bolivia: inicio de sesión o registro Pasar al contenido principal Aceptar y unirse a LinkedIn Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las Condiciones de uso , la Política de privacidad y la Política de cookies de LinkedIn.",
+      "LinkedIn Contenido destacado Personas Learning Empleos Juegos Iniciar sesión Unirse ahora ¡Te damos la bienvenida a tu comunidad profesional!",
+      "Iniciar sesión con el email Al hacer clic en «Continuar» para unirte o iniciar sesión, aceptas las Condiciones de uso , la Política de privacidad y la Política de cookies de LinkedIn."
+    ],
+    "medium": "Source: https://bo.linkedin.com/",
+    "short": "Source: https://bo.linkedin.com/",
+    "tokens": [
+      "linkedin",
+      "bolivia",
+      "inicio",
+      "de",
+      "sesi",
+      "registro",
+      "source",
+      "https",
+      "bo",
+      "linkedin",
+      "com",
+      "source",
+      "https",
+      "bo",
+      "linkedin",
+      "com"
+    ]
+  },
+  "title": "LinkedIn Bolivia: inicio de sesión o registro"
+}

@@ -1,0 +1,395 @@
+{
+  "aliases": [
+    {
+      "alias": "e0ee053ff1470df8",
+      "aliasId": "hz.web.e0ee053ff1470df8.alias.1",
+      "canonical": "mesh browser"
+    },
+    {
+      "alias": "mesh browser",
+      "aliasId": "hz.web.e0ee053ff1470df8.alias.2",
+      "canonical": "mesh browser"
+    },
+    {
+      "alias": "web e0ee053ff1470df8",
+      "aliasId": "hz.web.e0ee053ff1470df8.alias.3",
+      "canonical": "mesh browser"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.e0ee053ff1470df8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e0ee053ff1470df8.entity.1",
+      "kind": "document",
+      "name": "MeSH Browser",
+      "tokens": [
+        "mesh",
+        "browser"
+      ]
+    },
+    {
+      "entityId": "hz.web.e0ee053ff1470df8.entity.2",
+      "kind": "heading",
+      "name": "MeSH Browser",
+      "tokens": [
+        "mesh",
+        "browser"
+      ]
+    },
+    {
+      "entityId": "hz.web.e0ee053ff1470df8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e0ee053ff1470df8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e0ee053ff1470df8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 17,
+      "factId": "hz.web.e0ee053ff1470df8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://meshb-prev.nlm.nih.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "meshb",
+        "prev",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1123,
+      "charStart": 108,
+      "factId": "hz.web.e0ee053ff1470df8.fact.1",
+      "kind": "bullet",
+      "text": "MeSH Browser --> Toggle navigation Search Tree View MeSH on Demand MeSH 2026 About Suggestions Contact Us Medical Subject Headings 2025 The files are updated each week day Monday-Friday by 8AM EST FullWord Search SubString Search Exact Match Exact All Fragments All Any Fragment Any Sort by: Relevance Name Results per Page: 20 1000 Search in field: All Terms Main Heading (Descriptor) Terms Qualifier Terms Supplementary Concept Record Terms MeSH Unique ID Search in all Supplementary Concept Record Fields Heading Mapped To Indexing Information Pharmacological Action Search Related Registry and CAS Registry/EC Number/UNII Code/NCBI Taxonomy ID Number (RN) Related Registry Search CAS Registry/EC Number/UNII Code/NCBI Taxonomy ID Number (RN) Search in all Free Text Fields Annotation ScopeNote SCR Note Loading Connect with NLM National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 Web Policies FOIA HHS Vulnerability Disclosure NLM Support Center Accessibility Careers NLM | NIH | HHS | USA.gov",
+      "tokens": [
+        "mesh",
+        "browser",
+        "toggle",
+        "navigation",
+        "search",
+        "tree",
+        "view",
+        "mesh",
+        "demand",
+        "mesh",
+        "2026",
+        "about",
+        "suggestions",
+        "contact",
+        "us",
+        "medical",
+        "subject",
+        "headings",
+        "2025",
+        "files",
+        "updated",
+        "each",
+        "week",
+        "day",
+        "monday",
+        "friday",
+        "8am",
+        "est",
+        "fullword",
+        "search",
+        "substring",
+        "search",
+        "exact",
+        "match",
+        "exact",
+        "all",
+        "fragments",
+        "all",
+        "any",
+        "fragment",
+        "any",
+        "sort",
+        "relevance",
+        "name",
+        "results",
+        "per",
+        "page",
+        "20",
+        "1000",
+        "search",
+        "field",
+        "all",
+        "terms",
+        "main",
+        "heading",
+        "descriptor",
+        "terms",
+        "qualifier",
+        "terms",
+        "supplementary",
+        "concept",
+        "record",
+        "terms",
+        "mesh",
+        "unique",
+        "id",
+        "search",
+        "all",
+        "supplementary",
+        "concept",
+        "record",
+        "fields",
+        "heading",
+        "mapped",
+        "indexing",
+        "information",
+        "pharmacological",
+        "action",
+        "search",
+        "related",
+        "registry",
+        "cas",
+        "registry",
+        "ec",
+        "number",
+        "unii",
+        "code",
+        "ncbi",
+        "taxonomy",
+        "id",
+        "number",
+        "rn",
+        "related",
+        "registry",
+        "search",
+        "cas",
+        "registry",
+        "ec",
+        "number",
+        "unii",
+        "code",
+        "ncbi",
+        "taxonomy",
+        "id",
+        "number",
+        "rn",
+        "search",
+        "all",
+        "free",
+        "text",
+        "fields",
+        "annotation",
+        "scopenote",
+        "scr",
+        "note",
+        "loading",
+        "connect",
+        "nlm",
+        "national",
+        "library",
+        "medicine",
+        "8600",
+        "rockville",
+        "pike",
+        "bethesda",
+        "md",
+        "20894",
+        "web",
+        "policies",
+        "foia",
+        "hhs",
+        "vulnerability",
+        "disclosure",
+        "nlm",
+        "support",
+        "center",
+        "accessibility",
+        "careers",
+        "nlm",
+        "nih",
+        "hhs",
+        "usa",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1146,
+      "charStart": 1138,
+      "factId": "hz.web.e0ee053ff1470df8.fact.2",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 1152,
+      "charStart": 1147,
+      "factId": "hz.web.e0ee053ff1470df8.fact.3",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 1159,
+      "charStart": 1153,
+      "factId": "hz.web.e0ee053ff1470df8.fact.4",
+      "kind": "bullet",
+      "text": "mesh",
+      "tokens": [
+        "mesh"
+      ]
+    },
+    {
+      "charEnd": 1168,
+      "charStart": 1160,
+      "factId": "hz.web.e0ee053ff1470df8.fact.5",
+      "kind": "bullet",
+      "text": "number",
+      "tokens": [
+        "number"
+      ]
+    },
+    {
+      "charEnd": 1179,
+      "charStart": 1169,
+      "factId": "hz.web.e0ee053ff1470df8.fact.6",
+      "kind": "bullet",
+      "text": "registry",
+      "tokens": [
+        "registry"
+      ]
+    },
+    {
+      "charEnd": 1187,
+      "charStart": 1180,
+      "factId": "hz.web.e0ee053ff1470df8.fact.7",
+      "kind": "bullet",
+      "text": "terms",
+      "tokens": [
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 1192,
+      "charStart": 1188,
+      "factId": "hz.web.e0ee053ff1470df8.fact.8",
+      "kind": "bullet",
+      "text": "id",
+      "tokens": [
+        "id"
+      ]
+    },
+    {
+      "charEnd": 1198,
+      "charStart": 1193,
+      "factId": "hz.web.e0ee053ff1470df8.fact.9",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.e0ee053ff1470df8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "MeSH Browser"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.e0ee053ff1470df8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1136,
+      "charStart": 1125,
+      "headingId": "hz.web.e0ee053ff1470df8.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1210,
+      "charStart": 1200,
+      "headingId": "hz.web.e0ee053ff1470df8.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e0ee053ff1470df8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2453,
+        "start": 0
+      }
+    ],
+    "hash": "3ad2733e361113249e44f9e224e8b57e8eb92f9561640bb1cab2ea3a3e793f98",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "MeSH Browser --> Toggle navigation Search Tree View MeSH on Demand MeSH 2026 About Suggestions Contact Us Medical Subject Headings 2025 The files are updated each week day Monday-Friday by 8AM EST FullWord Search SubString Search Exact Match Exact All Fragments All Any Fragment Any Sort by: Relevance Name Results per Page: 20 1000 Search in field: All Terms Main Heading (Descriptor) Terms Qualifier Terms Supplementary Concept Record Terms MeSH Unique ID Search in all Supplementary Concept Record Fields Heading Mapped To Indexing Information Pharmacological Action Search Related Registry and CAS Registry/EC Number/UNII Code/NCBI Taxonomy ID Number (RN) Related Registry Search CAS Registry/EC Number/UNII Code/NCBI Taxonomy ID Number (RN) Search in all Free Text Fields Annotation ScopeNote SCR Note Loading Connect with NLM National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 Web Policies FOIA HHS Vulnerability Disclosure NLM Support Center Accessibility Careers NLM | NIH | HHS | USA.gov",
+      "search",
+      "all"
+    ],
+    "medium": "Source: https://meshb-prev.nlm.nih.gov/",
+    "short": "Source: https://meshb-prev.nlm.nih.gov/",
+    "tokens": [
+      "mesh",
+      "browser",
+      "source",
+      "https",
+      "meshb",
+      "prev",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "meshb",
+      "prev",
+      "nlm",
+      "nih",
+      "gov"
+    ]
+  },
+  "title": "MeSH Browser"
+}

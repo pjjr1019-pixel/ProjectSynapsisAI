@@ -1,0 +1,209 @@
+{
+  "artifactType": "context-pack",
+  "budget": 220,
+  "buildVersion": "brain-ir-runtime-v1",
+  "builtAt": "2026-03-30T06:15:26.340Z",
+  "items": [
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.assistant.sample-topic.2026-03-27",
+        "pathRefs": [
+          "apps/assistant/canonical/sample-topic.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 1.1500000000000001,
+      "text": "This document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.",
+      "title": "hz.assistant.sample-topic.2026-03-27",
+      "tokens": 26
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.launcher.launcher-overview.2026-03-27",
+        "pathRefs": [
+          "launcher/canonical/launcher-overview.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7666666666666667,
+      "text": "`brain/launcher/canonical/`",
+      "title": "hz.launcher.launcher-overview.2026-03-27",
+      "tokens": 2
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.core.retrieval-contract.2026-03-27",
+        "pathRefs": [
+          "core/retrieval-contract.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.3833333333333333,
+      "text": "- `retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces. - `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+      "title": "hz.core.retrieval-contract.2026-03-27",
+      "tokens": 33
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.core.retrieval-contract.2026-03-27",
+        "pathRefs": [
+          "core/retrieval-contract.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.3833333333333333,
+      "text": "`docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+      "title": "hz.core.retrieval-contract.2026-03-27",
+      "tokens": 21
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.launcher.launcher-overview.2026-03-27",
+        "pathRefs": [
+          "launcher/canonical/launcher-overview.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.3833333333333333,
+      "text": "The **launcher** surface provides window chrome, session bootstrap, and help text that applies before any app-specific knowledge loads.",
+      "title": "hz.launcher.launcher-overview.2026-03-27",
+      "tokens": 25
+    },
+    {
+      "kind": "fact",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.launcher.launcher-overview.2026-03-27",
+        "pathRefs": [
+          "launcher/canonical/launcher-overview.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.3833333333333333,
+      "text": "`brain/core/safety-defaults.md`",
+      "title": "hz.launcher.launcher-overview.2026-03-27",
+      "tokens": 2
+    },
+    {
+      "kind": "summary",
+      "provenance": {
+        "chunkIds": [
+          "hz.chunk.hz.assistant.sample-topic.2026-03-27.0"
+        ],
+        "docId": "hz.assistant.sample-topic.2026-03-27",
+        "pathRefs": [
+          "apps/assistant/canonical/sample-topic.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 3.483333333333333,
+      "text": "This document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.",
+      "title": "Sample canonical knowledge topic",
+      "tokens": 26
+    },
+    {
+      "kind": "summary",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json",
+        "pathRefs": [
+          "apps/assistant/knowledge/modules/sample-module.manifest.json"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7166666666666667,
+      "text": "{ \"moduleId\": \"hz.module.assistant.sample\", \"version\": \"0.1.0\", \"entry\": \"assistant-sample\", \"brainPaths\": [ \"apps/assistant/canonical/*.md\", \"prompts/library/assistant-system-baseline.md\" ], \"requiredApps\": [\"assistant\"], \"retrievalScopes\"",
+      "title": "sample module.manifest",
+      "tokens": 21
+    },
+    {
+      "kind": "summary",
+      "provenance": {
+        "chunkIds": [
+          "hz.chunk.hz.core.retrieval-contract.2026-03-27.0"
+        ],
+        "docId": "hz.core.retrieval-contract.2026-03-27",
+        "pathRefs": [
+          "core/retrieval-contract.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7166666666666667,
+      "text": "- `retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces. - `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).",
+      "title": "Retrieval contract",
+      "tokens": 33
+    },
+    {
+      "kind": "summary",
+      "provenance": {
+        "chunkIds": [
+          "hz.chunk.hz.launcher.launcher-overview.2026-03-27.0"
+        ],
+        "docId": "hz.launcher.launcher-overview.2026-03-27",
+        "pathRefs": [
+          "launcher/canonical/launcher-overview.md"
+        ],
+        "sourceType": "canonical"
+      },
+      "score": 0.7166666666666667,
+      "text": "The **launcher** surface provides window chrome, session bootstrap, and help text that applies before any app-specific knowledge loads.",
+      "title": "Launcher surface overview",
+      "tokens": 25
+    },
+    {
+      "kind": "summary",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.web.f097fa8ee7ec8d33",
+        "pathRefs": [
+          "runtime/learning/promoted/2026-03-30/f097fa8ee7ec8d33.md"
+        ],
+        "sourceType": "web"
+      },
+      "score": 0.3333333333333333,
+      "text": "Source: https://support.nlm.nih.gov/kbArticle/?pn=KA-03304",
+      "title": "Knowledge Article &nbsp;&middot; NLM Customer Support Center",
+      "tokens": 3
+    },
+    {
+      "kind": "summary",
+      "provenance": {
+        "chunkIds": [],
+        "docId": "hz.web.7910ca8563063fae",
+        "pathRefs": [
+          "runtime/learning/promoted/2026-03-29/7910ca8563063fae.md"
+        ],
+        "sourceType": "web"
+      },
+      "score": 0.05,
+      "text": "Source: https://support.nlm.nih.gov/knowledgebase/article/KA-04188/en-us",
+      "title": "Retrieving NLM bibliographic records from the LocatorPlus Catalog via Z39.50 &nbsp;&middot; NLM Customer Support Center",
+      "tokens": 3
+    }
+  ],
+  "packId": "ctx.d500d5457b38f37a",
+  "profileId": "assistant-default",
+  "query": {
+    "expandedTerms": [
+      "canonical",
+      "chunking",
+      "knowledge"
+    ],
+    "normalized": "chunking canonical knowledge",
+    "raw": "chunking canonical knowledge"
+  },
+  "schemaVersion": "1.0",
+  "summaryFirst": true,
+  "text": "[fact] hz.assistant.sample-topic.2026-03-27\nThis document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.\n\n---\n\n[fact] hz.launcher.launcher-overview.2026-03-27\n`brain/launcher/canonical/`\n\n---\n\n[fact] hz.core.retrieval-contract.2026-03-27\n- `retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces. - `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).\n\n---\n\n[fact] hz.core.retrieval-contract.2026-03-27\n`docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).\n\n---\n\n[fact] hz.launcher.launcher-overview.2026-03-27\nThe **launcher** surface provides window chrome, session bootstrap, and help text that applies before any app-specific knowledge loads.\n\n---\n\n[fact] hz.launcher.launcher-overview.2026-03-27\n`brain/core/safety-defaults.md`\n\n---\n\n[summary] Sample canonical knowledge topic\nThis document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.\n\n---\n\n[summary] sample module.manifest\n{ \"moduleId\": \"hz.module.assistant.sample\", \"version\": \"0.1.0\", \"entry\": \"assistant-sample\", \"brainPaths\": [ \"apps/assistant/canonical/*.md\", \"prompts/library/assistant-system-baseline.md\" ], \"requiredApps\": [\"assistant\"], \"retrievalScopes\"\n\n---\n\n[summary] Retrieval contract\n- `retrievalProfile`: string (e.g. `assistant-default`) from `MANIFEST.yaml` surfaces. - `docIds` / chunk filters: optional; must respect `visibility` and `status` (default: `canonical` only in production).\n\n---\n\n[summary] Launcher surface overview\nThe **launcher** surface provides window chrome, session bootstrap, and help text that applies before any app-specific knowledge loads.\n\n---\n\n[summary] Knowledge Article &nbsp;&middot; NLM Customer Support Center\nSource: https://support.nlm.nih.gov/kbArticle/?pn=KA-03304\n\n---\n\n[summary] Retrieving NLM bibliographic records from the LocatorPlus Catalog via Z39.50 &nbsp;&middot; NLM Customer Support Center\nSource: https://support.nlm.nih.gov/knowledgebase/article/KA-04188/en-us",
+  "usedTokens": 220
+}

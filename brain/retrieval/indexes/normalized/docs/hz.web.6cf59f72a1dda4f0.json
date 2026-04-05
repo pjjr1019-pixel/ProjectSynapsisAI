@@ -1,0 +1,530 @@
+{
+  "aliases": [
+    {
+      "alias": "6cf59f72a1dda4f0",
+      "aliasId": "hz.web.6cf59f72a1dda4f0.alias.1",
+      "canonical": "changes for rfc2104"
+    },
+    {
+      "alias": "changes for rfc2104",
+      "aliasId": "hz.web.6cf59f72a1dda4f0.alias.2",
+      "canonical": "changes for rfc2104"
+    },
+    {
+      "alias": "web 6cf59f72a1dda4f0",
+      "aliasId": "hz.web.6cf59f72a1dda4f0.alias.3",
+      "canonical": "changes for rfc2104"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.63,
+  "docId": "hz.web.6cf59f72a1dda4f0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6cf59f72a1dda4f0.entity.1",
+      "kind": "document",
+      "name": "Changes for RFC2104",
+      "tokens": [
+        "changes",
+        "rfc2104"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cf59f72a1dda4f0.entity.2",
+      "kind": "heading",
+      "name": "Changes for RFC2104",
+      "tokens": [
+        "changes",
+        "rfc2104"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cf59f72a1dda4f0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cf59f72a1dda4f0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6cf59f72a1dda4f0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 91,
+      "charStart": 24,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://datatracker.ietf.org/feed/document-changes/rfc2104/",
+      "tokens": [
+        "source",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "feed",
+        "document",
+        "changes",
+        "rfc2104"
+      ]
+    },
+    {
+      "charEnd": 702,
+      "charStart": 143,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <feed xml:lang=\"en-us\" xmlns=\"http://www.w3.org/2005/Atom\"><title>Changes for RFC2104</title><link href=\"https://datatracker.ietf.org/doc/rfc2104/history/\" rel=\"alternate\"/><link href=\"https://datatracker.ietf.org/feed/document-changes/rfc2104/\" rel=\"self\"/><id>https://datatracker.ietf.org/doc/rfc2104/history/</id><updated>2020-01-21T08:22:50+00:00</updated><subtitle>History of change entries for RFC2104.</subtitle><entry><title>[(System)] Received changes through RFC Editor sync (added Verified Errata tag) [rev.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "feed",
+        "xml",
+        "lang",
+        "en",
+        "us",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "title",
+        "changes",
+        "rfc2104",
+        "title",
+        "link",
+        "href",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "rel",
+        "alternate",
+        "link",
+        "href",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "feed",
+        "document",
+        "changes",
+        "rfc2104",
+        "rel",
+        "self",
+        "id",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "id",
+        "updated",
+        "2020",
+        "01",
+        "21t08",
+        "22",
+        "50",
+        "00",
+        "00",
+        "updated",
+        "subtitle",
+        "history",
+        "change",
+        "entries",
+        "rfc2104",
+        "subtitle",
+        "entry",
+        "title",
+        "system",
+        "received",
+        "changes",
+        "through",
+        "rfc",
+        "editor",
+        "sync",
+        "added",
+        "verified",
+        "errata",
+        "tag",
+        "rev"
+      ]
+    },
+    {
+      "charEnd": 1128,
+      "charStart": 703,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.2",
+      "kind": "bullet",
+      "text": "00]</title><link href=\"https://datatracker.ietf.org/doc/rfc2104/history/#history-727116\" rel=\"alternate\"/><published>2020-01-21T08:22:50+00:00</published><author><name>(System)</name></author><id>https://datatracker.ietf.org/doc/rfc2104/history/#history-727116</id><summary type=\"html\">Received changes through RFC Editor sync (added Verified Errata tag)</summary></entry><entry><title>[(System)] Document has expired [rev.",
+      "tokens": [
+        "00",
+        "title",
+        "link",
+        "href",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "history",
+        "727116",
+        "rel",
+        "alternate",
+        "published",
+        "2020",
+        "01",
+        "21t08",
+        "22",
+        "50",
+        "00",
+        "00",
+        "published",
+        "author",
+        "name",
+        "system",
+        "name",
+        "author",
+        "id",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "history",
+        "727116",
+        "id",
+        "summary",
+        "type",
+        "html",
+        "received",
+        "changes",
+        "through",
+        "rfc",
+        "editor",
+        "sync",
+        "added",
+        "verified",
+        "errata",
+        "tag",
+        "summary",
+        "entry",
+        "entry",
+        "title",
+        "system",
+        "document",
+        "has",
+        "expired",
+        "rev"
+      ]
+    },
+    {
+      "charEnd": 1497,
+      "charStart": 1129,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.3",
+      "kind": "bullet",
+      "text": "00]</title><link href=\"https://datatracker.ietf.org/doc/rfc2104/history/#history-21792\" rel=\"alternate\"/><published>1997-02-05T08:00:00+00:00</published><author><name>(System)</name></author><id>https://datatracker.ietf.org/doc/rfc2104/history/#history-21792</id><summary type=\"html\">Document has expired</summary></entry><entry><title>[(System)] RFC published [rev.",
+      "tokens": [
+        "00",
+        "title",
+        "link",
+        "href",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "history",
+        "21792",
+        "rel",
+        "alternate",
+        "published",
+        "1997",
+        "02",
+        "05t08",
+        "00",
+        "00",
+        "00",
+        "00",
+        "published",
+        "author",
+        "name",
+        "system",
+        "name",
+        "author",
+        "id",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "history",
+        "21792",
+        "id",
+        "summary",
+        "type",
+        "html",
+        "document",
+        "has",
+        "expired",
+        "summary",
+        "entry",
+        "entry",
+        "title",
+        "system",
+        "rfc",
+        "published",
+        "rev"
+      ]
+    },
+    {
+      "charEnd": 1824,
+      "charStart": 1498,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.4",
+      "kind": "bullet",
+      "text": "00]</title><link href=\"https://datatracker.ietf.org/doc/rfc2104/history/#history-265956\" rel=\"alternate\"/><published>1997-02-01T08:00:00+00:00</published><author><name>(System)</name></author><id>https://datatracker.ietf.org/doc/rfc2104/history/#history-265956</id><summary type=\"html\">RFC published</summary></entry></feed>",
+      "tokens": [
+        "00",
+        "title",
+        "link",
+        "href",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "history",
+        "265956",
+        "rel",
+        "alternate",
+        "published",
+        "1997",
+        "02",
+        "01t08",
+        "00",
+        "00",
+        "00",
+        "00",
+        "published",
+        "author",
+        "name",
+        "system",
+        "name",
+        "author",
+        "id",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "doc",
+        "rfc2104",
+        "history",
+        "history",
+        "265956",
+        "id",
+        "summary",
+        "type",
+        "html",
+        "rfc",
+        "published",
+        "summary",
+        "entry",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1843,
+      "charStart": 1839,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.5",
+      "kind": "bullet",
+      "text": "00",
+      "tokens": [
+        "00"
+      ]
+    },
+    {
+      "charEnd": 1853,
+      "charStart": 1844,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.6",
+      "kind": "bullet",
+      "text": "history",
+      "tokens": [
+        "history"
+      ]
+    },
+    {
+      "charEnd": 1863,
+      "charStart": 1854,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.7",
+      "kind": "bullet",
+      "text": "rfc2104",
+      "tokens": [
+        "rfc2104"
+      ]
+    },
+    {
+      "charEnd": 1869,
+      "charStart": 1864,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.8",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1883,
+      "charStart": 1870,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.9",
+      "kind": "bullet",
+      "text": "datatracker",
+      "tokens": [
+        "datatracker"
+      ]
+    },
+    {
+      "charEnd": 1891,
+      "charStart": 1884,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.10",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1898,
+      "charStart": 1892,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.11",
+      "kind": "bullet",
+      "text": "ietf",
+      "tokens": [
+        "ietf"
+      ]
+    },
+    {
+      "charEnd": 1904,
+      "charStart": 1899,
+      "factId": "hz.web.6cf59f72a1dda4f0.fact.12",
+      "kind": "bullet",
+      "text": "doc",
+      "tokens": [
+        "doc"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.6cf59f72a1dda4f0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Changes for RFC2104"
+    },
+    {
+      "charEnd": 141,
+      "charStart": 131,
+      "headingId": "hz.web.6cf59f72a1dda4f0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1837,
+      "charStart": 1826,
+      "headingId": "hz.web.6cf59f72a1dda4f0.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1916,
+      "charStart": 1906,
+      "headingId": "hz.web.6cf59f72a1dda4f0.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/6cf59f72a1dda4f0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3854,
+        "start": 0
+      }
+    ],
+    "hash": "e0e213311746d9cf9524d44e101cde0ecf0a8d70f9f56e12c8ff4b2feb30d624",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"utf-8\"?> <feed xml:lang=\"en-us\" xmlns=\"http://www.w3.org/2005/Atom\"><title>Changes for RFC2104</title><link href=\"https://datatracker.ietf.org/doc/rfc2104/history/\" rel=\"alternate\"/><link href=\"https://datatracker.ietf.org/feed/document-changes/rfc2104/\" rel=\"self\"/><id>https://datatracker.ietf.org/doc/rfc2104/history/</id><updated>2020-01-21T08:22:50+00:00</updated><subtitle>History of change entries for RFC2104.</subtitle><entry><title>[(System)] Received changes through RFC Editor sync (added Verified Errata tag) [rev.",
+      "00]</title><link href=\"https://datatracker.ietf.org/doc/rfc2104/history/#history-727116\" rel=\"alternate\"/><published>2020-01-21T08:22:50+00:00</published><author><name>(System)</name></author><id>https://datatracker.ietf.org/doc/rfc2104/history/#history-727116</id><summary type=\"html\">Received changes through RFC Editor sync (added Verified Errata tag)</summary></entry><entry><title>[(System)] Document has expired [rev.",
+      "00]</title><link href=\"https://datatracker.ietf.org/doc/rfc2104/history/#history-21792\" rel=\"alternate\"/><published>1997-02-05T08:00:00+00:00</published><author><name>(System)</name></author><id>https://datatracker.ietf.org/doc/rfc2104/history/#history-21792</id><summary type=\"html\">Document has expired</summary></entry><entry><title>[(System)] RFC published [rev."
+    ],
+    "medium": "Source: https://datatracker.ietf.org/feed/document-changes/rfc2104/",
+    "short": "Source: https://datatracker.ietf.org/feed/document-changes/rfc2104/",
+    "tokens": [
+      "changes",
+      "rfc2104",
+      "source",
+      "https",
+      "datatracker",
+      "ietf",
+      "org",
+      "feed",
+      "document",
+      "changes",
+      "rfc2104",
+      "source",
+      "https",
+      "datatracker",
+      "ietf",
+      "org",
+      "feed",
+      "document",
+      "changes",
+      "rfc2104"
+    ]
+  },
+  "title": "Changes for RFC2104"
+}

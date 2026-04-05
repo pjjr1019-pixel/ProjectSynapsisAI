@@ -1,0 +1,399 @@
+{
+  "aliases": [
+    {
+      "alias": "chat turns 2026 03 29",
+      "aliasId": "hz.runtime.logs.chat-turns.2026-03-29.alias.1",
+      "canonical": "runtime chat log digest 2026-03-29"
+    },
+    {
+      "alias": "chat-turns 2026-03-29",
+      "aliasId": "hz.runtime.logs.chat-turns.2026-03-29.alias.2",
+      "canonical": "runtime chat log digest 2026-03-29"
+    },
+    {
+      "alias": "runtime chat log digest 2026-03-29",
+      "aliasId": "hz.runtime.logs.chat-turns.2026-03-29.alias.3",
+      "canonical": "runtime chat log digest 2026-03-29"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.76,
+  "docId": "hz.runtime.logs.chat-turns.2026-03-29",
+  "domain": "runtime",
+  "entities": [
+    {
+      "entityId": "hz.runtime.logs.chat-turns.2026-03-29.entity.1",
+      "kind": "document",
+      "name": "Runtime chat log digest 2026-03-29",
+      "tokens": [
+        "runtime",
+        "chat",
+        "log",
+        "digest",
+        "2026",
+        "03",
+        "29"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.logs.chat-turns.2026-03-29.entity.2",
+      "kind": "heading",
+      "name": "Runtime Chat Log Digest 2026-03-29",
+      "tokens": [
+        "runtime",
+        "chat",
+        "log",
+        "digest",
+        "2026",
+        "03",
+        "29"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.logs.chat-turns.2026-03-29.entity.3",
+      "kind": "heading",
+      "name": "Overview",
+      "tokens": [
+        "overview"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.logs.chat-turns.2026-03-29.entity.4",
+      "kind": "heading",
+      "name": "Draft sources",
+      "tokens": [
+        "draft",
+        "sources"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.logs.chat-turns.2026-03-29.entity.5",
+      "kind": "heading",
+      "name": "Common topics",
+      "tokens": [
+        "common",
+        "topics"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.logs.chat-turns.2026-03-29.entity.6",
+      "kind": "heading",
+      "name": "Models",
+      "tokens": [
+        "models"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.logs.chat-turns.2026-03-29.entity.7",
+      "kind": "heading",
+      "name": "Safety",
+      "tokens": [
+        "safety"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.1",
+      "kind": "summary",
+      "text": "- Turns logged: 27 - Local AI turns: 24 - Logged errors: 0",
+      "tokens": [
+        "turns",
+        "logged",
+        "27",
+        "local",
+        "ai",
+        "turns",
+        "24",
+        "logged",
+        "errors"
+      ]
+    },
+    {
+      "charEnd": 70,
+      "charStart": 52,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.1",
+      "kind": "bullet",
+      "text": "Turns logged: 27",
+      "tokens": [
+        "turns",
+        "logged",
+        "27"
+      ]
+    },
+    {
+      "charEnd": 91,
+      "charStart": 71,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.2",
+      "kind": "bullet",
+      "text": "Local AI turns: 24",
+      "tokens": [
+        "local",
+        "ai",
+        "turns",
+        "24"
+      ]
+    },
+    {
+      "charEnd": 110,
+      "charStart": 92,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.3",
+      "kind": "bullet",
+      "text": "Logged errors: 0",
+      "tokens": [
+        "logged",
+        "errors"
+      ]
+    },
+    {
+      "charEnd": 145,
+      "charStart": 130,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.4",
+      "kind": "bullet",
+      "text": "retrieval: 11",
+      "tokens": [
+        "retrieval",
+        "11"
+      ]
+    },
+    {
+      "charEnd": 154,
+      "charStart": 146,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.5",
+      "kind": "bullet",
+      "text": "idk: 5",
+      "tokens": [
+        "idk"
+      ]
+    },
+    {
+      "charEnd": 168,
+      "charStart": 155,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.6",
+      "kind": "bullet",
+      "text": "scenario: 5",
+      "tokens": [
+        "scenario"
+      ]
+    },
+    {
+      "charEnd": 186,
+      "charStart": 169,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.7",
+      "kind": "bullet",
+      "text": "compact_fact: 3",
+      "tokens": [
+        "compact_fact"
+      ]
+    },
+    {
+      "charEnd": 199,
+      "charStart": 187,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.8",
+      "kind": "bullet",
+      "text": "summary: 3",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "charEnd": 229,
+      "charStart": 219,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.9",
+      "kind": "bullet",
+      "text": "story: 5",
+      "tokens": [
+        "story"
+      ]
+    },
+    {
+      "charEnd": 240,
+      "charStart": 230,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.10",
+      "kind": "bullet",
+      "text": "about: 4",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 251,
+      "charStart": 241,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.11",
+      "kind": "bullet",
+      "text": "added: 3",
+      "tokens": [
+        "added"
+      ]
+    },
+    {
+      "charEnd": 262,
+      "charStart": 252,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.12",
+      "kind": "bullet",
+      "text": "brain: 3",
+      "tokens": [
+        "brain"
+      ]
+    },
+    {
+      "charEnd": 273,
+      "charStart": 263,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.13",
+      "kind": "bullet",
+      "text": "bring: 3",
+      "tokens": [
+        "bring"
+      ]
+    },
+    {
+      "charEnd": 283,
+      "charStart": 274,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.14",
+      "kind": "bullet",
+      "text": "data: 3",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 295,
+      "charStart": 284,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.15",
+      "kind": "bullet",
+      "text": "recent: 3",
+      "tokens": [
+        "recent"
+      ]
+    },
+    {
+      "charEnd": 305,
+      "charStart": 296,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.16",
+      "kind": "bullet",
+      "text": "root: 3",
+      "tokens": [
+        "root"
+      ]
+    },
+    {
+      "charEnd": 350,
+      "charStart": 318,
+      "factId": "hz.runtime.logs.chat-turns.2026-03-29.fact.17",
+      "kind": "bullet",
+      "text": "qwen2.5:3b-instruct-q4_K_M: 24",
+      "tokens": [
+        "qwen2",
+        "3b",
+        "instruct",
+        "q4_k_m",
+        "24"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 37,
+      "charStart": 1,
+      "headingId": "hz.runtime.logs.chat-turns.2026-03-29.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Runtime Chat Log Digest 2026-03-29"
+    },
+    {
+      "charEnd": 50,
+      "charStart": 39,
+      "headingId": "hz.runtime.logs.chat-turns.2026-03-29.heading.2",
+      "level": 2,
+      "line": 4,
+      "text": "Overview"
+    },
+    {
+      "charEnd": 128,
+      "charStart": 112,
+      "headingId": "hz.runtime.logs.chat-turns.2026-03-29.heading.3",
+      "level": 2,
+      "line": 10,
+      "text": "Draft sources"
+    },
+    {
+      "charEnd": 217,
+      "charStart": 201,
+      "headingId": "hz.runtime.logs.chat-turns.2026-03-29.heading.4",
+      "level": 2,
+      "line": 18,
+      "text": "Common topics"
+    },
+    {
+      "charEnd": 316,
+      "charStart": 307,
+      "headingId": "hz.runtime.logs.chat-turns.2026-03-29.heading.5",
+      "level": 2,
+      "line": 29,
+      "text": "Models"
+    },
+    {
+      "charEnd": 361,
+      "charStart": 352,
+      "headingId": "hz.runtime.logs.chat-turns.2026-03-29.heading.6",
+      "level": 2,
+      "line": 33,
+      "text": "Safety"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/logs/digests/chat-turns-2026-03-29.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 686,
+        "start": 0
+      }
+    ],
+    "hash": "4829f10f2490182f0bfff8f462068aa9f2c3d112e2ea2ce94369d95498182ee3",
+    "sourceType": "runtime"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Turns logged: 27",
+      "Local AI turns: 24",
+      "Logged errors: 0"
+    ],
+    "medium": "- Turns logged: 27 - Local AI turns: 24 - Logged errors: 0",
+    "short": "- Turns logged: 27 - Local AI turns: 24 - Logged errors: 0",
+    "tokens": [
+      "runtime",
+      "chat",
+      "log",
+      "digest",
+      "2026",
+      "03",
+      "29",
+      "turns",
+      "logged",
+      "27",
+      "local",
+      "ai",
+      "turns",
+      "24",
+      "logged",
+      "errors",
+      "turns",
+      "logged",
+      "27",
+      "local",
+      "ai",
+      "turns",
+      "24",
+      "logged",
+      "errors"
+    ]
+  },
+  "title": "Runtime chat log digest 2026-03-29"
+}

@@ -1,0 +1,392 @@
+{
+  "aliases": [
+    {
+      "alias": "e22a98c58af0e824",
+      "aliasId": "hz.web.e22a98c58af0e824.alias.1",
+      "canonical": "nvu.com - &lt;glazblog/&gt;"
+    },
+    {
+      "alias": "nvu.com - lt glazblog gt",
+      "aliasId": "hz.web.e22a98c58af0e824.alias.2",
+      "canonical": "nvu.com - &lt;glazblog/&gt;"
+    },
+    {
+      "alias": "web e22a98c58af0e824",
+      "aliasId": "hz.web.e22a98c58af0e824.alias.3",
+      "canonical": "nvu.com - &lt;glazblog/&gt;"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.71,
+  "docId": "hz.web.e22a98c58af0e824",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e22a98c58af0e824.entity.1",
+      "kind": "document",
+      "name": "nvu.com - &lt;Glazblog/&gt;",
+      "tokens": [
+        "nvu",
+        "com",
+        "lt",
+        "glazblog",
+        "gt"
+      ]
+    },
+    {
+      "entityId": "hz.web.e22a98c58af0e824.entity.2",
+      "kind": "heading",
+      "name": "nvu.com - &lt;Glazblog/&gt;",
+      "tokens": [
+        "nvu",
+        "com",
+        "lt",
+        "glazblog",
+        "gt"
+      ]
+    },
+    {
+      "entityId": "hz.web.e22a98c58af0e824.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e22a98c58af0e824.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e22a98c58af0e824.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 107,
+      "charStart": 32,
+      "factId": "hz.web.e22a98c58af0e824.fact.1",
+      "kind": "summary",
+      "text": "Source: http://glazman.org/weblog/dotclear/index.php?post/2007/10/01/nvucom",
+      "tokens": [
+        "source",
+        "http",
+        "glazman",
+        "org",
+        "weblog",
+        "dotclear",
+        "index",
+        "php",
+        "post",
+        "2007",
+        "10",
+        "01",
+        "nvucom"
+      ]
+    },
+    {
+      "charEnd": 426,
+      "charStart": 159,
+      "factId": "hz.web.e22a98c58af0e824.fact.1",
+      "kind": "bullet",
+      "text": "nvu.com - &lt;Glazblog/&gt; &lt;Glazblog/&gt; &#171; Technorati - Solutions Linux 2008 &#187; nvu.com By glazou on Monday 1 October 2007, 21:40 - Nvu - Permalink linspire nvu When Kevin Carmony left Linspire , he took back the domain nvu.com he kindly lent for Nvu.",
+      "tokens": [
+        "nvu",
+        "com",
+        "lt",
+        "glazblog",
+        "gt",
+        "lt",
+        "glazblog",
+        "gt",
+        "171",
+        "technorati",
+        "solutions",
+        "linux",
+        "2008",
+        "187",
+        "nvu",
+        "com",
+        "glazou",
+        "monday",
+        "october",
+        "2007",
+        "21",
+        "40",
+        "nvu",
+        "permalink",
+        "linspire",
+        "nvu",
+        "kevin",
+        "carmony",
+        "left",
+        "linspire",
+        "he",
+        "took",
+        "back",
+        "domain",
+        "nvu",
+        "com",
+        "he",
+        "kindly",
+        "lent",
+        "nvu"
+      ]
+    },
+    {
+      "charEnd": 544,
+      "charStart": 427,
+      "factId": "hz.web.e22a98c58af0e824.fact.2",
+      "kind": "bullet",
+      "text": "Many people pinged me to let me know cvs.nvu.com targets nothing any more and it's then impossible to download Nvu.",
+      "tokens": [
+        "many",
+        "people",
+        "pinged",
+        "let",
+        "know",
+        "cvs",
+        "nvu",
+        "com",
+        "targets",
+        "nothing",
+        "any",
+        "more",
+        "then",
+        "impossible",
+        "download",
+        "nvu"
+      ]
+    },
+    {
+      "charEnd": 577,
+      "charStart": 545,
+      "factId": "hz.web.e22a98c58af0e824.fact.3",
+      "kind": "bullet",
+      "text": "I'm working on it, stay tuned.",
+      "tokens": [
+        "working",
+        "stay",
+        "tuned"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 578,
+      "factId": "hz.web.e22a98c58af0e824.fact.4",
+      "kind": "bullet",
+      "text": "Update : mirror here 2nd Update : the problem is caused by the links in that page .",
+      "tokens": [
+        "update",
+        "mirror",
+        "here",
+        "2nd",
+        "update",
+        "problem",
+        "caused",
+        "links",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 683,
+      "charStart": 678,
+      "factId": "hz.web.e22a98c58af0e824.fact.5",
+      "kind": "bullet",
+      "text": "nvu",
+      "tokens": [
+        "nvu"
+      ]
+    },
+    {
+      "charEnd": 689,
+      "charStart": 684,
+      "factId": "hz.web.e22a98c58af0e824.fact.6",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 695,
+      "charStart": 690,
+      "factId": "hz.web.e22a98c58af0e824.fact.7",
+      "kind": "bullet",
+      "text": "cvs",
+      "tokens": [
+        "cvs"
+      ]
+    },
+    {
+      "charEnd": 706,
+      "charStart": 696,
+      "factId": "hz.web.e22a98c58af0e824.fact.8",
+      "kind": "bullet",
+      "text": "glazblog",
+      "tokens": [
+        "glazblog"
+      ]
+    },
+    {
+      "charEnd": 717,
+      "charStart": 707,
+      "factId": "hz.web.e22a98c58af0e824.fact.9",
+      "kind": "bullet",
+      "text": "linspire",
+      "tokens": [
+        "linspire"
+      ]
+    },
+    {
+      "charEnd": 722,
+      "charStart": 718,
+      "factId": "hz.web.e22a98c58af0e824.fact.10",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 727,
+      "charStart": 723,
+      "factId": "hz.web.e22a98c58af0e824.fact.11",
+      "kind": "bullet",
+      "text": "he",
+      "tokens": [
+        "he"
+      ]
+    },
+    {
+      "charEnd": 732,
+      "charStart": 728,
+      "factId": "hz.web.e22a98c58af0e824.fact.12",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 30,
+      "charStart": 1,
+      "headingId": "hz.web.e22a98c58af0e824.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "nvu.com - &lt;Glazblog/&gt;"
+    },
+    {
+      "charEnd": 157,
+      "charStart": 147,
+      "headingId": "hz.web.e22a98c58af0e824.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 676,
+      "charStart": 665,
+      "headingId": "hz.web.e22a98c58af0e824.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 744,
+      "charStart": 734,
+      "headingId": "hz.web.e22a98c58af0e824.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e22a98c58af0e824.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2140,
+        "start": 0
+      }
+    ],
+    "hash": "68733b8fc697a36708afcd3d8fa03b24c506142e5ffaddc2c9fed1ea15048ac8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.e22a98c58af0e824.rule.1",
+      "text": "They all target cvs.nvu.com while they should in fact target cvs.nvudev.org.",
+      "tokens": [
+        "all",
+        "target",
+        "cvs",
+        "nvu",
+        "com",
+        "while",
+        "fact",
+        "target",
+        "cvs",
+        "nvudev",
+        "org"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "nvu.com - &lt;Glazblog/&gt; &lt;Glazblog/&gt; &#171; Technorati - Solutions Linux 2008 &#187; nvu.com By glazou on Monday 1 October 2007, 21:40 - Nvu - Permalink linspire nvu When Kevin Carmony left Linspire , he took back the domain nvu.com he kindly lent for Nvu.",
+      "Many people pinged me to let me know cvs.nvu.com targets nothing any more and it's then impossible to download Nvu.",
+      "I'm working on it, stay tuned."
+    ],
+    "medium": "Source: http://glazman.org/weblog/dotclear/index.php?post/2007/10/01/nvucom",
+    "short": "Source: http://glazman.org/weblog/dotclear/index.php?post/2007/10/01/nvucom",
+    "tokens": [
+      "nvu",
+      "com",
+      "lt",
+      "glazblog",
+      "gt",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog",
+      "dotclear",
+      "index",
+      "php",
+      "post",
+      "2007",
+      "10",
+      "01",
+      "nvucom",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog",
+      "dotclear",
+      "index",
+      "php",
+      "post",
+      "2007",
+      "10",
+      "01",
+      "nvucom"
+    ]
+  },
+  "title": "nvu.com - &lt;Glazblog/&gt;"
+}

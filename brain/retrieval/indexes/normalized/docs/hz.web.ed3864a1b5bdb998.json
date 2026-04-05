@@ -1,0 +1,380 @@
+{
+  "aliases": [
+    {
+      "alias": "ed3864a1b5bdb998",
+      "aliasId": "hz.web.ed3864a1b5bdb998.alias.1",
+      "canonical": "log in to arxiv | arxiv e-print repository"
+    },
+    {
+      "alias": "log in to arxiv arxiv e-print repository",
+      "aliasId": "hz.web.ed3864a1b5bdb998.alias.2",
+      "canonical": "log in to arxiv | arxiv e-print repository"
+    },
+    {
+      "alias": "web ed3864a1b5bdb998",
+      "aliasId": "hz.web.ed3864a1b5bdb998.alias.3",
+      "canonical": "log in to arxiv | arxiv e-print repository"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.ed3864a1b5bdb998",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ed3864a1b5bdb998.entity.1",
+      "kind": "document",
+      "name": "Log in to arXiv | arXiv e-print repository",
+      "tokens": [
+        "log",
+        "arxiv",
+        "arxiv",
+        "print",
+        "repository"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed3864a1b5bdb998.entity.2",
+      "kind": "heading",
+      "name": "Log in to arXiv | arXiv e-print repository",
+      "tokens": [
+        "log",
+        "arxiv",
+        "arxiv",
+        "print",
+        "repository"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed3864a1b5bdb998.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed3864a1b5bdb998.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed3864a1b5bdb998.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 78,
+      "charStart": 47,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.1",
+      "kind": "summary",
+      "text": "Source: https://arxiv.org/login",
+      "tokens": [
+        "source",
+        "https",
+        "arxiv",
+        "org",
+        "login"
+      ]
+    },
+    {
+      "charEnd": 281,
+      "charStart": 130,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.1",
+      "kind": "bullet",
+      "text": "Log in to arXiv | arXiv e-print repository Skip to main content We gratefully acknowledge support from the Simons Foundation and member institutions.",
+      "tokens": [
+        "log",
+        "arxiv",
+        "arxiv",
+        "print",
+        "repository",
+        "skip",
+        "main",
+        "content",
+        "gratefully",
+        "acknowledge",
+        "support",
+        "simons",
+        "foundation",
+        "member",
+        "institutions"
+      ]
+    },
+    {
+      "charEnd": 569,
+      "charStart": 282,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.2",
+      "kind": "bullet",
+      "text": "Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search Login Accounts v1.1.0 Log in to arXiv.org The arXiv Privacy Policy has changed.",
+      "tokens": [
+        "help",
+        "advanced",
+        "search",
+        "all",
+        "fields",
+        "title",
+        "author",
+        "abstract",
+        "comments",
+        "journal",
+        "reference",
+        "acm",
+        "classification",
+        "msc",
+        "classification",
+        "report",
+        "number",
+        "arxiv",
+        "identifier",
+        "doi",
+        "orcid",
+        "arxiv",
+        "author",
+        "id",
+        "help",
+        "pages",
+        "full",
+        "text",
+        "search",
+        "login",
+        "accounts",
+        "v1",
+        "log",
+        "arxiv",
+        "org",
+        "arxiv",
+        "privacy",
+        "policy",
+        "has",
+        "changed"
+      ]
+    },
+    {
+      "charEnd": 643,
+      "charStart": 570,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.3",
+      "kind": "bullet",
+      "text": "By continuing to use arxiv.org, you are agreeing to the privacy policy.",
+      "tokens": [
+        "continuing",
+        "use",
+        "arxiv",
+        "org",
+        "agreeing",
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 724,
+      "charStart": 644,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.4",
+      "kind": "bullet",
+      "text": "If you're already registered Username or e-mail Password Forgot your password?",
+      "tokens": [
+        "if",
+        "re",
+        "already",
+        "registered",
+        "username",
+        "mail",
+        "password",
+        "forgot",
+        "your",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 746,
+      "charStart": 739,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.5",
+      "kind": "bullet",
+      "text": "arxiv",
+      "tokens": [
+        "arxiv"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 747,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.6",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    },
+    {
+      "charEnd": 759,
+      "charStart": 754,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.7",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 768,
+      "charStart": 760,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.8",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 778,
+      "charStart": 769,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.9",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 787,
+      "charStart": 779,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.10",
+      "kind": "bullet",
+      "text": "author",
+      "tokens": [
+        "author"
+      ]
+    },
+    {
+      "charEnd": 804,
+      "charStart": 788,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.11",
+      "kind": "bullet",
+      "text": "classification",
+      "tokens": [
+        "classification"
+      ]
+    },
+    {
+      "charEnd": 809,
+      "charStart": 805,
+      "factId": "hz.web.ed3864a1b5bdb998.fact.12",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 45,
+      "charStart": 1,
+      "headingId": "hz.web.ed3864a1b5bdb998.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Log in to arXiv | arXiv e-print repository"
+    },
+    {
+      "charEnd": 128,
+      "charStart": 118,
+      "headingId": "hz.web.ed3864a1b5bdb998.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 737,
+      "charStart": 726,
+      "headingId": "hz.web.ed3864a1b5bdb998.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 821,
+      "charStart": 811,
+      "headingId": "hz.web.ed3864a1b5bdb998.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ed3864a1b5bdb998.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1966,
+        "start": 0
+      }
+    ],
+    "hash": "177e96c190aa9797b786f2a3dbeaff7ecaf403fe81c95d846e0f86b6018625b5",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.ed3864a1b5bdb998.rule.1",
+      "text": "If you've never logged in to arXiv.org Register for the first time Registration is required to submit or update papers, but is not necessary to view them.",
+      "tokens": [
+        "if",
+        "ve",
+        "never",
+        "logged",
+        "arxiv",
+        "org",
+        "register",
+        "first",
+        "time",
+        "registration",
+        "required",
+        "submit",
+        "update",
+        "papers",
+        "but",
+        "not",
+        "necessary",
+        "view",
+        "them"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Log in to arXiv | arXiv e-print repository Skip to main content We gratefully acknowledge support from the Simons Foundation and member institutions.",
+      "Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search Login Accounts v1.1.0 Log in to arXiv.org The arXiv Privacy Policy has changed.",
+      "By continuing to use arxiv.org, you are agreeing to the privacy policy."
+    ],
+    "medium": "Source: https://arxiv.org/login",
+    "short": "Source: https://arxiv.org/login",
+    "tokens": [
+      "log",
+      "arxiv",
+      "arxiv",
+      "print",
+      "repository",
+      "source",
+      "https",
+      "arxiv",
+      "org",
+      "login",
+      "source",
+      "https",
+      "arxiv",
+      "org",
+      "login"
+    ]
+  },
+  "title": "Log in to arXiv | arXiv e-print repository"
+}

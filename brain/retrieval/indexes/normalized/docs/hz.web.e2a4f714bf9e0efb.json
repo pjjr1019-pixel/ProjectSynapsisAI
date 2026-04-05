@@ -1,0 +1,361 @@
+{
+  "aliases": [
+    {
+      "alias": "e2a4f714bf9e0efb",
+      "aliasId": "hz.web.e2a4f714bf9e0efb.alias.1",
+      "canonical": "nvu - &lt;glazblog/&gt; - page 2"
+    },
+    {
+      "alias": "nvu - lt glazblog gt - page 2",
+      "aliasId": "hz.web.e2a4f714bf9e0efb.alias.2",
+      "canonical": "nvu - &lt;glazblog/&gt; - page 2"
+    },
+    {
+      "alias": "web e2a4f714bf9e0efb",
+      "aliasId": "hz.web.e2a4f714bf9e0efb.alias.3",
+      "canonical": "nvu - &lt;glazblog/&gt; - page 2"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.e2a4f714bf9e0efb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e2a4f714bf9e0efb.entity.1",
+      "kind": "document",
+      "name": "Nvu - &lt;Glazblog/&gt; - page 2",
+      "tokens": [
+        "nvu",
+        "lt",
+        "glazblog",
+        "gt",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2a4f714bf9e0efb.entity.2",
+      "kind": "heading",
+      "name": "Nvu - &lt;Glazblog/&gt; - page 2",
+      "tokens": [
+        "nvu",
+        "lt",
+        "glazblog",
+        "gt",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2a4f714bf9e0efb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2a4f714bf9e0efb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2a4f714bf9e0efb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 109,
+      "charStart": 37,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.1",
+      "kind": "summary",
+      "text": "Source: http://glazman.org/weblog/dotclear/index.php?category/Nvu/page/2",
+      "tokens": [
+        "source",
+        "http",
+        "glazman",
+        "org",
+        "weblog",
+        "dotclear",
+        "index",
+        "php",
+        "category",
+        "nvu",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 426,
+      "charStart": 161,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.1",
+      "kind": "bullet",
+      "text": "Nvu - &lt;Glazblog/&gt; - page 2 &lt;Glazblog/&gt; Nvu Lindows.com's new Web editor based on Mozilla Composer Entries feed Monday 1 February 2010 Cleaner and better CSS By glazou on Monday 1 February 2010, 17:55 It's only a beginning , and that's for BlueGriffon.",
+      "tokens": [
+        "nvu",
+        "lt",
+        "glazblog",
+        "gt",
+        "page",
+        "lt",
+        "glazblog",
+        "gt",
+        "nvu",
+        "lindows",
+        "com",
+        "new",
+        "web",
+        "editor",
+        "based",
+        "mozilla",
+        "composer",
+        "entries",
+        "feed",
+        "monday",
+        "february",
+        "2010",
+        "cleaner",
+        "better",
+        "css",
+        "glazou",
+        "monday",
+        "february",
+        "2010",
+        "17",
+        "55",
+        "only",
+        "beginning",
+        "bluegriffon"
+      ]
+    },
+    {
+      "charEnd": 483,
+      "charStart": 427,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.2",
+      "kind": "bullet",
+      "text": "I'll turn it into a Firefox add-on too if I have time.",
+      "tokens": [
+        "ll",
+        "turn",
+        "into",
+        "firefox",
+        "add",
+        "too",
+        "if",
+        "have",
+        "time"
+      ]
+    },
+    {
+      "charEnd": 547,
+      "charStart": 484,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.3",
+      "kind": "bullet",
+      "text": "2 comments Tuesday 7 October 2008 This domain name expired...",
+      "tokens": [
+        "comments",
+        "tuesday",
+        "october",
+        "2008",
+        "domain",
+        "name",
+        "expired"
+      ]
+    },
+    {
+      "charEnd": 626,
+      "charStart": 548,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.4",
+      "kind": "bullet",
+      "text": "By glazou on Tuesday 7 October 2008, 20:55 RIP nvudev.org and nvudev.com ...",
+      "tokens": [
+        "glazou",
+        "tuesday",
+        "october",
+        "2008",
+        "20",
+        "55",
+        "rip",
+        "nvudev",
+        "org",
+        "nvudev",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 646,
+      "charStart": 641,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.5",
+      "kind": "bullet",
+      "text": "nvu",
+      "tokens": [
+        "nvu"
+      ]
+    },
+    {
+      "charEnd": 657,
+      "charStart": 647,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.6",
+      "kind": "bullet",
+      "text": "composer",
+      "tokens": [
+        "composer"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 658,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.7",
+      "kind": "bullet",
+      "text": "glazou",
+      "tokens": [
+        "glazou"
+      ]
+    },
+    {
+      "charEnd": 673,
+      "charStart": 667,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.8",
+      "kind": "bullet",
+      "text": "2007",
+      "tokens": [
+        "2007"
+      ]
+    },
+    {
+      "charEnd": 680,
+      "charStart": 674,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.9",
+      "kind": "bullet",
+      "text": "2006",
+      "tokens": [
+        "2006"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 681,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.10",
+      "kind": "bullet",
+      "text": "november",
+      "tokens": [
+        "november"
+      ]
+    },
+    {
+      "charEnd": 700,
+      "charStart": 692,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.11",
+      "kind": "bullet",
+      "text": "monday",
+      "tokens": [
+        "monday"
+      ]
+    },
+    {
+      "charEnd": 711,
+      "charStart": 701,
+      "factId": "hz.web.e2a4f714bf9e0efb.fact.12",
+      "kind": "bullet",
+      "text": "thursday",
+      "tokens": [
+        "thursday"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.e2a4f714bf9e0efb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Nvu - &lt;Glazblog/&gt; - page 2"
+    },
+    {
+      "charEnd": 159,
+      "charStart": 149,
+      "headingId": "hz.web.e2a4f714bf9e0efb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 639,
+      "charStart": 628,
+      "headingId": "hz.web.e2a4f714bf9e0efb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 723,
+      "charStart": 713,
+      "headingId": "hz.web.e2a4f714bf9e0efb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e2a4f714bf9e0efb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4006,
+        "start": 0
+      }
+    ],
+    "hash": "da6600307c894e07696ab3ec7c0cf9c9e818d5a632b5756db1dc7880cd84fb54",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Nvu - &lt;Glazblog/&gt; - page 2 &lt;Glazblog/&gt; Nvu Lindows.com's new Web editor based on Mozilla Composer Entries feed Monday 1 February 2010 Cleaner and better CSS By glazou on Monday 1 February 2010, 17:55 It's only a beginning , and that's for BlueGriffon.",
+      "I'll turn it into a Firefox add-on too if I have time.",
+      "2 comments Tuesday 7 October 2008 This domain name expired..."
+    ],
+    "medium": "Source: http://glazman.org/weblog/dotclear/index.php?category/Nvu/page/2",
+    "short": "Source: http://glazman.org/weblog/dotclear/index.php?category/Nvu/page/2",
+    "tokens": [
+      "nvu",
+      "lt",
+      "glazblog",
+      "gt",
+      "page",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog",
+      "dotclear",
+      "index",
+      "php",
+      "category",
+      "nvu",
+      "page",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog",
+      "dotclear",
+      "index",
+      "php",
+      "category",
+      "nvu",
+      "page"
+    ]
+  },
+  "title": "Nvu - &lt;Glazblog/&gt; - page 2"
+}

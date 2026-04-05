@@ -1,0 +1,359 @@
+{
+  "aliases": [
+    {
+      "alias": "account.narrative.so",
+      "aliasId": "hz.web.df7c5f926787705f.alias.1",
+      "canonical": "account.narrative.so"
+    },
+    {
+      "alias": "df7c5f926787705f",
+      "aliasId": "hz.web.df7c5f926787705f.alias.2",
+      "canonical": "account.narrative.so"
+    },
+    {
+      "alias": "web df7c5f926787705f",
+      "aliasId": "hz.web.df7c5f926787705f.alias.3",
+      "canonical": "account.narrative.so"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.df7c5f926787705f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.df7c5f926787705f.entity.1",
+      "kind": "document",
+      "name": "account.narrative.so",
+      "tokens": [
+        "account",
+        "narrative",
+        "so"
+      ]
+    },
+    {
+      "entityId": "hz.web.df7c5f926787705f.entity.2",
+      "kind": "heading",
+      "name": "account.narrative.so",
+      "tokens": [
+        "account",
+        "narrative",
+        "so"
+      ]
+    },
+    {
+      "entityId": "hz.web.df7c5f926787705f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.df7c5f926787705f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.df7c5f926787705f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 70,
+      "charStart": 25,
+      "factId": "hz.web.df7c5f926787705f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://account.narrative.so/icon.svg",
+      "tokens": [
+        "source",
+        "https",
+        "account",
+        "narrative",
+        "so",
+        "icon",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 804,
+      "charStart": 122,
+      "factId": "hz.web.df7c5f926787705f.fact.1",
+      "kind": "bullet",
+      "text": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"> <style> @media (prefers-color-scheme: dark) { .path { fill: #ffffff } } </style> <path class=\"path\" fill=\"#1c1c1c\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M32 3.29052e-06L27.0767 2.78426e-06L27.0767 27.2001L13.9477 27.2001L13.9477 8.79933L9.02445 8.79933L9.02445 27.2001L9.02445 31.9987L9.02445 32L31.9998 32L31.9998 31.9991L32 31.9991L32 3.29052e-06ZM18.0505 4.79992L4.92328 4.79992L4.92328 31.9989L-2.37832e-06 31.9989L-1.65604e-08 0.222811L0.000283045 0.222811L0.000283061 6.47039e-05L22.9756 6.70665e-05L22.9756 4.79993L22.9738 4.79993L22.9738 23.2L18.0505 23.2L18.0505 4.79992Z\" /> </svg>",
+      "tokens": [
+        "svg",
+        "width",
+        "32",
+        "height",
+        "32",
+        "viewbox",
+        "32",
+        "32",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2000",
+        "svg",
+        "style",
+        "media",
+        "prefers",
+        "color",
+        "scheme",
+        "dark",
+        "path",
+        "fill",
+        "ffffff",
+        "style",
+        "path",
+        "class",
+        "path",
+        "fill",
+        "1c1c1c",
+        "fill",
+        "rule",
+        "evenodd",
+        "clip",
+        "rule",
+        "evenodd",
+        "m32",
+        "29052e",
+        "06l27",
+        "0767",
+        "78426e",
+        "06l27",
+        "0767",
+        "27",
+        "2001l13",
+        "9477",
+        "27",
+        "2001l13",
+        "9477",
+        "79933l9",
+        "02445",
+        "79933l9",
+        "02445",
+        "27",
+        "2001l9",
+        "02445",
+        "31",
+        "9987l9",
+        "02445",
+        "32l31",
+        "9998",
+        "32l31",
+        "9998",
+        "31",
+        "9991l32",
+        "31",
+        "9991l32",
+        "29052e",
+        "06zm18",
+        "0505",
+        "79992l4",
+        "92328",
+        "79992l4",
+        "92328",
+        "31",
+        "9989l",
+        "37832e",
+        "06",
+        "31",
+        "9989l",
+        "65604e",
+        "08",
+        "222811l0",
+        "000283045",
+        "222811l0",
+        "000283061",
+        "47039e",
+        "05l22",
+        "9756",
+        "70665e",
+        "05l22",
+        "9756",
+        "79993l22",
+        "9738",
+        "79993l22",
+        "9738",
+        "23",
+        "2l18",
+        "0505",
+        "23",
+        "2l18",
+        "0505",
+        "79992z",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 823,
+      "charStart": 819,
+      "factId": "hz.web.df7c5f926787705f.fact.2",
+      "kind": "bullet",
+      "text": "31",
+      "tokens": [
+        "31"
+      ]
+    },
+    {
+      "charEnd": 831,
+      "charStart": 824,
+      "factId": "hz.web.df7c5f926787705f.fact.3",
+      "kind": "bullet",
+      "text": "02445",
+      "tokens": [
+        "02445"
+      ]
+    },
+    {
+      "charEnd": 836,
+      "charStart": 832,
+      "factId": "hz.web.df7c5f926787705f.fact.4",
+      "kind": "bullet",
+      "text": "32",
+      "tokens": [
+        "32"
+      ]
+    },
+    {
+      "charEnd": 843,
+      "charStart": 837,
+      "factId": "hz.web.df7c5f926787705f.fact.5",
+      "kind": "bullet",
+      "text": "0505",
+      "tokens": [
+        "0505"
+      ]
+    },
+    {
+      "charEnd": 848,
+      "charStart": 844,
+      "factId": "hz.web.df7c5f926787705f.fact.6",
+      "kind": "bullet",
+      "text": "27",
+      "tokens": [
+        "27"
+      ]
+    },
+    {
+      "charEnd": 855,
+      "charStart": 849,
+      "factId": "hz.web.df7c5f926787705f.fact.7",
+      "kind": "bullet",
+      "text": "fill",
+      "tokens": [
+        "fill"
+      ]
+    },
+    {
+      "charEnd": 862,
+      "charStart": 856,
+      "factId": "hz.web.df7c5f926787705f.fact.8",
+      "kind": "bullet",
+      "text": "path",
+      "tokens": [
+        "path"
+      ]
+    },
+    {
+      "charEnd": 868,
+      "charStart": 863,
+      "factId": "hz.web.df7c5f926787705f.fact.9",
+      "kind": "bullet",
+      "text": "svg",
+      "tokens": [
+        "svg"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.df7c5f926787705f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "account.narrative.so"
+    },
+    {
+      "charEnd": 120,
+      "charStart": 110,
+      "headingId": "hz.web.df7c5f926787705f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 817,
+      "charStart": 806,
+      "headingId": "hz.web.df7c5f926787705f.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 880,
+      "charStart": 870,
+      "headingId": "hz.web.df7c5f926787705f.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/df7c5f926787705f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1804,
+        "start": 0
+      }
+    ],
+    "hash": "2624310b31b438f3c8c6f39072e80ec93ba7d6381d32e1c3bdcee2d8018e1484",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"> <style> @media (prefers-color-scheme: dark) { .path { fill: #ffffff } } </style> <path class=\"path\" fill=\"#1c1c1c\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M32 3.29052e-06L27.0767 2.78426e-06L27.0767 27.2001L13.9477 27.2001L13.9477 8.79933L9.02445 8.79933L9.02445 27.2001L9.02445 31.9987L9.02445 32L31.9998 32L31.9998 31.9991L32 31.9991L32 3.29052e-06ZM18.0505 4.79992L4.92328 4.79992L4.92328 31.9989L-2.37832e-06 31.9989L-1.65604e-08 0.222811L0.000283045 0.222811L0.000283061 6.47039e-05L22.9756 6.70665e-05L22.9756 4.79993L22.9738 4.79993L22.9738 23.2L18.0505 23.2L18.0505 4.79992Z\" /> </svg>",
+      "31",
+      "02445"
+    ],
+    "medium": "Source: https://account.narrative.so/icon.svg",
+    "short": "Source: https://account.narrative.so/icon.svg",
+    "tokens": [
+      "account",
+      "narrative",
+      "so",
+      "source",
+      "https",
+      "account",
+      "narrative",
+      "so",
+      "icon",
+      "svg",
+      "source",
+      "https",
+      "account",
+      "narrative",
+      "so",
+      "icon",
+      "svg"
+    ]
+  },
+  "title": "account.narrative.so"
+}

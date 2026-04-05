@@ -1,0 +1,279 @@
+{
+  "aliases": [
+    {
+      "alias": "e2f89b884b470cf3",
+      "aliasId": "hz.web.e2f89b884b470cf3.alias.1",
+      "canonical": "mefi.social"
+    },
+    {
+      "alias": "mefi.social",
+      "aliasId": "hz.web.e2f89b884b470cf3.alias.2",
+      "canonical": "mefi.social"
+    },
+    {
+      "alias": "web e2f89b884b470cf3",
+      "aliasId": "hz.web.e2f89b884b470cf3.alias.3",
+      "canonical": "mefi.social"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.e2f89b884b470cf3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e2f89b884b470cf3.entity.1",
+      "kind": "document",
+      "name": "mefi.social",
+      "tokens": [
+        "mefi",
+        "social"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2f89b884b470cf3.entity.2",
+      "kind": "heading",
+      "name": "mefi.social",
+      "tokens": [
+        "mefi",
+        "social"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2f89b884b470cf3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2f89b884b470cf3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2f89b884b470cf3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 83,
+      "charStart": 16,
+      "factId": "hz.web.e2f89b884b470cf3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://mefi.social/packs/assets/favicon-16x16-C9pQO0lI.png",
+      "tokens": [
+        "source",
+        "https",
+        "mefi",
+        "social",
+        "packs",
+        "assets",
+        "favicon",
+        "16x16",
+        "c9pqo0li",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 514,
+      "charStart": 135,
+      "factId": "hz.web.e2f89b884b470cf3.fact.1",
+      "kind": "bullet",
+      "text": "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000\u0011\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000�1�_\u0000\u0000\u0000\u0006bKGD\u0000�\u0000�\u0000�����\u0000\u0000\u0001>IDAT8��ӿ+GQ\u0018��\u0017]R�Q�Qʏ�B���D1\u0019\u0018M\u0016��\u0001e�� \u0016vQ��H��\u0018lR�\"&�$?\u0006?�{n���z�9�<�����y�9�n�8Nы��y��\u0018�\u0013\u00059�}h�\u0010��\u0010�Qt�\u0007�I�\u0002>��=\u0014��e��\u0014\u0013�\u0018 �q�\u0004\u001f\u000f�c!\u001eD;f�^�s\\�2\u000f�(��-߬\u000eK�D+�\"�c\u001a\u001b9�]a�\u0010�c ŸF#�Oܬ��\u001d\u0007ŽH�:��\u0018�;�А�N#zs ���e_�Vp�#�\b�_'��3*\u0002h\u0019��'�\u001b%)��K\u0000%�~$�]4e�<�˜Ö�/�\u0011fP�\u0011�[q\u000f/���\b\u0003h�\b��z�\u0018���@�� \u0007��\by�k\u001adJ�r\u001e���L�v�q� �'TL ��g\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "png",
+        "ihdr",
+        "bkgd",
+        "idat8",
+        "gq",
+        "d1",
+        "vq",
+        "lr",
+        "8n",
+        "qt",
+        "zs",
+        "e_",
+        "vp",
+        "4e",
+        "fp",
+        "dj",
+        "tl",
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 533,
+      "charStart": 529,
+      "factId": "hz.web.e2f89b884b470cf3.fact.2",
+      "kind": "bullet",
+      "text": "4e",
+      "tokens": [
+        "4e"
+      ]
+    },
+    {
+      "charEnd": 538,
+      "charStart": 534,
+      "factId": "hz.web.e2f89b884b470cf3.fact.3",
+      "kind": "bullet",
+      "text": "8n",
+      "tokens": [
+        "8n"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 539,
+      "factId": "hz.web.e2f89b884b470cf3.fact.4",
+      "kind": "bullet",
+      "text": "bkgd",
+      "tokens": [
+        "bkgd"
+      ]
+    },
+    {
+      "charEnd": 550,
+      "charStart": 546,
+      "factId": "hz.web.e2f89b884b470cf3.fact.5",
+      "kind": "bullet",
+      "text": "d1",
+      "tokens": [
+        "d1"
+      ]
+    },
+    {
+      "charEnd": 555,
+      "charStart": 551,
+      "factId": "hz.web.e2f89b884b470cf3.fact.6",
+      "kind": "bullet",
+      "text": "dj",
+      "tokens": [
+        "dj"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 556,
+      "factId": "hz.web.e2f89b884b470cf3.fact.7",
+      "kind": "bullet",
+      "text": "e_",
+      "tokens": [
+        "e_"
+      ]
+    },
+    {
+      "charEnd": 565,
+      "charStart": 561,
+      "factId": "hz.web.e2f89b884b470cf3.fact.8",
+      "kind": "bullet",
+      "text": "fp",
+      "tokens": [
+        "fp"
+      ]
+    },
+    {
+      "charEnd": 570,
+      "charStart": 566,
+      "factId": "hz.web.e2f89b884b470cf3.fact.9",
+      "kind": "bullet",
+      "text": "gq",
+      "tokens": [
+        "gq"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.e2f89b884b470cf3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "mefi.social"
+    },
+    {
+      "charEnd": 133,
+      "charStart": 123,
+      "headingId": "hz.web.e2f89b884b470cf3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 527,
+      "charStart": 516,
+      "headingId": "hz.web.e2f89b884b470cf3.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 582,
+      "charStart": 572,
+      "headingId": "hz.web.e2f89b884b470cf3.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e2f89b884b470cf3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1216,
+        "start": 0
+      }
+    ],
+    "hash": "2e48307ecd9e7d45f5246f5ea872c498ada66f43d8717a85ebade42fa5bcf150",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000\u0011\u0000\u0000\u0000\u0010\b\u0006\u0000\u0000\u0000�1�_\u0000\u0000\u0000\u0006bKGD\u0000�\u0000�\u0000�����\u0000\u0000\u0001>IDAT8��ӿ+GQ\u0018��\u0017]R�Q�Qʏ�B���D1\u0019\u0018M\u0016��\u0001e�� \u0016vQ��H��\u0018lR�\"&�$?\u0006?�{n���z�9�<�����y�9�n�8Nы��y��\u0018�\u0013\u00059�}h�\u0010��\u0010�Qt�\u0007�I�\u0002>��=\u0014��e��\u0014\u0013�\u0018 �q�\u0004\u001f\u000f�c!\u001eD;f�^�s\\�2\u000f�(��-߬\u000eK�D+�\"�c\u001a\u001b9�]a�\u0010�c ŸF#�Oܬ��\u001d\u0007ŽH�:��\u0018�;�А�N#zs ���e_�Vp�#�\b�_'��3*\u0002h\u0019��'�\u001b%)��K\u0000%�~$�]4e�<�˜Ö�/�\u0011fP�\u0011�[q\u000f/���\b\u0003h�\b��z�\u0018���@�� \u0007��\by�k\u001adJ�r\u001e���L�v�q� �'TL ��g\u0000\u0000\u0000\u0000IEND�B`�",
+      "4e",
+      "8n"
+    ],
+    "medium": "Source: https://mefi.social/packs/assets/favicon-16x16-C9pQO0lI.png",
+    "short": "Source: https://mefi.social/packs/assets/favicon-16x16-C9pQO0lI.png",
+    "tokens": [
+      "mefi",
+      "social",
+      "source",
+      "https",
+      "mefi",
+      "social",
+      "packs",
+      "assets",
+      "favicon",
+      "16x16",
+      "c9pqo0li",
+      "png",
+      "source",
+      "https",
+      "mefi",
+      "social",
+      "packs",
+      "assets",
+      "favicon",
+      "16x16",
+      "c9pqo0li",
+      "png"
+    ]
+  },
+  "title": "mefi.social"
+}

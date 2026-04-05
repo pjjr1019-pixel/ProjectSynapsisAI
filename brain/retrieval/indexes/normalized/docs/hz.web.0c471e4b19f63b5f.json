@@ -1,0 +1,397 @@
+{
+  "aliases": [
+    {
+      "alias": "0c471e4b19f63b5f",
+      "aliasId": "hz.web.0c471e4b19f63b5f.alias.1",
+      "canonical": "relmeauth - microformats wiki"
+    },
+    {
+      "alias": "relmeauth - microformats wiki",
+      "aliasId": "hz.web.0c471e4b19f63b5f.alias.2",
+      "canonical": "relmeauth - microformats wiki"
+    },
+    {
+      "alias": "web 0c471e4b19f63b5f",
+      "aliasId": "hz.web.0c471e4b19f63b5f.alias.3",
+      "canonical": "relmeauth - microformats wiki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.0c471e4b19f63b5f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0c471e4b19f63b5f.entity.1",
+      "kind": "document",
+      "name": "RelMeAuth - Microformats Wiki",
+      "tokens": [
+        "relmeauth",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.0c471e4b19f63b5f.entity.2",
+      "kind": "heading",
+      "name": "RelMeAuth - Microformats Wiki",
+      "tokens": [
+        "relmeauth",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.0c471e4b19f63b5f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0c471e4b19f63b5f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0c471e4b19f63b5f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 80,
+      "charStart": 34,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.1",
+      "kind": "summary",
+      "text": "Source: http://microformats.org/wiki/RelMeAuth",
+      "tokens": [
+        "source",
+        "http",
+        "microformats",
+        "org",
+        "wiki",
+        "relmeauth"
+      ]
+    },
+    {
+      "charEnd": 392,
+      "charStart": 132,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.1",
+      "kind": "bullet",
+      "text": "RelMeAuth - Microformats Wiki RelMeAuth From Microformats Wiki Jump to navigation Jump to search RelMeAuth is a proposed open standard for using rel-me links to profiles on OAuth supporting services to authenticate via either those profiles or your own site.",
+      "tokens": [
+        "relmeauth",
+        "microformats",
+        "wiki",
+        "relmeauth",
+        "microformats",
+        "wiki",
+        "jump",
+        "navigation",
+        "jump",
+        "search",
+        "relmeauth",
+        "proposed",
+        "open",
+        "standard",
+        "using",
+        "rel",
+        "links",
+        "profiles",
+        "oauth",
+        "supporting",
+        "services",
+        "authenticate",
+        "via",
+        "either",
+        "those",
+        "profiles",
+        "your",
+        "own",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 443,
+      "charStart": 393,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.2",
+      "kind": "bullet",
+      "text": "RelMeAuth is the technology behind web-sign-in .",
+      "tokens": [
+        "relmeauth",
+        "technology",
+        "behind",
+        "web",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1198,
+      "charStart": 444,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.3",
+      "kind": "bullet",
+      "text": "Editor Tantek Çelik ( http://tantek.com/ ) Contents 1 support RelMeAuth 1.1 users 1.1.1 examples in the wild 1.2 users with separate contact pages 1.2.1 more examples in the wild 1.2.2 authentication preference 1.3 profile sites 1.4 authentication sites 1.4.1 RelMeAuth providers 1.5 sites needing a user login 2 how it works 2.1 summary algorithm 2.2 detailed algorithm 3 Error Cases 4 open source implementations 4.1 Go 4.2 Node.js 4.3 Python 4.4 PHP 4.5 Ruby 5 to do 6 issues 7 history 8 articles posts comments 9 vendor specific sign in 10 related support RelMeAuth users See web-sign-in Here's a more technical explanation: Use rel=\"me\" on your personal site, and enter your personal site as your web address on sites with web-sign-in (RelMeAuth).",
+      "tokens": [
+        "editor",
+        "tantek",
+        "elik",
+        "http",
+        "tantek",
+        "com",
+        "contents",
+        "support",
+        "relmeauth",
+        "users",
+        "examples",
+        "wild",
+        "users",
+        "separate",
+        "contact",
+        "pages",
+        "more",
+        "examples",
+        "wild",
+        "authentication",
+        "preference",
+        "profile",
+        "sites",
+        "authentication",
+        "sites",
+        "relmeauth",
+        "providers",
+        "sites",
+        "needing",
+        "user",
+        "login",
+        "works",
+        "summary",
+        "algorithm",
+        "detailed",
+        "algorithm",
+        "error",
+        "cases",
+        "open",
+        "source",
+        "implementations",
+        "go",
+        "node",
+        "js",
+        "python",
+        "php",
+        "ruby",
+        "issues",
+        "history",
+        "articles",
+        "posts",
+        "comments",
+        "vendor",
+        "specific",
+        "sign",
+        "10",
+        "related",
+        "support",
+        "relmeauth",
+        "users",
+        "see",
+        "web",
+        "sign",
+        "here",
+        "more",
+        "technical",
+        "explanation",
+        "use",
+        "rel",
+        "your",
+        "personal",
+        "site",
+        "enter",
+        "your",
+        "personal",
+        "site",
+        "your",
+        "web",
+        "address",
+        "sites",
+        "web",
+        "sign",
+        "relmeauth"
+      ]
+    },
+    {
+      "charEnd": 1210,
+      "charStart": 1199,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.4",
+      "kind": "bullet",
+      "text": "Steps: 1.",
+      "tokens": [
+        "steps"
+      ]
+    },
+    {
+      "charEnd": 1229,
+      "charStart": 1225,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 1234,
+      "charStart": 1230,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 1240,
+      "charStart": 1235,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.7",
+      "kind": "bullet",
+      "text": "rel",
+      "tokens": [
+        "rel"
+      ]
+    },
+    {
+      "charEnd": 1247,
+      "charStart": 1241,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.8",
+      "kind": "bullet",
+      "text": "user",
+      "tokens": [
+        "user"
+      ]
+    },
+    {
+      "charEnd": 1259,
+      "charStart": 1248,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.9",
+      "kind": "bullet",
+      "text": "relmeauth",
+      "tokens": [
+        "relmeauth"
+      ]
+    },
+    {
+      "charEnd": 1267,
+      "charStart": 1260,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.10",
+      "kind": "bullet",
+      "text": "oauth",
+      "tokens": [
+        "oauth"
+      ]
+    },
+    {
+      "charEnd": 1274,
+      "charStart": 1268,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.11",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 1280,
+      "charStart": 1275,
+      "factId": "hz.web.0c471e4b19f63b5f.fact.12",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 32,
+      "charStart": 1,
+      "headingId": "hz.web.0c471e4b19f63b5f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "RelMeAuth - Microformats Wiki"
+    },
+    {
+      "charEnd": 130,
+      "charStart": 120,
+      "headingId": "hz.web.0c471e4b19f63b5f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1223,
+      "charStart": 1212,
+      "headingId": "hz.web.0c471e4b19f63b5f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1292,
+      "charStart": 1282,
+      "headingId": "hz.web.0c471e4b19f63b5f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/0c471e4b19f63b5f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4546,
+        "start": 0
+      }
+    ],
+    "hash": "ca8887f4955f2c1a05fd60a77645d558a617d2616bdf708e0f40aef446ec88ef",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "RelMeAuth - Microformats Wiki RelMeAuth From Microformats Wiki Jump to navigation Jump to search RelMeAuth is a proposed open standard for using rel-me links to profiles on OAuth supporting services to authenticate via either those profiles or your own site.",
+      "RelMeAuth is the technology behind web-sign-in .",
+      "Editor Tantek Çelik ( http://tantek.com/ ) Contents 1 support RelMeAuth 1.1 users 1.1.1 examples in the wild 1.2 users with separate contact pages 1.2.1 more examples in the wild 1.2.2 authentication preference 1.3 profile sites 1.4 authentication sites 1.4.1 RelMeAuth providers 1.5 sites needing a user login 2 how it works 2.1 summary algorithm 2.2 detailed algorithm 3 Error Cases 4 open source implementations 4.1 Go 4.2 Node.js 4.3 Python 4.4 PHP 4.5 Ruby 5 to do 6 issues 7 history 8 articles posts comments 9 vendor specific sign in 10 related support RelMeAuth users See web-sign-in Here's a more technical explanation: Use rel=\"me\" on your personal site, and enter your personal site as your web address on sites with web-sign-in (RelMeAuth)."
+    ],
+    "medium": "Source: http://microformats.org/wiki/RelMeAuth",
+    "short": "Source: http://microformats.org/wiki/RelMeAuth",
+    "tokens": [
+      "relmeauth",
+      "microformats",
+      "wiki",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "relmeauth",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "relmeauth"
+    ]
+  },
+  "title": "RelMeAuth - Microformats Wiki"
+}

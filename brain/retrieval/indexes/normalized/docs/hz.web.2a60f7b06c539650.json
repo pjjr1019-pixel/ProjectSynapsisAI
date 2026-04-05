@@ -1,0 +1,316 @@
+{
+  "aliases": [
+    {
+      "alias": "2a60f7b06c539650",
+      "aliasId": "hz.web.2a60f7b06c539650.alias.1",
+      "canonical": "tech.cornell.edu"
+    },
+    {
+      "alias": "tech.cornell.edu",
+      "aliasId": "hz.web.2a60f7b06c539650.alias.2",
+      "canonical": "tech.cornell.edu"
+    },
+    {
+      "alias": "web 2a60f7b06c539650",
+      "aliasId": "hz.web.2a60f7b06c539650.alias.3",
+      "canonical": "tech.cornell.edu"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.44,
+  "docId": "hz.web.2a60f7b06c539650",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2a60f7b06c539650.entity.1",
+      "kind": "document",
+      "name": "tech.cornell.edu",
+      "tokens": [
+        "tech",
+        "cornell",
+        "edu"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a60f7b06c539650.entity.2",
+      "kind": "heading",
+      "name": "tech.cornell.edu",
+      "tokens": [
+        "tech",
+        "cornell",
+        "edu"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a60f7b06c539650.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a60f7b06c539650.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2a60f7b06c539650.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 128,
+      "charStart": 21,
+      "factId": "hz.web.2a60f7b06c539650.fact.1",
+      "kind": "summary",
+      "text": "Source: https://tech.cornell.edu/wp-content/themes/cornell-tech/assets/favicons/site.webmanifest?v=20260317",
+      "tokens": [
+        "source",
+        "https",
+        "tech",
+        "cornell",
+        "edu",
+        "wp",
+        "content",
+        "themes",
+        "cornell",
+        "tech",
+        "assets",
+        "favicons",
+        "site",
+        "webmanifest",
+        "20260317"
+      ]
+    },
+    {
+      "charEnd": 537,
+      "charStart": 180,
+      "factId": "hz.web.2a60f7b06c539650.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"Cornell Tech\", \"short_name\": \"Cornell Tech\", \"icons\": [ { \"src\": \"icon-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"any\" }, { \"src\": \"icon-512-maskable.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"maskable\" } ], \"theme_color\": \"#b31b1b\", \"background_color\": \"#b31b1b\", \"start_url\": \"/\", \"display\": \"standalone\" }",
+      "tokens": [
+        "name",
+        "cornell",
+        "tech",
+        "short_name",
+        "cornell",
+        "tech",
+        "icons",
+        "src",
+        "icon",
+        "512",
+        "png",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "any",
+        "src",
+        "icon",
+        "512",
+        "maskable",
+        "png",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "maskable",
+        "theme_color",
+        "b31b1b",
+        "background_color",
+        "b31b1b",
+        "start_url",
+        "display",
+        "standalone"
+      ]
+    },
+    {
+      "charEnd": 557,
+      "charStart": 552,
+      "factId": "hz.web.2a60f7b06c539650.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 563,
+      "charStart": 558,
+      "factId": "hz.web.2a60f7b06c539650.fact.3",
+      "kind": "bullet",
+      "text": "512",
+      "tokens": [
+        "512"
+      ]
+    },
+    {
+      "charEnd": 573,
+      "charStart": 564,
+      "factId": "hz.web.2a60f7b06c539650.fact.4",
+      "kind": "bullet",
+      "text": "512x512",
+      "tokens": [
+        "512x512"
+      ]
+    },
+    {
+      "charEnd": 582,
+      "charStart": 574,
+      "factId": "hz.web.2a60f7b06c539650.fact.5",
+      "kind": "bullet",
+      "text": "b31b1b",
+      "tokens": [
+        "b31b1b"
+      ]
+    },
+    {
+      "charEnd": 592,
+      "charStart": 583,
+      "factId": "hz.web.2a60f7b06c539650.fact.6",
+      "kind": "bullet",
+      "text": "cornell",
+      "tokens": [
+        "cornell"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 593,
+      "factId": "hz.web.2a60f7b06c539650.fact.7",
+      "kind": "bullet",
+      "text": "icon",
+      "tokens": [
+        "icon"
+      ]
+    },
+    {
+      "charEnd": 607,
+      "charStart": 600,
+      "factId": "hz.web.2a60f7b06c539650.fact.8",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 618,
+      "charStart": 608,
+      "factId": "hz.web.2a60f7b06c539650.fact.9",
+      "kind": "bullet",
+      "text": "maskable",
+      "tokens": [
+        "maskable"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.2a60f7b06c539650.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "tech.cornell.edu"
+    },
+    {
+      "charEnd": 178,
+      "charStart": 168,
+      "headingId": "hz.web.2a60f7b06c539650.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 550,
+      "charStart": 539,
+      "headingId": "hz.web.2a60f7b06c539650.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 630,
+      "charStart": 620,
+      "headingId": "hz.web.2a60f7b06c539650.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2a60f7b06c539650.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1287,
+        "start": 0
+      }
+    ],
+    "hash": "33342ae6bbc903464df11fb1b4170ca7acf4eb997c23197ef4bdb7f85a472167",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"Cornell Tech\", \"short_name\": \"Cornell Tech\", \"icons\": [ { \"src\": \"icon-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"any\" }, { \"src\": \"icon-512-maskable.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"maskable\" } ], \"theme_color\": \"#b31b1b\", \"background_color\": \"#b31b1b\", \"start_url\": \"/\", \"display\": \"standalone\" }",
+      "png",
+      "512"
+    ],
+    "medium": "Source: https://tech.cornell.edu/wp-content/themes/cornell-tech/assets/favicons/site.webmanifest?v=20260317",
+    "short": "Source: https://tech.cornell.edu/wp-content/themes/cornell-tech/assets/favicons/site.webmanifest?v=20260317",
+    "tokens": [
+      "tech",
+      "cornell",
+      "edu",
+      "source",
+      "https",
+      "tech",
+      "cornell",
+      "edu",
+      "wp",
+      "content",
+      "themes",
+      "cornell",
+      "tech",
+      "assets",
+      "favicons",
+      "site",
+      "webmanifest",
+      "20260317",
+      "source",
+      "https",
+      "tech",
+      "cornell",
+      "edu",
+      "wp",
+      "content",
+      "themes",
+      "cornell",
+      "tech",
+      "assets",
+      "favicons",
+      "site",
+      "webmanifest",
+      "20260317"
+    ]
+  },
+  "title": "tech.cornell.edu"
+}

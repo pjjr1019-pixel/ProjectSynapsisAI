@@ -1,0 +1,402 @@
+{
+  "aliases": [
+    {
+      "alias": "4ea450cc1c1e4965",
+      "aliasId": "hz.web.4ea450cc1c1e4965.alias.1",
+      "canonical": "elemental-microformat - microformats wiki"
+    },
+    {
+      "alias": "elemental-microformat - microformats wiki",
+      "aliasId": "hz.web.4ea450cc1c1e4965.alias.2",
+      "canonical": "elemental-microformat - microformats wiki"
+    },
+    {
+      "alias": "web 4ea450cc1c1e4965",
+      "aliasId": "hz.web.4ea450cc1c1e4965.alias.3",
+      "canonical": "elemental-microformat - microformats wiki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.4ea450cc1c1e4965",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4ea450cc1c1e4965.entity.1",
+      "kind": "document",
+      "name": "elemental-microformat - Microformats Wiki",
+      "tokens": [
+        "elemental",
+        "microformat",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ea450cc1c1e4965.entity.2",
+      "kind": "heading",
+      "name": "elemental-microformat - Microformats Wiki",
+      "tokens": [
+        "elemental",
+        "microformat",
+        "microformats",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ea450cc1c1e4965.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ea450cc1c1e4965.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ea450cc1c1e4965.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 105,
+      "charStart": 46,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.1",
+      "kind": "summary",
+      "text": "Source: http://microformats.org/wiki/elemental_microformats",
+      "tokens": [
+        "source",
+        "http",
+        "microformats",
+        "org",
+        "wiki",
+        "elemental_microformats"
+      ]
+    },
+    {
+      "charEnd": 447,
+      "charStart": 157,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.1",
+      "kind": "bullet",
+      "text": "elemental-microformat - Microformats Wiki elemental-microformat From Microformats Wiki (Redirected from elemental microformats ) Jump to navigation Jump to search Elemental Microformat An elemental microformat is a minimal solution to a single problem, built from standard XHTML elements.",
+      "tokens": [
+        "elemental",
+        "microformat",
+        "microformats",
+        "wiki",
+        "elemental",
+        "microformat",
+        "microformats",
+        "wiki",
+        "redirected",
+        "elemental",
+        "microformats",
+        "jump",
+        "navigation",
+        "jump",
+        "search",
+        "elemental",
+        "microformat",
+        "elemental",
+        "microformat",
+        "minimal",
+        "solution",
+        "single",
+        "problem",
+        "built",
+        "standard",
+        "xhtml",
+        "elements"
+      ]
+    },
+    {
+      "charEnd": 566,
+      "charStart": 448,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.2",
+      "kind": "bullet",
+      "text": "It is designed to be incorporated within webpages, and to act as a building block for larger compound microformats .",
+      "tokens": [
+        "designed",
+        "incorporated",
+        "within",
+        "webpages",
+        "act",
+        "building",
+        "block",
+        "larger",
+        "compound",
+        "microformats"
+      ]
+    },
+    {
+      "charEnd": 620,
+      "charStart": 567,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.3",
+      "kind": "bullet",
+      "text": "They generally use a single class or rel attribute.",
+      "tokens": [
+        "generally",
+        "use",
+        "single",
+        "class",
+        "rel",
+        "attribute"
+      ]
+    },
+    {
+      "charEnd": 1203,
+      "charStart": 621,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.4",
+      "kind": "bullet",
+      "text": "Current examples are: rel-enclosure rel-license rel-nofollow rel-tag VoteLinks XFN XMDP XOXO Retrieved from \" http://microformats.org/wiki/index.php?title=elemental-microformat&oldid=40163 \" Navigation menu Personal tools Log in Namespaces Page Discussion English expanded collapsed Views Read View source View history More expanded collapsed Search Microformats Wiki Front Page Recent changes Microformats Blog Events About Tools What links here Related changes Special pages Printable version Permanent link Page information This page was last edited on 7 August 2009, at 03:28.",
+      "tokens": [
+        "current",
+        "examples",
+        "rel",
+        "enclosure",
+        "rel",
+        "license",
+        "rel",
+        "nofollow",
+        "rel",
+        "tag",
+        "votelinks",
+        "xfn",
+        "xmdp",
+        "xoxo",
+        "retrieved",
+        "http",
+        "microformats",
+        "org",
+        "wiki",
+        "index",
+        "php",
+        "title",
+        "elemental",
+        "microformat",
+        "oldid",
+        "40163",
+        "navigation",
+        "menu",
+        "personal",
+        "tools",
+        "log",
+        "namespaces",
+        "page",
+        "discussion",
+        "english",
+        "expanded",
+        "collapsed",
+        "views",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "more",
+        "expanded",
+        "collapsed",
+        "search",
+        "microformats",
+        "wiki",
+        "front",
+        "page",
+        "recent",
+        "changes",
+        "microformats",
+        "blog",
+        "events",
+        "about",
+        "tools",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "special",
+        "pages",
+        "printable",
+        "version",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "page",
+        "last",
+        "edited",
+        "august",
+        "2009",
+        "03",
+        "28"
+      ]
+    },
+    {
+      "charEnd": 1232,
+      "charStart": 1218,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.5",
+      "kind": "bullet",
+      "text": "microformats",
+      "tokens": [
+        "microformats"
+      ]
+    },
+    {
+      "charEnd": 1244,
+      "charStart": 1233,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.6",
+      "kind": "bullet",
+      "text": "elemental",
+      "tokens": [
+        "elemental"
+      ]
+    },
+    {
+      "charEnd": 1258,
+      "charStart": 1245,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.7",
+      "kind": "bullet",
+      "text": "microformat",
+      "tokens": [
+        "microformat"
+      ]
+    },
+    {
+      "charEnd": 1264,
+      "charStart": 1259,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.8",
+      "kind": "bullet",
+      "text": "rel",
+      "tokens": [
+        "rel"
+      ]
+    },
+    {
+      "charEnd": 1271,
+      "charStart": 1265,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.9",
+      "kind": "bullet",
+      "text": "wiki",
+      "tokens": [
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 1278,
+      "charStart": 1272,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.10",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 1286,
+      "charStart": 1279,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.11",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1296,
+      "charStart": 1287,
+      "factId": "hz.web.4ea450cc1c1e4965.fact.12",
+      "kind": "bullet",
+      "text": "changes",
+      "tokens": [
+        "changes"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 44,
+      "charStart": 1,
+      "headingId": "hz.web.4ea450cc1c1e4965.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "elemental-microformat - Microformats Wiki"
+    },
+    {
+      "charEnd": 155,
+      "charStart": 145,
+      "headingId": "hz.web.4ea450cc1c1e4965.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1216,
+      "charStart": 1205,
+      "headingId": "hz.web.4ea450cc1c1e4965.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1308,
+      "charStart": 1298,
+      "headingId": "hz.web.4ea450cc1c1e4965.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4ea450cc1c1e4965.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2676,
+        "start": 0
+      }
+    ],
+    "hash": "4073b717e224c2c94c9a10895f36e54eba33feda362e598a443228005169d991",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "elemental-microformat - Microformats Wiki elemental-microformat From Microformats Wiki (Redirected from elemental microformats ) Jump to navigation Jump to search Elemental Microformat An elemental microformat is a minimal solution to a single problem, built from standard XHTML elements.",
+      "It is designed to be incorporated within webpages, and to act as a building block for larger compound microformats .",
+      "They generally use a single class or rel attribute."
+    ],
+    "medium": "Source: http://microformats.org/wiki/elemental_microformats",
+    "short": "Source: http://microformats.org/wiki/elemental_microformats",
+    "tokens": [
+      "elemental",
+      "microformat",
+      "microformats",
+      "wiki",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "elemental_microformats",
+      "source",
+      "http",
+      "microformats",
+      "org",
+      "wiki",
+      "elemental_microformats"
+    ]
+  },
+  "title": "elemental-microformat - Microformats Wiki"
+}

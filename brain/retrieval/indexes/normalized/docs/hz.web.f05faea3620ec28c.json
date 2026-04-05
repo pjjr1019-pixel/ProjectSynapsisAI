@@ -1,0 +1,349 @@
+{
+  "aliases": [
+    {
+      "alias": "f05faea3620ec28c",
+      "aliasId": "hz.web.f05faea3620ec28c.alias.1",
+      "canonical": "pricing - superfeedr"
+    },
+    {
+      "alias": "pricing - superfeedr",
+      "aliasId": "hz.web.f05faea3620ec28c.alias.2",
+      "canonical": "pricing - superfeedr"
+    },
+    {
+      "alias": "web f05faea3620ec28c",
+      "aliasId": "hz.web.f05faea3620ec28c.alias.3",
+      "canonical": "pricing - superfeedr"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.f05faea3620ec28c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f05faea3620ec28c.entity.1",
+      "kind": "document",
+      "name": "Pricing - Superfeedr",
+      "tokens": [
+        "pricing",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.f05faea3620ec28c.entity.2",
+      "kind": "heading",
+      "name": "Pricing - Superfeedr",
+      "tokens": [
+        "pricing",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.f05faea3620ec28c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f05faea3620ec28c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f05faea3620ec28c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 25,
+      "factId": "hz.web.f05faea3620ec28c.fact.1",
+      "kind": "summary",
+      "text": "Source: http://superfeedr.com/pricing",
+      "tokens": [
+        "source",
+        "http",
+        "superfeedr",
+        "com",
+        "pricing"
+      ]
+    },
+    {
+      "charEnd": 316,
+      "charStart": 114,
+      "factId": "hz.web.f05faea3620ec28c.fact.1",
+      "kind": "bullet",
+      "text": "Pricing - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Powerful and affordable Not only does Superfeedr save you time and development resources, it also saves you money.",
+      "tokens": [
+        "pricing",
+        "superfeedr",
+        "superfeedr",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "powerful",
+        "affordable",
+        "not",
+        "only",
+        "superfeedr",
+        "save",
+        "time",
+        "development",
+        "resources",
+        "also",
+        "saves",
+        "money"
+      ]
+    },
+    {
+      "charEnd": 465,
+      "charStart": 317,
+      "factId": "hz.web.f05faea3620ec28c.fact.2",
+      "kind": "bullet",
+      "text": "Instead of building expensive infrastructure, our pay-as-you-go pricing makes it affordable to harness the power of real-time feeds and PuSH hubs.",
+      "tokens": [
+        "instead",
+        "building",
+        "expensive",
+        "infrastructure",
+        "our",
+        "pay",
+        "go",
+        "pricing",
+        "makes",
+        "affordable",
+        "harness",
+        "power",
+        "real",
+        "time",
+        "feeds",
+        "push",
+        "hubs"
+      ]
+    },
+    {
+      "charEnd": 708,
+      "charStart": 466,
+      "factId": "hz.web.f05faea3620ec28c.fact.3",
+      "kind": "bullet",
+      "text": "View pricing for&hellip; Publishers Subscribers Trackers Before switching to Superfeedr we were running our own complicated code to handle polling, fetching and normalization - and constantly finding edge cases and feeds broken in new ways.",
+      "tokens": [
+        "view",
+        "pricing",
+        "hellip",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "before",
+        "switching",
+        "superfeedr",
+        "running",
+        "our",
+        "own",
+        "complicated",
+        "code",
+        "handle",
+        "polling",
+        "fetching",
+        "normalization",
+        "constantly",
+        "finding",
+        "edge",
+        "cases",
+        "feeds",
+        "broken",
+        "new",
+        "ways"
+      ]
+    },
+    {
+      "charEnd": 805,
+      "charStart": 709,
+      "factId": "hz.web.f05faea3620ec28c.fact.4",
+      "kind": "bullet",
+      "text": "Superfeedr saves us from reinventing the wheel and frees us up to focus on what we're good at.",
+      "tokens": [
+        "superfeedr",
+        "saves",
+        "us",
+        "reinventing",
+        "wheel",
+        "frees",
+        "us",
+        "up",
+        "focus",
+        "re",
+        "good"
+      ]
+    },
+    {
+      "charEnd": 832,
+      "charStart": 820,
+      "factId": "hz.web.f05faea3620ec28c.fact.5",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 842,
+      "charStart": 833,
+      "factId": "hz.web.f05faea3620ec28c.fact.6",
+      "kind": "bullet",
+      "text": "pricing",
+      "tokens": [
+        "pricing"
+      ]
+    },
+    {
+      "charEnd": 855,
+      "charStart": 843,
+      "factId": "hz.web.f05faea3620ec28c.fact.7",
+      "kind": "bullet",
+      "text": "publishers",
+      "tokens": [
+        "publishers"
+      ]
+    },
+    {
+      "charEnd": 860,
+      "charStart": 856,
+      "factId": "hz.web.f05faea3620ec28c.fact.8",
+      "kind": "bullet",
+      "text": "us",
+      "tokens": [
+        "us"
+      ]
+    },
+    {
+      "charEnd": 873,
+      "charStart": 861,
+      "factId": "hz.web.f05faea3620ec28c.fact.9",
+      "kind": "bullet",
+      "text": "affordable",
+      "tokens": [
+        "affordable"
+      ]
+    },
+    {
+      "charEnd": 880,
+      "charStart": 874,
+      "factId": "hz.web.f05faea3620ec28c.fact.10",
+      "kind": "bullet",
+      "text": "code",
+      "tokens": [
+        "code"
+      ]
+    },
+    {
+      "charEnd": 888,
+      "charStart": 881,
+      "factId": "hz.web.f05faea3620ec28c.fact.11",
+      "kind": "bullet",
+      "text": "feeds",
+      "tokens": [
+        "feeds"
+      ]
+    },
+    {
+      "charEnd": 896,
+      "charStart": 889,
+      "factId": "hz.web.f05faea3620ec28c.fact.12",
+      "kind": "bullet",
+      "text": "makes",
+      "tokens": [
+        "makes"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.f05faea3620ec28c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Pricing - Superfeedr"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.f05faea3620ec28c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 818,
+      "charStart": 807,
+      "headingId": "hz.web.f05faea3620ec28c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 908,
+      "charStart": 898,
+      "headingId": "hz.web.f05faea3620ec28c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f05faea3620ec28c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2117,
+        "start": 0
+      }
+    ],
+    "hash": "30e6663237803d4c64783e00d9c9d25e8d86f5a8a158b1d8319daabd16d7e56a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Pricing - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Powerful and affordable Not only does Superfeedr save you time and development resources, it also saves you money.",
+      "Instead of building expensive infrastructure, our pay-as-you-go pricing makes it affordable to harness the power of real-time feeds and PuSH hubs.",
+      "View pricing for&hellip; Publishers Subscribers Trackers Before switching to Superfeedr we were running our own complicated code to handle polling, fetching and normalization - and constantly finding edge cases and feeds broken in new ways."
+    ],
+    "medium": "Source: http://superfeedr.com/pricing",
+    "short": "Source: http://superfeedr.com/pricing",
+    "tokens": [
+      "pricing",
+      "superfeedr",
+      "source",
+      "http",
+      "superfeedr",
+      "com",
+      "pricing",
+      "source",
+      "http",
+      "superfeedr",
+      "com",
+      "pricing"
+    ]
+  },
+  "title": "Pricing - Superfeedr"
+}

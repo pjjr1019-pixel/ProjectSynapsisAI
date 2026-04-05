@@ -1,0 +1,550 @@
+{
+  "aliases": [
+    {
+      "alias": "f0fa1dd46c0205b7",
+      "aliasId": "hz.web.f0fa1dd46c0205b7.alias.1",
+      "canonical": "rfc 2606 - reserved top level dns names"
+    },
+    {
+      "alias": "rfc 2606 - reserved top level dns names",
+      "aliasId": "hz.web.f0fa1dd46c0205b7.alias.2",
+      "canonical": "rfc 2606 - reserved top level dns names"
+    },
+    {
+      "alias": "web f0fa1dd46c0205b7",
+      "aliasId": "hz.web.f0fa1dd46c0205b7.alias.3",
+      "canonical": "rfc 2606 - reserved top level dns names"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.f0fa1dd46c0205b7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f0fa1dd46c0205b7.entity.1",
+      "kind": "document",
+      "name": "RFC 2606 - Reserved Top Level DNS Names",
+      "tokens": [
+        "rfc",
+        "2606",
+        "reserved",
+        "top",
+        "level",
+        "dns",
+        "names"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0fa1dd46c0205b7.entity.2",
+      "kind": "heading",
+      "name": "RFC 2606 - Reserved Top Level DNS Names",
+      "tokens": [
+        "rfc",
+        "2606",
+        "reserved",
+        "top",
+        "level",
+        "dns",
+        "names"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0fa1dd46c0205b7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0fa1dd46c0205b7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0fa1dd46c0205b7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 86,
+      "charStart": 44,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.1",
+      "kind": "summary",
+      "text": "Source: http://tools.ietf.org/html/rfc2606",
+      "tokens": [
+        "source",
+        "http",
+        "tools",
+        "ietf",
+        "org",
+        "html",
+        "rfc2606"
+      ]
+    },
+    {
+      "charEnd": 1382,
+      "charStart": 138,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.1",
+      "kind": "bullet",
+      "text": "RFC 2606 - Reserved Top Level DNS Names Light Dark Auto RFC 2606 Best Current Practice Title Reserved Top Level DNS Names Document Document type RFC - Best Current Practice June 1999 View errata Report errata Updated by RFC 6761 Was draft-ietf-dnsind-test-tlds ( dnsind WG ) Select version 13 RFC 2606 Compare versions RFC 2606 draft-ietf-dnsind-test-tlds-13 draft-ietf-dnsind-test-tlds-12 draft-ietf-dnsind-test-tlds-11 draft-ietf-dnsind-test-tlds-10 draft-ietf-dnsind-test-tlds-09 draft-ietf-dnsind-test-tlds-08 draft-ietf-dnsind-test-tlds-07 draft-ietf-dnsind-test-tlds-06 draft-ietf-dnsind-test-tlds-05 draft-ietf-dnsind-test-tlds-04 draft-ietf-dnsind-test-tlds-03 draft-ietf-dnsind-test-tlds-02 draft-ietf-dnsind-test-tlds-01 draft-ietf-dnsind-test-tlds-00 RFC 2606 draft-ietf-dnsind-test-tlds-13 draft-ietf-dnsind-test-tlds-12 draft-ietf-dnsind-test-tlds-11 draft-ietf-dnsind-test-tlds-10 draft-ietf-dnsind-test-tlds-09 draft-ietf-dnsind-test-tlds-08 draft-ietf-dnsind-test-tlds-07 draft-ietf-dnsind-test-tlds-06 draft-ietf-dnsind-test-tlds-05 draft-ietf-dnsind-test-tlds-04 draft-ietf-dnsind-test-tlds-03 draft-ietf-dnsind-test-tlds-02 draft-ietf-dnsind-test-tlds-01 draft-ietf-dnsind-test-tlds-00 Side-by-side Inline Authors Donald E.",
+      "tokens": [
+        "rfc",
+        "2606",
+        "reserved",
+        "top",
+        "level",
+        "dns",
+        "names",
+        "light",
+        "dark",
+        "auto",
+        "rfc",
+        "2606",
+        "best",
+        "current",
+        "practice",
+        "title",
+        "reserved",
+        "top",
+        "level",
+        "dns",
+        "names",
+        "document",
+        "document",
+        "type",
+        "rfc",
+        "best",
+        "current",
+        "practice",
+        "june",
+        "1999",
+        "view",
+        "errata",
+        "report",
+        "errata",
+        "updated",
+        "rfc",
+        "6761",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "dnsind",
+        "wg",
+        "select",
+        "version",
+        "13",
+        "rfc",
+        "2606",
+        "compare",
+        "versions",
+        "rfc",
+        "2606",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "13",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "12",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "11",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "10",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "09",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "08",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "07",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "06",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "05",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "04",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "03",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "02",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "01",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "00",
+        "rfc",
+        "2606",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "13",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "12",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "11",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "10",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "09",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "08",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "07",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "06",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "05",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "04",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "03",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "02",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "01",
+        "draft",
+        "ietf",
+        "dnsind",
+        "test",
+        "tlds",
+        "00",
+        "side",
+        "side",
+        "inline",
+        "authors",
+        "donald"
+      ]
+    },
+    {
+      "charEnd": 1408,
+      "charStart": 1383,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.2",
+      "kind": "bullet",
+      "text": "Eastlake 3rd , Aliza R.",
+      "tokens": [
+        "eastlake",
+        "3rd",
+        "aliza"
+      ]
+    },
+    {
+      "charEnd": 1559,
+      "charStart": 1409,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.3",
+      "kind": "bullet",
+      "text": "Panitz Email authors RFC stream Other formats txt html pdf bibtex Additional resources Mailing list discussion Report a bug Network Working Group D.",
+      "tokens": [
+        "panitz",
+        "email",
+        "authors",
+        "rfc",
+        "stream",
+        "other",
+        "formats",
+        "txt",
+        "html",
+        "pdf",
+        "bibtex",
+        "additional",
+        "resources",
+        "mailing",
+        "list",
+        "discussion",
+        "report",
+        "bug",
+        "network",
+        "working",
+        "group"
+      ]
+    },
+    {
+      "charEnd": 1600,
+      "charStart": 1560,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.4",
+      "kind": "bullet",
+      "text": "Eastlake Request for Comments: 2606 A.",
+      "tokens": [
+        "eastlake",
+        "request",
+        "comments",
+        "2606"
+      ]
+    },
+    {
+      "charEnd": 1621,
+      "charStart": 1615,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.5",
+      "kind": "bullet",
+      "text": "test",
+      "tokens": [
+        "test"
+      ]
+    },
+    {
+      "charEnd": 1628,
+      "charStart": 1622,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.6",
+      "kind": "bullet",
+      "text": "tlds",
+      "tokens": [
+        "tlds"
+      ]
+    },
+    {
+      "charEnd": 1637,
+      "charStart": 1629,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.7",
+      "kind": "bullet",
+      "text": "dnsind",
+      "tokens": [
+        "dnsind"
+      ]
+    },
+    {
+      "charEnd": 1645,
+      "charStart": 1638,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.8",
+      "kind": "bullet",
+      "text": "draft",
+      "tokens": [
+        "draft"
+      ]
+    },
+    {
+      "charEnd": 1652,
+      "charStart": 1646,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.9",
+      "kind": "bullet",
+      "text": "ietf",
+      "tokens": [
+        "ietf"
+      ]
+    },
+    {
+      "charEnd": 1658,
+      "charStart": 1653,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.10",
+      "kind": "bullet",
+      "text": "rfc",
+      "tokens": [
+        "rfc"
+      ]
+    },
+    {
+      "charEnd": 1666,
+      "charStart": 1659,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.11",
+      "kind": "bullet",
+      "text": "names",
+      "tokens": [
+        "names"
+      ]
+    },
+    {
+      "charEnd": 1674,
+      "charStart": 1667,
+      "factId": "hz.web.f0fa1dd46c0205b7.fact.12",
+      "kind": "bullet",
+      "text": "level",
+      "tokens": [
+        "level"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 42,
+      "charStart": 1,
+      "headingId": "hz.web.f0fa1dd46c0205b7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "RFC 2606 - Reserved Top Level DNS Names"
+    },
+    {
+      "charEnd": 136,
+      "charStart": 126,
+      "headingId": "hz.web.f0fa1dd46c0205b7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1613,
+      "charStart": 1602,
+      "headingId": "hz.web.f0fa1dd46c0205b7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1686,
+      "charStart": 1676,
+      "headingId": "hz.web.f0fa1dd46c0205b7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/f0fa1dd46c0205b7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4946,
+        "start": 0
+      }
+    ],
+    "hash": "45bcb1673e136fe5507cfd998551e4fe3ab8cacdc4827c1cc6bf6a969c1e0497",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "RFC 2606 - Reserved Top Level DNS Names Light Dark Auto RFC 2606 Best Current Practice Title Reserved Top Level DNS Names Document Document type RFC - Best Current Practice June 1999 View errata Report errata Updated by RFC 6761 Was draft-ietf-dnsind-test-tlds ( dnsind WG ) Select version 13 RFC 2606 Compare versions RFC 2606 draft-ietf-dnsind-test-tlds-13 draft-ietf-dnsind-test-tlds-12 draft-ietf-dnsind-test-tlds-11 draft-ietf-dnsind-test-tlds-10 draft-ietf-dnsind-test-tlds-09 draft-ietf-dnsind-test-tlds-08 draft-ietf-dnsind-test-tlds-07 draft-ietf-dnsind-test-tlds-06 draft-ietf-dnsind-test-tlds-05 draft-ietf-dnsind-test-tlds-04 draft-ietf-dnsind-test-tlds-03 draft-ietf-dnsind-test-tlds-02 draft-ietf-dnsind-test-tlds-01 draft-ietf-dnsind-test-tlds-00 RFC 2606 draft-ietf-dnsind-test-tlds-13 draft-ietf-dnsind-test-tlds-12 draft-ietf-dnsind-test-tlds-11 draft-ietf-dnsind-test-tlds-10 draft-ietf-dnsind-test-tlds-09 draft-ietf-dnsind-test-tlds-08 draft-ietf-dnsind-test-tlds-07 draft-ietf-dnsind-test-tlds-06 draft-ietf-dnsind-test-tlds-05 draft-ietf-dnsind-test-tlds-04 draft-ietf-dnsind-test-tlds-03 draft-ietf-dnsind-test-tlds-02 draft-ietf-dnsind-test-tlds-01 draft-ietf-dnsind-test-tlds-00 Side-by-side Inline Authors Donald E.",
+      "Eastlake 3rd , Aliza R.",
+      "Panitz Email authors RFC stream Other formats txt html pdf bibtex Additional resources Mailing list discussion Report a bug Network Working Group D."
+    ],
+    "medium": "Source: http://tools.ietf.org/html/rfc2606",
+    "short": "Source: http://tools.ietf.org/html/rfc2606",
+    "tokens": [
+      "rfc",
+      "2606",
+      "reserved",
+      "top",
+      "level",
+      "dns",
+      "names",
+      "source",
+      "http",
+      "tools",
+      "ietf",
+      "org",
+      "html",
+      "rfc2606",
+      "source",
+      "http",
+      "tools",
+      "ietf",
+      "org",
+      "html",
+      "rfc2606"
+    ]
+  },
+  "title": "RFC 2606 - Reserved Top Level DNS Names"
+}

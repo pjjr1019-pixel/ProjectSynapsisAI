@@ -1,0 +1,338 @@
+{
+  "aliases": [
+    {
+      "alias": "71e28604c6b222d2",
+      "aliasId": "hz.web.71e28604c6b222d2.alias.1",
+      "canonical": "arxiv system status"
+    },
+    {
+      "alias": "arxiv system status",
+      "aliasId": "hz.web.71e28604c6b222d2.alias.2",
+      "canonical": "arxiv system status"
+    },
+    {
+      "alias": "web 71e28604c6b222d2",
+      "aliasId": "hz.web.71e28604c6b222d2.alias.3",
+      "canonical": "arxiv system status"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.63,
+  "docId": "hz.web.71e28604c6b222d2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.71e28604c6b222d2.entity.1",
+      "kind": "document",
+      "name": "arXiv system status",
+      "tokens": [
+        "arxiv",
+        "system",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.71e28604c6b222d2.entity.2",
+      "kind": "heading",
+      "name": "arXiv system status",
+      "tokens": [
+        "arxiv",
+        "system",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.71e28604c6b222d2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.71e28604c6b222d2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.71e28604c6b222d2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 57,
+      "charStart": 24,
+      "factId": "hz.web.71e28604c6b222d2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://status.arxiv.org/",
+      "tokens": [
+        "source",
+        "https",
+        "status",
+        "arxiv",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 216,
+      "charStart": 109,
+      "factId": "hz.web.71e28604c6b222d2.fact.1",
+      "kind": "bullet",
+      "text": "arXiv system status We gratefully acknowledge support from the Simons Foundation and member institutions.",
+      "tokens": [
+        "arxiv",
+        "system",
+        "status",
+        "gratefully",
+        "acknowledge",
+        "support",
+        "simons",
+        "foundation",
+        "member",
+        "institutions"
+      ]
+    },
+    {
+      "charEnd": 478,
+      "charStart": 217,
+      "factId": "hz.web.71e28604c6b222d2.fact.2",
+      "kind": "bullet",
+      "text": "arXiv.org arXiv.org Operational Status ✅ Up - arxiv.org - Main Site; Postscript downloads temporarily disabled ✅ Up - Search ✅ Up - export.arxiv.org ✅ Users are able to log in and submit papers Planned Maintenance There is no planned maintenance at this time.",
+      "tokens": [
+        "arxiv",
+        "org",
+        "arxiv",
+        "org",
+        "operational",
+        "status",
+        "up",
+        "arxiv",
+        "org",
+        "main",
+        "site",
+        "postscript",
+        "downloads",
+        "temporarily",
+        "disabled",
+        "up",
+        "search",
+        "up",
+        "export",
+        "arxiv",
+        "org",
+        "users",
+        "able",
+        "log",
+        "submit",
+        "papers",
+        "planned",
+        "maintenance",
+        "there",
+        "no",
+        "planned",
+        "maintenance",
+        "time"
+      ]
+    },
+    {
+      "charEnd": 490,
+      "charStart": 479,
+      "factId": "hz.web.71e28604c6b222d2.fact.3",
+      "kind": "bullet",
+      "text": "Complete.",
+      "tokens": [
+        "complete"
+      ]
+    },
+    {
+      "charEnd": 627,
+      "charStart": 491,
+      "factId": "hz.web.71e28604c6b222d2.fact.4",
+      "kind": "bullet",
+      "text": "2026-01-09: Planned Maintenance: arXiv's servers will be undergoing planned maintenance beginning at Noon Eastern US Time on Fri, Jan.",
+      "tokens": [
+        "2026",
+        "01",
+        "09",
+        "planned",
+        "maintenance",
+        "arxiv",
+        "servers",
+        "will",
+        "undergoing",
+        "planned",
+        "maintenance",
+        "beginning",
+        "noon",
+        "eastern",
+        "us",
+        "time",
+        "fri",
+        "jan"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 642,
+      "factId": "hz.web.71e28604c6b222d2.fact.5",
+      "kind": "bullet",
+      "text": "arxiv",
+      "tokens": [
+        "arxiv"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 650,
+      "factId": "hz.web.71e28604c6b222d2.fact.6",
+      "kind": "bullet",
+      "text": "maintenance",
+      "tokens": [
+        "maintenance"
+      ]
+    },
+    {
+      "charEnd": 669,
+      "charStart": 664,
+      "factId": "hz.web.71e28604c6b222d2.fact.7",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 679,
+      "charStart": 670,
+      "factId": "hz.web.71e28604c6b222d2.fact.8",
+      "kind": "bullet",
+      "text": "planned",
+      "tokens": [
+        "planned"
+      ]
+    },
+    {
+      "charEnd": 684,
+      "charStart": 680,
+      "factId": "hz.web.71e28604c6b222d2.fact.9",
+      "kind": "bullet",
+      "text": "up",
+      "tokens": [
+        "up"
+      ]
+    },
+    {
+      "charEnd": 693,
+      "charStart": 685,
+      "factId": "hz.web.71e28604c6b222d2.fact.10",
+      "kind": "bullet",
+      "text": "status",
+      "tokens": [
+        "status"
+      ]
+    },
+    {
+      "charEnd": 700,
+      "charStart": 694,
+      "factId": "hz.web.71e28604c6b222d2.fact.11",
+      "kind": "bullet",
+      "text": "time",
+      "tokens": [
+        "time"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 701,
+      "factId": "hz.web.71e28604c6b222d2.fact.12",
+      "kind": "bullet",
+      "text": "01",
+      "tokens": [
+        "01"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.71e28604c6b222d2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "arXiv system status"
+    },
+    {
+      "charEnd": 107,
+      "charStart": 97,
+      "headingId": "hz.web.71e28604c6b222d2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 640,
+      "charStart": 629,
+      "headingId": "hz.web.71e28604c6b222d2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 717,
+      "charStart": 707,
+      "headingId": "hz.web.71e28604c6b222d2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/71e28604c6b222d2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1555,
+        "start": 0
+      }
+    ],
+    "hash": "4e422b2893a99f12181b51fd70a98874d492d37fafd7387214526797ee79d740",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "arXiv system status We gratefully acknowledge support from the Simons Foundation and member institutions.",
+      "arXiv.org arXiv.org Operational Status ✅ Up - arxiv.org - Main Site; Postscript downloads temporarily disabled ✅ Up - Search ✅ Up - export.arxiv.org ✅ Users are able to log in and submit papers Planned Maintenance There is no planned maintenance at this time.",
+      "Complete."
+    ],
+    "medium": "Source: https://status.arxiv.org/",
+    "short": "Source: https://status.arxiv.org/",
+    "tokens": [
+      "arxiv",
+      "system",
+      "status",
+      "source",
+      "https",
+      "status",
+      "arxiv",
+      "org",
+      "source",
+      "https",
+      "status",
+      "arxiv",
+      "org"
+    ]
+  },
+  "title": "arXiv system status"
+}

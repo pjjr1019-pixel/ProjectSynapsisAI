@@ -1,0 +1,429 @@
+{
+  "aliases": [
+    {
+      "alias": "4cd619f233054d80",
+      "aliasId": "hz.web.4cd619f233054d80.alias.1",
+      "canonical": "home: università ca' foscari venezia"
+    },
+    {
+      "alias": "home universit ca foscari venezia",
+      "aliasId": "hz.web.4cd619f233054d80.alias.2",
+      "canonical": "home: università ca' foscari venezia"
+    },
+    {
+      "alias": "web 4cd619f233054d80",
+      "aliasId": "hz.web.4cd619f233054d80.alias.3",
+      "canonical": "home: università ca' foscari venezia"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.4cd619f233054d80",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4cd619f233054d80.entity.1",
+      "kind": "document",
+      "name": "Home: Università Ca' Foscari Venezia",
+      "tokens": [
+        "home",
+        "universit",
+        "ca",
+        "foscari",
+        "venezia"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cd619f233054d80.entity.2",
+      "kind": "heading",
+      "name": "Home: Università Ca' Foscari Venezia",
+      "tokens": [
+        "home",
+        "universit",
+        "ca",
+        "foscari",
+        "venezia"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cd619f233054d80.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cd619f233054d80.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cd619f233054d80.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 69,
+      "charStart": 41,
+      "factId": "hz.web.4cd619f233054d80.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.unive.it/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "unive"
+      ]
+    },
+    {
+      "charEnd": 680,
+      "charStart": 121,
+      "factId": "hz.web.4cd619f233054d80.fact.1",
+      "kind": "bullet",
+      "text": "Home: Università Ca' Foscari Venezia Università Ca' Foscari Venezia Webmail Area riservata Future matricole Studenti e laureati Docenti e staff Enti e aziende Università Ca' Foscari Venezia Università Ca' Foscari Venezia Home Ricerca Didattica Servizi Terza missione Internazionale Ateneo Sostienici ITA ENG ITA ENG Toggle theme Light Dark Auto Home Ricerca Didattica Servizi Terza missione Internazionale Ateneo Sostienici Future matricole Studenti e laureati Docenti e staff Enti e aziende Webmail Area riservata Your browser does not support HTML5 video.",
+      "tokens": [
+        "home",
+        "universit",
+        "ca",
+        "foscari",
+        "venezia",
+        "universit",
+        "ca",
+        "foscari",
+        "venezia",
+        "webmail",
+        "area",
+        "riservata",
+        "future",
+        "matricole",
+        "studenti",
+        "laureati",
+        "docenti",
+        "staff",
+        "enti",
+        "aziende",
+        "universit",
+        "ca",
+        "foscari",
+        "venezia",
+        "universit",
+        "ca",
+        "foscari",
+        "venezia",
+        "home",
+        "ricerca",
+        "didattica",
+        "servizi",
+        "terza",
+        "missione",
+        "internazionale",
+        "ateneo",
+        "sostienici",
+        "ita",
+        "eng",
+        "ita",
+        "eng",
+        "toggle",
+        "theme",
+        "light",
+        "dark",
+        "auto",
+        "home",
+        "ricerca",
+        "didattica",
+        "servizi",
+        "terza",
+        "missione",
+        "internazionale",
+        "ateneo",
+        "sostienici",
+        "future",
+        "matricole",
+        "studenti",
+        "laureati",
+        "docenti",
+        "staff",
+        "enti",
+        "aziende",
+        "webmail",
+        "area",
+        "riservata",
+        "your",
+        "browser",
+        "not",
+        "support",
+        "html5",
+        "video"
+      ]
+    },
+    {
+      "charEnd": 846,
+      "charStart": 681,
+      "factId": "hz.web.4cd619f233054d80.fact.2",
+      "kind": "bullet",
+      "text": "Università Ca' Foscari Value in plurality Scopri Ca’ Foscari cafoscariNEWS Open Days Lauree Magistrali 2026: dal 13 al 22 aprile le presentazioni online dei corsi.",
+      "tokens": [
+        "universit",
+        "ca",
+        "foscari",
+        "value",
+        "plurality",
+        "scopri",
+        "ca",
+        "foscari",
+        "cafoscarinews",
+        "open",
+        "days",
+        "lauree",
+        "magistrali",
+        "2026",
+        "dal",
+        "13",
+        "al",
+        "22",
+        "aprile",
+        "le",
+        "presentazioni",
+        "online",
+        "dei",
+        "corsi"
+      ]
+    },
+    {
+      "charEnd": 1069,
+      "charStart": 847,
+      "factId": "hz.web.4cd619f233054d80.fact.3",
+      "kind": "bullet",
+      "text": "Leggi il programma e prenota Online il programma e prenotazioni aperte per le giornate di presentazione delle Lauree Magistrali, dedicate a chi desidera proseguire il proprio percorso accademico dopo la laurea triennale.",
+      "tokens": [
+        "leggi",
+        "il",
+        "programma",
+        "prenota",
+        "online",
+        "il",
+        "programma",
+        "prenotazioni",
+        "aperte",
+        "per",
+        "le",
+        "giornate",
+        "di",
+        "presentazione",
+        "delle",
+        "lauree",
+        "magistrali",
+        "dedicate",
+        "chi",
+        "desidera",
+        "proseguire",
+        "il",
+        "proprio",
+        "percorso",
+        "accademico",
+        "dopo",
+        "la",
+        "laurea",
+        "triennale"
+      ]
+    },
+    {
+      "charEnd": 1238,
+      "charStart": 1070,
+      "factId": "hz.web.4cd619f233054d80.fact.4",
+      "kind": "bullet",
+      "text": "Guarda la nuova offerta formativa di Ca’ Foscari, rivolta sia a chi si prepara a iniziare l’università, sia a chi vuole proseguire gli studi dopo la laurea triennale.",
+      "tokens": [
+        "guarda",
+        "la",
+        "nuova",
+        "offerta",
+        "formativa",
+        "di",
+        "ca",
+        "foscari",
+        "rivolta",
+        "sia",
+        "chi",
+        "si",
+        "prepara",
+        "iniziare",
+        "universit",
+        "sia",
+        "chi",
+        "vuole",
+        "proseguire",
+        "gli",
+        "studi",
+        "dopo",
+        "la",
+        "laurea",
+        "triennale"
+      ]
+    },
+    {
+      "charEnd": 1257,
+      "charStart": 1253,
+      "factId": "hz.web.4cd619f233054d80.fact.5",
+      "kind": "bullet",
+      "text": "di",
+      "tokens": [
+        "di"
+      ]
+    },
+    {
+      "charEnd": 1266,
+      "charStart": 1258,
+      "factId": "hz.web.4cd619f233054d80.fact.6",
+      "kind": "bullet",
+      "text": "cookie",
+      "tokens": [
+        "cookie"
+      ]
+    },
+    {
+      "charEnd": 1272,
+      "charStart": 1267,
+      "factId": "hz.web.4cd619f233054d80.fact.7",
+      "kind": "bullet",
+      "text": "del",
+      "tokens": [
+        "del"
+      ]
+    },
+    {
+      "charEnd": 1278,
+      "charStart": 1273,
+      "factId": "hz.web.4cd619f233054d80.fact.8",
+      "kind": "bullet",
+      "text": "per",
+      "tokens": [
+        "per"
+      ]
+    },
+    {
+      "charEnd": 1285,
+      "charStart": 1279,
+      "factId": "hz.web.4cd619f233054d80.fact.9",
+      "kind": "bullet",
+      "text": "sito",
+      "tokens": [
+        "sito"
+      ]
+    },
+    {
+      "charEnd": 1290,
+      "charStart": 1286,
+      "factId": "hz.web.4cd619f233054d80.fact.10",
+      "kind": "bullet",
+      "text": "il",
+      "tokens": [
+        "il"
+      ]
+    },
+    {
+      "charEnd": 1295,
+      "charStart": 1291,
+      "factId": "hz.web.4cd619f233054d80.fact.11",
+      "kind": "bullet",
+      "text": "la",
+      "tokens": [
+        "la"
+      ]
+    },
+    {
+      "charEnd": 1302,
+      "charStart": 1296,
+      "factId": "hz.web.4cd619f233054d80.fact.12",
+      "kind": "bullet",
+      "text": "dati",
+      "tokens": [
+        "dati"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 39,
+      "charStart": 1,
+      "headingId": "hz.web.4cd619f233054d80.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Home: Università Ca' Foscari Venezia"
+    },
+    {
+      "charEnd": 119,
+      "charStart": 109,
+      "headingId": "hz.web.4cd619f233054d80.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1251,
+      "charStart": 1240,
+      "headingId": "hz.web.4cd619f233054d80.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1314,
+      "charStart": 1304,
+      "headingId": "hz.web.4cd619f233054d80.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4cd619f233054d80.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4557,
+        "start": 0
+      }
+    ],
+    "hash": "4321fcd59f81801b2ca92fd312bc2b7bc69781814c79f6ab8a6538d1aabaece8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Home: Università Ca' Foscari Venezia Università Ca' Foscari Venezia Webmail Area riservata Future matricole Studenti e laureati Docenti e staff Enti e aziende Università Ca' Foscari Venezia Università Ca' Foscari Venezia Home Ricerca Didattica Servizi Terza missione Internazionale Ateneo Sostienici ITA ENG ITA ENG Toggle theme Light Dark Auto Home Ricerca Didattica Servizi Terza missione Internazionale Ateneo Sostienici Future matricole Studenti e laureati Docenti e staff Enti e aziende Webmail Area riservata Your browser does not support HTML5 video.",
+      "Università Ca' Foscari Value in plurality Scopri Ca’ Foscari cafoscariNEWS Open Days Lauree Magistrali 2026: dal 13 al 22 aprile le presentazioni online dei corsi.",
+      "Leggi il programma e prenota Online il programma e prenotazioni aperte per le giornate di presentazione delle Lauree Magistrali, dedicate a chi desidera proseguire il proprio percorso accademico dopo la laurea triennale."
+    ],
+    "medium": "Source: http://www.unive.it/",
+    "short": "Source: http://www.unive.it/",
+    "tokens": [
+      "home",
+      "universit",
+      "ca",
+      "foscari",
+      "venezia",
+      "source",
+      "http",
+      "www",
+      "unive",
+      "source",
+      "http",
+      "www",
+      "unive"
+    ]
+  },
+  "title": "Home: Università Ca' Foscari Venezia"
+}

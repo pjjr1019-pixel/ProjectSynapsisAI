@@ -1,0 +1,588 @@
+{
+  "aliases": [
+    {
+      "alias": "f7e968f03f5b4d2c",
+      "aliasId": "hz.web.f7e968f03f5b4d2c.alias.1",
+      "canonical": "reply - indieweb"
+    },
+    {
+      "alias": "reply - indieweb",
+      "aliasId": "hz.web.f7e968f03f5b4d2c.alias.2",
+      "canonical": "reply - indieweb"
+    },
+    {
+      "alias": "web f7e968f03f5b4d2c",
+      "aliasId": "hz.web.f7e968f03f5b4d2c.alias.3",
+      "canonical": "reply - indieweb"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.f7e968f03f5b4d2c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f7e968f03f5b4d2c.entity.1",
+      "kind": "document",
+      "name": "reply - IndieWeb",
+      "tokens": [
+        "reply",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.f7e968f03f5b4d2c.entity.2",
+      "kind": "heading",
+      "name": "reply - IndieWeb",
+      "tokens": [
+        "reply",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.f7e968f03f5b4d2c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f7e968f03f5b4d2c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f7e968f03f5b4d2c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 21,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieweb.org/reply",
+      "tokens": [
+        "source",
+        "https",
+        "indieweb",
+        "org",
+        "reply"
+      ]
+    },
+    {
+      "charEnd": 340,
+      "charStart": 107,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.1",
+      "kind": "bullet",
+      "text": "reply - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "tokens": [
+        "reply",
+        "indieweb",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "explore",
+        "indieweb",
+        "principles",
+        "community",
+        "posts",
+        "visit",
+        "random",
+        "site",
+        "get",
+        "personal",
+        "site",
+        "faq",
+        "subscribe",
+        "newsletter",
+        "new",
+        "coming",
+        "up",
+        "soon"
+      ]
+    },
+    {
+      "charEnd": 369,
+      "charStart": 341,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.2",
+      "kind": "bullet",
+      "text": "🎁 IndieWeb Gift Calendar!",
+      "tokens": [
+        "indieweb",
+        "gift",
+        "calendar"
+      ]
+    },
+    {
+      "charEnd": 417,
+      "charStart": 370,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.3",
+      "kind": "bullet",
+      "text": "🎪 IWC Düsseldorf 4/25…26 Join the community!",
+      "tokens": [
+        "iwc",
+        "sseldorf",
+        "25",
+        "26",
+        "join",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 2292,
+      "charStart": 418,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.4",
+      "kind": "bullet",
+      "text": "🌈 Code of conduct 💬 Join #indieweb chat 📜 Chat log 📅 Events 👥 Meetups: 2026-03-31 👕☕️ IndieWeb shirts & mugs ❤️ Sponsor Developers 🔩 Building Blocks 🛠 Tools 🧰 Projects 🔌 Standards 💬 Join developer chat Wiki resources 👤 Login ✳️ Recent changes 🖼 Recent uploads 🎲 Random page 📑 6,006 articles © Wiki content is CC0 Search Search Log in Personal tools Log in Contents move to sidebar hide Beginning 1 Why Toggle Why subsection 1.1 Why reply on your own site 1.2 Why send webmentions for replies 1.3 Why fallback to pingback 2 How To Toggle How To subsection 2.1 Post a reply 2.1.1 Send Webmentions From Reply 2.1.2 POSSE a reply 2.2 Display a reply post 2.3 Update a reply 2.3.1 Discussion 2.4 Delete a reply 2.5 Accept a comment 2.6 Display received comments 2.7 Beware 3 Reply Toggle Reply subsection 3.1 Reply distinction 3.2 Examples of Replies 3.3 Granularity 4 IndieWeb Examples Toggle IndieWeb Examples subsection 4.1 Aaron Parecki 4.2 Kimberly Hirsh 4.3 More Examples 5 Supporting Software 6 Silo Examples Toggle Silo Examples subsection 6.1 Twitter 6.2 Tumblr 6.3 Comments Embeds 7 Issues Toggle Issues subsection 7.1 each comment treated as a blog post 7.2 replies showing up on your main website 8 Brainstorming Toggle Brainstorming subsection 8.1 Twitter @-replies versus quote tweets 9 FAQ 10 History 11 See Also Toggle the table of contents Toggle the table of contents reply Page Discussion English Read View source View history Tools Tools move to sidebar hide Actions Read View source View history General What links here Related changes Special pages Printable version Permanent link Page information From IndieWeb ↪ A reply (or comment ) is a kind of post that is a text (typically, though photos are possible too) response to some other post, that makes little or no sense without reading or at least knowing the context of the source post.",
+      "tokens": [
+        "code",
+        "conduct",
+        "join",
+        "indieweb",
+        "chat",
+        "chat",
+        "log",
+        "events",
+        "meetups",
+        "2026",
+        "03",
+        "31",
+        "indieweb",
+        "shirts",
+        "mugs",
+        "sponsor",
+        "developers",
+        "building",
+        "blocks",
+        "tools",
+        "projects",
+        "standards",
+        "join",
+        "developer",
+        "chat",
+        "wiki",
+        "resources",
+        "login",
+        "recent",
+        "changes",
+        "recent",
+        "uploads",
+        "random",
+        "page",
+        "006",
+        "articles",
+        "wiki",
+        "content",
+        "cc0",
+        "search",
+        "search",
+        "log",
+        "personal",
+        "tools",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "beginning",
+        "why",
+        "toggle",
+        "why",
+        "subsection",
+        "why",
+        "reply",
+        "your",
+        "own",
+        "site",
+        "why",
+        "send",
+        "webmentions",
+        "replies",
+        "why",
+        "fallback",
+        "pingback",
+        "toggle",
+        "subsection",
+        "post",
+        "reply",
+        "send",
+        "webmentions",
+        "reply",
+        "posse",
+        "reply",
+        "display",
+        "reply",
+        "post",
+        "update",
+        "reply",
+        "discussion",
+        "delete",
+        "reply",
+        "accept",
+        "comment",
+        "display",
+        "received",
+        "comments",
+        "beware",
+        "reply",
+        "toggle",
+        "reply",
+        "subsection",
+        "reply",
+        "distinction",
+        "examples",
+        "replies",
+        "granularity",
+        "indieweb",
+        "examples",
+        "toggle",
+        "indieweb",
+        "examples",
+        "subsection",
+        "aaron",
+        "parecki",
+        "kimberly",
+        "hirsh",
+        "more",
+        "examples",
+        "supporting",
+        "software",
+        "silo",
+        "examples",
+        "toggle",
+        "silo",
+        "examples",
+        "subsection",
+        "twitter",
+        "tumblr",
+        "comments",
+        "embeds",
+        "issues",
+        "toggle",
+        "issues",
+        "subsection",
+        "each",
+        "comment",
+        "treated",
+        "blog",
+        "post",
+        "replies",
+        "showing",
+        "up",
+        "your",
+        "main",
+        "website",
+        "brainstorming",
+        "toggle",
+        "brainstorming",
+        "subsection",
+        "twitter",
+        "replies",
+        "versus",
+        "quote",
+        "tweets",
+        "faq",
+        "10",
+        "history",
+        "11",
+        "see",
+        "also",
+        "toggle",
+        "table",
+        "contents",
+        "toggle",
+        "table",
+        "contents",
+        "reply",
+        "page",
+        "discussion",
+        "english",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "special",
+        "pages",
+        "printable",
+        "version",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "indieweb",
+        "reply",
+        "comment",
+        "kind",
+        "post",
+        "text",
+        "typically",
+        "though",
+        "photos",
+        "possible",
+        "too",
+        "response",
+        "some",
+        "other",
+        "post",
+        "makes",
+        "little",
+        "no",
+        "sense",
+        "without",
+        "reading",
+        "least",
+        "knowing",
+        "context",
+        "source",
+        "post"
+      ]
+    },
+    {
+      "charEnd": 2314,
+      "charStart": 2307,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.5",
+      "kind": "bullet",
+      "text": "reply",
+      "tokens": [
+        "reply"
+      ]
+    },
+    {
+      "charEnd": 2321,
+      "charStart": 2315,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.6",
+      "kind": "bullet",
+      "text": "post",
+      "tokens": [
+        "post"
+      ]
+    },
+    {
+      "charEnd": 2331,
+      "charStart": 2322,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.7",
+      "kind": "bullet",
+      "text": "replies",
+      "tokens": [
+        "replies"
+      ]
+    },
+    {
+      "charEnd": 2341,
+      "charStart": 2332,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.8",
+      "kind": "bullet",
+      "text": "twitter",
+      "tokens": [
+        "twitter"
+      ]
+    },
+    {
+      "charEnd": 2348,
+      "charStart": 2342,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 2359,
+      "charStart": 2349,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.10",
+      "kind": "bullet",
+      "text": "comments",
+      "tokens": [
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 2365,
+      "charStart": 2360,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.11",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 2373,
+      "charStart": 2366,
+      "factId": "hz.web.f7e968f03f5b4d2c.fact.12",
+      "kind": "bullet",
+      "text": "posse",
+      "tokens": [
+        "posse"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.f7e968f03f5b4d2c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "reply - IndieWeb"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.f7e968f03f5b4d2c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2305,
+      "charStart": 2294,
+      "headingId": "hz.web.f7e968f03f5b4d2c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2385,
+      "charStart": 2375,
+      "headingId": "hz.web.f7e968f03f5b4d2c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f7e968f03f5b4d2c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5614,
+        "start": 0
+      }
+    ],
+    "hash": "e38b36720a9f85e0ffb503d532eba84b6b2c88eae9de80c5a64956d24af7388c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.f7e968f03f5b4d2c.rule.1",
+      "text": "For details on displaying replies/comments on websites, please see: Main article: comments Why Why reply on your own site You should post replies on your own site so you can own your replies, regardless of what happens to the page or site you were commenting about.",
+      "tokens": [
+        "details",
+        "displaying",
+        "replies",
+        "comments",
+        "websites",
+        "please",
+        "see",
+        "main",
+        "article",
+        "comments",
+        "why",
+        "why",
+        "reply",
+        "your",
+        "own",
+        "site",
+        "post",
+        "replies",
+        "your",
+        "own",
+        "site",
+        "so",
+        "own",
+        "your",
+        "replies",
+        "regardless",
+        "happens",
+        "page",
+        "site",
+        "commenting",
+        "about"
+      ]
+    },
+    {
+      "ruleId": "hz.web.f7e968f03f5b4d2c.rule.2",
+      "text": "Why send webmentions for replies You should automatically send webmentions to links you're replying to , to participate in federated indieweb commenting on others' sites!",
+      "tokens": [
+        "why",
+        "send",
+        "webmentions",
+        "replies",
+        "automatically",
+        "send",
+        "webmentions",
+        "links",
+        "re",
+        "replying",
+        "participate",
+        "federated",
+        "indieweb",
+        "commenting",
+        "others",
+        "sites"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "reply - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "🎁 IndieWeb Gift Calendar!",
+      "🎪 IWC Düsseldorf 4/25…26 Join the community!"
+    ],
+    "medium": "Source: https://indieweb.org/reply",
+    "short": "Source: https://indieweb.org/reply",
+    "tokens": [
+      "reply",
+      "indieweb",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "reply",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "reply"
+    ]
+  },
+  "title": "reply - IndieWeb"
+}

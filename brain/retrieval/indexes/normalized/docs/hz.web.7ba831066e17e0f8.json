@@ -1,0 +1,338 @@
+{
+  "aliases": [
+    {
+      "alias": "7ba831066e17e0f8",
+      "aliasId": "hz.web.7ba831066e17e0f8.alias.1",
+      "canonical": "index - i.haza.website"
+    },
+    {
+      "alias": "index - i.haza.website",
+      "aliasId": "hz.web.7ba831066e17e0f8.alias.2",
+      "canonical": "index - i.haza.website"
+    },
+    {
+      "alias": "web 7ba831066e17e0f8",
+      "aliasId": "hz.web.7ba831066e17e0f8.alias.3",
+      "canonical": "index - i.haza.website"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.74,
+  "docId": "hz.web.7ba831066e17e0f8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7ba831066e17e0f8.entity.1",
+      "kind": "document",
+      "name": "index - i.haza.website",
+      "tokens": [
+        "index",
+        "haza",
+        "website"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ba831066e17e0f8.entity.2",
+      "kind": "heading",
+      "name": "index - i.haza.website",
+      "tokens": [
+        "index",
+        "haza",
+        "website"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ba831066e17e0f8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ba831066e17e0f8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ba831066e17e0f8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 27,
+      "factId": "hz.web.7ba831066e17e0f8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://i.haza.website/",
+      "tokens": [
+        "source",
+        "https",
+        "haza",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 209,
+      "charStart": 110,
+      "factId": "hz.web.7ba831066e17e0f8.fact.1",
+      "kind": "bullet",
+      "text": "index - i.haza.website I H A Z A W E B S I T E Create a website and let's make the web fun again!",
+      "tokens": [
+        "index",
+        "haza",
+        "website",
+        "create",
+        "website",
+        "let",
+        "make",
+        "web",
+        "fun",
+        "again"
+      ]
+    },
+    {
+      "charEnd": 247,
+      "charStart": 210,
+      "factId": "hz.web.7ba831066e17e0f8.fact.2",
+      "kind": "bullet",
+      "text": "...or maybe fun for the first time!",
+      "tokens": [
+        "maybe",
+        "fun",
+        "first",
+        "time"
+      ]
+    },
+    {
+      "charEnd": 370,
+      "charStart": 248,
+      "factId": "hz.web.7ba831066e17e0f8.fact.3",
+      "kind": "bullet",
+      "text": "This website helps you create your own, personal website that you can use for writing, sharing and responding to others.",
+      "tokens": [
+        "website",
+        "helps",
+        "create",
+        "your",
+        "own",
+        "personal",
+        "website",
+        "use",
+        "writing",
+        "sharing",
+        "responding",
+        "others"
+      ]
+    },
+    {
+      "charEnd": 454,
+      "charStart": 371,
+      "factId": "hz.web.7ba831066e17e0f8.fact.4",
+      "kind": "bullet",
+      "text": "Your website can become a little piece of the social web that you get to control.",
+      "tokens": [
+        "your",
+        "website",
+        "become",
+        "little",
+        "piece",
+        "social",
+        "web",
+        "get",
+        "control"
+      ]
+    },
+    {
+      "charEnd": 478,
+      "charStart": 469,
+      "factId": "hz.web.7ba831066e17e0f8.fact.5",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    },
+    {
+      "charEnd": 485,
+      "charStart": 479,
+      "factId": "hz.web.7ba831066e17e0f8.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 492,
+      "charStart": 486,
+      "factId": "hz.web.7ba831066e17e0f8.fact.7",
+      "kind": "bullet",
+      "text": "name",
+      "tokens": [
+        "name"
+      ]
+    },
+    {
+      "charEnd": 501,
+      "charStart": 493,
+      "factId": "hz.web.7ba831066e17e0f8.fact.8",
+      "kind": "bullet",
+      "text": "domain",
+      "tokens": [
+        "domain"
+      ]
+    },
+    {
+      "charEnd": 506,
+      "charStart": 502,
+      "factId": "hz.web.7ba831066e17e0f8.fact.9",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 513,
+      "charStart": 507,
+      "factId": "hz.web.7ba831066e17e0f8.fact.10",
+      "kind": "bullet",
+      "text": "will",
+      "tokens": [
+        "will"
+      ]
+    },
+    {
+      "charEnd": 520,
+      "charStart": 514,
+      "factId": "hz.web.7ba831066e17e0f8.fact.11",
+      "kind": "bullet",
+      "text": "here",
+      "tokens": [
+        "here"
+      ]
+    },
+    {
+      "charEnd": 530,
+      "charStart": 521,
+      "factId": "hz.web.7ba831066e17e0f8.fact.12",
+      "kind": "bullet",
+      "text": "created",
+      "tokens": [
+        "created"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.7ba831066e17e0f8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "index - i.haza.website"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.7ba831066e17e0f8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 467,
+      "charStart": 456,
+      "headingId": "hz.web.7ba831066e17e0f8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 542,
+      "charStart": 532,
+      "headingId": "hz.web.7ba831066e17e0f8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7ba831066e17e0f8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3722,
+        "start": 0
+      }
+    ],
+    "hash": "dd2466b4bb02252eb091bc4e40f9ed4aee3547f78086a07c860080d78d25af51",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.7ba831066e17e0f8.rule.1",
+      "text": "(ie, don't include a full stop '.' or top level domain.) If you choose to purchase a domain name here, it will be registered for you at name.com and your website will then be created!",
+      "tokens": [
+        "ie",
+        "don",
+        "include",
+        "full",
+        "stop",
+        "top",
+        "level",
+        "domain",
+        "if",
+        "choose",
+        "purchase",
+        "domain",
+        "name",
+        "here",
+        "will",
+        "registered",
+        "name",
+        "com",
+        "your",
+        "website",
+        "will",
+        "then",
+        "created"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "index - i.haza.website I H A Z A W E B S I T E Create a website and let's make the web fun again!",
+      "...or maybe fun for the first time!",
+      "This website helps you create your own, personal website that you can use for writing, sharing and responding to others."
+    ],
+    "medium": "Source: https://i.haza.website/",
+    "short": "Source: https://i.haza.website/",
+    "tokens": [
+      "index",
+      "haza",
+      "website",
+      "source",
+      "https",
+      "haza",
+      "website",
+      "source",
+      "https",
+      "haza",
+      "website"
+    ]
+  },
+  "title": "index - i.haza.website"
+}

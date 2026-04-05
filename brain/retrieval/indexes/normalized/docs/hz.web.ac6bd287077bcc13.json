@@ -1,0 +1,499 @@
+{
+  "aliases": [
+    {
+      "alias": "ac6bd287077bcc13",
+      "aliasId": "hz.web.ac6bd287077bcc13.alias.1",
+      "canonical": "micropub - indieweb"
+    },
+    {
+      "alias": "micropub - indieweb",
+      "aliasId": "hz.web.ac6bd287077bcc13.alias.2",
+      "canonical": "micropub - indieweb"
+    },
+    {
+      "alias": "web ac6bd287077bcc13",
+      "aliasId": "hz.web.ac6bd287077bcc13.alias.3",
+      "canonical": "micropub - indieweb"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.ac6bd287077bcc13",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ac6bd287077bcc13.entity.1",
+      "kind": "document",
+      "name": "Micropub - IndieWeb",
+      "tokens": [
+        "micropub",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac6bd287077bcc13.entity.2",
+      "kind": "heading",
+      "name": "Micropub - IndieWeb",
+      "tokens": [
+        "micropub",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac6bd287077bcc13.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac6bd287077bcc13.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac6bd287077bcc13.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 61,
+      "charStart": 24,
+      "factId": "hz.web.ac6bd287077bcc13.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieweb.org/micropub",
+      "tokens": [
+        "source",
+        "https",
+        "indieweb",
+        "org",
+        "micropub"
+      ]
+    },
+    {
+      "charEnd": 349,
+      "charStart": 113,
+      "factId": "hz.web.ac6bd287077bcc13.fact.1",
+      "kind": "bullet",
+      "text": "Micropub - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "tokens": [
+        "micropub",
+        "indieweb",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "explore",
+        "indieweb",
+        "principles",
+        "community",
+        "posts",
+        "visit",
+        "random",
+        "site",
+        "get",
+        "personal",
+        "site",
+        "faq",
+        "subscribe",
+        "newsletter",
+        "new",
+        "coming",
+        "up",
+        "soon"
+      ]
+    },
+    {
+      "charEnd": 378,
+      "charStart": 350,
+      "factId": "hz.web.ac6bd287077bcc13.fact.2",
+      "kind": "bullet",
+      "text": "🎁 IndieWeb Gift Calendar!",
+      "tokens": [
+        "indieweb",
+        "gift",
+        "calendar"
+      ]
+    },
+    {
+      "charEnd": 426,
+      "charStart": 379,
+      "factId": "hz.web.ac6bd287077bcc13.fact.3",
+      "kind": "bullet",
+      "text": "🎪 IWC Düsseldorf 4/25…26 Join the community!",
+      "tokens": [
+        "iwc",
+        "sseldorf",
+        "25",
+        "26",
+        "join",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 2148,
+      "charStart": 427,
+      "factId": "hz.web.ac6bd287077bcc13.fact.4",
+      "kind": "bullet",
+      "text": "🌈 Code of conduct 💬 Join #indieweb chat 📜 Chat log 📅 Events 👥 Meetups: 2026-03-31 👕☕️ IndieWeb shirts & mugs ❤️ Sponsor Developers 🔩 Building Blocks 🛠 Tools 🧰 Projects 🔌 Standards 💬 Join developer chat Wiki resources 👤 Login ✳️ Recent changes 🖼 Recent uploads 🎲 Random page 📑 6,006 articles © Wiki content is CC0 Search Search Log in Personal tools Log in Contents move to sidebar hide Beginning 1 Why 2 Clients 3 Servers 4 Background 5 Syntax Toggle Syntax subsection 5.1 Overview 6 How to implement Toggle How to implement subsection 6.1 Endpoint Discovery 6.1.1 HTTP Header 6.1.2 HTML Head 6.2 Authentication 6.2.1 HTTP Header 6.2.2 Form-Encoded Body Parameter 6.3 Scope 6.4 Verification 6.5 Form-encoded Microformats Representation 6.6 Examples of Creating Objects 6.6.1 Indicating the object being created 6.6.2 h-entry 6.6.2.1 New Note 6.6.2.1.1 Minimal Example 6.6.2.2 New Reply 6.6.2.3 New Repost 6.6.2.4 New Article 6.6.2.5 New Bookmark 6.6.2.6 Adding Files 6.6.3 h-event 6.6.4 h-cite 6.6.5 Nested Microformat Objects 6.7 Handling a micropub request 6.8 Additional notes for developers 7 Libraries 8 Issues 9 Extensions 10 Sessions 11 See Also Toggle the table of contents Toggle the table of contents Micropub Page Discussion English Read View source View history Tools Tools move to sidebar hide Actions Read View source View history General What links here Related changes Special pages Printable version Permanent link Page information From IndieWeb (Redirected from micropub ) Micropub is an open web standard ( W3C Recommendation) and API for creating, editing, and deleting posts on websites, like on your own domain, supported by numerous third-party clients, CMSs , and social readers .",
+      "tokens": [
+        "code",
+        "conduct",
+        "join",
+        "indieweb",
+        "chat",
+        "chat",
+        "log",
+        "events",
+        "meetups",
+        "2026",
+        "03",
+        "31",
+        "indieweb",
+        "shirts",
+        "mugs",
+        "sponsor",
+        "developers",
+        "building",
+        "blocks",
+        "tools",
+        "projects",
+        "standards",
+        "join",
+        "developer",
+        "chat",
+        "wiki",
+        "resources",
+        "login",
+        "recent",
+        "changes",
+        "recent",
+        "uploads",
+        "random",
+        "page",
+        "006",
+        "articles",
+        "wiki",
+        "content",
+        "cc0",
+        "search",
+        "search",
+        "log",
+        "personal",
+        "tools",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "beginning",
+        "why",
+        "clients",
+        "servers",
+        "background",
+        "syntax",
+        "toggle",
+        "syntax",
+        "subsection",
+        "overview",
+        "implement",
+        "toggle",
+        "implement",
+        "subsection",
+        "endpoint",
+        "discovery",
+        "http",
+        "header",
+        "html",
+        "head",
+        "authentication",
+        "http",
+        "header",
+        "form",
+        "encoded",
+        "body",
+        "parameter",
+        "scope",
+        "verification",
+        "form",
+        "encoded",
+        "microformats",
+        "representation",
+        "examples",
+        "creating",
+        "objects",
+        "indicating",
+        "object",
+        "created",
+        "entry",
+        "new",
+        "note",
+        "minimal",
+        "example",
+        "new",
+        "reply",
+        "new",
+        "repost",
+        "new",
+        "article",
+        "new",
+        "bookmark",
+        "adding",
+        "files",
+        "event",
+        "cite",
+        "nested",
+        "microformat",
+        "objects",
+        "handling",
+        "micropub",
+        "request",
+        "additional",
+        "notes",
+        "developers",
+        "libraries",
+        "issues",
+        "extensions",
+        "10",
+        "sessions",
+        "11",
+        "see",
+        "also",
+        "toggle",
+        "table",
+        "contents",
+        "toggle",
+        "table",
+        "contents",
+        "micropub",
+        "page",
+        "discussion",
+        "english",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "special",
+        "pages",
+        "printable",
+        "version",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "indieweb",
+        "redirected",
+        "micropub",
+        "micropub",
+        "open",
+        "web",
+        "standard",
+        "w3c",
+        "recommendation",
+        "api",
+        "creating",
+        "editing",
+        "deleting",
+        "posts",
+        "websites",
+        "like",
+        "your",
+        "own",
+        "domain",
+        "supported",
+        "numerous",
+        "third",
+        "party",
+        "clients",
+        "cmss",
+        "social",
+        "readers"
+      ]
+    },
+    {
+      "charEnd": 2173,
+      "charStart": 2163,
+      "factId": "hz.web.ac6bd287077bcc13.fact.5",
+      "kind": "bullet",
+      "text": "micropub",
+      "tokens": [
+        "micropub"
+      ]
+    },
+    {
+      "charEnd": 2178,
+      "charStart": 2174,
+      "factId": "hz.web.ac6bd287077bcc13.fact.6",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 2188,
+      "charStart": 2179,
+      "factId": "hz.web.ac6bd287077bcc13.fact.7",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 2198,
+      "charStart": 2189,
+      "factId": "hz.web.ac6bd287077bcc13.fact.8",
+      "kind": "bullet",
+      "text": "request",
+      "tokens": [
+        "request"
+      ]
+    },
+    {
+      "charEnd": 2205,
+      "charStart": 2199,
+      "factId": "hz.web.ac6bd287077bcc13.fact.9",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 2214,
+      "charStart": 2206,
+      "factId": "hz.web.ac6bd287077bcc13.fact.10",
+      "kind": "bullet",
+      "text": "return",
+      "tokens": [
+        "return"
+      ]
+    },
+    {
+      "charEnd": 2220,
+      "charStart": 2215,
+      "factId": "hz.web.ac6bd287077bcc13.fact.11",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    },
+    {
+      "charEnd": 2226,
+      "charStart": 2221,
+      "factId": "hz.web.ac6bd287077bcc13.fact.12",
+      "kind": "bullet",
+      "text": "new",
+      "tokens": [
+        "new"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.ac6bd287077bcc13.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Micropub - IndieWeb"
+    },
+    {
+      "charEnd": 111,
+      "charStart": 101,
+      "headingId": "hz.web.ac6bd287077bcc13.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2161,
+      "charStart": 2150,
+      "headingId": "hz.web.ac6bd287077bcc13.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2238,
+      "charStart": 2228,
+      "headingId": "hz.web.ac6bd287077bcc13.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ac6bd287077bcc13.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5473,
+        "start": 0
+      }
+    ],
+    "hash": "5eebd2b1ee8c8512ca502b34774bc30c7e1955bd83b05db4edd63c02b879ec5a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Micropub - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "🎁 IndieWeb Gift Calendar!",
+      "🎪 IWC Düsseldorf 4/25…26 Join the community!"
+    ],
+    "medium": "Source: https://indieweb.org/micropub",
+    "short": "Source: https://indieweb.org/micropub",
+    "tokens": [
+      "micropub",
+      "indieweb",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "micropub",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "micropub"
+    ]
+  },
+  "title": "Micropub - IndieWeb"
+}

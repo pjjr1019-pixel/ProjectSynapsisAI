@@ -1,0 +1,308 @@
+{
+  "aliases": [
+    {
+      "alias": "f0833d866a8273be",
+      "aliasId": "hz.web.f0833d866a8273be.alias.1",
+      "canonical": "www.feedster.com"
+    },
+    {
+      "alias": "web f0833d866a8273be",
+      "aliasId": "hz.web.f0833d866a8273be.alias.2",
+      "canonical": "www.feedster.com"
+    },
+    {
+      "alias": "www.feedster.com",
+      "aliasId": "hz.web.f0833d866a8273be.alias.3",
+      "canonical": "www.feedster.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.f0833d866a8273be",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f0833d866a8273be.entity.1",
+      "kind": "document",
+      "name": "www.feedster.com",
+      "tokens": [
+        "www",
+        "feedster",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0833d866a8273be.entity.2",
+      "kind": "heading",
+      "name": "www.feedster.com",
+      "tokens": [
+        "www",
+        "feedster",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0833d866a8273be.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0833d866a8273be.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0833d866a8273be.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 21,
+      "factId": "hz.web.f0833d866a8273be.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.feedster.com/manifest.webmanifest",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "feedster",
+        "com",
+        "manifest",
+        "webmanifest"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 125,
+      "factId": "hz.web.f0833d866a8273be.fact.1",
+      "kind": "bullet",
+      "text": "{\"scope\":\"/\",\"start_url\":\"/\",\"display\":\"standalone\",\"icons\":[{\"sizes\":\"192x192\",\"type\":\"image/png\",\"src\":\"//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:192,h:192,m\"},{\"sizes\":\"512x512\",\"type\":\"image/png\",\"src\":\"//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:512,h:512,m\"}],\"name\":\"Feedster\",\"short_name\":\"Feedster\",\"theme_color\":\"#969696\",\"background_color\":\"#969696\"}",
+      "tokens": [
+        "scope",
+        "start_url",
+        "display",
+        "standalone",
+        "icons",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "src",
+        "img1",
+        "wsimg",
+        "com",
+        "isteam",
+        "ip",
+        "static",
+        "pwa",
+        "app",
+        "logo",
+        "default",
+        "png",
+        "rs",
+        "192",
+        "192",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "src",
+        "img1",
+        "wsimg",
+        "com",
+        "isteam",
+        "ip",
+        "static",
+        "pwa",
+        "app",
+        "logo",
+        "default",
+        "png",
+        "rs",
+        "512",
+        "512",
+        "name",
+        "feedster",
+        "short_name",
+        "feedster",
+        "theme_color",
+        "969696",
+        "background_color",
+        "969696"
+      ]
+    },
+    {
+      "charEnd": 554,
+      "charStart": 549,
+      "factId": "hz.web.f0833d866a8273be.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 555,
+      "factId": "hz.web.f0833d866a8273be.fact.3",
+      "kind": "bullet",
+      "text": "192",
+      "tokens": [
+        "192"
+      ]
+    },
+    {
+      "charEnd": 566,
+      "charStart": 561,
+      "factId": "hz.web.f0833d866a8273be.fact.4",
+      "kind": "bullet",
+      "text": "512",
+      "tokens": [
+        "512"
+      ]
+    },
+    {
+      "charEnd": 575,
+      "charStart": 567,
+      "factId": "hz.web.f0833d866a8273be.fact.5",
+      "kind": "bullet",
+      "text": "969696",
+      "tokens": [
+        "969696"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 576,
+      "factId": "hz.web.f0833d866a8273be.fact.6",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    },
+    {
+      "charEnd": 587,
+      "charStart": 582,
+      "factId": "hz.web.f0833d866a8273be.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 597,
+      "charStart": 588,
+      "factId": "hz.web.f0833d866a8273be.fact.8",
+      "kind": "bullet",
+      "text": "default",
+      "tokens": [
+        "default"
+      ]
+    },
+    {
+      "charEnd": 608,
+      "charStart": 598,
+      "factId": "hz.web.f0833d866a8273be.fact.9",
+      "kind": "bullet",
+      "text": "feedster",
+      "tokens": [
+        "feedster"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.f0833d866a8273be.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.feedster.com"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.f0833d866a8273be.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 547,
+      "charStart": 536,
+      "headingId": "hz.web.f0833d866a8273be.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 620,
+      "charStart": 610,
+      "headingId": "hz.web.f0833d866a8273be.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f0833d866a8273be.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1274,
+        "start": 0
+      }
+    ],
+    "hash": "f73657196af85ec860b3ebd603bd649463233d7e7924690740912d72b8a12ebe",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"scope\":\"/\",\"start_url\":\"/\",\"display\":\"standalone\",\"icons\":[{\"sizes\":\"192x192\",\"type\":\"image/png\",\"src\":\"//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:192,h:192,m\"},{\"sizes\":\"512x512\",\"type\":\"image/png\",\"src\":\"//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:512,h:512,m\"}],\"name\":\"Feedster\",\"short_name\":\"Feedster\",\"theme_color\":\"#969696\",\"background_color\":\"#969696\"}",
+      "png",
+      "192"
+    ],
+    "medium": "Source: http://www.feedster.com/manifest.webmanifest",
+    "short": "Source: http://www.feedster.com/manifest.webmanifest",
+    "tokens": [
+      "www",
+      "feedster",
+      "com",
+      "source",
+      "http",
+      "www",
+      "feedster",
+      "com",
+      "manifest",
+      "webmanifest",
+      "source",
+      "http",
+      "www",
+      "feedster",
+      "com",
+      "manifest",
+      "webmanifest"
+    ]
+  },
+  "title": "www.feedster.com"
+}

@@ -1,0 +1,354 @@
+{
+  "aliases": [
+    {
+      "alias": "017046fa1c0a21bb",
+      "aliasId": "hz.web.017046fa1c0a21bb.alias.1",
+      "canonical": "log in | bandcamp"
+    },
+    {
+      "alias": "log in bandcamp",
+      "aliasId": "hz.web.017046fa1c0a21bb.alias.2",
+      "canonical": "log in | bandcamp"
+    },
+    {
+      "alias": "web 017046fa1c0a21bb",
+      "aliasId": "hz.web.017046fa1c0a21bb.alias.3",
+      "canonical": "log in | bandcamp"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.77,
+  "docId": "hz.web.017046fa1c0a21bb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.017046fa1c0a21bb.entity.1",
+      "kind": "document",
+      "name": "Log in | Bandcamp",
+      "tokens": [
+        "log",
+        "bandcamp"
+      ]
+    },
+    {
+      "entityId": "hz.web.017046fa1c0a21bb.entity.2",
+      "kind": "heading",
+      "name": "Log in | Bandcamp",
+      "tokens": [
+        "log",
+        "bandcamp"
+      ]
+    },
+    {
+      "entityId": "hz.web.017046fa1c0a21bb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.017046fa1c0a21bb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.017046fa1c0a21bb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 22,
+      "factId": "hz.web.017046fa1c0a21bb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://bandcamp.com/partner",
+      "tokens": [
+        "source",
+        "https",
+        "bandcamp",
+        "com",
+        "partner"
+      ]
+    },
+    {
+      "charEnd": 203,
+      "charStart": 110,
+      "factId": "hz.web.017046fa1c0a21bb.fact.1",
+      "kind": "bullet",
+      "text": "Log in | Bandcamp --> Get fresh music recommendations delivered to your inbox every Friday.",
+      "tokens": [
+        "log",
+        "bandcamp",
+        "get",
+        "fresh",
+        "music",
+        "recommendations",
+        "delivered",
+        "your",
+        "inbox",
+        "every",
+        "friday"
+      ]
+    },
+    {
+      "charEnd": 304,
+      "charStart": 204,
+      "factId": "hz.web.017046fa1c0a21bb.fact.2",
+      "kind": "bullet",
+      "text": "Bandcamp home A content blocker / threat protection service on your device has broken our layouts.",
+      "tokens": [
+        "bandcamp",
+        "home",
+        "content",
+        "blocker",
+        "threat",
+        "protection",
+        "service",
+        "your",
+        "device",
+        "has",
+        "broken",
+        "our",
+        "layouts"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 305,
+      "factId": "hz.web.017046fa1c0a21bb.fact.3",
+      "kind": "bullet",
+      "text": "Please disable it and try again.",
+      "tokens": [
+        "please",
+        "disable",
+        "try",
+        "again"
+      ]
+    },
+    {
+      "charEnd": 414,
+      "charStart": 340,
+      "factId": "hz.web.017046fa1c0a21bb.fact.4",
+      "kind": "bullet",
+      "text": "To accept your invitation, please log in to Log in to redeem your music!",
+      "tokens": [
+        "accept",
+        "your",
+        "invitation",
+        "please",
+        "log",
+        "log",
+        "redeem",
+        "your",
+        "music"
+      ]
+    },
+    {
+      "charEnd": 435,
+      "charStart": 429,
+      "factId": "hz.web.017046fa1c0a21bb.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 441,
+      "charStart": 436,
+      "factId": "hz.web.017046fa1c0a21bb.fact.6",
+      "kind": "bullet",
+      "text": "log",
+      "tokens": [
+        "log"
+      ]
+    },
+    {
+      "charEnd": 451,
+      "charStart": 442,
+      "factId": "hz.web.017046fa1c0a21bb.fact.7",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 460,
+      "charStart": 452,
+      "factId": "hz.web.017046fa1c0a21bb.fact.8",
+      "kind": "bullet",
+      "text": "please",
+      "tokens": [
+        "please"
+      ]
+    },
+    {
+      "charEnd": 466,
+      "charStart": 461,
+      "factId": "hz.web.017046fa1c0a21bb.fact.9",
+      "kind": "bullet",
+      "text": "don",
+      "tokens": [
+        "don"
+      ]
+    },
+    {
+      "charEnd": 473,
+      "charStart": 467,
+      "factId": "hz.web.017046fa1c0a21bb.fact.10",
+      "kind": "bullet",
+      "text": "have",
+      "tokens": [
+        "have"
+      ]
+    },
+    {
+      "charEnd": 482,
+      "charStart": 474,
+      "factId": "hz.web.017046fa1c0a21bb.fact.11",
+      "kind": "bullet",
+      "text": "backup",
+      "tokens": [
+        "backup"
+      ]
+    },
+    {
+      "charEnd": 493,
+      "charStart": 483,
+      "factId": "hz.web.017046fa1c0a21bb.fact.12",
+      "kind": "bullet",
+      "text": "bandcamp",
+      "tokens": [
+        "bandcamp"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.017046fa1c0a21bb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Log in | Bandcamp"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.017046fa1c0a21bb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 427,
+      "charStart": 416,
+      "headingId": "hz.web.017046fa1c0a21bb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 505,
+      "charStart": 495,
+      "headingId": "hz.web.017046fa1c0a21bb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/017046fa1c0a21bb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2731,
+        "start": 0
+      }
+    ],
+    "hash": "0311d8a0dfbe1b177736c135584d6013f842369858a140a19df4ad985549e71b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.017046fa1c0a21bb.rule.1",
+      "text": "You must be logged in to do that.",
+      "tokens": [
+        "must",
+        "logged"
+      ]
+    },
+    {
+      "ruleId": "hz.web.017046fa1c0a21bb.rule.2",
+      "text": "Each backup code can only be used once, so once you’ve logged in, you should open your two-factor authentication settings (within your user settings) and generate a fresh set of backup codes if you’re running short.",
+      "tokens": [
+        "each",
+        "backup",
+        "code",
+        "only",
+        "used",
+        "once",
+        "so",
+        "once",
+        "ve",
+        "logged",
+        "open",
+        "your",
+        "two",
+        "factor",
+        "authentication",
+        "settings",
+        "within",
+        "your",
+        "user",
+        "settings",
+        "generate",
+        "fresh",
+        "set",
+        "backup",
+        "codes",
+        "if",
+        "re",
+        "running",
+        "short"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Log in | Bandcamp --> Get fresh music recommendations delivered to your inbox every Friday.",
+      "Bandcamp home A content blocker / threat protection service on your device has broken our layouts.",
+      "Please disable it and try again."
+    ],
+    "medium": "Source: https://bandcamp.com/partner",
+    "short": "Source: https://bandcamp.com/partner",
+    "tokens": [
+      "log",
+      "bandcamp",
+      "source",
+      "https",
+      "bandcamp",
+      "com",
+      "partner",
+      "source",
+      "https",
+      "bandcamp",
+      "com",
+      "partner"
+    ]
+  },
+  "title": "Log in | Bandcamp"
+}

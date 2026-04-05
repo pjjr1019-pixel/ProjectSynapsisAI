@@ -1,0 +1,395 @@
+{
+  "aliases": [
+    {
+      "alias": "d7db76a17976ef09",
+      "aliasId": "hz.web.d7db76a17976ef09.alias.1",
+      "canonical": "www.youtube.com"
+    },
+    {
+      "alias": "web d7db76a17976ef09",
+      "aliasId": "hz.web.d7db76a17976ef09.alias.2",
+      "canonical": "www.youtube.com"
+    },
+    {
+      "alias": "www.youtube.com",
+      "aliasId": "hz.web.d7db76a17976ef09.alias.3",
+      "canonical": "www.youtube.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.62,
+  "docId": "hz.web.d7db76a17976ef09",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d7db76a17976ef09.entity.1",
+      "kind": "document",
+      "name": "www.youtube.com",
+      "tokens": [
+        "www",
+        "youtube",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d7db76a17976ef09.entity.2",
+      "kind": "heading",
+      "name": "www.youtube.com",
+      "tokens": [
+        "www",
+        "youtube",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d7db76a17976ef09.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d7db76a17976ef09.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d7db76a17976ef09.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 92,
+      "charStart": 20,
+      "factId": "hz.web.d7db76a17976ef09.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.youtube.com/s/desktop/7cf77294/img/favicon_32x32.png",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "youtube",
+        "com",
+        "desktop",
+        "7cf77294",
+        "img",
+        "favicon_32x32",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 3119,
+      "charStart": 144,
+      "factId": "hz.web.d7db76a17976ef09.fact.1",
+      "kind": "bullet",
+      "text": "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0006\u0000\u0000\u0000szz�\u0000\u0000\u0000\u0004gAMA\u0000\u0000�� �a\u0005\u0000\u0000 IiCCPsRGB IEC61966-2.1\u0000\u0000H��SwX��\u0016>��e\u000fVB��l�\u0000\"#�\b�\u0010Y�\u0010�\u0000a�\u0010\u0012@Ņ� V\u0014\u0015\u0011�HUĂ� H���(�gA��Z�U\\8�\u001fܧ�}z�����������y�\u000f�\u0011\u0012&��j\u00009R�<:�\u001f�OH�ɽ�\u0002\u0015H�\u0004 \u0010���g\u0005�\u0000\u0000�\u0003yx~t�?�\u0001�o\u0000\u0002\u0000p�.$\u0012�����P&W\u0000 �\u0000�\"\u0012� \u0001�R\u0000�.T�\u0014\u0000�\u0018\u0000�S�d \u0000�\u0000\u0000ly|B\"\u0000� \u0000��I>\u0005\u0000ة��\u0017\u0000آ\u001c�\b\u0000�\u0001\u0000�(G$\u0002@�\u0000`U�R,\u0002��\u0000��@\".\u0004��\u0001�Y�2G\u0002��\u0005\u0000v�X�\u000f@`\u0000��B,�\u0000 8\u0002\u0000C\u001e\u0013�\u0003 L\u0003�0ҿ�_p��H\u0001\u0000�˕͗K�3\u0014���\u001aw����!��l�Ba\u0017)\u0010f �\"���#\u0013H�\u0003L� \u0000\u0000\u001a����8?������f�l��Ţ�k�o\">!�����\u0002\u0004\u0000\u0010N���_���\u0003p�\u0001�u�k�[\u0000�V\u0000h��]3� �Z �z��y8�@\u001e��P�<\u001d\u001c �%b��0�>�3�o��~��@\u001e��z�\u0000q�@������qanv�R���\u0004B1n��#�ǅ��)��4�\\,\u0015��X��P\"M�y�R�D!ɕ�\u0012�2�\u001f�� �w \u0000��O�N�\u0007��l�~�\u0001\u0002�\u000eX�v\u0000@~�-�\u001a �\u0000\u0010g42y�\u0000\u0000����@+\u0001\u0000͗��\u0000\u0000��\u0018\\��\u0017L�\b\u0000\u0000D��*�A\u0007 �\u0014��\u000e��\u001d��\u0017\u0002a\u0006D@ $�<\u0010B\u0006�\u001c �\u0018�A\u0019T�:�\u0004��\u0003\u001a�\u0011��\u0010��18 ��\u0012\\��p\u0017\u0006`\u0018��\u0018�� \u0004A�\b\u0013a!:�\u0011b��\"�\b\u0017��\u0004\"aH4��� �\u0014Q\"��r�\u0002�Bj�]H#�-r\u00149�\\@���� 2����G1���Q\u0003�\u0002u@��\u001f\u001a�Ơs�t4\u000f]���k�\u001a�\u001e=�����K�ut\u0000}��c��1\u000ef��a\\��E`�X\u001a&�\u0016c�X5V�5c\u001dX7v\u0015\u001b��a�\b$\u0002��\u0013�\b^�\u0010�l���GXLXC�%�#�\u0012�\bW ��1�'\"��O�%z\u0012��xb:��XF�&�!\u001e!�%^'\u000e\u0013_�H$\u000eɒ�N !%�2I IkH�H-�S�>�\u0010i�L&�m���\b��� ����\u000f�O�����\u0014:ň�L �$R��\u0012J5e?�\u0004��2B���Qͩ��\b��:�ZIm�vP/S��\u00134u�%͛\u0016Cˤ-��Кigi�h/�t� ݃\u001eE�З�k�\u0007����w � ��Hb(\u0019k\u0019{\u0019�\u0018�\u0019/�L�\u0005ӗ��T0�2\u001b�g�\u000f�oUX*�*|\u0015��\u0012�:�V�~��TUsU?�y� T�U\u000f�^V}�FU�P� �\u0016�թ\u001dU��6��RwR�P�Q_��_���c ���F��H�Tc��\u0019�!\u0016�2e�XB�rV\u0003�,k�Mb[���Lv\u0005�\u001bv/{LSCs�f�f�f��q�\u0001\u000eƱ��9ٜJ�!� �{-\u0003-?-��j�f�~�7�zھ�b�r�\u0016����up�@�,��:m:�u �6�Q����u��>�c�y� ���\u000e���G�m���\u0017�����\u001f704\b6�\u0019l18c�̐c�k�i�����\u0011�h���h��I�'�&�g�5x\u0017>f�o\u001cb�4�e�k<abi2ۤĤ��)͔k�f�Ѵ�t���,ܬج��9՜k�a�ټ�����E��J�6�ǖږ|�\u0005�M����V>VyV�V׬I�\\�,�m�WlP\u001bW� �:�˶�����v�m�\u0014�\u0014�)�)�Sn�1��� ��\u0006�9�a�%�m��\u001d�\u001c\u0012\u001d�;t;|rtu�vlp���4éĩ��Wg\u001bg�s��5\u0017�K��\u0012�v�\u0017Sm���n�z˕�\u001a�ҵ������ܭ�m���=�}��M.�\u001b�]�=�A���X�q�㝧�����/^v^Y^��\u001eO��&��0m���[��{`:>=e���\u0003>�>\u0002�z�����\"�=�#~�~�~\u0007���;�������y�\u0016�N\u0005`\u0001�\u0001�\u0001��\u001a��\u0003k\u0003\u001f\u0004�\u0004�\u00075\u0005�\u0005�\u0006/ >\u0015B Y\u001fr�o�\u0017�\u001b�c3�g,��\u0015�\b�\u0015Z\u001b�0�&L\u001e�\u0011���\b�\u0010~o��L�̶\b��Gl��\u001fi\u0019�\u0017�}\u0014)*2�.�Q�Stqt�,֬�Y�g��񏩌�;�j�rvg�jlRlc웸�����x��E�\u0012t\u0013$ �����=��s\u0002�l�3��T�tc��ܢ�\u0017���˞w<Y5Y�|8��\u0012��?� BP/\u0018O�nM\u001d\u0013򄛅OE����Q���J<��V��8�;}C�h�OFu�3 OR+y�\u0019��#�MVD�ެ��q�-9�����R i��+�0�(�Of++� �y�m�\u001b�����#�s��\u0015l�Lѣ�R�P\u000e\u0016L/�+x[\u0018[x�H�HZ�3�f���# �\u0016|���P���ظxY��\"�E�\u0016#�S\u0017w.1]R�dxi��}�h˲��P�XRU�jy��R�ҥ�C+�W4�����n��Z�c\u0015a�dU�j��[V*\u0017�_�p�����F���WN_�|�ym���J����H��n��Y��J�jA�І� �\u001b��\u001b_mJ�t�zj��ʹ���\u00035a5�[̶���6��z�]�V������&�ֿ�w{�\u000e�\u001d\u0015;��켵+xWk�E}�n��ݏ\u001ab\u001b���~ݸGwOŞ�{�{\u0007�E��jtolܯ��� mR6�\u001eH:p囀oڛ�w�pZ*\u000e�A��'ߦ|{�P������ߙ��\b�Hy+�:�u�-�m�=���茣�\u001d^\u001dG���~�1�cu�5�W���(=��䂓�d���N?=ԙ�y�L��k]Q]�gCϞ?\u0017t�L�_�����]�p�\"�b�%�K�=�=G~p��H�[o�e���W<�t�M�;����j��s���.]�y����\u001b�n&�\u001c�%���v��\u0017w �L�]z�x������\u0007�\u000f����e�m��`�`��Y\u000f�\u000e �����Ӈ��G�G�#F#���\u001f\u001f\u001b \u001a��dΓ᧲�\u0013��~V�y�s������K�X��� ��Ͽ�y��r﫩�:�#�\u001f��y=�����}���ǽ\u001f�(�@�P���cǧ�O�>�|��/����-G8�\u0000\u0000\u0000 cHRM\u0000\u0000z&\u0000\u0000��\u0000\u0000�\u0000\u0000\u0000��\u0000\u0000u0\u0000\u0000�`\u0000\u0000:�\u0000\u0000\u0017p��Q<\u0000\u0000\u0000 pHYs\u0000\u0000 \u0013\u0000\u0000 \u0013\u0001\u0000��\u0018\u0000\u0000\u0001�IDATX��׿� a\u0000���;�8�nI��ߡ�K4r�щF�aW�\u000f\u0010� �hT\u0012�\u0010ъ�B�q�\u0005\u0011����E\"�(�(\u0014\u001b {֞bG13 !���\u001d�=��}3��}����<\u0013�$Q��R�W\u0001�\u0007��O\u0012�q\u001c�,v�� &�qC�|�����\u0015 zټ�o���{4�0�W~\u0001$j���\u0005�B\u001f�\b�\u0017!Q[�7�1��\\\u001f1\u001d�x � �\b\u0007J\b�u0¾\u0012\u0001�F�ޗ���� ����\u00116�e�X˭�<�á�A\u0001�\u0011� Yg�yz�{Wٳ�(�Tq�\\'\u000e�z�+g�L�� �U<�� 'y���z_���o��PVY����\\����\u001b`� �`� �o��S\u0011w�8��\u0012��Y$8��\u0018>c�?[:]�\\��\u0003z�A¡\u0015\u0012��82�J\u0005�(«���e��D�f^H��s��i!",
+      "tokens": [
+        "png",
+        "ihdr",
+        "szz",
+        "gama",
+        "iiccpsrgb",
+        "iec61966",
+        "swx",
+        "vb",
+        "hu",
+        "ga",
+        "9r",
+        "oh",
+        "yx",
+        "ly",
+        "2g",
+        "_p",
+        "ba",
+        "y8",
+        "qanv",
+        "b1n",
+        "g42y",
+        "18",
+        "ah4",
+        "bj",
+        "g1",
+        "t4",
+        "ut",
+        "x5v",
+        "5c",
+        "x7v",
+        "gxlxc",
+        "xb",
+        "xf",
+        "2i",
+        "ikh",
+        "j5e",
+        "2b",
+        "zim",
+        "vp",
+        "4u",
+        "igi",
+        "hb",
+        "t0",
+        "oux",
+        "tusu",
+        "fu",
+        "rwr",
+        "q_",
+        "tc",
+        "2e",
+        "xb",
+        "rv",
+        "mb",
+        "lv",
+        "lscs",
+        "up",
+        "704",
+        "l18c",
+        "5x",
+        "abi2",
+        "vyv",
+        "wlp",
+        "sn",
+        "rtu",
+        "vlp",
+        "wg",
+        "sm",
+        "0m",
+        "c3",
+        "gl",
+        "stqt",
+        "rvg",
+        "jlrlc",
+        "tc",
+        "y5y",
+        "bp",
+        "nm",
+        "oe",
+        "ofu",
+        "mvd",
+        "hz",
+        "xy",
+        "dxi",
+        "xru",
+        "jy",
+        "w4",
+        "du",
+        "wn_",
+        "ym",
+        "ja",
+        "_mj",
+        "zj",
+        "5a5",
+        "xwk",
+        "gwo",
+        "jtol",
+        "mr6",
+        "pz",
+        "hy",
+        "cu",
+        "gc",
+        "g8",
+        "chrm",
+        "u0",
+        "phys",
+        "idatx",
+        "ni",
+        "k4r",
+        "aw",
+        "ht",
+        "bg13",
+        "qc",
+        "u0",
+        "yg",
+        "yz",
+        "tq",
+        "z_",
+        "pvy",
+        "82"
+      ]
+    },
+    {
+      "charEnd": 3200,
+      "charStart": 3120,
+      "factId": "hz.web.d7db76a17976ef09.fact.2",
+      "kind": "bullet",
+      "text": "��8&�k� �\u0007q��R����\u001bn������Ki$-�R^J\u0013|�\u001e�Nv�%킋�\u001f�]\b��f�\u0000e\u0003�\u0004�\u0015cӴ� �\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "ki",
+        "nv",
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 3219,
+      "charStart": 3215,
+      "factId": "hz.web.d7db76a17976ef09.fact.3",
+      "kind": "bullet",
+      "text": "tc",
+      "tokens": [
+        "tc"
+      ]
+    },
+    {
+      "charEnd": 3224,
+      "charStart": 3220,
+      "factId": "hz.web.d7db76a17976ef09.fact.4",
+      "kind": "bullet",
+      "text": "u0",
+      "tokens": [
+        "u0"
+      ]
+    },
+    {
+      "charEnd": 3229,
+      "charStart": 3225,
+      "factId": "hz.web.d7db76a17976ef09.fact.5",
+      "kind": "bullet",
+      "text": "xb",
+      "tokens": [
+        "xb"
+      ]
+    },
+    {
+      "charEnd": 3235,
+      "charStart": 3230,
+      "factId": "hz.web.d7db76a17976ef09.fact.6",
+      "kind": "bullet",
+      "text": "_mj",
+      "tokens": [
+        "_mj"
+      ]
+    },
+    {
+      "charEnd": 3240,
+      "charStart": 3236,
+      "factId": "hz.web.d7db76a17976ef09.fact.7",
+      "kind": "bullet",
+      "text": "_p",
+      "tokens": [
+        "_p"
+      ]
+    },
+    {
+      "charEnd": 3245,
+      "charStart": 3241,
+      "factId": "hz.web.d7db76a17976ef09.fact.8",
+      "kind": "bullet",
+      "text": "0m",
+      "tokens": [
+        "0m"
+      ]
+    },
+    {
+      "charEnd": 3250,
+      "charStart": 3246,
+      "factId": "hz.web.d7db76a17976ef09.fact.9",
+      "kind": "bullet",
+      "text": "18",
+      "tokens": [
+        "18"
+      ]
+    },
+    {
+      "charEnd": 3255,
+      "charStart": 3251,
+      "factId": "hz.web.d7db76a17976ef09.fact.10",
+      "kind": "bullet",
+      "text": "2b",
+      "tokens": [
+        "2b"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.d7db76a17976ef09.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.youtube.com"
+    },
+    {
+      "charEnd": 142,
+      "charStart": 132,
+      "headingId": "hz.web.d7db76a17976ef09.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 3213,
+      "charStart": 3202,
+      "headingId": "hz.web.d7db76a17976ef09.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 3267,
+      "charStart": 3257,
+      "headingId": "hz.web.d7db76a17976ef09.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d7db76a17976ef09.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 6533,
+        "start": 0
+      }
+    ],
+    "hash": "99c04e251f7fff2868ced1c0daac0af17677c70929bc27a5ccfbe43e509e2f20",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0006\u0000\u0000\u0000szz�\u0000\u0000\u0000\u0004gAMA\u0000\u0000�� �a\u0005\u0000\u0000 IiCCPsRGB IEC61966-2.1\u0000\u0000H��SwX��\u0016>��e\u000fVB��l�\u0000\"#�\b�\u0010Y�\u0010�\u0000a�\u0010\u0012@Ņ� V\u0014\u0015\u0011�HUĂ� H���(�gA��Z�U\\8�\u001fܧ�}z�����������y�\u000f�\u0011\u0012&��j\u00009R�<:�\u001f�OH�ɽ�\u0002\u0015H�\u0004 \u0010���g\u0005�\u0000\u0000�\u0003yx~t�?�\u0001�o\u0000\u0002\u0000p�.$\u0012�����P&W\u0000 �\u0000�\"\u0012� \u0001�R\u0000�.T�\u0014\u0000�\u0018\u0000�S�d \u0000�\u0000\u0000ly|B\"\u0000� \u0000��I>\u0005\u0000ة��\u0017\u0000آ\u001c�\b\u0000�\u0001\u0000�(G$\u0002@�\u0000`U�R,\u0002��\u0000��@\".\u0004��\u0001�Y�2G\u0002��\u0005\u0000v�X�\u000f@`\u0000��B,�\u0000 8\u0002\u0000C\u001e\u0013�\u0003 L\u0003�0ҿ�_p��H\u0001\u0000�˕͗K�3\u0014���\u001aw����!��l�Ba\u0017)\u0010f �\"���#\u0013H�\u0003L� \u0000\u0000\u001a����8?������f�l��Ţ�k�o\">!�����\u0002\u0004\u0000\u0010N���_���\u0003p�\u0001�u�k�[\u0000�V\u0000h��]3� �Z �z��y8�@\u001e��P�<\u001d\u001c �%b��0�>�3�o��~��@\u001e��z�\u0000q�@������qanv�R���\u0004B1n��#�ǅ��)��4�\\,\u0015��X��P\"M�y�R�D!ɕ�\u0012�2�\u001f�� �w \u0000��O�N�\u0007��l�~�\u0001\u0002�\u000eX�v\u0000@~�-�\u001a �\u0000\u0010g42y�\u0000\u0000����@+\u0001\u0000͗��\u0000\u0000��\u0018\\��\u0017L�\b\u0000\u0000D��*�A\u0007 �\u0014��\u000e��\u001d��\u0017\u0002a\u0006D@ $�<\u0010B\u0006�\u001c �\u0018�A\u0019T�:�\u0004��\u0003\u001a�\u0011��\u0010��18 ��\u0012\\��p\u0017\u0006`\u0018��\u0018�� \u0004A�\b\u0013a!:�\u0011b��\"�\b\u0017��\u0004\"aH4��� �\u0014Q\"��r�\u0002�Bj�]H#�-r\u00149�\\@���� 2����G1���Q\u0003�\u0002u@��\u001f\u001a�Ơs�t4\u000f]���k�\u001a�\u001e=�����K�ut\u0000}��c��1\u000ef��a\\��E`�X\u001a&�\u0016c�X5V�5c\u001dX7v\u0015\u001b��a�\b$\u0002��\u0013�\b^�\u0010�l���GXLXC�%�#�\u0012�\bW ��1�'\"��O�%z\u0012��xb:��XF�&�!\u001e!�%^'\u000e\u0013_�H$\u000eɒ�N !%�2I IkH�H-�S�>�\u0010i�L&�m���\b��� ����\u000f�O�����\u0014:ň�L �$R��\u0012J5e?�\u0004��2B���Qͩ��\b��:�ZIm�vP/S��\u00134u�%͛\u0016Cˤ-��Кigi�h/�t� ݃\u001eE�З�k�\u0007����w � ��Hb(\u0019k\u0019{\u0019�\u0018�\u0019/�L�\u0005ӗ��T0�2\u001b�g�\u000f�oUX*�*|\u0015��\u0012�:�V�~��TUsU?�y� T�U\u000f�^V}�FU�P� �\u0016�թ\u001dU��6��RwR�P�Q_��_���c ���F��H�Tc��\u0019�!\u0016�2e�XB�rV\u0003�,k�Mb[���Lv\u0005�\u001bv/{LSCs�f�f�f��q�\u0001\u000eƱ��9ٜJ�!� �{-\u0003-?-��j�f�~�7�zھ�b�r�\u0016����up�@�,��:m:�u �6�Q����u��>�c�y� ���\u000e���G�m���\u0017�����\u001f704\b6�\u0019l18c�̐c�k�i�����\u0011�h���h��I�'�&�g�5x\u0017>f�o\u001cb�4�e�k<abi2ۤĤ��)͔k�f�Ѵ�t���,ܬج��9՜k�a�ټ�����E��J�6�ǖږ|�\u0005�M����V>VyV�V׬I�\\�,�m�WlP\u001bW� �:�˶�����v�m�\u0014�\u0014�)�)�Sn�1��� ��\u0006�9�a�%�m��\u001d�\u001c\u0012\u001d�;t;|rtu�vlp���4éĩ��Wg\u001bg�s��5\u0017�K��\u0012�v�\u0017Sm���n�z˕�\u001a�ҵ������ܭ�m���=�}��M.�\u001b�]�=�A���X�q�㝧�����/^v^Y^��\u001eO��&��0m���[��{`:>=e���\u0003>�>\u0002�z�����\"�=�#~�~�~\u0007���;�������y�\u0016�N\u0005`\u0001�\u0001�\u0001��\u001a��\u0003k\u0003\u001f\u0004�\u0004�\u00075\u0005�\u0005�\u0006/ >\u0015B Y\u001fr�o�\u0017�\u001b�c3�g,��\u0015�\b�\u0015Z\u001b�0�&L\u001e�\u0011���\b�\u0010~o��L�̶\b��Gl��\u001fi\u0019�\u0017�}\u0014)*2�.�Q�Stqt�,֬�Y�g��񏩌�;�j�rvg�jlRlc웸�����x��E�\u0012t\u0013$ �����=��s\u0002�l�3��T�tc��ܢ�\u0017���˞w<Y5Y�|8��\u0012��?� BP/\u0018O�nM\u001d\u0013򄛅OE����Q���J<��V��8�;}C�h�OFu�3 OR+y�\u0019��#�MVD�ެ��q�-9�����R i��+�0�(�Of++� �y�m�\u001b�����#�s��\u0015l�Lѣ�R�P\u000e\u0016L/�+x[\u0018[x�H�HZ�3�f���# �\u0016|���P���ظxY��\"�E�\u0016#�S\u0017w.1]R�dxi��}�h˲��P�XRU�jy��R�ҥ�C+�W4�����n��Z�c\u0015a�dU�j��[V*\u0017�_�p�����F���WN_�|�ym���J����H��n��Y��J�jA�І� �\u001b��\u001b_mJ�t�zj��ʹ���\u00035a5�[̶���6��z�]�V������&�ֿ�w{�\u000e�\u001d\u0015;��켵+xWk�E}�n��ݏ\u001ab\u001b���~ݸGwOŞ�{�{\u0007�E��jtolܯ��� mR6�\u001eH:p囀oڛ�w�pZ*\u000e�A��'ߦ|{�P������ߙ��\b�Hy+�:�u�-�m�=���茣�\u001d^\u001dG���~�1�cu�5�W���(=��䂓�d���N?=ԙ�y�L��k]Q]�gCϞ?\u0017t�L�_�����]�p�\"�b�%�K�=�=G~p��H�[o�e���W<�t�M�;����j��s���.]�y����\u001b�n&�\u001c�%���v��\u0017w �L�]z�x������\u0007�\u000f����e�m��`�`��Y\u000f�\u000e �����Ӈ��G�G�#F#���\u001f\u001f\u001b \u001a��dΓ᧲�\u0013��~V�y�s������K�X��� ��Ͽ�y��r﫩�:�#�\u001f��y=�����}���ǽ\u001f�(�@�P���cǧ�O�>�|��/����-G8�\u0000\u0000\u0000 cHRM\u0000\u0000z&\u0000\u0000��\u0000\u0000�\u0000\u0000\u0000��\u0000\u0000u0\u0000\u0000�`\u0000\u0000:�\u0000\u0000\u0017p��Q<\u0000\u0000\u0000 pHYs\u0000\u0000 \u0013\u0000\u0000 \u0013\u0001\u0000��\u0018\u0000\u0000\u0001�IDATX��׿� a\u0000���;�8�nI��ߡ�K4r�щF�aW�\u000f\u0010� �hT\u0012�\u0010ъ�B�q�\u0005\u0011����E\"�(�(\u0014\u001b {֞bG13 !���\u001d�=��}3��}����<\u0013�$Q��R�W\u0001�\u0007��O\u0012�q\u001c�,v�� &�qC�|�����\u0015 zټ�o���{4�0�W~\u0001$j���\u0005�B\u001f�\b�\u0017!Q[�7�1��\\\u001f1\u001d�x � �\b\u0007J\b�u0¾\u0012\u0001�F�ޗ���� ����\u00116�e�X˭�<�á�A\u0001�\u0011� Yg�yz�{Wٳ�(�Tq�\\'\u000e�z�+g�L�� �U<�� 'y���z_���o��PVY����\\����\u001b`� �`� �o��S\u0011w�8��\u0012��Y$8��\u0018>c�?[:]�\\��\u0003z�A¡\u0015\u0012��82�J\u0005�(«���e��D�f^H��s��i!",
+      "��8&�k� �\u0007q��R����\u001bn������Ki$-�R^J\u0013|�\u001e�Nv�%킋�\u001f�]\b��f�\u0000e\u0003�\u0004�\u0015cӴ� �\u0000\u0000\u0000\u0000IEND�B`�",
+      "tc"
+    ],
+    "medium": "Source: https://www.youtube.com/s/desktop/7cf77294/img/favicon_32x32.png",
+    "short": "Source: https://www.youtube.com/s/desktop/7cf77294/img/favicon_32x32.png",
+    "tokens": [
+      "www",
+      "youtube",
+      "com",
+      "source",
+      "https",
+      "www",
+      "youtube",
+      "com",
+      "desktop",
+      "7cf77294",
+      "img",
+      "favicon_32x32",
+      "png",
+      "source",
+      "https",
+      "www",
+      "youtube",
+      "com",
+      "desktop",
+      "7cf77294",
+      "img",
+      "favicon_32x32",
+      "png"
+    ]
+  },
+  "title": "www.youtube.com"
+}

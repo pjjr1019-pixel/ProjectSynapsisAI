@@ -1,0 +1,149 @@
+{
+  "aliases": [
+    {
+      "alias": "session d5983be2 0835 4231 b698 2c1e37c42d36",
+      "aliasId": "hz.auto.runtime.sessions.snapshots.session-d5983be2-0835-4231-b698-2c1e37c42d36.src-json.alias.1",
+      "canonical": "session d5983be2 0835 4231 b698 2c1e37c42d36"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.runtime.sessions.snapshots.session-d5983be2-0835-4231-b698-2c1e37c42d36.src-json",
+  "domain": "runtime",
+  "entities": [
+    {
+      "entityId": "hz.auto.runtime.sessions.snapshots.session-d5983be2-0835-4231-b698-2c1e37c42d36.src-json.entity.1",
+      "kind": "document",
+      "name": "session d5983be2 0835 4231 b698 2c1e37c42d36",
+      "tokens": [
+        "session",
+        "d5983be2",
+        "0835",
+        "4231",
+        "b698",
+        "2c1e37c42d36"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.auto.runtime.sessions.snapshots.session-d5983be2-0835-4231-b698-2c1e37c42d36.src-json.fact.1",
+      "kind": "summary",
+      "text": "Structured JSON keys: app, artifactType, lastSource, localLlm, pinnedDocIds, retrievalProfile, schemaVersion, sessionId, snapshotKey, stageMatched, startedAt, turnCount",
+      "tokens": [
+        "structured",
+        "json",
+        "keys",
+        "app",
+        "artifacttype",
+        "lastsource",
+        "localllm",
+        "pinneddocids",
+        "retrievalprofile",
+        "schemaversion",
+        "sessionid",
+        "snapshotkey",
+        "stagematched",
+        "startedat",
+        "turncount"
+      ]
+    }
+  ],
+  "headings": [],
+  "moduleIds": [],
+  "path": "runtime/sessions/snapshots/session-d5983be2-0835-4231-b698-2c1e37c42d36.json",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 438,
+        "start": 0
+      }
+    ],
+    "hash": "6cb801d4fc0db87777179f2ee8b44e93b10ac2939f13cbf2955579f9e8213b53",
+    "sourceType": "runtime"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "{ \"app\": \"assistant\", \"artifactType\": \"session-snapshot\", \"lastSource\": \"idk\", \"localLlm\": true, \"pinnedDocIds\": [], \"retrievalProfile\": \"assistant-default\", \"schemaVersion\": \"1.0\", \"sessionId\": \"d5983be2-0835-4231-b698-2c1e37c42d36\", \"snapshotKey\": \"d5983be2-0835-4231-b698-2c1e37c42d36\", \"stageMatched\": \"idk\", \"startedAt\": \"2026-03-30T03:21:37.835Z\", \"turnCount\": 4, \"updatedAt\": \"2026-03-30T03:22:54.036Z\" }",
+    "short": "{ \"app\": \"assistant\", \"artifactType\": \"session-snapshot\", \"lastSource\": \"idk\", \"localLlm\": true, \"pinnedDocIds\": [], \"retrievalProfile\": \"assistant-default\", \"schemaVersion\": \"1.0\", \"sessionId\": \"d5983be2-0835-4231-b698-2c1e37c42d36\", \"snap",
+    "tokens": [
+      "session",
+      "d5983be2",
+      "0835",
+      "4231",
+      "b698",
+      "2c1e37c42d36",
+      "app",
+      "assistant",
+      "artifacttype",
+      "session",
+      "snapshot",
+      "lastsource",
+      "idk",
+      "localllm",
+      "true",
+      "pinneddocids",
+      "retrievalprofile",
+      "assistant",
+      "default",
+      "schemaversion",
+      "sessionid",
+      "d5983be2",
+      "0835",
+      "4231",
+      "b698",
+      "2c1e37c42d36",
+      "snap",
+      "app",
+      "assistant",
+      "artifacttype",
+      "session",
+      "snapshot",
+      "lastsource",
+      "idk",
+      "localllm",
+      "true",
+      "pinneddocids",
+      "retrievalprofile",
+      "assistant",
+      "default",
+      "schemaversion",
+      "sessionid",
+      "d5983be2",
+      "0835",
+      "4231",
+      "b698",
+      "2c1e37c42d36",
+      "snapshotkey",
+      "d5983be2",
+      "0835",
+      "4231",
+      "b698",
+      "2c1e37c42d36",
+      "stagematched",
+      "idk",
+      "startedat",
+      "2026",
+      "03",
+      "30t03",
+      "21",
+      "37",
+      "835z",
+      "turncount",
+      "updatedat",
+      "2026",
+      "03",
+      "30t03",
+      "22",
+      "54",
+      "036z"
+    ]
+  },
+  "title": "session d5983be2 0835 4231 b698 2c1e37c42d36"
+}

@@ -1,0 +1,337 @@
+{
+  "aliases": [
+    {
+      "alias": "fbc18884cc4ffeec",
+      "aliasId": "hz.web.fbc18884cc4ffeec.alias.1",
+      "canonical": "mdn logo"
+    },
+    {
+      "alias": "mdn logo",
+      "aliasId": "hz.web.fbc18884cc4ffeec.alias.2",
+      "canonical": "mdn logo"
+    },
+    {
+      "alias": "web fbc18884cc4ffeec",
+      "aliasId": "hz.web.fbc18884cc4ffeec.alias.3",
+      "canonical": "mdn logo"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.fbc18884cc4ffeec",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fbc18884cc4ffeec.entity.1",
+      "kind": "document",
+      "name": "MDN Logo",
+      "tokens": [
+        "mdn",
+        "logo"
+      ]
+    },
+    {
+      "entityId": "hz.web.fbc18884cc4ffeec.entity.2",
+      "kind": "heading",
+      "name": "MDN Logo",
+      "tokens": [
+        "mdn",
+        "logo"
+      ]
+    },
+    {
+      "entityId": "hz.web.fbc18884cc4ffeec.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fbc18884cc4ffeec.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fbc18884cc4ffeec.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 13,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.1",
+      "kind": "summary",
+      "text": "Source: https://developer.mozilla.org/favicon.svg",
+      "tokens": [
+        "source",
+        "https",
+        "developer",
+        "mozilla",
+        "org",
+        "favicon",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 639,
+      "charStart": 114,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.1",
+      "kind": "bullet",
+      "text": "<svg width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <title>MDN Logo</title> <rect width=\"56\" height=\"56\" fill=\"#15141A\" /> <path d=\"M22.4203 12.5367L12.8529 43.4192H8.91937L18.4879 12.5322L22.4203 12.5367Z\" fill=\"white\" /> <path d=\"M25.9079 12.5369V43.4193H22.4282V12.5369H25.9079Z\" fill=\"white\" /> <path d=\"M39.4393 12.5367L29.8719 43.4192H25.9349L35.5024 12.5322L39.4393 12.5367Z\" fill=\"white\" /> <path d=\"M42.919 12.5369V43.4193H39.4393V12.5369H42.919Z\" fill=\"white\" /> </svg>",
+      "tokens": [
+        "svg",
+        "width",
+        "56",
+        "height",
+        "56",
+        "viewbox",
+        "56",
+        "56",
+        "fill",
+        "none",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2000",
+        "svg",
+        "title",
+        "mdn",
+        "logo",
+        "title",
+        "rect",
+        "width",
+        "56",
+        "height",
+        "56",
+        "fill",
+        "15141a",
+        "path",
+        "m22",
+        "4203",
+        "12",
+        "5367l12",
+        "8529",
+        "43",
+        "4192h8",
+        "91937l18",
+        "4879",
+        "12",
+        "5322l22",
+        "4203",
+        "12",
+        "5367z",
+        "fill",
+        "white",
+        "path",
+        "m25",
+        "9079",
+        "12",
+        "5369v43",
+        "4193h22",
+        "4282v12",
+        "5369h25",
+        "9079z",
+        "fill",
+        "white",
+        "path",
+        "m39",
+        "4393",
+        "12",
+        "5367l29",
+        "8719",
+        "43",
+        "4192h25",
+        "9349l35",
+        "5024",
+        "12",
+        "5322l39",
+        "4393",
+        "12",
+        "5367z",
+        "fill",
+        "white",
+        "path",
+        "m42",
+        "919",
+        "12",
+        "5369v43",
+        "4193h39",
+        "4393v12",
+        "5369h42",
+        "919z",
+        "fill",
+        "white",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 658,
+      "charStart": 654,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.2",
+      "kind": "bullet",
+      "text": "12",
+      "tokens": [
+        "12"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 659,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.3",
+      "kind": "bullet",
+      "text": "56",
+      "tokens": [
+        "56"
+      ]
+    },
+    {
+      "charEnd": 670,
+      "charStart": 664,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.4",
+      "kind": "bullet",
+      "text": "fill",
+      "tokens": [
+        "fill"
+      ]
+    },
+    {
+      "charEnd": 677,
+      "charStart": 671,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.5",
+      "kind": "bullet",
+      "text": "path",
+      "tokens": [
+        "path"
+      ]
+    },
+    {
+      "charEnd": 685,
+      "charStart": 678,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.6",
+      "kind": "bullet",
+      "text": "white",
+      "tokens": [
+        "white"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 686,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.7",
+      "kind": "bullet",
+      "text": "svg",
+      "tokens": [
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 692,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.8",
+      "kind": "bullet",
+      "text": "4203",
+      "tokens": [
+        "4203"
+      ]
+    },
+    {
+      "charEnd": 703,
+      "charStart": 699,
+      "factId": "hz.web.fbc18884cc4ffeec.fact.9",
+      "kind": "bullet",
+      "text": "43",
+      "tokens": [
+        "43"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.fbc18884cc4ffeec.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "MDN Logo"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.fbc18884cc4ffeec.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 652,
+      "charStart": 641,
+      "headingId": "hz.web.fbc18884cc4ffeec.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 715,
+      "charStart": 705,
+      "headingId": "hz.web.fbc18884cc4ffeec.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/fbc18884cc4ffeec.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1474,
+        "start": 0
+      }
+    ],
+    "hash": "ab8f0e856bc5edcc547e8342afcb2e9a280f5c9915a041223385453a91ac297d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<svg width=\"56\" height=\"56\" viewBox=\"0 0 56 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"> <title>MDN Logo</title> <rect width=\"56\" height=\"56\" fill=\"#15141A\" /> <path d=\"M22.4203 12.5367L12.8529 43.4192H8.91937L18.4879 12.5322L22.4203 12.5367Z\" fill=\"white\" /> <path d=\"M25.9079 12.5369V43.4193H22.4282V12.5369H25.9079Z\" fill=\"white\" /> <path d=\"M39.4393 12.5367L29.8719 43.4192H25.9349L35.5024 12.5322L39.4393 12.5367Z\" fill=\"white\" /> <path d=\"M42.919 12.5369V43.4193H39.4393V12.5369H42.919Z\" fill=\"white\" /> </svg>",
+      "12",
+      "56"
+    ],
+    "medium": "Source: https://developer.mozilla.org/favicon.svg",
+    "short": "Source: https://developer.mozilla.org/favicon.svg",
+    "tokens": [
+      "mdn",
+      "logo",
+      "source",
+      "https",
+      "developer",
+      "mozilla",
+      "org",
+      "favicon",
+      "svg",
+      "source",
+      "https",
+      "developer",
+      "mozilla",
+      "org",
+      "favicon",
+      "svg"
+    ]
+  },
+  "title": "MDN Logo"
+}

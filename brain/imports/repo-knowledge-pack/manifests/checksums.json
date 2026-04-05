@@ -1,0 +1,956 @@
+{
+  "module_id": "repo-knowledge-pack",
+  "generated_at": "2026-04-02T15:23:56.818Z",
+  "build_mode": "incremental",
+  "cards_reused": 4999,
+  "cards_rewritten": 1,
+  "cards_deleted": 0,
+  "checksums": [
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_extraction_contents.txt",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/d3/_repo_token_saver_ultimate_pack-_extraction_contents.txt--d354f98f877c.md",
+      "card_checksum_sha256": "291fade2d73f6345534c471ba1536f4199dc73eda17660c5db4ee90213bc05a3",
+      "score": 4,
+      "surface": "source",
+      "kind": "text",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "neutral",
+        "source",
+        "text",
+        "txt"
+      ],
+      "selected_rank": 4456,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_flat_listing.txt",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/19/_repo_token_saver_ultimate_pack-_flat_listing.txt--193fe5cc4f87.md",
+      "card_checksum_sha256": "d24e84a847d368c02ce12958be83e820bc43a6254c089a1aff58af8d617ccd85",
+      "score": 4,
+      "surface": "source",
+      "kind": "text",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "neutral",
+        "source",
+        "text",
+        "txt"
+      ],
+      "selected_rank": 4457,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/_scripts_listing.txt",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/a3/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-_scripts_listing.txt--a36f922be0fa.md",
+      "card_checksum_sha256": "6dd1bcd05d719bd8a74ac538b2143022d33997b470bdf377bcc11196237a34b8",
+      "score": 10,
+      "surface": "source",
+      "kind": "text",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "neutral",
+        "source",
+        "text",
+        "txt"
+      ],
+      "selected_rank": 4447,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/config/horizons-ai.ultimate.defaults.json",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/3e/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-config-horizons-ai.ultimat--3efd51b21cbf.md",
+      "card_checksum_sha256": "6dea71999a20c48825388a18ca99ccf96b741555cc75344867c520a227e14b84",
+      "score": 14,
+      "surface": "source",
+      "kind": "json",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "config",
+        "json",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4345,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/examples/commands.txt",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/9b/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-examples-commands.txt--9b4cb3a0f989.md",
+      "card_checksum_sha256": "7201c8f787e76d0be73d72a979d50721309e78228b3e7c95358f5966cad9d882",
+      "score": 4,
+      "surface": "source",
+      "kind": "text",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "neutral",
+        "source",
+        "text",
+        "txt"
+      ],
+      "selected_rank": 4458,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/examples/included-tools.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/8f/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-examples-included-tools.md--8f2da655046f.md",
+      "card_checksum_sha256": "5c53857653384c0581ecdeb24f7ba3cd618558c81df0f9ca7379f50591789b4b",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4346,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/lib/common.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/cb/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-lib-common.js--cbe92f05db68.md",
+      "card_checksum_sha256": "bdcdf27494e647ae0ef11af5d651369f952d84d76c44274fce4b5b3f3515d83d",
+      "score": 16,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4038,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/README.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/f3/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-README.md--f3c7e047de55.md",
+      "card_checksum_sha256": "38d8f2e966e61ea02143ea09102b4180b84105248c3a5c6e0631222dfc365043",
+      "score": 30,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 3965,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/Run Ultimate Baseline.cmd",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/1b/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-Run-Ultimate-Baseline.cmd--1b582f7d916e.md",
+      "card_checksum_sha256": "e48884ee3ead744a7bbc5b784bc5e55fe816b2229433f467f3692affcd154750",
+      "score": 16,
+      "surface": "other",
+      "kind": "batch",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "batch",
+        "cmd",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4039,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/00-run-ultimate-baseline.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/28/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-00-run-ultimate-ba--283d768ecd36.md",
+      "card_checksum_sha256": "c9be86c3f68d796278989decda6dd9f5a706a4385e487bcdcb6fde8fc31d779c",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4010,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/01-generate-focus-map.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/1f/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-01-generate-focus---1fafdf798a2d.md",
+      "card_checksum_sha256": "262f1d7aa402270cbc9d0fedbc69714951b9a5654d50dc58f48a544dc9f14001",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4011,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/02-generate-heavy-path-report.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/4b/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-02-generate-heavy---4b81b43c2cb5.md",
+      "card_checksum_sha256": "8843f830c94ebfaddfd75f5e453f032a9f80fc78d84712df23b80e55119856e9",
+      "score": 22,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 3992,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/03-generate-duplicate-name-report.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/b6/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-03-generate-duplic--b647ed6deb4b.md",
+      "card_checksum_sha256": "57d07b360078cd09644a52ecd5ae45b517c0dcc694bd2a3c0c48d293353969f3",
+      "score": 22,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 3993,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/04-generate-import-hubs.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/9f/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-04-generate-import--9fac5a55196e.md",
+      "card_checksum_sha256": "4d90bfec45f66e41d9fd144539bb94b816f364bf57b76e0b50b4ff819914fc29",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4012,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/05-generate-workspace-profile.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/90/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-05-generate-worksp--9062f49c4e1e.md",
+      "card_checksum_sha256": "4932150a9b168b0f917aa0b72f9ac9c5387a93b1a36c7f245499df9e9c169cb9",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4013,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/06-generate-architecture-digest.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/79/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-06-generate-archit--793937fc47a4.md",
+      "card_checksum_sha256": "6e46be9e923bcff5130f0921cb8cc08214d85b27301115057a4fd875b4fa7efd",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4014,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/07-detect-entrypoints.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/ad/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-07-detect-entrypoi--ad3f29edd47a.md",
+      "card_checksum_sha256": "1cce2cba26f0aa299b5ef14569600c5d1a186e4a1515c78812beb856880e4b2f",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4015,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/08-generate-smart-read-order.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/84/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-08-generate-smart---843d0e3a89be.md",
+      "card_checksum_sha256": "fca592f80a99ce7440e766110898adc7e03b13c06d44f515c4dd5e16f31f0077",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4016,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/09-detect-package-scripts.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/29/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-09-detect-package---29fe9f1aece0.md",
+      "card_checksum_sha256": "f773dfe8142cb6eb085d80f29651c9acbfc25b1aafe8d77239c8ad401538ec6d",
+      "score": 28,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 3977,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/10-detect-generated-surfaces.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/7d/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-10-detect-generate--7daaddef83f5.md",
+      "card_checksum_sha256": "d2f87b59bc066b0fcb34aa3e69b7deff595ac4cfcb0e60e534081010995ad008",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4017,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/11-rank-root-manifests.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/05/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-11-rank-root-manif--0598aa39c536.md",
+      "card_checksum_sha256": "b0a4da30ea474332be54c7a39e458f9d1fcf282894feb7ab779620aee5ada1d0",
+      "score": 38,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "manifest",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 3956,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/12-generate-stack-fingerprint.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/7e/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-12-generate-stack---7e3541d45740.md",
+      "card_checksum_sha256": "38639106f719e368f591d7e5e8fa9d8c13cc9cf073600e2746544979dc86fbdc",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4018,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/13-generate-portable-boundaries.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/62/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-13-generate-portab--62733d6581d3.md",
+      "card_checksum_sha256": "c1deebf64a2222c27449d9eb7e6a5763fbcb11244b2c8f9765845f6a97a28f22",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4019,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/14-generate-folder-purpose-index.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/d9/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-14-generate-folder--d91885409c85.md",
+      "card_checksum_sha256": "e86ff3e5f94eed7ba93ea0a55a947b991a862dfc42853355594a12c4c20773e7",
+      "score": 32,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "index",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 3962,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/15-generate-llm-rules.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/c2/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-15-generate-llm-ru--c21c2fb612ba.md",
+      "card_checksum_sha256": "aebbe6ce32a254ff06d2357a48ed7a25bbbc16b3ee60248378b52e96ce2bdbc5",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4020,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/16-generate-startup-path-map.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/c5/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-16-generate-startu--c59afb6e2b1b.md",
+      "card_checksum_sha256": "db3fdb5b12bd45c21aa660dedcd88e230dd994d2e9968e56dad37c1bfdd63a81",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4021,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/18-generate-task-brief.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/e3/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-18-generate-task-b--e3ca5fe97920.md",
+      "card_checksum_sha256": "7f677a2ff651343bfee700f1bcb3a60c225888a96fa3624b3c7a784ad8dc919c",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4022,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/19-generate-context-pack.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/24/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-19-generate-contex--247ee1aca964.md",
+      "card_checksum_sha256": "218e1062491ce9fdf8d2908c81521dc81106db0d95815532ab7b82d6ced0a686",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4023,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/20-generate-llm-handoff.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/9f/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-20-generate-llm-ha--9f963a1ea9a3.md",
+      "card_checksum_sha256": "81dfaecdc2ea3ba7d2e237a432f754ed2d6f31eb6c185c7355ef8da55fe98f01",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4024,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/21-generate-changed-brief.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/65/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-21-generate-change--65f82d8b8855.md",
+      "card_checksum_sha256": "4102868ec505a7af634ab985dc34617aa36f27dbb776e73e892828e2898da7ee",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4025,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/22-generate-source-vs-generated.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/93/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-22-generate-source--932e5508a480.md",
+      "card_checksum_sha256": "43823d1e5b820a4f1ecd3814e7f3d7a0168dad51529b99e4481955d8748f3c1e",
+      "score": 24,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 3989,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/23-generate-ignore-suggestions.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/d7/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-23-generate-ignore--d76b11921cb6.md",
+      "card_checksum_sha256": "4f7f2177c734be777e4f138df2369697373ae8c2aa3618518ff7541411810ca9",
+      "score": 18,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 4026,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/24-detect-dependency-package-noise.js",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/bc/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-24-detect-dependen--bcfc3f6a69ca.md",
+      "card_checksum_sha256": "437d1398bc1c9dcb889bde23f62f3ff30466d3317fd605b940d62c7f16e816a0",
+      "score": 24,
+      "surface": "other",
+      "kind": "code",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "code",
+        "js",
+        "neutral",
+        "other",
+        "scripts"
+      ],
+      "selected_rank": 3990,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/_repo_token_saver_ultimate_pack/scripts/25-extract-all-zips.ps1",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/9a/_repo_token_saver_ultimate_pack-_repo_token_saver_ultimate_pack-scripts-25-extract-all-zip--9a2c62d4bf56.md",
+      "card_checksum_sha256": "c24fb22300039f5e067c066ad2c226cd6a4ee1610f9b9d27a224ce4682fa1921",
+      "score": 6,
+      "surface": "other",
+      "kind": "powershell",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "neutral",
+        "other",
+        "powershell",
+        "ps1"
+      ],
+      "selected_rank": 4450,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/architecture-digest.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/9c/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-architecture-digest.md--9c944c034328.md",
+      "card_checksum_sha256": "7ce3896a371a0d621fd33a6406a355a3d95955cf82cf491ce070375f82927c53",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4347,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/dependency-package-noise.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/c1/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-dependency-package-noise.md--c1c3490bbb88.md",
+      "card_checksum_sha256": "c4a9a778e8cd513e9f3dabb350c71befff129ec1b8c8c54e6a2d8f29672567cf",
+      "score": 20,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4004,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/duplicate-name-report.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/d6/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-duplicate-name-report.md--d671d68dc9cb.md",
+      "card_checksum_sha256": "8edc98debc275e2c020fa83398441ef6cfc49141d81e24a0f534b376ec492df7",
+      "score": 18,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4027,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/focus-map.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/42/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-focus-map.md--427a39147e07.md",
+      "card_checksum_sha256": "6f0595047f202e1cf8cf2bdbb1a359f3c4cda849246c70c698a0e00ae743083b",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4348,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/folder-purpose-index.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/ef/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-folder-purpose-index.md--ef1125e8c0b9.md",
+      "card_checksum_sha256": "d72b0edc90fa4b11cf83123f85216d44619d0d0483786f2bd02fe93a20f2bb21",
+      "score": 28,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "index",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 3978,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/generated-vs-canonical.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/a7/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-generated-vs-canonical.md--a76484e78742.md",
+      "card_checksum_sha256": "e96cacd03625429dd3faa7cd686c659d301487542224bf57dcd519cbf01f7cf1",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4349,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/heavy-paths.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/03/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-heavy-paths.md--033ef2c422f2.md",
+      "card_checksum_sha256": "c76ef4374e1e38c68d43f3c8d43e7fb76bcb8974ee892c8bad50a0f3797f90ab",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4350,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/ignore-suggestions.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/d9/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-ignore-suggestions.md--d94f33b936ca.md",
+      "card_checksum_sha256": "63fedc54e63a68cf56bb542abe1b6c42240556ab6018a1ade7af74df21773e13",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4351,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/import-hubs.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/b5/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-import-hubs.md--b50682e21ffd.md",
+      "card_checksum_sha256": "5599d34c0f34569e1000a31fe3afbccebdab37968e329c8302dd02652562dd2f",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4352,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/likely-entrypoints.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/eb/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-likely-entrypoints.md--eb40a2a00755.md",
+      "card_checksum_sha256": "84def76db3083a448281d1efdd3d56a305a9b62793a52fe62391eee07257c2a4",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4353,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/llm-rules.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/b9/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-llm-rules.md--b924a587ae7d.md",
+      "card_checksum_sha256": "0a61fc4d46d00d9d1b0ab670e2bbcc67bac3ca11ea30d8fc244b96961a6ac122",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4354,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/package-scripts.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/d6/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-package-scripts.md--d630a25ae75e.md",
+      "card_checksum_sha256": "cef9aef525cd3ad07f1986600a233a80f1f882b291c5eb83abf4cdd00412fb55",
+      "score": 26,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 3986,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/portable-boundaries.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/bf/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-portable-boundaries.md--bf0e87df96f3.md",
+      "card_checksum_sha256": "3249fd4e9b5399a7711f86f0064b20a779a507307fc657904767a2c8356aaeb7",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4355,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/root-manifest-candidates.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/47/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-root-manifest-candidates.md--47fde63e8dcd.md",
+      "card_checksum_sha256": "53d4db6d2093a0fd04e91d5c50fef9222db75bdcbdf1e16ea6a0d5af15fe33a7",
+      "score": 34,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "manifest",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 3959,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/smart-read-order.md",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/aa/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-smart-read-order.md--aadabecd801a.md",
+      "card_checksum_sha256": "e37dc2034c32ed1e9c16e8a39614069715f9e2a24bc6756beab8516e3d9aa70f",
+      "score": 14,
+      "surface": "source",
+      "kind": "markdown",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "docs",
+        "markdown",
+        "md",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4356,
+      "reused": true,
+      "written": false
+    },
+    {
+      "source_path": "_repo_token_saver_ultimate_pack/.ai_repo_ultimate/stack-fingerprint.json",
+      "card_path": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack/cards/_repo_token_saver_ultimate_pack/ec/_repo_token_saver_ultimate_pack-.ai_repo_ultimate-stack-fingerprint.json--ec0cf9de92ed.md",
+      "card_checksum_sha256": "0803a0fecf06ecf0048a0de4a91c81b2b5321f493f369a66b08826a83e1de59a",
+      "score": 12,
+      "surface": "source",
+      "kind": "json",
+      "top_level": "_repo_token_saver_ultimate_pack",
+      "tags": [
+        "json",
+        "neutral",
+        "source"
+      ],
+      "selected_rank": 4433,
+      "reused": true,
+      "written": false
+    }
+  ]
+}

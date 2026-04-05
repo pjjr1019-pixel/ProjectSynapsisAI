@@ -1,0 +1,94 @@
+---
+schema_version: 1
+pack_id: "repo-knowledge-pack"
+card_type: "file-summary"
+source_path: "taskmanager/brain/runtime/learning/manifests/cycle-2026-03-29T22-49-42-929Z.json"
+source_name: "cycle-2026-03-29T22-49-42-929Z.json"
+top_level: "taskmanager"
+surface: "runtime"
+classification: "generated"
+kind: "json"
+language: "json"
+extension: ".json"
+score: -68
+selected_rank: 3782
+content_hash: "5f464de3b343a28f2331727c7fa8ac86d06eef37fe79607534e810b5e4518074"
+generated_at: "2026-04-02T14:59:03.985Z"
+tags:
+  - "brain"
+  - "generated"
+  - "json"
+  - "manifest"
+  - "runtime"
+json_keys:
+  - "artifactType"
+  - "cycleId"
+  - "discoveredCount"
+  - "fetchResults"
+  - "finishedAt"
+  - "idleTrainingEnabled"
+  - "processedCount"
+  - "promotedPaths"
+  - "promotionCount"
+  - "promotionMode"
+  - "rebuildTriggered"
+  - "seedUrls"
+  - "sourceScope"
+  - "startedAt"
+---
+
+# taskmanager/brain/runtime/learning/manifests/cycle-2026-03-29T22-49-42-929Z.json
+
+> JSON data file; keys artifactType, cycleId, discoveredCount, fetchResults, finishedAt, idleTrainingEnabled
+
+## Key Signals
+
+- Source path: taskmanager/brain/runtime/learning/manifests/cycle-2026-03-29T22-49-42-929Z.json
+- Surface: runtime
+- Classification: generated
+- Kind: json
+- Language: json
+- Top level: taskmanager
+- Score: -68
+- Tags: brain, generated, json, manifest, runtime
+- JSON keys: artifactType, cycleId, discoveredCount, fetchResults, finishedAt, idleTrainingEnabled, processedCount, promotedPaths, promotionCount, promotionMode
+
+## Lookup Notes
+
+- Use the card path in lookup.json to jump directly to this summary.
+- Open the source from this card with the repository-relative path.
+- Primary lookup terms: brain, generated, json, manifest, runtime, taskmanager
+- Source link target: taskmanager/brain/runtime/learning/manifests/cycle-2026-03-29T22-49-42-929Z.json
+
+## Excerpt
+
+~~~json
+{
+  "artifactType": "idle-training-cycle",
+  "cycleId": "cycle-2026-03-29T22-49-42-929Z",
+  "discoveredCount": 0,
+  "fetchResults": [
+    {
+      "status": "domain_cooldown",
+      "url": "https://www.cc.nih.gov/patient-services",
+      "workerId": 1
+    },
+    {
+      "status": "domain_cooldown",
+      "url": "https://www.cc.nih.gov/about/visitor",
+      "workerId": 1
+    },
+    {
+      "status": "domain_cooldown",
+      "url": "https://www.cc.nih.gov/followmyhealth",
+      "workerId": 1
+    },
+    {
+      "status": "domain_cooldown",
+      "url": "https://www.cc.nih.gov/participate",
+      "workerId": 1
+    },
+    {
+      "status": "domain_cooldown",
+      "url": "https://www.cc.nih.gov/dcri/medical-record-request",
+~~~

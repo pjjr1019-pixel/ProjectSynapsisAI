@@ -1,0 +1,450 @@
+{
+  "aliases": [
+    {
+      "alias": "recommended local llm models",
+      "aliasId": "hz.auto.core.recommended-local-llm-models.src-md.alias.1",
+      "canonical": "recommended local llm models (operators)"
+    },
+    {
+      "alias": "recommended local llm models operators",
+      "aliasId": "hz.auto.core.recommended-local-llm-models.src-md.alias.2",
+      "canonical": "recommended local llm models (operators)"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.core.recommended-local-llm-models.src-md",
+  "domain": "core",
+  "entities": [
+    {
+      "entityId": "hz.auto.core.recommended-local-llm-models.src-md.entity.1",
+      "kind": "document",
+      "name": "Recommended local LLM models (operators)",
+      "tokens": [
+        "recommended",
+        "local",
+        "llm",
+        "models",
+        "operators"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.recommended-local-llm-models.src-md.entity.2",
+      "kind": "heading",
+      "name": "Recommended local LLM models (operators)",
+      "tokens": [
+        "recommended",
+        "local",
+        "llm",
+        "models",
+        "operators"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.recommended-local-llm-models.src-md.entity.3",
+      "kind": "heading",
+      "name": "How Horizons uses the model",
+      "tokens": [
+        "horizons",
+        "uses",
+        "model"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.recommended-local-llm-models.src-md.entity.4",
+      "kind": "heading",
+      "name": "Examples (not endorsements)",
+      "tokens": [
+        "examples",
+        "not",
+        "endorsements"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.recommended-local-llm-models.src-md.entity.5",
+      "kind": "heading",
+      "name": "RAM / VRAM",
+      "tokens": [
+        "ram",
+        "vram"
+      ]
+    },
+    {
+      "entityId": "hz.auto.core.recommended-local-llm-models.src-md.entity.6",
+      "kind": "heading",
+      "name": "Disclaimer",
+      "tokens": [
+        "disclaimer"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 313,
+      "charStart": 46,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.1",
+      "kind": "summary",
+      "text": "Human-maintained hints for running Horizons with **Ollama**, **LM Studio**, or any **OpenAI-compatible** `/v1/chat/completions` endpoint. Upstream model names and quantization tags change often — verify with `ollama list` or your vendor docs before relying on a name.",
+      "tokens": [
+        "human",
+        "maintained",
+        "hints",
+        "running",
+        "horizons",
+        "ollama",
+        "lm",
+        "studio",
+        "any",
+        "openai",
+        "compatible",
+        "v1",
+        "chat",
+        "completions",
+        "endpoint",
+        "upstream",
+        "model",
+        "names",
+        "quantization",
+        "tags",
+        "change",
+        "often",
+        "verify",
+        "ollama",
+        "list",
+        "your",
+        "vendor",
+        "docs",
+        "before",
+        "relying",
+        "name"
+      ]
+    },
+    {
+      "charEnd": 1107,
+      "charStart": 1012,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.1",
+      "kind": "bullet",
+      "text": "Llama 3.x / 3.2 **small** instruct family (Ollama tags vary: `llama3.2`, `llama3.2:3b`, etc.)",
+      "tokens": [
+        "llama",
+        "small",
+        "instruct",
+        "family",
+        "ollama",
+        "tags",
+        "vary",
+        "llama3",
+        "llama3",
+        "3b",
+        "etc"
+      ]
+    },
+    {
+      "charEnd": 1158,
+      "charStart": 1108,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.2",
+      "kind": "bullet",
+      "text": "Mistral **small** / Nemo-class instruct variants",
+      "tokens": [
+        "mistral",
+        "small",
+        "nemo",
+        "class",
+        "instruct",
+        "variants"
+      ]
+    },
+    {
+      "charEnd": 1226,
+      "charStart": 1159,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.3",
+      "kind": "bullet",
+      "text": "Phi family (e.g. Phi-3/4 **mini**/small instruct where available)",
+      "tokens": [
+        "phi",
+        "family",
+        "phi",
+        "mini",
+        "small",
+        "instruct",
+        "available"
+      ]
+    },
+    {
+      "charEnd": 1267,
+      "charStart": 1227,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.4",
+      "kind": "bullet",
+      "text": "Qwen **2.5** smaller instruct variants",
+      "tokens": [
+        "qwen",
+        "smaller",
+        "instruct",
+        "variants"
+      ]
+    },
+    {
+      "charEnd": 1389,
+      "charStart": 1338,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.5",
+      "kind": "bullet",
+      "text": "Same as above, or one size up if quality is thin.",
+      "tokens": [
+        "same",
+        "above",
+        "one",
+        "size",
+        "up",
+        "if",
+        "quality",
+        "thin"
+      ]
+    },
+    {
+      "charEnd": 1534,
+      "charStart": 1431,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.6",
+      "kind": "bullet",
+      "text": "Larger instruct models if VRAM allows; **refine** mode usually does **not** need the largest weights.",
+      "tokens": [
+        "larger",
+        "instruct",
+        "models",
+        "if",
+        "vram",
+        "allows",
+        "refine",
+        "mode",
+        "usually",
+        "not",
+        "need",
+        "largest",
+        "weights"
+      ]
+    },
+    {
+      "charEnd": 1709,
+      "charStart": 1551,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.7",
+      "kind": "bullet",
+      "text": "Rules of thumb only: **3B–4B** quants often fit **8 GB** VRAM for short contexts; **7B–8B** often want **8–12+ GB** depending on context length and backend.",
+      "tokens": [
+        "rules",
+        "thumb",
+        "only",
+        "3b",
+        "4b",
+        "quants",
+        "often",
+        "fit",
+        "gb",
+        "vram",
+        "short",
+        "contexts",
+        "7b",
+        "8b",
+        "often",
+        "want",
+        "12",
+        "gb",
+        "depending",
+        "context",
+        "length",
+        "backend"
+      ]
+    },
+    {
+      "charEnd": 1801,
+      "charStart": 1710,
+      "factId": "hz.auto.core.recommended-local-llm-models.src-md.fact.8",
+      "kind": "bullet",
+      "text": "CPU-only Ollama is possible but **refine** may feel slow; prefer GPU for interactive use.",
+      "tokens": [
+        "cpu",
+        "only",
+        "ollama",
+        "possible",
+        "but",
+        "refine",
+        "may",
+        "feel",
+        "slow",
+        "prefer",
+        "gpu",
+        "interactive",
+        "use"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 42,
+      "charStart": 0,
+      "headingId": "hz.auto.core.recommended-local-llm-models.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Recommended local LLM models (operators)"
+    },
+    {
+      "charEnd": 343,
+      "charStart": 313,
+      "headingId": "hz.auto.core.recommended-local-llm-models.src-md.heading.2",
+      "level": 2,
+      "line": 5,
+      "text": "How Horizons uses the model"
+    },
+    {
+      "charEnd": 889,
+      "charStart": 859,
+      "headingId": "hz.auto.core.recommended-local-llm-models.src-md.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Examples (not endorsements)"
+    },
+    {
+      "charEnd": 1549,
+      "charStart": 1536,
+      "headingId": "hz.auto.core.recommended-local-llm-models.src-md.heading.4",
+      "level": 2,
+      "line": 32,
+      "text": "RAM / VRAM"
+    },
+    {
+      "charEnd": 1816,
+      "charStart": 1803,
+      "headingId": "hz.auto.core.recommended-local-llm-models.src-md.heading.5",
+      "level": 2,
+      "line": 37,
+      "text": "Disclaimer"
+    }
+  ],
+  "moduleIds": [],
+  "path": "core/recommended-local-llm-models.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2023,
+        "start": 0
+      }
+    ],
+    "hash": "210d04b486be2e12390f5b410c68a04983fe84aa6e6b274e0b49360e1b121266",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.auto.core.recommended-local-llm-models.src-md.rule.1",
+      "text": "| | `always` | Full generation with brain context every turn.",
+      "tokens": [
+        "always",
+        "full",
+        "generation",
+        "brain",
+        "context",
+        "every",
+        "turn"
+      ]
+    },
+    {
+      "ruleId": "hz.auto.core.recommended-local-llm-models.src-md.rule.2",
+      "text": "**Always / heavy context** — optional: - Larger instruct models if VRAM allows; **refine** mode usually does **not** need the largest weights.",
+      "tokens": [
+        "always",
+        "heavy",
+        "context",
+        "optional",
+        "larger",
+        "instruct",
+        "models",
+        "if",
+        "vram",
+        "allows",
+        "refine",
+        "mode",
+        "usually",
+        "not",
+        "need",
+        "largest",
+        "weights"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Llama 3.x / 3.2 **small** instruct family (Ollama tags vary: `llama3.2`, `llama3.2:3b`, etc.)",
+      "Mistral **small** / Nemo-class instruct variants",
+      "Phi family (e.g. Phi-3/4 **mini**/small instruct where available)"
+    ],
+    "medium": "Human-maintained hints for running Horizons with **Ollama**, **LM Studio**, or any **OpenAI-compatible** `/v1/chat/completions` endpoint. Upstream model names and quantization tags change often — verify with `ollama list` or your vendor docs before relying on a name.",
+    "short": "Human-maintained hints for running Horizons with **Ollama**, **LM Studio**, or any **OpenAI-compatible** `/v1/chat/completions` endpoint. Upstream model names and quantization tags change often — verify with `ollama list` or your vendor doc",
+    "tokens": [
+      "recommended",
+      "local",
+      "llm",
+      "models",
+      "operators",
+      "human",
+      "maintained",
+      "hints",
+      "running",
+      "horizons",
+      "ollama",
+      "lm",
+      "studio",
+      "any",
+      "openai",
+      "compatible",
+      "v1",
+      "chat",
+      "completions",
+      "endpoint",
+      "upstream",
+      "model",
+      "names",
+      "quantization",
+      "tags",
+      "change",
+      "often",
+      "verify",
+      "ollama",
+      "list",
+      "your",
+      "vendor",
+      "doc",
+      "human",
+      "maintained",
+      "hints",
+      "running",
+      "horizons",
+      "ollama",
+      "lm",
+      "studio",
+      "any",
+      "openai",
+      "compatible",
+      "v1",
+      "chat",
+      "completions",
+      "endpoint",
+      "upstream",
+      "model",
+      "names",
+      "quantization",
+      "tags",
+      "change",
+      "often",
+      "verify",
+      "ollama",
+      "list",
+      "your",
+      "vendor",
+      "docs",
+      "before",
+      "relying",
+      "name"
+    ]
+  },
+  "title": "Recommended local LLM models (operators)"
+}

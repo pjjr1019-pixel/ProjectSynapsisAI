@@ -1,0 +1,30 @@
+{
+  "protocol": "windows-skill-pack-lookup-v1",
+  "module_id": "windows-js-skill-pack",
+  "steps": [
+    "search_aliases_and_ids",
+    "rank_candidates",
+    "validate_parameters",
+    "select_executor",
+    "enforce_safety_and_admin_policy",
+    "execute_or_return_candidates"
+  ],
+  "confidence": {
+    "execute_threshold": 0.75,
+    "fallback_behavior": "return_top_3_candidates"
+  },
+  "outputs": {
+    "on_execute": [
+      "ok",
+      "skill_id",
+      "executor",
+      "result",
+      "meta"
+    ],
+    "on_fallback": [
+      "ok",
+      "candidates",
+      "reason"
+    ]
+  }
+}

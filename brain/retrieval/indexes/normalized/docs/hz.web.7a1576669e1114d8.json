@@ -1,0 +1,329 @@
+{
+  "aliases": [
+    {
+      "alias": "7a1576669e1114d8",
+      "aliasId": "hz.web.7a1576669e1114d8.alias.1",
+      "canonical": "&lt;glazblog/&gt;"
+    },
+    {
+      "alias": "lt glazblog gt",
+      "aliasId": "hz.web.7a1576669e1114d8.alias.2",
+      "canonical": "&lt;glazblog/&gt;"
+    },
+    {
+      "alias": "web 7a1576669e1114d8",
+      "aliasId": "hz.web.7a1576669e1114d8.alias.3",
+      "canonical": "&lt;glazblog/&gt;"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.7a1576669e1114d8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7a1576669e1114d8.entity.1",
+      "kind": "document",
+      "name": "&lt;Glazblog/&gt;",
+      "tokens": [
+        "lt",
+        "glazblog",
+        "gt"
+      ]
+    },
+    {
+      "entityId": "hz.web.7a1576669e1114d8.entity.2",
+      "kind": "heading",
+      "name": "&lt;Glazblog/&gt;",
+      "tokens": [
+        "lt",
+        "glazblog",
+        "gt"
+      ]
+    },
+    {
+      "entityId": "hz.web.7a1576669e1114d8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7a1576669e1114d8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7a1576669e1114d8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 22,
+      "factId": "hz.web.7a1576669e1114d8.fact.1",
+      "kind": "summary",
+      "text": "Source: http://glazman.org/weblog/",
+      "tokens": [
+        "source",
+        "http",
+        "glazman",
+        "org",
+        "weblog"
+      ]
+    },
+    {
+      "charEnd": 354,
+      "charStart": 108,
+      "factId": "hz.web.7a1576669e1114d8.fact.1",
+      "kind": "bullet",
+      "text": "&lt;Glazblog/&gt; &lt;Glazblog/&gt; Friday 17 January 2025 R1250RT By glazou on Friday 17 January 2025, 16:21 Pour ceux d'entre vous qui ont une BMW R1250RT (sans écran TFT), j'ai compilé une petite liste qui pourrait peut-être vous être utile.",
+      "tokens": [
+        "lt",
+        "glazblog",
+        "gt",
+        "lt",
+        "glazblog",
+        "gt",
+        "friday",
+        "17",
+        "january",
+        "2025",
+        "r1250rt",
+        "glazou",
+        "friday",
+        "17",
+        "january",
+        "2025",
+        "16",
+        "21",
+        "pour",
+        "ceux",
+        "entre",
+        "vous",
+        "qui",
+        "ont",
+        "une",
+        "bmw",
+        "r1250rt",
+        "sans",
+        "cran",
+        "tft",
+        "ai",
+        "compil",
+        "une",
+        "petite",
+        "liste",
+        "qui",
+        "pourrait",
+        "peut",
+        "tre",
+        "vous",
+        "tre",
+        "utile"
+      ]
+    },
+    {
+      "charEnd": 362,
+      "charStart": 355,
+      "factId": "hz.web.7a1576669e1114d8.fact.2",
+      "kind": "bullet",
+      "text": "Back.",
+      "tokens": [
+        "back"
+      ]
+    },
+    {
+      "charEnd": 372,
+      "charStart": 363,
+      "factId": "hz.web.7a1576669e1114d8.fact.3",
+      "kind": "bullet",
+      "text": "Online.",
+      "tokens": [
+        "online"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 373,
+      "factId": "hz.web.7a1576669e1114d8.fact.4",
+      "kind": "bullet",
+      "text": "By glazou on Friday 17 January 2025, 14:42 Glazou's back.",
+      "tokens": [
+        "glazou",
+        "friday",
+        "17",
+        "january",
+        "2025",
+        "14",
+        "42",
+        "glazou",
+        "back"
+      ]
+    },
+    {
+      "charEnd": 451,
+      "charStart": 447,
+      "factId": "hz.web.7a1576669e1114d8.fact.5",
+      "kind": "bullet",
+      "text": "de",
+      "tokens": [
+        "de"
+      ]
+    },
+    {
+      "charEnd": 456,
+      "charStart": 452,
+      "factId": "hz.web.7a1576669e1114d8.fact.6",
+      "kind": "bullet",
+      "text": "la",
+      "tokens": [
+        "la"
+      ]
+    },
+    {
+      "charEnd": 461,
+      "charStart": 457,
+      "factId": "hz.web.7a1576669e1114d8.fact.7",
+      "kind": "bullet",
+      "text": "et",
+      "tokens": [
+        "et"
+      ]
+    },
+    {
+      "charEnd": 466,
+      "charStart": 462,
+      "factId": "hz.web.7a1576669e1114d8.fact.8",
+      "kind": "bullet",
+      "text": "le",
+      "tokens": [
+        "le"
+      ]
+    },
+    {
+      "charEnd": 471,
+      "charStart": 467,
+      "factId": "hz.web.7a1576669e1114d8.fact.9",
+      "kind": "bullet",
+      "text": "un",
+      "tokens": [
+        "un"
+      ]
+    },
+    {
+      "charEnd": 477,
+      "charStart": 472,
+      "factId": "hz.web.7a1576669e1114d8.fact.10",
+      "kind": "bullet",
+      "text": "est",
+      "tokens": [
+        "est"
+      ]
+    },
+    {
+      "charEnd": 482,
+      "charStart": 478,
+      "factId": "hz.web.7a1576669e1114d8.fact.11",
+      "kind": "bullet",
+      "text": "en",
+      "tokens": [
+        "en"
+      ]
+    },
+    {
+      "charEnd": 488,
+      "charStart": 483,
+      "factId": "hz.web.7a1576669e1114d8.fact.12",
+      "kind": "bullet",
+      "text": "les",
+      "tokens": [
+        "les"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.7a1576669e1114d8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "&lt;Glazblog/&gt;"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.7a1576669e1114d8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 445,
+      "charStart": 434,
+      "headingId": "hz.web.7a1576669e1114d8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 500,
+      "charStart": 490,
+      "headingId": "hz.web.7a1576669e1114d8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7a1576669e1114d8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3730,
+        "start": 0
+      }
+    ],
+    "hash": "a1645aabe443bedba3b919ccbdc50170ebe2a8be1b458edf607f56d287234f96",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "&lt;Glazblog/&gt; &lt;Glazblog/&gt; Friday 17 January 2025 R1250RT By glazou on Friday 17 January 2025, 16:21 Pour ceux d'entre vous qui ont une BMW R1250RT (sans écran TFT), j'ai compilé une petite liste qui pourrait peut-être vous être utile.",
+      "Back.",
+      "Online."
+    ],
+    "medium": "Source: http://glazman.org/weblog/",
+    "short": "Source: http://glazman.org/weblog/",
+    "tokens": [
+      "lt",
+      "glazblog",
+      "gt",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog"
+    ]
+  },
+  "title": "&lt;Glazblog/&gt;"
+}

@@ -1,0 +1,270 @@
+# INDEX
+
+Total skills: **259**
+
+## settings
+- `settings.accounts.access-work-or-school` — Access work or school → `ms-settings:workplace`
+- `settings.accounts.email-and-app-accounts` — Email & app accounts → `ms-settings:emailandaccounts`
+- `settings.accounts.family-and-other-people` — Family & other people → `ms-settings:otherusers`
+- `settings.accounts.repair-token` — Repair token → `ms-settings:workplace-repairtoken`
+- `settings.accounts.set-up-a-kiosk` — Set up a kiosk → `ms-settings:assignedaccess`
+- `settings.accounts.sign-in-options` — Sign-in options → `ms-settings:signinoptions`
+- `settings.accounts.dynamic-lock` — Dynamic lock → `ms-settings:signinoptions-dynamiclock`
+- `settings.accounts.sync-your-settings` — Sync your settings → `ms-settings:sync`
+- `settings.accounts.backup` — Backup → `ms-settings:backup`
+- `settings.accounts.windows-anywhere` — Windows Anywhere → `ms-settings:windowsanywhere`
+- `settings.accounts.windows-hello-face-setup` — Windows Hello face setup → `ms-settings:signinoptions-launchfaceenrollment`
+- `settings.accounts.windows-hello-fingerprint-setup` — Windows Hello fingerprint setup → `ms-settings:signinoptions-launchfingerprintenrollment`
+- `settings.accounts.your-info` — Your info → `ms-settings:yourinfo`
+- `settings.apps.apps-and-features` — Apps & features → `ms-settings:appsfeatures`
+- `settings.apps.apps-for-websites` — Apps for websites → `ms-settings:appsforwebsites`
+- `settings.apps.default-apps` — Default apps → `ms-settings:defaultapps`
+- `settings.apps.default-browser-settings` — Default browser settings → `ms-settings:defaultbrowsersettings`
+- `settings.apps.manage-optional-features` — Manage optional features → `ms-settings:optionalfeatures`
+- `settings.apps.offline-maps` — Offline maps → `ms-settings:maps`
+- `settings.apps.download-maps` — Download maps → `ms-settings:maps-downloadmaps`
+- `settings.apps.startup-apps` — Startup apps → `ms-settings:startupapps`
+- `settings.apps.video-playback` — Video playback → `ms-settings:videoplayback`
+- `settings.control-center.control-center` — Control center → `ms-settings:controlcenter`
+- `settings.devices.autoplay` — AutoPlay → `ms-settings:autoplay`
+- `settings.devices.bluetooth` — Bluetooth → `ms-settings:bluetooth`
+- `settings.devices.connected-devices` — Connected devices → `ms-settings:connecteddevices`
+- `settings.devices.camera-settings` — Camera settings → `ms-settings:camera`
+- `settings.devices.mouse-and-touchpad` — Mouse & touchpad → `ms-settings:mousetouchpad`
+- `settings.devices.pen-and-windows-ink` — Pen & Windows Ink → `ms-settings:pen`
+- `settings.devices.printers-and-scanners` — Printers & scanners → `ms-settings:printers`
+- `settings.devices.touch` — Touch → `ms-settings:devices-touch`
+- `settings.devices.touchpad` — Touchpad → `ms-settings:devices-touchpad`
+- `settings.devices.hardware-keyboard-text-suggestions` — Hardware keyboard text suggestions → `ms-settings:devicestyping-hwkbtextsuggestions`
+- `settings.devices.typing` — Typing → `ms-settings:typing`
+- `settings.devices.usb` — USB → `ms-settings:usb`
+- `settings.devices.wheel` — Wheel → `ms-settings:wheel`
+- `settings.devices.phone-link-devices` — Phone Link devices → `ms-settings:mobile-devices`
+- `settings.accessibility.accessibility-audio` — Accessibility audio → `ms-settings:easeofaccess-audio`
+- `settings.accessibility.closed-captions` — Closed captions → `ms-settings:easeofaccess-closedcaptioning`
+- `settings.accessibility.color-filters` — Color filters → `ms-settings:easeofaccess-colorfilter`
+- `settings.accessibility.adaptive-color-filter-help` — Adaptive color filter help → `ms-settings:easeofaccess-colorfilter-adaptivecolorlink`
+- `settings.accessibility.blue-light-color-filter-help` — Blue light color filter help → `ms-settings:easeofaccess-colorfilter-bluelightlink`
+- `settings.accessibility.accessibility-display` — Accessibility display → `ms-settings:easeofaccess-display`
+- `settings.accessibility.eye-control` — Eye control → `ms-settings:easeofaccess-eyecontrol`
+- `settings.accessibility.hearing-devices` — Hearing devices → `ms-settings:easeofaccess-hearingaids`
+- `settings.accessibility.high-contrast` — High contrast → `ms-settings:easeofaccess-highcontrast`
+- `settings.accessibility.accessibility-keyboard` — Accessibility keyboard → `ms-settings:easeofaccess-keyboard`
+- `settings.accessibility.magnifier` — Magnifier → `ms-settings:easeofaccess-magnifier`
+- `settings.accessibility.accessibility-mouse` — Accessibility mouse → `ms-settings:easeofaccess-mouse`
+- `settings.accessibility.mouse-pointer-and-touch` — Mouse pointer & touch → `ms-settings:easeofaccess-mousepointer`
+- `settings.accessibility.narrator` — Narrator → `ms-settings:easeofaccess-narrator`
+- `settings.accessibility.narrator-auto-start` — Narrator auto start → `ms-settings:easeofaccess-narrator-isautostartenabled`
+- `settings.accessibility.speech-recognition-accessibility` — Speech recognition accessibility → `ms-settings:easeofaccess-speechrecognition`
+- `settings.accessibility.text-cursor` — Text cursor → `ms-settings:easeofaccess-cursor`
+- `settings.accessibility.visual-effects` — Visual effects → `ms-settings:easeofaccess-visualeffects`
+- `settings.misc.extras` — Extras → `ms-settings:extras`
+- `settings.misc.family-group` — Family Group → `ms-settings:family-group`
+- `settings.misc.game-bar` — Game bar → `ms-settings:gaming-gamebar`
+- `settings.misc.game-dvr` — Game DVR → `ms-settings:gaming-gamedvr`
+- `settings.misc.game-mode` — Game Mode → `ms-settings:gaming-gamemode`
+- `settings.misc.quiet-moments-for-fullscreen-gaming` — Quiet moments for fullscreen gaming → `ms-settings:quietmomentsgame`
+- `settings.misc.holographic-audio-and-speech` — Holographic audio and speech → `ms-settings:holographic-audio`
+- `settings.misc.holographic-environment-privacy` — Holographic environment privacy → `ms-settings:privacy-holographic-environment`
+- `settings.misc.holographic-headset-display` — Holographic headset display → `ms-settings:holographic-headset`
+- `settings.misc.holographic-management-uninstall` — Holographic management uninstall → `ms-settings:holographic-management`
+- `settings.misc.holographic-startup-and-desktop` — Holographic startup and desktop → `ms-settings:holographic-startupandesktop`
+- `settings.network.network-status` — Network status → `ms-settings:network-status`
+- `settings.network.advanced-network-settings` — Advanced network settings → `ms-settings:network-advancedsettings`
+- `settings.network.airplane-mode` — Airplane mode → `ms-settings:network-airplanemode`
+- `settings.network.proximity-sharing` — Proximity sharing → `ms-settings:proximity`
+- `settings.network.cellular-and-sim` — Cellular & SIM → `ms-settings:network-cellular`
+- `settings.network.dial-up` — Dial-up → `ms-settings:network-dialup`
+- `settings.network.directaccess` — DirectAccess → `ms-settings:network-directaccess`
+- `settings.network.ethernet` — Ethernet → `ms-settings:network-ethernet`
+- `settings.network.manage-known-networks` — Manage known networks → `ms-settings:network-wifisettings`
+- `settings.network.mobile-hotspot` — Mobile hotspot → `ms-settings:network-mobilehotspot`
+- `settings.network.proxy` — Proxy → `ms-settings:network-proxy`
+- `settings.network.vpn` — VPN → `ms-settings:network-vpn`
+- `settings.network.wi-fi` — Wi-Fi → `ms-settings:network-wifi`
+- `settings.network.wi-fi-provisioning` — Wi-Fi provisioning → `ms-settings:wifi-provisioning`
+- `settings.personalization.background` — Background → `ms-settings:personalization-background`
+- `settings.personalization.choose-start-folders` — Choose Start folders → `ms-settings:personalization-start-places`
+- `settings.personalization.personalization-colors` — Personalization colors → `ms-settings:personalization-colors`
+- `settings.personalization.colors` — Colors → `ms-settings:colors`
+- `settings.personalization.copilot-key-personalization` — Copilot key personalization → `ms-settings:personalization-textinput-copilot-hardwarekey`
+- `settings.personalization.dynamic-lighting` — Dynamic Lighting → `ms-settings:personalization-lighting`
+- `settings.personalization.fonts` — Fonts → `ms-settings:fonts`
+- `settings.personalization.lock-screen` — Lock screen → `ms-settings:lockscreen`
+- `settings.personalization.personalization` — Personalization → `ms-settings:personalization`
+- `settings.personalization.start-personalization` — Start personalization → `ms-settings:personalization-start`
+- `settings.personalization.taskbar` — Taskbar → `ms-settings:taskbar`
+- `settings.personalization.text-input-personalization` — Text input personalization → `ms-settings:personalization-textinput`
+- `settings.personalization.touch-keyboard` — Touch keyboard → `ms-settings:personalization-touchkeyboard`
+- `settings.personalization.themes` — Themes → `ms-settings:themes`
+- `settings.phone.phone-link` — Phone Link → `ms-settings:mobile-devices`
+- `settings.phone.add-phone` — Add phone → `ms-settings:mobile-devices-addphone`
+- `settings.phone.open-phone-link-app` — Open Phone Link app → `ms-settings:mobile-devices-addphone-direct`
+- `settings.phone.device-usage` — Device usage → `ms-settings:deviceusage`
+- `settings.privacy.privacy` — Privacy → `ms-settings:privacy`
+- `settings.privacy.privacy-general` — Privacy general → `ms-settings:privacy-general`
+- `settings.privacy.account-info-privacy` — Account info privacy → `ms-settings:privacy-accountinfo`
+- `settings.privacy.activity-history` — Activity history → `ms-settings:privacy-activityhistory`
+- `settings.privacy.app-diagnostics` — App diagnostics → `ms-settings:privacy-appdiagnostics`
+- `settings.privacy.automatic-file-downloads` — Automatic file downloads → `ms-settings:privacy-automaticfiledownloads`
+- `settings.privacy.background-spatial-perception` — Background spatial perception → `ms-settings:privacy-backgroundspatialperception`
+- `settings.privacy.calendar-privacy` — Calendar privacy → `ms-settings:privacy-calendar`
+- `settings.privacy.call-history-privacy` — Call history privacy → `ms-settings:privacy-callhistory`
+- `settings.privacy.camera-privacy` — Camera privacy → `ms-settings:privacy-webcam`
+- `settings.privacy.contacts-privacy` — Contacts privacy → `ms-settings:privacy-contacts`
+- `settings.privacy.documents-privacy` — Documents privacy → `ms-settings:privacy-documents`
+- `settings.privacy.downloads-folder-privacy` — Downloads folder privacy → `ms-settings:privacy-downloadsfolder`
+- `settings.privacy.email-privacy` — Email privacy → `ms-settings:privacy-email`
+- `settings.privacy.eye-tracker-privacy` — Eye tracker privacy → `ms-settings:privacy-eyetracker`
+- `settings.privacy.feedback-and-diagnostics` — Feedback & diagnostics → `ms-settings:privacy-feedback`
+- `settings.privacy.file-system-privacy` — File system privacy → `ms-settings:privacy-broadfilesystemaccess`
+- `settings.privacy.graphics-capture-privacy` — Graphics capture privacy → `ms-settings:privacy-graphicscaptureprogrammatic`
+- `settings.privacy.borderless-graphics-capture-privacy` — Borderless graphics capture privacy → `ms-settings:privacy-graphicscapturewithoutborder`
+- `settings.privacy.inking-and-typing-privacy` — Inking & typing privacy → `ms-settings:privacy-speechtyping`
+- `settings.privacy.location-privacy` — Location privacy → `ms-settings:privacy-location`
+- `settings.privacy.messaging-privacy` — Messaging privacy → `ms-settings:privacy-messaging`
+- `settings.privacy.microphone-privacy` — Microphone privacy → `ms-settings:privacy-microphone`
+- `settings.privacy.motion-privacy` — Motion privacy → `ms-settings:privacy-motion`
+- `settings.privacy.music-library-privacy` — Music library privacy → `ms-settings:privacy-musiclibrary`
+- `settings.privacy.notifications-privacy` — Notifications privacy → `ms-settings:privacy-notifications`
+- `settings.privacy.other-devices-privacy` — Other devices privacy → `ms-settings:privacy-customdevices`
+- `settings.privacy.phone-calls-privacy` — Phone calls privacy → `ms-settings:privacy-phonecalls`
+- `settings.privacy.pictures-privacy` — Pictures privacy → `ms-settings:privacy-pictures`
+- `settings.privacy.radios-privacy` — Radios privacy → `ms-settings:privacy-radios`
+- `settings.privacy.speech-privacy` — Speech privacy → `ms-settings:privacy-speech`
+- `settings.privacy.tasks-privacy` — Tasks privacy → `ms-settings:privacy-tasks`
+- `settings.privacy.videos-privacy` — Videos privacy → `ms-settings:privacy-videos`
+- `settings.privacy.voice-activation-privacy` — Voice activation privacy → `ms-settings:privacy-voiceactivation`
+- `settings.search.search` — Search → `ms-settings:search`
+- `settings.search.search-more-details` — Search more details → `ms-settings:search-moredetails`
+- `settings.search.search-permissions` — Search permissions → `ms-settings:search-permissions`
+- `settings.sound.volume-mixer` — Volume mixer → `ms-settings:apps-volume`
+- `settings.sound.sound` — Sound → `ms-settings:sound`
+- `settings.sound.sound-devices` — Sound devices → `ms-settings:sound-devices`
+- `settings.sound.default-microphone-properties` — Default microphone properties → `ms-settings:sound-defaultinputproperties`
+- `settings.sound.default-audio-output-properties` — Default audio output properties → `ms-settings:sound-defaultoutputproperties`
+- `settings.system.about` — About → `ms-settings:about`
+- `settings.system.advanced-display-settings` — Advanced display settings → `ms-settings:display-advanced`
+- `settings.system.battery-saver` — Battery Saver → `ms-settings:batterysaver`
+- `settings.system.battery-saver-settings` — Battery Saver settings → `ms-settings:batterysaver-settings`
+- `settings.system.battery-usage` — Battery usage → `ms-settings:batterysaver-usagedetails`
+- `settings.system.clipboard` — Clipboard → `ms-settings:clipboard`
+- `settings.system.default-save-locations` — Default save locations → `ms-settings:savelocations`
+- `settings.system.display` — Display → `ms-settings:display`
+- `settings.system.screen-rotation` — Screen rotation → `ms-settings:screenrotation`
+- `settings.system.display-duplication-quiet-mode` — Display duplication quiet mode → `ms-settings:quietmomentspresentation`
+- `settings.system.scheduled-quiet-hours` — Scheduled quiet hours → `ms-settings:quietmomentsscheduled`
+- `settings.system.device-encryption` — Device encryption → `ms-settings:deviceencryption`
+- `settings.system.energy-recommendations` — Energy recommendations → `ms-settings:energyrecommendations`
+- `settings.system.focus-assist` — Focus assist → `ms-settings:quiethours`
+- `settings.system.graphics-settings` — Graphics settings → `ms-settings:display-advancedgraphics`
+- `settings.system.graphics-default-settings` — Graphics default settings → `ms-settings:display-advancedgraphics-default`
+- `settings.system.multitasking` — Multitasking → `ms-settings:multitasking`
+- `settings.system.snap-groups-multitasking-update` — Snap groups / multitasking update → `ms-settings:multitasking-sgupdate`
+- `settings.system.night-light` — Night light → `ms-settings:nightlight`
+- `settings.system.projecting-to-this-pc` — Projecting to this PC → `ms-settings:project`
+- `settings.system.shared-experiences` — Shared experiences → `ms-settings:crossdevice`
+- `settings.system.notifications` — Notifications → `ms-settings:notifications`
+- `settings.system.remote-desktop` — Remote Desktop → `ms-settings:remotedesktop`
+- `settings.system.power-and-sleep` — Power & sleep → `ms-settings:powersleep`
+- `settings.system.presence-sensing` — Presence sensing → `ms-settings:presence`
+- `settings.system.storage` — Storage → `ms-settings:storagesense`
+- `settings.system.storage-sense` — Storage Sense → `ms-settings:storagepolicies`
+- `settings.system.storage-recommendations` — Storage recommendations → `ms-settings:storagerecommendations`
+- `settings.system.disks-and-volumes` — Disks & volumes → `ms-settings:disksandvolumes`
+- `settings.time-language.date-and-time` — Date & time → `ms-settings:dateandtime`
+- `settings.time-language.region-formatting` — Region formatting → `ms-settings:regionformatting`
+- `settings.time-language.keyboard` — Keyboard → `ms-settings:keyboard`
+- `settings.time-language.advanced-keyboard` — Advanced keyboard → `ms-settings:keyboard-advanced`
+- `settings.time-language.region-and-language` — Region & language → `ms-settings:regionlanguage`
+- `settings.time-language.speech` — Speech → `ms-settings:speech`
+- `settings.update-security.activation` — Activation → `ms-settings:activation`
+- `settings.update-security.delivery-optimization` — Delivery Optimization → `ms-settings:delivery-optimization`
+- `settings.update-security.delivery-optimization-activity` — Delivery Optimization activity → `ms-settings:delivery-optimization-activity`
+- `settings.update-security.delivery-optimization-advanced` — Delivery Optimization advanced → `ms-settings:delivery-optimization-advanced`
+- `settings.update-security.find-my-device` — Find My Device → `ms-settings:findmydevice`
+- `settings.update-security.for-developers` — For developers → `ms-settings:developers`
+- `settings.update-security.recovery` — Recovery → `ms-settings:recovery`
+- `settings.update-security.security-key-enrollment` — Security key enrollment → `ms-settings:signinoptions-launchsecuritykeyenrollment`
+- `settings.update-security.troubleshoot` — Troubleshoot → `ms-settings:troubleshoot`
+- `settings.update-security.windows-security` — Windows Security → `ms-settings:windowsdefender`
+- `settings.update-security.windows-insider-program` — Windows Insider Program → `ms-settings:windowsinsider`
+- `settings.update-security.windows-insider-opt-in` — Windows Insider opt-in → `ms-settings:windowsinsider-optin`
+- `settings.update-security.windows-update` — Windows Update → `ms-settings:windowsupdate`
+- `settings.update-security.windows-update-action` — Windows Update action → `ms-settings:windowsupdate-action`
+- `settings.update-security.windows-update-active-hours` — Windows Update active hours → `ms-settings:windowsupdate-activehours`
+- `settings.update-security.windows-update-advanced-options` — Windows Update advanced options → `ms-settings:windowsupdate-options`
+- `settings.update-security.windows-update-optional-updates` — Windows Update optional updates → `ms-settings:windowsupdate-optionalupdates`
+- `settings.update-security.windows-update-restart-options` — Windows Update restart options → `ms-settings:windowsupdate-restartoptions`
+- `settings.update-security.windows-update-seeker-on-demand` — Windows Update seeker on demand → `ms-settings:windowsupdate-seekerondemand`
+- `settings.update-security.windows-update-history` — Windows Update history → `ms-settings:windowsupdate-history`
+
+## controlpanel
+- `controlpanel.programs-and-features` — Programs and Features → `Microsoft.ProgramsAndFeatures`
+- `controlpanel.power-options` — Power Options → `Microsoft.PowerOptions`
+- `controlpanel.user-accounts` — User Accounts → `Microsoft.UserAccounts`
+- `controlpanel.windows-update` — Windows Update → `Microsoft.WindowsUpdate`
+- `controlpanel.windows-firewall` — Windows Firewall → `Microsoft.WindowsFirewall`
+- `controlpanel.windows-defender` — Windows Defender → `Microsoft.WindowsDefender`
+- `controlpanel.system` — System → `Microsoft.System`
+- `controlpanel.sound` — Sound → `Microsoft.Sound`
+- `controlpanel.region` — Region → `Microsoft.RegionAndLanguage`
+- `controlpanel.personalization` — Personalization → `Microsoft.Personalization`
+- `controlpanel.phone-and-modem` — Phone and Modem → `Microsoft.PhoneAndModem`
+- `controlpanel.recovery` — Recovery → `Microsoft.Recovery`
+- `controlpanel.remoteapp-and-desktop-connections` — RemoteApp and Desktop Connections → `Microsoft.RemoteAppAndDesktopConnections`
+- `controlpanel.speech-recognition` — Speech Recognition → `Microsoft.SpeechRecognition`
+- `controlpanel.storage-spaces` — Storage Spaces → `Microsoft.StorageSpaces`
+- `controlpanel.taskbar-and-navigation` — Taskbar and Navigation → `Microsoft.Taskbar`
+- `controlpanel.troubleshooting` — Troubleshooting → `Microsoft.Troubleshooting`
+- `controlpanel.pen-and-touch` — Pen and Touch → `Microsoft.PenAndTouch`
+- `controlpanel.work-folders` — Work Folders → `Microsoft.WorkFolders`
+
+## tool
+- `tool.task-manager` — Task Manager → `taskmgr.exe`
+- `tool.device-manager` — Device Manager → `devmgmt.msc`
+- `tool.services` — Services → `services.msc`
+- `tool.computer-management` — Computer Management → `compmgmt.msc`
+- `tool.disk-management` — Disk Management → `diskmgmt.msc`
+- `tool.event-viewer` — Event Viewer → `eventvwr.msc`
+- `tool.task-scheduler` — Task Scheduler → `taskschd.msc`
+- `tool.system-configuration` — System Configuration → `msconfig.exe`
+- `tool.registry-editor` — Registry Editor → `regedit.exe`
+- `tool.system-information` — System Information → `msinfo32.exe`
+- `tool.performance-monitor` — Performance Monitor → `perfmon.msc`
+- `tool.resource-monitor` — Resource Monitor → `resmon.exe`
+- `tool.local-security-policy` — Local Security Policy → `secpol.msc`
+- `tool.local-users-and-groups` — Local Users and Groups → `lusrmgr.msc`
+- `tool.group-policy-editor` — Group Policy Editor → `gpedit.msc`
+- `tool.windows-defender-firewall-with-advanced-security` — Windows Defender Firewall with Advanced Security → `wf.msc`
+- `tool.windows-memory-diagnostic` — Windows Memory Diagnostic → `mdsched.exe`
+- `tool.character-map` — Character Map → `charmap.exe`
+- `tool.directx-diagnostic-tool` — DirectX Diagnostic Tool → `dxdiag.exe`
+- `tool.odbc-data-sources` — ODBC Data Sources → `odbcad32.exe`
+- `tool.programs-and-features-classic` — Programs and Features classic → `appwiz.cpl`
+- `tool.mouse-properties` — Mouse Properties → `main.cpl`
+- `tool.internet-options` — Internet Options → `inetcpl.cpl`
+- `tool.sound-classic` — Sound classic → `mmsys.cpl`
+- `tool.date-and-time-classic` — Date and Time classic → `timedate.cpl`
+- `tool.display-adapter-advanced` — Display adapter advanced → `desk.cpl`
+- `tool.power-options-classic` — Power Options classic → `powercfg.cpl`
+- `tool.credential-manager-classic` — Credential Manager classic → `control.exe /name Microsoft.CredentialManager`
+- `tool.windows-tools` — Windows Tools → `explorer.exe shell:Administrative Tools`
+- `tool.bluetooth-file-transfer` — Bluetooth File Transfer → `fsquirt.exe`
+
+## folder
+- `folder.desktop` — Desktop → `shell:Desktop`
+- `folder.downloads` — Downloads → `shell:Downloads`
+- `folder.documents` — Documents → `shell:Personal`
+- `folder.pictures` — Pictures → `shell:My Pictures`
+- `folder.music` — Music → `shell:My Music`
+- `folder.videos` — Videos → `shell:My Video`
+- `folder.this-pc` — This PC → `shell:MyComputerFolder`
+- `folder.network` — Network → `shell:NetworkPlacesFolder`
+- `folder.recycle-bin` — Recycle Bin → `shell:RecycleBinFolder`
+- `folder.control-panel-home` — Control Panel home → `shell:ControlPanelFolder`
+- `folder.apps-folder` — Apps folder → `shell:AppsFolder`
+- `folder.startup-folder` — Startup folder → `shell:Startup`
+- `folder.programs-menu` — Programs menu → `shell:Programs`
+- `folder.sendto-folder` — SendTo folder → `shell:SendTo`
+- `folder.recent-items` — Recent items → `shell:Recent`

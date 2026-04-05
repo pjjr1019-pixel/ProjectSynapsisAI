@@ -1,0 +1,389 @@
+{
+  "aliases": [
+    {
+      "alias": "f1352231c74d0c14",
+      "aliasId": "hz.web.f1352231c74d0c14.alias.1",
+      "canonical": "pubsubhubbub.appspot.com"
+    },
+    {
+      "alias": "pubsubhubbub.appspot.com",
+      "aliasId": "hz.web.f1352231c74d0c14.alias.2",
+      "canonical": "pubsubhubbub.appspot.com"
+    },
+    {
+      "alias": "web f1352231c74d0c14",
+      "aliasId": "hz.web.f1352231c74d0c14.alias.3",
+      "canonical": "pubsubhubbub.appspot.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.f1352231c74d0c14",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f1352231c74d0c14.entity.1",
+      "kind": "document",
+      "name": "pubsubhubbub.appspot.com",
+      "tokens": [
+        "pubsubhubbub",
+        "appspot",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f1352231c74d0c14.entity.2",
+      "kind": "heading",
+      "name": "pubsubhubbub.appspot.com",
+      "tokens": [
+        "pubsubhubbub",
+        "appspot",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f1352231c74d0c14.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f1352231c74d0c14.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f1352231c74d0c14.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 69,
+      "charStart": 29,
+      "factId": "hz.web.f1352231c74d0c14.fact.1",
+      "kind": "summary",
+      "text": "Source: http://pubsubhubbub.appspot.com/",
+      "tokens": [
+        "source",
+        "http",
+        "pubsubhubbub",
+        "appspot",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 179,
+      "charStart": 121,
+      "factId": "hz.web.f1352231c74d0c14.fact.1",
+      "kind": "bullet",
+      "text": "PubSubHubbub Hub Welcome to the Google PubSubHubbub Hub!",
+      "tokens": [
+        "pubsubhubbub",
+        "hub",
+        "welcome",
+        "google",
+        "pubsubhubbub",
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 239,
+      "charStart": 180,
+      "factId": "hz.web.f1352231c74d0c14.fact.2",
+      "kind": "bullet",
+      "text": "This hub conforms to the Pubsubhubbub 0.4 specification .",
+      "tokens": [
+        "hub",
+        "conforms",
+        "pubsubhubbub",
+        "specification"
+      ]
+    },
+    {
+      "charEnd": 357,
+      "charStart": 240,
+      "factId": "hz.web.f1352231c74d0c14.fact.3",
+      "kind": "bullet",
+      "text": "In addition, this hub conforms to the Pubsubhubbub 0.3 specification with the exception of permanent subscriptions.",
+      "tokens": [
+        "addition",
+        "hub",
+        "conforms",
+        "pubsubhubbub",
+        "specification",
+        "exception",
+        "permanent",
+        "subscriptions"
+      ]
+    },
+    {
+      "charEnd": 526,
+      "charStart": 358,
+      "factId": "hz.web.f1352231c74d0c14.fact.4",
+      "kind": "bullet",
+      "text": "Because of this you will need to refresh each of your subscriptions periodically, ideally just before hub.lease_seconds elapse since the last successful subscription.",
+      "tokens": [
+        "because",
+        "will",
+        "need",
+        "refresh",
+        "each",
+        "your",
+        "subscriptions",
+        "periodically",
+        "ideally",
+        "just",
+        "before",
+        "hub",
+        "lease_seconds",
+        "elapse",
+        "since",
+        "last",
+        "successful",
+        "subscription"
+      ]
+    },
+    {
+      "charEnd": 546,
+      "charStart": 541,
+      "factId": "hz.web.f1352231c74d0c14.fact.5",
+      "kind": "bullet",
+      "text": "hub",
+      "tokens": [
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 553,
+      "charStart": 547,
+      "factId": "hz.web.f1352231c74d0c14.fact.6",
+      "kind": "bullet",
+      "text": "feed",
+      "tokens": [
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 568,
+      "charStart": 554,
+      "factId": "hz.web.f1352231c74d0c14.fact.7",
+      "kind": "bullet",
+      "text": "pubsubhubbub",
+      "tokens": [
+        "pubsubhubbub"
+      ]
+    },
+    {
+      "charEnd": 580,
+      "charStart": 569,
+      "factId": "hz.web.f1352231c74d0c14.fact.8",
+      "kind": "bullet",
+      "text": "attribute",
+      "tokens": [
+        "attribute"
+      ]
+    },
+    {
+      "charEnd": 586,
+      "charStart": 581,
+      "factId": "hz.web.f1352231c74d0c14.fact.9",
+      "kind": "bullet",
+      "text": "set",
+      "tokens": [
+        "set"
+      ]
+    },
+    {
+      "charEnd": 593,
+      "charStart": 587,
+      "factId": "hz.web.f1352231c74d0c14.fact.10",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 601,
+      "charStart": 594,
+      "factId": "hz.web.f1352231c74d0c14.fact.11",
+      "kind": "bullet",
+      "text": "feeds",
+      "tokens": [
+        "feeds"
+      ]
+    },
+    {
+      "charEnd": 608,
+      "charStart": 602,
+      "factId": "hz.web.f1352231c74d0c14.fact.12",
+      "kind": "bullet",
+      "text": "atom",
+      "tokens": [
+        "atom"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.f1352231c74d0c14.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "pubsubhubbub.appspot.com"
+    },
+    {
+      "charEnd": 119,
+      "charStart": 109,
+      "headingId": "hz.web.f1352231c74d0c14.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 539,
+      "charStart": 528,
+      "headingId": "hz.web.f1352231c74d0c14.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 620,
+      "charStart": 610,
+      "headingId": "hz.web.f1352231c74d0c14.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/f1352231c74d0c14.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2623,
+        "start": 0
+      }
+    ],
+    "hash": "90f5265e52fa7dd6db823b59640ba989c8d105da8edf6016e724875e66ae19df",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.f1352231c74d0c14.rule.1",
+      "text": "The //atom:link tag should have rel attribute set to hub and href attribute set to https://pubsubhubbub.appspot.com/ Alternatively, your feed can be served with two Link headers: one with rel attribute set to hub and href attribute set to https://pubsubhubbub.appspot.com/ one with rel attribute set to self and href attribute set to the feed URL of the feed The above is covered in more detail in the PubsubHubbub 0.4 specification .",
+      "tokens": [
+        "atom",
+        "link",
+        "tag",
+        "have",
+        "rel",
+        "attribute",
+        "set",
+        "hub",
+        "href",
+        "attribute",
+        "set",
+        "https",
+        "pubsubhubbub",
+        "appspot",
+        "com",
+        "alternatively",
+        "your",
+        "feed",
+        "served",
+        "two",
+        "link",
+        "headers",
+        "one",
+        "rel",
+        "attribute",
+        "set",
+        "hub",
+        "href",
+        "attribute",
+        "set",
+        "https",
+        "pubsubhubbub",
+        "appspot",
+        "com",
+        "one",
+        "rel",
+        "attribute",
+        "set",
+        "self",
+        "href",
+        "attribute",
+        "set",
+        "feed",
+        "url",
+        "feed",
+        "above",
+        "covered",
+        "more",
+        "detail",
+        "pubsubhubbub",
+        "specification"
+      ]
+    },
+    {
+      "ruleId": "hz.web.f1352231c74d0c14.rule.2",
+      "text": "If you don't want to agree to these terms you can use a different hub or even run your own.",
+      "tokens": [
+        "if",
+        "don",
+        "want",
+        "agree",
+        "these",
+        "terms",
+        "use",
+        "different",
+        "hub",
+        "even",
+        "run",
+        "your",
+        "own"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "PubSubHubbub Hub Welcome to the Google PubSubHubbub Hub!",
+      "This hub conforms to the Pubsubhubbub 0.4 specification .",
+      "In addition, this hub conforms to the Pubsubhubbub 0.3 specification with the exception of permanent subscriptions."
+    ],
+    "medium": "Source: http://pubsubhubbub.appspot.com/",
+    "short": "Source: http://pubsubhubbub.appspot.com/",
+    "tokens": [
+      "pubsubhubbub",
+      "appspot",
+      "com",
+      "source",
+      "http",
+      "pubsubhubbub",
+      "appspot",
+      "com",
+      "source",
+      "http",
+      "pubsubhubbub",
+      "appspot",
+      "com"
+    ]
+  },
+  "title": "pubsubhubbub.appspot.com"
+}

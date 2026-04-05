@@ -1,0 +1,400 @@
+{
+  "aliases": [
+    {
+      "alias": "0bcb039b255c88ba",
+      "aliasId": "hz.web.0bcb039b255c88ba.alias.1",
+      "canonical": "vimwiki by vimwiki"
+    },
+    {
+      "alias": "vimwiki by vimwiki",
+      "aliasId": "hz.web.0bcb039b255c88ba.alias.2",
+      "canonical": "vimwiki by vimwiki"
+    },
+    {
+      "alias": "web 0bcb039b255c88ba",
+      "aliasId": "hz.web.0bcb039b255c88ba.alias.3",
+      "canonical": "vimwiki by vimwiki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.7,
+  "docId": "hz.web.0bcb039b255c88ba",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0bcb039b255c88ba.entity.1",
+      "kind": "document",
+      "name": "Vimwiki by vimwiki",
+      "tokens": [
+        "vimwiki",
+        "vimwiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bcb039b255c88ba.entity.2",
+      "kind": "heading",
+      "name": "Vimwiki by vimwiki",
+      "tokens": [
+        "vimwiki",
+        "vimwiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bcb039b255c88ba.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bcb039b255c88ba.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bcb039b255c88ba.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 23,
+      "factId": "hz.web.0bcb039b255c88ba.fact.1",
+      "kind": "summary",
+      "text": "Source: http://vimwiki.github.io/",
+      "tokens": [
+        "source",
+        "http",
+        "vimwiki",
+        "github",
+        "io"
+      ]
+    },
+    {
+      "charEnd": 837,
+      "charStart": 108,
+      "factId": "hz.web.0bcb039b255c88ba.fact.1",
+      "kind": "bullet",
+      "text": "Vimwiki by vimwiki Vimwiki A personal wiki for Vim GitHub Profile Vimwiki is a personal wiki for Vim – interlinked, plain text files written in a markup language With Vimwiki you can organize notes and ideas and quickly create links between them manage todo-lists write a diary Features three markup syntaxes supported: Vimwiki's own syntax, Markdown, MediaWiki export everything to HTML link to other wiki pages and external files search through all wiki pages outline notes and tasks in indented lists quickly manipulate numbered and bulleted lists tag wiki pages or arbitrary places and quickly jump to tags auto-formatted tables Screenshots Quickstart Press &lt;Leader&gt;ww (this is usually \\ww ) to go to your index page.",
+      "tokens": [
+        "vimwiki",
+        "vimwiki",
+        "vimwiki",
+        "personal",
+        "wiki",
+        "vim",
+        "github",
+        "profile",
+        "vimwiki",
+        "personal",
+        "wiki",
+        "vim",
+        "interlinked",
+        "plain",
+        "text",
+        "files",
+        "written",
+        "markup",
+        "language",
+        "vimwiki",
+        "organize",
+        "notes",
+        "ideas",
+        "quickly",
+        "create",
+        "links",
+        "between",
+        "them",
+        "manage",
+        "todo",
+        "lists",
+        "write",
+        "diary",
+        "features",
+        "three",
+        "markup",
+        "syntaxes",
+        "supported",
+        "vimwiki",
+        "own",
+        "syntax",
+        "markdown",
+        "mediawiki",
+        "export",
+        "everything",
+        "html",
+        "link",
+        "other",
+        "wiki",
+        "pages",
+        "external",
+        "files",
+        "search",
+        "through",
+        "all",
+        "wiki",
+        "pages",
+        "outline",
+        "notes",
+        "tasks",
+        "indented",
+        "lists",
+        "quickly",
+        "manipulate",
+        "numbered",
+        "bulleted",
+        "lists",
+        "tag",
+        "wiki",
+        "pages",
+        "arbitrary",
+        "places",
+        "quickly",
+        "jump",
+        "tags",
+        "auto",
+        "formatted",
+        "tables",
+        "screenshots",
+        "quickstart",
+        "press",
+        "lt",
+        "leader",
+        "gt",
+        "ww",
+        "usually",
+        "ww",
+        "go",
+        "your",
+        "index",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 890,
+      "charStart": 838,
+      "factId": "hz.web.0bcb039b255c88ba.fact.2",
+      "kind": "bullet",
+      "text": "By default it is located in ~/vimwiki/index.wiki .",
+      "tokens": [
+        "default",
+        "located",
+        "vimwiki",
+        "index",
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 994,
+      "charStart": 891,
+      "factId": "hz.web.0bcb039b255c88ba.fact.3",
+      "kind": "bullet",
+      "text": "Feed it with the following example: = My knowledge base = * Tasks -- things to be done _yesterday_!!!",
+      "tokens": [
+        "feed",
+        "following",
+        "example",
+        "knowledge",
+        "base",
+        "tasks",
+        "things",
+        "done",
+        "_yesterday_"
+      ]
+    },
+    {
+      "charEnd": 1041,
+      "charStart": 995,
+      "factId": "hz.web.0bcb039b255c88ba.fact.4",
+      "kind": "bullet",
+      "text": "* Project Gutenberg -- good books are power.",
+      "tokens": [
+        "project",
+        "gutenberg",
+        "good",
+        "books",
+        "power"
+      ]
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1056,
+      "factId": "hz.web.0bcb039b255c88ba.fact.5",
+      "kind": "bullet",
+      "text": "vimwiki",
+      "tokens": [
+        "vimwiki"
+      ]
+    },
+    {
+      "charEnd": 1072,
+      "charStart": 1066,
+      "factId": "hz.web.0bcb039b255c88ba.fact.6",
+      "kind": "bullet",
+      "text": "wiki",
+      "tokens": [
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 1079,
+      "charStart": 1073,
+      "factId": "hz.web.0bcb039b255c88ba.fact.7",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 1084,
+      "charStart": 1080,
+      "factId": "hz.web.0bcb039b255c88ba.fact.8",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 1089,
+      "charStart": 1085,
+      "factId": "hz.web.0bcb039b255c88ba.fact.9",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 1096,
+      "charStart": 1090,
+      "factId": "hz.web.0bcb039b255c88ba.fact.10",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1102,
+      "charStart": 1097,
+      "factId": "hz.web.0bcb039b255c88ba.fact.11",
+      "kind": "bullet",
+      "text": "vim",
+      "tokens": [
+        "vim"
+      ]
+    },
+    {
+      "charEnd": 1110,
+      "charStart": 1103,
+      "factId": "hz.web.0bcb039b255c88ba.fact.12",
+      "kind": "bullet",
+      "text": "index",
+      "tokens": [
+        "index"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.0bcb039b255c88ba.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Vimwiki by vimwiki"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.0bcb039b255c88ba.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1054,
+      "charStart": 1043,
+      "headingId": "hz.web.0bcb039b255c88ba.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1122,
+      "charStart": 1112,
+      "headingId": "hz.web.0bcb039b255c88ba.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0bcb039b255c88ba.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4352,
+        "start": 0
+      }
+    ],
+    "hash": "1b9fb2b1e35e12625d8d7069e3698a8a1d8069aabe46e335db434ec369e386f4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.0bcb039b255c88ba.rule.1",
+      "text": "The result should look something like: = My knowledge base = * [[Tasks]] -- things to be done _yesterday_!!!",
+      "tokens": [
+        "result",
+        "look",
+        "something",
+        "like",
+        "knowledge",
+        "base",
+        "tasks",
+        "things",
+        "done",
+        "_yesterday_"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Vimwiki by vimwiki Vimwiki A personal wiki for Vim GitHub Profile Vimwiki is a personal wiki for Vim – interlinked, plain text files written in a markup language With Vimwiki you can organize notes and ideas and quickly create links between them manage todo-lists write a diary Features three markup syntaxes supported: Vimwiki's own syntax, Markdown, MediaWiki export everything to HTML link to other wiki pages and external files search through all wiki pages outline notes and tasks in indented lists quickly manipulate numbered and bulleted lists tag wiki pages or arbitrary places and quickly jump to tags auto-formatted tables Screenshots Quickstart Press &lt;Leader&gt;ww (this is usually \\ww ) to go to your index page.",
+      "By default it is located in ~/vimwiki/index.wiki .",
+      "Feed it with the following example: = My knowledge base = * Tasks -- things to be done _yesterday_!!!"
+    ],
+    "medium": "Source: http://vimwiki.github.io/",
+    "short": "Source: http://vimwiki.github.io/",
+    "tokens": [
+      "vimwiki",
+      "vimwiki",
+      "source",
+      "http",
+      "vimwiki",
+      "github",
+      "io",
+      "source",
+      "http",
+      "vimwiki",
+      "github",
+      "io"
+    ]
+  },
+  "title": "Vimwiki by vimwiki"
+}

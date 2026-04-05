@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "78280b048a8bab7d",
+      "aliasId": "hz.web.78280b048a8bab7d.alias.1",
+      "canonical": "datatables | javascript table library"
+    },
+    {
+      "alias": "datatables javascript table library",
+      "aliasId": "hz.web.78280b048a8bab7d.alias.2",
+      "canonical": "datatables | javascript table library"
+    },
+    {
+      "alias": "web 78280b048a8bab7d",
+      "aliasId": "hz.web.78280b048a8bab7d.alias.3",
+      "canonical": "datatables | javascript table library"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.78280b048a8bab7d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.78280b048a8bab7d.entity.1",
+      "kind": "document",
+      "name": "DataTables | Javascript table library",
+      "tokens": [
+        "datatables",
+        "javascript",
+        "table",
+        "library"
+      ]
+    },
+    {
+      "entityId": "hz.web.78280b048a8bab7d.entity.2",
+      "kind": "heading",
+      "name": "DataTables | Javascript table library",
+      "tokens": [
+        "datatables",
+        "javascript",
+        "table",
+        "library"
+      ]
+    },
+    {
+      "entityId": "hz.web.78280b048a8bab7d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.78280b048a8bab7d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.78280b048a8bab7d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 42,
+      "factId": "hz.web.78280b048a8bab7d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://datatables.net/",
+      "tokens": [
+        "source",
+        "https",
+        "datatables",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 222,
+      "charStart": 125,
+      "factId": "hz.web.78280b048a8bab7d.fact.1",
+      "kind": "bullet",
+      "text": "DataTables | Javascript table library DataTables Advanced interaction features for your tables.",
+      "tokens": [
+        "datatables",
+        "javascript",
+        "table",
+        "library",
+        "datatables",
+        "advanced",
+        "interaction",
+        "features",
+        "your",
+        "tables"
+      ]
+    },
+    {
+      "charEnd": 277,
+      "charStart": 223,
+      "factId": "hz.web.78280b048a8bab7d.fact.2",
+      "kind": "bullet",
+      "text": "Editor Comprehensive editing library for DataTables.",
+      "tokens": [
+        "editor",
+        "comprehensive",
+        "editing",
+        "library",
+        "datatables"
+      ]
+    },
+    {
+      "charEnd": 305,
+      "charStart": 278,
+      "factId": "hz.web.78280b048a8bab7d.fact.3",
+      "kind": "bullet",
+      "text": "Manual Download Search...",
+      "tokens": [
+        "manual",
+        "download",
+        "search"
+      ]
+    },
+    {
+      "charEnd": 731,
+      "charStart": 306,
+      "factId": "hz.web.78280b048a8bab7d.fact.4",
+      "kind": "bullet",
+      "text": "Advanced interactive data grid for your HTML tables Browser NPM 1 Include these two files CSS JS 2 Initialise your DataTable: let table = new DataTable('#myTable'); 1 Install DataTables npm install datatables.net-dt 2 Import DataTables and initialise import DataTable from 'datatables.net-dt'; let table = new DataTable('#myTable'); 3 You get a fully interactive table This table makes use of Responsive and ColumnControl .",
+      "tokens": [
+        "advanced",
+        "interactive",
+        "data",
+        "grid",
+        "your",
+        "html",
+        "tables",
+        "browser",
+        "npm",
+        "include",
+        "these",
+        "two",
+        "files",
+        "css",
+        "js",
+        "initialise",
+        "your",
+        "datatable",
+        "let",
+        "table",
+        "new",
+        "datatable",
+        "mytable",
+        "install",
+        "datatables",
+        "npm",
+        "install",
+        "datatables",
+        "net",
+        "dt",
+        "import",
+        "datatables",
+        "initialise",
+        "import",
+        "datatable",
+        "datatables",
+        "net",
+        "dt",
+        "let",
+        "table",
+        "new",
+        "datatable",
+        "mytable",
+        "get",
+        "fully",
+        "interactive",
+        "table",
+        "table",
+        "makes",
+        "use",
+        "responsive",
+        "columncontrol"
+      ]
+    },
+    {
+      "charEnd": 758,
+      "charStart": 746,
+      "factId": "hz.web.78280b048a8bab7d.fact.5",
+      "kind": "bullet",
+      "text": "datatables",
+      "tokens": [
+        "datatables"
+      ]
+    },
+    {
+      "charEnd": 764,
+      "charStart": 759,
+      "factId": "hz.web.78280b048a8bab7d.fact.6",
+      "kind": "bullet",
+      "text": "000",
+      "tokens": [
+        "000"
+      ]
+    },
+    {
+      "charEnd": 771,
+      "charStart": 765,
+      "factId": "hz.web.78280b048a8bab7d.fact.7",
+      "kind": "bullet",
+      "text": "2011",
+      "tokens": [
+        "2011"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 772,
+      "factId": "hz.web.78280b048a8bab7d.fact.8",
+      "kind": "bullet",
+      "text": "500",
+      "tokens": [
+        "500"
+      ]
+    },
+    {
+      "charEnd": 789,
+      "charStart": 778,
+      "factId": "hz.web.78280b048a8bab7d.fact.9",
+      "kind": "bullet",
+      "text": "francisco",
+      "tokens": [
+        "francisco"
+      ]
+    },
+    {
+      "charEnd": 795,
+      "charStart": 790,
+      "factId": "hz.web.78280b048a8bab7d.fact.10",
+      "kind": "bullet",
+      "text": "new",
+      "tokens": [
+        "new"
+      ]
+    },
+    {
+      "charEnd": 801,
+      "charStart": 796,
+      "factId": "hz.web.78280b048a8bab7d.fact.11",
+      "kind": "bullet",
+      "text": "san",
+      "tokens": [
+        "san"
+      ]
+    },
+    {
+      "charEnd": 806,
+      "charStart": 802,
+      "factId": "hz.web.78280b048a8bab7d.fact.12",
+      "kind": "bullet",
+      "text": "12",
+      "tokens": [
+        "12"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 40,
+      "charStart": 1,
+      "headingId": "hz.web.78280b048a8bab7d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "DataTables | Javascript table library"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.78280b048a8bab7d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 744,
+      "charStart": 733,
+      "headingId": "hz.web.78280b048a8bab7d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 818,
+      "charStart": 808,
+      "headingId": "hz.web.78280b048a8bab7d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/78280b048a8bab7d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4065,
+        "start": 0
+      }
+    ],
+    "hash": "54ddd182864af8657385865584fa34ff445f3dee18894e9df78852d3833f7503",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "DataTables | Javascript table library DataTables Advanced interaction features for your tables.",
+      "Editor Comprehensive editing library for DataTables.",
+      "Manual Download Search..."
+    ],
+    "medium": "Source: https://datatables.net/",
+    "short": "Source: https://datatables.net/",
+    "tokens": [
+      "datatables",
+      "javascript",
+      "table",
+      "library",
+      "source",
+      "https",
+      "datatables",
+      "net",
+      "source",
+      "https",
+      "datatables",
+      "net"
+    ]
+  },
+  "title": "DataTables | Javascript table library"
+}

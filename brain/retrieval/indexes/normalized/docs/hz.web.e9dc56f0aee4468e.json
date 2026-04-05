@@ -1,0 +1,365 @@
+{
+  "aliases": [
+    {
+      "alias": "e9dc56f0aee4468e",
+      "aliasId": "hz.web.e9dc56f0aee4468e.alias.1",
+      "canonical": "hulpsentrum"
+    },
+    {
+      "alias": "hulpsentrum",
+      "aliasId": "hz.web.e9dc56f0aee4468e.alias.2",
+      "canonical": "hulpsentrum"
+    },
+    {
+      "alias": "web e9dc56f0aee4468e",
+      "aliasId": "hz.web.e9dc56f0aee4468e.alias.3",
+      "canonical": "hulpsentrum"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.78,
+  "docId": "hz.web.e9dc56f0aee4468e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e9dc56f0aee4468e.entity.1",
+      "kind": "document",
+      "name": "Hulpsentrum",
+      "tokens": [
+        "hulpsentrum"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9dc56f0aee4468e.entity.2",
+      "kind": "heading",
+      "name": "Hulpsentrum",
+      "tokens": [
+        "hulpsentrum"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9dc56f0aee4468e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9dc56f0aee4468e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e9dc56f0aee4468e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 16,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://m.facebook.com/help/297947214257999?locale2=af_ZA",
+      "tokens": [
+        "source",
+        "https",
+        "facebook",
+        "com",
+        "help",
+        "297947214257999",
+        "locale2",
+        "af_za"
+      ]
+    },
+    {
+      "charEnd": 203,
+      "charStart": 133,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.1",
+      "kind": "bullet",
+      "text": "Hulpsentrum &lt; Hulpsentrum Wil jy by Facebook aanmeld of aansluit?",
+      "tokens": [
+        "hulpsentrum",
+        "lt",
+        "hulpsentrum",
+        "wil",
+        "jy",
+        "facebook",
+        "aanmeld",
+        "aansluit"
+      ]
+    },
+    {
+      "charEnd": 458,
+      "charStart": 204,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.2",
+      "kind": "bullet",
+      "text": "Sluit aan of Meld aan Hoe Facebook die e-posadres of selfoonnommer op jou rekening gebruik Hoe ons jou e-posadres of selfoonnommer gebruik Ons kan jou e-posadres of selfoonnommer gebruik vir doeleindes soos die volgende: Om jou te help om aan te meld .",
+      "tokens": [
+        "sluit",
+        "aan",
+        "meld",
+        "aan",
+        "hoe",
+        "facebook",
+        "die",
+        "posadres",
+        "selfoonnommer",
+        "op",
+        "jou",
+        "rekening",
+        "gebruik",
+        "hoe",
+        "ons",
+        "jou",
+        "posadres",
+        "selfoonnommer",
+        "gebruik",
+        "ons",
+        "kan",
+        "jou",
+        "posadres",
+        "selfoonnommer",
+        "gebruik",
+        "vir",
+        "doeleindes",
+        "soos",
+        "die",
+        "volgende",
+        "om",
+        "jou",
+        "te",
+        "help",
+        "om",
+        "aan",
+        "te",
+        "meld"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 459,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.3",
+      "kind": "bullet",
+      "text": "As jy jou wagwoord vergeet, het jy ’n opgedateerde selfoonnommer of e-posadres nodig om dit terug te stel.",
+      "tokens": [
+        "jy",
+        "jou",
+        "wagwoord",
+        "vergeet",
+        "het",
+        "jy",
+        "opgedateerde",
+        "selfoonnommer",
+        "posadres",
+        "nodig",
+        "om",
+        "dit",
+        "terug",
+        "te",
+        "stel"
+      ]
+    },
+    {
+      "charEnd": 727,
+      "charStart": 568,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.4",
+      "kind": "bullet",
+      "text": "As jy die e-posadres of foonnommer vergeet wat met jou rekening geassosieer word of toegang daartoe verloor , kan jy een gebruik om die ander een op te soek.",
+      "tokens": [
+        "jy",
+        "die",
+        "posadres",
+        "foonnommer",
+        "vergeet",
+        "wat",
+        "met",
+        "jou",
+        "rekening",
+        "geassosieer",
+        "word",
+        "toegang",
+        "daartoe",
+        "verloor",
+        "kan",
+        "jy",
+        "een",
+        "gebruik",
+        "om",
+        "die",
+        "ander",
+        "een",
+        "op",
+        "te",
+        "soek"
+      ]
+    },
+    {
+      "charEnd": 747,
+      "charStart": 742,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.5",
+      "kind": "bullet",
+      "text": "jou",
+      "tokens": [
+        "jou"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 748,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.6",
+      "kind": "bullet",
+      "text": "ons",
+      "tokens": [
+        "ons"
+      ]
+    },
+    {
+      "charEnd": 758,
+      "charStart": 754,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.7",
+      "kind": "bullet",
+      "text": "te",
+      "tokens": [
+        "te"
+      ]
+    },
+    {
+      "charEnd": 763,
+      "charStart": 759,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.8",
+      "kind": "bullet",
+      "text": "jy",
+      "tokens": [
+        "jy"
+      ]
+    },
+    {
+      "charEnd": 768,
+      "charStart": 764,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.9",
+      "kind": "bullet",
+      "text": "om",
+      "tokens": [
+        "om"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 769,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.10",
+      "kind": "bullet",
+      "text": "posadres",
+      "tokens": [
+        "posadres"
+      ]
+    },
+    {
+      "charEnd": 790,
+      "charStart": 780,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.11",
+      "kind": "bullet",
+      "text": "facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "charEnd": 806,
+      "charStart": 791,
+      "factId": "hz.web.e9dc56f0aee4468e.fact.12",
+      "kind": "bullet",
+      "text": "selfoonnommer",
+      "tokens": [
+        "selfoonnommer"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.e9dc56f0aee4468e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Hulpsentrum"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.e9dc56f0aee4468e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 740,
+      "charStart": 729,
+      "headingId": "hz.web.e9dc56f0aee4468e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 818,
+      "charStart": 808,
+      "headingId": "hz.web.e9dc56f0aee4468e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e9dc56f0aee4468e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4073,
+        "start": 0
+      }
+    ],
+    "hash": "384ee5e03bea7016b2af90a693acd1b245ca291ceec88c4707fe37b223bcfc46",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Hulpsentrum &lt; Hulpsentrum Wil jy by Facebook aanmeld of aansluit?",
+      "Sluit aan of Meld aan Hoe Facebook die e-posadres of selfoonnommer op jou rekening gebruik Hoe ons jou e-posadres of selfoonnommer gebruik Ons kan jou e-posadres of selfoonnommer gebruik vir doeleindes soos die volgende: Om jou te help om aan te meld .",
+      "As jy jou wagwoord vergeet, het jy ’n opgedateerde selfoonnommer of e-posadres nodig om dit terug te stel."
+    ],
+    "medium": "Source: https://m.facebook.com/help/297947214257999?locale2=af_ZA",
+    "short": "Source: https://m.facebook.com/help/297947214257999?locale2=af_ZA",
+    "tokens": [
+      "hulpsentrum",
+      "source",
+      "https",
+      "facebook",
+      "com",
+      "help",
+      "297947214257999",
+      "locale2",
+      "af_za",
+      "source",
+      "https",
+      "facebook",
+      "com",
+      "help",
+      "297947214257999",
+      "locale2",
+      "af_za"
+    ]
+  },
+  "title": "Hulpsentrum"
+}

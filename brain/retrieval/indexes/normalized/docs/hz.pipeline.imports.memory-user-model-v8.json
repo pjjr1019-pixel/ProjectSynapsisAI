@@ -1,0 +1,183 @@
+{
+  "aliases": [
+    {
+      "alias": "import pack memory and user model v8",
+      "aliasId": "hz.pipeline.imports.memory-user-model-v8.alias.1",
+      "canonical": "import pack — memory and user model v8"
+    },
+    {
+      "alias": "imports memory-user-model-v8",
+      "aliasId": "hz.pipeline.imports.memory-user-model-v8.alias.2",
+      "canonical": "import pack — memory and user model v8"
+    },
+    {
+      "alias": "memory user model v8",
+      "aliasId": "hz.pipeline.imports.memory-user-model-v8.alias.3",
+      "canonical": "import pack — memory and user model v8"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.memory-user-model-v8",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.memory-user-model-v8.entity.1",
+      "kind": "document",
+      "name": "Import pack — Memory and User Model v8",
+      "tokens": [
+        "import",
+        "pack",
+        "memory",
+        "user",
+        "model",
+        "v8"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.memory-user-model-v8.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.memory-user-model-v8.entity.3",
+      "kind": "tag",
+      "name": "memory",
+      "tokens": [
+        "memory"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.memory-user-model-v8.entity.4",
+      "kind": "tag",
+      "name": "user-model",
+      "tokens": [
+        "user",
+        "model"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.memory-user-model-v8.entity.5",
+      "kind": "tag",
+      "name": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.memory-user-model-v8.entity.6",
+      "kind": "tag",
+      "name": "snapshots",
+      "tokens": [
+        "snapshots"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.memory-user-model-v8.entity.7",
+      "kind": "heading",
+      "name": "Memory and user model v8 (import anchor)",
+      "tokens": [
+        "memory",
+        "user",
+        "model",
+        "v8",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 155,
+      "charStart": 48,
+      "factId": "hz.pipeline.imports.memory-user-model-v8.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_brain_memoryusermodel_v8",
+        "horizonsai_brain_memoryusermodel_v8",
+        "readme",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 43,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.memory-user-model-v8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Memory and user model v8 (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/memory-user-model-v8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 787,
+        "start": 0
+      }
+    ],
+    "hash": "effc8a7002d3543db7093eaaa08a195611ff73f0ef60b57008b3825d4b568a69",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Brain_MemoryUserModel_v8/`",
+      "relationId": "hz.pipeline.imports.memory-user-model-v8.relation.1",
+      "sourceDocId": "hz.pipeline.imports.memory-user-model-v8",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_MemoryUserModel_v8/README.md",
+      "type": "references"
+    },
+    {
+      "label": "`manifest.json`",
+      "relationId": "hz.pipeline.imports.memory-user-model-v8.relation.2",
+      "sourceDocId": "hz.pipeline.imports.memory-user-model-v8",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_MemoryUserModel_v8/manifest.json",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.memory-user-model-v8.relation.3",
+      "sourceDocId": "hz.pipeline.imports.memory-user-model-v8",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)",
+    "short": "**Source tree:** [`HorizonsAI_Brain_MemoryUserModel_v8/`](../HorizonsAI_Brain_MemoryUserModel_v8/README.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "memory",
+      "user",
+      "model",
+      "v8",
+      "source",
+      "tree",
+      "horizonsai_brain_memoryusermodel_v8",
+      "horizonsai_brain_memoryusermodel_v8",
+      "readme",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_brain_memoryusermodel_v8",
+      "horizonsai_brain_memoryusermodel_v8",
+      "readme",
+      "md"
+    ]
+  },
+  "title": "Import pack — Memory and User Model v8"
+}

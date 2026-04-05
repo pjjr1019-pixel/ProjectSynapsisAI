@@ -1,0 +1,352 @@
+{
+  "aliases": [
+    {
+      "alias": "2ad8f4fba7ab0ea7",
+      "aliasId": "hz.web.2ad8f4fba7ab0ea7.alias.1",
+      "canonical": "manton reece"
+    },
+    {
+      "alias": "manton reece",
+      "aliasId": "hz.web.2ad8f4fba7ab0ea7.alias.2",
+      "canonical": "manton reece"
+    },
+    {
+      "alias": "web 2ad8f4fba7ab0ea7",
+      "aliasId": "hz.web.2ad8f4fba7ab0ea7.alias.3",
+      "canonical": "manton reece"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.84,
+  "docId": "hz.web.2ad8f4fba7ab0ea7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2ad8f4fba7ab0ea7.entity.1",
+      "kind": "document",
+      "name": "Manton Reece",
+      "tokens": [
+        "manton",
+        "reece"
+      ]
+    },
+    {
+      "entityId": "hz.web.2ad8f4fba7ab0ea7.entity.2",
+      "kind": "heading",
+      "name": "Manton Reece",
+      "tokens": [
+        "manton",
+        "reece"
+      ]
+    },
+    {
+      "entityId": "hz.web.2ad8f4fba7ab0ea7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2ad8f4fba7ab0ea7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2ad8f4fba7ab0ea7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 48,
+      "charStart": 17,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.manton.org/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "manton",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 275,
+      "charStart": 100,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.1",
+      "kind": "bullet",
+      "text": "Manton Reece Manton Reece About Photos Videos Archive 30 days 90 parks Reading Search Also on Micro.blog This is a clever plugin from OpenAI to run Codex inside Claude Code.",
+      "tokens": [
+        "manton",
+        "reece",
+        "manton",
+        "reece",
+        "about",
+        "photos",
+        "videos",
+        "archive",
+        "30",
+        "days",
+        "90",
+        "parks",
+        "reading",
+        "search",
+        "also",
+        "micro",
+        "blog",
+        "clever",
+        "plugin",
+        "openai",
+        "run",
+        "codex",
+        "inside",
+        "claude",
+        "code"
+      ]
+    },
+    {
+      "charEnd": 430,
+      "charStart": 276,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.2",
+      "kind": "bullet",
+      "text": "It’s convenient for people who use both tools, but it’ll also help sell Codex when it finds some improvement in whatever implementation Claude proposed.",
+      "tokens": [
+        "convenient",
+        "people",
+        "use",
+        "both",
+        "tools",
+        "but",
+        "ll",
+        "also",
+        "help",
+        "sell",
+        "codex",
+        "finds",
+        "some",
+        "improvement",
+        "whatever",
+        "implementation",
+        "claude",
+        "proposed"
+      ]
+    },
+    {
+      "charEnd": 469,
+      "charStart": 431,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.3",
+      "kind": "bullet",
+      "text": "Models reviewing other models’ work.",
+      "tokens": [
+        "models",
+        "reviewing",
+        "other",
+        "models",
+        "work"
+      ]
+    },
+    {
+      "charEnd": 558,
+      "charStart": 470,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.4",
+      "kind": "bullet",
+      "text": "→ 10:09 PM, Mar 30 Also on Bluesky Went on a wonderful guided tour of Cartagena today.",
+      "tokens": [
+        "10",
+        "09",
+        "pm",
+        "mar",
+        "30",
+        "also",
+        "bluesky",
+        "went",
+        "wonderful",
+        "guided",
+        "tour",
+        "cartagena",
+        "today"
+      ]
+    },
+    {
+      "charEnd": 579,
+      "charStart": 573,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.5",
+      "kind": "bullet",
+      "text": "also",
+      "tokens": [
+        "also"
+      ]
+    },
+    {
+      "charEnd": 589,
+      "charStart": 580,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.6",
+      "kind": "bullet",
+      "text": "bluesky",
+      "tokens": [
+        "bluesky"
+      ]
+    },
+    {
+      "charEnd": 595,
+      "charStart": 590,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.7",
+      "kind": "bullet",
+      "text": "mar",
+      "tokens": [
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 600,
+      "charStart": 596,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.8",
+      "kind": "bullet",
+      "text": "pm",
+      "tokens": [
+        "pm"
+      ]
+    },
+    {
+      "charEnd": 605,
+      "charStart": 601,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.9",
+      "kind": "bullet",
+      "text": "30",
+      "tokens": [
+        "30"
+      ]
+    },
+    {
+      "charEnd": 611,
+      "charStart": 606,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.10",
+      "kind": "bullet",
+      "text": "but",
+      "tokens": [
+        "but"
+      ]
+    },
+    {
+      "charEnd": 616,
+      "charStart": 612,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.11",
+      "kind": "bullet",
+      "text": "10",
+      "tokens": [
+        "10"
+      ]
+    },
+    {
+      "charEnd": 621,
+      "charStart": 617,
+      "factId": "hz.web.2ad8f4fba7ab0ea7.fact.12",
+      "kind": "bullet",
+      "text": "29",
+      "tokens": [
+        "29"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.2ad8f4fba7ab0ea7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Manton Reece"
+    },
+    {
+      "charEnd": 98,
+      "charStart": 88,
+      "headingId": "hz.web.2ad8f4fba7ab0ea7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 571,
+      "charStart": 560,
+      "headingId": "hz.web.2ad8f4fba7ab0ea7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 633,
+      "charStart": 623,
+      "headingId": "hz.web.2ad8f4fba7ab0ea7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2ad8f4fba7ab0ea7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3826,
+        "start": 0
+      }
+    ],
+    "hash": "038fadda084090eba21ce30015f255fdcc83ccaac9bbe764d839ea19c2ef3298",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.2ad8f4fba7ab0ea7.rule.1",
+      "text": "There is always someone who is just a bit too grumpy to appreciate that actually everything is amazing .",
+      "tokens": [
+        "there",
+        "always",
+        "someone",
+        "just",
+        "bit",
+        "too",
+        "grumpy",
+        "appreciate",
+        "actually",
+        "everything",
+        "amazing"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Manton Reece Manton Reece About Photos Videos Archive 30 days 90 parks Reading Search Also on Micro.blog This is a clever plugin from OpenAI to run Codex inside Claude Code.",
+      "It’s convenient for people who use both tools, but it’ll also help sell Codex when it finds some improvement in whatever implementation Claude proposed.",
+      "Models reviewing other models’ work."
+    ],
+    "medium": "Source: https://www.manton.org/",
+    "short": "Source: https://www.manton.org/",
+    "tokens": [
+      "manton",
+      "reece",
+      "source",
+      "https",
+      "www",
+      "manton",
+      "org",
+      "source",
+      "https",
+      "www",
+      "manton",
+      "org"
+    ]
+  },
+  "title": "Manton Reece"
+}

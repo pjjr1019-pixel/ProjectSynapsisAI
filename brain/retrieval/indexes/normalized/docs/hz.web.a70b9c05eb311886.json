@@ -1,0 +1,385 @@
+{
+  "aliases": [
+    {
+      "alias": "a70b9c05eb311886",
+      "aliasId": "hz.web.a70b9c05eb311886.alias.1",
+      "canonical": "code.flickr.com"
+    },
+    {
+      "alias": "code.flickr.com",
+      "aliasId": "hz.web.a70b9c05eb311886.alias.2",
+      "canonical": "code.flickr.com"
+    },
+    {
+      "alias": "web a70b9c05eb311886",
+      "aliasId": "hz.web.a70b9c05eb311886.alias.3",
+      "canonical": "code.flickr.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.a70b9c05eb311886",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a70b9c05eb311886.entity.1",
+      "kind": "document",
+      "name": "code.flickr.com",
+      "tokens": [
+        "code",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70b9c05eb311886.entity.2",
+      "kind": "heading",
+      "name": "code.flickr.com",
+      "tokens": [
+        "code",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70b9c05eb311886.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70b9c05eb311886.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70b9c05eb311886.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 20,
+      "factId": "hz.web.a70b9c05eb311886.fact.1",
+      "kind": "summary",
+      "text": "Source: https://code.flickr.net/",
+      "tokens": [
+        "source",
+        "https",
+        "code",
+        "flickr",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 104,
+      "factId": "hz.web.a70b9c05eb311886.fact.1",
+      "kind": "bullet",
+      "text": "code.flickr.com Skip to primary content Skip to secondary content code.flickr.com Search Main menu Flickr Flickr Blog @flickr @flickrapi Developer Guidelines API Jobs Post navigation &larr; Older posts Safer Internet Day and Open Source Codes of Conduct Posted on February 14, 2022 by Sarah Graywood Last week the world celebrated Safer Internet Day , a day used to call upon stakeholders to join together to make the internet a safer and better place for all, and especially for children and young people.",
+      "tokens": [
+        "code",
+        "flickr",
+        "com",
+        "skip",
+        "primary",
+        "content",
+        "skip",
+        "secondary",
+        "content",
+        "code",
+        "flickr",
+        "com",
+        "search",
+        "main",
+        "menu",
+        "flickr",
+        "flickr",
+        "blog",
+        "flickr",
+        "flickrapi",
+        "developer",
+        "guidelines",
+        "api",
+        "jobs",
+        "post",
+        "navigation",
+        "larr",
+        "older",
+        "posts",
+        "safer",
+        "internet",
+        "day",
+        "open",
+        "source",
+        "codes",
+        "conduct",
+        "posted",
+        "february",
+        "14",
+        "2022",
+        "sarah",
+        "graywood",
+        "last",
+        "week",
+        "world",
+        "celebrated",
+        "safer",
+        "internet",
+        "day",
+        "day",
+        "used",
+        "call",
+        "upon",
+        "stakeholders",
+        "join",
+        "together",
+        "make",
+        "internet",
+        "safer",
+        "better",
+        "place",
+        "all",
+        "especially",
+        "children",
+        "young",
+        "people"
+      ]
+    },
+    {
+      "charEnd": 789,
+      "charStart": 613,
+      "factId": "hz.web.a70b9c05eb311886.fact.2",
+      "kind": "bullet",
+      "text": "Here at Flickr, we believe in creating spaces on the internet that take into account the safety of all of our contributors, especially our youngest and most underrepresented.",
+      "tokens": [
+        "here",
+        "flickr",
+        "believe",
+        "creating",
+        "spaces",
+        "internet",
+        "take",
+        "into",
+        "account",
+        "safety",
+        "all",
+        "our",
+        "contributors",
+        "especially",
+        "our",
+        "youngest",
+        "most",
+        "underrepresented"
+      ]
+    },
+    {
+      "charEnd": 984,
+      "charStart": 790,
+      "factId": "hz.web.a70b9c05eb311886.fact.3",
+      "kind": "bullet",
+      "text": "So, to celebrate that and to continue the work of making our spaces safer and more accessible to all, we have added a code of conduct to our most trafficked open source repositories on GitHub.",
+      "tokens": [
+        "so",
+        "celebrate",
+        "continue",
+        "work",
+        "making",
+        "our",
+        "spaces",
+        "safer",
+        "more",
+        "accessible",
+        "all",
+        "have",
+        "added",
+        "code",
+        "conduct",
+        "our",
+        "most",
+        "trafficked",
+        "open",
+        "source",
+        "repositories",
+        "github"
+      ]
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 985,
+      "factId": "hz.web.a70b9c05eb311886.fact.4",
+      "kind": "bullet",
+      "text": "What’s/Why Open Source?",
+      "tokens": [
+        "why",
+        "open",
+        "source"
+      ]
+    },
+    {
+      "charEnd": 1030,
+      "charStart": 1025,
+      "factId": "hz.web.a70b9c05eb311886.fact.5",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 1039,
+      "charStart": 1031,
+      "factId": "hz.web.a70b9c05eb311886.fact.6",
+      "kind": "bullet",
+      "text": "flickr",
+      "tokens": [
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 1047,
+      "charStart": 1040,
+      "factId": "hz.web.a70b9c05eb311886.fact.7",
+      "kind": "bullet",
+      "text": "akita",
+      "tokens": [
+        "akita"
+      ]
+    },
+    {
+      "charEnd": 1054,
+      "charStart": 1048,
+      "factId": "hz.web.a70b9c05eb311886.fact.8",
+      "kind": "bullet",
+      "text": "code",
+      "tokens": [
+        "code"
+      ]
+    },
+    {
+      "charEnd": 1060,
+      "charStart": 1055,
+      "factId": "hz.web.a70b9c05eb311886.fact.9",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 1067,
+      "charStart": 1061,
+      "factId": "hz.web.a70b9c05eb311886.fact.10",
+      "kind": "bullet",
+      "text": "open",
+      "tokens": [
+        "open"
+      ]
+    },
+    {
+      "charEnd": 1076,
+      "charStart": 1068,
+      "factId": "hz.web.a70b9c05eb311886.fact.11",
+      "kind": "bullet",
+      "text": "source",
+      "tokens": [
+        "source"
+      ]
+    },
+    {
+      "charEnd": 1082,
+      "charStart": 1077,
+      "factId": "hz.web.a70b9c05eb311886.fact.12",
+      "kind": "bullet",
+      "text": "but",
+      "tokens": [
+        "but"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.a70b9c05eb311886.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "code.flickr.com"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.a70b9c05eb311886.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1023,
+      "charStart": 1012,
+      "headingId": "hz.web.a70b9c05eb311886.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1094,
+      "charStart": 1084,
+      "headingId": "hz.web.a70b9c05eb311886.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a70b9c05eb311886.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4320,
+        "start": 0
+      }
+    ],
+    "hash": "5124f4521e0266a6b2d097346ac560b80793f45e5852da775f12236efb0ce79a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "code.flickr.com Skip to primary content Skip to secondary content code.flickr.com Search Main menu Flickr Flickr Blog @flickr @flickrapi Developer Guidelines API Jobs Post navigation &larr; Older posts Safer Internet Day and Open Source Codes of Conduct Posted on February 14, 2022 by Sarah Graywood Last week the world celebrated Safer Internet Day , a day used to call upon stakeholders to join together to make the internet a safer and better place for all, and especially for children and young people.",
+      "Here at Flickr, we believe in creating spaces on the internet that take into account the safety of all of our contributors, especially our youngest and most underrepresented.",
+      "So, to celebrate that and to continue the work of making our spaces safer and more accessible to all, we have added a code of conduct to our most trafficked open source repositories on GitHub."
+    ],
+    "medium": "Source: https://code.flickr.net/",
+    "short": "Source: https://code.flickr.net/",
+    "tokens": [
+      "code",
+      "flickr",
+      "com",
+      "source",
+      "https",
+      "code",
+      "flickr",
+      "net",
+      "source",
+      "https",
+      "code",
+      "flickr",
+      "net"
+    ]
+  },
+  "title": "code.flickr.com"
+}

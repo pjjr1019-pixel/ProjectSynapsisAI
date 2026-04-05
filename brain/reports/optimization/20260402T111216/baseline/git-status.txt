@@ -1,0 +1,68 @@
+ M brain/retrieval/README.md
+ M brain/retrieval/profiles.json
+ M brain/runtime/learning/state/miss-topics-crawler1.json
+ M brain/runtime/learning/state/miss-topics.json
+ M brain/runtime/logs/learned-qa/learned-qa.jsonl
+ M brain/runtime/logs/optimizer/optimizer-audit-2026-04-01.jsonl
+ M brain/runtime/sessions/snapshots/session-tm-mne77ygj-1854u0.json
+ M brain/runtime/sessions/snapshots/session-tm-mne77ygj-1854u0.summary.md
+ M brain/runtime/settings/runtime-settings.json
+ M desktop/main.cjs
+ M package.json
+ M portable_lib/brain-ir-build.mjs
+ M portable_lib/brain-ir-contracts.mjs
+ M portable_lib/brain-retrieval.mjs
+ M server/dev-api.mjs
+ M server/http-routes.mjs
+ M src/App.tsx
+ M src/components/developer-mode/DeveloperModeWorkspace.tsx
+ M src/components/runtime-manager/RuntimePrimitives.tsx
+ M src/index.css
+ M src/theme/taskManagerTheme.ts
+?? .env
+?? brain/SCRIPT_INVENTORY.md
+?? brain/SCRIPT_MIGRATION_REPORT.md
+?? brain/core/ai-task-manager-blueprint.md
+?? brain/data/
+?? brain/imports/
+?? brain/processes/
+?? brain/retrieval/imports/
+?? brain/runtime/logs/chat-turns/2026-04-01.jsonl
+?? brain/runtime/logs/chat-turns/2026-04-02.jsonl
+?? brain/runtime/logs/governed-actions/
+?? brain/runtime/logs/optimizer/optimizer-audit-2026-04-02.jsonl
+?? brain/runtime/logs/specialist/
+?? brain/runtime/sessions/snapshots/session-debug-check.json
+?? brain/runtime/sessions/snapshots/session-debug-check.summary.md
+?? brain/runtime/sessions/snapshots/session-dev-mode-test.json
+?? brain/runtime/sessions/snapshots/session-dev-mode-test.summary.md
+?? brain/runtime/sessions/snapshots/session-developer-1775071944604.json
+?? brain/runtime/sessions/snapshots/session-developer-1775071944604.summary.md
+?? brain/runtime/sessions/snapshots/session-developer-1775081059086.json
+?? brain/runtime/sessions/snapshots/session-developer-1775081059086.summary.md
+?? brain/runtime/sessions/snapshots/session-devmode-post-fix.json
+?? brain/runtime/sessions/snapshots/session-devmode-post-fix.summary.md
+?? brain/runtime/sessions/snapshots/session-taskmanager-c4eb6b2b-2fdc-4dd3-8d51-2b777cda42ed.json
+?? brain/runtime/sessions/snapshots/session-taskmanager-c4eb6b2b-2fdc-4dd3-8d51-2b777cda42ed.summary.md
+?? brain/runtime/settings/developer-mode-settings.json
+?? brain/runtime/specialist/
+?? brain/runtime/test-artifacts/
+?? brain/runtime/trash/
+?? brain/scripts/
+?? brain_runtime_filter/
+?? portable_lib/governed-actions.mjs
+?? portable_lib/process-knowledge-enricher.mjs
+?? portable_lib/process-knowledge-identity.mjs
+?? portable_lib/process-knowledge-listener.mjs
+?? portable_lib/process-knowledge-local-evidence.mjs
+?? portable_lib/process-knowledge-paths.mjs
+?? portable_lib/process-knowledge-pipeline.mjs
+?? portable_lib/process-knowledge-registry.mjs
+?? portable_lib/specialist/
+?? src/components/conversations/ChatDeleteToast.tsx
+?? src/components/conversations/ChatManagerPanel.tsx
+?? src/components/conversations/chatManagerTypes.ts
+?? src/components/runtime-manager/AdvancedControlPanel.tsx
+?? src/components/runtime-manager/AdvancedPanelPrimitives.tsx
+?? src/types/governed-actions.ts
+?? tests/

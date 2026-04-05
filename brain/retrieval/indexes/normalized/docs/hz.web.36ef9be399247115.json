@@ -1,0 +1,344 @@
+{
+  "aliases": [
+    {
+      "alias": "36ef9be399247115",
+      "aliasId": "hz.web.36ef9be399247115.alias.1",
+      "canonical": "neatnik system status"
+    },
+    {
+      "alias": "neatnik system status",
+      "aliasId": "hz.web.36ef9be399247115.alias.2",
+      "canonical": "neatnik system status"
+    },
+    {
+      "alias": "web 36ef9be399247115",
+      "aliasId": "hz.web.36ef9be399247115.alias.3",
+      "canonical": "neatnik system status"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.98,
+  "docId": "hz.web.36ef9be399247115",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.36ef9be399247115.entity.1",
+      "kind": "document",
+      "name": "Neatnik System Status",
+      "tokens": [
+        "neatnik",
+        "system",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.36ef9be399247115.entity.2",
+      "kind": "heading",
+      "name": "Neatnik System Status",
+      "tokens": [
+        "neatnik",
+        "system",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.36ef9be399247115.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.36ef9be399247115.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.36ef9be399247115.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 61,
+      "charStart": 26,
+      "factId": "hz.web.36ef9be399247115.fact.1",
+      "kind": "summary",
+      "text": "Source: https://status.neatnik.net/",
+      "tokens": [
+        "source",
+        "https",
+        "status",
+        "neatnik",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 286,
+      "charStart": 113,
+      "factId": "hz.web.36ef9be399247115.fact.1",
+      "kind": "bullet",
+      "text": "Neatnik System Status Neatnik Home ID System Status As of 2026-03-31 06:39 UTC, we’re aware of the following items: Mastodon object storage migration: just about complete!",
+      "tokens": [
+        "neatnik",
+        "system",
+        "status",
+        "neatnik",
+        "home",
+        "id",
+        "system",
+        "status",
+        "2026",
+        "03",
+        "31",
+        "06",
+        "39",
+        "utc",
+        "re",
+        "aware",
+        "following",
+        "items",
+        "mastodon",
+        "object",
+        "storage",
+        "migration",
+        "just",
+        "about",
+        "complete"
+      ]
+    },
+    {
+      "charEnd": 402,
+      "charStart": 287,
+      "factId": "hz.web.36ef9be399247115.fact.2",
+      "kind": "bullet",
+      "text": "As of March 25 at 23:05 UTC, we’re nearly finished with our massive migration of social.lol media object storage.",
+      "tokens": [
+        "march",
+        "25",
+        "23",
+        "05",
+        "utc",
+        "re",
+        "nearly",
+        "finished",
+        "our",
+        "massive",
+        "migration",
+        "social",
+        "lol",
+        "media",
+        "object",
+        "storage"
+      ]
+    },
+    {
+      "charEnd": 561,
+      "charStart": 403,
+      "factId": "hz.web.36ef9be399247115.fact.3",
+      "kind": "bullet",
+      "text": "You may encounter the occasional missing user avatar or link preview card image, but these will be brought over as the final pass of bucket transfer is run.",
+      "tokens": [
+        "may",
+        "encounter",
+        "occasional",
+        "missing",
+        "user",
+        "avatar",
+        "link",
+        "preview",
+        "card",
+        "image",
+        "but",
+        "these",
+        "will",
+        "brought",
+        "over",
+        "final",
+        "pass",
+        "bucket",
+        "transfer",
+        "run"
+      ]
+    },
+    {
+      "charEnd": 613,
+      "charStart": 562,
+      "factId": "hz.web.36ef9be399247115.fact.4",
+      "kind": "bullet",
+      "text": "Thanks for your patience over the past ~20 hours!",
+      "tokens": [
+        "thanks",
+        "your",
+        "patience",
+        "over",
+        "past",
+        "20",
+        "hours"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 628,
+      "factId": "hz.web.36ef9be399247115.fact.5",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 637,
+      "charStart": 633,
+      "factId": "hz.web.36ef9be399247115.fact.6",
+      "kind": "bullet",
+      "text": "31",
+      "tokens": [
+        "31"
+      ]
+    },
+    {
+      "charEnd": 644,
+      "charStart": 638,
+      "factId": "hz.web.36ef9be399247115.fact.7",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 645,
+      "factId": "hz.web.36ef9be399247115.fact.8",
+      "kind": "bullet",
+      "text": "ms",
+      "tokens": [
+        "ms"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 650,
+      "factId": "hz.web.36ef9be399247115.fact.9",
+      "kind": "bullet",
+      "text": "06",
+      "tokens": [
+        "06"
+      ]
+    },
+    {
+      "charEnd": 659,
+      "charStart": 655,
+      "factId": "hz.web.36ef9be399247115.fact.10",
+      "kind": "bullet",
+      "text": "ok",
+      "tokens": [
+        "ok"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 660,
+      "factId": "hz.web.36ef9be399247115.fact.11",
+      "kind": "bullet",
+      "text": "05",
+      "tokens": [
+        "05"
+      ]
+    },
+    {
+      "charEnd": 670,
+      "charStart": 665,
+      "factId": "hz.web.36ef9be399247115.fact.12",
+      "kind": "bullet",
+      "text": "175",
+      "tokens": [
+        "175"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.36ef9be399247115.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Neatnik System Status"
+    },
+    {
+      "charEnd": 111,
+      "charStart": 101,
+      "headingId": "hz.web.36ef9be399247115.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 626,
+      "charStart": 615,
+      "headingId": "hz.web.36ef9be399247115.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 682,
+      "charStart": 672,
+      "headingId": "hz.web.36ef9be399247115.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/36ef9be399247115.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3917,
+        "start": 0
+      }
+    ],
+    "hash": "0a3f6edcafaf8e7d6fc30fc2baead1c3b28c8a41d0aa46c134fd04e0f6e764bf",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Neatnik System Status Neatnik Home ID System Status As of 2026-03-31 06:39 UTC, we’re aware of the following items: Mastodon object storage migration: just about complete!",
+      "As of March 25 at 23:05 UTC, we’re nearly finished with our massive migration of social.lol media object storage.",
+      "You may encounter the occasional missing user avatar or link preview card image, but these will be brought over as the final pass of bucket transfer is run."
+    ],
+    "medium": "Source: https://status.neatnik.net/",
+    "short": "Source: https://status.neatnik.net/",
+    "tokens": [
+      "neatnik",
+      "system",
+      "status",
+      "source",
+      "https",
+      "status",
+      "neatnik",
+      "net",
+      "source",
+      "https",
+      "status",
+      "neatnik",
+      "net"
+    ]
+  },
+  "title": "Neatnik System Status"
+}

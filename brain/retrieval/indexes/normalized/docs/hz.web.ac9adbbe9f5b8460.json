@@ -1,0 +1,518 @@
+{
+  "aliases": [
+    {
+      "alias": "ac9adbbe9f5b8460",
+      "aliasId": "hz.web.ac9adbbe9f5b8460.alias.1",
+      "canonical": "matt mullenweg"
+    },
+    {
+      "alias": "matt mullenweg",
+      "aliasId": "hz.web.ac9adbbe9f5b8460.alias.2",
+      "canonical": "matt mullenweg"
+    },
+    {
+      "alias": "web ac9adbbe9f5b8460",
+      "aliasId": "hz.web.ac9adbbe9f5b8460.alias.3",
+      "canonical": "matt mullenweg"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.ac9adbbe9f5b8460",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ac9adbbe9f5b8460.entity.1",
+      "kind": "document",
+      "name": "Matt Mullenweg",
+      "tokens": [
+        "matt",
+        "mullenweg"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac9adbbe9f5b8460.entity.2",
+      "kind": "heading",
+      "name": "Matt Mullenweg",
+      "tokens": [
+        "matt",
+        "mullenweg"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac9adbbe9f5b8460.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac9adbbe9f5b8460.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ac9adbbe9f5b8460.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 46,
+      "charStart": 19,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.1",
+      "kind": "summary",
+      "text": "Source: https://ma.tt/feed/",
+      "tokens": [
+        "source",
+        "https",
+        "ma",
+        "tt",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1679,
+      "charStart": 98,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" > <channel> <title>Matt Mullenweg</title> <atom:link href=\"https://ma.tt/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://ma.tt</link> <description>Unlucky in Cards</description> <lastBuildDate>Mon, 30 Mar 2026 00:44:41 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=7.1-alpha-62182</generator> <image> <url>https://i0.wp.com/ma.tt/files/2024/01/cropped-matt-favicon.png?fit=32%2C32&#038;quality=80&#038;ssl=1</url> <title>Matt Mullenweg</title> <link>https://ma.tt</link> <width>32</width> <height>32</height> </image> <site xmlns=\"com-wordpress:feed-additions:1\">1047865</site> <item> <title>JAŸ-Z Returns</title> <link>https://ma.tt/2026/03/hov/</link> <comments>https://ma.tt/2026/03/hov/#comments</comments> <dc:creator><![CDATA[Matt]]></dc:creator> <pubDate>Mon, 30 Mar 2026 00:44:41 +0000</pubDate> <category><![CDATA[Interview]]></category> <category><![CDATA[Music]]></category> <category><![CDATA[Video]]></category> <guid isPermaLink=\"false\">https://ma.tt/?p=151726</guid> <description><![CDATA[Since he spoke to Dean Baquet in 2017, JAŸ-Z hasn&#8217;t done an interview.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "wfw",
+        "http",
+        "wellformedweb",
+        "org",
+        "commentapi",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "xmlns",
+        "slash",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "slash",
+        "channel",
+        "title",
+        "matt",
+        "mullenweg",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "ma",
+        "tt",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "ma",
+        "tt",
+        "link",
+        "description",
+        "unlucky",
+        "cards",
+        "description",
+        "lastbuilddate",
+        "mon",
+        "30",
+        "mar",
+        "2026",
+        "00",
+        "44",
+        "41",
+        "0000",
+        "lastbuilddate",
+        "language",
+        "en",
+        "us",
+        "language",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "generator",
+        "https",
+        "wordpress",
+        "org",
+        "alpha",
+        "62182",
+        "generator",
+        "image",
+        "url",
+        "https",
+        "i0",
+        "wp",
+        "com",
+        "ma",
+        "tt",
+        "files",
+        "2024",
+        "01",
+        "cropped",
+        "matt",
+        "favicon",
+        "png",
+        "fit",
+        "32",
+        "2c32",
+        "038",
+        "quality",
+        "80",
+        "038",
+        "ssl",
+        "url",
+        "title",
+        "matt",
+        "mullenweg",
+        "title",
+        "link",
+        "https",
+        "ma",
+        "tt",
+        "link",
+        "width",
+        "32",
+        "width",
+        "height",
+        "32",
+        "height",
+        "image",
+        "site",
+        "xmlns",
+        "com",
+        "wordpress",
+        "feed",
+        "additions",
+        "1047865",
+        "site",
+        "item",
+        "title",
+        "ja",
+        "returns",
+        "title",
+        "link",
+        "https",
+        "ma",
+        "tt",
+        "2026",
+        "03",
+        "hov",
+        "link",
+        "comments",
+        "https",
+        "ma",
+        "tt",
+        "2026",
+        "03",
+        "hov",
+        "comments",
+        "comments",
+        "dc",
+        "creator",
+        "cdata",
+        "matt",
+        "dc",
+        "creator",
+        "pubdate",
+        "mon",
+        "30",
+        "mar",
+        "2026",
+        "00",
+        "44",
+        "41",
+        "0000",
+        "pubdate",
+        "category",
+        "cdata",
+        "interview",
+        "category",
+        "category",
+        "cdata",
+        "music",
+        "category",
+        "category",
+        "cdata",
+        "video",
+        "category",
+        "guid",
+        "ispermalink",
+        "false",
+        "https",
+        "ma",
+        "tt",
+        "151726",
+        "guid",
+        "description",
+        "cdata",
+        "since",
+        "he",
+        "spoke",
+        "dean",
+        "baquet",
+        "2017",
+        "ja",
+        "hasn",
+        "8217",
+        "done",
+        "interview"
+      ]
+    },
+    {
+      "charEnd": 1699,
+      "charStart": 1680,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.2",
+      "kind": "bullet",
+      "text": "Hov&#8217;s back!",
+      "tokens": [
+        "hov",
+        "8217",
+        "back"
+      ]
+    },
+    {
+      "charEnd": 1763,
+      "charStart": 1700,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.3",
+      "kind": "bullet",
+      "text": "He sat down with GQ, and it&#8217;s a lovely listen and read.",
+      "tokens": [
+        "he",
+        "sat",
+        "down",
+        "gq",
+        "8217",
+        "lovely",
+        "listen",
+        "read"
+      ]
+    },
+    {
+      "charEnd": 1818,
+      "charStart": 1764,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.4",
+      "kind": "bullet",
+      "text": "We played enough defense, 2026 is all about offense.",
+      "tokens": [
+        "played",
+        "enough",
+        "defense",
+        "2026",
+        "all",
+        "about",
+        "offense"
+      ]
+    },
+    {
+      "charEnd": 1840,
+      "charStart": 1833,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.5",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1847,
+      "charStart": 1841,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.6",
+      "kind": "bullet",
+      "text": "quot",
+      "tokens": [
+        "quot"
+      ]
+    },
+    {
+      "charEnd": 1852,
+      "charStart": 1848,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.7",
+      "kind": "bullet",
+      "text": "wp",
+      "tokens": [
+        "wp"
+      ]
+    },
+    {
+      "charEnd": 1859,
+      "charStart": 1853,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.8",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1864,
+      "charStart": 1860,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.9",
+      "kind": "bullet",
+      "text": "ma",
+      "tokens": [
+        "ma"
+      ]
+    },
+    {
+      "charEnd": 1869,
+      "charStart": 1865,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.10",
+      "kind": "bullet",
+      "text": "tt",
+      "tokens": [
+        "tt"
+      ]
+    },
+    {
+      "charEnd": 1875,
+      "charStart": 1870,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.11",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1882,
+      "charStart": 1876,
+      "factId": "hz.web.ac9adbbe9f5b8460.fact.12",
+      "kind": "bullet",
+      "text": "href",
+      "tokens": [
+        "href"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.ac9adbbe9f5b8460.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Matt Mullenweg"
+    },
+    {
+      "charEnd": 96,
+      "charStart": 86,
+      "headingId": "hz.web.ac9adbbe9f5b8460.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1831,
+      "charStart": 1820,
+      "headingId": "hz.web.ac9adbbe9f5b8460.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1894,
+      "charStart": 1884,
+      "headingId": "hz.web.ac9adbbe9f5b8460.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ac9adbbe9f5b8460.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5114,
+        "start": 0
+      }
+    ],
+    "hash": "2dd91861eff6efde11ccbc9141332b696bb8e9324ba8fc5319c008ab3a34fdd9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" > <channel> <title>Matt Mullenweg</title> <atom:link href=\"https://ma.tt/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://ma.tt</link> <description>Unlucky in Cards</description> <lastBuildDate>Mon, 30 Mar 2026 00:44:41 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=7.1-alpha-62182</generator> <image> <url>https://i0.wp.com/ma.tt/files/2024/01/cropped-matt-favicon.png?fit=32%2C32&#038;quality=80&#038;ssl=1</url> <title>Matt Mullenweg</title> <link>https://ma.tt</link> <width>32</width> <height>32</height> </image> <site xmlns=\"com-wordpress:feed-additions:1\">1047865</site> <item> <title>JAŸ-Z Returns</title> <link>https://ma.tt/2026/03/hov/</link> <comments>https://ma.tt/2026/03/hov/#comments</comments> <dc:creator><![CDATA[Matt]]></dc:creator> <pubDate>Mon, 30 Mar 2026 00:44:41 +0000</pubDate> <category><![CDATA[Interview]]></category> <category><![CDATA[Music]]></category> <category><![CDATA[Video]]></category> <guid isPermaLink=\"false\">https://ma.tt/?p=151726</guid> <description><![CDATA[Since he spoke to Dean Baquet in 2017, JAŸ-Z hasn&#8217;t done an interview.",
+      "Hov&#8217;s back!",
+      "He sat down with GQ, and it&#8217;s a lovely listen and read."
+    ],
+    "medium": "Source: https://ma.tt/feed/",
+    "short": "Source: https://ma.tt/feed/",
+    "tokens": [
+      "matt",
+      "mullenweg",
+      "source",
+      "https",
+      "ma",
+      "tt",
+      "feed",
+      "source",
+      "https",
+      "ma",
+      "tt",
+      "feed"
+    ]
+  },
+  "title": "Matt Mullenweg"
+}

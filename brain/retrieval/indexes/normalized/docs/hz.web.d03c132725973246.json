@@ -1,0 +1,351 @@
+{
+  "aliases": [
+    {
+      "alias": "d03c132725973246",
+      "aliasId": "hz.web.d03c132725973246.alias.1",
+      "canonical": "dcmi: dcmi metadata terms"
+    },
+    {
+      "alias": "dcmi dcmi metadata terms",
+      "aliasId": "hz.web.d03c132725973246.alias.2",
+      "canonical": "dcmi: dcmi metadata terms"
+    },
+    {
+      "alias": "web d03c132725973246",
+      "aliasId": "hz.web.d03c132725973246.alias.3",
+      "canonical": "dcmi: dcmi metadata terms"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.d03c132725973246",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d03c132725973246.entity.1",
+      "kind": "document",
+      "name": "DCMI: DCMI Metadata Terms",
+      "tokens": [
+        "dcmi",
+        "dcmi",
+        "metadata",
+        "terms"
+      ]
+    },
+    {
+      "entityId": "hz.web.d03c132725973246.entity.2",
+      "kind": "heading",
+      "name": "DCMI: DCMI Metadata Terms",
+      "tokens": [
+        "dcmi",
+        "dcmi",
+        "metadata",
+        "terms"
+      ]
+    },
+    {
+      "entityId": "hz.web.d03c132725973246.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d03c132725973246.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d03c132725973246.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 99,
+      "charStart": 30,
+      "factId": "hz.web.d03c132725973246.fact.1",
+      "kind": "summary",
+      "text": "Source: https://dublincore.org/specifications/dublin-core/dcmi-terms/",
+      "tokens": [
+        "source",
+        "https",
+        "dublincore",
+        "org",
+        "specifications",
+        "dublin",
+        "core",
+        "dcmi",
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 348,
+      "charStart": 151,
+      "factId": "hz.web.d03c132725973246.fact.1",
+      "kind": "bullet",
+      "text": "DCMI: DCMI Metadata Terms Dublin Core Open menu DCMI-2026 Conference Specifications Events Annual Conferences Continuing an unbroken sequence of more than twenty years of DCMI Annual Conferences.",
+      "tokens": [
+        "dcmi",
+        "dcmi",
+        "metadata",
+        "terms",
+        "dublin",
+        "core",
+        "open",
+        "menu",
+        "dcmi",
+        "2026",
+        "conference",
+        "specifications",
+        "events",
+        "annual",
+        "conferences",
+        "continuing",
+        "unbroken",
+        "sequence",
+        "more",
+        "than",
+        "twenty",
+        "years",
+        "dcmi",
+        "annual",
+        "conferences"
+      ]
+    },
+    {
+      "charEnd": 457,
+      "charStart": 349,
+      "factId": "hz.web.d03c132725973246.fact.2",
+      "kind": "bullet",
+      "text": "Workshops (1995&ndash;2000) The foundational Dublin Core workshops that established the metadata standard.",
+      "tokens": [
+        "workshops",
+        "1995",
+        "ndash",
+        "2000",
+        "foundational",
+        "dublin",
+        "core",
+        "workshops",
+        "established",
+        "metadata",
+        "standard"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 458,
+      "factId": "hz.web.d03c132725973246.fact.3",
+      "kind": "bullet",
+      "text": "Webinars & Tutorials Occasional webinars and online tutorials orgainized by the DCMI.",
+      "tokens": [
+        "webinars",
+        "tutorials",
+        "occasional",
+        "webinars",
+        "online",
+        "tutorials",
+        "orgainized",
+        "dcmi"
+      ]
+    },
+    {
+      "charEnd": 708,
+      "charStart": 546,
+      "factId": "hz.web.d03c132725973246.fact.4",
+      "kind": "bullet",
+      "text": "DCMI 2026 Conference Community DCMI Community DCMI is defined by its community which is responsible for the innovative developments and evolving good practices.",
+      "tokens": [
+        "dcmi",
+        "2026",
+        "conference",
+        "community",
+        "dcmi",
+        "community",
+        "dcmi",
+        "defined",
+        "its",
+        "community",
+        "responsible",
+        "innovative",
+        "developments",
+        "evolving",
+        "good",
+        "practices"
+      ]
+    },
+    {
+      "charEnd": 728,
+      "charStart": 723,
+      "factId": "hz.web.d03c132725973246.fact.5",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 736,
+      "charStart": 729,
+      "factId": "hz.web.d03c132725973246.fact.6",
+      "kind": "bullet",
+      "text": "check",
+      "tokens": [
+        "check"
+      ]
+    },
+    {
+      "charEnd": 748,
+      "charStart": 737,
+      "factId": "hz.web.d03c132725973246.fact.7",
+      "kind": "bullet",
+      "text": "classlist",
+      "tokens": [
+        "classlist"
+      ]
+    },
+    {
+      "charEnd": 757,
+      "charStart": 749,
+      "factId": "hz.web.d03c132725973246.fact.8",
+      "kind": "bullet",
+      "text": "hidden",
+      "tokens": [
+        "hidden"
+      ]
+    },
+    {
+      "charEnd": 764,
+      "charStart": 758,
+      "factId": "hz.web.d03c132725973246.fact.9",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 765,
+      "factId": "hz.web.d03c132725973246.fact.10",
+      "kind": "bullet",
+      "text": "terms",
+      "tokens": [
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 773,
+      "factId": "hz.web.d03c132725973246.fact.11",
+      "kind": "bullet",
+      "text": "date",
+      "tokens": [
+        "date"
+      ]
+    },
+    {
+      "charEnd": 784,
+      "charStart": 780,
+      "factId": "hz.web.d03c132725973246.fact.12",
+      "kind": "bullet",
+      "text": "dc",
+      "tokens": [
+        "dc"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.d03c132725973246.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "DCMI: DCMI Metadata Terms"
+    },
+    {
+      "charEnd": 149,
+      "charStart": 139,
+      "headingId": "hz.web.d03c132725973246.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 721,
+      "charStart": 710,
+      "headingId": "hz.web.d03c132725973246.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 796,
+      "charStart": 786,
+      "headingId": "hz.web.d03c132725973246.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d03c132725973246.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4069,
+        "start": 0
+      }
+    ],
+    "hash": "3405099846e1dee221887bcaaa3fbed05a945d037b8312d2f718c36c53b90912",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "DCMI: DCMI Metadata Terms Dublin Core Open menu DCMI-2026 Conference Specifications Events Annual Conferences Continuing an unbroken sequence of more than twenty years of DCMI Annual Conferences.",
+      "Workshops (1995&ndash;2000) The foundational Dublin Core workshops that established the metadata standard.",
+      "Webinars & Tutorials Occasional webinars and online tutorials orgainized by the DCMI."
+    ],
+    "medium": "Source: https://dublincore.org/specifications/dublin-core/dcmi-terms/",
+    "short": "Source: https://dublincore.org/specifications/dublin-core/dcmi-terms/",
+    "tokens": [
+      "dcmi",
+      "dcmi",
+      "metadata",
+      "terms",
+      "source",
+      "https",
+      "dublincore",
+      "org",
+      "specifications",
+      "dublin",
+      "core",
+      "dcmi",
+      "terms",
+      "source",
+      "https",
+      "dublincore",
+      "org",
+      "specifications",
+      "dublin",
+      "core",
+      "dcmi",
+      "terms"
+    ]
+  },
+  "title": "DCMI: DCMI Metadata Terms"
+}

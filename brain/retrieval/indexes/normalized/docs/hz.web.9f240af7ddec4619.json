@@ -1,0 +1,328 @@
+{
+  "aliases": [
+    {
+      "alias": "9f240af7ddec4619",
+      "aliasId": "hz.web.9f240af7ddec4619.alias.1",
+      "canonical": "about - superfeedr"
+    },
+    {
+      "alias": "about - superfeedr",
+      "aliasId": "hz.web.9f240af7ddec4619.alias.2",
+      "canonical": "about - superfeedr"
+    },
+    {
+      "alias": "web 9f240af7ddec4619",
+      "aliasId": "hz.web.9f240af7ddec4619.alias.3",
+      "canonical": "about - superfeedr"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.9f240af7ddec4619",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9f240af7ddec4619.entity.1",
+      "kind": "document",
+      "name": "About - Superfeedr",
+      "tokens": [
+        "about",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f240af7ddec4619.entity.2",
+      "kind": "heading",
+      "name": "About - Superfeedr",
+      "tokens": [
+        "about",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f240af7ddec4619.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f240af7ddec4619.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f240af7ddec4619.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 23,
+      "factId": "hz.web.9f240af7ddec4619.fact.1",
+      "kind": "summary",
+      "text": "Source: https://superfeedr.com/about",
+      "tokens": [
+        "source",
+        "https",
+        "superfeedr",
+        "com",
+        "about"
+      ]
+    },
+    {
+      "charEnd": 330,
+      "charStart": 111,
+      "factId": "hz.web.9f240af7ddec4619.fact.1",
+      "kind": "bullet",
+      "text": "About - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up About Superfeedr Superfeedr helps you harness the power of real-time feed technology to have content delivered as soon as it changes.",
+      "tokens": [
+        "about",
+        "superfeedr",
+        "superfeedr",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "about",
+        "superfeedr",
+        "superfeedr",
+        "helps",
+        "harness",
+        "power",
+        "real",
+        "time",
+        "feed",
+        "technology",
+        "have",
+        "content",
+        "delivered",
+        "soon",
+        "changes"
+      ]
+    },
+    {
+      "charEnd": 434,
+      "charStart": 331,
+      "factId": "hz.web.9f240af7ddec4619.fact.2",
+      "kind": "bullet",
+      "text": "Our API makes it easy to subscribe to content or push content to subscribers quickly and efficiently.",
+      "tokens": [
+        "our",
+        "api",
+        "makes",
+        "easy",
+        "subscribe",
+        "content",
+        "push",
+        "content",
+        "subscribers",
+        "quickly",
+        "efficiently"
+      ]
+    },
+    {
+      "charEnd": 540,
+      "charStart": 435,
+      "factId": "hz.web.9f240af7ddec4619.fact.3",
+      "kind": "bullet",
+      "text": "So whether you publish content or consume it, the Superfeedr Push API gets it delivered in record time.",
+      "tokens": [
+        "so",
+        "whether",
+        "publish",
+        "content",
+        "consume",
+        "superfeedr",
+        "push",
+        "api",
+        "gets",
+        "delivered",
+        "record",
+        "time"
+      ]
+    },
+    {
+      "charEnd": 593,
+      "charStart": 541,
+      "factId": "hz.web.9f240af7ddec4619.fact.4",
+      "kind": "bullet",
+      "text": "We’re a bunch of young hackers in our 20s and 30s.",
+      "tokens": [
+        "re",
+        "bunch",
+        "young",
+        "hackers",
+        "our",
+        "20s",
+        "30s"
+      ]
+    },
+    {
+      "charEnd": 620,
+      "charStart": 608,
+      "factId": "hz.web.9f240af7ddec4619.fact.5",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 630,
+      "charStart": 621,
+      "factId": "hz.web.9f240af7ddec4619.fact.6",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 638,
+      "charStart": 631,
+      "factId": "hz.web.9f240af7ddec4619.fact.7",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 646,
+      "charStart": 639,
+      "factId": "hz.web.9f240af7ddec4619.fact.8",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 653,
+      "charStart": 647,
+      "factId": "hz.web.9f240af7ddec4619.fact.9",
+      "kind": "bullet",
+      "text": "time",
+      "tokens": [
+        "time"
+      ]
+    },
+    {
+      "charEnd": 659,
+      "charStart": 654,
+      "factId": "hz.web.9f240af7ddec4619.fact.10",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 660,
+      "factId": "hz.web.9f240af7ddec4619.fact.11",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 675,
+      "charStart": 666,
+      "factId": "hz.web.9f240af7ddec4619.fact.12",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.9f240af7ddec4619.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "About - Superfeedr"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.9f240af7ddec4619.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 606,
+      "charStart": 595,
+      "headingId": "hz.web.9f240af7ddec4619.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 687,
+      "charStart": 677,
+      "headingId": "hz.web.9f240af7ddec4619.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/9f240af7ddec4619.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2013,
+        "start": 0
+      }
+    ],
+    "hash": "ce2ba65c44c35853537aafba472dec365dfd80fb6a9a3434c480e885733caf30",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "About - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up About Superfeedr Superfeedr helps you harness the power of real-time feed technology to have content delivered as soon as it changes.",
+      "Our API makes it easy to subscribe to content or push content to subscribers quickly and efficiently.",
+      "So whether you publish content or consume it, the Superfeedr Push API gets it delivered in record time."
+    ],
+    "medium": "Source: https://superfeedr.com/about",
+    "short": "Source: https://superfeedr.com/about",
+    "tokens": [
+      "about",
+      "superfeedr",
+      "source",
+      "https",
+      "superfeedr",
+      "com",
+      "about",
+      "source",
+      "https",
+      "superfeedr",
+      "com",
+      "about"
+    ]
+  },
+  "title": "About - Superfeedr"
+}

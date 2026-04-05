@@ -1,0 +1,418 @@
+{
+  "aliases": [
+    {
+      "alias": "2f5c313d06ab1492",
+      "aliasId": "hz.web.2f5c313d06ab1492.alias.1",
+      "canonical": "homepage | toby3d"
+    },
+    {
+      "alias": "homepage toby3d",
+      "aliasId": "hz.web.2f5c313d06ab1492.alias.2",
+      "canonical": "homepage | toby3d"
+    },
+    {
+      "alias": "web 2f5c313d06ab1492",
+      "aliasId": "hz.web.2f5c313d06ab1492.alias.3",
+      "canonical": "homepage | toby3d"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.65,
+  "docId": "hz.web.2f5c313d06ab1492",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2f5c313d06ab1492.entity.1",
+      "kind": "document",
+      "name": "Homepage | toby3d",
+      "tokens": [
+        "homepage",
+        "toby3d"
+      ]
+    },
+    {
+      "entityId": "hz.web.2f5c313d06ab1492.entity.2",
+      "kind": "heading",
+      "name": "Homepage | toby3d",
+      "tokens": [
+        "homepage",
+        "toby3d"
+      ]
+    },
+    {
+      "entityId": "hz.web.2f5c313d06ab1492.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2f5c313d06ab1492.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2f5c313d06ab1492.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 48,
+      "charStart": 22,
+      "factId": "hz.web.2f5c313d06ab1492.fact.1",
+      "kind": "summary",
+      "text": "Source: https://toby3d.me/",
+      "tokens": [
+        "source",
+        "https",
+        "toby3d"
+      ]
+    },
+    {
+      "charEnd": 149,
+      "charStart": 100,
+      "factId": "hz.web.2f5c313d06ab1492.fact.1",
+      "kind": "bullet",
+      "text": "Homepage | toby3d This page looking too simple?",
+      "tokens": [
+        "homepage",
+        "toby3d",
+        "page",
+        "looking",
+        "too",
+        "simple"
+      ]
+    },
+    {
+      "charEnd": 172,
+      "charStart": 150,
+      "factId": "hz.web.2f5c313d06ab1492.fact.2",
+      "kind": "bullet",
+      "text": "It's CSS Naked Day !",
+      "tokens": [
+        "css",
+        "naked",
+        "day"
+      ]
+    },
+    {
+      "charEnd": 270,
+      "charStart": 173,
+      "factId": "hz.web.2f5c313d06ab1492.fact.3",
+      "kind": "bullet",
+      "text": "Header Content Footer Accessibility feedback 👋🏻 I am looking for a job as a Golang developer!",
+      "tokens": [
+        "header",
+        "content",
+        "footer",
+        "accessibility",
+        "feedback",
+        "am",
+        "looking",
+        "job",
+        "golang",
+        "developer"
+      ]
+    },
+    {
+      "charEnd": 304,
+      "charStart": 271,
+      "factId": "hz.web.2f5c313d06ab1492.fact.4",
+      "kind": "bullet",
+      "text": "toby3d I do this because I can.",
+      "tokens": [
+        "toby3d",
+        "because"
+      ]
+    },
+    {
+      "charEnd": 327,
+      "charStart": 319,
+      "factId": "hz.web.2f5c313d06ab1492.fact.5",
+      "kind": "bullet",
+      "text": "golang",
+      "tokens": [
+        "golang"
+      ]
+    },
+    {
+      "charEnd": 335,
+      "charStart": 328,
+      "factId": "hz.web.2f5c313d06ab1492.fact.6",
+      "kind": "bullet",
+      "text": "music",
+      "tokens": [
+        "music"
+      ]
+    },
+    {
+      "charEnd": 344,
+      "charStart": 336,
+      "factId": "hz.web.2f5c313d06ab1492.fact.7",
+      "kind": "bullet",
+      "text": "simple",
+      "tokens": [
+        "simple"
+      ]
+    },
+    {
+      "charEnd": 353,
+      "charStart": 345,
+      "factId": "hz.web.2f5c313d06ab1492.fact.8",
+      "kind": "bullet",
+      "text": "toby3d",
+      "tokens": [
+        "toby3d"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 354,
+      "factId": "hz.web.2f5c313d06ab1492.fact.9",
+      "kind": "bullet",
+      "text": "bot",
+      "tokens": [
+        "bot"
+      ]
+    },
+    {
+      "charEnd": 366,
+      "charStart": 360,
+      "factId": "hz.web.2f5c313d06ab1492.fact.10",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 377,
+      "charStart": 367,
+      "factId": "hz.web.2f5c313d06ab1492.fact.11",
+      "kind": "bullet",
+      "text": "telegram",
+      "tokens": [
+        "telegram"
+      ]
+    },
+    {
+      "charEnd": 385,
+      "charStart": 378,
+      "factId": "hz.web.2f5c313d06ab1492.fact.12",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.2f5c313d06ab1492.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Homepage | toby3d"
+    },
+    {
+      "charEnd": 98,
+      "charStart": 88,
+      "headingId": "hz.web.2f5c313d06ab1492.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 317,
+      "charStart": 306,
+      "headingId": "hz.web.2f5c313d06ab1492.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 397,
+      "charStart": 387,
+      "headingId": "hz.web.2f5c313d06ab1492.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2f5c313d06ab1492.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2440,
+        "start": 0
+      }
+    ],
+    "hash": "736c824c3d5989c08d0b4db8837d61e5eba55a99a99702c1f86571d002936bcd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.2f5c313d06ab1492.rule.1",
+      "text": "current page toby3d music now donate verification contact русский Things from the future announced and under development Against the Stream JackBox-like interactive trivia telegram a simple GoLang bindings for Telegram API What you can touch released and available WebSub a dead simple WebSub hub oEmbed a GoLang package for get embeds by URL MyPackBot a bot for your unlimited favorite stickers pack telegraph a simple GoLang bindings for Telegraph API Dia Blush a Telegram bot for searching (N)SFW content SUPERCOLD a SUPERHOT demake for 7 days of gamejam One-Aloner depression in the music form Old crap that I want to forget unfortunate, undone or lost SafeDNS a protection-bot against malicious links • • • too much profound meaning for 7 days of gamejam TulpaWiki archive of instructions to create friends from the air MuSquare a first game, doomed to failure as a random clone Clone Hexagon achievement of professionalism in game constructor Flash animations about which we will not talk anymore (never) current page Footer Maksim « toby3d » Lebedev Creative dude.",
+      "tokens": [
+        "current",
+        "page",
+        "toby3d",
+        "music",
+        "now",
+        "donate",
+        "verification",
+        "contact",
+        "things",
+        "future",
+        "announced",
+        "under",
+        "development",
+        "against",
+        "stream",
+        "jackbox",
+        "like",
+        "interactive",
+        "trivia",
+        "telegram",
+        "simple",
+        "golang",
+        "bindings",
+        "telegram",
+        "api",
+        "touch",
+        "released",
+        "available",
+        "websub",
+        "dead",
+        "simple",
+        "websub",
+        "hub",
+        "oembed",
+        "golang",
+        "package",
+        "get",
+        "embeds",
+        "url",
+        "mypackbot",
+        "bot",
+        "your",
+        "unlimited",
+        "favorite",
+        "stickers",
+        "pack",
+        "telegraph",
+        "simple",
+        "golang",
+        "bindings",
+        "telegraph",
+        "api",
+        "dia",
+        "blush",
+        "telegram",
+        "bot",
+        "searching",
+        "sfw",
+        "content",
+        "supercold",
+        "superhot",
+        "demake",
+        "days",
+        "gamejam",
+        "one",
+        "aloner",
+        "depression",
+        "music",
+        "form",
+        "old",
+        "crap",
+        "want",
+        "forget",
+        "unfortunate",
+        "undone",
+        "lost",
+        "safedns",
+        "protection",
+        "bot",
+        "against",
+        "malicious",
+        "links",
+        "too",
+        "much",
+        "profound",
+        "meaning",
+        "days",
+        "gamejam",
+        "tulpawiki",
+        "archive",
+        "instructions",
+        "create",
+        "friends",
+        "air",
+        "musquare",
+        "first",
+        "game",
+        "doomed",
+        "failure",
+        "random",
+        "clone",
+        "clone",
+        "hexagon",
+        "achievement",
+        "professionalism",
+        "game",
+        "constructor",
+        "flash",
+        "animations",
+        "about",
+        "will",
+        "not",
+        "talk",
+        "anymore",
+        "never",
+        "current",
+        "page",
+        "footer",
+        "maksim",
+        "toby3d",
+        "lebedev",
+        "creative",
+        "dude"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Homepage | toby3d This page looking too simple?",
+      "It's CSS Naked Day !",
+      "Header Content Footer Accessibility feedback 👋🏻 I am looking for a job as a Golang developer!"
+    ],
+    "medium": "Source: https://toby3d.me/",
+    "short": "Source: https://toby3d.me/",
+    "tokens": [
+      "homepage",
+      "toby3d",
+      "source",
+      "https",
+      "toby3d",
+      "source",
+      "https",
+      "toby3d"
+    ]
+  },
+  "title": "Homepage | toby3d"
+}

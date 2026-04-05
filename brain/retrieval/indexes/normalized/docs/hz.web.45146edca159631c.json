@@ -1,0 +1,274 @@
+{
+  "aliases": [
+    {
+      "alias": "45146edca159631c",
+      "aliasId": "hz.web.45146edca159631c.alias.1",
+      "canonical": "abs.twimg.com"
+    },
+    {
+      "alias": "abs.twimg.com",
+      "aliasId": "hz.web.45146edca159631c.alias.2",
+      "canonical": "abs.twimg.com"
+    },
+    {
+      "alias": "web 45146edca159631c",
+      "aliasId": "hz.web.45146edca159631c.alias.3",
+      "canonical": "abs.twimg.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.45146edca159631c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.45146edca159631c.entity.1",
+      "kind": "document",
+      "name": "abs.twimg.com",
+      "tokens": [
+        "abs",
+        "twimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.45146edca159631c.entity.2",
+      "kind": "heading",
+      "name": "abs.twimg.com",
+      "tokens": [
+        "abs",
+        "twimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.45146edca159631c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.45146edca159631c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.45146edca159631c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 68,
+      "charStart": 18,
+      "factId": "hz.web.45146edca159631c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://abs.twimg.com/favicons/favicon.ico",
+      "tokens": [
+        "source",
+        "https",
+        "abs",
+        "twimg",
+        "com",
+        "favicons",
+        "favicon",
+        "ico"
+      ]
+    },
+    {
+      "charEnd": 578,
+      "charStart": 120,
+      "factId": "hz.web.45146edca159631c.fact.1",
+      "kind": "bullet",
+      "text": "\u0000\u0000\u0001\u0000\u0001\u0000 \u0000\u0000\u0001\u0000 \u0000�\u0001\u0000\u0000\u0016\u0000\u0000\u0000�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0006\u0000\u0000\u0000szz�\u0000\u0000\u0001�IDATx\u0001b\u00186`\u0014�.\u0004�Z�\u0000z\u0004@\u0014�c۶�Ūbv�mT�����Ůb��m�l���Zͪ�}¼�Bt9,�]D \u001eϰ\u0015 ~� �sߔ�|\u000f�m�\u0014b\"\u0006\u0013�\u0000�q ' \u000e\u0018\u0003�b\u0017�u� b# �\u0010�B��C�@�� �\u0002G o0\u0018ӱ0w�QH\u0001�P�Ax $C\u0014\u0012!x�깃�B����(iQ` ą\u0007�_p�X��'��J\u0006\u0005�@�\u001e�r�A��\u0005b!\u000e��\b�P\u001b�!J��V�p�B\u0014R J\u0017���b V���\u001d6*�\u000f\u0012�\u0015f�_B�ר@I܇\u0004,\u001a��v�N�\u000f �1�3[W<�\u0004d�]���u� ��\u0013��+�\"��p�ӫۖ\u0000�/i.��q\u0002�\b4��d��<|�x����p�\"�q\u000f����^�G�)D) S܄�A/��p>x�^�Ё��/\u001e\u000f�x�@e����q\u0007�\u0010�_آ��mʴ�R\u001c�#�� \u0015��\u0012\u0017�\u0019\u0003P&c C\u0019�\u0002\u0000dj�@f���\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "png",
+        "ihdr",
+        "szz",
+        "idatx",
+        "bv",
+        "mt",
+        "bt9",
+        "o0",
+        "0w",
+        "qh",
+        "ax",
+        "iq",
+        "_p",
+        "_b",
+        "dj",
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 597,
+      "charStart": 593,
+      "factId": "hz.web.45146edca159631c.fact.2",
+      "kind": "bullet",
+      "text": "_b",
+      "tokens": [
+        "_b"
+      ]
+    },
+    {
+      "charEnd": 602,
+      "charStart": 598,
+      "factId": "hz.web.45146edca159631c.fact.3",
+      "kind": "bullet",
+      "text": "_p",
+      "tokens": [
+        "_p"
+      ]
+    },
+    {
+      "charEnd": 607,
+      "charStart": 603,
+      "factId": "hz.web.45146edca159631c.fact.4",
+      "kind": "bullet",
+      "text": "0w",
+      "tokens": [
+        "0w"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 608,
+      "factId": "hz.web.45146edca159631c.fact.5",
+      "kind": "bullet",
+      "text": "ax",
+      "tokens": [
+        "ax"
+      ]
+    },
+    {
+      "charEnd": 618,
+      "charStart": 613,
+      "factId": "hz.web.45146edca159631c.fact.6",
+      "kind": "bullet",
+      "text": "bt9",
+      "tokens": [
+        "bt9"
+      ]
+    },
+    {
+      "charEnd": 623,
+      "charStart": 619,
+      "factId": "hz.web.45146edca159631c.fact.7",
+      "kind": "bullet",
+      "text": "bv",
+      "tokens": [
+        "bv"
+      ]
+    },
+    {
+      "charEnd": 628,
+      "charStart": 624,
+      "factId": "hz.web.45146edca159631c.fact.8",
+      "kind": "bullet",
+      "text": "dj",
+      "tokens": [
+        "dj"
+      ]
+    },
+    {
+      "charEnd": 636,
+      "charStart": 629,
+      "factId": "hz.web.45146edca159631c.fact.9",
+      "kind": "bullet",
+      "text": "idatx",
+      "tokens": [
+        "idatx"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.45146edca159631c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "abs.twimg.com"
+    },
+    {
+      "charEnd": 118,
+      "charStart": 108,
+      "headingId": "hz.web.45146edca159631c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 591,
+      "charStart": 580,
+      "headingId": "hz.web.45146edca159631c.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 648,
+      "charStart": 638,
+      "headingId": "hz.web.45146edca159631c.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/45146edca159631c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1346,
+        "start": 0
+      }
+    ],
+    "hash": "ecff2fd74054ad226dc5ddd7eb871908e23d65519dcda3e4a48affebd063fe5e",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "\u0000\u0000\u0001\u0000\u0001\u0000 \u0000\u0000\u0001\u0000 \u0000�\u0001\u0000\u0000\u0016\u0000\u0000\u0000�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0006\u0000\u0000\u0000szz�\u0000\u0000\u0001�IDATx\u0001b\u00186`\u0014�.\u0004�Z�\u0000z\u0004@\u0014�c۶�Ūbv�mT�����Ůb��m�l���Zͪ�}¼�Bt9,�]D \u001eϰ\u0015 ~� �sߔ�|\u000f�m�\u0014b\"\u0006\u0013�\u0000�q ' \u000e\u0018\u0003�b\u0017�u� b# �\u0010�B��C�@�� �\u0002G o0\u0018ӱ0w�QH\u0001�P�Ax $C\u0014\u0012!x�깃�B����(iQ` ą\u0007�_p�X��'��J\u0006\u0005�@�\u001e�r�A��\u0005b!\u000e��\b�P\u001b�!J��V�p�B\u0014R J\u0017���b V���\u001d6*�\u000f\u0012�\u0015f�_B�ר@I܇\u0004,\u001a��v�N�\u000f �1�3[W<�\u0004d�]���u� ��\u0013��+�\"��p�ӫۖ\u0000�/i.��q\u0002�\b4��d��<|�x����p�\"�q\u000f����^�G�)D) S܄�A/��p>x�^�Ё��/\u001e\u000f�x�@e����q\u0007�\u0010�_آ��mʴ�R\u001c�#�� \u0015��\u0012\u0017�\u0019\u0003P&c C\u0019�\u0002\u0000dj�@f���\u0000\u0000\u0000\u0000IEND�B`�",
+      "_b",
+      "_p"
+    ],
+    "medium": "Source: https://abs.twimg.com/favicons/favicon.ico",
+    "short": "Source: https://abs.twimg.com/favicons/favicon.ico",
+    "tokens": [
+      "abs",
+      "twimg",
+      "com",
+      "source",
+      "https",
+      "abs",
+      "twimg",
+      "com",
+      "favicons",
+      "favicon",
+      "ico",
+      "source",
+      "https",
+      "abs",
+      "twimg",
+      "com",
+      "favicons",
+      "favicon",
+      "ico"
+    ]
+  },
+  "title": "abs.twimg.com"
+}

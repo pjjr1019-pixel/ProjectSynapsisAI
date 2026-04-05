@@ -1,0 +1,303 @@
+{
+  "aliases": [
+    {
+      "alias": "d9a993e222c8b686",
+      "aliasId": "hz.web.d9a993e222c8b686.alias.1",
+      "canonical": "micro.blog"
+    },
+    {
+      "alias": "micro.blog",
+      "aliasId": "hz.web.d9a993e222c8b686.alias.2",
+      "canonical": "micro.blog"
+    },
+    {
+      "alias": "web d9a993e222c8b686",
+      "aliasId": "hz.web.d9a993e222c8b686.alias.3",
+      "canonical": "micro.blog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.d9a993e222c8b686",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d9a993e222c8b686.entity.1",
+      "kind": "document",
+      "name": "Micro.blog",
+      "tokens": [
+        "micro",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.d9a993e222c8b686.entity.2",
+      "kind": "heading",
+      "name": "Micro.blog",
+      "tokens": [
+        "micro",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.d9a993e222c8b686.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d9a993e222c8b686.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d9a993e222c8b686.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 15,
+      "factId": "hz.web.d9a993e222c8b686.fact.1",
+      "kind": "summary",
+      "text": "Source: https://micro.blog/about/blogging",
+      "tokens": [
+        "source",
+        "https",
+        "micro",
+        "blog",
+        "about",
+        "blogging"
+      ]
+    },
+    {
+      "charEnd": 230,
+      "charStart": 108,
+      "factId": "hz.web.d9a993e222c8b686.fact.1",
+      "kind": "bullet",
+      "text": "Micro.blog Blogging Fediverse Atmosphere Cross-posting Pricing Sign in Sign up → Blogging is at the heart of Micro.blog.",
+      "tokens": [
+        "micro",
+        "blog",
+        "blogging",
+        "fediverse",
+        "atmosphere",
+        "cross",
+        "posting",
+        "pricing",
+        "sign",
+        "sign",
+        "up",
+        "blogging",
+        "heart",
+        "micro",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 274,
+      "charStart": 231,
+      "factId": "hz.web.d9a993e222c8b686.fact.2",
+      "kind": "bullet",
+      "text": "Short microblog posts or long-form posts.",
+      "tokens": [
+        "short",
+        "microblog",
+        "posts",
+        "long",
+        "form",
+        "posts"
+      ]
+    },
+    {
+      "charEnd": 301,
+      "charStart": 275,
+      "factId": "hz.web.d9a993e222c8b686.fact.3",
+      "kind": "bullet",
+      "text": "Photo blogs or podcasts.",
+      "tokens": [
+        "photo",
+        "blogs",
+        "podcasts"
+      ]
+    },
+    {
+      "charEnd": 337,
+      "charStart": 302,
+      "factId": "hz.web.d9a993e222c8b686.fact.4",
+      "kind": "bullet",
+      "text": "Inspired by IndieWeb principles .",
+      "tokens": [
+        "inspired",
+        "indieweb",
+        "principles"
+      ]
+    },
+    {
+      "charEnd": 358,
+      "charStart": 352,
+      "factId": "hz.web.d9a993e222c8b686.fact.5",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 366,
+      "charStart": 359,
+      "factId": "hz.web.d9a993e222c8b686.fact.6",
+      "kind": "bullet",
+      "text": "micro",
+      "tokens": [
+        "micro"
+      ]
+    },
+    {
+      "charEnd": 374,
+      "charStart": 367,
+      "factId": "hz.web.d9a993e222c8b686.fact.7",
+      "kind": "bullet",
+      "text": "posts",
+      "tokens": [
+        "posts"
+      ]
+    },
+    {
+      "charEnd": 381,
+      "charStart": 375,
+      "factId": "hz.web.d9a993e222c8b686.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 392,
+      "charStart": 382,
+      "factId": "hz.web.d9a993e222c8b686.fact.9",
+      "kind": "bullet",
+      "text": "blogging",
+      "tokens": [
+        "blogging"
+      ]
+    },
+    {
+      "charEnd": 402,
+      "charStart": 393,
+      "factId": "hz.web.d9a993e222c8b686.fact.10",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 414,
+      "charStart": 403,
+      "factId": "hz.web.d9a993e222c8b686.fact.11",
+      "kind": "bullet",
+      "text": "fediverse",
+      "tokens": [
+        "fediverse"
+      ]
+    },
+    {
+      "charEnd": 420,
+      "charStart": 415,
+      "factId": "hz.web.d9a993e222c8b686.fact.12",
+      "kind": "bullet",
+      "text": "has",
+      "tokens": [
+        "has"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.d9a993e222c8b686.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Micro.blog"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.d9a993e222c8b686.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 350,
+      "charStart": 339,
+      "headingId": "hz.web.d9a993e222c8b686.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 432,
+      "charStart": 422,
+      "headingId": "hz.web.d9a993e222c8b686.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/d9a993e222c8b686.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1530,
+        "start": 0
+      }
+    ],
+    "hash": "68f2a261aa1e29fbfca26a5b9d6943ca83e57463bf6ee6167a1a30062104cf9d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Micro.blog Blogging Fediverse Atmosphere Cross-posting Pricing Sign in Sign up → Blogging is at the heart of Micro.blog.",
+      "Short microblog posts or long-form posts.",
+      "Photo blogs or podcasts."
+    ],
+    "medium": "Source: https://micro.blog/about/blogging",
+    "short": "Source: https://micro.blog/about/blogging",
+    "tokens": [
+      "micro",
+      "blog",
+      "source",
+      "https",
+      "micro",
+      "blog",
+      "about",
+      "blogging",
+      "source",
+      "https",
+      "micro",
+      "blog",
+      "about",
+      "blogging"
+    ]
+  },
+  "title": "Micro.blog"
+}

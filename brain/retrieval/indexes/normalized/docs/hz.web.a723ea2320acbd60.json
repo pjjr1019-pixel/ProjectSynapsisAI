@@ -1,0 +1,325 @@
+{
+  "aliases": [
+    {
+      "alias": "a723ea2320acbd60",
+      "aliasId": "hz.web.a723ea2320acbd60.alias.1",
+      "canonical": "usda"
+    },
+    {
+      "alias": "usda",
+      "aliasId": "hz.web.a723ea2320acbd60.alias.2",
+      "canonical": "usda"
+    },
+    {
+      "alias": "web a723ea2320acbd60",
+      "aliasId": "hz.web.a723ea2320acbd60.alias.3",
+      "canonical": "usda"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.a723ea2320acbd60",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a723ea2320acbd60.entity.1",
+      "kind": "document",
+      "name": "USDA",
+      "tokens": [
+        "usda"
+      ]
+    },
+    {
+      "entityId": "hz.web.a723ea2320acbd60.entity.2",
+      "kind": "heading",
+      "name": "USDA",
+      "tokens": [
+        "usda"
+      ]
+    },
+    {
+      "entityId": "hz.web.a723ea2320acbd60.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a723ea2320acbd60.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a723ea2320acbd60.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 38,
+      "charStart": 9,
+      "factId": "hz.web.a723ea2320acbd60.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.usda.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "usda",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 413,
+      "charStart": 90,
+      "factId": "hz.web.a723ea2320acbd60.fact.1",
+      "kind": "bullet",
+      "text": "USDA Skip to main content Skip to main content Countdown to America's 250th Anniversary : An official website of the United States government Here's how you know Here's how you know News Blog Employee Resources Official websites use .gov A .gov Website belongs to an official government organization in the United States.",
+      "tokens": [
+        "usda",
+        "skip",
+        "main",
+        "content",
+        "skip",
+        "main",
+        "content",
+        "countdown",
+        "america",
+        "250th",
+        "anniversary",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "news",
+        "blog",
+        "employee",
+        "resources",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 520,
+      "charStart": 414,
+      "factId": "hz.web.a723ea2320acbd60.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 585,
+      "charStart": 521,
+      "factId": "hz.web.a723ea2320acbd60.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 592,
+      "charStart": 586,
+      "factId": "hz.web.a723ea2320acbd60.fact.4",
+      "kind": "bullet",
+      "text": "U.S.",
+      "tokens": []
+    },
+    {
+      "charEnd": 617,
+      "charStart": 607,
+      "factId": "hz.web.a723ea2320acbd60.fact.5",
+      "kind": "bullet",
+      "text": "overview",
+      "tokens": [
+        "overview"
+      ]
+    },
+    {
+      "charEnd": 624,
+      "charStart": 618,
+      "factId": "hz.web.a723ea2320acbd60.fact.6",
+      "kind": "bullet",
+      "text": "usda",
+      "tokens": [
+        "usda"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 625,
+      "factId": "hz.web.a723ea2320acbd60.fact.7",
+      "kind": "bullet",
+      "text": "food",
+      "tokens": [
+        "food"
+      ]
+    },
+    {
+      "charEnd": 641,
+      "charStart": 632,
+      "factId": "hz.web.a723ea2320acbd60.fact.8",
+      "kind": "bullet",
+      "text": "farmers",
+      "tokens": [
+        "farmers"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 642,
+      "factId": "hz.web.a723ea2320acbd60.fact.9",
+      "kind": "bullet",
+      "text": "assistance",
+      "tokens": [
+        "assistance"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 655,
+      "factId": "hz.web.a723ea2320acbd60.fact.10",
+      "kind": "bullet",
+      "text": "research",
+      "tokens": [
+        "research"
+      ]
+    },
+    {
+      "charEnd": 677,
+      "charStart": 666,
+      "factId": "hz.web.a723ea2320acbd60.fact.11",
+      "kind": "bullet",
+      "text": "resources",
+      "tokens": [
+        "resources"
+      ]
+    },
+    {
+      "charEnd": 688,
+      "charStart": 678,
+      "factId": "hz.web.a723ea2320acbd60.fact.12",
+      "kind": "bullet",
+      "text": "programs",
+      "tokens": [
+        "programs"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 7,
+      "charStart": 1,
+      "headingId": "hz.web.a723ea2320acbd60.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "USDA"
+    },
+    {
+      "charEnd": 88,
+      "charStart": 78,
+      "headingId": "hz.web.a723ea2320acbd60.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 605,
+      "charStart": 594,
+      "headingId": "hz.web.a723ea2320acbd60.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 700,
+      "charStart": 690,
+      "headingId": "hz.web.a723ea2320acbd60.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a723ea2320acbd60.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3912,
+        "start": 0
+      }
+    ],
+    "hash": "bace603b472f1562a876e568ca1188405d87fb2e742c38f8e30a5889221a5fdb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "USDA Skip to main content Skip to main content Countdown to America's 250th Anniversary : An official website of the United States government Here's how you know Here's how you know News Blog Employee Resources Official websites use .gov A .gov Website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.usda.gov/",
+    "short": "Source: https://www.usda.gov/",
+    "tokens": [
+      "usda",
+      "source",
+      "https",
+      "www",
+      "usda",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "usda",
+      "gov"
+    ]
+  },
+  "title": "USDA"
+}

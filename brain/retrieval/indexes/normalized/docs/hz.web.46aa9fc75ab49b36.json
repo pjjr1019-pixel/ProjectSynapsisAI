@@ -1,0 +1,439 @@
+{
+  "aliases": [
+    {
+      "alias": "46aa9fc75ab49b36",
+      "aliasId": "hz.web.46aa9fc75ab49b36.alias.1",
+      "canonical": "localwp.com"
+    },
+    {
+      "alias": "localwp.com",
+      "aliasId": "hz.web.46aa9fc75ab49b36.alias.2",
+      "canonical": "localwp.com"
+    },
+    {
+      "alias": "web 46aa9fc75ab49b36",
+      "aliasId": "hz.web.46aa9fc75ab49b36.alias.3",
+      "canonical": "localwp.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.62,
+  "docId": "hz.web.46aa9fc75ab49b36",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.46aa9fc75ab49b36.entity.1",
+      "kind": "document",
+      "name": "localwp.com",
+      "tokens": [
+        "localwp",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.46aa9fc75ab49b36.entity.2",
+      "kind": "heading",
+      "name": "localwp.com",
+      "tokens": [
+        "localwp",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.46aa9fc75ab49b36.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.46aa9fc75ab49b36.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.46aa9fc75ab49b36.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 16,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.1",
+      "kind": "summary",
+      "text": "Source: https://localwp.com/wp-json/wp/v2/pages/4",
+      "tokens": [
+        "source",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "pages"
+      ]
+    },
+    {
+      "charEnd": 1573,
+      "charStart": 117,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.1",
+      "kind": "bullet",
+      "text": "{\"id\":4,\"date\":\"2016-11-30T14:41:24\",\"date_gmt\":\"2016-11-30T14:41:24\",\"guid\":{\"rendered\":\"http:\\/\\/local.getflywheel.com\\/?page_id=4\"},\"modified\":\"2016-11-30T14:42:00\",\"modified_gmt\":\"2016-11-30T14:42:00\",\"slug\":\"home\",\"status\":\"publish\",\"type\":\"page\",\"link\":\"https:\\/\\/localwp.com\\/\",\"title\":{\"rendered\":\"Home\"},\"content\":{\"rendered\":\"\",\"protected\":false},\"excerpt\":{\"rendered\":\"\",\"protected\":false},\"author\":49,\"featured_media\":0,\"parent\":0,\"menu_order\":0,\"comment_status\":\"closed\",\"ping_status\":\"closed\",\"template\":\"page-templates\\/home.php\",\"meta\":{\"_acf_changed\":false,\"_crdt_document\":\"\",\"footnotes\":\"\"},\"class_list\":[\"post-4\",\"page\",\"type-page\",\"status-publish\",\"hentry\"],\"acf\":[],\"featured_image_src\":null,\"featured_image_src_square\":null,\"_links\":{\"self\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/pages\\/4\",\"targetHints\":{\"allow\":[\"GET\"]}}],\"collection\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/pages\"}],\"about\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/types\\/page\"}],\"author\":[{\"embeddable\":true,\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/users\\/49\"}],\"replies\":[{\"embeddable\":true,\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/comments?post=4\"}],\"version-history\":[{\"count\":0,\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/pages\\/4\\/revisions\"}],\"wp:attachment\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/media?parent=4\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}}",
+      "tokens": [
+        "id",
+        "date",
+        "2016",
+        "11",
+        "30t14",
+        "41",
+        "24",
+        "date_gmt",
+        "2016",
+        "11",
+        "30t14",
+        "41",
+        "24",
+        "guid",
+        "rendered",
+        "http",
+        "local",
+        "getflywheel",
+        "com",
+        "page_id",
+        "modified",
+        "2016",
+        "11",
+        "30t14",
+        "42",
+        "00",
+        "modified_gmt",
+        "2016",
+        "11",
+        "30t14",
+        "42",
+        "00",
+        "slug",
+        "home",
+        "status",
+        "publish",
+        "type",
+        "page",
+        "link",
+        "https",
+        "localwp",
+        "com",
+        "title",
+        "rendered",
+        "home",
+        "content",
+        "rendered",
+        "protected",
+        "false",
+        "excerpt",
+        "rendered",
+        "protected",
+        "false",
+        "author",
+        "49",
+        "featured_media",
+        "parent",
+        "menu_order",
+        "comment_status",
+        "closed",
+        "ping_status",
+        "closed",
+        "template",
+        "page",
+        "templates",
+        "home",
+        "php",
+        "meta",
+        "_acf_changed",
+        "false",
+        "_crdt_document",
+        "footnotes",
+        "class_list",
+        "post",
+        "page",
+        "type",
+        "page",
+        "status",
+        "publish",
+        "hentry",
+        "acf",
+        "featured_image_src",
+        "null",
+        "featured_image_src_square",
+        "null",
+        "_links",
+        "self",
+        "href",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "pages",
+        "targethints",
+        "allow",
+        "get",
+        "collection",
+        "href",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "pages",
+        "about",
+        "href",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "types",
+        "page",
+        "author",
+        "embeddable",
+        "true",
+        "href",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "users",
+        "49",
+        "replies",
+        "embeddable",
+        "true",
+        "href",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "comments",
+        "post",
+        "version",
+        "history",
+        "count",
+        "href",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "pages",
+        "revisions",
+        "wp",
+        "attachment",
+        "href",
+        "https",
+        "localwp",
+        "com",
+        "wp",
+        "json",
+        "wp",
+        "v2",
+        "media",
+        "parent",
+        "curies",
+        "name",
+        "wp",
+        "href",
+        "https",
+        "api",
+        "org",
+        "rel",
+        "templated",
+        "true"
+      ]
+    },
+    {
+      "charEnd": 1592,
+      "charStart": 1588,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.2",
+      "kind": "bullet",
+      "text": "wp",
+      "tokens": [
+        "wp"
+      ]
+    },
+    {
+      "charEnd": 1598,
+      "charStart": 1593,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1606,
+      "charStart": 1599,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.4",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1613,
+      "charStart": 1607,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.5",
+      "kind": "bullet",
+      "text": "href",
+      "tokens": [
+        "href"
+      ]
+    },
+    {
+      "charEnd": 1623,
+      "charStart": 1614,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.6",
+      "kind": "bullet",
+      "text": "localwp",
+      "tokens": [
+        "localwp"
+      ]
+    },
+    {
+      "charEnd": 1630,
+      "charStart": 1624,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.7",
+      "kind": "bullet",
+      "text": "json",
+      "tokens": [
+        "json"
+      ]
+    },
+    {
+      "charEnd": 1635,
+      "charStart": 1631,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.8",
+      "kind": "bullet",
+      "text": "v2",
+      "tokens": [
+        "v2"
+      ]
+    },
+    {
+      "charEnd": 1642,
+      "charStart": 1636,
+      "factId": "hz.web.46aa9fc75ab49b36.fact.9",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.46aa9fc75ab49b36.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "localwp.com"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.46aa9fc75ab49b36.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1586,
+      "charStart": 1575,
+      "headingId": "hz.web.46aa9fc75ab49b36.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1654,
+      "charStart": 1644,
+      "headingId": "hz.web.46aa9fc75ab49b36.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/46aa9fc75ab49b36.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3347,
+        "start": 0
+      }
+    ],
+    "hash": "53fbcc7321e1d018be04878fd65e39ceaccb1e898d43e1394947f519fd3225b5",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"id\":4,\"date\":\"2016-11-30T14:41:24\",\"date_gmt\":\"2016-11-30T14:41:24\",\"guid\":{\"rendered\":\"http:\\/\\/local.getflywheel.com\\/?page_id=4\"},\"modified\":\"2016-11-30T14:42:00\",\"modified_gmt\":\"2016-11-30T14:42:00\",\"slug\":\"home\",\"status\":\"publish\",\"type\":\"page\",\"link\":\"https:\\/\\/localwp.com\\/\",\"title\":{\"rendered\":\"Home\"},\"content\":{\"rendered\":\"\",\"protected\":false},\"excerpt\":{\"rendered\":\"\",\"protected\":false},\"author\":49,\"featured_media\":0,\"parent\":0,\"menu_order\":0,\"comment_status\":\"closed\",\"ping_status\":\"closed\",\"template\":\"page-templates\\/home.php\",\"meta\":{\"_acf_changed\":false,\"_crdt_document\":\"\",\"footnotes\":\"\"},\"class_list\":[\"post-4\",\"page\",\"type-page\",\"status-publish\",\"hentry\"],\"acf\":[],\"featured_image_src\":null,\"featured_image_src_square\":null,\"_links\":{\"self\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/pages\\/4\",\"targetHints\":{\"allow\":[\"GET\"]}}],\"collection\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/pages\"}],\"about\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/types\\/page\"}],\"author\":[{\"embeddable\":true,\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/users\\/49\"}],\"replies\":[{\"embeddable\":true,\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/comments?post=4\"}],\"version-history\":[{\"count\":0,\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/pages\\/4\\/revisions\"}],\"wp:attachment\":[{\"href\":\"https:\\/\\/localwp.com\\/wp-json\\/wp\\/v2\\/media?parent=4\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}}",
+      "wp",
+      "com"
+    ],
+    "medium": "Source: https://localwp.com/wp-json/wp/v2/pages/4",
+    "short": "Source: https://localwp.com/wp-json/wp/v2/pages/4",
+    "tokens": [
+      "localwp",
+      "com",
+      "source",
+      "https",
+      "localwp",
+      "com",
+      "wp",
+      "json",
+      "wp",
+      "v2",
+      "pages",
+      "source",
+      "https",
+      "localwp",
+      "com",
+      "wp",
+      "json",
+      "wp",
+      "v2",
+      "pages"
+    ]
+  },
+  "title": "localwp.com"
+}

@@ -1,0 +1,365 @@
+{
+  "aliases": [
+    {
+      "alias": "44daa17900b309a9",
+      "aliasId": "hz.web.44daa17900b309a9.alias.1",
+      "canonical": "national library of medicine | national institutes of health | open data portal"
+    },
+    {
+      "alias": "national library of medicine national institutes of health open data portal",
+      "aliasId": "hz.web.44daa17900b309a9.alias.2",
+      "canonical": "national library of medicine | national institutes of health | open data portal"
+    },
+    {
+      "alias": "web 44daa17900b309a9",
+      "aliasId": "hz.web.44daa17900b309a9.alias.3",
+      "canonical": "national library of medicine | national institutes of health | open data portal"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.44daa17900b309a9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.44daa17900b309a9.entity.1",
+      "kind": "document",
+      "name": "National Library of Medicine | National Institutes of Health | Open Data Portal",
+      "tokens": [
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "institutes",
+        "health",
+        "open",
+        "data",
+        "portal"
+      ]
+    },
+    {
+      "entityId": "hz.web.44daa17900b309a9.entity.2",
+      "kind": "heading",
+      "name": "National Library of Medicine | National Institutes of Health | Open Data Portal",
+      "tokens": [
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "institutes",
+        "health",
+        "open",
+        "data",
+        "portal"
+      ]
+    },
+    {
+      "entityId": "hz.web.44daa17900b309a9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.44daa17900b309a9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.44daa17900b309a9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 138,
+      "charStart": 84,
+      "factId": "hz.web.44daa17900b309a9.fact.1",
+      "kind": "summary",
+      "text": "Source: https://datadiscovery.nlm.nih.gov/admin/assets",
+      "tokens": [
+        "source",
+        "https",
+        "datadiscovery",
+        "nlm",
+        "nih",
+        "gov",
+        "admin",
+        "assets"
+      ]
+    },
+    {
+      "charEnd": 461,
+      "charStart": 190,
+      "factId": "hz.web.44daa17900b309a9.fact.1",
+      "kind": "bullet",
+      "text": "National Library of Medicine | National Institutes of Health | Open Data Portal Skip to main content Skip to footer An official website of the United States Government Here's how you know Official websites use .gov Federal government websites often end in .gov or .mil.",
+      "tokens": [
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "institutes",
+        "health",
+        "open",
+        "data",
+        "portal",
+        "skip",
+        "main",
+        "content",
+        "skip",
+        "footer",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "federal",
+        "government",
+        "websites",
+        "often",
+        "end",
+        "gov",
+        "mil"
+      ]
+    },
+    {
+      "charEnd": 548,
+      "charStart": 462,
+      "factId": "hz.web.44daa17900b309a9.fact.2",
+      "kind": "bullet",
+      "text": "Before sharing sensitive information, make sure you're on a federal government site.",
+      "tokens": [
+        "before",
+        "sharing",
+        "sensitive",
+        "information",
+        "make",
+        "sure",
+        "re",
+        "federal",
+        "government",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 549,
+      "factId": "hz.web.44daa17900b309a9.fact.3",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 720,
+      "charStart": 656,
+      "factId": "hz.web.44daa17900b309a9.fact.4",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 740,
+      "charStart": 735,
+      "factId": "hz.web.44daa17900b309a9.fact.5",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 746,
+      "charStart": 741,
+      "factId": "hz.web.44daa17900b309a9.fact.6",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 757,
+      "charStart": 747,
+      "factId": "hz.web.44daa17900b309a9.fact.7",
+      "kind": "bullet",
+      "text": "websites",
+      "tokens": [
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 764,
+      "charStart": 758,
+      "factId": "hz.web.44daa17900b309a9.fact.8",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 765,
+      "factId": "hz.web.44daa17900b309a9.fact.9",
+      "kind": "bullet",
+      "text": "government",
+      "tokens": [
+        "government"
+      ]
+    },
+    {
+      "charEnd": 788,
+      "charStart": 778,
+      "factId": "hz.web.44daa17900b309a9.fact.10",
+      "kind": "bullet",
+      "text": "official",
+      "tokens": [
+        "official"
+      ]
+    },
+    {
+      "charEnd": 797,
+      "charStart": 789,
+      "factId": "hz.web.44daa17900b309a9.fact.11",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 806,
+      "charStart": 798,
+      "factId": "hz.web.44daa17900b309a9.fact.12",
+      "kind": "bullet",
+      "text": "browse",
+      "tokens": [
+        "browse"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 82,
+      "charStart": 1,
+      "headingId": "hz.web.44daa17900b309a9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "National Library of Medicine | National Institutes of Health | Open Data Portal"
+    },
+    {
+      "charEnd": 188,
+      "charStart": 178,
+      "headingId": "hz.web.44daa17900b309a9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 733,
+      "charStart": 722,
+      "headingId": "hz.web.44daa17900b309a9.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 818,
+      "charStart": 808,
+      "headingId": "hz.web.44daa17900b309a9.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/44daa17900b309a9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1944,
+        "start": 0
+      }
+    ],
+    "hash": "e06e71509992db56c26d8d1b2763258537b53b931ce0c8831a238d66ff54d62f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "National Library of Medicine | National Institutes of Health | Open Data Portal Skip to main content Skip to footer An official website of the United States Government Here's how you know Official websites use .gov Federal government websites often end in .gov or .mil.",
+      "Before sharing sensitive information, make sure you're on a federal government site.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website."
+    ],
+    "medium": "Source: https://datadiscovery.nlm.nih.gov/admin/assets",
+    "short": "Source: https://datadiscovery.nlm.nih.gov/admin/assets",
+    "tokens": [
+      "national",
+      "library",
+      "medicine",
+      "national",
+      "institutes",
+      "health",
+      "open",
+      "data",
+      "portal",
+      "source",
+      "https",
+      "datadiscovery",
+      "nlm",
+      "nih",
+      "gov",
+      "admin",
+      "assets",
+      "source",
+      "https",
+      "datadiscovery",
+      "nlm",
+      "nih",
+      "gov",
+      "admin",
+      "assets"
+    ]
+  },
+  "title": "National Library of Medicine | National Institutes of Health | Open Data Portal"
+}

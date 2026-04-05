@@ -1,0 +1,344 @@
+{
+  "aliases": [
+    {
+      "alias": "7bc4db0979454b45",
+      "aliasId": "hz.web.7bc4db0979454b45.alias.1",
+      "canonical": "web-assets.ifttt.com"
+    },
+    {
+      "alias": "web 7bc4db0979454b45",
+      "aliasId": "hz.web.7bc4db0979454b45.alias.2",
+      "canonical": "web-assets.ifttt.com"
+    },
+    {
+      "alias": "web-assets.ifttt.com",
+      "aliasId": "hz.web.7bc4db0979454b45.alias.3",
+      "canonical": "web-assets.ifttt.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.7bc4db0979454b45",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7bc4db0979454b45.entity.1",
+      "kind": "document",
+      "name": "web-assets.ifttt.com",
+      "tokens": [
+        "web",
+        "assets",
+        "ifttt",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bc4db0979454b45.entity.2",
+      "kind": "heading",
+      "name": "web-assets.ifttt.com",
+      "tokens": [
+        "web",
+        "assets",
+        "ifttt",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bc4db0979454b45.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bc4db0979454b45.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bc4db0979454b45.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 96,
+      "charStart": 25,
+      "factId": "hz.web.7bc4db0979454b45.fact.1",
+      "kind": "summary",
+      "text": "Source: https://web-assets.ifttt.com/builds/assets/favicon-DgWkFanB.svg",
+      "tokens": [
+        "source",
+        "https",
+        "web",
+        "assets",
+        "ifttt",
+        "com",
+        "builds",
+        "assets",
+        "favicon",
+        "dgwkfanb",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 652,
+      "charStart": 148,
+      "factId": "hz.web.7bc4db0979454b45.fact.1",
+      "kind": "bullet",
+      "text": "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><style>#l{fill:#fff}#bg{fill:#222}@media (prefers-color-scheme:dark){#l{fill:#222}#bg{fill:#fff}}</style><g fill=\"none\" fill-rule=\"evenodd\"><path id=\"bg\" d=\"m0 0h32v32h-32z\"/><g id=\"l\" fill-rule=\"nonzero\"><path d=\"m11 13v2h2v5h2v-5h2v-2z\"/><path d=\"m18 13v2h2v5h2v-5h2v-2z\"/><path d=\"m25 13v2h2v5h2v-5h2v-2z\"/><path d=\"m2 13h2v7h-2z\"/><path d=\"m10 15v-2h-5v7h2.00292969v-1.9967041h1.99707031v-2.0042114h-1.99707031v-.9990845z\"/></g></g></svg>",
+      "tokens": [
+        "svg",
+        "viewbox",
+        "32",
+        "32",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2000",
+        "svg",
+        "style",
+        "fill",
+        "fff",
+        "bg",
+        "fill",
+        "222",
+        "media",
+        "prefers",
+        "color",
+        "scheme",
+        "dark",
+        "fill",
+        "222",
+        "bg",
+        "fill",
+        "fff",
+        "style",
+        "fill",
+        "none",
+        "fill",
+        "rule",
+        "evenodd",
+        "path",
+        "id",
+        "bg",
+        "m0",
+        "0h32v32h",
+        "32z",
+        "id",
+        "fill",
+        "rule",
+        "nonzero",
+        "path",
+        "m11",
+        "13v2h2v5h2v",
+        "5h2v",
+        "2z",
+        "path",
+        "m18",
+        "13v2h2v5h2v",
+        "5h2v",
+        "2z",
+        "path",
+        "m25",
+        "13v2h2v5h2v",
+        "5h2v",
+        "2z",
+        "path",
+        "m2",
+        "13h2v7h",
+        "2z",
+        "path",
+        "m10",
+        "15v",
+        "2h",
+        "5v7h2",
+        "00292969v",
+        "9967041h1",
+        "99707031v",
+        "0042114h",
+        "99707031v",
+        "9990845z",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 673,
+      "charStart": 667,
+      "factId": "hz.web.7bc4db0979454b45.fact.2",
+      "kind": "bullet",
+      "text": "fill",
+      "tokens": [
+        "fill"
+      ]
+    },
+    {
+      "charEnd": 680,
+      "charStart": 674,
+      "factId": "hz.web.7bc4db0979454b45.fact.3",
+      "kind": "bullet",
+      "text": "path",
+      "tokens": [
+        "path"
+      ]
+    },
+    {
+      "charEnd": 685,
+      "charStart": 681,
+      "factId": "hz.web.7bc4db0979454b45.fact.4",
+      "kind": "bullet",
+      "text": "2z",
+      "tokens": [
+        "2z"
+      ]
+    },
+    {
+      "charEnd": 699,
+      "charStart": 686,
+      "factId": "hz.web.7bc4db0979454b45.fact.5",
+      "kind": "bullet",
+      "text": "13v2h2v5h2v",
+      "tokens": [
+        "13v2h2v5h2v"
+      ]
+    },
+    {
+      "charEnd": 706,
+      "charStart": 700,
+      "factId": "hz.web.7bc4db0979454b45.fact.6",
+      "kind": "bullet",
+      "text": "5h2v",
+      "tokens": [
+        "5h2v"
+      ]
+    },
+    {
+      "charEnd": 711,
+      "charStart": 707,
+      "factId": "hz.web.7bc4db0979454b45.fact.7",
+      "kind": "bullet",
+      "text": "bg",
+      "tokens": [
+        "bg"
+      ]
+    },
+    {
+      "charEnd": 717,
+      "charStart": 712,
+      "factId": "hz.web.7bc4db0979454b45.fact.8",
+      "kind": "bullet",
+      "text": "svg",
+      "tokens": [
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 723,
+      "charStart": 718,
+      "factId": "hz.web.7bc4db0979454b45.fact.9",
+      "kind": "bullet",
+      "text": "222",
+      "tokens": [
+        "222"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.7bc4db0979454b45.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "web-assets.ifttt.com"
+    },
+    {
+      "charEnd": 146,
+      "charStart": 136,
+      "headingId": "hz.web.7bc4db0979454b45.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 665,
+      "charStart": 654,
+      "headingId": "hz.web.7bc4db0979454b45.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 735,
+      "charStart": 725,
+      "headingId": "hz.web.7bc4db0979454b45.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7bc4db0979454b45.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1507,
+        "start": 0
+      }
+    ],
+    "hash": "dc1725dd2741268123402004f5599b0075d764d6f40e6f82637fa864c7eb11ce",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<svg viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\"><style>#l{fill:#fff}#bg{fill:#222}@media (prefers-color-scheme:dark){#l{fill:#222}#bg{fill:#fff}}</style><g fill=\"none\" fill-rule=\"evenodd\"><path id=\"bg\" d=\"m0 0h32v32h-32z\"/><g id=\"l\" fill-rule=\"nonzero\"><path d=\"m11 13v2h2v5h2v-5h2v-2z\"/><path d=\"m18 13v2h2v5h2v-5h2v-2z\"/><path d=\"m25 13v2h2v5h2v-5h2v-2z\"/><path d=\"m2 13h2v7h-2z\"/><path d=\"m10 15v-2h-5v7h2.00292969v-1.9967041h1.99707031v-2.0042114h-1.99707031v-.9990845z\"/></g></g></svg>",
+      "fill",
+      "path"
+    ],
+    "medium": "Source: https://web-assets.ifttt.com/builds/assets/favicon-DgWkFanB.svg",
+    "short": "Source: https://web-assets.ifttt.com/builds/assets/favicon-DgWkFanB.svg",
+    "tokens": [
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "source",
+      "https",
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "builds",
+      "assets",
+      "favicon",
+      "dgwkfanb",
+      "svg",
+      "source",
+      "https",
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "builds",
+      "assets",
+      "favicon",
+      "dgwkfanb",
+      "svg"
+    ]
+  },
+  "title": "web-assets.ifttt.com"
+}

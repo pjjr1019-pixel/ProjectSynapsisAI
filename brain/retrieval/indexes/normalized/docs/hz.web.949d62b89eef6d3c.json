@@ -1,0 +1,433 @@
+{
+  "aliases": [
+    {
+      "alias": "949d62b89eef6d3c",
+      "aliasId": "hz.web.949d62b89eef6d3c.alias.1",
+      "canonical": "google 검색 고객센터"
+    },
+    {
+      "alias": "google",
+      "aliasId": "hz.web.949d62b89eef6d3c.alias.2",
+      "canonical": "google 검색 고객센터"
+    },
+    {
+      "alias": "web 949d62b89eef6d3c",
+      "aliasId": "hz.web.949d62b89eef6d3c.alias.3",
+      "canonical": "google 검색 고객센터"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.81,
+  "docId": "hz.web.949d62b89eef6d3c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.949d62b89eef6d3c.entity.1",
+      "kind": "document",
+      "name": "Google 검색 고객센터",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "entityId": "hz.web.949d62b89eef6d3c.entity.2",
+      "kind": "heading",
+      "name": "Google 검색 고객센터",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "entityId": "hz.web.949d62b89eef6d3c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.949d62b89eef6d3c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.949d62b89eef6d3c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 102,
+      "charStart": 19,
+      "factId": "hz.web.949d62b89eef6d3c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://support.google.com/websearch/answer/4358949?hl=ko&ref_topic=3285072",
+      "tokens": [
+        "source",
+        "https",
+        "support",
+        "google",
+        "com",
+        "websearch",
+        "answer",
+        "4358949",
+        "hl",
+        "ko",
+        "ref_topic",
+        "3285072"
+      ]
+    },
+    {
+      "charEnd": 269,
+      "charStart": 154,
+      "factId": "hz.web.949d62b89eef6d3c.fact.1",
+      "kind": "bullet",
+      "text": "Google 검색 고객센터 기본 콘텐츠로 이동 Google 검색 고객센터 로그인 Google 도움말 도움말 센터 Google 검색 개인정보 취급방침 서비스 약관 의견 보내기 다음에 관한 의견 보내기...",
+      "tokens": [
+        "google",
+        "google",
+        "google",
+        "google"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 270,
+      "factId": "hz.web.949d62b89eef6d3c.fact.2",
+      "kind": "bullet",
+      "text": "이 도움말 콘텐츠 및 정보 일반적인 고객센터 사용 환경 다음 도움말 센터 Google 계정 개선하기 Google 검색 도움말 포럼 포럼 어떻게 도와드릴까요?",
+      "tokens": [
+        "google",
+        "google"
+      ]
+    },
+    {
+      "charEnd": 3202,
+      "charStart": 360,
+      "factId": "hz.web.949d62b89eef6d3c.fact.3",
+      "kind": "bullet",
+      "text": "도움말 주제 찾아보기 자주 사용되는 도움말 Google 검색 기록 찾기 및 삭제하기 Google에서 검색할 때 사용되는 위치 정보 이해 및 관리 Google 자동 완성 예상 검색어 관리하기 Identify & shop from Small Businesses on Google Search '웹 및 앱 활동' 확인 및 제어하기 디스커버에 표시되는 카드 맞춤설정 사진 및 주변 사물 정보 확인하기 Google 음성 검색 사용하기 웹 및 앱 활동에서 시각적 검색 기록 관리하기 Learn About으로 학습 강화하기 Google 검색에서 AI 개요로 더 쉽고 빠르게 정보 찾기 Google 계정 또는 Gmail을 복구하는 방법 디스커버 피드 소스 개요 Android XR에서 Google로 검색하는 방법 Google 앱의 이미지 탭으로 이미지 탐색 및 수집하기 Google 검색 결과에서 개인의 성적 이미지 삭제하기 문제해결 및 요청 삭제 문제 신고 Google 검색에서 개인 콘텐츠 삭제 요청하기 선정적이거나 개인적인 개인 이미지 삭제 지원받기 Google 검색 결과에서 개인 연락처 정보 찾기 및 삭제하기 Google 검색 외부 콘텐츠 삭제 옵션 검색 기능 검색 팁 알아보기 및 검색 결과와 Google에서 검색한 내용과의 관련성에 관해 알아보기 검색 가능한 내용 필터로 검색결과 범위 좁히기 Google 검색의 접근성 Gmail에서 여행 검색결과 가져오기 Google 도서 사용 웹페이지 자세히 알아보기 이미지 자세히 알아보기 Google 검색에서 동영상 찾기 Google에서 찾은 정보 평가하기 관심분야 액세스 및 관리 휴대기기 Android에서 Google 앱 사용 iPhone 및 iPad에서 Google 앱 사용 Google Go 앱 사용 Gboard 설정하기 Google 검색결과의 장소를 휴대전화로 보내기 Discover food ordering with Google Google 검색에서 3D 및 증강 현실 체험하기 서클 투 서치로 화면 검색하기 iOS 잠금 화면, 제어 센터, 작업 버튼에 Google 검색 바로가기 추가하기 이미지 검색 Google에서 이미지 삭제하기 Google에서 이미지 검색하기 Google에서 이미지를 사용해 검색하기 Google 이미지 관련 문제 해결하기 사용 및 공유할 수 있는 이미지 찾기 Google에 이미지 추가 이미지 정보 확인 및 이미지에 대한 작업 Google 이미지 세부정보 확인하기 렌즈에서 지역 선택 시각적 검색 기록 이미지를 제공하여 Google을 개선하세요 개인정보 보호 관리 세이프서치로 Google 검색의 보안 강화하기 '웹 및 앱 활동' 확인 및 제어하기 관리하는 계정, 기기 및 네트워크에서 세이프서치 설정 잠금 Gmail에서 여행 검색결과 가져오기 Google 검색 기록 찾기 및 삭제하기 계정에 저장되는 활동 제어 본인 소유가 아닌 기기에 로그인 내 활동에서 Google 검색이 작동하는 방식 맞춤설정 및 Google 검색 결과 내 Google 검색 결과가 다른 사용자와 다르게 표시되는 이유 Google에서 쇼핑 환경설정 관리하기 연결된 Google 서비스 관리하기 DMA 및 연결된 서비스 관련 안내 안전한 비밀번호를 만드는 방법 검색결과 필터링 및 상세검색 Google 검색에 참여하기 계산기, 단위 변환기, 색상 코드 관리하기 증권 팔로우 및 비교하기 더 정확한 Google 검색 결과 얻기 링크, 이미지 등의 항목 저장하기 알림 만들기 Google에서 고급검색 실행하기 Google 검색의 접근성 Discover food ordering with Google Google에서 TV 프로그램 및 영화 검색하기 검색결과의 장소 수정 제안하기 주변에서 재생되는 노래 찾기 Google 검색에서 번역된 페이지 열기 Google Finance로 포트폴리오 만들기 및 관리하기 Google에서 도서 찾기 내 컬렉션 및 저장된 항목 관리하기 Google 검색에 결과 언어 필터 사용하기 Search Researcher Result API Google 검색 연구원 프로그램 Google 검색에서 AI 기반 Google Finance 사용해 보기 YouTube Shorts 동영상을 시청하면서 Google 렌즈 사용하기 설정 Google을 홈페이지로 설정하기 Google을 기본 검색엔진으로 설정하기 검색 위젯 추가 및 맞춤설정하기 Google 검색 브라우저 설정 변경하기 Google에서 표시 언어 변경하기 기기의 연락처 정보 관리하기 지식 패널 업데이트 디스커버 사용 중지하기 디스커버 설정 변경하기 기기의 앱 정보 관리 Google에서 검색 결과에 표시할 언어를 파악하는 방법 Top Stories in Search iPhone에서 Google 앱의 자동 어두운 모드 설정하기 Google 검색에서의 생성형 AI Google 검색에서 AI 개요로 더 쉽고 빠르게 정보 찾기 Google 검색 AI 모드로 AI 기반 대답 받기 Google 검색 Live로 실시간 대화하기 Learn About으로 학습 강화하기 Google 검색에서 AI로 지역 비즈니스의 가격 정보 확인하는 방법 Google 검색에서 AI 기반 대답 공유하기 AI 모드에서 이미지 만들기 및 수정하기 Google 검색의 AI 모드에서 직접 구매하고 주문 관리하기 Google 콘텐츠 앱을 연결하여 나에게 맞춤설정된 Google 검색 환경을 이용하세요 Search Labs Labs에서 실험 사용해 보기 Search Labs 및 실험 버전이 제공되는 지역 생성형 AI에 대해 자세히 알아보기 Search Labs의 'AI 모드' AI 모드에서 Deep Search를 사용하여 심층 조사하기 'AI 모드'의 Canvas로 제작, 계획, 정리, 공동작업하기 Labs에서 Windows용 Google 앱 실험 시작하기 도움이 더 필요하신가요?",
+      "tokens": [
+        "google",
+        "google",
+        "google",
+        "identify",
+        "shop",
+        "small",
+        "businesses",
+        "google",
+        "search",
+        "google",
+        "learn",
+        "about",
+        "google",
+        "ai",
+        "google",
+        "gmail",
+        "android",
+        "xr",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "gmail",
+        "google",
+        "google",
+        "google",
+        "android",
+        "google",
+        "iphone",
+        "ipad",
+        "google",
+        "google",
+        "go",
+        "gboard",
+        "google",
+        "discover",
+        "food",
+        "ordering",
+        "google",
+        "google",
+        "3d",
+        "ios",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "gmail",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "dma",
+        "google",
+        "google",
+        "google",
+        "google",
+        "discover",
+        "food",
+        "ordering",
+        "google",
+        "google",
+        "tv",
+        "google",
+        "google",
+        "finance",
+        "google",
+        "google",
+        "search",
+        "researcher",
+        "result",
+        "api",
+        "google",
+        "google",
+        "ai",
+        "google",
+        "finance",
+        "youtube",
+        "shorts",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "google",
+        "top",
+        "stories",
+        "search",
+        "iphone",
+        "google",
+        "google",
+        "ai",
+        "google",
+        "ai",
+        "google",
+        "ai",
+        "ai",
+        "google",
+        "live",
+        "learn",
+        "about",
+        "google",
+        "ai",
+        "google",
+        "ai",
+        "ai",
+        "google",
+        "ai",
+        "google",
+        "google",
+        "search",
+        "labs",
+        "labs",
+        "search",
+        "labs",
+        "ai",
+        "search",
+        "labs",
+        "ai",
+        "ai",
+        "deep",
+        "search",
+        "ai",
+        "canvas",
+        "labs",
+        "windows",
+        "google"
+      ]
+    },
+    {
+      "charEnd": 3220,
+      "charStart": 3203,
+      "factId": "hz.web.949d62b89eef6d3c.fact.4",
+      "kind": "bullet",
+      "text": "다음 단계를 시도해 보세요.",
+      "tokens": []
+    },
+    {
+      "charEnd": 3243,
+      "charStart": 3235,
+      "factId": "hz.web.949d62b89eef6d3c.fact.5",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "charEnd": 3249,
+      "charStart": 3244,
+      "factId": "hz.web.949d62b89eef6d3c.fact.6",
+      "kind": "bullet",
+      "text": "lrm",
+      "tokens": [
+        "lrm"
+      ]
+    },
+    {
+      "charEnd": 3254,
+      "charStart": 3250,
+      "factId": "hz.web.949d62b89eef6d3c.fact.7",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 3263,
+      "charStart": 3255,
+      "factId": "hz.web.949d62b89eef6d3c.fact.8",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 3270,
+      "charStart": 3264,
+      "factId": "hz.web.949d62b89eef6d3c.fact.9",
+      "kind": "bullet",
+      "text": "true",
+      "tokens": [
+        "true"
+      ]
+    },
+    {
+      "charEnd": 3277,
+      "charStart": 3271,
+      "factId": "hz.web.949d62b89eef6d3c.fact.10",
+      "kind": "bullet",
+      "text": "labs",
+      "tokens": [
+        "labs"
+      ]
+    },
+    {
+      "charEnd": 3283,
+      "charStart": 3278,
+      "factId": "hz.web.949d62b89eef6d3c.fact.11",
+      "kind": "bullet",
+      "text": "rlm",
+      "tokens": [
+        "rlm"
+      ]
+    },
+    {
+      "charEnd": 3291,
+      "charStart": 3284,
+      "factId": "hz.web.949d62b89eef6d3c.fact.12",
+      "kind": "bullet",
+      "text": "false",
+      "tokens": [
+        "false"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.949d62b89eef6d3c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Google 검색 고객센터"
+    },
+    {
+      "charEnd": 152,
+      "charStart": 142,
+      "headingId": "hz.web.949d62b89eef6d3c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 3233,
+      "charStart": 3222,
+      "headingId": "hz.web.949d62b89eef6d3c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 3303,
+      "charStart": 3293,
+      "headingId": "hz.web.949d62b89eef6d3c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/949d62b89eef6d3c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 6579,
+        "start": 0
+      }
+    ],
+    "hash": "d1f682519ed6461c99ee26e15fe38a18a80f05338d25c976420630750a5c497d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Google 검색 고객센터 기본 콘텐츠로 이동 Google 검색 고객센터 로그인 Google 도움말 도움말 센터 Google 검색 개인정보 취급방침 서비스 약관 의견 보내기 다음에 관한 의견 보내기...",
+      "이 도움말 콘텐츠 및 정보 일반적인 고객센터 사용 환경 다음 도움말 센터 Google 계정 개선하기 Google 검색 도움말 포럼 포럼 어떻게 도와드릴까요?",
+      "도움말 주제 찾아보기 자주 사용되는 도움말 Google 검색 기록 찾기 및 삭제하기 Google에서 검색할 때 사용되는 위치 정보 이해 및 관리 Google 자동 완성 예상 검색어 관리하기 Identify & shop from Small Businesses on Google Search '웹 및 앱 활동' 확인 및 제어하기 디스커버에 표시되는 카드 맞춤설정 사진 및 주변 사물 정보 확인하기 Google 음성 검색 사용하기 웹 및 앱 활동에서 시각적 검색 기록 관리하기 Learn About으로 학습 강화하기 Google 검색에서 AI 개요로 더 쉽고 빠르게 정보 찾기 Google 계정 또는 Gmail을 복구하는 방법 디스커버 피드 소스 개요 Android XR에서 Google로 검색하는 방법 Google 앱의 이미지 탭으로 이미지 탐색 및 수집하기 Google 검색 결과에서 개인의 성적 이미지 삭제하기 문제해결 및 요청 삭제 문제 신고 Google 검색에서 개인 콘텐츠 삭제 요청하기 선정적이거나 개인적인 개인 이미지 삭제 지원받기 Google 검색 결과에서 개인 연락처 정보 찾기 및 삭제하기 Google 검색 외부 콘텐츠 삭제 옵션 검색 기능 검색 팁 알아보기 및 검색 결과와 Google에서 검색한 내용과의 관련성에 관해 알아보기 검색 가능한 내용 필터로 검색결과 범위 좁히기 Google 검색의 접근성 Gmail에서 여행 검색결과 가져오기 Google 도서 사용 웹페이지 자세히 알아보기 이미지 자세히 알아보기 Google 검색에서 동영상 찾기 Google에서 찾은 정보 평가하기 관심분야 액세스 및 관리 휴대기기 Android에서 Google 앱 사용 iPhone 및 iPad에서 Google 앱 사용 Google Go 앱 사용 Gboard 설정하기 Google 검색결과의 장소를 휴대전화로 보내기 Discover food ordering with Google Google 검색에서 3D 및 증강 현실 체험하기 서클 투 서치로 화면 검색하기 iOS 잠금 화면, 제어 센터, 작업 버튼에 Google 검색 바로가기 추가하기 이미지 검색 Google에서 이미지 삭제하기 Google에서 이미지 검색하기 Google에서 이미지를 사용해 검색하기 Google 이미지 관련 문제 해결하기 사용 및 공유할 수 있는 이미지 찾기 Google에 이미지 추가 이미지 정보 확인 및 이미지에 대한 작업 Google 이미지 세부정보 확인하기 렌즈에서 지역 선택 시각적 검색 기록 이미지를 제공하여 Google을 개선하세요 개인정보 보호 관리 세이프서치로 Google 검색의 보안 강화하기 '웹 및 앱 활동' 확인 및 제어하기 관리하는 계정, 기기 및 네트워크에서 세이프서치 설정 잠금 Gmail에서 여행 검색결과 가져오기 Google 검색 기록 찾기 및 삭제하기 계정에 저장되는 활동 제어 본인 소유가 아닌 기기에 로그인 내 활동에서 Google 검색이 작동하는 방식 맞춤설정 및 Google 검색 결과 내 Google 검색 결과가 다른 사용자와 다르게 표시되는 이유 Google에서 쇼핑 환경설정 관리하기 연결된 Google 서비스 관리하기 DMA 및 연결된 서비스 관련 안내 안전한 비밀번호를 만드는 방법 검색결과 필터링 및 상세검색 Google 검색에 참여하기 계산기, 단위 변환기, 색상 코드 관리하기 증권 팔로우 및 비교하기 더 정확한 Google 검색 결과 얻기 링크, 이미지 등의 항목 저장하기 알림 만들기 Google에서 고급검색 실행하기 Google 검색의 접근성 Discover food ordering with Google Google에서 TV 프로그램 및 영화 검색하기 검색결과의 장소 수정 제안하기 주변에서 재생되는 노래 찾기 Google 검색에서 번역된 페이지 열기 Google Finance로 포트폴리오 만들기 및 관리하기 Google에서 도서 찾기 내 컬렉션 및 저장된 항목 관리하기 Google 검색에 결과 언어 필터 사용하기 Search Researcher Result API Google 검색 연구원 프로그램 Google 검색에서 AI 기반 Google Finance 사용해 보기 YouTube Shorts 동영상을 시청하면서 Google 렌즈 사용하기 설정 Google을 홈페이지로 설정하기 Google을 기본 검색엔진으로 설정하기 검색 위젯 추가 및 맞춤설정하기 Google 검색 브라우저 설정 변경하기 Google에서 표시 언어 변경하기 기기의 연락처 정보 관리하기 지식 패널 업데이트 디스커버 사용 중지하기 디스커버 설정 변경하기 기기의 앱 정보 관리 Google에서 검색 결과에 표시할 언어를 파악하는 방법 Top Stories in Search iPhone에서 Google 앱의 자동 어두운 모드 설정하기 Google 검색에서의 생성형 AI Google 검색에서 AI 개요로 더 쉽고 빠르게 정보 찾기 Google 검색 AI 모드로 AI 기반 대답 받기 Google 검색 Live로 실시간 대화하기 Learn About으로 학습 강화하기 Google 검색에서 AI로 지역 비즈니스의 가격 정보 확인하는 방법 Google 검색에서 AI 기반 대답 공유하기 AI 모드에서 이미지 만들기 및 수정하기 Google 검색의 AI 모드에서 직접 구매하고 주문 관리하기 Google 콘텐츠 앱을 연결하여 나에게 맞춤설정된 Google 검색 환경을 이용하세요 Search Labs Labs에서 실험 사용해 보기 Search Labs 및 실험 버전이 제공되는 지역 생성형 AI에 대해 자세히 알아보기 Search Labs의 'AI 모드' AI 모드에서 Deep Search를 사용하여 심층 조사하기 'AI 모드'의 Canvas로 제작, 계획, 정리, 공동작업하기 Labs에서 Windows용 Google 앱 실험 시작하기 도움이 더 필요하신가요?"
+    ],
+    "medium": "Source: https://support.google.com/websearch/answer/4358949?hl=ko&ref_topic=3285072",
+    "short": "Source: https://support.google.com/websearch/answer/4358949?hl=ko&ref_topic=3285072",
+    "tokens": [
+      "google",
+      "source",
+      "https",
+      "support",
+      "google",
+      "com",
+      "websearch",
+      "answer",
+      "4358949",
+      "hl",
+      "ko",
+      "ref_topic",
+      "3285072",
+      "source",
+      "https",
+      "support",
+      "google",
+      "com",
+      "websearch",
+      "answer",
+      "4358949",
+      "hl",
+      "ko",
+      "ref_topic",
+      "3285072"
+    ]
+  },
+  "title": "Google 검색 고객센터"
+}

@@ -1,0 +1,273 @@
+{
+  "aliases": [
+    {
+      "alias": "1c782911488fcf6b",
+      "aliasId": "hz.web.1c782911488fcf6b.alias.1",
+      "canonical": "linkedin למידה: הדרכה מקוונת קורסים ובניית מיומנויות"
+    },
+    {
+      "alias": "linkedin",
+      "aliasId": "hz.web.1c782911488fcf6b.alias.2",
+      "canonical": "linkedin למידה: הדרכה מקוונת קורסים ובניית מיומנויות"
+    },
+    {
+      "alias": "web 1c782911488fcf6b",
+      "aliasId": "hz.web.1c782911488fcf6b.alias.3",
+      "canonical": "linkedin למידה: הדרכה מקוונת קורסים ובניית מיומנויות"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.1c782911488fcf6b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1c782911488fcf6b.entity.1",
+      "kind": "document",
+      "name": "LinkedIn למידה: הדרכה מקוונת קורסים ובניית מיומנויות",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c782911488fcf6b.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn למידה: הדרכה מקוונת קורסים ובניית מיומנויות",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c782911488fcf6b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c782911488fcf6b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1c782911488fcf6b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 98,
+      "charStart": 57,
+      "factId": "hz.web.1c782911488fcf6b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://il.linkedin.com/learning/",
+      "tokens": [
+        "source",
+        "https",
+        "il",
+        "linkedin",
+        "com",
+        "learning"
+      ]
+    },
+    {
+      "charEnd": 335,
+      "charStart": 150,
+      "factId": "hz.web.1c782911488fcf6b.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn למידה: הדרכה מקוונת קורסים ובניית מיומנויות דילוג לתוכן הראשי למידה ‏LinkedIn Learning כישורי חיפוש, נושאים או תוכנות חיפוש הרחבת החיפוש לחצן זה מציג את סוג החיפוש שנבחר כעת.",
+      "tokens": [
+        "linkedin",
+        "linkedin",
+        "learning"
+      ]
+    },
+    {
+      "charEnd": 441,
+      "charStart": 336,
+      "factId": "hz.web.1c782911488fcf6b.fact.2",
+      "kind": "bullet",
+      "text": "כאשר הוא מורחב, מוצגת רשימה של אפשרויות החיפוש שתחליף את פרטי הקלט של החיפוש כך שיתאימו לבחירה הנוכחית.",
+      "tokens": []
+    },
+    {
+      "charEnd": 717,
+      "charStart": 442,
+      "factId": "hz.web.1c782911488fcf6b.fact.3",
+      "kind": "bullet",
+      "text": "משרות אנשים למידה ניקוי טקסט ניקוי טקסט ניקוי טקסט ניקוי טקסט ניקוי טקסט התחלת ניסיון חינם התחברות לפתח מיומנויות שמקדמות את הקריירה שלך לרשותך הדרכה לפיתוח המיומנויות הקריטיות שדרושות לך לקידום הקריירה שלך מפלטפורמת הלימוד היחידה שניזונה ממידע של שוק הכשרונות הגדול בעולם.",
+      "tokens": []
+    },
+    {
+      "charEnd": 890,
+      "charStart": 718,
+      "factId": "hz.web.1c782911488fcf6b.fact.4",
+      "kind": "bullet",
+      "text": "התחל את החודש החינמי שלי קנה עבור הצוות שלי התאם את הלמידה שלך באופן אישי הגדר יעדי קריירה והשתמש בהערכות מיומנות כדי להתחבר ללמידה הנכונה למקום שבו אתה נמצא בקריירה שלך.",
+      "tokens": []
+    },
+    {
+      "charEnd": 909,
+      "charStart": 905,
+      "factId": "hz.web.1c782911488fcf6b.fact.5",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 923,
+      "charStart": 910,
+      "factId": "hz.web.1c782911488fcf6b.fact.6",
+      "kind": "bullet",
+      "text": "foundations",
+      "tokens": [
+        "foundations"
+      ]
+    },
+    {
+      "charEnd": 934,
+      "charStart": 924,
+      "factId": "hz.web.1c782911488fcf6b.fact.7",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 947,
+      "charStart": 935,
+      "factId": "hz.web.1c782911488fcf6b.fact.8",
+      "kind": "bullet",
+      "text": "management",
+      "tokens": [
+        "management"
+      ]
+    },
+    {
+      "charEnd": 958,
+      "charStart": 948,
+      "factId": "hz.web.1c782911488fcf6b.fact.9",
+      "kind": "bullet",
+      "text": "business",
+      "tokens": [
+        "business"
+      ]
+    },
+    {
+      "charEnd": 972,
+      "charStart": 959,
+      "factId": "hz.web.1c782911488fcf6b.fact.10",
+      "kind": "bullet",
+      "text": "electronics",
+      "tokens": [
+        "electronics"
+      ]
+    },
+    {
+      "charEnd": 985,
+      "charStart": 973,
+      "factId": "hz.web.1c782911488fcf6b.fact.11",
+      "kind": "bullet",
+      "text": "generative",
+      "tokens": [
+        "generative"
+      ]
+    },
+    {
+      "charEnd": 996,
+      "charStart": 986,
+      "factId": "hz.web.1c782911488fcf6b.fact.12",
+      "kind": "bullet",
+      "text": "learning",
+      "tokens": [
+        "learning"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 55,
+      "charStart": 1,
+      "headingId": "hz.web.1c782911488fcf6b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn למידה: הדרכה מקוונת קורסים ובניית מיומנויות"
+    },
+    {
+      "charEnd": 148,
+      "charStart": 138,
+      "headingId": "hz.web.1c782911488fcf6b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 903,
+      "charStart": 892,
+      "headingId": "hz.web.1c782911488fcf6b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1008,
+      "charStart": 998,
+      "headingId": "hz.web.1c782911488fcf6b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/1c782911488fcf6b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4280,
+        "start": 0
+      }
+    ],
+    "hash": "d8c7fc3335fa4b32153ccb4ee05cd1d8419f26c7fc4400ddcd8167d494c8e6f1",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn למידה: הדרכה מקוונת קורסים ובניית מיומנויות דילוג לתוכן הראשי למידה ‏LinkedIn Learning כישורי חיפוש, נושאים או תוכנות חיפוש הרחבת החיפוש לחצן זה מציג את סוג החיפוש שנבחר כעת.",
+      "כאשר הוא מורחב, מוצגת רשימה של אפשרויות החיפוש שתחליף את פרטי הקלט של החיפוש כך שיתאימו לבחירה הנוכחית.",
+      "משרות אנשים למידה ניקוי טקסט ניקוי טקסט ניקוי טקסט ניקוי טקסט ניקוי טקסט התחלת ניסיון חינם התחברות לפתח מיומנויות שמקדמות את הקריירה שלך לרשותך הדרכה לפיתוח המיומנויות הקריטיות שדרושות לך לקידום הקריירה שלך מפלטפורמת הלימוד היחידה שניזונה ממידע של שוק הכשרונות הגדול בעולם."
+    ],
+    "medium": "Source: https://il.linkedin.com/learning/",
+    "short": "Source: https://il.linkedin.com/learning/",
+    "tokens": [
+      "linkedin",
+      "source",
+      "https",
+      "il",
+      "linkedin",
+      "com",
+      "learning",
+      "source",
+      "https",
+      "il",
+      "linkedin",
+      "com",
+      "learning"
+    ]
+  },
+  "title": "LinkedIn למידה: הדרכה מקוונת קורסים ובניית מיומנויות"
+}

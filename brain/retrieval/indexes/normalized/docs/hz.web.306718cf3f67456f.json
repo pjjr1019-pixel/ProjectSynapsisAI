@@ -1,0 +1,323 @@
+{
+  "aliases": [
+    {
+      "alias": "- mayx",
+      "aliasId": "hz.web.306718cf3f67456f.alias.1",
+      "canonical": "首页 - 我的文章 | mayx的博客"
+    },
+    {
+      "alias": "306718cf3f67456f",
+      "aliasId": "hz.web.306718cf3f67456f.alias.2",
+      "canonical": "首页 - 我的文章 | mayx的博客"
+    },
+    {
+      "alias": "web 306718cf3f67456f",
+      "aliasId": "hz.web.306718cf3f67456f.alias.3",
+      "canonical": "首页 - 我的文章 | mayx的博客"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.web.306718cf3f67456f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.306718cf3f67456f.entity.1",
+      "kind": "document",
+      "name": "首页 - 我的文章 | Mayx的博客",
+      "tokens": [
+        "mayx"
+      ]
+    },
+    {
+      "entityId": "hz.web.306718cf3f67456f.entity.2",
+      "kind": "heading",
+      "name": "首页 - 我的文章 | Mayx的博客",
+      "tokens": [
+        "mayx"
+      ]
+    },
+    {
+      "entityId": "hz.web.306718cf3f67456f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.306718cf3f67456f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.306718cf3f67456f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 24,
+      "factId": "hz.web.306718cf3f67456f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://mabbs.github.io/",
+      "tokens": [
+        "source",
+        "https",
+        "mabbs",
+        "github",
+        "io"
+      ]
+    },
+    {
+      "charEnd": 384,
+      "charStart": 108,
+      "factId": "hz.web.306718cf3f67456f.fact.1",
+      "kind": "bullet",
+      "text": "首页 - 我的文章 | Mayx的博客 --> --> --> 发现当前浏览器为Internet Explorer，这不影响你的浏览，但可能会有一些功能无法使用…… Mayx的博客 Mayx's Home Page &#160; View My GitHub Profile About me Download ZIP File Download TAR Ball View On GitHub 首页 - 我的文章 Archives | Random 近期LLM的部署与应用经历(3) 1 March 2026 | Hits: Loading...",
+      "tokens": [
+        "mayx",
+        "internet",
+        "explorer",
+        "mayx",
+        "mayx",
+        "home",
+        "page",
+        "160",
+        "view",
+        "github",
+        "profile",
+        "about",
+        "download",
+        "zip",
+        "file",
+        "download",
+        "tar",
+        "ball",
+        "view",
+        "github",
+        "archives",
+        "random",
+        "llm",
+        "march",
+        "2026",
+        "hits",
+        "loading"
+      ]
+    },
+    {
+      "charEnd": 478,
+      "charStart": 385,
+      "factId": "hz.web.306718cf3f67456f.fact.2",
+      "kind": "bullet",
+      "text": "用更多的方式探索AI！ #AI #LLM #模型部署 #使用体验 在Google杀死XSLT之后的XML美化方案 8 February 2026 | Hits: Loading...",
+      "tokens": [
+        "ai",
+        "ai",
+        "llm",
+        "google",
+        "xslt",
+        "xml",
+        "february",
+        "2026",
+        "hits",
+        "loading"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 479,
+      "factId": "hz.web.306718cf3f67456f.fact.3",
+      "kind": "bullet",
+      "text": "即使没有了XSLT，也不能让读者看到光秃秃的XML！ #XML #Feed #XSLT #美化 年终总结 1 January 2026 | Hits: Loading...",
+      "tokens": [
+        "xslt",
+        "xml",
+        "xml",
+        "feed",
+        "xslt",
+        "january",
+        "2026",
+        "hits",
+        "loading"
+      ]
+    },
+    {
+      "charEnd": 651,
+      "charStart": 568,
+      "factId": "hz.web.306718cf3f67456f.fact.4",
+      "kind": "bullet",
+      "text": "0 error(s), ∞ warning(s) #总结 在浏览器中运行Linux的各种方法 1 December 2025 | Hits: Loading...",
+      "tokens": [
+        "error",
+        "warning",
+        "linux",
+        "december",
+        "2025",
+        "hits",
+        "loading"
+      ]
+    },
+    {
+      "charEnd": 672,
+      "charStart": 666,
+      "factId": "hz.web.306718cf3f67456f.fact.5",
+      "kind": "bullet",
+      "text": "hits",
+      "tokens": [
+        "hits"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 673,
+      "factId": "hz.web.306718cf3f67456f.fact.6",
+      "kind": "bullet",
+      "text": "loading",
+      "tokens": [
+        "loading"
+      ]
+    },
+    {
+      "charEnd": 689,
+      "charStart": 683,
+      "factId": "hz.web.306718cf3f67456f.fact.7",
+      "kind": "bullet",
+      "text": "mayx",
+      "tokens": [
+        "mayx"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 690,
+      "factId": "hz.web.306718cf3f67456f.fact.8",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 699,
+      "factId": "hz.web.306718cf3f67456f.fact.9",
+      "kind": "bullet",
+      "text": "2025",
+      "tokens": [
+        "2025"
+      ]
+    },
+    {
+      "charEnd": 712,
+      "charStart": 706,
+      "factId": "hz.web.306718cf3f67456f.fact.10",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 720,
+      "charStart": 713,
+      "factId": "hz.web.306718cf3f67456f.fact.11",
+      "kind": "bullet",
+      "text": "quine",
+      "tokens": [
+        "quine"
+      ]
+    },
+    {
+      "charEnd": 726,
+      "charStart": 721,
+      "factId": "hz.web.306718cf3f67456f.fact.12",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.306718cf3f67456f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "首页 - 我的文章 | Mayx的博客"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.306718cf3f67456f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 664,
+      "charStart": 653,
+      "headingId": "hz.web.306718cf3f67456f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 738,
+      "charStart": 728,
+      "headingId": "hz.web.306718cf3f67456f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/306718cf3f67456f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2198,
+        "start": 0
+      }
+    ],
+    "hash": "c971e2d5583437c6d1344b311bce29e0ba5bb5b06ec6daf2ddef81a3c56a4be2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "首页 - 我的文章 | Mayx的博客 --> --> --> 发现当前浏览器为Internet Explorer，这不影响你的浏览，但可能会有一些功能无法使用…… Mayx的博客 Mayx's Home Page &#160; View My GitHub Profile About me Download ZIP File Download TAR Ball View On GitHub 首页 - 我的文章 Archives | Random 近期LLM的部署与应用经历(3) 1 March 2026 | Hits: Loading...",
+      "用更多的方式探索AI！ #AI #LLM #模型部署 #使用体验 在Google杀死XSLT之后的XML美化方案 8 February 2026 | Hits: Loading...",
+      "即使没有了XSLT，也不能让读者看到光秃秃的XML！ #XML #Feed #XSLT #美化 年终总结 1 January 2026 | Hits: Loading..."
+    ],
+    "medium": "Source: https://mabbs.github.io/",
+    "short": "Source: https://mabbs.github.io/",
+    "tokens": [
+      "mayx",
+      "source",
+      "https",
+      "mabbs",
+      "github",
+      "io",
+      "source",
+      "https",
+      "mabbs",
+      "github",
+      "io"
+    ]
+  },
+  "title": "首页 - 我的文章 | Mayx的博客"
+}

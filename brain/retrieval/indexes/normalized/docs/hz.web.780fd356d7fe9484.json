@@ -1,0 +1,449 @@
+{
+  "aliases": [
+    {
+      "alias": "780fd356d7fe9484",
+      "aliasId": "hz.web.780fd356d7fe9484.alias.1",
+      "canonical": "home | clinical center"
+    },
+    {
+      "alias": "home clinical center",
+      "aliasId": "hz.web.780fd356d7fe9484.alias.2",
+      "canonical": "home | clinical center"
+    },
+    {
+      "alias": "web 780fd356d7fe9484",
+      "aliasId": "hz.web.780fd356d7fe9484.alias.3",
+      "canonical": "home | clinical center"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.780fd356d7fe9484",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.780fd356d7fe9484.entity.1",
+      "kind": "document",
+      "name": "Home | Clinical Center",
+      "tokens": [
+        "home",
+        "clinical",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.780fd356d7fe9484.entity.2",
+      "kind": "heading",
+      "name": "Home | Clinical Center",
+      "tokens": [
+        "home",
+        "clinical",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.780fd356d7fe9484.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.780fd356d7fe9484.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.780fd356d7fe9484.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 27,
+      "factId": "hz.web.780fd356d7fe9484.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cc.nih.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cc",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 358,
+      "charStart": 110,
+      "factId": "hz.web.780fd356d7fe9484.fact.1",
+      "kind": "bullet",
+      "text": "Home | Clinical Center Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "home",
+        "clinical",
+        "center",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 465,
+      "charStart": 359,
+      "factId": "hz.web.780fd356d7fe9484.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 530,
+      "charStart": 466,
+      "factId": "hz.web.780fd356d7fe9484.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1606,
+      "charStart": 531,
+      "factId": "hz.web.780fd356d7fe9484.fact.4",
+      "kind": "bullet",
+      "text": "Menu Patient Information All Patient Services Access and Directions FollowMyHealth Patient Portal Learn about Clinical Trials Medical Records Requests Patient Handbook Folleto para pacientes Patient Protections Pharmacy Guide Farmacia para pacientes ambulatorios Telehealth Resources Upcoming Events More Find a Study Meet Our Doctors Education & Training Office of Clinical Research Training and Medical Education Continuing Medical Education (CME) Information Graduate Medical Education Medical Research Scholars Program Postbaccalaureate IRTA Program Upcoming Events More Our Organization Accreditation & Governance Information for Referring Physicians Jobs and Opportunities Resources for Researchers Senior Staff & Departments Upcoming Events More About Us About the Clinical Center Access and Directions Clinical Center News Clinical Center Tours Our History Clinical Center Published Research More Search Clinical Center Intranet (Staff Only) America’s Research Hospital The NIH Clinical Center is the nation’s largest hospital devoted entirely to clinical research.",
+      "tokens": [
+        "menu",
+        "patient",
+        "information",
+        "all",
+        "patient",
+        "services",
+        "access",
+        "directions",
+        "followmyhealth",
+        "patient",
+        "portal",
+        "learn",
+        "about",
+        "clinical",
+        "trials",
+        "medical",
+        "records",
+        "requests",
+        "patient",
+        "handbook",
+        "folleto",
+        "para",
+        "pacientes",
+        "patient",
+        "protections",
+        "pharmacy",
+        "guide",
+        "farmacia",
+        "para",
+        "pacientes",
+        "ambulatorios",
+        "telehealth",
+        "resources",
+        "upcoming",
+        "events",
+        "more",
+        "find",
+        "study",
+        "meet",
+        "our",
+        "doctors",
+        "education",
+        "training",
+        "office",
+        "clinical",
+        "research",
+        "training",
+        "medical",
+        "education",
+        "continuing",
+        "medical",
+        "education",
+        "cme",
+        "information",
+        "graduate",
+        "medical",
+        "education",
+        "medical",
+        "research",
+        "scholars",
+        "program",
+        "postbaccalaureate",
+        "irta",
+        "program",
+        "upcoming",
+        "events",
+        "more",
+        "our",
+        "organization",
+        "accreditation",
+        "governance",
+        "information",
+        "referring",
+        "physicians",
+        "jobs",
+        "opportunities",
+        "resources",
+        "researchers",
+        "senior",
+        "staff",
+        "departments",
+        "upcoming",
+        "events",
+        "more",
+        "about",
+        "us",
+        "about",
+        "clinical",
+        "center",
+        "access",
+        "directions",
+        "clinical",
+        "center",
+        "news",
+        "clinical",
+        "center",
+        "tours",
+        "our",
+        "history",
+        "clinical",
+        "center",
+        "published",
+        "research",
+        "more",
+        "search",
+        "clinical",
+        "center",
+        "intranet",
+        "staff",
+        "only",
+        "america",
+        "research",
+        "hospital",
+        "nih",
+        "clinical",
+        "center",
+        "nation",
+        "largest",
+        "hospital",
+        "devoted",
+        "entirely",
+        "clinical",
+        "research"
+      ]
+    },
+    {
+      "charEnd": 1631,
+      "charStart": 1621,
+      "factId": "hz.web.780fd356d7fe9484.fact.5",
+      "kind": "bullet",
+      "text": "clinical",
+      "tokens": [
+        "clinical"
+      ]
+    },
+    {
+      "charEnd": 1640,
+      "charStart": 1632,
+      "factId": "hz.web.780fd356d7fe9484.fact.6",
+      "kind": "bullet",
+      "text": "center",
+      "tokens": [
+        "center"
+      ]
+    },
+    {
+      "charEnd": 1646,
+      "charStart": 1641,
+      "factId": "hz.web.780fd356d7fe9484.fact.7",
+      "kind": "bullet",
+      "text": "nih",
+      "tokens": [
+        "nih"
+      ]
+    },
+    {
+      "charEnd": 1656,
+      "charStart": 1647,
+      "factId": "hz.web.780fd356d7fe9484.fact.8",
+      "kind": "bullet",
+      "text": "patient",
+      "tokens": [
+        "patient"
+      ]
+    },
+    {
+      "charEnd": 1667,
+      "charStart": 1657,
+      "factId": "hz.web.780fd356d7fe9484.fact.9",
+      "kind": "bullet",
+      "text": "research",
+      "tokens": [
+        "research"
+      ]
+    },
+    {
+      "charEnd": 1674,
+      "charStart": 1668,
+      "factId": "hz.web.780fd356d7fe9484.fact.10",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 1680,
+      "charStart": 1675,
+      "factId": "hz.web.780fd356d7fe9484.fact.11",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 1694,
+      "charStart": 1681,
+      "factId": "hz.web.780fd356d7fe9484.fact.12",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.780fd356d7fe9484.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Home | Clinical Center"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.780fd356d7fe9484.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1619,
+      "charStart": 1608,
+      "headingId": "hz.web.780fd356d7fe9484.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1706,
+      "charStart": 1696,
+      "headingId": "hz.web.780fd356d7fe9484.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/780fd356d7fe9484.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4938,
+        "start": 0
+      }
+    ],
+    "hash": "2ffb27ee491a733df1a7da4f16c1c78e9034eae4f89b77159b0b596074a6cd42",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Home | Clinical Center Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.cc.nih.gov/",
+    "short": "Source: https://www.cc.nih.gov/",
+    "tokens": [
+      "home",
+      "clinical",
+      "center",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov"
+    ]
+  },
+  "title": "Home | Clinical Center"
+}

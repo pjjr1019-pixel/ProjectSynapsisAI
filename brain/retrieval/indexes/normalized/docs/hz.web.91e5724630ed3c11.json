@@ -1,0 +1,396 @@
+{
+  "aliases": [
+    {
+      "alias": "91e5724630ed3c11",
+      "aliasId": "hz.web.91e5724630ed3c11.alias.1",
+      "canonical": "cdn.cache.lol"
+    },
+    {
+      "alias": "cdn.cache.lol",
+      "aliasId": "hz.web.91e5724630ed3c11.alias.2",
+      "canonical": "cdn.cache.lol"
+    },
+    {
+      "alias": "web 91e5724630ed3c11",
+      "aliasId": "hz.web.91e5724630ed3c11.alias.3",
+      "canonical": "cdn.cache.lol"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.91e5724630ed3c11",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.91e5724630ed3c11.entity.1",
+      "kind": "document",
+      "name": "cdn.cache.lol",
+      "tokens": [
+        "cdn",
+        "cache",
+        "lol"
+      ]
+    },
+    {
+      "entityId": "hz.web.91e5724630ed3c11.entity.2",
+      "kind": "heading",
+      "name": "cdn.cache.lol",
+      "tokens": [
+        "cdn",
+        "cache",
+        "lol"
+      ]
+    },
+    {
+      "entityId": "hz.web.91e5724630ed3c11.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.91e5724630ed3c11.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.91e5724630ed3c11.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 75,
+      "charStart": 18,
+      "factId": "hz.web.91e5724630ed3c11.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cdn.cache.lol/css/highlightjs/dracula.css",
+      "tokens": [
+        "source",
+        "https",
+        "cdn",
+        "cache",
+        "lol",
+        "css",
+        "highlightjs",
+        "dracula",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 127,
+      "factId": "hz.web.91e5724630ed3c11.fact.1",
+      "kind": "bullet",
+      "text": "/* Dracula Theme v1.2.5 * * https://github.com/dracula/highlightjs * * Copyright 2016-present, All rights reserved * * Code licensed under the MIT license * * @author Denis Ciccale <[redacted-email]> * @author Zeno Rocha <[redacted-email]> */ .hljs { display: block; overflow-x: auto; padding: 0.5em; background: #282a36; } .hljs-built_in, .hljs-selector-tag, .hljs-section, .hljs-link { color: #8be9fd; } .hljs-keyword { color: #ff79c6; } .hljs, .hljs-subst { color: #f8f8f2; } .hljs-title, .hljs-attr, .hljs-meta-keyword { font-style: italic; color: #50fa7b; } .hljs-string, .hljs-meta, .hljs-name, .hljs-type, .hljs-symbol, .hljs-bullet, .hljs-addition, .hljs-variable, .hljs-template-tag, .hljs-template-variable { color: #f1fa8c; } .hljs-comment, .hljs-quote, .hljs-deletion { color: #6272a4; } .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-title, .hljs-section, .hljs-doctag, .hljs-type, .hljs-name, .hljs-strong { font-weight: bold; } .hljs-literal, .hljs-number { color: #bd93f9; } .hljs-emphasis { font-style: italic; }",
+      "tokens": [
+        "dracula",
+        "theme",
+        "v1",
+        "https",
+        "github",
+        "com",
+        "dracula",
+        "highlightjs",
+        "copyright",
+        "2016",
+        "present",
+        "all",
+        "rights",
+        "reserved",
+        "code",
+        "licensed",
+        "under",
+        "mit",
+        "license",
+        "author",
+        "denis",
+        "ciccale",
+        "redacted",
+        "email",
+        "author",
+        "zeno",
+        "rocha",
+        "redacted",
+        "email",
+        "hljs",
+        "display",
+        "block",
+        "overflow",
+        "auto",
+        "padding",
+        "5em",
+        "background",
+        "282a36",
+        "hljs",
+        "built_in",
+        "hljs",
+        "selector",
+        "tag",
+        "hljs",
+        "section",
+        "hljs",
+        "link",
+        "color",
+        "8be9fd",
+        "hljs",
+        "keyword",
+        "color",
+        "ff79c6",
+        "hljs",
+        "hljs",
+        "subst",
+        "color",
+        "f8f8f2",
+        "hljs",
+        "title",
+        "hljs",
+        "attr",
+        "hljs",
+        "meta",
+        "keyword",
+        "font",
+        "style",
+        "italic",
+        "color",
+        "50fa7b",
+        "hljs",
+        "string",
+        "hljs",
+        "meta",
+        "hljs",
+        "name",
+        "hljs",
+        "type",
+        "hljs",
+        "symbol",
+        "hljs",
+        "bullet",
+        "hljs",
+        "addition",
+        "hljs",
+        "variable",
+        "hljs",
+        "template",
+        "tag",
+        "hljs",
+        "template",
+        "variable",
+        "color",
+        "f1fa8c",
+        "hljs",
+        "comment",
+        "hljs",
+        "quote",
+        "hljs",
+        "deletion",
+        "color",
+        "6272a4",
+        "hljs",
+        "keyword",
+        "hljs",
+        "selector",
+        "tag",
+        "hljs",
+        "literal",
+        "hljs",
+        "title",
+        "hljs",
+        "section",
+        "hljs",
+        "doctag",
+        "hljs",
+        "type",
+        "hljs",
+        "name",
+        "hljs",
+        "strong",
+        "font",
+        "weight",
+        "bold",
+        "hljs",
+        "literal",
+        "hljs",
+        "number",
+        "color",
+        "bd93f9",
+        "hljs",
+        "emphasis",
+        "font",
+        "style",
+        "italic"
+      ]
+    },
+    {
+      "charEnd": 1188,
+      "charStart": 1182,
+      "factId": "hz.web.91e5724630ed3c11.fact.2",
+      "kind": "bullet",
+      "text": "hljs",
+      "tokens": [
+        "hljs"
+      ]
+    },
+    {
+      "charEnd": 1196,
+      "charStart": 1189,
+      "factId": "hz.web.91e5724630ed3c11.fact.3",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 1203,
+      "charStart": 1197,
+      "factId": "hz.web.91e5724630ed3c11.fact.4",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1213,
+      "charStart": 1204,
+      "factId": "hz.web.91e5724630ed3c11.fact.5",
+      "kind": "bullet",
+      "text": "keyword",
+      "tokens": [
+        "keyword"
+      ]
+    },
+    {
+      "charEnd": 1219,
+      "charStart": 1214,
+      "factId": "hz.web.91e5724630ed3c11.fact.6",
+      "kind": "bullet",
+      "text": "tag",
+      "tokens": [
+        "tag"
+      ]
+    },
+    {
+      "charEnd": 1228,
+      "charStart": 1220,
+      "factId": "hz.web.91e5724630ed3c11.fact.7",
+      "kind": "bullet",
+      "text": "author",
+      "tokens": [
+        "author"
+      ]
+    },
+    {
+      "charEnd": 1238,
+      "charStart": 1229,
+      "factId": "hz.web.91e5724630ed3c11.fact.8",
+      "kind": "bullet",
+      "text": "dracula",
+      "tokens": [
+        "dracula"
+      ]
+    },
+    {
+      "charEnd": 1246,
+      "charStart": 1239,
+      "factId": "hz.web.91e5724630ed3c11.fact.9",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.91e5724630ed3c11.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cdn.cache.lol"
+    },
+    {
+      "charEnd": 125,
+      "charStart": 115,
+      "headingId": "hz.web.91e5724630ed3c11.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1180,
+      "charStart": 1169,
+      "headingId": "hz.web.91e5724630ed3c11.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1258,
+      "charStart": 1248,
+      "headingId": "hz.web.91e5724630ed3c11.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/91e5724630ed3c11.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2545,
+        "start": 0
+      }
+    ],
+    "hash": "0481b1367b519be94fea6fd4f2b823560c50e100565672c99a657f9cd9e4f08a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* Dracula Theme v1.2.5 * * https://github.com/dracula/highlightjs * * Copyright 2016-present, All rights reserved * * Code licensed under the MIT license * * @author Denis Ciccale <[redacted-email]> * @author Zeno Rocha <[redacted-email]> */ .hljs { display: block; overflow-x: auto; padding: 0.5em; background: #282a36; } .hljs-built_in, .hljs-selector-tag, .hljs-section, .hljs-link { color: #8be9fd; } .hljs-keyword { color: #ff79c6; } .hljs, .hljs-subst { color: #f8f8f2; } .hljs-title, .hljs-attr, .hljs-meta-keyword { font-style: italic; color: #50fa7b; } .hljs-string, .hljs-meta, .hljs-name, .hljs-type, .hljs-symbol, .hljs-bullet, .hljs-addition, .hljs-variable, .hljs-template-tag, .hljs-template-variable { color: #f1fa8c; } .hljs-comment, .hljs-quote, .hljs-deletion { color: #6272a4; } .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-title, .hljs-section, .hljs-doctag, .hljs-type, .hljs-name, .hljs-strong { font-weight: bold; } .hljs-literal, .hljs-number { color: #bd93f9; } .hljs-emphasis { font-style: italic; }",
+      "hljs",
+      "color"
+    ],
+    "medium": "Source: https://cdn.cache.lol/css/highlightjs/dracula.css",
+    "short": "Source: https://cdn.cache.lol/css/highlightjs/dracula.css",
+    "tokens": [
+      "cdn",
+      "cache",
+      "lol",
+      "source",
+      "https",
+      "cdn",
+      "cache",
+      "lol",
+      "css",
+      "highlightjs",
+      "dracula",
+      "css",
+      "source",
+      "https",
+      "cdn",
+      "cache",
+      "lol",
+      "css",
+      "highlightjs",
+      "dracula",
+      "css"
+    ]
+  },
+  "title": "cdn.cache.lol"
+}

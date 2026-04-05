@@ -1,0 +1,386 @@
+{
+  "aliases": [
+    {
+      "alias": "88f99351edf4da96",
+      "aliasId": "hz.web.88f99351edf4da96.alias.1",
+      "canonical": "www.w3.org"
+    },
+    {
+      "alias": "web 88f99351edf4da96",
+      "aliasId": "hz.web.88f99351edf4da96.alias.2",
+      "canonical": "www.w3.org"
+    },
+    {
+      "alias": "www.w3.org",
+      "aliasId": "hz.web.88f99351edf4da96.alias.3",
+      "canonical": "www.w3.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.88f99351edf4da96",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.88f99351edf4da96.entity.1",
+      "kind": "document",
+      "name": "www.w3.org",
+      "tokens": [
+        "www",
+        "w3",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.88f99351edf4da96.entity.2",
+      "kind": "heading",
+      "name": "www.w3.org",
+      "tokens": [
+        "www",
+        "w3",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.88f99351edf4da96.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.88f99351edf4da96.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.88f99351edf4da96.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 15,
+      "factId": "hz.web.88f99351edf4da96.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/wiki/rest.php/v1/search",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "wiki",
+        "rest",
+        "php",
+        "v1",
+        "search"
+      ]
+    },
+    {
+      "charEnd": 985,
+      "charStart": 117,
+      "factId": "hz.web.88f99351edf4da96.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\"?><OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"><ShortName>W3C Wiki (en)</ShortName><Description>W3C Wiki (en)</Description><Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://www.w3.org/favicon.ico</Image><Url type=\"text/html\" method=\"get\" template=\"https://www.w3.org/wiki/index.php?title=Special:Search&amp;search={searchTerms}\" /><Url type=\"application/x-suggestions+json\" method=\"get\" template=\"https://www.w3.org/wiki/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0\" /><Url type=\"application/x-suggestions+xml\" method=\"get\" template=\"https://www.w3.org/wiki/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0\" /><moz:SearchForm>https://www.w3.org/wiki/Special:Search</moz:SearchForm></OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "xmlns",
+        "moz",
+        "http",
+        "www",
+        "mozilla",
+        "org",
+        "2006",
+        "browser",
+        "search",
+        "shortname",
+        "w3c",
+        "wiki",
+        "en",
+        "shortname",
+        "description",
+        "w3c",
+        "wiki",
+        "en",
+        "description",
+        "image",
+        "height",
+        "16",
+        "width",
+        "16",
+        "type",
+        "image",
+        "icon",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "favicon",
+        "ico",
+        "image",
+        "url",
+        "type",
+        "text",
+        "html",
+        "method",
+        "get",
+        "template",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "wiki",
+        "index",
+        "php",
+        "title",
+        "special",
+        "search",
+        "amp",
+        "search",
+        "searchterms",
+        "url",
+        "type",
+        "application",
+        "suggestions",
+        "json",
+        "method",
+        "get",
+        "template",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "wiki",
+        "api",
+        "php",
+        "action",
+        "opensearch",
+        "amp",
+        "search",
+        "searchterms",
+        "amp",
+        "namespace",
+        "url",
+        "type",
+        "application",
+        "suggestions",
+        "xml",
+        "method",
+        "get",
+        "template",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "wiki",
+        "api",
+        "php",
+        "action",
+        "opensearch",
+        "amp",
+        "format",
+        "xml",
+        "amp",
+        "search",
+        "searchterms",
+        "amp",
+        "namespace",
+        "moz",
+        "searchform",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "wiki",
+        "special",
+        "search",
+        "moz",
+        "searchform",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 1005,
+      "charStart": 1000,
+      "factId": "hz.web.88f99351edf4da96.fact.2",
+      "kind": "bullet",
+      "text": "amp",
+      "tokens": [
+        "amp"
+      ]
+    },
+    {
+      "charEnd": 1011,
+      "charStart": 1006,
+      "factId": "hz.web.88f99351edf4da96.fact.3",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1020,
+      "charStart": 1012,
+      "factId": "hz.web.88f99351edf4da96.fact.4",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 1027,
+      "charStart": 1021,
+      "factId": "hz.web.88f99351edf4da96.fact.5",
+      "kind": "bullet",
+      "text": "wiki",
+      "tokens": [
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 1033,
+      "charStart": 1028,
+      "factId": "hz.web.88f99351edf4da96.fact.6",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 1041,
+      "charStart": 1034,
+      "factId": "hz.web.88f99351edf4da96.fact.7",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1046,
+      "charStart": 1042,
+      "factId": "hz.web.88f99351edf4da96.fact.8",
+      "kind": "bullet",
+      "text": "w3",
+      "tokens": [
+        "w3"
+      ]
+    },
+    {
+      "charEnd": 1053,
+      "charStart": 1047,
+      "factId": "hz.web.88f99351edf4da96.fact.9",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.88f99351edf4da96.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.w3.org"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.88f99351edf4da96.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 998,
+      "charStart": 987,
+      "headingId": "hz.web.88f99351edf4da96.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1055,
+      "headingId": "hz.web.88f99351edf4da96.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/88f99351edf4da96.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2170,
+        "start": 0
+      }
+    ],
+    "hash": "5c79f36fd85454acfbfeb5c292f1a1dceb72a0abbea41486a09833c16e6855aa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\"?><OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"><ShortName>W3C Wiki (en)</ShortName><Description>W3C Wiki (en)</Description><Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://www.w3.org/favicon.ico</Image><Url type=\"text/html\" method=\"get\" template=\"https://www.w3.org/wiki/index.php?title=Special:Search&amp;search={searchTerms}\" /><Url type=\"application/x-suggestions+json\" method=\"get\" template=\"https://www.w3.org/wiki/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0\" /><Url type=\"application/x-suggestions+xml\" method=\"get\" template=\"https://www.w3.org/wiki/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0\" /><moz:SearchForm>https://www.w3.org/wiki/Special:Search</moz:SearchForm></OpenSearchDescription>",
+      "amp",
+      "org"
+    ],
+    "medium": "Source: https://www.w3.org/wiki/rest.php/v1/search",
+    "short": "Source: https://www.w3.org/wiki/rest.php/v1/search",
+    "tokens": [
+      "www",
+      "w3",
+      "org",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "wiki",
+      "rest",
+      "php",
+      "v1",
+      "search",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "wiki",
+      "rest",
+      "php",
+      "v1",
+      "search"
+    ]
+  },
+  "title": "www.w3.org"
+}

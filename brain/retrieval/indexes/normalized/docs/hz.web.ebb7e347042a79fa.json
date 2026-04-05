@@ -1,0 +1,368 @@
+{
+  "aliases": [
+    {
+      "alias": "aaronparecki.com",
+      "aliasId": "hz.web.ebb7e347042a79fa.alias.1",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "ebb7e347042a79fa",
+      "aliasId": "hz.web.ebb7e347042a79fa.alias.2",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "web ebb7e347042a79fa",
+      "aliasId": "hz.web.ebb7e347042a79fa.alias.3",
+      "canonical": "aaronparecki.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.ebb7e347042a79fa",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ebb7e347042a79fa.entity.1",
+      "kind": "document",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ebb7e347042a79fa.entity.2",
+      "kind": "heading",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ebb7e347042a79fa.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ebb7e347042a79fa.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ebb7e347042a79fa.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 69,
+      "charStart": 21,
+      "factId": "hz.web.ebb7e347042a79fa.fact.1",
+      "kind": "summary",
+      "text": "Source: http://aaronparecki.com/assets/pulse.css",
+      "tokens": [
+        "source",
+        "http",
+        "aaronparecki",
+        "com",
+        "assets",
+        "pulse",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1143,
+      "charStart": 121,
+      "factId": "hz.web.ebb7e347042a79fa.fact.1",
+      "kind": "bullet",
+      "text": "#pulsing-dot-holder { display: inline; margin: 0; width: 50px; height: 50px; position: relative; bottom: 4px; } #pulsing-dot-holder .dot { width: 10px; height: 10px; border: 5px solid #59a3ef; border-radius: 30px; background-color: #716f42; z-index: 10; position: absolute; left: 10px; top: 10px; animation: dot 3s ease; animation-iteration-count: infinite; } #pulsing-dot-holder .pulse { border: 10px solid #017eff; background: transparent; border-radius: 60px; height: 50px; width: 50px; animation: pulse 3s linear; animation-iteration-count: infinite; position: absolute; top: -10px; left: -10px; z-index: 1; opacity: 0; } @keyframes dot { 0% { transform: scale(1.0); opacity: 1.0; } 50% { transform: scale(0.84); opacity: 0.7; } 100% { transform: scale(1.0); opacity: 1.0; } } @keyframes pulse { 0% { transform: scale(0); opacity: 0.0; } 10% { transform: scale(0); opacity: 0.1; } 50% { transform: scale(0.1); opacity: 0.3; } 75% { transform: scale(0.5); opacity: 0.5; } 100% { transform: scale(1); opacity: 0.0; } }",
+      "tokens": [
+        "pulsing",
+        "dot",
+        "holder",
+        "display",
+        "inline",
+        "margin",
+        "width",
+        "50px",
+        "height",
+        "50px",
+        "position",
+        "relative",
+        "bottom",
+        "4px",
+        "pulsing",
+        "dot",
+        "holder",
+        "dot",
+        "width",
+        "10px",
+        "height",
+        "10px",
+        "border",
+        "5px",
+        "solid",
+        "59a3ef",
+        "border",
+        "radius",
+        "30px",
+        "background",
+        "color",
+        "716f42",
+        "index",
+        "10",
+        "position",
+        "absolute",
+        "left",
+        "10px",
+        "top",
+        "10px",
+        "animation",
+        "dot",
+        "3s",
+        "ease",
+        "animation",
+        "iteration",
+        "count",
+        "infinite",
+        "pulsing",
+        "dot",
+        "holder",
+        "pulse",
+        "border",
+        "10px",
+        "solid",
+        "017eff",
+        "background",
+        "transparent",
+        "border",
+        "radius",
+        "60px",
+        "height",
+        "50px",
+        "width",
+        "50px",
+        "animation",
+        "pulse",
+        "3s",
+        "linear",
+        "animation",
+        "iteration",
+        "count",
+        "infinite",
+        "position",
+        "absolute",
+        "top",
+        "10px",
+        "left",
+        "10px",
+        "index",
+        "opacity",
+        "keyframes",
+        "dot",
+        "transform",
+        "scale",
+        "opacity",
+        "50",
+        "transform",
+        "scale",
+        "84",
+        "opacity",
+        "100",
+        "transform",
+        "scale",
+        "opacity",
+        "keyframes",
+        "pulse",
+        "transform",
+        "scale",
+        "opacity",
+        "10",
+        "transform",
+        "scale",
+        "opacity",
+        "50",
+        "transform",
+        "scale",
+        "opacity",
+        "75",
+        "transform",
+        "scale",
+        "opacity",
+        "100",
+        "transform",
+        "scale",
+        "opacity"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1158,
+      "factId": "hz.web.ebb7e347042a79fa.fact.2",
+      "kind": "bullet",
+      "text": "opacity",
+      "tokens": [
+        "opacity"
+      ]
+    },
+    {
+      "charEnd": 1175,
+      "charStart": 1168,
+      "factId": "hz.web.ebb7e347042a79fa.fact.3",
+      "kind": "bullet",
+      "text": "scale",
+      "tokens": [
+        "scale"
+      ]
+    },
+    {
+      "charEnd": 1187,
+      "charStart": 1176,
+      "factId": "hz.web.ebb7e347042a79fa.fact.4",
+      "kind": "bullet",
+      "text": "transform",
+      "tokens": [
+        "transform"
+      ]
+    },
+    {
+      "charEnd": 1194,
+      "charStart": 1188,
+      "factId": "hz.web.ebb7e347042a79fa.fact.5",
+      "kind": "bullet",
+      "text": "10px",
+      "tokens": [
+        "10px"
+      ]
+    },
+    {
+      "charEnd": 1200,
+      "charStart": 1195,
+      "factId": "hz.web.ebb7e347042a79fa.fact.6",
+      "kind": "bullet",
+      "text": "dot",
+      "tokens": [
+        "dot"
+      ]
+    },
+    {
+      "charEnd": 1207,
+      "charStart": 1201,
+      "factId": "hz.web.ebb7e347042a79fa.fact.7",
+      "kind": "bullet",
+      "text": "50px",
+      "tokens": [
+        "50px"
+      ]
+    },
+    {
+      "charEnd": 1219,
+      "charStart": 1208,
+      "factId": "hz.web.ebb7e347042a79fa.fact.8",
+      "kind": "bullet",
+      "text": "animation",
+      "tokens": [
+        "animation"
+      ]
+    },
+    {
+      "charEnd": 1228,
+      "charStart": 1220,
+      "factId": "hz.web.ebb7e347042a79fa.fact.9",
+      "kind": "bullet",
+      "text": "border",
+      "tokens": [
+        "border"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.ebb7e347042a79fa.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "aaronparecki.com"
+    },
+    {
+      "charEnd": 119,
+      "charStart": 109,
+      "headingId": "hz.web.ebb7e347042a79fa.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1156,
+      "charStart": 1145,
+      "headingId": "hz.web.ebb7e347042a79fa.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1240,
+      "charStart": 1230,
+      "headingId": "hz.web.ebb7e347042a79fa.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ebb7e347042a79fa.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2503,
+        "start": 0
+      }
+    ],
+    "hash": "f6ac08da5e34932516875cf34f5a360b4a284f4a7c1cc4b650b8adced4b316c8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "#pulsing-dot-holder { display: inline; margin: 0; width: 50px; height: 50px; position: relative; bottom: 4px; } #pulsing-dot-holder .dot { width: 10px; height: 10px; border: 5px solid #59a3ef; border-radius: 30px; background-color: #716f42; z-index: 10; position: absolute; left: 10px; top: 10px; animation: dot 3s ease; animation-iteration-count: infinite; } #pulsing-dot-holder .pulse { border: 10px solid #017eff; background: transparent; border-radius: 60px; height: 50px; width: 50px; animation: pulse 3s linear; animation-iteration-count: infinite; position: absolute; top: -10px; left: -10px; z-index: 1; opacity: 0; } @keyframes dot { 0% { transform: scale(1.0); opacity: 1.0; } 50% { transform: scale(0.84); opacity: 0.7; } 100% { transform: scale(1.0); opacity: 1.0; } } @keyframes pulse { 0% { transform: scale(0); opacity: 0.0; } 10% { transform: scale(0); opacity: 0.1; } 50% { transform: scale(0.1); opacity: 0.3; } 75% { transform: scale(0.5); opacity: 0.5; } 100% { transform: scale(1); opacity: 0.0; } }",
+      "opacity",
+      "scale"
+    ],
+    "medium": "Source: http://aaronparecki.com/assets/pulse.css",
+    "short": "Source: http://aaronparecki.com/assets/pulse.css",
+    "tokens": [
+      "aaronparecki",
+      "com",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "assets",
+      "pulse",
+      "css",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "assets",
+      "pulse",
+      "css"
+    ]
+  },
+  "title": "aaronparecki.com"
+}

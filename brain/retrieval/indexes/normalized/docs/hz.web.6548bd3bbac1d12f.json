@@ -1,0 +1,353 @@
+{
+  "aliases": [
+    {
+      "alias": "6548bd3bbac1d12f",
+      "aliasId": "hz.web.6548bd3bbac1d12f.alias.1",
+      "canonical": "webmention.io"
+    },
+    {
+      "alias": "web 6548bd3bbac1d12f",
+      "aliasId": "hz.web.6548bd3bbac1d12f.alias.2",
+      "canonical": "webmention.io"
+    },
+    {
+      "alias": "webmention.io",
+      "aliasId": "hz.web.6548bd3bbac1d12f.alias.3",
+      "canonical": "webmention.io"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.6548bd3bbac1d12f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6548bd3bbac1d12f.entity.1",
+      "kind": "document",
+      "name": "webmention.io",
+      "tokens": [
+        "webmention",
+        "io"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548bd3bbac1d12f.entity.2",
+      "kind": "heading",
+      "name": "webmention.io",
+      "tokens": [
+        "webmention",
+        "io"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548bd3bbac1d12f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548bd3bbac1d12f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548bd3bbac1d12f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 18,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://webmention.io/css/mentions.css",
+      "tokens": [
+        "source",
+        "https",
+        "webmention",
+        "io",
+        "css",
+        "mentions",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 891,
+      "charStart": 116,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.1",
+      "kind": "bullet",
+      "text": ".mentions { max-width: 600px; margin: 20px auto; } .mention { border: 1px #ddd solid; border-radius: 4px; margin-top: 30px; margin-bottom: 10px; padding: 10px; } .mention .context { margin-bottom: 12px; margin-top: -30px; } .mention h3 { margin-top: 0; margin-bottom: 10px; } .mention .author { margin-bottom: 10px; } .mention .author .photo { margin-left: -54px; float: left; border-radius: 4px; width: 48px; } .mention .author a.name { text-decoration: none; } .mention .author a.url { color: #888; font-weight: normal; text-decoration: none; } .mention code { white-space: normal; } .mention .e-content p:last-child { margin-bottom: 0; } .mention .plaintext { font-size: 1.2em; } .mention .metaline { margin-top: 1em; } .mention .e-content .html img { max-width: 100%; }",
+      "tokens": [
+        "mentions",
+        "max",
+        "width",
+        "600px",
+        "margin",
+        "20px",
+        "auto",
+        "mention",
+        "border",
+        "1px",
+        "ddd",
+        "solid",
+        "border",
+        "radius",
+        "4px",
+        "margin",
+        "top",
+        "30px",
+        "margin",
+        "bottom",
+        "10px",
+        "padding",
+        "10px",
+        "mention",
+        "context",
+        "margin",
+        "bottom",
+        "12px",
+        "margin",
+        "top",
+        "30px",
+        "mention",
+        "h3",
+        "margin",
+        "top",
+        "margin",
+        "bottom",
+        "10px",
+        "mention",
+        "author",
+        "margin",
+        "bottom",
+        "10px",
+        "mention",
+        "author",
+        "photo",
+        "margin",
+        "left",
+        "54px",
+        "float",
+        "left",
+        "border",
+        "radius",
+        "4px",
+        "width",
+        "48px",
+        "mention",
+        "author",
+        "name",
+        "text",
+        "decoration",
+        "none",
+        "mention",
+        "author",
+        "url",
+        "color",
+        "888",
+        "font",
+        "weight",
+        "normal",
+        "text",
+        "decoration",
+        "none",
+        "mention",
+        "code",
+        "white",
+        "space",
+        "normal",
+        "mention",
+        "content",
+        "last",
+        "child",
+        "margin",
+        "bottom",
+        "mention",
+        "plaintext",
+        "font",
+        "size",
+        "2em",
+        "mention",
+        "metaline",
+        "margin",
+        "top",
+        "1em",
+        "mention",
+        "content",
+        "html",
+        "img",
+        "max",
+        "width",
+        "100"
+      ]
+    },
+    {
+      "charEnd": 915,
+      "charStart": 906,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.2",
+      "kind": "bullet",
+      "text": "mention",
+      "tokens": [
+        "mention"
+      ]
+    },
+    {
+      "charEnd": 924,
+      "charStart": 916,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.3",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 933,
+      "charStart": 925,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.4",
+      "kind": "bullet",
+      "text": "bottom",
+      "tokens": [
+        "bottom"
+      ]
+    },
+    {
+      "charEnd": 940,
+      "charStart": 934,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.5",
+      "kind": "bullet",
+      "text": "10px",
+      "tokens": [
+        "10px"
+      ]
+    },
+    {
+      "charEnd": 949,
+      "charStart": 941,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.6",
+      "kind": "bullet",
+      "text": "author",
+      "tokens": [
+        "author"
+      ]
+    },
+    {
+      "charEnd": 955,
+      "charStart": 950,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.7",
+      "kind": "bullet",
+      "text": "top",
+      "tokens": [
+        "top"
+      ]
+    },
+    {
+      "charEnd": 964,
+      "charStart": 956,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.8",
+      "kind": "bullet",
+      "text": "border",
+      "tokens": [
+        "border"
+      ]
+    },
+    {
+      "charEnd": 972,
+      "charStart": 965,
+      "factId": "hz.web.6548bd3bbac1d12f.fact.9",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.6548bd3bbac1d12f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "webmention.io"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.6548bd3bbac1d12f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 904,
+      "charStart": 893,
+      "headingId": "hz.web.6548bd3bbac1d12f.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 984,
+      "charStart": 974,
+      "headingId": "hz.web.6548bd3bbac1d12f.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6548bd3bbac1d12f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1995,
+        "start": 0
+      }
+    ],
+    "hash": "c153acc1012d62d25f3ec402006111b16913d05197ff6c0ab8344337f3b45c18",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".mentions { max-width: 600px; margin: 20px auto; } .mention { border: 1px #ddd solid; border-radius: 4px; margin-top: 30px; margin-bottom: 10px; padding: 10px; } .mention .context { margin-bottom: 12px; margin-top: -30px; } .mention h3 { margin-top: 0; margin-bottom: 10px; } .mention .author { margin-bottom: 10px; } .mention .author .photo { margin-left: -54px; float: left; border-radius: 4px; width: 48px; } .mention .author a.name { text-decoration: none; } .mention .author a.url { color: #888; font-weight: normal; text-decoration: none; } .mention code { white-space: normal; } .mention .e-content p:last-child { margin-bottom: 0; } .mention .plaintext { font-size: 1.2em; } .mention .metaline { margin-top: 1em; } .mention .e-content .html img { max-width: 100%; }",
+      "mention",
+      "margin"
+    ],
+    "medium": "Source: https://webmention.io/css/mentions.css",
+    "short": "Source: https://webmention.io/css/mentions.css",
+    "tokens": [
+      "webmention",
+      "io",
+      "source",
+      "https",
+      "webmention",
+      "io",
+      "css",
+      "mentions",
+      "css",
+      "source",
+      "https",
+      "webmention",
+      "io",
+      "css",
+      "mentions",
+      "css"
+    ]
+  },
+  "title": "webmention.io"
+}

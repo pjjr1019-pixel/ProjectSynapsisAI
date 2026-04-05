@@ -1,0 +1,327 @@
+{
+  "aliases": [
+    {
+      "alias": "e7c34114fc9ed5dc",
+      "aliasId": "hz.web.e7c34114fc9ed5dc.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.e7c34114fc9ed5dc.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web e7c34114fc9ed5dc",
+      "aliasId": "hz.web.e7c34114fc9ed5dc.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.e7c34114fc9ed5dc",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e7c34114fc9ed5dc.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e7c34114fc9ed5dc.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e7c34114fc9ed5dc.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e7c34114fc9ed5dc.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e7c34114fc9ed5dc.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 110,
+      "charStart": 25,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "css2",
+        "family",
+        "montserrat",
+        "wght",
+        "400",
+        "700",
+        "display",
+        "swap"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 162,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype'); } @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-display: swap; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "montserrat",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "montserrat",
+        "v31",
+        "jtuhjig1_i6t8kchkm4532vjot5",
+        "qnfgpctr6ew",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "montserrat",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "montserrat",
+        "v31",
+        "jtuhjig1_i6t8kchkm4532vjot5",
+        "qnfgpcum70w",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 620,
+      "charStart": 614,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 633,
+      "charStart": 621,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.3",
+      "kind": "bullet",
+      "text": "montserrat",
+      "tokens": [
+        "montserrat"
+      ]
+    },
+    {
+      "charEnd": 639,
+      "charStart": 634,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.4",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 640,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.5",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 656,
+      "charStart": 650,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.6",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 657,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.7",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 673,
+      "charStart": 666,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.8",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 674,
+      "factId": "hz.web.e7c34114fc9ed5dc.fact.9",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.e7c34114fc9ed5dc.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 160,
+      "charStart": 150,
+      "headingId": "hz.web.e7c34114fc9ed5dc.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 612,
+      "charStart": 601,
+      "headingId": "hz.web.e7c34114fc9ed5dc.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 694,
+      "charStart": 684,
+      "headingId": "hz.web.e7c34114fc9ed5dc.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/e7c34114fc9ed5dc.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1413,
+        "start": 0
+      }
+    ],
+    "hash": "63acd68939bf8bc65f54d98676d347f6d0d7030402e45bac51e9b3ddc41f5815",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype'); } @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 700; font-display: swap; src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf) format('truetype'); }",
+      "font",
+      "montserrat"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+    "short": "Source: https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "montserrat",
+      "wght",
+      "400",
+      "700",
+      "display",
+      "swap",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "montserrat",
+      "wght",
+      "400",
+      "700",
+      "display",
+      "swap"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

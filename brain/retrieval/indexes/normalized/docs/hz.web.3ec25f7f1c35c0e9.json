@@ -1,0 +1,402 @@
+{
+  "aliases": [
+    {
+      "alias": "3ec25f7f1c35c0e9",
+      "aliasId": "hz.web.3ec25f7f1c35c0e9.alias.1",
+      "canonical": "indieauth.net"
+    },
+    {
+      "alias": "indieauth.net",
+      "aliasId": "hz.web.3ec25f7f1c35c0e9.alias.2",
+      "canonical": "indieauth.net"
+    },
+    {
+      "alias": "web 3ec25f7f1c35c0e9",
+      "aliasId": "hz.web.3ec25f7f1c35c0e9.alias.3",
+      "canonical": "indieauth.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.3ec25f7f1c35c0e9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3ec25f7f1c35c0e9.entity.1",
+      "kind": "document",
+      "name": "indieauth.net",
+      "tokens": [
+        "indieauth",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec25f7f1c35c0e9.entity.2",
+      "kind": "heading",
+      "name": "indieauth.net",
+      "tokens": [
+        "indieauth",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec25f7f1c35c0e9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec25f7f1c35c0e9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3ec25f7f1c35c0e9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 18,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieauth.net/assets/styles.css",
+      "tokens": [
+        "source",
+        "https",
+        "indieauth",
+        "net",
+        "assets",
+        "styles",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1250,
+      "charStart": 117,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.1",
+      "kind": "bullet",
+      "text": "body { color: #212121; font-family: \"Helvetica Neue\", \"Calibri Light\", Roboto, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; letter-spacing: 0.02em; } body { margin: 0; padding: 0; } section { max-width: 600px; margin: 0 auto; padding: 4px; } section:after { display: block; content: ''; clear: both; } section.hang-left img { float: left; width: 400px; margin-left: -200px; margin-right: 20px; border: 4px #513162 solid; border-radius: 6px; } section.border-top { border-top: 2px #aaa solid; margin-top: 20px; } @media(max-width: 600px) { section { margin-left: 10px; margin-right: 10px; } } @media(max-width: 890px) { section.hang-left img { float: none; margin-left: 0; margin-right: 0; width: 100%; border: 0; } } .header-bar h1 { font-size: 40px; margin: 0; padding: 10px; text-align: center; } .featured { background: #513162; background: url(/assets/triangles.png); color: white; padding: 40px; font-size: 2em; text-align: center; margin-bottom: 20px; } a { color: #683881; } a:hover { color: #513162; } footer { background-color: #aaa; padding: 1em 0 4em 0; } footer ul { margin: 0; }",
+      "tokens": [
+        "body",
+        "color",
+        "212121",
+        "font",
+        "family",
+        "helvetica",
+        "neue",
+        "calibri",
+        "light",
+        "roboto",
+        "sans",
+        "serif",
+        "webkit",
+        "font",
+        "smoothing",
+        "antialiased",
+        "moz",
+        "osx",
+        "font",
+        "smoothing",
+        "grayscale",
+        "letter",
+        "spacing",
+        "02em",
+        "body",
+        "margin",
+        "padding",
+        "section",
+        "max",
+        "width",
+        "600px",
+        "margin",
+        "auto",
+        "padding",
+        "4px",
+        "section",
+        "after",
+        "display",
+        "block",
+        "content",
+        "clear",
+        "both",
+        "section",
+        "hang",
+        "left",
+        "img",
+        "float",
+        "left",
+        "width",
+        "400px",
+        "margin",
+        "left",
+        "200px",
+        "margin",
+        "right",
+        "20px",
+        "border",
+        "4px",
+        "513162",
+        "solid",
+        "border",
+        "radius",
+        "6px",
+        "section",
+        "border",
+        "top",
+        "border",
+        "top",
+        "2px",
+        "aaa",
+        "solid",
+        "margin",
+        "top",
+        "20px",
+        "media",
+        "max",
+        "width",
+        "600px",
+        "section",
+        "margin",
+        "left",
+        "10px",
+        "margin",
+        "right",
+        "10px",
+        "media",
+        "max",
+        "width",
+        "890px",
+        "section",
+        "hang",
+        "left",
+        "img",
+        "float",
+        "none",
+        "margin",
+        "left",
+        "margin",
+        "right",
+        "width",
+        "100",
+        "border",
+        "header",
+        "bar",
+        "h1",
+        "font",
+        "size",
+        "40px",
+        "margin",
+        "padding",
+        "10px",
+        "text",
+        "align",
+        "center",
+        "featured",
+        "background",
+        "513162",
+        "background",
+        "url",
+        "assets",
+        "triangles",
+        "png",
+        "color",
+        "white",
+        "padding",
+        "40px",
+        "font",
+        "size",
+        "2em",
+        "text",
+        "align",
+        "center",
+        "margin",
+        "bottom",
+        "20px",
+        "color",
+        "683881",
+        "hover",
+        "color",
+        "513162",
+        "footer",
+        "background",
+        "color",
+        "aaa",
+        "padding",
+        "1em",
+        "4em",
+        "footer",
+        "ul",
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 1273,
+      "charStart": 1265,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.2",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 1280,
+      "charStart": 1274,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.3",
+      "kind": "bullet",
+      "text": "left",
+      "tokens": [
+        "left"
+      ]
+    },
+    {
+      "charEnd": 1290,
+      "charStart": 1281,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.4",
+      "kind": "bullet",
+      "text": "section",
+      "tokens": [
+        "section"
+      ]
+    },
+    {
+      "charEnd": 1299,
+      "charStart": 1291,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.5",
+      "kind": "bullet",
+      "text": "border",
+      "tokens": [
+        "border"
+      ]
+    },
+    {
+      "charEnd": 1307,
+      "charStart": 1300,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.6",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 1314,
+      "charStart": 1308,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.7",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1324,
+      "charStart": 1315,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.8",
+      "kind": "bullet",
+      "text": "padding",
+      "tokens": [
+        "padding"
+      ]
+    },
+    {
+      "charEnd": 1332,
+      "charStart": 1325,
+      "factId": "hz.web.3ec25f7f1c35c0e9.fact.9",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.3ec25f7f1c35c0e9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "indieauth.net"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.3ec25f7f1c35c0e9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1263,
+      "charStart": 1252,
+      "headingId": "hz.web.3ec25f7f1c35c0e9.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1344,
+      "charStart": 1334,
+      "headingId": "hz.web.3ec25f7f1c35c0e9.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3ec25f7f1c35c0e9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2714,
+        "start": 0
+      }
+    ],
+    "hash": "a0df924799938f7e6f3624df6221a87ddc50a1386afa0d56cea9d5a5c20a76d1",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "body { color: #212121; font-family: \"Helvetica Neue\", \"Calibri Light\", Roboto, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; letter-spacing: 0.02em; } body { margin: 0; padding: 0; } section { max-width: 600px; margin: 0 auto; padding: 4px; } section:after { display: block; content: ''; clear: both; } section.hang-left img { float: left; width: 400px; margin-left: -200px; margin-right: 20px; border: 4px #513162 solid; border-radius: 6px; } section.border-top { border-top: 2px #aaa solid; margin-top: 20px; } @media(max-width: 600px) { section { margin-left: 10px; margin-right: 10px; } } @media(max-width: 890px) { section.hang-left img { float: none; margin-left: 0; margin-right: 0; width: 100%; border: 0; } } .header-bar h1 { font-size: 40px; margin: 0; padding: 10px; text-align: center; } .featured { background: #513162; background: url(/assets/triangles.png); color: white; padding: 40px; font-size: 2em; text-align: center; margin-bottom: 20px; } a { color: #683881; } a:hover { color: #513162; } footer { background-color: #aaa; padding: 1em 0 4em 0; } footer ul { margin: 0; }",
+      "margin",
+      "left"
+    ],
+    "medium": "Source: https://indieauth.net/assets/styles.css",
+    "short": "Source: https://indieauth.net/assets/styles.css",
+    "tokens": [
+      "indieauth",
+      "net",
+      "source",
+      "https",
+      "indieauth",
+      "net",
+      "assets",
+      "styles",
+      "css",
+      "source",
+      "https",
+      "indieauth",
+      "net",
+      "assets",
+      "styles",
+      "css"
+    ]
+  },
+  "title": "indieauth.net"
+}

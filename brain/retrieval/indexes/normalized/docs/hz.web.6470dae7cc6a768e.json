@@ -1,0 +1,550 @@
+{
+  "aliases": [
+    {
+      "alias": "6470dae7cc6a768e",
+      "aliasId": "hz.web.6470dae7cc6a768e.alias.1",
+      "canonical": "binarydigit.net"
+    },
+    {
+      "alias": "binarydigit.net",
+      "aliasId": "hz.web.6470dae7cc6a768e.alias.2",
+      "canonical": "binarydigit.net"
+    },
+    {
+      "alias": "web 6470dae7cc6a768e",
+      "aliasId": "hz.web.6470dae7cc6a768e.alias.3",
+      "canonical": "binarydigit.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.6470dae7cc6a768e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6470dae7cc6a768e.entity.1",
+      "kind": "document",
+      "name": "BinaryDigit.net",
+      "tokens": [
+        "binarydigit",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.6470dae7cc6a768e.entity.2",
+      "kind": "heading",
+      "name": "BinaryDigit.net",
+      "tokens": [
+        "binarydigit",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.6470dae7cc6a768e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6470dae7cc6a768e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6470dae7cc6a768e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 57,
+      "charStart": 20,
+      "factId": "hz.web.6470dae7cc6a768e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://binarydigit.net/feed/",
+      "tokens": [
+        "source",
+        "https",
+        "binarydigit",
+        "net",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1184,
+      "charStart": 109,
+      "factId": "hz.web.6470dae7cc6a768e.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version='1.0' encoding='UTF-8'?> <feed xmlns=\"http://www.w3.org/2005/Atom\"> <id>https://binarydigit.net</id> <title>BinaryDigit.net</title> <updated>2026-03-31T01:29:53.375993+00:00</updated> <author> <name>binarydigit</name> <email>hidden</email> </author> <link href=\"https://binarydigit.net/\" rel=\"alternate\"/> <link href=\"https://binarydigit.net/feed/\" rel=\"self\"/> <generator uri=\"https://lkiesow.github.io/python-feedgen\" version=\"0.9.0\">python-feedgen</generator> <subtitle>My space for tech, code, art, photography and pockets of happiness.</subtitle> <entry> <id>https://binarydigit.net/on-together-virtual-co-working/</id> <title>On-Together: Virtual Co-Working</title> <updated>2026-03-25T18:29:46.139264+00:00</updated> <author> <name>binarydigit</name> <email>hidden</email> </author> <content type=\"html\">&lt;p&gt;It's been a few weeks since my last notes and I wanted to share my latest, favorite co-working game, called &lt;a href='https://store.steampowered.com/app/3707400/OnTogether_Virtual_CoWorking/'&gt;On-Together: Virtual Co-Working&lt;/a&gt;.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "feed",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "id",
+        "https",
+        "binarydigit",
+        "net",
+        "id",
+        "title",
+        "binarydigit",
+        "net",
+        "title",
+        "updated",
+        "2026",
+        "03",
+        "31t01",
+        "29",
+        "53",
+        "375993",
+        "00",
+        "00",
+        "updated",
+        "author",
+        "name",
+        "binarydigit",
+        "name",
+        "email",
+        "hidden",
+        "email",
+        "author",
+        "link",
+        "href",
+        "https",
+        "binarydigit",
+        "net",
+        "rel",
+        "alternate",
+        "link",
+        "href",
+        "https",
+        "binarydigit",
+        "net",
+        "feed",
+        "rel",
+        "self",
+        "generator",
+        "uri",
+        "https",
+        "lkiesow",
+        "github",
+        "io",
+        "python",
+        "feedgen",
+        "version",
+        "python",
+        "feedgen",
+        "generator",
+        "subtitle",
+        "space",
+        "tech",
+        "code",
+        "art",
+        "photography",
+        "pockets",
+        "happiness",
+        "subtitle",
+        "entry",
+        "id",
+        "https",
+        "binarydigit",
+        "net",
+        "together",
+        "virtual",
+        "co",
+        "working",
+        "id",
+        "title",
+        "together",
+        "virtual",
+        "co",
+        "working",
+        "title",
+        "updated",
+        "2026",
+        "03",
+        "25t18",
+        "29",
+        "46",
+        "139264",
+        "00",
+        "00",
+        "updated",
+        "author",
+        "name",
+        "binarydigit",
+        "name",
+        "email",
+        "hidden",
+        "email",
+        "author",
+        "content",
+        "type",
+        "html",
+        "lt",
+        "gt",
+        "few",
+        "weeks",
+        "since",
+        "last",
+        "notes",
+        "wanted",
+        "share",
+        "latest",
+        "favorite",
+        "co",
+        "working",
+        "game",
+        "called",
+        "lt",
+        "href",
+        "https",
+        "store",
+        "steampowered",
+        "com",
+        "app",
+        "3707400",
+        "ontogether_virtual_coworking",
+        "gt",
+        "together",
+        "virtual",
+        "co",
+        "working",
+        "lt",
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 1353,
+      "charStart": 1185,
+      "factId": "hz.web.6470dae7cc6a768e.fact.2",
+      "kind": "bullet",
+      "text": "It has been the best, most wholesome, and lovely way to meet people who want to work together and chat about life, work, and whatever else you're doing at the moment.",
+      "tokens": [
+        "has",
+        "best",
+        "most",
+        "wholesome",
+        "lovely",
+        "way",
+        "meet",
+        "people",
+        "want",
+        "work",
+        "together",
+        "chat",
+        "about",
+        "life",
+        "work",
+        "whatever",
+        "else",
+        "re",
+        "doing",
+        "moment"
+      ]
+    },
+    {
+      "charEnd": 1483,
+      "charStart": 1354,
+      "factId": "hz.web.6470dae7cc6a768e.fact.3",
+      "kind": "bullet",
+      "text": "There's something comforting about knowing other people are around in a space, whether it be discord, a game, or virtual space.",
+      "tokens": [
+        "there",
+        "something",
+        "comforting",
+        "about",
+        "knowing",
+        "other",
+        "people",
+        "around",
+        "space",
+        "whether",
+        "discord",
+        "game",
+        "virtual",
+        "space"
+      ]
+    },
+    {
+      "charEnd": 2274,
+      "charStart": 1484,
+      "factId": "hz.web.6470dae7cc6a768e.fact.4",
+      "kind": "bullet",
+      "text": "I absolutely recommend it and right now it's on sale on Steam for $6.99 USD!&lt;/p&gt; &lt;p&gt;&lt;img src=\"https://bear-images.sfo2.cdn.digitaloceanspaces.com/binarydigit/on-together-id.webp\" alt=\"on-together-ID\" /&gt; &lt;img src=\"https://bear-images.sfo2.cdn.digitaloceanspaces.com/binarydigit/on-together-2.webp\" alt=\"on-together-2\" /&gt; &lt;img src=\"https://bear-images.sfo2.cdn.digitaloceanspaces.com/binarydigit/on-together-3.webp\" alt=\"on-together-3\" /&gt; &lt;img src=\"https://bear-images.sfo2.cdn.digitaloceanspaces.com/binarydigit/on-together-4.webp\" alt=\"on-together-4\" /&gt;&lt;/p&gt; &lt;p&gt;There are tons of little areas on the map that you can find to do different activities to earn in-game currency (tickets) and unlock clothing, pets, and accessories for your desk.",
+      "tokens": [
+        "absolutely",
+        "recommend",
+        "right",
+        "now",
+        "sale",
+        "steam",
+        "99",
+        "usd",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "lt",
+        "img",
+        "src",
+        "https",
+        "bear",
+        "images",
+        "sfo2",
+        "cdn",
+        "digitaloceanspaces",
+        "com",
+        "binarydigit",
+        "together",
+        "id",
+        "webp",
+        "alt",
+        "together",
+        "id",
+        "gt",
+        "lt",
+        "img",
+        "src",
+        "https",
+        "bear",
+        "images",
+        "sfo2",
+        "cdn",
+        "digitaloceanspaces",
+        "com",
+        "binarydigit",
+        "together",
+        "webp",
+        "alt",
+        "together",
+        "gt",
+        "lt",
+        "img",
+        "src",
+        "https",
+        "bear",
+        "images",
+        "sfo2",
+        "cdn",
+        "digitaloceanspaces",
+        "com",
+        "binarydigit",
+        "together",
+        "webp",
+        "alt",
+        "together",
+        "gt",
+        "lt",
+        "img",
+        "src",
+        "https",
+        "bear",
+        "images",
+        "sfo2",
+        "cdn",
+        "digitaloceanspaces",
+        "com",
+        "binarydigit",
+        "together",
+        "webp",
+        "alt",
+        "together",
+        "gt",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "there",
+        "tons",
+        "little",
+        "areas",
+        "map",
+        "find",
+        "different",
+        "activities",
+        "earn",
+        "game",
+        "currency",
+        "tickets",
+        "unlock",
+        "clothing",
+        "pets",
+        "accessories",
+        "your",
+        "desk"
+      ]
+    },
+    {
+      "charEnd": 2293,
+      "charStart": 2289,
+      "factId": "hz.web.6470dae7cc6a768e.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 2298,
+      "charStart": 2294,
+      "factId": "hz.web.6470dae7cc6a768e.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 2306,
+      "charStart": 2299,
+      "factId": "hz.web.6470dae7cc6a768e.fact.7",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 2311,
+      "charStart": 2307,
+      "factId": "hz.web.6470dae7cc6a768e.fact.8",
+      "kind": "bullet",
+      "text": "00",
+      "tokens": [
+        "00"
+      ]
+    },
+    {
+      "charEnd": 2325,
+      "charStart": 2312,
+      "factId": "hz.web.6470dae7cc6a768e.fact.9",
+      "kind": "bullet",
+      "text": "binarydigit",
+      "tokens": [
+        "binarydigit"
+      ]
+    },
+    {
+      "charEnd": 2332,
+      "charStart": 2326,
+      "factId": "hz.web.6470dae7cc6a768e.fact.10",
+      "kind": "bullet",
+      "text": "href",
+      "tokens": [
+        "href"
+      ]
+    },
+    {
+      "charEnd": 2338,
+      "charStart": 2333,
+      "factId": "hz.web.6470dae7cc6a768e.fact.11",
+      "kind": "bullet",
+      "text": "net",
+      "tokens": [
+        "net"
+      ]
+    },
+    {
+      "charEnd": 2343,
+      "charStart": 2339,
+      "factId": "hz.web.6470dae7cc6a768e.fact.12",
+      "kind": "bullet",
+      "text": "id",
+      "tokens": [
+        "id"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.6470dae7cc6a768e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "BinaryDigit.net"
+    },
+    {
+      "charEnd": 107,
+      "charStart": 97,
+      "headingId": "hz.web.6470dae7cc6a768e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2287,
+      "charStart": 2276,
+      "headingId": "hz.web.6470dae7cc6a768e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2355,
+      "charStart": 2345,
+      "headingId": "hz.web.6470dae7cc6a768e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6470dae7cc6a768e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5586,
+        "start": 0
+      }
+    ],
+    "hash": "bc831c8412602712aac5593d1f3a91df9e19114254c53a42b41f8a0ada7fef57",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version='1.0' encoding='UTF-8'?> <feed xmlns=\"http://www.w3.org/2005/Atom\"> <id>https://binarydigit.net</id> <title>BinaryDigit.net</title> <updated>2026-03-31T01:29:53.375993+00:00</updated> <author> <name>binarydigit</name> <email>hidden</email> </author> <link href=\"https://binarydigit.net/\" rel=\"alternate\"/> <link href=\"https://binarydigit.net/feed/\" rel=\"self\"/> <generator uri=\"https://lkiesow.github.io/python-feedgen\" version=\"0.9.0\">python-feedgen</generator> <subtitle>My space for tech, code, art, photography and pockets of happiness.</subtitle> <entry> <id>https://binarydigit.net/on-together-virtual-co-working/</id> <title>On-Together: Virtual Co-Working</title> <updated>2026-03-25T18:29:46.139264+00:00</updated> <author> <name>binarydigit</name> <email>hidden</email> </author> <content type=\"html\">&lt;p&gt;It's been a few weeks since my last notes and I wanted to share my latest, favorite co-working game, called &lt;a href='https://store.steampowered.com/app/3707400/OnTogether_Virtual_CoWorking/'&gt;On-Together: Virtual Co-Working&lt;/a&gt;.",
+      "It has been the best, most wholesome, and lovely way to meet people who want to work together and chat about life, work, and whatever else you're doing at the moment.",
+      "There's something comforting about knowing other people are around in a space, whether it be discord, a game, or virtual space."
+    ],
+    "medium": "Source: https://binarydigit.net/feed/",
+    "short": "Source: https://binarydigit.net/feed/",
+    "tokens": [
+      "binarydigit",
+      "net",
+      "source",
+      "https",
+      "binarydigit",
+      "net",
+      "feed",
+      "source",
+      "https",
+      "binarydigit",
+      "net",
+      "feed"
+    ]
+  },
+  "title": "BinaryDigit.net"
+}

@@ -1,0 +1,412 @@
+{
+  "aliases": [
+    {
+      "alias": "9d260b51122ff52f",
+      "aliasId": "hz.web.9d260b51122ff52f.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.9d260b51122ff52f.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web 9d260b51122ff52f",
+      "aliasId": "hz.web.9d260b51122ff52f.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.9d260b51122ff52f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9d260b51122ff52f.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d260b51122ff52f.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d260b51122ff52f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d260b51122ff52f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9d260b51122ff52f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 116,
+      "charStart": 25,
+      "factId": "hz.web.9d260b51122ff52f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "css2",
+        "family",
+        "hind",
+        "wght",
+        "300",
+        "400",
+        "500",
+        "600",
+        "700",
+        "display",
+        "swap"
+      ]
+    },
+    {
+      "charEnd": 1090,
+      "charStart": 168,
+      "factId": "hz.web.9d260b51122ff52f.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Hind'; font-style: normal; font-weight: 300; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfMJaIRs.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU69_a8oxmIRG4.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfJpbIRs.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 600; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfLZcIRs.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 700; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfNJdIRs.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "hind",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "300",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "hind",
+        "v18",
+        "5au19_a8oxmifmjairs",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "hind",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "hind",
+        "v18",
+        "5au69_a8oxmirg4",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "hind",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "500",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "hind",
+        "v18",
+        "5au19_a8oxmifjpbirs",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "hind",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "600",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "hind",
+        "v18",
+        "5au19_a8oxmiflzcirs",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "hind",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "hind",
+        "v18",
+        "5au19_a8oxmifnjdirs",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 1111,
+      "charStart": 1105,
+      "factId": "hz.web.9d260b51122ff52f.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1118,
+      "charStart": 1112,
+      "factId": "hz.web.9d260b51122ff52f.fact.3",
+      "kind": "bullet",
+      "text": "hind",
+      "tokens": [
+        "hind"
+      ]
+    },
+    {
+      "charEnd": 1124,
+      "charStart": 1119,
+      "factId": "hz.web.9d260b51122ff52f.fact.4",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1134,
+      "charStart": 1125,
+      "factId": "hz.web.9d260b51122ff52f.fact.5",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 1141,
+      "charStart": 1135,
+      "factId": "hz.web.9d260b51122ff52f.fact.6",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 1150,
+      "charStart": 1142,
+      "factId": "hz.web.9d260b51122ff52f.fact.7",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 1158,
+      "charStart": 1151,
+      "factId": "hz.web.9d260b51122ff52f.fact.8",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1159,
+      "factId": "hz.web.9d260b51122ff52f.fact.9",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.9d260b51122ff52f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 166,
+      "charStart": 156,
+      "headingId": "hz.web.9d260b51122ff52f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1103,
+      "charStart": 1092,
+      "headingId": "hz.web.9d260b51122ff52f.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1179,
+      "charStart": 1169,
+      "headingId": "hz.web.9d260b51122ff52f.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/9d260b51122ff52f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2389,
+        "start": 0
+      }
+    ],
+    "hash": "a5272d7fe0dfadfc84bebe9b7caa862cc56af5138baff6f80cf0c2c8c1765c95",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Hind'; font-style: normal; font-weight: 300; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfMJaIRs.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU69_a8oxmIRG4.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfJpbIRs.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 600; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfLZcIRs.ttf) format('truetype'); } @font-face { font-family: 'Hind'; font-style: normal; font-weight: 700; font-display: swap; src: url(https://fonts.gstatic.com/s/hind/v18/5aU19_a8oxmIfNJdIRs.ttf) format('truetype'); }",
+      "font",
+      "hind"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap",
+    "short": "Source: https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "hind",
+      "wght",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "display",
+      "swap",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "hind",
+      "wght",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "display",
+      "swap"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

@@ -1,0 +1,393 @@
+{
+  "aliases": [
+    {
+      "alias": "f5290b56dc4226d2",
+      "aliasId": "hz.web.f5290b56dc4226d2.alias.1",
+      "canonical": "linkedin login, sign in | linkedin"
+    },
+    {
+      "alias": "linkedin login sign in linkedin",
+      "aliasId": "hz.web.f5290b56dc4226d2.alias.2",
+      "canonical": "linkedin login, sign in | linkedin"
+    },
+    {
+      "alias": "web f5290b56dc4226d2",
+      "aliasId": "hz.web.f5290b56dc4226d2.alias.3",
+      "canonical": "linkedin login, sign in | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.f5290b56dc4226d2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f5290b56dc4226d2.entity.1",
+      "kind": "document",
+      "name": "LinkedIn Login, Sign in | LinkedIn",
+      "tokens": [
+        "linkedin",
+        "login",
+        "sign",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.f5290b56dc4226d2.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn Login, Sign in | LinkedIn",
+      "tokens": [
+        "linkedin",
+        "login",
+        "sign",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.f5290b56dc4226d2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f5290b56dc4226d2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f5290b56dc4226d2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 228,
+      "charStart": 39,
+      "factId": "hz.web.f5290b56dc4226d2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Ffederal-reserve-board&amp;fromSignIn=true&amp;trk=organization_guest_nav-header-signin",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "session_redirect",
+        "https",
+        "3a",
+        "2f",
+        "2fwww",
+        "2elinkedin",
+        "2ecom",
+        "2fcompany",
+        "2ffederal",
+        "reserve",
+        "board",
+        "amp",
+        "fromsignin",
+        "true",
+        "amp",
+        "trk",
+        "organization_guest_nav",
+        "header",
+        "signin"
+      ]
+    },
+    {
+      "charEnd": 466,
+      "charStart": 280,
+      "factId": "hz.web.f5290b56dc4226d2.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn Login, Sign in | LinkedIn Sign in Sign in with Apple Sign in with a passkey By clicking Continue, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "tokens": [
+        "linkedin",
+        "login",
+        "sign",
+        "linkedin",
+        "sign",
+        "sign",
+        "apple",
+        "sign",
+        "passkey",
+        "clicking",
+        "continue",
+        "agree",
+        "linkedin",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 517,
+      "charStart": 467,
+      "factId": "hz.web.f5290b56dc4226d2.fact.2",
+      "kind": "bullet",
+      "text": "or Email or phone Password Show Forgot password?",
+      "tokens": [
+        "email",
+        "phone",
+        "password",
+        "show",
+        "forgot",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 670,
+      "charStart": 518,
+      "factId": "hz.web.f5290b56dc4226d2.fact.3",
+      "kind": "bullet",
+      "text": "Keep me logged in Sign in We’ve emailed a one-time link to your primary email address Click on the link to sign in instantly to your LinkedIn account.",
+      "tokens": [
+        "keep",
+        "logged",
+        "sign",
+        "ve",
+        "emailed",
+        "one",
+        "time",
+        "link",
+        "your",
+        "primary",
+        "email",
+        "address",
+        "click",
+        "link",
+        "sign",
+        "instantly",
+        "your",
+        "linkedin",
+        "account"
+      ]
+    },
+    {
+      "charEnd": 738,
+      "charStart": 671,
+      "factId": "hz.web.f5290b56dc4226d2.fact.4",
+      "kind": "bullet",
+      "text": "If you don’t see the email in your inbox, check your spam folder.",
+      "tokens": [
+        "if",
+        "don",
+        "see",
+        "email",
+        "your",
+        "inbox",
+        "check",
+        "your",
+        "spam",
+        "folder"
+      ]
+    },
+    {
+      "charEnd": 763,
+      "charStart": 753,
+      "factId": "hz.web.f5290b56dc4226d2.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 764,
+      "factId": "hz.web.f5290b56dc4226d2.fact.6",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 773,
+      "factId": "hz.web.f5290b56dc4226d2.fact.7",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 786,
+      "charStart": 780,
+      "factId": "hz.web.f5290b56dc4226d2.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 794,
+      "charStart": 787,
+      "factId": "hz.web.f5290b56dc4226d2.fact.9",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 804,
+      "charStart": 795,
+      "factId": "hz.web.f5290b56dc4226d2.fact.10",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 812,
+      "charStart": 805,
+      "factId": "hz.web.f5290b56dc4226d2.fact.11",
+      "kind": "bullet",
+      "text": "agree",
+      "tokens": [
+        "agree"
+      ]
+    },
+    {
+      "charEnd": 824,
+      "charStart": 813,
+      "factId": "hz.web.f5290b56dc4226d2.fact.12",
+      "kind": "bullet",
+      "text": "agreement",
+      "tokens": [
+        "agreement"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 37,
+      "charStart": 1,
+      "headingId": "hz.web.f5290b56dc4226d2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn Login, Sign in | LinkedIn"
+    },
+    {
+      "charEnd": 278,
+      "charStart": 268,
+      "headingId": "hz.web.f5290b56dc4226d2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 751,
+      "charStart": 740,
+      "headingId": "hz.web.f5290b56dc4226d2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 836,
+      "charStart": 826,
+      "headingId": "hz.web.f5290b56dc4226d2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f5290b56dc4226d2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2672,
+        "start": 0
+      }
+    ],
+    "hash": "373690b1492dfb31bee748f71cfabc4c007763755ebed6960302ec12c3a34e78",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn Login, Sign in | LinkedIn Sign in Sign in with Apple Sign in with a passkey By clicking Continue, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "or Email or phone Password Show Forgot password?",
+      "Keep me logged in Sign in We’ve emailed a one-time link to your primary email address Click on the link to sign in instantly to your LinkedIn account."
+    ],
+    "medium": "Source: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Ffederal-reserve-board&amp;fromSignIn=true&amp;trk=organization_guest_nav-header-signin",
+    "short": "Source: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Ffederal-reserve-board&amp;fromSignIn=true&amp;trk=organization_guest_nav-header-signin",
+    "tokens": [
+      "linkedin",
+      "login",
+      "sign",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "session_redirect",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "2elinkedin",
+      "2ecom",
+      "2fcompany",
+      "2ffederal",
+      "reserve",
+      "board",
+      "amp",
+      "fromsignin",
+      "true",
+      "amp",
+      "trk",
+      "organization_guest_nav",
+      "header",
+      "signin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "session_redirect",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "2elinkedin",
+      "2ecom",
+      "2fcompany",
+      "2ffederal",
+      "reserve",
+      "board",
+      "amp",
+      "fromsignin",
+      "true",
+      "amp",
+      "trk",
+      "organization_guest_nav",
+      "header",
+      "signin"
+    ]
+  },
+  "title": "LinkedIn Login, Sign in | LinkedIn"
+}

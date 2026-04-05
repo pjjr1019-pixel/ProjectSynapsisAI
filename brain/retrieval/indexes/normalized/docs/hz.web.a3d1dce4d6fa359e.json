@@ -1,0 +1,317 @@
+{
+  "aliases": [
+    {
+      "alias": "a3d1dce4d6fa359e",
+      "aliasId": "hz.web.a3d1dce4d6fa359e.alias.1",
+      "canonical": "indielogin.com"
+    },
+    {
+      "alias": "indielogin.com",
+      "aliasId": "hz.web.a3d1dce4d6fa359e.alias.2",
+      "canonical": "indielogin.com"
+    },
+    {
+      "alias": "web a3d1dce4d6fa359e",
+      "aliasId": "hz.web.a3d1dce4d6fa359e.alias.3",
+      "canonical": "indielogin.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.a3d1dce4d6fa359e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a3d1dce4d6fa359e.entity.1",
+      "kind": "document",
+      "name": "IndieLogin.com",
+      "tokens": [
+        "indielogin",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a3d1dce4d6fa359e.entity.2",
+      "kind": "heading",
+      "name": "IndieLogin.com",
+      "tokens": [
+        "indielogin",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.a3d1dce4d6fa359e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a3d1dce4d6fa359e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a3d1dce4d6fa359e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 50,
+      "charStart": 19,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indielogin.com/",
+      "tokens": [
+        "source",
+        "https",
+        "indielogin",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 224,
+      "charStart": 102,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.1",
+      "kind": "bullet",
+      "text": "IndieLogin.com IndieLogin.com Home Setup Developers --> FAQ Privacy Policy IndieLogin.com Sign in with your domain name.",
+      "tokens": [
+        "indielogin",
+        "com",
+        "indielogin",
+        "com",
+        "home",
+        "setup",
+        "developers",
+        "faq",
+        "privacy",
+        "policy",
+        "indielogin",
+        "com",
+        "sign",
+        "your",
+        "domain",
+        "name"
+      ]
+    },
+    {
+      "charEnd": 234,
+      "charStart": 225,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.2",
+      "kind": "bullet",
+      "text": "Try it!",
+      "tokens": [
+        "try"
+      ]
+    },
+    {
+      "charEnd": 268,
+      "charStart": 235,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.3",
+      "kind": "bullet",
+      "text": "Sign In What is IndieLogin.com?",
+      "tokens": [
+        "sign",
+        "indielogin",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 340,
+      "charStart": 269,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.4",
+      "kind": "bullet",
+      "text": "IndieLogin.com makes it easy to add web sign-in to your applications.",
+      "tokens": [
+        "indielogin",
+        "com",
+        "makes",
+        "easy",
+        "add",
+        "web",
+        "sign",
+        "your",
+        "applications"
+      ]
+    },
+    {
+      "charEnd": 360,
+      "charStart": 355,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.5",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 373,
+      "charStart": 361,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.6",
+      "kind": "bullet",
+      "text": "indielogin",
+      "tokens": [
+        "indielogin"
+      ]
+    },
+    {
+      "charEnd": 380,
+      "charStart": 374,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.7",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 387,
+      "charStart": 381,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.8",
+      "kind": "bullet",
+      "text": "will",
+      "tokens": [
+        "will"
+      ]
+    },
+    {
+      "charEnd": 395,
+      "charStart": 388,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.9",
+      "kind": "bullet",
+      "text": "their",
+      "tokens": [
+        "their"
+      ]
+    },
+    {
+      "charEnd": 402,
+      "charStart": 396,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.10",
+      "kind": "bullet",
+      "text": "user",
+      "tokens": [
+        "user"
+      ]
+    },
+    {
+      "charEnd": 409,
+      "charStart": 403,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.11",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 419,
+      "charStart": 410,
+      "factId": "hz.web.a3d1dce4d6fa359e.fact.12",
+      "kind": "bullet",
+      "text": "another",
+      "tokens": [
+        "another"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.a3d1dce4d6fa359e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IndieLogin.com"
+    },
+    {
+      "charEnd": 100,
+      "charStart": 90,
+      "headingId": "hz.web.a3d1dce4d6fa359e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 353,
+      "charStart": 342,
+      "headingId": "hz.web.a3d1dce4d6fa359e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 431,
+      "charStart": 421,
+      "headingId": "hz.web.a3d1dce4d6fa359e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a3d1dce4d6fa359e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1669,
+        "start": 0
+      }
+    ],
+    "hash": "d98a3c78ae832829bb7efbdb07f046ec1fed392a2fa3ab0c53965a19473130dc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.a3d1dce4d6fa359e.rule.1",
+      "text": "Regardless of how the user authenticates, the identity provided to the application will always be the user's primary website.",
+      "tokens": [
+        "regardless",
+        "user",
+        "authenticates",
+        "identity",
+        "provided",
+        "application",
+        "will",
+        "always",
+        "user",
+        "primary",
+        "website"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "IndieLogin.com IndieLogin.com Home Setup Developers --> FAQ Privacy Policy IndieLogin.com Sign in with your domain name.",
+      "Try it!",
+      "Sign In What is IndieLogin.com?"
+    ],
+    "medium": "Source: https://indielogin.com/",
+    "short": "Source: https://indielogin.com/",
+    "tokens": [
+      "indielogin",
+      "com",
+      "source",
+      "https",
+      "indielogin",
+      "com",
+      "source",
+      "https",
+      "indielogin",
+      "com"
+    ]
+  },
+  "title": "IndieLogin.com"
+}

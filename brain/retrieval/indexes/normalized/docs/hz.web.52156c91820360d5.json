@@ -1,0 +1,371 @@
+{
+  "aliases": [
+    {
+      "alias": "52156c91820360d5",
+      "aliasId": "hz.web.52156c91820360d5.alias.1",
+      "canonical": "confluence cloud support | confluence cloud | atlassian support"
+    },
+    {
+      "alias": "confluence cloud support confluence cloud atlassian support",
+      "aliasId": "hz.web.52156c91820360d5.alias.2",
+      "canonical": "confluence cloud support | confluence cloud | atlassian support"
+    },
+    {
+      "alias": "web 52156c91820360d5",
+      "aliasId": "hz.web.52156c91820360d5.alias.3",
+      "canonical": "confluence cloud support | confluence cloud | atlassian support"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.71,
+  "docId": "hz.web.52156c91820360d5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.52156c91820360d5.entity.1",
+      "kind": "document",
+      "name": "Confluence Cloud support | Confluence Cloud | Atlassian Support",
+      "tokens": [
+        "confluence",
+        "cloud",
+        "support",
+        "confluence",
+        "cloud",
+        "atlassian",
+        "support"
+      ]
+    },
+    {
+      "entityId": "hz.web.52156c91820360d5.entity.2",
+      "kind": "heading",
+      "name": "Confluence Cloud support | Confluence Cloud | Atlassian Support",
+      "tokens": [
+        "confluence",
+        "cloud",
+        "support",
+        "confluence",
+        "cloud",
+        "atlassian",
+        "support"
+      ]
+    },
+    {
+      "entityId": "hz.web.52156c91820360d5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.52156c91820360d5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.52156c91820360d5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 122,
+      "charStart": 68,
+      "factId": "hz.web.52156c91820360d5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://support.atlassian.com/confluence-cloud",
+      "tokens": [
+        "source",
+        "https",
+        "support",
+        "atlassian",
+        "com",
+        "confluence",
+        "cloud"
+      ]
+    },
+    {
+      "charEnd": 475,
+      "charStart": 174,
+      "factId": "hz.web.52156c91820360d5.fact.1",
+      "kind": "bullet",
+      "text": "Confluence Cloud support | Confluence Cloud | Atlassian Support Skip to main content Confluence Support Apps Documentation Knowledge base Resources Contact us Sign in Sign in Atlassian Support Confluence Cloud Data Center Confluence Cloud support Documentation Get help using and administering apps.",
+      "tokens": [
+        "confluence",
+        "cloud",
+        "support",
+        "confluence",
+        "cloud",
+        "atlassian",
+        "support",
+        "skip",
+        "main",
+        "content",
+        "confluence",
+        "support",
+        "apps",
+        "documentation",
+        "knowledge",
+        "base",
+        "resources",
+        "contact",
+        "us",
+        "sign",
+        "sign",
+        "atlassian",
+        "support",
+        "confluence",
+        "cloud",
+        "data",
+        "center",
+        "confluence",
+        "cloud",
+        "support",
+        "documentation",
+        "get",
+        "help",
+        "using",
+        "administering",
+        "apps"
+      ]
+    },
+    {
+      "charEnd": 542,
+      "charStart": 476,
+      "factId": "hz.web.52156c91820360d5.fact.2",
+      "kind": "bullet",
+      "text": "View documentation Knowledge Base Find troubleshooting articles.",
+      "tokens": [
+        "view",
+        "documentation",
+        "knowledge",
+        "base",
+        "find",
+        "troubleshooting",
+        "articles"
+      ]
+    },
+    {
+      "charEnd": 641,
+      "charStart": 543,
+      "factId": "hz.web.52156c91820360d5.fact.3",
+      "kind": "bullet",
+      "text": "View knowledge base Community Find answers, support, and inspiration from other Atlassian users.",
+      "tokens": [
+        "view",
+        "knowledge",
+        "base",
+        "community",
+        "find",
+        "answers",
+        "support",
+        "inspiration",
+        "other",
+        "atlassian",
+        "users"
+      ]
+    },
+    {
+      "charEnd": 829,
+      "charStart": 642,
+      "factId": "hz.web.52156c91820360d5.fact.4",
+      "kind": "bullet",
+      "text": "Visit Atlassian Community System Status Check the health of our cloud apps and services View system status Suggestions and bug reports Find existing feature suggestions and bug reports.",
+      "tokens": [
+        "visit",
+        "atlassian",
+        "community",
+        "system",
+        "status",
+        "check",
+        "health",
+        "our",
+        "cloud",
+        "apps",
+        "services",
+        "view",
+        "system",
+        "status",
+        "suggestions",
+        "bug",
+        "reports",
+        "find",
+        "existing",
+        "feature",
+        "suggestions",
+        "bug",
+        "reports"
+      ]
+    },
+    {
+      "charEnd": 850,
+      "charStart": 844,
+      "factId": "hz.web.52156c91820360d5.fact.5",
+      "kind": "bullet",
+      "text": "view",
+      "tokens": [
+        "view"
+      ]
+    },
+    {
+      "charEnd": 857,
+      "charStart": 851,
+      "factId": "hz.web.52156c91820360d5.fact.6",
+      "kind": "bullet",
+      "text": "apps",
+      "tokens": [
+        "apps"
+      ]
+    },
+    {
+      "charEnd": 869,
+      "charStart": 858,
+      "factId": "hz.web.52156c91820360d5.fact.7",
+      "kind": "bullet",
+      "text": "atlassian",
+      "tokens": [
+        "atlassian"
+      ]
+    },
+    {
+      "charEnd": 877,
+      "charStart": 870,
+      "factId": "hz.web.52156c91820360d5.fact.8",
+      "kind": "bullet",
+      "text": "cloud",
+      "tokens": [
+        "cloud"
+      ]
+    },
+    {
+      "charEnd": 887,
+      "charStart": 878,
+      "factId": "hz.web.52156c91820360d5.fact.9",
+      "kind": "bullet",
+      "text": "support",
+      "tokens": [
+        "support"
+      ]
+    },
+    {
+      "charEnd": 900,
+      "charStart": 888,
+      "factId": "hz.web.52156c91820360d5.fact.10",
+      "kind": "bullet",
+      "text": "confluence",
+      "tokens": [
+        "confluence"
+      ]
+    },
+    {
+      "charEnd": 907,
+      "charStart": 901,
+      "factId": "hz.web.52156c91820360d5.fact.11",
+      "kind": "bullet",
+      "text": "find",
+      "tokens": [
+        "find"
+      ]
+    },
+    {
+      "charEnd": 914,
+      "charStart": 908,
+      "factId": "hz.web.52156c91820360d5.fact.12",
+      "kind": "bullet",
+      "text": "base",
+      "tokens": [
+        "base"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 66,
+      "charStart": 1,
+      "headingId": "hz.web.52156c91820360d5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Confluence Cloud support | Confluence Cloud | Atlassian Support"
+    },
+    {
+      "charEnd": 172,
+      "charStart": 162,
+      "headingId": "hz.web.52156c91820360d5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 842,
+      "charStart": 831,
+      "headingId": "hz.web.52156c91820360d5.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 926,
+      "charStart": 916,
+      "headingId": "hz.web.52156c91820360d5.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/52156c91820360d5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2286,
+        "start": 0
+      }
+    ],
+    "hash": "5bc5c326f1d96544b310eb6cedb6d33a1d10466f8c4bfdf52939a7f8249d63ac",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Confluence Cloud support | Confluence Cloud | Atlassian Support Skip to main content Confluence Support Apps Documentation Knowledge base Resources Contact us Sign in Sign in Atlassian Support Confluence Cloud Data Center Confluence Cloud support Documentation Get help using and administering apps.",
+      "View documentation Knowledge Base Find troubleshooting articles.",
+      "View knowledge base Community Find answers, support, and inspiration from other Atlassian users."
+    ],
+    "medium": "Source: https://support.atlassian.com/confluence-cloud",
+    "short": "Source: https://support.atlassian.com/confluence-cloud",
+    "tokens": [
+      "confluence",
+      "cloud",
+      "support",
+      "confluence",
+      "cloud",
+      "atlassian",
+      "support",
+      "source",
+      "https",
+      "support",
+      "atlassian",
+      "com",
+      "confluence",
+      "cloud",
+      "source",
+      "https",
+      "support",
+      "atlassian",
+      "com",
+      "confluence",
+      "cloud"
+    ]
+  },
+  "title": "Confluence Cloud support | Confluence Cloud | Atlassian Support"
+}

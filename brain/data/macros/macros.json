@@ -1,0 +1,35 @@
+{
+  "macros": {
+    "free-memory": {
+      "description": "Build context, inspect hotspots, and summarize memory pressure.",
+      "steps": [
+        { "type": "context", "name": "Collect context" },
+        { "type": "health", "name": "Summarize health" },
+        { "type": "summary", "name": "Finalize" }
+      ]
+    },
+    "kill-hotspot": {
+      "description": "Inspect an intent, decompose it, and compile the resulting actions.",
+      "steps": [
+        { "type": "intent", "name": "Parse intent" },
+        { "type": "decompose", "name": "Break into tasks" },
+        { "type": "plan", "name": "Plan workflow" },
+        { "type": "compile", "name": "Compile actions" }
+      ]
+    },
+    "analyze-startup": {
+      "description": "Build a startup-oriented context pack and summarize the output.",
+      "steps": [
+        { "type": "context", "name": "Build context" },
+        { "type": "summary", "name": "Summarize" }
+      ]
+    },
+    "summarize-health": {
+      "description": "Summarize optimizer health with deterministic templates.",
+      "steps": [
+        { "type": "health", "name": "Inspect health" },
+        { "type": "summary", "name": "Summarize" }
+      ]
+    }
+  }
+}

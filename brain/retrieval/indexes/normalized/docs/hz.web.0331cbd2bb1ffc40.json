@@ -1,0 +1,310 @@
+{
+  "aliases": [
+    {
+      "alias": "0331cbd2bb1ffc40",
+      "aliasId": "hz.web.0331cbd2bb1ffc40.alias.1",
+      "canonical": "c5.patreon.com"
+    },
+    {
+      "alias": "c5.patreon.com",
+      "aliasId": "hz.web.0331cbd2bb1ffc40.alias.2",
+      "canonical": "c5.patreon.com"
+    },
+    {
+      "alias": "web 0331cbd2bb1ffc40",
+      "aliasId": "hz.web.0331cbd2bb1ffc40.alias.3",
+      "canonical": "c5.patreon.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.44,
+  "docId": "hz.web.0331cbd2bb1ffc40",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0331cbd2bb1ffc40.entity.1",
+      "kind": "document",
+      "name": "c5.patreon.com",
+      "tokens": [
+        "c5",
+        "patreon",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.0331cbd2bb1ffc40.entity.2",
+      "kind": "heading",
+      "name": "c5.patreon.com",
+      "tokens": [
+        "c5",
+        "patreon",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.0331cbd2bb1ffc40.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0331cbd2bb1ffc40.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0331cbd2bb1ffc40.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 101,
+      "charStart": 19,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.1",
+      "kind": "summary",
+      "text": "Source: https://c5.patreon.com/external/favicon/rebrand/manifest.json?v=af5597c2ef",
+      "tokens": [
+        "source",
+        "https",
+        "c5",
+        "patreon",
+        "com",
+        "external",
+        "favicon",
+        "rebrand",
+        "manifest",
+        "json",
+        "af5597c2ef"
+      ]
+    },
+    {
+      "charEnd": 527,
+      "charStart": 153,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"Patreon\", \"icons\": [ { \"src\": \"https://c5.patreon.com/external/favicon/rebrand/pwa-192.png?v=af5597c2ef\", \"sizes\": \"192x192\", \"type\": \"image/png\" }, { \"src\": \"https://c5.patreon.com/external/favicon/rebrand/pwa-512.png?v=af5597c2ef\", \"sizes\": \"512x512\", \"type\": \"image/png\" } ], \"theme_color\": \"#ffffff\", \"background_color\": \"#ffffff\", \"display\": \"standalone\" }",
+      "tokens": [
+        "name",
+        "patreon",
+        "icons",
+        "src",
+        "https",
+        "c5",
+        "patreon",
+        "com",
+        "external",
+        "favicon",
+        "rebrand",
+        "pwa",
+        "192",
+        "png",
+        "af5597c2ef",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "src",
+        "https",
+        "c5",
+        "patreon",
+        "com",
+        "external",
+        "favicon",
+        "rebrand",
+        "pwa",
+        "512",
+        "png",
+        "af5597c2ef",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "theme_color",
+        "ffffff",
+        "background_color",
+        "ffffff",
+        "display",
+        "standalone"
+      ]
+    },
+    {
+      "charEnd": 547,
+      "charStart": 542,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 557,
+      "charStart": 548,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.3",
+      "kind": "bullet",
+      "text": "patreon",
+      "tokens": [
+        "patreon"
+      ]
+    },
+    {
+      "charEnd": 570,
+      "charStart": 558,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.4",
+      "kind": "bullet",
+      "text": "af5597c2ef",
+      "tokens": [
+        "af5597c2ef"
+      ]
+    },
+    {
+      "charEnd": 575,
+      "charStart": 571,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.5",
+      "kind": "bullet",
+      "text": "c5",
+      "tokens": [
+        "c5"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 576,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.6",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 592,
+      "charStart": 582,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.7",
+      "kind": "bullet",
+      "text": "external",
+      "tokens": [
+        "external"
+      ]
+    },
+    {
+      "charEnd": 602,
+      "charStart": 593,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.8",
+      "kind": "bullet",
+      "text": "favicon",
+      "tokens": [
+        "favicon"
+      ]
+    },
+    {
+      "charEnd": 611,
+      "charStart": 603,
+      "factId": "hz.web.0331cbd2bb1ffc40.fact.9",
+      "kind": "bullet",
+      "text": "ffffff",
+      "tokens": [
+        "ffffff"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.0331cbd2bb1ffc40.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "c5.patreon.com"
+    },
+    {
+      "charEnd": 151,
+      "charStart": 141,
+      "headingId": "hz.web.0331cbd2bb1ffc40.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 540,
+      "charStart": 529,
+      "headingId": "hz.web.0331cbd2bb1ffc40.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 623,
+      "charStart": 613,
+      "headingId": "hz.web.0331cbd2bb1ffc40.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0331cbd2bb1ffc40.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1270,
+        "start": 0
+      }
+    ],
+    "hash": "22b30b45c94e5e68e128ef4a8125e0e6612c0a16363b4e9ab6aad706418cea87",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"Patreon\", \"icons\": [ { \"src\": \"https://c5.patreon.com/external/favicon/rebrand/pwa-192.png?v=af5597c2ef\", \"sizes\": \"192x192\", \"type\": \"image/png\" }, { \"src\": \"https://c5.patreon.com/external/favicon/rebrand/pwa-512.png?v=af5597c2ef\", \"sizes\": \"512x512\", \"type\": \"image/png\" } ], \"theme_color\": \"#ffffff\", \"background_color\": \"#ffffff\", \"display\": \"standalone\" }",
+      "png",
+      "patreon"
+    ],
+    "medium": "Source: https://c5.patreon.com/external/favicon/rebrand/manifest.json?v=af5597c2ef",
+    "short": "Source: https://c5.patreon.com/external/favicon/rebrand/manifest.json?v=af5597c2ef",
+    "tokens": [
+      "c5",
+      "patreon",
+      "com",
+      "source",
+      "https",
+      "c5",
+      "patreon",
+      "com",
+      "external",
+      "favicon",
+      "rebrand",
+      "manifest",
+      "json",
+      "af5597c2ef",
+      "source",
+      "https",
+      "c5",
+      "patreon",
+      "com",
+      "external",
+      "favicon",
+      "rebrand",
+      "manifest",
+      "json",
+      "af5597c2ef"
+    ]
+  },
+  "title": "c5.patreon.com"
+}

@@ -1,0 +1,207 @@
+{
+  "module_id": "windows-js-skill-pack",
+  "algorithm": "sha256",
+  "import_timestamp": "2026-04-02T04:03:11.564Z",
+  "checksums": [
+    {
+      "original_relative_path": "windows-js-skill-pack/coverage-report.json",
+      "final_destination_path": "scripts/windows/registry/coverage-report.json",
+      "file_size": 11763,
+      "checksum_sha256": "a1da6b288afc1b4b59c9c6513f6bd48ac1f77a2790c152f7630f3a4d764963a3",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as registry metadata"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/examples/integration-snippet.js",
+      "final_destination_path": "scripts/windows/docs/examples/integration-snippet.js",
+      "file_size": 410,
+      "checksum_sha256": "e71f71e3d97b733c14f173c75e7ba2917d19fad557e67ef05999394919d512ea",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as example doc asset"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/examples/sample-queries.json",
+      "final_destination_path": "scripts/windows/docs/examples/sample-queries.json",
+      "file_size": 829,
+      "checksum_sha256": "5b7c93725a7fac17360b9fd705fda66beb50b3348eabd28fd8effe7eb59c5f62",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as example doc asset"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/INDEX.json",
+      "final_destination_path": "scripts/windows/registry/source-INDEX.json",
+      "file_size": 163071,
+      "checksum_sha256": "961b3e020679357aa8c55356a28663480e668d9baad2b0e93566b2bbe0cb45d0",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "renamed to preserve source index separately from generated INDEX.json"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/INDEX.md",
+      "final_destination_path": "scripts/windows/docs/source-INDEX.md",
+      "file_size": 24075,
+      "checksum_sha256": "7d73ca8b0fc75db2b1d7b531da6aba31a9346711bac4d73d85a69fa56c4a7705",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "renamed to avoid collision with generated INDEX.md"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/NEXT-STEPS.md",
+      "final_destination_path": "scripts/windows/docs/NEXT-STEPS.md",
+      "file_size": 397,
+      "checksum_sha256": "050c81f02e24edf234c06ff56c23735841b5488c7456b8e805936146ebba4e4d",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as docs"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/package.json",
+      "final_destination_path": "scripts/windows/tools/source-package.json",
+      "file_size": 503,
+      "checksum_sha256": "8e8db3011fea4d26c6861085dd57a276bb3566b3efcb472294e46c4f305cd646",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "renamed to prevent package root conflicts"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/promote-new-skill-template.json",
+      "final_destination_path": "scripts/windows/registry/promote-new-skill-template.json",
+      "file_size": 332,
+      "checksum_sha256": "087fc967d1f83998103cbc3f119cecd51e30c0268c4752b65ffc08766cdd9e56",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as registry metadata"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/README.md",
+      "final_destination_path": "scripts/windows/docs/README.md",
+      "file_size": 2408,
+      "checksum_sha256": "d26e48378448186f933e5061f302e76d7a9115d1c897a563a590ce5918192469",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as docs"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/cli.js",
+      "final_destination_path": "scripts/windows/tools/cli.js",
+      "file_size": 2204,
+      "checksum_sha256": "0594e20f169844f91546263de78a71efa6e54053cd284a9fadccd81e81c657d5",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as runtime tool module"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/createIndex.js",
+      "final_destination_path": "scripts/windows/tools/createIndex.js",
+      "file_size": 849,
+      "checksum_sha256": "6284d08a552eade90c0d92cadd7830e5da0f7b79a2d4e593e09c59f43ed72eb4",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as runtime tool module"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/data/controlPanelSkills.js",
+      "final_destination_path": "scripts/windows/skills/controlPanelSkills.js",
+      "file_size": 12501,
+      "checksum_sha256": "eb76675a6c743f75645062afe8eefd66c94c0d0fadc7ea3b417d49f1120def13",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as skill data"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/data/folderSkills.js",
+      "final_destination_path": "scripts/windows/skills/folderSkills.js",
+      "file_size": 7438,
+      "checksum_sha256": "005c6f12803793531e414bf75b1f4642723c91a3b301225907d5b35c0a952bd2",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as skill data"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/data/settingsSkills.js",
+      "final_destination_path": "scripts/windows/skills/settingsSkills.js",
+      "file_size": 109289,
+      "checksum_sha256": "dca6981466604df172048d130b590db47688f6862cfdce3bc4e2e2bb33406789",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as skill data"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/data/toolSkills.js",
+      "final_destination_path": "scripts/windows/skills/toolSkills.js",
+      "file_size": 21589,
+      "checksum_sha256": "e37d7c3c6c1f89455108865f4706d83fd8bd1976fb98912a1933b977231bdccf",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as skill data"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/executors/command.js",
+      "final_destination_path": "scripts/windows/executors/command.js",
+      "file_size": 422,
+      "checksum_sha256": "65fe0cc03f7e14f8fcb3cade459584b7e199a76c51dfc03a575bdec6fa0c3867",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as executor"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/executors/controlPanel.js",
+      "final_destination_path": "scripts/windows/executors/controlPanel.js",
+      "file_size": 458,
+      "checksum_sha256": "906bcbbbd026f5a3bc938466c2ff5a6e815b9c358378c6bc51789793f9a2a024",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as executor"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/executors/shellFolder.js",
+      "final_destination_path": "scripts/windows/executors/shellFolder.js",
+      "file_size": 426,
+      "checksum_sha256": "e46ea95a0cb0d51d7953513986c4a4dcc359095b079a27beb234dd6bd229f4c9",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as executor"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/executors/uiAutomation.todo.js",
+      "final_destination_path": "scripts/windows/executors/uiAutomation.todo.js",
+      "file_size": 762,
+      "checksum_sha256": "922584aff39a883bfbb6b70c9021f39731f73329c04742616ec91ae33fed018b",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as executor"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/executors/uri.js",
+      "final_destination_path": "scripts/windows/executors/uri.js",
+      "file_size": 412,
+      "checksum_sha256": "862246348cbe2f2515d424652e3dd2b1cb3a140a1b8f9232c0cab7dcc0b4bcad",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as executor"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/index.js",
+      "final_destination_path": "scripts/windows/tools/index.js",
+      "file_size": 268,
+      "checksum_sha256": "e34b23fb0b73a50a99bc4ecb4a9a22c8bf0100d1c15a40229522827c16fcb63b",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as runtime tool module"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/router.js",
+      "final_destination_path": "scripts/windows/tools/router.js",
+      "file_size": 680,
+      "checksum_sha256": "ac154e64bfe7672633e04cb50cfd64e6d48e9bc0658d8c5aef70882bc55732b4",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as runtime tool module"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/runner.js",
+      "final_destination_path": "scripts/windows/tools/runner.js",
+      "file_size": 772,
+      "checksum_sha256": "bf1a35a193f1cfa8bdc6c4c0f677e594e6ee2399ca59fd028d6bc685671bf5d4",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as runtime tool module"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/skillRegistry.js",
+      "final_destination_path": "scripts/windows/tools/skillRegistry.js",
+      "file_size": 1960,
+      "checksum_sha256": "218f134a645bc403f8a5a464572120b21db06470f17a0c05320d552569432afb",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as runtime tool module"
+    },
+    {
+      "original_relative_path": "windows-js-skill-pack/src/utils/normalize.js",
+      "final_destination_path": "scripts/windows/tools/utils/normalize.js",
+      "file_size": 300,
+      "checksum_sha256": "f3f9a77c50d1dc28e9264e5063afe4b170fd1faa8d74a0bade8c8276e58aa6c9",
+      "import_timestamp": "2026-04-02T04:03:11.564Z",
+      "notes": "promoted as runtime utility"
+    }
+  ]
+}

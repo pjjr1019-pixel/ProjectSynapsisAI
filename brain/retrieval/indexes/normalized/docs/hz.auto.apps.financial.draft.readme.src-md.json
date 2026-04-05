@@ -1,0 +1,120 @@
+{
+  "aliases": [
+    {
+      "alias": "financial draft",
+      "aliasId": "hz.auto.apps.financial.draft.readme.src-md.alias.1",
+      "canonical": "financial — draft"
+    }
+  ],
+  "app": "financial",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.financial.draft.readme.src-md",
+  "domain": "financial",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.financial.draft.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Financial — draft",
+      "tokens": [
+        "financial",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.financial.draft.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Financial — draft",
+      "tokens": [
+        "financial",
+        "draft"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 95,
+      "charStart": 23,
+      "factId": "hz.auto.apps.financial.draft.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "WIP financial topics. Do not use in production retrieval until promoted.",
+      "tokens": [
+        "wip",
+        "financial",
+        "topics",
+        "not",
+        "use",
+        "production",
+        "retrieval",
+        "until",
+        "promoted"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.financial.draft.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Financial — draft"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/financial/draft/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 97,
+        "start": 0
+      }
+    ],
+    "hash": "71acc0c0af70f293b0665b8d30d18a325cc7eafd8894723c1f1684223b7a7e39",
+    "sourceType": "draft"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.auto.apps.financial.draft.readme.src-md.rule.1",
+      "text": "Do not use in production retrieval until promoted.",
+      "tokens": [
+        "not",
+        "use",
+        "production",
+        "retrieval",
+        "until",
+        "promoted"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "WIP financial topics. Do not use in production retrieval until promoted.",
+    "short": "WIP financial topics. Do not use in production retrieval until promoted.",
+    "tokens": [
+      "financial",
+      "draft",
+      "wip",
+      "financial",
+      "topics",
+      "not",
+      "use",
+      "production",
+      "retrieval",
+      "until",
+      "promoted",
+      "wip",
+      "financial",
+      "topics",
+      "not",
+      "use",
+      "production",
+      "retrieval",
+      "until",
+      "promoted"
+    ]
+  },
+  "title": "Financial — draft"
+}

@@ -1,0 +1,441 @@
+{
+  "aliases": [
+    {
+      "alias": "d44a091c0958dfdb",
+      "aliasId": "hz.web.d44a091c0958dfdb.alias.1",
+      "canonical": "github action advisor | stepsecurity"
+    },
+    {
+      "alias": "github action advisor stepsecurity",
+      "aliasId": "hz.web.d44a091c0958dfdb.alias.2",
+      "canonical": "github action advisor | stepsecurity"
+    },
+    {
+      "alias": "web d44a091c0958dfdb",
+      "aliasId": "hz.web.d44a091c0958dfdb.alias.3",
+      "canonical": "github action advisor | stepsecurity"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.74,
+  "docId": "hz.web.d44a091c0958dfdb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d44a091c0958dfdb.entity.1",
+      "kind": "document",
+      "name": "GitHub Action Advisor | StepSecurity",
+      "tokens": [
+        "github",
+        "action",
+        "advisor",
+        "stepsecurity"
+      ]
+    },
+    {
+      "entityId": "hz.web.d44a091c0958dfdb.entity.2",
+      "kind": "heading",
+      "name": "GitHub Action Advisor | StepSecurity",
+      "tokens": [
+        "github",
+        "action",
+        "advisor",
+        "stepsecurity"
+      ]
+    },
+    {
+      "entityId": "hz.web.d44a091c0958dfdb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d44a091c0958dfdb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d44a091c0958dfdb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 91,
+      "charStart": 41,
+      "factId": "hz.web.d44a091c0958dfdb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://app.stepsecurity.io/action-advisor",
+      "tokens": [
+        "source",
+        "https",
+        "app",
+        "stepsecurity",
+        "io",
+        "action",
+        "advisor"
+      ]
+    },
+    {
+      "charEnd": 520,
+      "charStart": 143,
+      "factId": "hz.web.d44a091c0958dfdb.fact.1",
+      "kind": "bullet",
+      "text": "GitHub Action Advisor | StepSecurity Product Company Resources Pricing Login Start free Toggle theme Assess the risk of third-party GitHub Actions Examples: hashicorp/setup-terraform , technote-space/workflow-conclusion-action Maintained by StepSecurity All Actions Actions Assess all the actions google-github-actions/auth A GitHub Action for authenticating to Google Cloud.",
+      "tokens": [
+        "github",
+        "action",
+        "advisor",
+        "stepsecurity",
+        "product",
+        "company",
+        "resources",
+        "pricing",
+        "login",
+        "start",
+        "free",
+        "toggle",
+        "theme",
+        "assess",
+        "risk",
+        "third",
+        "party",
+        "github",
+        "actions",
+        "examples",
+        "hashicorp",
+        "setup",
+        "terraform",
+        "technote",
+        "space",
+        "workflow",
+        "conclusion",
+        "action",
+        "maintained",
+        "stepsecurity",
+        "all",
+        "actions",
+        "actions",
+        "assess",
+        "all",
+        "actions",
+        "google",
+        "github",
+        "actions",
+        "auth",
+        "github",
+        "action",
+        "authenticating",
+        "google",
+        "cloud"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 521,
+      "factId": "hz.web.d44a091c0958dfdb.fact.2",
+      "kind": "bullet",
+      "text": "9 /10 technote-space/workflow-conclusion-action GitHub action to get workflow conclusion.",
+      "tokens": [
+        "10",
+        "technote",
+        "space",
+        "workflow",
+        "conclusion",
+        "action",
+        "github",
+        "action",
+        "get",
+        "workflow",
+        "conclusion"
+      ]
+    },
+    {
+      "charEnd": 1102,
+      "charStart": 613,
+      "factId": "hz.web.d44a091c0958dfdb.fact.3",
+      "kind": "bullet",
+      "text": "4 /10 Maintained action available step-security/publish-unit-test-result-action Secure drop-in replacement for EnricoMi/publish-unit-test-result-action GitHub Action to publish unit test results on GitHub 10 /10 Maintained by StepSecurity actions/dependency-review-action A GitHub Action for detecting vulnerable dependencies and invalid licenses in your PRs 9 /10 amannn/action-semantic-pull-request A GitHub Action that ensures that your PR title matches the Conventional Commits spec.",
+      "tokens": [
+        "10",
+        "maintained",
+        "action",
+        "available",
+        "step",
+        "security",
+        "publish",
+        "unit",
+        "test",
+        "result",
+        "action",
+        "secure",
+        "drop",
+        "replacement",
+        "enricomi",
+        "publish",
+        "unit",
+        "test",
+        "result",
+        "action",
+        "github",
+        "action",
+        "publish",
+        "unit",
+        "test",
+        "results",
+        "github",
+        "10",
+        "10",
+        "maintained",
+        "stepsecurity",
+        "actions",
+        "dependency",
+        "review",
+        "action",
+        "github",
+        "action",
+        "detecting",
+        "vulnerable",
+        "dependencies",
+        "invalid",
+        "licenses",
+        "your",
+        "prs",
+        "10",
+        "amannn",
+        "action",
+        "semantic",
+        "pull",
+        "request",
+        "github",
+        "action",
+        "ensures",
+        "your",
+        "pr",
+        "title",
+        "matches",
+        "conventional",
+        "commits",
+        "spec"
+      ]
+    },
+    {
+      "charEnd": 1419,
+      "charStart": 1103,
+      "factId": "hz.web.d44a091c0958dfdb.fact.4",
+      "kind": "bullet",
+      "text": "5 /10 Maintained action available step-security/ghaction-import-gpg Secure drop-in replacement for crazy-max/ghaction-import-gpg GitHub Action to import a GPG key 10 /10 Maintained by StepSecurity aws-actions/configure-aws-credentials Configure AWS credential environment variables for use in other GitHub Actions.",
+      "tokens": [
+        "10",
+        "maintained",
+        "action",
+        "available",
+        "step",
+        "security",
+        "ghaction",
+        "import",
+        "gpg",
+        "secure",
+        "drop",
+        "replacement",
+        "crazy",
+        "max",
+        "ghaction",
+        "import",
+        "gpg",
+        "github",
+        "action",
+        "import",
+        "gpg",
+        "key",
+        "10",
+        "10",
+        "maintained",
+        "stepsecurity",
+        "aws",
+        "actions",
+        "configure",
+        "aws",
+        "credentials",
+        "configure",
+        "aws",
+        "credential",
+        "environment",
+        "variables",
+        "use",
+        "other",
+        "github",
+        "actions"
+      ]
+    },
+    {
+      "charEnd": 1442,
+      "charStart": 1434,
+      "factId": "hz.web.d44a091c0958dfdb.fact.5",
+      "kind": "bullet",
+      "text": "action",
+      "tokens": [
+        "action"
+      ]
+    },
+    {
+      "charEnd": 1447,
+      "charStart": 1443,
+      "factId": "hz.web.d44a091c0958dfdb.fact.6",
+      "kind": "bullet",
+      "text": "10",
+      "tokens": [
+        "10"
+      ]
+    },
+    {
+      "charEnd": 1456,
+      "charStart": 1448,
+      "factId": "hz.web.d44a091c0958dfdb.fact.7",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    },
+    {
+      "charEnd": 1466,
+      "charStart": 1457,
+      "factId": "hz.web.d44a091c0958dfdb.fact.8",
+      "kind": "bullet",
+      "text": "actions",
+      "tokens": [
+        "actions"
+      ]
+    },
+    {
+      "charEnd": 1479,
+      "charStart": 1467,
+      "factId": "hz.web.d44a091c0958dfdb.fact.9",
+      "kind": "bullet",
+      "text": "maintained",
+      "tokens": [
+        "maintained"
+      ]
+    },
+    {
+      "charEnd": 1491,
+      "charStart": 1480,
+      "factId": "hz.web.d44a091c0958dfdb.fact.10",
+      "kind": "bullet",
+      "text": "available",
+      "tokens": [
+        "available"
+      ]
+    },
+    {
+      "charEnd": 1498,
+      "charStart": 1492,
+      "factId": "hz.web.d44a091c0958dfdb.fact.11",
+      "kind": "bullet",
+      "text": "step",
+      "tokens": [
+        "step"
+      ]
+    },
+    {
+      "charEnd": 1513,
+      "charStart": 1499,
+      "factId": "hz.web.d44a091c0958dfdb.fact.12",
+      "kind": "bullet",
+      "text": "stepsecurity",
+      "tokens": [
+        "stepsecurity"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 39,
+      "charStart": 1,
+      "headingId": "hz.web.d44a091c0958dfdb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "GitHub Action Advisor | StepSecurity"
+    },
+    {
+      "charEnd": 141,
+      "charStart": 131,
+      "headingId": "hz.web.d44a091c0958dfdb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1432,
+      "charStart": 1421,
+      "headingId": "hz.web.d44a091c0958dfdb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1525,
+      "charStart": 1515,
+      "headingId": "hz.web.d44a091c0958dfdb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d44a091c0958dfdb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4742,
+        "start": 0
+      }
+    ],
+    "hash": "f1a77f0dfbfa1dd2fadbaa89ada0b1af6b45d4c0407b3a6630be86212c5393a6",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "GitHub Action Advisor | StepSecurity Product Company Resources Pricing Login Start free Toggle theme Assess the risk of third-party GitHub Actions Examples: hashicorp/setup-terraform , technote-space/workflow-conclusion-action Maintained by StepSecurity All Actions Actions Assess all the actions google-github-actions/auth A GitHub Action for authenticating to Google Cloud.",
+      "9 /10 technote-space/workflow-conclusion-action GitHub action to get workflow conclusion.",
+      "4 /10 Maintained action available step-security/publish-unit-test-result-action Secure drop-in replacement for EnricoMi/publish-unit-test-result-action GitHub Action to publish unit test results on GitHub 10 /10 Maintained by StepSecurity actions/dependency-review-action A GitHub Action for detecting vulnerable dependencies and invalid licenses in your PRs 9 /10 amannn/action-semantic-pull-request A GitHub Action that ensures that your PR title matches the Conventional Commits spec."
+    ],
+    "medium": "Source: https://app.stepsecurity.io/action-advisor",
+    "short": "Source: https://app.stepsecurity.io/action-advisor",
+    "tokens": [
+      "github",
+      "action",
+      "advisor",
+      "stepsecurity",
+      "source",
+      "https",
+      "app",
+      "stepsecurity",
+      "io",
+      "action",
+      "advisor",
+      "source",
+      "https",
+      "app",
+      "stepsecurity",
+      "io",
+      "action",
+      "advisor"
+    ]
+  },
+  "title": "GitHub Action Advisor | StepSecurity"
+}

@@ -1,0 +1,322 @@
+{
+  "aliases": [
+    {
+      "alias": "fb762c4a98da7437",
+      "aliasId": "hz.web.fb762c4a98da7437.alias.1",
+      "canonical": "pkce tools"
+    },
+    {
+      "alias": "pkce tools",
+      "aliasId": "hz.web.fb762c4a98da7437.alias.2",
+      "canonical": "pkce tools"
+    },
+    {
+      "alias": "web fb762c4a98da7437",
+      "aliasId": "hz.web.fb762c4a98da7437.alias.3",
+      "canonical": "pkce tools"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.fb762c4a98da7437",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fb762c4a98da7437.entity.1",
+      "kind": "document",
+      "name": "PKCE Tools",
+      "tokens": [
+        "pkce",
+        "tools"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb762c4a98da7437.entity.2",
+      "kind": "heading",
+      "name": "PKCE Tools",
+      "tokens": [
+        "pkce",
+        "tools"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb762c4a98da7437.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb762c4a98da7437.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb762c4a98da7437.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 15,
+      "factId": "hz.web.fb762c4a98da7437.fact.1",
+      "kind": "summary",
+      "text": "Source: https://example-app.com/pkce",
+      "tokens": [
+        "source",
+        "https",
+        "example",
+        "app",
+        "com",
+        "pkce"
+      ]
+    },
+    {
+      "charEnd": 208,
+      "charStart": 103,
+      "factId": "hz.web.fb762c4a98da7437.fact.1",
+      "kind": "bullet",
+      "text": "PKCE Tools PKCE Tools This page has some quick tools you can use while testing out the OAuth PKCE flow.",
+      "tokens": [
+        "pkce",
+        "tools",
+        "pkce",
+        "tools",
+        "page",
+        "has",
+        "some",
+        "quick",
+        "tools",
+        "use",
+        "while",
+        "testing",
+        "out",
+        "oauth",
+        "pkce",
+        "flow"
+      ]
+    },
+    {
+      "charEnd": 342,
+      "charStart": 209,
+      "factId": "hz.web.fb762c4a98da7437.fact.2",
+      "kind": "bullet",
+      "text": "Random String Generator (Code Verifier) Click the button below to generate a random string of an appropriate length to use in PKCE.",
+      "tokens": [
+        "random",
+        "string",
+        "generator",
+        "code",
+        "verifier",
+        "click",
+        "button",
+        "below",
+        "generate",
+        "random",
+        "string",
+        "appropriate",
+        "length",
+        "use",
+        "pkce"
+      ]
+    },
+    {
+      "charEnd": 542,
+      "charStart": 343,
+      "factId": "hz.web.fb762c4a98da7437.fact.3",
+      "kind": "bullet",
+      "text": "Generate Random String URL-Safe SHA256 (Code Challenge) Code Verifier Calculate Hash Code Challenge base64urlencode(sha256(input)) You can learn more about OAuth 2.0 by reading OAuth 2.0 Simplified",
+      "tokens": [
+        "generate",
+        "random",
+        "string",
+        "url",
+        "safe",
+        "sha256",
+        "code",
+        "challenge",
+        "code",
+        "verifier",
+        "calculate",
+        "hash",
+        "code",
+        "challenge",
+        "base64urlencode",
+        "sha256",
+        "input",
+        "learn",
+        "more",
+        "about",
+        "oauth",
+        "reading",
+        "oauth",
+        "simplified"
+      ]
+    },
+    {
+      "charEnd": 563,
+      "charStart": 557,
+      "factId": "hz.web.fb762c4a98da7437.fact.4",
+      "kind": "bullet",
+      "text": "code",
+      "tokens": [
+        "code"
+      ]
+    },
+    {
+      "charEnd": 570,
+      "charStart": 564,
+      "factId": "hz.web.fb762c4a98da7437.fact.5",
+      "kind": "bullet",
+      "text": "pkce",
+      "tokens": [
+        "pkce"
+      ]
+    },
+    {
+      "charEnd": 578,
+      "charStart": 571,
+      "factId": "hz.web.fb762c4a98da7437.fact.6",
+      "kind": "bullet",
+      "text": "oauth",
+      "tokens": [
+        "oauth"
+      ]
+    },
+    {
+      "charEnd": 587,
+      "charStart": 579,
+      "factId": "hz.web.fb762c4a98da7437.fact.7",
+      "kind": "bullet",
+      "text": "random",
+      "tokens": [
+        "random"
+      ]
+    },
+    {
+      "charEnd": 596,
+      "charStart": 588,
+      "factId": "hz.web.fb762c4a98da7437.fact.8",
+      "kind": "bullet",
+      "text": "string",
+      "tokens": [
+        "string"
+      ]
+    },
+    {
+      "charEnd": 604,
+      "charStart": 597,
+      "factId": "hz.web.fb762c4a98da7437.fact.9",
+      "kind": "bullet",
+      "text": "tools",
+      "tokens": [
+        "tools"
+      ]
+    },
+    {
+      "charEnd": 616,
+      "charStart": 605,
+      "factId": "hz.web.fb762c4a98da7437.fact.10",
+      "kind": "bullet",
+      "text": "challenge",
+      "tokens": [
+        "challenge"
+      ]
+    },
+    {
+      "charEnd": 627,
+      "charStart": 617,
+      "factId": "hz.web.fb762c4a98da7437.fact.11",
+      "kind": "bullet",
+      "text": "generate",
+      "tokens": [
+        "generate"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.fb762c4a98da7437.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "PKCE Tools"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.fb762c4a98da7437.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 555,
+      "charStart": 544,
+      "headingId": "hz.web.fb762c4a98da7437.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 639,
+      "charStart": 629,
+      "headingId": "hz.web.fb762c4a98da7437.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/fb762c4a98da7437.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1297,
+        "start": 0
+      }
+    ],
+    "hash": "c74753d23e4fc68ef00e91e40c0d707a431b017301ede98d8c0aa0c9625852c8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "PKCE Tools PKCE Tools This page has some quick tools you can use while testing out the OAuth PKCE flow.",
+      "Random String Generator (Code Verifier) Click the button below to generate a random string of an appropriate length to use in PKCE.",
+      "Generate Random String URL-Safe SHA256 (Code Challenge) Code Verifier Calculate Hash Code Challenge base64urlencode(sha256(input)) You can learn more about OAuth 2.0 by reading OAuth 2.0 Simplified"
+    ],
+    "medium": "Source: https://example-app.com/pkce",
+    "short": "Source: https://example-app.com/pkce",
+    "tokens": [
+      "pkce",
+      "tools",
+      "source",
+      "https",
+      "example",
+      "app",
+      "com",
+      "pkce",
+      "source",
+      "https",
+      "example",
+      "app",
+      "com",
+      "pkce"
+    ]
+  },
+  "title": "PKCE Tools"
+}

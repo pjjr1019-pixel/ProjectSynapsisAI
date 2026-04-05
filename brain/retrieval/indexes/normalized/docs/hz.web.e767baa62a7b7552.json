@@ -1,0 +1,377 @@
+{
+  "aliases": [
+    {
+      "alias": "e767baa62a7b7552",
+      "aliasId": "hz.web.e767baa62a7b7552.alias.1",
+      "canonical": "www.flickr.com"
+    },
+    {
+      "alias": "web e767baa62a7b7552",
+      "aliasId": "hz.web.e767baa62a7b7552.alias.2",
+      "canonical": "www.flickr.com"
+    },
+    {
+      "alias": "www.flickr.com",
+      "aliasId": "hz.web.e767baa62a7b7552.alias.3",
+      "canonical": "www.flickr.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.e767baa62a7b7552",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e767baa62a7b7552.entity.1",
+      "kind": "document",
+      "name": "www.flickr.com",
+      "tokens": [
+        "www",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e767baa62a7b7552.entity.2",
+      "kind": "heading",
+      "name": "www.flickr.com",
+      "tokens": [
+        "www",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e767baa62a7b7552.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e767baa62a7b7552.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e767baa62a7b7552.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 19,
+      "factId": "hz.web.e767baa62a7b7552.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.flickr.com/opensearch.xml",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "opensearch",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 343,
+      "charStart": 116,
+      "factId": "hz.web.e767baa62a7b7552.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Flickr</ShortName> <Description>The safest and most inclusive global community of photography enthusiasts.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "shortname",
+        "flickr",
+        "shortname",
+        "description",
+        "safest",
+        "most",
+        "inclusive",
+        "global",
+        "community",
+        "photography",
+        "enthusiasts"
+      ]
+    },
+    {
+      "charEnd": 1063,
+      "charStart": 344,
+      "factId": "hz.web.e767baa62a7b7552.fact.2",
+      "kind": "bullet",
+      "text": "The best place for inspiration, connection, and sharing!</Description> <Tags>photography photos search sharing flickr flicker</Tags> <Url type=\"text/html\" method=\"get\" template=\"https://www.flickr.com/search/?text={searchTerms}&amp;opensearch=yes\" /> <LongName>Flickr Photo Search</LongName> <Image height=\"64\" width=\"64\" type=\"image/png\">https://www.flickr.com/images/opensearch-flickr-logo.png</Image> <Image height=\"16\" width=\"16\" type=\"image/vnd.microsoft.icon\">https://www.flickr.com/favicon.ico</Image> <Query role=\"example\" searchTerms=\"kittens\" /> <Developer>Flickr.com</Developer> <Language>en-us</Language> <OutputEncoding>UTF-8</OutputEncoding> <InputEncoding>UTF-8</InputEncoding> </OpenSearchDescription>",
+      "tokens": [
+        "best",
+        "place",
+        "inspiration",
+        "connection",
+        "sharing",
+        "description",
+        "tags",
+        "photography",
+        "photos",
+        "search",
+        "sharing",
+        "flickr",
+        "flicker",
+        "tags",
+        "url",
+        "type",
+        "text",
+        "html",
+        "method",
+        "get",
+        "template",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "search",
+        "text",
+        "searchterms",
+        "amp",
+        "opensearch",
+        "yes",
+        "longname",
+        "flickr",
+        "photo",
+        "search",
+        "longname",
+        "image",
+        "height",
+        "64",
+        "width",
+        "64",
+        "type",
+        "image",
+        "png",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "images",
+        "opensearch",
+        "flickr",
+        "logo",
+        "png",
+        "image",
+        "image",
+        "height",
+        "16",
+        "width",
+        "16",
+        "type",
+        "image",
+        "vnd",
+        "microsoft",
+        "icon",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "favicon",
+        "ico",
+        "image",
+        "query",
+        "role",
+        "example",
+        "searchterms",
+        "kittens",
+        "developer",
+        "flickr",
+        "com",
+        "developer",
+        "language",
+        "en",
+        "us",
+        "language",
+        "outputencoding",
+        "utf",
+        "outputencoding",
+        "inputencoding",
+        "utf",
+        "inputencoding",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 1086,
+      "charStart": 1078,
+      "factId": "hz.web.e767baa62a7b7552.fact.3",
+      "kind": "bullet",
+      "text": "flickr",
+      "tokens": [
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 1094,
+      "charStart": 1087,
+      "factId": "hz.web.e767baa62a7b7552.fact.4",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 1100,
+      "charStart": 1095,
+      "factId": "hz.web.e767baa62a7b7552.fact.5",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1108,
+      "charStart": 1101,
+      "factId": "hz.web.e767baa62a7b7552.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1121,
+      "charStart": 1109,
+      "factId": "hz.web.e767baa62a7b7552.fact.7",
+      "kind": "bullet",
+      "text": "opensearch",
+      "tokens": [
+        "opensearch"
+      ]
+    },
+    {
+      "charEnd": 1130,
+      "charStart": 1122,
+      "factId": "hz.web.e767baa62a7b7552.fact.8",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 1137,
+      "charStart": 1131,
+      "factId": "hz.web.e767baa62a7b7552.fact.9",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 1143,
+      "charStart": 1138,
+      "factId": "hz.web.e767baa62a7b7552.fact.10",
+      "kind": "bullet",
+      "text": "utf",
+      "tokens": [
+        "utf"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.e767baa62a7b7552.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.flickr.com"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.e767baa62a7b7552.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1076,
+      "charStart": 1065,
+      "headingId": "hz.web.e767baa62a7b7552.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1155,
+      "charStart": 1145,
+      "headingId": "hz.web.e767baa62a7b7552.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e767baa62a7b7552.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2336,
+        "start": 0
+      }
+    ],
+    "hash": "879b12f4b4b040e2fb6dad196a0dd45920c0750467c0e51622430d5597dd24b7",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Flickr</ShortName> <Description>The safest and most inclusive global community of photography enthusiasts.",
+      "The best place for inspiration, connection, and sharing!</Description> <Tags>photography photos search sharing flickr flicker</Tags> <Url type=\"text/html\" method=\"get\" template=\"https://www.flickr.com/search/?text={searchTerms}&amp;opensearch=yes\" /> <LongName>Flickr Photo Search</LongName> <Image height=\"64\" width=\"64\" type=\"image/png\">https://www.flickr.com/images/opensearch-flickr-logo.png</Image> <Image height=\"16\" width=\"16\" type=\"image/vnd.microsoft.icon\">https://www.flickr.com/favicon.ico</Image> <Query role=\"example\" searchTerms=\"kittens\" /> <Developer>Flickr.com</Developer> <Language>en-us</Language> <OutputEncoding>UTF-8</OutputEncoding> <InputEncoding>UTF-8</InputEncoding> </OpenSearchDescription>",
+      "flickr"
+    ],
+    "medium": "Source: https://www.flickr.com/opensearch.xml",
+    "short": "Source: https://www.flickr.com/opensearch.xml",
+    "tokens": [
+      "www",
+      "flickr",
+      "com",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "opensearch",
+      "xml",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "opensearch",
+      "xml"
+    ]
+  },
+  "title": "www.flickr.com"
+}

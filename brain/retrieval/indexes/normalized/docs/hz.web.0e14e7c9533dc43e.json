@@ -1,0 +1,394 @@
+{
+  "aliases": [
+    {
+      "alias": "0e14e7c9533dc43e",
+      "aliasId": "hz.web.0e14e7c9533dc43e.alias.1",
+      "canonical": "www.flickr.com"
+    },
+    {
+      "alias": "web 0e14e7c9533dc43e",
+      "aliasId": "hz.web.0e14e7c9533dc43e.alias.2",
+      "canonical": "www.flickr.com"
+    },
+    {
+      "alias": "www.flickr.com",
+      "aliasId": "hz.web.0e14e7c9533dc43e.alias.3",
+      "canonical": "www.flickr.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.0e14e7c9533dc43e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0e14e7c9533dc43e.entity.1",
+      "kind": "document",
+      "name": "www.flickr.com",
+      "tokens": [
+        "www",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.0e14e7c9533dc43e.entity.2",
+      "kind": "heading",
+      "name": "www.flickr.com",
+      "tokens": [
+        "www",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.0e14e7c9533dc43e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0e14e7c9533dc43e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0e14e7c9533dc43e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 128,
+      "charStart": 19,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.flickr.com/services/oembed/?format=json&url=https://www.flickr.com/photos/federalreserve/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "services",
+        "oembed",
+        "format",
+        "json",
+        "url",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "photos",
+        "federalreserve"
+      ]
+    },
+    {
+      "charEnd": 1203,
+      "charStart": 180,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.1",
+      "kind": "bullet",
+      "text": "{\"type\":\"rich\",\"flickr_type\":\"photostream\",\"title\":\"Federalreserve\",\"author_name\":\"Federalreserve\",\"author_url\":\"https:\\/\\/www.flickr.com\\/photos\\/federalreserve\\/\",\"width\":800,\"height\":600,\"url\":\"https:\\/\\/www.flickr.com\\/photos\\/federalreserve\\/\",\"web_page\":\"https:\\/\\/www.flickr.com\\/photos\\/federalreserve\\/\",\"thumbnail_url\":\"https:\\/\\/live.staticflickr.com\\/65535\\/55172006099_2da61faf7f_b.jpg\",\"thumbnail_width\":800,\"thumbnail_height\":600,\"web_page_short_url\":\"https:\\/\\/flic.kr\\/ps\\/2pQVP9\",\"license_url\":\"https:\\/\\/creativecommons.org\\/publicdomain\\/mark\\/1.0\\/\",\"html\":\"<a data-flickr-embed='true' href='https:\\/\\/www.flickr.com\\/photos\\/92618257@N08' title='Federalreserve'><img src='https:\\/\\/live.staticflickr.com\\/65535\\/55172006099_2da61faf7f_b.jpg' width='800' height='600' alt='260327_AAC_DAL-551'><\\/a><script async src='https:\\/\\/embedr.flickr.com\\/assets\\/client-code.js' charset='utf-8'><\\/script>\",\"version\":\"1.0\",\"cache_age\":3600,\"provider_name\":\"Flickr\",\"provider_url\":\"https:\\/\\/www.flickr.com\\/\"}",
+      "tokens": [
+        "type",
+        "rich",
+        "flickr_type",
+        "photostream",
+        "title",
+        "federalreserve",
+        "author_name",
+        "federalreserve",
+        "author_url",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "photos",
+        "federalreserve",
+        "width",
+        "800",
+        "height",
+        "600",
+        "url",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "photos",
+        "federalreserve",
+        "web_page",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "photos",
+        "federalreserve",
+        "thumbnail_url",
+        "https",
+        "live",
+        "staticflickr",
+        "com",
+        "65535",
+        "55172006099_2da61faf7f_b",
+        "jpg",
+        "thumbnail_width",
+        "800",
+        "thumbnail_height",
+        "600",
+        "web_page_short_url",
+        "https",
+        "flic",
+        "kr",
+        "ps",
+        "2pqvp9",
+        "license_url",
+        "https",
+        "creativecommons",
+        "org",
+        "publicdomain",
+        "mark",
+        "html",
+        "data",
+        "flickr",
+        "embed",
+        "true",
+        "href",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "photos",
+        "92618257",
+        "n08",
+        "title",
+        "federalreserve",
+        "img",
+        "src",
+        "https",
+        "live",
+        "staticflickr",
+        "com",
+        "65535",
+        "55172006099_2da61faf7f_b",
+        "jpg",
+        "width",
+        "800",
+        "height",
+        "600",
+        "alt",
+        "260327_aac_dal",
+        "551",
+        "script",
+        "async",
+        "src",
+        "https",
+        "embedr",
+        "flickr",
+        "com",
+        "assets",
+        "client",
+        "code",
+        "js",
+        "charset",
+        "utf",
+        "script",
+        "version",
+        "cache_age",
+        "3600",
+        "provider_name",
+        "flickr",
+        "provider_url",
+        "https",
+        "www",
+        "flickr",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1225,
+      "charStart": 1218,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.2",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1231,
+      "charStart": 1226,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1240,
+      "charStart": 1232,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.4",
+      "kind": "bullet",
+      "text": "flickr",
+      "tokens": [
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 1257,
+      "charStart": 1241,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.5",
+      "kind": "bullet",
+      "text": "federalreserve",
+      "tokens": [
+        "federalreserve"
+      ]
+    },
+    {
+      "charEnd": 1263,
+      "charStart": 1258,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.6",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 1272,
+      "charStart": 1264,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.7",
+      "kind": "bullet",
+      "text": "photos",
+      "tokens": [
+        "photos"
+      ]
+    },
+    {
+      "charEnd": 1278,
+      "charStart": 1273,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.8",
+      "kind": "bullet",
+      "text": "600",
+      "tokens": [
+        "600"
+      ]
+    },
+    {
+      "charEnd": 1284,
+      "charStart": 1279,
+      "factId": "hz.web.0e14e7c9533dc43e.fact.9",
+      "kind": "bullet",
+      "text": "800",
+      "tokens": [
+        "800"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.0e14e7c9533dc43e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.flickr.com"
+    },
+    {
+      "charEnd": 178,
+      "charStart": 168,
+      "headingId": "hz.web.0e14e7c9533dc43e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1216,
+      "charStart": 1205,
+      "headingId": "hz.web.0e14e7c9533dc43e.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1296,
+      "charStart": 1286,
+      "headingId": "hz.web.0e14e7c9533dc43e.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0e14e7c9533dc43e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2619,
+        "start": 0
+      }
+    ],
+    "hash": "0f0da66c3c9f002bc0c5839554aff8d891befa223f2ad084bb0f2afc8b3b9cdf",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"type\":\"rich\",\"flickr_type\":\"photostream\",\"title\":\"Federalreserve\",\"author_name\":\"Federalreserve\",\"author_url\":\"https:\\/\\/www.flickr.com\\/photos\\/federalreserve\\/\",\"width\":800,\"height\":600,\"url\":\"https:\\/\\/www.flickr.com\\/photos\\/federalreserve\\/\",\"web_page\":\"https:\\/\\/www.flickr.com\\/photos\\/federalreserve\\/\",\"thumbnail_url\":\"https:\\/\\/live.staticflickr.com\\/65535\\/55172006099_2da61faf7f_b.jpg\",\"thumbnail_width\":800,\"thumbnail_height\":600,\"web_page_short_url\":\"https:\\/\\/flic.kr\\/ps\\/2pQVP9\",\"license_url\":\"https:\\/\\/creativecommons.org\\/publicdomain\\/mark\\/1.0\\/\",\"html\":\"<a data-flickr-embed='true' href='https:\\/\\/www.flickr.com\\/photos\\/92618257@N08' title='Federalreserve'><img src='https:\\/\\/live.staticflickr.com\\/65535\\/55172006099_2da61faf7f_b.jpg' width='800' height='600' alt='260327_AAC_DAL-551'><\\/a><script async src='https:\\/\\/embedr.flickr.com\\/assets\\/client-code.js' charset='utf-8'><\\/script>\",\"version\":\"1.0\",\"cache_age\":3600,\"provider_name\":\"Flickr\",\"provider_url\":\"https:\\/\\/www.flickr.com\\/\"}",
+      "https",
+      "com"
+    ],
+    "medium": "Source: https://www.flickr.com/services/oembed/?format=json&url=https://www.flickr.com/photos/federalreserve/",
+    "short": "Source: https://www.flickr.com/services/oembed/?format=json&url=https://www.flickr.com/photos/federalreserve/",
+    "tokens": [
+      "www",
+      "flickr",
+      "com",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "services",
+      "oembed",
+      "format",
+      "json",
+      "url",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "photos",
+      "federalreserve",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "services",
+      "oembed",
+      "format",
+      "json",
+      "url",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "photos",
+      "federalreserve"
+    ]
+  },
+  "title": "www.flickr.com"
+}

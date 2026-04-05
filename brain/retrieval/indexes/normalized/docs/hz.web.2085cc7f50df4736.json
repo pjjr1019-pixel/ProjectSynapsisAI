@@ -1,0 +1,380 @@
+{
+  "aliases": [
+    {
+      "alias": "2085cc7f50df4736",
+      "aliasId": "hz.web.2085cc7f50df4736.alias.1",
+      "canonical": "flickr: the flickr developer guide"
+    },
+    {
+      "alias": "flickr the flickr developer guide",
+      "aliasId": "hz.web.2085cc7f50df4736.alias.2",
+      "canonical": "flickr: the flickr developer guide"
+    },
+    {
+      "alias": "web 2085cc7f50df4736",
+      "aliasId": "hz.web.2085cc7f50df4736.alias.3",
+      "canonical": "flickr: the flickr developer guide"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.75,
+  "docId": "hz.web.2085cc7f50df4736",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2085cc7f50df4736.entity.1",
+      "kind": "document",
+      "name": "Flickr: The Flickr Developer Guide",
+      "tokens": [
+        "flickr",
+        "flickr",
+        "developer",
+        "guide"
+      ]
+    },
+    {
+      "entityId": "hz.web.2085cc7f50df4736.entity.2",
+      "kind": "heading",
+      "name": "Flickr: The Flickr Developer Guide",
+      "tokens": [
+        "flickr",
+        "flickr",
+        "developer",
+        "guide"
+      ]
+    },
+    {
+      "entityId": "hz.web.2085cc7f50df4736.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2085cc7f50df4736.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2085cc7f50df4736.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 89,
+      "charStart": 39,
+      "factId": "hz.web.2085cc7f50df4736.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.flickr.com/services/developer/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "flickr",
+        "com",
+        "services",
+        "developer"
+      ]
+    },
+    {
+      "charEnd": 190,
+      "charStart": 141,
+      "factId": "hz.web.2085cc7f50df4736.fact.1",
+      "kind": "bullet",
+      "text": "Flickr: The Flickr Developer Guide Flickr logo.",
+      "tokens": [
+        "flickr",
+        "flickr",
+        "developer",
+        "guide",
+        "flickr",
+        "logo"
+      ]
+    },
+    {
+      "charEnd": 573,
+      "charStart": 191,
+      "factId": "hz.web.2085cc7f50df4736.fact.2",
+      "kind": "bullet",
+      "text": "If you click it, you'll go home Sign Up Explore Recent Photos Trending Events The Commons Flickr Galleries World Map Camera Finder Flickr Blog Prints The Print Shop Prints & Wall Art Photo Books MODE ✨ Get Pro Pro Plans Stats Dashboard Get Auto-Uploadr Upload Sign In The Flickr Developer Guide Home | API | Community | Business | Attributions Flickr API Changelog What is Flickr?",
+      "tokens": [
+        "if",
+        "click",
+        "ll",
+        "go",
+        "home",
+        "sign",
+        "up",
+        "explore",
+        "recent",
+        "photos",
+        "trending",
+        "events",
+        "commons",
+        "flickr",
+        "galleries",
+        "world",
+        "map",
+        "camera",
+        "finder",
+        "flickr",
+        "blog",
+        "prints",
+        "print",
+        "shop",
+        "prints",
+        "wall",
+        "art",
+        "photo",
+        "books",
+        "mode",
+        "get",
+        "pro",
+        "pro",
+        "plans",
+        "stats",
+        "dashboard",
+        "get",
+        "auto",
+        "uploadr",
+        "upload",
+        "sign",
+        "flickr",
+        "developer",
+        "guide",
+        "home",
+        "api",
+        "community",
+        "business",
+        "attributions",
+        "flickr",
+        "api",
+        "changelog",
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 673,
+      "charStart": 574,
+      "factId": "hz.web.2085cc7f50df4736.fact.3",
+      "kind": "bullet",
+      "text": "Flickr is almost certainly the best online photo management and sharing application in the world.",
+      "tokens": [
+        "flickr",
+        "almost",
+        "certainly",
+        "best",
+        "online",
+        "photo",
+        "management",
+        "sharing",
+        "application",
+        "world"
+      ]
+    },
+    {
+      "charEnd": 906,
+      "charStart": 674,
+      "factId": "hz.web.2085cc7f50df4736.fact.4",
+      "kind": "bullet",
+      "text": "On Flickr, members upload photos, share them securely, supplement their photos with metadata like license information, geo-location, people, tags, etc., and interact with their family, friends, contacts or anyone in the community.",
+      "tokens": [
+        "flickr",
+        "members",
+        "upload",
+        "photos",
+        "share",
+        "them",
+        "securely",
+        "supplement",
+        "their",
+        "photos",
+        "metadata",
+        "like",
+        "license",
+        "information",
+        "geo",
+        "location",
+        "people",
+        "tags",
+        "etc",
+        "interact",
+        "their",
+        "family",
+        "friends",
+        "contacts",
+        "anyone",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 929,
+      "charStart": 921,
+      "factId": "hz.web.2085cc7f50df4736.fact.5",
+      "kind": "bullet",
+      "text": "flickr",
+      "tokens": [
+        "flickr"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 930,
+      "factId": "hz.web.2085cc7f50df4736.fact.6",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 944,
+      "charStart": 936,
+      "factId": "hz.web.2085cc7f50df4736.fact.7",
+      "kind": "bullet",
+      "text": "photos",
+      "tokens": [
+        "photos"
+      ]
+    },
+    {
+      "charEnd": 956,
+      "charStart": 945,
+      "factId": "hz.web.2085cc7f50df4736.fact.8",
+      "kind": "bullet",
+      "text": "community",
+      "tokens": [
+        "community"
+      ]
+    },
+    {
+      "charEnd": 969,
+      "charStart": 957,
+      "factId": "hz.web.2085cc7f50df4736.fact.9",
+      "kind": "bullet",
+      "text": "guidelines",
+      "tokens": [
+        "guidelines"
+      ]
+    },
+    {
+      "charEnd": 976,
+      "charStart": 970,
+      "factId": "hz.web.2085cc7f50df4736.fact.10",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 983,
+      "charStart": 977,
+      "factId": "hz.web.2085cc7f50df4736.fact.11",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    },
+    {
+      "charEnd": 992,
+      "charStart": 984,
+      "factId": "hz.web.2085cc7f50df4736.fact.12",
+      "kind": "bullet",
+      "text": "people",
+      "tokens": [
+        "people"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 37,
+      "charStart": 1,
+      "headingId": "hz.web.2085cc7f50df4736.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Flickr: The Flickr Developer Guide"
+    },
+    {
+      "charEnd": 139,
+      "charStart": 129,
+      "headingId": "hz.web.2085cc7f50df4736.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 919,
+      "charStart": 908,
+      "headingId": "hz.web.2085cc7f50df4736.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1004,
+      "charStart": 994,
+      "headingId": "hz.web.2085cc7f50df4736.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2085cc7f50df4736.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4267,
+        "start": 0
+      }
+    ],
+    "hash": "83d9533f5f88830354fb45039720b728b30b3d824cd604f2414d539f36702e70",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Flickr: The Flickr Developer Guide Flickr logo.",
+      "If you click it, you'll go home Sign Up Explore Recent Photos Trending Events The Commons Flickr Galleries World Map Camera Finder Flickr Blog Prints The Print Shop Prints & Wall Art Photo Books MODE ✨ Get Pro Pro Plans Stats Dashboard Get Auto-Uploadr Upload Sign In The Flickr Developer Guide Home | API | Community | Business | Attributions Flickr API Changelog What is Flickr?",
+      "Flickr is almost certainly the best online photo management and sharing application in the world."
+    ],
+    "medium": "Source: https://www.flickr.com/services/developer/",
+    "short": "Source: https://www.flickr.com/services/developer/",
+    "tokens": [
+      "flickr",
+      "flickr",
+      "developer",
+      "guide",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "services",
+      "developer",
+      "source",
+      "https",
+      "www",
+      "flickr",
+      "com",
+      "services",
+      "developer"
+    ]
+  },
+  "title": "Flickr: The Flickr Developer Guide"
+}

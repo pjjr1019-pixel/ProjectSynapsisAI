@@ -1,0 +1,289 @@
+{
+  "aliases": [
+    {
+      "alias": "9eb265fdf94e8787",
+      "aliasId": "hz.web.9eb265fdf94e8787.alias.1",
+      "canonical": "welcome. | maya.land"
+    },
+    {
+      "alias": "web 9eb265fdf94e8787",
+      "aliasId": "hz.web.9eb265fdf94e8787.alias.2",
+      "canonical": "welcome. | maya.land"
+    },
+    {
+      "alias": "welcome. maya.land",
+      "aliasId": "hz.web.9eb265fdf94e8787.alias.3",
+      "canonical": "welcome. | maya.land"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.9eb265fdf94e8787",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9eb265fdf94e8787.entity.1",
+      "kind": "document",
+      "name": "welcome. | maya.land",
+      "tokens": [
+        "welcome",
+        "maya",
+        "land"
+      ]
+    },
+    {
+      "entityId": "hz.web.9eb265fdf94e8787.entity.2",
+      "kind": "heading",
+      "name": "welcome. | maya.land",
+      "tokens": [
+        "welcome",
+        "maya",
+        "land"
+      ]
+    },
+    {
+      "entityId": "hz.web.9eb265fdf94e8787.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9eb265fdf94e8787.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9eb265fdf94e8787.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 25,
+      "factId": "hz.web.9eb265fdf94e8787.fact.1",
+      "kind": "summary",
+      "text": "Source: https://maya.land/",
+      "tokens": [
+        "source",
+        "https",
+        "maya",
+        "land"
+      ]
+    },
+    {
+      "charEnd": 113,
+      "charStart": 103,
+      "factId": "hz.web.9eb265fdf94e8787.fact.1",
+      "kind": "bullet",
+      "text": "welcome.",
+      "tokens": [
+        "welcome"
+      ]
+    },
+    {
+      "charEnd": 161,
+      "charStart": 114,
+      "factId": "hz.web.9eb265fdf94e8787.fact.2",
+      "kind": "bullet",
+      "text": "| maya.land maya.land Site Structure welcome.",
+      "tokens": [
+        "maya",
+        "land",
+        "maya",
+        "land",
+        "site",
+        "structure",
+        "welcome"
+      ]
+    },
+    {
+      "charEnd": 194,
+      "charStart": 162,
+      "factId": "hz.web.9eb265fdf94e8787.fact.3",
+      "kind": "bullet",
+      "text": "Maya Kate she/her techie scum.",
+      "tokens": [
+        "maya",
+        "kate",
+        "she",
+        "her",
+        "techie",
+        "scum"
+      ]
+    },
+    {
+      "charEnd": 219,
+      "charStart": 195,
+      "factId": "hz.web.9eb265fdf94e8787.fact.4",
+      "kind": "bullet",
+      "text": "enthusiasm enthusiast.",
+      "tokens": [
+        "enthusiasm",
+        "enthusiast"
+      ]
+    },
+    {
+      "charEnd": 239,
+      "charStart": 234,
+      "factId": "hz.web.9eb265fdf94e8787.fact.5",
+      "kind": "bullet",
+      "text": "may",
+      "tokens": [
+        "may"
+      ]
+    },
+    {
+      "charEnd": 246,
+      "charStart": 240,
+      "factId": "hz.web.9eb265fdf94e8787.fact.6",
+      "kind": "bullet",
+      "text": "maya",
+      "tokens": [
+        "maya"
+      ]
+    },
+    {
+      "charEnd": 253,
+      "charStart": 247,
+      "factId": "hz.web.9eb265fdf94e8787.fact.7",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 266,
+      "charStart": 254,
+      "factId": "hz.web.9eb265fdf94e8787.fact.8",
+      "kind": "bullet",
+      "text": "unsuitable",
+      "tokens": [
+        "unsuitable"
+      ]
+    },
+    {
+      "charEnd": 273,
+      "charStart": 267,
+      "factId": "hz.web.9eb265fdf94e8787.fact.9",
+      "kind": "bullet",
+      "text": "land",
+      "tokens": [
+        "land"
+      ]
+    },
+    {
+      "charEnd": 280,
+      "charStart": 274,
+      "factId": "hz.web.9eb265fdf94e8787.fact.10",
+      "kind": "bullet",
+      "text": "time",
+      "tokens": [
+        "time"
+      ]
+    },
+    {
+      "charEnd": 290,
+      "charStart": 281,
+      "factId": "hz.web.9eb265fdf94e8787.fact.11",
+      "kind": "bullet",
+      "text": "welcome",
+      "tokens": [
+        "welcome"
+      ]
+    },
+    {
+      "charEnd": 299,
+      "charStart": 291,
+      "factId": "hz.web.9eb265fdf94e8787.fact.12",
+      "kind": "bullet",
+      "text": "adults",
+      "tokens": [
+        "adults"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.9eb265fdf94e8787.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "welcome. | maya.land"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.9eb265fdf94e8787.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 232,
+      "charStart": 221,
+      "headingId": "hz.web.9eb265fdf94e8787.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 311,
+      "charStart": 301,
+      "headingId": "hz.web.9eb265fdf94e8787.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/9eb265fdf94e8787.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1455,
+        "start": 0
+      }
+    ],
+    "hash": "61ec90826bf77e9d3cd6dd4694a92e324ba6d83b2a5b8045e0fcbb0903788265",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "welcome.",
+      "| maya.land maya.land Site Structure welcome.",
+      "Maya Kate she/her techie scum."
+    ],
+    "medium": "Source: https://maya.land/",
+    "short": "Source: https://maya.land/",
+    "tokens": [
+      "welcome",
+      "maya",
+      "land",
+      "source",
+      "https",
+      "maya",
+      "land",
+      "source",
+      "https",
+      "maya",
+      "land"
+    ]
+  },
+  "title": "welcome. | maya.land"
+}

@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    {
+      "alias": "139d66e98380f99a",
+      "aliasId": "hz.web.139d66e98380f99a.alias.1",
+      "canonical": "privacy policy | about.me"
+    },
+    {
+      "alias": "privacy policy about.me",
+      "aliasId": "hz.web.139d66e98380f99a.alias.2",
+      "canonical": "privacy policy | about.me"
+    },
+    {
+      "alias": "web 139d66e98380f99a",
+      "aliasId": "hz.web.139d66e98380f99a.alias.3",
+      "canonical": "privacy policy | about.me"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.139d66e98380f99a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.139d66e98380f99a.entity.1",
+      "kind": "document",
+      "name": "Privacy Policy | about.me",
+      "tokens": [
+        "privacy",
+        "policy",
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.139d66e98380f99a.entity.2",
+      "kind": "heading",
+      "name": "Privacy Policy | about.me",
+      "tokens": [
+        "privacy",
+        "policy",
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.139d66e98380f99a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.139d66e98380f99a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.139d66e98380f99a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 30,
+      "factId": "hz.web.139d66e98380f99a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://about.me/privacy",
+      "tokens": [
+        "source",
+        "https",
+        "about",
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 378,
+      "charStart": 114,
+      "factId": "hz.web.139d66e98380f99a.fact.1",
+      "kind": "bullet",
+      "text": "Privacy Policy | about.me Get started for free Get your page Features Pricing Log In Home Features Pricing Privacy Policy Legal Terms of Use Privacy Policy EU Privacy Policy Cookie Policy Copyright Dispute Policy Effective date: June 7, 2018 We at About.me, Inc.",
+      "tokens": [
+        "privacy",
+        "policy",
+        "about",
+        "get",
+        "started",
+        "free",
+        "get",
+        "your",
+        "page",
+        "features",
+        "pricing",
+        "log",
+        "home",
+        "features",
+        "pricing",
+        "privacy",
+        "policy",
+        "legal",
+        "terms",
+        "use",
+        "privacy",
+        "policy",
+        "eu",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy",
+        "copyright",
+        "dispute",
+        "policy",
+        "effective",
+        "date",
+        "june",
+        "2018",
+        "about",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 486,
+      "charStart": 379,
+      "factId": "hz.web.139d66e98380f99a.fact.2",
+      "kind": "bullet",
+      "text": "know you care about how your personal information is used and shared, and we take your privacy seriously.",
+      "tokens": [
+        "know",
+        "care",
+        "about",
+        "your",
+        "personal",
+        "information",
+        "used",
+        "shared",
+        "take",
+        "your",
+        "privacy",
+        "seriously"
+      ]
+    },
+    {
+      "charEnd": 554,
+      "charStart": 487,
+      "factId": "hz.web.139d66e98380f99a.fact.3",
+      "kind": "bullet",
+      "text": "Please read the following to learn more about our Privacy Policy.",
+      "tokens": [
+        "please",
+        "read",
+        "following",
+        "learn",
+        "more",
+        "about",
+        "our",
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 798,
+      "charStart": 555,
+      "factId": "hz.web.139d66e98380f99a.fact.4",
+      "kind": "bullet",
+      "text": "By using or accessing the Services in any manner, you acknowledge that you accept the practices and policies outlined in this Privacy Policy, and you hereby consent that we will collect, use, and share your information in the following ways.",
+      "tokens": [
+        "using",
+        "accessing",
+        "services",
+        "any",
+        "manner",
+        "acknowledge",
+        "accept",
+        "practices",
+        "policies",
+        "outlined",
+        "privacy",
+        "policy",
+        "hereby",
+        "consent",
+        "will",
+        "collect",
+        "use",
+        "share",
+        "your",
+        "information",
+        "following",
+        "ways"
+      ]
+    },
+    {
+      "charEnd": 826,
+      "charStart": 813,
+      "factId": "hz.web.139d66e98380f99a.fact.5",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 833,
+      "charStart": 827,
+      "factId": "hz.web.139d66e98380f99a.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 839,
+      "charStart": 834,
+      "factId": "hz.web.139d66e98380f99a.fact.7",
+      "kind": "bullet",
+      "text": "may",
+      "tokens": [
+        "may"
+      ]
+    },
+    {
+      "charEnd": 845,
+      "charStart": 840,
+      "factId": "hz.web.139d66e98380f99a.fact.8",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 856,
+      "charStart": 846,
+      "factId": "hz.web.139d66e98380f99a.fact.9",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 861,
+      "charStart": 857,
+      "factId": "hz.web.139d66e98380f99a.fact.10",
+      "kind": "bullet",
+      "text": "us",
+      "tokens": [
+        "us"
+      ]
+    },
+    {
+      "charEnd": 867,
+      "charStart": 862,
+      "factId": "hz.web.139d66e98380f99a.fact.11",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 877,
+      "charStart": 868,
+      "factId": "hz.web.139d66e98380f99a.fact.12",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.139d66e98380f99a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Privacy Policy | about.me"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.139d66e98380f99a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 811,
+      "charStart": 800,
+      "headingId": "hz.web.139d66e98380f99a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 889,
+      "charStart": 879,
+      "headingId": "hz.web.139d66e98380f99a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/139d66e98380f99a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4125,
+        "start": 0
+      }
+    ],
+    "hash": "47b9910999f96ee5bb53d9c8982678dbbe87cd69a3ae298bc8b423acdfb5a21d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.139d66e98380f99a.rule.1",
+      "text": "If you are an end user of one of our user’s webpages and want to know how a user handles your information, you should check the user’s privacy policy.",
+      "tokens": [
+        "if",
+        "end",
+        "user",
+        "one",
+        "our",
+        "user",
+        "webpages",
+        "want",
+        "know",
+        "user",
+        "handles",
+        "your",
+        "information",
+        "check",
+        "user",
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "ruleId": "hz.web.139d66e98380f99a.rule.2",
+      "text": "As noted in the Terms of Use , we do not knowingly collect or solicit personal information from anyone under the age of 16.",
+      "tokens": [
+        "noted",
+        "terms",
+        "use",
+        "not",
+        "knowingly",
+        "collect",
+        "solicit",
+        "personal",
+        "information",
+        "anyone",
+        "under",
+        "age",
+        "16"
+      ]
+    },
+    {
+      "ruleId": "hz.web.139d66e98380f99a.rule.3",
+      "text": "If you are under 16, please do not attempt to register for the Services or send any personal information about yourself to us.",
+      "tokens": [
+        "if",
+        "under",
+        "16",
+        "please",
+        "not",
+        "attempt",
+        "register",
+        "services",
+        "send",
+        "any",
+        "personal",
+        "information",
+        "about",
+        "yourself",
+        "us"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Privacy Policy | about.me Get started for free Get your page Features Pricing Log In Home Features Pricing Privacy Policy Legal Terms of Use Privacy Policy EU Privacy Policy Cookie Policy Copyright Dispute Policy Effective date: June 7, 2018 We at About.me, Inc.",
+      "know you care about how your personal information is used and shared, and we take your privacy seriously.",
+      "Please read the following to learn more about our Privacy Policy."
+    ],
+    "medium": "Source: https://about.me/privacy",
+    "short": "Source: https://about.me/privacy",
+    "tokens": [
+      "privacy",
+      "policy",
+      "about",
+      "source",
+      "https",
+      "about",
+      "privacy",
+      "source",
+      "https",
+      "about",
+      "privacy"
+    ]
+  },
+  "title": "Privacy Policy | about.me"
+}

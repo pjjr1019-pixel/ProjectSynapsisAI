@@ -1,0 +1,330 @@
+{
+  "aliases": [
+    {
+      "alias": "72d352699cbd5616",
+      "aliasId": "hz.web.72d352699cbd5616.alias.1",
+      "canonical": "forgot password - superfeedr"
+    },
+    {
+      "alias": "forgot password - superfeedr",
+      "aliasId": "hz.web.72d352699cbd5616.alias.2",
+      "canonical": "forgot password - superfeedr"
+    },
+    {
+      "alias": "web 72d352699cbd5616",
+      "aliasId": "hz.web.72d352699cbd5616.alias.3",
+      "canonical": "forgot password - superfeedr"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.72d352699cbd5616",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.72d352699cbd5616.entity.1",
+      "kind": "document",
+      "name": "Forgot Password - Superfeedr",
+      "tokens": [
+        "forgot",
+        "password",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.72d352699cbd5616.entity.2",
+      "kind": "heading",
+      "name": "Forgot Password - Superfeedr",
+      "tokens": [
+        "forgot",
+        "password",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.72d352699cbd5616.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.72d352699cbd5616.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.72d352699cbd5616.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 33,
+      "factId": "hz.web.72d352699cbd5616.fact.1",
+      "kind": "summary",
+      "text": "Source: http://superfeedr.com/users/password/new",
+      "tokens": [
+        "source",
+        "http",
+        "superfeedr",
+        "com",
+        "users",
+        "password",
+        "new"
+      ]
+    },
+    {
+      "charEnd": 301,
+      "charStart": 133,
+      "factId": "hz.web.72d352699cbd5616.fact.1",
+      "kind": "bullet",
+      "text": "Forgot Password - Superfeedr Superfeedr Superfeedr &rsaquo; Forgot Password Forgot Password If you've forgotten you login or password, please fill the following form.",
+      "tokens": [
+        "forgot",
+        "password",
+        "superfeedr",
+        "superfeedr",
+        "superfeedr",
+        "rsaquo",
+        "forgot",
+        "password",
+        "forgot",
+        "password",
+        "if",
+        "ve",
+        "forgotten",
+        "login",
+        "password",
+        "please",
+        "fill",
+        "following",
+        "form"
+      ]
+    },
+    {
+      "charEnd": 370,
+      "charStart": 302,
+      "factId": "hz.web.72d352699cbd5616.fact.2",
+      "kind": "bullet",
+      "text": "You'll receive an email with instructions to recover your account.",
+      "tokens": [
+        "ll",
+        "receive",
+        "email",
+        "instructions",
+        "recover",
+        "your",
+        "account"
+      ]
+    },
+    {
+      "charEnd": 426,
+      "charStart": 371,
+      "factId": "hz.web.72d352699cbd5616.fact.3",
+      "kind": "bullet",
+      "text": "Email Login Didn't receive confirmation instructions?",
+      "tokens": [
+        "email",
+        "login",
+        "didn",
+        "receive",
+        "confirmation",
+        "instructions"
+      ]
+    },
+    {
+      "charEnd": 559,
+      "charStart": 427,
+      "factId": "hz.web.72d352699cbd5616.fact.4",
+      "kind": "bullet",
+      "text": "Superfeedr &copy; 2009&ndash;2026 Superfeedr About Pricing Terms For developers Documentation Code Libraries Connect with us Email",
+      "tokens": [
+        "superfeedr",
+        "copy",
+        "2009",
+        "ndash",
+        "2026",
+        "superfeedr",
+        "about",
+        "pricing",
+        "terms",
+        "developers",
+        "documentation",
+        "code",
+        "libraries",
+        "connect",
+        "us",
+        "email"
+      ]
+    },
+    {
+      "charEnd": 586,
+      "charStart": 574,
+      "factId": "hz.web.72d352699cbd5616.fact.5",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 597,
+      "charStart": 587,
+      "factId": "hz.web.72d352699cbd5616.fact.6",
+      "kind": "bullet",
+      "text": "password",
+      "tokens": [
+        "password"
+      ]
+    },
+    {
+      "charEnd": 605,
+      "charStart": 598,
+      "factId": "hz.web.72d352699cbd5616.fact.7",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 614,
+      "charStart": 606,
+      "factId": "hz.web.72d352699cbd5616.fact.8",
+      "kind": "bullet",
+      "text": "forgot",
+      "tokens": [
+        "forgot"
+      ]
+    },
+    {
+      "charEnd": 629,
+      "charStart": 615,
+      "factId": "hz.web.72d352699cbd5616.fact.9",
+      "kind": "bullet",
+      "text": "instructions",
+      "tokens": [
+        "instructions"
+      ]
+    },
+    {
+      "charEnd": 637,
+      "charStart": 630,
+      "factId": "hz.web.72d352699cbd5616.fact.10",
+      "kind": "bullet",
+      "text": "login",
+      "tokens": [
+        "login"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 638,
+      "factId": "hz.web.72d352699cbd5616.fact.11",
+      "kind": "bullet",
+      "text": "receive",
+      "tokens": [
+        "receive"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 648,
+      "factId": "hz.web.72d352699cbd5616.fact.12",
+      "kind": "bullet",
+      "text": "2009",
+      "tokens": [
+        "2009"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.72d352699cbd5616.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Forgot Password - Superfeedr"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.72d352699cbd5616.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 572,
+      "charStart": 561,
+      "headingId": "hz.web.72d352699cbd5616.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 666,
+      "charStart": 656,
+      "headingId": "hz.web.72d352699cbd5616.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/72d352699cbd5616.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1339,
+        "start": 0
+      }
+    ],
+    "hash": "c464f23e9ef8ce576f96c1af52f51ee2b51badddfd7654ccf2e81e50008a9fdd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Forgot Password - Superfeedr Superfeedr Superfeedr &rsaquo; Forgot Password Forgot Password If you've forgotten you login or password, please fill the following form.",
+      "You'll receive an email with instructions to recover your account.",
+      "Email Login Didn't receive confirmation instructions?"
+    ],
+    "medium": "Source: http://superfeedr.com/users/password/new",
+    "short": "Source: http://superfeedr.com/users/password/new",
+    "tokens": [
+      "forgot",
+      "password",
+      "superfeedr",
+      "source",
+      "http",
+      "superfeedr",
+      "com",
+      "users",
+      "password",
+      "new",
+      "source",
+      "http",
+      "superfeedr",
+      "com",
+      "users",
+      "password",
+      "new"
+    ]
+  },
+  "title": "Forgot Password - Superfeedr"
+}

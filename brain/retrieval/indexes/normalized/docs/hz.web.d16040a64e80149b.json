@@ -1,0 +1,509 @@
+{
+  "aliases": [
+    {
+      "alias": "d16040a64e80149b",
+      "aliasId": "hz.web.d16040a64e80149b.alias.1",
+      "canonical": "nasa"
+    },
+    {
+      "alias": "nasa",
+      "aliasId": "hz.web.d16040a64e80149b.alias.2",
+      "canonical": "nasa"
+    },
+    {
+      "alias": "web d16040a64e80149b",
+      "aliasId": "hz.web.d16040a64e80149b.alias.3",
+      "canonical": "nasa"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.d16040a64e80149b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d16040a64e80149b.entity.1",
+      "kind": "document",
+      "name": "NASA",
+      "tokens": [
+        "nasa"
+      ]
+    },
+    {
+      "entityId": "hz.web.d16040a64e80149b.entity.2",
+      "kind": "heading",
+      "name": "NASA",
+      "tokens": [
+        "nasa"
+      ]
+    },
+    {
+      "entityId": "hz.web.d16040a64e80149b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d16040a64e80149b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d16040a64e80149b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 43,
+      "charStart": 9,
+      "factId": "hz.web.d16040a64e80149b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.nasa.gov/feed/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "nasa",
+        "gov",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1324,
+      "charStart": 95,
+      "factId": "hz.web.d16040a64e80149b.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title>NASA</title> <atom:link href=\"https://www.nasa.gov/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://www.nasa.gov</link> <description>Official National Aeronautics and Space Administration Website</description> <lastBuildDate>Mon, 30 Mar 2026 22:05:21 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=6.8.5</generator> <item> <title>Sendoff for Artemis II Crew</title> <link>https://www.nasa.gov/image-article/sendoff-for-artemis-ii-crew/</link> <dc:creator><![CDATA[Monika Luabeya]]></dc:creator> <pubDate>Mon, 30 Mar 2026 18:18:27 +0000</pubDate> <category><![CDATA[Andre Douglas]]></category> <category><![CDATA[Artemis 2]]></category> <category><![CDATA[Christina H.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "wfw",
+        "http",
+        "wellformedweb",
+        "org",
+        "commentapi",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "xmlns",
+        "slash",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "slash",
+        "xmlns",
+        "media",
+        "http",
+        "search",
+        "yahoo",
+        "com",
+        "mrss",
+        "channel",
+        "title",
+        "nasa",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "www",
+        "nasa",
+        "gov",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "www",
+        "nasa",
+        "gov",
+        "link",
+        "description",
+        "official",
+        "national",
+        "aeronautics",
+        "space",
+        "administration",
+        "website",
+        "description",
+        "lastbuilddate",
+        "mon",
+        "30",
+        "mar",
+        "2026",
+        "22",
+        "05",
+        "21",
+        "0000",
+        "lastbuilddate",
+        "language",
+        "en",
+        "us",
+        "language",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "generator",
+        "https",
+        "wordpress",
+        "org",
+        "generator",
+        "item",
+        "title",
+        "sendoff",
+        "artemis",
+        "ii",
+        "crew",
+        "title",
+        "link",
+        "https",
+        "www",
+        "nasa",
+        "gov",
+        "image",
+        "article",
+        "sendoff",
+        "artemis",
+        "ii",
+        "crew",
+        "link",
+        "dc",
+        "creator",
+        "cdata",
+        "monika",
+        "luabeya",
+        "dc",
+        "creator",
+        "pubdate",
+        "mon",
+        "30",
+        "mar",
+        "2026",
+        "18",
+        "18",
+        "27",
+        "0000",
+        "pubdate",
+        "category",
+        "cdata",
+        "andre",
+        "douglas",
+        "category",
+        "category",
+        "cdata",
+        "artemis",
+        "category",
+        "category",
+        "cdata",
+        "christina"
+      ]
+    },
+    {
+      "charEnd": 1367,
+      "charStart": 1325,
+      "factId": "hz.web.d16040a64e80149b.fact.2",
+      "kind": "bullet",
+      "text": "Koch]]></category> <category><![CDATA[G.",
+      "tokens": [
+        "koch",
+        "category",
+        "category",
+        "cdata"
+      ]
+    },
+    {
+      "charEnd": 1479,
+      "charStart": 1368,
+      "factId": "hz.web.d16040a64e80149b.fact.3",
+      "kind": "bullet",
+      "text": "Reid Wiseman]]></category> <category><![CDATA[Johnson Space Center]]></category> <category><![CDATA[Victor J.",
+      "tokens": [
+        "reid",
+        "wiseman",
+        "category",
+        "category",
+        "cdata",
+        "johnson",
+        "space",
+        "center",
+        "category",
+        "category",
+        "cdata",
+        "victor"
+      ]
+    },
+    {
+      "charEnd": 1906,
+      "charStart": 1480,
+      "factId": "hz.web.d16040a64e80149b.fact.4",
+      "kind": "bullet",
+      "text": "Glover]]></category> <guid isPermaLink=\"false\">https://www.nasa.gov/?post_type=image-article&#038;p=978753</guid> <description><![CDATA[From left to right, NASA astronauts Andre Douglas, Victor Glover, and Christina Koch, CSA (Canadian Space Agency) astronauts Jenni Gibbons, NASA astronaut Reid Wiseman, and CSA astronaut Jeremy Hansen pose for a photo before the Artemis II crew proceed to a media event on March 27, 2026.",
+      "tokens": [
+        "glover",
+        "category",
+        "guid",
+        "ispermalink",
+        "false",
+        "https",
+        "www",
+        "nasa",
+        "gov",
+        "post_type",
+        "image",
+        "article",
+        "038",
+        "978753",
+        "guid",
+        "description",
+        "cdata",
+        "left",
+        "right",
+        "nasa",
+        "astronauts",
+        "andre",
+        "douglas",
+        "victor",
+        "glover",
+        "christina",
+        "koch",
+        "csa",
+        "canadian",
+        "space",
+        "agency",
+        "astronauts",
+        "jenni",
+        "gibbons",
+        "nasa",
+        "astronaut",
+        "reid",
+        "wiseman",
+        "csa",
+        "astronaut",
+        "jeremy",
+        "hansen",
+        "pose",
+        "photo",
+        "before",
+        "artemis",
+        "ii",
+        "crew",
+        "proceed",
+        "media",
+        "event",
+        "march",
+        "27",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1928,
+      "charStart": 1921,
+      "factId": "hz.web.d16040a64e80149b.fact.5",
+      "kind": "bullet",
+      "text": "class",
+      "tokens": [
+        "class"
+      ]
+    },
+    {
+      "charEnd": 1935,
+      "charStart": 1929,
+      "factId": "hz.web.d16040a64e80149b.fact.6",
+      "kind": "bullet",
+      "text": "nasa",
+      "tokens": [
+        "nasa"
+      ]
+    },
+    {
+      "charEnd": 1943,
+      "charStart": 1936,
+      "factId": "hz.web.d16040a64e80149b.fact.7",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1953,
+      "charStart": 1944,
+      "factId": "hz.web.d16040a64e80149b.fact.8",
+      "kind": "bullet",
+      "text": "science",
+      "tokens": [
+        "science"
+      ]
+    },
+    {
+      "charEnd": 1959,
+      "charStart": 1954,
+      "factId": "hz.web.d16040a64e80149b.fact.9",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1965,
+      "charStart": 1960,
+      "factId": "hz.web.d16040a64e80149b.fact.10",
+      "kind": "bullet",
+      "text": "usa",
+      "tokens": [
+        "usa"
+      ]
+    },
+    {
+      "charEnd": 1970,
+      "charStart": 1966,
+      "factId": "hz.web.d16040a64e80149b.fact.11",
+      "kind": "bullet",
+      "text": "li",
+      "tokens": [
+        "li"
+      ]
+    },
+    {
+      "charEnd": 1978,
+      "charStart": 1971,
+      "factId": "hz.web.d16040a64e80149b.fact.12",
+      "kind": "bullet",
+      "text": "earth",
+      "tokens": [
+        "earth"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 7,
+      "charStart": 1,
+      "headingId": "hz.web.d16040a64e80149b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "NASA"
+    },
+    {
+      "charEnd": 93,
+      "charStart": 83,
+      "headingId": "hz.web.d16040a64e80149b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1919,
+      "charStart": 1908,
+      "headingId": "hz.web.d16040a64e80149b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1990,
+      "charStart": 1980,
+      "headingId": "hz.web.d16040a64e80149b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d16040a64e80149b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5207,
+        "start": 0
+      }
+    ],
+    "hash": "7eabf9e446fa4d9e2153cf290378d6671303a5c30ec2d4a2aadf77a99288c5e1",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title>NASA</title> <atom:link href=\"https://www.nasa.gov/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://www.nasa.gov</link> <description>Official National Aeronautics and Space Administration Website</description> <lastBuildDate>Mon, 30 Mar 2026 22:05:21 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>https://wordpress.org/?v=6.8.5</generator> <item> <title>Sendoff for Artemis II Crew</title> <link>https://www.nasa.gov/image-article/sendoff-for-artemis-ii-crew/</link> <dc:creator><![CDATA[Monika Luabeya]]></dc:creator> <pubDate>Mon, 30 Mar 2026 18:18:27 +0000</pubDate> <category><![CDATA[Andre Douglas]]></category> <category><![CDATA[Artemis 2]]></category> <category><![CDATA[Christina H.",
+      "Koch]]></category> <category><![CDATA[G.",
+      "Reid Wiseman]]></category> <category><![CDATA[Johnson Space Center]]></category> <category><![CDATA[Victor J."
+    ],
+    "medium": "Source: https://www.nasa.gov/feed/",
+    "short": "Source: https://www.nasa.gov/feed/",
+    "tokens": [
+      "nasa",
+      "source",
+      "https",
+      "www",
+      "nasa",
+      "gov",
+      "feed",
+      "source",
+      "https",
+      "www",
+      "nasa",
+      "gov",
+      "feed"
+    ]
+  },
+  "title": "NASA"
+}

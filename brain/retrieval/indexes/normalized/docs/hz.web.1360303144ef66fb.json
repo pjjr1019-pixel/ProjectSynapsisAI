@@ -1,0 +1,444 @@
+{
+  "aliases": [
+    {
+      "alias": "1360303144ef66fb",
+      "aliasId": "hz.web.1360303144ef66fb.alias.1",
+      "canonical": "jquery&#8217;s style guides | contribute to jquery"
+    },
+    {
+      "alias": "jquery 8217 s style guides contribute to jquery",
+      "aliasId": "hz.web.1360303144ef66fb.alias.2",
+      "canonical": "jquery&#8217;s style guides | contribute to jquery"
+    },
+    {
+      "alias": "web 1360303144ef66fb",
+      "aliasId": "hz.web.1360303144ef66fb.alias.3",
+      "canonical": "jquery&#8217;s style guides | contribute to jquery"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.web.1360303144ef66fb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1360303144ef66fb.entity.1",
+      "kind": "document",
+      "name": "jQuery&#8217;s Style Guides | Contribute to jQuery",
+      "tokens": [
+        "jquery",
+        "8217",
+        "style",
+        "guides",
+        "contribute",
+        "jquery"
+      ]
+    },
+    {
+      "entityId": "hz.web.1360303144ef66fb.entity.2",
+      "kind": "heading",
+      "name": "jQuery&#8217;s Style Guides | Contribute to jQuery",
+      "tokens": [
+        "jquery",
+        "8217",
+        "style",
+        "guides",
+        "contribute",
+        "jquery"
+      ]
+    },
+    {
+      "entityId": "hz.web.1360303144ef66fb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1360303144ef66fb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1360303144ef66fb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 105,
+      "charStart": 55,
+      "factId": "hz.web.1360303144ef66fb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://contribute.jquery.org/style-guide/",
+      "tokens": [
+        "source",
+        "https",
+        "contribute",
+        "jquery",
+        "org",
+        "style",
+        "guide"
+      ]
+    },
+    {
+      "charEnd": 680,
+      "charStart": 157,
+      "factId": "hz.web.1360303144ef66fb.fact.1",
+      "kind": "bullet",
+      "text": "jQuery&#8217;s Style Guides | Contribute to jQuery jQuery jQuery UI jQuery Mobile Sizzle QUnit Plugins Contribute CLA Style Guides Bug Triage Code Documentation Web Sites Events Support Learning Center Chat Stack Overflow Report a bug OpenJS Foundation Join Members jQuery Team Governance Conduct Projects Contribute to jQuery Navigation CLA Style Guides Markup Conventions Commits & Pull Requests jQuery&#8217;s Style Guides Style guides aim to make a code base appear as if it were written by one meticulous programmer.",
+      "tokens": [
+        "jquery",
+        "8217",
+        "style",
+        "guides",
+        "contribute",
+        "jquery",
+        "jquery",
+        "jquery",
+        "ui",
+        "jquery",
+        "mobile",
+        "sizzle",
+        "qunit",
+        "plugins",
+        "contribute",
+        "cla",
+        "style",
+        "guides",
+        "bug",
+        "triage",
+        "code",
+        "documentation",
+        "web",
+        "sites",
+        "events",
+        "support",
+        "learning",
+        "center",
+        "chat",
+        "stack",
+        "overflow",
+        "report",
+        "bug",
+        "openjs",
+        "foundation",
+        "join",
+        "members",
+        "jquery",
+        "team",
+        "governance",
+        "conduct",
+        "projects",
+        "contribute",
+        "jquery",
+        "navigation",
+        "cla",
+        "style",
+        "guides",
+        "markup",
+        "conventions",
+        "commits",
+        "pull",
+        "requests",
+        "jquery",
+        "8217",
+        "style",
+        "guides",
+        "style",
+        "guides",
+        "aim",
+        "make",
+        "code",
+        "base",
+        "appear",
+        "if",
+        "written",
+        "one",
+        "meticulous",
+        "programmer"
+      ]
+    },
+    {
+      "charEnd": 784,
+      "charStart": 681,
+      "factId": "hz.web.1360303144ef66fb.fact.2",
+      "kind": "bullet",
+      "text": "As with many aspects of coding and writing, there can be differences of opinion about the best style.",
+      "tokens": [
+        "many",
+        "aspects",
+        "coding",
+        "writing",
+        "there",
+        "differences",
+        "opinion",
+        "about",
+        "best",
+        "style"
+      ]
+    },
+    {
+      "charEnd": 905,
+      "charStart": 785,
+      "factId": "hz.web.1360303144ef66fb.fact.3",
+      "kind": "bullet",
+      "text": "Contentious issues like \"spaces versus tabs\" or \"semicolons or not\" distract from the goal of writing code that works.",
+      "tokens": [
+        "contentious",
+        "issues",
+        "like",
+        "spaces",
+        "versus",
+        "tabs",
+        "semicolons",
+        "not",
+        "distract",
+        "goal",
+        "writing",
+        "code",
+        "works"
+      ]
+    },
+    {
+      "charEnd": 1056,
+      "charStart": 906,
+      "factId": "hz.web.1360303144ef66fb.fact.4",
+      "kind": "bullet",
+      "text": "Long term, we would like to have formatting automatically done by the build process, so that the resulting code would always follow the style guide.",
+      "tokens": [
+        "long",
+        "term",
+        "like",
+        "have",
+        "formatting",
+        "automatically",
+        "done",
+        "build",
+        "process",
+        "so",
+        "resulting",
+        "code",
+        "always",
+        "follow",
+        "style",
+        "guide"
+      ]
+    },
+    {
+      "charEnd": 1079,
+      "charStart": 1071,
+      "factId": "hz.web.1360303144ef66fb.fact.5",
+      "kind": "bullet",
+      "text": "jquery",
+      "tokens": [
+        "jquery"
+      ]
+    },
+    {
+      "charEnd": 1087,
+      "charStart": 1080,
+      "factId": "hz.web.1360303144ef66fb.fact.6",
+      "kind": "bullet",
+      "text": "style",
+      "tokens": [
+        "style"
+      ]
+    },
+    {
+      "charEnd": 1100,
+      "charStart": 1088,
+      "factId": "hz.web.1360303144ef66fb.fact.7",
+      "kind": "bullet",
+      "text": "foundation",
+      "tokens": [
+        "foundation"
+      ]
+    },
+    {
+      "charEnd": 1108,
+      "charStart": 1101,
+      "factId": "hz.web.1360303144ef66fb.fact.8",
+      "kind": "bullet",
+      "text": "guide",
+      "tokens": [
+        "guide"
+      ]
+    },
+    {
+      "charEnd": 1121,
+      "charStart": 1109,
+      "factId": "hz.web.1360303144ef66fb.fact.9",
+      "kind": "bullet",
+      "text": "trademarks",
+      "tokens": [
+        "trademarks"
+      ]
+    },
+    {
+      "charEnd": 1128,
+      "charStart": 1122,
+      "factId": "hz.web.1360303144ef66fb.fact.10",
+      "kind": "bullet",
+      "text": "code",
+      "tokens": [
+        "code"
+      ]
+    },
+    {
+      "charEnd": 1137,
+      "charStart": 1129,
+      "factId": "hz.web.1360303144ef66fb.fact.11",
+      "kind": "bullet",
+      "text": "guides",
+      "tokens": [
+        "guides"
+      ]
+    },
+    {
+      "charEnd": 1146,
+      "charStart": 1138,
+      "factId": "hz.web.1360303144ef66fb.fact.12",
+      "kind": "bullet",
+      "text": "openjs",
+      "tokens": [
+        "openjs"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 53,
+      "charStart": 1,
+      "headingId": "hz.web.1360303144ef66fb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "jQuery&#8217;s Style Guides | Contribute to jQuery"
+    },
+    {
+      "charEnd": 155,
+      "charStart": 145,
+      "headingId": "hz.web.1360303144ef66fb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1069,
+      "charStart": 1058,
+      "headingId": "hz.web.1360303144ef66fb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1158,
+      "charStart": 1148,
+      "headingId": "hz.web.1360303144ef66fb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1360303144ef66fb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4136,
+        "start": 0
+      }
+    ],
+    "hash": "d0e87ace1cd5becbb8f60ba56c785f936d762ae782c68194de599729f5400f19",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.1360303144ef66fb.rule.1",
+      "text": "- Long term, we would like to have formatting automatically done by the build process, so that the resulting code would always follow the style guide.",
+      "tokens": [
+        "long",
+        "term",
+        "like",
+        "have",
+        "formatting",
+        "automatically",
+        "done",
+        "build",
+        "process",
+        "so",
+        "resulting",
+        "code",
+        "always",
+        "follow",
+        "style",
+        "guide"
+      ]
+    },
+    {
+      "ruleId": "hz.web.1360303144ef66fb.rule.2",
+      "text": "Long term, we would like to have formatting automatically done by the build process, so that the resulting code would always follow the style guide.",
+      "tokens": [
+        "long",
+        "term",
+        "like",
+        "have",
+        "formatting",
+        "automatically",
+        "done",
+        "build",
+        "process",
+        "so",
+        "resulting",
+        "code",
+        "always",
+        "follow",
+        "style",
+        "guide"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "jQuery&#8217;s Style Guides | Contribute to jQuery jQuery jQuery UI jQuery Mobile Sizzle QUnit Plugins Contribute CLA Style Guides Bug Triage Code Documentation Web Sites Events Support Learning Center Chat Stack Overflow Report a bug OpenJS Foundation Join Members jQuery Team Governance Conduct Projects Contribute to jQuery Navigation CLA Style Guides Markup Conventions Commits & Pull Requests jQuery&#8217;s Style Guides Style guides aim to make a code base appear as if it were written by one meticulous programmer.",
+      "As with many aspects of coding and writing, there can be differences of opinion about the best style.",
+      "Contentious issues like \"spaces versus tabs\" or \"semicolons or not\" distract from the goal of writing code that works."
+    ],
+    "medium": "Source: https://contribute.jquery.org/style-guide/",
+    "short": "Source: https://contribute.jquery.org/style-guide/",
+    "tokens": [
+      "jquery",
+      "8217",
+      "style",
+      "guides",
+      "contribute",
+      "jquery",
+      "source",
+      "https",
+      "contribute",
+      "jquery",
+      "org",
+      "style",
+      "guide",
+      "source",
+      "https",
+      "contribute",
+      "jquery",
+      "org",
+      "style",
+      "guide"
+    ]
+  },
+  "title": "jQuery&#8217;s Style Guides | Contribute to jQuery"
+}

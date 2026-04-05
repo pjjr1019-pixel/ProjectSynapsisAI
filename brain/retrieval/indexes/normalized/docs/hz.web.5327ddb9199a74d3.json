@@ -1,0 +1,328 @@
+{
+  "aliases": [
+    {
+      "alias": "5327ddb9199a74d3",
+      "aliasId": "hz.web.5327ddb9199a74d3.alias.1",
+      "canonical": "json"
+    },
+    {
+      "alias": "json",
+      "aliasId": "hz.web.5327ddb9199a74d3.alias.2",
+      "canonical": "json"
+    },
+    {
+      "alias": "web 5327ddb9199a74d3",
+      "aliasId": "hz.web.5327ddb9199a74d3.alias.3",
+      "canonical": "json"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.9,
+  "docId": "hz.web.5327ddb9199a74d3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5327ddb9199a74d3.entity.1",
+      "kind": "document",
+      "name": "JSON",
+      "tokens": [
+        "json"
+      ]
+    },
+    {
+      "entityId": "hz.web.5327ddb9199a74d3.entity.2",
+      "kind": "heading",
+      "name": "JSON",
+      "tokens": [
+        "json"
+      ]
+    },
+    {
+      "entityId": "hz.web.5327ddb9199a74d3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5327ddb9199a74d3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5327ddb9199a74d3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 50,
+      "charStart": 9,
+      "factId": "hz.web.5327ddb9199a74d3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.json.org/json-en.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "json",
+        "org",
+        "json",
+        "en",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 415,
+      "charStart": 102,
+      "factId": "hz.web.5327ddb9199a74d3.fact.1",
+      "kind": "bullet",
+      "text": "JSON Introducing JSON العربية Български 中文 Český Dansk Nederlands English Esperanto Français Deutsch Ελληνικά עברית Magyar Indonesia Italiano 日本 한국어 فارسی Norsk Polski Português Română Русский Српско-хрватски Slovenščina Español Svenska Türkçe Українська Tiếng Việt ECMA-404 The JSON Data Interchange Standard .",
+      "tokens": [
+        "json",
+        "introducing",
+        "json",
+        "esk",
+        "dansk",
+        "nederlands",
+        "english",
+        "esperanto",
+        "fran",
+        "ais",
+        "deutsch",
+        "magyar",
+        "indonesia",
+        "italiano",
+        "norsk",
+        "polski",
+        "portugu",
+        "rom",
+        "sloven",
+        "ina",
+        "espa",
+        "ol",
+        "svenska",
+        "rk",
+        "ti",
+        "ng",
+        "vi",
+        "ecma",
+        "404",
+        "json",
+        "data",
+        "interchange",
+        "standard"
+      ]
+    },
+    {
+      "charEnd": 493,
+      "charStart": 416,
+      "factId": "hz.web.5327ddb9199a74d3.fact.2",
+      "kind": "bullet",
+      "text": "JSON (JavaScript Object Notation) is a lightweight data-interchange format.",
+      "tokens": [
+        "json",
+        "javascript",
+        "object",
+        "notation",
+        "lightweight",
+        "data",
+        "interchange",
+        "format"
+      ]
+    },
+    {
+      "charEnd": 536,
+      "charStart": 494,
+      "factId": "hz.web.5327ddb9199a74d3.fact.3",
+      "kind": "bullet",
+      "text": "It is easy for humans to read and write.",
+      "tokens": [
+        "easy",
+        "humans",
+        "read",
+        "write"
+      ]
+    },
+    {
+      "charEnd": 585,
+      "charStart": 537,
+      "factId": "hz.web.5327ddb9199a74d3.fact.4",
+      "kind": "bullet",
+      "text": "It is easy for machines to parse and generate.",
+      "tokens": [
+        "easy",
+        "machines",
+        "parse",
+        "generate"
+      ]
+    },
+    {
+      "charEnd": 606,
+      "charStart": 600,
+      "factId": "hz.web.5327ddb9199a74d3.fact.5",
+      "kind": "bullet",
+      "text": "json",
+      "tokens": [
+        "json"
+      ]
+    },
+    {
+      "charEnd": 611,
+      "charStart": 607,
+      "factId": "hz.web.5327ddb9199a74d3.fact.6",
+      "kind": "bullet",
+      "text": "ws",
+      "tokens": [
+        "ws"
+      ]
+    },
+    {
+      "charEnd": 618,
+      "charStart": 612,
+      "factId": "hz.web.5327ddb9199a74d3.fact.7",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 629,
+      "charStart": 619,
+      "factId": "hz.web.5327ddb9199a74d3.fact.8",
+      "kind": "bullet",
+      "text": "progbase",
+      "tokens": [
+        "progbase"
+      ]
+    },
+    {
+      "charEnd": 638,
+      "charStart": 630,
+      "factId": "hz.web.5327ddb9199a74d3.fact.9",
+      "kind": "bullet",
+      "text": "string",
+      "tokens": [
+        "string"
+      ]
+    },
+    {
+      "charEnd": 646,
+      "charStart": 639,
+      "factId": "hz.web.5327ddb9199a74d3.fact.10",
+      "kind": "bullet",
+      "text": "array",
+      "tokens": [
+        "array"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 647,
+      "factId": "hz.web.5327ddb9199a74d3.fact.11",
+      "kind": "bullet",
+      "text": "digits",
+      "tokens": [
+        "digits"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 656,
+      "factId": "hz.web.5327ddb9199a74d3.fact.12",
+      "kind": "bullet",
+      "text": "object",
+      "tokens": [
+        "object"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 7,
+      "charStart": 1,
+      "headingId": "hz.web.5327ddb9199a74d3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "JSON"
+    },
+    {
+      "charEnd": 100,
+      "charStart": 90,
+      "headingId": "hz.web.5327ddb9199a74d3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 598,
+      "charStart": 587,
+      "headingId": "hz.web.5327ddb9199a74d3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 676,
+      "charStart": 666,
+      "headingId": "hz.web.5327ddb9199a74d3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/5327ddb9199a74d3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3900,
+        "start": 0
+      }
+    ],
+    "hash": "be77a38b9e53bfecb0d043488b7caf3b31cd3684d35f6ff9c17238e1bcf73e28",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "JSON Introducing JSON العربية Български 中文 Český Dansk Nederlands English Esperanto Français Deutsch Ελληνικά עברית Magyar Indonesia Italiano 日本 한국어 فارسی Norsk Polski Português Română Русский Српско-хрватски Slovenščina Español Svenska Türkçe Українська Tiếng Việt ECMA-404 The JSON Data Interchange Standard .",
+      "JSON (JavaScript Object Notation) is a lightweight data-interchange format.",
+      "It is easy for humans to read and write."
+    ],
+    "medium": "Source: https://www.json.org/json-en.html",
+    "short": "Source: https://www.json.org/json-en.html",
+    "tokens": [
+      "json",
+      "source",
+      "https",
+      "www",
+      "json",
+      "org",
+      "json",
+      "en",
+      "html",
+      "source",
+      "https",
+      "www",
+      "json",
+      "org",
+      "json",
+      "en",
+      "html"
+    ]
+  },
+  "title": "JSON"
+}

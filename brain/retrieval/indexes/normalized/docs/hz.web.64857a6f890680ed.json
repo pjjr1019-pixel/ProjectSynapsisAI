@@ -1,0 +1,361 @@
+{
+  "aliases": [
+    {
+      "alias": "64857a6f890680ed",
+      "aliasId": "hz.web.64857a6f890680ed.alias.1",
+      "canonical": "www.ftc.gov"
+    },
+    {
+      "alias": "web 64857a6f890680ed",
+      "aliasId": "hz.web.64857a6f890680ed.alias.2",
+      "canonical": "www.ftc.gov"
+    },
+    {
+      "alias": "www.ftc.gov",
+      "aliasId": "hz.web.64857a6f890680ed.alias.3",
+      "canonical": "www.ftc.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.64857a6f890680ed",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.64857a6f890680ed.entity.1",
+      "kind": "document",
+      "name": "www.ftc.gov",
+      "tokens": [
+        "www",
+        "ftc",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.64857a6f890680ed.entity.2",
+      "kind": "heading",
+      "name": "www.ftc.gov",
+      "tokens": [
+        "www",
+        "ftc",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.64857a6f890680ed.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.64857a6f890680ed.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.64857a6f890680ed.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 92,
+      "charStart": 16,
+      "factId": "hz.web.64857a6f890680ed.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.ftc.gov/modules/contrib/addtoany/css/addtoany.css?tckcak",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "ftc",
+        "gov",
+        "modules",
+        "contrib",
+        "addtoany",
+        "css",
+        "addtoany",
+        "css",
+        "tckcak"
+      ]
+    },
+    {
+      "charEnd": 1032,
+      "charStart": 144,
+      "factId": "hz.web.64857a6f890680ed.fact.1",
+      "kind": "bullet",
+      "text": ".addtoany { display: inline; } .addtoany_list { display: inline; line-height: 16px; } .addtoany_list > a, .addtoany_list a img, .addtoany_list a > span { vertical-align: middle; } .addtoany_list > a { border: 0; display: inline-block; font-size: 16px; padding: 0 4px; } .addtoany_list.a2a_kit_size_32 > a { font-size: 32px; } .addtoany_list .a2a_counter img { float: left; } .addtoany_list a span.a2a_img { display: inline-block; height: 16px; opacity: 1; overflow: hidden; width: 16px; } .addtoany_list a span { display: inline-block; float: none; } .addtoany_list.a2a_kit_size_32 a > span { border-radius: 4px; height: 32px; line-height: 32px; opacity: 1; width: 32px; } .addtoany_list a:hover:hover img, .addtoany_list a:hover span { opacity: .7; } .addtoany_list a.addtoany_share_save img { border: 0; width: auto; height: auto; } .addtoany_list a .a2a_count { position: relative; }",
+      "tokens": [
+        "addtoany",
+        "display",
+        "inline",
+        "addtoany_list",
+        "display",
+        "inline",
+        "line",
+        "height",
+        "16px",
+        "addtoany_list",
+        "addtoany_list",
+        "img",
+        "addtoany_list",
+        "span",
+        "vertical",
+        "align",
+        "middle",
+        "addtoany_list",
+        "border",
+        "display",
+        "inline",
+        "block",
+        "font",
+        "size",
+        "16px",
+        "padding",
+        "4px",
+        "addtoany_list",
+        "a2a_kit_size_32",
+        "font",
+        "size",
+        "32px",
+        "addtoany_list",
+        "a2a_counter",
+        "img",
+        "float",
+        "left",
+        "addtoany_list",
+        "span",
+        "a2a_img",
+        "display",
+        "inline",
+        "block",
+        "height",
+        "16px",
+        "opacity",
+        "overflow",
+        "hidden",
+        "width",
+        "16px",
+        "addtoany_list",
+        "span",
+        "display",
+        "inline",
+        "block",
+        "float",
+        "none",
+        "addtoany_list",
+        "a2a_kit_size_32",
+        "span",
+        "border",
+        "radius",
+        "4px",
+        "height",
+        "32px",
+        "line",
+        "height",
+        "32px",
+        "opacity",
+        "width",
+        "32px",
+        "addtoany_list",
+        "hover",
+        "hover",
+        "img",
+        "addtoany_list",
+        "hover",
+        "span",
+        "opacity",
+        "addtoany_list",
+        "addtoany_share_save",
+        "img",
+        "border",
+        "width",
+        "auto",
+        "height",
+        "auto",
+        "addtoany_list",
+        "a2a_count",
+        "position",
+        "relative"
+      ]
+    },
+    {
+      "charEnd": 1062,
+      "charStart": 1047,
+      "factId": "hz.web.64857a6f890680ed.fact.2",
+      "kind": "bullet",
+      "text": "addtoany_list",
+      "tokens": [
+        "addtoany_list"
+      ]
+    },
+    {
+      "charEnd": 1072,
+      "charStart": 1063,
+      "factId": "hz.web.64857a6f890680ed.fact.3",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 1081,
+      "charStart": 1073,
+      "factId": "hz.web.64857a6f890680ed.fact.4",
+      "kind": "bullet",
+      "text": "height",
+      "tokens": [
+        "height"
+      ]
+    },
+    {
+      "charEnd": 1090,
+      "charStart": 1082,
+      "factId": "hz.web.64857a6f890680ed.fact.5",
+      "kind": "bullet",
+      "text": "inline",
+      "tokens": [
+        "inline"
+      ]
+    },
+    {
+      "charEnd": 1097,
+      "charStart": 1091,
+      "factId": "hz.web.64857a6f890680ed.fact.6",
+      "kind": "bullet",
+      "text": "span",
+      "tokens": [
+        "span"
+      ]
+    },
+    {
+      "charEnd": 1104,
+      "charStart": 1098,
+      "factId": "hz.web.64857a6f890680ed.fact.7",
+      "kind": "bullet",
+      "text": "16px",
+      "tokens": [
+        "16px"
+      ]
+    },
+    {
+      "charEnd": 1111,
+      "charStart": 1105,
+      "factId": "hz.web.64857a6f890680ed.fact.8",
+      "kind": "bullet",
+      "text": "32px",
+      "tokens": [
+        "32px"
+      ]
+    },
+    {
+      "charEnd": 1117,
+      "charStart": 1112,
+      "factId": "hz.web.64857a6f890680ed.fact.9",
+      "kind": "bullet",
+      "text": "img",
+      "tokens": [
+        "img"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.64857a6f890680ed.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.ftc.gov"
+    },
+    {
+      "charEnd": 142,
+      "charStart": 132,
+      "headingId": "hz.web.64857a6f890680ed.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1045,
+      "charStart": 1034,
+      "headingId": "hz.web.64857a6f890680ed.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1129,
+      "charStart": 1119,
+      "headingId": "hz.web.64857a6f890680ed.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/64857a6f890680ed.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2281,
+        "start": 0
+      }
+    ],
+    "hash": "d4e11c1a0e57638e785173430a1d3740509ae020ade018c589097eef358cf9af",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".addtoany { display: inline; } .addtoany_list { display: inline; line-height: 16px; } .addtoany_list > a, .addtoany_list a img, .addtoany_list a > span { vertical-align: middle; } .addtoany_list > a { border: 0; display: inline-block; font-size: 16px; padding: 0 4px; } .addtoany_list.a2a_kit_size_32 > a { font-size: 32px; } .addtoany_list .a2a_counter img { float: left; } .addtoany_list a span.a2a_img { display: inline-block; height: 16px; opacity: 1; overflow: hidden; width: 16px; } .addtoany_list a span { display: inline-block; float: none; } .addtoany_list.a2a_kit_size_32 a > span { border-radius: 4px; height: 32px; line-height: 32px; opacity: 1; width: 32px; } .addtoany_list a:hover:hover img, .addtoany_list a:hover span { opacity: .7; } .addtoany_list a.addtoany_share_save img { border: 0; width: auto; height: auto; } .addtoany_list a .a2a_count { position: relative; }",
+      "addtoany_list",
+      "display"
+    ],
+    "medium": "Source: https://www.ftc.gov/modules/contrib/addtoany/css/addtoany.css?tckcak",
+    "short": "Source: https://www.ftc.gov/modules/contrib/addtoany/css/addtoany.css?tckcak",
+    "tokens": [
+      "www",
+      "ftc",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "ftc",
+      "gov",
+      "modules",
+      "contrib",
+      "addtoany",
+      "css",
+      "addtoany",
+      "css",
+      "tckcak",
+      "source",
+      "https",
+      "www",
+      "ftc",
+      "gov",
+      "modules",
+      "contrib",
+      "addtoany",
+      "css",
+      "addtoany",
+      "css",
+      "tckcak"
+    ]
+  },
+  "title": "www.ftc.gov"
+}

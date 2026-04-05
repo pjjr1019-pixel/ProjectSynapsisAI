@@ -1,0 +1,415 @@
+{
+  "aliases": [
+    {
+      "alias": "6a251820d268c3b9",
+      "aliasId": "hz.web.6a251820d268c3b9.alias.1",
+      "canonical": "fed.brid.gy"
+    },
+    {
+      "alias": "fed.brid.gy",
+      "aliasId": "hz.web.6a251820d268c3b9.alias.2",
+      "canonical": "fed.brid.gy"
+    },
+    {
+      "alias": "web 6a251820d268c3b9",
+      "aliasId": "hz.web.6a251820d268c3b9.alias.3",
+      "canonical": "fed.brid.gy"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.6a251820d268c3b9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6a251820d268c3b9.entity.1",
+      "kind": "document",
+      "name": "fed.brid.gy",
+      "tokens": [
+        "fed",
+        "brid",
+        "gy"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a251820d268c3b9.entity.2",
+      "kind": "heading",
+      "name": "fed.brid.gy",
+      "tokens": [
+        "fed",
+        "brid",
+        "gy"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a251820d268c3b9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a251820d268c3b9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a251820d268c3b9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 16,
+      "factId": "hz.web.6a251820d268c3b9.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fed.brid.gy/oauth_dropins_static/util.css",
+      "tokens": [
+        "source",
+        "https",
+        "fed",
+        "brid",
+        "gy",
+        "oauth_dropins_static",
+        "util",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 180,
+      "charStart": 125,
+      "factId": "hz.web.6a251820d268c3b9.fact.1",
+      "kind": "bullet",
+      "text": "/* CSS shared by oauth-dropins, granary, Bridgy, etc.",
+      "tokens": [
+        "css",
+        "shared",
+        "oauth",
+        "dropins",
+        "granary",
+        "bridgy",
+        "etc"
+      ]
+    },
+    {
+      "charEnd": 207,
+      "charStart": 181,
+      "factId": "hz.web.6a251820d268c3b9.fact.2",
+      "kind": "bullet",
+      "text": "Some is used in util.js.",
+      "tokens": [
+        "some",
+        "used",
+        "util",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1277,
+      "charStart": 208,
+      "factId": "hz.web.6a251820d268c3b9.fact.3",
+      "kind": "bullet",
+      "text": "*/ #messages { position: fixed; width: 100%; font-size: 1.5em; top: .2em; text-align: center; z-index: 999; } .message { display: block; opacity: 1; background-color: gold; color: #444; padding: .5em; transition: opacity 5s linear 20s; } .shadow, .profile, #screenshot { -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.4); -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* CSS3 */ box-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* For IE 8 */ -ms-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#666666'); /* For IE 5.5 - 7 */ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#666666'); } .shadow:hover, .profile:hover, #screenshot:hover { -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.8); -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* CSS3 */ box-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* For IE 8 */ -ms-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#222222'); /* For IE 5.5 - 7 */ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#222222'); }",
+      "tokens": [
+        "messages",
+        "position",
+        "fixed",
+        "width",
+        "100",
+        "font",
+        "size",
+        "5em",
+        "top",
+        "2em",
+        "text",
+        "align",
+        "center",
+        "index",
+        "999",
+        "message",
+        "display",
+        "block",
+        "opacity",
+        "background",
+        "color",
+        "gold",
+        "color",
+        "444",
+        "padding",
+        "5em",
+        "transition",
+        "opacity",
+        "5s",
+        "linear",
+        "20s",
+        "shadow",
+        "profile",
+        "screenshot",
+        "moz",
+        "box",
+        "shadow",
+        "2px",
+        "2px",
+        "4px",
+        "rgba",
+        "webkit",
+        "box",
+        "shadow",
+        "2px",
+        "2px",
+        "4px",
+        "rgba",
+        "css3",
+        "box",
+        "shadow",
+        "2px",
+        "2px",
+        "4px",
+        "rgba",
+        "ie",
+        "ms",
+        "filter",
+        "progid",
+        "dximagetransform",
+        "microsoft",
+        "shadow",
+        "strength",
+        "direction",
+        "135",
+        "color",
+        "666666",
+        "ie",
+        "filter",
+        "progid",
+        "dximagetransform",
+        "microsoft",
+        "shadow",
+        "strength",
+        "direction",
+        "135",
+        "color",
+        "666666",
+        "shadow",
+        "hover",
+        "profile",
+        "hover",
+        "screenshot",
+        "hover",
+        "moz",
+        "box",
+        "shadow",
+        "2px",
+        "2px",
+        "4px",
+        "rgba",
+        "webkit",
+        "box",
+        "shadow",
+        "2px",
+        "2px",
+        "4px",
+        "rgba",
+        "css3",
+        "box",
+        "shadow",
+        "2px",
+        "2px",
+        "4px",
+        "rgba",
+        "ie",
+        "ms",
+        "filter",
+        "progid",
+        "dximagetransform",
+        "microsoft",
+        "shadow",
+        "strength",
+        "direction",
+        "135",
+        "color",
+        "222222",
+        "ie",
+        "filter",
+        "progid",
+        "dximagetransform",
+        "microsoft",
+        "shadow",
+        "strength",
+        "direction",
+        "135",
+        "color",
+        "222222"
+      ]
+    },
+    {
+      "charEnd": 1297,
+      "charStart": 1292,
+      "factId": "hz.web.6a251820d268c3b9.fact.4",
+      "kind": "bullet",
+      "text": "2px",
+      "tokens": [
+        "2px"
+      ]
+    },
+    {
+      "charEnd": 1306,
+      "charStart": 1298,
+      "factId": "hz.web.6a251820d268c3b9.fact.5",
+      "kind": "bullet",
+      "text": "shadow",
+      "tokens": [
+        "shadow"
+      ]
+    },
+    {
+      "charEnd": 1312,
+      "charStart": 1307,
+      "factId": "hz.web.6a251820d268c3b9.fact.6",
+      "kind": "bullet",
+      "text": "4px",
+      "tokens": [
+        "4px"
+      ]
+    },
+    {
+      "charEnd": 1318,
+      "charStart": 1313,
+      "factId": "hz.web.6a251820d268c3b9.fact.7",
+      "kind": "bullet",
+      "text": "box",
+      "tokens": [
+        "box"
+      ]
+    },
+    {
+      "charEnd": 1326,
+      "charStart": 1319,
+      "factId": "hz.web.6a251820d268c3b9.fact.8",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 1333,
+      "charStart": 1327,
+      "factId": "hz.web.6a251820d268c3b9.fact.9",
+      "kind": "bullet",
+      "text": "rgba",
+      "tokens": [
+        "rgba"
+      ]
+    },
+    {
+      "charEnd": 1339,
+      "charStart": 1334,
+      "factId": "hz.web.6a251820d268c3b9.fact.10",
+      "kind": "bullet",
+      "text": "135",
+      "tokens": [
+        "135"
+      ]
+    },
+    {
+      "charEnd": 1351,
+      "charStart": 1340,
+      "factId": "hz.web.6a251820d268c3b9.fact.11",
+      "kind": "bullet",
+      "text": "direction",
+      "tokens": [
+        "direction"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.6a251820d268c3b9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fed.brid.gy"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.6a251820d268c3b9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1290,
+      "charStart": 1279,
+      "headingId": "hz.web.6a251820d268c3b9.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1363,
+      "charStart": 1353,
+      "headingId": "hz.web.6a251820d268c3b9.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6a251820d268c3b9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2756,
+        "start": 0
+      }
+    ],
+    "hash": "b1813af8af2e00f9fd9efae3541ee7973ea5df5f8cbb75aae7bcd3942bf82501",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* CSS shared by oauth-dropins, granary, Bridgy, etc.",
+      "Some is used in util.js.",
+      "*/ #messages { position: fixed; width: 100%; font-size: 1.5em; top: .2em; text-align: center; z-index: 999; } .message { display: block; opacity: 1; background-color: gold; color: #444; padding: .5em; transition: opacity 5s linear 20s; } .shadow, .profile, #screenshot { -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.4); -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* CSS3 */ box-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* For IE 8 */ -ms-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#666666'); /* For IE 5.5 - 7 */ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#666666'); } .shadow:hover, .profile:hover, #screenshot:hover { -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.8); -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* CSS3 */ box-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* For IE 8 */ -ms-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#222222'); /* For IE 5.5 - 7 */ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2,Direction=135,Color='#222222'); }"
+    ],
+    "medium": "Source: https://fed.brid.gy/oauth_dropins_static/util.css",
+    "short": "Source: https://fed.brid.gy/oauth_dropins_static/util.css",
+    "tokens": [
+      "fed",
+      "brid",
+      "gy",
+      "source",
+      "https",
+      "fed",
+      "brid",
+      "gy",
+      "oauth_dropins_static",
+      "util",
+      "css",
+      "source",
+      "https",
+      "fed",
+      "brid",
+      "gy",
+      "oauth_dropins_static",
+      "util",
+      "css"
+    ]
+  },
+  "title": "fed.brid.gy"
+}

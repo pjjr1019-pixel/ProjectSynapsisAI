@@ -1,0 +1,337 @@
+{
+  "aliases": [
+    {
+      "alias": "1768344a406a7a13",
+      "aliasId": "hz.web.1768344a406a7a13.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.1768344a406a7a13.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web 1768344a406a7a13",
+      "aliasId": "hz.web.1768344a406a7a13.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.1768344a406a7a13",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1768344a406a7a13.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.1768344a406a7a13.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.1768344a406a7a13.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1768344a406a7a13.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1768344a406a7a13.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 112,
+      "charStart": 25,
+      "factId": "hz.web.1768344a406a7a13.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "css2",
+        "family",
+        "noto",
+        "sans",
+        "jp",
+        "wght",
+        "400",
+        "700",
+        "display",
+        "swap"
+      ]
+    },
+    {
+      "charEnd": 611,
+      "charStart": 164,
+      "factId": "hz.web.1768344a406a7a13.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Noto Sans JP'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/notosansjp/v56/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFBEj75s.ttf) format('truetype'); } @font-face { font-family: 'Noto Sans JP'; font-style: normal; font-weight: 700; font-display: swap; src: url(https://fonts.gstatic.com/s/notosansjp/v56/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFPYk75s.ttf) format('truetype'); }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "noto",
+        "sans",
+        "jp",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "notosansjp",
+        "v56",
+        "f6jfjtqlzi2jpcgqbnw7hfyzsd",
+        "asregp8vfbej75s",
+        "ttf",
+        "format",
+        "truetype",
+        "font",
+        "face",
+        "font",
+        "family",
+        "noto",
+        "sans",
+        "jp",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "700",
+        "font",
+        "display",
+        "swap",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "notosansjp",
+        "v56",
+        "f6jfjtqlzi2jpcgqbnw7hfyzsd",
+        "asregp8vfpyk75s",
+        "ttf",
+        "format",
+        "truetype"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 626,
+      "factId": "hz.web.1768344a406a7a13.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 638,
+      "charStart": 633,
+      "factId": "hz.web.1768344a406a7a13.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 639,
+      "factId": "hz.web.1768344a406a7a13.fact.4",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 677,
+      "charStart": 649,
+      "factId": "hz.web.1768344a406a7a13.fact.5",
+      "kind": "bullet",
+      "text": "f6jfjtqlzi2jpcgqbnw7hfyzsd",
+      "tokens": [
+        "f6jfjtqlzi2jpcgqbnw7hfyzsd"
+      ]
+    },
+    {
+      "charEnd": 684,
+      "charStart": 678,
+      "factId": "hz.web.1768344a406a7a13.fact.6",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 693,
+      "charStart": 685,
+      "factId": "hz.web.1768344a406a7a13.fact.7",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 701,
+      "charStart": 694,
+      "factId": "hz.web.1768344a406a7a13.fact.8",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 710,
+      "charStart": 702,
+      "factId": "hz.web.1768344a406a7a13.fact.9",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.1768344a406a7a13.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 162,
+      "charStart": 152,
+      "headingId": "hz.web.1768344a406a7a13.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 624,
+      "charStart": 613,
+      "headingId": "hz.web.1768344a406a7a13.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 722,
+      "charStart": 712,
+      "headingId": "hz.web.1768344a406a7a13.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1768344a406a7a13.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1453,
+        "start": 0
+      }
+    ],
+    "hash": "bd8c68b020bf510f6f370024931e4dc4a79764225e2f7c41da05bb1297ed8895",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Noto Sans JP'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/notosansjp/v56/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFBEj75s.ttf) format('truetype'); } @font-face { font-family: 'Noto Sans JP'; font-style: normal; font-weight: 700; font-display: swap; src: url(https://fonts.gstatic.com/s/notosansjp/v56/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFPYk75s.ttf) format('truetype'); }",
+      "font",
+      "com"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap",
+    "short": "Source: https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "noto",
+      "sans",
+      "jp",
+      "wght",
+      "400",
+      "700",
+      "display",
+      "swap",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "css2",
+      "family",
+      "noto",
+      "sans",
+      "jp",
+      "wght",
+      "400",
+      "700",
+      "display",
+      "swap"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

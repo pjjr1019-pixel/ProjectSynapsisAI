@@ -1,0 +1,520 @@
+{
+  "aliases": [
+    {
+      "alias": "929d55ad3971394c",
+      "aliasId": "hz.web.929d55ad3971394c.alias.1",
+      "canonical": "mysql"
+    },
+    {
+      "alias": "mysql",
+      "aliasId": "hz.web.929d55ad3971394c.alias.2",
+      "canonical": "mysql"
+    },
+    {
+      "alias": "web 929d55ad3971394c",
+      "aliasId": "hz.web.929d55ad3971394c.alias.3",
+      "canonical": "mysql"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.web.929d55ad3971394c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.929d55ad3971394c.entity.1",
+      "kind": "document",
+      "name": "MySQL",
+      "tokens": [
+        "mysql"
+      ]
+    },
+    {
+      "entityId": "hz.web.929d55ad3971394c.entity.2",
+      "kind": "heading",
+      "name": "MySQL",
+      "tokens": [
+        "mysql"
+      ]
+    },
+    {
+      "entityId": "hz.web.929d55ad3971394c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.929d55ad3971394c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.929d55ad3971394c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 40,
+      "charStart": 10,
+      "factId": "hz.web.929d55ad3971394c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.mysql.com/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "mysql",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 357,
+      "charStart": 92,
+      "factId": "hz.web.929d55ad3971394c.fact.1",
+      "kind": "bullet",
+      "text": "MySQL Skip to Main Content The world's most popular open source database Contact MySQL | Login | Register -->MySQL.com -->Downloads -->Documentation -->Developer Zone Developer Zone Documentation Downloads MySQL.com Products Services Partners Customers Why MySQL?",
+      "tokens": [
+        "mysql",
+        "skip",
+        "main",
+        "content",
+        "world",
+        "most",
+        "popular",
+        "open",
+        "source",
+        "database",
+        "contact",
+        "mysql",
+        "login",
+        "register",
+        "mysql",
+        "com",
+        "downloads",
+        "documentation",
+        "developer",
+        "zone",
+        "developer",
+        "zone",
+        "documentation",
+        "downloads",
+        "mysql",
+        "com",
+        "products",
+        "services",
+        "partners",
+        "customers",
+        "why",
+        "mysql"
+      ]
+    },
+    {
+      "charEnd": 726,
+      "charStart": 358,
+      "factId": "hz.web.929d55ad3971394c.fact.2",
+      "kind": "bullet",
+      "text": "News & Events How to Buy Downloads Documentation Developer Zone Section Menu: MySQL Community Early Access Preview, test, and evaluate upcoming MySQL Community Edition builds Explore Early Access Downloads &raquo; MySQL HeatWave Use automated and integrated generative AI and machine learning (ML) in one cloud service for transactions and lakehouse scale analytics.",
+      "tokens": [
+        "news",
+        "events",
+        "buy",
+        "downloads",
+        "documentation",
+        "developer",
+        "zone",
+        "section",
+        "menu",
+        "mysql",
+        "community",
+        "early",
+        "access",
+        "preview",
+        "test",
+        "evaluate",
+        "upcoming",
+        "mysql",
+        "community",
+        "edition",
+        "builds",
+        "explore",
+        "early",
+        "access",
+        "downloads",
+        "raquo",
+        "mysql",
+        "heatwave",
+        "use",
+        "automated",
+        "integrated",
+        "generative",
+        "ai",
+        "machine",
+        "learning",
+        "ml",
+        "one",
+        "cloud",
+        "service",
+        "transactions",
+        "lakehouse",
+        "scale",
+        "analytics"
+      ]
+    },
+    {
+      "charEnd": 845,
+      "charStart": 727,
+      "factId": "hz.web.929d55ad3971394c.fact.3",
+      "kind": "bullet",
+      "text": "Get faster insights from all your data with unmatched performance and deploy apps in your choice of cloud providers.",
+      "tokens": [
+        "get",
+        "faster",
+        "insights",
+        "all",
+        "your",
+        "data",
+        "unmatched",
+        "performance",
+        "deploy",
+        "apps",
+        "your",
+        "choice",
+        "cloud",
+        "providers"
+      ]
+    },
+    {
+      "charEnd": 981,
+      "charStart": 846,
+      "factId": "hz.web.929d55ad3971394c.fact.4",
+      "kind": "bullet",
+      "text": "Learn More &raquo; MySQL AI MySQL AI provides integrated, automated, and secure machine learning (ML) and generative AI capabilities.",
+      "tokens": [
+        "learn",
+        "more",
+        "raquo",
+        "mysql",
+        "ai",
+        "mysql",
+        "ai",
+        "provides",
+        "integrated",
+        "automated",
+        "secure",
+        "machine",
+        "learning",
+        "ml",
+        "generative",
+        "ai",
+        "capabilities"
+      ]
+    },
+    {
+      "charEnd": 1003,
+      "charStart": 996,
+      "factId": "hz.web.929d55ad3971394c.fact.5",
+      "kind": "bullet",
+      "text": "mysql",
+      "tokens": [
+        "mysql"
+      ]
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 1004,
+      "factId": "hz.web.929d55ad3971394c.fact.6",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 1018,
+      "charStart": 1011,
+      "factId": "hz.web.929d55ad3971394c.fact.7",
+      "kind": "bullet",
+      "text": "raquo",
+      "tokens": [
+        "raquo"
+      ]
+    },
+    {
+      "charEnd": 1028,
+      "charStart": 1019,
+      "factId": "hz.web.929d55ad3971394c.fact.8",
+      "kind": "bullet",
+      "text": "edition",
+      "tokens": [
+        "edition"
+      ]
+    },
+    {
+      "charEnd": 1038,
+      "charStart": 1029,
+      "factId": "hz.web.929d55ad3971394c.fact.9",
+      "kind": "bullet",
+      "text": "cluster",
+      "tokens": [
+        "cluster"
+      ]
+    },
+    {
+      "charEnd": 1050,
+      "charStart": 1039,
+      "factId": "hz.web.929d55ad3971394c.fact.10",
+      "kind": "bullet",
+      "text": "downloads",
+      "tokens": [
+        "downloads"
+      ]
+    },
+    {
+      "charEnd": 1058,
+      "charStart": 1051,
+      "factId": "hz.web.929d55ad3971394c.fact.11",
+      "kind": "bullet",
+      "text": "learn",
+      "tokens": [
+        "learn"
+      ]
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1059,
+      "factId": "hz.web.929d55ad3971394c.fact.12",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 8,
+      "charStart": 1,
+      "headingId": "hz.web.929d55ad3971394c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "MySQL"
+    },
+    {
+      "charEnd": 90,
+      "charStart": 80,
+      "headingId": "hz.web.929d55ad3971394c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 994,
+      "charStart": 983,
+      "headingId": "hz.web.929d55ad3971394c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1077,
+      "charStart": 1067,
+      "headingId": "hz.web.929d55ad3971394c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/929d55ad3971394c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4023,
+        "start": 0
+      }
+    ],
+    "hash": "3f4ab873a14f2d5fcfd568f22176838fda89a5b5df05828a78c1b8a1bfb71835",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.929d55ad3971394c.rule.1",
+      "text": "Tuesday, April 14, 2026 Q&A with MySQL Experts Tuesday, May 12, 2026 MySQL Global Forum – Built on 30 Years of Innovation On-Demand More &raquo; White Papers MySQL Reference Architectures for Security MySQL Reference Architectures for High Availability MySQL Enterprise Edition for Government Migrate from MariaDB to MySQL HeatWave AutoML - In Database Machine Learning More &raquo; Powered by MySQL Contact MySQL Sales USA/Canada: +1-866-221-0634 ( More Countries &raquo; ) &copy; 2026 Oracle Products MySQL HeatWave MySQL Enterprise Edition MySQL Standard Edition MySQL Classic Edition MySQL Cluster CGE MySQL Embedded (OEM/ISV) Services Training Certification Support Downloads MySQL Community Server MySQL NDB Cluster MySQL Shell MySQL Router MySQL Workbench Documentation MySQL Reference Manual MySQL Workbench MySQL NDB Cluster MySQL Connectors Topic Guides About MySQL Contact Us Blogs How to Buy Partners Job Opportunities Site Map English ( Deutsch | Français | Italiano | 日本 | 中文 ) &copy; 2026 Oracle Privacy / Do Not Sell My Info | Terms of Use | Trademark Policy |",
+      "tokens": [
+        "tuesday",
+        "april",
+        "14",
+        "2026",
+        "mysql",
+        "experts",
+        "tuesday",
+        "may",
+        "12",
+        "2026",
+        "mysql",
+        "global",
+        "forum",
+        "built",
+        "30",
+        "years",
+        "innovation",
+        "demand",
+        "more",
+        "raquo",
+        "white",
+        "papers",
+        "mysql",
+        "reference",
+        "architectures",
+        "security",
+        "mysql",
+        "reference",
+        "architectures",
+        "high",
+        "availability",
+        "mysql",
+        "enterprise",
+        "edition",
+        "government",
+        "migrate",
+        "mariadb",
+        "mysql",
+        "heatwave",
+        "automl",
+        "database",
+        "machine",
+        "learning",
+        "more",
+        "raquo",
+        "powered",
+        "mysql",
+        "contact",
+        "mysql",
+        "sales",
+        "usa",
+        "canada",
+        "866",
+        "221",
+        "0634",
+        "more",
+        "countries",
+        "raquo",
+        "copy",
+        "2026",
+        "oracle",
+        "products",
+        "mysql",
+        "heatwave",
+        "mysql",
+        "enterprise",
+        "edition",
+        "mysql",
+        "standard",
+        "edition",
+        "mysql",
+        "classic",
+        "edition",
+        "mysql",
+        "cluster",
+        "cge",
+        "mysql",
+        "embedded",
+        "oem",
+        "isv",
+        "services",
+        "training",
+        "certification",
+        "support",
+        "downloads",
+        "mysql",
+        "community",
+        "server",
+        "mysql",
+        "ndb",
+        "cluster",
+        "mysql",
+        "shell",
+        "mysql",
+        "router",
+        "mysql",
+        "workbench",
+        "documentation",
+        "mysql",
+        "reference",
+        "manual",
+        "mysql",
+        "workbench",
+        "mysql",
+        "ndb",
+        "cluster",
+        "mysql",
+        "connectors",
+        "topic",
+        "guides",
+        "about",
+        "mysql",
+        "contact",
+        "us",
+        "blogs",
+        "buy",
+        "partners",
+        "job",
+        "opportunities",
+        "site",
+        "map",
+        "english",
+        "deutsch",
+        "fran",
+        "ais",
+        "italiano",
+        "copy",
+        "2026",
+        "oracle",
+        "privacy",
+        "not",
+        "sell",
+        "info",
+        "terms",
+        "use",
+        "trademark",
+        "policy"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "MySQL Skip to Main Content The world's most popular open source database Contact MySQL | Login | Register -->MySQL.com -->Downloads -->Documentation -->Developer Zone Developer Zone Documentation Downloads MySQL.com Products Services Partners Customers Why MySQL?",
+      "News & Events How to Buy Downloads Documentation Developer Zone Section Menu: MySQL Community Early Access Preview, test, and evaluate upcoming MySQL Community Edition builds Explore Early Access Downloads &raquo; MySQL HeatWave Use automated and integrated generative AI and machine learning (ML) in one cloud service for transactions and lakehouse scale analytics.",
+      "Get faster insights from all your data with unmatched performance and deploy apps in your choice of cloud providers."
+    ],
+    "medium": "Source: https://www.mysql.com/",
+    "short": "Source: https://www.mysql.com/",
+    "tokens": [
+      "mysql",
+      "source",
+      "https",
+      "www",
+      "mysql",
+      "com",
+      "source",
+      "https",
+      "www",
+      "mysql",
+      "com"
+    ]
+  },
+  "title": "MySQL"
+}

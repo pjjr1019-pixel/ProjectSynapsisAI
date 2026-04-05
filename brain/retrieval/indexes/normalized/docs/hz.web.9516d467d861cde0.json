@@ -1,0 +1,602 @@
+{
+  "aliases": [
+    {
+      "alias": "9516d467d861cde0",
+      "aliasId": "hz.web.9516d467d861cde0.alias.1",
+      "canonical": "teranex weblog - inuits-planet"
+    },
+    {
+      "alias": "teranex weblog - inuits-planet",
+      "aliasId": "hz.web.9516d467d861cde0.alias.2",
+      "canonical": "teranex weblog - inuits-planet"
+    },
+    {
+      "alias": "web 9516d467d861cde0",
+      "aliasId": "hz.web.9516d467d861cde0.alias.3",
+      "canonical": "teranex weblog - inuits-planet"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.9516d467d861cde0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9516d467d861cde0.entity.1",
+      "kind": "document",
+      "name": "teranex weblog - inuits-planet",
+      "tokens": [
+        "teranex",
+        "weblog",
+        "inuits",
+        "planet"
+      ]
+    },
+    {
+      "entityId": "hz.web.9516d467d861cde0.entity.2",
+      "kind": "heading",
+      "name": "teranex weblog - inuits-planet",
+      "tokens": [
+        "teranex",
+        "weblog",
+        "inuits",
+        "planet"
+      ]
+    },
+    {
+      "entityId": "hz.web.9516d467d861cde0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9516d467d861cde0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9516d467d861cde0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 88,
+      "charStart": 35,
+      "factId": "hz.web.9516d467d861cde0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://budts.be/feeds/inuits-planet.atom.xml",
+      "tokens": [
+        "source",
+        "https",
+        "budts",
+        "feeds",
+        "inuits",
+        "planet",
+        "atom",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 1224,
+      "charStart": 140,
+      "factId": "hz.web.9516d467d861cde0.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\"><title>teranex weblog - inuits-planet</title><link href=\"https://budts.be/\" rel=\"alternate\"></link><link href=\"https://budts.be/feeds/inuits-planet.atom.xml\" rel=\"self\"></link><id>https://budts.be/</id><updated>2013-02-04T23:22:00+01:00</updated><entry><title>Vim: checking PHP code (and Python and...)</title><link href=\"https://budts.be/weblog/2013/02/vim-checking-php-code-and-python-and\" rel=\"alternate\"></link><published>2013-02-03T00:32:00+01:00</published><updated>2013-02-03T00:38:00+01:00</updated><author><name>Jeroen Budts</name></author><id>tag:budts.be,2013-02-03:/weblog/2013/02/vim-checking-php-code-and-python-and</id><summary type=\"html\">&lt;p&gt;Do you hate it as much as I do when you are writing some PHP (or Python or whatever) code in your favorite editor, hit 'save', reload the page in the browser in the hopes that you will see the new most awesome feature you ever wrote, but instead you are greeted by an unfriendly PARSE_ERROR_YOU_FORGOT_A_CLOSING_BRACKET_YOU_STUPID-error?",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "feed",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "title",
+        "teranex",
+        "weblog",
+        "inuits",
+        "planet",
+        "title",
+        "link",
+        "href",
+        "https",
+        "budts",
+        "rel",
+        "alternate",
+        "link",
+        "link",
+        "href",
+        "https",
+        "budts",
+        "feeds",
+        "inuits",
+        "planet",
+        "atom",
+        "xml",
+        "rel",
+        "self",
+        "link",
+        "id",
+        "https",
+        "budts",
+        "id",
+        "updated",
+        "2013",
+        "02",
+        "04t23",
+        "22",
+        "00",
+        "01",
+        "00",
+        "updated",
+        "entry",
+        "title",
+        "vim",
+        "checking",
+        "php",
+        "code",
+        "python",
+        "title",
+        "link",
+        "href",
+        "https",
+        "budts",
+        "weblog",
+        "2013",
+        "02",
+        "vim",
+        "checking",
+        "php",
+        "code",
+        "python",
+        "rel",
+        "alternate",
+        "link",
+        "published",
+        "2013",
+        "02",
+        "03t00",
+        "32",
+        "00",
+        "01",
+        "00",
+        "published",
+        "updated",
+        "2013",
+        "02",
+        "03t00",
+        "38",
+        "00",
+        "01",
+        "00",
+        "updated",
+        "author",
+        "name",
+        "jeroen",
+        "budts",
+        "name",
+        "author",
+        "id",
+        "tag",
+        "budts",
+        "2013",
+        "02",
+        "03",
+        "weblog",
+        "2013",
+        "02",
+        "vim",
+        "checking",
+        "php",
+        "code",
+        "python",
+        "id",
+        "summary",
+        "type",
+        "html",
+        "lt",
+        "gt",
+        "hate",
+        "much",
+        "writing",
+        "some",
+        "php",
+        "python",
+        "whatever",
+        "code",
+        "your",
+        "favorite",
+        "editor",
+        "hit",
+        "save",
+        "reload",
+        "page",
+        "browser",
+        "hopes",
+        "will",
+        "see",
+        "new",
+        "most",
+        "awesome",
+        "feature",
+        "ever",
+        "wrote",
+        "but",
+        "instead",
+        "greeted",
+        "unfriendly",
+        "parse_error_you_forgot_a_closing_bracket_you_stupid",
+        "error"
+      ]
+    },
+    {
+      "charEnd": 1473,
+      "charStart": 1225,
+      "factId": "hz.web.9516d467d861cde0.fact.2",
+      "kind": "bullet",
+      "text": "Right, it feels like you just built a rocket, but upon launch you discover you didn't foresee a doorknob and can't get in anymore...&lt;/p&gt; &lt;p&gt;Luckily, if you are using Vim there is a nice plugin to quickly catch these errors (and more).",
+      "tokens": [
+        "right",
+        "feels",
+        "like",
+        "just",
+        "built",
+        "rocket",
+        "but",
+        "upon",
+        "launch",
+        "discover",
+        "didn",
+        "foresee",
+        "doorknob",
+        "get",
+        "anymore",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "luckily",
+        "if",
+        "using",
+        "vim",
+        "there",
+        "nice",
+        "plugin",
+        "quickly",
+        "catch",
+        "these",
+        "errors",
+        "more"
+      ]
+    },
+    {
+      "charEnd": 1584,
+      "charStart": 1474,
+      "factId": "hz.web.9516d467d861cde0.fact.3",
+      "kind": "bullet",
+      "text": "The plugin I'm talking about is &lt;a href=\"https://github.com/scrooloose/syntastic\"&gt;Syntastic&lt;/a&gt;.",
+      "tokens": [
+        "plugin",
+        "talking",
+        "about",
+        "lt",
+        "href",
+        "https",
+        "github",
+        "com",
+        "scrooloose",
+        "syntastic",
+        "gt",
+        "syntastic",
+        "lt",
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 1680,
+      "charStart": 1585,
+      "factId": "hz.web.9516d467d861cde0.fact.4",
+      "kind": "bullet",
+      "text": "The plugin is built as a generic framework to run and process the result of a syntax checker.",
+      "tokens": [
+        "plugin",
+        "built",
+        "generic",
+        "framework",
+        "run",
+        "process",
+        "result",
+        "syntax",
+        "checker"
+      ]
+    },
+    {
+      "charEnd": 1699,
+      "charStart": 1695,
+      "factId": "hz.web.9516d467d861cde0.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 1704,
+      "charStart": 1700,
+      "factId": "hz.web.9516d467d861cde0.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 1711,
+      "charStart": 1705,
+      "factId": "hz.web.9516d467d861cde0.fact.7",
+      "kind": "bullet",
+      "text": "code",
+      "tokens": [
+        "code"
+      ]
+    },
+    {
+      "charEnd": 1716,
+      "charStart": 1712,
+      "factId": "hz.web.9516d467d861cde0.fact.8",
+      "kind": "bullet",
+      "text": "li",
+      "tokens": [
+        "li"
+      ]
+    },
+    {
+      "charEnd": 1722,
+      "charStart": 1717,
+      "factId": "hz.web.9516d467d861cde0.fact.9",
+      "kind": "bullet",
+      "text": "key",
+      "tokens": [
+        "key"
+      ]
+    },
+    {
+      "charEnd": 1733,
+      "charStart": 1723,
+      "factId": "hz.web.9516d467d861cde0.fact.10",
+      "kind": "bullet",
+      "text": "category",
+      "tokens": [
+        "category"
+      ]
+    },
+    {
+      "charEnd": 1740,
+      "charStart": 1734,
+      "factId": "hz.web.9516d467d861cde0.fact.11",
+      "kind": "bullet",
+      "text": "href",
+      "tokens": [
+        "href"
+      ]
+    },
+    {
+      "charEnd": 1747,
+      "charStart": 1741,
+      "factId": "hz.web.9516d467d861cde0.fact.12",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 33,
+      "charStart": 1,
+      "headingId": "hz.web.9516d467d861cde0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "teranex weblog - inuits-planet"
+    },
+    {
+      "charEnd": 138,
+      "charStart": 128,
+      "headingId": "hz.web.9516d467d861cde0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1693,
+      "charStart": 1682,
+      "headingId": "hz.web.9516d467d861cde0.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1759,
+      "charStart": 1749,
+      "headingId": "hz.web.9516d467d861cde0.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/9516d467d861cde0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5021,
+        "start": 0
+      }
+    ],
+    "hash": "6dc043d3835af7536412095fc6d8830f482e1c6681f7a2c27371543f5bd0c0a5",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.9516d467d861cde0.rule.1",
+      "text": "- Right, it feels like you just built a rocket, but upon launch you discover you didn't foresee a doorknob and can't get in anymore...&lt;/p&gt; &lt;p&gt;Luckily, if you are using Vim there is a nice plugin to quickly catch these errors (and more).",
+      "tokens": [
+        "right",
+        "feels",
+        "like",
+        "just",
+        "built",
+        "rocket",
+        "but",
+        "upon",
+        "launch",
+        "discover",
+        "didn",
+        "foresee",
+        "doorknob",
+        "get",
+        "anymore",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "luckily",
+        "if",
+        "using",
+        "vim",
+        "there",
+        "nice",
+        "plugin",
+        "quickly",
+        "catch",
+        "these",
+        "errors",
+        "more"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9516d467d861cde0.rule.2",
+      "text": "Right, it feels like you just built a rocket, but upon launch you discover you didn't foresee a doorknob and can't get in anymore...&lt;/p&gt; &lt;p&gt;Luckily, if you are using Vim there is a nice plugin to quickly catch these errors (and more).",
+      "tokens": [
+        "right",
+        "feels",
+        "like",
+        "just",
+        "built",
+        "rocket",
+        "but",
+        "upon",
+        "launch",
+        "discover",
+        "didn",
+        "foresee",
+        "doorknob",
+        "get",
+        "anymore",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "luckily",
+        "if",
+        "using",
+        "vim",
+        "there",
+        "nice",
+        "plugin",
+        "quickly",
+        "catch",
+        "these",
+        "errors",
+        "more"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9516d467d861cde0.rule.3",
+      "text": "Right, it feels like you just built a rocket, but upon launch you discover you didn't foresee a doorknob and can't get in anymore...&lt;/p&gt; &lt;p&gt;Luckily, if you are using Vim there is a nice plugin to quickly catch these errors (and more).",
+      "tokens": [
+        "right",
+        "feels",
+        "like",
+        "just",
+        "built",
+        "rocket",
+        "but",
+        "upon",
+        "launch",
+        "discover",
+        "didn",
+        "foresee",
+        "doorknob",
+        "get",
+        "anymore",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "luckily",
+        "if",
+        "using",
+        "vim",
+        "there",
+        "nice",
+        "plugin",
+        "quickly",
+        "catch",
+        "these",
+        "errors",
+        "more"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"utf-8\"?> <feed xmlns=\"http://www.w3.org/2005/Atom\"><title>teranex weblog - inuits-planet</title><link href=\"https://budts.be/\" rel=\"alternate\"></link><link href=\"https://budts.be/feeds/inuits-planet.atom.xml\" rel=\"self\"></link><id>https://budts.be/</id><updated>2013-02-04T23:22:00+01:00</updated><entry><title>Vim: checking PHP code (and Python and...)</title><link href=\"https://budts.be/weblog/2013/02/vim-checking-php-code-and-python-and\" rel=\"alternate\"></link><published>2013-02-03T00:32:00+01:00</published><updated>2013-02-03T00:38:00+01:00</updated><author><name>Jeroen Budts</name></author><id>tag:budts.be,2013-02-03:/weblog/2013/02/vim-checking-php-code-and-python-and</id><summary type=\"html\">&lt;p&gt;Do you hate it as much as I do when you are writing some PHP (or Python or whatever) code in your favorite editor, hit 'save', reload the page in the browser in the hopes that you will see the new most awesome feature you ever wrote, but instead you are greeted by an unfriendly PARSE_ERROR_YOU_FORGOT_A_CLOSING_BRACKET_YOU_STUPID-error?",
+      "Right, it feels like you just built a rocket, but upon launch you discover you didn't foresee a doorknob and can't get in anymore...&lt;/p&gt; &lt;p&gt;Luckily, if you are using Vim there is a nice plugin to quickly catch these errors (and more).",
+      "The plugin I'm talking about is &lt;a href=\"https://github.com/scrooloose/syntastic\"&gt;Syntastic&lt;/a&gt;."
+    ],
+    "medium": "Source: https://budts.be/feeds/inuits-planet.atom.xml",
+    "short": "Source: https://budts.be/feeds/inuits-planet.atom.xml",
+    "tokens": [
+      "teranex",
+      "weblog",
+      "inuits",
+      "planet",
+      "source",
+      "https",
+      "budts",
+      "feeds",
+      "inuits",
+      "planet",
+      "atom",
+      "xml",
+      "source",
+      "https",
+      "budts",
+      "feeds",
+      "inuits",
+      "planet",
+      "atom",
+      "xml"
+    ]
+  },
+  "title": "teranex weblog - inuits-planet"
+}

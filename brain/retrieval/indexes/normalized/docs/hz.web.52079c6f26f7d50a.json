@@ -1,0 +1,466 @@
+{
+  "aliases": [
+    {
+      "alias": "52079c6f26f7d50a",
+      "aliasId": "hz.web.52079c6f26f7d50a.alias.1",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "aaronparecki.com",
+      "aliasId": "hz.web.52079c6f26f7d50a.alias.2",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "web 52079c6f26f7d50a",
+      "aliasId": "hz.web.52079c6f26f7d50a.alias.3",
+      "canonical": "aaronparecki.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.52,
+  "docId": "hz.web.52079c6f26f7d50a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.52079c6f26f7d50a.entity.1",
+      "kind": "document",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.52079c6f26f7d50a.entity.2",
+      "kind": "heading",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.52079c6f26f7d50a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.52079c6f26f7d50a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.52079c6f26f7d50a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 99,
+      "charStart": 21,
+      "factId": "hz.web.52079c6f26f7d50a.fact.1",
+      "kind": "summary",
+      "text": "Source: http://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+      "tokens": [
+        "source",
+        "http",
+        "aaronparecki",
+        "com",
+        "assets",
+        "featherlight",
+        "featherlight",
+        "min",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 151,
+      "factId": "hz.web.52079c6f26f7d50a.fact.1",
+      "kind": "bullet",
+      "text": "/** * Featherlight - ultra slim jQuery lightbox * Version 1.5.0 - http://noelboss.github.io/featherlight/ * * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com) * MIT Licensed.",
+      "tokens": [
+        "featherlight",
+        "ultra",
+        "slim",
+        "jquery",
+        "lightbox",
+        "version",
+        "http",
+        "noelboss",
+        "github",
+        "io",
+        "featherlight",
+        "copyright",
+        "2016",
+        "no",
+        "raoul",
+        "bossart",
+        "http",
+        "www",
+        "noelboss",
+        "com",
+        "mit",
+        "licensed"
+      ]
+    },
+    {
+      "charEnd": 1685,
+      "charStart": 340,
+      "factId": "hz.web.52079c6f26f7d50a.fact.2",
+      "kind": "bullet",
+      "text": "**/ @media all{.featherlight{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:2147483647;text-align:center;white-space:nowrap;cursor:pointer;background:#333;background:rgba(0,0,0,0)}.featherlight:last-of-type{background:rgba(0,0,0,.8)}.featherlight:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-.25em}.featherlight .featherlight-content{position:relative;text-align:left;vertical-align:middle;display:inline-block;overflow:auto;padding:25px 25px 0;border-bottom:25px solid transparent;margin-left:5%;margin-right:5%;max-height:95%;background:#fff;cursor:auto;white-space:normal}.featherlight .featherlight-inner{display:block}.featherlight .featherlight-close-icon{position:absolute;z-index:9999;top:0;right:0;line-height:25px;width:25px;cursor:pointer;text-align:center;font-family:Arial,sans-serif;background:#fff;background:rgba(255,255,255,.3);color:#000}.featherlight .featherlight-image{width:100%}.featherlight-iframe .featherlight-content{border-bottom:0;padding:0}.featherlight iframe{border:0}.featherlight *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}}@media only screen and (max-width:1024px){.featherlight .featherlight-content{margin-left:10px;margin-right:10px;max-height:98%;padding:10px 10px 0;border-bottom:10px solid transparent}}",
+      "tokens": [
+        "media",
+        "all",
+        "featherlight",
+        "display",
+        "none",
+        "position",
+        "fixed",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "index",
+        "2147483647",
+        "text",
+        "align",
+        "center",
+        "white",
+        "space",
+        "nowrap",
+        "cursor",
+        "pointer",
+        "background",
+        "333",
+        "background",
+        "rgba",
+        "featherlight",
+        "last",
+        "type",
+        "background",
+        "rgba",
+        "featherlight",
+        "before",
+        "content",
+        "display",
+        "inline",
+        "block",
+        "height",
+        "100",
+        "vertical",
+        "align",
+        "middle",
+        "margin",
+        "right",
+        "25em",
+        "featherlight",
+        "featherlight",
+        "content",
+        "position",
+        "relative",
+        "text",
+        "align",
+        "left",
+        "vertical",
+        "align",
+        "middle",
+        "display",
+        "inline",
+        "block",
+        "overflow",
+        "auto",
+        "padding",
+        "25px",
+        "25px",
+        "border",
+        "bottom",
+        "25px",
+        "solid",
+        "transparent",
+        "margin",
+        "left",
+        "margin",
+        "right",
+        "max",
+        "height",
+        "95",
+        "background",
+        "fff",
+        "cursor",
+        "auto",
+        "white",
+        "space",
+        "normal",
+        "featherlight",
+        "featherlight",
+        "inner",
+        "display",
+        "block",
+        "featherlight",
+        "featherlight",
+        "close",
+        "icon",
+        "position",
+        "absolute",
+        "index",
+        "9999",
+        "top",
+        "right",
+        "line",
+        "height",
+        "25px",
+        "width",
+        "25px",
+        "cursor",
+        "pointer",
+        "text",
+        "align",
+        "center",
+        "font",
+        "family",
+        "arial",
+        "sans",
+        "serif",
+        "background",
+        "fff",
+        "background",
+        "rgba",
+        "255",
+        "255",
+        "255",
+        "color",
+        "000",
+        "featherlight",
+        "featherlight",
+        "image",
+        "width",
+        "100",
+        "featherlight",
+        "iframe",
+        "featherlight",
+        "content",
+        "border",
+        "bottom",
+        "padding",
+        "featherlight",
+        "iframe",
+        "border",
+        "featherlight",
+        "webkit",
+        "box",
+        "sizing",
+        "border",
+        "box",
+        "moz",
+        "box",
+        "sizing",
+        "border",
+        "box",
+        "box",
+        "sizing",
+        "border",
+        "box",
+        "media",
+        "only",
+        "screen",
+        "max",
+        "width",
+        "1024px",
+        "featherlight",
+        "featherlight",
+        "content",
+        "margin",
+        "left",
+        "10px",
+        "margin",
+        "right",
+        "10px",
+        "max",
+        "height",
+        "98",
+        "padding",
+        "10px",
+        "10px",
+        "border",
+        "bottom",
+        "10px",
+        "solid",
+        "transparent"
+      ]
+    },
+    {
+      "charEnd": 1714,
+      "charStart": 1700,
+      "factId": "hz.web.52079c6f26f7d50a.fact.3",
+      "kind": "bullet",
+      "text": "featherlight",
+      "tokens": [
+        "featherlight"
+      ]
+    },
+    {
+      "charEnd": 1723,
+      "charStart": 1715,
+      "factId": "hz.web.52079c6f26f7d50a.fact.4",
+      "kind": "bullet",
+      "text": "border",
+      "tokens": [
+        "border"
+      ]
+    },
+    {
+      "charEnd": 1736,
+      "charStart": 1724,
+      "factId": "hz.web.52079c6f26f7d50a.fact.5",
+      "kind": "bullet",
+      "text": "background",
+      "tokens": [
+        "background"
+      ]
+    },
+    {
+      "charEnd": 1742,
+      "charStart": 1737,
+      "factId": "hz.web.52079c6f26f7d50a.fact.6",
+      "kind": "bullet",
+      "text": "box",
+      "tokens": [
+        "box"
+      ]
+    },
+    {
+      "charEnd": 1749,
+      "charStart": 1743,
+      "factId": "hz.web.52079c6f26f7d50a.fact.7",
+      "kind": "bullet",
+      "text": "10px",
+      "tokens": [
+        "10px"
+      ]
+    },
+    {
+      "charEnd": 1756,
+      "charStart": 1750,
+      "factId": "hz.web.52079c6f26f7d50a.fact.8",
+      "kind": "bullet",
+      "text": "25px",
+      "tokens": [
+        "25px"
+      ]
+    },
+    {
+      "charEnd": 1764,
+      "charStart": 1757,
+      "factId": "hz.web.52079c6f26f7d50a.fact.9",
+      "kind": "bullet",
+      "text": "align",
+      "tokens": [
+        "align"
+      ]
+    },
+    {
+      "charEnd": 1773,
+      "charStart": 1765,
+      "factId": "hz.web.52079c6f26f7d50a.fact.10",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.52079c6f26f7d50a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "aaronparecki.com"
+    },
+    {
+      "charEnd": 149,
+      "charStart": 139,
+      "headingId": "hz.web.52079c6f26f7d50a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1698,
+      "charStart": 1687,
+      "headingId": "hz.web.52079c6f26f7d50a.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1785,
+      "charStart": 1775,
+      "headingId": "hz.web.52079c6f26f7d50a.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/52079c6f26f7d50a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3588,
+        "start": 0
+      }
+    ],
+    "hash": "25ce2b17377373dbc3214320a05f4b5c32364b3fee7b4c750be9ca8790d1f1a7",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/** * Featherlight - ultra slim jQuery lightbox * Version 1.5.0 - http://noelboss.github.io/featherlight/ * * Copyright 2016, Noël Raoul Bossart (http://www.noelboss.com) * MIT Licensed.",
+      "**/ @media all{.featherlight{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:2147483647;text-align:center;white-space:nowrap;cursor:pointer;background:#333;background:rgba(0,0,0,0)}.featherlight:last-of-type{background:rgba(0,0,0,.8)}.featherlight:before{content:'';display:inline-block;height:100%;vertical-align:middle;margin-right:-.25em}.featherlight .featherlight-content{position:relative;text-align:left;vertical-align:middle;display:inline-block;overflow:auto;padding:25px 25px 0;border-bottom:25px solid transparent;margin-left:5%;margin-right:5%;max-height:95%;background:#fff;cursor:auto;white-space:normal}.featherlight .featherlight-inner{display:block}.featherlight .featherlight-close-icon{position:absolute;z-index:9999;top:0;right:0;line-height:25px;width:25px;cursor:pointer;text-align:center;font-family:Arial,sans-serif;background:#fff;background:rgba(255,255,255,.3);color:#000}.featherlight .featherlight-image{width:100%}.featherlight-iframe .featherlight-content{border-bottom:0;padding:0}.featherlight iframe{border:0}.featherlight *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}}@media only screen and (max-width:1024px){.featherlight .featherlight-content{margin-left:10px;margin-right:10px;max-height:98%;padding:10px 10px 0;border-bottom:10px solid transparent}}",
+      "featherlight"
+    ],
+    "medium": "Source: http://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+    "short": "Source: http://aaronparecki.com/assets/featherlight-1.5.0/featherlight.min.css",
+    "tokens": [
+      "aaronparecki",
+      "com",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "assets",
+      "featherlight",
+      "featherlight",
+      "min",
+      "css",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "assets",
+      "featherlight",
+      "featherlight",
+      "min",
+      "css"
+    ]
+  },
+  "title": "aaronparecki.com"
+}

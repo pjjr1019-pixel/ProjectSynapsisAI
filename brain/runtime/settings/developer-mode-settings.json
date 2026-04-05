@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "snapshot": {
+    "pollMs": 2500
+  },
+  "logs": {
+    "pollMs": 1500,
+    "limit": 120,
+    "source": "all"
+  },
+  "chat": {
+    "streaming": true,
+    "localLlm": true,
+    "internet": false,
+    "profileName": "repo-knowledge-pack"
+  },
+  "ui": {
+    "density": "compact",
+    "defaultInspector": "pipeline",
+    "defaultLogSource": "all"
+  },
+  "features": {
+    "pipelineInspector": true,
+    "stateInspector": false,
+    "implementationMonitor": true,
+    "runtimePanel": true,
+    "workerPanel": true
+  },
+  "debug": {
+    "forceDryRun": true,
+    "verboseDiagnostics": true,
+    "showRawPayloads": true,
+    "showExperimental": true,
+    "simulateWarnings": false,
+    "simulateHotspots": false
+  }
+}

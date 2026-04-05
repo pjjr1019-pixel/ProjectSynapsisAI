@@ -1,0 +1,506 @@
+{
+  "aliases": [
+    {
+      "alias": "30 000 jobs in clearwater",
+      "aliasId": "hz.web.d917b9b4cc40f8c2.alias.1",
+      "canonical": "30,000+ jobs in clearwater"
+    },
+    {
+      "alias": "d917b9b4cc40f8c2",
+      "aliasId": "hz.web.d917b9b4cc40f8c2.alias.2",
+      "canonical": "30,000+ jobs in clearwater"
+    },
+    {
+      "alias": "web d917b9b4cc40f8c2",
+      "aliasId": "hz.web.d917b9b4cc40f8c2.alias.3",
+      "canonical": "30,000+ jobs in clearwater"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.d917b9b4cc40f8c2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d917b9b4cc40f8c2.entity.1",
+      "kind": "document",
+      "name": "30,000+ jobs in Clearwater",
+      "tokens": [
+        "30",
+        "000",
+        "jobs",
+        "clearwater"
+      ]
+    },
+    {
+      "entityId": "hz.web.d917b9b4cc40f8c2.entity.2",
+      "kind": "heading",
+      "name": "30,000+ jobs in Clearwater",
+      "tokens": [
+        "30",
+        "000",
+        "jobs",
+        "clearwater"
+      ]
+    },
+    {
+      "entityId": "hz.web.d917b9b4cc40f8c2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d917b9b4cc40f8c2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d917b9b4cc40f8c2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 129,
+      "charStart": 31,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/jobs/jobs-in-clearwater-fl?trk=public_profile_guest_nav_menu_jobs",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "jobs",
+        "jobs",
+        "clearwater",
+        "fl",
+        "trk",
+        "public_profile_guest_nav_menu_jobs"
+      ]
+    },
+    {
+      "charEnd": 321,
+      "charStart": 181,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.1",
+      "kind": "bullet",
+      "text": "30,000+ jobs in Clearwater Skip to main content LinkedIn Clearwater Expand search This button displays the currently selected search type.",
+      "tokens": [
+        "30",
+        "000",
+        "jobs",
+        "clearwater",
+        "skip",
+        "main",
+        "content",
+        "linkedin",
+        "clearwater",
+        "expand",
+        "search",
+        "button",
+        "displays",
+        "currently",
+        "selected",
+        "search",
+        "type"
+      ]
+    },
+    {
+      "charEnd": 441,
+      "charStart": 322,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.2",
+      "kind": "bullet",
+      "text": "When expanded it provides a list of search options that will switch the search inputs to match the current selection.",
+      "tokens": [
+        "expanded",
+        "provides",
+        "list",
+        "search",
+        "options",
+        "will",
+        "switch",
+        "search",
+        "inputs",
+        "match",
+        "current",
+        "selection"
+      ]
+    },
+    {
+      "charEnd": 1145,
+      "charStart": 442,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.3",
+      "kind": "bullet",
+      "text": "Jobs People Learning Clear text Clear text Clear text Clear text Clear text Sign in Join now 25 miles (40 km) Exact location 5 miles (8 km) 10 miles (16 km) 25 miles (40 km) 50 miles (80 km) Done Any time Any time (29,903) Past month (20,880) Past week (7,753) Past 24 hours (1,682) Done Company Clear text The Winn-Dixie Company (163) LifeWorks Wellness Center (20) The Wendy's Company (15) FASTer Way to Fat Loss (10) Zulay Kitchen (6) Done Job type Full-time (25,340) Part-time (3,600) Contract (596) Temporary (149) Volunteer (176) Done Experience level Internship (805) Entry level (13,587) Associate (2,073) Mid-Senior level (9,156) Director (745) Done Location Clear text Tampa, FL (16,908) St.",
+      "tokens": [
+        "jobs",
+        "people",
+        "learning",
+        "clear",
+        "text",
+        "clear",
+        "text",
+        "clear",
+        "text",
+        "clear",
+        "text",
+        "clear",
+        "text",
+        "sign",
+        "join",
+        "now",
+        "25",
+        "miles",
+        "40",
+        "km",
+        "exact",
+        "location",
+        "miles",
+        "km",
+        "10",
+        "miles",
+        "16",
+        "km",
+        "25",
+        "miles",
+        "40",
+        "km",
+        "50",
+        "miles",
+        "80",
+        "km",
+        "done",
+        "any",
+        "time",
+        "any",
+        "time",
+        "29",
+        "903",
+        "past",
+        "month",
+        "20",
+        "880",
+        "past",
+        "week",
+        "753",
+        "past",
+        "24",
+        "hours",
+        "682",
+        "done",
+        "company",
+        "clear",
+        "text",
+        "winn",
+        "dixie",
+        "company",
+        "163",
+        "lifeworks",
+        "wellness",
+        "center",
+        "20",
+        "wendy",
+        "company",
+        "15",
+        "faster",
+        "way",
+        "fat",
+        "loss",
+        "10",
+        "zulay",
+        "kitchen",
+        "done",
+        "job",
+        "type",
+        "full",
+        "time",
+        "25",
+        "340",
+        "part",
+        "time",
+        "600",
+        "contract",
+        "596",
+        "temporary",
+        "149",
+        "volunteer",
+        "176",
+        "done",
+        "experience",
+        "level",
+        "internship",
+        "805",
+        "entry",
+        "level",
+        "13",
+        "587",
+        "associate",
+        "073",
+        "mid",
+        "senior",
+        "level",
+        "156",
+        "director",
+        "745",
+        "done",
+        "location",
+        "clear",
+        "text",
+        "tampa",
+        "fl",
+        "16",
+        "908",
+        "st"
+      ]
+    },
+    {
+      "charEnd": 1540,
+      "charStart": 1146,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.4",
+      "kind": "bullet",
+      "text": "Petersburg, FL (4,063) Clearwater, FL (2,709) Largo, FL (1,303) New Port Richey, FL (755) Done Salary $40,000+ (1,005) $60,000+ (806) $80,000+ (622) $100,000+ (512) $120,000+ (431) Done Remote On-site (25,818) Hybrid (2,797) Remote (1,819) Done 30,000+ Jobs in Clearwater Bagger Bagger The Winn-Dixie Company Largo, FL Be an early applicant 1 week ago Bagger Bagger The Winn-Dixie Company St.",
+      "tokens": [
+        "petersburg",
+        "fl",
+        "063",
+        "clearwater",
+        "fl",
+        "709",
+        "largo",
+        "fl",
+        "303",
+        "new",
+        "port",
+        "richey",
+        "fl",
+        "755",
+        "done",
+        "salary",
+        "40",
+        "000",
+        "005",
+        "60",
+        "000",
+        "806",
+        "80",
+        "000",
+        "622",
+        "100",
+        "000",
+        "512",
+        "120",
+        "000",
+        "431",
+        "done",
+        "remote",
+        "site",
+        "25",
+        "818",
+        "hybrid",
+        "797",
+        "remote",
+        "819",
+        "done",
+        "30",
+        "000",
+        "jobs",
+        "clearwater",
+        "bagger",
+        "bagger",
+        "winn",
+        "dixie",
+        "company",
+        "largo",
+        "fl",
+        "early",
+        "applicant",
+        "week",
+        "ago",
+        "bagger",
+        "bagger",
+        "winn",
+        "dixie",
+        "company",
+        "st"
+      ]
+    },
+    {
+      "charEnd": 1559,
+      "charStart": 1555,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.5",
+      "kind": "bullet",
+      "text": "fl",
+      "tokens": [
+        "fl"
+      ]
+    },
+    {
+      "charEnd": 1565,
+      "charStart": 1560,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.6",
+      "kind": "bullet",
+      "text": "ago",
+      "tokens": [
+        "ago"
+      ]
+    },
+    {
+      "charEnd": 1577,
+      "charStart": 1566,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.7",
+      "kind": "bullet",
+      "text": "applicant",
+      "tokens": [
+        "applicant"
+      ]
+    },
+    {
+      "charEnd": 1585,
+      "charStart": 1578,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.8",
+      "kind": "bullet",
+      "text": "early",
+      "tokens": [
+        "early"
+      ]
+    },
+    {
+      "charEnd": 1593,
+      "charStart": 1586,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.9",
+      "kind": "bullet",
+      "text": "tampa",
+      "tokens": [
+        "tampa"
+      ]
+    },
+    {
+      "charEnd": 1602,
+      "charStart": 1594,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.10",
+      "kind": "bullet",
+      "text": "bagger",
+      "tokens": [
+        "bagger"
+      ]
+    },
+    {
+      "charEnd": 1615,
+      "charStart": 1603,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.11",
+      "kind": "bullet",
+      "text": "clearwater",
+      "tokens": [
+        "clearwater"
+      ]
+    },
+    {
+      "charEnd": 1622,
+      "charStart": 1616,
+      "factId": "hz.web.d917b9b4cc40f8c2.fact.12",
+      "kind": "bullet",
+      "text": "week",
+      "tokens": [
+        "week"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 29,
+      "charStart": 1,
+      "headingId": "hz.web.d917b9b4cc40f8c2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "30,000+ jobs in Clearwater"
+    },
+    {
+      "charEnd": 179,
+      "charStart": 169,
+      "headingId": "hz.web.d917b9b4cc40f8c2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1553,
+      "charStart": 1542,
+      "headingId": "hz.web.d917b9b4cc40f8c2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1634,
+      "charStart": 1624,
+      "headingId": "hz.web.d917b9b4cc40f8c2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d917b9b4cc40f8c2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4937,
+        "start": 0
+      }
+    ],
+    "hash": "bd67216d637857fc653fcccaa41525fa6492345c7f4d5cd14fbcb6cf70f40f81",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "30,000+ jobs in Clearwater Skip to main content LinkedIn Clearwater Expand search This button displays the currently selected search type.",
+      "When expanded it provides a list of search options that will switch the search inputs to match the current selection.",
+      "Jobs People Learning Clear text Clear text Clear text Clear text Clear text Sign in Join now 25 miles (40 km) Exact location 5 miles (8 km) 10 miles (16 km) 25 miles (40 km) 50 miles (80 km) Done Any time Any time (29,903) Past month (20,880) Past week (7,753) Past 24 hours (1,682) Done Company Clear text The Winn-Dixie Company (163) LifeWorks Wellness Center (20) The Wendy's Company (15) FASTer Way to Fat Loss (10) Zulay Kitchen (6) Done Job type Full-time (25,340) Part-time (3,600) Contract (596) Temporary (149) Volunteer (176) Done Experience level Internship (805) Entry level (13,587) Associate (2,073) Mid-Senior level (9,156) Director (745) Done Location Clear text Tampa, FL (16,908) St."
+    ],
+    "medium": "Source: https://www.linkedin.com/jobs/jobs-in-clearwater-fl?trk=public_profile_guest_nav_menu_jobs",
+    "short": "Source: https://www.linkedin.com/jobs/jobs-in-clearwater-fl?trk=public_profile_guest_nav_menu_jobs",
+    "tokens": [
+      "30",
+      "000",
+      "jobs",
+      "clearwater",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "jobs",
+      "jobs",
+      "clearwater",
+      "fl",
+      "trk",
+      "public_profile_guest_nav_menu_jobs",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "jobs",
+      "jobs",
+      "clearwater",
+      "fl",
+      "trk",
+      "public_profile_guest_nav_menu_jobs"
+    ]
+  },
+  "title": "30,000+ jobs in Clearwater"
+}

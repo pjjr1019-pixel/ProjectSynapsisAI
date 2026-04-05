@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "killSwitchActive": false,
+  "performanceMode": "max-performance",
+  "intervalMs": {
+    "low": 60000,
+    "moderate": 15000,
+    "high": 5000,
+    "critical": 5000,
+    "active": 30000
+  },
+  "thresholds": {
+    "autoMinConfidence": 75,
+    "recommendMinConfidence": 45,
+    "approveMinConfidence": 25
+  },
+  "budgets": {
+    "ramReservedMB": 2048,
+    "vramReservedMB": 4096,
+    "backgroundCpuMaxPercent": 25
+  },
+  "cooldowns": {
+    "pauseCrawlerMs": 300000,
+    "evictCacheMs": 900000,
+    "rollbackMs": 900000
+  },
+  "pinnedModules": [],
+  "ignoredModules": [],
+  "autoTierDisabledActions": []
+}

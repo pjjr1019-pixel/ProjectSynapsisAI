@@ -1,0 +1,348 @@
+{
+  "aliases": [
+    {
+      "alias": "4d4a0f7071bbd857",
+      "aliasId": "hz.web.4d4a0f7071bbd857.alias.1",
+      "canonical": "charms.lol"
+    },
+    {
+      "alias": "charms.lol",
+      "aliasId": "hz.web.4d4a0f7071bbd857.alias.2",
+      "canonical": "charms.lol"
+    },
+    {
+      "alias": "web 4d4a0f7071bbd857",
+      "aliasId": "hz.web.4d4a0f7071bbd857.alias.3",
+      "canonical": "charms.lol"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.4d4a0f7071bbd857",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4d4a0f7071bbd857.entity.1",
+      "kind": "document",
+      "name": "charms.lol",
+      "tokens": [
+        "charms",
+        "lol"
+      ]
+    },
+    {
+      "entityId": "hz.web.4d4a0f7071bbd857.entity.2",
+      "kind": "heading",
+      "name": "charms.lol",
+      "tokens": [
+        "charms",
+        "lol"
+      ]
+    },
+    {
+      "entityId": "hz.web.4d4a0f7071bbd857.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4d4a0f7071bbd857.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4d4a0f7071bbd857.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 42,
+      "charStart": 15,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.1",
+      "kind": "summary",
+      "text": "Source: https://charms.lol/",
+      "tokens": [
+        "source",
+        "https",
+        "charms",
+        "lol"
+      ]
+    },
+    {
+      "charEnd": 115,
+      "charStart": 94,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.1",
+      "kind": "bullet",
+      "text": "charms.lol charms .",
+      "tokens": [
+        "charms",
+        "lol",
+        "charms"
+      ]
+    },
+    {
+      "charEnd": 207,
+      "charStart": 116,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.2",
+      "kind": "bullet",
+      "text": "lol --> This is a charm : It’s a digital representation of something, and it has meaning.",
+      "tokens": [
+        "lol",
+        "charm",
+        "digital",
+        "representation",
+        "something",
+        "has",
+        "meaning"
+      ]
+    },
+    {
+      "charEnd": 267,
+      "charStart": 208,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.3",
+      "kind": "bullet",
+      "text": "This one happens to mean that someone is loving and kind.",
+      "tokens": [
+        "one",
+        "happens",
+        "mean",
+        "someone",
+        "loving",
+        "kind"
+      ]
+    },
+    {
+      "charEnd": 326,
+      "charStart": 268,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.4",
+      "kind": "bullet",
+      "text": "People can give charms to you, and you can collect them.",
+      "tokens": [
+        "people",
+        "give",
+        "charms",
+        "collect",
+        "them"
+      ]
+    },
+    {
+      "charEnd": 349,
+      "charStart": 341,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.5",
+      "kind": "bullet",
+      "text": "charms",
+      "tokens": [
+        "charms"
+      ]
+    },
+    {
+      "charEnd": 357,
+      "charStart": 350,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.6",
+      "kind": "bullet",
+      "text": "charm",
+      "tokens": [
+        "charm"
+      ]
+    },
+    {
+      "charEnd": 365,
+      "charStart": 358,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.7",
+      "kind": "bullet",
+      "text": "given",
+      "tokens": [
+        "given"
+      ]
+    },
+    {
+      "charEnd": 371,
+      "charStart": 366,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.8",
+      "kind": "bullet",
+      "text": "lol",
+      "tokens": [
+        "lol"
+      ]
+    },
+    {
+      "charEnd": 378,
+      "charStart": 372,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 384,
+      "charStart": 379,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.10",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 393,
+      "charStart": 385,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.11",
+      "kind": "bullet",
+      "text": "always",
+      "tokens": [
+        "always"
+      ]
+    },
+    {
+      "charEnd": 403,
+      "charStart": 394,
+      "factId": "hz.web.4d4a0f7071bbd857.fact.12",
+      "kind": "bullet",
+      "text": "collect",
+      "tokens": [
+        "collect"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.4d4a0f7071bbd857.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "charms.lol"
+    },
+    {
+      "charEnd": 92,
+      "charStart": 82,
+      "headingId": "hz.web.4d4a0f7071bbd857.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 339,
+      "charStart": 328,
+      "headingId": "hz.web.4d4a0f7071bbd857.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 415,
+      "charStart": 405,
+      "headingId": "hz.web.4d4a0f7071bbd857.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4d4a0f7071bbd857.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1405,
+        "start": 0
+      }
+    ],
+    "hash": "66d45d877022abc962d284f3447c5bd6184d40611ff9bb22d03874c14ccdee51",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.4d4a0f7071bbd857.rule.1",
+      "text": "## Keywords - charms - charm - given - lol - your - all - always - collect ## Excerpt charms.lol charms .",
+      "tokens": [
+        "keywords",
+        "charms",
+        "charm",
+        "given",
+        "lol",
+        "your",
+        "all",
+        "always",
+        "collect",
+        "excerpt",
+        "charms",
+        "lol",
+        "charms"
+      ]
+    },
+    {
+      "ruleId": "hz.web.4d4a0f7071bbd857.rule.2",
+      "text": "Charms are always given —never taken .",
+      "tokens": [
+        "charms",
+        "always",
+        "given",
+        "never",
+        "taken"
+      ]
+    },
+    {
+      "ruleId": "hz.web.4d4a0f7071bbd857.rule.3",
+      "text": "The Duck Charm Given by @foobar on December 12, 2022 “You totally deserve this for the way you always let things just roll off your back!” Charms are fun!",
+      "tokens": [
+        "duck",
+        "charm",
+        "given",
+        "foobar",
+        "december",
+        "12",
+        "2022",
+        "totally",
+        "deserve",
+        "way",
+        "always",
+        "let",
+        "things",
+        "just",
+        "roll",
+        "off",
+        "your",
+        "back",
+        "charms",
+        "fun"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "charms.lol charms .",
+      "lol --> This is a charm : It’s a digital representation of something, and it has meaning.",
+      "This one happens to mean that someone is loving and kind."
+    ],
+    "medium": "Source: https://charms.lol/",
+    "short": "Source: https://charms.lol/",
+    "tokens": [
+      "charms",
+      "lol",
+      "source",
+      "https",
+      "charms",
+      "lol",
+      "source",
+      "https",
+      "charms",
+      "lol"
+    ]
+  },
+  "title": "charms.lol"
+}

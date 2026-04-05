@@ -1,0 +1,369 @@
+{
+  "aliases": [
+    {
+      "alias": "28bacb8b68411b9d",
+      "aliasId": "hz.web.28bacb8b68411b9d.alias.1",
+      "canonical": "arxiv.org e-print archive"
+    },
+    {
+      "alias": "arxiv.org e-print archive",
+      "aliasId": "hz.web.28bacb8b68411b9d.alias.2",
+      "canonical": "arxiv.org e-print archive"
+    },
+    {
+      "alias": "web 28bacb8b68411b9d",
+      "aliasId": "hz.web.28bacb8b68411b9d.alias.3",
+      "canonical": "arxiv.org e-print archive"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.28bacb8b68411b9d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.28bacb8b68411b9d.entity.1",
+      "kind": "document",
+      "name": "arXiv.org e-Print archive",
+      "tokens": [
+        "arxiv",
+        "org",
+        "print",
+        "archive"
+      ]
+    },
+    {
+      "entityId": "hz.web.28bacb8b68411b9d.entity.2",
+      "kind": "heading",
+      "name": "arXiv.org e-Print archive",
+      "tokens": [
+        "arxiv",
+        "org",
+        "print",
+        "archive"
+      ]
+    },
+    {
+      "entityId": "hz.web.28bacb8b68411b9d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.28bacb8b68411b9d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.28bacb8b68411b9d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 30,
+      "factId": "hz.web.28bacb8b68411b9d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://arxiv.org/",
+      "tokens": [
+        "source",
+        "https",
+        "arxiv",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 209,
+      "charStart": 108,
+      "factId": "hz.web.28bacb8b68411b9d.fact.1",
+      "kind": "bullet",
+      "text": "arXiv.org e-Print archive Skip to main content Learn about arXiv becoming an independent nonprofit.",
+      "tokens": [
+        "arxiv",
+        "org",
+        "print",
+        "archive",
+        "skip",
+        "main",
+        "content",
+        "learn",
+        "about",
+        "arxiv",
+        "becoming",
+        "independent",
+        "nonprofit"
+      ]
+    },
+    {
+      "charEnd": 317,
+      "charStart": 210,
+      "factId": "hz.web.28bacb8b68411b9d.fact.2",
+      "kind": "bullet",
+      "text": "We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors.",
+      "tokens": [
+        "gratefully",
+        "acknowledge",
+        "support",
+        "simons",
+        "foundation",
+        "member",
+        "institutions",
+        "all",
+        "contributors"
+      ]
+    },
+    {
+      "charEnd": 861,
+      "charStart": 318,
+      "factId": "hz.web.28bacb8b68411b9d.fact.3",
+      "kind": "bullet",
+      "text": "Donate Status Login Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics.",
+      "tokens": [
+        "donate",
+        "status",
+        "login",
+        "help",
+        "advanced",
+        "search",
+        "all",
+        "fields",
+        "title",
+        "author",
+        "abstract",
+        "comments",
+        "journal",
+        "reference",
+        "acm",
+        "classification",
+        "msc",
+        "classification",
+        "report",
+        "number",
+        "arxiv",
+        "identifier",
+        "doi",
+        "orcid",
+        "arxiv",
+        "author",
+        "id",
+        "help",
+        "pages",
+        "full",
+        "text",
+        "search",
+        "go",
+        "quick",
+        "links",
+        "login",
+        "help",
+        "pages",
+        "about",
+        "arxiv",
+        "free",
+        "distribution",
+        "service",
+        "open",
+        "access",
+        "archive",
+        "nearly",
+        "million",
+        "scholarly",
+        "articles",
+        "fields",
+        "physics",
+        "mathematics",
+        "computer",
+        "science",
+        "quantitative",
+        "biology",
+        "quantitative",
+        "finance",
+        "statistics",
+        "electrical",
+        "engineering",
+        "systems",
+        "science",
+        "economics"
+      ]
+    },
+    {
+      "charEnd": 918,
+      "charStart": 862,
+      "factId": "hz.web.28bacb8b68411b9d.fact.4",
+      "kind": "bullet",
+      "text": "Materials on this site are not peer-reviewed by arXiv.",
+      "tokens": [
+        "materials",
+        "site",
+        "not",
+        "peer",
+        "reviewed",
+        "arxiv"
+      ]
+    },
+    {
+      "charEnd": 942,
+      "charStart": 933,
+      "factId": "hz.web.28bacb8b68411b9d.fact.5",
+      "kind": "bullet",
+      "text": "physics",
+      "tokens": [
+        "physics"
+      ]
+    },
+    {
+      "charEnd": 951,
+      "charStart": 943,
+      "factId": "hz.web.28bacb8b68411b9d.fact.6",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 957,
+      "charStart": 952,
+      "factId": "hz.web.28bacb8b68411b9d.fact.7",
+      "kind": "bullet",
+      "text": "new",
+      "tokens": [
+        "new"
+      ]
+    },
+    {
+      "charEnd": 966,
+      "charStart": 958,
+      "factId": "hz.web.28bacb8b68411b9d.fact.8",
+      "kind": "bullet",
+      "text": "recent",
+      "tokens": [
+        "recent"
+      ]
+    },
+    {
+      "charEnd": 976,
+      "charStart": 967,
+      "factId": "hz.web.28bacb8b68411b9d.fact.9",
+      "kind": "bullet",
+      "text": "science",
+      "tokens": [
+        "science"
+      ]
+    },
+    {
+      "charEnd": 985,
+      "charStart": 977,
+      "factId": "hz.web.28bacb8b68411b9d.fact.10",
+      "kind": "bullet",
+      "text": "theory",
+      "tokens": [
+        "theory"
+      ]
+    },
+    {
+      "charEnd": 995,
+      "charStart": 986,
+      "factId": "hz.web.28bacb8b68411b9d.fact.11",
+      "kind": "bullet",
+      "text": "systems",
+      "tokens": [
+        "systems"
+      ]
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 996,
+      "factId": "hz.web.28bacb8b68411b9d.fact.12",
+      "kind": "bullet",
+      "text": "quantitative",
+      "tokens": [
+        "quantitative"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.28bacb8b68411b9d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "arXiv.org e-Print archive"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.28bacb8b68411b9d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 931,
+      "charStart": 920,
+      "headingId": "hz.web.28bacb8b68411b9d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1022,
+      "charStart": 1012,
+      "headingId": "hz.web.28bacb8b68411b9d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/28bacb8b68411b9d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4252,
+        "start": 0
+      }
+    ],
+    "hash": "1f28e104c4c34aa9b8f2f07f8b9ab64cbb4c1bde6918358bdffd3f1d5b5ab2a4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "arXiv.org e-Print archive Skip to main content Learn about arXiv becoming an independent nonprofit.",
+      "We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors.",
+      "Donate Status Login Help | Advanced Search All fields Title Author Abstract Comments Journal reference ACM classification MSC classification Report number arXiv identifier DOI ORCID arXiv author ID Help pages Full text Search GO quick links Login Help Pages About arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics."
+    ],
+    "medium": "Source: https://arxiv.org/",
+    "short": "Source: https://arxiv.org/",
+    "tokens": [
+      "arxiv",
+      "org",
+      "print",
+      "archive",
+      "source",
+      "https",
+      "arxiv",
+      "org",
+      "source",
+      "https",
+      "arxiv",
+      "org"
+    ]
+  },
+  "title": "arXiv.org e-Print archive"
+}

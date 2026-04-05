@@ -1,0 +1,338 @@
+{
+  "aliases": [
+    {
+      "alias": "837debc978f30ab6",
+      "aliasId": "hz.web.837debc978f30ab6.alias.1",
+      "canonical": "www.ercim.eu"
+    },
+    {
+      "alias": "web 837debc978f30ab6",
+      "aliasId": "hz.web.837debc978f30ab6.alias.2",
+      "canonical": "www.ercim.eu"
+    },
+    {
+      "alias": "www.ercim.eu",
+      "aliasId": "hz.web.837debc978f30ab6.alias.3",
+      "canonical": "www.ercim.eu"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.837debc978f30ab6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.837debc978f30ab6.entity.1",
+      "kind": "document",
+      "name": "www.ercim.eu",
+      "tokens": [
+        "www",
+        "ercim",
+        "eu"
+      ]
+    },
+    {
+      "entityId": "hz.web.837debc978f30ab6.entity.2",
+      "kind": "heading",
+      "name": "www.ercim.eu",
+      "tokens": [
+        "www",
+        "ercim",
+        "eu"
+      ]
+    },
+    {
+      "entityId": "hz.web.837debc978f30ab6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.837debc978f30ab6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.837debc978f30ab6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 78,
+      "charStart": 17,
+      "factId": "hz.web.837debc978f30ab6.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.ercim.eu/templates/purity_iii/css/ie8.css",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "ercim",
+        "eu",
+        "templates",
+        "purity_iii",
+        "css",
+        "ie8",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 711,
+      "charStart": 130,
+      "factId": "hz.web.837debc978f30ab6.fact.1",
+      "kind": "bullet",
+      "text": "/* Fix: Mouse hover on IE8 */ .navbar-default .navbar-nav > li > a { padding-right: 0 !important; } .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active { background: url(../images/nav-active.gif) repeat-x left bottom transparent; } .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: url(../images/nav-active.gif) repeat-x left bottom; } .custom .media a.pull-left { display: block; width: 60px; }",
+      "tokens": [
+        "fix",
+        "mouse",
+        "hover",
+        "ie8",
+        "navbar",
+        "default",
+        "navbar",
+        "nav",
+        "li",
+        "padding",
+        "right",
+        "important",
+        "navbar",
+        "default",
+        "navbar",
+        "nav",
+        "li",
+        "hover",
+        "navbar",
+        "default",
+        "navbar",
+        "nav",
+        "li",
+        "focus",
+        "navbar",
+        "default",
+        "navbar",
+        "nav",
+        "li",
+        "active",
+        "background",
+        "url",
+        "images",
+        "nav",
+        "active",
+        "gif",
+        "repeat",
+        "left",
+        "bottom",
+        "transparent",
+        "navbar",
+        "default",
+        "navbar",
+        "nav",
+        "active",
+        "navbar",
+        "default",
+        "navbar",
+        "nav",
+        "active",
+        "hover",
+        "navbar",
+        "default",
+        "navbar",
+        "nav",
+        "active",
+        "focus",
+        "background",
+        "url",
+        "images",
+        "nav",
+        "active",
+        "gif",
+        "repeat",
+        "left",
+        "bottom",
+        "custom",
+        "media",
+        "pull",
+        "left",
+        "display",
+        "block",
+        "width",
+        "60px"
+      ]
+    },
+    {
+      "charEnd": 734,
+      "charStart": 726,
+      "factId": "hz.web.837debc978f30ab6.fact.2",
+      "kind": "bullet",
+      "text": "navbar",
+      "tokens": [
+        "navbar"
+      ]
+    },
+    {
+      "charEnd": 740,
+      "charStart": 735,
+      "factId": "hz.web.837debc978f30ab6.fact.3",
+      "kind": "bullet",
+      "text": "nav",
+      "tokens": [
+        "nav"
+      ]
+    },
+    {
+      "charEnd": 750,
+      "charStart": 741,
+      "factId": "hz.web.837debc978f30ab6.fact.4",
+      "kind": "bullet",
+      "text": "default",
+      "tokens": [
+        "default"
+      ]
+    },
+    {
+      "charEnd": 759,
+      "charStart": 751,
+      "factId": "hz.web.837debc978f30ab6.fact.5",
+      "kind": "bullet",
+      "text": "active",
+      "tokens": [
+        "active"
+      ]
+    },
+    {
+      "charEnd": 764,
+      "charStart": 760,
+      "factId": "hz.web.837debc978f30ab6.fact.6",
+      "kind": "bullet",
+      "text": "li",
+      "tokens": [
+        "li"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 765,
+      "factId": "hz.web.837debc978f30ab6.fact.7",
+      "kind": "bullet",
+      "text": "hover",
+      "tokens": [
+        "hover"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 773,
+      "factId": "hz.web.837debc978f30ab6.fact.8",
+      "kind": "bullet",
+      "text": "left",
+      "tokens": [
+        "left"
+      ]
+    },
+    {
+      "charEnd": 792,
+      "charStart": 780,
+      "factId": "hz.web.837debc978f30ab6.fact.9",
+      "kind": "bullet",
+      "text": "background",
+      "tokens": [
+        "background"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.837debc978f30ab6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.ercim.eu"
+    },
+    {
+      "charEnd": 128,
+      "charStart": 118,
+      "headingId": "hz.web.837debc978f30ab6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 724,
+      "charStart": 713,
+      "headingId": "hz.web.837debc978f30ab6.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 804,
+      "charStart": 794,
+      "headingId": "hz.web.837debc978f30ab6.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/837debc978f30ab6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1635,
+        "start": 0
+      }
+    ],
+    "hash": "a7218e08d9e07024173be1f1c54bef5bae3c18dbc7882ffa3be0d40175413936",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* Fix: Mouse hover on IE8 */ .navbar-default .navbar-nav > li > a { padding-right: 0 !important; } .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active { background: url(../images/nav-active.gif) repeat-x left bottom transparent; } .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: url(../images/nav-active.gif) repeat-x left bottom; } .custom .media a.pull-left { display: block; width: 60px; }",
+      "navbar",
+      "nav"
+    ],
+    "medium": "Source: https://www.ercim.eu/templates/purity_iii/css/ie8.css",
+    "short": "Source: https://www.ercim.eu/templates/purity_iii/css/ie8.css",
+    "tokens": [
+      "www",
+      "ercim",
+      "eu",
+      "source",
+      "https",
+      "www",
+      "ercim",
+      "eu",
+      "templates",
+      "purity_iii",
+      "css",
+      "ie8",
+      "css",
+      "source",
+      "https",
+      "www",
+      "ercim",
+      "eu",
+      "templates",
+      "purity_iii",
+      "css",
+      "ie8",
+      "css"
+    ]
+  },
+  "title": "www.ercim.eu"
+}

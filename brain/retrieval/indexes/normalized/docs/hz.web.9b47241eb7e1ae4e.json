@@ -1,0 +1,337 @@
+{
+  "aliases": [
+    {
+      "alias": "9b47241eb7e1ae4e",
+      "aliasId": "hz.web.9b47241eb7e1ae4e.alias.1",
+      "canonical": "newsroom"
+    },
+    {
+      "alias": "newsroom",
+      "aliasId": "hz.web.9b47241eb7e1ae4e.alias.2",
+      "canonical": "newsroom"
+    },
+    {
+      "alias": "web 9b47241eb7e1ae4e",
+      "aliasId": "hz.web.9b47241eb7e1ae4e.alias.3",
+      "canonical": "newsroom"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.9b47241eb7e1ae4e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9b47241eb7e1ae4e.entity.1",
+      "kind": "document",
+      "name": "Newsroom",
+      "tokens": [
+        "newsroom"
+      ]
+    },
+    {
+      "entityId": "hz.web.9b47241eb7e1ae4e.entity.2",
+      "kind": "heading",
+      "name": "Newsroom",
+      "tokens": [
+        "newsroom"
+      ]
+    },
+    {
+      "entityId": "hz.web.9b47241eb7e1ae4e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9b47241eb7e1ae4e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9b47241eb7e1ae4e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 57,
+      "charStart": 13,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.census.gov/newsroom.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "census",
+        "gov",
+        "newsroom",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 404,
+      "charStart": 109,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.1",
+      "kind": "bullet",
+      "text": "Newsroom United States Census Bureau | An official website of the United States Government An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "newsroom",
+        "united",
+        "states",
+        "census",
+        "bureau",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 511,
+      "charStart": 405,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 576,
+      "charStart": 512,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 577,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.4",
+      "kind": "bullet",
+      "text": "Skip Header Partners Researchers Educators Survey Respondents Explore Census.gov for...",
+      "tokens": [
+        "skip",
+        "header",
+        "partners",
+        "researchers",
+        "educators",
+        "survey",
+        "respondents",
+        "explore",
+        "census",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 689,
+      "charStart": 681,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.5",
+      "kind": "bullet",
+      "text": "census",
+      "tokens": [
+        "census"
+      ]
+    },
+    {
+      "charEnd": 696,
+      "charStart": 690,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.6",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 697,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.7",
+      "kind": "bullet",
+      "text": "survey",
+      "tokens": [
+        "survey"
+      ]
+    },
+    {
+      "charEnd": 718,
+      "charStart": 706,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.8",
+      "kind": "bullet",
+      "text": "population",
+      "tokens": [
+        "population"
+      ]
+    },
+    {
+      "charEnd": 727,
+      "charStart": 719,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.9",
+      "kind": "bullet",
+      "text": "bureau",
+      "tokens": [
+        "bureau"
+      ]
+    },
+    {
+      "charEnd": 735,
+      "charStart": 728,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.10",
+      "kind": "bullet",
+      "text": "false",
+      "tokens": [
+        "false"
+      ]
+    },
+    {
+      "charEnd": 742,
+      "charStart": 736,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.11",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 752,
+      "charStart": 743,
+      "factId": "hz.web.9b47241eb7e1ae4e.fact.12",
+      "kind": "bullet",
+      "text": "stories",
+      "tokens": [
+        "stories"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.9b47241eb7e1ae4e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Newsroom"
+    },
+    {
+      "charEnd": 107,
+      "charStart": 97,
+      "headingId": "hz.web.9b47241eb7e1ae4e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 679,
+      "charStart": 668,
+      "headingId": "hz.web.9b47241eb7e1ae4e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 764,
+      "charStart": 754,
+      "headingId": "hz.web.9b47241eb7e1ae4e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/9b47241eb7e1ae4e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3995,
+        "start": 0
+      }
+    ],
+    "hash": "42c0a5c3d5f9555bd91857ef74993b0fe4fc9dd6f745a07f2cd62fc0ac06f57e",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Newsroom United States Census Bureau | An official website of the United States Government An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.census.gov/newsroom.html",
+    "short": "Source: https://www.census.gov/newsroom.html",
+    "tokens": [
+      "newsroom",
+      "source",
+      "https",
+      "www",
+      "census",
+      "gov",
+      "newsroom",
+      "html",
+      "source",
+      "https",
+      "www",
+      "census",
+      "gov",
+      "newsroom",
+      "html"
+    ]
+  },
+  "title": "Newsroom"
+}

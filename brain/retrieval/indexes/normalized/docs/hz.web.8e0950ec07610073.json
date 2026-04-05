@@ -1,0 +1,291 @@
+{
+  "aliases": [
+    {
+      "alias": "8e0950ec07610073",
+      "aliasId": "hz.web.8e0950ec07610073.alias.1",
+      "canonical": "apnews.com"
+    },
+    {
+      "alias": "apnews.com",
+      "aliasId": "hz.web.8e0950ec07610073.alias.2",
+      "canonical": "apnews.com"
+    },
+    {
+      "alias": "web 8e0950ec07610073",
+      "aliasId": "hz.web.8e0950ec07610073.alias.3",
+      "canonical": "apnews.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.8e0950ec07610073",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8e0950ec07610073.entity.1",
+      "kind": "document",
+      "name": "apnews.com",
+      "tokens": [
+        "apnews",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e0950ec07610073.entity.2",
+      "kind": "heading",
+      "name": "apnews.com",
+      "tokens": [
+        "apnews",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e0950ec07610073.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e0950ec07610073.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8e0950ec07610073.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 15,
+      "factId": "hz.web.8e0950ec07610073.fact.1",
+      "kind": "summary",
+      "text": "Source: https://apnews.com/favicon-16x16.png",
+      "tokens": [
+        "source",
+        "https",
+        "apnews",
+        "com",
+        "favicon",
+        "16x16",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 561,
+      "charStart": 111,
+      "factId": "hz.web.8e0950ec07610073.fact.1",
+      "kind": "bullet",
+      "text": "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0003\u0000\u0000\u0000(-\u000fS\u0000\u0000\u0001\bPLTE������������������PPPWWW������YYYLLLJJJ^^^������qqq\u0000\u0000\u0000������\u000f\u000f\u000f\u0010\u0010\u0010555\u0013\u0013\u0013 ������111\u000e\u000e\u000e\b\b\b������III��񥥥\u0005\u0005\u0005QQQ���aaaCCC\u0015\u0015\u0015������MMM������RRR������������}}} ���///)))���888NNN��Ō��\\\\\\���\u0006\u0006\u0006bbbxxx---\u0019\u0019\u0019���KKK������\u001a\u001a\u001a������\u001b\u001b\u001bsss]]]�������������������������zx�30b���\u0000\u0000\u0000�IDAT\u0018�c` \u00060213\u0002 &&\u0016�\u0000+\u001b;\u0007\u0003'\u00177\u000f/\u001f?X@@PP�AXDTL\\B\u0012ė���呓\u0017QPTRVa\u0002 �ʪ�khj�h��*�\u0004\u0004�� \u0004 �D��ELLA:��-,\u0005��E�ml��@:�\u001d\u001c�ĝ]D]� ֺ{�y*zy���2A\\�����\u0010\u0010\u0018\u0014\u001c�ݡh�!",
+      "tokens": [
+        "png",
+        "ihdr",
+        "plte",
+        "pppwww",
+        "yyyllljjj",
+        "qqq",
+        "555",
+        "111",
+        "iii",
+        "qqq",
+        "aaaccc",
+        "mmm",
+        "rrr",
+        "888nnn",
+        "bbbxxx",
+        "kkk",
+        "sss",
+        "zx",
+        "30b",
+        "idat",
+        "0213",
+        "pp",
+        "axdtl",
+        "qptrva",
+        "khj",
+        "ella",
+        "ml",
+        "zy",
+        "2a"
+      ]
+    },
+    {
+      "charEnd": 589,
+      "charStart": 562,
+      "factId": "hz.web.8e0950ec07610073.fact.2",
+      "kind": "bullet",
+      "text": "0��\u0001\u0000\u0017� ��$|�\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 609,
+      "charStart": 604,
+      "factId": "hz.web.8e0950ec07610073.fact.3",
+      "kind": "bullet",
+      "text": "qqq",
+      "tokens": [
+        "qqq"
+      ]
+    },
+    {
+      "charEnd": 616,
+      "charStart": 610,
+      "factId": "hz.web.8e0950ec07610073.fact.4",
+      "kind": "bullet",
+      "text": "0213",
+      "tokens": [
+        "0213"
+      ]
+    },
+    {
+      "charEnd": 622,
+      "charStart": 617,
+      "factId": "hz.web.8e0950ec07610073.fact.5",
+      "kind": "bullet",
+      "text": "111",
+      "tokens": [
+        "111"
+      ]
+    },
+    {
+      "charEnd": 627,
+      "charStart": 623,
+      "factId": "hz.web.8e0950ec07610073.fact.6",
+      "kind": "bullet",
+      "text": "2a",
+      "tokens": [
+        "2a"
+      ]
+    },
+    {
+      "charEnd": 633,
+      "charStart": 628,
+      "factId": "hz.web.8e0950ec07610073.fact.7",
+      "kind": "bullet",
+      "text": "30b",
+      "tokens": [
+        "30b"
+      ]
+    },
+    {
+      "charEnd": 639,
+      "charStart": 634,
+      "factId": "hz.web.8e0950ec07610073.fact.8",
+      "kind": "bullet",
+      "text": "555",
+      "tokens": [
+        "555"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 640,
+      "factId": "hz.web.8e0950ec07610073.fact.9",
+      "kind": "bullet",
+      "text": "888nnn",
+      "tokens": [
+        "888nnn"
+      ]
+    },
+    {
+      "charEnd": 657,
+      "charStart": 649,
+      "factId": "hz.web.8e0950ec07610073.fact.10",
+      "kind": "bullet",
+      "text": "aaaccc",
+      "tokens": [
+        "aaaccc"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.8e0950ec07610073.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "apnews.com"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.8e0950ec07610073.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 602,
+      "charStart": 591,
+      "headingId": "hz.web.8e0950ec07610073.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 669,
+      "charStart": 659,
+      "headingId": "hz.web.8e0950ec07610073.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/8e0950ec07610073.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1376,
+        "start": 0
+      }
+    ],
+    "hash": "e9ad5a52447aade09946307cb529423cba2d1fa3904055312ea5e2b3559b1b65",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000\u0010\u0000\u0000\u0000\u0010\b\u0003\u0000\u0000\u0000(-\u000fS\u0000\u0000\u0001\bPLTE������������������PPPWWW������YYYLLLJJJ^^^������qqq\u0000\u0000\u0000������\u000f\u000f\u000f\u0010\u0010\u0010555\u0013\u0013\u0013 ������111\u000e\u000e\u000e\b\b\b������III��񥥥\u0005\u0005\u0005QQQ���aaaCCC\u0015\u0015\u0015������MMM������RRR������������}}} ���///)))���888NNN��Ō��\\\\\\���\u0006\u0006\u0006bbbxxx---\u0019\u0019\u0019���KKK������\u001a\u001a\u001a������\u001b\u001b\u001bsss]]]�������������������������zx�30b���\u0000\u0000\u0000�IDAT\u0018�c` \u00060213\u0002 &&\u0016�\u0000+\u001b;\u0007\u0003'\u00177\u000f/\u001f?X@@PP�AXDTL\\B\u0012ė���呓\u0017QPTRVa\u0002 �ʪ�khj�h��*�\u0004\u0004�� \u0004 �D��ELLA:��-,\u0005��E�ml��@:�\u001d\u001c�ĝ]D]� ֺ{�y*zy���2A\\�����\u0010\u0010\u0018\u0014\u001c�ݡh�!",
+      "0��\u0001\u0000\u0017� ��$|�\u0000\u0000\u0000\u0000IEND�B`�",
+      "qqq"
+    ],
+    "medium": "Source: https://apnews.com/favicon-16x16.png",
+    "short": "Source: https://apnews.com/favicon-16x16.png",
+    "tokens": [
+      "apnews",
+      "com",
+      "source",
+      "https",
+      "apnews",
+      "com",
+      "favicon",
+      "16x16",
+      "png",
+      "source",
+      "https",
+      "apnews",
+      "com",
+      "favicon",
+      "16x16",
+      "png"
+    ]
+  },
+  "title": "apnews.com"
+}

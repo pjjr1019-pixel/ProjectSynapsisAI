@@ -1,0 +1,301 @@
+{
+  "aliases": [
+    {
+      "alias": "effe3e670112ce25",
+      "aliasId": "hz.web.effe3e670112ce25.alias.1",
+      "canonical": "index - mblaney.xyz"
+    },
+    {
+      "alias": "index - mblaney.xyz",
+      "aliasId": "hz.web.effe3e670112ce25.alias.2",
+      "canonical": "index - mblaney.xyz"
+    },
+    {
+      "alias": "web effe3e670112ce25",
+      "aliasId": "hz.web.effe3e670112ce25.alias.3",
+      "canonical": "index - mblaney.xyz"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.effe3e670112ce25",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.effe3e670112ce25.entity.1",
+      "kind": "document",
+      "name": "index - mblaney.xyz",
+      "tokens": [
+        "index",
+        "mblaney",
+        "xyz"
+      ]
+    },
+    {
+      "entityId": "hz.web.effe3e670112ce25.entity.2",
+      "kind": "heading",
+      "name": "index - mblaney.xyz",
+      "tokens": [
+        "index",
+        "mblaney",
+        "xyz"
+      ]
+    },
+    {
+      "entityId": "hz.web.effe3e670112ce25.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.effe3e670112ce25.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.effe3e670112ce25.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 24,
+      "factId": "hz.web.effe3e670112ce25.fact.1",
+      "kind": "summary",
+      "text": "Source: https://mblaney.xyz/",
+      "tokens": [
+        "source",
+        "https",
+        "mblaney",
+        "xyz"
+      ]
+    },
+    {
+      "charEnd": 191,
+      "charStart": 104,
+      "factId": "hz.web.effe3e670112ce25.fact.1",
+      "kind": "bullet",
+      "text": "index - mblaney.xyz Malcolm Blaney @ mal Software developer from Brisbane, Australia.",
+      "tokens": [
+        "index",
+        "mblaney",
+        "xyz",
+        "malcolm",
+        "blaney",
+        "mal",
+        "software",
+        "developer",
+        "brisbane",
+        "australia"
+      ]
+    },
+    {
+      "charEnd": 268,
+      "charStart": 192,
+      "factId": "hz.web.effe3e670112ce25.fact.2",
+      "kind": "bullet",
+      "text": "follow mal To follow mal add a reader: settings Hi, welcome to my website!",
+      "tokens": [
+        "follow",
+        "mal",
+        "follow",
+        "mal",
+        "add",
+        "reader",
+        "settings",
+        "hi",
+        "welcome",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 269,
+      "factId": "hz.web.effe3e670112ce25.fact.3",
+      "kind": "bullet",
+      "text": "It was created using I Haza Website , which is a website I built....",
+      "tokens": [
+        "created",
+        "using",
+        "haza",
+        "website",
+        "website",
+        "built"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 340,
+      "factId": "hz.web.effe3e670112ce25.fact.4",
+      "kind": "bullet",
+      "text": "to make this one!",
+      "tokens": [
+        "make",
+        "one"
+      ]
+    },
+    {
+      "charEnd": 383,
+      "charStart": 374,
+      "factId": "hz.web.effe3e670112ce25.fact.5",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    },
+    {
+      "charEnd": 390,
+      "charStart": 384,
+      "factId": "hz.web.effe3e670112ce25.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 399,
+      "charStart": 391,
+      "factId": "hz.web.effe3e670112ce25.fact.7",
+      "kind": "bullet",
+      "text": "follow",
+      "tokens": [
+        "follow"
+      ]
+    },
+    {
+      "charEnd": 405,
+      "charStart": 400,
+      "factId": "hz.web.effe3e670112ce25.fact.8",
+      "kind": "bullet",
+      "text": "own",
+      "tokens": [
+        "own"
+      ]
+    },
+    {
+      "charEnd": 414,
+      "charStart": 406,
+      "factId": "hz.web.effe3e670112ce25.fact.9",
+      "kind": "bullet",
+      "text": "reader",
+      "tokens": [
+        "reader"
+      ]
+    },
+    {
+      "charEnd": 420,
+      "charStart": 415,
+      "factId": "hz.web.effe3e670112ce25.fact.10",
+      "kind": "bullet",
+      "text": "mal",
+      "tokens": [
+        "mal"
+      ]
+    },
+    {
+      "charEnd": 428,
+      "charStart": 421,
+      "factId": "hz.web.effe3e670112ce25.fact.11",
+      "kind": "bullet",
+      "text": "sites",
+      "tokens": [
+        "sites"
+      ]
+    },
+    {
+      "charEnd": 434,
+      "charStart": 429,
+      "factId": "hz.web.effe3e670112ce25.fact.12",
+      "kind": "bullet",
+      "text": "add",
+      "tokens": [
+        "add"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.effe3e670112ce25.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "index - mblaney.xyz"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.effe3e670112ce25.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 372,
+      "charStart": 361,
+      "headingId": "hz.web.effe3e670112ce25.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 446,
+      "charStart": 436,
+      "headingId": "hz.web.effe3e670112ce25.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/effe3e670112ce25.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1744,
+        "start": 0
+      }
+    ],
+    "hash": "cd42e52905a5102597a8157acab2d8c79371d814b6b1e7094ea1bc4bcc665004",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "index - mblaney.xyz Malcolm Blaney @ mal Software developer from Brisbane, Australia.",
+      "follow mal To follow mal add a reader: settings Hi, welcome to my website!",
+      "It was created using I Haza Website , which is a website I built...."
+    ],
+    "medium": "Source: https://mblaney.xyz/",
+    "short": "Source: https://mblaney.xyz/",
+    "tokens": [
+      "index",
+      "mblaney",
+      "xyz",
+      "source",
+      "https",
+      "mblaney",
+      "xyz",
+      "source",
+      "https",
+      "mblaney",
+      "xyz"
+    ]
+  },
+  "title": "index - mblaney.xyz"
+}

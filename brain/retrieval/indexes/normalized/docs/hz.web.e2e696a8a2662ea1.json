@@ -1,0 +1,365 @@
+{
+  "aliases": [
+    {
+      "alias": "comments for videopress",
+      "aliasId": "hz.web.e2e696a8a2662ea1.alias.1",
+      "canonical": "comments for videopress"
+    },
+    {
+      "alias": "e2e696a8a2662ea1",
+      "aliasId": "hz.web.e2e696a8a2662ea1.alias.2",
+      "canonical": "comments for videopress"
+    },
+    {
+      "alias": "web e2e696a8a2662ea1",
+      "aliasId": "hz.web.e2e696a8a2662ea1.alias.3",
+      "canonical": "comments for videopress"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.e2e696a8a2662ea1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e2e696a8a2662ea1.entity.1",
+      "kind": "document",
+      "name": "Comments for VideoPress",
+      "tokens": [
+        "comments",
+        "videopress"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2e696a8a2662ea1.entity.2",
+      "kind": "heading",
+      "name": "Comments for VideoPress",
+      "tokens": [
+        "comments",
+        "videopress"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2e696a8a2662ea1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2e696a8a2662ea1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e2e696a8a2662ea1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 28,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://videopress.com/comments/feed/",
+      "tokens": [
+        "source",
+        "https",
+        "videopress",
+        "com",
+        "comments",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 981,
+      "charStart": 125,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title> Comments for VideoPress </title> <atom:link href=\"https://videopress.com/comments/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://videopress.com</link> <description>The finest video for WordPress</description> <lastBuildDate>Tue, 31 Mar 2026 07:56:46 +0000</lastBuildDate> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>http://wordpress.com/</generator> </channel> </rss>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "xmlns",
+        "georss",
+        "http",
+        "www",
+        "georss",
+        "org",
+        "georss",
+        "xmlns",
+        "geo",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2003",
+        "01",
+        "geo",
+        "wgs84_pos",
+        "xmlns",
+        "media",
+        "http",
+        "search",
+        "yahoo",
+        "com",
+        "mrss",
+        "channel",
+        "title",
+        "comments",
+        "videopress",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "videopress",
+        "com",
+        "comments",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "videopress",
+        "com",
+        "link",
+        "description",
+        "finest",
+        "video",
+        "wordpress",
+        "description",
+        "lastbuilddate",
+        "tue",
+        "31",
+        "mar",
+        "2026",
+        "07",
+        "56",
+        "46",
+        "0000",
+        "lastbuilddate",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "generator",
+        "http",
+        "wordpress",
+        "com",
+        "generator",
+        "channel",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 1002,
+      "charStart": 996,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.2",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 1003,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.3",
+      "kind": "bullet",
+      "text": "xmlns",
+      "tokens": [
+        "xmlns"
+      ]
+    },
+    {
+      "charEnd": 1016,
+      "charStart": 1011,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.4",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1022,
+      "charStart": 1017,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.5",
+      "kind": "bullet",
+      "text": "rss",
+      "tokens": [
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 1027,
+      "charStart": 1023,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.6",
+      "kind": "bullet",
+      "text": "sy",
+      "tokens": [
+        "sy"
+      ]
+    },
+    {
+      "charEnd": 1033,
+      "charStart": 1028,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1040,
+      "charStart": 1034,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.8",
+      "kind": "bullet",
+      "text": "atom",
+      "tokens": [
+        "atom"
+      ]
+    },
+    {
+      "charEnd": 1049,
+      "charStart": 1041,
+      "factId": "hz.web.e2e696a8a2662ea1.fact.9",
+      "kind": "bullet",
+      "text": "georss",
+      "tokens": [
+        "georss"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.e2e696a8a2662ea1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Comments for VideoPress"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.e2e696a8a2662ea1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 994,
+      "charStart": 983,
+      "headingId": "hz.web.e2e696a8a2662ea1.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1061,
+      "charStart": 1051,
+      "headingId": "hz.web.e2e696a8a2662ea1.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e2e696a8a2662ea1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2162,
+        "start": 0
+      }
+    ],
+    "hash": "8e865b662ad6f3fcab3e68bccfca6e890aad93f73333f34840be6d0b40f92853",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:georss=\"http://www.georss.org/georss\" xmlns:geo=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" xmlns:media=\"http://search.yahoo.com/mrss/\" > <channel> <title> Comments for VideoPress </title> <atom:link href=\"https://videopress.com/comments/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://videopress.com</link> <description>The finest video for WordPress</description> <lastBuildDate>Tue, 31 Mar 2026 07:56:46 +0000</lastBuildDate> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <generator>http://wordpress.com/</generator> </channel> </rss>",
+      "http",
+      "xmlns"
+    ],
+    "medium": "Source: https://videopress.com/comments/feed/",
+    "short": "Source: https://videopress.com/comments/feed/",
+    "tokens": [
+      "comments",
+      "videopress",
+      "source",
+      "https",
+      "videopress",
+      "com",
+      "comments",
+      "feed",
+      "source",
+      "https",
+      "videopress",
+      "com",
+      "comments",
+      "feed"
+    ]
+  },
+  "title": "Comments for VideoPress"
+}

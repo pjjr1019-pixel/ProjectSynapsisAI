@@ -1,0 +1,460 @@
+{
+  "aliases": [
+    {
+      "alias": "4a9efc69b34f384d",
+      "aliasId": "hz.web.4a9efc69b34f384d.alias.1",
+      "canonical": "meyerweb.com: other stuff"
+    },
+    {
+      "alias": "meyerweb.com other stuff",
+      "aliasId": "hz.web.4a9efc69b34f384d.alias.2",
+      "canonical": "meyerweb.com: other stuff"
+    },
+    {
+      "alias": "web 4a9efc69b34f384d",
+      "aliasId": "hz.web.4a9efc69b34f384d.alias.3",
+      "canonical": "meyerweb.com: other stuff"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.4a9efc69b34f384d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4a9efc69b34f384d.entity.1",
+      "kind": "document",
+      "name": "meyerweb.com: Other Stuff",
+      "tokens": [
+        "meyerweb",
+        "com",
+        "other",
+        "stuff"
+      ]
+    },
+    {
+      "entityId": "hz.web.4a9efc69b34f384d.entity.2",
+      "kind": "heading",
+      "name": "meyerweb.com: Other Stuff",
+      "tokens": [
+        "meyerweb",
+        "com",
+        "other",
+        "stuff"
+      ]
+    },
+    {
+      "entityId": "hz.web.4a9efc69b34f384d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4a9efc69b34f384d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4a9efc69b34f384d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 30,
+      "factId": "hz.web.4a9efc69b34f384d.fact.1",
+      "kind": "summary",
+      "text": "Source: http://meyerweb.com/other/",
+      "tokens": [
+        "source",
+        "http",
+        "meyerweb",
+        "com",
+        "other"
+      ]
+    },
+    {
+      "charEnd": 360,
+      "charStart": 116,
+      "factId": "hz.web.4a9efc69b34f384d.fact.1",
+      "kind": "bullet",
+      "text": "meyerweb.com: Other Stuff meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Other Stuff The miscellaneous bits that don't really fit into the other areas of the site.",
+      "tokens": [
+        "meyerweb",
+        "com",
+        "other",
+        "stuff",
+        "meyerweb",
+        "com",
+        "main",
+        "content",
+        "navigation",
+        "links",
+        "footer",
+        "post",
+        "archives",
+        "css",
+        "work",
+        "toolbox",
+        "writing",
+        "speaking",
+        "other",
+        "stuff",
+        "about",
+        "site",
+        "other",
+        "stuff",
+        "miscellaneous",
+        "bits",
+        "don",
+        "really",
+        "fit",
+        "into",
+        "other",
+        "areas",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 478,
+      "charStart": 361,
+      "factId": "hz.web.4a9efc69b34f384d.fact.2",
+      "kind": "bullet",
+      "text": "The Funny Bits This is a collection of humor and other amusing information which Eric has collected over the years.",
+      "tokens": [
+        "funny",
+        "bits",
+        "collection",
+        "humor",
+        "other",
+        "amusing",
+        "information",
+        "eric",
+        "has",
+        "collected",
+        "over",
+        "years"
+      ]
+    },
+    {
+      "charEnd": 588,
+      "charStart": 479,
+      "factId": "hz.web.4a9efc69b34f384d.fact.3",
+      "kind": "bullet",
+      "text": "This is all stuff written by other people, which is why it's under \"other\" and not \"eric.\" Share and enjoy!",
+      "tokens": [
+        "all",
+        "stuff",
+        "written",
+        "other",
+        "people",
+        "why",
+        "under",
+        "other",
+        "not",
+        "eric",
+        "share",
+        "enjoy"
+      ]
+    },
+    {
+      "charEnd": 744,
+      "charStart": 589,
+      "factId": "hz.web.4a9efc69b34f384d.fact.4",
+      "kind": "bullet",
+      "text": "“Mother Earth Mother Board” Neal Sephenson’s classic novella-length article, published by Wired in December 1996 and preserved here for posterity’s sake.",
+      "tokens": [
+        "mother",
+        "earth",
+        "mother",
+        "board",
+        "neal",
+        "sephenson",
+        "classic",
+        "novella",
+        "length",
+        "article",
+        "published",
+        "wired",
+        "december",
+        "1996",
+        "preserved",
+        "here",
+        "posterity",
+        "sake"
+      ]
+    },
+    {
+      "charEnd": 765,
+      "charStart": 759,
+      "factId": "hz.web.4a9efc69b34f384d.fact.5",
+      "kind": "bullet",
+      "text": "eric",
+      "tokens": [
+        "eric"
+      ]
+    },
+    {
+      "charEnd": 773,
+      "charStart": 766,
+      "factId": "hz.web.4a9efc69b34f384d.fact.6",
+      "kind": "bullet",
+      "text": "other",
+      "tokens": [
+        "other"
+      ]
+    },
+    {
+      "charEnd": 779,
+      "charStart": 774,
+      "factId": "hz.web.4a9efc69b34f384d.fact.7",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 786,
+      "charStart": 780,
+      "factId": "hz.web.4a9efc69b34f384d.fact.8",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 794,
+      "charStart": 787,
+      "factId": "hz.web.4a9efc69b34f384d.fact.9",
+      "kind": "bullet",
+      "text": "stuff",
+      "tokens": [
+        "stuff"
+      ]
+    },
+    {
+      "charEnd": 803,
+      "charStart": 795,
+      "factId": "hz.web.4a9efc69b34f384d.fact.10",
+      "kind": "bullet",
+      "text": "cancun",
+      "tokens": [
+        "cancun"
+      ]
+    },
+    {
+      "charEnd": 812,
+      "charStart": 804,
+      "factId": "hz.web.4a9efc69b34f384d.fact.11",
+      "kind": "bullet",
+      "text": "design",
+      "tokens": [
+        "design"
+      ]
+    },
+    {
+      "charEnd": 820,
+      "charStart": 813,
+      "factId": "hz.web.4a9efc69b34f384d.fact.12",
+      "kind": "bullet",
+      "text": "meyer",
+      "tokens": [
+        "meyer"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.4a9efc69b34f384d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "meyerweb.com: Other Stuff"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.4a9efc69b34f384d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 757,
+      "charStart": 746,
+      "headingId": "hz.web.4a9efc69b34f384d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 832,
+      "charStart": 822,
+      "headingId": "hz.web.4a9efc69b34f384d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/4a9efc69b34f384d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3258,
+        "start": 0
+      }
+    ],
+    "hash": "a37bb4fa5ad60b15678abab48a64c048bb14606544ac25f202cde0715631a31b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.4a9efc69b34f384d.rule.1",
+      "text": "# meyerweb.com: Other Stuff Source: http://meyerweb.com/other/ Fetched at: 2026-03-29T20:54:43.524Z ## Summary - meyerweb.com: Other Stuff meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Other Stuff The miscellaneous bits that don't really fit into the other areas of the site.",
+      "tokens": [
+        "meyerweb",
+        "com",
+        "other",
+        "stuff",
+        "source",
+        "http",
+        "meyerweb",
+        "com",
+        "other",
+        "fetched",
+        "2026",
+        "03",
+        "29t20",
+        "54",
+        "43",
+        "524z",
+        "summary",
+        "meyerweb",
+        "com",
+        "other",
+        "stuff",
+        "meyerweb",
+        "com",
+        "main",
+        "content",
+        "navigation",
+        "links",
+        "footer",
+        "post",
+        "archives",
+        "css",
+        "work",
+        "toolbox",
+        "writing",
+        "speaking",
+        "other",
+        "stuff",
+        "about",
+        "site",
+        "other",
+        "stuff",
+        "miscellaneous",
+        "bits",
+        "don",
+        "really",
+        "fit",
+        "into",
+        "other",
+        "areas",
+        "site"
+      ]
+    },
+    {
+      "ruleId": "hz.web.4a9efc69b34f384d.rule.2",
+      "text": "## Keywords - eric - other - all - site - stuff - cancun - design - meyer ## Excerpt meyerweb.com: Other Stuff meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Other Stuff The miscellaneous bits that don't really fit into the other areas of the site.",
+      "tokens": [
+        "keywords",
+        "eric",
+        "other",
+        "all",
+        "site",
+        "stuff",
+        "cancun",
+        "design",
+        "meyer",
+        "excerpt",
+        "meyerweb",
+        "com",
+        "other",
+        "stuff",
+        "meyerweb",
+        "com",
+        "main",
+        "content",
+        "navigation",
+        "links",
+        "footer",
+        "post",
+        "archives",
+        "css",
+        "work",
+        "toolbox",
+        "writing",
+        "speaking",
+        "other",
+        "stuff",
+        "about",
+        "site",
+        "other",
+        "stuff",
+        "miscellaneous",
+        "bits",
+        "don",
+        "really",
+        "fit",
+        "into",
+        "other",
+        "areas",
+        "site"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "meyerweb.com: Other Stuff meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Other Stuff The miscellaneous bits that don't really fit into the other areas of the site.",
+      "The Funny Bits This is a collection of humor and other amusing information which Eric has collected over the years.",
+      "This is all stuff written by other people, which is why it's under \"other\" and not \"eric.\" Share and enjoy!"
+    ],
+    "medium": "Source: http://meyerweb.com/other/",
+    "short": "Source: http://meyerweb.com/other/",
+    "tokens": [
+      "meyerweb",
+      "com",
+      "other",
+      "stuff",
+      "source",
+      "http",
+      "meyerweb",
+      "com",
+      "other",
+      "source",
+      "http",
+      "meyerweb",
+      "com",
+      "other"
+    ]
+  },
+  "title": "meyerweb.com: Other Stuff"
+}

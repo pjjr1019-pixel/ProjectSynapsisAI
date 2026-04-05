@@ -1,0 +1,299 @@
+{
+  "aliases": [
+    {
+      "alias": "4b6cc10745162a0b",
+      "aliasId": "hz.web.4b6cc10745162a0b.alias.1",
+      "canonical": "you doin' good? you feelin' sassy?"
+    },
+    {
+      "alias": "web 4b6cc10745162a0b",
+      "aliasId": "hz.web.4b6cc10745162a0b.alias.2",
+      "canonical": "you doin' good? you feelin' sassy?"
+    },
+    {
+      "alias": "you doin good you feelin sassy",
+      "aliasId": "hz.web.4b6cc10745162a0b.alias.3",
+      "canonical": "you doin' good? you feelin' sassy?"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.4b6cc10745162a0b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4b6cc10745162a0b.entity.1",
+      "kind": "document",
+      "name": "You doin' good? You feelin' sassy?",
+      "tokens": [
+        "doin",
+        "good",
+        "feelin",
+        "sassy"
+      ]
+    },
+    {
+      "entityId": "hz.web.4b6cc10745162a0b.entity.2",
+      "kind": "heading",
+      "name": "You doin' good? You feelin' sassy?",
+      "tokens": [
+        "doin",
+        "good",
+        "feelin",
+        "sassy"
+      ]
+    },
+    {
+      "entityId": "hz.web.4b6cc10745162a0b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4b6cc10745162a0b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4b6cc10745162a0b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 79,
+      "charStart": 39,
+      "factId": "hz.web.4b6cc10745162a0b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://roflcopterr.nekoweb.org/",
+      "tokens": [
+        "source",
+        "https",
+        "roflcopterr",
+        "nekoweb",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 148,
+      "charStart": 131,
+      "factId": "hz.web.4b6cc10745162a0b.fact.1",
+      "kind": "bullet",
+      "text": "You doin' good?",
+      "tokens": [
+        "doin",
+        "good"
+      ]
+    },
+    {
+      "charEnd": 169,
+      "charStart": 149,
+      "factId": "hz.web.4b6cc10745162a0b.fact.2",
+      "kind": "bullet",
+      "text": "You feelin' sassy?",
+      "tokens": [
+        "feelin",
+        "sassy"
+      ]
+    },
+    {
+      "charEnd": 230,
+      "charStart": 170,
+      "factId": "hz.web.4b6cc10745162a0b.fact.3",
+      "kind": "bullet",
+      "text": "Skip to content Welcome to terminalTechnologist's website!",
+      "tokens": [
+        "skip",
+        "content",
+        "welcome",
+        "terminaltechnologist",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 348,
+      "charStart": 231,
+      "factId": "hz.web.4b6cc10745162a0b.fact.4",
+      "kind": "bullet",
+      "text": "This website was made on a 1366x768 display and tested on Firefox; Javascript and Iframes are heavily used as well.",
+      "tokens": [
+        "website",
+        "made",
+        "1366x768",
+        "display",
+        "tested",
+        "firefox",
+        "javascript",
+        "iframes",
+        "heavily",
+        "used",
+        "well"
+      ]
+    },
+    {
+      "charEnd": 372,
+      "charStart": 363,
+      "factId": "hz.web.4b6cc10745162a0b.fact.5",
+      "kind": "bullet",
+      "text": "heavily",
+      "tokens": [
+        "heavily"
+      ]
+    },
+    {
+      "charEnd": 378,
+      "charStart": 373,
+      "factId": "hz.web.4b6cc10745162a0b.fact.6",
+      "kind": "bullet",
+      "text": "her",
+      "tokens": [
+        "her"
+      ]
+    },
+    {
+      "charEnd": 384,
+      "charStart": 379,
+      "factId": "hz.web.4b6cc10745162a0b.fact.7",
+      "kind": "bullet",
+      "text": "out",
+      "tokens": [
+        "out"
+      ]
+    },
+    {
+      "charEnd": 391,
+      "charStart": 385,
+      "factId": "hz.web.4b6cc10745162a0b.fact.8",
+      "kind": "bullet",
+      "text": "used",
+      "tokens": [
+        "used"
+      ]
+    },
+    {
+      "charEnd": 401,
+      "charStart": 392,
+      "factId": "hz.web.4b6cc10745162a0b.fact.9",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    },
+    {
+      "charEnd": 412,
+      "charStart": 402,
+      "factId": "hz.web.4b6cc10745162a0b.fact.10",
+      "kind": "bullet",
+      "text": "1366x768",
+      "tokens": [
+        "1366x768"
+      ]
+    },
+    {
+      "charEnd": 422,
+      "charStart": 413,
+      "factId": "hz.web.4b6cc10745162a0b.fact.11",
+      "kind": "bullet",
+      "text": "another",
+      "tokens": [
+        "another"
+      ]
+    },
+    {
+      "charEnd": 431,
+      "charStart": 423,
+      "factId": "hz.web.4b6cc10745162a0b.fact.12",
+      "kind": "bullet",
+      "text": "button",
+      "tokens": [
+        "button"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 37,
+      "charStart": 1,
+      "headingId": "hz.web.4b6cc10745162a0b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "You doin' good? You feelin' sassy?"
+    },
+    {
+      "charEnd": 129,
+      "charStart": 119,
+      "headingId": "hz.web.4b6cc10745162a0b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 361,
+      "charStart": 350,
+      "headingId": "hz.web.4b6cc10745162a0b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 443,
+      "charStart": 433,
+      "headingId": "hz.web.4b6cc10745162a0b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4b6cc10745162a0b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1084,
+        "start": 0
+      }
+    ],
+    "hash": "9d44ffa36ce1f246e430ee3dd5ea942f431d526047397e463a1b79f3790dbfe4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "You doin' good?",
+      "You feelin' sassy?",
+      "Skip to content Welcome to terminalTechnologist's website!"
+    ],
+    "medium": "Source: https://roflcopterr.nekoweb.org/",
+    "short": "Source: https://roflcopterr.nekoweb.org/",
+    "tokens": [
+      "doin",
+      "good",
+      "feelin",
+      "sassy",
+      "source",
+      "https",
+      "roflcopterr",
+      "nekoweb",
+      "org",
+      "source",
+      "https",
+      "roflcopterr",
+      "nekoweb",
+      "org"
+    ]
+  },
+  "title": "You doin' good? You feelin' sassy?"
+}

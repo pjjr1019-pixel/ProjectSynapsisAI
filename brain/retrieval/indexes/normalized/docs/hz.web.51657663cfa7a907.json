@@ -1,0 +1,365 @@
+{
+  "aliases": [
+    {
+      "alias": "51657663cfa7a907",
+      "aliasId": "hz.web.51657663cfa7a907.alias.1",
+      "canonical": "superfeedr open pubsubhubbub's pubsubhubbub hub"
+    },
+    {
+      "alias": "superfeedr open pubsubhubbub s pubsubhubbub hub",
+      "aliasId": "hz.web.51657663cfa7a907.alias.2",
+      "canonical": "superfeedr open pubsubhubbub's pubsubhubbub hub"
+    },
+    {
+      "alias": "web 51657663cfa7a907",
+      "aliasId": "hz.web.51657663cfa7a907.alias.3",
+      "canonical": "superfeedr open pubsubhubbub's pubsubhubbub hub"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.51657663cfa7a907",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.51657663cfa7a907.entity.1",
+      "kind": "document",
+      "name": "Superfeedr Open PubSubHubbub's PubSubHubbub Hub",
+      "tokens": [
+        "superfeedr",
+        "open",
+        "pubsubhubbub",
+        "pubsubhubbub",
+        "hub"
+      ]
+    },
+    {
+      "entityId": "hz.web.51657663cfa7a907.entity.2",
+      "kind": "heading",
+      "name": "Superfeedr Open PubSubHubbub's PubSubHubbub Hub",
+      "tokens": [
+        "superfeedr",
+        "open",
+        "pubsubhubbub",
+        "pubsubhubbub",
+        "hub"
+      ]
+    },
+    {
+      "entityId": "hz.web.51657663cfa7a907.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.51657663cfa7a907.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.51657663cfa7a907.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 96,
+      "charStart": 52,
+      "factId": "hz.web.51657663cfa7a907.fact.1",
+      "kind": "summary",
+      "text": "Source: https://pubsubhubbub.superfeedr.com/",
+      "tokens": [
+        "source",
+        "https",
+        "pubsubhubbub",
+        "superfeedr",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 343,
+      "charStart": 148,
+      "factId": "hz.web.51657663cfa7a907.fact.1",
+      "kind": "bullet",
+      "text": "Superfeedr Open PubSubHubbub's PubSubHubbub Hub The PubSubHubbub PuSH API allows Superfeedr Open PubSubHubbub to send real-time notifications to subscribers every time new content is published.",
+      "tokens": [
+        "superfeedr",
+        "open",
+        "pubsubhubbub",
+        "pubsubhubbub",
+        "hub",
+        "pubsubhubbub",
+        "push",
+        "api",
+        "allows",
+        "superfeedr",
+        "open",
+        "pubsubhubbub",
+        "send",
+        "real",
+        "time",
+        "notifications",
+        "subscribers",
+        "every",
+        "time",
+        "new",
+        "content",
+        "published"
+      ]
+    },
+    {
+      "charEnd": 440,
+      "charStart": 344,
+      "factId": "hz.web.51657663cfa7a907.fact.2",
+      "kind": "bullet",
+      "text": "Ever wonder how your application can get real-time notifications every time feeds are updated?",
+      "tokens": [
+        "ever",
+        "wonder",
+        "your",
+        "application",
+        "get",
+        "real",
+        "time",
+        "notifications",
+        "every",
+        "time",
+        "feeds",
+        "updated"
+      ]
+    },
+    {
+      "charEnd": 479,
+      "charStart": 441,
+      "factId": "hz.web.51657663cfa7a907.fact.3",
+      "kind": "bullet",
+      "text": "Try the PubSubHubbub open protocol .",
+      "tokens": [
+        "try",
+        "pubsubhubbub",
+        "open",
+        "protocol"
+      ]
+    },
+    {
+      "charEnd": 524,
+      "charStart": 480,
+      "factId": "hz.web.51657663cfa7a907.fact.4",
+      "kind": "bullet",
+      "text": "It's a simple protocol built on webhooks .",
+      "tokens": [
+        "simple",
+        "protocol",
+        "built",
+        "webhooks"
+      ]
+    },
+    {
+      "charEnd": 544,
+      "charStart": 539,
+      "factId": "hz.web.51657663cfa7a907.fact.5",
+      "kind": "bullet",
+      "text": "hub",
+      "tokens": [
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 559,
+      "charStart": 545,
+      "factId": "hz.web.51657663cfa7a907.fact.6",
+      "kind": "bullet",
+      "text": "pubsubhubbub",
+      "tokens": [
+        "pubsubhubbub"
+      ]
+    },
+    {
+      "charEnd": 572,
+      "charStart": 560,
+      "factId": "hz.web.51657663cfa7a907.fact.7",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 579,
+      "charStart": 573,
+      "factId": "hz.web.51657663cfa7a907.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 586,
+      "charStart": 580,
+      "factId": "hz.web.51657663cfa7a907.fact.9",
+      "kind": "bullet",
+      "text": "open",
+      "tokens": [
+        "open"
+      ]
+    },
+    {
+      "charEnd": 593,
+      "charStart": 587,
+      "factId": "hz.web.51657663cfa7a907.fact.10",
+      "kind": "bullet",
+      "text": "time",
+      "tokens": [
+        "time"
+      ]
+    },
+    {
+      "charEnd": 604,
+      "charStart": 594,
+      "factId": "hz.web.51657663cfa7a907.fact.11",
+      "kind": "bullet",
+      "text": "callback",
+      "tokens": [
+        "callback"
+      ]
+    },
+    {
+      "charEnd": 611,
+      "charStart": 605,
+      "factId": "hz.web.51657663cfa7a907.fact.12",
+      "kind": "bullet",
+      "text": "send",
+      "tokens": [
+        "send"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 50,
+      "charStart": 1,
+      "headingId": "hz.web.51657663cfa7a907.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Superfeedr Open PubSubHubbub's PubSubHubbub Hub"
+    },
+    {
+      "charEnd": 146,
+      "charStart": 136,
+      "headingId": "hz.web.51657663cfa7a907.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 537,
+      "charStart": 526,
+      "headingId": "hz.web.51657663cfa7a907.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 623,
+      "charStart": 613,
+      "headingId": "hz.web.51657663cfa7a907.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/51657663cfa7a907.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2514,
+        "start": 0
+      }
+    ],
+    "hash": "5878af417ed5b259b0ca1228220b4aa8d5d8bed97d79b06eb066a6942b2f27ad",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.51657663cfa7a907.rule.1",
+      "text": "Never miss an update with our PubSubHubbub Feed API.",
+      "tokens": [
+        "never",
+        "miss",
+        "update",
+        "our",
+        "pubsubhubbub",
+        "feed",
+        "api"
+      ]
+    },
+    {
+      "ruleId": "hz.web.51657663cfa7a907.rule.2",
+      "text": "The hub will send a request to your callback URL, to verify your intent: your callback must respond with 200 and must echo the hub.challenge sent by the hub.",
+      "tokens": [
+        "hub",
+        "will",
+        "send",
+        "request",
+        "your",
+        "callback",
+        "url",
+        "verify",
+        "your",
+        "intent",
+        "your",
+        "callback",
+        "must",
+        "respond",
+        "200",
+        "must",
+        "echo",
+        "hub",
+        "challenge",
+        "sent",
+        "hub"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Superfeedr Open PubSubHubbub's PubSubHubbub Hub The PubSubHubbub PuSH API allows Superfeedr Open PubSubHubbub to send real-time notifications to subscribers every time new content is published.",
+      "Ever wonder how your application can get real-time notifications every time feeds are updated?",
+      "Try the PubSubHubbub open protocol ."
+    ],
+    "medium": "Source: https://pubsubhubbub.superfeedr.com/",
+    "short": "Source: https://pubsubhubbub.superfeedr.com/",
+    "tokens": [
+      "superfeedr",
+      "open",
+      "pubsubhubbub",
+      "pubsubhubbub",
+      "hub",
+      "source",
+      "https",
+      "pubsubhubbub",
+      "superfeedr",
+      "com",
+      "source",
+      "https",
+      "pubsubhubbub",
+      "superfeedr",
+      "com"
+    ]
+  },
+  "title": "Superfeedr Open PubSubHubbub's PubSubHubbub Hub"
+}

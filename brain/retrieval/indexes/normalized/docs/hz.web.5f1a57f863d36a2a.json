@@ -1,0 +1,422 @@
+{
+  "aliases": [
+    {
+      "alias": "5f1a57f863d36a2a",
+      "aliasId": "hz.web.5f1a57f863d36a2a.alias.1",
+      "canonical": "www.bls.gov"
+    },
+    {
+      "alias": "web 5f1a57f863d36a2a",
+      "aliasId": "hz.web.5f1a57f863d36a2a.alias.2",
+      "canonical": "www.bls.gov"
+    },
+    {
+      "alias": "www.bls.gov",
+      "aliasId": "hz.web.5f1a57f863d36a2a.alias.3",
+      "canonical": "www.bls.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.5f1a57f863d36a2a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5f1a57f863d36a2a.entity.1",
+      "kind": "document",
+      "name": "www.bls.gov",
+      "tokens": [
+        "www",
+        "bls",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f1a57f863d36a2a.entity.2",
+      "kind": "heading",
+      "name": "www.bls.gov",
+      "tokens": [
+        "www",
+        "bls",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f1a57f863d36a2a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f1a57f863d36a2a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f1a57f863d36a2a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 70,
+      "charStart": 16,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.bls.gov/stylesheets/ie6-styles.css",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "bls",
+        "gov",
+        "stylesheets",
+        "ie6",
+        "styles",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 294,
+      "charStart": 122,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.1",
+      "kind": "bullet",
+      "text": "@charset \"utf-8\"; /* CSS Document */ #wrapper, #dol-bar-content, #bls-banner, #main-nav-container, #footer-links-wrapper { /*width: 74em;*/ /* IE6 does not have max with.",
+      "tokens": [
+        "charset",
+        "utf",
+        "css",
+        "document",
+        "wrapper",
+        "dol",
+        "bar",
+        "content",
+        "bls",
+        "banner",
+        "main",
+        "nav",
+        "container",
+        "footer",
+        "links",
+        "wrapper",
+        "width",
+        "74em",
+        "ie6",
+        "not",
+        "have",
+        "max"
+      ]
+    },
+    {
+      "charEnd": 369,
+      "charStart": 295,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.2",
+      "kind": "bullet",
+      "text": "If the body is greater than 1000px, set it to 74em, else set it to auto.",
+      "tokens": [
+        "if",
+        "body",
+        "greater",
+        "than",
+        "1000px",
+        "set",
+        "74em",
+        "else",
+        "set",
+        "auto"
+      ]
+    },
+    {
+      "charEnd": 426,
+      "charStart": 370,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.3",
+      "kind": "bullet",
+      "text": "*/ width: expression(document.body.clientWidth > 1000?",
+      "tokens": [
+        "width",
+        "expression",
+        "document",
+        "body",
+        "clientwidth",
+        "1000"
+      ]
+    },
+    {
+      "charEnd": 1146,
+      "charStart": 427,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.4",
+      "kind": "bullet",
+      "text": "\"74em\": \"auto\" ); } #content { width: 59.5em; float: right; margin: 0; } #content-auto-width { margin: 0 1em 0 14em; } #main-content { zoom: 1; width: 43em; } #secondary-content { width: 15em; float: right; } #secondary-nav { width: 11em; float: left; margin: 14px 0 0 7px; padding: 0; } div.secondary-nav ul { margin: 0; padding: 0; width: 13em; } div.secondary-nav li a { display: block; padding: 0.5em; text-decoration: none; width: 13.25em; color: #333; text-transform: capitalize; } #bls-banner-title { margin-left: 4px; } #bls-banner-latest { margin-right: 4px; } table.regular { width : 96%; } .main-content .homepage-heading-table { width : 96% } .nr-entry { width: 40.8em; } #left-side-content {width: 49em;}",
+      "tokens": [
+        "74em",
+        "auto",
+        "content",
+        "width",
+        "59",
+        "5em",
+        "float",
+        "right",
+        "margin",
+        "content",
+        "auto",
+        "width",
+        "margin",
+        "1em",
+        "14em",
+        "main",
+        "content",
+        "zoom",
+        "width",
+        "43em",
+        "secondary",
+        "content",
+        "width",
+        "15em",
+        "float",
+        "right",
+        "secondary",
+        "nav",
+        "width",
+        "11em",
+        "float",
+        "left",
+        "margin",
+        "14px",
+        "7px",
+        "padding",
+        "div",
+        "secondary",
+        "nav",
+        "ul",
+        "margin",
+        "padding",
+        "width",
+        "13em",
+        "div",
+        "secondary",
+        "nav",
+        "li",
+        "display",
+        "block",
+        "padding",
+        "5em",
+        "text",
+        "decoration",
+        "none",
+        "width",
+        "13",
+        "25em",
+        "color",
+        "333",
+        "text",
+        "transform",
+        "capitalize",
+        "bls",
+        "banner",
+        "title",
+        "margin",
+        "left",
+        "4px",
+        "bls",
+        "banner",
+        "latest",
+        "margin",
+        "right",
+        "4px",
+        "table",
+        "regular",
+        "width",
+        "96",
+        "main",
+        "content",
+        "homepage",
+        "heading",
+        "table",
+        "width",
+        "96",
+        "nr",
+        "entry",
+        "width",
+        "40",
+        "8em",
+        "left",
+        "side",
+        "content",
+        "width",
+        "49em"
+      ]
+    },
+    {
+      "charEnd": 1168,
+      "charStart": 1161,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.5",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    },
+    {
+      "charEnd": 1178,
+      "charStart": 1169,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.6",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 1187,
+      "charStart": 1179,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.7",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 1193,
+      "charStart": 1188,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.8",
+      "kind": "bullet",
+      "text": "nav",
+      "tokens": [
+        "nav"
+      ]
+    },
+    {
+      "charEnd": 1205,
+      "charStart": 1194,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.9",
+      "kind": "bullet",
+      "text": "secondary",
+      "tokens": [
+        "secondary"
+      ]
+    },
+    {
+      "charEnd": 1212,
+      "charStart": 1206,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.10",
+      "kind": "bullet",
+      "text": "74em",
+      "tokens": [
+        "74em"
+      ]
+    },
+    {
+      "charEnd": 1219,
+      "charStart": 1213,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.11",
+      "kind": "bullet",
+      "text": "auto",
+      "tokens": [
+        "auto"
+      ]
+    },
+    {
+      "charEnd": 1228,
+      "charStart": 1220,
+      "factId": "hz.web.5f1a57f863d36a2a.fact.12",
+      "kind": "bullet",
+      "text": "banner",
+      "tokens": [
+        "banner"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.5f1a57f863d36a2a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.bls.gov"
+    },
+    {
+      "charEnd": 120,
+      "charStart": 110,
+      "headingId": "hz.web.5f1a57f863d36a2a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1159,
+      "charStart": 1148,
+      "headingId": "hz.web.5f1a57f863d36a2a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1240,
+      "charStart": 1230,
+      "headingId": "hz.web.5f1a57f863d36a2a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5f1a57f863d36a2a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2500,
+        "start": 0
+      }
+    ],
+    "hash": "1fd8dc977e178a2cb1986c1e527f46a983db2a7ea52e09dc264b3dbba5e65fdb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@charset \"utf-8\"; /* CSS Document */ #wrapper, #dol-bar-content, #bls-banner, #main-nav-container, #footer-links-wrapper { /*width: 74em;*/ /* IE6 does not have max with.",
+      "If the body is greater than 1000px, set it to 74em, else set it to auto.",
+      "*/ width: expression(document.body.clientWidth > 1000?"
+    ],
+    "medium": "Source: https://www.bls.gov/stylesheets/ie6-styles.css",
+    "short": "Source: https://www.bls.gov/stylesheets/ie6-styles.css",
+    "tokens": [
+      "www",
+      "bls",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "bls",
+      "gov",
+      "stylesheets",
+      "ie6",
+      "styles",
+      "css",
+      "source",
+      "https",
+      "www",
+      "bls",
+      "gov",
+      "stylesheets",
+      "ie6",
+      "styles",
+      "css"
+    ]
+  },
+  "title": "www.bls.gov"
+}

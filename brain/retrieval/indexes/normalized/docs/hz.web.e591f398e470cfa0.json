@@ -1,0 +1,329 @@
+{
+  "aliases": [
+    {
+      "alias": "e591f398e470cfa0",
+      "aliasId": "hz.web.e591f398e470cfa0.alias.1",
+      "canonical": "webmention.net"
+    },
+    {
+      "alias": "web e591f398e470cfa0",
+      "aliasId": "hz.web.e591f398e470cfa0.alias.2",
+      "canonical": "webmention.net"
+    },
+    {
+      "alias": "webmention.net",
+      "aliasId": "hz.web.e591f398e470cfa0.alias.3",
+      "canonical": "webmention.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.e591f398e470cfa0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e591f398e470cfa0.entity.1",
+      "kind": "document",
+      "name": "webmention.net",
+      "tokens": [
+        "webmention",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.e591f398e470cfa0.entity.2",
+      "kind": "heading",
+      "name": "webmention.net",
+      "tokens": [
+        "webmention",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.e591f398e470cfa0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e591f398e470cfa0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e591f398e470cfa0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 19,
+      "factId": "hz.web.e591f398e470cfa0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://webmention.net/styles.css",
+      "tokens": [
+        "source",
+        "https",
+        "webmention",
+        "net",
+        "styles",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 112,
+      "factId": "hz.web.e591f398e470cfa0.fact.1",
+      "kind": "bullet",
+      "text": "body { background-color: #fefefe; font-family: \"Helvetica Neue\", Helvetica, sans-serif; font-size: 14pt; } .page { max-width: 500px; margin: 0 auto; } a { color: #78b35c; } a:hover { color: #93c57c; } h1 { text-align: center; } .subtitle { padding: 20px 30px; font-size: 16pt; background-color: #93c57c; border: 1px #78b35c solid; border-radius: 4px; } ul.links { margin: 0; margin-top: 20px; padding: 0; list-style-type: none; } ul.links li { margin: 0; padding: 0; padding-top: 16px; } ul.links .main { text-align: center; font-size: 18pt; padding-top: 26px; padding-bottom: 16px; }",
+      "tokens": [
+        "body",
+        "background",
+        "color",
+        "fefefe",
+        "font",
+        "family",
+        "helvetica",
+        "neue",
+        "helvetica",
+        "sans",
+        "serif",
+        "font",
+        "size",
+        "14pt",
+        "page",
+        "max",
+        "width",
+        "500px",
+        "margin",
+        "auto",
+        "color",
+        "78b35c",
+        "hover",
+        "color",
+        "93c57c",
+        "h1",
+        "text",
+        "align",
+        "center",
+        "subtitle",
+        "padding",
+        "20px",
+        "30px",
+        "font",
+        "size",
+        "16pt",
+        "background",
+        "color",
+        "93c57c",
+        "border",
+        "1px",
+        "78b35c",
+        "solid",
+        "border",
+        "radius",
+        "4px",
+        "ul",
+        "links",
+        "margin",
+        "margin",
+        "top",
+        "20px",
+        "padding",
+        "list",
+        "style",
+        "type",
+        "none",
+        "ul",
+        "links",
+        "li",
+        "margin",
+        "padding",
+        "padding",
+        "top",
+        "16px",
+        "ul",
+        "links",
+        "main",
+        "text",
+        "align",
+        "center",
+        "font",
+        "size",
+        "18pt",
+        "padding",
+        "top",
+        "26px",
+        "padding",
+        "bottom",
+        "16px"
+      ]
+    },
+    {
+      "charEnd": 722,
+      "charStart": 713,
+      "factId": "hz.web.e591f398e470cfa0.fact.2",
+      "kind": "bullet",
+      "text": "padding",
+      "tokens": [
+        "padding"
+      ]
+    },
+    {
+      "charEnd": 730,
+      "charStart": 723,
+      "factId": "hz.web.e591f398e470cfa0.fact.3",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 731,
+      "factId": "hz.web.e591f398e470cfa0.fact.4",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 746,
+      "charStart": 738,
+      "factId": "hz.web.e591f398e470cfa0.fact.5",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 754,
+      "charStart": 747,
+      "factId": "hz.web.e591f398e470cfa0.fact.6",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 761,
+      "charStart": 755,
+      "factId": "hz.web.e591f398e470cfa0.fact.7",
+      "kind": "bullet",
+      "text": "size",
+      "tokens": [
+        "size"
+      ]
+    },
+    {
+      "charEnd": 767,
+      "charStart": 762,
+      "factId": "hz.web.e591f398e470cfa0.fact.8",
+      "kind": "bullet",
+      "text": "top",
+      "tokens": [
+        "top"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 768,
+      "factId": "hz.web.e591f398e470cfa0.fact.9",
+      "kind": "bullet",
+      "text": "ul",
+      "tokens": [
+        "ul"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.e591f398e470cfa0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "webmention.net"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.e591f398e470cfa0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 711,
+      "charStart": 700,
+      "headingId": "hz.web.e591f398e470cfa0.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 784,
+      "charStart": 774,
+      "headingId": "hz.web.e591f398e470cfa0.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e591f398e470cfa0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1602,
+        "start": 0
+      }
+    ],
+    "hash": "18be5962378db59e42526272a86325b1be097bb3fbdc89e606fc9bc9645e567f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "body { background-color: #fefefe; font-family: \"Helvetica Neue\", Helvetica, sans-serif; font-size: 14pt; } .page { max-width: 500px; margin: 0 auto; } a { color: #78b35c; } a:hover { color: #93c57c; } h1 { text-align: center; } .subtitle { padding: 20px 30px; font-size: 16pt; background-color: #93c57c; border: 1px #78b35c solid; border-radius: 4px; } ul.links { margin: 0; margin-top: 20px; padding: 0; list-style-type: none; } ul.links li { margin: 0; padding: 0; padding-top: 16px; } ul.links .main { text-align: center; font-size: 18pt; padding-top: 26px; padding-bottom: 16px; }",
+      "padding",
+      "color"
+    ],
+    "medium": "Source: https://webmention.net/styles.css",
+    "short": "Source: https://webmention.net/styles.css",
+    "tokens": [
+      "webmention",
+      "net",
+      "source",
+      "https",
+      "webmention",
+      "net",
+      "styles",
+      "css",
+      "source",
+      "https",
+      "webmention",
+      "net",
+      "styles",
+      "css"
+    ]
+  },
+  "title": "webmention.net"
+}

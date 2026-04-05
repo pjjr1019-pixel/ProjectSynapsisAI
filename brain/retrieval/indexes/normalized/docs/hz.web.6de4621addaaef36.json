@@ -1,0 +1,328 @@
+{
+  "aliases": [
+    {
+      "alias": "6de4621addaaef36",
+      "aliasId": "hz.web.6de4621addaaef36.alias.1",
+      "canonical": "xfn: getting started"
+    },
+    {
+      "alias": "web 6de4621addaaef36",
+      "aliasId": "hz.web.6de4621addaaef36.alias.2",
+      "canonical": "xfn: getting started"
+    },
+    {
+      "alias": "xfn getting started",
+      "aliasId": "hz.web.6de4621addaaef36.alias.3",
+      "canonical": "xfn: getting started"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.web.6de4621addaaef36",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6de4621addaaef36.entity.1",
+      "kind": "document",
+      "name": "XFN: Getting Started",
+      "tokens": [
+        "xfn",
+        "getting",
+        "started"
+      ]
+    },
+    {
+      "entityId": "hz.web.6de4621addaaef36.entity.2",
+      "kind": "heading",
+      "name": "XFN: Getting Started",
+      "tokens": [
+        "xfn",
+        "getting",
+        "started"
+      ]
+    },
+    {
+      "entityId": "hz.web.6de4621addaaef36.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6de4621addaaef36.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6de4621addaaef36.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 25,
+      "factId": "hz.web.6de4621addaaef36.fact.1",
+      "kind": "summary",
+      "text": "Source: https://gmpg.org/xfn/join",
+      "tokens": [
+        "source",
+        "https",
+        "gmpg",
+        "org",
+        "xfn",
+        "join"
+      ]
+    },
+    {
+      "charEnd": 176,
+      "charStart": 110,
+      "factId": "hz.web.6de4621addaaef36.fact.1",
+      "kind": "bullet",
+      "text": "XFN: Getting Started Home Intro Join Background FAQ Tools And...",
+      "tokens": [
+        "xfn",
+        "getting",
+        "started",
+        "home",
+        "intro",
+        "join",
+        "background",
+        "faq",
+        "tools"
+      ]
+    },
+    {
+      "charEnd": 358,
+      "charStart": 177,
+      "factId": "hz.web.6de4621addaaef36.fact.2",
+      "kind": "bullet",
+      "text": "Helping Thanks Feedback XFN : Getting Started Join the XHTML Friends Network in four easy steps: 1Pick one or more pages to make XFN Friendly Do you have a blogroll or links page?",
+      "tokens": [
+        "helping",
+        "thanks",
+        "feedback",
+        "xfn",
+        "getting",
+        "started",
+        "join",
+        "xhtml",
+        "friends",
+        "network",
+        "four",
+        "easy",
+        "steps",
+        "1pick",
+        "one",
+        "more",
+        "pages",
+        "make",
+        "xfn",
+        "friendly",
+        "have",
+        "blogroll",
+        "links",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 463,
+      "charStart": 359,
+      "factId": "hz.web.6de4621addaaef36.fact.3",
+      "kind": "bullet",
+      "text": "Here are some things that can be easily enhanced with XFN: blogroll favorite links page exits page ...",
+      "tokens": [
+        "here",
+        "some",
+        "things",
+        "easily",
+        "enhanced",
+        "xfn",
+        "blogroll",
+        "favorite",
+        "links",
+        "page",
+        "exits",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 511,
+      "charStart": 464,
+      "factId": "hz.web.6de4621addaaef36.fact.4",
+      "kind": "bullet",
+      "text": "or anywhere you hyperlink to people you know.",
+      "tokens": [
+        "anywhere",
+        "hyperlink",
+        "people",
+        "know"
+      ]
+    },
+    {
+      "charEnd": 531,
+      "charStart": 526,
+      "factId": "hz.web.6de4621addaaef36.fact.5",
+      "kind": "bullet",
+      "text": "xfn",
+      "tokens": [
+        "xfn"
+      ]
+    },
+    {
+      "charEnd": 538,
+      "charStart": 532,
+      "factId": "hz.web.6de4621addaaef36.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 544,
+      "charStart": 539,
+      "factId": "hz.web.6de4621addaaef36.fact.7",
+      "kind": "bullet",
+      "text": "add",
+      "tokens": [
+        "add"
+      ]
+    },
+    {
+      "charEnd": 549,
+      "charStart": 545,
+      "factId": "hz.web.6de4621addaaef36.fact.8",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 554,
+      "charStart": 550,
+      "factId": "hz.web.6de4621addaaef36.fact.9",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 555,
+      "factId": "hz.web.6de4621addaaef36.fact.10",
+      "kind": "bullet",
+      "text": "one",
+      "tokens": [
+        "one"
+      ]
+    },
+    {
+      "charEnd": 568,
+      "charStart": 561,
+      "factId": "hz.web.6de4621addaaef36.fact.11",
+      "kind": "bullet",
+      "text": "pages",
+      "tokens": [
+        "pages"
+      ]
+    },
+    {
+      "charEnd": 577,
+      "charStart": 569,
+      "factId": "hz.web.6de4621addaaef36.fact.12",
+      "kind": "bullet",
+      "text": "values",
+      "tokens": [
+        "values"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.6de4621addaaef36.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "XFN: Getting Started"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.6de4621addaaef36.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 524,
+      "charStart": 513,
+      "headingId": "hz.web.6de4621addaaef36.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 589,
+      "charStart": 579,
+      "headingId": "hz.web.6de4621addaaef36.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6de4621addaaef36.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3553,
+        "start": 0
+      }
+    ],
+    "hash": "1b63f007cddeff706c3411e6b0666015a0050ea93e8e40025104ee1dea9cb023",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "XFN: Getting Started Home Intro Join Background FAQ Tools And...",
+      "Helping Thanks Feedback XFN : Getting Started Join the XHTML Friends Network in four easy steps: 1Pick one or more pages to make XFN Friendly Do you have a blogroll or links page?",
+      "Here are some things that can be easily enhanced with XFN: blogroll favorite links page exits page ..."
+    ],
+    "medium": "Source: https://gmpg.org/xfn/join",
+    "short": "Source: https://gmpg.org/xfn/join",
+    "tokens": [
+      "xfn",
+      "getting",
+      "started",
+      "source",
+      "https",
+      "gmpg",
+      "org",
+      "xfn",
+      "join",
+      "source",
+      "https",
+      "gmpg",
+      "org",
+      "xfn",
+      "join"
+    ]
+  },
+  "title": "XFN: Getting Started"
+}

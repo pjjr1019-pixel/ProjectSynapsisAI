@@ -1,0 +1,646 @@
+{
+  "registry_search": [
+    "registry search",
+    "registry_search"
+  ],
+  "list_source_files": [
+    "list source files",
+    "list_source_files"
+  ],
+  "list_test_files": [
+    "list test files",
+    "list_test_files"
+  ],
+  "list_docs_files": [
+    "list docs files",
+    "list_docs_files"
+  ],
+  "list_config_files": [
+    "list config files",
+    "list_config_files"
+  ],
+  "list_asset_files": [
+    "list asset files",
+    "list_asset_files"
+  ],
+  "list_build_artifacts": [
+    "list build artifacts",
+    "list_build_artifacts"
+  ],
+  "count_source_files": [
+    "count source files",
+    "count_source_files"
+  ],
+  "count_test_files": [
+    "count test files",
+    "count_test_files"
+  ],
+  "repo_file_inventory": [
+    "repo file inventory",
+    "repo_file_inventory"
+  ],
+  "repo_extension_breakdown": [
+    "repo extension breakdown",
+    "repo_extension_breakdown"
+  ],
+  "largest_source_files": [
+    "largest source files",
+    "largest_source_files"
+  ],
+  "newest_source_files": [
+    "newest source files",
+    "newest_source_files"
+  ],
+  "oldest_source_files": [
+    "oldest source files",
+    "oldest_source_files"
+  ],
+  "likely_entrypoints": [
+    "likely entrypoints",
+    "likely_entrypoints"
+  ],
+  "likely_root_configs": [
+    "likely root configs",
+    "likely_root_configs"
+  ],
+  "empty_files": [
+    "empty files",
+    "empty_files"
+  ],
+  "empty_directories": [
+    "empty directories",
+    "empty_directories"
+  ],
+  "duplicate_filenames": [
+    "duplicate filenames",
+    "duplicate_filenames"
+  ],
+  "duplicate_file_content": [
+    "duplicate file content",
+    "duplicate_file_content"
+  ],
+  "repo_tree_preview": [
+    "repo tree preview",
+    "repo_tree_preview"
+  ],
+  "repo_size_summary": [
+    "repo size summary",
+    "repo_size_summary"
+  ],
+  "deep_folder_summary": [
+    "deep folder summary",
+    "deep_folder_summary"
+  ],
+  "folder_role_guess": [
+    "folder role guess",
+    "folder_role_guess"
+  ],
+  "canonical_candidates": [
+    "canonical candidates",
+    "canonical_candidates"
+  ],
+  "generated_file_candidates": [
+    "generated file candidates",
+    "generated_file_candidates"
+  ],
+  "minified_file_candidates": [
+    "minified file candidates",
+    "minified_file_candidates"
+  ],
+  "symlink_inventory": [
+    "symlink inventory",
+    "symlink_inventory"
+  ],
+  "hidden_file_inventory": [
+    "hidden file inventory",
+    "hidden_file_inventory"
+  ],
+  "stale_files": [
+    "stale files",
+    "stale_files"
+  ],
+  "extract_imports_js_ts": [
+    "extract imports js ts",
+    "extract js/ts imports",
+    "extract_imports_js_ts",
+    "extract_js/ts_imports"
+  ],
+  "extract_exports_js_ts": [
+    "extract exports js ts",
+    "extract js/ts exports",
+    "extract_exports_js_ts",
+    "extract_js/ts_exports"
+  ],
+  "extract_requires_js": [
+    "extract js requires",
+    "extract requires js",
+    "extract_js_requires",
+    "extract_requires_js"
+  ],
+  "extract_py_imports": [
+    "extract py imports",
+    "extract python imports",
+    "extract_py_imports",
+    "extract_python_imports"
+  ],
+  "extract_functions_js_ts": [
+    "extract functions js ts",
+    "extract js/ts functions",
+    "extract_functions_js_ts",
+    "extract_js/ts_functions"
+  ],
+  "extract_functions_py": [
+    "extract functions py",
+    "extract python functions",
+    "extract_functions_py",
+    "extract_python_functions"
+  ],
+  "extract_classes_js_ts": [
+    "extract classes js ts",
+    "extract js/ts classes",
+    "extract_classes_js_ts",
+    "extract_js/ts_classes"
+  ],
+  "extract_classes_py": [
+    "extract classes py",
+    "extract python classes",
+    "extract_classes_py",
+    "extract_python_classes"
+  ],
+  "extract_todos": [
+    "extract todos",
+    "extract_todos"
+  ],
+  "extract_fixmes": [
+    "extract fixmes",
+    "extract_fixmes"
+  ],
+  "extract_notes": [
+    "extract notes",
+    "extract_notes"
+  ],
+  "extract_comments_summary": [
+    "extract comments summary",
+    "extract_comments_summary"
+  ],
+  "file_symbol_summary": [
+    "file symbol summary",
+    "file_symbol_summary"
+  ],
+  "folder_symbol_summary": [
+    "folder symbol summary",
+    "folder_symbol_summary"
+  ],
+  "project_symbol_inventory": [
+    "project symbol inventory",
+    "project_symbol_inventory"
+  ],
+  "import_graph_js_ts": [
+    "import graph js ts",
+    "import_graph_js_ts",
+    "js/ts import graph",
+    "js/ts_import_graph"
+  ],
+  "import_graph_py": [
+    "import graph py",
+    "import_graph_py",
+    "python import graph",
+    "python_import_graph"
+  ],
+  "unresolved_local_imports_js_ts": [
+    "unresolved js/ts local imports",
+    "unresolved local imports js ts",
+    "unresolved_js/ts_local_imports",
+    "unresolved_local_imports_js_ts"
+  ],
+  "unresolved_local_imports_py": [
+    "unresolved local imports py",
+    "unresolved python local imports",
+    "unresolved_local_imports_py",
+    "unresolved_python_local_imports"
+  ],
+  "circular_import_hints_js_ts": [
+    "circular import hints",
+    "circular import hints js ts",
+    "circular_import_hints",
+    "circular_import_hints_js_ts"
+  ],
+  "orphan_module_candidates_js_ts": [
+    "orphan js/ts module candidates",
+    "orphan module candidates js ts",
+    "orphan_js/ts_module_candidates",
+    "orphan_module_candidates_js_ts"
+  ],
+  "orphan_module_candidates_py": [
+    "orphan module candidates py",
+    "orphan python module candidates",
+    "orphan_module_candidates_py",
+    "orphan_python_module_candidates"
+  ],
+  "unused_export_hints_js_ts": [
+    "unused export hints",
+    "unused export hints js ts",
+    "unused_export_hints",
+    "unused_export_hints_js_ts"
+  ],
+  "side_effect_file_candidates": [
+    "side effect file candidates",
+    "side-effect file candidates",
+    "side-effect_file_candidates",
+    "side_effect_file_candidates"
+  ],
+  "risky_script_candidates": [
+    "risky script candidates",
+    "risky_script_candidates"
+  ],
+  "hardcoded_path_candidates": [
+    "hardcoded path candidates",
+    "hardcoded_path_candidates"
+  ],
+  "env_var_usage_scan": [
+    "env var usage scan",
+    "env_var_usage_scan"
+  ],
+  "console_log_scan": [
+    "console log scan",
+    "console_log_scan"
+  ],
+  "debug_statement_scan_py": [
+    "debug statement scan py",
+    "debug_statement_scan_py",
+    "python debug scan",
+    "python_debug_scan"
+  ],
+  "long_line_scan": [
+    "long line scan",
+    "long_line_scan"
+  ],
+  "very_large_file_scan": [
+    "very large file scan",
+    "very_large_file_scan"
+  ],
+  "mixed_language_folder_scan": [
+    "mixed language folder scan",
+    "mixed-language folder scan",
+    "mixed-language_folder_scan",
+    "mixed_language_folder_scan"
+  ],
+  "duplicate_code_blocks": [
+    "duplicate code blocks",
+    "duplicate_code_blocks"
+  ],
+  "repeated_string_literals": [
+    "repeated string literals",
+    "repeated_string_literals"
+  ],
+  "json_schema_like_keys": [
+    "json schema like keys",
+    "json schema-like keys",
+    "json_schema-like_keys",
+    "json_schema_like_keys"
+  ],
+  "route_file_candidates": [
+    "route file candidates",
+    "route_file_candidates"
+  ],
+  "api_endpoint_string_scan": [
+    "api endpoint string scan",
+    "api_endpoint_string_scan"
+  ],
+  "cli_script_candidates": [
+    "cli script candidates",
+    "cli_script_candidates"
+  ],
+  "test_file_targets": [
+    "test file targets",
+    "test_file_targets"
+  ],
+  "helper_utility_candidates": [
+    "helper utility candidates",
+    "helper_utility_candidates"
+  ],
+  "all_code_summary": [
+    "all code summary",
+    "all_code_summary"
+  ],
+  "keyword_search": [
+    "keyword search",
+    "keyword_search"
+  ],
+  "regex_search": [
+    "regex search",
+    "regex_search"
+  ],
+  "phrase_frequency": [
+    "phrase frequency",
+    "phrase_frequency"
+  ],
+  "top_words": [
+    "top words",
+    "top_words"
+  ],
+  "top_identifiers": [
+    "top identifiers",
+    "top_identifiers"
+  ],
+  "heading_inventory_md": [
+    "heading inventory",
+    "heading inventory md",
+    "heading_inventory",
+    "heading_inventory_md"
+  ],
+  "markdown_link_inventory": [
+    "markdown link inventory",
+    "markdown_link_inventory"
+  ],
+  "readme_inventory": [
+    "readme inventory",
+    "readme_inventory"
+  ],
+  "changelog_inventory": [
+    "changelog inventory",
+    "changelog_inventory"
+  ],
+  "license_inventory": [
+    "license inventory",
+    "license_inventory"
+  ],
+  "package_json_summary": [
+    "package json summary",
+    "package.json summary",
+    "package.json_summary",
+    "package_json_summary"
+  ],
+  "tsconfig_summary": [
+    "tsconfig summary",
+    "tsconfig_summary"
+  ],
+  "pyproject_summary": [
+    "pyproject summary",
+    "pyproject_summary"
+  ],
+  "env_example_summary": [
+    ".env example summary",
+    ".env_example_summary",
+    "env example summary",
+    "env_example_summary"
+  ],
+  "csv_file_summary": [
+    "csv file summary",
+    "csv_file_summary"
+  ],
+  "json_file_summary": [
+    "json file summary",
+    "json_file_summary"
+  ],
+  "yaml_file_summary": [
+    "yaml file summary",
+    "yaml_file_summary"
+  ],
+  "line_count_summary": [
+    "line count summary",
+    "line_count_summary"
+  ],
+  "doc_comment_inventory": [
+    "doc comment inventory",
+    "doc_comment_inventory"
+  ],
+  "markdown_todo_summary": [
+    "markdown todo summary",
+    "markdown_todo_summary"
+  ],
+  "text_file_preview": [
+    "text file preview",
+    "text_file_preview"
+  ],
+  "generate_file_brief": [
+    "file brief",
+    "generate file brief",
+    "generate_file_brief"
+  ],
+  "generate_folder_brief": [
+    "folder brief",
+    "generate folder brief",
+    "generate_folder_brief"
+  ],
+  "generate_repo_brief": [
+    "generate repo brief",
+    "generate_repo_brief",
+    "repo brief"
+  ],
+  "generate_context_pack": [
+    "context pack",
+    "generate context pack",
+    "generate_context_pack"
+  ],
+  "generate_low_token_pack": [
+    "generate low token pack",
+    "generate low-token pack",
+    "generate_low-token_pack",
+    "generate_low_token_pack",
+    "low token pack"
+  ],
+  "generate_tooling_manifest": [
+    "generate tooling manifest",
+    "generate_tooling_manifest",
+    "tooling manifest"
+  ],
+  "generate_entrypoint_pack": [
+    "entrypoint pack",
+    "generate entrypoint pack",
+    "generate_entrypoint_pack"
+  ],
+  "generate_dependency_pack": [
+    "dependency pack",
+    "generate dependency pack",
+    "generate_dependency_pack"
+  ],
+  "generate_docs_pack": [
+    "docs pack",
+    "generate docs pack",
+    "generate_docs_pack"
+  ],
+  "generate_test_pack": [
+    "generate test pack",
+    "generate_test_pack",
+    "test pack"
+  ],
+  "generate_cleanup_candidates_report": [
+    "cleanup candidates report",
+    "generate cleanup candidates",
+    "generate cleanup candidates report",
+    "generate_cleanup_candidates",
+    "generate_cleanup_candidates_report"
+  ],
+  "generate_portability_report": [
+    "generate portability report",
+    "generate_portability_report",
+    "portability report"
+  ],
+  "generate_script_registry_template": [
+    "generate script registry template",
+    "generate_script_registry_template",
+    "script registry template"
+  ],
+  "generate_coder_handoff": [
+    "coder handoff",
+    "generate coder handoff",
+    "generate_coder_handoff"
+  ],
+  "generate_runtime_surface_map": [
+    "generate runtime surface map",
+    "generate_runtime_surface_map",
+    "runtime surface map"
+  ],
+  "generate_feature_guess_map": [
+    "feature guess map",
+    "generate feature guess map",
+    "generate_feature_guess_map"
+  ],
+  "generate_path_alias_report": [
+    "generate path alias report",
+    "generate_path_alias_report",
+    "path alias report"
+  ],
+  "generate_machine_context_index": [
+    "generate machine context index",
+    "generate_machine_context_index",
+    "machine context index"
+  ],
+  "package_name_inventory": [
+    "package name inventory",
+    "package_name_inventory"
+  ],
+  "package_dependency_summary": [
+    "dependency summary",
+    "dependency_summary",
+    "package dependency summary",
+    "package_dependency_summary"
+  ],
+  "package_dev_dependency_summary": [
+    "dev dependency summary",
+    "dev_dependency_summary",
+    "package dev dependency summary",
+    "package_dev_dependency_summary"
+  ],
+  "workspace_package_scan": [
+    "workspace package scan",
+    "workspace_package_scan"
+  ],
+  "npm_script_inventory": [
+    "npm script inventory",
+    "npm_script_inventory"
+  ],
+  "ts_path_alias_inventory": [
+    "ts path alias inventory",
+    "ts_path_alias_inventory"
+  ],
+  "python_requirements_inventory": [
+    "python requirements inventory",
+    "python_requirements_inventory"
+  ],
+  "dockerfile_inventory": [
+    "dockerfile inventory",
+    "dockerfile_inventory"
+  ],
+  "ci_file_inventory": [
+    "ci file inventory",
+    "ci_file_inventory"
+  ],
+  "env_file_inventory": [
+    "env file inventory",
+    "env_file_inventory"
+  ],
+  "gitignore_summary": [
+    ".gitignore summary",
+    ".gitignore_summary",
+    "gitignore summary",
+    "gitignore_summary"
+  ],
+  "lockfile_inventory": [
+    "lockfile inventory",
+    "lockfile_inventory"
+  ],
+  "import_alias_candidates": [
+    "import alias candidates",
+    "import_alias_candidates"
+  ],
+  "version_string_inventory": [
+    "version string inventory",
+    "version_string_inventory"
+  ],
+  "port_number_inventory": [
+    "port number inventory",
+    "port_number_inventory"
+  ],
+  "git_status_summary": [
+    "git status summary",
+    "git_status_summary"
+  ],
+  "git_branch_summary": [
+    "git branch summary",
+    "git_branch_summary"
+  ],
+  "git_recent_commit_summary": [
+    "git recent commit summary",
+    "git_recent_commit_summary",
+    "recent commit summary",
+    "recent_commit_summary"
+  ],
+  "git_changed_files_summary": [
+    "changed files summary",
+    "changed_files_summary",
+    "git changed files summary",
+    "git_changed_files_summary"
+  ],
+  "git_untracked_files_summary": [
+    "git untracked files summary",
+    "git_untracked_files_summary",
+    "untracked files summary",
+    "untracked_files_summary"
+  ],
+  "filename_case_breakdown": [
+    "filename case breakdown",
+    "filename_case_breakdown"
+  ],
+  "suspicious_filename_scan": [
+    "suspicious filename scan",
+    "suspicious_filename_scan"
+  ],
+  "duplicate_basename_by_extension": [
+    "duplicate basename by extension",
+    "duplicate basenames by extension",
+    "duplicate_basename_by_extension",
+    "duplicate_basenames_by_extension"
+  ],
+  "shallow_duplicate_folder_names": [
+    "duplicate folder names",
+    "duplicate_folder_names",
+    "shallow duplicate folder names",
+    "shallow_duplicate_folder_names"
+  ],
+  "folder_depth_stats": [
+    "folder depth stats",
+    "folder_depth_stats"
+  ],
+  "file_age_buckets": [
+    "file age buckets",
+    "file_age_buckets"
+  ],
+  "line_length_percentiles": [
+    "line length percentiles",
+    "line_length_percentiles"
+  ],
+  "import_density_scan": [
+    "import density scan",
+    "import_density_scan"
+  ],
+  "comment_density_scan": [
+    "comment density scan",
+    "comment_density_scan"
+  ],
+  "test_gap_hints": [
+    "test gap hints",
+    "test_gap_hints"
+  ]
+}

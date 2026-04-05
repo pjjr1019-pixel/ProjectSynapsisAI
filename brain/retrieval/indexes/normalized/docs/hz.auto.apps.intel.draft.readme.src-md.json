@@ -1,0 +1,116 @@
+{
+  "aliases": [
+    {
+      "alias": "intel draft",
+      "aliasId": "hz.auto.apps.intel.draft.readme.src-md.alias.1",
+      "canonical": "intel — draft"
+    }
+  ],
+  "app": "intel",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.intel.draft.readme.src-md",
+  "domain": "intel",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.intel.draft.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Intel — draft",
+      "tokens": [
+        "intel",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.intel.draft.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Intel — draft",
+      "tokens": [
+        "intel",
+        "draft"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 112,
+      "charStart": 19,
+      "factId": "hz.auto.apps.intel.draft.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "WIP intel-surface content; may link to `brain/pipeline/research/processed/` after validation.",
+      "tokens": [
+        "wip",
+        "intel",
+        "surface",
+        "content",
+        "may",
+        "link",
+        "brain",
+        "pipeline",
+        "research",
+        "processed",
+        "after",
+        "validation"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.intel.draft.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Intel — draft"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/intel/draft/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 114,
+        "start": 0
+      }
+    ],
+    "hash": "c5a58d924926886701cf5a2142ece2e95d97681c57aa0674c8379d70ba2dfeac",
+    "sourceType": "draft"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "WIP intel-surface content; may link to `brain/pipeline/research/processed/` after validation.",
+    "short": "WIP intel-surface content; may link to `brain/pipeline/research/processed/` after validation.",
+    "tokens": [
+      "intel",
+      "draft",
+      "wip",
+      "intel",
+      "surface",
+      "content",
+      "may",
+      "link",
+      "brain",
+      "pipeline",
+      "research",
+      "processed",
+      "after",
+      "validation",
+      "wip",
+      "intel",
+      "surface",
+      "content",
+      "may",
+      "link",
+      "brain",
+      "pipeline",
+      "research",
+      "processed",
+      "after",
+      "validation"
+    ]
+  },
+  "title": "Intel — draft"
+}

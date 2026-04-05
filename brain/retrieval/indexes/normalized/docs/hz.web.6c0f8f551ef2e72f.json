@@ -1,0 +1,355 @@
+{
+  "aliases": [
+    {
+      "alias": "6c0f8f551ef2e72f",
+      "aliasId": "hz.web.6c0f8f551ef2e72f.alias.1",
+      "canonical": "submission portal | ncbi | nlm | nih"
+    },
+    {
+      "alias": "submission portal ncbi nlm nih",
+      "aliasId": "hz.web.6c0f8f551ef2e72f.alias.2",
+      "canonical": "submission portal | ncbi | nlm | nih"
+    },
+    {
+      "alias": "web 6c0f8f551ef2e72f",
+      "aliasId": "hz.web.6c0f8f551ef2e72f.alias.3",
+      "canonical": "submission portal | ncbi | nlm | nih"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.6c0f8f551ef2e72f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6c0f8f551ef2e72f.entity.1",
+      "kind": "document",
+      "name": "Submission Portal | NCBI | NLM | NIH",
+      "tokens": [
+        "submission",
+        "portal",
+        "ncbi",
+        "nlm",
+        "nih"
+      ]
+    },
+    {
+      "entityId": "hz.web.6c0f8f551ef2e72f.entity.2",
+      "kind": "heading",
+      "name": "Submission Portal | NCBI | NLM | NIH",
+      "tokens": [
+        "submission",
+        "portal",
+        "ncbi",
+        "nlm",
+        "nih"
+      ]
+    },
+    {
+      "entityId": "hz.web.6c0f8f551ef2e72f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6c0f8f551ef2e72f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6c0f8f551ef2e72f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 41,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://submit.ncbi.nlm.nih.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "submit",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 299,
+      "charStart": 133,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.1",
+      "kind": "bullet",
+      "text": "Submission Portal | NCBI | NLM | NIH Skip to main page content An official website of the United States government Here's how you know The .gov means it’s official.",
+      "tokens": [
+        "submission",
+        "portal",
+        "ncbi",
+        "nlm",
+        "nih",
+        "skip",
+        "main",
+        "page",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "gov",
+        "means",
+        "official"
+      ]
+    },
+    {
+      "charEnd": 356,
+      "charStart": 300,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.2",
+      "kind": "bullet",
+      "text": "Federal government websites often end in .gov or .mil.",
+      "tokens": [
+        "federal",
+        "government",
+        "websites",
+        "often",
+        "end",
+        "gov",
+        "mil"
+      ]
+    },
+    {
+      "charEnd": 443,
+      "charStart": 357,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.3",
+      "kind": "bullet",
+      "text": "Before sharing sensitive information, make sure you’re on a federal government site.",
+      "tokens": [
+        "before",
+        "sharing",
+        "sensitive",
+        "information",
+        "make",
+        "sure",
+        "re",
+        "federal",
+        "government",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 465,
+      "charStart": 444,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.4",
+      "kind": "bullet",
+      "text": "The site is secure.",
+      "tokens": [
+        "site",
+        "secure"
+      ]
+    },
+    {
+      "charEnd": 486,
+      "charStart": 480,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.5",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 495,
+      "charStart": 487,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.6",
+      "kind": "bullet",
+      "text": "submit",
+      "tokens": [
+        "submit"
+      ]
+    },
+    {
+      "charEnd": 506,
+      "charStart": 496,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.7",
+      "kind": "bullet",
+      "text": "sequence",
+      "tokens": [
+        "sequence"
+      ]
+    },
+    {
+      "charEnd": 512,
+      "charStart": 507,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.8",
+      "kind": "bullet",
+      "text": "sra",
+      "tokens": [
+        "sra"
+      ]
+    },
+    {
+      "charEnd": 522,
+      "charStart": 513,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.9",
+      "kind": "bullet",
+      "text": "genbank",
+      "tokens": [
+        "genbank"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 523,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.10",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 537,
+      "charStart": 530,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.11",
+      "kind": "bullet",
+      "text": "learn",
+      "tokens": [
+        "learn"
+      ]
+    },
+    {
+      "charEnd": 550,
+      "charStart": 538,
+      "factId": "hz.web.6c0f8f551ef2e72f.fact.12",
+      "kind": "bullet",
+      "text": "submission",
+      "tokens": [
+        "submission"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 39,
+      "charStart": 1,
+      "headingId": "hz.web.6c0f8f551ef2e72f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Submission Portal | NCBI | NLM | NIH"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.6c0f8f551ef2e72f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 478,
+      "charStart": 467,
+      "headingId": "hz.web.6c0f8f551ef2e72f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 562,
+      "charStart": 552,
+      "headingId": "hz.web.6c0f8f551ef2e72f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6c0f8f551ef2e72f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3817,
+        "start": 0
+      }
+    ],
+    "hash": "9a664e2df82a8802a6c785cf7f18cc73358bbeb334da9cda4f886a773cb68155",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.6c0f8f551ef2e72f.rule.1",
+      "text": "Submitted data files should generally be minimally processed and include per-base quality scores.",
+      "tokens": [
+        "submitted",
+        "data",
+        "files",
+        "generally",
+        "minimally",
+        "processed",
+        "include",
+        "per",
+        "base",
+        "quality",
+        "scores"
+      ]
+    },
+    {
+      "ruleId": "hz.web.6c0f8f551ef2e72f.rule.2",
+      "text": "Annotation for SARS-CoV-2 is not required.",
+      "tokens": [
+        "annotation",
+        "sars",
+        "cov",
+        "not",
+        "required"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Submission Portal | NCBI | NLM | NIH Skip to main page content An official website of the United States government Here's how you know The .gov means it’s official.",
+      "Federal government websites often end in .gov or .mil.",
+      "Before sharing sensitive information, make sure you’re on a federal government site."
+    ],
+    "medium": "Source: https://submit.ncbi.nlm.nih.gov/",
+    "short": "Source: https://submit.ncbi.nlm.nih.gov/",
+    "tokens": [
+      "submission",
+      "portal",
+      "ncbi",
+      "nlm",
+      "nih",
+      "source",
+      "https",
+      "submit",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "submit",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov"
+    ]
+  },
+  "title": "Submission Portal | NCBI | NLM | NIH"
+}

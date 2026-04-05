@@ -1,0 +1,137 @@
+{
+  "aliases": [
+    {
+      "alias": "financial canonical",
+      "aliasId": "hz.auto.apps.financial.canonical.readme.src-md.alias.1",
+      "canonical": "financial — canonical"
+    }
+  ],
+  "app": "financial",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.financial.canonical.readme.src-md",
+  "domain": "financial",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.financial.canonical.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Financial — canonical",
+      "tokens": [
+        "financial",
+        "canonical"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.financial.canonical.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Financial — canonical",
+      "tokens": [
+        "financial",
+        "canonical"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 193,
+      "charStart": 27,
+      "factId": "hz.auto.apps.financial.canonical.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "Approved financial-domain knowledge (terminology, workflows, compliance **hints** — not legal advice). Use schema from `brain/SCHEMAS/knowledge-document.schema.json`.",
+      "tokens": [
+        "approved",
+        "financial",
+        "domain",
+        "knowledge",
+        "terminology",
+        "workflows",
+        "compliance",
+        "hints",
+        "not",
+        "legal",
+        "advice",
+        "use",
+        "schema",
+        "brain",
+        "schemas",
+        "knowledge",
+        "document",
+        "schema",
+        "json"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.financial.canonical.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Financial — canonical"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/financial/canonical/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 195,
+        "start": 0
+      }
+    ],
+    "hash": "a15806474f60aaa791886ff20ce067a9c441936acd2b12bab96952e8d09789a3",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "Approved financial-domain knowledge (terminology, workflows, compliance **hints** — not legal advice). Use schema from `brain/SCHEMAS/knowledge-document.schema.json`.",
+    "short": "Approved financial-domain knowledge (terminology, workflows, compliance **hints** — not legal advice). Use schema from `brain/SCHEMAS/knowledge-document.schema.json`.",
+    "tokens": [
+      "financial",
+      "canonical",
+      "approved",
+      "financial",
+      "domain",
+      "knowledge",
+      "terminology",
+      "workflows",
+      "compliance",
+      "hints",
+      "not",
+      "legal",
+      "advice",
+      "use",
+      "schema",
+      "brain",
+      "schemas",
+      "knowledge",
+      "document",
+      "schema",
+      "json",
+      "approved",
+      "financial",
+      "domain",
+      "knowledge",
+      "terminology",
+      "workflows",
+      "compliance",
+      "hints",
+      "not",
+      "legal",
+      "advice",
+      "use",
+      "schema",
+      "brain",
+      "schemas",
+      "knowledge",
+      "document",
+      "schema",
+      "json"
+    ]
+  },
+  "title": "Financial — canonical"
+}

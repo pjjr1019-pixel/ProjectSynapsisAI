@@ -1,0 +1,440 @@
+{
+  "artifactType": "brain-drift-report",
+  "buildVersion": "brain-ir-runtime-v1",
+  "builtAt": "2026-03-30T06:15:26.167Z",
+  "counts": {
+    "high": 24,
+    "issueCount": 39,
+    "low": 2,
+    "medium": 13
+  },
+  "issues": [
+    {
+      "affectedDocs": [
+        "hz.auto.runtime.sessions.snapshots.session-196011f5-a057-48ad-8c60-59e4610db374.src-json",
+        "hz.runtime.session.196011f5-a057-48ad-8c60-59e4610db374"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"session 196011f5 a057 48ad 8c60 59e4610db374\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.auto.runtime.sessions.snapshots.session-2430f6f2-91ec-496b-a3d6-ba7d6f13d767.src-json",
+        "hz.runtime.session.2430f6f2-91ec-496b-a3d6-ba7d6f13d767"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"session 2430f6f2 91ec 496b a3d6 ba7d6f13d767\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.auto.runtime.sessions.snapshots.session-c4badcba-c472-486c-961b-4f05171a5e1f.src-json",
+        "hz.runtime.session.c4badcba-c472-486c-961b-4f05171a5e1f"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"session c4badcba c472 486c 961b 4f05171a5e1f\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.auto.runtime.sessions.snapshots.session-d04dfa30-7d9a-4cad-bdbc-807e8b000bc4.src-json",
+        "hz.runtime.session.d04dfa30-7d9a-4cad-bdbc-807e8b000bc4"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"session d04dfa30 7d9a 4cad bdbc 807e8b000bc4\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.auto.runtime.sessions.snapshots.session-d5983be2-0835-4231-b698-2c1e37c42d36.src-json",
+        "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"session d5983be2 0835 4231 b698 2c1e37c42d36\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.auto.runtime.sessions.snapshots.session-ded6bfb1-8af9-40e3-996e-16a7e55c5ce0.src-json",
+        "hz.runtime.session.ded6bfb1-8af9-40e3-996e-16a7e55c5ce0"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"session ded6bfb1 8af9 40e3 996e 16a7e55c5ce0\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.auto.runtime.sessions.snapshots.session-f4f00594-2974-41bf-99b5-0a839bbb3a43.src-json",
+        "hz.runtime.session.f4f00594-2974-41bf-99b5-0a839bbb3a43"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"session f4f00594 2974 41bf 99b5 0a839bbb3a43\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.web.1c782911488fcf6b",
+        "hz.web.80d81c963565208c",
+        "hz.web.c934d152abe8b1c0",
+        "hz.web.d32a32ee9033e99b",
+        "hz.web.fa1711f16922136f",
+        "hz.web.fb7bb08e36ade0de"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"linkedin\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.web.419f5ba5ab53a80f",
+        "hz.web.484eccbc5d981d5c",
+        "hz.web.83519de185d80c04"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"facebook\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.web.44f0349e5ed63c49",
+        "hz.web.db3b989f85cf458a"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"jetpack wordpress\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.web.afcd581a66e94cc8",
+        "hz.web.d003c7e111473f53"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"wordpress.com\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.web.b4ae3b11c6c1267f",
+        "hz.web.e42a1d793e088122"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"android facebook lite apk\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.web.bb76adbd56370a61",
+        "hz.web.d07fa5c6dfc81adb",
+        "hz.web.e55c6e404fb197bc",
+        "hz.web.f3a5695a365ace07"
+      ],
+      "code": "alias_collision",
+      "message": "Alias \"react blog react\" resolves to multiple canonicals.",
+      "severity": "medium"
+    },
+    {
+      "affectedDocs": [
+        "hz.web.0d008dbdc5f9a04f",
+        "hz.web.367a0e1d0043ee8b"
+      ],
+      "code": "duplicate_meaning",
+      "message": "Docs hz.web.0d008dbdc5f9a04f and hz.web.367a0e1d0043ee8b have near-identical summaries under different ids.",
+      "severity": "low"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.1"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.1 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.1"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.1 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.2"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.2 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.3"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.3 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.4"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.4 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.5"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.5 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.6"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.6 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.0f63a2a5a5620b74.fact.7"
+      ],
+      "affectedDocs": [
+        "hz.web.0f63a2a5a5620b74"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.0f63a2a5a5620b74.fact.7 is stale against hz.web.0f63a2a5a5620b74.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.1"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.1 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.1"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.1 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.2"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.2 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.3"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.3 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.4"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.4 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.5"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.5 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.6"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.6 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.960d261125cccc95.fact.7"
+      ],
+      "affectedDocs": [
+        "hz.web.960d261125cccc95"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.960d261125cccc95.fact.7 is stale against hz.web.960d261125cccc95.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.1"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.1 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.1"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.1 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.2"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.2 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.3"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.3 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.4"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.4 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.5"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.5 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.6"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.6 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "hz.web.e187889d85495a52.fact.7"
+      ],
+      "affectedDocs": [
+        "hz.web.e187889d85495a52"
+      ],
+      "code": "stale_compact_fact",
+      "message": "Compact fact hz.web.e187889d85495a52.fact.7 is stale against hz.web.e187889d85495a52.",
+      "severity": "high"
+    },
+    {
+      "affectedArtifacts": [
+        "runtime-manifest"
+      ],
+      "changedPaths": [
+        "runtime/learning/promoted/digests/learning-2026-03-29.md",
+        "runtime/learning/promoted/digests/learning-2026-03-30.md",
+        "runtime/logs/digests/chat-turns-2026-03-28.md",
+        "runtime/logs/digests/chat-turns-2026-03-29.md",
+        "runtime/logs/digests/chat-turns-2026-03-30.md",
+        "runtime/logs/digests/runtime-digests-manifest.json"
+      ],
+      "code": "since_last_build_changes",
+      "message": "Source hashes changed since the previous build snapshot.",
+      "severity": "low"
+    }
+  ],
+  "profile": null,
+  "schemaVersion": "1.0",
+  "suggestedRepairs": [
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias.",
+    "Review aliases in canonical docs and keep one canonical meaning per alias."
+  ]
+}

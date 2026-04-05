@@ -1,0 +1,337 @@
+{
+  "aliases": [
+    {
+      "alias": "1a6939a0a5b125e1",
+      "aliasId": "hz.web.1a6939a0a5b125e1.alias.1",
+      "canonical": "realfood.gov"
+    },
+    {
+      "alias": "realfood.gov",
+      "aliasId": "hz.web.1a6939a0a5b125e1.alias.2",
+      "canonical": "realfood.gov"
+    },
+    {
+      "alias": "web 1a6939a0a5b125e1",
+      "aliasId": "hz.web.1a6939a0a5b125e1.alias.3",
+      "canonical": "realfood.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.1a6939a0a5b125e1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1a6939a0a5b125e1.entity.1",
+      "kind": "document",
+      "name": "realfood.gov",
+      "tokens": [
+        "realfood",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a6939a0a5b125e1.entity.2",
+      "kind": "heading",
+      "name": "realfood.gov",
+      "tokens": [
+        "realfood",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a6939a0a5b125e1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a6939a0a5b125e1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a6939a0a5b125e1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 17,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://realfood.gov/manifest.json",
+      "tokens": [
+        "source",
+        "https",
+        "realfood",
+        "gov",
+        "manifest",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 938,
+      "charStart": 111,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"Dietary Guidelines for Americans, 2025-2030\", \"short_name\": \"Dietary Guidelines\", \"description\": \"The Dietary Guidelines for Americans provides science-based advice on what to eat and drink to promote health, reduce risk of chronic disease, and meet nutrient needs.\", \"start_url\": \"/\", \"display\": \"standalone\", \"background_color\": \"#F3F0D6\", \"theme_color\": \"#F3F0D6\", \"icons\": [ { \"src\": \"/favicon.ico\", \"sizes\": \"48x48\", \"type\": \"image/x-icon\" }, { \"src\": \"/favicon-16x16.png\", \"sizes\": \"16x16\", \"type\": \"image/png\" }, { \"src\": \"/favicon-32x32.png\", \"sizes\": \"32x32\", \"type\": \"image/png\" }, { \"src\": \"/android-chrome-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\", \"purpose\": \"any maskable\" }, { \"src\": \"/android-chrome-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"any maskable\" } ] }",
+      "tokens": [
+        "name",
+        "dietary",
+        "guidelines",
+        "americans",
+        "2025",
+        "2030",
+        "short_name",
+        "dietary",
+        "guidelines",
+        "description",
+        "dietary",
+        "guidelines",
+        "americans",
+        "provides",
+        "science",
+        "based",
+        "advice",
+        "eat",
+        "drink",
+        "promote",
+        "health",
+        "reduce",
+        "risk",
+        "chronic",
+        "disease",
+        "meet",
+        "nutrient",
+        "needs",
+        "start_url",
+        "display",
+        "standalone",
+        "background_color",
+        "f3f0d6",
+        "theme_color",
+        "f3f0d6",
+        "icons",
+        "src",
+        "favicon",
+        "ico",
+        "sizes",
+        "48x48",
+        "type",
+        "image",
+        "icon",
+        "src",
+        "favicon",
+        "16x16",
+        "png",
+        "sizes",
+        "16x16",
+        "type",
+        "image",
+        "png",
+        "src",
+        "favicon",
+        "32x32",
+        "png",
+        "sizes",
+        "32x32",
+        "type",
+        "image",
+        "png",
+        "src",
+        "android",
+        "chrome",
+        "192x192",
+        "png",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "any",
+        "maskable",
+        "src",
+        "android",
+        "chrome",
+        "512x512",
+        "png",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "purpose",
+        "any",
+        "maskable"
+      ]
+    },
+    {
+      "charEnd": 958,
+      "charStart": 953,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 966,
+      "charStart": 959,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.3",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 974,
+      "charStart": 967,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.4",
+      "kind": "bullet",
+      "text": "sizes",
+      "tokens": [
+        "sizes"
+      ]
+    },
+    {
+      "charEnd": 980,
+      "charStart": 975,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.5",
+      "kind": "bullet",
+      "text": "src",
+      "tokens": [
+        "src"
+      ]
+    },
+    {
+      "charEnd": 987,
+      "charStart": 981,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.6",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 997,
+      "charStart": 988,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.7",
+      "kind": "bullet",
+      "text": "dietary",
+      "tokens": [
+        "dietary"
+      ]
+    },
+    {
+      "charEnd": 1007,
+      "charStart": 998,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.8",
+      "kind": "bullet",
+      "text": "favicon",
+      "tokens": [
+        "favicon"
+      ]
+    },
+    {
+      "charEnd": 1020,
+      "charStart": 1008,
+      "factId": "hz.web.1a6939a0a5b125e1.fact.9",
+      "kind": "bullet",
+      "text": "guidelines",
+      "tokens": [
+        "guidelines"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.1a6939a0a5b125e1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "realfood.gov"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.1a6939a0a5b125e1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 951,
+      "charStart": 940,
+      "headingId": "hz.web.1a6939a0a5b125e1.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1032,
+      "charStart": 1022,
+      "headingId": "hz.web.1a6939a0a5b125e1.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1a6939a0a5b125e1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2090,
+        "start": 0
+      }
+    ],
+    "hash": "098a1973f9ea6ccce7c901922b990e5ab9241061cf0936d529a31e35d1c988a8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"Dietary Guidelines for Americans, 2025-2030\", \"short_name\": \"Dietary Guidelines\", \"description\": \"The Dietary Guidelines for Americans provides science-based advice on what to eat and drink to promote health, reduce risk of chronic disease, and meet nutrient needs.\", \"start_url\": \"/\", \"display\": \"standalone\", \"background_color\": \"#F3F0D6\", \"theme_color\": \"#F3F0D6\", \"icons\": [ { \"src\": \"/favicon.ico\", \"sizes\": \"48x48\", \"type\": \"image/x-icon\" }, { \"src\": \"/favicon-16x16.png\", \"sizes\": \"16x16\", \"type\": \"image/png\" }, { \"src\": \"/favicon-32x32.png\", \"sizes\": \"32x32\", \"type\": \"image/png\" }, { \"src\": \"/android-chrome-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\", \"purpose\": \"any maskable\" }, { \"src\": \"/android-chrome-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\", \"purpose\": \"any maskable\" } ] }",
+      "png",
+      "image"
+    ],
+    "medium": "Source: https://realfood.gov/manifest.json",
+    "short": "Source: https://realfood.gov/manifest.json",
+    "tokens": [
+      "realfood",
+      "gov",
+      "source",
+      "https",
+      "realfood",
+      "gov",
+      "manifest",
+      "json",
+      "source",
+      "https",
+      "realfood",
+      "gov",
+      "manifest",
+      "json"
+    ]
+  },
+  "title": "realfood.gov"
+}

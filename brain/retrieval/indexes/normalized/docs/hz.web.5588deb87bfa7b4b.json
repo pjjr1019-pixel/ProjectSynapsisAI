@@ -1,0 +1,436 @@
+{
+  "aliases": [
+    {
+      "alias": "5588deb87bfa7b4b",
+      "aliasId": "hz.web.5588deb87bfa7b4b.alias.1",
+      "canonical": "d19cc29qsd5ddg.cloudfront.net"
+    },
+    {
+      "alias": "d19cc29qsd5ddg.cloudfront.net",
+      "aliasId": "hz.web.5588deb87bfa7b4b.alias.2",
+      "canonical": "d19cc29qsd5ddg.cloudfront.net"
+    },
+    {
+      "alias": "web 5588deb87bfa7b4b",
+      "aliasId": "hz.web.5588deb87bfa7b4b.alias.3",
+      "canonical": "d19cc29qsd5ddg.cloudfront.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.55,
+  "docId": "hz.web.5588deb87bfa7b4b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5588deb87bfa7b4b.entity.1",
+      "kind": "document",
+      "name": "d19cc29qsd5ddg.cloudfront.net",
+      "tokens": [
+        "d19cc29qsd5ddg",
+        "cloudfront",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.5588deb87bfa7b4b.entity.2",
+      "kind": "heading",
+      "name": "d19cc29qsd5ddg.cloudfront.net",
+      "tokens": [
+        "d19cc29qsd5ddg",
+        "cloudfront",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.5588deb87bfa7b4b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5588deb87bfa7b4b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5588deb87bfa7b4b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 126,
+      "charStart": 34,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://d19cc29qsd5ddg.cloudfront.net/widget/add-to-cart/v2/ts-add-to-cart-embed.css",
+      "tokens": [
+        "source",
+        "https",
+        "d19cc29qsd5ddg",
+        "cloudfront",
+        "net",
+        "widget",
+        "add",
+        "cart",
+        "v2",
+        "ts",
+        "add",
+        "cart",
+        "embed",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 2158,
+      "charStart": 178,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.1",
+      "kind": "bullet",
+      "text": ".ticketSocketEmbedForm .singleTicketType { margin-bottom: 8px; } .ticketSocketEmbedForm .singleTicketType .topRow { display: flex; flex-flow: row wrap; margin-bottom: 4px; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypeName { flex-grow: 1; flex-shrink: 1; text-align: left; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypeName .name { font-weight: bold; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypePrice { flex-grow: 0; flex-shrink: 0; flex-basis: 90px; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypeQuantity { flex-grow: 0; flex-shrink: 0; flex-basis: 90px; text-align: right; } .ticketSocketEmbedForm .singleTicketType .topRow select { width: 100%; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description { text-align: left; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description .showDescriptionLink { display: inline-block; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description .descriptionContent { display: none; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description .hideDescriptionLink { display: none; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description.visible .showDescriptionLink { display: none; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description.visible .descriptionContent { display: block; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description.visible .hideDescriptionLink { display: inline-block; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.hideDescriptionLink, .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.showDescriptionLink { cursor: pointer; text-decoration: underline; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.hideDescriptionLink:hover, .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.showDescriptionLink:hover { text-decoration: none; } .ticketSocketEmbedForm .submitRow { text-align: right; }",
+      "tokens": [
+        "ticketsocketembedform",
+        "singletickettype",
+        "margin",
+        "bottom",
+        "8px",
+        "ticketsocketembedform",
+        "singletickettype",
+        "toprow",
+        "display",
+        "flex",
+        "flex",
+        "flow",
+        "row",
+        "wrap",
+        "margin",
+        "bottom",
+        "4px",
+        "ticketsocketembedform",
+        "singletickettype",
+        "toprow",
+        "tickettypename",
+        "flex",
+        "grow",
+        "flex",
+        "shrink",
+        "text",
+        "align",
+        "left",
+        "ticketsocketembedform",
+        "singletickettype",
+        "toprow",
+        "tickettypename",
+        "name",
+        "font",
+        "weight",
+        "bold",
+        "ticketsocketembedform",
+        "singletickettype",
+        "toprow",
+        "tickettypeprice",
+        "flex",
+        "grow",
+        "flex",
+        "shrink",
+        "flex",
+        "basis",
+        "90px",
+        "ticketsocketembedform",
+        "singletickettype",
+        "toprow",
+        "tickettypequantity",
+        "flex",
+        "grow",
+        "flex",
+        "shrink",
+        "flex",
+        "basis",
+        "90px",
+        "text",
+        "align",
+        "right",
+        "ticketsocketembedform",
+        "singletickettype",
+        "toprow",
+        "select",
+        "width",
+        "100",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "text",
+        "align",
+        "left",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "showdescriptionlink",
+        "display",
+        "inline",
+        "block",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "descriptioncontent",
+        "display",
+        "none",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "hidedescriptionlink",
+        "display",
+        "none",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "visible",
+        "showdescriptionlink",
+        "display",
+        "none",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "visible",
+        "descriptioncontent",
+        "display",
+        "block",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "visible",
+        "hidedescriptionlink",
+        "display",
+        "inline",
+        "block",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "span",
+        "hidedescriptionlink",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "span",
+        "showdescriptionlink",
+        "cursor",
+        "pointer",
+        "text",
+        "decoration",
+        "underline",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "span",
+        "hidedescriptionlink",
+        "hover",
+        "ticketsocketembedform",
+        "singletickettype",
+        "bottomrow",
+        "description",
+        "span",
+        "showdescriptionlink",
+        "hover",
+        "text",
+        "decoration",
+        "none",
+        "ticketsocketembedform",
+        "submitrow",
+        "text",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "charEnd": 2196,
+      "charStart": 2173,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.2",
+      "kind": "bullet",
+      "text": "ticketsocketembedform",
+      "tokens": [
+        "ticketsocketembedform"
+      ]
+    },
+    {
+      "charEnd": 2215,
+      "charStart": 2197,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.3",
+      "kind": "bullet",
+      "text": "singletickettype",
+      "tokens": [
+        "singletickettype"
+      ]
+    },
+    {
+      "charEnd": 2227,
+      "charStart": 2216,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.4",
+      "kind": "bullet",
+      "text": "bottomrow",
+      "tokens": [
+        "bottomrow"
+      ]
+    },
+    {
+      "charEnd": 2241,
+      "charStart": 2228,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.5",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 2248,
+      "charStart": 2242,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.6",
+      "kind": "bullet",
+      "text": "flex",
+      "tokens": [
+        "flex"
+      ]
+    },
+    {
+      "charEnd": 2258,
+      "charStart": 2249,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.7",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 2265,
+      "charStart": 2259,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.8",
+      "kind": "bullet",
+      "text": "text",
+      "tokens": [
+        "text"
+      ]
+    },
+    {
+      "charEnd": 2274,
+      "charStart": 2266,
+      "factId": "hz.web.5588deb87bfa7b4b.fact.9",
+      "kind": "bullet",
+      "text": "toprow",
+      "tokens": [
+        "toprow"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 32,
+      "charStart": 1,
+      "headingId": "hz.web.5588deb87bfa7b4b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "d19cc29qsd5ddg.cloudfront.net"
+    },
+    {
+      "charEnd": 176,
+      "charStart": 166,
+      "headingId": "hz.web.5588deb87bfa7b4b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2171,
+      "charStart": 2160,
+      "headingId": "hz.web.5588deb87bfa7b4b.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2286,
+      "charStart": 2276,
+      "headingId": "hz.web.5588deb87bfa7b4b.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5588deb87bfa7b4b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4564,
+        "start": 0
+      }
+    ],
+    "hash": "ba58c31955f7ff0745f3dd5eab2337f99c8661b66efafa62dd9b4f4e0c997432",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".ticketSocketEmbedForm .singleTicketType { margin-bottom: 8px; } .ticketSocketEmbedForm .singleTicketType .topRow { display: flex; flex-flow: row wrap; margin-bottom: 4px; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypeName { flex-grow: 1; flex-shrink: 1; text-align: left; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypeName .name { font-weight: bold; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypePrice { flex-grow: 0; flex-shrink: 0; flex-basis: 90px; } .ticketSocketEmbedForm .singleTicketType .topRow .ticketTypeQuantity { flex-grow: 0; flex-shrink: 0; flex-basis: 90px; text-align: right; } .ticketSocketEmbedForm .singleTicketType .topRow select { width: 100%; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description { text-align: left; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description .showDescriptionLink { display: inline-block; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description .descriptionContent { display: none; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description .hideDescriptionLink { display: none; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description.visible .showDescriptionLink { display: none; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description.visible .descriptionContent { display: block; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description.visible .hideDescriptionLink { display: inline-block; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.hideDescriptionLink, .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.showDescriptionLink { cursor: pointer; text-decoration: underline; } .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.hideDescriptionLink:hover, .ticketSocketEmbedForm .singleTicketType .bottomRow .description span.showDescriptionLink:hover { text-decoration: none; } .ticketSocketEmbedForm .submitRow { text-align: right; }",
+      "ticketsocketembedform",
+      "singletickettype"
+    ],
+    "medium": "Source: https://d19cc29qsd5ddg.cloudfront.net/widget/add-to-cart/v2/ts-add-to-cart-embed.css",
+    "short": "Source: https://d19cc29qsd5ddg.cloudfront.net/widget/add-to-cart/v2/ts-add-to-cart-embed.css",
+    "tokens": [
+      "d19cc29qsd5ddg",
+      "cloudfront",
+      "net",
+      "source",
+      "https",
+      "d19cc29qsd5ddg",
+      "cloudfront",
+      "net",
+      "widget",
+      "add",
+      "cart",
+      "v2",
+      "ts",
+      "add",
+      "cart",
+      "embed",
+      "css",
+      "source",
+      "https",
+      "d19cc29qsd5ddg",
+      "cloudfront",
+      "net",
+      "widget",
+      "add",
+      "cart",
+      "v2",
+      "ts",
+      "add",
+      "cart",
+      "embed",
+      "css"
+    ]
+  },
+  "title": "d19cc29qsd5ddg.cloudfront.net"
+}

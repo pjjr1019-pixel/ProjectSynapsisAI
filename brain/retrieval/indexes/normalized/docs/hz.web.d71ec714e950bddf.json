@@ -1,0 +1,465 @@
+{
+  "aliases": [
+    {
+      "alias": "d71ec714e950bddf",
+      "aliasId": "hz.web.d71ec714e950bddf.alias.1",
+      "canonical": "wikipedia, the free encyclopedia"
+    },
+    {
+      "alias": "web d71ec714e950bddf",
+      "aliasId": "hz.web.d71ec714e950bddf.alias.2",
+      "canonical": "wikipedia, the free encyclopedia"
+    },
+    {
+      "alias": "wikipedia the free encyclopedia",
+      "aliasId": "hz.web.d71ec714e950bddf.alias.3",
+      "canonical": "wikipedia, the free encyclopedia"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.d71ec714e950bddf",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d71ec714e950bddf.entity.1",
+      "kind": "document",
+      "name": "Wikipedia, the free encyclopedia",
+      "tokens": [
+        "wikipedia",
+        "free",
+        "encyclopedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.d71ec714e950bddf.entity.2",
+      "kind": "heading",
+      "name": "Wikipedia, the free encyclopedia",
+      "tokens": [
+        "wikipedia",
+        "free",
+        "encyclopedia"
+      ]
+    },
+    {
+      "entityId": "hz.web.d71ec714e950bddf.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d71ec714e950bddf.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d71ec714e950bddf.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 84,
+      "charStart": 37,
+      "factId": "hz.web.d71ec714e950bddf.fact.1",
+      "kind": "summary",
+      "text": "Source: https://en.wikipedia.org/wiki/Main_Page",
+      "tokens": [
+        "source",
+        "https",
+        "en",
+        "wikipedia",
+        "org",
+        "wiki",
+        "main_page"
+      ]
+    },
+    {
+      "charEnd": 1189,
+      "charStart": 136,
+      "factId": "hz.web.d71ec714e950bddf.fact.1",
+      "kind": "bullet",
+      "text": "Wikipedia, the free encyclopedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Main Page Main Page Talk English Read View source View history Tools Tools move to sidebar hide Actions Read View source View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikimedia Foundation MediaWiki Meta-Wiki Wikimedia Outreach Multilingual Wikisource Wikispecies Wikibooks Wikidata Wikifunctions Wikimania Wikinews Wikiquote Wikisource Wikiversity Wikivoyage Wiktionary Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Welcome to Wikipedia , the free encyclopedia that anyone can edit .",
+      "tokens": [
+        "wikipedia",
+        "free",
+        "encyclopedia",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "navigation",
+        "main",
+        "page",
+        "contents",
+        "current",
+        "events",
+        "random",
+        "article",
+        "about",
+        "wikipedia",
+        "contact",
+        "us",
+        "contribute",
+        "help",
+        "learn",
+        "edit",
+        "community",
+        "portal",
+        "recent",
+        "changes",
+        "upload",
+        "file",
+        "special",
+        "pages",
+        "search",
+        "search",
+        "appearance",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "personal",
+        "tools",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "main",
+        "page",
+        "main",
+        "page",
+        "talk",
+        "english",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "upload",
+        "file",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "cite",
+        "page",
+        "get",
+        "shortened",
+        "url",
+        "print",
+        "export",
+        "download",
+        "pdf",
+        "printable",
+        "version",
+        "other",
+        "projects",
+        "wikimedia",
+        "commons",
+        "wikimedia",
+        "foundation",
+        "mediawiki",
+        "meta",
+        "wiki",
+        "wikimedia",
+        "outreach",
+        "multilingual",
+        "wikisource",
+        "wikispecies",
+        "wikibooks",
+        "wikidata",
+        "wikifunctions",
+        "wikimania",
+        "wikinews",
+        "wikiquote",
+        "wikisource",
+        "wikiversity",
+        "wikivoyage",
+        "wiktionary",
+        "wikidata",
+        "item",
+        "appearance",
+        "move",
+        "sidebar",
+        "hide",
+        "wikipedia",
+        "free",
+        "encyclopedia",
+        "welcome",
+        "wikipedia",
+        "free",
+        "encyclopedia",
+        "anyone",
+        "edit"
+      ]
+    },
+    {
+      "charEnd": 1374,
+      "charStart": 1190,
+      "factId": "hz.web.d71ec714e950bddf.fact.2",
+      "kind": "bullet",
+      "text": "281,678 active editors 7,160,542 articles in English From today's featured article The Goldfinch is a painting of a chained goldfinch by Carel Fabritius , a Dutch Golden Age artist .",
+      "tokens": [
+        "281",
+        "678",
+        "active",
+        "editors",
+        "160",
+        "542",
+        "articles",
+        "english",
+        "today",
+        "featured",
+        "article",
+        "goldfinch",
+        "painting",
+        "chained",
+        "goldfinch",
+        "carel",
+        "fabritius",
+        "dutch",
+        "golden",
+        "age",
+        "artist"
+      ]
+    },
+    {
+      "charEnd": 1474,
+      "charStart": 1375,
+      "factId": "hz.web.d71ec714e950bddf.fact.3",
+      "kind": "bullet",
+      "text": "Signed and dated 1654, it is now in the collection of the Mauritshuis in The Hague , Netherlands.",
+      "tokens": [
+        "signed",
+        "dated",
+        "1654",
+        "now",
+        "collection",
+        "mauritshuis",
+        "hague",
+        "netherlands"
+      ]
+    },
+    {
+      "charEnd": 1674,
+      "charStart": 1475,
+      "factId": "hz.web.d71ec714e950bddf.fact.4",
+      "kind": "bullet",
+      "text": "The work is a trompe-l'œil oil painting on panel measuring 33.5 by 22.8&#160;centimetres (13.2 by 9.0&#160;in) that was once part of a larger structure, perhaps a window jamb or a protective cover.",
+      "tokens": [
+        "work",
+        "trompe",
+        "il",
+        "oil",
+        "painting",
+        "panel",
+        "measuring",
+        "33",
+        "22",
+        "160",
+        "centimetres",
+        "13",
+        "160",
+        "once",
+        "part",
+        "larger",
+        "structure",
+        "perhaps",
+        "window",
+        "jamb",
+        "protective",
+        "cover"
+      ]
+    },
+    {
+      "charEnd": 1700,
+      "charStart": 1689,
+      "factId": "hz.web.d71ec714e950bddf.fact.5",
+      "kind": "bullet",
+      "text": "wikipedia",
+      "tokens": [
+        "wikipedia"
+      ]
+    },
+    {
+      "charEnd": 1706,
+      "charStart": 1701,
+      "factId": "hz.web.d71ec714e950bddf.fact.6",
+      "kind": "bullet",
+      "text": "160",
+      "tokens": [
+        "160"
+      ]
+    },
+    {
+      "charEnd": 1713,
+      "charStart": 1707,
+      "factId": "hz.web.d71ec714e950bddf.fact.7",
+      "kind": "bullet",
+      "text": "free",
+      "tokens": [
+        "free"
+      ]
+    },
+    {
+      "charEnd": 1721,
+      "charStart": 1714,
+      "factId": "hz.web.d71ec714e950bddf.fact.8",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1728,
+      "charStart": 1722,
+      "factId": "hz.web.d71ec714e950bddf.fact.9",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    },
+    {
+      "charEnd": 1735,
+      "charStart": 1729,
+      "factId": "hz.web.d71ec714e950bddf.fact.10",
+      "kind": "bullet",
+      "text": "main",
+      "tokens": [
+        "main"
+      ]
+    },
+    {
+      "charEnd": 1740,
+      "charStart": 1736,
+      "factId": "hz.web.d71ec714e950bddf.fact.11",
+      "kind": "bullet",
+      "text": "ng",
+      "tokens": [
+        "ng"
+      ]
+    },
+    {
+      "charEnd": 1752,
+      "charStart": 1741,
+      "factId": "hz.web.d71ec714e950bddf.fact.12",
+      "kind": "bullet",
+      "text": "wikimedia",
+      "tokens": [
+        "wikimedia"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.d71ec714e950bddf.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Wikipedia, the free encyclopedia"
+    },
+    {
+      "charEnd": 134,
+      "charStart": 124,
+      "headingId": "hz.web.d71ec714e950bddf.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1687,
+      "charStart": 1676,
+      "headingId": "hz.web.d71ec714e950bddf.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1764,
+      "charStart": 1754,
+      "headingId": "hz.web.d71ec714e950bddf.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/d71ec714e950bddf.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5022,
+        "start": 0
+      }
+    ],
+    "hash": "cb02efe2f5fc7a79a100a475b930c0fcdef1a81d8e3f41b0c8ee314104fd12fb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Wikipedia, the free encyclopedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Main Page Main Page Talk English Read View source View history Tools Tools move to sidebar hide Actions Read View source View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Download as PDF Printable version In other projects Wikimedia Commons Wikimedia Foundation MediaWiki Meta-Wiki Wikimedia Outreach Multilingual Wikisource Wikispecies Wikibooks Wikidata Wikifunctions Wikimania Wikinews Wikiquote Wikisource Wikiversity Wikivoyage Wiktionary Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Welcome to Wikipedia , the free encyclopedia that anyone can edit .",
+      "281,678 active editors 7,160,542 articles in English From today's featured article The Goldfinch is a painting of a chained goldfinch by Carel Fabritius , a Dutch Golden Age artist .",
+      "Signed and dated 1654, it is now in the collection of the Mauritshuis in The Hague , Netherlands."
+    ],
+    "medium": "Source: https://en.wikipedia.org/wiki/Main_Page",
+    "short": "Source: https://en.wikipedia.org/wiki/Main_Page",
+    "tokens": [
+      "wikipedia",
+      "free",
+      "encyclopedia",
+      "source",
+      "https",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "main_page",
+      "source",
+      "https",
+      "en",
+      "wikipedia",
+      "org",
+      "wiki",
+      "main_page"
+    ]
+  },
+  "title": "Wikipedia, the free encyclopedia"
+}

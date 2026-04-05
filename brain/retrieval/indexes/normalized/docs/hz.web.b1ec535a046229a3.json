@@ -1,0 +1,343 @@
+{
+  "aliases": [
+    {
+      "alias": "b1ec535a046229a3",
+      "aliasId": "hz.web.b1ec535a046229a3.alias.1",
+      "canonical": "photographer stories | smugmug"
+    },
+    {
+      "alias": "photographer stories smugmug",
+      "aliasId": "hz.web.b1ec535a046229a3.alias.2",
+      "canonical": "photographer stories | smugmug"
+    },
+    {
+      "alias": "web b1ec535a046229a3",
+      "aliasId": "hz.web.b1ec535a046229a3.alias.3",
+      "canonical": "photographer stories | smugmug"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.b1ec535a046229a3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.b1ec535a046229a3.entity.1",
+      "kind": "document",
+      "name": "Photographer stories | SmugMug",
+      "tokens": [
+        "photographer",
+        "stories",
+        "smugmug"
+      ]
+    },
+    {
+      "entityId": "hz.web.b1ec535a046229a3.entity.2",
+      "kind": "heading",
+      "name": "Photographer stories | SmugMug",
+      "tokens": [
+        "photographer",
+        "stories",
+        "smugmug"
+      ]
+    },
+    {
+      "entityId": "hz.web.b1ec535a046229a3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.b1ec535a046229a3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.b1ec535a046229a3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 74,
+      "charStart": 35,
+      "factId": "hz.web.b1ec535a046229a3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.smugmug.com/stories",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "smugmug",
+        "com",
+        "stories"
+      ]
+    },
+    {
+      "charEnd": 233,
+      "charStart": 126,
+      "factId": "hz.web.b1ec535a046229a3.fact.1",
+      "kind": "bullet",
+      "text": "Photographer stories | SmugMug Privacy and Cookie Policy Your privacy is your business, and our priority.",
+      "tokens": [
+        "photographer",
+        "stories",
+        "smugmug",
+        "privacy",
+        "cookie",
+        "policy",
+        "your",
+        "privacy",
+        "your",
+        "business",
+        "our",
+        "priority"
+      ]
+    },
+    {
+      "charEnd": 286,
+      "charStart": 234,
+      "factId": "hz.web.b1ec535a046229a3.fact.2",
+      "kind": "bullet",
+      "text": "For decades, SmugMug has put member privacy first.",
+      "tokens": [
+        "decades",
+        "smugmug",
+        "has",
+        "put",
+        "member",
+        "privacy",
+        "first"
+      ]
+    },
+    {
+      "charEnd": 392,
+      "charStart": 287,
+      "factId": "hz.web.b1ec535a046229a3.fact.3",
+      "kind": "bullet",
+      "text": "Please know that we do use cookies to deliver a world-class experience with optimal site functionality.",
+      "tokens": [
+        "please",
+        "know",
+        "use",
+        "cookies",
+        "deliver",
+        "world",
+        "class",
+        "experience",
+        "optimal",
+        "site",
+        "functionality"
+      ]
+    },
+    {
+      "charEnd": 492,
+      "charStart": 393,
+      "factId": "hz.web.b1ec535a046229a3.fact.4",
+      "kind": "bullet",
+      "text": "By continuing to use our site, you agree to our use of cookies and our stewardship of your data .",
+      "tokens": [
+        "continuing",
+        "use",
+        "our",
+        "site",
+        "agree",
+        "our",
+        "use",
+        "cookies",
+        "our",
+        "stewardship",
+        "your",
+        "data"
+      ]
+    },
+    {
+      "charEnd": 513,
+      "charStart": 507,
+      "factId": "hz.web.b1ec535a046229a3.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 514,
+      "factId": "hz.web.b1ec535a046229a3.fact.6",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 520,
+      "factId": "hz.web.b1ec535a046229a3.fact.7",
+      "kind": "bullet",
+      "text": "smugmug",
+      "tokens": [
+        "smugmug"
+      ]
+    },
+    {
+      "charEnd": 536,
+      "charStart": 530,
+      "factId": "hz.web.b1ec535a046229a3.fact.8",
+      "kind": "bullet",
+      "text": "free",
+      "tokens": [
+        "free"
+      ]
+    },
+    {
+      "charEnd": 543,
+      "charStart": 537,
+      "factId": "hz.web.b1ec535a046229a3.fact.9",
+      "kind": "bullet",
+      "text": "look",
+      "tokens": [
+        "look"
+      ]
+    },
+    {
+      "charEnd": 552,
+      "charStart": 544,
+      "factId": "hz.web.b1ec535a046229a3.fact.10",
+      "kind": "bullet",
+      "text": "member",
+      "tokens": [
+        "member"
+      ]
+    },
+    {
+      "charEnd": 559,
+      "charStart": 553,
+      "factId": "hz.web.b1ec535a046229a3.fact.11",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 560,
+      "factId": "hz.web.b1ec535a046229a3.fact.12",
+      "kind": "bullet",
+      "text": "photo",
+      "tokens": [
+        "photo"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 33,
+      "charStart": 1,
+      "headingId": "hz.web.b1ec535a046229a3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Photographer stories | SmugMug"
+    },
+    {
+      "charEnd": 124,
+      "charStart": 114,
+      "headingId": "hz.web.b1ec535a046229a3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 505,
+      "charStart": 494,
+      "headingId": "hz.web.b1ec535a046229a3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 579,
+      "charStart": 569,
+      "headingId": "hz.web.b1ec535a046229a3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/b1ec535a046229a3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3137,
+        "start": 0
+      }
+    ],
+    "hash": "c4809c4e7d2ec9b08145d5d78ba870f704f0650358be54d74cc6da4d0931df52",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.b1ec535a046229a3.rule.1",
+      "text": "(No credit card required.) Try Free Photo by Ryo Suehiro our good company is your good company.",
+      "tokens": [
+        "no",
+        "credit",
+        "card",
+        "required",
+        "try",
+        "free",
+        "photo",
+        "ryo",
+        "suehiro",
+        "our",
+        "good",
+        "company",
+        "your",
+        "good",
+        "company"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Photographer stories | SmugMug Privacy and Cookie Policy Your privacy is your business, and our priority.",
+      "For decades, SmugMug has put member privacy first.",
+      "Please know that we do use cookies to deliver a world-class experience with optimal site functionality."
+    ],
+    "medium": "Source: https://www.smugmug.com/stories",
+    "short": "Source: https://www.smugmug.com/stories",
+    "tokens": [
+      "photographer",
+      "stories",
+      "smugmug",
+      "source",
+      "https",
+      "www",
+      "smugmug",
+      "com",
+      "stories",
+      "source",
+      "https",
+      "www",
+      "smugmug",
+      "com",
+      "stories"
+    ]
+  },
+  "title": "Photographer stories | SmugMug"
+}

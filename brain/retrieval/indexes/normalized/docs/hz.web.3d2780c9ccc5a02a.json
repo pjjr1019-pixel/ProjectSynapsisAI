@@ -1,0 +1,372 @@
+{
+  "aliases": [
+    {
+      "alias": "3d2780c9ccc5a02a",
+      "aliasId": "hz.web.3d2780c9ccc5a02a.alias.1",
+      "canonical": "gmail"
+    },
+    {
+      "alias": "gmail",
+      "aliasId": "hz.web.3d2780c9ccc5a02a.alias.2",
+      "canonical": "gmail"
+    },
+    {
+      "alias": "web 3d2780c9ccc5a02a",
+      "aliasId": "hz.web.3d2780c9ccc5a02a.alias.3",
+      "canonical": "gmail"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.3d2780c9ccc5a02a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3d2780c9ccc5a02a.entity.1",
+      "kind": "document",
+      "name": "Gmail",
+      "tokens": [
+        "gmail"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d2780c9ccc5a02a.entity.2",
+      "kind": "heading",
+      "name": "Gmail",
+      "tokens": [
+        "gmail"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d2780c9ccc5a02a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d2780c9ccc5a02a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3d2780c9ccc5a02a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 10,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://mail.google.com/mail/&amp;ogbl",
+      "tokens": [
+        "source",
+        "https",
+        "mail",
+        "google",
+        "com",
+        "mail",
+        "amp",
+        "ogbl"
+      ]
+    },
+    {
+      "charEnd": 173,
+      "charStart": 108,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.1",
+      "kind": "bullet",
+      "text": "Gmail Sign in to continue to Gmail Email or phone Forgot email?",
+      "tokens": [
+        "gmail",
+        "sign",
+        "continue",
+        "gmail",
+        "email",
+        "phone",
+        "forgot",
+        "email"
+      ]
+    },
+    {
+      "charEnd": 194,
+      "charStart": 174,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.2",
+      "kind": "bullet",
+      "text": "Not your computer?",
+      "tokens": [
+        "not",
+        "your",
+        "computer"
+      ]
+    },
+    {
+      "charEnd": 238,
+      "charStart": 195,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.3",
+      "kind": "bullet",
+      "text": "Use a private browsing window to sign in.",
+      "tokens": [
+        "use",
+        "private",
+        "browsing",
+        "window",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1084,
+      "charStart": 239,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.4",
+      "kind": "bullet",
+      "text": "Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqip Slovenčina slovenščina srpski (latinica) Suomi Svenska Tiếng Việt Türkçe Ελληνικά беларуская български кыргызча қазақ тілі македонски монгол Русский српски (ћирилица) Українська ქართული հայերեն ‫עברית‬‎ ‫اردو‬‎ ‫العربية‬‎ ‫فارسی‬‎ አማርኛ नेपाली मराठी हिन्दी অসমীয়া বাংলা ਪੰਜਾਬੀ ગુજરાતી ଓଡ଼ିଆ தமிழ் తెలుగు ಕನ್ನಡ മലയാളം සිංහල ไทย ລາວ မြန်မာ ខ្មែរ 한국어 中文（香港） 日本語 简体中文 繁體中文 Help Privacy Terms",
+      "tokens": [
+        "learn",
+        "more",
+        "about",
+        "using",
+        "guest",
+        "mode",
+        "next",
+        "create",
+        "account",
+        "afrikaans",
+        "az",
+        "rbaycan",
+        "bosanski",
+        "catal",
+        "tina",
+        "cymraeg",
+        "dansk",
+        "deutsch",
+        "eesti",
+        "english",
+        "united",
+        "kingdom",
+        "english",
+        "united",
+        "states",
+        "espa",
+        "ol",
+        "espa",
+        "espa",
+        "ol",
+        "latinoam",
+        "rica",
+        "euskara",
+        "filipino",
+        "fran",
+        "ais",
+        "canada",
+        "fran",
+        "ais",
+        "france",
+        "gaeilge",
+        "galego",
+        "hrvatski",
+        "indonesia",
+        "isizulu",
+        "slenska",
+        "italiano",
+        "kiswahili",
+        "latvie",
+        "lietuvi",
+        "magyar",
+        "melayu",
+        "nederlands",
+        "norsk",
+        "zbek",
+        "polski",
+        "portugu",
+        "brasil",
+        "portugu",
+        "portugal",
+        "rom",
+        "shqip",
+        "sloven",
+        "ina",
+        "sloven",
+        "ina",
+        "srpski",
+        "latinica",
+        "suomi",
+        "svenska",
+        "ti",
+        "ng",
+        "vi",
+        "rk",
+        "help",
+        "privacy",
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 1105,
+      "charStart": 1099,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.5",
+      "kind": "bullet",
+      "text": "espa",
+      "tokens": [
+        "espa"
+      ]
+    },
+    {
+      "charEnd": 1111,
+      "charStart": 1106,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.6",
+      "kind": "bullet",
+      "text": "ais",
+      "tokens": [
+        "ais"
+      ]
+    },
+    {
+      "charEnd": 1119,
+      "charStart": 1112,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.7",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 1129,
+      "charStart": 1120,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.8",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    },
+    {
+      "charEnd": 1136,
+      "charStart": 1130,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.9",
+      "kind": "bullet",
+      "text": "fran",
+      "tokens": [
+        "fran"
+      ]
+    },
+    {
+      "charEnd": 1144,
+      "charStart": 1137,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.10",
+      "kind": "bullet",
+      "text": "gmail",
+      "tokens": [
+        "gmail"
+      ]
+    },
+    {
+      "charEnd": 1150,
+      "charStart": 1145,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.11",
+      "kind": "bullet",
+      "text": "ina",
+      "tokens": [
+        "ina"
+      ]
+    },
+    {
+      "charEnd": 1155,
+      "charStart": 1151,
+      "factId": "hz.web.3d2780c9ccc5a02a.fact.12",
+      "kind": "bullet",
+      "text": "ol",
+      "tokens": [
+        "ol"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 8,
+      "charStart": 1,
+      "headingId": "hz.web.3d2780c9ccc5a02a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Gmail"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.3d2780c9ccc5a02a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1097,
+      "charStart": 1086,
+      "headingId": "hz.web.3d2780c9ccc5a02a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1157,
+      "headingId": "hz.web.3d2780c9ccc5a02a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3d2780c9ccc5a02a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2365,
+        "start": 0
+      }
+    ],
+    "hash": "f0454bf5019bfffe1f99bb323ef1367e077bd9fe2a9f4361f1a27f77bb4867ee",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Gmail Sign in to continue to Gmail Email or phone Forgot email?",
+      "Not your computer?",
+      "Use a private browsing window to sign in."
+    ],
+    "medium": "Source: https://mail.google.com/mail/&amp;ogbl",
+    "short": "Source: https://mail.google.com/mail/&amp;ogbl",
+    "tokens": [
+      "gmail",
+      "source",
+      "https",
+      "mail",
+      "google",
+      "com",
+      "mail",
+      "amp",
+      "ogbl",
+      "source",
+      "https",
+      "mail",
+      "google",
+      "com",
+      "mail",
+      "amp",
+      "ogbl"
+    ]
+  },
+  "title": "Gmail"
+}

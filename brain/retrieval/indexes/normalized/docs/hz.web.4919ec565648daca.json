@@ -1,0 +1,339 @@
+{
+  "aliases": [
+    {
+      "alias": "4919ec565648daca",
+      "aliasId": "hz.web.4919ec565648daca.alias.1",
+      "canonical": "shopify status"
+    },
+    {
+      "alias": "shopify status",
+      "aliasId": "hz.web.4919ec565648daca.alias.2",
+      "canonical": "shopify status"
+    },
+    {
+      "alias": "web 4919ec565648daca",
+      "aliasId": "hz.web.4919ec565648daca.alias.3",
+      "canonical": "shopify status"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.62,
+  "docId": "hz.web.4919ec565648daca",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4919ec565648daca.entity.1",
+      "kind": "document",
+      "name": "Shopify Status",
+      "tokens": [
+        "shopify",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.4919ec565648daca.entity.2",
+      "kind": "heading",
+      "name": "Shopify Status",
+      "tokens": [
+        "shopify",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.4919ec565648daca.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4919ec565648daca.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4919ec565648daca.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 57,
+      "charStart": 19,
+      "factId": "hz.web.4919ec565648daca.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.shopifystatus.com/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "shopifystatus",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 195,
+      "charStart": 109,
+      "factId": "hz.web.4919ec565648daca.fact.1",
+      "kind": "bullet",
+      "text": "Shopify Status My Shopify Status Detailed status for your store can be viewed here .",
+      "tokens": [
+        "shopify",
+        "status",
+        "shopify",
+        "status",
+        "detailed",
+        "status",
+        "your",
+        "store",
+        "viewed",
+        "here"
+      ]
+    },
+    {
+      "charEnd": 255,
+      "charStart": 196,
+      "factId": "hz.web.4919ec565648daca.fact.2",
+      "kind": "bullet",
+      "text": "Subscribe to Updates Subscribe x Visit our support site .",
+      "tokens": [
+        "subscribe",
+        "updates",
+        "subscribe",
+        "visit",
+        "our",
+        "support",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 256,
+      "factId": "hz.web.4919ec565648daca.fact.3",
+      "kind": "bullet",
+      "text": "All Systems Operational Admin Operational Checkout Operational Reports and Dashboards Operational Storefront Operational API & Mobile Operational Third party services Operational Support Operational Point of Sale Operational Oxygen Operational Operational Degraded Performance Partial Outage Major Outage Maintenance Past Incidents Mar 31 , 2026 No incidents reported today.",
+      "tokens": [
+        "all",
+        "systems",
+        "operational",
+        "admin",
+        "operational",
+        "checkout",
+        "operational",
+        "reports",
+        "dashboards",
+        "operational",
+        "storefront",
+        "operational",
+        "api",
+        "mobile",
+        "operational",
+        "third",
+        "party",
+        "services",
+        "operational",
+        "support",
+        "operational",
+        "point",
+        "sale",
+        "operational",
+        "oxygen",
+        "operational",
+        "operational",
+        "degraded",
+        "performance",
+        "partial",
+        "outage",
+        "major",
+        "outage",
+        "maintenance",
+        "past",
+        "incidents",
+        "mar",
+        "31",
+        "2026",
+        "no",
+        "incidents",
+        "reported",
+        "today"
+      ]
+    },
+    {
+      "charEnd": 671,
+      "charStart": 633,
+      "factId": "hz.web.4919ec565648daca.fact.4",
+      "kind": "bullet",
+      "text": "Mar 30 , 2026 No incidents reported.",
+      "tokens": [
+        "mar",
+        "30",
+        "2026",
+        "no",
+        "incidents",
+        "reported"
+      ]
+    },
+    {
+      "charEnd": 697,
+      "charStart": 686,
+      "factId": "hz.web.4919ec565648daca.fact.5",
+      "kind": "bullet",
+      "text": "incidents",
+      "tokens": [
+        "incidents"
+      ]
+    },
+    {
+      "charEnd": 704,
+      "charStart": 698,
+      "factId": "hz.web.4919ec565648daca.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 710,
+      "charStart": 705,
+      "factId": "hz.web.4919ec565648daca.fact.7",
+      "kind": "bullet",
+      "text": "mar",
+      "tokens": [
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 715,
+      "charStart": 711,
+      "factId": "hz.web.4919ec565648daca.fact.8",
+      "kind": "bullet",
+      "text": "no",
+      "tokens": [
+        "no"
+      ]
+    },
+    {
+      "charEnd": 726,
+      "charStart": 716,
+      "factId": "hz.web.4919ec565648daca.fact.9",
+      "kind": "bullet",
+      "text": "reported",
+      "tokens": [
+        "reported"
+      ]
+    },
+    {
+      "charEnd": 740,
+      "charStart": 727,
+      "factId": "hz.web.4919ec565648daca.fact.10",
+      "kind": "bullet",
+      "text": "operational",
+      "tokens": [
+        "operational"
+      ]
+    },
+    {
+      "charEnd": 749,
+      "charStart": 741,
+      "factId": "hz.web.4919ec565648daca.fact.11",
+      "kind": "bullet",
+      "text": "status",
+      "tokens": [
+        "status"
+      ]
+    },
+    {
+      "charEnd": 759,
+      "charStart": 750,
+      "factId": "hz.web.4919ec565648daca.fact.12",
+      "kind": "bullet",
+      "text": "support",
+      "tokens": [
+        "support"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.4919ec565648daca.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Shopify Status"
+    },
+    {
+      "charEnd": 107,
+      "charStart": 97,
+      "headingId": "hz.web.4919ec565648daca.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 684,
+      "charStart": 673,
+      "headingId": "hz.web.4919ec565648daca.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 771,
+      "charStart": 761,
+      "headingId": "hz.web.4919ec565648daca.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4919ec565648daca.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2203,
+        "start": 0
+      }
+    ],
+    "hash": "e24badd5d01aafb1026162cd13d33593362219d25c2ff636e770af9ec7c4c9b4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Shopify Status My Shopify Status Detailed status for your store can be viewed here .",
+      "Subscribe to Updates Subscribe x Visit our support site .",
+      "All Systems Operational Admin Operational Checkout Operational Reports and Dashboards Operational Storefront Operational API & Mobile Operational Third party services Operational Support Operational Point of Sale Operational Oxygen Operational Operational Degraded Performance Partial Outage Major Outage Maintenance Past Incidents Mar 31 , 2026 No incidents reported today."
+    ],
+    "medium": "Source: https://www.shopifystatus.com/",
+    "short": "Source: https://www.shopifystatus.com/",
+    "tokens": [
+      "shopify",
+      "status",
+      "source",
+      "https",
+      "www",
+      "shopifystatus",
+      "com",
+      "source",
+      "https",
+      "www",
+      "shopifystatus",
+      "com"
+    ]
+  },
+  "title": "Shopify Status"
+}

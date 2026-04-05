@@ -1,0 +1,338 @@
+{
+  "aliases": [
+    {
+      "alias": "aedda44062b292a3",
+      "aliasId": "hz.web.aedda44062b292a3.alias.1",
+      "canonical": "ncbi beta home page"
+    },
+    {
+      "alias": "ncbi beta home page",
+      "aliasId": "hz.web.aedda44062b292a3.alias.2",
+      "canonical": "ncbi beta home page"
+    },
+    {
+      "alias": "web aedda44062b292a3",
+      "aliasId": "hz.web.aedda44062b292a3.alias.3",
+      "canonical": "ncbi beta home page"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.aedda44062b292a3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.aedda44062b292a3.entity.1",
+      "kind": "document",
+      "name": "NCBI Beta Home Page",
+      "tokens": [
+        "ncbi",
+        "beta",
+        "home",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.aedda44062b292a3.entity.2",
+      "kind": "heading",
+      "name": "NCBI Beta Home Page",
+      "tokens": [
+        "ncbi",
+        "beta",
+        "home",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.aedda44062b292a3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.aedda44062b292a3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.aedda44062b292a3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 62,
+      "charStart": 24,
+      "factId": "hz.web.aedda44062b292a3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://beta.ncbi.nlm.nih.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "beta",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 114,
+      "factId": "hz.web.aedda44062b292a3.fact.1",
+      "kind": "bullet",
+      "text": "NCBI Beta Home Page Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "ncbi",
+        "beta",
+        "home",
+        "page",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 466,
+      "charStart": 360,
+      "factId": "hz.web.aedda44062b292a3.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 531,
+      "charStart": 467,
+      "factId": "hz.web.aedda44062b292a3.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 572,
+      "charStart": 532,
+      "factId": "hz.web.aedda44062b292a3.fact.4",
+      "kind": "bullet",
+      "text": "beta Welcome to the NCBI beta website!",
+      "tokens": [
+        "beta",
+        "welcome",
+        "ncbi",
+        "beta",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 593,
+      "charStart": 587,
+      "factId": "hz.web.aedda44062b292a3.fact.5",
+      "kind": "bullet",
+      "text": "ncbi",
+      "tokens": [
+        "ncbi"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 594,
+      "factId": "hz.web.aedda44062b292a3.fact.6",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 608,
+      "charStart": 600,
+      "factId": "hz.web.aedda44062b292a3.fact.7",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 616,
+      "charStart": 609,
+      "factId": "hz.web.aedda44062b292a3.fact.8",
+      "kind": "bullet",
+      "text": "visit",
+      "tokens": [
+        "visit"
+      ]
+    },
+    {
+      "charEnd": 624,
+      "charStart": 617,
+      "factId": "hz.web.aedda44062b292a3.fact.9",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 625,
+      "factId": "hz.web.aedda44062b292a3.fact.10",
+      "kind": "bullet",
+      "text": "beta",
+      "tokens": [
+        "beta"
+      ]
+    },
+    {
+      "charEnd": 645,
+      "charStart": 632,
+      "factId": "hz.web.aedda44062b292a3.fact.11",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 651,
+      "charStart": 646,
+      "factId": "hz.web.aedda44062b292a3.fact.12",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.aedda44062b292a3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "NCBI Beta Home Page"
+    },
+    {
+      "charEnd": 112,
+      "charStart": 102,
+      "headingId": "hz.web.aedda44062b292a3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 585,
+      "charStart": 574,
+      "headingId": "hz.web.aedda44062b292a3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 663,
+      "charStart": 653,
+      "headingId": "hz.web.aedda44062b292a3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/aedda44062b292a3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3093,
+        "start": 0
+      }
+    ],
+    "hash": "208b6b72e6ee2f8ac4d277e94ae3684ca99a9b4c6dd709a96271dc069fd5e4a2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "NCBI Beta Home Page Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://beta.ncbi.nlm.nih.gov/",
+    "short": "Source: https://beta.ncbi.nlm.nih.gov/",
+    "tokens": [
+      "ncbi",
+      "beta",
+      "home",
+      "page",
+      "source",
+      "https",
+      "beta",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "beta",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov"
+    ]
+  },
+  "title": "NCBI Beta Home Page"
+}

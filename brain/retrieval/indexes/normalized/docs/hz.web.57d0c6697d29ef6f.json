@@ -1,0 +1,392 @@
+{
+  "aliases": [
+    {
+      "alias": "57d0c6697d29ef6f",
+      "aliasId": "hz.web.57d0c6697d29ef6f.alias.1",
+      "canonical": "librewolf - codeberg.org"
+    },
+    {
+      "alias": "librewolf - codeberg.org",
+      "aliasId": "hz.web.57d0c6697d29ef6f.alias.2",
+      "canonical": "librewolf - codeberg.org"
+    },
+    {
+      "alias": "web 57d0c6697d29ef6f",
+      "aliasId": "hz.web.57d0c6697d29ef6f.alias.3",
+      "canonical": "librewolf - codeberg.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.85,
+  "docId": "hz.web.57d0c6697d29ef6f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.57d0c6697d29ef6f.entity.1",
+      "kind": "document",
+      "name": "LibreWolf - Codeberg.org",
+      "tokens": [
+        "librewolf",
+        "codeberg",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.57d0c6697d29ef6f.entity.2",
+      "kind": "heading",
+      "name": "LibreWolf - Codeberg.org",
+      "tokens": [
+        "librewolf",
+        "codeberg",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.57d0c6697d29ef6f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.57d0c6697d29ef6f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.57d0c6697d29ef6f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 67,
+      "charStart": 29,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://codeberg.org/librewolf",
+      "tokens": [
+        "source",
+        "https",
+        "codeberg",
+        "org",
+        "librewolf"
+      ]
+    },
+    {
+      "charEnd": 292,
+      "charStart": 119,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.1",
+      "kind": "bullet",
+      "text": "LibreWolf - Codeberg.org Explore About FAQ Help Donate Register Sign in LibreWolf RSS feed Atom feed A custom version of Firefox, focused on privacy, security and freedom.",
+      "tokens": [
+        "librewolf",
+        "codeberg",
+        "org",
+        "explore",
+        "about",
+        "faq",
+        "help",
+        "donate",
+        "register",
+        "sign",
+        "librewolf",
+        "rss",
+        "feed",
+        "atom",
+        "feed",
+        "custom",
+        "version",
+        "firefox",
+        "focused",
+        "privacy",
+        "security",
+        "freedom"
+      ]
+    },
+    {
+      "charEnd": 358,
+      "charStart": 293,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.2",
+      "kind": "bullet",
+      "text": "Please report issues to https://codeberg.org/librewolf/issues .",
+      "tokens": [
+        "please",
+        "report",
+        "issues",
+        "https",
+        "codeberg",
+        "org",
+        "librewolf",
+        "issues"
+      ]
+    },
+    {
+      "charEnd": 966,
+      "charStart": 359,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.3",
+      "kind": "bullet",
+      "text": "https://librewolf.net Repositories 19 19 Projects 0 Packages 3 3 0 Filter Clear filters Archived Not archived Forks Not forks Mirrors Not mirrors Templates Not templates Private Public Sort Newest Oldest Alphabetically Reverse alphabetically Recently updated Least recently updated Most stars Fewest stars Most forks Fewest forks Smallest size Largest size source Fluent 984 78 LibreWolf - Source Archive privacy security firefox browser Updated 2026-03-31 08:00:53 +02:00 librewolf-winupdater AutoHotkey 34 2 An attempt to make (automatic) updating of LibreWolf for Windows much easier ( GitHub mirror ).",
+      "tokens": [
+        "https",
+        "librewolf",
+        "net",
+        "repositories",
+        "19",
+        "19",
+        "projects",
+        "packages",
+        "filter",
+        "clear",
+        "filters",
+        "archived",
+        "not",
+        "archived",
+        "forks",
+        "not",
+        "forks",
+        "mirrors",
+        "not",
+        "mirrors",
+        "templates",
+        "not",
+        "templates",
+        "private",
+        "public",
+        "sort",
+        "newest",
+        "oldest",
+        "alphabetically",
+        "reverse",
+        "alphabetically",
+        "recently",
+        "updated",
+        "least",
+        "recently",
+        "updated",
+        "most",
+        "stars",
+        "fewest",
+        "stars",
+        "most",
+        "forks",
+        "fewest",
+        "forks",
+        "smallest",
+        "size",
+        "largest",
+        "size",
+        "source",
+        "fluent",
+        "984",
+        "78",
+        "librewolf",
+        "source",
+        "archive",
+        "privacy",
+        "security",
+        "firefox",
+        "browser",
+        "updated",
+        "2026",
+        "03",
+        "31",
+        "08",
+        "00",
+        "53",
+        "02",
+        "00",
+        "librewolf",
+        "winupdater",
+        "autohotkey",
+        "34",
+        "attempt",
+        "make",
+        "automatic",
+        "updating",
+        "librewolf",
+        "windows",
+        "much",
+        "easier",
+        "github",
+        "mirror"
+      ]
+    },
+    {
+      "charEnd": 1019,
+      "charStart": 967,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.4",
+      "kind": "bullet",
+      "text": "Can be used for installed and portable instances .",
+      "tokens": [
+        "used",
+        "installed",
+        "portable",
+        "instances"
+      ]
+    },
+    {
+      "charEnd": 1045,
+      "charStart": 1034,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.5",
+      "kind": "bullet",
+      "text": "librewolf",
+      "tokens": [
+        "librewolf"
+      ]
+    },
+    {
+      "charEnd": 1055,
+      "charStart": 1046,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.6",
+      "kind": "bullet",
+      "text": "updated",
+      "tokens": [
+        "updated"
+      ]
+    },
+    {
+      "charEnd": 1060,
+      "charStart": 1056,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.7",
+      "kind": "bullet",
+      "text": "00",
+      "tokens": [
+        "00"
+      ]
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1061,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.8",
+      "kind": "bullet",
+      "text": "01",
+      "tokens": [
+        "01"
+      ]
+    },
+    {
+      "charEnd": 1070,
+      "charStart": 1066,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.9",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 1077,
+      "charStart": 1071,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.10",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1082,
+      "charStart": 1078,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.11",
+      "kind": "bullet",
+      "text": "12",
+      "tokens": [
+        "12"
+      ]
+    },
+    {
+      "charEnd": 1093,
+      "charStart": 1083,
+      "factId": "hz.web.57d0c6697d29ef6f.fact.12",
+      "kind": "bullet",
+      "text": "codeberg",
+      "tokens": [
+        "codeberg"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.57d0c6697d29ef6f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LibreWolf - Codeberg.org"
+    },
+    {
+      "charEnd": 117,
+      "charStart": 107,
+      "headingId": "hz.web.57d0c6697d29ef6f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1032,
+      "charStart": 1021,
+      "headingId": "hz.web.57d0c6697d29ef6f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1105,
+      "charStart": 1095,
+      "headingId": "hz.web.57d0c6697d29ef6f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/57d0c6697d29ef6f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4346,
+        "start": 0
+      }
+    ],
+    "hash": "8f69fd14881aa5a4c34bbf0f7de4b94a63562748a3c4efe081956aab514bc74f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LibreWolf - Codeberg.org Explore About FAQ Help Donate Register Sign in LibreWolf RSS feed Atom feed A custom version of Firefox, focused on privacy, security and freedom.",
+      "Please report issues to https://codeberg.org/librewolf/issues .",
+      "https://librewolf.net Repositories 19 19 Projects 0 Packages 3 3 0 Filter Clear filters Archived Not archived Forks Not forks Mirrors Not mirrors Templates Not templates Private Public Sort Newest Oldest Alphabetically Reverse alphabetically Recently updated Least recently updated Most stars Fewest stars Most forks Fewest forks Smallest size Largest size source Fluent 984 78 LibreWolf - Source Archive privacy security firefox browser Updated 2026-03-31 08:00:53 +02:00 librewolf-winupdater AutoHotkey 34 2 An attempt to make (automatic) updating of LibreWolf for Windows much easier ( GitHub mirror )."
+    ],
+    "medium": "Source: https://codeberg.org/librewolf",
+    "short": "Source: https://codeberg.org/librewolf",
+    "tokens": [
+      "librewolf",
+      "codeberg",
+      "org",
+      "source",
+      "https",
+      "codeberg",
+      "org",
+      "librewolf",
+      "source",
+      "https",
+      "codeberg",
+      "org",
+      "librewolf"
+    ]
+  },
+  "title": "LibreWolf - Codeberg.org"
+}

@@ -1,0 +1,567 @@
+{
+  "aliases": [
+    {
+      "alias": "1d195c7145cda1be",
+      "aliasId": "hz.web.1d195c7145cda1be.alias.1",
+      "canonical": "@vic.demuzere.be - vic demuzere"
+    },
+    {
+      "alias": "vic.demuzere.be - vic demuzere",
+      "aliasId": "hz.web.1d195c7145cda1be.alias.2",
+      "canonical": "@vic.demuzere.be - vic demuzere"
+    },
+    {
+      "alias": "web 1d195c7145cda1be",
+      "aliasId": "hz.web.1d195c7145cda1be.alias.3",
+      "canonical": "@vic.demuzere.be - vic demuzere"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.53,
+  "docId": "hz.web.1d195c7145cda1be",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1d195c7145cda1be.entity.1",
+      "kind": "document",
+      "name": "@vic.demuzere.be - Vic Demuzere",
+      "tokens": [
+        "vic",
+        "demuzere",
+        "vic",
+        "demuzere"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d195c7145cda1be.entity.2",
+      "kind": "heading",
+      "name": "@vic.demuzere.be - Vic Demuzere",
+      "tokens": [
+        "vic",
+        "demuzere",
+        "vic",
+        "demuzere"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d195c7145cda1be.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d195c7145cda1be.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d195c7145cda1be.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 105,
+      "charStart": 36,
+      "factId": "hz.web.1d195c7145cda1be.fact.1",
+      "kind": "summary",
+      "text": "Source: https://bsky.app/profile/did:plc:hd3sj73xkejms3i5ig6c4aky/rss",
+      "tokens": [
+        "source",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "plc",
+        "hd3sj73xkejms3i5ig6c4aky",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 1041,
+      "charStart": 157,
+      "factId": "hz.web.1d195c7145cda1be.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\"><channel><description>Gamer, developer and Linux enthusiast at home, senior site reliability engineer at Combell.&#xA;&#xA;https://vic.demuzere.be</description><link>https://bsky.app/profile/vic.demuzere.be</link><title>@vic.demuzere.be - Vic Demuzere</title><item><link>https://bsky.app/profile/vic.demuzere.be/post/3maqlybzscc2a</link><description>Getting creative with randomblob(N) to generate UUID v4 in SQLite&#xA;https://vic.demuzere.be/articles/generating-uuids-in-sqlite/</description><pubDate>24 Dec 2025 15:40 +0000</pubDate><guid isPermaLink=\"false\">at://did:plc:hd3sj73xkejms3i5ig6c4aky/app.bsky.feed.post/3maqlybzscc2a</guid></item><item><link>https://bsky.app/profile/vic.demuzere.be/post/3m2c2fq2yds2k</link><description>@ericmigi.com I hope you manage to make the Pebble Time 2 waterproof like the old ones.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "channel",
+        "description",
+        "gamer",
+        "developer",
+        "linux",
+        "enthusiast",
+        "home",
+        "senior",
+        "site",
+        "reliability",
+        "engineer",
+        "combell",
+        "xa",
+        "xa",
+        "https",
+        "vic",
+        "demuzere",
+        "description",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "vic",
+        "demuzere",
+        "link",
+        "title",
+        "vic",
+        "demuzere",
+        "vic",
+        "demuzere",
+        "title",
+        "item",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "vic",
+        "demuzere",
+        "post",
+        "3maqlybzscc2a",
+        "link",
+        "description",
+        "getting",
+        "creative",
+        "randomblob",
+        "generate",
+        "uuid",
+        "v4",
+        "sqlite",
+        "xa",
+        "https",
+        "vic",
+        "demuzere",
+        "articles",
+        "generating",
+        "uuids",
+        "sqlite",
+        "description",
+        "pubdate",
+        "24",
+        "dec",
+        "2025",
+        "15",
+        "40",
+        "0000",
+        "pubdate",
+        "guid",
+        "ispermalink",
+        "false",
+        "plc",
+        "hd3sj73xkejms3i5ig6c4aky",
+        "app",
+        "bsky",
+        "feed",
+        "post",
+        "3maqlybzscc2a",
+        "guid",
+        "item",
+        "item",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "vic",
+        "demuzere",
+        "post",
+        "3m2c2fq2yds2k",
+        "link",
+        "description",
+        "ericmigi",
+        "com",
+        "hope",
+        "manage",
+        "make",
+        "pebble",
+        "time",
+        "waterproof",
+        "like",
+        "old",
+        "ones"
+      ]
+    },
+    {
+      "charEnd": 1270,
+      "charStart": 1042,
+      "factId": "hz.web.1d195c7145cda1be.fact.2",
+      "kind": "bullet",
+      "text": "I&#39;m used to wearing my Pebble Time Steel (or my Casio) wherever I go, also when swimming.&#xA;&#xA;Always having to think about &#34;can I jump into this pool with my watch?&#34; is quite the downside for having a speaker.",
+      "tokens": [
+        "39",
+        "used",
+        "wearing",
+        "pebble",
+        "time",
+        "steel",
+        "casio",
+        "wherever",
+        "go",
+        "also",
+        "swimming",
+        "xa",
+        "xa",
+        "always",
+        "having",
+        "think",
+        "about",
+        "34",
+        "jump",
+        "into",
+        "pool",
+        "watch",
+        "34",
+        "quite",
+        "downside",
+        "having",
+        "speaker"
+      ]
+    },
+    {
+      "charEnd": 1591,
+      "charStart": 1271,
+      "factId": "hz.web.1d195c7145cda1be.fact.3",
+      "kind": "bullet",
+      "text": "😥</description><pubDate>03 Oct 2025 12:17 +0000</pubDate><guid isPermaLink=\"false\">at://did:plc:hd3sj73xkejms3i5ig6c4aky/app.bsky.feed.post/3m2c2fq2yds2k</guid></item><item><link>https://bsky.app/profile/vic.demuzere.be/post/3m25gew4nyc2j</link><description>Bought a new charge cable and installed the new Pebble app.",
+      "tokens": [
+        "description",
+        "pubdate",
+        "03",
+        "oct",
+        "2025",
+        "12",
+        "17",
+        "0000",
+        "pubdate",
+        "guid",
+        "ispermalink",
+        "false",
+        "plc",
+        "hd3sj73xkejms3i5ig6c4aky",
+        "app",
+        "bsky",
+        "feed",
+        "post",
+        "3m2c2fq2yds2k",
+        "guid",
+        "item",
+        "item",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "vic",
+        "demuzere",
+        "post",
+        "3m25gew4nyc2j",
+        "link",
+        "description",
+        "bought",
+        "new",
+        "charge",
+        "cable",
+        "installed",
+        "new",
+        "pebble",
+        "app"
+      ]
+    },
+    {
+      "charEnd": 1863,
+      "charStart": 1592,
+      "factId": "hz.web.1d195c7145cda1be.fact.4",
+      "kind": "bullet",
+      "text": "Feels good to wear my Pebble once again.&#xA;&#xA;Can&#39;t wait for the Pebble Time 2!</description><pubDate>01 Oct 2025 16:08 +0000</pubDate><guid isPermaLink=\"false\">at://did:plc:hd3sj73xkejms3i5ig6c4aky/app.bsky.feed.post/3m25gew4nyc2j</guid></item></channel></rss>",
+      "tokens": [
+        "feels",
+        "good",
+        "wear",
+        "pebble",
+        "once",
+        "again",
+        "xa",
+        "xa",
+        "39",
+        "wait",
+        "pebble",
+        "time",
+        "description",
+        "pubdate",
+        "01",
+        "oct",
+        "2025",
+        "16",
+        "08",
+        "0000",
+        "pubdate",
+        "guid",
+        "ispermalink",
+        "false",
+        "plc",
+        "hd3sj73xkejms3i5ig6c4aky",
+        "app",
+        "bsky",
+        "feed",
+        "post",
+        "3m25gew4nyc2j",
+        "guid",
+        "item",
+        "channel",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 1883,
+      "charStart": 1878,
+      "factId": "hz.web.1d195c7145cda1be.fact.5",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    },
+    {
+      "charEnd": 1894,
+      "charStart": 1884,
+      "factId": "hz.web.1d195c7145cda1be.fact.6",
+      "kind": "bullet",
+      "text": "demuzere",
+      "tokens": [
+        "demuzere"
+      ]
+    },
+    {
+      "charEnd": 1908,
+      "charStart": 1895,
+      "factId": "hz.web.1d195c7145cda1be.fact.7",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 1915,
+      "charStart": 1909,
+      "factId": "hz.web.1d195c7145cda1be.fact.8",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 1921,
+      "charStart": 1916,
+      "factId": "hz.web.1d195c7145cda1be.fact.9",
+      "kind": "bullet",
+      "text": "vic",
+      "tokens": [
+        "vic"
+      ]
+    },
+    {
+      "charEnd": 1928,
+      "charStart": 1922,
+      "factId": "hz.web.1d195c7145cda1be.fact.10",
+      "kind": "bullet",
+      "text": "bsky",
+      "tokens": [
+        "bsky"
+      ]
+    },
+    {
+      "charEnd": 1933,
+      "charStart": 1929,
+      "factId": "hz.web.1d195c7145cda1be.fact.11",
+      "kind": "bullet",
+      "text": "xa",
+      "tokens": [
+        "xa"
+      ]
+    },
+    {
+      "charEnd": 1940,
+      "charStart": 1934,
+      "factId": "hz.web.1d195c7145cda1be.fact.12",
+      "kind": "bullet",
+      "text": "guid",
+      "tokens": [
+        "guid"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 34,
+      "charStart": 1,
+      "headingId": "hz.web.1d195c7145cda1be.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "@vic.demuzere.be - Vic Demuzere"
+    },
+    {
+      "charEnd": 155,
+      "charStart": 145,
+      "headingId": "hz.web.1d195c7145cda1be.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1876,
+      "charStart": 1865,
+      "headingId": "hz.web.1d195c7145cda1be.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1952,
+      "charStart": 1942,
+      "headingId": "hz.web.1d195c7145cda1be.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1d195c7145cda1be.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3929,
+        "start": 0
+      }
+    ],
+    "hash": "f02737552c93a8c5eb7b84efef6050a859dd4e7616a08b49944ad21340d0788d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.1d195c7145cda1be.rule.1",
+      "text": "- I&#39;m used to wearing my Pebble Time Steel (or my Casio) wherever I go, also when swimming.&#xA;&#xA;Always having to think about &#34;can I jump into this pool with my watch?&#34; is quite the downside for having a speaker.",
+      "tokens": [
+        "39",
+        "used",
+        "wearing",
+        "pebble",
+        "time",
+        "steel",
+        "casio",
+        "wherever",
+        "go",
+        "also",
+        "swimming",
+        "xa",
+        "xa",
+        "always",
+        "having",
+        "think",
+        "about",
+        "34",
+        "jump",
+        "into",
+        "pool",
+        "watch",
+        "34",
+        "quite",
+        "downside",
+        "having",
+        "speaker"
+      ]
+    },
+    {
+      "ruleId": "hz.web.1d195c7145cda1be.rule.2",
+      "text": "I&#39;m used to wearing my Pebble Time Steel (or my Casio) wherever I go, also when swimming.&#xA;&#xA;Always having to think about &#34;can I jump into this pool with my watch?&#34; is quite the downside for having a speaker.",
+      "tokens": [
+        "39",
+        "used",
+        "wearing",
+        "pebble",
+        "time",
+        "steel",
+        "casio",
+        "wherever",
+        "go",
+        "also",
+        "swimming",
+        "xa",
+        "xa",
+        "always",
+        "having",
+        "think",
+        "about",
+        "34",
+        "jump",
+        "into",
+        "pool",
+        "watch",
+        "34",
+        "quite",
+        "downside",
+        "having",
+        "speaker"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\"><channel><description>Gamer, developer and Linux enthusiast at home, senior site reliability engineer at Combell.&#xA;&#xA;https://vic.demuzere.be</description><link>https://bsky.app/profile/vic.demuzere.be</link><title>@vic.demuzere.be - Vic Demuzere</title><item><link>https://bsky.app/profile/vic.demuzere.be/post/3maqlybzscc2a</link><description>Getting creative with randomblob(N) to generate UUID v4 in SQLite&#xA;https://vic.demuzere.be/articles/generating-uuids-in-sqlite/</description><pubDate>24 Dec 2025 15:40 +0000</pubDate><guid isPermaLink=\"false\">at://did:plc:hd3sj73xkejms3i5ig6c4aky/app.bsky.feed.post/3maqlybzscc2a</guid></item><item><link>https://bsky.app/profile/vic.demuzere.be/post/3m2c2fq2yds2k</link><description>@ericmigi.com I hope you manage to make the Pebble Time 2 waterproof like the old ones.",
+      "I&#39;m used to wearing my Pebble Time Steel (or my Casio) wherever I go, also when swimming.&#xA;&#xA;Always having to think about &#34;can I jump into this pool with my watch?&#34; is quite the downside for having a speaker.",
+      "😥</description><pubDate>03 Oct 2025 12:17 +0000</pubDate><guid isPermaLink=\"false\">at://did:plc:hd3sj73xkejms3i5ig6c4aky/app.bsky.feed.post/3m2c2fq2yds2k</guid></item><item><link>https://bsky.app/profile/vic.demuzere.be/post/3m25gew4nyc2j</link><description>Bought a new charge cable and installed the new Pebble app."
+    ],
+    "medium": "Source: https://bsky.app/profile/did:plc:hd3sj73xkejms3i5ig6c4aky/rss",
+    "short": "Source: https://bsky.app/profile/did:plc:hd3sj73xkejms3i5ig6c4aky/rss",
+    "tokens": [
+      "vic",
+      "demuzere",
+      "vic",
+      "demuzere",
+      "source",
+      "https",
+      "bsky",
+      "app",
+      "profile",
+      "plc",
+      "hd3sj73xkejms3i5ig6c4aky",
+      "rss",
+      "source",
+      "https",
+      "bsky",
+      "app",
+      "profile",
+      "plc",
+      "hd3sj73xkejms3i5ig6c4aky",
+      "rss"
+    ]
+  },
+  "title": "@vic.demuzere.be - Vic Demuzere"
+}

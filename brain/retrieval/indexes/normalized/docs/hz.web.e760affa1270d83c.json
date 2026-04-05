@@ -1,0 +1,458 @@
+{
+  "aliases": [
+    {
+      "alias": "e760affa1270d83c",
+      "aliasId": "hz.web.e760affa1270d83c.alias.1",
+      "canonical": "pmc journal list - pmc"
+    },
+    {
+      "alias": "pmc journal list - pmc",
+      "aliasId": "hz.web.e760affa1270d83c.alias.2",
+      "canonical": "pmc journal list - pmc"
+    },
+    {
+      "alias": "web e760affa1270d83c",
+      "aliasId": "hz.web.e760affa1270d83c.alias.3",
+      "canonical": "pmc journal list - pmc"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.e760affa1270d83c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e760affa1270d83c.entity.1",
+      "kind": "document",
+      "name": "PMC Journal List - PMC",
+      "tokens": [
+        "pmc",
+        "journal",
+        "list",
+        "pmc"
+      ]
+    },
+    {
+      "entityId": "hz.web.e760affa1270d83c.entity.2",
+      "kind": "heading",
+      "name": "PMC Journal List - PMC",
+      "tokens": [
+        "pmc",
+        "journal",
+        "list",
+        "pmc"
+      ]
+    },
+    {
+      "entityId": "hz.web.e760affa1270d83c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e760affa1270d83c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e760affa1270d83c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 27,
+      "factId": "hz.web.e760affa1270d83c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://pmc.ncbi.nlm.nih.gov/journals/",
+      "tokens": [
+        "source",
+        "https",
+        "pmc",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "journals"
+      ]
+    },
+    {
+      "charEnd": 373,
+      "charStart": 125,
+      "factId": "hz.web.e760affa1270d83c.fact.1",
+      "kind": "bullet",
+      "text": "PMC Journal List - PMC Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "pmc",
+        "journal",
+        "list",
+        "pmc",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 480,
+      "charStart": 374,
+      "factId": "hz.web.e760affa1270d83c.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 481,
+      "factId": "hz.web.e760affa1270d83c.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1456,
+      "charStart": 546,
+      "factId": "hz.web.e760affa1270d83c.fact.4",
+      "kind": "bullet",
+      "text": "Search Log in Dashboard Publications Account settings Log out Search… Search NCBI Primary site navigation Search Logged in as: Dashboard Publications Account settings Log in Search PMC Full-Text Archive Search in PMC Journal List User Guide PMC Journal List Learn more in our User Guide Reset to Full Journal List Search for journals Search Journal List Download full journal list | Download results 4450 results 4450 results 3 Biotech See all articles in PMC from this journal NLM Title Abbreviation: 3 Biotech Publisher: Springer ISSN (print): 2190-572X ISSN (online): 2190-5738 NLM Unique ID: 101565857 Earliest: v.1(1) 2011 Most Recent: v.16(4) 2026 Release Delay (Embargo): 12 months Agreement Status: Active Agreement to Deposit: All articles 3D Printing and Additive Manufacturing See all articles in PMC from this journal NLM Title Abbreviation: 3D Print Addit Manuf Publisher: Mary Ann Liebert, Inc.",
+      "tokens": [
+        "search",
+        "log",
+        "dashboard",
+        "publications",
+        "account",
+        "settings",
+        "log",
+        "out",
+        "search",
+        "search",
+        "ncbi",
+        "primary",
+        "site",
+        "navigation",
+        "search",
+        "logged",
+        "dashboard",
+        "publications",
+        "account",
+        "settings",
+        "log",
+        "search",
+        "pmc",
+        "full",
+        "text",
+        "archive",
+        "search",
+        "pmc",
+        "journal",
+        "list",
+        "user",
+        "guide",
+        "pmc",
+        "journal",
+        "list",
+        "learn",
+        "more",
+        "our",
+        "user",
+        "guide",
+        "reset",
+        "full",
+        "journal",
+        "list",
+        "search",
+        "journals",
+        "search",
+        "journal",
+        "list",
+        "download",
+        "full",
+        "journal",
+        "list",
+        "download",
+        "results",
+        "4450",
+        "results",
+        "4450",
+        "results",
+        "biotech",
+        "see",
+        "all",
+        "articles",
+        "pmc",
+        "journal",
+        "nlm",
+        "title",
+        "abbreviation",
+        "biotech",
+        "publisher",
+        "springer",
+        "issn",
+        "print",
+        "2190",
+        "572x",
+        "issn",
+        "online",
+        "2190",
+        "5738",
+        "nlm",
+        "unique",
+        "id",
+        "101565857",
+        "earliest",
+        "2011",
+        "most",
+        "recent",
+        "16",
+        "2026",
+        "release",
+        "delay",
+        "embargo",
+        "12",
+        "months",
+        "agreement",
+        "status",
+        "active",
+        "agreement",
+        "deposit",
+        "all",
+        "articles",
+        "3d",
+        "printing",
+        "additive",
+        "manufacturing",
+        "see",
+        "all",
+        "articles",
+        "pmc",
+        "journal",
+        "nlm",
+        "title",
+        "abbreviation",
+        "3d",
+        "print",
+        "addit",
+        "manuf",
+        "publisher",
+        "mary",
+        "ann",
+        "liebert",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 1480,
+      "charStart": 1471,
+      "factId": "hz.web.e760affa1270d83c.fact.5",
+      "kind": "bullet",
+      "text": "journal",
+      "tokens": [
+        "journal"
+      ]
+    },
+    {
+      "charEnd": 1491,
+      "charStart": 1481,
+      "factId": "hz.web.e760affa1270d83c.fact.6",
+      "kind": "bullet",
+      "text": "articles",
+      "tokens": [
+        "articles"
+      ]
+    },
+    {
+      "charEnd": 1497,
+      "charStart": 1492,
+      "factId": "hz.web.e760affa1270d83c.fact.7",
+      "kind": "bullet",
+      "text": "pmc",
+      "tokens": [
+        "pmc"
+      ]
+    },
+    {
+      "charEnd": 1509,
+      "charStart": 1498,
+      "factId": "hz.web.e760affa1270d83c.fact.8",
+      "kind": "bullet",
+      "text": "agreement",
+      "tokens": [
+        "agreement"
+      ]
+    },
+    {
+      "charEnd": 1515,
+      "charStart": 1510,
+      "factId": "hz.web.e760affa1270d83c.fact.9",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 1521,
+      "charStart": 1516,
+      "factId": "hz.web.e760affa1270d83c.fact.10",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 1531,
+      "charStart": 1522,
+      "factId": "hz.web.e760affa1270d83c.fact.11",
+      "kind": "bullet",
+      "text": "release",
+      "tokens": [
+        "release"
+      ]
+    },
+    {
+      "charEnd": 1539,
+      "charStart": 1532,
+      "factId": "hz.web.e760affa1270d83c.fact.12",
+      "kind": "bullet",
+      "text": "title",
+      "tokens": [
+        "title"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.e760affa1270d83c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "PMC Journal List - PMC"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.e760affa1270d83c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1469,
+      "charStart": 1458,
+      "headingId": "hz.web.e760affa1270d83c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1551,
+      "charStart": 1541,
+      "headingId": "hz.web.e760affa1270d83c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/e760affa1270d83c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4798,
+        "start": 0
+      }
+    ],
+    "hash": "8582a4900af73e7bc65622ab4633c7444ed31fc48be778d085b9d31ab1c34000",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "PMC Journal List - PMC Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://pmc.ncbi.nlm.nih.gov/journals/",
+    "short": "Source: https://pmc.ncbi.nlm.nih.gov/journals/",
+    "tokens": [
+      "pmc",
+      "journal",
+      "list",
+      "pmc",
+      "source",
+      "https",
+      "pmc",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "journals",
+      "source",
+      "https",
+      "pmc",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "journals"
+    ]
+  },
+  "title": "PMC Journal List - PMC"
+}

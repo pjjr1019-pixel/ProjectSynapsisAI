@@ -1,0 +1,397 @@
+{
+  "aliases": [
+    {
+      "alias": "36fd8b13f22831bb",
+      "aliasId": "hz.web.36fd8b13f22831bb.alias.1",
+      "canonical": "write to the help desk &nbsp;&middot; nlm customer support center"
+    },
+    {
+      "alias": "web 36fd8b13f22831bb",
+      "aliasId": "hz.web.36fd8b13f22831bb.alias.2",
+      "canonical": "write to the help desk &nbsp;&middot; nlm customer support center"
+    },
+    {
+      "alias": "write to the help desk nbsp middot nlm customer support center",
+      "aliasId": "hz.web.36fd8b13f22831bb.alias.3",
+      "canonical": "write to the help desk &nbsp;&middot; nlm customer support center"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.68,
+  "docId": "hz.web.36fd8b13f22831bb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.36fd8b13f22831bb.entity.1",
+      "kind": "document",
+      "name": "Write to the Help Desk &nbsp;&middot; NLM Customer Support Center",
+      "tokens": [
+        "write",
+        "help",
+        "desk",
+        "nbsp",
+        "middot",
+        "nlm",
+        "customer",
+        "support",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.36fd8b13f22831bb.entity.2",
+      "kind": "heading",
+      "name": "Write to the Help Desk &nbsp;&middot; NLM Customer Support Center",
+      "tokens": [
+        "write",
+        "help",
+        "desk",
+        "nbsp",
+        "middot",
+        "nlm",
+        "customer",
+        "support",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.36fd8b13f22831bb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.36fd8b13f22831bb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.36fd8b13f22831bb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 126,
+      "charStart": 70,
+      "factId": "hz.web.36fd8b13f22831bb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://support.nlm.nih.gov/support/create-case/",
+      "tokens": [
+        "source",
+        "https",
+        "support",
+        "nlm",
+        "nih",
+        "gov",
+        "support",
+        "create",
+        "case"
+      ]
+    },
+    {
+      "charEnd": 261,
+      "charStart": 178,
+      "factId": "hz.web.36fd8b13f22831bb.fact.1",
+      "kind": "bullet",
+      "text": "Write to the Help Desk &middot; NLM Customer Support Center You&#8217;re offline.",
+      "tokens": [
+        "write",
+        "help",
+        "desk",
+        "middot",
+        "nlm",
+        "customer",
+        "support",
+        "center",
+        "8217",
+        "re",
+        "offline"
+      ]
+    },
+    {
+      "charEnd": 304,
+      "charStart": 262,
+      "factId": "hz.web.36fd8b13f22831bb.fact.2",
+      "kind": "bullet",
+      "text": "This is a read only version of the page.",
+      "tokens": [
+        "read",
+        "only",
+        "version",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 482,
+      "charStart": 305,
+      "factId": "hz.web.36fd8b13f22831bb.fact.3",
+      "kind": "bullet",
+      "text": "Toggle navigation National Library of Medicine National Library of Medicine Support Center Home Sign in --> Home Write to the Help Desk Case Submission Loading, please wait...",
+      "tokens": [
+        "toggle",
+        "navigation",
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "library",
+        "medicine",
+        "support",
+        "center",
+        "home",
+        "sign",
+        "home",
+        "write",
+        "help",
+        "desk",
+        "case",
+        "submission",
+        "loading",
+        "please",
+        "wait"
+      ]
+    },
+    {
+      "charEnd": 608,
+      "charStart": 483,
+      "factId": "hz.web.36fd8b13f22831bb.fact.4",
+      "kind": "bullet",
+      "text": "I am writing about: Clear lookup field Launch lookup modal Lookup records &times; Close We're sorry, an error has occurred.",
+      "tokens": [
+        "am",
+        "writing",
+        "about",
+        "clear",
+        "lookup",
+        "field",
+        "launch",
+        "lookup",
+        "modal",
+        "lookup",
+        "records",
+        "times",
+        "close",
+        "re",
+        "sorry",
+        "error",
+        "has",
+        "occurred"
+      ]
+    },
+    {
+      "charEnd": 630,
+      "charStart": 623,
+      "factId": "hz.web.36fd8b13f22831bb.fact.5",
+      "kind": "bullet",
+      "text": "error",
+      "tokens": [
+        "error"
+      ]
+    },
+    {
+      "charEnd": 638,
+      "charStart": 631,
+      "factId": "hz.web.36fd8b13f22831bb.fact.6",
+      "kind": "bullet",
+      "text": "close",
+      "tokens": [
+        "close"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 639,
+      "factId": "hz.web.36fd8b13f22831bb.fact.7",
+      "kind": "bullet",
+      "text": "lookup",
+      "tokens": [
+        "lookup"
+      ]
+    },
+    {
+      "charEnd": 657,
+      "charStart": 648,
+      "factId": "hz.web.36fd8b13f22831bb.fact.8",
+      "kind": "bullet",
+      "text": "records",
+      "tokens": [
+        "records"
+      ]
+    },
+    {
+      "charEnd": 662,
+      "charStart": 658,
+      "factId": "hz.web.36fd8b13f22831bb.fact.9",
+      "kind": "bullet",
+      "text": "re",
+      "tokens": [
+        "re"
+      ]
+    },
+    {
+      "charEnd": 668,
+      "charStart": 663,
+      "factId": "hz.web.36fd8b13f22831bb.fact.10",
+      "kind": "bullet",
+      "text": "has",
+      "tokens": [
+        "has"
+      ]
+    },
+    {
+      "charEnd": 679,
+      "charStart": 669,
+      "factId": "hz.web.36fd8b13f22831bb.fact.11",
+      "kind": "bullet",
+      "text": "occurred",
+      "tokens": [
+        "occurred"
+      ]
+    },
+    {
+      "charEnd": 687,
+      "charStart": 680,
+      "factId": "hz.web.36fd8b13f22831bb.fact.12",
+      "kind": "bullet",
+      "text": "sorry",
+      "tokens": [
+        "sorry"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 68,
+      "charStart": 1,
+      "headingId": "hz.web.36fd8b13f22831bb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Write to the Help Desk &nbsp;&middot; NLM Customer Support Center"
+    },
+    {
+      "charEnd": 176,
+      "charStart": 166,
+      "headingId": "hz.web.36fd8b13f22831bb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 621,
+      "charStart": 610,
+      "headingId": "hz.web.36fd8b13f22831bb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 699,
+      "charStart": 689,
+      "headingId": "hz.web.36fd8b13f22831bb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/36fd8b13f22831bb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3027,
+        "start": 0
+      }
+    ],
+    "hash": "1a27924490043e05fa16bfec6c1d69245f481e9ecb64564ef329ccf601705c24",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.36fd8b13f22831bb.rule.1",
+      "text": "You don't have permissions to view these records.",
+      "tokens": [
+        "don",
+        "have",
+        "permissions",
+        "view",
+        "these",
+        "records"
+      ]
+    },
+    {
+      "ruleId": "hz.web.36fd8b13f22831bb.rule.2",
+      "text": "You don't have permissions to view these records.",
+      "tokens": [
+        "don",
+        "have",
+        "permissions",
+        "view",
+        "these",
+        "records"
+      ]
+    },
+    {
+      "ruleId": "hz.web.36fd8b13f22831bb.rule.3",
+      "text": "You don't have permissions to view these records.",
+      "tokens": [
+        "don",
+        "have",
+        "permissions",
+        "view",
+        "these",
+        "records"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Write to the Help Desk &middot; NLM Customer Support Center You&#8217;re offline.",
+      "This is a read only version of the page.",
+      "Toggle navigation National Library of Medicine National Library of Medicine Support Center Home Sign in --> Home Write to the Help Desk Case Submission Loading, please wait..."
+    ],
+    "medium": "Source: https://support.nlm.nih.gov/support/create-case/",
+    "short": "Source: https://support.nlm.nih.gov/support/create-case/",
+    "tokens": [
+      "write",
+      "help",
+      "desk",
+      "nbsp",
+      "middot",
+      "nlm",
+      "customer",
+      "support",
+      "center",
+      "source",
+      "https",
+      "support",
+      "nlm",
+      "nih",
+      "gov",
+      "support",
+      "create",
+      "case",
+      "source",
+      "https",
+      "support",
+      "nlm",
+      "nih",
+      "gov",
+      "support",
+      "create",
+      "case"
+    ]
+  },
+  "title": "Write to the Help Desk &nbsp;&middot; NLM Customer Support Center"
+}

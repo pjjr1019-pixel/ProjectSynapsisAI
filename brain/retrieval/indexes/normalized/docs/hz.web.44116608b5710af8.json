@@ -1,0 +1,497 @@
+{
+  "aliases": [
+    {
+      "alias": "44116608b5710af8",
+      "aliasId": "hz.web.44116608b5710af8.alias.1",
+      "canonical": "about | qunit"
+    },
+    {
+      "alias": "about qunit",
+      "aliasId": "hz.web.44116608b5710af8.alias.2",
+      "canonical": "about | qunit"
+    },
+    {
+      "alias": "web 44116608b5710af8",
+      "aliasId": "hz.web.44116608b5710af8.alias.3",
+      "canonical": "about | qunit"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.44116608b5710af8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.44116608b5710af8.entity.1",
+      "kind": "document",
+      "name": "About | QUnit",
+      "tokens": [
+        "about",
+        "qunit"
+      ]
+    },
+    {
+      "entityId": "hz.web.44116608b5710af8.entity.2",
+      "kind": "heading",
+      "name": "About | QUnit",
+      "tokens": [
+        "about",
+        "qunit"
+      ]
+    },
+    {
+      "entityId": "hz.web.44116608b5710af8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.44116608b5710af8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.44116608b5710af8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 18,
+      "factId": "hz.web.44116608b5710af8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://qunitjs.com/about/",
+      "tokens": [
+        "source",
+        "https",
+        "qunitjs",
+        "com",
+        "about"
+      ]
+    },
+    {
+      "charEnd": 313,
+      "charStart": 104,
+      "factId": "hz.web.44116608b5710af8.fact.1",
+      "kind": "bullet",
+      "text": "About | QUnit Guides Getting Started Download Browser Runner Command-line Interface Compatibility Test lifecycle QUnit 2.0 Upgrade Guide Documentation Blog Community Support & Chat Plugins Who's using QUnit?",
+      "tokens": [
+        "about",
+        "qunit",
+        "guides",
+        "getting",
+        "started",
+        "download",
+        "browser",
+        "runner",
+        "command",
+        "line",
+        "interface",
+        "compatibility",
+        "test",
+        "lifecycle",
+        "qunit",
+        "upgrade",
+        "guide",
+        "documentation",
+        "blog",
+        "community",
+        "support",
+        "chat",
+        "plugins",
+        "using",
+        "qunit"
+      ]
+    },
+    {
+      "charEnd": 431,
+      "charStart": 314,
+      "factId": "hz.web.44116608b5710af8.fact.2",
+      "kind": "bullet",
+      "text": "About QUnit Badge Brand Guidelines Search Menu About QUnit is a powerful, easy-to-use JavaScript testing framework.",
+      "tokens": [
+        "about",
+        "qunit",
+        "badge",
+        "brand",
+        "guidelines",
+        "search",
+        "menu",
+        "about",
+        "qunit",
+        "powerful",
+        "easy",
+        "use",
+        "javascript",
+        "testing",
+        "framework"
+      ]
+    },
+    {
+      "charEnd": 653,
+      "charStart": 432,
+      "factId": "hz.web.44116608b5710af8.fact.3",
+      "kind": "bullet",
+      "text": "It was originally developed for the jQuery project and has since evolved to be a dependency of many modern JavaScript libraries and applications, including being the default testing framework for the Ember.js ecosystem.",
+      "tokens": [
+        "originally",
+        "developed",
+        "jquery",
+        "project",
+        "has",
+        "since",
+        "evolved",
+        "dependency",
+        "many",
+        "modern",
+        "javascript",
+        "libraries",
+        "applications",
+        "including",
+        "default",
+        "testing",
+        "framework",
+        "ember",
+        "js",
+        "ecosystem"
+      ]
+    },
+    {
+      "charEnd": 778,
+      "charStart": 654,
+      "factId": "hz.web.44116608b5710af8.fact.4",
+      "kind": "bullet",
+      "text": "Philosophy QUnit’s philosophy as a test framework boils down to three primary tenants: Easy , Universal , and Extensible .",
+      "tokens": [
+        "philosophy",
+        "qunit",
+        "philosophy",
+        "test",
+        "framework",
+        "boils",
+        "down",
+        "three",
+        "primary",
+        "tenants",
+        "easy",
+        "universal",
+        "extensible"
+      ]
+    },
+    {
+      "charEnd": 800,
+      "charStart": 793,
+      "factId": "hz.web.44116608b5710af8.fact.5",
+      "kind": "bullet",
+      "text": "qunit",
+      "tokens": [
+        "qunit"
+      ]
+    },
+    {
+      "charEnd": 810,
+      "charStart": 801,
+      "factId": "hz.web.44116608b5710af8.fact.6",
+      "kind": "bullet",
+      "text": "project",
+      "tokens": [
+        "project"
+      ]
+    },
+    {
+      "charEnd": 816,
+      "charStart": 811,
+      "factId": "hz.web.44116608b5710af8.fact.7",
+      "kind": "bullet",
+      "text": "has",
+      "tokens": [
+        "has"
+      ]
+    },
+    {
+      "charEnd": 825,
+      "charStart": 817,
+      "factId": "hz.web.44116608b5710af8.fact.8",
+      "kind": "bullet",
+      "text": "jquery",
+      "tokens": [
+        "jquery"
+      ]
+    },
+    {
+      "charEnd": 833,
+      "charStart": 826,
+      "factId": "hz.web.44116608b5710af8.fact.9",
+      "kind": "bullet",
+      "text": "since",
+      "tokens": [
+        "since"
+      ]
+    },
+    {
+      "charEnd": 840,
+      "charStart": 834,
+      "factId": "hz.web.44116608b5710af8.fact.10",
+      "kind": "bullet",
+      "text": "easy",
+      "tokens": [
+        "easy"
+      ]
+    },
+    {
+      "charEnd": 847,
+      "charStart": 841,
+      "factId": "hz.web.44116608b5710af8.fact.11",
+      "kind": "bullet",
+      "text": "lead",
+      "tokens": [
+        "lead"
+      ]
+    },
+    {
+      "charEnd": 854,
+      "charStart": 848,
+      "factId": "hz.web.44116608b5710af8.fact.12",
+      "kind": "bullet",
+      "text": "test",
+      "tokens": [
+        "test"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.44116608b5710af8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "About | QUnit"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.44116608b5710af8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 791,
+      "charStart": 780,
+      "headingId": "hz.web.44116608b5710af8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 866,
+      "charStart": 856,
+      "headingId": "hz.web.44116608b5710af8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/44116608b5710af8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4092,
+        "start": 0
+      }
+    ],
+    "hash": "d306f3870f14cc82dac5f06d09e2edcacedd7c7af7785600eeaf8fed320cd432",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.1",
+      "text": "Easy QUnit should be easy-to-use from start to finish.",
+      "tokens": [
+        "easy",
+        "qunit",
+        "easy",
+        "use",
+        "start",
+        "finish"
+      ]
+    },
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.2",
+      "text": "Setting up your first test with should be super simple, requiring as little overhead as possible.",
+      "tokens": [
+        "setting",
+        "up",
+        "your",
+        "first",
+        "test",
+        "super",
+        "simple",
+        "requiring",
+        "little",
+        "overhead",
+        "possible"
+      ]
+    },
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.3",
+      "text": "Then, as you’re developing, when a test or assertion fails, QUnit should provide feedback to you as fast as possible, with enough detail to quickly figure out the underlying issue.",
+      "tokens": [
+        "then",
+        "re",
+        "developing",
+        "test",
+        "assertion",
+        "fails",
+        "qunit",
+        "provide",
+        "feedback",
+        "fast",
+        "possible",
+        "enough",
+        "detail",
+        "quickly",
+        "figure",
+        "out",
+        "underlying",
+        "issue"
+      ]
+    },
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.4",
+      "text": "And it should do so without interrupting or corrupting other tests.",
+      "tokens": [
+        "so",
+        "without",
+        "interrupting",
+        "corrupting",
+        "other",
+        "tests"
+      ]
+    },
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.5",
+      "text": "Additionally, QUnit should be fast to make it easy for developers to have confidence that putting their tests on their critical path won’t slow them down.",
+      "tokens": [
+        "additionally",
+        "qunit",
+        "fast",
+        "make",
+        "easy",
+        "developers",
+        "have",
+        "confidence",
+        "putting",
+        "their",
+        "tests",
+        "their",
+        "critical",
+        "path",
+        "won",
+        "slow",
+        "them",
+        "down"
+      ]
+    },
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.6",
+      "text": "Universal QUnit should be universally applicable for testing JavaScript code and support many different environments.",
+      "tokens": [
+        "universal",
+        "qunit",
+        "universally",
+        "applicable",
+        "testing",
+        "javascript",
+        "code",
+        "support",
+        "many",
+        "different",
+        "environments"
+      ]
+    },
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.7",
+      "text": "JavaScript can run in the browser, in worker threads, and on the server, and so should QUnit so that you can test your code in the same environment where it will be running; the environment where you need to have confidence it works.",
+      "tokens": [
+        "javascript",
+        "run",
+        "browser",
+        "worker",
+        "threads",
+        "server",
+        "so",
+        "qunit",
+        "so",
+        "test",
+        "your",
+        "code",
+        "same",
+        "environment",
+        "will",
+        "running",
+        "environment",
+        "need",
+        "have",
+        "confidence",
+        "works"
+      ]
+    },
+    {
+      "ruleId": "hz.web.44116608b5710af8.rule.8",
+      "text": "Extensible QUnit should be opinionated with a lean API to support being easy-to-use, yet highly extensible.",
+      "tokens": [
+        "extensible",
+        "qunit",
+        "opinionated",
+        "lean",
+        "api",
+        "support",
+        "easy",
+        "use",
+        "yet",
+        "highly",
+        "extensible"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "About | QUnit Guides Getting Started Download Browser Runner Command-line Interface Compatibility Test lifecycle QUnit 2.0 Upgrade Guide Documentation Blog Community Support & Chat Plugins Who's using QUnit?",
+      "About QUnit Badge Brand Guidelines Search Menu About QUnit is a powerful, easy-to-use JavaScript testing framework.",
+      "It was originally developed for the jQuery project and has since evolved to be a dependency of many modern JavaScript libraries and applications, including being the default testing framework for the Ember.js ecosystem."
+    ],
+    "medium": "Source: https://qunitjs.com/about/",
+    "short": "Source: https://qunitjs.com/about/",
+    "tokens": [
+      "about",
+      "qunit",
+      "source",
+      "https",
+      "qunitjs",
+      "com",
+      "about",
+      "source",
+      "https",
+      "qunitjs",
+      "com",
+      "about"
+    ]
+  },
+  "title": "About | QUnit"
+}

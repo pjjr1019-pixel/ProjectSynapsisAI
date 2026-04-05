@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "4cc997e4f94c0226",
+      "aliasId": "hz.web.4cc997e4f94c0226.alias.1",
+      "canonical": "the history of indieauth"
+    },
+    {
+      "alias": "the history of indieauth",
+      "aliasId": "hz.web.4cc997e4f94c0226.alias.2",
+      "canonical": "the history of indieauth"
+    },
+    {
+      "alias": "web 4cc997e4f94c0226",
+      "aliasId": "hz.web.4cc997e4f94c0226.alias.3",
+      "canonical": "the history of indieauth"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.web.4cc997e4f94c0226",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4cc997e4f94c0226.entity.1",
+      "kind": "document",
+      "name": "The History of IndieAuth",
+      "tokens": [
+        "history",
+        "indieauth"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cc997e4f94c0226.entity.2",
+      "kind": "heading",
+      "name": "The History of IndieAuth",
+      "tokens": [
+        "history",
+        "indieauth"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cc997e4f94c0226.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cc997e4f94c0226.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4cc997e4f94c0226.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 73,
+      "charStart": 29,
+      "factId": "hz.web.4cc997e4f94c0226.fact.1",
+      "kind": "summary",
+      "text": "Source: https://openid.indieauth.com/history",
+      "tokens": [
+        "source",
+        "https",
+        "openid",
+        "indieauth",
+        "com",
+        "history"
+      ]
+    },
+    {
+      "charEnd": 418,
+      "charStart": 125,
+      "factId": "hz.web.4cc997e4f94c0226.fact.1",
+      "kind": "bullet",
+      "text": "The History of IndieAuth Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History IndieAuth.com: Sign in with your domain name The History of IndieAuth.com By Aaron Parecki IndieAuth.com is an implementation of RelMeAuth , originally proposed by Tantek Çelik in February 2010.",
+      "tokens": [
+        "history",
+        "indieauth",
+        "toggle",
+        "navigation",
+        "indieauth",
+        "com",
+        "setup",
+        "pgp",
+        "openid",
+        "developers",
+        "faq",
+        "history",
+        "indieauth",
+        "com",
+        "sign",
+        "your",
+        "domain",
+        "name",
+        "history",
+        "indieauth",
+        "com",
+        "aaron",
+        "parecki",
+        "indieauth",
+        "com",
+        "implementation",
+        "relmeauth",
+        "originally",
+        "proposed",
+        "tantek",
+        "elik",
+        "february",
+        "2010"
+      ]
+    },
+    {
+      "charEnd": 501,
+      "charStart": 419,
+      "factId": "hz.web.4cc997e4f94c0226.fact.2",
+      "kind": "bullet",
+      "text": "The original algorithm was described in a short text update on Tantek's website.",
+      "tokens": [
+        "original",
+        "algorithm",
+        "described",
+        "short",
+        "text",
+        "update",
+        "tantek",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 502,
+      "factId": "hz.web.4cc997e4f94c0226.fact.3",
+      "kind": "bullet",
+      "text": "Later that evening, Jeff Lindsay and Paul Tarjan implemented RelMeAuth in an open source Python library at Hacker Dojo and discussed/tested it in IRC .",
+      "tokens": [
+        "later",
+        "evening",
+        "jeff",
+        "lindsay",
+        "paul",
+        "tarjan",
+        "implemented",
+        "relmeauth",
+        "open",
+        "source",
+        "python",
+        "library",
+        "hacker",
+        "dojo",
+        "discussed",
+        "tested",
+        "irc"
+      ]
+    },
+    {
+      "charEnd": 764,
+      "charStart": 656,
+      "factId": "hz.web.4cc997e4f94c0226.fact.4",
+      "kind": "bullet",
+      "text": "Tantek later launched a RelMeAuth prototype on his domain, which you can try out at tantek.com/relmeauth .",
+      "tokens": [
+        "tantek",
+        "later",
+        "launched",
+        "relmeauth",
+        "prototype",
+        "his",
+        "domain",
+        "try",
+        "out",
+        "tantek",
+        "com",
+        "relmeauth"
+      ]
+    },
+    {
+      "charEnd": 784,
+      "charStart": 779,
+      "factId": "hz.web.4cc997e4f94c0226.fact.5",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 796,
+      "charStart": 785,
+      "factId": "hz.web.4cc997e4f94c0226.fact.6",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 808,
+      "charStart": 797,
+      "factId": "hz.web.4cc997e4f94c0226.fact.7",
+      "kind": "bullet",
+      "text": "relmeauth",
+      "tokens": [
+        "relmeauth"
+      ]
+    },
+    {
+      "charEnd": 819,
+      "charStart": 809,
+      "factId": "hz.web.4cc997e4f94c0226.fact.8",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 834,
+      "charStart": 820,
+      "factId": "hz.web.4cc997e4f94c0226.fact.9",
+      "kind": "bullet",
+      "text": "indiewebcamp",
+      "tokens": [
+        "indiewebcamp"
+      ]
+    },
+    {
+      "charEnd": 843,
+      "charStart": 835,
+      "factId": "hz.web.4cc997e4f94c0226.fact.10",
+      "kind": "bullet",
+      "text": "domain",
+      "tokens": [
+        "domain"
+      ]
+    },
+    {
+      "charEnd": 849,
+      "charStart": 844,
+      "factId": "hz.web.4cc997e4f94c0226.fact.11",
+      "kind": "bullet",
+      "text": "irc",
+      "tokens": [
+        "irc"
+      ]
+    },
+    {
+      "charEnd": 858,
+      "charStart": 850,
+      "factId": "hz.web.4cc997e4f94c0226.fact.12",
+      "kind": "bullet",
+      "text": "openid",
+      "tokens": [
+        "openid"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.4cc997e4f94c0226.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "The History of IndieAuth"
+    },
+    {
+      "charEnd": 123,
+      "charStart": 113,
+      "headingId": "hz.web.4cc997e4f94c0226.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 777,
+      "charStart": 766,
+      "headingId": "hz.web.4cc997e4f94c0226.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 870,
+      "charStart": 860,
+      "headingId": "hz.web.4cc997e4f94c0226.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4cc997e4f94c0226.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3585,
+        "start": 0
+      }
+    ],
+    "hash": "7c49c0b98c9168cbb5a80ba13157d3697ed7115b0f52aafc8a9cb2fb73af6485",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "The History of IndieAuth Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History IndieAuth.com: Sign in with your domain name The History of IndieAuth.com By Aaron Parecki IndieAuth.com is an implementation of RelMeAuth , originally proposed by Tantek Çelik in February 2010.",
+      "The original algorithm was described in a short text update on Tantek's website.",
+      "Later that evening, Jeff Lindsay and Paul Tarjan implemented RelMeAuth in an open source Python library at Hacker Dojo and discussed/tested it in IRC ."
+    ],
+    "medium": "Source: https://openid.indieauth.com/history",
+    "short": "Source: https://openid.indieauth.com/history",
+    "tokens": [
+      "history",
+      "indieauth",
+      "source",
+      "https",
+      "openid",
+      "indieauth",
+      "com",
+      "history",
+      "source",
+      "https",
+      "openid",
+      "indieauth",
+      "com",
+      "history"
+    ]
+  },
+  "title": "The History of IndieAuth"
+}

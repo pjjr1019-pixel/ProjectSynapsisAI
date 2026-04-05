@@ -1,0 +1,311 @@
+{
+  "aliases": [
+    {
+      "alias": "123bee38b041d54c",
+      "aliasId": "hz.web.123bee38b041d54c.alias.1",
+      "canonical": "하드웨어 | oracle 대한민국"
+    },
+    {
+      "alias": "oracle",
+      "aliasId": "hz.web.123bee38b041d54c.alias.2",
+      "canonical": "하드웨어 | oracle 대한민국"
+    },
+    {
+      "alias": "web 123bee38b041d54c",
+      "aliasId": "hz.web.123bee38b041d54c.alias.3",
+      "canonical": "하드웨어 | oracle 대한민국"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.123bee38b041d54c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.123bee38b041d54c.entity.1",
+      "kind": "document",
+      "name": "하드웨어 | Oracle 대한민국",
+      "tokens": [
+        "oracle"
+      ]
+    },
+    {
+      "entityId": "hz.web.123bee38b041d54c.entity.2",
+      "kind": "heading",
+      "name": "하드웨어 | Oracle 대한민국",
+      "tokens": [
+        "oracle"
+      ]
+    },
+    {
+      "entityId": "hz.web.123bee38b041d54c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.123bee38b041d54c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.123bee38b041d54c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 75,
+      "charStart": 23,
+      "factId": "hz.web.123bee38b041d54c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.oracle.com/kr/it-infrastructure/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "oracle",
+        "com",
+        "kr",
+        "infrastructure"
+      ]
+    },
+    {
+      "charEnd": 426,
+      "charStart": 127,
+      "factId": "hz.web.123bee38b041d54c.fact.1",
+      "kind": "bullet",
+      "text": "하드웨어 | Oracle 대한민국 콘텐츠로 바로 가기 접근성 정책 메뉴 빠른 링크 클라우드 데이터베이스 Java AI 관련 링크 검색 제안 국가 돌아가기 클라우드 계정 클라우드 로그인 무료 클라우드 티어 가입 Oracle 계정 로그인 계정 생성하기 도움말 로그아웃 Oracle 대한민국 Oracle Hardware Oracle 하드웨어는 기업이 애플리케이션 및 데이터베이스 성능을 최적화하고, 중요한 데이터를 보호하고, 비용을 절감할 수 있도록 기여하는 확장 가능한 엔지니어링 시스템, 서버, 스토리지의 완전한 제품군을 제공합니다.",
+      "tokens": [
+        "oracle",
+        "java",
+        "ai",
+        "oracle",
+        "oracle",
+        "oracle",
+        "hardware",
+        "oracle"
+      ]
+    },
+    {
+      "charEnd": 516,
+      "charStart": 427,
+      "factId": "hz.web.123bee38b041d54c.fact.2",
+      "kind": "bullet",
+      "text": "다른 솔루션들을 통해서는 사용할 수 없는 독점적인 기능과 자동화된 운영을 통해 데이터베이스 성능을 개선하고, 관리를 간소화하고, 비용을 절감할 수 있습니다.",
+      "tokens": []
+    },
+    {
+      "charEnd": 736,
+      "charStart": 517,
+      "factId": "hz.web.123bee38b041d54c.fact.3",
+      "kind": "bullet",
+      "text": "웨비나 시청하기 Exadata X11M Deep Dive Oracle Cloud Free Tier 체험하기 Oracle Globally Distributed Exadata Database on Exascale Infrastructure 발표 다양한 노드, 리전, 국가에 Oracle 데이터베이스를 자동으로 배포해 데이터 레지던시, 높은 가용성, 성능 관련 요구 사항을 충족할 수 있습니다.",
+      "tokens": [
+        "exadata",
+        "x11m",
+        "deep",
+        "dive",
+        "oracle",
+        "cloud",
+        "free",
+        "tier",
+        "oracle",
+        "globally",
+        "distributed",
+        "exadata",
+        "database",
+        "exascale",
+        "infrastructure",
+        "oracle"
+      ]
+    },
+    {
+      "charEnd": 899,
+      "charStart": 737,
+      "factId": "hz.web.123bee38b041d54c.fact.4",
+      "kind": "bullet",
+      "text": "보도자료 읽어보기 Oracle Globally Distributed Exadata Database on Exascale Infrastructure 심층 분석 웨비나 새로운 Oracle Globally Distributed AI Database 서비스에 대한 자세한 정보를 확인해 보세요.",
+      "tokens": [
+        "oracle",
+        "globally",
+        "distributed",
+        "exadata",
+        "database",
+        "exascale",
+        "infrastructure",
+        "oracle",
+        "globally",
+        "distributed",
+        "ai",
+        "database"
+      ]
+    },
+    {
+      "charEnd": 922,
+      "charStart": 914,
+      "factId": "hz.web.123bee38b041d54c.fact.5",
+      "kind": "bullet",
+      "text": "oracle",
+      "tokens": [
+        "oracle"
+      ]
+    },
+    {
+      "charEnd": 932,
+      "charStart": 923,
+      "factId": "hz.web.123bee38b041d54c.fact.6",
+      "kind": "bullet",
+      "text": "exadata",
+      "tokens": [
+        "exadata"
+      ]
+    },
+    {
+      "charEnd": 943,
+      "charStart": 933,
+      "factId": "hz.web.123bee38b041d54c.fact.7",
+      "kind": "bullet",
+      "text": "database",
+      "tokens": [
+        "database"
+      ]
+    },
+    {
+      "charEnd": 948,
+      "charStart": 944,
+      "factId": "hz.web.123bee38b041d54c.fact.8",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 956,
+      "charStart": 949,
+      "factId": "hz.web.123bee38b041d54c.fact.9",
+      "kind": "bullet",
+      "text": "cloud",
+      "tokens": [
+        "cloud"
+      ]
+    },
+    {
+      "charEnd": 962,
+      "charStart": 957,
+      "factId": "hz.web.123bee38b041d54c.fact.10",
+      "kind": "bullet",
+      "text": "pdf",
+      "tokens": [
+        "pdf"
+      ]
+    },
+    {
+      "charEnd": 973,
+      "charStart": 963,
+      "factId": "hz.web.123bee38b041d54c.fact.11",
+      "kind": "bullet",
+      "text": "customer",
+      "tokens": [
+        "customer"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 974,
+      "factId": "hz.web.123bee38b041d54c.fact.12",
+      "kind": "bullet",
+      "text": "infrastructure",
+      "tokens": [
+        "infrastructure"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.123bee38b041d54c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "하드웨어 | Oracle 대한민국"
+    },
+    {
+      "charEnd": 125,
+      "charStart": 115,
+      "headingId": "hz.web.123bee38b041d54c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 912,
+      "charStart": 901,
+      "headingId": "hz.web.123bee38b041d54c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1002,
+      "charStart": 992,
+      "headingId": "hz.web.123bee38b041d54c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/123bee38b041d54c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4251,
+        "start": 0
+      }
+    ],
+    "hash": "85959530515228141cc1c5feaf912b1a0510374526fa08885e1a25684f1a852a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "하드웨어 | Oracle 대한민국 콘텐츠로 바로 가기 접근성 정책 메뉴 빠른 링크 클라우드 데이터베이스 Java AI 관련 링크 검색 제안 국가 돌아가기 클라우드 계정 클라우드 로그인 무료 클라우드 티어 가입 Oracle 계정 로그인 계정 생성하기 도움말 로그아웃 Oracle 대한민국 Oracle Hardware Oracle 하드웨어는 기업이 애플리케이션 및 데이터베이스 성능을 최적화하고, 중요한 데이터를 보호하고, 비용을 절감할 수 있도록 기여하는 확장 가능한 엔지니어링 시스템, 서버, 스토리지의 완전한 제품군을 제공합니다.",
+      "다른 솔루션들을 통해서는 사용할 수 없는 독점적인 기능과 자동화된 운영을 통해 데이터베이스 성능을 개선하고, 관리를 간소화하고, 비용을 절감할 수 있습니다.",
+      "웨비나 시청하기 Exadata X11M Deep Dive Oracle Cloud Free Tier 체험하기 Oracle Globally Distributed Exadata Database on Exascale Infrastructure 발표 다양한 노드, 리전, 국가에 Oracle 데이터베이스를 자동으로 배포해 데이터 레지던시, 높은 가용성, 성능 관련 요구 사항을 충족할 수 있습니다."
+    ],
+    "medium": "Source: https://www.oracle.com/kr/it-infrastructure/",
+    "short": "Source: https://www.oracle.com/kr/it-infrastructure/",
+    "tokens": [
+      "oracle",
+      "source",
+      "https",
+      "www",
+      "oracle",
+      "com",
+      "kr",
+      "infrastructure",
+      "source",
+      "https",
+      "www",
+      "oracle",
+      "com",
+      "kr",
+      "infrastructure"
+    ]
+  },
+  "title": "하드웨어 | Oracle 대한민국"
+}

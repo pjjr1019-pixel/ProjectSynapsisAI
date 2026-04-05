@@ -1,0 +1,460 @@
+{
+  "aliases": [
+    {
+      "alias": "6fe9a3b7a446a89b",
+      "aliasId": "hz.web.6fe9a3b7a446a89b.alias.1",
+      "canonical": "telehealth resources | clinical center"
+    },
+    {
+      "alias": "telehealth resources clinical center",
+      "aliasId": "hz.web.6fe9a3b7a446a89b.alias.2",
+      "canonical": "telehealth resources | clinical center"
+    },
+    {
+      "alias": "web 6fe9a3b7a446a89b",
+      "aliasId": "hz.web.6fe9a3b7a446a89b.alias.3",
+      "canonical": "telehealth resources | clinical center"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.web.6fe9a3b7a446a89b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6fe9a3b7a446a89b.entity.1",
+      "kind": "document",
+      "name": "Telehealth Resources | Clinical Center",
+      "tokens": [
+        "telehealth",
+        "resources",
+        "clinical",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.6fe9a3b7a446a89b.entity.2",
+      "kind": "heading",
+      "name": "Telehealth Resources | Clinical Center",
+      "tokens": [
+        "telehealth",
+        "resources",
+        "clinical",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.6fe9a3b7a446a89b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6fe9a3b7a446a89b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6fe9a3b7a446a89b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 96,
+      "charStart": 43,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cc.nih.gov/participate/telehealth",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cc",
+        "nih",
+        "gov",
+        "participate",
+        "telehealth"
+      ]
+    },
+    {
+      "charEnd": 412,
+      "charStart": 148,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.1",
+      "kind": "bullet",
+      "text": "Telehealth Resources | Clinical Center Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "telehealth",
+        "resources",
+        "clinical",
+        "center",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 413,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 584,
+      "charStart": 520,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1665,
+      "charStart": 585,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.4",
+      "kind": "bullet",
+      "text": "Menu Patient Information All Patient Services Access and Directions FollowMyHealth Patient Portal Learn about Clinical Trials Medical Records Requests Patient Handbook Folleto para pacientes Patient Protections Pharmacy Guide Farmacia para pacientes ambulatorios Telehealth Resources Upcoming Events More Find a Study Meet Our Doctors Education & Training Office of Clinical Research Training and Medical Education Continuing Medical Education (CME) Information Graduate Medical Education Medical Research Scholars Program Postbaccalaureate IRTA Program Upcoming Events More Our Organization Accreditation & Governance Information for Referring Physicians Jobs and Opportunities Resources for Researchers Senior Staff & Departments Upcoming Events More About Us About the Clinical Center Access and Directions Clinical Center News Clinical Center Tours Our History Clinical Center Published Research More Search Clinical Center Intranet (Staff Only) Telehealth Resources Breadcrumb Home Participate in Clinical Studies Telehealth Resources Share Print Need technical assistance?",
+      "tokens": [
+        "menu",
+        "patient",
+        "information",
+        "all",
+        "patient",
+        "services",
+        "access",
+        "directions",
+        "followmyhealth",
+        "patient",
+        "portal",
+        "learn",
+        "about",
+        "clinical",
+        "trials",
+        "medical",
+        "records",
+        "requests",
+        "patient",
+        "handbook",
+        "folleto",
+        "para",
+        "pacientes",
+        "patient",
+        "protections",
+        "pharmacy",
+        "guide",
+        "farmacia",
+        "para",
+        "pacientes",
+        "ambulatorios",
+        "telehealth",
+        "resources",
+        "upcoming",
+        "events",
+        "more",
+        "find",
+        "study",
+        "meet",
+        "our",
+        "doctors",
+        "education",
+        "training",
+        "office",
+        "clinical",
+        "research",
+        "training",
+        "medical",
+        "education",
+        "continuing",
+        "medical",
+        "education",
+        "cme",
+        "information",
+        "graduate",
+        "medical",
+        "education",
+        "medical",
+        "research",
+        "scholars",
+        "program",
+        "postbaccalaureate",
+        "irta",
+        "program",
+        "upcoming",
+        "events",
+        "more",
+        "our",
+        "organization",
+        "accreditation",
+        "governance",
+        "information",
+        "referring",
+        "physicians",
+        "jobs",
+        "opportunities",
+        "resources",
+        "researchers",
+        "senior",
+        "staff",
+        "departments",
+        "upcoming",
+        "events",
+        "more",
+        "about",
+        "us",
+        "about",
+        "clinical",
+        "center",
+        "access",
+        "directions",
+        "clinical",
+        "center",
+        "news",
+        "clinical",
+        "center",
+        "tours",
+        "our",
+        "history",
+        "clinical",
+        "center",
+        "published",
+        "research",
+        "more",
+        "search",
+        "clinical",
+        "center",
+        "intranet",
+        "staff",
+        "only",
+        "telehealth",
+        "resources",
+        "breadcrumb",
+        "home",
+        "participate",
+        "clinical",
+        "studies",
+        "telehealth",
+        "resources",
+        "share",
+        "print",
+        "need",
+        "technical",
+        "assistance"
+      ]
+    },
+    {
+      "charEnd": 1690,
+      "charStart": 1680,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.5",
+      "kind": "bullet",
+      "text": "clinical",
+      "tokens": [
+        "clinical"
+      ]
+    },
+    {
+      "charEnd": 1699,
+      "charStart": 1691,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.6",
+      "kind": "bullet",
+      "text": "center",
+      "tokens": [
+        "center"
+      ]
+    },
+    {
+      "charEnd": 1709,
+      "charStart": 1700,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.7",
+      "kind": "bullet",
+      "text": "patient",
+      "tokens": [
+        "patient"
+      ]
+    },
+    {
+      "charEnd": 1722,
+      "charStart": 1710,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.8",
+      "kind": "bullet",
+      "text": "telehealth",
+      "tokens": [
+        "telehealth"
+      ]
+    },
+    {
+      "charEnd": 1730,
+      "charStart": 1723,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.9",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1736,
+      "charStart": 1731,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.10",
+      "kind": "bullet",
+      "text": "nih",
+      "tokens": [
+        "nih"
+      ]
+    },
+    {
+      "charEnd": 1748,
+      "charStart": 1737,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.11",
+      "kind": "bullet",
+      "text": "resources",
+      "tokens": [
+        "resources"
+      ]
+    },
+    {
+      "charEnd": 1754,
+      "charStart": 1749,
+      "factId": "hz.web.6fe9a3b7a446a89b.fact.12",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 41,
+      "charStart": 1,
+      "headingId": "hz.web.6fe9a3b7a446a89b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Telehealth Resources | Clinical Center"
+    },
+    {
+      "charEnd": 146,
+      "charStart": 136,
+      "headingId": "hz.web.6fe9a3b7a446a89b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1678,
+      "charStart": 1667,
+      "headingId": "hz.web.6fe9a3b7a446a89b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1766,
+      "charStart": 1756,
+      "headingId": "hz.web.6fe9a3b7a446a89b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6fe9a3b7a446a89b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5036,
+        "start": 0
+      }
+    ],
+    "hash": "2c0164fa2adf9bd9bd28f00f65a9d7a3063025237752e07ae6b82a61319c652c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Telehealth Resources | Clinical Center Skip to main content An official website of the United States government Here's how you know Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.cc.nih.gov/participate/telehealth",
+    "short": "Source: https://www.cc.nih.gov/participate/telehealth",
+    "tokens": [
+      "telehealth",
+      "resources",
+      "clinical",
+      "center",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "participate",
+      "telehealth",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "participate",
+      "telehealth"
+    ]
+  },
+  "title": "Telehealth Resources | Clinical Center"
+}

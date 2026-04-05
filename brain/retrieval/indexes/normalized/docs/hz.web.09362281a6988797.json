@@ -1,0 +1,305 @@
+{
+  "aliases": [
+    {
+      "alias": "09362281a6988797",
+      "aliasId": "hz.web.09362281a6988797.alias.1",
+      "canonical": "datatracker.ietf.org"
+    },
+    {
+      "alias": "datatracker.ietf.org",
+      "aliasId": "hz.web.09362281a6988797.alias.2",
+      "canonical": "datatracker.ietf.org"
+    },
+    {
+      "alias": "web 09362281a6988797",
+      "aliasId": "hz.web.09362281a6988797.alias.3",
+      "canonical": "datatracker.ietf.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.09362281a6988797",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.09362281a6988797.entity.1",
+      "kind": "document",
+      "name": "datatracker.ietf.org",
+      "tokens": [
+        "datatracker",
+        "ietf",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.09362281a6988797.entity.2",
+      "kind": "heading",
+      "name": "datatracker.ietf.org",
+      "tokens": [
+        "datatracker",
+        "ietf",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.09362281a6988797.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.09362281a6988797.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.09362281a6988797.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 78,
+      "charStart": 25,
+      "factId": "hz.web.09362281a6988797.fact.1",
+      "kind": "summary",
+      "text": "Source: https://datatracker.ietf.org/site.webmanifest",
+      "tokens": [
+        "source",
+        "https",
+        "datatracker",
+        "ietf",
+        "org",
+        "site",
+        "webmanifest"
+      ]
+    },
+    {
+      "charEnd": 508,
+      "charStart": 130,
+      "factId": "hz.web.09362281a6988797.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"IETF Datatracker\", \"short_name\": \"Datatracker\", \"icons\": [ { \"src\": \"https://static.ietf.org/dt/12.60.0/ietf/images/ietf-logo-nor-192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\" }, { \"src\": \"https://static.ietf.org/dt/12.60.0/ietf/images/ietf-logo-nor-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\" }], \"theme_color\": \"#ffffff\", \"background_color\": \"#ffffff\" }",
+      "tokens": [
+        "name",
+        "ietf",
+        "datatracker",
+        "short_name",
+        "datatracker",
+        "icons",
+        "src",
+        "https",
+        "static",
+        "ietf",
+        "org",
+        "dt",
+        "12",
+        "60",
+        "ietf",
+        "images",
+        "ietf",
+        "logo",
+        "nor",
+        "192",
+        "png",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "src",
+        "https",
+        "static",
+        "ietf",
+        "org",
+        "dt",
+        "12",
+        "60",
+        "ietf",
+        "images",
+        "ietf",
+        "logo",
+        "nor",
+        "512",
+        "png",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "theme_color",
+        "ffffff",
+        "background_color",
+        "ffffff"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 523,
+      "factId": "hz.web.09362281a6988797.fact.2",
+      "kind": "bullet",
+      "text": "ietf",
+      "tokens": [
+        "ietf"
+      ]
+    },
+    {
+      "charEnd": 535,
+      "charStart": 530,
+      "factId": "hz.web.09362281a6988797.fact.3",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 540,
+      "charStart": 536,
+      "factId": "hz.web.09362281a6988797.fact.4",
+      "kind": "bullet",
+      "text": "12",
+      "tokens": [
+        "12"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 541,
+      "factId": "hz.web.09362281a6988797.fact.5",
+      "kind": "bullet",
+      "text": "60",
+      "tokens": [
+        "60"
+      ]
+    },
+    {
+      "charEnd": 559,
+      "charStart": 546,
+      "factId": "hz.web.09362281a6988797.fact.6",
+      "kind": "bullet",
+      "text": "datatracker",
+      "tokens": [
+        "datatracker"
+      ]
+    },
+    {
+      "charEnd": 564,
+      "charStart": 560,
+      "factId": "hz.web.09362281a6988797.fact.7",
+      "kind": "bullet",
+      "text": "dt",
+      "tokens": [
+        "dt"
+      ]
+    },
+    {
+      "charEnd": 573,
+      "charStart": 565,
+      "factId": "hz.web.09362281a6988797.fact.8",
+      "kind": "bullet",
+      "text": "ffffff",
+      "tokens": [
+        "ffffff"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 574,
+      "factId": "hz.web.09362281a6988797.fact.9",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.09362281a6988797.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "datatracker.ietf.org"
+    },
+    {
+      "charEnd": 128,
+      "charStart": 118,
+      "headingId": "hz.web.09362281a6988797.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 521,
+      "charStart": 510,
+      "headingId": "hz.web.09362281a6988797.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 593,
+      "charStart": 583,
+      "headingId": "hz.web.09362281a6988797.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/09362281a6988797.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1221,
+        "start": 0
+      }
+    ],
+    "hash": "47daab6f126e060fb7c8fcaae73c58e87dbd28b3f52222301ee3f56ab2f5df8e",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"IETF Datatracker\", \"short_name\": \"Datatracker\", \"icons\": [ { \"src\": \"https://static.ietf.org/dt/12.60.0/ietf/images/ietf-logo-nor-192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\" }, { \"src\": \"https://static.ietf.org/dt/12.60.0/ietf/images/ietf-logo-nor-512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\" }], \"theme_color\": \"#ffffff\", \"background_color\": \"#ffffff\" }",
+      "ietf",
+      "png"
+    ],
+    "medium": "Source: https://datatracker.ietf.org/site.webmanifest",
+    "short": "Source: https://datatracker.ietf.org/site.webmanifest",
+    "tokens": [
+      "datatracker",
+      "ietf",
+      "org",
+      "source",
+      "https",
+      "datatracker",
+      "ietf",
+      "org",
+      "site",
+      "webmanifest",
+      "source",
+      "https",
+      "datatracker",
+      "ietf",
+      "org",
+      "site",
+      "webmanifest"
+    ]
+  },
+  "title": "datatracker.ietf.org"
+}

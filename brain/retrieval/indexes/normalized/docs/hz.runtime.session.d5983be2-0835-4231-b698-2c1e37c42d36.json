@@ -1,0 +1,240 @@
+{
+  "aliases": [
+    {
+      "alias": "session d5983be2 0835 4231 b698 2c1e37c42d36.summary",
+      "aliasId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.alias.1",
+      "canonical": "session snapshot d5983be2-0835-4231-b698-2c1e37c42d36"
+    },
+    {
+      "alias": "session d5983be2-0835-4231-b698-2c1e37c42d36",
+      "aliasId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.alias.2",
+      "canonical": "session snapshot d5983be2-0835-4231-b698-2c1e37c42d36"
+    },
+    {
+      "alias": "session snapshot d5983be2-0835-4231-b698-2c1e37c42d36",
+      "aliasId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.alias.3",
+      "canonical": "session snapshot d5983be2-0835-4231-b698-2c1e37c42d36"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.72,
+  "docId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36",
+  "domain": "runtime",
+  "entities": [
+    {
+      "entityId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.entity.1",
+      "kind": "document",
+      "name": "Session snapshot d5983be2-0835-4231-b698-2c1e37c42d36",
+      "tokens": [
+        "session",
+        "snapshot",
+        "d5983be2",
+        "0835",
+        "4231",
+        "b698",
+        "2c1e37c42d36"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.entity.2",
+      "kind": "heading",
+      "name": "Session Snapshot d5983be2-0835-4231-b698-2c1e37c42d36",
+      "tokens": [
+        "session",
+        "snapshot",
+        "d5983be2",
+        "0835",
+        "4231",
+        "b698",
+        "2c1e37c42d36"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.entity.3",
+      "kind": "heading",
+      "name": "Overview",
+      "tokens": [
+        "overview"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.entity.4",
+      "kind": "heading",
+      "name": "Referenced docs",
+      "tokens": [
+        "referenced",
+        "docs"
+      ]
+    },
+    {
+      "entityId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.entity.5",
+      "kind": "heading",
+      "name": "Safety",
+      "tokens": [
+        "safety"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 96,
+      "charStart": 58,
+      "factId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.fact.1",
+      "kind": "summary",
+      "text": "Last updated: 2026-03-30T03:22:54.036Z",
+      "tokens": [
+        "last",
+        "updated",
+        "2026",
+        "03",
+        "30t03",
+        "22",
+        "54",
+        "036z"
+      ]
+    },
+    {
+      "charEnd": 127,
+      "charStart": 111,
+      "factId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.fact.1",
+      "kind": "bullet",
+      "text": "App: assistant",
+      "tokens": [
+        "app",
+        "assistant"
+      ]
+    },
+    {
+      "charEnd": 166,
+      "charStart": 128,
+      "factId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.fact.2",
+      "kind": "bullet",
+      "text": "Retrieval profile: assistant-default",
+      "tokens": [
+        "retrieval",
+        "profile",
+        "assistant",
+        "default"
+      ]
+    },
+    {
+      "charEnd": 182,
+      "charStart": 167,
+      "factId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.fact.3",
+      "kind": "bullet",
+      "text": "Turn count: 4",
+      "tokens": [
+        "turn",
+        "count"
+      ]
+    },
+    {
+      "charEnd": 207,
+      "charStart": 183,
+      "factId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.fact.4",
+      "kind": "bullet",
+      "text": "Last draft source: idk",
+      "tokens": [
+        "last",
+        "draft",
+        "source",
+        "idk"
+      ]
+    },
+    {
+      "charEnd": 235,
+      "charStart": 229,
+      "factId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.fact.5",
+      "kind": "bullet",
+      "text": "none",
+      "tokens": [
+        "none"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 56,
+      "charStart": 1,
+      "headingId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Session Snapshot d5983be2-0835-4231-b698-2c1e37c42d36"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 98,
+      "headingId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.heading.2",
+      "level": 2,
+      "line": 6,
+      "text": "Overview"
+    },
+    {
+      "charEnd": 227,
+      "charStart": 209,
+      "headingId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Referenced docs"
+    },
+    {
+      "charEnd": 246,
+      "charStart": 237,
+      "headingId": "hz.runtime.session.d5983be2-0835-4231-b698-2c1e37c42d36.heading.4",
+      "level": 2,
+      "line": 17,
+      "text": "Safety"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/sessions/snapshots/session-d5983be2-0835-4231-b698-2c1e37c42d36.summary.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 601,
+        "start": 0
+      }
+    ],
+    "hash": "1a501e0bc06ea0732d8d2f6a3e518cc14c3e4f74141c0f293563a7e114160eac",
+    "sourceType": "runtime"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "App: assistant",
+      "Retrieval profile: assistant-default",
+      "Turn count: 4"
+    ],
+    "medium": "Last updated: 2026-03-30T03:22:54.036Z",
+    "short": "Last updated: 2026-03-30T03:22:54.036Z",
+    "tokens": [
+      "session",
+      "snapshot",
+      "d5983be2",
+      "0835",
+      "4231",
+      "b698",
+      "2c1e37c42d36",
+      "last",
+      "updated",
+      "2026",
+      "03",
+      "30t03",
+      "22",
+      "54",
+      "036z",
+      "last",
+      "updated",
+      "2026",
+      "03",
+      "30t03",
+      "22",
+      "54",
+      "036z"
+    ]
+  },
+  "title": "Session snapshot d5983be2-0835-4231-b698-2c1e37c42d36"
+}

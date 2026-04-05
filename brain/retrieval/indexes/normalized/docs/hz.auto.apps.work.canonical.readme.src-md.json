@@ -1,0 +1,113 @@
+{
+  "aliases": [
+    {
+      "alias": "work canonical",
+      "aliasId": "hz.auto.apps.work.canonical.readme.src-md.alias.1",
+      "canonical": "work — canonical"
+    }
+  ],
+  "app": "work",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.work.canonical.readme.src-md",
+  "domain": "work",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.work.canonical.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Work — canonical",
+      "tokens": [
+        "work",
+        "canonical"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.work.canonical.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Work — canonical",
+      "tokens": [
+        "work",
+        "canonical"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 115,
+      "charStart": 22,
+      "factId": "hz.auto.apps.work.canonical.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "Approved work-domain knowledge: tasks, meetings, productivity patterns (no employer secrets).",
+      "tokens": [
+        "approved",
+        "work",
+        "domain",
+        "knowledge",
+        "tasks",
+        "meetings",
+        "productivity",
+        "patterns",
+        "no",
+        "employer",
+        "secrets"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.work.canonical.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Work — canonical"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/work/canonical/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 117,
+        "start": 0
+      }
+    ],
+    "hash": "2d8d87261ca8ac094718ee39e8b21df1c31a81c405ed1c00b93f011a9a285636",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "Approved work-domain knowledge: tasks, meetings, productivity patterns (no employer secrets).",
+    "short": "Approved work-domain knowledge: tasks, meetings, productivity patterns (no employer secrets).",
+    "tokens": [
+      "work",
+      "canonical",
+      "approved",
+      "work",
+      "domain",
+      "knowledge",
+      "tasks",
+      "meetings",
+      "productivity",
+      "patterns",
+      "no",
+      "employer",
+      "secrets",
+      "approved",
+      "work",
+      "domain",
+      "knowledge",
+      "tasks",
+      "meetings",
+      "productivity",
+      "patterns",
+      "no",
+      "employer",
+      "secrets"
+    ]
+  },
+  "title": "Work — canonical"
+}

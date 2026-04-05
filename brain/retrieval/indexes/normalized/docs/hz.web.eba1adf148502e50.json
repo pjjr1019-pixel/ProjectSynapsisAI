@@ -1,0 +1,395 @@
+{
+  "aliases": [
+    {
+      "alias": "eba1adf148502e50",
+      "aliasId": "hz.web.eba1adf148502e50.alias.1",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "node.js blog",
+      "aliasId": "hz.web.eba1adf148502e50.alias.2",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "web eba1adf148502e50",
+      "aliasId": "hz.web.eba1adf148502e50.alias.3",
+      "canonical": "node.js — blog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.77,
+  "docId": "hz.web.eba1adf148502e50",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.eba1adf148502e50.entity.1",
+      "kind": "document",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.eba1adf148502e50.entity.2",
+      "kind": "heading",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.eba1adf148502e50.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.eba1adf148502e50.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.eba1adf148502e50.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 56,
+      "charStart": 19,
+      "factId": "hz.web.eba1adf148502e50.fact.1",
+      "kind": "summary",
+      "text": "Source: https://nodejs.org/pt-br/blog",
+      "tokens": [
+        "source",
+        "https",
+        "nodejs",
+        "org",
+        "pt",
+        "br",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 222,
+      "charStart": 108,
+      "factId": "hz.web.eba1adf148502e50.fact.1",
+      "kind": "bullet",
+      "text": "Node.js — Blog Ir direto ao conteúdo Aprenda Sobre Baixar Blog Documentação Contribua Cursos Comece a digitar...",
+      "tokens": [
+        "node",
+        "js",
+        "blog",
+        "ir",
+        "direto",
+        "ao",
+        "conte",
+        "aprenda",
+        "sobre",
+        "baixar",
+        "blog",
+        "documenta",
+        "contribua",
+        "cursos",
+        "comece",
+        "digitar"
+      ]
+    },
+    {
+      "charEnd": 672,
+      "charStart": 223,
+      "factId": "hz.web.eba1adf148502e50.fact.2",
+      "kind": "bullet",
+      "text": "⌘ K Blog As últimas notícias do Node.js, guias de migração e resumos de eventos Tudo Anúncios Lançamentos Vulnerabilidades Guias de Migração Eventos Categorias Tudo Tudo Anúncios Lançamentos Vulnerabilidades Guias de Migração Eventos Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 Vulnerabilidades Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung 24 de mar.",
+      "tokens": [
+        "blog",
+        "ltimas",
+        "not",
+        "cias",
+        "node",
+        "js",
+        "guias",
+        "de",
+        "migra",
+        "resumos",
+        "de",
+        "eventos",
+        "tudo",
+        "ncios",
+        "lan",
+        "amentos",
+        "vulnerabilidades",
+        "guias",
+        "de",
+        "migra",
+        "eventos",
+        "categorias",
+        "tudo",
+        "tudo",
+        "ncios",
+        "lan",
+        "amentos",
+        "vulnerabilidades",
+        "guias",
+        "de",
+        "migra",
+        "eventos",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "vulnerabilidades",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "jc",
+        "joyee",
+        "cheung",
+        "24",
+        "de",
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 773,
+      "charStart": 673,
+      "factId": "hz.web.eba1adf148502e50.fact.3",
+      "kind": "bullet",
+      "text": "de 2026 Node.js 25.8.2 (Current) Lançamentos Node.js 25.8.2 (Current) RG Rafael Gonzaga 24 de mar.",
+      "tokens": [
+        "de",
+        "2026",
+        "node",
+        "js",
+        "25",
+        "current",
+        "lan",
+        "amentos",
+        "node",
+        "js",
+        "25",
+        "current",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "24",
+        "de",
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 868,
+      "charStart": 774,
+      "factId": "hz.web.eba1adf148502e50.fact.4",
+      "kind": "bullet",
+      "text": "de 2026 Node.js 24.14.1 (LTS) Lançamentos Node.js 24.14.1 (LTS) RG Rafael Gonzaga 24 de mar.",
+      "tokens": [
+        "de",
+        "2026",
+        "node",
+        "js",
+        "24",
+        "14",
+        "lts",
+        "lan",
+        "amentos",
+        "node",
+        "js",
+        "24",
+        "14",
+        "lts",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "24",
+        "de",
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 887,
+      "charStart": 883,
+      "factId": "hz.web.eba1adf148502e50.fact.5",
+      "kind": "bullet",
+      "text": "de",
+      "tokens": [
+        "de"
+      ]
+    },
+    {
+      "charEnd": 892,
+      "charStart": 888,
+      "factId": "hz.web.eba1adf148502e50.fact.6",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 899,
+      "charStart": 893,
+      "factId": "hz.web.eba1adf148502e50.fact.7",
+      "kind": "bullet",
+      "text": "node",
+      "tokens": [
+        "node"
+      ]
+    },
+    {
+      "charEnd": 904,
+      "charStart": 900,
+      "factId": "hz.web.eba1adf148502e50.fact.8",
+      "kind": "bullet",
+      "text": "24",
+      "tokens": [
+        "24"
+      ]
+    },
+    {
+      "charEnd": 913,
+      "charStart": 905,
+      "factId": "hz.web.eba1adf148502e50.fact.9",
+      "kind": "bullet",
+      "text": "marcas",
+      "tokens": [
+        "marcas"
+      ]
+    },
+    {
+      "charEnd": 920,
+      "charStart": 914,
+      "factId": "hz.web.eba1adf148502e50.fact.10",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 934,
+      "charStart": 921,
+      "factId": "hz.web.eba1adf148502e50.fact.11",
+      "kind": "bullet",
+      "text": "registradas",
+      "tokens": [
+        "registradas"
+      ]
+    },
+    {
+      "charEnd": 940,
+      "charStart": 935,
+      "factId": "hz.web.eba1adf148502e50.fact.12",
+      "kind": "bullet",
+      "text": "lts",
+      "tokens": [
+        "lts"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.eba1adf148502e50.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Node.js — Blog"
+    },
+    {
+      "charEnd": 106,
+      "charStart": 96,
+      "headingId": "hz.web.eba1adf148502e50.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 881,
+      "charStart": 870,
+      "headingId": "hz.web.eba1adf148502e50.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 952,
+      "charStart": 942,
+      "headingId": "hz.web.eba1adf148502e50.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/eba1adf148502e50.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3096,
+        "start": 0
+      }
+    ],
+    "hash": "3feaf8c13cc3dacc809351be2edb401bcc1868329784ea18413c60a60ab9d804",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Node.js — Blog Ir direto ao conteúdo Aprenda Sobre Baixar Blog Documentação Contribua Cursos Comece a digitar...",
+      "⌘ K Blog As últimas notícias do Node.js, guias de migração e resumos de eventos Tudo Anúncios Lançamentos Vulnerabilidades Guias de Migração Eventos Categorias Tudo Tudo Anúncios Lançamentos Vulnerabilidades Guias de Migração Eventos Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 Vulnerabilidades Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung 24 de mar.",
+      "de 2026 Node.js 25.8.2 (Current) Lançamentos Node.js 25.8.2 (Current) RG Rafael Gonzaga 24 de mar."
+    ],
+    "medium": "Source: https://nodejs.org/pt-br/blog",
+    "short": "Source: https://nodejs.org/pt-br/blog",
+    "tokens": [
+      "node",
+      "js",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "pt",
+      "br",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "pt",
+      "br",
+      "blog"
+    ]
+  },
+  "title": "Node.js — Blog"
+}

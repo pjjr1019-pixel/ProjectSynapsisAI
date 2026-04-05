@@ -1,0 +1,542 @@
+{
+  "aliases": [
+    {
+      "alias": "57aa9678099a1d80",
+      "aliasId": "hz.web.57aa9678099a1d80.alias.1",
+      "canonical": "cornell tech"
+    },
+    {
+      "alias": "cornell tech",
+      "aliasId": "hz.web.57aa9678099a1d80.alias.2",
+      "canonical": "cornell tech"
+    },
+    {
+      "alias": "web 57aa9678099a1d80",
+      "aliasId": "hz.web.57aa9678099a1d80.alias.3",
+      "canonical": "cornell tech"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.57aa9678099a1d80",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.57aa9678099a1d80.entity.1",
+      "kind": "document",
+      "name": "Cornell Tech",
+      "tokens": [
+        "cornell",
+        "tech"
+      ]
+    },
+    {
+      "entityId": "hz.web.57aa9678099a1d80.entity.2",
+      "kind": "heading",
+      "name": "Cornell Tech",
+      "tokens": [
+        "cornell",
+        "tech"
+      ]
+    },
+    {
+      "entityId": "hz.web.57aa9678099a1d80.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.57aa9678099a1d80.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.57aa9678099a1d80.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 50,
+      "charStart": 17,
+      "factId": "hz.web.57aa9678099a1d80.fact.1",
+      "kind": "summary",
+      "text": "Source: https://tech.cornell.edu/",
+      "tokens": [
+        "source",
+        "https",
+        "tech",
+        "cornell",
+        "edu"
+      ]
+    },
+    {
+      "charEnd": 1140,
+      "charStart": 102,
+      "factId": "hz.web.57aa9678099a1d80.fact.1",
+      "kind": "bullet",
+      "text": "Cornell Tech Skip to Main Content Academics Master's Programs Overview Jacobs Technion-Cornell Dual MS Degrees – Connective Media Concentration Jacobs Technion-Cornell Dual MS Degrees – Health Tech Concentration Jacobs Technion-Cornell Dual MS Degrees – Urban Tech Concentration Johnson Cornell Tech MBA Master of Engineering in Computer Science Master of Engineering in Computer Science (Part Time) Master of Engineering in Data Science and Decision Analytics Master of Engineering in Electrical and Computer Engineering Master of Engineering in Operations Research and Information Engineering Master of Laws (LLM) in Law, Technology, and Entrepreneurship Master of Laws (LLM) in Law, Technology, and Entrepreneurship (Part-Time) Master of Science in Design Technology PHD & Post Doctoral Programs PhD Studies Runway Startup Postdocs Studio In our first-of-its-kind, immersive Studio curriculum, all master's students will build solutions for industry partners and develop skills in end-to-end product development and entrepreneurship.",
+      "tokens": [
+        "cornell",
+        "tech",
+        "skip",
+        "main",
+        "content",
+        "academics",
+        "master",
+        "programs",
+        "overview",
+        "jacobs",
+        "technion",
+        "cornell",
+        "dual",
+        "ms",
+        "degrees",
+        "connective",
+        "media",
+        "concentration",
+        "jacobs",
+        "technion",
+        "cornell",
+        "dual",
+        "ms",
+        "degrees",
+        "health",
+        "tech",
+        "concentration",
+        "jacobs",
+        "technion",
+        "cornell",
+        "dual",
+        "ms",
+        "degrees",
+        "urban",
+        "tech",
+        "concentration",
+        "johnson",
+        "cornell",
+        "tech",
+        "mba",
+        "master",
+        "engineering",
+        "computer",
+        "science",
+        "master",
+        "engineering",
+        "computer",
+        "science",
+        "part",
+        "time",
+        "master",
+        "engineering",
+        "data",
+        "science",
+        "decision",
+        "analytics",
+        "master",
+        "engineering",
+        "electrical",
+        "computer",
+        "engineering",
+        "master",
+        "engineering",
+        "operations",
+        "research",
+        "information",
+        "engineering",
+        "master",
+        "laws",
+        "llm",
+        "law",
+        "technology",
+        "entrepreneurship",
+        "master",
+        "laws",
+        "llm",
+        "law",
+        "technology",
+        "entrepreneurship",
+        "part",
+        "time",
+        "master",
+        "science",
+        "design",
+        "technology",
+        "phd",
+        "post",
+        "doctoral",
+        "programs",
+        "phd",
+        "studies",
+        "runway",
+        "startup",
+        "postdocs",
+        "studio",
+        "our",
+        "first",
+        "its",
+        "kind",
+        "immersive",
+        "studio",
+        "curriculum",
+        "all",
+        "master",
+        "students",
+        "will",
+        "build",
+        "solutions",
+        "industry",
+        "partners",
+        "develop",
+        "skills",
+        "end",
+        "end",
+        "product",
+        "development",
+        "entrepreneurship"
+      ]
+    },
+    {
+      "charEnd": 1525,
+      "charStart": 1141,
+      "factId": "hz.web.57aa9678099a1d80.fact.2",
+      "kind": "bullet",
+      "text": "Curriculum Faculty & Practitioners Real-World Access Culture Summer Innovation Intensives Cornell Tech’s non-residential summer program for high school students and recent high school grads offers an immersive experience in AI, ethical coding, data science, and product innovation developed and led by our expert faculty at the state-of-the-art Cornell Tech campus in New York City.",
+      "tokens": [
+        "curriculum",
+        "faculty",
+        "practitioners",
+        "real",
+        "world",
+        "access",
+        "culture",
+        "summer",
+        "innovation",
+        "intensives",
+        "cornell",
+        "tech",
+        "non",
+        "residential",
+        "summer",
+        "program",
+        "high",
+        "school",
+        "students",
+        "recent",
+        "high",
+        "school",
+        "grads",
+        "offers",
+        "immersive",
+        "experience",
+        "ai",
+        "ethical",
+        "coding",
+        "data",
+        "science",
+        "product",
+        "innovation",
+        "developed",
+        "led",
+        "our",
+        "expert",
+        "faculty",
+        "state",
+        "art",
+        "cornell",
+        "tech",
+        "campus",
+        "new",
+        "york",
+        "city"
+      ]
+    },
+    {
+      "charEnd": 1637,
+      "charStart": 1526,
+      "factId": "hz.web.57aa9678099a1d80.fact.3",
+      "kind": "bullet",
+      "text": "Summer Innovation Intensives Admissions Admissions Events Career Management Jacobs Technion-Cornell Dual M.S.",
+      "tokens": [
+        "summer",
+        "innovation",
+        "intensives",
+        "admissions",
+        "admissions",
+        "events",
+        "career",
+        "management",
+        "jacobs",
+        "technion",
+        "cornell",
+        "dual"
+      ]
+    },
+    {
+      "charEnd": 2410,
+      "charStart": 1638,
+      "factId": "hz.web.57aa9678099a1d80.fact.4",
+      "kind": "bullet",
+      "text": "Degrees Application Johnson Cornell Tech MBA Application Master of Engineering Application Master of Laws (LL.M.) Application Master of Science in Design Technology PhD Application Tuition &#038; Fees Frequently Asked Questions Learn More Impact Alumni Startups Break Through Tech Cornell Tech Impact Study Health Tech Hub K-12 Initiative Partnership Public Interest Technology Runway Startups Security, Trust, and Safety (SETS) Urban Tech Hub Backslash Research Research Labs &#038; Initiatives Artificial Intelligence Business &#038; Entrepreneurship Data &#038; Modeling Human-Centered Computing Law &#038; Policy MakerLAB Security &#038; Privacy Technology, Society, &#038; Ethics People Faculty Leadership Practitioners &#038; Researchers Cornell Tech Council Ph.D.",
+      "tokens": [
+        "degrees",
+        "application",
+        "johnson",
+        "cornell",
+        "tech",
+        "mba",
+        "application",
+        "master",
+        "engineering",
+        "application",
+        "master",
+        "laws",
+        "ll",
+        "application",
+        "master",
+        "science",
+        "design",
+        "technology",
+        "phd",
+        "application",
+        "tuition",
+        "038",
+        "fees",
+        "frequently",
+        "asked",
+        "questions",
+        "learn",
+        "more",
+        "impact",
+        "alumni",
+        "startups",
+        "break",
+        "through",
+        "tech",
+        "cornell",
+        "tech",
+        "impact",
+        "study",
+        "health",
+        "tech",
+        "hub",
+        "12",
+        "initiative",
+        "partnership",
+        "public",
+        "interest",
+        "technology",
+        "runway",
+        "startups",
+        "security",
+        "trust",
+        "safety",
+        "sets",
+        "urban",
+        "tech",
+        "hub",
+        "backslash",
+        "research",
+        "research",
+        "labs",
+        "038",
+        "initiatives",
+        "artificial",
+        "intelligence",
+        "business",
+        "038",
+        "entrepreneurship",
+        "data",
+        "038",
+        "modeling",
+        "human",
+        "centered",
+        "computing",
+        "law",
+        "038",
+        "policy",
+        "makerlab",
+        "security",
+        "038",
+        "privacy",
+        "technology",
+        "society",
+        "038",
+        "ethics",
+        "people",
+        "faculty",
+        "leadership",
+        "practitioners",
+        "038",
+        "researchers",
+        "cornell",
+        "tech",
+        "council",
+        "ph"
+      ]
+    },
+    {
+      "charEnd": 2431,
+      "charStart": 2425,
+      "factId": "hz.web.57aa9678099a1d80.fact.5",
+      "kind": "bullet",
+      "text": "tech",
+      "tokens": [
+        "tech"
+      ]
+    },
+    {
+      "charEnd": 2441,
+      "charStart": 2432,
+      "factId": "hz.web.57aa9678099a1d80.fact.6",
+      "kind": "bullet",
+      "text": "cornell",
+      "tokens": [
+        "cornell"
+      ]
+    },
+    {
+      "charEnd": 2450,
+      "charStart": 2442,
+      "factId": "hz.web.57aa9678099a1d80.fact.7",
+      "kind": "bullet",
+      "text": "master",
+      "tokens": [
+        "master"
+      ]
+    },
+    {
+      "charEnd": 2463,
+      "charStart": 2451,
+      "factId": "hz.web.57aa9678099a1d80.fact.8",
+      "kind": "bullet",
+      "text": "technology",
+      "tokens": [
+        "technology"
+      ]
+    },
+    {
+      "charEnd": 2469,
+      "charStart": 2464,
+      "factId": "hz.web.57aa9678099a1d80.fact.9",
+      "kind": "bullet",
+      "text": "038",
+      "tokens": [
+        "038"
+      ]
+    },
+    {
+      "charEnd": 2474,
+      "charStart": 2470,
+      "factId": "hz.web.57aa9678099a1d80.fact.10",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 2481,
+      "charStart": 2475,
+      "factId": "hz.web.57aa9678099a1d80.fact.11",
+      "kind": "bullet",
+      "text": "news",
+      "tokens": [
+        "news"
+      ]
+    },
+    {
+      "charEnd": 2495,
+      "charStart": 2482,
+      "factId": "hz.web.57aa9678099a1d80.fact.12",
+      "kind": "bullet",
+      "text": "engineering",
+      "tokens": [
+        "engineering"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.57aa9678099a1d80.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Cornell Tech"
+    },
+    {
+      "charEnd": 100,
+      "charStart": 90,
+      "headingId": "hz.web.57aa9678099a1d80.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2423,
+      "charStart": 2412,
+      "headingId": "hz.web.57aa9678099a1d80.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2507,
+      "charStart": 2497,
+      "headingId": "hz.web.57aa9678099a1d80.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/57aa9678099a1d80.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5731,
+        "start": 0
+      }
+    ],
+    "hash": "30b52dd8cb19e66fb836559b9f34ba8c7a54904bc2301cdbb56cd4fe0ac96f7f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Cornell Tech Skip to Main Content Academics Master's Programs Overview Jacobs Technion-Cornell Dual MS Degrees – Connective Media Concentration Jacobs Technion-Cornell Dual MS Degrees – Health Tech Concentration Jacobs Technion-Cornell Dual MS Degrees – Urban Tech Concentration Johnson Cornell Tech MBA Master of Engineering in Computer Science Master of Engineering in Computer Science (Part Time) Master of Engineering in Data Science and Decision Analytics Master of Engineering in Electrical and Computer Engineering Master of Engineering in Operations Research and Information Engineering Master of Laws (LLM) in Law, Technology, and Entrepreneurship Master of Laws (LLM) in Law, Technology, and Entrepreneurship (Part-Time) Master of Science in Design Technology PHD & Post Doctoral Programs PhD Studies Runway Startup Postdocs Studio In our first-of-its-kind, immersive Studio curriculum, all master's students will build solutions for industry partners and develop skills in end-to-end product development and entrepreneurship.",
+      "Curriculum Faculty & Practitioners Real-World Access Culture Summer Innovation Intensives Cornell Tech’s non-residential summer program for high school students and recent high school grads offers an immersive experience in AI, ethical coding, data science, and product innovation developed and led by our expert faculty at the state-of-the-art Cornell Tech campus in New York City.",
+      "Summer Innovation Intensives Admissions Admissions Events Career Management Jacobs Technion-Cornell Dual M.S."
+    ],
+    "medium": "Source: https://tech.cornell.edu/",
+    "short": "Source: https://tech.cornell.edu/",
+    "tokens": [
+      "cornell",
+      "tech",
+      "source",
+      "https",
+      "tech",
+      "cornell",
+      "edu",
+      "source",
+      "https",
+      "tech",
+      "cornell",
+      "edu"
+    ]
+  },
+  "title": "Cornell Tech"
+}

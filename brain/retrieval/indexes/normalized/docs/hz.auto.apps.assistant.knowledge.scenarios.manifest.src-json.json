@@ -1,0 +1,100 @@
+{
+  "aliases": [],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.assistant.knowledge.scenarios.manifest.src-json",
+  "domain": "assistant",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.assistant.knowledge.scenarios.manifest.src-json.entity.1",
+      "kind": "document",
+      "name": "manifest",
+      "tokens": [
+        "manifest"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.auto.apps.assistant.knowledge.scenarios.manifest.src-json.fact.1",
+      "kind": "summary",
+      "text": "Structured JSON keys: version, description, sources",
+      "tokens": [
+        "structured",
+        "json",
+        "keys",
+        "version",
+        "description",
+        "sources"
+      ]
+    }
+  ],
+  "headings": [],
+  "moduleIds": [],
+  "path": "apps/assistant/knowledge/scenarios/manifest.json",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 190,
+        "start": 0
+      }
+    ],
+    "hash": "829bbe2f12fb1ce424f496407d8a119999ddefa632b4e7983d4648c254c0637e",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "{ \"version\": 1, \"description\": \"Scenario shards under sources/ are merged by scripts/build-scenario-index.mjs into build/scenario-index.json\", \"sources\": [\"sources/**/*.jsonl\"] }",
+    "short": "{ \"version\": 1, \"description\": \"Scenario shards under sources/ are merged by scripts/build-scenario-index.mjs into build/scenario-index.json\", \"sources\": [\"sources/**/*.jsonl\"] }",
+    "tokens": [
+      "manifest",
+      "version",
+      "description",
+      "scenario",
+      "shards",
+      "under",
+      "sources",
+      "merged",
+      "scripts",
+      "build",
+      "scenario",
+      "index",
+      "mjs",
+      "into",
+      "build",
+      "scenario",
+      "index",
+      "json",
+      "sources",
+      "sources",
+      "jsonl",
+      "version",
+      "description",
+      "scenario",
+      "shards",
+      "under",
+      "sources",
+      "merged",
+      "scripts",
+      "build",
+      "scenario",
+      "index",
+      "mjs",
+      "into",
+      "build",
+      "scenario",
+      "index",
+      "json",
+      "sources",
+      "sources",
+      "jsonl"
+    ]
+  },
+  "title": "manifest"
+}

@@ -1,0 +1,337 @@
+{
+  "aliases": [
+    {
+      "alias": "da5479b89cf05473",
+      "aliasId": "hz.web.da5479b89cf05473.alias.1",
+      "canonical": "shop nist | e-commerce store"
+    },
+    {
+      "alias": "shop nist e-commerce store",
+      "aliasId": "hz.web.da5479b89cf05473.alias.2",
+      "canonical": "shop nist | e-commerce store"
+    },
+    {
+      "alias": "web da5479b89cf05473",
+      "aliasId": "hz.web.da5479b89cf05473.alias.3",
+      "canonical": "shop nist | e-commerce store"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.da5479b89cf05473",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.da5479b89cf05473.entity.1",
+      "kind": "document",
+      "name": "Shop NIST | E-Commerce Store",
+      "tokens": [
+        "shop",
+        "nist",
+        "commerce",
+        "store"
+      ]
+    },
+    {
+      "entityId": "hz.web.da5479b89cf05473.entity.2",
+      "kind": "heading",
+      "name": "Shop NIST | E-Commerce Store",
+      "tokens": [
+        "shop",
+        "nist",
+        "commerce",
+        "store"
+      ]
+    },
+    {
+      "entityId": "hz.web.da5479b89cf05473.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.da5479b89cf05473.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.da5479b89cf05473.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 63,
+      "charStart": 33,
+      "factId": "hz.web.da5479b89cf05473.fact.1",
+      "kind": "summary",
+      "text": "Source: https://shop.nist.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "shop",
+        "nist",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 347,
+      "charStart": 115,
+      "factId": "hz.web.da5479b89cf05473.fact.1",
+      "kind": "bullet",
+      "text": "Shop NIST | E-Commerce Store ​The NIST Store is an online shopping experience where customers can order NIST products and services including calibration services, Standard Reference Data products, and Standard Reference Materials.",
+      "tokens": [
+        "shop",
+        "nist",
+        "commerce",
+        "store",
+        "nist",
+        "store",
+        "online",
+        "shopping",
+        "experience",
+        "customers",
+        "order",
+        "nist",
+        "products",
+        "services",
+        "including",
+        "calibration",
+        "services",
+        "standard",
+        "reference",
+        "data",
+        "products",
+        "standard",
+        "reference",
+        "materials"
+      ]
+    },
+    {
+      "charEnd": 469,
+      "charStart": 348,
+      "factId": "hz.web.da5479b89cf05473.fact.2",
+      "kind": "bullet",
+      "text": "In compliance with Executive Order 14247, checks will no longer be an approved payment method after September 30, 2025.",
+      "tokens": [
+        "compliance",
+        "executive",
+        "order",
+        "14247",
+        "checks",
+        "will",
+        "no",
+        "longer",
+        "approved",
+        "payment",
+        "method",
+        "after",
+        "september",
+        "30",
+        "2025"
+      ]
+    },
+    {
+      "charEnd": 559,
+      "charStart": 470,
+      "factId": "hz.web.da5479b89cf05473.fact.3",
+      "kind": "bullet",
+      "text": "The annual price update for the calibration services will take place on March 1st 2026.",
+      "tokens": [
+        "annual",
+        "price",
+        "update",
+        "calibration",
+        "services",
+        "will",
+        "take",
+        "place",
+        "march",
+        "1st",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 616,
+      "charStart": 560,
+      "factId": "hz.web.da5479b89cf05473.fact.4",
+      "kind": "bullet",
+      "text": "All orders after March 1st will be at the updated fee.",
+      "tokens": [
+        "all",
+        "orders",
+        "after",
+        "march",
+        "1st",
+        "will",
+        "updated",
+        "fee"
+      ]
+    },
+    {
+      "charEnd": 637,
+      "charStart": 631,
+      "factId": "hz.web.da5479b89cf05473.fact.5",
+      "kind": "bullet",
+      "text": "nist",
+      "tokens": [
+        "nist"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 638,
+      "factId": "hz.web.da5479b89cf05473.fact.6",
+      "kind": "bullet",
+      "text": "reference",
+      "tokens": [
+        "reference"
+      ]
+    },
+    {
+      "charEnd": 660,
+      "charStart": 650,
+      "factId": "hz.web.da5479b89cf05473.fact.7",
+      "kind": "bullet",
+      "text": "standard",
+      "tokens": [
+        "standard"
+      ]
+    },
+    {
+      "charEnd": 674,
+      "charStart": 661,
+      "factId": "hz.web.da5479b89cf05473.fact.8",
+      "kind": "bullet",
+      "text": "calibration",
+      "tokens": [
+        "calibration"
+      ]
+    },
+    {
+      "charEnd": 680,
+      "charStart": 675,
+      "factId": "hz.web.da5479b89cf05473.fact.9",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 681,
+      "factId": "hz.web.da5479b89cf05473.fact.10",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 692,
+      "factId": "hz.web.da5479b89cf05473.fact.11",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 699,
+      "factId": "hz.web.da5479b89cf05473.fact.12",
+      "kind": "bullet",
+      "text": "faqs",
+      "tokens": [
+        "faqs"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.da5479b89cf05473.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Shop NIST | E-Commerce Store"
+    },
+    {
+      "charEnd": 113,
+      "charStart": 103,
+      "headingId": "hz.web.da5479b89cf05473.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 629,
+      "charStart": 618,
+      "headingId": "hz.web.da5479b89cf05473.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 717,
+      "charStart": 707,
+      "headingId": "hz.web.da5479b89cf05473.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/da5479b89cf05473.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2436,
+        "start": 0
+      }
+    ],
+    "hash": "2ce732c423cc0989a6d319d2621b14191f073de93371734e8db3410883c071a9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Shop NIST | E-Commerce Store ​The NIST Store is an online shopping experience where customers can order NIST products and services including calibration services, Standard Reference Data products, and Standard Reference Materials.",
+      "In compliance with Executive Order 14247, checks will no longer be an approved payment method after September 30, 2025.",
+      "The annual price update for the calibration services will take place on March 1st 2026."
+    ],
+    "medium": "Source: https://shop.nist.gov/",
+    "short": "Source: https://shop.nist.gov/",
+    "tokens": [
+      "shop",
+      "nist",
+      "commerce",
+      "store",
+      "source",
+      "https",
+      "shop",
+      "nist",
+      "gov",
+      "source",
+      "https",
+      "shop",
+      "nist",
+      "gov"
+    ]
+  },
+  "title": "Shop NIST | E-Commerce Store"
+}

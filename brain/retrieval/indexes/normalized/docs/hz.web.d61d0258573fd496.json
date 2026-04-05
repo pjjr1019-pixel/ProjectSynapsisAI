@@ -1,0 +1,383 @@
+{
+  "aliases": [
+    {
+      "alias": "d61d0258573fd496",
+      "aliasId": "hz.web.d61d0258573fd496.alias.1",
+      "canonical": "www.ncbi.nlm.nih.gov"
+    },
+    {
+      "alias": "web d61d0258573fd496",
+      "aliasId": "hz.web.d61d0258573fd496.alias.2",
+      "canonical": "www.ncbi.nlm.nih.gov"
+    },
+    {
+      "alias": "www.ncbi.nlm.nih.gov",
+      "aliasId": "hz.web.d61d0258573fd496.alias.3",
+      "canonical": "www.ncbi.nlm.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.d61d0258573fd496",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d61d0258573fd496.entity.1",
+      "kind": "document",
+      "name": "www.ncbi.nlm.nih.gov",
+      "tokens": [
+        "www",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.d61d0258573fd496.entity.2",
+      "kind": "heading",
+      "name": "www.ncbi.nlm.nih.gov",
+      "tokens": [
+        "www",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.d61d0258573fd496.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d61d0258573fd496.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d61d0258573fd496.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 82,
+      "charStart": 25,
+      "factId": "hz.web.d61d0258573fd496.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.ncbi.nlm.nih.gov/corehtml/logo100.gif",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "corehtml",
+        "logo100",
+        "gif"
+      ]
+    },
+    {
+      "charEnd": 2418,
+      "charStart": 134,
+      "factId": "hz.web.d61d0258573fd496.fact.1",
+      "kind": "bullet",
+      "text": "GIF89ad\u0000d\u0000��\u0000((0*+3&-3%/:+.;./7$2B203)3>-4:647)7G86:+9I':O<87&?X(AZB=<*B[/BW%DbB@D)Ge3F[IDC,Ji.Lk4Lf=K\\:Mc,Pt-Rv0TxSNM*V@Sh8UtESd,X�WRQ:Wv5Y}(\\�/[�YUSJXi+_�.a�'d�_ZY1c�)f�3e�*g�`]a,h�Kb}-h�.i�fa`Vdv9j�Zeq:k�;l�Hj�jed=m�Cl�>n�En�@p�Aq�Vn�^mHq�emtCs�Dt�do{]p�Fu�Mu�Hw�grds�uqoPw�^v�Qx�mt|Ry�Sz�ax�T|�V}�nz�O��W~�}xwX��R���{zv}�h�Z��S��s�m���}|\\��^��]�����|��d��_��f��`��b��i��d�����e��y��g��n�����h��������s��j��k�����q��w�����t��v��������w�����x��z��{��}� ��~�č�����������������è����ƙ����Ǎ�ʏ�˦����͕�ȣ����ʢ�Ĵ�������Φ�ɸ����Ф�П�ѭ�Ƨ�Ө�Ԣ�վ����о����ӫ�Ԯ�״�׾�Ź�������·�ڱ�ڼ�ֺ�ݼ�������Ƚ��������������������������������������������������������������������������������������������������������������������������������������������������������������������\u0000\u0000\u0000!�\u001aCreated with GIMP on a Mac\u0000!�\u0004\u0001 \u0000�\u0000,\u0000\u0000\u0000\u0000d\u0000d\u0000\u0000\b�\u0000m\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\i�\u0007\u0018DfX�\u0014(�\u0011-h����wifJ)�x��I�($�%�t�V��Q�\"�\u0010�紪��P=j)f�+֬\u001b\u0019��Z���>`7R\"�N\u0019)Am�\b���#\u0017�Mݭb��\u0005��@���0V�nhTP�\u0001��#\"�\u0019�*�K�E\u0018)@�B\u00129a&��,g\u0004\u0001%�'\u001d� \u001eA�sYG\u0018\u001d�� ��`�z��\u0019��A�?V�k ���_��)��k�D� \u001a$����1�Ni>��(��^(�3���<�\u001d��^�8s��\u0013\u001f\u0013�\u0002G��E[c�}D��\u001f8B�#1\u0018űNQU�G� GL\u0011�De�\u001fQ�```A4��\u000e\\\u0018��7U]� �@E\u001c�Pb�.����>rL\u0000�A>��\b*ĀC\u0015YM�#��/ �\u0004#�p�\u0017�e�Q�\u0007=�a�6C\u0012Y\u0015:�0P\u0001]\u0013J1�PNv��*C$�\u0001�\u0006r\u0011L�Y\u0012��+dH\u0000�\u0004,�H =e\u0012%�/��!�\u0000\u000el�B�6� ��\u001cc�'����\u0002\u00048p�\u0007{�9�)VE��\u0019-\u001c0�\u0003\u0013\\�A\b,���AN�YT5r<0�\u0004\u001f�`!C@��##�E�sF\u0000\u0017x*\u0011 E\u0004RƋy\u0014%\u0003\u00045\\\u0014�\u0017��1�\u000f��T�\u0003\u001a���)Ϭa�\u0015����\b\u001c���<���\\ s�\u001fG1��\u000e;�\u0007C\u0013�#�GKԣ�) �6� �x�.G4p�S+�ipC3|ttă��\u0007\u0003\u0005�`\u0002\u0004G*������@A\u001ak�[Q\u001dE�\u0001\" !0AqEe�ST\u0018=�\u0000��\u0011%�ʍ;�っ�:�\u0005%��LT%!|��\u000eR��\u0007&�\\3�U�4�A���\u000e�+6�@ K\u0017$M�̴\u0000A�U�p��� �@�][�c9�d�\u0000�e\u001b�uS�\u0000\u0003\b \u0003��6B_㳍�-s\u0007��w'D�\u0010\u0016\u0004`\u0000\u0004\u001a\u0000\u001e�B3�\u0000��G.��Wn��C�\u0003\u0012�-�\u0003\u0012�f% 7�\u0017�\u0010\u0016א.�A;P�L;D��\u000e5�\b��-�|��=�sc�@D$Cz0,�\u0014�N�8�P0��sP �<\u0013K)��\u0002 ^� $�N�P�D\u001d��\u000f\u001e\u0005���()���3\u001a\u000f4�?�\u0018d ;�\u0013��3�,��N�\u0010��?�(\b��Q����d��\u0004B�R��`�\u001f�@\b\u0010�A\u0010*준}2Y6 ���d�$߈\u00048�q�7\u001c�\u0010�@�@�@\u000fs�o �\u0003�Nb8�g�C\u0018\u0005ٟ?���q0� �cY�� �\u0007P� ���C|0Â�C\u001fw(�\u0018v����C\u00126\b�N�1\u0018���\u001f�\u001b�8�����`'Q\u001cH\u0019�� ��a'XH <�h�O�D\u00179�\u001e\u0006���D�!:��@�\u0000\u000eV\u001c� ;��I�QF�0��\u0004Yc��H@��g\u001d��$<�a \u001e\u0016D �D�\u000e�щ���)�(�\u001b�(�8�\u000f\":a�\u0014�\u0000\u0006FPc'ĳ_(O�G\u0015 � &�\u0007\u001c\u0004\u0002��\b\u0004�)��?�(\u0010\u001d�b'\u0001\u001c\b\u0017vi\u0012D�� ]�\u001d<x�\u0005t�\u0006@� \u0005/�Ă�R\u001f��\u00012�x\u0012W�� p�S:���{\u0014d\u001a���G\u0017\u001c\u0002�r\u0012d{\u0010\u001c\b%��\u0012\u0014*� ���5��\u000e\u0007�$\u0019/4�\u0011.h�7�d�\u0002Y�?�y�\u0007\u0016\u0003!��I6�Q�\u001d��\u001f�(�@�@�$�� | a�8����\u0015��FBn�\u0013p\u0018D \u0011K�'��N��v\u0002\u0019�N�H��\u001ar ���I�Ѽ�����8�\u001b�Q\u0014ză*��`L�� \u001aڠ ��E�\u001ehē8\u0001v�H�D�1N�\u0010a\u0014\b,J#��'��\u0003\u001a��\u00069�8\u0010\u001d@c}\u0011��\u0014���1PA!I�hB���N�\u0002\u0013�\u0014\b\u0011��\u00050�A\u0012�\u0018\u0005%�о$�� \\X��2��ֺ����\u0007�lg먀\u0000\u0000;",
+      "tokens": [
+        "gif89ad",
+        "2b203",
+        "647",
+        "7g86",
+        "9i",
+        "87",
+        "azb",
+        "bw",
+        "dbb",
+        "ge3f",
+        "idc",
+        "ji",
+        "lk4lf",
+        "mc",
+        "pt",
+        "rv0txsnm",
+        "sh8utesd",
+        "wrq",
+        "wv5y",
+        "yusjxi",
+        "_zy1c",
+        "3e",
+        "kb",
+        "fa",
+        "vdv9j",
+        "zeq",
+        "hj",
+        "jed",
+        "cl",
+        "en",
+        "aq",
+        "vn",
+        "hq",
+        "emtcs",
+        "dt",
+        "fu",
+        "mu",
+        "hw",
+        "gr",
+        "ds",
+        "uqopw",
+        "qx",
+        "mt",
+        "ry",
+        "sz",
+        "ax",
+        "nz",
+        "xwx",
+        "zv",
+        "created",
+        "gimp",
+        "mac",
+        "3j",
+        "dfx",
+        "wifj",
+        "7r",
+        "am",
+        "0v",
+        "nhtp",
+        "9a",
+        "syg",
+        "ni",
+        "8s",
+        "8b",
+        "nqu",
+        "gl",
+        "de",
+        "a4",
+        "7u",
+        "pb",
+        "rl",
+        "ym",
+        "6c",
+        "0p",
+        "j1",
+        "pnv",
+        "dh",
+        "8p",
+        "ve",
+        "yt5r",
+        "sf",
+        "g1",
+        "gk",
+        "g4p",
+        "ipc3",
+        "tt",
+        "0aqee",
+        "st",
+        "lt",
+        "c9",
+        "us",
+        "6b_",
+        "b3",
+        "wn",
+        "sc",
+        "cz0",
+        "p0",
+        "sp",
+        "2y6",
+        "nb8",
+        "q0",
+        "cy",
+        "xh",
+        "qf",
+        "yc",
+        "fpc",
+        "vi",
+        "i6",
+        "fbn",
+        "1n",
+        "1pa",
+        "hb",
+        "lg"
+      ]
+    },
+    {
+      "charEnd": 2440,
+      "charStart": 2433,
+      "factId": "hz.web.d61d0258573fd496.fact.2",
+      "kind": "bullet",
+      "text": "_zy1c",
+      "tokens": [
+        "_zy1c"
+      ]
+    },
+    {
+      "charEnd": 2448,
+      "charStart": 2441,
+      "factId": "hz.web.d61d0258573fd496.fact.3",
+      "kind": "bullet",
+      "text": "0aqee",
+      "tokens": [
+        "0aqee"
+      ]
+    },
+    {
+      "charEnd": 2453,
+      "charStart": 2449,
+      "factId": "hz.web.d61d0258573fd496.fact.4",
+      "kind": "bullet",
+      "text": "0p",
+      "tokens": [
+        "0p"
+      ]
+    },
+    {
+      "charEnd": 2458,
+      "charStart": 2454,
+      "factId": "hz.web.d61d0258573fd496.fact.5",
+      "kind": "bullet",
+      "text": "0v",
+      "tokens": [
+        "0v"
+      ]
+    },
+    {
+      "charEnd": 2463,
+      "charStart": 2459,
+      "factId": "hz.web.d61d0258573fd496.fact.6",
+      "kind": "bullet",
+      "text": "1n",
+      "tokens": [
+        "1n"
+      ]
+    },
+    {
+      "charEnd": 2469,
+      "charStart": 2464,
+      "factId": "hz.web.d61d0258573fd496.fact.7",
+      "kind": "bullet",
+      "text": "1pa",
+      "tokens": [
+        "1pa"
+      ]
+    },
+    {
+      "charEnd": 2477,
+      "charStart": 2470,
+      "factId": "hz.web.d61d0258573fd496.fact.8",
+      "kind": "bullet",
+      "text": "2b203",
+      "tokens": [
+        "2b203"
+      ]
+    },
+    {
+      "charEnd": 2483,
+      "charStart": 2478,
+      "factId": "hz.web.d61d0258573fd496.fact.9",
+      "kind": "bullet",
+      "text": "2y6",
+      "tokens": [
+        "2y6"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.d61d0258573fd496.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.ncbi.nlm.nih.gov"
+    },
+    {
+      "charEnd": 132,
+      "charStart": 122,
+      "headingId": "hz.web.d61d0258573fd496.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2431,
+      "charStart": 2420,
+      "headingId": "hz.web.d61d0258573fd496.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2495,
+      "charStart": 2485,
+      "headingId": "hz.web.d61d0258573fd496.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d61d0258573fd496.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5033,
+        "start": 0
+      }
+    ],
+    "hash": "ffbbf262fbe400cfed5c1b034d67c2170e175982f90dc180520f39b516cdb393",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "GIF89ad\u0000d\u0000��\u0000((0*+3&-3%/:+.;./7$2B203)3>-4:647)7G86:+9I':O<87&?X(AZB=<*B[/BW%DbB@D)Ge3F[IDC,Ji.Lk4Lf=K\\:Mc,Pt-Rv0TxSNM*V@Sh8UtESd,X�WRQ:Wv5Y}(\\�/[�YUSJXi+_�.a�'d�_ZY1c�)f�3e�*g�`]a,h�Kb}-h�.i�fa`Vdv9j�Zeq:k�;l�Hj�jed=m�Cl�>n�En�@p�Aq�Vn�^mHq�emtCs�Dt�do{]p�Fu�Mu�Hw�grds�uqoPw�^v�Qx�mt|Ry�Sz�ax�T|�V}�nz�O��W~�}xwX��R���{zv}�h�Z��S��s�m���}|\\��^��]�����|��d��_��f��`��b��i��d�����e��y��g��n�����h��������s��j��k�����q��w�����t��v��������w�����x��z��{��}� ��~�č�����������������è����ƙ����Ǎ�ʏ�˦����͕�ȣ����ʢ�Ĵ�������Φ�ɸ����Ф�П�ѭ�Ƨ�Ө�Ԣ�վ����о����ӫ�Ԯ�״�׾�Ź�������·�ڱ�ڼ�ֺ�ݼ�������Ƚ��������������������������������������������������������������������������������������������������������������������������������������������������������������������\u0000\u0000\u0000!�\u001aCreated with GIMP on a Mac\u0000!�\u0004\u0001 \u0000�\u0000,\u0000\u0000\u0000\u0000d\u0000d\u0000\u0000\b�\u0000m\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\i�\u0007\u0018DfX�\u0014(�\u0011-h����wifJ)�x��I�($�%�t�V��Q�\"�\u0010�紪��P=j)f�+֬\u001b\u0019��Z���>`7R\"�N\u0019)Am�\b���#\u0017�Mݭb��\u0005��@���0V�nhTP�\u0001��#\"�\u0019�*�K�E\u0018)@�B\u00129a&��,g\u0004\u0001%�'\u001d� \u001eA�sYG\u0018\u001d�� ��`�z��\u0019��A�?V�k ���_��)��k�D� \u001a$����1�Ni>��(��^(�3���<�\u001d��^�8s��\u0013\u001f\u0013�\u0002G��E[c�}D��\u001f8B�#1\u0018űNQU�G� GL\u0011�De�\u001fQ�```A4��\u000e\\\u0018��7U]� �@E\u001c�Pb�.����>rL\u0000�A>��\b*ĀC\u0015YM�#��/ �\u0004#�p�\u0017�e�Q�\u0007=�a�6C\u0012Y\u0015:�0P\u0001]\u0013J1�PNv��*C$�\u0001�\u0006r\u0011L�Y\u0012��+dH\u0000�\u0004,�H =e\u0012%�/��!�\u0000\u000el�B�6� ��\u001cc�'����\u0002\u00048p�\u0007{�9�)VE��\u0019-\u001c0�\u0003\u0013\\�A\b,���AN�YT5r<0�\u0004\u001f�`!C@��##�E�sF\u0000\u0017x*\u0011 E\u0004RƋy\u0014%\u0003\u00045\\\u0014�\u0017��1�\u000f��T�\u0003\u001a���)Ϭa�\u0015����\b\u001c���<���\\ s�\u001fG1��\u000e;�\u0007C\u0013�#�GKԣ�) �6� �x�.G4p�S+�ipC3|ttă��\u0007\u0003\u0005�`\u0002\u0004G*������@A\u001ak�[Q\u001dE�\u0001\" !0AqEe�ST\u0018=�\u0000��\u0011%�ʍ;�っ�:�\u0005%��LT%!|��\u000eR��\u0007&�\\3�U�4�A���\u000e�+6�@ K\u0017$M�̴\u0000A�U�p��� �@�][�c9�d�\u0000�e\u001b�uS�\u0000\u0003\b \u0003��6B_㳍�-s\u0007��w'D�\u0010\u0016\u0004`\u0000\u0004\u001a\u0000\u001e�B3�\u0000��G.��Wn��C�\u0003\u0012�-�\u0003\u0012�f% 7�\u0017�\u0010\u0016א.�A;P�L;D��\u000e5�\b��-�|��=�sc�@D$Cz0,�\u0014�N�8�P0��sP �<\u0013K)��\u0002 ^� $�N�P�D\u001d��\u000f\u001e\u0005���()���3\u001a\u000f4�?�\u0018d ;�\u0013��3�,��N�\u0010��?�(\b��Q����d��\u0004B�R��`�\u001f�@\b\u0010�A\u0010*준}2Y6 ���d�$߈\u00048�q�7\u001c�\u0010�@�@�@\u000fs�o �\u0003�Nb8�g�C\u0018\u0005ٟ?���q0� �cY�� �\u0007P� ���C|0Â�C\u001fw(�\u0018v����C\u00126\b�N�1\u0018���\u001f�\u001b�8�����`'Q\u001cH\u0019�� ��a'XH <�h�O�D\u00179�\u001e\u0006���D�!:��@�\u0000\u000eV\u001c� ;��I�QF�0��\u0004Yc��H@��g\u001d��$<�a \u001e\u0016D �D�\u000e�щ���)�(�\u001b�(�8�\u000f\":a�\u0014�\u0000\u0006FPc'ĳ_(O�G\u0015 � &�\u0007\u001c\u0004\u0002��\b\u0004�)��?�(\u0010\u001d�b'\u0001\u001c\b\u0017vi\u0012D�� ]�\u001d<x�\u0005t�\u0006@� \u0005/�Ă�R\u001f��\u00012�x\u0012W�� p�S:���{\u0014d\u001a���G\u0017\u001c\u0002�r\u0012d{\u0010\u001c\b%��\u0012\u0014*� ���5��\u000e\u0007�$\u0019/4�\u0011.h�7�d�\u0002Y�?�y�\u0007\u0016\u0003!��I6�Q�\u001d��\u001f�(�@�@�$�� | a�8����\u0015��FBn�\u0013p\u0018D \u0011K�'��N��v\u0002\u0019�N�H��\u001ar ���I�Ѽ�����8�\u001b�Q\u0014ză*��`L�� \u001aڠ ��E�\u001ehē8\u0001v�H�D�1N�\u0010a\u0014\b,J#��'��\u0003\u001a��\u00069�8\u0010\u001d@c}\u0011��\u0014���1PA!I�hB���N�\u0002\u0013�\u0014\b\u0011��\u00050�A\u0012�\u0018\u0005%�о$�� \\X��2��ֺ����\u0007�lg먀\u0000\u0000;",
+      "_zy1c",
+      "0aqee"
+    ],
+    "medium": "Source: https://www.ncbi.nlm.nih.gov/corehtml/logo100.gif",
+    "short": "Source: https://www.ncbi.nlm.nih.gov/corehtml/logo100.gif",
+    "tokens": [
+      "www",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "corehtml",
+      "logo100",
+      "gif",
+      "source",
+      "https",
+      "www",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "corehtml",
+      "logo100",
+      "gif"
+    ]
+  },
+  "title": "www.ncbi.nlm.nih.gov"
+}

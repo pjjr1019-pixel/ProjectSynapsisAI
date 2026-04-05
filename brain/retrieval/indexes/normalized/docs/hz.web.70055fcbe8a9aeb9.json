@@ -1,0 +1,308 @@
+{
+  "aliases": [
+    {
+      "alias": "70055fcbe8a9aeb9",
+      "aliasId": "hz.web.70055fcbe8a9aeb9.alias.1",
+      "canonical": "kat5.dev"
+    },
+    {
+      "alias": "kat5.dev",
+      "aliasId": "hz.web.70055fcbe8a9aeb9.alias.2",
+      "canonical": "kat5.dev"
+    },
+    {
+      "alias": "web 70055fcbe8a9aeb9",
+      "aliasId": "hz.web.70055fcbe8a9aeb9.alias.3",
+      "canonical": "kat5.dev"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.70055fcbe8a9aeb9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.70055fcbe8a9aeb9.entity.1",
+      "kind": "document",
+      "name": "kat5.dev",
+      "tokens": [
+        "kat5",
+        "dev"
+      ]
+    },
+    {
+      "entityId": "hz.web.70055fcbe8a9aeb9.entity.2",
+      "kind": "heading",
+      "name": "kat5.dev",
+      "tokens": [
+        "kat5",
+        "dev"
+      ]
+    },
+    {
+      "entityId": "hz.web.70055fcbe8a9aeb9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.70055fcbe8a9aeb9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.70055fcbe8a9aeb9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 38,
+      "charStart": 13,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.1",
+      "kind": "summary",
+      "text": "Source: https://kat5.dev/",
+      "tokens": [
+        "source",
+        "https",
+        "kat5",
+        "dev"
+      ]
+    },
+    {
+      "charEnd": 152,
+      "charStart": 90,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.1",
+      "kind": "bullet",
+      "text": "kat5.dev home blog now reading log postroll contact kat5 Hi!",
+      "tokens": [
+        "kat5",
+        "dev",
+        "home",
+        "blog",
+        "now",
+        "reading",
+        "log",
+        "postroll",
+        "contact",
+        "kat5",
+        "hi"
+      ]
+    },
+    {
+      "charEnd": 295,
+      "charStart": 153,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.2",
+      "kind": "bullet",
+      "text": "I’m Katie ( she/her ), an autistic, queer, trans software developer from Cleveland, Ohio (fortunately) in the United States (unfortunately).",
+      "tokens": [
+        "katie",
+        "she",
+        "her",
+        "autistic",
+        "queer",
+        "trans",
+        "software",
+        "developer",
+        "cleveland",
+        "ohio",
+        "fortunately",
+        "united",
+        "states",
+        "unfortunately"
+      ]
+    },
+    {
+      "charEnd": 344,
+      "charStart": 296,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.3",
+      "kind": "bullet",
+      "text": "This is my self-hosted corner of the Internet!",
+      "tokens": [
+        "self",
+        "hosted",
+        "corner",
+        "internet"
+      ]
+    },
+    {
+      "charEnd": 430,
+      "charStart": 345,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.4",
+      "kind": "bullet",
+      "text": "This site is also (partially) available as a Gemini capsule, at gemini://kat5.dev .",
+      "tokens": [
+        "site",
+        "also",
+        "partially",
+        "available",
+        "gemini",
+        "capsule",
+        "gemini",
+        "kat5",
+        "dev"
+      ]
+    },
+    {
+      "charEnd": 451,
+      "charStart": 445,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.5",
+      "kind": "bullet",
+      "text": "kat5",
+      "tokens": [
+        "kat5"
+      ]
+    },
+    {
+      "charEnd": 459,
+      "charStart": 452,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.6",
+      "kind": "bullet",
+      "text": "katie",
+      "tokens": [
+        "katie"
+      ]
+    },
+    {
+      "charEnd": 464,
+      "charStart": 460,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.7",
+      "kind": "bullet",
+      "text": "08",
+      "tokens": [
+        "08"
+      ]
+    },
+    {
+      "charEnd": 470,
+      "charStart": 465,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.8",
+      "kind": "bullet",
+      "text": "dev",
+      "tokens": [
+        "dev"
+      ]
+    },
+    {
+      "charEnd": 479,
+      "charStart": 471,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.9",
+      "kind": "bullet",
+      "text": "gemini",
+      "tokens": [
+        "gemini"
+      ]
+    },
+    {
+      "charEnd": 485,
+      "charStart": 480,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.10",
+      "kind": "bullet",
+      "text": "her",
+      "tokens": [
+        "her"
+      ]
+    },
+    {
+      "charEnd": 493,
+      "charStart": 486,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.11",
+      "kind": "bullet",
+      "text": "kloss",
+      "tokens": [
+        "kloss"
+      ]
+    },
+    {
+      "charEnd": 499,
+      "charStart": 494,
+      "factId": "hz.web.70055fcbe8a9aeb9.fact.12",
+      "kind": "bullet",
+      "text": "she",
+      "tokens": [
+        "she"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.70055fcbe8a9aeb9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "kat5.dev"
+    },
+    {
+      "charEnd": 88,
+      "charStart": 78,
+      "headingId": "hz.web.70055fcbe8a9aeb9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 443,
+      "charStart": 432,
+      "headingId": "hz.web.70055fcbe8a9aeb9.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 511,
+      "charStart": 501,
+      "headingId": "hz.web.70055fcbe8a9aeb9.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/70055fcbe8a9aeb9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1186,
+        "start": 0
+      }
+    ],
+    "hash": "68baa9aa47748b6404f40226fdb8f9a9194711a5c36e9d26ca2b904e76847235",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "kat5.dev home blog now reading log postroll contact kat5 Hi!",
+      "I’m Katie ( she/her ), an autistic, queer, trans software developer from Cleveland, Ohio (fortunately) in the United States (unfortunately).",
+      "This is my self-hosted corner of the Internet!"
+    ],
+    "medium": "Source: https://kat5.dev/",
+    "short": "Source: https://kat5.dev/",
+    "tokens": [
+      "kat5",
+      "dev",
+      "source",
+      "https",
+      "kat5",
+      "dev",
+      "source",
+      "https",
+      "kat5",
+      "dev"
+    ]
+  },
+  "title": "kat5.dev"
+}

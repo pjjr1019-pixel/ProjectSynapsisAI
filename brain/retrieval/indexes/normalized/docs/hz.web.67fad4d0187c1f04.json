@@ -1,0 +1,447 @@
+{
+  "aliases": [
+    {
+      "alias": "67fad4d0187c1f04",
+      "aliasId": "hz.web.67fad4d0187c1f04.alias.1",
+      "canonical": "maps.google.com"
+    },
+    {
+      "alias": "maps.google.com",
+      "aliasId": "hz.web.67fad4d0187c1f04.alias.2",
+      "canonical": "maps.google.com"
+    },
+    {
+      "alias": "web 67fad4d0187c1f04",
+      "aliasId": "hz.web.67fad4d0187c1f04.alias.3",
+      "canonical": "maps.google.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.67fad4d0187c1f04",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.67fad4d0187c1f04.entity.1",
+      "kind": "document",
+      "name": "maps.google.com",
+      "tokens": [
+        "maps",
+        "google",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.67fad4d0187c1f04.entity.2",
+      "kind": "heading",
+      "name": "maps.google.com",
+      "tokens": [
+        "maps",
+        "google",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.67fad4d0187c1f04.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.67fad4d0187c1f04.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.67fad4d0187c1f04.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 313,
+      "charStart": 20,
+      "factId": "hz.web.67fad4d0187c1f04.fact.1",
+      "kind": "summary",
+      "text": "Source: https://maps.google.com/maps/_/js/k=maps.m.en.Om5mySPuipI.es5.O/m=GfLzUe,tNOPW,cZ2KIb,Rq2f7d,MJcXSb,WEtKm,B863O,bEpRLd,ItB2Fd,bom,b/am=5AAAEBFAAg/rt=j/d=1/rs=ACT90oEu8WnorQDKs9ysimD2ps6VqkLfOw?wli=m.-G-Y9J3f_OU.loadSv.O%3A%3Bm.SiPZcasv9pA.loadSvVtl.O%3A%3Bm.0ib11rg3_C4.mapcore.O%3A%3B",
+      "tokens": [
+        "source",
+        "https",
+        "maps",
+        "google",
+        "com",
+        "maps",
+        "js",
+        "maps",
+        "en",
+        "om5myspuipi",
+        "es5",
+        "gflzue",
+        "tnopw",
+        "cz2kib",
+        "rq2f7d",
+        "mjcxsb",
+        "wetkm",
+        "b863o",
+        "beprld",
+        "itb2fd",
+        "bom",
+        "am",
+        "5aaaebfaag",
+        "rt",
+        "rs",
+        "act90oeu8wnorqdks9ysimd2ps6vqklfow",
+        "wli",
+        "y9j3f_ou",
+        "loadsv",
+        "3a",
+        "3bm",
+        "sipzcasv9pa",
+        "loadsvvtl",
+        "3a",
+        "3bm",
+        "0ib11rg3_c4",
+        "mapcore",
+        "3a",
+        "3b"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 365,
+      "factId": "hz.web.67fad4d0187c1f04.fact.1",
+      "kind": "bullet",
+      "text": "\"use strict\";this._=this._||{};(function(_){var window=this; try{ _._F_toggles_initialize=function(a){(typeof globalThis!==\"undefined\"?globalThis:typeof self!==\"undefined\"?self:this)._F_toggles__=a||[]};(0,_._F_toggles_initialize)([0x100000e4, 0x90044, ]); /* Copyright The Closure Library Authors.",
+      "tokens": [
+        "use",
+        "strict",
+        "function",
+        "var",
+        "window",
+        "try",
+        "_f_toggles_initialize",
+        "function",
+        "typeof",
+        "globalthis",
+        "undefined",
+        "globalthis",
+        "typeof",
+        "self",
+        "undefined",
+        "self",
+        "_f_toggles__",
+        "_f_toggles_initialize",
+        "0x100000e4",
+        "0x90044",
+        "copyright",
+        "closure",
+        "library",
+        "authors"
+      ]
+    },
+    {
+      "charEnd": 1022,
+      "charStart": 666,
+      "factId": "hz.web.67fad4d0187c1f04.fact.2",
+      "kind": "bullet",
+      "text": "SPDX-License-Identifier: Apache-2.0 */ /* Copyright Google LLC SPDX-License-Identifier: Apache-2.0 */ /* Copyright 2024 Google, Inc SPDX-License-Identifier: MIT */ /* SPDX-License-Identifier: Apache-2.0 */ /* Math.uuid.js (v1.4) http://www.broofa.com mailto:[redacted-email] Copyright (c) 2010 Robert Kieffer Dual licensed under the MIT and GPL licenses.",
+      "tokens": [
+        "spdx",
+        "license",
+        "identifier",
+        "apache",
+        "copyright",
+        "google",
+        "llc",
+        "spdx",
+        "license",
+        "identifier",
+        "apache",
+        "copyright",
+        "2024",
+        "google",
+        "inc",
+        "spdx",
+        "license",
+        "identifier",
+        "mit",
+        "spdx",
+        "license",
+        "identifier",
+        "apache",
+        "math",
+        "uuid",
+        "js",
+        "v1",
+        "http",
+        "www",
+        "broofa",
+        "com",
+        "mailto",
+        "redacted",
+        "email",
+        "copyright",
+        "2010",
+        "robert",
+        "kieffer",
+        "dual",
+        "licensed",
+        "under",
+        "mit",
+        "gpl",
+        "licenses"
+      ]
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1023,
+      "factId": "hz.web.67fad4d0187c1f04.fact.3",
+      "kind": "bullet",
+      "text": "*/ /* Copyright 2005, 2007 Bob Ippolito.",
+      "tokens": [
+        "copyright",
+        "2005",
+        "2007",
+        "bob",
+        "ippolito"
+      ]
+    },
+    {
+      "charEnd": 1088,
+      "charStart": 1066,
+      "factId": "hz.web.67fad4d0187c1f04.fact.4",
+      "kind": "bullet",
+      "text": "All Rights Reserved.",
+      "tokens": [
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 1111,
+      "charStart": 1103,
+      "factId": "hz.web.67fad4d0187c1f04.fact.5",
+      "kind": "bullet",
+      "text": "return",
+      "tokens": [
+        "return"
+      ]
+    },
+    {
+      "charEnd": 1122,
+      "charStart": 1112,
+      "factId": "hz.web.67fad4d0187c1f04.fact.6",
+      "kind": "bullet",
+      "text": "function",
+      "tokens": [
+        "function"
+      ]
+    },
+    {
+      "charEnd": 1127,
+      "charStart": 1123,
+      "factId": "hz.web.67fad4d0187c1f04.fact.7",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 1133,
+      "charStart": 1128,
+      "factId": "hz.web.67fad4d0187c1f04.fact.8",
+      "kind": "bullet",
+      "text": "var",
+      "tokens": [
+        "var"
+      ]
+    },
+    {
+      "charEnd": 1142,
+      "charStart": 1134,
+      "factId": "hz.web.67fad4d0187c1f04.fact.9",
+      "kind": "bullet",
+      "text": "length",
+      "tokens": [
+        "length"
+      ]
+    },
+    {
+      "charEnd": 1149,
+      "charStart": 1143,
+      "factId": "hz.web.67fad4d0187c1f04.fact.10",
+      "kind": "bullet",
+      "text": "null",
+      "tokens": [
+        "null"
+      ]
+    },
+    {
+      "charEnd": 1158,
+      "charStart": 1150,
+      "factId": "hz.web.67fad4d0187c1f04.fact.11",
+      "kind": "bullet",
+      "text": "string",
+      "tokens": [
+        "string"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1159,
+      "factId": "hz.web.67fad4d0187c1f04.fact.12",
+      "kind": "bullet",
+      "text": "typeof",
+      "tokens": [
+        "typeof"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.67fad4d0187c1f04.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "maps.google.com"
+    },
+    {
+      "charEnd": 363,
+      "charStart": 353,
+      "headingId": "hz.web.67fad4d0187c1f04.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1101,
+      "charStart": 1090,
+      "headingId": "hz.web.67fad4d0187c1f04.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1179,
+      "charStart": 1169,
+      "headingId": "hz.web.67fad4d0187c1f04.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/67fad4d0187c1f04.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4666,
+        "start": 0
+      }
+    ],
+    "hash": "a8aa8ac9a0ff93cabec25558c68c34433d106b15e1fa7d03c474cfed22dcf716",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "\"use strict\";this._=this._||{};(function(_){var window=this; try{ _._F_toggles_initialize=function(a){(typeof globalThis!==\"undefined\"?globalThis:typeof self!==\"undefined\"?self:this)._F_toggles__=a||[]};(0,_._F_toggles_initialize)([0x100000e4, 0x90044, ]); /* Copyright The Closure Library Authors.",
+      "SPDX-License-Identifier: Apache-2.0 */ /* Copyright Google LLC SPDX-License-Identifier: Apache-2.0 */ /* Copyright 2024 Google, Inc SPDX-License-Identifier: MIT */ /* SPDX-License-Identifier: Apache-2.0 */ /* Math.uuid.js (v1.4) http://www.broofa.com mailto:[redacted-email] Copyright (c) 2010 Robert Kieffer Dual licensed under the MIT and GPL licenses.",
+      "*/ /* Copyright 2005, 2007 Bob Ippolito."
+    ],
+    "medium": "Source: https://maps.google.com/maps/_/js/k=maps.m.en.Om5mySPuipI.es5.O/m=GfLzUe,tNOPW,cZ2KIb,Rq2f7d,MJcXSb,WEtKm,B863O,bEpRLd,ItB2Fd,bom,b/am=5AAAEBFAAg/rt=j/d=1/rs=ACT90oEu8WnorQDKs9ysimD2ps6VqkLfOw?wli=m.-G-Y9J3f_OU.loadSv.O%3A%3Bm.SiPZcasv9pA.loadSvVtl.O%3A%3Bm.0ib11rg3_C4.mapcore.O%3A%3B",
+    "short": "Source: https://maps.google.com/maps/_/js/k=maps.m.en.Om5mySPuipI.es5.O/m=GfLzUe,tNOPW,cZ2KIb,Rq2f7d,MJcXSb,WEtKm,B863O,bEpRLd,ItB2Fd,bom,b/am=5AAAEBFAAg/rt=j/d=1/rs=ACT90oEu8WnorQDKs9ysimD2ps6VqkLfOw?wli=m.-G-Y9J3f_OU.loadSv.O%3A%3Bm.SiPZc",
+    "tokens": [
+      "maps",
+      "google",
+      "com",
+      "source",
+      "https",
+      "maps",
+      "google",
+      "com",
+      "maps",
+      "js",
+      "maps",
+      "en",
+      "om5myspuipi",
+      "es5",
+      "gflzue",
+      "tnopw",
+      "cz2kib",
+      "rq2f7d",
+      "mjcxsb",
+      "wetkm",
+      "b863o",
+      "beprld",
+      "itb2fd",
+      "bom",
+      "am",
+      "5aaaebfaag",
+      "rt",
+      "rs",
+      "act90oeu8wnorqdks9ysimd2ps6vqklfow",
+      "wli",
+      "y9j3f_ou",
+      "loadsv",
+      "3a",
+      "3bm",
+      "sipzc",
+      "source",
+      "https",
+      "maps",
+      "google",
+      "com",
+      "maps",
+      "js",
+      "maps",
+      "en",
+      "om5myspuipi",
+      "es5",
+      "gflzue",
+      "tnopw",
+      "cz2kib",
+      "rq2f7d",
+      "mjcxsb",
+      "wetkm",
+      "b863o",
+      "beprld",
+      "itb2fd",
+      "bom",
+      "am",
+      "5aaaebfaag",
+      "rt",
+      "rs",
+      "act90oeu8wnorqdks9ysimd2ps6vqklfow",
+      "wli",
+      "y9j3f_ou",
+      "loadsv",
+      "3a",
+      "3bm",
+      "sipzcasv9pa",
+      "loadsvvtl",
+      "3a",
+      "3bm",
+      "0ib11rg3_c4",
+      "mapcore",
+      "3a",
+      "3b"
+    ]
+  },
+  "title": "maps.google.com"
+}

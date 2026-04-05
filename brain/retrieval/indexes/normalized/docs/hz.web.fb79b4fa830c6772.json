@@ -1,0 +1,456 @@
+{
+  "aliases": [
+    {
+      "alias": "cdn.jsdelivr.net",
+      "aliasId": "hz.web.fb79b4fa830c6772.alias.1",
+      "canonical": "cdn.jsdelivr.net"
+    },
+    {
+      "alias": "fb79b4fa830c6772",
+      "aliasId": "hz.web.fb79b4fa830c6772.alias.2",
+      "canonical": "cdn.jsdelivr.net"
+    },
+    {
+      "alias": "web fb79b4fa830c6772",
+      "aliasId": "hz.web.fb79b4fa830c6772.alias.3",
+      "canonical": "cdn.jsdelivr.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.52,
+  "docId": "hz.web.fb79b4fa830c6772",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fb79b4fa830c6772.entity.1",
+      "kind": "document",
+      "name": "cdn.jsdelivr.net",
+      "tokens": [
+        "cdn",
+        "jsdelivr",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb79b4fa830c6772.entity.2",
+      "kind": "heading",
+      "name": "cdn.jsdelivr.net",
+      "tokens": [
+        "cdn",
+        "jsdelivr",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb79b4fa830c6772.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb79b4fa830c6772.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fb79b4fa830c6772.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 94,
+      "charStart": 21,
+      "factId": "hz.web.fb79b4fa830c6772.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+      "tokens": [
+        "source",
+        "https",
+        "cdn",
+        "jsdelivr",
+        "net",
+        "npm",
+        "slick",
+        "carousel",
+        "slick",
+        "slick",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1674,
+      "charStart": 146,
+      "factId": "hz.web.fb79b4fa830c6772.fact.1",
+      "kind": "bullet",
+      "text": "/* Slider */ .slick-slider { position: relative; display: block; box-sizing: border-box; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-touch-callout: none; -khtml-user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; } .slick-list { position: relative; display: block; overflow: hidden; margin: 0; padding: 0; } .slick-list:focus { outline: none; } .slick-list.dragging { cursor: pointer; cursor: hand; } .slick-slider .slick-track, .slick-slider .slick-list { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } .slick-track { position: relative; top: 0; left: 0; display: block; margin-left: auto; margin-right: auto; } .slick-track:before, .slick-track:after { display: table; content: ''; } .slick-track:after { clear: both; } .slick-loading .slick-track { visibility: hidden; } .slick-slide { display: none; float: left; height: 100%; min-height: 1px; } [dir='rtl'] .slick-slide { float: right; } .slick-slide img { display: block; } .slick-slide.slick-loading img { display: none; } .slick-slide.dragging img { pointer-events: none; } .slick-initialized .slick-slide { display: block; } .slick-loading .slick-slide { visibility: hidden; } .slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; } .slick-arrow.slick-hidden { display: none; }",
+      "tokens": [
+        "slider",
+        "slick",
+        "slider",
+        "position",
+        "relative",
+        "display",
+        "block",
+        "box",
+        "sizing",
+        "border",
+        "box",
+        "webkit",
+        "user",
+        "select",
+        "none",
+        "moz",
+        "user",
+        "select",
+        "none",
+        "ms",
+        "user",
+        "select",
+        "none",
+        "user",
+        "select",
+        "none",
+        "webkit",
+        "touch",
+        "callout",
+        "none",
+        "khtml",
+        "user",
+        "select",
+        "none",
+        "ms",
+        "touch",
+        "action",
+        "pan",
+        "touch",
+        "action",
+        "pan",
+        "webkit",
+        "tap",
+        "highlight",
+        "color",
+        "transparent",
+        "slick",
+        "list",
+        "position",
+        "relative",
+        "display",
+        "block",
+        "overflow",
+        "hidden",
+        "margin",
+        "padding",
+        "slick",
+        "list",
+        "focus",
+        "outline",
+        "none",
+        "slick",
+        "list",
+        "dragging",
+        "cursor",
+        "pointer",
+        "cursor",
+        "hand",
+        "slick",
+        "slider",
+        "slick",
+        "track",
+        "slick",
+        "slider",
+        "slick",
+        "list",
+        "webkit",
+        "transform",
+        "translate3d",
+        "moz",
+        "transform",
+        "translate3d",
+        "ms",
+        "transform",
+        "translate3d",
+        "transform",
+        "translate3d",
+        "transform",
+        "translate3d",
+        "slick",
+        "track",
+        "position",
+        "relative",
+        "top",
+        "left",
+        "display",
+        "block",
+        "margin",
+        "left",
+        "auto",
+        "margin",
+        "right",
+        "auto",
+        "slick",
+        "track",
+        "before",
+        "slick",
+        "track",
+        "after",
+        "display",
+        "table",
+        "content",
+        "slick",
+        "track",
+        "after",
+        "clear",
+        "both",
+        "slick",
+        "loading",
+        "slick",
+        "track",
+        "visibility",
+        "hidden",
+        "slick",
+        "slide",
+        "display",
+        "none",
+        "float",
+        "left",
+        "height",
+        "100",
+        "min",
+        "height",
+        "1px",
+        "dir",
+        "rtl",
+        "slick",
+        "slide",
+        "float",
+        "right",
+        "slick",
+        "slide",
+        "img",
+        "display",
+        "block",
+        "slick",
+        "slide",
+        "slick",
+        "loading",
+        "img",
+        "display",
+        "none",
+        "slick",
+        "slide",
+        "dragging",
+        "img",
+        "pointer",
+        "events",
+        "none",
+        "slick",
+        "initialized",
+        "slick",
+        "slide",
+        "display",
+        "block",
+        "slick",
+        "loading",
+        "slick",
+        "slide",
+        "visibility",
+        "hidden",
+        "slick",
+        "vertical",
+        "slick",
+        "slide",
+        "display",
+        "block",
+        "height",
+        "auto",
+        "border",
+        "1px",
+        "solid",
+        "transparent",
+        "slick",
+        "arrow",
+        "slick",
+        "hidden",
+        "display",
+        "none"
+      ]
+    },
+    {
+      "charEnd": 1696,
+      "charStart": 1689,
+      "factId": "hz.web.fb79b4fa830c6772.fact.2",
+      "kind": "bullet",
+      "text": "slick",
+      "tokens": [
+        "slick"
+      ]
+    },
+    {
+      "charEnd": 1703,
+      "charStart": 1697,
+      "factId": "hz.web.fb79b4fa830c6772.fact.3",
+      "kind": "bullet",
+      "text": "none",
+      "tokens": [
+        "none"
+      ]
+    },
+    {
+      "charEnd": 1713,
+      "charStart": 1704,
+      "factId": "hz.web.fb79b4fa830c6772.fact.4",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 1721,
+      "charStart": 1714,
+      "factId": "hz.web.fb79b4fa830c6772.fact.5",
+      "kind": "bullet",
+      "text": "slide",
+      "tokens": [
+        "slide"
+      ]
+    },
+    {
+      "charEnd": 1729,
+      "charStart": 1722,
+      "factId": "hz.web.fb79b4fa830c6772.fact.6",
+      "kind": "bullet",
+      "text": "block",
+      "tokens": [
+        "block"
+      ]
+    },
+    {
+      "charEnd": 1737,
+      "charStart": 1730,
+      "factId": "hz.web.fb79b4fa830c6772.fact.7",
+      "kind": "bullet",
+      "text": "track",
+      "tokens": [
+        "track"
+      ]
+    },
+    {
+      "charEnd": 1746,
+      "charStart": 1738,
+      "factId": "hz.web.fb79b4fa830c6772.fact.8",
+      "kind": "bullet",
+      "text": "select",
+      "tokens": [
+        "select"
+      ]
+    },
+    {
+      "charEnd": 1758,
+      "charStart": 1747,
+      "factId": "hz.web.fb79b4fa830c6772.fact.9",
+      "kind": "bullet",
+      "text": "transform",
+      "tokens": [
+        "transform"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.fb79b4fa830c6772.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cdn.jsdelivr.net"
+    },
+    {
+      "charEnd": 144,
+      "charStart": 134,
+      "headingId": "hz.web.fb79b4fa830c6772.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1687,
+      "charStart": 1676,
+      "headingId": "hz.web.fb79b4fa830c6772.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1770,
+      "charStart": 1760,
+      "headingId": "hz.web.fb79b4fa830c6772.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/fb79b4fa830c6772.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3564,
+        "start": 0
+      }
+    ],
+    "hash": "2d0b9a67de73fb5c1558ddbedb18828c51d591f2839ac74edefcc0a14df83e84",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* Slider */ .slick-slider { position: relative; display: block; box-sizing: border-box; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-touch-callout: none; -khtml-user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; } .slick-list { position: relative; display: block; overflow: hidden; margin: 0; padding: 0; } .slick-list:focus { outline: none; } .slick-list.dragging { cursor: pointer; cursor: hand; } .slick-slider .slick-track, .slick-slider .slick-list { -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } .slick-track { position: relative; top: 0; left: 0; display: block; margin-left: auto; margin-right: auto; } .slick-track:before, .slick-track:after { display: table; content: ''; } .slick-track:after { clear: both; } .slick-loading .slick-track { visibility: hidden; } .slick-slide { display: none; float: left; height: 100%; min-height: 1px; } [dir='rtl'] .slick-slide { float: right; } .slick-slide img { display: block; } .slick-slide.slick-loading img { display: none; } .slick-slide.dragging img { pointer-events: none; } .slick-initialized .slick-slide { display: block; } .slick-loading .slick-slide { visibility: hidden; } .slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; } .slick-arrow.slick-hidden { display: none; }",
+      "slick",
+      "none"
+    ],
+    "medium": "Source: https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+    "short": "Source: https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
+    "tokens": [
+      "cdn",
+      "jsdelivr",
+      "net",
+      "source",
+      "https",
+      "cdn",
+      "jsdelivr",
+      "net",
+      "npm",
+      "slick",
+      "carousel",
+      "slick",
+      "slick",
+      "css",
+      "source",
+      "https",
+      "cdn",
+      "jsdelivr",
+      "net",
+      "npm",
+      "slick",
+      "carousel",
+      "slick",
+      "slick",
+      "css"
+    ]
+  },
+  "title": "cdn.jsdelivr.net"
+}

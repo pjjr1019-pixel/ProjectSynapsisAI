@@ -1,0 +1,205 @@
+{
+  "aliases": [
+    {
+      "alias": "import pack horizonsai knowledge pack v1",
+      "aliasId": "hz.pipeline.imports.knowledge-pack-v1.alias.1",
+      "canonical": "import pack — horizonsai knowledge pack v1"
+    },
+    {
+      "alias": "imports knowledge-pack-v1",
+      "aliasId": "hz.pipeline.imports.knowledge-pack-v1.alias.2",
+      "canonical": "import pack — horizonsai knowledge pack v1"
+    },
+    {
+      "alias": "knowledge pack v1",
+      "aliasId": "hz.pipeline.imports.knowledge-pack-v1.alias.3",
+      "canonical": "import pack — horizonsai knowledge pack v1"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.knowledge-pack-v1",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.1",
+      "kind": "document",
+      "name": "Import pack — HorizonsAI Knowledge Pack v1",
+      "tokens": [
+        "import",
+        "pack",
+        "horizonsai",
+        "knowledge",
+        "pack",
+        "v1"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.3",
+      "kind": "tag",
+      "name": "knowledge-pack",
+      "tokens": [
+        "knowledge",
+        "pack"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.4",
+      "kind": "tag",
+      "name": "finance",
+      "tokens": [
+        "finance"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.5",
+      "kind": "tag",
+      "name": "work",
+      "tokens": [
+        "work"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.6",
+      "kind": "tag",
+      "name": "social",
+      "tokens": [
+        "social"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.7",
+      "kind": "tag",
+      "name": "memory",
+      "tokens": [
+        "memory"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.8",
+      "kind": "tag",
+      "name": "evals",
+      "tokens": [
+        "evals"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.knowledge-pack-v1.entity.9",
+      "kind": "heading",
+      "name": "Knowledge pack v1 (import anchor)",
+      "tokens": [
+        "knowledge",
+        "pack",
+        "v1",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 134,
+      "charStart": 41,
+      "factId": "hz.pipeline.imports.knowledge-pack-v1.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_knowledge_pack_v1",
+        "horizonsai_knowledge_pack_v1",
+        "readme",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.knowledge-pack-v1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Knowledge pack v1 (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/knowledge-pack-v1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 994,
+        "start": 0
+      }
+    ],
+    "hash": "56ec60a47928c3c8cd1532284d60eaec781c5da82e8cb688b539bcdcb919fa85",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Knowledge_Pack_v1/`",
+      "relationId": "hz.pipeline.imports.knowledge-pack-v1.relation.1",
+      "sourceDocId": "hz.pipeline.imports.knowledge-pack-v1",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Knowledge_Pack_v1/README.md",
+      "type": "references"
+    },
+    {
+      "label": "`knowledge_index.json`",
+      "relationId": "hz.pipeline.imports.knowledge-pack-v1.relation.2",
+      "sourceDocId": "hz.pipeline.imports.knowledge-pack-v1",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Knowledge_Pack_v1/knowledge_index.json",
+      "type": "references"
+    },
+    {
+      "label": "`../../../retrieval/indexes/imports-files.jsonl`",
+      "relationId": "hz.pipeline.imports.knowledge-pack-v1.relation.3",
+      "sourceDocId": "hz.pipeline.imports.knowledge-pack-v1",
+      "targetPath": "retrieval/indexes/imports-files.jsonl",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.knowledge-pack-v1.relation.4",
+      "sourceDocId": "hz.pipeline.imports.knowledge-pack-v1",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+    "short": "**Source tree:** [`HorizonsAI_Knowledge_Pack_v1/`](../HorizonsAI_Knowledge_Pack_v1/README.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "horizonsai",
+      "knowledge",
+      "pack",
+      "v1",
+      "source",
+      "tree",
+      "horizonsai_knowledge_pack_v1",
+      "horizonsai_knowledge_pack_v1",
+      "readme",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_knowledge_pack_v1",
+      "horizonsai_knowledge_pack_v1",
+      "readme",
+      "md"
+    ]
+  },
+  "title": "Import pack — HorizonsAI Knowledge Pack v1"
+}

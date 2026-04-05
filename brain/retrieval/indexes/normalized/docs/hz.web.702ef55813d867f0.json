@@ -1,0 +1,338 @@
+{
+  "aliases": [
+    {
+      "alias": "702ef55813d867f0",
+      "aliasId": "hz.web.702ef55813d867f0.alias.1",
+      "canonical": "index - unicyclic"
+    },
+    {
+      "alias": "index - unicyclic",
+      "aliasId": "hz.web.702ef55813d867f0.alias.2",
+      "canonical": "index - unicyclic"
+    },
+    {
+      "alias": "web 702ef55813d867f0",
+      "aliasId": "hz.web.702ef55813d867f0.alias.3",
+      "canonical": "index - unicyclic"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.702ef55813d867f0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.702ef55813d867f0.entity.1",
+      "kind": "document",
+      "name": "index - unicyclic",
+      "tokens": [
+        "index",
+        "unicyclic"
+      ]
+    },
+    {
+      "entityId": "hz.web.702ef55813d867f0.entity.2",
+      "kind": "heading",
+      "name": "index - unicyclic",
+      "tokens": [
+        "index",
+        "unicyclic"
+      ]
+    },
+    {
+      "entityId": "hz.web.702ef55813d867f0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.702ef55813d867f0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.702ef55813d867f0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 22,
+      "factId": "hz.web.702ef55813d867f0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://unicyclic.com/",
+      "tokens": [
+        "source",
+        "https",
+        "unicyclic",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 150,
+      "charStart": 104,
+      "factId": "hz.web.702ef55813d867f0.fact.1",
+      "kind": "bullet",
+      "text": "index - unicyclic Welcome to unicyclic.com !",
+      "tokens": [
+        "index",
+        "unicyclic",
+        "welcome",
+        "unicyclic",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 302,
+      "charStart": 151,
+      "factId": "hz.web.702ef55813d867f0.fact.2",
+      "kind": "bullet",
+      "text": "Unicyclic.com is a social feed reader , which means you can subscribe to feeds and then reply to, like, or share what you're reading from the reader.",
+      "tokens": [
+        "unicyclic",
+        "com",
+        "social",
+        "feed",
+        "reader",
+        "means",
+        "subscribe",
+        "feeds",
+        "then",
+        "reply",
+        "like",
+        "share",
+        "re",
+        "reading",
+        "reader"
+      ]
+    },
+    {
+      "charEnd": 388,
+      "charStart": 303,
+      "factId": "hz.web.702ef55813d867f0.fact.3",
+      "kind": "bullet",
+      "text": "If you have your own website, you can use it to log in right here using IndieAuth .",
+      "tokens": [
+        "if",
+        "have",
+        "your",
+        "own",
+        "website",
+        "use",
+        "log",
+        "right",
+        "here",
+        "using",
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 486,
+      "charStart": 389,
+      "factId": "hz.web.702ef55813d867f0.fact.4",
+      "kind": "bullet",
+      "text": "If you also support Micropub , all your interactions here will be posted back to your own site.",
+      "tokens": [
+        "if",
+        "also",
+        "support",
+        "micropub",
+        "all",
+        "your",
+        "interactions",
+        "here",
+        "will",
+        "posted",
+        "back",
+        "your",
+        "own",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 507,
+      "charStart": 501,
+      "factId": "hz.web.702ef55813d867f0.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 512,
+      "charStart": 508,
+      "factId": "hz.web.702ef55813d867f0.fact.6",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 519,
+      "charStart": 513,
+      "factId": "hz.web.702ef55813d867f0.fact.7",
+      "kind": "bullet",
+      "text": "also",
+      "tokens": [
+        "also"
+      ]
+    },
+    {
+      "charEnd": 525,
+      "charStart": 520,
+      "factId": "hz.web.702ef55813d867f0.fact.8",
+      "kind": "bullet",
+      "text": "own",
+      "tokens": [
+        "own"
+      ]
+    },
+    {
+      "charEnd": 537,
+      "charStart": 526,
+      "factId": "hz.web.702ef55813d867f0.fact.9",
+      "kind": "bullet",
+      "text": "unicyclic",
+      "tokens": [
+        "unicyclic"
+      ]
+    },
+    {
+      "charEnd": 543,
+      "charStart": 538,
+      "factId": "hz.web.702ef55813d867f0.fact.10",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 550,
+      "charStart": 544,
+      "factId": "hz.web.702ef55813d867f0.fact.11",
+      "kind": "bullet",
+      "text": "here",
+      "tokens": [
+        "here"
+      ]
+    },
+    {
+      "charEnd": 556,
+      "charStart": 551,
+      "factId": "hz.web.702ef55813d867f0.fact.12",
+      "kind": "bullet",
+      "text": "log",
+      "tokens": [
+        "log"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.702ef55813d867f0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "index - unicyclic"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.702ef55813d867f0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 499,
+      "charStart": 488,
+      "headingId": "hz.web.702ef55813d867f0.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 568,
+      "charStart": 558,
+      "headingId": "hz.web.702ef55813d867f0.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/702ef55813d867f0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1780,
+        "start": 0
+      }
+    ],
+    "hash": "5ea943feb2dbd80927bc0cfde3b8d935ca5b9afc18023925a14cdc6084fa0f15",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.702ef55813d867f0.rule.1",
+      "text": "Web Address: Log In If you don't have your own website you can also create an account on this site and then log in here .",
+      "tokens": [
+        "web",
+        "address",
+        "log",
+        "if",
+        "don",
+        "have",
+        "your",
+        "own",
+        "website",
+        "also",
+        "create",
+        "account",
+        "site",
+        "then",
+        "log",
+        "here"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "index - unicyclic Welcome to unicyclic.com !",
+      "Unicyclic.com is a social feed reader , which means you can subscribe to feeds and then reply to, like, or share what you're reading from the reader.",
+      "If you have your own website, you can use it to log in right here using IndieAuth ."
+    ],
+    "medium": "Source: https://unicyclic.com/",
+    "short": "Source: https://unicyclic.com/",
+    "tokens": [
+      "index",
+      "unicyclic",
+      "source",
+      "https",
+      "unicyclic",
+      "com",
+      "source",
+      "https",
+      "unicyclic",
+      "com"
+    ]
+  },
+  "title": "index - unicyclic"
+}

@@ -1,0 +1,396 @@
+{
+  "aliases": [
+    {
+      "alias": "641b81a71850038e",
+      "aliasId": "hz.web.641b81a71850038e.alias.1",
+      "canonical": "www.facebook.com"
+    },
+    {
+      "alias": "web 641b81a71850038e",
+      "aliasId": "hz.web.641b81a71850038e.alias.2",
+      "canonical": "www.facebook.com"
+    },
+    {
+      "alias": "www.facebook.com",
+      "aliasId": "hz.web.641b81a71850038e.alias.3",
+      "canonical": "www.facebook.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.641b81a71850038e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.641b81a71850038e.entity.1",
+      "kind": "document",
+      "name": "www.facebook.com",
+      "tokens": [
+        "www",
+        "facebook",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.641b81a71850038e.entity.2",
+      "kind": "heading",
+      "name": "www.facebook.com",
+      "tokens": [
+        "www",
+        "facebook",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.641b81a71850038e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.641b81a71850038e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.641b81a71850038e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 105,
+      "charStart": 21,
+      "factId": "hz.web.641b81a71850038e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.facebook.com/data/manifest/?is_workplace_mobile_pwa_dogfooding=0",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "facebook",
+        "com",
+        "data",
+        "manifest",
+        "is_workplace_mobile_pwa_dogfooding"
+      ]
+    },
+    {
+      "charEnd": 1399,
+      "charStart": 157,
+      "factId": "hz.web.641b81a71850038e.fact.1",
+      "kind": "bullet",
+      "text": "{\"gcm_sender_id\":\"15057814354\",\"gcm_user_visible_only\":true,\"edge_side_panel\":{\"preferred_width\":376},\"short_name\":\"Facebook\",\"name\":\"Facebook\",\"start_url\":\"\\/?ref=homescreenpwa\",\"display\":\"minimal-ui\",\"background_color\":\"#FFFFFF\",\"theme_color\":\"#1877F2\",\"icons\":[{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yk\\/r\\/Czs2nwUnhiR.webp\",\"sizes\":\"192x192\",\"type\":\"image\\/png\"},{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yH\\/r\\/a0cO3e6g_yJ.webp\",\"sizes\":\"512x512\",\"type\":\"image\\/png\"}],\"launch_handler\":{\"client_mode\":\"navigate-existing\"},\"widgets\":[{\"name\":\"Facebook\",\"description\":\"Facebook\",\"short_name\":\"Facebook\",\"tag\":\"fb_widget\",\"type\":\"application\\/json\",\"update\":100,\"icons\":[{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yk\\/r\\/Czs2nwUnhiR.webp\",\"sizes\":\"192x192\"}],\"screenshots\":[{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yU\\/r\\/qDmut9H6dpF.webp\",\"sizes\":\"464x478\",\"label\":\"Widget Screenshot\"}],\"template\":\"dummy\",\"data\":\"\\/dummy.json\",\"ms_ac_template\":\"\\/dummy.json\"}],\"related_applications\":[{\"platform\":\"play\",\"id\":\"com.facebook.katana\"},{\"platform\":\"play\",\"id\":\"com.facebook.lite\"},{\"platform\":\"play\",\"id\":\"com.facebook.orca\"},{\"platform\":\"play\",\"id\":\"com.facebook.mlite\"}],\"prefer_related_applications\":false}",
+      "tokens": [
+        "gcm_sender_id",
+        "15057814354",
+        "gcm_user_visible_only",
+        "true",
+        "edge_side_panel",
+        "preferred_width",
+        "376",
+        "short_name",
+        "facebook",
+        "name",
+        "facebook",
+        "start_url",
+        "ref",
+        "homescreenpwa",
+        "display",
+        "minimal",
+        "ui",
+        "background_color",
+        "ffffff",
+        "theme_color",
+        "1877f2",
+        "icons",
+        "src",
+        "https",
+        "static",
+        "xx",
+        "fbcdn",
+        "net",
+        "rsrc",
+        "php",
+        "yk",
+        "czs2nwunhir",
+        "webp",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "src",
+        "https",
+        "static",
+        "xx",
+        "fbcdn",
+        "net",
+        "rsrc",
+        "php",
+        "yh",
+        "a0co3e6g_yj",
+        "webp",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "launch_handler",
+        "client_mode",
+        "navigate",
+        "existing",
+        "widgets",
+        "name",
+        "facebook",
+        "description",
+        "facebook",
+        "short_name",
+        "facebook",
+        "tag",
+        "fb_widget",
+        "type",
+        "application",
+        "json",
+        "update",
+        "100",
+        "icons",
+        "src",
+        "https",
+        "static",
+        "xx",
+        "fbcdn",
+        "net",
+        "rsrc",
+        "php",
+        "yk",
+        "czs2nwunhir",
+        "webp",
+        "sizes",
+        "192x192",
+        "screenshots",
+        "src",
+        "https",
+        "static",
+        "xx",
+        "fbcdn",
+        "net",
+        "rsrc",
+        "php",
+        "yu",
+        "qdmut9h6dpf",
+        "webp",
+        "sizes",
+        "464x478",
+        "label",
+        "widget",
+        "screenshot",
+        "template",
+        "dummy",
+        "data",
+        "dummy",
+        "json",
+        "ms_ac_template",
+        "dummy",
+        "json",
+        "related_applications",
+        "platform",
+        "play",
+        "id",
+        "com",
+        "facebook",
+        "katana",
+        "platform",
+        "play",
+        "id",
+        "com",
+        "facebook",
+        "lite",
+        "platform",
+        "play",
+        "id",
+        "com",
+        "facebook",
+        "orca",
+        "platform",
+        "play",
+        "id",
+        "com",
+        "facebook",
+        "mlite",
+        "prefer_related_applications",
+        "false"
+      ]
+    },
+    {
+      "charEnd": 1424,
+      "charStart": 1414,
+      "factId": "hz.web.641b81a71850038e.fact.2",
+      "kind": "bullet",
+      "text": "facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "charEnd": 1430,
+      "charStart": 1425,
+      "factId": "hz.web.641b81a71850038e.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1438,
+      "charStart": 1431,
+      "factId": "hz.web.641b81a71850038e.fact.4",
+      "kind": "bullet",
+      "text": "fbcdn",
+      "tokens": [
+        "fbcdn"
+      ]
+    },
+    {
+      "charEnd": 1446,
+      "charStart": 1439,
+      "factId": "hz.web.641b81a71850038e.fact.5",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1451,
+      "charStart": 1447,
+      "factId": "hz.web.641b81a71850038e.fact.6",
+      "kind": "bullet",
+      "text": "id",
+      "tokens": [
+        "id"
+      ]
+    },
+    {
+      "charEnd": 1457,
+      "charStart": 1452,
+      "factId": "hz.web.641b81a71850038e.fact.7",
+      "kind": "bullet",
+      "text": "net",
+      "tokens": [
+        "net"
+      ]
+    },
+    {
+      "charEnd": 1463,
+      "charStart": 1458,
+      "factId": "hz.web.641b81a71850038e.fact.8",
+      "kind": "bullet",
+      "text": "php",
+      "tokens": [
+        "php"
+      ]
+    },
+    {
+      "charEnd": 1474,
+      "charStart": 1464,
+      "factId": "hz.web.641b81a71850038e.fact.9",
+      "kind": "bullet",
+      "text": "platform",
+      "tokens": [
+        "platform"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.641b81a71850038e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.facebook.com"
+    },
+    {
+      "charEnd": 155,
+      "charStart": 145,
+      "headingId": "hz.web.641b81a71850038e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1412,
+      "charStart": 1401,
+      "headingId": "hz.web.641b81a71850038e.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1486,
+      "charStart": 1476,
+      "headingId": "hz.web.641b81a71850038e.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/641b81a71850038e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3005,
+        "start": 0
+      }
+    ],
+    "hash": "e2dedd338ed7dced667d477e341273131013c1079f9896c51416ff356df4dc19",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"gcm_sender_id\":\"15057814354\",\"gcm_user_visible_only\":true,\"edge_side_panel\":{\"preferred_width\":376},\"short_name\":\"Facebook\",\"name\":\"Facebook\",\"start_url\":\"\\/?ref=homescreenpwa\",\"display\":\"minimal-ui\",\"background_color\":\"#FFFFFF\",\"theme_color\":\"#1877F2\",\"icons\":[{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yk\\/r\\/Czs2nwUnhiR.webp\",\"sizes\":\"192x192\",\"type\":\"image\\/png\"},{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yH\\/r\\/a0cO3e6g_yJ.webp\",\"sizes\":\"512x512\",\"type\":\"image\\/png\"}],\"launch_handler\":{\"client_mode\":\"navigate-existing\"},\"widgets\":[{\"name\":\"Facebook\",\"description\":\"Facebook\",\"short_name\":\"Facebook\",\"tag\":\"fb_widget\",\"type\":\"application\\/json\",\"update\":100,\"icons\":[{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yk\\/r\\/Czs2nwUnhiR.webp\",\"sizes\":\"192x192\"}],\"screenshots\":[{\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/yU\\/r\\/qDmut9H6dpF.webp\",\"sizes\":\"464x478\",\"label\":\"Widget Screenshot\"}],\"template\":\"dummy\",\"data\":\"\\/dummy.json\",\"ms_ac_template\":\"\\/dummy.json\"}],\"related_applications\":[{\"platform\":\"play\",\"id\":\"com.facebook.katana\"},{\"platform\":\"play\",\"id\":\"com.facebook.lite\"},{\"platform\":\"play\",\"id\":\"com.facebook.orca\"},{\"platform\":\"play\",\"id\":\"com.facebook.mlite\"}],\"prefer_related_applications\":false}",
+      "facebook",
+      "com"
+    ],
+    "medium": "Source: https://www.facebook.com/data/manifest/?is_workplace_mobile_pwa_dogfooding=0",
+    "short": "Source: https://www.facebook.com/data/manifest/?is_workplace_mobile_pwa_dogfooding=0",
+    "tokens": [
+      "www",
+      "facebook",
+      "com",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "data",
+      "manifest",
+      "is_workplace_mobile_pwa_dogfooding",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "data",
+      "manifest",
+      "is_workplace_mobile_pwa_dogfooding"
+    ]
+  },
+  "title": "www.facebook.com"
+}

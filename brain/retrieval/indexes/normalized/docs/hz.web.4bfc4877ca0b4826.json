@@ -1,0 +1,509 @@
+{
+  "aliases": [
+    {
+      "alias": "4bfc4877ca0b4826",
+      "aliasId": "hz.web.4bfc4877ca0b4826.alias.1",
+      "canonical": "frequently asked questions | codeberg documentation"
+    },
+    {
+      "alias": "frequently asked questions codeberg documentation",
+      "aliasId": "hz.web.4bfc4877ca0b4826.alias.2",
+      "canonical": "frequently asked questions | codeberg documentation"
+    },
+    {
+      "alias": "web 4bfc4877ca0b4826",
+      "aliasId": "hz.web.4bfc4877ca0b4826.alias.3",
+      "canonical": "frequently asked questions | codeberg documentation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.4bfc4877ca0b4826",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4bfc4877ca0b4826.entity.1",
+      "kind": "document",
+      "name": "Frequently Asked Questions | Codeberg Documentation",
+      "tokens": [
+        "frequently",
+        "asked",
+        "questions",
+        "codeberg",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.4bfc4877ca0b4826.entity.2",
+      "kind": "heading",
+      "name": "Frequently Asked Questions | Codeberg Documentation",
+      "tokens": [
+        "frequently",
+        "asked",
+        "questions",
+        "codeberg",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.4bfc4877ca0b4826.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4bfc4877ca0b4826.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4bfc4877ca0b4826.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 110,
+      "charStart": 56,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.1",
+      "kind": "summary",
+      "text": "Source: https://docs.codeberg.org/getting-started/faq/",
+      "tokens": [
+        "source",
+        "https",
+        "docs",
+        "codeberg",
+        "org",
+        "getting",
+        "started",
+        "faq"
+      ]
+    },
+    {
+      "charEnd": 285,
+      "charStart": 162,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.1",
+      "kind": "bullet",
+      "text": "Frequently Asked Questions | Codeberg Documentation Docs Press / to focus Getting Started with Codeberg What is Codeberg?",
+      "tokens": [
+        "frequently",
+        "asked",
+        "questions",
+        "codeberg",
+        "documentation",
+        "docs",
+        "press",
+        "focus",
+        "getting",
+        "started",
+        "codeberg",
+        "codeberg"
+      ]
+    },
+    {
+      "charEnd": 1844,
+      "charStart": 286,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.2",
+      "kind": "bullet",
+      "text": "Your First Steps on Codeberg Install Git Your First Repository The Basics of Issue Tracking Integrated Wiki Email Settings Licensing on Codeberg Frequently Asked Questions Collaborating with Others Pull requests and Git flow Invite Collaborators Create and Manage an Organization Repository Permissions Resolve Conflicts Citable Code Working with Git Repositories Clone & Commit via CLI Clone & Commit via Web Merge multiple commits into one Tags and Releases Working with large files Configuring Git Using .gitignore Reducing the size of a repository Writing in Markdown Introduction to Markdown Using Links Topics Preformatted Text Using Images Using Lists Tables in Markdown Markdown FAQ Security Setting up two-factor authentication Adding an SSH key to your account Verifying you're connected to Codeberg using SSH fingerprints Adding a GPG key to your account Codeberg Pages Using custom domains Troubleshooting Deploying directly from Forgejo Actions Pushing output from SSGs into Codeberg Pages Migrating from Pages v2 Advanced usage Advanced Usage Generating an Access Token Migrating Repositories Using Webhooks Working with Codeberg's CI Adding Self-Hosted Agents Using Forgejo Actions (Self-hosted) Integrations with Other Services Integrating with Keycloak Integrating with LiberaPay Integrating with Matrix Integrating with Read the Docs Codeberg Translate Getting started Introduction to Weblate Manual Component configuration Improving Codeberg Contributing Code Donating to Codeberg Improving the Documentation How to create a new article?",
+      "tokens": [
+        "your",
+        "first",
+        "steps",
+        "codeberg",
+        "install",
+        "git",
+        "your",
+        "first",
+        "repository",
+        "basics",
+        "issue",
+        "tracking",
+        "integrated",
+        "wiki",
+        "email",
+        "settings",
+        "licensing",
+        "codeberg",
+        "frequently",
+        "asked",
+        "questions",
+        "collaborating",
+        "others",
+        "pull",
+        "requests",
+        "git",
+        "flow",
+        "invite",
+        "collaborators",
+        "create",
+        "manage",
+        "organization",
+        "repository",
+        "permissions",
+        "resolve",
+        "conflicts",
+        "citable",
+        "code",
+        "working",
+        "git",
+        "repositories",
+        "clone",
+        "commit",
+        "via",
+        "cli",
+        "clone",
+        "commit",
+        "via",
+        "web",
+        "merge",
+        "multiple",
+        "commits",
+        "into",
+        "one",
+        "tags",
+        "releases",
+        "working",
+        "large",
+        "files",
+        "configuring",
+        "git",
+        "using",
+        "gitignore",
+        "reducing",
+        "size",
+        "repository",
+        "writing",
+        "markdown",
+        "introduction",
+        "markdown",
+        "using",
+        "links",
+        "topics",
+        "preformatted",
+        "text",
+        "using",
+        "images",
+        "using",
+        "lists",
+        "tables",
+        "markdown",
+        "markdown",
+        "faq",
+        "security",
+        "setting",
+        "up",
+        "two",
+        "factor",
+        "authentication",
+        "adding",
+        "ssh",
+        "key",
+        "your",
+        "account",
+        "verifying",
+        "re",
+        "connected",
+        "codeberg",
+        "using",
+        "ssh",
+        "fingerprints",
+        "adding",
+        "gpg",
+        "key",
+        "your",
+        "account",
+        "codeberg",
+        "pages",
+        "using",
+        "custom",
+        "domains",
+        "troubleshooting",
+        "deploying",
+        "directly",
+        "forgejo",
+        "actions",
+        "pushing",
+        "output",
+        "ssgs",
+        "into",
+        "codeberg",
+        "pages",
+        "migrating",
+        "pages",
+        "v2",
+        "advanced",
+        "usage",
+        "advanced",
+        "usage",
+        "generating",
+        "access",
+        "token",
+        "migrating",
+        "repositories",
+        "using",
+        "webhooks",
+        "working",
+        "codeberg",
+        "ci",
+        "adding",
+        "self",
+        "hosted",
+        "agents",
+        "using",
+        "forgejo",
+        "actions",
+        "self",
+        "hosted",
+        "integrations",
+        "other",
+        "services",
+        "integrating",
+        "keycloak",
+        "integrating",
+        "liberapay",
+        "integrating",
+        "matrix",
+        "integrating",
+        "read",
+        "docs",
+        "codeberg",
+        "translate",
+        "getting",
+        "started",
+        "introduction",
+        "weblate",
+        "manual",
+        "component",
+        "configuration",
+        "improving",
+        "codeberg",
+        "contributing",
+        "code",
+        "donating",
+        "codeberg",
+        "improving",
+        "documentation",
+        "create",
+        "new",
+        "article"
+      ]
+    },
+    {
+      "charEnd": 1872,
+      "charStart": 1845,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.3",
+      "kind": "bullet",
+      "text": "Can I preview my article?",
+      "tokens": [
+        "preview",
+        "article"
+      ]
+    },
+    {
+      "charEnd": 1926,
+      "charStart": 1873,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.4",
+      "kind": "bullet",
+      "text": "How to make screenshots for Codeberg Documentation?",
+      "tokens": [
+        "make",
+        "screenshots",
+        "codeberg",
+        "documentation"
+      ]
+    },
+    {
+      "charEnd": 1951,
+      "charStart": 1941,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.5",
+      "kind": "bullet",
+      "text": "codeberg",
+      "tokens": [
+        "codeberg"
+      ]
+    },
+    {
+      "charEnd": 1958,
+      "charStart": 1952,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1965,
+      "charStart": 1959,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.7",
+      "kind": "bullet",
+      "text": "free",
+      "tokens": [
+        "free"
+      ]
+    },
+    {
+      "charEnd": 1971,
+      "charStart": 1966,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.8",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 1976,
+      "charStart": 1972,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.9",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 1982,
+      "charStart": 1977,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.10",
+      "kind": "bullet",
+      "text": "not",
+      "tokens": [
+        "not"
+      ]
+    },
+    {
+      "charEnd": 1993,
+      "charStart": 1983,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.11",
+      "kind": "bullet",
+      "text": "software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "charEnd": 1999,
+      "charStart": 1994,
+      "factId": "hz.web.4bfc4877ca0b4826.fact.12",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 54,
+      "charStart": 1,
+      "headingId": "hz.web.4bfc4877ca0b4826.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Frequently Asked Questions | Codeberg Documentation"
+    },
+    {
+      "charEnd": 160,
+      "charStart": 150,
+      "headingId": "hz.web.4bfc4877ca0b4826.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1939,
+      "charStart": 1928,
+      "headingId": "hz.web.4bfc4877ca0b4826.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2011,
+      "charStart": 2001,
+      "headingId": "hz.web.4bfc4877ca0b4826.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4bfc4877ca0b4826.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5295,
+        "start": 0
+      }
+    ],
+    "hash": "879e57895714321f6138d158b47d6b84c660791d8388f3b110c4c1577808cea5",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.4bfc4877ca0b4826.rule.1",
+      "text": "Can I pay you for more resources (private storage, CI, ...) Why can't I mirror repositories from other code-hosting websites?",
+      "tokens": [
+        "pay",
+        "more",
+        "resources",
+        "private",
+        "storage",
+        "ci",
+        "why",
+        "mirror",
+        "repositories",
+        "other",
+        "code",
+        "hosting",
+        "websites"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Frequently Asked Questions | Codeberg Documentation Docs Press / to focus Getting Started with Codeberg What is Codeberg?",
+      "Your First Steps on Codeberg Install Git Your First Repository The Basics of Issue Tracking Integrated Wiki Email Settings Licensing on Codeberg Frequently Asked Questions Collaborating with Others Pull requests and Git flow Invite Collaborators Create and Manage an Organization Repository Permissions Resolve Conflicts Citable Code Working with Git Repositories Clone & Commit via CLI Clone & Commit via Web Merge multiple commits into one Tags and Releases Working with large files Configuring Git Using .gitignore Reducing the size of a repository Writing in Markdown Introduction to Markdown Using Links Topics Preformatted Text Using Images Using Lists Tables in Markdown Markdown FAQ Security Setting up two-factor authentication Adding an SSH key to your account Verifying you're connected to Codeberg using SSH fingerprints Adding a GPG key to your account Codeberg Pages Using custom domains Troubleshooting Deploying directly from Forgejo Actions Pushing output from SSGs into Codeberg Pages Migrating from Pages v2 Advanced usage Advanced Usage Generating an Access Token Migrating Repositories Using Webhooks Working with Codeberg's CI Adding Self-Hosted Agents Using Forgejo Actions (Self-hosted) Integrations with Other Services Integrating with Keycloak Integrating with LiberaPay Integrating with Matrix Integrating with Read the Docs Codeberg Translate Getting started Introduction to Weblate Manual Component configuration Improving Codeberg Contributing Code Donating to Codeberg Improving the Documentation How to create a new article?",
+      "Can I preview my article?"
+    ],
+    "medium": "Source: https://docs.codeberg.org/getting-started/faq/",
+    "short": "Source: https://docs.codeberg.org/getting-started/faq/",
+    "tokens": [
+      "frequently",
+      "asked",
+      "questions",
+      "codeberg",
+      "documentation",
+      "source",
+      "https",
+      "docs",
+      "codeberg",
+      "org",
+      "getting",
+      "started",
+      "faq",
+      "source",
+      "https",
+      "docs",
+      "codeberg",
+      "org",
+      "getting",
+      "started",
+      "faq"
+    ]
+  },
+  "title": "Frequently Asked Questions | Codeberg Documentation"
+}

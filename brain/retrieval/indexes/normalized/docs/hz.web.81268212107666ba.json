@@ -1,0 +1,450 @@
+{
+  "aliases": [
+    {
+      "alias": "81268212107666ba",
+      "aliasId": "hz.web.81268212107666ba.alias.1",
+      "canonical": "indieweb"
+    },
+    {
+      "alias": "indieweb",
+      "aliasId": "hz.web.81268212107666ba.alias.2",
+      "canonical": "indieweb"
+    },
+    {
+      "alias": "web 81268212107666ba",
+      "aliasId": "hz.web.81268212107666ba.alias.3",
+      "canonical": "indieweb"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.81268212107666ba",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.81268212107666ba.entity.1",
+      "kind": "document",
+      "name": "IndieWeb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.81268212107666ba.entity.2",
+      "kind": "heading",
+      "name": "IndieWeb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.81268212107666ba.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.81268212107666ba.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.81268212107666ba.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 49,
+      "charStart": 13,
+      "factId": "hz.web.81268212107666ba.fact.1",
+      "kind": "summary",
+      "text": "Source: https://stream.indieweb.org/",
+      "tokens": [
+        "source",
+        "https",
+        "stream",
+        "indieweb",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 189,
+      "charStart": 101,
+      "factId": "hz.web.81268212107666ba.fact.1",
+      "kind": "bullet",
+      "text": "IndieWeb #indieweb mastodon.social/tags/indieweb I might have made a silent honk page.",
+      "tokens": [
+        "indieweb",
+        "indieweb",
+        "mastodon",
+        "social",
+        "tags",
+        "indieweb",
+        "might",
+        "have",
+        "made",
+        "silent",
+        "honk",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 1113,
+      "charStart": 190,
+      "factId": "hz.web.81268212107666ba.fact.2",
+      "kind": "bullet",
+      "text": "https:// banjomagpi.com/honk/ # indieweb Read More March 31, 2026 4:42am +00:00 { \"type\": \"entry\", \"author\": { \"name\": \"#indieweb\", \"url\": \"https://mastodon.social/tags/indieweb\", \"photo\": null }, \"url\": \"https://mathstodon.xyz/@fractalkitty/116321954253143651\", \"content\": { \"html\": \"&lt;p&gt;I might have made a silent honk page.&lt;/p&gt;&lt;p&gt;&lt;a href=\\\"https://banjomagpi.com/honk/\\\"&gt;&lt;span&gt;https://&lt;/span&gt;&lt;span&gt;banjomagpi.com/honk/&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;a href=\\\"https://mathstodon.xyz/tags/indieweb\\\"&gt;#&lt;span&gt;indieweb&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;\", \"text\": \"I might have made a silent honk page.\\n\\nhttps://banjomagpi.com/honk/\\n\\n #indieweb\" }, \"published\": \"2026-03-31T04:42:43+00:00\", \"post-type\": \"note\", \"_id\": \"47803739\", \"_source\": \"8007\", \"_is_read\": false } #indieweb mastodon.social/tags/indieweb I am glad to be back!",
+      "tokens": [
+        "https",
+        "banjomagpi",
+        "com",
+        "honk",
+        "indieweb",
+        "read",
+        "more",
+        "march",
+        "31",
+        "2026",
+        "42am",
+        "00",
+        "00",
+        "type",
+        "entry",
+        "author",
+        "name",
+        "indieweb",
+        "url",
+        "https",
+        "mastodon",
+        "social",
+        "tags",
+        "indieweb",
+        "photo",
+        "null",
+        "url",
+        "https",
+        "mathstodon",
+        "xyz",
+        "fractalkitty",
+        "116321954253143651",
+        "content",
+        "html",
+        "lt",
+        "gt",
+        "might",
+        "have",
+        "made",
+        "silent",
+        "honk",
+        "page",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "lt",
+        "href",
+        "https",
+        "banjomagpi",
+        "com",
+        "honk",
+        "gt",
+        "lt",
+        "span",
+        "gt",
+        "https",
+        "lt",
+        "span",
+        "gt",
+        "lt",
+        "span",
+        "gt",
+        "banjomagpi",
+        "com",
+        "honk",
+        "lt",
+        "span",
+        "gt",
+        "lt",
+        "span",
+        "gt",
+        "lt",
+        "span",
+        "gt",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "lt",
+        "href",
+        "https",
+        "mathstodon",
+        "xyz",
+        "tags",
+        "indieweb",
+        "gt",
+        "lt",
+        "span",
+        "gt",
+        "indieweb",
+        "lt",
+        "span",
+        "gt",
+        "lt",
+        "gt",
+        "lt",
+        "gt",
+        "text",
+        "might",
+        "have",
+        "made",
+        "silent",
+        "honk",
+        "page",
+        "nhttps",
+        "banjomagpi",
+        "com",
+        "honk",
+        "indieweb",
+        "published",
+        "2026",
+        "03",
+        "31t04",
+        "42",
+        "43",
+        "00",
+        "00",
+        "post",
+        "type",
+        "note",
+        "_id",
+        "47803739",
+        "_source",
+        "8007",
+        "_is_read",
+        "false",
+        "indieweb",
+        "mastodon",
+        "social",
+        "tags",
+        "indieweb",
+        "am",
+        "glad",
+        "back"
+      ]
+    },
+    {
+      "charEnd": 1229,
+      "charStart": 1114,
+      "factId": "hz.web.81268212107666ba.fact.3",
+      "kind": "bullet",
+      "text": "I’m Joe Henzi, co-founder of The Henzi Foundation, and I am finally getting re-established here in the Fediverse.",
+      "tokens": [
+        "joe",
+        "henzi",
+        "co",
+        "founder",
+        "henzi",
+        "foundation",
+        "am",
+        "finally",
+        "getting",
+        "re",
+        "established",
+        "here",
+        "fediverse"
+      ]
+    },
+    {
+      "charEnd": 1399,
+      "charStart": 1230,
+      "factId": "hz.web.81268212107666ba.fact.4",
+      "kind": "bullet",
+      "text": "My work is centered on supporting families during their most difficult moments by providing direct financial relief for the funeral and final expenses of a lost child.",
+      "tokens": [
+        "work",
+        "centered",
+        "supporting",
+        "families",
+        "during",
+        "their",
+        "most",
+        "difficult",
+        "moments",
+        "providing",
+        "direct",
+        "financial",
+        "relief",
+        "funeral",
+        "final",
+        "expenses",
+        "lost",
+        "child"
+      ]
+    },
+    {
+      "charEnd": 1418,
+      "charStart": 1414,
+      "factId": "hz.web.81268212107666ba.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 1423,
+      "charStart": 1419,
+      "factId": "hz.web.81268212107666ba.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 1430,
+      "charStart": 1424,
+      "factId": "hz.web.81268212107666ba.fact.7",
+      "kind": "bullet",
+      "text": "span",
+      "tokens": [
+        "span"
+      ]
+    },
+    {
+      "charEnd": 1438,
+      "charStart": 1431,
+      "factId": "hz.web.81268212107666ba.fact.8",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1445,
+      "charStart": 1439,
+      "factId": "hz.web.81268212107666ba.fact.9",
+      "kind": "bullet",
+      "text": "tags",
+      "tokens": [
+        "tags"
+      ]
+    },
+    {
+      "charEnd": 1456,
+      "charStart": 1446,
+      "factId": "hz.web.81268212107666ba.fact.10",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 1465,
+      "charStart": 1457,
+      "factId": "hz.web.81268212107666ba.fact.11",
+      "kind": "bullet",
+      "text": "social",
+      "tokens": [
+        "social"
+      ]
+    },
+    {
+      "charEnd": 1472,
+      "charStart": 1466,
+      "factId": "hz.web.81268212107666ba.fact.12",
+      "kind": "bullet",
+      "text": "href",
+      "tokens": [
+        "href"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.81268212107666ba.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IndieWeb"
+    },
+    {
+      "charEnd": 99,
+      "charStart": 89,
+      "headingId": "hz.web.81268212107666ba.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1412,
+      "charStart": 1401,
+      "headingId": "hz.web.81268212107666ba.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1484,
+      "charStart": 1474,
+      "headingId": "hz.web.81268212107666ba.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/81268212107666ba.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4707,
+        "start": 0
+      }
+    ],
+    "hash": "72740d11b70a5e5623c60ba7c1a4f2cbba4a1b0c23845602657ebbdcc3b03bab",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "IndieWeb #indieweb mastodon.social/tags/indieweb I might have made a silent honk page.",
+      "https:// banjomagpi.com/honk/ # indieweb Read More March 31, 2026 4:42am +00:00 { \"type\": \"entry\", \"author\": { \"name\": \"#indieweb\", \"url\": \"https://mastodon.social/tags/indieweb\", \"photo\": null }, \"url\": \"https://mathstodon.xyz/@fractalkitty/116321954253143651\", \"content\": { \"html\": \"&lt;p&gt;I might have made a silent honk page.&lt;/p&gt;&lt;p&gt;&lt;a href=\\\"https://banjomagpi.com/honk/\\\"&gt;&lt;span&gt;https://&lt;/span&gt;&lt;span&gt;banjomagpi.com/honk/&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;a href=\\\"https://mathstodon.xyz/tags/indieweb\\\"&gt;#&lt;span&gt;indieweb&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;\", \"text\": \"I might have made a silent honk page.\\n\\nhttps://banjomagpi.com/honk/\\n\\n #indieweb\" }, \"published\": \"2026-03-31T04:42:43+00:00\", \"post-type\": \"note\", \"_id\": \"47803739\", \"_source\": \"8007\", \"_is_read\": false } #indieweb mastodon.social/tags/indieweb I am glad to be back!",
+      "I’m Joe Henzi, co-founder of The Henzi Foundation, and I am finally getting re-established here in the Fediverse."
+    ],
+    "medium": "Source: https://stream.indieweb.org/",
+    "short": "Source: https://stream.indieweb.org/",
+    "tokens": [
+      "indieweb",
+      "source",
+      "https",
+      "stream",
+      "indieweb",
+      "org",
+      "source",
+      "https",
+      "stream",
+      "indieweb",
+      "org"
+    ]
+  },
+  "title": "IndieWeb"
+}

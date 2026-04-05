@@ -1,0 +1,465 @@
+{
+  "aliases": [
+    {
+      "alias": "bfbbd85e914ef69c",
+      "aliasId": "hz.web.bfbbd85e914ef69c.alias.1",
+      "canonical": "confluence data center documentation | confluence data center 10.2 | atlassian documentation"
+    },
+    {
+      "alias": "confluence data center documentation confluence data center 10.2 atlassian documentation",
+      "aliasId": "hz.web.bfbbd85e914ef69c.alias.2",
+      "canonical": "confluence data center documentation | confluence data center 10.2 | atlassian documentation"
+    },
+    {
+      "alias": "web bfbbd85e914ef69c",
+      "aliasId": "hz.web.bfbbd85e914ef69c.alias.3",
+      "canonical": "confluence data center documentation | confluence data center 10.2 | atlassian documentation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.81,
+  "docId": "hz.web.bfbbd85e914ef69c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bfbbd85e914ef69c.entity.1",
+      "kind": "document",
+      "name": "Confluence Data Center documentation | Confluence Data Center 10.2 | Atlassian Documentation",
+      "tokens": [
+        "confluence",
+        "data",
+        "center",
+        "documentation",
+        "confluence",
+        "data",
+        "center",
+        "10",
+        "atlassian",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfbbd85e914ef69c.entity.2",
+      "kind": "heading",
+      "name": "Confluence Data Center documentation | Confluence Data Center 10.2 | Atlassian Documentation",
+      "tokens": [
+        "confluence",
+        "data",
+        "center",
+        "documentation",
+        "confluence",
+        "data",
+        "center",
+        "10",
+        "atlassian",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfbbd85e914ef69c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfbbd85e914ef69c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfbbd85e914ef69c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 142,
+      "charStart": 97,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://confluence.atlassian.com/doc/",
+      "tokens": [
+        "source",
+        "https",
+        "confluence",
+        "atlassian",
+        "com",
+        "doc"
+      ]
+    },
+    {
+      "charEnd": 408,
+      "charStart": 194,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.1",
+      "kind": "bullet",
+      "text": "Confluence Data Center documentation | Confluence Data Center 10.2 | Atlassian Documentation Products Confluence Support Documentation Knowledge base Resources Search Log in View account View requests Log out ...",
+      "tokens": [
+        "confluence",
+        "data",
+        "center",
+        "documentation",
+        "confluence",
+        "data",
+        "center",
+        "10",
+        "atlassian",
+        "documentation",
+        "products",
+        "confluence",
+        "support",
+        "documentation",
+        "knowledge",
+        "base",
+        "resources",
+        "search",
+        "log",
+        "view",
+        "account",
+        "view",
+        "requests",
+        "log",
+        "out"
+      ]
+    },
+    {
+      "charEnd": 1122,
+      "charStart": 409,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.2",
+      "kind": "bullet",
+      "text": "Knowledge base Products Jira Software Project and issue tracking Jira Service Management Service management and customer support Jira Work Management Manage any business project Confluence Document collaboration Bitbucket Git code management See all Resources Documentation Usage and admin help Community Answers, support, and inspiration Suggestions and bugs Feature suggestions and bug reports Marketplace Product apps Billing and licensing Frequently asked questions Log out Log in to account Contact support Training & Certification Cloud Migration Center GDPR guides Enterprise services Atlassian partners Developers User groups Automation for Jira Atlassian.com Ascend to new heights with Atlassian Cloud.",
+      "tokens": [
+        "knowledge",
+        "base",
+        "products",
+        "jira",
+        "software",
+        "project",
+        "issue",
+        "tracking",
+        "jira",
+        "service",
+        "management",
+        "service",
+        "management",
+        "customer",
+        "support",
+        "jira",
+        "work",
+        "management",
+        "manage",
+        "any",
+        "business",
+        "project",
+        "confluence",
+        "document",
+        "collaboration",
+        "bitbucket",
+        "git",
+        "code",
+        "management",
+        "see",
+        "all",
+        "resources",
+        "documentation",
+        "usage",
+        "admin",
+        "help",
+        "community",
+        "answers",
+        "support",
+        "inspiration",
+        "suggestions",
+        "bugs",
+        "feature",
+        "suggestions",
+        "bug",
+        "reports",
+        "marketplace",
+        "product",
+        "apps",
+        "billing",
+        "licensing",
+        "frequently",
+        "asked",
+        "questions",
+        "log",
+        "out",
+        "log",
+        "account",
+        "contact",
+        "support",
+        "training",
+        "certification",
+        "cloud",
+        "migration",
+        "center",
+        "gdpr",
+        "guides",
+        "enterprise",
+        "services",
+        "atlassian",
+        "partners",
+        "developers",
+        "user",
+        "groups",
+        "automation",
+        "jira",
+        "atlassian",
+        "com",
+        "ascend",
+        "new",
+        "heights",
+        "atlassian",
+        "cloud"
+      ]
+    },
+    {
+      "charEnd": 1168,
+      "charStart": 1123,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.3",
+      "kind": "bullet",
+      "text": "Data Center support ends on March 28, 2029.",
+      "tokens": [
+        "data",
+        "center",
+        "support",
+        "ends",
+        "march",
+        "28",
+        "2029"
+      ]
+    },
+    {
+      "charEnd": 1626,
+      "charStart": 1169,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.4",
+      "kind": "bullet",
+      "text": "Learn more and get support -> Page View in Confluence Edit Page Viewport Manage Viewport Confluence Dashboard Space Directory People Directory Confluence 10.2 (Latest) Documentation Unable to load Atlassian Support Confluence 10.2 Documentation Cloud Data Center 10.2 Versions 10.2 10.1 10.0 9.5 9.4 9.3 9.2 9.1 9.0 8.9 8.8 8.7 8.6 8.5 See all Confluence Data Center documentation Confluence is where you create, organize, and discuss work with your team.",
+      "tokens": [
+        "learn",
+        "more",
+        "get",
+        "support",
+        "page",
+        "view",
+        "confluence",
+        "edit",
+        "page",
+        "viewport",
+        "manage",
+        "viewport",
+        "confluence",
+        "dashboard",
+        "space",
+        "directory",
+        "people",
+        "directory",
+        "confluence",
+        "10",
+        "latest",
+        "documentation",
+        "unable",
+        "load",
+        "atlassian",
+        "support",
+        "confluence",
+        "10",
+        "documentation",
+        "cloud",
+        "data",
+        "center",
+        "10",
+        "versions",
+        "10",
+        "10",
+        "10",
+        "see",
+        "all",
+        "confluence",
+        "data",
+        "center",
+        "documentation",
+        "confluence",
+        "create",
+        "organize",
+        "discuss",
+        "work",
+        "your",
+        "team"
+      ]
+    },
+    {
+      "charEnd": 1653,
+      "charStart": 1641,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.5",
+      "kind": "bullet",
+      "text": "confluence",
+      "tokens": [
+        "confluence"
+      ]
+    },
+    {
+      "charEnd": 1660,
+      "charStart": 1654,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.6",
+      "kind": "bullet",
+      "text": "view",
+      "tokens": [
+        "view"
+      ]
+    },
+    {
+      "charEnd": 1669,
+      "charStart": 1661,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.7",
+      "kind": "bullet",
+      "text": "topics",
+      "tokens": [
+        "topics"
+      ]
+    },
+    {
+      "charEnd": 1676,
+      "charStart": 1670,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1685,
+      "charStart": 1677,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.9",
+      "kind": "bullet",
+      "text": "center",
+      "tokens": [
+        "center"
+      ]
+    },
+    {
+      "charEnd": 1692,
+      "charStart": 1686,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.10",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 1702,
+      "charStart": 1693,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.11",
+      "kind": "bullet",
+      "text": "support",
+      "tokens": [
+        "support"
+      ]
+    },
+    {
+      "charEnd": 1707,
+      "charStart": 1703,
+      "factId": "hz.web.bfbbd85e914ef69c.fact.12",
+      "kind": "bullet",
+      "text": "10",
+      "tokens": [
+        "10"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 95,
+      "charStart": 1,
+      "headingId": "hz.web.bfbbd85e914ef69c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Confluence Data Center documentation | Confluence Data Center 10.2 | Atlassian Documentation"
+    },
+    {
+      "charEnd": 192,
+      "charStart": 182,
+      "headingId": "hz.web.bfbbd85e914ef69c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1639,
+      "charStart": 1628,
+      "headingId": "hz.web.bfbbd85e914ef69c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1719,
+      "charStart": 1709,
+      "headingId": "hz.web.bfbbd85e914ef69c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/bfbbd85e914ef69c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5035,
+        "start": 0
+      }
+    ],
+    "hash": "0038c98fa292206a0951ef9e51e2975bce2d034e68421b00713f4e08eeeb2bf2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Confluence Data Center documentation | Confluence Data Center 10.2 | Atlassian Documentation Products Confluence Support Documentation Knowledge base Resources Search Log in View account View requests Log out ...",
+      "Knowledge base Products Jira Software Project and issue tracking Jira Service Management Service management and customer support Jira Work Management Manage any business project Confluence Document collaboration Bitbucket Git code management See all Resources Documentation Usage and admin help Community Answers, support, and inspiration Suggestions and bugs Feature suggestions and bug reports Marketplace Product apps Billing and licensing Frequently asked questions Log out Log in to account Contact support Training & Certification Cloud Migration Center GDPR guides Enterprise services Atlassian partners Developers User groups Automation for Jira Atlassian.com Ascend to new heights with Atlassian Cloud.",
+      "Data Center support ends on March 28, 2029."
+    ],
+    "medium": "Source: https://confluence.atlassian.com/doc/",
+    "short": "Source: https://confluence.atlassian.com/doc/",
+    "tokens": [
+      "confluence",
+      "data",
+      "center",
+      "documentation",
+      "confluence",
+      "data",
+      "center",
+      "10",
+      "atlassian",
+      "documentation",
+      "source",
+      "https",
+      "confluence",
+      "atlassian",
+      "com",
+      "doc",
+      "source",
+      "https",
+      "confluence",
+      "atlassian",
+      "com",
+      "doc"
+    ]
+  },
+  "title": "Confluence Data Center documentation | Confluence Data Center 10.2 | Atlassian Documentation"
+}

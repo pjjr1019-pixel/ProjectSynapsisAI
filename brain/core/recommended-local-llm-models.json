@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "description": "Optional machine-readable hints; names are examples and drift with upstream releases.",
+  "lastReviewed": "2026-03-28",
+  "models": [
+    {
+      "id": "example-small-instruct",
+      "ollamaModel": "llama3.2",
+      "roles": ["refine", "fallback"],
+      "minRamGbApprox": 8,
+      "notes": "Small instruct variant; replace with exact tag from `ollama pull` / `ollama list`."
+    },
+    {
+      "id": "example-mistral-small",
+      "ollamaModel": "mistral",
+      "roles": ["fallback", "general"],
+      "minRamGbApprox": 8,
+      "notes": "7B-class; heavier than tiny models — use when refine quality needs a bump."
+    },
+    {
+      "id": "example-phi-mini",
+      "ollamaModel": "phi3",
+      "roles": ["refine", "fallback"],
+      "minRamGbApprox": 4,
+      "notes": "Often used for lightweight local inference; verify current Ollama tag."
+    }
+  ]
+}

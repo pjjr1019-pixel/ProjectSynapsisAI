@@ -1,0 +1,599 @@
+{
+  "aliases": [
+    {
+      "alias": "a64b538ed53b98f5",
+      "aliasId": "hz.web.a64b538ed53b98f5.alias.1",
+      "canonical": "threema. the secure messenger - apps on google play"
+    },
+    {
+      "alias": "threema. the secure messenger - apps on google play",
+      "aliasId": "hz.web.a64b538ed53b98f5.alias.2",
+      "canonical": "threema. the secure messenger - apps on google play"
+    },
+    {
+      "alias": "web a64b538ed53b98f5",
+      "aliasId": "hz.web.a64b538ed53b98f5.alias.3",
+      "canonical": "threema. the secure messenger - apps on google play"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.a64b538ed53b98f5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a64b538ed53b98f5.entity.1",
+      "kind": "document",
+      "name": "Threema. The Secure Messenger - Apps on Google Play",
+      "tokens": [
+        "threema",
+        "secure",
+        "messenger",
+        "apps",
+        "google",
+        "play"
+      ]
+    },
+    {
+      "entityId": "hz.web.a64b538ed53b98f5.entity.2",
+      "kind": "heading",
+      "name": "Threema. The Secure Messenger - Apps on Google Play",
+      "tokens": [
+        "threema",
+        "secure",
+        "messenger",
+        "apps",
+        "google",
+        "play"
+      ]
+    },
+    {
+      "entityId": "hz.web.a64b538ed53b98f5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a64b538ed53b98f5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a64b538ed53b98f5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 124,
+      "charStart": 56,
+      "factId": "hz.web.a64b538ed53b98f5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://play.google.com/store/apps/details?id=ch.threema.app",
+      "tokens": [
+        "source",
+        "https",
+        "play",
+        "google",
+        "com",
+        "store",
+        "apps",
+        "details",
+        "id",
+        "ch",
+        "threema",
+        "app"
+      ]
+    },
+    {
+      "charEnd": 186,
+      "charStart": 176,
+      "factId": "hz.web.a64b538ed53b98f5.fact.1",
+      "kind": "bullet",
+      "text": "Threema.",
+      "tokens": [
+        "threema"
+      ]
+    },
+    {
+      "charEnd": 590,
+      "charStart": 187,
+      "factId": "hz.web.a64b538ed53b98f5.fact.2",
+      "kind": "bullet",
+      "text": "The Secure Messenger - Apps on Google Play Games Apps Movies & TV Books Kids google_logo Play Games Apps Movies & TV Books Kids none search help_outline Sign in with Google play_apps Library & devices payment Payments & subscriptions reviews My Play activity redeem Offers Play Pass Personalization in Play settings Settings Privacy Policy • Terms of Service Games Apps Movies & TV Books Kids Threema.",
+      "tokens": [
+        "secure",
+        "messenger",
+        "apps",
+        "google",
+        "play",
+        "games",
+        "apps",
+        "movies",
+        "tv",
+        "books",
+        "kids",
+        "google_logo",
+        "play",
+        "games",
+        "apps",
+        "movies",
+        "tv",
+        "books",
+        "kids",
+        "none",
+        "search",
+        "help_outline",
+        "sign",
+        "google",
+        "play_apps",
+        "library",
+        "devices",
+        "payment",
+        "payments",
+        "subscriptions",
+        "reviews",
+        "play",
+        "activity",
+        "redeem",
+        "offers",
+        "play",
+        "pass",
+        "personalization",
+        "play",
+        "settings",
+        "settings",
+        "privacy",
+        "policy",
+        "terms",
+        "service",
+        "games",
+        "apps",
+        "movies",
+        "tv",
+        "books",
+        "kids",
+        "threema"
+      ]
+    },
+    {
+      "charEnd": 932,
+      "charStart": 591,
+      "factId": "hz.web.a64b538ed53b98f5.fact.3",
+      "kind": "bullet",
+      "text": "The Secure Messenger Threema GmbH 4.0 star 75.1K reviews 5M+ Downloads Everyone info $7.49 Buy Share Add to wishlist About this app arrow_forward Threema is the world’s best-selling secure messenger, used by more than 12 million people in over 175 countries, developed in Switzerland, and designed with privacy and data protection in mind.",
+      "tokens": [
+        "secure",
+        "messenger",
+        "threema",
+        "gmbh",
+        "star",
+        "75",
+        "1k",
+        "reviews",
+        "5m",
+        "downloads",
+        "everyone",
+        "info",
+        "49",
+        "buy",
+        "share",
+        "add",
+        "wishlist",
+        "about",
+        "app",
+        "arrow_forward",
+        "threema",
+        "world",
+        "best",
+        "selling",
+        "secure",
+        "messenger",
+        "used",
+        "more",
+        "than",
+        "12",
+        "million",
+        "people",
+        "over",
+        "175",
+        "countries",
+        "developed",
+        "switzerland",
+        "designed",
+        "privacy",
+        "data",
+        "protection",
+        "mind"
+      ]
+    },
+    {
+      "charEnd": 1036,
+      "charStart": 933,
+      "factId": "hz.web.a64b538ed53b98f5.fact.4",
+      "kind": "bullet",
+      "text": "Whether chats, calls, or files, everything is end-to-end encrypted, and no data trail is left behind.",
+      "tokens": [
+        "whether",
+        "chats",
+        "calls",
+        "files",
+        "everything",
+        "end",
+        "end",
+        "encrypted",
+        "no",
+        "data",
+        "trail",
+        "left",
+        "behind"
+      ]
+    },
+    {
+      "charEnd": 1060,
+      "charStart": 1051,
+      "factId": "hz.web.a64b538ed53b98f5.fact.5",
+      "kind": "bullet",
+      "text": "threema",
+      "tokens": [
+        "threema"
+      ]
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1061,
+      "factId": "hz.web.a64b538ed53b98f5.fact.6",
+      "kind": "bullet",
+      "text": "no",
+      "tokens": [
+        "no"
+      ]
+    },
+    {
+      "charEnd": 1072,
+      "charStart": 1066,
+      "factId": "hz.web.a64b538ed53b98f5.fact.7",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 1079,
+      "charStart": 1073,
+      "factId": "hz.web.a64b538ed53b98f5.fact.8",
+      "kind": "bullet",
+      "text": "have",
+      "tokens": [
+        "have"
+      ]
+    },
+    {
+      "charEnd": 1086,
+      "charStart": 1080,
+      "factId": "hz.web.a64b538ed53b98f5.fact.9",
+      "kind": "bullet",
+      "text": "play",
+      "tokens": [
+        "play"
+      ]
+    },
+    {
+      "charEnd": 1092,
+      "charStart": 1087,
+      "factId": "hz.web.a64b538ed53b98f5.fact.10",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    },
+    {
+      "charEnd": 1102,
+      "charStart": 1093,
+      "factId": "hz.web.a64b538ed53b98f5.fact.11",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 1109,
+      "charStart": 1103,
+      "factId": "hz.web.a64b538ed53b98f5.fact.12",
+      "kind": "bullet",
+      "text": "star",
+      "tokens": [
+        "star"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 54,
+      "charStart": 1,
+      "headingId": "hz.web.a64b538ed53b98f5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Threema. The Secure Messenger - Apps on Google Play"
+    },
+    {
+      "charEnd": 174,
+      "charStart": 164,
+      "headingId": "hz.web.a64b538ed53b98f5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1049,
+      "charStart": 1038,
+      "headingId": "hz.web.a64b538ed53b98f5.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1121,
+      "charStart": 1111,
+      "headingId": "hz.web.a64b538ed53b98f5.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/a64b538ed53b98f5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4419,
+        "start": 0
+      }
+    ],
+    "hash": "f5ae35a46e0ded5186a88e9afb3c94b5fd86e999c663d272298dc6b000487414",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.a64b538ed53b98f5.rule.1",
+      "text": "Advantages of Threema: · Text and voice messages, including emoji reactions · End-to-end encrypted voice, video, and group calls · Location sharing · Sending files in all formats (PDF, GIF, MP3, ZIP, and more) · Ability to edit sent messages and delete them for chat partners · Desktop app and web client for convenient chatting on your PC · Group creation and polls · Light or dark mode · No ads, no trackers, no data collection · Identity verification of contacts by scanning their QR code Reliable security: · Open source and regular audits · Servers in Switzerland · Anonymous use possible: no phone number or email address required · Messages are deleted from the server immediately after delivery Do you have any questions or problems?",
+      "tokens": [
+        "advantages",
+        "threema",
+        "text",
+        "voice",
+        "messages",
+        "including",
+        "emoji",
+        "reactions",
+        "end",
+        "end",
+        "encrypted",
+        "voice",
+        "video",
+        "group",
+        "calls",
+        "location",
+        "sharing",
+        "sending",
+        "files",
+        "all",
+        "formats",
+        "pdf",
+        "gif",
+        "mp3",
+        "zip",
+        "more",
+        "ability",
+        "edit",
+        "sent",
+        "messages",
+        "delete",
+        "them",
+        "chat",
+        "partners",
+        "desktop",
+        "app",
+        "web",
+        "client",
+        "convenient",
+        "chatting",
+        "your",
+        "pc",
+        "group",
+        "creation",
+        "polls",
+        "light",
+        "dark",
+        "mode",
+        "no",
+        "ads",
+        "no",
+        "trackers",
+        "no",
+        "data",
+        "collection",
+        "identity",
+        "verification",
+        "contacts",
+        "scanning",
+        "their",
+        "qr",
+        "code",
+        "reliable",
+        "security",
+        "open",
+        "source",
+        "regular",
+        "audits",
+        "servers",
+        "switzerland",
+        "anonymous",
+        "use",
+        "possible",
+        "no",
+        "phone",
+        "number",
+        "email",
+        "address",
+        "required",
+        "messages",
+        "deleted",
+        "server",
+        "immediately",
+        "after",
+        "delivery",
+        "have",
+        "any",
+        "questions",
+        "problems"
+      ]
+    },
+    {
+      "ruleId": "hz.web.a64b538ed53b98f5.rule.2",
+      "text": "Advantages of Threema: · Text and voice messages, including emoji reactions · End-to-end encrypted voice, video, and group calls · Location sharing · Sending files in all formats (PDF, GIF, MP3, ZIP, and more) · Ability to edit sent messages and delete them for chat partners · Desktop app and web client for convenient chatting on your PC · Group creation and polls · Light or dark mode · No ads, no trackers, no data collection · Identity verification of contacts by scanning their QR code Reliable security: · Open source and regular audits · Servers in Switzerland · Anonymous use possible: no phone number or email address required · Messages are deleted from the server im",
+      "tokens": [
+        "advantages",
+        "threema",
+        "text",
+        "voice",
+        "messages",
+        "including",
+        "emoji",
+        "reactions",
+        "end",
+        "end",
+        "encrypted",
+        "voice",
+        "video",
+        "group",
+        "calls",
+        "location",
+        "sharing",
+        "sending",
+        "files",
+        "all",
+        "formats",
+        "pdf",
+        "gif",
+        "mp3",
+        "zip",
+        "more",
+        "ability",
+        "edit",
+        "sent",
+        "messages",
+        "delete",
+        "them",
+        "chat",
+        "partners",
+        "desktop",
+        "app",
+        "web",
+        "client",
+        "convenient",
+        "chatting",
+        "your",
+        "pc",
+        "group",
+        "creation",
+        "polls",
+        "light",
+        "dark",
+        "mode",
+        "no",
+        "ads",
+        "no",
+        "trackers",
+        "no",
+        "data",
+        "collection",
+        "identity",
+        "verification",
+        "contacts",
+        "scanning",
+        "their",
+        "qr",
+        "code",
+        "reliable",
+        "security",
+        "open",
+        "source",
+        "regular",
+        "audits",
+        "servers",
+        "switzerland",
+        "anonymous",
+        "use",
+        "possible",
+        "no",
+        "phone",
+        "number",
+        "email",
+        "address",
+        "required",
+        "messages",
+        "deleted",
+        "server",
+        "im"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Threema.",
+      "The Secure Messenger - Apps on Google Play Games Apps Movies & TV Books Kids google_logo Play Games Apps Movies & TV Books Kids none search help_outline Sign in with Google play_apps Library & devices payment Payments & subscriptions reviews My Play activity redeem Offers Play Pass Personalization in Play settings Settings Privacy Policy • Terms of Service Games Apps Movies & TV Books Kids Threema.",
+      "The Secure Messenger Threema GmbH 4.0 star 75.1K reviews 5M+ Downloads Everyone info $7.49 Buy Share Add to wishlist About this app arrow_forward Threema is the world’s best-selling secure messenger, used by more than 12 million people in over 175 countries, developed in Switzerland, and designed with privacy and data protection in mind."
+    ],
+    "medium": "Source: https://play.google.com/store/apps/details?id=ch.threema.app",
+    "short": "Source: https://play.google.com/store/apps/details?id=ch.threema.app",
+    "tokens": [
+      "threema",
+      "secure",
+      "messenger",
+      "apps",
+      "google",
+      "play",
+      "source",
+      "https",
+      "play",
+      "google",
+      "com",
+      "store",
+      "apps",
+      "details",
+      "id",
+      "ch",
+      "threema",
+      "app",
+      "source",
+      "https",
+      "play",
+      "google",
+      "com",
+      "store",
+      "apps",
+      "details",
+      "id",
+      "ch",
+      "threema",
+      "app"
+    ]
+  },
+  "title": "Threema. The Secure Messenger - Apps on Google Play"
+}

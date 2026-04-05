@@ -1,0 +1,353 @@
+{
+  "aliases": [
+    {
+      "alias": "10b541186af56b4a",
+      "aliasId": "hz.web.10b541186af56b4a.alias.1",
+      "canonical": "confluence.cornell.edu"
+    },
+    {
+      "alias": "confluence.cornell.edu",
+      "aliasId": "hz.web.10b541186af56b4a.alias.2",
+      "canonical": "confluence.cornell.edu"
+    },
+    {
+      "alias": "web 10b541186af56b4a",
+      "aliasId": "hz.web.10b541186af56b4a.alias.3",
+      "canonical": "confluence.cornell.edu"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.10b541186af56b4a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.10b541186af56b4a.entity.1",
+      "kind": "document",
+      "name": "confluence.cornell.edu",
+      "tokens": [
+        "confluence",
+        "cornell",
+        "edu"
+      ]
+    },
+    {
+      "entityId": "hz.web.10b541186af56b4a.entity.2",
+      "kind": "heading",
+      "name": "confluence.cornell.edu",
+      "tokens": [
+        "confluence",
+        "cornell",
+        "edu"
+      ]
+    },
+    {
+      "entityId": "hz.web.10b541186af56b4a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.10b541186af56b4a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.10b541186af56b4a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 87,
+      "charStart": 27,
+      "factId": "hz.web.10b541186af56b4a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://confluence.cornell.edu/opensearch/osd.action",
+      "tokens": [
+        "source",
+        "https",
+        "confluence",
+        "cornell",
+        "edu",
+        "opensearch",
+        "osd",
+        "action"
+      ]
+    },
+    {
+      "charEnd": 954,
+      "charStart": 139,
+      "factId": "hz.web.10b541186af56b4a.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>Dashboard</ShortName> <Description>Atlassian Confluence Search Provider</Description> <Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://confluence.cornell.edu/images/logo/confluence_48_white.png</Image> <Image height=\"64\" width=\"64\" type=\"image/png\">https://confluence.cornell.edu/images/logo/confluence_128_white.png</Image> <Url type=\"text/html\" template=\"https://confluence.cornell.edu/dosearchsite.action?queryString={searchTerms}\"/> <Query role=\"example\" searchTerms=\"Confluence\"/> <InputEncoding>UTF-8</InputEncoding> <moz:SearchForm>https://confluence.cornell.edu/searchsite.action</moz:SearchForm> </OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "xmlns",
+        "moz",
+        "http",
+        "www",
+        "mozilla",
+        "org",
+        "2006",
+        "browser",
+        "search",
+        "shortname",
+        "dashboard",
+        "shortname",
+        "description",
+        "atlassian",
+        "confluence",
+        "search",
+        "provider",
+        "description",
+        "image",
+        "height",
+        "16",
+        "width",
+        "16",
+        "type",
+        "image",
+        "icon",
+        "https",
+        "confluence",
+        "cornell",
+        "edu",
+        "images",
+        "logo",
+        "confluence_48_white",
+        "png",
+        "image",
+        "image",
+        "height",
+        "64",
+        "width",
+        "64",
+        "type",
+        "image",
+        "png",
+        "https",
+        "confluence",
+        "cornell",
+        "edu",
+        "images",
+        "logo",
+        "confluence_128_white",
+        "png",
+        "image",
+        "url",
+        "type",
+        "text",
+        "html",
+        "template",
+        "https",
+        "confluence",
+        "cornell",
+        "edu",
+        "dosearchsite",
+        "action",
+        "querystring",
+        "searchterms",
+        "query",
+        "role",
+        "example",
+        "searchterms",
+        "confluence",
+        "inputencoding",
+        "utf",
+        "inputencoding",
+        "moz",
+        "searchform",
+        "https",
+        "confluence",
+        "cornell",
+        "edu",
+        "searchsite",
+        "action",
+        "moz",
+        "searchform",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 981,
+      "charStart": 969,
+      "factId": "hz.web.10b541186af56b4a.fact.2",
+      "kind": "bullet",
+      "text": "confluence",
+      "tokens": [
+        "confluence"
+      ]
+    },
+    {
+      "charEnd": 989,
+      "charStart": 982,
+      "factId": "hz.web.10b541186af56b4a.fact.3",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 999,
+      "charStart": 990,
+      "factId": "hz.web.10b541186af56b4a.fact.4",
+      "kind": "bullet",
+      "text": "cornell",
+      "tokens": [
+        "cornell"
+      ]
+    },
+    {
+      "charEnd": 1005,
+      "charStart": 1000,
+      "factId": "hz.web.10b541186af56b4a.fact.5",
+      "kind": "bullet",
+      "text": "edu",
+      "tokens": [
+        "edu"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 1006,
+      "factId": "hz.web.10b541186af56b4a.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1019,
+      "charStart": 1014,
+      "factId": "hz.web.10b541186af56b4a.fact.7",
+      "kind": "bullet",
+      "text": "moz",
+      "tokens": [
+        "moz"
+      ]
+    },
+    {
+      "charEnd": 1025,
+      "charStart": 1020,
+      "factId": "hz.web.10b541186af56b4a.fact.8",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 1032,
+      "charStart": 1026,
+      "factId": "hz.web.10b541186af56b4a.fact.9",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.10b541186af56b4a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "confluence.cornell.edu"
+    },
+    {
+      "charEnd": 137,
+      "charStart": 127,
+      "headingId": "hz.web.10b541186af56b4a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 967,
+      "charStart": 956,
+      "headingId": "hz.web.10b541186af56b4a.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1044,
+      "charStart": 1034,
+      "headingId": "hz.web.10b541186af56b4a.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/10b541186af56b4a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2118,
+        "start": 0
+      }
+    ],
+    "hash": "455688cc3a3d2935981c6d05f9c99bd24ed56c2593a31e73947a9c23c2aae019",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>Dashboard</ShortName> <Description>Atlassian Confluence Search Provider</Description> <Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://confluence.cornell.edu/images/logo/confluence_48_white.png</Image> <Image height=\"64\" width=\"64\" type=\"image/png\">https://confluence.cornell.edu/images/logo/confluence_128_white.png</Image> <Url type=\"text/html\" template=\"https://confluence.cornell.edu/dosearchsite.action?queryString={searchTerms}\"/> <Query role=\"example\" searchTerms=\"Confluence\"/> <InputEncoding>UTF-8</InputEncoding> <moz:SearchForm>https://confluence.cornell.edu/searchsite.action</moz:SearchForm> </OpenSearchDescription>",
+      "confluence",
+      "image"
+    ],
+    "medium": "Source: https://confluence.cornell.edu/opensearch/osd.action",
+    "short": "Source: https://confluence.cornell.edu/opensearch/osd.action",
+    "tokens": [
+      "confluence",
+      "cornell",
+      "edu",
+      "source",
+      "https",
+      "confluence",
+      "cornell",
+      "edu",
+      "opensearch",
+      "osd",
+      "action",
+      "source",
+      "https",
+      "confluence",
+      "cornell",
+      "edu",
+      "opensearch",
+      "osd",
+      "action"
+    ]
+  },
+  "title": "confluence.cornell.edu"
+}

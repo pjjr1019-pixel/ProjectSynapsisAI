@@ -1,0 +1,366 @@
+{
+  "aliases": [
+    {
+      "alias": "7ce2146b9674546e",
+      "aliasId": "hz.web.7ce2146b9674546e.alias.1",
+      "canonical": "indieweb.org"
+    },
+    {
+      "alias": "indieweb.org",
+      "aliasId": "hz.web.7ce2146b9674546e.alias.2",
+      "canonical": "indieweb.org"
+    },
+    {
+      "alias": "web 7ce2146b9674546e",
+      "aliasId": "hz.web.7ce2146b9674546e.alias.3",
+      "canonical": "indieweb.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.7ce2146b9674546e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7ce2146b9674546e.entity.1",
+      "kind": "document",
+      "name": "indieweb.org",
+      "tokens": [
+        "indieweb",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ce2146b9674546e.entity.2",
+      "kind": "heading",
+      "name": "indieweb.org",
+      "tokens": [
+        "indieweb",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ce2146b9674546e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ce2146b9674546e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7ce2146b9674546e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 70,
+      "charStart": 17,
+      "factId": "hz.web.7ce2146b9674546e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieweb.org/wiki/opensearch_desc.php",
+      "tokens": [
+        "source",
+        "https",
+        "indieweb",
+        "org",
+        "wiki",
+        "opensearch_desc",
+        "php"
+      ]
+    },
+    {
+      "charEnd": 995,
+      "charStart": 122,
+      "factId": "hz.web.7ce2146b9674546e.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\"?><OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"><ShortName>IndieWeb (en)</ShortName><Description>IndieWeb (en)</Description><Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://indieweb.org/favicon.ico</Image><Url type=\"text/html\" method=\"get\" template=\"https://indieweb.org/wiki/index.php?title=Special:Search&amp;search={searchTerms}\" /><Url type=\"application/x-suggestions+json\" method=\"get\" template=\"https://indieweb.org/wiki/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0\" /><Url type=\"application/x-suggestions+xml\" method=\"get\" template=\"https://indieweb.org/wiki/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0\" /><moz:SearchForm>https://indieweb.org/Special:Search</moz:SearchForm></OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "xmlns",
+        "moz",
+        "http",
+        "www",
+        "mozilla",
+        "org",
+        "2006",
+        "browser",
+        "search",
+        "shortname",
+        "indieweb",
+        "en",
+        "shortname",
+        "description",
+        "indieweb",
+        "en",
+        "description",
+        "image",
+        "height",
+        "16",
+        "width",
+        "16",
+        "type",
+        "image",
+        "icon",
+        "https",
+        "indieweb",
+        "org",
+        "favicon",
+        "ico",
+        "image",
+        "url",
+        "type",
+        "text",
+        "html",
+        "method",
+        "get",
+        "template",
+        "https",
+        "indieweb",
+        "org",
+        "wiki",
+        "index",
+        "php",
+        "title",
+        "special",
+        "search",
+        "amp",
+        "search",
+        "searchterms",
+        "url",
+        "type",
+        "application",
+        "suggestions",
+        "json",
+        "method",
+        "get",
+        "template",
+        "https",
+        "indieweb",
+        "org",
+        "wiki",
+        "api",
+        "php",
+        "action",
+        "opensearch",
+        "amp",
+        "search",
+        "searchterms",
+        "amp",
+        "namespace",
+        "url",
+        "type",
+        "application",
+        "suggestions",
+        "xml",
+        "method",
+        "get",
+        "template",
+        "https",
+        "indieweb",
+        "org",
+        "wiki",
+        "api",
+        "php",
+        "action",
+        "opensearch",
+        "amp",
+        "format",
+        "xml",
+        "amp",
+        "search",
+        "searchterms",
+        "amp",
+        "namespace",
+        "moz",
+        "searchform",
+        "https",
+        "indieweb",
+        "org",
+        "special",
+        "search",
+        "moz",
+        "searchform",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 1020,
+      "charStart": 1010,
+      "factId": "hz.web.7ce2146b9674546e.fact.2",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 1026,
+      "charStart": 1021,
+      "factId": "hz.web.7ce2146b9674546e.fact.3",
+      "kind": "bullet",
+      "text": "amp",
+      "tokens": [
+        "amp"
+      ]
+    },
+    {
+      "charEnd": 1032,
+      "charStart": 1027,
+      "factId": "hz.web.7ce2146b9674546e.fact.4",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1041,
+      "charStart": 1033,
+      "factId": "hz.web.7ce2146b9674546e.fact.5",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 1049,
+      "charStart": 1042,
+      "factId": "hz.web.7ce2146b9674546e.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1056,
+      "charStart": 1050,
+      "factId": "hz.web.7ce2146b9674546e.fact.7",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 1062,
+      "charStart": 1057,
+      "factId": "hz.web.7ce2146b9674546e.fact.8",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 1070,
+      "charStart": 1063,
+      "factId": "hz.web.7ce2146b9674546e.fact.9",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.7ce2146b9674546e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "indieweb.org"
+    },
+    {
+      "charEnd": 120,
+      "charStart": 110,
+      "headingId": "hz.web.7ce2146b9674546e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1008,
+      "charStart": 997,
+      "headingId": "hz.web.7ce2146b9674546e.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1082,
+      "charStart": 1072,
+      "headingId": "hz.web.7ce2146b9674546e.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7ce2146b9674546e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2197,
+        "start": 0
+      }
+    ],
+    "hash": "3b6cd0cb49bba8d05e181f10f0ad9412e682e8417aa55a492cd1b010b62cc5f0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\"?><OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"><ShortName>IndieWeb (en)</ShortName><Description>IndieWeb (en)</Description><Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://indieweb.org/favicon.ico</Image><Url type=\"text/html\" method=\"get\" template=\"https://indieweb.org/wiki/index.php?title=Special:Search&amp;search={searchTerms}\" /><Url type=\"application/x-suggestions+json\" method=\"get\" template=\"https://indieweb.org/wiki/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0\" /><Url type=\"application/x-suggestions+xml\" method=\"get\" template=\"https://indieweb.org/wiki/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0\" /><moz:SearchForm>https://indieweb.org/Special:Search</moz:SearchForm></OpenSearchDescription>",
+      "indieweb",
+      "amp"
+    ],
+    "medium": "Source: https://indieweb.org/wiki/opensearch_desc.php",
+    "short": "Source: https://indieweb.org/wiki/opensearch_desc.php",
+    "tokens": [
+      "indieweb",
+      "org",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "wiki",
+      "opensearch_desc",
+      "php",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "wiki",
+      "opensearch_desc",
+      "php"
+    ]
+  },
+  "title": "indieweb.org"
+}

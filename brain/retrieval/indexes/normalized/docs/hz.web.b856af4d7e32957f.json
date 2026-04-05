@@ -1,0 +1,330 @@
+{
+  "aliases": [
+    {
+      "alias": "about.me",
+      "aliasId": "hz.web.b856af4d7e32957f.alias.1",
+      "canonical": "about.me"
+    },
+    {
+      "alias": "b856af4d7e32957f",
+      "aliasId": "hz.web.b856af4d7e32957f.alias.2",
+      "canonical": "about.me"
+    },
+    {
+      "alias": "web b856af4d7e32957f",
+      "aliasId": "hz.web.b856af4d7e32957f.alias.3",
+      "canonical": "about.me"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.b856af4d7e32957f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.b856af4d7e32957f.entity.1",
+      "kind": "document",
+      "name": "about.me",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.b856af4d7e32957f.entity.2",
+      "kind": "heading",
+      "name": "about.me",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "entityId": "hz.web.b856af4d7e32957f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.b856af4d7e32957f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.b856af4d7e32957f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 49,
+      "charStart": 13,
+      "factId": "hz.web.b856af4d7e32957f.fact.1",
+      "kind": "summary",
+      "text": "Source: https://about.me/virtualtwin",
+      "tokens": [
+        "source",
+        "https",
+        "about",
+        "virtualtwin"
+      ]
+    },
+    {
+      "charEnd": 294,
+      "charStart": 101,
+      "factId": "hz.web.b856af4d7e32957f.fact.1",
+      "kind": "bullet",
+      "text": "about.me Get started for free Get your page Features Pricing Log In Home Features Pricing Virtual Twin Get a digital version of yourself that visitors to your about.me page can interact with.",
+      "tokens": [
+        "about",
+        "get",
+        "started",
+        "free",
+        "get",
+        "your",
+        "page",
+        "features",
+        "pricing",
+        "log",
+        "home",
+        "features",
+        "pricing",
+        "virtual",
+        "twin",
+        "get",
+        "digital",
+        "version",
+        "yourself",
+        "visitors",
+        "your",
+        "about",
+        "page",
+        "interact"
+      ]
+    },
+    {
+      "charEnd": 419,
+      "charStart": 295,
+      "factId": "hz.web.b856af4d7e32957f.fact.2",
+      "kind": "bullet",
+      "text": "Powered by AI, your digital you can answer questions, provide information, and engage with visitors in a personalized way.",
+      "tokens": [
+        "powered",
+        "ai",
+        "your",
+        "digital",
+        "answer",
+        "questions",
+        "provide",
+        "information",
+        "engage",
+        "visitors",
+        "personalized",
+        "way"
+      ]
+    },
+    {
+      "charEnd": 597,
+      "charStart": 420,
+      "factId": "hz.web.b856af4d7e32957f.fact.3",
+      "kind": "bullet",
+      "text": "Train your Virtual Twin by providing it with text, documents or web pages so that it can learn all the information your visitors might want to know about you or your business.",
+      "tokens": [
+        "train",
+        "your",
+        "virtual",
+        "twin",
+        "providing",
+        "text",
+        "documents",
+        "web",
+        "pages",
+        "so",
+        "learn",
+        "all",
+        "information",
+        "your",
+        "visitors",
+        "might",
+        "want",
+        "know",
+        "about",
+        "your",
+        "business"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 598,
+      "factId": "hz.web.b856af4d7e32957f.fact.4",
+      "kind": "bullet",
+      "text": "It’s like having a personal assistant, available 24/7.",
+      "tokens": [
+        "like",
+        "having",
+        "personal",
+        "assistant",
+        "available",
+        "24"
+      ]
+    },
+    {
+      "charEnd": 675,
+      "charStart": 669,
+      "factId": "hz.web.b856af4d7e32957f.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 683,
+      "charStart": 676,
+      "factId": "hz.web.b856af4d7e32957f.fact.6",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 689,
+      "charStart": 684,
+      "factId": "hz.web.b856af4d7e32957f.fact.7",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 696,
+      "charStart": 690,
+      "factId": "hz.web.b856af4d7e32957f.fact.8",
+      "kind": "bullet",
+      "text": "twin",
+      "tokens": [
+        "twin"
+      ]
+    },
+    {
+      "charEnd": 706,
+      "charStart": 697,
+      "factId": "hz.web.b856af4d7e32957f.fact.9",
+      "kind": "bullet",
+      "text": "virtual",
+      "tokens": [
+        "virtual"
+      ]
+    },
+    {
+      "charEnd": 717,
+      "charStart": 707,
+      "factId": "hz.web.b856af4d7e32957f.fact.10",
+      "kind": "bullet",
+      "text": "features",
+      "tokens": [
+        "features"
+      ]
+    },
+    {
+      "charEnd": 727,
+      "charStart": 718,
+      "factId": "hz.web.b856af4d7e32957f.fact.11",
+      "kind": "bullet",
+      "text": "pricing",
+      "tokens": [
+        "pricing"
+      ]
+    },
+    {
+      "charEnd": 738,
+      "charStart": 728,
+      "factId": "hz.web.b856af4d7e32957f.fact.12",
+      "kind": "bullet",
+      "text": "visitors",
+      "tokens": [
+        "visitors"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.b856af4d7e32957f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "about.me"
+    },
+    {
+      "charEnd": 99,
+      "charStart": 89,
+      "headingId": "hz.web.b856af4d7e32957f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 667,
+      "charStart": 656,
+      "headingId": "hz.web.b856af4d7e32957f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 750,
+      "charStart": 740,
+      "headingId": "hz.web.b856af4d7e32957f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/b856af4d7e32957f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1689,
+        "start": 0
+      }
+    ],
+    "hash": "ba84ece77e0ef894b9188409a72eda0b0b3cf54febf4a2d254120b8a7e787067",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "about.me Get started for free Get your page Features Pricing Log In Home Features Pricing Virtual Twin Get a digital version of yourself that visitors to your about.me page can interact with.",
+      "Powered by AI, your digital you can answer questions, provide information, and engage with visitors in a personalized way.",
+      "Train your Virtual Twin by providing it with text, documents or web pages so that it can learn all the information your visitors might want to know about you or your business."
+    ],
+    "medium": "Source: https://about.me/virtualtwin",
+    "short": "Source: https://about.me/virtualtwin",
+    "tokens": [
+      "about",
+      "source",
+      "https",
+      "about",
+      "virtualtwin",
+      "source",
+      "https",
+      "about",
+      "virtualtwin"
+    ]
+  },
+  "title": "about.me"
+}

@@ -1,0 +1,310 @@
+{
+  "aliases": [
+    {
+      "alias": "ec8dffbc24770485",
+      "aliasId": "hz.web.ec8dffbc24770485.alias.1",
+      "canonical": "micro.blog - @manton"
+    },
+    {
+      "alias": "micro.blog - manton",
+      "aliasId": "hz.web.ec8dffbc24770485.alias.2",
+      "canonical": "micro.blog - @manton"
+    },
+    {
+      "alias": "web ec8dffbc24770485",
+      "aliasId": "hz.web.ec8dffbc24770485.alias.3",
+      "canonical": "micro.blog - @manton"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.ec8dffbc24770485",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ec8dffbc24770485.entity.1",
+      "kind": "document",
+      "name": "Micro.blog - @manton",
+      "tokens": [
+        "micro",
+        "blog",
+        "manton"
+      ]
+    },
+    {
+      "entityId": "hz.web.ec8dffbc24770485.entity.2",
+      "kind": "heading",
+      "name": "Micro.blog - @manton",
+      "tokens": [
+        "micro",
+        "blog",
+        "manton"
+      ]
+    },
+    {
+      "entityId": "hz.web.ec8dffbc24770485.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ec8dffbc24770485.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ec8dffbc24770485.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 25,
+      "factId": "hz.web.ec8dffbc24770485.fact.1",
+      "kind": "summary",
+      "text": "Source: https://micro.blog/manton",
+      "tokens": [
+        "source",
+        "https",
+        "micro",
+        "blog",
+        "manton"
+      ]
+    },
+    {
+      "charEnd": 229,
+      "charStart": 110,
+      "factId": "hz.web.ec8dffbc24770485.fact.1",
+      "kind": "bullet",
+      "text": "Micro.blog - @manton Blogging Fediverse Atmosphere Cross-posting Pricing Sign in Sign up → @manton has been reported.",
+      "tokens": [
+        "micro",
+        "blog",
+        "manton",
+        "blogging",
+        "fediverse",
+        "atmosphere",
+        "cross",
+        "posting",
+        "pricing",
+        "sign",
+        "sign",
+        "up",
+        "manton",
+        "has",
+        "reported"
+      ]
+    },
+    {
+      "charEnd": 242,
+      "charStart": 230,
+      "factId": "hz.web.ec8dffbc24770485.fact.2",
+      "kind": "bullet",
+      "text": "Thank you.",
+      "tokens": [
+        "thank"
+      ]
+    },
+    {
+      "charEnd": 329,
+      "charStart": 243,
+      "factId": "hz.web.ec8dffbc24770485.fact.3",
+      "kind": "bullet",
+      "text": "Manton Reece @manton / Fediverse: @[redacted-email] manton.org I created Micro.blog.",
+      "tokens": [
+        "manton",
+        "reece",
+        "manton",
+        "fediverse",
+        "redacted",
+        "email",
+        "manton",
+        "org",
+        "created",
+        "micro",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 387,
+      "charStart": 330,
+      "factId": "hz.web.ec8dffbc24770485.fact.4",
+      "kind": "bullet",
+      "text": "I also have two podcasts: Core Intuition and Timetable.",
+      "tokens": [
+        "also",
+        "have",
+        "two",
+        "podcasts",
+        "core",
+        "intuition",
+        "timetable"
+      ]
+    },
+    {
+      "charEnd": 410,
+      "charStart": 402,
+      "factId": "hz.web.ec8dffbc24770485.fact.5",
+      "kind": "bullet",
+      "text": "manton",
+      "tokens": [
+        "manton"
+      ]
+    },
+    {
+      "charEnd": 417,
+      "charStart": 411,
+      "factId": "hz.web.ec8dffbc24770485.fact.6",
+      "kind": "bullet",
+      "text": "post",
+      "tokens": [
+        "post"
+      ]
+    },
+    {
+      "charEnd": 425,
+      "charStart": 418,
+      "factId": "hz.web.ec8dffbc24770485.fact.7",
+      "kind": "bullet",
+      "text": "arrow",
+      "tokens": [
+        "arrow"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 426,
+      "factId": "hz.web.ec8dffbc24770485.fact.8",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 444,
+      "charStart": 433,
+      "factId": "hz.web.ec8dffbc24770485.fact.9",
+      "kind": "bullet",
+      "text": "fediverse",
+      "tokens": [
+        "fediverse"
+      ]
+    },
+    {
+      "charEnd": 452,
+      "charStart": 445,
+      "factId": "hz.web.ec8dffbc24770485.fact.10",
+      "kind": "bullet",
+      "text": "micro",
+      "tokens": [
+        "micro"
+      ]
+    },
+    {
+      "charEnd": 459,
+      "charStart": 453,
+      "factId": "hz.web.ec8dffbc24770485.fact.11",
+      "kind": "bullet",
+      "text": "move",
+      "tokens": [
+        "move"
+      ]
+    },
+    {
+      "charEnd": 466,
+      "charStart": 460,
+      "factId": "hz.web.ec8dffbc24770485.fact.12",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.ec8dffbc24770485.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Micro.blog - @manton"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.ec8dffbc24770485.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 400,
+      "charStart": 389,
+      "headingId": "hz.web.ec8dffbc24770485.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 478,
+      "charStart": 468,
+      "headingId": "hz.web.ec8dffbc24770485.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/ec8dffbc24770485.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1128,
+        "start": 0
+      }
+    ],
+    "hash": "a17e7099b6789584c5e146ecaded61d20967a3c5a836844cd01abb0f42db1532",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Micro.blog - @manton Blogging Fediverse Atmosphere Cross-posting Pricing Sign in Sign up → @manton has been reported.",
+      "Thank you.",
+      "Manton Reece @manton / Fediverse: @[redacted-email] manton.org I created Micro.blog."
+    ],
+    "medium": "Source: https://micro.blog/manton",
+    "short": "Source: https://micro.blog/manton",
+    "tokens": [
+      "micro",
+      "blog",
+      "manton",
+      "source",
+      "https",
+      "micro",
+      "blog",
+      "manton",
+      "source",
+      "https",
+      "micro",
+      "blog",
+      "manton"
+    ]
+  },
+  "title": "Micro.blog - @manton"
+}

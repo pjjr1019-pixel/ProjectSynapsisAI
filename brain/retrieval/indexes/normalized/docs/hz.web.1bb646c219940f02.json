@@ -1,0 +1,370 @@
+{
+  "aliases": [
+    {
+      "alias": "1bb646c219940f02",
+      "aliasId": "hz.web.1bb646c219940f02.alias.1",
+      "canonical": "melonland project"
+    },
+    {
+      "alias": "melonland project",
+      "aliasId": "hz.web.1bb646c219940f02.alias.2",
+      "canonical": "melonland project"
+    },
+    {
+      "alias": "web 1bb646c219940f02",
+      "aliasId": "hz.web.1bb646c219940f02.alias.3",
+      "canonical": "melonland project"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.1bb646c219940f02",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1bb646c219940f02.entity.1",
+      "kind": "document",
+      "name": "MelonLand Project",
+      "tokens": [
+        "melonland",
+        "project"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb646c219940f02.entity.2",
+      "kind": "heading",
+      "name": "MelonLand Project",
+      "tokens": [
+        "melonland",
+        "project"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb646c219940f02.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb646c219940f02.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1bb646c219940f02.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 22,
+      "factId": "hz.web.1bb646c219940f02.fact.1",
+      "kind": "summary",
+      "text": "Source: https://melonland.net/",
+      "tokens": [
+        "source",
+        "https",
+        "melonland",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 170,
+      "charStart": 104,
+      "factId": "hz.web.1bb646c219940f02.fact.1",
+      "kind": "bullet",
+      "text": "MelonLand Project --> Melon's House → News from the Front Hello!",
+      "tokens": [
+        "melonland",
+        "project",
+        "melon",
+        "house",
+        "news",
+        "front",
+        "hello"
+      ]
+    },
+    {
+      "charEnd": 202,
+      "charStart": 171,
+      "factId": "hz.web.1bb646c219940f02.fact.2",
+      "kind": "bullet",
+      "text": "You've arrived at MelonLand !",
+      "tokens": [
+        "ve",
+        "arrived",
+        "melonland"
+      ]
+    },
+    {
+      "charEnd": 398,
+      "charStart": 203,
+      "factId": "hz.web.1bb646c219940f02.fact.3",
+      "kind": "bullet",
+      "text": "This is a web project and online arts community that celebrates homepages, virtual worlds, the world-wide-web and the digital lives that all netizins share, here at the dawn of the digital age.",
+      "tokens": [
+        "web",
+        "project",
+        "online",
+        "arts",
+        "community",
+        "celebrates",
+        "homepages",
+        "virtual",
+        "worlds",
+        "world",
+        "wide",
+        "web",
+        "digital",
+        "lives",
+        "all",
+        "netizins",
+        "share",
+        "here",
+        "dawn",
+        "digital",
+        "age"
+      ]
+    },
+    {
+      "charEnd": 807,
+      "charStart": 399,
+      "factId": "hz.web.1bb646c219940f02.fact.4",
+      "kind": "bullet",
+      "text": "This project has three goals: To make the web; genuine, chaotic, timeless, individual and joyful To provide knowledge and support to humans creating digital worlds To promote websites and digital worlds as mediums of visual art MelonLand is part of a wider movement sometimes called the web revival ; to join, all you need to do is choose to engage with small handmade web projects next time you're online!",
+      "tokens": [
+        "project",
+        "has",
+        "three",
+        "goals",
+        "make",
+        "web",
+        "genuine",
+        "chaotic",
+        "timeless",
+        "individual",
+        "joyful",
+        "provide",
+        "knowledge",
+        "support",
+        "humans",
+        "creating",
+        "digital",
+        "worlds",
+        "promote",
+        "websites",
+        "digital",
+        "worlds",
+        "mediums",
+        "visual",
+        "art",
+        "melonland",
+        "part",
+        "wider",
+        "movement",
+        "sometimes",
+        "called",
+        "web",
+        "revival",
+        "join",
+        "all",
+        "need",
+        "choose",
+        "engage",
+        "small",
+        "handmade",
+        "web",
+        "projects",
+        "next",
+        "time",
+        "re",
+        "online"
+      ]
+    },
+    {
+      "charEnd": 827,
+      "charStart": 822,
+      "factId": "hz.web.1bb646c219940f02.fact.5",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 837,
+      "charStart": 828,
+      "factId": "hz.web.1bb646c219940f02.fact.6",
+      "kind": "bullet",
+      "text": "digital",
+      "tokens": [
+        "digital"
+      ]
+    },
+    {
+      "charEnd": 845,
+      "charStart": 838,
+      "factId": "hz.web.1bb646c219940f02.fact.7",
+      "kind": "bullet",
+      "text": "melon",
+      "tokens": [
+        "melon"
+      ]
+    },
+    {
+      "charEnd": 855,
+      "charStart": 846,
+      "factId": "hz.web.1bb646c219940f02.fact.8",
+      "kind": "bullet",
+      "text": "project",
+      "tokens": [
+        "project"
+      ]
+    },
+    {
+      "charEnd": 861,
+      "charStart": 856,
+      "factId": "hz.web.1bb646c219940f02.fact.9",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 868,
+      "charStart": 862,
+      "factId": "hz.web.1bb646c219940f02.fact.10",
+      "kind": "bullet",
+      "text": "make",
+      "tokens": [
+        "make"
+      ]
+    },
+    {
+      "charEnd": 880,
+      "charStart": 869,
+      "factId": "hz.web.1bb646c219940f02.fact.11",
+      "kind": "bullet",
+      "text": "melonland",
+      "tokens": [
+        "melonland"
+      ]
+    },
+    {
+      "charEnd": 889,
+      "charStart": 881,
+      "factId": "hz.web.1bb646c219940f02.fact.12",
+      "kind": "bullet",
+      "text": "online",
+      "tokens": [
+        "online"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.1bb646c219940f02.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "MelonLand Project"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.1bb646c219940f02.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 820,
+      "charStart": 809,
+      "headingId": "hz.web.1bb646c219940f02.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 901,
+      "charStart": 891,
+      "headingId": "hz.web.1bb646c219940f02.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1bb646c219940f02.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2982,
+        "start": 0
+      }
+    ],
+    "hash": "f2c0b619bb19d3b48fee12d355ca9b3d2e4acaac5c072090f94f3783cd3c7cd2",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.1bb646c219940f02.rule.1",
+      "text": "You can read my web manifesto here ; the web is the most important construction in human history, we cannot let it lose its human touch.",
+      "tokens": [
+        "read",
+        "web",
+        "manifesto",
+        "here",
+        "web",
+        "most",
+        "important",
+        "construction",
+        "human",
+        "history",
+        "cannot",
+        "let",
+        "lose",
+        "its",
+        "human",
+        "touch"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "MelonLand Project --> Melon's House → News from the Front Hello!",
+      "You've arrived at MelonLand !",
+      "This is a web project and online arts community that celebrates homepages, virtual worlds, the world-wide-web and the digital lives that all netizins share, here at the dawn of the digital age."
+    ],
+    "medium": "Source: https://melonland.net/",
+    "short": "Source: https://melonland.net/",
+    "tokens": [
+      "melonland",
+      "project",
+      "source",
+      "https",
+      "melonland",
+      "net",
+      "source",
+      "https",
+      "melonland",
+      "net"
+    ]
+  },
+  "title": "MelonLand Project"
+}

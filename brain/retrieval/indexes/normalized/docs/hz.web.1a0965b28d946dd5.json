@@ -1,0 +1,501 @@
+{
+  "aliases": [
+    {
+      "alias": "1a0965b28d946dd5",
+      "aliasId": "hz.web.1a0965b28d946dd5.alias.1",
+      "canonical": "main page - meta-wiki"
+    },
+    {
+      "alias": "main page - meta-wiki",
+      "aliasId": "hz.web.1a0965b28d946dd5.alias.2",
+      "canonical": "main page - meta-wiki"
+    },
+    {
+      "alias": "web 1a0965b28d946dd5",
+      "aliasId": "hz.web.1a0965b28d946dd5.alias.3",
+      "canonical": "main page - meta-wiki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.1a0965b28d946dd5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1a0965b28d946dd5.entity.1",
+      "kind": "document",
+      "name": "Main Page - Meta-Wiki",
+      "tokens": [
+        "main",
+        "page",
+        "meta",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a0965b28d946dd5.entity.2",
+      "kind": "heading",
+      "name": "Main Page - Meta-Wiki",
+      "tokens": [
+        "main",
+        "page",
+        "meta",
+        "wiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a0965b28d946dd5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a0965b28d946dd5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1a0965b28d946dd5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 61,
+      "charStart": 26,
+      "factId": "hz.web.1a0965b28d946dd5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://meta.wikimedia.org/",
+      "tokens": [
+        "source",
+        "https",
+        "meta",
+        "wikimedia",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1397,
+      "charStart": 113,
+      "factId": "hz.web.1a0965b28d946dd5.fact.1",
+      "kind": "bullet",
+      "text": "Main Page - Meta-Wiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Wikimedia News Translations Recent changes Special pages Random page Help Babel Community Wikimedia Forum Mailing lists Requests Babylon Reports Research Planet Wikimedia Beyond the Web Meet Wikimedians Events Movement affiliates Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Main Page Content page Discussion English Read View source View history Tools Tools move to sidebar hide Actions Read View source View history General What links here Related changes Permanent link Page information Cite this page Get shortened URL Print/export Create a book Download as PDF Printable version In other projects Wikimedia Commons Wikimedia Foundation MediaWiki Wikimedia Outreach Multilingual Wikisource Wikispecies Wikibooks Wikidata Wikifunctions Wikimania Wikinews Wikipedia Wikiquote Wikisource Wikiversity Wikivoyage Wiktionary Wikidata item Appearance move to sidebar hide From Meta, a Wikimedia project coordination wiki Translate this page Meta-Wiki Welcome to Meta-Wiki , the global community site for the Wikimedia Foundation 's projects and related projects, from coordination and documentation to planning and analysis.",
+      "tokens": [
+        "main",
+        "page",
+        "meta",
+        "wiki",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "navigation",
+        "main",
+        "page",
+        "wikimedia",
+        "news",
+        "translations",
+        "recent",
+        "changes",
+        "special",
+        "pages",
+        "random",
+        "page",
+        "help",
+        "babel",
+        "community",
+        "wikimedia",
+        "forum",
+        "mailing",
+        "lists",
+        "requests",
+        "babylon",
+        "reports",
+        "research",
+        "planet",
+        "wikimedia",
+        "beyond",
+        "web",
+        "meet",
+        "wikimedians",
+        "events",
+        "movement",
+        "affiliates",
+        "search",
+        "search",
+        "english",
+        "appearance",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "personal",
+        "tools",
+        "donate",
+        "create",
+        "account",
+        "log",
+        "main",
+        "page",
+        "content",
+        "page",
+        "discussion",
+        "english",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "tools",
+        "tools",
+        "move",
+        "sidebar",
+        "hide",
+        "actions",
+        "read",
+        "view",
+        "source",
+        "view",
+        "history",
+        "general",
+        "links",
+        "here",
+        "related",
+        "changes",
+        "permanent",
+        "link",
+        "page",
+        "information",
+        "cite",
+        "page",
+        "get",
+        "shortened",
+        "url",
+        "print",
+        "export",
+        "create",
+        "book",
+        "download",
+        "pdf",
+        "printable",
+        "version",
+        "other",
+        "projects",
+        "wikimedia",
+        "commons",
+        "wikimedia",
+        "foundation",
+        "mediawiki",
+        "wikimedia",
+        "outreach",
+        "multilingual",
+        "wikisource",
+        "wikispecies",
+        "wikibooks",
+        "wikidata",
+        "wikifunctions",
+        "wikimania",
+        "wikinews",
+        "wikipedia",
+        "wikiquote",
+        "wikisource",
+        "wikiversity",
+        "wikivoyage",
+        "wiktionary",
+        "wikidata",
+        "item",
+        "appearance",
+        "move",
+        "sidebar",
+        "hide",
+        "meta",
+        "wikimedia",
+        "project",
+        "coordination",
+        "wiki",
+        "translate",
+        "page",
+        "meta",
+        "wiki",
+        "welcome",
+        "meta",
+        "wiki",
+        "global",
+        "community",
+        "site",
+        "wikimedia",
+        "foundation",
+        "projects",
+        "related",
+        "projects",
+        "coordination",
+        "documentation",
+        "planning",
+        "analysis"
+      ]
+    },
+    {
+      "charEnd": 1512,
+      "charStart": 1398,
+      "factId": "hz.web.1a0965b28d946dd5.fact.2",
+      "kind": "bullet",
+      "text": "Other meta-focused wikis such as Wikimedia Outreach are specialized projects that have their roots in Meta-Wiki.",
+      "tokens": [
+        "other",
+        "meta",
+        "focused",
+        "wikis",
+        "such",
+        "wikimedia",
+        "outreach",
+        "specialized",
+        "projects",
+        "have",
+        "their",
+        "roots",
+        "meta",
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 1743,
+      "charStart": 1513,
+      "factId": "hz.web.1a0965b28d946dd5.fact.3",
+      "kind": "bullet",
+      "text": "Related discussions also take place on Wikimedia mailing lists (particularly wikimedia-l , with its low-traffic equivalent WikimediaAnnounce ), IRC channels on Libera, individual wikis of Wikimedia affiliates , and other places.",
+      "tokens": [
+        "related",
+        "discussions",
+        "also",
+        "take",
+        "place",
+        "wikimedia",
+        "mailing",
+        "lists",
+        "particularly",
+        "wikimedia",
+        "its",
+        "low",
+        "traffic",
+        "equivalent",
+        "wikimediaannounce",
+        "irc",
+        "channels",
+        "libera",
+        "individual",
+        "wikis",
+        "wikimedia",
+        "affiliates",
+        "other",
+        "places"
+      ]
+    },
+    {
+      "charEnd": 1971,
+      "charStart": 1744,
+      "factId": "hz.web.1a0965b28d946dd5.fact.4",
+      "kind": "bullet",
+      "text": "Mission Projects ( complete list ) Research Translation ( requests ) Vision Current events +/− March 2026 March 30: The Wikimedia Board of Trustees announces that all editions of Wikinews will be made read-only on 2026-05-04.",
+      "tokens": [
+        "mission",
+        "projects",
+        "complete",
+        "list",
+        "research",
+        "translation",
+        "requests",
+        "vision",
+        "current",
+        "events",
+        "march",
+        "2026",
+        "march",
+        "30",
+        "wikimedia",
+        "board",
+        "trustees",
+        "announces",
+        "all",
+        "editions",
+        "wikinews",
+        "will",
+        "made",
+        "read",
+        "only",
+        "2026",
+        "05",
+        "04"
+      ]
+    },
+    {
+      "charEnd": 1997,
+      "charStart": 1986,
+      "factId": "hz.web.1a0965b28d946dd5.fact.5",
+      "kind": "bullet",
+      "text": "wikimedia",
+      "tokens": [
+        "wikimedia"
+      ]
+    },
+    {
+      "charEnd": 2004,
+      "charStart": 1998,
+      "factId": "hz.web.1a0965b28d946dd5.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 2015,
+      "charStart": 2005,
+      "factId": "hz.web.1a0965b28d946dd5.fact.7",
+      "kind": "bullet",
+      "text": "projects",
+      "tokens": [
+        "projects"
+      ]
+    },
+    {
+      "charEnd": 2023,
+      "charStart": 2016,
+      "factId": "hz.web.1a0965b28d946dd5.fact.8",
+      "kind": "bullet",
+      "text": "march",
+      "tokens": [
+        "march"
+      ]
+    },
+    {
+      "charEnd": 2030,
+      "charStart": 2024,
+      "factId": "hz.web.1a0965b28d946dd5.fact.9",
+      "kind": "bullet",
+      "text": "wiki",
+      "tokens": [
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 2037,
+      "charStart": 2031,
+      "factId": "hz.web.1a0965b28d946dd5.fact.10",
+      "kind": "bullet",
+      "text": "free",
+      "tokens": [
+        "free"
+      ]
+    },
+    {
+      "charEnd": 2044,
+      "charStart": 2038,
+      "factId": "hz.web.1a0965b28d946dd5.fact.11",
+      "kind": "bullet",
+      "text": "meta",
+      "tokens": [
+        "meta"
+      ]
+    },
+    {
+      "charEnd": 2057,
+      "charStart": 2045,
+      "factId": "hz.web.1a0965b28d946dd5.fact.12",
+      "kind": "bullet",
+      "text": "foundation",
+      "tokens": [
+        "foundation"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.1a0965b28d946dd5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Main Page - Meta-Wiki"
+    },
+    {
+      "charEnd": 111,
+      "charStart": 101,
+      "headingId": "hz.web.1a0965b28d946dd5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1984,
+      "charStart": 1973,
+      "headingId": "hz.web.1a0965b28d946dd5.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2069,
+      "charStart": 2059,
+      "headingId": "hz.web.1a0965b28d946dd5.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1a0965b28d946dd5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5304,
+        "start": 0
+      }
+    ],
+    "hash": "c310a59d5e61cf502dfe5e621661676e8fbe7a996ff608e89e7810739a5a90f3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Main Page - Meta-Wiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Wikimedia News Translations Recent changes Special pages Random page Help Babel Community Wikimedia Forum Mailing lists Requests Babylon Reports Research Planet Wikimedia Beyond the Web Meet Wikimedians Events Movement affiliates Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Main Page Content page Discussion English Read View source View history Tools Tools move to sidebar hide Actions Read View source View history General What links here Related changes Permanent link Page information Cite this page Get shortened URL Print/export Create a book Download as PDF Printable version In other projects Wikimedia Commons Wikimedia Foundation MediaWiki Wikimedia Outreach Multilingual Wikisource Wikispecies Wikibooks Wikidata Wikifunctions Wikimania Wikinews Wikipedia Wikiquote Wikisource Wikiversity Wikivoyage Wiktionary Wikidata item Appearance move to sidebar hide From Meta, a Wikimedia project coordination wiki Translate this page Meta-Wiki Welcome to Meta-Wiki , the global community site for the Wikimedia Foundation 's projects and related projects, from coordination and documentation to planning and analysis.",
+      "Other meta-focused wikis such as Wikimedia Outreach are specialized projects that have their roots in Meta-Wiki.",
+      "Related discussions also take place on Wikimedia mailing lists (particularly wikimedia-l , with its low-traffic equivalent WikimediaAnnounce ), IRC channels on Libera, individual wikis of Wikimedia affiliates , and other places."
+    ],
+    "medium": "Source: https://meta.wikimedia.org/",
+    "short": "Source: https://meta.wikimedia.org/",
+    "tokens": [
+      "main",
+      "page",
+      "meta",
+      "wiki",
+      "source",
+      "https",
+      "meta",
+      "wikimedia",
+      "org",
+      "source",
+      "https",
+      "meta",
+      "wikimedia",
+      "org"
+    ]
+  },
+  "title": "Main Page - Meta-Wiki"
+}

@@ -1,0 +1,371 @@
+{
+  "aliases": [
+    {
+      "alias": "7b72b8d4984434bb",
+      "aliasId": "hz.web.7b72b8d4984434bb.alias.1",
+      "canonical": "www.nih.gov"
+    },
+    {
+      "alias": "web 7b72b8d4984434bb",
+      "aliasId": "hz.web.7b72b8d4984434bb.alias.2",
+      "canonical": "www.nih.gov"
+    },
+    {
+      "alias": "www.nih.gov",
+      "aliasId": "hz.web.7b72b8d4984434bb.alias.3",
+      "canonical": "www.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.7b72b8d4984434bb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7b72b8d4984434bb.entity.1",
+      "kind": "document",
+      "name": "www.nih.gov",
+      "tokens": [
+        "www",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.7b72b8d4984434bb.entity.2",
+      "kind": "heading",
+      "name": "www.nih.gov",
+      "tokens": [
+        "www",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.7b72b8d4984434bb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7b72b8d4984434bb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7b72b8d4984434bb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 112,
+      "charStart": 16,
+      "factId": "hz.web.7b72b8d4984434bb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.nih.gov/themes/contrib/stable/css/core/components/progress.module.css?taz0vp",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "nih",
+        "gov",
+        "themes",
+        "contrib",
+        "stable",
+        "css",
+        "core",
+        "components",
+        "progress",
+        "module",
+        "css",
+        "taz0vp"
+      ]
+    },
+    {
+      "charEnd": 198,
+      "charStart": 164,
+      "factId": "hz.web.7b72b8d4984434bb.fact.1",
+      "kind": "bullet",
+      "text": "/** * @file * Progress behavior.",
+      "tokens": [
+        "file",
+        "progress",
+        "behavior"
+      ]
+    },
+    {
+      "charEnd": 941,
+      "charStart": 199,
+      "factId": "hz.web.7b72b8d4984434bb.fact.2",
+      "kind": "bullet",
+      "text": "* * @see progress.js */ .progress { position: relative; } .progress__track { min-width: 100px; max-width: 100%; height: 16px; margin-top: 5px; border: 1px solid; background-color: #fff; } .progress__bar { width: 3%; min-width: 3%; max-width: 100%; height: 1.5em; background-color: #000; } .progress__description, .progress__percentage { overflow: hidden; margin-top: 0.2em; color: #555; font-size: 0.875em; } .progress__description { float: left; /* LTR */ } [dir=\"rtl\"] .progress__description { float: right; } .progress__percentage { float: right; /* LTR */ } [dir=\"rtl\"] .progress__percentage { float: left; } .progress--small .progress__track { height: 7px; } .progress--small .progress__bar { height: 7px; background-size: 20px 20px; }",
+      "tokens": [
+        "see",
+        "progress",
+        "js",
+        "progress",
+        "position",
+        "relative",
+        "progress__track",
+        "min",
+        "width",
+        "100px",
+        "max",
+        "width",
+        "100",
+        "height",
+        "16px",
+        "margin",
+        "top",
+        "5px",
+        "border",
+        "1px",
+        "solid",
+        "background",
+        "color",
+        "fff",
+        "progress__bar",
+        "width",
+        "min",
+        "width",
+        "max",
+        "width",
+        "100",
+        "height",
+        "5em",
+        "background",
+        "color",
+        "000",
+        "progress__description",
+        "progress__percentage",
+        "overflow",
+        "hidden",
+        "margin",
+        "top",
+        "2em",
+        "color",
+        "555",
+        "font",
+        "size",
+        "875em",
+        "progress__description",
+        "float",
+        "left",
+        "ltr",
+        "dir",
+        "rtl",
+        "progress__description",
+        "float",
+        "right",
+        "progress__percentage",
+        "float",
+        "right",
+        "ltr",
+        "dir",
+        "rtl",
+        "progress__percentage",
+        "float",
+        "left",
+        "progress",
+        "small",
+        "progress__track",
+        "height",
+        "7px",
+        "progress",
+        "small",
+        "progress__bar",
+        "height",
+        "7px",
+        "background",
+        "size",
+        "20px",
+        "20px"
+      ]
+    },
+    {
+      "charEnd": 966,
+      "charStart": 956,
+      "factId": "hz.web.7b72b8d4984434bb.fact.3",
+      "kind": "bullet",
+      "text": "progress",
+      "tokens": [
+        "progress"
+      ]
+    },
+    {
+      "charEnd": 974,
+      "charStart": 967,
+      "factId": "hz.web.7b72b8d4984434bb.fact.4",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    },
+    {
+      "charEnd": 982,
+      "charStart": 975,
+      "factId": "hz.web.7b72b8d4984434bb.fact.5",
+      "kind": "bullet",
+      "text": "float",
+      "tokens": [
+        "float"
+      ]
+    },
+    {
+      "charEnd": 991,
+      "charStart": 983,
+      "factId": "hz.web.7b72b8d4984434bb.fact.6",
+      "kind": "bullet",
+      "text": "height",
+      "tokens": [
+        "height"
+      ]
+    },
+    {
+      "charEnd": 1004,
+      "charStart": 992,
+      "factId": "hz.web.7b72b8d4984434bb.fact.7",
+      "kind": "bullet",
+      "text": "background",
+      "tokens": [
+        "background"
+      ]
+    },
+    {
+      "charEnd": 1012,
+      "charStart": 1005,
+      "factId": "hz.web.7b72b8d4984434bb.fact.8",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 1036,
+      "charStart": 1013,
+      "factId": "hz.web.7b72b8d4984434bb.fact.9",
+      "kind": "bullet",
+      "text": "progress__description",
+      "tokens": [
+        "progress__description"
+      ]
+    },
+    {
+      "charEnd": 1059,
+      "charStart": 1037,
+      "factId": "hz.web.7b72b8d4984434bb.fact.10",
+      "kind": "bullet",
+      "text": "progress__percentage",
+      "tokens": [
+        "progress__percentage"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.7b72b8d4984434bb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.nih.gov"
+    },
+    {
+      "charEnd": 162,
+      "charStart": 152,
+      "headingId": "hz.web.7b72b8d4984434bb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 954,
+      "charStart": 943,
+      "headingId": "hz.web.7b72b8d4984434bb.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1071,
+      "charStart": 1061,
+      "headingId": "hz.web.7b72b8d4984434bb.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7b72b8d4984434bb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2130,
+        "start": 0
+      }
+    ],
+    "hash": "db595e49cdeb05fdf6a38d1a4ed79b6076a7c9e7cddc9f727ad8d5cd1ffa5b92",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/** * @file * Progress behavior.",
+      "* * @see progress.js */ .progress { position: relative; } .progress__track { min-width: 100px; max-width: 100%; height: 16px; margin-top: 5px; border: 1px solid; background-color: #fff; } .progress__bar { width: 3%; min-width: 3%; max-width: 100%; height: 1.5em; background-color: #000; } .progress__description, .progress__percentage { overflow: hidden; margin-top: 0.2em; color: #555; font-size: 0.875em; } .progress__description { float: left; /* LTR */ } [dir=\"rtl\"] .progress__description { float: right; } .progress__percentage { float: right; /* LTR */ } [dir=\"rtl\"] .progress__percentage { float: left; } .progress--small .progress__track { height: 7px; } .progress--small .progress__bar { height: 7px; background-size: 20px 20px; }",
+      "progress"
+    ],
+    "medium": "Source: https://www.nih.gov/themes/contrib/stable/css/core/components/progress.module.css?taz0vp",
+    "short": "Source: https://www.nih.gov/themes/contrib/stable/css/core/components/progress.module.css?taz0vp",
+    "tokens": [
+      "www",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "nih",
+      "gov",
+      "themes",
+      "contrib",
+      "stable",
+      "css",
+      "core",
+      "components",
+      "progress",
+      "module",
+      "css",
+      "taz0vp",
+      "source",
+      "https",
+      "www",
+      "nih",
+      "gov",
+      "themes",
+      "contrib",
+      "stable",
+      "css",
+      "core",
+      "components",
+      "progress",
+      "module",
+      "css",
+      "taz0vp"
+    ]
+  },
+  "title": "www.nih.gov"
+}

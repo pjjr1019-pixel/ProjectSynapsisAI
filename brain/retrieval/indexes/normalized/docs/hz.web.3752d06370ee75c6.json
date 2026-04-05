@@ -1,0 +1,366 @@
+{
+  "aliases": [
+    {
+      "alias": "3752d06370ee75c6",
+      "aliasId": "hz.web.3752d06370ee75c6.alias.1",
+      "canonical": "indieauth token endpoint"
+    },
+    {
+      "alias": "indieauth token endpoint",
+      "aliasId": "hz.web.3752d06370ee75c6.alias.2",
+      "canonical": "indieauth token endpoint"
+    },
+    {
+      "alias": "web 3752d06370ee75c6",
+      "aliasId": "hz.web.3752d06370ee75c6.alias.3",
+      "canonical": "indieauth token endpoint"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.74,
+  "docId": "hz.web.3752d06370ee75c6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3752d06370ee75c6.entity.1",
+      "kind": "document",
+      "name": "IndieAuth Token Endpoint",
+      "tokens": [
+        "indieauth",
+        "token",
+        "endpoint"
+      ]
+    },
+    {
+      "entityId": "hz.web.3752d06370ee75c6.entity.2",
+      "kind": "heading",
+      "name": "IndieAuth Token Endpoint",
+      "tokens": [
+        "indieauth",
+        "token",
+        "endpoint"
+      ]
+    },
+    {
+      "entityId": "hz.web.3752d06370ee75c6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3752d06370ee75c6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3752d06370ee75c6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 71,
+      "charStart": 29,
+      "factId": "hz.web.3752d06370ee75c6.fact.1",
+      "kind": "summary",
+      "text": "Source: https://tokens.indieauth.com/token",
+      "tokens": [
+        "source",
+        "https",
+        "tokens",
+        "indieauth",
+        "com",
+        "token"
+      ]
+    },
+    {
+      "charEnd": 274,
+      "charStart": 123,
+      "factId": "hz.web.3752d06370ee75c6.fact.1",
+      "kind": "bullet",
+      "text": "IndieAuth Token Endpoint Token Endpoint This is an IndieAuth Token Endpoint that you can use to jump-start the development of your Micropub endpoint.",
+      "tokens": [
+        "indieauth",
+        "token",
+        "endpoint",
+        "token",
+        "endpoint",
+        "indieauth",
+        "token",
+        "endpoint",
+        "use",
+        "jump",
+        "start",
+        "development",
+        "your",
+        "micropub",
+        "endpoint"
+      ]
+    },
+    {
+      "charEnd": 354,
+      "charStart": 275,
+      "factId": "hz.web.3752d06370ee75c6.fact.2",
+      "kind": "bullet",
+      "text": "Use it on your site No registration is required to begin using this endpoint.",
+      "tokens": [
+        "use",
+        "your",
+        "site",
+        "no",
+        "registration",
+        "required",
+        "begin",
+        "using",
+        "endpoint"
+      ]
+    },
+    {
+      "charEnd": 422,
+      "charStart": 355,
+      "factId": "hz.web.3752d06370ee75c6.fact.3",
+      "kind": "bullet",
+      "text": "On your home page, add a link tag pointing to the token endpoint.",
+      "tokens": [
+        "your",
+        "home",
+        "page",
+        "add",
+        "link",
+        "tag",
+        "pointing",
+        "token",
+        "endpoint"
+      ]
+    },
+    {
+      "charEnd": 613,
+      "charStart": 423,
+      "factId": "hz.web.3752d06370ee75c6.fact.4",
+      "kind": "bullet",
+      "text": "&lt;link rel=\"token_endpoint\" href=\"https://tokens.indieauth.com/token\"&gt; Micropub clients will be able to obtain an access token from this endpoint after you have granted authorization.",
+      "tokens": [
+        "lt",
+        "link",
+        "rel",
+        "token_endpoint",
+        "href",
+        "https",
+        "tokens",
+        "indieauth",
+        "com",
+        "token",
+        "gt",
+        "micropub",
+        "clients",
+        "will",
+        "able",
+        "obtain",
+        "access",
+        "token",
+        "endpoint",
+        "after",
+        "have",
+        "granted",
+        "authorization"
+      ]
+    },
+    {
+      "charEnd": 635,
+      "charStart": 628,
+      "factId": "hz.web.3752d06370ee75c6.fact.5",
+      "kind": "bullet",
+      "text": "token",
+      "tokens": [
+        "token"
+      ]
+    },
+    {
+      "charEnd": 646,
+      "charStart": 636,
+      "factId": "hz.web.3752d06370ee75c6.fact.6",
+      "kind": "bullet",
+      "text": "endpoint",
+      "tokens": [
+        "endpoint"
+      ]
+    },
+    {
+      "charEnd": 657,
+      "charStart": 647,
+      "factId": "hz.web.3752d06370ee75c6.fact.7",
+      "kind": "bullet",
+      "text": "micropub",
+      "tokens": [
+        "micropub"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 658,
+      "factId": "hz.web.3752d06370ee75c6.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 670,
+      "charStart": 665,
+      "factId": "hz.web.3752d06370ee75c6.fact.9",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 671,
+      "factId": "hz.web.3752d06370ee75c6.fact.10",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 683,
+      "factId": "hz.web.3752d06370ee75c6.fact.11",
+      "kind": "bullet",
+      "text": "access",
+      "tokens": [
+        "access"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 692,
+      "factId": "hz.web.3752d06370ee75c6.fact.12",
+      "kind": "bullet",
+      "text": "will",
+      "tokens": [
+        "will"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.3752d06370ee75c6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IndieAuth Token Endpoint"
+    },
+    {
+      "charEnd": 121,
+      "charStart": 111,
+      "headingId": "hz.web.3752d06370ee75c6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 626,
+      "charStart": 615,
+      "headingId": "hz.web.3752d06370ee75c6.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 710,
+      "charStart": 700,
+      "headingId": "hz.web.3752d06370ee75c6.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3752d06370ee75c6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3900,
+        "start": 0
+      }
+    ],
+    "hash": "04ccda577f70b085acabdfe4a9efe9ff7b1881703c53796c228552d0c4225d35",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.3752d06370ee75c6.rule.1",
+      "text": "- Use it on your site No registration is required to begin using this endpoint.",
+      "tokens": [
+        "use",
+        "your",
+        "site",
+        "no",
+        "registration",
+        "required",
+        "begin",
+        "using",
+        "endpoint"
+      ]
+    },
+    {
+      "ruleId": "hz.web.3752d06370ee75c6.rule.2",
+      "text": "Use it on your site No registration is required to begin using this endpoint.",
+      "tokens": [
+        "use",
+        "your",
+        "site",
+        "no",
+        "registration",
+        "required",
+        "begin",
+        "using",
+        "endpoint"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "IndieAuth Token Endpoint Token Endpoint This is an IndieAuth Token Endpoint that you can use to jump-start the development of your Micropub endpoint.",
+      "Use it on your site No registration is required to begin using this endpoint.",
+      "On your home page, add a link tag pointing to the token endpoint."
+    ],
+    "medium": "Source: https://tokens.indieauth.com/token",
+    "short": "Source: https://tokens.indieauth.com/token",
+    "tokens": [
+      "indieauth",
+      "token",
+      "endpoint",
+      "source",
+      "https",
+      "tokens",
+      "indieauth",
+      "com",
+      "token",
+      "source",
+      "https",
+      "tokens",
+      "indieauth",
+      "com",
+      "token"
+    ]
+  },
+  "title": "IndieAuth Token Endpoint"
+}

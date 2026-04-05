@@ -1,0 +1,177 @@
+{
+  "aliases": [
+    {
+      "alias": "edge cases v4",
+      "aliasId": "hz.pipeline.imports.edge-cases-v4.alias.1",
+      "canonical": "import pack — edge cases and messy inputs v4"
+    },
+    {
+      "alias": "import pack edge cases and messy inputs v4",
+      "aliasId": "hz.pipeline.imports.edge-cases-v4.alias.2",
+      "canonical": "import pack — edge cases and messy inputs v4"
+    },
+    {
+      "alias": "imports edge-cases-v4",
+      "aliasId": "hz.pipeline.imports.edge-cases-v4.alias.3",
+      "canonical": "import pack — edge cases and messy inputs v4"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.edge-cases-v4",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.edge-cases-v4.entity.1",
+      "kind": "document",
+      "name": "Import pack — Edge Cases and Messy Inputs v4",
+      "tokens": [
+        "import",
+        "pack",
+        "edge",
+        "cases",
+        "messy",
+        "inputs",
+        "v4"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.edge-cases-v4.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.edge-cases-v4.entity.3",
+      "kind": "tag",
+      "name": "edge-cases",
+      "tokens": [
+        "edge",
+        "cases"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.edge-cases-v4.entity.4",
+      "kind": "tag",
+      "name": "ambiguity",
+      "tokens": [
+        "ambiguity"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.edge-cases-v4.entity.5",
+      "kind": "tag",
+      "name": "slang",
+      "tokens": [
+        "slang"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.edge-cases-v4.entity.6",
+      "kind": "tag",
+      "name": "safety",
+      "tokens": [
+        "safety"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.edge-cases-v4.entity.7",
+      "kind": "heading",
+      "name": "Edge cases v4 (import anchor)",
+      "tokens": [
+        "edge",
+        "cases",
+        "v4",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 132,
+      "charStart": 37,
+      "factId": "hz.pipeline.imports.edge-cases-v4.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_brain_edgecases_v4",
+        "horizonsai_brain_edgecases_v4",
+        "readme",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 32,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.edge-cases-v4.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Edge cases v4 (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/edge-cases-v4.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 717,
+        "start": 0
+      }
+    ],
+    "hash": "19c44443f791542569fe658343aefa98fd7b4a5fd5864359530ede3eaf184639",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Brain_EdgeCases_v4/`",
+      "relationId": "hz.pipeline.imports.edge-cases-v4.relation.1",
+      "sourceDocId": "hz.pipeline.imports.edge-cases-v4",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_EdgeCases_v4/README.md",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.edge-cases-v4.relation.2",
+      "sourceDocId": "hz.pipeline.imports.edge-cases-v4",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+    "short": "**Source tree:** [`HorizonsAI_Brain_EdgeCases_v4/`](../HorizonsAI_Brain_EdgeCases_v4/README.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "edge",
+      "cases",
+      "messy",
+      "inputs",
+      "v4",
+      "source",
+      "tree",
+      "horizonsai_brain_edgecases_v4",
+      "horizonsai_brain_edgecases_v4",
+      "readme",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_brain_edgecases_v4",
+      "horizonsai_brain_edgecases_v4",
+      "readme",
+      "md"
+    ]
+  },
+  "title": "Import pack — Edge Cases and Messy Inputs v4"
+}

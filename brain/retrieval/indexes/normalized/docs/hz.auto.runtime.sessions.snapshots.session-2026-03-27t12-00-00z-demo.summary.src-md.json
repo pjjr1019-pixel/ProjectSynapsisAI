@@ -1,0 +1,181 @@
+{
+  "aliases": [
+    {
+      "alias": "session 2026 03 27t12 00 00z demo.summary",
+      "aliasId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.alias.1",
+      "canonical": "session summary (demo)"
+    },
+    {
+      "alias": "session summary demo",
+      "aliasId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.alias.2",
+      "canonical": "session summary (demo)"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md",
+  "domain": "runtime",
+  "entities": [
+    {
+      "entityId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.entity.1",
+      "kind": "document",
+      "name": "Session summary (demo)",
+      "tokens": [
+        "session",
+        "summary",
+        "demo"
+      ]
+    },
+    {
+      "entityId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.entity.2",
+      "kind": "heading",
+      "name": "Session summary (demo)",
+      "tokens": [
+        "session",
+        "summary",
+        "demo"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 192,
+      "charStart": 28,
+      "factId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.fact.1",
+      "kind": "summary",
+      "text": "Short human-readable recap for the paired JSON snapshot. **No secrets** — tokens and message bodies stay out of brain storage unless explicitly designed for export.",
+      "tokens": [
+        "short",
+        "human",
+        "readable",
+        "recap",
+        "paired",
+        "json",
+        "snapshot",
+        "no",
+        "secrets",
+        "tokens",
+        "message",
+        "bodies",
+        "stay",
+        "out",
+        "brain",
+        "storage",
+        "unless",
+        "explicitly",
+        "designed",
+        "export"
+      ]
+    },
+    {
+      "charEnd": 235,
+      "charStart": 192,
+      "factId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.fact.1",
+      "kind": "bullet",
+      "text": "Focus: onboarding sample topic retrieval.",
+      "tokens": [
+        "focus",
+        "onboarding",
+        "sample",
+        "topic",
+        "retrieval"
+      ]
+    },
+    {
+      "charEnd": 287,
+      "charStart": 236,
+      "factId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.fact.2",
+      "kind": "bullet",
+      "text": "Outcome: successful; no tool calls in stub trace.",
+      "tokens": [
+        "outcome",
+        "successful",
+        "no",
+        "tool",
+        "calls",
+        "stub",
+        "trace"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 0,
+      "headingId": "hz.auto.runtime.sessions.snapshots.session-2026-03-27t12-00-00z-demo.summary.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Session summary (demo)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/sessions/snapshots/session-2026-03-27T12-00-00Z-demo.summary.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 294,
+        "start": 0
+      }
+    ],
+    "hash": "d4a8150c3d1f8ce46044412691d41cef5629c77c661f81a8f5078c701a5a9c9c",
+    "sourceType": "runtime"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Focus: onboarding sample topic retrieval.",
+      "Outcome: successful; no tool calls in stub trace."
+    ],
+    "medium": "Short human-readable recap for the paired JSON snapshot. **No secrets** — tokens and message bodies stay out of brain storage unless explicitly designed for export.",
+    "short": "Short human-readable recap for the paired JSON snapshot. **No secrets** — tokens and message bodies stay out of brain storage unless explicitly designed for export.",
+    "tokens": [
+      "session",
+      "summary",
+      "demo",
+      "short",
+      "human",
+      "readable",
+      "recap",
+      "paired",
+      "json",
+      "snapshot",
+      "no",
+      "secrets",
+      "tokens",
+      "message",
+      "bodies",
+      "stay",
+      "out",
+      "brain",
+      "storage",
+      "unless",
+      "explicitly",
+      "designed",
+      "export",
+      "short",
+      "human",
+      "readable",
+      "recap",
+      "paired",
+      "json",
+      "snapshot",
+      "no",
+      "secrets",
+      "tokens",
+      "message",
+      "bodies",
+      "stay",
+      "out",
+      "brain",
+      "storage",
+      "unless",
+      "explicitly",
+      "designed",
+      "export"
+    ]
+  },
+  "title": "Session summary (demo)"
+}

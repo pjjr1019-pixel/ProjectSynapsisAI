@@ -1,0 +1,432 @@
+{
+  "aliases": [
+    {
+      "alias": "09926b946b00f6b0",
+      "aliasId": "hz.web.09926b946b00f6b0.alias.1",
+      "canonical": "stefan.goessner"
+    },
+    {
+      "alias": "stefan.goessner",
+      "aliasId": "hz.web.09926b946b00f6b0.alias.2",
+      "canonical": "stefan.goessner"
+    },
+    {
+      "alias": "web 09926b946b00f6b0",
+      "aliasId": "hz.web.09926b946b00f6b0.alias.3",
+      "canonical": "stefan.goessner"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.09926b946b00f6b0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.09926b946b00f6b0.entity.1",
+      "kind": "document",
+      "name": "stefan.goessner",
+      "tokens": [
+        "stefan",
+        "goessner"
+      ]
+    },
+    {
+      "entityId": "hz.web.09926b946b00f6b0.entity.2",
+      "kind": "heading",
+      "name": "stefan.goessner",
+      "tokens": [
+        "stefan",
+        "goessner"
+      ]
+    },
+    {
+      "entityId": "hz.web.09926b946b00f6b0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.09926b946b00f6b0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.09926b946b00f6b0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 48,
+      "charStart": 20,
+      "factId": "hz.web.09926b946b00f6b0.fact.1",
+      "kind": "summary",
+      "text": "Source: http://goessner.net/",
+      "tokens": [
+        "source",
+        "http",
+        "goessner",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 352,
+      "charStart": 100,
+      "factId": "hz.web.09926b946b00f6b0.fact.1",
+      "kind": "bullet",
+      "text": "stefan.goessner &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | 1.9.07 &#35; JSONPath - XPath for JSON Here and there on the web we can find a discussion or solution for something like XPath for JSON .",
+      "tokens": [
+        "stefan",
+        "goessner",
+        "lt",
+        "stefan",
+        "goessner",
+        "gt",
+        "mechanik",
+        "das",
+        "web",
+        "und",
+        "der",
+        "ganze",
+        "rest",
+        "home",
+        "lehre",
+        "download",
+        "info",
+        "07",
+        "35",
+        "jsonpath",
+        "xpath",
+        "json",
+        "here",
+        "there",
+        "web",
+        "find",
+        "discussion",
+        "solution",
+        "something",
+        "like",
+        "xpath",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 527,
+      "charStart": 353,
+      "factId": "hz.web.09926b946b00f6b0.fact.2",
+      "kind": "bullet",
+      "text": "Despite the fact, that JSON structures can be processed by the C family of programming languages quite easily, there should be a benefit in having some kind of XPath4JSON .",
+      "tokens": [
+        "despite",
+        "fact",
+        "json",
+        "structures",
+        "processed",
+        "family",
+        "programming",
+        "languages",
+        "quite",
+        "easily",
+        "there",
+        "benefit",
+        "having",
+        "some",
+        "kind",
+        "xpath4json"
+      ]
+    },
+    {
+      "charEnd": 634,
+      "charStart": 528,
+      "factId": "hz.web.09926b946b00f6b0.fact.3",
+      "kind": "bullet",
+      "text": "So I was thinking about a suitable path expression syntax for addressing portions of any JSON structure.",
+      "tokens": [
+        "so",
+        "thinking",
+        "about",
+        "suitable",
+        "path",
+        "expression",
+        "syntax",
+        "addressing",
+        "portions",
+        "any",
+        "json",
+        "structure"
+      ]
+    },
+    {
+      "charEnd": 723,
+      "charStart": 635,
+      "factId": "hz.web.09926b946b00f6b0.fact.4",
+      "kind": "bullet",
+      "text": "Those path expressions should be naturally based on C language family characteristics.",
+      "tokens": [
+        "those",
+        "path",
+        "expressions",
+        "naturally",
+        "based",
+        "language",
+        "family",
+        "characteristics"
+      ]
+    },
+    {
+      "charEnd": 744,
+      "charStart": 738,
+      "factId": "hz.web.09926b946b00f6b0.fact.5",
+      "kind": "bullet",
+      "text": "json",
+      "tokens": [
+        "json"
+      ]
+    },
+    {
+      "charEnd": 750,
+      "charStart": 745,
+      "factId": "hz.web.09926b946b00f6b0.fact.6",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 756,
+      "charStart": 751,
+      "factId": "hz.web.09926b946b00f6b0.fact.7",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 763,
+      "charStart": 757,
+      "factId": "hz.web.09926b946b00f6b0.fact.8",
+      "kind": "bullet",
+      "text": "some",
+      "tokens": [
+        "some"
+      ]
+    },
+    {
+      "charEnd": 769,
+      "charStart": 764,
+      "factId": "hz.web.09926b946b00f6b0.fact.9",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 774,
+      "charStart": 770,
+      "factId": "hz.web.09926b946b00f6b0.fact.10",
+      "kind": "bullet",
+      "text": "35",
+      "tokens": [
+        "35"
+      ]
+    },
+    {
+      "charEnd": 785,
+      "charStart": 775,
+      "factId": "hz.web.09926b946b00f6b0.fact.11",
+      "kind": "bullet",
+      "text": "comments",
+      "tokens": [
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 790,
+      "charStart": 786,
+      "factId": "hz.web.09926b946b00f6b0.fact.12",
+      "kind": "bullet",
+      "text": "06",
+      "tokens": [
+        "06"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.09926b946b00f6b0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "stefan.goessner"
+    },
+    {
+      "charEnd": 98,
+      "charStart": 88,
+      "headingId": "hz.web.09926b946b00f6b0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 736,
+      "charStart": 725,
+      "headingId": "hz.web.09926b946b00f6b0.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 802,
+      "charStart": 792,
+      "headingId": "hz.web.09926b946b00f6b0.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/09926b946b00f6b0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4024,
+        "start": 0
+      }
+    ],
+    "hash": "fa1beb975fe487d1c93b7d8e15928a25b466f5fcf6fe45a4bc04d7eafb985f63",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.09926b946b00f6b0.rule.1",
+      "text": "- Despite the fact, that JSON structures can be processed by the C family of programming languages quite easily, there should be a benefit in having some kind of XPath4JSON .",
+      "tokens": [
+        "despite",
+        "fact",
+        "json",
+        "structures",
+        "processed",
+        "family",
+        "programming",
+        "languages",
+        "quite",
+        "easily",
+        "there",
+        "benefit",
+        "having",
+        "some",
+        "kind",
+        "xpath4json"
+      ]
+    },
+    {
+      "ruleId": "hz.web.09926b946b00f6b0.rule.2",
+      "text": "- Those path expressions should be naturally based on C language family characteristics.",
+      "tokens": [
+        "those",
+        "path",
+        "expressions",
+        "naturally",
+        "based",
+        "language",
+        "family",
+        "characteristics"
+      ]
+    },
+    {
+      "ruleId": "hz.web.09926b946b00f6b0.rule.3",
+      "text": "Despite the fact, that JSON structures can be processed by the C family of programming languages quite easily, there should be a benefit in having some kind of XPath4JSON .",
+      "tokens": [
+        "despite",
+        "fact",
+        "json",
+        "structures",
+        "processed",
+        "family",
+        "programming",
+        "languages",
+        "quite",
+        "easily",
+        "there",
+        "benefit",
+        "having",
+        "some",
+        "kind",
+        "xpath4json"
+      ]
+    },
+    {
+      "ruleId": "hz.web.09926b946b00f6b0.rule.4",
+      "text": "Those path expressions should be naturally based on C language family characteristics.",
+      "tokens": [
+        "those",
+        "path",
+        "expressions",
+        "naturally",
+        "based",
+        "language",
+        "family",
+        "characteristics"
+      ]
+    },
+    {
+      "ruleId": "hz.web.09926b946b00f6b0.rule.5",
+      "text": "XML JSON 15 comments 25.5.06 &#35; Towel Day Don't forget &#8230; today is towel day .",
+      "tokens": [
+        "xml",
+        "json",
+        "15",
+        "comments",
+        "25",
+        "06",
+        "35",
+        "towel",
+        "day",
+        "don",
+        "forget",
+        "8230",
+        "today",
+        "towel",
+        "day"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "stefan.goessner &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | 1.9.07 &#35; JSONPath - XPath for JSON Here and there on the web we can find a discussion or solution for something like XPath for JSON .",
+      "Despite the fact, that JSON structures can be processed by the C family of programming languages quite easily, there should be a benefit in having some kind of XPath4JSON .",
+      "So I was thinking about a suitable path expression syntax for addressing portions of any JSON structure."
+    ],
+    "medium": "Source: http://goessner.net/",
+    "short": "Source: http://goessner.net/",
+    "tokens": [
+      "stefan",
+      "goessner",
+      "source",
+      "http",
+      "goessner",
+      "net",
+      "source",
+      "http",
+      "goessner",
+      "net"
+    ]
+  },
+  "title": "stefan.goessner"
+}

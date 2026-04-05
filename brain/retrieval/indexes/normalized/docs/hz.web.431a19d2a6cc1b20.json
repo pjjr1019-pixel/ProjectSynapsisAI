@@ -1,0 +1,537 @@
+{
+  "aliases": [
+    {
+      "alias": "431a19d2a6cc1b20",
+      "aliasId": "hz.web.431a19d2a6cc1b20.alias.1",
+      "canonical": "google advanced image search"
+    },
+    {
+      "alias": "google advanced image search",
+      "aliasId": "hz.web.431a19d2a6cc1b20.alias.2",
+      "canonical": "google advanced image search"
+    },
+    {
+      "alias": "web 431a19d2a6cc1b20",
+      "aliasId": "hz.web.431a19d2a6cc1b20.alias.3",
+      "canonical": "google advanced image search"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.81,
+  "docId": "hz.web.431a19d2a6cc1b20",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.431a19d2a6cc1b20.entity.1",
+      "kind": "document",
+      "name": "Google Advanced Image Search",
+      "tokens": [
+        "google",
+        "advanced",
+        "image",
+        "search"
+      ]
+    },
+    {
+      "entityId": "hz.web.431a19d2a6cc1b20.entity.2",
+      "kind": "heading",
+      "name": "Google Advanced Image Search",
+      "tokens": [
+        "google",
+        "advanced",
+        "image",
+        "search"
+      ]
+    },
+    {
+      "entityId": "hz.web.431a19d2a6cc1b20.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.431a19d2a6cc1b20.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.431a19d2a6cc1b20.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 106,
+      "charStart": 33,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.google.com/advanced_image_search?hl=en&amp;authuser=0",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "google",
+        "com",
+        "advanced_image_search",
+        "hl",
+        "en",
+        "amp",
+        "authuser"
+      ]
+    },
+    {
+      "charEnd": 274,
+      "charStart": 158,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.1",
+      "kind": "bullet",
+      "text": "Google Advanced Image Search Go to Google Home Sign in Go to Google Home Advanced Image Search Find images with...",
+      "tokens": [
+        "google",
+        "advanced",
+        "image",
+        "search",
+        "go",
+        "google",
+        "home",
+        "sign",
+        "go",
+        "google",
+        "home",
+        "advanced",
+        "image",
+        "search",
+        "find",
+        "images"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 275,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.2",
+      "kind": "bullet",
+      "text": "To do this in the search box all these words: Type the important words: winter hoarfrost this exact word or phrase: Put exact words in quotes: \"frost flower\" any of these words: Type OR between all the words you want: trees OR weeds OR grasses none of these words: Put a minus sign just before words you don't want: -windows Then narrow your results by...",
+      "tokens": [
+        "search",
+        "box",
+        "all",
+        "these",
+        "words",
+        "type",
+        "important",
+        "words",
+        "winter",
+        "hoarfrost",
+        "exact",
+        "word",
+        "phrase",
+        "put",
+        "exact",
+        "words",
+        "quotes",
+        "frost",
+        "flower",
+        "any",
+        "these",
+        "words",
+        "type",
+        "between",
+        "all",
+        "words",
+        "want",
+        "trees",
+        "weeds",
+        "grasses",
+        "none",
+        "these",
+        "words",
+        "put",
+        "minus",
+        "sign",
+        "just",
+        "before",
+        "words",
+        "don",
+        "want",
+        "windows",
+        "then",
+        "narrow",
+        "your",
+        "results"
+      ]
+    },
+    {
+      "charEnd": 964,
+      "charStart": 633,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.3",
+      "kind": "bullet",
+      "text": "image size: any size Large Medium Icon Larger than 400�300 Larger than 640�480 Larger than 800�600 Larger than 1024�768 Larger than 2 MP Larger than 4 MP Larger than 6 MP Larger than 8 MP Larger than 10 MP Larger than 12 MP Larger than 15 MP Larger than 20 MP Larger than 40 MP Larger than 70 MP Find images in any size you need.",
+      "tokens": [
+        "image",
+        "size",
+        "any",
+        "size",
+        "large",
+        "medium",
+        "icon",
+        "larger",
+        "than",
+        "400",
+        "300",
+        "larger",
+        "than",
+        "640",
+        "480",
+        "larger",
+        "than",
+        "800",
+        "600",
+        "larger",
+        "than",
+        "1024",
+        "768",
+        "larger",
+        "than",
+        "mp",
+        "larger",
+        "than",
+        "mp",
+        "larger",
+        "than",
+        "mp",
+        "larger",
+        "than",
+        "mp",
+        "larger",
+        "than",
+        "10",
+        "mp",
+        "larger",
+        "than",
+        "12",
+        "mp",
+        "larger",
+        "than",
+        "15",
+        "mp",
+        "larger",
+        "than",
+        "20",
+        "mp",
+        "larger",
+        "than",
+        "40",
+        "mp",
+        "larger",
+        "than",
+        "70",
+        "mp",
+        "find",
+        "images",
+        "any",
+        "size",
+        "need"
+      ]
+    },
+    {
+      "charEnd": 1053,
+      "charStart": 965,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.4",
+      "kind": "bullet",
+      "text": "aspect ratio: any aspect ratio Tall Square Wide Panoramic Specify the shape of images.",
+      "tokens": [
+        "aspect",
+        "ratio",
+        "any",
+        "aspect",
+        "ratio",
+        "tall",
+        "square",
+        "wide",
+        "panoramic",
+        "specify",
+        "shape",
+        "images"
+      ]
+    },
+    {
+      "charEnd": 1077,
+      "charStart": 1068,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.5",
+      "kind": "bullet",
+      "text": "islands",
+      "tokens": [
+        "islands"
+      ]
+    },
+    {
+      "charEnd": 1086,
+      "charStart": 1078,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.6",
+      "kind": "bullet",
+      "text": "larger",
+      "tokens": [
+        "larger"
+      ]
+    },
+    {
+      "charEnd": 1093,
+      "charStart": 1087,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.7",
+      "kind": "bullet",
+      "text": "than",
+      "tokens": [
+        "than"
+      ]
+    },
+    {
+      "charEnd": 1098,
+      "charStart": 1094,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.8",
+      "kind": "bullet",
+      "text": "mp",
+      "tokens": [
+        "mp"
+      ]
+    },
+    {
+      "charEnd": 1104,
+      "charStart": 1099,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.9",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 1112,
+      "charStart": 1105,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.10",
+      "kind": "bullet",
+      "text": "files",
+      "tokens": [
+        "files"
+      ]
+    },
+    {
+      "charEnd": 1121,
+      "charStart": 1113,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.11",
+      "kind": "bullet",
+      "text": "images",
+      "tokens": [
+        "images"
+      ]
+    },
+    {
+      "charEnd": 1128,
+      "charStart": 1122,
+      "factId": "hz.web.431a19d2a6cc1b20.fact.12",
+      "kind": "bullet",
+      "text": "find",
+      "tokens": [
+        "find"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.431a19d2a6cc1b20.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Google Advanced Image Search"
+    },
+    {
+      "charEnd": 156,
+      "charStart": 146,
+      "headingId": "hz.web.431a19d2a6cc1b20.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1066,
+      "charStart": 1055,
+      "headingId": "hz.web.431a19d2a6cc1b20.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1140,
+      "charStart": 1130,
+      "headingId": "hz.web.431a19d2a6cc1b20.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/431a19d2a6cc1b20.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4420,
+        "start": 0
+      }
+    ],
+    "hash": "2bf250f13df6a06787fdd0271e1ecd5b9774fe07f685240512c65c22231bf225",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.431a19d2a6cc1b20.rule.1",
+      "text": "- To do this in the search box all these words: Type the important words: winter hoarfrost this exact word or phrase: Put exact words in quotes: \"frost flower\" any of these words: Type OR between all the words you want: trees OR weeds OR grasses none of these words: Put a minus sign just before words you don't want: -windows Then narrow your results by...",
+      "tokens": [
+        "search",
+        "box",
+        "all",
+        "these",
+        "words",
+        "type",
+        "important",
+        "words",
+        "winter",
+        "hoarfrost",
+        "exact",
+        "word",
+        "phrase",
+        "put",
+        "exact",
+        "words",
+        "quotes",
+        "frost",
+        "flower",
+        "any",
+        "these",
+        "words",
+        "type",
+        "between",
+        "all",
+        "words",
+        "want",
+        "trees",
+        "weeds",
+        "grasses",
+        "none",
+        "these",
+        "words",
+        "put",
+        "minus",
+        "sign",
+        "just",
+        "before",
+        "words",
+        "don",
+        "want",
+        "windows",
+        "then",
+        "narrow",
+        "your",
+        "results"
+      ]
+    },
+    {
+      "ruleId": "hz.web.431a19d2a6cc1b20.rule.2",
+      "text": "To do this in the search box all these words: Type the important words: winter hoarfrost this exact word or phrase: Put exact words in quotes: \"frost flower\" any of these words: Type OR between all the words you want: trees OR weeds OR grasses none of these words: Put a minus sign just before words you don't want: -windows Then narrow your results by...",
+      "tokens": [
+        "search",
+        "box",
+        "all",
+        "these",
+        "words",
+        "type",
+        "important",
+        "words",
+        "winter",
+        "hoarfrost",
+        "exact",
+        "word",
+        "phrase",
+        "put",
+        "exact",
+        "words",
+        "quotes",
+        "frost",
+        "flower",
+        "any",
+        "these",
+        "words",
+        "type",
+        "between",
+        "all",
+        "words",
+        "want",
+        "trees",
+        "weeds",
+        "grasses",
+        "none",
+        "these",
+        "words",
+        "put",
+        "minus",
+        "sign",
+        "just",
+        "before",
+        "words",
+        "don",
+        "want",
+        "windows",
+        "then",
+        "narrow",
+        "your",
+        "results"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Google Advanced Image Search Go to Google Home Sign in Go to Google Home Advanced Image Search Find images with...",
+      "To do this in the search box all these words: Type the important words: winter hoarfrost this exact word or phrase: Put exact words in quotes: \"frost flower\" any of these words: Type OR between all the words you want: trees OR weeds OR grasses none of these words: Put a minus sign just before words you don't want: -windows Then narrow your results by...",
+      "image size: any size Large Medium Icon Larger than 400�300 Larger than 640�480 Larger than 800�600 Larger than 1024�768 Larger than 2 MP Larger than 4 MP Larger than 6 MP Larger than 8 MP Larger than 10 MP Larger than 12 MP Larger than 15 MP Larger than 20 MP Larger than 40 MP Larger than 70 MP Find images in any size you need."
+    ],
+    "medium": "Source: https://www.google.com/advanced_image_search?hl=en&amp;authuser=0",
+    "short": "Source: https://www.google.com/advanced_image_search?hl=en&amp;authuser=0",
+    "tokens": [
+      "google",
+      "advanced",
+      "image",
+      "search",
+      "source",
+      "https",
+      "www",
+      "google",
+      "com",
+      "advanced_image_search",
+      "hl",
+      "en",
+      "amp",
+      "authuser",
+      "source",
+      "https",
+      "www",
+      "google",
+      "com",
+      "advanced_image_search",
+      "hl",
+      "en",
+      "amp",
+      "authuser"
+    ]
+  },
+  "title": "Google Advanced Image Search"
+}

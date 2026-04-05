@@ -1,0 +1,390 @@
+{
+  "aliases": [
+    {
+      "alias": "3dd293e1b34edf97",
+      "aliasId": "hz.web.3dd293e1b34edf97.alias.1",
+      "canonical": "aaron parecki"
+    },
+    {
+      "alias": "aaron parecki",
+      "aliasId": "hz.web.3dd293e1b34edf97.alias.2",
+      "canonical": "aaron parecki"
+    },
+    {
+      "alias": "web 3dd293e1b34edf97",
+      "aliasId": "hz.web.3dd293e1b34edf97.alias.3",
+      "canonical": "aaron parecki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.3dd293e1b34edf97",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3dd293e1b34edf97.entity.1",
+      "kind": "document",
+      "name": "Aaron Parecki",
+      "tokens": [
+        "aaron",
+        "parecki"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dd293e1b34edf97.entity.2",
+      "kind": "heading",
+      "name": "Aaron Parecki",
+      "tokens": [
+        "aaron",
+        "parecki"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dd293e1b34edf97.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dd293e1b34edf97.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3dd293e1b34edf97.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 18,
+      "factId": "hz.web.3dd293e1b34edf97.fact.1",
+      "kind": "summary",
+      "text": "Source: http://aaronparecki.com/notes",
+      "tokens": [
+        "source",
+        "http",
+        "aaronparecki",
+        "com",
+        "notes"
+      ]
+    },
+    {
+      "charEnd": 570,
+      "charStart": 107,
+      "factId": "hz.web.3dd293e1b34edf97.fact.1",
+      "kind": "bullet",
+      "text": "Aaron Parecki --> 61&deg;F Aaron Parecki Articles Notes Photos Found my todo list for 2026 https:// kylegabriel.com/projects/2020/06/automated-hydroponic-system-build.html Alaska Flight 18 PDX to JFK in Ulysses , Pennsylvania &bull; 62&deg;F 4 likes 1 reply Mon, Mar 30, 2026 2:28pm -04:00 # hydroponics TIL about UIScreenshotService which enables iOS apps to provide a high res PDF screenshot of the app content when the user uses the system screenshot action!",
+      "tokens": [
+        "aaron",
+        "parecki",
+        "61",
+        "deg",
+        "aaron",
+        "parecki",
+        "articles",
+        "notes",
+        "photos",
+        "found",
+        "todo",
+        "list",
+        "2026",
+        "https",
+        "kylegabriel",
+        "com",
+        "projects",
+        "2020",
+        "06",
+        "automated",
+        "hydroponic",
+        "system",
+        "build",
+        "html",
+        "alaska",
+        "flight",
+        "18",
+        "pdx",
+        "jfk",
+        "ulysses",
+        "pennsylvania",
+        "bull",
+        "62",
+        "deg",
+        "likes",
+        "reply",
+        "mon",
+        "mar",
+        "30",
+        "2026",
+        "28pm",
+        "04",
+        "00",
+        "hydroponics",
+        "til",
+        "about",
+        "uiscreenshotservice",
+        "enables",
+        "ios",
+        "apps",
+        "provide",
+        "high",
+        "res",
+        "pdf",
+        "screenshot",
+        "app",
+        "content",
+        "user",
+        "uses",
+        "system",
+        "screenshot",
+        "action"
+      ]
+    },
+    {
+      "charEnd": 624,
+      "charStart": 571,
+      "factId": "hz.web.3dd293e1b34edf97.fact.2",
+      "kind": "bullet",
+      "text": "Chrome uses this to give a full export of the page!",
+      "tokens": [
+        "chrome",
+        "uses",
+        "give",
+        "full",
+        "export",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 920,
+      "charStart": 625,
+      "factId": "hz.web.3dd293e1b34edf97.fact.3",
+      "kind": "bullet",
+      "text": "Alaska Flight 18 PDX to JFK in Forsyth , Montana &bull; 48&deg;F 6 likes 1 repost 1 reply Mon, Mar 30, 2026 9:55am -06:00 # ios I'm impressed, Cathay Pacific transferred my vegetarian meal request to the new flight they moved me to after the incoming flight was late and missed the connection.",
+      "tokens": [
+        "alaska",
+        "flight",
+        "18",
+        "pdx",
+        "jfk",
+        "forsyth",
+        "montana",
+        "bull",
+        "48",
+        "deg",
+        "likes",
+        "repost",
+        "reply",
+        "mon",
+        "mar",
+        "30",
+        "2026",
+        "55am",
+        "06",
+        "00",
+        "ios",
+        "impressed",
+        "cathay",
+        "pacific",
+        "transferred",
+        "vegetarian",
+        "meal",
+        "request",
+        "new",
+        "flight",
+        "moved",
+        "after",
+        "incoming",
+        "flight",
+        "late",
+        "missed",
+        "connection"
+      ]
+    },
+    {
+      "charEnd": 1008,
+      "charStart": 921,
+      "factId": "hz.web.3dd293e1b34edf97.fact.4",
+      "kind": "bullet",
+      "text": "Normally airlines say oh well you didn't reserve the meal 72 hours before the flight.",
+      "tokens": [
+        "normally",
+        "airlines",
+        "say",
+        "oh",
+        "well",
+        "didn",
+        "reserve",
+        "meal",
+        "72",
+        "hours",
+        "before",
+        "flight"
+      ]
+    },
+    {
+      "charEnd": 1028,
+      "charStart": 1023,
+      "factId": "hz.web.3dd293e1b34edf97.fact.5",
+      "kind": "bullet",
+      "text": "deg",
+      "tokens": [
+        "deg"
+      ]
+    },
+    {
+      "charEnd": 1033,
+      "charStart": 1029,
+      "factId": "hz.web.3dd293e1b34edf97.fact.6",
+      "kind": "bullet",
+      "text": "00",
+      "tokens": [
+        "00"
+      ]
+    },
+    {
+      "charEnd": 1040,
+      "charStart": 1034,
+      "factId": "hz.web.3dd293e1b34edf97.fact.7",
+      "kind": "bullet",
+      "text": "bull",
+      "tokens": [
+        "bull"
+      ]
+    },
+    {
+      "charEnd": 1048,
+      "charStart": 1041,
+      "factId": "hz.web.3dd293e1b34edf97.fact.8",
+      "kind": "bullet",
+      "text": "oauth",
+      "tokens": [
+        "oauth"
+      ]
+    },
+    {
+      "charEnd": 1056,
+      "charStart": 1049,
+      "factId": "hz.web.3dd293e1b34edf97.fact.9",
+      "kind": "bullet",
+      "text": "likes",
+      "tokens": [
+        "likes"
+      ]
+    },
+    {
+      "charEnd": 1062,
+      "charStart": 1057,
+      "factId": "hz.web.3dd293e1b34edf97.fact.10",
+      "kind": "bullet",
+      "text": "mcp",
+      "tokens": [
+        "mcp"
+      ]
+    },
+    {
+      "charEnd": 1071,
+      "charStart": 1063,
+      "factId": "hz.web.3dd293e1b34edf97.fact.11",
+      "kind": "bullet",
+      "text": "oregon",
+      "tokens": [
+        "oregon"
+      ]
+    },
+    {
+      "charEnd": 1082,
+      "charStart": 1072,
+      "factId": "hz.web.3dd293e1b34edf97.fact.12",
+      "kind": "bullet",
+      "text": "portland",
+      "tokens": [
+        "portland"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.3dd293e1b34edf97.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Aaron Parecki"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.3dd293e1b34edf97.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1021,
+      "charStart": 1010,
+      "headingId": "hz.web.3dd293e1b34edf97.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1094,
+      "charStart": 1084,
+      "headingId": "hz.web.3dd293e1b34edf97.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3dd293e1b34edf97.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4323,
+        "start": 0
+      }
+    ],
+    "hash": "62b209d366d413f7e46a51ca87126e4c18eb1ad426ae1fbaa362c3a2efdd9956",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Aaron Parecki --> 61&deg;F Aaron Parecki Articles Notes Photos Found my todo list for 2026 https:// kylegabriel.com/projects/2020/06/automated-hydroponic-system-build.html Alaska Flight 18 PDX to JFK in Ulysses , Pennsylvania &bull; 62&deg;F 4 likes 1 reply Mon, Mar 30, 2026 2:28pm -04:00 # hydroponics TIL about UIScreenshotService which enables iOS apps to provide a high res PDF screenshot of the app content when the user uses the system screenshot action!",
+      "Chrome uses this to give a full export of the page!",
+      "Alaska Flight 18 PDX to JFK in Forsyth , Montana &bull; 48&deg;F 6 likes 1 repost 1 reply Mon, Mar 30, 2026 9:55am -06:00 # ios I'm impressed, Cathay Pacific transferred my vegetarian meal request to the new flight they moved me to after the incoming flight was late and missed the connection."
+    ],
+    "medium": "Source: http://aaronparecki.com/notes",
+    "short": "Source: http://aaronparecki.com/notes",
+    "tokens": [
+      "aaron",
+      "parecki",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "notes",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "notes"
+    ]
+  },
+  "title": "Aaron Parecki"
+}

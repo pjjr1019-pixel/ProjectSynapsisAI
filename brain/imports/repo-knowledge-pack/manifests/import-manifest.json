@@ -1,0 +1,36 @@
+{
+  "module_id": "repo-knowledge-pack",
+  "generated_at": "2026-04-02T15:23:56.818Z",
+  "repo_root": "C:/Users/Pgiov/OneDrive/Documents/Custom programs/Horizons.AI",
+  "inventory_source": "filesystem-scan-live",
+  "retrieval_profile": "repo-knowledge-pack",
+  "build_mode": "incremental",
+  "totals": {
+    "scanned_files": 58010,
+    "card_candidates": 53913,
+    "cards_written": 5000,
+    "cards_reused": 4999,
+    "cards_rewritten": 1,
+    "cards_deleted": 0,
+    "selected_scripts": 586,
+    "selected_docs": 213,
+    "selected_configs": 1
+  },
+  "thresholds": {
+    "max_cards": 5000,
+    "minimum_card_score": 0
+  },
+  "output_paths": {
+    "pack_root": "taskmanager/brain/imports/repo-knowledge-pack",
+    "raw_dir": "taskmanager/brain/imports/repo-knowledge-pack/raw/repo-knowledge-pack",
+    "normalized_root": "taskmanager/brain/imports/repo-knowledge-pack/normalized/repo-knowledge-pack",
+    "manifest_dir": "taskmanager/brain/imports/repo-knowledge-pack/manifests",
+    "retrieval_root": "taskmanager/brain/retrieval/imports/repo-knowledge-pack"
+  },
+  "notes": [
+    "Repository-wide lookup pack with script-heavy surfaces prioritized.",
+    "Generated/vendor/runtime output is retained in the raw manifest but de-prioritized for cards.",
+    "Incremental builds reuse unchanged cards and remove stale selected cards.",
+    "Use the lookup manifest first, then open the card path, then open the source file if you need the full implementation."
+  ]
+}

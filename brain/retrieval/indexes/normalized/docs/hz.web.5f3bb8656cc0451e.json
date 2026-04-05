@@ -1,0 +1,387 @@
+{
+  "aliases": [
+    {
+      "alias": "5f3bb8656cc0451e",
+      "aliasId": "hz.web.5f3bb8656cc0451e.alias.1",
+      "canonical": "partner: smugmug"
+    },
+    {
+      "alias": "partner smugmug",
+      "aliasId": "hz.web.5f3bb8656cc0451e.alias.2",
+      "canonical": "partner: smugmug"
+    },
+    {
+      "alias": "web 5f3bb8656cc0451e",
+      "aliasId": "hz.web.5f3bb8656cc0451e.alias.3",
+      "canonical": "partner: smugmug"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.5f3bb8656cc0451e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5f3bb8656cc0451e.entity.1",
+      "kind": "document",
+      "name": "Partner: Smugmug",
+      "tokens": [
+        "partner",
+        "smugmug"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f3bb8656cc0451e.entity.2",
+      "kind": "heading",
+      "name": "Partner: Smugmug",
+      "tokens": [
+        "partner",
+        "smugmug"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f3bb8656cc0451e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f3bb8656cc0451e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5f3bb8656cc0451e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 72,
+      "charStart": 21,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://photoephemeris.com/partners/smugmug",
+      "tokens": [
+        "source",
+        "https",
+        "photoephemeris",
+        "com",
+        "partners",
+        "smugmug"
+      ]
+    },
+    {
+      "charEnd": 384,
+      "charStart": 124,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.1",
+      "kind": "bullet",
+      "text": "Partner: Smugmug US | UK | DE | FR | ES TPE &middot; The Photographer&rsquo;s Ephemeris Web iOS Eclipses News Articles Support US | UK | DE | FR | ES Web iOS Eclipses News Articles Support Exclusive Partner Discount An exclusive discount for SmugMug members!",
+      "tokens": [
+        "partner",
+        "smugmug",
+        "us",
+        "uk",
+        "de",
+        "fr",
+        "es",
+        "tpe",
+        "middot",
+        "photographer",
+        "rsquo",
+        "ephemeris",
+        "web",
+        "ios",
+        "eclipses",
+        "news",
+        "articles",
+        "support",
+        "us",
+        "uk",
+        "de",
+        "fr",
+        "es",
+        "web",
+        "ios",
+        "eclipses",
+        "news",
+        "articles",
+        "support",
+        "exclusive",
+        "partner",
+        "discount",
+        "exclusive",
+        "discount",
+        "smugmug",
+        "members"
+      ]
+    },
+    {
+      "charEnd": 478,
+      "charStart": 385,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.2",
+      "kind": "bullet",
+      "text": "An exclusive 30% discount on Photo Ephemeris Web Pro for our friends visiting from Smugmug.",
+      "tokens": [
+        "exclusive",
+        "30",
+        "discount",
+        "photo",
+        "ephemeris",
+        "web",
+        "pro",
+        "our",
+        "friends",
+        "visiting",
+        "smugmug"
+      ]
+    },
+    {
+      "charEnd": 629,
+      "charStart": 479,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.3",
+      "kind": "bullet",
+      "text": "Get your discount code Photo Ephemeris Web Pro is intended for use on desktop or laptop computers Discount applies only to Photo Ephemeris Web Pro .",
+      "tokens": [
+        "get",
+        "your",
+        "discount",
+        "code",
+        "photo",
+        "ephemeris",
+        "web",
+        "pro",
+        "intended",
+        "use",
+        "desktop",
+        "laptop",
+        "computers",
+        "discount",
+        "applies",
+        "only",
+        "photo",
+        "ephemeris",
+        "web",
+        "pro"
+      ]
+    },
+    {
+      "charEnd": 941,
+      "charStart": 630,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.4",
+      "kind": "bullet",
+      "text": "Not valid for mobile app purchases Mobile apps require separate purchase Instructions Terms & Conditions Footer Products Web iOS TPE 3D Field of View Tool Read News Articles Support Status Company About Terms of Use Privacy Cookies Join our mailing list Get product news, updates, and tutorials in your inbox.",
+      "tokens": [
+        "not",
+        "valid",
+        "mobile",
+        "app",
+        "purchases",
+        "mobile",
+        "apps",
+        "require",
+        "separate",
+        "purchase",
+        "instructions",
+        "terms",
+        "conditions",
+        "footer",
+        "products",
+        "web",
+        "ios",
+        "tpe",
+        "3d",
+        "field",
+        "view",
+        "tool",
+        "read",
+        "news",
+        "articles",
+        "support",
+        "status",
+        "company",
+        "about",
+        "terms",
+        "use",
+        "privacy",
+        "cookies",
+        "join",
+        "our",
+        "mailing",
+        "list",
+        "get",
+        "product",
+        "news",
+        "updates",
+        "tutorials",
+        "your",
+        "inbox"
+      ]
+    },
+    {
+      "charEnd": 961,
+      "charStart": 956,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.5",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 972,
+      "charStart": 962,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.6",
+      "kind": "bullet",
+      "text": "discount",
+      "tokens": [
+        "discount"
+      ]
+    },
+    {
+      "charEnd": 984,
+      "charStart": 973,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.7",
+      "kind": "bullet",
+      "text": "ephemeris",
+      "tokens": [
+        "ephemeris"
+      ]
+    },
+    {
+      "charEnd": 991,
+      "charStart": 985,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.8",
+      "kind": "bullet",
+      "text": "news",
+      "tokens": [
+        "news"
+      ]
+    },
+    {
+      "charEnd": 999,
+      "charStart": 992,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.9",
+      "kind": "bullet",
+      "text": "photo",
+      "tokens": [
+        "photo"
+      ]
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 1000,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.10",
+      "kind": "bullet",
+      "text": "articles",
+      "tokens": [
+        "articles"
+      ]
+    },
+    {
+      "charEnd": 1022,
+      "charStart": 1011,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.11",
+      "kind": "bullet",
+      "text": "exclusive",
+      "tokens": [
+        "exclusive"
+      ]
+    },
+    {
+      "charEnd": 1028,
+      "charStart": 1023,
+      "factId": "hz.web.5f3bb8656cc0451e.fact.12",
+      "kind": "bullet",
+      "text": "ios",
+      "tokens": [
+        "ios"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.5f3bb8656cc0451e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Partner: Smugmug"
+    },
+    {
+      "charEnd": 122,
+      "charStart": 112,
+      "headingId": "hz.web.5f3bb8656cc0451e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 954,
+      "charStart": 943,
+      "headingId": "hz.web.5f3bb8656cc0451e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1040,
+      "charStart": 1030,
+      "headingId": "hz.web.5f3bb8656cc0451e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/5f3bb8656cc0451e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2184,
+        "start": 0
+      }
+    ],
+    "hash": "b09fcc5229060dd83bf17eae0b9c5f96b244bdd28b418260901a474737ca2f8f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Partner: Smugmug US | UK | DE | FR | ES TPE &middot; The Photographer&rsquo;s Ephemeris Web iOS Eclipses News Articles Support US | UK | DE | FR | ES Web iOS Eclipses News Articles Support Exclusive Partner Discount An exclusive discount for SmugMug members!",
+      "An exclusive 30% discount on Photo Ephemeris Web Pro for our friends visiting from Smugmug.",
+      "Get your discount code Photo Ephemeris Web Pro is intended for use on desktop or laptop computers Discount applies only to Photo Ephemeris Web Pro ."
+    ],
+    "medium": "Source: https://photoephemeris.com/partners/smugmug",
+    "short": "Source: https://photoephemeris.com/partners/smugmug",
+    "tokens": [
+      "partner",
+      "smugmug",
+      "source",
+      "https",
+      "photoephemeris",
+      "com",
+      "partners",
+      "smugmug",
+      "source",
+      "https",
+      "photoephemeris",
+      "com",
+      "partners",
+      "smugmug"
+    ]
+  },
+  "title": "Partner: Smugmug"
+}

@@ -1,0 +1,36 @@
+{
+  "examples": [
+    {
+      "query": "open bluetooth settings",
+      "skillId": "settings.devices.bluetooth"
+    },
+    {
+      "query": "open privacy microphone",
+      "skillId": "settings.privacy.microphone-privacy"
+    },
+    {
+      "query": "open user account settings",
+      "skillId": "settings.accounts.your-info"
+    },
+    {
+      "query": "open windows update",
+      "skillId": "settings.update-security.windows-update"
+    },
+    {
+      "query": "open task manager",
+      "skillId": "tool.task-manager"
+    },
+    {
+      "query": "open device manager",
+      "skillId": "tool.device-manager"
+    },
+    {
+      "query": "open startup folder",
+      "skillId": "folder.startup-folder"
+    },
+    {
+      "query": "open programs and features",
+      "skillId": "controlpanel.programs-and-features"
+    }
+  ]
+}

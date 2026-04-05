@@ -1,0 +1,92 @@
+{
+  "aliases": [
+    {
+      "alias": "social draft",
+      "aliasId": "hz.auto.apps.social.draft.readme.src-md.alias.1",
+      "canonical": "social — draft"
+    }
+  ],
+  "app": "social",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.social.draft.readme.src-md",
+  "domain": "social",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.social.draft.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Social — draft",
+      "tokens": [
+        "social",
+        "draft"
+      ]
+    },
+    {
+      "entityId": "hz.auto.apps.social.draft.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Social — draft",
+      "tokens": [
+        "social",
+        "draft"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 47,
+      "charStart": 20,
+      "factId": "hz.auto.apps.social.draft.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "WIP social-surface content.",
+      "tokens": [
+        "wip",
+        "social",
+        "surface",
+        "content"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 0,
+      "headingId": "hz.auto.apps.social.draft.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Social — draft"
+    }
+  ],
+  "moduleIds": [],
+  "path": "apps/social/draft/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 49,
+        "start": 0
+      }
+    ],
+    "hash": "6e2f8612b52b0c06a161452f92cf7b3a706fce39bf1dc7f138d7268b390fb18b",
+    "sourceType": "draft"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "WIP social-surface content.",
+    "short": "WIP social-surface content.",
+    "tokens": [
+      "social",
+      "draft",
+      "wip",
+      "social",
+      "surface",
+      "content",
+      "wip",
+      "social",
+      "surface",
+      "content"
+    ]
+  },
+  "title": "Social — draft"
+}

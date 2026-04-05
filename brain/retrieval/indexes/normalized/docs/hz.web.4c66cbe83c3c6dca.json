@@ -1,0 +1,309 @@
+{
+  "aliases": [
+    {
+      "alias": "4c66cbe83c3c6dca",
+      "aliasId": "hz.web.4c66cbe83c3c6dca.alias.1",
+      "canonical": "cssに対応したmathml仕様概要書(a mathml for css profile 日本語訳)"
+    },
+    {
+      "alias": "css mathml a mathml for css profile",
+      "aliasId": "hz.web.4c66cbe83c3c6dca.alias.2",
+      "canonical": "cssに対応したmathml仕様概要書(a mathml for css profile 日本語訳)"
+    },
+    {
+      "alias": "web 4c66cbe83c3c6dca",
+      "aliasId": "hz.web.4c66cbe83c3c6dca.alias.3",
+      "canonical": "cssに対応したmathml仕様概要書(a mathml for css profile 日本語訳)"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.4c66cbe83c3c6dca",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4c66cbe83c3c6dca.entity.1",
+      "kind": "document",
+      "name": "CSSに対応したMathML仕様概要書(A MathML for CSS Profile 日本語訳)",
+      "tokens": [
+        "css",
+        "mathml",
+        "mathml",
+        "css",
+        "profile"
+      ]
+    },
+    {
+      "entityId": "hz.web.4c66cbe83c3c6dca.entity.2",
+      "kind": "heading",
+      "name": "CSSに対応したMathML仕様概要書(A MathML for CSS Profile 日本語訳)",
+      "tokens": [
+        "css",
+        "mathml",
+        "mathml",
+        "css",
+        "profile"
+      ]
+    },
+    {
+      "entityId": "hz.web.4c66cbe83c3c6dca.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4c66cbe83c3c6dca.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4c66cbe83c3c6dca.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 112,
+      "charStart": 55,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.1",
+      "kind": "summary",
+      "text": "Source: http://takamu.sakura.ne.jp/mathml-for-css-ja.html",
+      "tokens": [
+        "source",
+        "http",
+        "takamu",
+        "sakura",
+        "ne",
+        "jp",
+        "mathml",
+        "css",
+        "ja",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 301,
+      "charStart": 164,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.1",
+      "kind": "bullet",
+      "text": "--> --> --> CSSに対応したMathML仕様概要書(A MathML for CSS Profile 日本語訳) この\"CSSに対応したMathML仕様概要書\"は, \" A MathML for CSS Profile \"を高村吉一が独自に翻訳したものです.",
+      "tokens": [
+        "css",
+        "mathml",
+        "mathml",
+        "css",
+        "profile",
+        "css",
+        "mathml",
+        "mathml",
+        "css",
+        "profile"
+      ]
+    },
+    {
+      "charEnd": 366,
+      "charStart": 302,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.2",
+      "kind": "bullet",
+      "text": "この日本語訳は, 公式なものではなくあくまで参考として活用して頂くためのもので, 誤訳や改善すべき余地があると考えています.",
+      "tokens": []
+    },
+    {
+      "charEnd": 398,
+      "charStart": 367,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.3",
+      "kind": "bullet",
+      "text": "公式なものは, W3Cのウェブサイトにある英語版のみです.",
+      "tokens": [
+        "w3c"
+      ]
+    },
+    {
+      "charEnd": 452,
+      "charStart": 399,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.4",
+      "kind": "bullet",
+      "text": "この日本語訳の誤訳や改善すべき点を見つけた場合, [redacted-email] に連絡して下さい.",
+      "tokens": [
+        "redacted",
+        "email"
+      ]
+    },
+    {
+      "charEnd": 471,
+      "charStart": 467,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 476,
+      "charStart": 472,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 485,
+      "charStart": 477,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.7",
+      "kind": "bullet",
+      "text": "mathml",
+      "tokens": [
+        "mathml"
+      ]
+    },
+    {
+      "charEnd": 491,
+      "charStart": 486,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.8",
+      "kind": "bullet",
+      "text": "css",
+      "tokens": [
+        "css"
+      ]
+    },
+    {
+      "charEnd": 497,
+      "charStart": 492,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.9",
+      "kind": "bullet",
+      "text": "w3c",
+      "tokens": [
+        "w3c"
+      ]
+    },
+    {
+      "charEnd": 502,
+      "charStart": 498,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.10",
+      "kind": "bullet",
+      "text": "mi",
+      "tokens": [
+        "mi"
+      ]
+    },
+    {
+      "charEnd": 513,
+      "charStart": 503,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.11",
+      "kind": "bullet",
+      "text": "elements",
+      "tokens": [
+        "elements"
+      ]
+    },
+    {
+      "charEnd": 520,
+      "charStart": 514,
+      "factId": "hz.web.4c66cbe83c3c6dca.fact.12",
+      "kind": "bullet",
+      "text": "math",
+      "tokens": [
+        "math"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 53,
+      "charStart": 1,
+      "headingId": "hz.web.4c66cbe83c3c6dca.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "CSSに対応したMathML仕様概要書(A MathML for CSS Profile 日本語訳)"
+    },
+    {
+      "charEnd": 162,
+      "charStart": 152,
+      "headingId": "hz.web.4c66cbe83c3c6dca.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 465,
+      "charStart": 454,
+      "headingId": "hz.web.4c66cbe83c3c6dca.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 532,
+      "charStart": 522,
+      "headingId": "hz.web.4c66cbe83c3c6dca.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4c66cbe83c3c6dca.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3818,
+        "start": 0
+      }
+    ],
+    "hash": "a1734ab7f0aa3cdea6761600876bf52c29a452967a2d9a33fe137867bf0fe952",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "--> --> --> CSSに対応したMathML仕様概要書(A MathML for CSS Profile 日本語訳) この\"CSSに対応したMathML仕様概要書\"は, \" A MathML for CSS Profile \"を高村吉一が独自に翻訳したものです.",
+      "この日本語訳は, 公式なものではなくあくまで参考として活用して頂くためのもので, 誤訳や改善すべき余地があると考えています.",
+      "公式なものは, W3Cのウェブサイトにある英語版のみです."
+    ],
+    "medium": "Source: http://takamu.sakura.ne.jp/mathml-for-css-ja.html",
+    "short": "Source: http://takamu.sakura.ne.jp/mathml-for-css-ja.html",
+    "tokens": [
+      "css",
+      "mathml",
+      "mathml",
+      "css",
+      "profile",
+      "source",
+      "http",
+      "takamu",
+      "sakura",
+      "ne",
+      "jp",
+      "mathml",
+      "css",
+      "ja",
+      "html",
+      "source",
+      "http",
+      "takamu",
+      "sakura",
+      "ne",
+      "jp",
+      "mathml",
+      "css",
+      "ja",
+      "html"
+    ]
+  },
+  "title": "CSSに対応したMathML仕様概要書(A MathML for CSS Profile 日本語訳)"
+}

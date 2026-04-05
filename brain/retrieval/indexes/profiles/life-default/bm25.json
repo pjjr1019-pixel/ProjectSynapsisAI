@@ -1,0 +1,750 @@
+{
+  "N": 3,
+  "artifactType": "bm25",
+  "avgdl": 80,
+  "buildVersion": "brain-ir-runtime-v1",
+  "builtAt": "2026-03-31T09:46:13.976Z",
+  "chunkConfidences": [
+    0.95,
+    0.95,
+    0.65
+  ],
+  "chunkOrder": [
+    "hz.chunk.hz.core.retrieval-contract.2026-03-27.0",
+    "hz.chunk.hz.core.safety-defaults.2026-03-27.0",
+    "hz.chunk.hz.pipeline.imports.megapack-all-recommended.0"
+  ],
+  "counts": {
+    "chunkCount": 3,
+    "termCount": 120
+  },
+  "df": {
+    "27": 2,
+    "65": 1,
+    "95": 2,
+    "2026": 3,
+    "00": 3,
+    "00z": 3,
+    "03": 3,
+    "27t12": 2,
+    "28t18": 1,
+    "actions": 1,
+    "advanced": 1,
+    "all": 1,
+    "already": 1,
+    "also": 1,
+    "anchor": 1,
+    "anchors": 1,
+    "app": 3,
+    "assistant": 1,
+    "avoid": 1,
+    "base": 1,
+    "benchmarks": 1,
+    "brain": 3,
+    "bundle": 1,
+    "bypass": 1,
+    "canonical": 2,
+    "cases": 1,
+    "catalog": 1,
+    "check": 1,
+    "checksums": 1,
+    "confidence": 3,
+    "consistently": 1,
+    "consolidated": 1,
+    "contract": 1,
+    "core": 3,
+    "csv": 1,
+    "data": 1,
+    "default": 2,
+    "defaults": 1,
+    "domain": 3,
+    "domains": 1,
+    "draft": 1,
+    "duplication": 1,
+    "edge": 1,
+    "exfiltrate": 1,
+    "finance": 1,
+    "foundation": 1,
+    "glossary": 1,
+    "governance": 2,
+    "has": 1,
+    "horizonsai_brain_megapack_allrecommended": 1,
+    "hz": 3,
+    "id": 3,
+    "import": 1,
+    "imports": 1,
+    "individual": 1,
+    "ingestedat": 3,
+    "inputs": 1,
+    "install_mega_pack": 1,
+    "instructions": 1,
+    "internal": 2,
+    "json": 1,
+    "kind": 3,
+    "knowledge": 1,
+    "library": 1,
+    "live": 1,
+    "manifest": 1,
+    "master_file_inventory": 1,
+    "master_manifest": 1,
+    "may": 1,
+    "md": 2,
+    "mega": 1,
+    "megapack": 1,
+    "memory": 1,
+    "noise": 1,
+    "note": 1,
+    "ops": 1,
+    "overlap": 1,
+    "pack": 1,
+    "packs": 1,
+    "pipeline": 1,
+    "planning": 1,
+    "platform": 2,
+    "policies": 1,
+    "policy": 2,
+    "prefer": 1,
+    "provenance": 3,
+    "rag": 1,
+    "readme_mega_pack": 1,
+    "reasoning": 1,
+    "recommended": 1,
+    "refusal": 1,
+    "refuse": 1,
+    "research": 1,
+    "retrieval": 2,
+    "retrievalprofile": 1,
+    "reviewedat": 2,
+    "root": 1,
+    "safety": 1,
+    "secrets": 1,
+    "security": 1,
+    "see": 1,
+    "seed": 2,
+    "self": 1,
+    "source": 1,
+    "sourceid": 3,
+    "sourcetype": 3,
+    "status": 3,
+    "string": 1,
+    "su": 1,
+    "system": 3,
+    "tags": 3,
+    "title": 3,
+    "tooling": 1,
+    "tree": 1,
+    "ui": 1,
+    "under": 1,
+    "ux": 1,
+    "verifiedby": 3,
+    "visibility": 3,
+    "yaml": 1
+  },
+  "inverted": {
+    "27": [
+      0,
+      1
+    ],
+    "65": [
+      2
+    ],
+    "95": [
+      0,
+      1
+    ],
+    "2026": [
+      0,
+      1,
+      2
+    ],
+    "00": [
+      0,
+      1,
+      2
+    ],
+    "00z": [
+      0,
+      1,
+      2
+    ],
+    "03": [
+      0,
+      1,
+      2
+    ],
+    "27t12": [
+      0,
+      1
+    ],
+    "28t18": [
+      2
+    ],
+    "actions": [
+      2
+    ],
+    "advanced": [
+      2
+    ],
+    "all": [
+      2
+    ],
+    "already": [
+      2
+    ],
+    "also": [
+      2
+    ],
+    "anchor": [
+      2
+    ],
+    "anchors": [
+      2
+    ],
+    "app": [
+      0,
+      1,
+      2
+    ],
+    "assistant": [
+      0
+    ],
+    "avoid": [
+      2
+    ],
+    "base": [
+      2
+    ],
+    "benchmarks": [
+      2
+    ],
+    "brain": [
+      0,
+      1,
+      2
+    ],
+    "bundle": [
+      2
+    ],
+    "bypass": [
+      1
+    ],
+    "canonical": [
+      0,
+      1
+    ],
+    "cases": [
+      2
+    ],
+    "catalog": [
+      2
+    ],
+    "check": [
+      2
+    ],
+    "checksums": [
+      2
+    ],
+    "confidence": [
+      0,
+      1,
+      2
+    ],
+    "consistently": [
+      2
+    ],
+    "consolidated": [
+      2
+    ],
+    "contract": [
+      0
+    ],
+    "core": [
+      0,
+      1,
+      2
+    ],
+    "csv": [
+      2
+    ],
+    "data": [
+      2
+    ],
+    "default": [
+      0,
+      1
+    ],
+    "defaults": [
+      1
+    ],
+    "domain": [
+      0,
+      1,
+      2
+    ],
+    "domains": [
+      2
+    ],
+    "draft": [
+      2
+    ],
+    "duplication": [
+      2
+    ],
+    "edge": [
+      2
+    ],
+    "exfiltrate": [
+      1
+    ],
+    "finance": [
+      2
+    ],
+    "foundation": [
+      2
+    ],
+    "glossary": [
+      2
+    ],
+    "governance": [
+      1,
+      2
+    ],
+    "has": [
+      2
+    ],
+    "horizonsai_brain_megapack_allrecommended": [
+      2
+    ],
+    "hz": [
+      0,
+      1,
+      2
+    ],
+    "id": [
+      0,
+      1,
+      2
+    ],
+    "import": [
+      2
+    ],
+    "imports": [
+      2
+    ],
+    "individual": [
+      2
+    ],
+    "ingestedat": [
+      0,
+      1,
+      2
+    ],
+    "inputs": [
+      0
+    ],
+    "install_mega_pack": [
+      2
+    ],
+    "instructions": [
+      1
+    ],
+    "internal": [
+      0,
+      1
+    ],
+    "json": [
+      2
+    ],
+    "kind": [
+      0,
+      1,
+      2
+    ],
+    "knowledge": [
+      2
+    ],
+    "library": [
+      2
+    ],
+    "live": [
+      2
+    ],
+    "manifest": [
+      0
+    ],
+    "master_file_inventory": [
+      2
+    ],
+    "master_manifest": [
+      2
+    ],
+    "may": [
+      2
+    ],
+    "md": [
+      1,
+      2
+    ],
+    "mega": [
+      2
+    ],
+    "megapack": [
+      2
+    ],
+    "memory": [
+      2
+    ],
+    "noise": [
+      2
+    ],
+    "note": [
+      2
+    ],
+    "ops": [
+      2
+    ],
+    "overlap": [
+      2
+    ],
+    "pack": [
+      2
+    ],
+    "packs": [
+      2
+    ],
+    "pipeline": [
+      2
+    ],
+    "planning": [
+      2
+    ],
+    "platform": [
+      0,
+      1
+    ],
+    "policies": [
+      1
+    ],
+    "policy": [
+      0,
+      1
+    ],
+    "prefer": [
+      2
+    ],
+    "provenance": [
+      0,
+      1,
+      2
+    ],
+    "rag": [
+      0
+    ],
+    "readme_mega_pack": [
+      2
+    ],
+    "reasoning": [
+      2
+    ],
+    "recommended": [
+      2
+    ],
+    "refusal": [
+      1
+    ],
+    "refuse": [
+      1
+    ],
+    "research": [
+      2
+    ],
+    "retrieval": [
+      0,
+      2
+    ],
+    "retrievalprofile": [
+      0
+    ],
+    "reviewedat": [
+      0,
+      1
+    ],
+    "root": [
+      2
+    ],
+    "safety": [
+      1
+    ],
+    "secrets": [
+      1
+    ],
+    "security": [
+      1
+    ],
+    "see": [
+      2
+    ],
+    "seed": [
+      0,
+      1
+    ],
+    "self": [
+      2
+    ],
+    "source": [
+      2
+    ],
+    "sourceid": [
+      0,
+      1,
+      2
+    ],
+    "sourcetype": [
+      0,
+      1,
+      2
+    ],
+    "status": [
+      0,
+      1,
+      2
+    ],
+    "string": [
+      0
+    ],
+    "su": [
+      0
+    ],
+    "system": [
+      0,
+      1,
+      2
+    ],
+    "tags": [
+      0,
+      1,
+      2
+    ],
+    "title": [
+      0,
+      1,
+      2
+    ],
+    "tooling": [
+      2
+    ],
+    "tree": [
+      2
+    ],
+    "ui": [
+      2
+    ],
+    "under": [
+      2
+    ],
+    "ux": [
+      2
+    ],
+    "verifiedby": [
+      0,
+      1,
+      2
+    ],
+    "visibility": [
+      0,
+      1,
+      2
+    ],
+    "yaml": [
+      0
+    ]
+  },
+  "profile": "life-default",
+  "schemaVersion": "1.0",
+  "tfs": [
+    {
+      "27": 1,
+      "95": 1,
+      "2026": 3,
+      "00": 2,
+      "00z": 2,
+      "03": 3,
+      "27t12": 2,
+      "app": 1,
+      "assistant": 1,
+      "brain": 1,
+      "canonical": 1,
+      "confidence": 1,
+      "contract": 3,
+      "core": 3,
+      "default": 1,
+      "domain": 1,
+      "hz": 1,
+      "id": 1,
+      "ingestedat": 1,
+      "inputs": 1,
+      "internal": 1,
+      "kind": 1,
+      "manifest": 2,
+      "platform": 1,
+      "policy": 1,
+      "provenance": 1,
+      "rag": 1,
+      "retrieval": 4,
+      "retrievalprofile": 1,
+      "reviewedat": 1,
+      "seed": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "status": 1,
+      "string": 1,
+      "su": 1,
+      "system": 1,
+      "tags": 1,
+      "title": 1,
+      "verifiedby": 1,
+      "visibility": 1,
+      "yaml": 2
+    },
+    {
+      "27": 1,
+      "95": 1,
+      "2026": 3,
+      "00": 2,
+      "00z": 2,
+      "03": 3,
+      "27t12": 2,
+      "app": 1,
+      "brain": 1,
+      "bypass": 1,
+      "canonical": 1,
+      "confidence": 1,
+      "core": 3,
+      "default": 1,
+      "defaults": 3,
+      "domain": 1,
+      "exfiltrate": 1,
+      "governance": 1,
+      "hz": 1,
+      "id": 1,
+      "ingestedat": 1,
+      "instructions": 1,
+      "internal": 1,
+      "kind": 1,
+      "md": 1,
+      "platform": 1,
+      "policies": 1,
+      "policy": 3,
+      "provenance": 1,
+      "refusal": 1,
+      "refuse": 1,
+      "reviewedat": 1,
+      "safety": 4,
+      "secrets": 1,
+      "security": 1,
+      "seed": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "status": 1,
+      "system": 1,
+      "tags": 1,
+      "title": 1,
+      "verifiedby": 1,
+      "visibility": 1
+    },
+    {
+      "65": 1,
+      "2026": 1,
+      "00": 1,
+      "00z": 1,
+      "03": 1,
+      "28t18": 1,
+      "actions": 1,
+      "advanced": 1,
+      "all": 3,
+      "already": 1,
+      "also": 1,
+      "anchor": 1,
+      "anchors": 1,
+      "app": 1,
+      "avoid": 1,
+      "base": 2,
+      "benchmarks": 1,
+      "brain": 2,
+      "bundle": 1,
+      "cases": 1,
+      "catalog": 2,
+      "check": 1,
+      "checksums": 1,
+      "confidence": 1,
+      "consistently": 1,
+      "consolidated": 2,
+      "core": 1,
+      "csv": 1,
+      "data": 1,
+      "domain": 1,
+      "domains": 1,
+      "draft": 1,
+      "duplication": 1,
+      "edge": 1,
+      "finance": 2,
+      "foundation": 2,
+      "glossary": 1,
+      "governance": 2,
+      "has": 1,
+      "horizonsai_brain_megapack_allrecommended": 3,
+      "hz": 1,
+      "id": 1,
+      "import": 4,
+      "imports": 4,
+      "individual": 1,
+      "ingestedat": 1,
+      "install_mega_pack": 1,
+      "json": 1,
+      "kind": 1,
+      "knowledge": 2,
+      "library": 1,
+      "live": 1,
+      "master_file_inventory": 1,
+      "master_manifest": 1,
+      "may": 1,
+      "md": 4,
+      "mega": 3,
+      "megapack": 2,
+      "memory": 1,
+      "noise": 1,
+      "note": 1,
+      "ops": 1,
+      "overlap": 1,
+      "pack": 4,
+      "packs": 1,
+      "pipeline": 2,
+      "planning": 1,
+      "prefer": 1,
+      "provenance": 1,
+      "readme_mega_pack": 1,
+      "reasoning": 1,
+      "recommended": 3,
+      "research": 1,
+      "retrieval": 1,
+      "root": 1,
+      "see": 1,
+      "self": 1,
+      "source": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "status": 1,
+      "system": 1,
+      "tags": 1,
+      "title": 1,
+      "tooling": 1,
+      "tree": 2,
+      "ui": 1,
+      "under": 1,
+      "ux": 1,
+      "verifiedby": 1,
+      "visibility": 1
+    }
+  ],
+  "version": 1
+}

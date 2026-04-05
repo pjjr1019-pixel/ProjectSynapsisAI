@@ -1,0 +1,387 @@
+{
+  "aliases": [
+    {
+      "alias": "9697b8e366c1d7af",
+      "aliasId": "hz.web.9697b8e366c1d7af.alias.1",
+      "canonical": "our core attributes"
+    },
+    {
+      "alias": "our core attributes",
+      "aliasId": "hz.web.9697b8e366c1d7af.alias.2",
+      "canonical": "our core attributes"
+    },
+    {
+      "alias": "web 9697b8e366c1d7af",
+      "aliasId": "hz.web.9697b8e366c1d7af.alias.3",
+      "canonical": "our core attributes"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.87,
+  "docId": "hz.web.9697b8e366c1d7af",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9697b8e366c1d7af.entity.1",
+      "kind": "document",
+      "name": "Our Core Attributes",
+      "tokens": [
+        "our",
+        "core",
+        "attributes"
+      ]
+    },
+    {
+      "entityId": "hz.web.9697b8e366c1d7af.entity.2",
+      "kind": "heading",
+      "name": "Our Core Attributes",
+      "tokens": [
+        "our",
+        "core",
+        "attributes"
+      ]
+    },
+    {
+      "entityId": "hz.web.9697b8e366c1d7af.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9697b8e366c1d7af.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9697b8e366c1d7af.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 79,
+      "charStart": 24,
+      "factId": "hz.web.9697b8e366c1d7af.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.navy.mil/About/Our-Core-Attributes/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "navy",
+        "mil",
+        "about",
+        "our",
+        "core",
+        "attributes"
+      ]
+    },
+    {
+      "charEnd": 294,
+      "charStart": 131,
+      "factId": "hz.web.9697b8e366c1d7af.fact.1",
+      "kind": "bullet",
+      "text": "Our Core Attributes An official website of the United States government Here's how you know Official websites use .mil A .mil website belongs to an official U.S.",
+      "tokens": [
+        "our",
+        "core",
+        "attributes",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "mil",
+        "mil",
+        "website",
+        "belongs",
+        "official"
+      ]
+    },
+    {
+      "charEnd": 353,
+      "charStart": 295,
+      "factId": "hz.web.9697b8e366c1d7af.fact.2",
+      "kind": "bullet",
+      "text": "Department of Defense organization in the United States.",
+      "tokens": [
+        "department",
+        "defense",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 460,
+      "charStart": 354,
+      "factId": "hz.web.9697b8e366c1d7af.fact.3",
+      "kind": "bullet",
+      "text": "Secure .mil websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .mil website.",
+      "tokens": [
+        "secure",
+        "mil",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "mil",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 525,
+      "charStart": 461,
+      "factId": "hz.web.9697b8e366c1d7af.fact.4",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 540,
+      "factId": "hz.web.9697b8e366c1d7af.fact.5",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 552,
+      "charStart": 546,
+      "factId": "hz.web.9697b8e366c1d7af.fact.6",
+      "kind": "bullet",
+      "text": "navy",
+      "tokens": [
+        "navy"
+      ]
+    },
+    {
+      "charEnd": 559,
+      "charStart": 553,
+      "factId": "hz.web.9697b8e366c1d7af.fact.7",
+      "kind": "bullet",
+      "text": "core",
+      "tokens": [
+        "core"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 560,
+      "factId": "hz.web.9697b8e366c1d7af.fact.8",
+      "kind": "bullet",
+      "text": "press",
+      "tokens": [
+        "press"
+      ]
+    },
+    {
+      "charEnd": 575,
+      "charStart": 568,
+      "factId": "hz.web.9697b8e366c1d7af.fact.9",
+      "kind": "bullet",
+      "text": "chief",
+      "tokens": [
+        "chief"
+      ]
+    },
+    {
+      "charEnd": 588,
+      "charStart": 576,
+      "factId": "hz.web.9697b8e366c1d7af.fact.10",
+      "kind": "bullet",
+      "text": "attributes",
+      "tokens": [
+        "attributes"
+      ]
+    },
+    {
+      "charEnd": 596,
+      "charStart": 589,
+      "factId": "hz.web.9697b8e366c1d7af.fact.11",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 604,
+      "charStart": 597,
+      "factId": "hz.web.9697b8e366c1d7af.fact.12",
+      "kind": "bullet",
+      "text": "naval",
+      "tokens": [
+        "naval"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.9697b8e366c1d7af.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Our Core Attributes"
+    },
+    {
+      "charEnd": 129,
+      "charStart": 119,
+      "headingId": "hz.web.9697b8e366c1d7af.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 538,
+      "charStart": 527,
+      "headingId": "hz.web.9697b8e366c1d7af.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 616,
+      "charStart": 606,
+      "headingId": "hz.web.9697b8e366c1d7af.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/9697b8e366c1d7af.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3869,
+        "start": 0
+      }
+    ],
+    "hash": "0c199d74146c2cea427a91bc99640fe5cdf67518ba6816d52ea1d1236ad0f652",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.9697b8e366c1d7af.rule.1",
+      "text": "This trust and confidence is enhanced by our actions, which must reflect our core values of Honor, Courage, and Commitment.",
+      "tokens": [
+        "trust",
+        "confidence",
+        "enhanced",
+        "our",
+        "actions",
+        "must",
+        "reflect",
+        "our",
+        "core",
+        "values",
+        "honor",
+        "courage",
+        "commitment"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9697b8e366c1d7af.rule.2",
+      "text": "If we abide by these attributes, our values should be clearly evident in our actions.",
+      "tokens": [
+        "if",
+        "abide",
+        "these",
+        "attributes",
+        "our",
+        "values",
+        "clearly",
+        "evident",
+        "our",
+        "actions"
+      ]
+    },
+    {
+      "ruleId": "hz.web.9697b8e366c1d7af.rule.3",
+      "text": "As individuals, as teams, and as a Navy, our conduct must always be upright and honorable both in public and when nobody&rsquo;s looking.",
+      "tokens": [
+        "individuals",
+        "teams",
+        "navy",
+        "our",
+        "conduct",
+        "must",
+        "always",
+        "upright",
+        "honorable",
+        "both",
+        "public",
+        "nobody",
+        "rsquo",
+        "looking"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Our Core Attributes An official website of the United States government Here's how you know Official websites use .mil A .mil website belongs to an official U.S.",
+      "Department of Defense organization in the United States.",
+      "Secure .mil websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .mil website."
+    ],
+    "medium": "Source: https://www.navy.mil/About/Our-Core-Attributes/",
+    "short": "Source: https://www.navy.mil/About/Our-Core-Attributes/",
+    "tokens": [
+      "our",
+      "core",
+      "attributes",
+      "source",
+      "https",
+      "www",
+      "navy",
+      "mil",
+      "about",
+      "our",
+      "core",
+      "attributes",
+      "source",
+      "https",
+      "www",
+      "navy",
+      "mil",
+      "about",
+      "our",
+      "core",
+      "attributes"
+    ]
+  },
+  "title": "Our Core Attributes"
+}

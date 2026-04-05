@@ -1,0 +1,236 @@
+{
+  "aliases": [
+    {
+      "alias": "launcher overview",
+      "aliasId": "hz.launcher.launcher-overview.2026-03-27.alias.1",
+      "canonical": "launcher surface overview"
+    },
+    {
+      "alias": "launcher surface overview",
+      "aliasId": "hz.launcher.launcher-overview.2026-03-27.alias.2",
+      "canonical": "launcher surface overview"
+    },
+    {
+      "alias": "launcher-overview 2026-03-27",
+      "aliasId": "hz.launcher.launcher-overview.2026-03-27.alias.3",
+      "canonical": "launcher surface overview"
+    }
+  ],
+  "app": "launcher",
+  "confidence": 0.9,
+  "docId": "hz.launcher.launcher-overview.2026-03-27",
+  "domain": "launcher",
+  "entities": [
+    {
+      "entityId": "hz.launcher.launcher-overview.2026-03-27.entity.1",
+      "kind": "document",
+      "name": "Launcher surface overview",
+      "tokens": [
+        "launcher",
+        "surface",
+        "overview"
+      ]
+    },
+    {
+      "entityId": "hz.launcher.launcher-overview.2026-03-27.entity.2",
+      "kind": "tag",
+      "name": "launcher",
+      "tokens": [
+        "launcher"
+      ]
+    },
+    {
+      "entityId": "hz.launcher.launcher-overview.2026-03-27.entity.3",
+      "kind": "tag",
+      "name": "shell",
+      "tokens": [
+        "shell"
+      ]
+    },
+    {
+      "entityId": "hz.launcher.launcher-overview.2026-03-27.entity.4",
+      "kind": "heading",
+      "name": "Launcher overview",
+      "tokens": [
+        "launcher",
+        "overview"
+      ]
+    },
+    {
+      "entityId": "hz.launcher.launcher-overview.2026-03-27.entity.5",
+      "kind": "heading",
+      "name": "Load order",
+      "tokens": [
+        "load",
+        "order"
+      ]
+    },
+    {
+      "entityId": "hz.launcher.launcher-overview.2026-03-27.entity.6",
+      "kind": "heading",
+      "name": "Constraints",
+      "tokens": [
+        "constraints"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 160,
+      "charStart": 25,
+      "factId": "hz.launcher.launcher-overview.2026-03-27.fact.1",
+      "kind": "summary",
+      "text": "The **launcher** surface provides window chrome, session bootstrap, and help text that applies before any app-specific knowledge loads.",
+      "tokens": [
+        "launcher",
+        "surface",
+        "provides",
+        "window",
+        "chrome",
+        "session",
+        "bootstrap",
+        "help",
+        "text",
+        "applies",
+        "before",
+        "any",
+        "app",
+        "specific",
+        "knowledge",
+        "loads"
+      ]
+    },
+    {
+      "charEnd": 208,
+      "charStart": 174,
+      "factId": "hz.launcher.launcher-overview.2026-03-27.fact.1",
+      "kind": "bullet",
+      "text": "`brain/core/safety-defaults.md`",
+      "tokens": [
+        "brain",
+        "core",
+        "safety",
+        "defaults",
+        "md"
+      ]
+    },
+    {
+      "charEnd": 239,
+      "charStart": 209,
+      "factId": "hz.launcher.launcher-overview.2026-03-27.fact.2",
+      "kind": "bullet",
+      "text": "`brain/launcher/canonical/`",
+      "tokens": [
+        "brain",
+        "launcher",
+        "canonical"
+      ]
+    },
+    {
+      "charEnd": 307,
+      "charStart": 240,
+      "factId": "hz.launcher.launcher-overview.2026-03-27.fact.3",
+      "kind": "bullet",
+      "text": "App-specific `brain/apps/<app>/` when the user selects a surface",
+      "tokens": [
+        "app",
+        "specific",
+        "brain",
+        "apps",
+        "app",
+        "user",
+        "selects",
+        "surface"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.launcher.launcher-overview.2026-03-27.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Launcher overview"
+    },
+    {
+      "charEnd": 172,
+      "charStart": 159,
+      "headingId": "hz.launcher.launcher-overview.2026-03-27.heading.2",
+      "level": 2,
+      "line": 6,
+      "text": "Load order"
+    },
+    {
+      "charEnd": 323,
+      "charStart": 309,
+      "headingId": "hz.launcher.launcher-overview.2026-03-27.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Constraints"
+    }
+  ],
+  "moduleIds": [],
+  "path": "launcher/canonical/launcher-overview.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 840,
+        "start": 0
+      }
+    ],
+    "hash": "951da158314bdd8457c1eaf0291e3e51cb257921ec88f7ccedeca08caf626d89",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "`brain/core/safety-defaults.md`",
+      "`brain/launcher/canonical/`",
+      "App-specific `brain/apps/<app>/` when the user selects a surface"
+    ],
+    "medium": "The **launcher** surface provides window chrome, session bootstrap, and help text that applies before any app-specific knowledge loads.",
+    "short": "The **launcher** surface provides window chrome, session bootstrap, and help text that applies before any app-specific knowledge loads.",
+    "tokens": [
+      "launcher",
+      "surface",
+      "overview",
+      "launcher",
+      "surface",
+      "provides",
+      "window",
+      "chrome",
+      "session",
+      "bootstrap",
+      "help",
+      "text",
+      "applies",
+      "before",
+      "any",
+      "app",
+      "specific",
+      "knowledge",
+      "loads",
+      "launcher",
+      "surface",
+      "provides",
+      "window",
+      "chrome",
+      "session",
+      "bootstrap",
+      "help",
+      "text",
+      "applies",
+      "before",
+      "any",
+      "app",
+      "specific",
+      "knowledge",
+      "loads"
+    ]
+  },
+  "title": "Launcher surface overview"
+}

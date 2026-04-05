@@ -1,0 +1,310 @@
+{
+  "aliases": [
+    {
+      "alias": "04ceb35312a27246",
+      "aliasId": "hz.web.04ceb35312a27246.alias.1",
+      "canonical": "home | narrative help center"
+    },
+    {
+      "alias": "home narrative help center",
+      "aliasId": "hz.web.04ceb35312a27246.alias.2",
+      "canonical": "home | narrative help center"
+    },
+    {
+      "alias": "web 04ceb35312a27246",
+      "aliasId": "hz.web.04ceb35312a27246.alias.3",
+      "canonical": "home | narrative help center"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.04ceb35312a27246",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.04ceb35312a27246.entity.1",
+      "kind": "document",
+      "name": "Home | Narrative Help Center",
+      "tokens": [
+        "home",
+        "narrative",
+        "help",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.04ceb35312a27246.entity.2",
+      "kind": "heading",
+      "name": "Home | Narrative Help Center",
+      "tokens": [
+        "home",
+        "narrative",
+        "help",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.04ceb35312a27246.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.04ceb35312a27246.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.04ceb35312a27246.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 70,
+      "charStart": 33,
+      "factId": "hz.web.04ceb35312a27246.fact.1",
+      "kind": "summary",
+      "text": "Source: https://help.narrative.so/en/",
+      "tokens": [
+        "source",
+        "https",
+        "help",
+        "narrative",
+        "so",
+        "en"
+      ]
+    },
+    {
+      "charEnd": 187,
+      "charStart": 122,
+      "factId": "hz.web.04ceb35312a27246.fact.1",
+      "kind": "bullet",
+      "text": "Home | Narrative Help Center Copyright (c) 2023, Intercom, Inc.",
+      "tokens": [
+        "home",
+        "narrative",
+        "help",
+        "center",
+        "copyright",
+        "2023",
+        "intercom",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 251,
+      "charStart": 188,
+      "factId": "hz.web.04ceb35312a27246.fact.2",
+      "kind": "bullet",
+      "text": "( [email&#160;protected] ) with Reserved Font Name \"Poppins\".",
+      "tokens": [
+        "email",
+        "160",
+        "protected",
+        "reserved",
+        "font",
+        "name",
+        "poppins"
+      ]
+    },
+    {
+      "charEnd": 330,
+      "charStart": 252,
+      "factId": "hz.web.04ceb35312a27246.fact.3",
+      "kind": "bullet",
+      "text": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+      "tokens": [
+        "font",
+        "software",
+        "licensed",
+        "under",
+        "sil",
+        "open",
+        "font",
+        "license",
+        "version"
+      ]
+    },
+    {
+      "charEnd": 367,
+      "charStart": 331,
+      "factId": "hz.web.04ceb35312a27246.fact.4",
+      "kind": "bullet",
+      "text": "Copyright (c) 2023, Intercom, Inc.",
+      "tokens": [
+        "copyright",
+        "2023",
+        "intercom",
+        "inc"
+      ]
+    },
+    {
+      "charEnd": 393,
+      "charStart": 382,
+      "factId": "hz.web.04ceb35312a27246.fact.5",
+      "kind": "bullet",
+      "text": "narrative",
+      "tokens": [
+        "narrative"
+      ]
+    },
+    {
+      "charEnd": 400,
+      "charStart": 394,
+      "factId": "hz.web.04ceb35312a27246.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 405,
+      "charStart": 401,
+      "factId": "hz.web.04ceb35312a27246.fact.7",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 416,
+      "charStart": 406,
+      "factId": "hz.web.04ceb35312a27246.fact.8",
+      "kind": "bullet",
+      "text": "articles",
+      "tokens": [
+        "articles"
+      ]
+    },
+    {
+      "charEnd": 423,
+      "charStart": 417,
+      "factId": "hz.web.04ceb35312a27246.fact.9",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 424,
+      "factId": "hz.web.04ceb35312a27246.fact.10",
+      "kind": "bullet",
+      "text": "images",
+      "tokens": [
+        "images"
+      ]
+    },
+    {
+      "charEnd": 440,
+      "charStart": 433,
+      "factId": "hz.web.04ceb35312a27246.fact.11",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 450,
+      "charStart": 441,
+      "factId": "hz.web.04ceb35312a27246.fact.12",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 31,
+      "charStart": 1,
+      "headingId": "hz.web.04ceb35312a27246.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Home | Narrative Help Center"
+    },
+    {
+      "charEnd": 120,
+      "charStart": 110,
+      "headingId": "hz.web.04ceb35312a27246.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 380,
+      "charStart": 369,
+      "headingId": "hz.web.04ceb35312a27246.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 462,
+      "charStart": 452,
+      "headingId": "hz.web.04ceb35312a27246.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/04ceb35312a27246.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2458,
+        "start": 0
+      }
+    ],
+    "hash": "d5555557634d8a5e9d9a889b3293ff926ea56e8bc998391497b7aa3ed73ecdc1",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Home | Narrative Help Center Copyright (c) 2023, Intercom, Inc.",
+      "( [email&#160;protected] ) with Reserved Font Name \"Poppins\".",
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1."
+    ],
+    "medium": "Source: https://help.narrative.so/en/",
+    "short": "Source: https://help.narrative.so/en/",
+    "tokens": [
+      "home",
+      "narrative",
+      "help",
+      "center",
+      "source",
+      "https",
+      "help",
+      "narrative",
+      "so",
+      "en",
+      "source",
+      "https",
+      "help",
+      "narrative",
+      "so",
+      "en"
+    ]
+  },
+  "title": "Home | Narrative Help Center"
+}

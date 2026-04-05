@@ -1,0 +1,426 @@
+{
+  "aliases": [
+    {
+      "alias": "3688fd809d68d79c",
+      "aliasId": "hz.web.3688fd809d68d79c.alias.1",
+      "canonical": "search - microsoft bing"
+    },
+    {
+      "alias": "search - microsoft bing",
+      "aliasId": "hz.web.3688fd809d68d79c.alias.2",
+      "canonical": "search - microsoft bing"
+    },
+    {
+      "alias": "web 3688fd809d68d79c",
+      "aliasId": "hz.web.3688fd809d68d79c.alias.3",
+      "canonical": "search - microsoft bing"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.71,
+  "docId": "hz.web.3688fd809d68d79c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3688fd809d68d79c.entity.1",
+      "kind": "document",
+      "name": "Search - Microsoft Bing",
+      "tokens": [
+        "search",
+        "microsoft",
+        "bing"
+      ]
+    },
+    {
+      "entityId": "hz.web.3688fd809d68d79c.entity.2",
+      "kind": "heading",
+      "name": "Search - Microsoft Bing",
+      "tokens": [
+        "search",
+        "microsoft",
+        "bing"
+      ]
+    },
+    {
+      "entityId": "hz.web.3688fd809d68d79c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3688fd809d68d79c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3688fd809d68d79c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 68,
+      "charStart": 28,
+      "factId": "hz.web.3688fd809d68d79c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.bing.com/?FORM=Z9FD1",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "bing",
+        "com",
+        "form",
+        "z9fd1"
+      ]
+    },
+    {
+      "charEnd": 633,
+      "charStart": 120,
+      "factId": "hz.web.3688fd809d68d79c.fact.1",
+      "kind": "bullet",
+      "text": "Search - Microsoft Bing Copilot Images Videos Shopping Maps News Videos Shopping Translate Maps News MSN Online Games Microsoft 365 Outlook Word Excel PowerPoint OneNote Sway OneDrive Calendar People Get to Know Bing Get the Bing Wallpaper app Paradise Cave, Phong Nha-Ke Bang National Park, Vietnam © Pakawat Thongcharoen/Getty Images Underground paradise Image of the day Underground paradise © Pakawat Thongcharoen/Getty Images Paradise Cave makes a powerful first impression the moment visitors step inside.",
+      "tokens": [
+        "search",
+        "microsoft",
+        "bing",
+        "copilot",
+        "images",
+        "videos",
+        "shopping",
+        "maps",
+        "news",
+        "videos",
+        "shopping",
+        "translate",
+        "maps",
+        "news",
+        "msn",
+        "online",
+        "games",
+        "microsoft",
+        "365",
+        "outlook",
+        "word",
+        "excel",
+        "powerpoint",
+        "onenote",
+        "sway",
+        "onedrive",
+        "calendar",
+        "people",
+        "get",
+        "know",
+        "bing",
+        "get",
+        "bing",
+        "wallpaper",
+        "app",
+        "paradise",
+        "cave",
+        "phong",
+        "nha",
+        "ke",
+        "bang",
+        "national",
+        "park",
+        "vietnam",
+        "pakawat",
+        "thongcharoen",
+        "getty",
+        "images",
+        "underground",
+        "paradise",
+        "image",
+        "day",
+        "underground",
+        "paradise",
+        "pakawat",
+        "thongcharoen",
+        "getty",
+        "images",
+        "paradise",
+        "cave",
+        "makes",
+        "powerful",
+        "first",
+        "impression",
+        "moment",
+        "visitors",
+        "step",
+        "inside"
+      ]
+    },
+    {
+      "charEnd": 795,
+      "charStart": 634,
+      "factId": "hz.web.3688fd809d68d79c.fact.2",
+      "kind": "bullet",
+      "text": "This vast limestone cavern lies deep within Phong Nha-Ke Bang National Park in central Vietnam, a region marked by rugged mountains and countless hidden caves.",
+      "tokens": [
+        "vast",
+        "limestone",
+        "cavern",
+        "lies",
+        "deep",
+        "within",
+        "phong",
+        "nha",
+        "ke",
+        "bang",
+        "national",
+        "park",
+        "central",
+        "vietnam",
+        "region",
+        "marked",
+        "rugged",
+        "mountains",
+        "countless",
+        "hidden",
+        "caves"
+      ]
+    },
+    {
+      "charEnd": 912,
+      "charStart": 796,
+      "factId": "hz.web.3688fd809d68d79c.fact.3",
+      "kind": "bullet",
+      "text": "Stretching over 19 miles, Paradise Cave is one of Asia's longest dry caves, and its scale is immediately apparent.",
+      "tokens": [
+        "stretching",
+        "over",
+        "19",
+        "miles",
+        "paradise",
+        "cave",
+        "one",
+        "asia",
+        "longest",
+        "dry",
+        "caves",
+        "its",
+        "scale",
+        "immediately",
+        "apparent"
+      ]
+    },
+    {
+      "charEnd": 1042,
+      "charStart": 913,
+      "factId": "hz.web.3688fd809d68d79c.fact.4",
+      "kind": "bullet",
+      "text": "High ceilings rise above the walkways, and layered patterns formed by mineral-rich water over millions of years line the walls.",
+      "tokens": [
+        "high",
+        "ceilings",
+        "rise",
+        "above",
+        "walkways",
+        "layered",
+        "patterns",
+        "formed",
+        "mineral",
+        "rich",
+        "water",
+        "over",
+        "millions",
+        "years",
+        "line",
+        "walls"
+      ]
+    },
+    {
+      "charEnd": 1063,
+      "charStart": 1057,
+      "factId": "hz.web.3688fd809d68d79c.fact.5",
+      "kind": "bullet",
+      "text": "bing",
+      "tokens": [
+        "bing"
+      ]
+    },
+    {
+      "charEnd": 1074,
+      "charStart": 1064,
+      "factId": "hz.web.3688fd809d68d79c.fact.6",
+      "kind": "bullet",
+      "text": "paradise",
+      "tokens": [
+        "paradise"
+      ]
+    },
+    {
+      "charEnd": 1081,
+      "charStart": 1075,
+      "factId": "hz.web.3688fd809d68d79c.fact.7",
+      "kind": "bullet",
+      "text": "cave",
+      "tokens": [
+        "cave"
+      ]
+    },
+    {
+      "charEnd": 1090,
+      "charStart": 1082,
+      "factId": "hz.web.3688fd809d68d79c.fact.8",
+      "kind": "bullet",
+      "text": "images",
+      "tokens": [
+        "images"
+      ]
+    },
+    {
+      "charEnd": 1097,
+      "charStart": 1091,
+      "factId": "hz.web.3688fd809d68d79c.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1104,
+      "charStart": 1098,
+      "factId": "hz.web.3688fd809d68d79c.fact.10",
+      "kind": "bullet",
+      "text": "bang",
+      "tokens": [
+        "bang"
+      ]
+    },
+    {
+      "charEnd": 1112,
+      "charStart": 1105,
+      "factId": "hz.web.3688fd809d68d79c.fact.11",
+      "kind": "bullet",
+      "text": "caves",
+      "tokens": [
+        "caves"
+      ]
+    },
+    {
+      "charEnd": 1118,
+      "charStart": 1113,
+      "factId": "hz.web.3688fd809d68d79c.fact.12",
+      "kind": "bullet",
+      "text": "day",
+      "tokens": [
+        "day"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.3688fd809d68d79c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Search - Microsoft Bing"
+    },
+    {
+      "charEnd": 118,
+      "charStart": 108,
+      "headingId": "hz.web.3688fd809d68d79c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1055,
+      "charStart": 1044,
+      "headingId": "hz.web.3688fd809d68d79c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1130,
+      "charStart": 1120,
+      "headingId": "hz.web.3688fd809d68d79c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3688fd809d68d79c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2484,
+        "start": 0
+      }
+    ],
+    "hash": "5c2bfbc3f4f813e4d8161eac0ac19ae788ab7328250d511fc512b17c12dad5bd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.3688fd809d68d79c.rule.1",
+      "text": "Learn more Make Bing your homepage Experience beauty every day Never miss a moment and keep search at your fingertips.",
+      "tokens": [
+        "learn",
+        "more",
+        "make",
+        "bing",
+        "your",
+        "homepage",
+        "experience",
+        "beauty",
+        "every",
+        "day",
+        "never",
+        "miss",
+        "moment",
+        "keep",
+        "search",
+        "your",
+        "fingertips"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Search - Microsoft Bing Copilot Images Videos Shopping Maps News Videos Shopping Translate Maps News MSN Online Games Microsoft 365 Outlook Word Excel PowerPoint OneNote Sway OneDrive Calendar People Get to Know Bing Get the Bing Wallpaper app Paradise Cave, Phong Nha-Ke Bang National Park, Vietnam © Pakawat Thongcharoen/Getty Images Underground paradise Image of the day Underground paradise © Pakawat Thongcharoen/Getty Images Paradise Cave makes a powerful first impression the moment visitors step inside.",
+      "This vast limestone cavern lies deep within Phong Nha-Ke Bang National Park in central Vietnam, a region marked by rugged mountains and countless hidden caves.",
+      "Stretching over 19 miles, Paradise Cave is one of Asia's longest dry caves, and its scale is immediately apparent."
+    ],
+    "medium": "Source: https://www.bing.com/?FORM=Z9FD1",
+    "short": "Source: https://www.bing.com/?FORM=Z9FD1",
+    "tokens": [
+      "search",
+      "microsoft",
+      "bing",
+      "source",
+      "https",
+      "www",
+      "bing",
+      "com",
+      "form",
+      "z9fd1",
+      "source",
+      "https",
+      "www",
+      "bing",
+      "com",
+      "form",
+      "z9fd1"
+    ]
+  },
+  "title": "Search - Microsoft Bing"
+}

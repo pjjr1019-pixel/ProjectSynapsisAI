@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "64807e97972ff78d",
+      "aliasId": "hz.web.64807e97972ff78d.alias.1",
+      "canonical": "latest edgar filings"
+    },
+    {
+      "alias": "latest edgar filings",
+      "aliasId": "hz.web.64807e97972ff78d.alias.2",
+      "canonical": "latest edgar filings"
+    },
+    {
+      "alias": "web 64807e97972ff78d",
+      "aliasId": "hz.web.64807e97972ff78d.alias.3",
+      "canonical": "latest edgar filings"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.64807e97972ff78d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.64807e97972ff78d.entity.1",
+      "kind": "document",
+      "name": "Latest EDGAR Filings",
+      "tokens": [
+        "latest",
+        "edgar",
+        "filings"
+      ]
+    },
+    {
+      "entityId": "hz.web.64807e97972ff78d.entity.2",
+      "kind": "heading",
+      "name": "Latest EDGAR Filings",
+      "tokens": [
+        "latest",
+        "edgar",
+        "filings"
+      ]
+    },
+    {
+      "entityId": "hz.web.64807e97972ff78d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.64807e97972ff78d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.64807e97972ff78d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 91,
+      "charStart": 25,
+      "factId": "hz.web.64807e97972ff78d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "sec",
+        "gov",
+        "cgi",
+        "bin",
+        "browse",
+        "edgar",
+        "action",
+        "getcurrent"
+      ]
+    },
+    {
+      "charEnd": 439,
+      "charStart": 143,
+      "factId": "hz.web.64807e97972ff78d.fact.1",
+      "kind": "bullet",
+      "text": "Latest EDGAR Filings Home | EDGAR Search Home | Latest Filings | Previous Page --> Latest Filings Received and Processed at the SEC This listing contains the most recent filings for the current official filing date (including filings made after the 5:30 pm deadline on the previous filing day).",
+      "tokens": [
+        "latest",
+        "edgar",
+        "filings",
+        "home",
+        "edgar",
+        "search",
+        "home",
+        "latest",
+        "filings",
+        "previous",
+        "page",
+        "latest",
+        "filings",
+        "received",
+        "processed",
+        "sec",
+        "listing",
+        "contains",
+        "most",
+        "recent",
+        "filings",
+        "current",
+        "official",
+        "filing",
+        "date",
+        "including",
+        "filings",
+        "made",
+        "after",
+        "30",
+        "pm",
+        "deadline",
+        "previous",
+        "filing",
+        "day"
+      ]
+    },
+    {
+      "charEnd": 500,
+      "charStart": 440,
+      "factId": "hz.web.64807e97972ff78d.fact.2",
+      "kind": "bullet",
+      "text": "Filings may be made Monday through Friday (except for U.S.",
+      "tokens": [
+        "filings",
+        "may",
+        "made",
+        "monday",
+        "through",
+        "friday",
+        "except"
+      ]
+    },
+    {
+      "charEnd": 522,
+      "charStart": 501,
+      "factId": "hz.web.64807e97972ff78d.fact.3",
+      "kind": "bullet",
+      "text": "Federal Holidays ).",
+      "tokens": [
+        "federal",
+        "holidays"
+      ]
+    },
+    {
+      "charEnd": 604,
+      "charStart": 523,
+      "factId": "hz.web.64807e97972ff78d.fact.4",
+      "kind": "bullet",
+      "text": "Key to Descriptions (Filer) Filing was made by and describes the company named.",
+      "tokens": [
+        "key",
+        "descriptions",
+        "filer",
+        "filing",
+        "made",
+        "describes",
+        "company",
+        "named"
+      ]
+    },
+    {
+      "charEnd": 623,
+      "charStart": 619,
+      "factId": "hz.web.64807e97972ff78d.fact.5",
+      "kind": "bullet",
+      "text": "30",
+      "tokens": [
+        "30"
+      ]
+    },
+    {
+      "charEnd": 628,
+      "charStart": 624,
+      "factId": "hz.web.64807e97972ff78d.fact.6",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 635,
+      "charStart": 629,
+      "factId": "hz.web.64807e97972ff78d.fact.7",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 640,
+      "charStart": 636,
+      "factId": "hz.web.64807e97972ff78d.fact.8",
+      "kind": "bullet",
+      "text": "21",
+      "tokens": [
+        "21"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 641,
+      "factId": "hz.web.64807e97972ff78d.fact.9",
+      "kind": "bullet",
+      "text": "number",
+      "tokens": [
+        "number"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 650,
+      "factId": "hz.web.64807e97972ff78d.fact.10",
+      "kind": "bullet",
+      "text": "26",
+      "tokens": [
+        "26"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 655,
+      "factId": "hz.web.64807e97972ff78d.fact.11",
+      "kind": "bullet",
+      "text": "accession",
+      "tokens": [
+        "accession"
+      ]
+    },
+    {
+      "charEnd": 673,
+      "charStart": 667,
+      "factId": "hz.web.64807e97972ff78d.fact.12",
+      "kind": "bullet",
+      "text": "html",
+      "tokens": [
+        "html"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.64807e97972ff78d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Latest EDGAR Filings"
+    },
+    {
+      "charEnd": 141,
+      "charStart": 131,
+      "headingId": "hz.web.64807e97972ff78d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 617,
+      "charStart": 606,
+      "headingId": "hz.web.64807e97972ff78d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 685,
+      "charStart": 675,
+      "headingId": "hz.web.64807e97972ff78d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/64807e97972ff78d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3950,
+        "start": 0
+      }
+    ],
+    "hash": "1138d92d90b89dc643ae9fd58768fdf0ed33ba0931bc3ebd6ee4c704713af8bb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Latest EDGAR Filings Home | EDGAR Search Home | Latest Filings | Previous Page --> Latest Filings Received and Processed at the SEC This listing contains the most recent filings for the current official filing date (including filings made after the 5:30 pm deadline on the previous filing day).",
+      "Filings may be made Monday through Friday (except for U.S.",
+      "Federal Holidays )."
+    ],
+    "medium": "Source: https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+    "short": "Source: https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+    "tokens": [
+      "latest",
+      "edgar",
+      "filings",
+      "source",
+      "https",
+      "www",
+      "sec",
+      "gov",
+      "cgi",
+      "bin",
+      "browse",
+      "edgar",
+      "action",
+      "getcurrent",
+      "source",
+      "https",
+      "www",
+      "sec",
+      "gov",
+      "cgi",
+      "bin",
+      "browse",
+      "edgar",
+      "action",
+      "getcurrent"
+    ]
+  },
+  "title": "Latest EDGAR Filings"
+}

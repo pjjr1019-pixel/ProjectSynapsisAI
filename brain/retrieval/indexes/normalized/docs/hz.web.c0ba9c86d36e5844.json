@@ -1,0 +1,401 @@
+{
+  "aliases": [
+    {
+      "alias": "c0ba9c86d36e5844",
+      "aliasId": "hz.web.c0ba9c86d36e5844.alias.1",
+      "canonical": "the platform for privacy preferences 1.0 (p3p1.0) specification"
+    },
+    {
+      "alias": "the platform for privacy preferences 1.0 p3p1.0 specification",
+      "aliasId": "hz.web.c0ba9c86d36e5844.alias.2",
+      "canonical": "the platform for privacy preferences 1.0 (p3p1.0) specification"
+    },
+    {
+      "alias": "web c0ba9c86d36e5844",
+      "aliasId": "hz.web.c0ba9c86d36e5844.alias.3",
+      "canonical": "the platform for privacy preferences 1.0 (p3p1.0) specification"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.c0ba9c86d36e5844",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c0ba9c86d36e5844.entity.1",
+      "kind": "document",
+      "name": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification",
+      "tokens": [
+        "platform",
+        "privacy",
+        "preferences",
+        "p3p1",
+        "specification"
+      ]
+    },
+    {
+      "entityId": "hz.web.c0ba9c86d36e5844.entity.2",
+      "kind": "heading",
+      "name": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification",
+      "tokens": [
+        "platform",
+        "privacy",
+        "preferences",
+        "p3p1",
+        "specification"
+      ]
+    },
+    {
+      "entityId": "hz.web.c0ba9c86d36e5844.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c0ba9c86d36e5844.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c0ba9c86d36e5844.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 120,
+      "charStart": 68,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/TR/2002/REC-P3P-20020416/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2002",
+        "rec",
+        "p3p",
+        "20020416"
+      ]
+    },
+    {
+      "charEnd": 839,
+      "charStart": 172,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.1",
+      "kind": "bullet",
+      "text": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification The Platform for Privacy Preferences 1.0 (P3P1.0) Specification W3C Recommendation 16 April 2002 This Version: http://www.w3.org/TR/2002/REC-P3P-20020416/ Latest Version: http://www.w3.org/TR/P3P/ Previous Version: http://www.w3.org/TR/2002/PR-P3P-20020128/ Editor: Massimo Marchiori , W3C / MIT / University of Venice , ( [redacted-email] ) Authors: Lorrie Cranor , AT&T Marc Langheinrich , ETH Zurich Massimo Marchiori , W3C / MIT / University of Venice Martin Presler-Marshall , IBM Joseph Reagle , W3C/MIT Please refer to the errata for this document, which may include some normative corrections.",
+      "tokens": [
+        "platform",
+        "privacy",
+        "preferences",
+        "p3p1",
+        "specification",
+        "platform",
+        "privacy",
+        "preferences",
+        "p3p1",
+        "specification",
+        "w3c",
+        "recommendation",
+        "16",
+        "april",
+        "2002",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2002",
+        "rec",
+        "p3p",
+        "20020416",
+        "latest",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "p3p",
+        "previous",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2002",
+        "pr",
+        "p3p",
+        "20020128",
+        "editor",
+        "massimo",
+        "marchiori",
+        "w3c",
+        "mit",
+        "university",
+        "venice",
+        "redacted",
+        "email",
+        "authors",
+        "lorrie",
+        "cranor",
+        "marc",
+        "langheinrich",
+        "eth",
+        "zurich",
+        "massimo",
+        "marchiori",
+        "w3c",
+        "mit",
+        "university",
+        "venice",
+        "martin",
+        "presler",
+        "marshall",
+        "ibm",
+        "joseph",
+        "reagle",
+        "w3c",
+        "mit",
+        "please",
+        "refer",
+        "errata",
+        "document",
+        "may",
+        "include",
+        "some",
+        "normative",
+        "corrections"
+      ]
+    },
+    {
+      "charEnd": 865,
+      "charStart": 840,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.2",
+      "kind": "bullet",
+      "text": "See also translations .",
+      "tokens": [
+        "see",
+        "also",
+        "translations"
+      ]
+    },
+    {
+      "charEnd": 934,
+      "charStart": 866,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.3",
+      "kind": "bullet",
+      "text": "Copyright �2002 W3C � ( MIT , INRIA , Keio ), All Rights Reserved.",
+      "tokens": [
+        "copyright",
+        "2002",
+        "w3c",
+        "mit",
+        "inria",
+        "keio",
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 935,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.4",
+      "kind": "bullet",
+      "text": "W3C liability , trademark , document use and software licensing rules apply.",
+      "tokens": [
+        "w3c",
+        "liability",
+        "trademark",
+        "document",
+        "use",
+        "software",
+        "licensing",
+        "rules",
+        "apply"
+      ]
+    },
+    {
+      "charEnd": 1033,
+      "charStart": 1028,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.5",
+      "kind": "bullet",
+      "text": "p3p",
+      "tokens": [
+        "p3p"
+      ]
+    },
+    {
+      "charEnd": 1040,
+      "charStart": 1034,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.6",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 1049,
+      "charStart": 1041,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.7",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 1056,
+      "charStart": 1050,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.8",
+      "kind": "bullet",
+      "text": "user",
+      "tokens": [
+        "user"
+      ]
+    },
+    {
+      "charEnd": 1067,
+      "charStart": 1057,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.9",
+      "kind": "bullet",
+      "text": "policies",
+      "tokens": [
+        "policies"
+      ]
+    },
+    {
+      "charEnd": 1074,
+      "charStart": 1068,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.10",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 1080,
+      "charStart": 1075,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.11",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1096,
+      "charStart": 1081,
+      "factId": "hz.web.c0ba9c86d36e5844.fact.12",
+      "kind": "bullet",
+      "text": "specification",
+      "tokens": [
+        "specification"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 66,
+      "charStart": 1,
+      "headingId": "hz.web.c0ba9c86d36e5844.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
+    },
+    {
+      "charEnd": 170,
+      "charStart": 160,
+      "headingId": "hz.web.c0ba9c86d36e5844.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1026,
+      "charStart": 1015,
+      "headingId": "hz.web.c0ba9c86d36e5844.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1108,
+      "charStart": 1098,
+      "headingId": "hz.web.c0ba9c86d36e5844.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/c0ba9c86d36e5844.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4402,
+        "start": 0
+      }
+    ],
+    "hash": "e7b511c3fa3c243ab19899abe35269c90a9dd74f9dd0298263afadcdde7457dc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification The Platform for Privacy Preferences 1.0 (P3P1.0) Specification W3C Recommendation 16 April 2002 This Version: http://www.w3.org/TR/2002/REC-P3P-20020416/ Latest Version: http://www.w3.org/TR/P3P/ Previous Version: http://www.w3.org/TR/2002/PR-P3P-20020128/ Editor: Massimo Marchiori , W3C / MIT / University of Venice , ( [redacted-email] ) Authors: Lorrie Cranor , AT&T Marc Langheinrich , ETH Zurich Massimo Marchiori , W3C / MIT / University of Venice Martin Presler-Marshall , IBM Joseph Reagle , W3C/MIT Please refer to the errata for this document, which may include some normative corrections.",
+      "See also translations .",
+      "Copyright �2002 W3C � ( MIT , INRIA , Keio ), All Rights Reserved."
+    ],
+    "medium": "Source: https://www.w3.org/TR/2002/REC-P3P-20020416/",
+    "short": "Source: https://www.w3.org/TR/2002/REC-P3P-20020416/",
+    "tokens": [
+      "platform",
+      "privacy",
+      "preferences",
+      "p3p1",
+      "specification",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "2002",
+      "rec",
+      "p3p",
+      "20020416",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "2002",
+      "rec",
+      "p3p",
+      "20020416"
+    ]
+  },
+  "title": "The Platform for Privacy Preferences 1.0 (P3P1.0) Specification"
+}

@@ -1,0 +1,345 @@
+{
+  "aliases": [
+    {
+      "alias": "03ddf7c3ccaf6337",
+      "aliasId": "hz.web.03ddf7c3ccaf6337.alias.1",
+      "canonical": "xmdp - xhtml meta data profiles"
+    },
+    {
+      "alias": "web 03ddf7c3ccaf6337",
+      "aliasId": "hz.web.03ddf7c3ccaf6337.alias.2",
+      "canonical": "xmdp - xhtml meta data profiles"
+    },
+    {
+      "alias": "xmdp - xhtml meta data profiles",
+      "aliasId": "hz.web.03ddf7c3ccaf6337.alias.3",
+      "canonical": "xmdp - xhtml meta data profiles"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.03ddf7c3ccaf6337",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.03ddf7c3ccaf6337.entity.1",
+      "kind": "document",
+      "name": "XMDP - XHTML Meta Data Profiles",
+      "tokens": [
+        "xmdp",
+        "xhtml",
+        "meta",
+        "data",
+        "profiles"
+      ]
+    },
+    {
+      "entityId": "hz.web.03ddf7c3ccaf6337.entity.2",
+      "kind": "heading",
+      "name": "XMDP - XHTML Meta Data Profiles",
+      "tokens": [
+        "xmdp",
+        "xhtml",
+        "meta",
+        "data",
+        "profiles"
+      ]
+    },
+    {
+      "entityId": "hz.web.03ddf7c3ccaf6337.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.03ddf7c3ccaf6337.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.03ddf7c3ccaf6337.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 36,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.1",
+      "kind": "summary",
+      "text": "Source: https://gmpg.org/xmdp",
+      "tokens": [
+        "source",
+        "https",
+        "gmpg",
+        "org",
+        "xmdp"
+      ]
+    },
+    {
+      "charEnd": 339,
+      "charStart": 117,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.1",
+      "kind": "bullet",
+      "text": "XMDP - XHTML Meta Data Profiles Xhtml Meta Data Profiles XMDP&trade; ( X HTML M eta D ata P rofiles) is a simple XHTML-based format for defining HTML meta data profiles easy to read and write by both humans and machines.",
+      "tokens": [
+        "xmdp",
+        "xhtml",
+        "meta",
+        "data",
+        "profiles",
+        "xhtml",
+        "meta",
+        "data",
+        "profiles",
+        "xmdp",
+        "trade",
+        "html",
+        "eta",
+        "ata",
+        "rofiles",
+        "simple",
+        "xhtml",
+        "based",
+        "format",
+        "defining",
+        "html",
+        "meta",
+        "data",
+        "profiles",
+        "easy",
+        "read",
+        "write",
+        "both",
+        "humans",
+        "machines"
+      ]
+    },
+    {
+      "charEnd": 375,
+      "charStart": 340,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.2",
+      "kind": "bullet",
+      "text": "The markup is a profile of XHTML.",
+      "tokens": [
+        "markup",
+        "profile",
+        "xhtml"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 376,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.3",
+      "kind": "bullet",
+      "text": "To find out how to write and use XMDP, read the following sections: Introduction, Description and Example Introduction to XMDP, description of the format, and an example of an XMDP profile.",
+      "tokens": [
+        "find",
+        "out",
+        "write",
+        "use",
+        "xmdp",
+        "read",
+        "following",
+        "sections",
+        "introduction",
+        "description",
+        "example",
+        "introduction",
+        "xmdp",
+        "description",
+        "format",
+        "example",
+        "xmdp",
+        "profile"
+      ]
+    },
+    {
+      "charEnd": 670,
+      "charStart": 568,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.4",
+      "kind": "bullet",
+      "text": "Sample HTML profile A sample HTML profile written in XMDP based on informative properties from HTML.",
+      "tokens": [
+        "sample",
+        "html",
+        "profile",
+        "sample",
+        "html",
+        "profile",
+        "written",
+        "xmdp",
+        "based",
+        "informative",
+        "properties",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 685,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.5",
+      "kind": "bullet",
+      "text": "xmdp",
+      "tokens": [
+        "xmdp"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 692,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.6",
+      "kind": "bullet",
+      "text": "html",
+      "tokens": [
+        "html"
+      ]
+    },
+    {
+      "charEnd": 708,
+      "charStart": 699,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.7",
+      "kind": "bullet",
+      "text": "profile",
+      "tokens": [
+        "profile"
+      ]
+    },
+    {
+      "charEnd": 716,
+      "charStart": 709,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.8",
+      "kind": "bullet",
+      "text": "xhtml",
+      "tokens": [
+        "xhtml"
+      ]
+    },
+    {
+      "charEnd": 723,
+      "charStart": 717,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.9",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 730,
+      "charStart": 724,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.10",
+      "kind": "bullet",
+      "text": "meta",
+      "tokens": [
+        "meta"
+      ]
+    },
+    {
+      "charEnd": 741,
+      "charStart": 731,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.11",
+      "kind": "bullet",
+      "text": "profiles",
+      "tokens": [
+        "profiles"
+      ]
+    },
+    {
+      "charEnd": 749,
+      "charStart": 742,
+      "factId": "hz.web.03ddf7c3ccaf6337.fact.12",
+      "kind": "bullet",
+      "text": "based",
+      "tokens": [
+        "based"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 34,
+      "charStart": 1,
+      "headingId": "hz.web.03ddf7c3ccaf6337.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "XMDP - XHTML Meta Data Profiles"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.03ddf7c3ccaf6337.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 683,
+      "charStart": 672,
+      "headingId": "hz.web.03ddf7c3ccaf6337.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 761,
+      "charStart": 751,
+      "headingId": "hz.web.03ddf7c3ccaf6337.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/03ddf7c3ccaf6337.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1550,
+        "start": 0
+      }
+    ],
+    "hash": "aab38de9c3b8e3e4606fa72200f0fc269bbca1514015c06396bf716ac23dbe46",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "XMDP - XHTML Meta Data Profiles Xhtml Meta Data Profiles XMDP&trade; ( X HTML M eta D ata P rofiles) is a simple XHTML-based format for defining HTML meta data profiles easy to read and write by both humans and machines.",
+      "The markup is a profile of XHTML.",
+      "To find out how to write and use XMDP, read the following sections: Introduction, Description and Example Introduction to XMDP, description of the format, and an example of an XMDP profile."
+    ],
+    "medium": "Source: https://gmpg.org/xmdp",
+    "short": "Source: https://gmpg.org/xmdp",
+    "tokens": [
+      "xmdp",
+      "xhtml",
+      "meta",
+      "data",
+      "profiles",
+      "source",
+      "https",
+      "gmpg",
+      "org",
+      "xmdp",
+      "source",
+      "https",
+      "gmpg",
+      "org",
+      "xmdp"
+    ]
+  },
+  "title": "XMDP - XHTML Meta Data Profiles"
+}

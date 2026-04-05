@@ -1,0 +1,321 @@
+{
+  "aliases": [
+    {
+      "alias": "0bbbcccca91363fd",
+      "aliasId": "hz.web.0bbbcccca91363fd.alias.1",
+      "canonical": "glazman.org"
+    },
+    {
+      "alias": "glazman.org",
+      "aliasId": "hz.web.0bbbcccca91363fd.alias.2",
+      "canonical": "glazman.org"
+    },
+    {
+      "alias": "web 0bbbcccca91363fd",
+      "aliasId": "hz.web.0bbbcccca91363fd.alias.3",
+      "canonical": "glazman.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.0bbbcccca91363fd",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0bbbcccca91363fd.entity.1",
+      "kind": "document",
+      "name": "glazman.org",
+      "tokens": [
+        "glazman",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bbbcccca91363fd.entity.2",
+      "kind": "heading",
+      "name": "glazman.org",
+      "tokens": [
+        "glazman",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bbbcccca91363fd.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bbbcccca91363fd.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0bbbcccca91363fd.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 82,
+      "charStart": 16,
+      "factId": "hz.web.0bbbcccca91363fd.fact.1",
+      "kind": "summary",
+      "text": "Source: http://glazman.org/weblog/dotclear/index.php?pf=public.css",
+      "tokens": [
+        "source",
+        "http",
+        "glazman",
+        "org",
+        "weblog",
+        "dotclear",
+        "index",
+        "php",
+        "pf",
+        "public",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 535,
+      "charStart": 134,
+      "factId": "hz.web.0bbbcccca91363fd.fact.1",
+      "kind": "bullet",
+      "text": "/* Media alignment classes */ .media-center { display: table; margin: 0 auto; } [dir='rtl'] .media-left { float: right; float: inline-start; } .media-left { float: left; float: inline-start; margin-inline-end: 1em; margin-block-end: 1em; } [dir='rtl'] .media-right { float: left; float: inline-end; } .media-right { float: right; float: inline-end; margin-inline-start: 1em; margin-block-end: 1em; }",
+      "tokens": [
+        "media",
+        "alignment",
+        "classes",
+        "media",
+        "center",
+        "display",
+        "table",
+        "margin",
+        "auto",
+        "dir",
+        "rtl",
+        "media",
+        "left",
+        "float",
+        "right",
+        "float",
+        "inline",
+        "start",
+        "media",
+        "left",
+        "float",
+        "left",
+        "float",
+        "inline",
+        "start",
+        "margin",
+        "inline",
+        "end",
+        "1em",
+        "margin",
+        "block",
+        "end",
+        "1em",
+        "dir",
+        "rtl",
+        "media",
+        "right",
+        "float",
+        "left",
+        "float",
+        "inline",
+        "end",
+        "media",
+        "right",
+        "float",
+        "right",
+        "float",
+        "inline",
+        "end",
+        "margin",
+        "inline",
+        "start",
+        "1em",
+        "margin",
+        "block",
+        "end",
+        "1em"
+      ]
+    },
+    {
+      "charEnd": 557,
+      "charStart": 550,
+      "factId": "hz.web.0bbbcccca91363fd.fact.2",
+      "kind": "bullet",
+      "text": "float",
+      "tokens": [
+        "float"
+      ]
+    },
+    {
+      "charEnd": 566,
+      "charStart": 558,
+      "factId": "hz.web.0bbbcccca91363fd.fact.3",
+      "kind": "bullet",
+      "text": "inline",
+      "tokens": [
+        "inline"
+      ]
+    },
+    {
+      "charEnd": 574,
+      "charStart": 567,
+      "factId": "hz.web.0bbbcccca91363fd.fact.4",
+      "kind": "bullet",
+      "text": "media",
+      "tokens": [
+        "media"
+      ]
+    },
+    {
+      "charEnd": 580,
+      "charStart": 575,
+      "factId": "hz.web.0bbbcccca91363fd.fact.5",
+      "kind": "bullet",
+      "text": "end",
+      "tokens": [
+        "end"
+      ]
+    },
+    {
+      "charEnd": 589,
+      "charStart": 581,
+      "factId": "hz.web.0bbbcccca91363fd.fact.6",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 595,
+      "charStart": 590,
+      "factId": "hz.web.0bbbcccca91363fd.fact.7",
+      "kind": "bullet",
+      "text": "1em",
+      "tokens": [
+        "1em"
+      ]
+    },
+    {
+      "charEnd": 602,
+      "charStart": 596,
+      "factId": "hz.web.0bbbcccca91363fd.fact.8",
+      "kind": "bullet",
+      "text": "left",
+      "tokens": [
+        "left"
+      ]
+    },
+    {
+      "charEnd": 610,
+      "charStart": 603,
+      "factId": "hz.web.0bbbcccca91363fd.fact.9",
+      "kind": "bullet",
+      "text": "right",
+      "tokens": [
+        "right"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.0bbbcccca91363fd.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "glazman.org"
+    },
+    {
+      "charEnd": 132,
+      "charStart": 122,
+      "headingId": "hz.web.0bbbcccca91363fd.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 548,
+      "charStart": 537,
+      "headingId": "hz.web.0bbbcccca91363fd.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 622,
+      "charStart": 612,
+      "headingId": "hz.web.0bbbcccca91363fd.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0bbbcccca91363fd.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1277,
+        "start": 0
+      }
+    ],
+    "hash": "7f8d9470460624a9ae7cb7eee79ca63c014ca8dbc9e60cf411f2a55191fef76a",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* Media alignment classes */ .media-center { display: table; margin: 0 auto; } [dir='rtl'] .media-left { float: right; float: inline-start; } .media-left { float: left; float: inline-start; margin-inline-end: 1em; margin-block-end: 1em; } [dir='rtl'] .media-right { float: left; float: inline-end; } .media-right { float: right; float: inline-end; margin-inline-start: 1em; margin-block-end: 1em; }",
+      "float",
+      "inline"
+    ],
+    "medium": "Source: http://glazman.org/weblog/dotclear/index.php?pf=public.css",
+    "short": "Source: http://glazman.org/weblog/dotclear/index.php?pf=public.css",
+    "tokens": [
+      "glazman",
+      "org",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog",
+      "dotclear",
+      "index",
+      "php",
+      "pf",
+      "public",
+      "css",
+      "source",
+      "http",
+      "glazman",
+      "org",
+      "weblog",
+      "dotclear",
+      "index",
+      "php",
+      "pf",
+      "public",
+      "css"
+    ]
+  },
+  "title": "glazman.org"
+}

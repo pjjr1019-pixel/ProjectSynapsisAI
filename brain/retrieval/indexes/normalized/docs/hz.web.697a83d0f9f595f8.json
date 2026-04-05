@@ -1,0 +1,308 @@
+{
+  "aliases": [
+    {
+      "alias": "697a83d0f9f595f8",
+      "aliasId": "hz.web.697a83d0f9f595f8.alias.1",
+      "canonical": "www.neatnik.net"
+    },
+    {
+      "alias": "web 697a83d0f9f595f8",
+      "aliasId": "hz.web.697a83d0f9f595f8.alias.2",
+      "canonical": "www.neatnik.net"
+    },
+    {
+      "alias": "www.neatnik.net",
+      "aliasId": "hz.web.697a83d0f9f595f8.alias.3",
+      "canonical": "www.neatnik.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.55,
+  "docId": "hz.web.697a83d0f9f595f8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.697a83d0f9f595f8.entity.1",
+      "kind": "document",
+      "name": "www.neatnik.net",
+      "tokens": [
+        "www",
+        "neatnik",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.697a83d0f9f595f8.entity.2",
+      "kind": "heading",
+      "name": "www.neatnik.net",
+      "tokens": [
+        "www",
+        "neatnik",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.697a83d0f9f595f8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.697a83d0f9f595f8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.697a83d0f9f595f8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 74,
+      "charStart": 20,
+      "factId": "hz.web.697a83d0f9f595f8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.neatnik.net/.well-known/human.json",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "neatnik",
+        "net",
+        "well",
+        "known",
+        "human",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 510,
+      "charStart": 126,
+      "factId": "hz.web.697a83d0f9f595f8.fact.1",
+      "kind": "bullet",
+      "text": "{ \"version\": \"0.1.1\", \"url\": \"https://www.neatnik.net/\", \"vouches\": [ { \"url\": \"https://mat.tl/\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://libre.fm/\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://rknight.me\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://www.nfnitloop.com/\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://brindly.art\", \"vouched_at\": \"2026-03-11\" } ] }",
+      "tokens": [
+        "version",
+        "url",
+        "https",
+        "www",
+        "neatnik",
+        "net",
+        "vouches",
+        "url",
+        "https",
+        "mat",
+        "tl",
+        "vouched_at",
+        "2026",
+        "03",
+        "11",
+        "url",
+        "https",
+        "libre",
+        "fm",
+        "vouched_at",
+        "2026",
+        "03",
+        "11",
+        "url",
+        "https",
+        "rknight",
+        "vouched_at",
+        "2026",
+        "03",
+        "11",
+        "url",
+        "https",
+        "www",
+        "nfnitloop",
+        "com",
+        "vouched_at",
+        "2026",
+        "03",
+        "11",
+        "url",
+        "https",
+        "brindly",
+        "art",
+        "vouched_at",
+        "2026",
+        "03",
+        "11"
+      ]
+    },
+    {
+      "charEnd": 532,
+      "charStart": 525,
+      "factId": "hz.web.697a83d0f9f595f8.fact.2",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 538,
+      "charStart": 533,
+      "factId": "hz.web.697a83d0f9f595f8.fact.3",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    },
+    {
+      "charEnd": 543,
+      "charStart": 539,
+      "factId": "hz.web.697a83d0f9f595f8.fact.4",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 548,
+      "charStart": 544,
+      "factId": "hz.web.697a83d0f9f595f8.fact.5",
+      "kind": "bullet",
+      "text": "11",
+      "tokens": [
+        "11"
+      ]
+    },
+    {
+      "charEnd": 555,
+      "charStart": 549,
+      "factId": "hz.web.697a83d0f9f595f8.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 568,
+      "charStart": 556,
+      "factId": "hz.web.697a83d0f9f595f8.fact.7",
+      "kind": "bullet",
+      "text": "vouched_at",
+      "tokens": [
+        "vouched_at"
+      ]
+    },
+    {
+      "charEnd": 574,
+      "charStart": 569,
+      "factId": "hz.web.697a83d0f9f595f8.fact.8",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 580,
+      "charStart": 575,
+      "factId": "hz.web.697a83d0f9f595f8.fact.9",
+      "kind": "bullet",
+      "text": "art",
+      "tokens": [
+        "art"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.697a83d0f9f595f8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.neatnik.net"
+    },
+    {
+      "charEnd": 124,
+      "charStart": 114,
+      "headingId": "hz.web.697a83d0f9f595f8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 523,
+      "charStart": 512,
+      "headingId": "hz.web.697a83d0f9f595f8.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 592,
+      "charStart": 582,
+      "headingId": "hz.web.697a83d0f9f595f8.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/697a83d0f9f595f8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1222,
+        "start": 0
+      }
+    ],
+    "hash": "2919d003fabe8936c14a14378d004f3c7bebe7aba859a6f40c65b3df8f1ae141",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"version\": \"0.1.1\", \"url\": \"https://www.neatnik.net/\", \"vouches\": [ { \"url\": \"https://mat.tl/\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://libre.fm/\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://rknight.me\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://www.nfnitloop.com/\", \"vouched_at\": \"2026-03-11\" }, { \"url\": \"https://brindly.art\", \"vouched_at\": \"2026-03-11\" } ] }",
+      "https",
+      "url"
+    ],
+    "medium": "Source: https://www.neatnik.net/.well-known/human.json",
+    "short": "Source: https://www.neatnik.net/.well-known/human.json",
+    "tokens": [
+      "www",
+      "neatnik",
+      "net",
+      "source",
+      "https",
+      "www",
+      "neatnik",
+      "net",
+      "well",
+      "known",
+      "human",
+      "json",
+      "source",
+      "https",
+      "www",
+      "neatnik",
+      "net",
+      "well",
+      "known",
+      "human",
+      "json"
+    ]
+  },
+  "title": "www.neatnik.net"
+}

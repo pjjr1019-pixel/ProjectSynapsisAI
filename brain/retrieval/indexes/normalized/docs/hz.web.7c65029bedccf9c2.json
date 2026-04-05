@@ -1,0 +1,360 @@
+{
+  "aliases": [
+    {
+      "alias": "7c65029bedccf9c2",
+      "aliasId": "hz.web.7c65029bedccf9c2.alias.1",
+      "canonical": "publishers - realtime rss feeds - pubsubhubbub - superfeedr"
+    },
+    {
+      "alias": "publishers - realtime rss feeds - pubsubhubbub - superfeedr",
+      "aliasId": "hz.web.7c65029bedccf9c2.alias.2",
+      "canonical": "publishers - realtime rss feeds - pubsubhubbub - superfeedr"
+    },
+    {
+      "alias": "web 7c65029bedccf9c2",
+      "aliasId": "hz.web.7c65029bedccf9c2.alias.3",
+      "canonical": "publishers - realtime rss feeds - pubsubhubbub - superfeedr"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.76,
+  "docId": "hz.web.7c65029bedccf9c2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7c65029bedccf9c2.entity.1",
+      "kind": "document",
+      "name": "Publishers - Realtime RSS feeds - PubSubHubbub - Superfeedr",
+      "tokens": [
+        "publishers",
+        "realtime",
+        "rss",
+        "feeds",
+        "pubsubhubbub",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.7c65029bedccf9c2.entity.2",
+      "kind": "heading",
+      "name": "Publishers - Realtime RSS feeds - PubSubHubbub - Superfeedr",
+      "tokens": [
+        "publishers",
+        "realtime",
+        "rss",
+        "feeds",
+        "pubsubhubbub",
+        "superfeedr"
+      ]
+    },
+    {
+      "entityId": "hz.web.7c65029bedccf9c2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7c65029bedccf9c2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7c65029bedccf9c2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 104,
+      "charStart": 64,
+      "factId": "hz.web.7c65029bedccf9c2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://superfeedr.com/publisher",
+      "tokens": [
+        "source",
+        "https",
+        "superfeedr",
+        "com",
+        "publisher"
+      ]
+    },
+    {
+      "charEnd": 420,
+      "charStart": 156,
+      "factId": "hz.web.7c65029bedccf9c2.fact.1",
+      "kind": "bullet",
+      "text": "Publishers - Realtime RSS feeds - PubSubHubbub - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Faster delivery, no overhead Superfeedr PubSubHubbub hubs make it easy to deliver your content to your readers faster, wherever they are.",
+      "tokens": [
+        "publishers",
+        "realtime",
+        "rss",
+        "feeds",
+        "pubsubhubbub",
+        "superfeedr",
+        "superfeedr",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "faster",
+        "delivery",
+        "no",
+        "overhead",
+        "superfeedr",
+        "pubsubhubbub",
+        "hubs",
+        "make",
+        "easy",
+        "deliver",
+        "your",
+        "content",
+        "your",
+        "readers",
+        "faster",
+        "wherever"
+      ]
+    },
+    {
+      "charEnd": 507,
+      "charStart": 421,
+      "factId": "hz.web.7c65029bedccf9c2.fact.2",
+      "kind": "bullet",
+      "text": "Whether you're a new blogger or a professional media company, we have a hub for you.",
+      "tokens": [
+        "whether",
+        "re",
+        "new",
+        "blogger",
+        "professional",
+        "media",
+        "company",
+        "have",
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 508,
+      "factId": "hz.web.7c65029bedccf9c2.fact.3",
+      "kind": "bullet",
+      "text": "Get Your PuSH Hub Pricing Why Superfeedr for Publishers ?",
+      "tokens": [
+        "get",
+        "your",
+        "push",
+        "hub",
+        "pricing",
+        "why",
+        "superfeedr",
+        "publishers"
+      ]
+    },
+    {
+      "charEnd": 696,
+      "charStart": 568,
+      "factId": "hz.web.7c65029bedccf9c2.fact.4",
+      "kind": "bullet",
+      "text": "Real-time PuSH PubSubHubbub (PuSH) makes it possible to push notifications of new or updated content to subscribers instantly.",
+      "tokens": [
+        "real",
+        "time",
+        "push",
+        "pubsubhubbub",
+        "push",
+        "makes",
+        "possible",
+        "push",
+        "notifications",
+        "new",
+        "updated",
+        "content",
+        "subscribers",
+        "instantly"
+      ]
+    },
+    {
+      "charEnd": 717,
+      "charStart": 711,
+      "factId": "hz.web.7c65029bedccf9c2.fact.5",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 723,
+      "charStart": 718,
+      "factId": "hz.web.7c65029bedccf9c2.fact.6",
+      "kind": "bullet",
+      "text": "hub",
+      "tokens": [
+        "hub"
+      ]
+    },
+    {
+      "charEnd": 736,
+      "charStart": 724,
+      "factId": "hz.web.7c65029bedccf9c2.fact.7",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 746,
+      "charStart": 737,
+      "factId": "hz.web.7c65029bedccf9c2.fact.8",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 761,
+      "charStart": 747,
+      "factId": "hz.web.7c65029bedccf9c2.fact.9",
+      "kind": "bullet",
+      "text": "pubsubhubbub",
+      "tokens": [
+        "pubsubhubbub"
+      ]
+    },
+    {
+      "charEnd": 768,
+      "charStart": 762,
+      "factId": "hz.web.7c65029bedccf9c2.fact.10",
+      "kind": "bullet",
+      "text": "push",
+      "tokens": [
+        "push"
+      ]
+    },
+    {
+      "charEnd": 774,
+      "charStart": 769,
+      "factId": "hz.web.7c65029bedccf9c2.fact.11",
+      "kind": "bullet",
+      "text": "get",
+      "tokens": [
+        "get"
+      ]
+    },
+    {
+      "charEnd": 780,
+      "charStart": 775,
+      "factId": "hz.web.7c65029bedccf9c2.fact.12",
+      "kind": "bullet",
+      "text": "seo",
+      "tokens": [
+        "seo"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 62,
+      "charStart": 1,
+      "headingId": "hz.web.7c65029bedccf9c2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Publishers - Realtime RSS feeds - PubSubHubbub - Superfeedr"
+    },
+    {
+      "charEnd": 154,
+      "charStart": 144,
+      "headingId": "hz.web.7c65029bedccf9c2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 709,
+      "charStart": 698,
+      "headingId": "hz.web.7c65029bedccf9c2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 792,
+      "charStart": 782,
+      "headingId": "hz.web.7c65029bedccf9c2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7c65029bedccf9c2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4070,
+        "start": 0
+      }
+    ],
+    "hash": "6955bb65b3a2346d85b6a475991accdc3a9917c25b1ef45fe5e218b0cb5381ee",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.7c65029bedccf9c2.rule.1",
+      "text": "Superfeedr will never obstruct you getting at your data.",
+      "tokens": [
+        "superfeedr",
+        "will",
+        "never",
+        "obstruct",
+        "getting",
+        "your",
+        "data"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Publishers - Realtime RSS feeds - PubSubHubbub - Superfeedr Superfeedr Publishers Subscribers Trackers Pricing Login Sign Up Faster delivery, no overhead Superfeedr PubSubHubbub hubs make it easy to deliver your content to your readers faster, wherever they are.",
+      "Whether you're a new blogger or a professional media company, we have a hub for you.",
+      "Get Your PuSH Hub Pricing Why Superfeedr for Publishers ?"
+    ],
+    "medium": "Source: https://superfeedr.com/publisher",
+    "short": "Source: https://superfeedr.com/publisher",
+    "tokens": [
+      "publishers",
+      "realtime",
+      "rss",
+      "feeds",
+      "pubsubhubbub",
+      "superfeedr",
+      "source",
+      "https",
+      "superfeedr",
+      "com",
+      "publisher",
+      "source",
+      "https",
+      "superfeedr",
+      "com",
+      "publisher"
+    ]
+  },
+  "title": "Publishers - Realtime RSS feeds - PubSubHubbub - Superfeedr"
+}

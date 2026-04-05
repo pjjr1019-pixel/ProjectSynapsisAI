@@ -1,0 +1,478 @@
+{
+  "aliases": [
+    {
+      "alias": "817c83b27420a11e",
+      "aliasId": "hz.web.817c83b27420a11e.alias.1",
+      "canonical": "privacy policy | atlassian"
+    },
+    {
+      "alias": "privacy policy atlassian",
+      "aliasId": "hz.web.817c83b27420a11e.alias.2",
+      "canonical": "privacy policy | atlassian"
+    },
+    {
+      "alias": "web 817c83b27420a11e",
+      "aliasId": "hz.web.817c83b27420a11e.alias.3",
+      "canonical": "privacy policy | atlassian"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.817c83b27420a11e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.817c83b27420a11e.entity.1",
+      "kind": "document",
+      "name": "Privacy Policy | Atlassian",
+      "tokens": [
+        "privacy",
+        "policy",
+        "atlassian"
+      ]
+    },
+    {
+      "entityId": "hz.web.817c83b27420a11e.entity.2",
+      "kind": "heading",
+      "name": "Privacy Policy | Atlassian",
+      "tokens": [
+        "privacy",
+        "policy",
+        "atlassian"
+      ]
+    },
+    {
+      "entityId": "hz.web.817c83b27420a11e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.817c83b27420a11e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.817c83b27420a11e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 85,
+      "charStart": 31,
+      "factId": "hz.web.817c83b27420a11e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.atlassian.com/legal/privacy-policy",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "atlassian",
+        "com",
+        "legal",
+        "privacy",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 205,
+      "charStart": 137,
+      "factId": "hz.web.817c83b27420a11e.fact.1",
+      "kind": "bullet",
+      "text": "Privacy Policy | Atlassian Close View this page in your language ?",
+      "tokens": [
+        "privacy",
+        "policy",
+        "atlassian",
+        "close",
+        "view",
+        "page",
+        "your",
+        "language"
+      ]
+    },
+    {
+      "charEnd": 1095,
+      "charStart": 206,
+      "factId": "hz.web.817c83b27420a11e.fact.2",
+      "kind": "bullet",
+      "text": "All languages Choose your language 中文 Deutsch English Español Français Italiano 한국어 Nederlands 日本語 Português Pусский Polski Get it free Products Featured Developers Product Managers IT professionals Business Teams Leadership Teams Featured Developers Product Managers IT professionals Business Teams Leadership Teams See all apps Featured FEATURED APPS Jira Flexible project management Confluence Collaborative knowledge workspace Jira Service Management High-velocity service delivery ATLASSIAN COLLECTIONS Supercharge teamwork seamlessly Jira • Confluence • Loom • Rovo Optimize strategy and outcomes confidently Focus • Talent • Align Deliver service at high-velocity Jira Service Management • Customer Service Management • Assets • Rovo Ship high-quality software fast Rovo Dev • DX • Pipelines • Bitbucket • Compass POWERED BY Rovo AI-powered apps – driven by your team's knowledge.",
+      "tokens": [
+        "all",
+        "languages",
+        "choose",
+        "your",
+        "language",
+        "deutsch",
+        "english",
+        "espa",
+        "ol",
+        "fran",
+        "ais",
+        "italiano",
+        "nederlands",
+        "portugu",
+        "polski",
+        "get",
+        "free",
+        "products",
+        "featured",
+        "developers",
+        "product",
+        "managers",
+        "professionals",
+        "business",
+        "teams",
+        "leadership",
+        "teams",
+        "featured",
+        "developers",
+        "product",
+        "managers",
+        "professionals",
+        "business",
+        "teams",
+        "leadership",
+        "teams",
+        "see",
+        "all",
+        "apps",
+        "featured",
+        "featured",
+        "apps",
+        "jira",
+        "flexible",
+        "project",
+        "management",
+        "confluence",
+        "collaborative",
+        "knowledge",
+        "workspace",
+        "jira",
+        "service",
+        "management",
+        "high",
+        "velocity",
+        "service",
+        "delivery",
+        "atlassian",
+        "collections",
+        "supercharge",
+        "teamwork",
+        "seamlessly",
+        "jira",
+        "confluence",
+        "loom",
+        "rovo",
+        "optimize",
+        "strategy",
+        "outcomes",
+        "confidently",
+        "focus",
+        "talent",
+        "align",
+        "deliver",
+        "service",
+        "high",
+        "velocity",
+        "jira",
+        "service",
+        "management",
+        "customer",
+        "service",
+        "management",
+        "assets",
+        "rovo",
+        "ship",
+        "high",
+        "quality",
+        "software",
+        "fast",
+        "rovo",
+        "dev",
+        "dx",
+        "pipelines",
+        "bitbucket",
+        "compass",
+        "powered",
+        "rovo",
+        "ai",
+        "powered",
+        "apps",
+        "driven",
+        "your",
+        "team",
+        "knowledge"
+      ]
+    },
+    {
+      "charEnd": 1453,
+      "charStart": 1096,
+      "factId": "hz.web.817c83b27420a11e.fact.3",
+      "kind": "bullet",
+      "text": "Developers Jira Flexible project management Bitbucket Source code and CI/CD Rovo Dev Agentic AI for developers Pipelines Scalable CI/CD automation DX Measure productivity and AI impact Compass Software catalog for teams Ship high-quality software fast Rovo Dev • DX • Pipelines • Bitbucket • Compass Rovo AI-powered apps – driven by your team's knowledge.",
+      "tokens": [
+        "developers",
+        "jira",
+        "flexible",
+        "project",
+        "management",
+        "bitbucket",
+        "source",
+        "code",
+        "ci",
+        "cd",
+        "rovo",
+        "dev",
+        "agentic",
+        "ai",
+        "developers",
+        "pipelines",
+        "scalable",
+        "ci",
+        "cd",
+        "automation",
+        "dx",
+        "measure",
+        "productivity",
+        "ai",
+        "impact",
+        "compass",
+        "software",
+        "catalog",
+        "teams",
+        "ship",
+        "high",
+        "quality",
+        "software",
+        "fast",
+        "rovo",
+        "dev",
+        "dx",
+        "pipelines",
+        "bitbucket",
+        "compass",
+        "rovo",
+        "ai",
+        "powered",
+        "apps",
+        "driven",
+        "your",
+        "team",
+        "knowledge"
+      ]
+    },
+    {
+      "charEnd": 1714,
+      "charStart": 1454,
+      "factId": "hz.web.817c83b27420a11e.fact.4",
+      "kind": "bullet",
+      "text": "Product Managers Jira Product Discovery Capture & prioritize ideas Jira Flexible project management Confluence Knowledge, all in one place Supercharge teamwork seamlessly Jira • Confluence • Loom • Rovo Rovo AI-powered apps – driven by your team's knowledge.",
+      "tokens": [
+        "product",
+        "managers",
+        "jira",
+        "product",
+        "discovery",
+        "capture",
+        "prioritize",
+        "ideas",
+        "jira",
+        "flexible",
+        "project",
+        "management",
+        "confluence",
+        "knowledge",
+        "all",
+        "one",
+        "place",
+        "supercharge",
+        "teamwork",
+        "seamlessly",
+        "jira",
+        "confluence",
+        "loom",
+        "rovo",
+        "rovo",
+        "ai",
+        "powered",
+        "apps",
+        "driven",
+        "your",
+        "team",
+        "knowledge"
+      ]
+    },
+    {
+      "charEnd": 1742,
+      "charStart": 1729,
+      "factId": "hz.web.817c83b27420a11e.fact.5",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 1753,
+      "charStart": 1743,
+      "factId": "hz.web.817c83b27420a11e.fact.6",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 1760,
+      "charStart": 1754,
+      "factId": "hz.web.817c83b27420a11e.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1766,
+      "charStart": 1761,
+      "factId": "hz.web.817c83b27420a11e.fact.8",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 1772,
+      "charStart": 1767,
+      "factId": "hz.web.817c83b27420a11e.fact.9",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 1778,
+      "charStart": 1773,
+      "factId": "hz.web.817c83b27420a11e.fact.10",
+      "kind": "bullet",
+      "text": "may",
+      "tokens": [
+        "may"
+      ]
+    },
+    {
+      "charEnd": 1786,
+      "charStart": 1779,
+      "factId": "hz.web.817c83b27420a11e.fact.11",
+      "kind": "bullet",
+      "text": "third",
+      "tokens": [
+        "third"
+      ]
+    },
+    {
+      "charEnd": 1794,
+      "charStart": 1787,
+      "factId": "hz.web.817c83b27420a11e.fact.12",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 29,
+      "charStart": 1,
+      "headingId": "hz.web.817c83b27420a11e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Privacy Policy | Atlassian"
+    },
+    {
+      "charEnd": 135,
+      "charStart": 125,
+      "headingId": "hz.web.817c83b27420a11e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1727,
+      "charStart": 1716,
+      "headingId": "hz.web.817c83b27420a11e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1806,
+      "charStart": 1796,
+      "headingId": "hz.web.817c83b27420a11e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/817c83b27420a11e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5065,
+        "start": 0
+      }
+    ],
+    "hash": "565c1a2fba94d4fc8ed0d45a47dee375e09ae7d7323ecfe8477170003c99465c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Privacy Policy | Atlassian Close View this page in your language ?",
+      "All languages Choose your language 中文 Deutsch English Español Français Italiano 한국어 Nederlands 日本語 Português Pусский Polski Get it free Products Featured Developers Product Managers IT professionals Business Teams Leadership Teams Featured Developers Product Managers IT professionals Business Teams Leadership Teams See all apps Featured FEATURED APPS Jira Flexible project management Confluence Collaborative knowledge workspace Jira Service Management High-velocity service delivery ATLASSIAN COLLECTIONS Supercharge teamwork seamlessly Jira • Confluence • Loom • Rovo Optimize strategy and outcomes confidently Focus • Talent • Align Deliver service at high-velocity Jira Service Management • Customer Service Management • Assets • Rovo Ship high-quality software fast Rovo Dev • DX • Pipelines • Bitbucket • Compass POWERED BY Rovo AI-powered apps – driven by your team's knowledge.",
+      "Developers Jira Flexible project management Bitbucket Source code and CI/CD Rovo Dev Agentic AI for developers Pipelines Scalable CI/CD automation DX Measure productivity and AI impact Compass Software catalog for teams Ship high-quality software fast Rovo Dev • DX • Pipelines • Bitbucket • Compass Rovo AI-powered apps – driven by your team's knowledge."
+    ],
+    "medium": "Source: https://www.atlassian.com/legal/privacy-policy",
+    "short": "Source: https://www.atlassian.com/legal/privacy-policy",
+    "tokens": [
+      "privacy",
+      "policy",
+      "atlassian",
+      "source",
+      "https",
+      "www",
+      "atlassian",
+      "com",
+      "legal",
+      "privacy",
+      "policy",
+      "source",
+      "https",
+      "www",
+      "atlassian",
+      "com",
+      "legal",
+      "privacy",
+      "policy"
+    ]
+  },
+  "title": "Privacy Policy | Atlassian"
+}

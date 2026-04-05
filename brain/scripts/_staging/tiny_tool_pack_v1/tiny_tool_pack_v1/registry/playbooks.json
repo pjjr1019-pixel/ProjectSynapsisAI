@@ -1,0 +1,35 @@
+{
+  "repo_quick_map": [
+    "shallow_inventory",
+    "extension_heatmap",
+    "entrypoint_candidates",
+    "folder_file_counts",
+    "package_json_files",
+    "readme_files"
+  ],
+  "text_triage": [
+    "count_lines",
+    "extract_headings",
+    "extract_todos",
+    "top_words"
+  ],
+  "json_triage": [
+    "json_file_summary",
+    "json_keys_top_level",
+    "json_value_types"
+  ],
+  "csv_triage": [
+    "csv_header",
+    "csv_row_count",
+    "csv_numeric_columns"
+  ],
+  "safe_text_cleanup": [
+    "create_backup_copy",
+    "trim_trailing_whitespace",
+    "ensure_final_newline"
+  ],
+  "folder_change_tracking": [
+    "folder_snapshot",
+    "compare_folder_snapshots"
+  ]
+}

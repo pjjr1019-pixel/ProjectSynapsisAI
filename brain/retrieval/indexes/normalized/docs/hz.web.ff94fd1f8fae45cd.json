@@ -1,0 +1,410 @@
+{
+  "aliases": [
+    {
+      "alias": "ff94fd1f8fae45cd",
+      "aliasId": "hz.web.ff94fd1f8fae45cd.alias.1",
+      "canonical": "public suffix list - mozillawiki"
+    },
+    {
+      "alias": "public suffix list - mozillawiki",
+      "aliasId": "hz.web.ff94fd1f8fae45cd.alias.2",
+      "canonical": "public suffix list - mozillawiki"
+    },
+    {
+      "alias": "web ff94fd1f8fae45cd",
+      "aliasId": "hz.web.ff94fd1f8fae45cd.alias.3",
+      "canonical": "public suffix list - mozillawiki"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.ff94fd1f8fae45cd",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ff94fd1f8fae45cd.entity.1",
+      "kind": "document",
+      "name": "Public Suffix List - MozillaWiki",
+      "tokens": [
+        "public",
+        "suffix",
+        "list",
+        "mozillawiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.ff94fd1f8fae45cd.entity.2",
+      "kind": "heading",
+      "name": "Public Suffix List - MozillaWiki",
+      "tokens": [
+        "public",
+        "suffix",
+        "list",
+        "mozillawiki"
+      ]
+    },
+    {
+      "entityId": "hz.web.ff94fd1f8fae45cd.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ff94fd1f8fae45cd.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ff94fd1f8fae45cd.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 88,
+      "charStart": 37,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.1",
+      "kind": "summary",
+      "text": "Source: https://wiki.mozilla.org/Public_Suffix_List",
+      "tokens": [
+        "source",
+        "https",
+        "wiki",
+        "mozilla",
+        "org",
+        "public_suffix_list"
+      ]
+    },
+    {
+      "charEnd": 425,
+      "charStart": 140,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.1",
+      "kind": "bullet",
+      "text": "Public Suffix List - MozillaWiki Public Suffix List From MozillaWiki Jump to navigation Jump to search The Public Suffix List (PSL) is an attempt to build a database of Top-Level Domains (TLDs) including the respective registry's policies on domain registrations at different levels.",
+      "tokens": [
+        "public",
+        "suffix",
+        "list",
+        "mozillawiki",
+        "public",
+        "suffix",
+        "list",
+        "mozillawiki",
+        "jump",
+        "navigation",
+        "jump",
+        "search",
+        "public",
+        "suffix",
+        "list",
+        "psl",
+        "attempt",
+        "build",
+        "database",
+        "top",
+        "level",
+        "domains",
+        "tlds",
+        "including",
+        "respective",
+        "registry",
+        "policies",
+        "domain",
+        "registrations",
+        "different",
+        "levels"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 426,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.2",
+      "kind": "bullet",
+      "text": "While the Public Suffix List has no opinion on alternative root systems, the list recognizes as authoritative and complies with ICP-3: A Unique, Authoritative Root for the DNS (ICANN, September 2001), allowing TLDs under the ICANN Root as well as inclusive sub-domain entries, and cookie apexes that comply with ICP-3 in a non-discriminatory manner.",
+      "tokens": [
+        "while",
+        "public",
+        "suffix",
+        "list",
+        "has",
+        "no",
+        "opinion",
+        "alternative",
+        "root",
+        "systems",
+        "list",
+        "recognizes",
+        "authoritative",
+        "complies",
+        "icp",
+        "unique",
+        "authoritative",
+        "root",
+        "dns",
+        "icann",
+        "september",
+        "2001",
+        "allowing",
+        "tlds",
+        "under",
+        "icann",
+        "root",
+        "well",
+        "inclusive",
+        "sub",
+        "domain",
+        "entries",
+        "cookie",
+        "apexes",
+        "comply",
+        "icp",
+        "non",
+        "discriminatory",
+        "manner"
+      ]
+    },
+    {
+      "charEnd": 939,
+      "charStart": 778,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.3",
+      "kind": "bullet",
+      "text": "Entries addition/updates/deletions are put through a loose process of vetting, curation, and validation by the community volunteers who help maintain the list.",
+      "tokens": [
+        "entries",
+        "addition",
+        "updates",
+        "deletions",
+        "put",
+        "through",
+        "loose",
+        "process",
+        "vetting",
+        "curation",
+        "validation",
+        "community",
+        "volunteers",
+        "help",
+        "maintain",
+        "list"
+      ]
+    },
+    {
+      "charEnd": 1340,
+      "charStart": 940,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.4",
+      "kind": "bullet",
+      "text": "Contents 1 Purpose(s) 2 Website 3 Registries 3.1 Outreach to Registries 3.2 ICANN Reviews 3.2.1 The ICANN Office of the CTO (OCTO) 3.2.2 ICANN Security and Stability Advisory Committee (SSAC) 4 Links 4.1 TLD Lists 4.2 Mozilla Bug Reports 4.3 Articles Purpose(s) Previously, browsers used an algorithm which basically only denied setting wide-ranging cookies for top-level domains with no dots (e.g.",
+      "tokens": [
+        "contents",
+        "purpose",
+        "website",
+        "registries",
+        "outreach",
+        "registries",
+        "icann",
+        "reviews",
+        "icann",
+        "office",
+        "cto",
+        "octo",
+        "icann",
+        "security",
+        "stability",
+        "advisory",
+        "committee",
+        "ssac",
+        "links",
+        "tld",
+        "lists",
+        "mozilla",
+        "bug",
+        "reports",
+        "articles",
+        "purpose",
+        "previously",
+        "browsers",
+        "used",
+        "algorithm",
+        "basically",
+        "only",
+        "denied",
+        "setting",
+        "wide",
+        "ranging",
+        "cookies",
+        "top",
+        "level",
+        "domains",
+        "no",
+        "dots"
+      ]
+    },
+    {
+      "charEnd": 1361,
+      "charStart": 1355,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.5",
+      "kind": "bullet",
+      "text": "list",
+      "tokens": [
+        "list"
+      ]
+    },
+    {
+      "charEnd": 1369,
+      "charStart": 1362,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.6",
+      "kind": "bullet",
+      "text": "icann",
+      "tokens": [
+        "icann"
+      ]
+    },
+    {
+      "charEnd": 1377,
+      "charStart": 1370,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.7",
+      "kind": "bullet",
+      "text": "level",
+      "tokens": [
+        "level"
+      ]
+    },
+    {
+      "charEnd": 1386,
+      "charStart": 1378,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.8",
+      "kind": "bullet",
+      "text": "public",
+      "tokens": [
+        "public"
+      ]
+    },
+    {
+      "charEnd": 1395,
+      "charStart": 1387,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.9",
+      "kind": "bullet",
+      "text": "suffix",
+      "tokens": [
+        "suffix"
+      ]
+    },
+    {
+      "charEnd": 1405,
+      "charStart": 1396,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.10",
+      "kind": "bullet",
+      "text": "mozilla",
+      "tokens": [
+        "mozilla"
+      ]
+    },
+    {
+      "charEnd": 1411,
+      "charStart": 1406,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.11",
+      "kind": "bullet",
+      "text": "tld",
+      "tokens": [
+        "tld"
+      ]
+    },
+    {
+      "charEnd": 1421,
+      "charStart": 1412,
+      "factId": "hz.web.ff94fd1f8fae45cd.fact.12",
+      "kind": "bullet",
+      "text": "domains",
+      "tokens": [
+        "domains"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.ff94fd1f8fae45cd.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Public Suffix List - MozillaWiki"
+    },
+    {
+      "charEnd": 138,
+      "charStart": 128,
+      "headingId": "hz.web.ff94fd1f8fae45cd.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1353,
+      "charStart": 1342,
+      "headingId": "hz.web.ff94fd1f8fae45cd.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1433,
+      "charStart": 1423,
+      "headingId": "hz.web.ff94fd1f8fae45cd.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ff94fd1f8fae45cd.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4695,
+        "start": 0
+      }
+    ],
+    "hash": "dd9d81e95a2a0efbea952a1e31d56cafdf78bb540d263ec2b6377dec58e2e1aa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Public Suffix List - MozillaWiki Public Suffix List From MozillaWiki Jump to navigation Jump to search The Public Suffix List (PSL) is an attempt to build a database of Top-Level Domains (TLDs) including the respective registry's policies on domain registrations at different levels.",
+      "While the Public Suffix List has no opinion on alternative root systems, the list recognizes as authoritative and complies with ICP-3: A Unique, Authoritative Root for the DNS (ICANN, September 2001), allowing TLDs under the ICANN Root as well as inclusive sub-domain entries, and cookie apexes that comply with ICP-3 in a non-discriminatory manner.",
+      "Entries addition/updates/deletions are put through a loose process of vetting, curation, and validation by the community volunteers who help maintain the list."
+    ],
+    "medium": "Source: https://wiki.mozilla.org/Public_Suffix_List",
+    "short": "Source: https://wiki.mozilla.org/Public_Suffix_List",
+    "tokens": [
+      "public",
+      "suffix",
+      "list",
+      "mozillawiki",
+      "source",
+      "https",
+      "wiki",
+      "mozilla",
+      "org",
+      "public_suffix_list",
+      "source",
+      "https",
+      "wiki",
+      "mozilla",
+      "org",
+      "public_suffix_list"
+    ]
+  },
+  "title": "Public Suffix List - MozillaWiki"
+}

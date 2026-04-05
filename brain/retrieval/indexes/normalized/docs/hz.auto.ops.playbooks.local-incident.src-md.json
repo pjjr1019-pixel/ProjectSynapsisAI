@@ -1,0 +1,343 @@
+{
+  "aliases": [
+    {
+      "alias": "local incident",
+      "aliasId": "hz.auto.ops.playbooks.local-incident.src-md.alias.1",
+      "canonical": "local incident playbook (offline-first)"
+    },
+    {
+      "alias": "local incident playbook offline-first",
+      "aliasId": "hz.auto.ops.playbooks.local-incident.src-md.alias.2",
+      "canonical": "local incident playbook (offline-first)"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.ops.playbooks.local-incident.src-md",
+  "domain": "ops",
+  "entities": [
+    {
+      "entityId": "hz.auto.ops.playbooks.local-incident.src-md.entity.1",
+      "kind": "document",
+      "name": "Local incident playbook (offline-first)",
+      "tokens": [
+        "local",
+        "incident",
+        "playbook",
+        "offline",
+        "first"
+      ]
+    },
+    {
+      "entityId": "hz.auto.ops.playbooks.local-incident.src-md.entity.2",
+      "kind": "heading",
+      "name": "Local incident playbook (offline-first)",
+      "tokens": [
+        "local",
+        "incident",
+        "playbook",
+        "offline",
+        "first"
+      ]
+    },
+    {
+      "entityId": "hz.auto.ops.playbooks.local-incident.src-md.entity.3",
+      "kind": "heading",
+      "name": "Symptom: app not starting",
+      "tokens": [
+        "symptom",
+        "app",
+        "not",
+        "starting"
+      ]
+    },
+    {
+      "entityId": "hz.auto.ops.playbooks.local-incident.src-md.entity.4",
+      "kind": "heading",
+      "name": "Symptom: retrieval empty",
+      "tokens": [
+        "symptom",
+        "retrieval",
+        "empty"
+      ]
+    },
+    {
+      "entityId": "hz.auto.ops.playbooks.local-incident.src-md.entity.5",
+      "kind": "heading",
+      "name": "Symptom: wrong app knowledge",
+      "tokens": [
+        "symptom",
+        "wrong",
+        "app",
+        "knowledge"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.1",
+      "kind": "summary",
+      "text": "1. Verify Python env and `PYTHONPATH` include `src`. 2. Check logs for import errors; missing optional deps may be gated—see runtime health. 3. Disable perf telemetry env vars if UI is sluggish.",
+      "tokens": [
+        "verify",
+        "python",
+        "env",
+        "pythonpath",
+        "include",
+        "src",
+        "check",
+        "logs",
+        "import",
+        "errors",
+        "missing",
+        "optional",
+        "deps",
+        "may",
+        "gated",
+        "see",
+        "runtime",
+        "health",
+        "disable",
+        "perf",
+        "telemetry",
+        "env",
+        "vars",
+        "if",
+        "ui",
+        "sluggish"
+      ]
+    },
+    {
+      "charEnd": 125,
+      "charStart": 73,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.1",
+      "kind": "bullet",
+      "text": "Verify Python env and `PYTHONPATH` include `src`.",
+      "tokens": [
+        "verify",
+        "python",
+        "env",
+        "pythonpath",
+        "include",
+        "src"
+      ]
+    },
+    {
+      "charEnd": 213,
+      "charStart": 126,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.2",
+      "kind": "bullet",
+      "text": "Check logs for import errors; missing optional deps may be gated—see runtime health.",
+      "tokens": [
+        "check",
+        "logs",
+        "import",
+        "errors",
+        "missing",
+        "optional",
+        "deps",
+        "may",
+        "gated",
+        "see",
+        "runtime",
+        "health"
+      ]
+    },
+    {
+      "charEnd": 267,
+      "charStart": 214,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.3",
+      "kind": "bullet",
+      "text": "Disable perf telemetry env vars if UI is sluggish.",
+      "tokens": [
+        "disable",
+        "perf",
+        "telemetry",
+        "env",
+        "vars",
+        "if",
+        "ui",
+        "sluggish"
+      ]
+    },
+    {
+      "charEnd": 343,
+      "charStart": 298,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.4",
+      "kind": "bullet",
+      "text": "Confirm `brain/MANIFEST.yaml` paths exist.",
+      "tokens": [
+        "confirm",
+        "brain",
+        "manifest",
+        "yaml",
+        "paths",
+        "exist"
+      ]
+    },
+    {
+      "charEnd": 390,
+      "charStart": 344,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.5",
+      "kind": "bullet",
+      "text": "Validate new docs against `brain/SCHEMAS/`.",
+      "tokens": [
+        "validate",
+        "new",
+        "docs",
+        "against",
+        "brain",
+        "schemas"
+      ]
+    },
+    {
+      "charEnd": 431,
+      "charStart": 391,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.6",
+      "kind": "bullet",
+      "text": "Rebuild chunk index if paths changed.",
+      "tokens": [
+        "rebuild",
+        "chunk",
+        "index",
+        "if",
+        "paths",
+        "changed"
+      ]
+    },
+    {
+      "charEnd": 535,
+      "charStart": 466,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.7",
+      "kind": "bullet",
+      "text": "Check `registry/apps.yaml` default modules for the active surface.",
+      "tokens": [
+        "check",
+        "registry",
+        "apps",
+        "yaml",
+        "default",
+        "modules",
+        "active",
+        "surface"
+      ]
+    },
+    {
+      "charEnd": 595,
+      "charStart": 536,
+      "factId": "hz.auto.ops.playbooks.local-incident.src-md.fact.8",
+      "kind": "bullet",
+      "text": "Ensure `canonical/` vs `draft/` flags match environment.",
+      "tokens": [
+        "ensure",
+        "canonical",
+        "vs",
+        "draft",
+        "flags",
+        "match",
+        "environment"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 41,
+      "charStart": 0,
+      "headingId": "hz.auto.ops.playbooks.local-incident.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Local incident playbook (offline-first)"
+    },
+    {
+      "charEnd": 71,
+      "charStart": 43,
+      "headingId": "hz.auto.ops.playbooks.local-incident.src-md.heading.2",
+      "level": 2,
+      "line": 3,
+      "text": "Symptom: app not starting"
+    },
+    {
+      "charEnd": 296,
+      "charStart": 269,
+      "headingId": "hz.auto.ops.playbooks.local-incident.src-md.heading.3",
+      "level": 2,
+      "line": 9,
+      "text": "Symptom: retrieval empty"
+    },
+    {
+      "charEnd": 464,
+      "charStart": 433,
+      "headingId": "hz.auto.ops.playbooks.local-incident.src-md.heading.4",
+      "level": 2,
+      "line": 15,
+      "text": "Symptom: wrong app knowledge"
+    }
+  ],
+  "moduleIds": [],
+  "path": "ops/playbooks/local-incident.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 614,
+        "start": 0
+      }
+    ],
+    "hash": "abc5d3eca15432a4844aae8aac7f78e89282dbf408945837f29056594fc98da1",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Verify Python env and `PYTHONPATH` include `src`.",
+      "Check logs for import errors; missing optional deps may be gated—see runtime health.",
+      "Disable perf telemetry env vars if UI is sluggish."
+    ],
+    "medium": "1. Verify Python env and `PYTHONPATH` include `src`. 2.",
+    "short": "1. Verify Python env and `PYTHONPATH` include `src`. 2. Check logs for import errors; missing optional deps may be gated—see runtime health. 3. Disable perf telemetry env vars if UI is sluggish.",
+    "tokens": [
+      "local",
+      "incident",
+      "playbook",
+      "offline",
+      "first",
+      "verify",
+      "python",
+      "env",
+      "pythonpath",
+      "include",
+      "src",
+      "check",
+      "logs",
+      "import",
+      "errors",
+      "missing",
+      "optional",
+      "deps",
+      "may",
+      "gated",
+      "see",
+      "runtime",
+      "health",
+      "disable",
+      "perf",
+      "telemetry",
+      "env",
+      "vars",
+      "if",
+      "ui",
+      "sluggish",
+      "verify",
+      "python",
+      "env",
+      "pythonpath",
+      "include",
+      "src"
+    ]
+  },
+  "title": "Local incident playbook (offline-first)"
+}

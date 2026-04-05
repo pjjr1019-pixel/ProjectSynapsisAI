@@ -1,0 +1,339 @@
+{
+  "aliases": [
+    {
+      "alias": "91d9d2afba478f4c",
+      "aliasId": "hz.web.91d9d2afba478f4c.alias.1",
+      "canonical": "about | binarydigit.net"
+    },
+    {
+      "alias": "about binarydigit.net",
+      "aliasId": "hz.web.91d9d2afba478f4c.alias.2",
+      "canonical": "about | binarydigit.net"
+    },
+    {
+      "alias": "web 91d9d2afba478f4c",
+      "aliasId": "hz.web.91d9d2afba478f4c.alias.3",
+      "canonical": "about | binarydigit.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.62,
+  "docId": "hz.web.91d9d2afba478f4c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.91d9d2afba478f4c.entity.1",
+      "kind": "document",
+      "name": "About | BinaryDigit.net",
+      "tokens": [
+        "about",
+        "binarydigit",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.91d9d2afba478f4c.entity.2",
+      "kind": "heading",
+      "name": "About | BinaryDigit.net",
+      "tokens": [
+        "about",
+        "binarydigit",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.91d9d2afba478f4c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.91d9d2afba478f4c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.91d9d2afba478f4c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 66,
+      "charStart": 28,
+      "factId": "hz.web.91d9d2afba478f4c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://binarydigit.net/about/",
+      "tokens": [
+        "source",
+        "https",
+        "binarydigit",
+        "net",
+        "about"
+      ]
+    },
+    {
+      "charEnd": 294,
+      "charStart": 118,
+      "factId": "hz.web.91d9d2afba478f4c.fact.1",
+      "kind": "bullet",
+      "text": "About | BinaryDigit.net BinaryDigit.net About Posts Art Photos Status Blogroll Guestbook Links About me My name is Chas, but I go by the username \"BinaryDigit\" or \"B\" online.",
+      "tokens": [
+        "about",
+        "binarydigit",
+        "net",
+        "binarydigit",
+        "net",
+        "about",
+        "posts",
+        "art",
+        "photos",
+        "status",
+        "blogroll",
+        "guestbook",
+        "links",
+        "about",
+        "name",
+        "chas",
+        "but",
+        "go",
+        "username",
+        "binarydigit",
+        "online"
+      ]
+    },
+    {
+      "charEnd": 509,
+      "charStart": 295,
+      "factId": "hz.web.91d9d2afba478f4c.fact.2",
+      "kind": "bullet",
+      "text": "I like to tinker with code on my personal websites, live stream a variety of games, music, art, co-working, practice photography and sketching art in mixed media (digital and paper) and love to travel when I can.",
+      "tokens": [
+        "like",
+        "tinker",
+        "code",
+        "personal",
+        "websites",
+        "live",
+        "stream",
+        "variety",
+        "games",
+        "music",
+        "art",
+        "co",
+        "working",
+        "practice",
+        "photography",
+        "sketching",
+        "art",
+        "mixed",
+        "media",
+        "digital",
+        "paper",
+        "love",
+        "travel"
+      ]
+    },
+    {
+      "charEnd": 613,
+      "charStart": 510,
+      "factId": "hz.web.91d9d2afba478f4c.fact.3",
+      "kind": "bullet",
+      "text": "Welcome to my site where I write about my experiences in tech, creative projects, travel and hobbies.",
+      "tokens": [
+        "welcome",
+        "site",
+        "write",
+        "about",
+        "experiences",
+        "tech",
+        "creative",
+        "projects",
+        "travel",
+        "hobbies"
+      ]
+    },
+    {
+      "charEnd": 689,
+      "charStart": 614,
+      "factId": "hz.web.91d9d2afba478f4c.fact.4",
+      "kind": "bullet",
+      "text": "You can find all of my other works and links on my omg.lol profile page .",
+      "tokens": [
+        "find",
+        "all",
+        "other",
+        "works",
+        "links",
+        "omg",
+        "lol",
+        "profile",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 711,
+      "charStart": 704,
+      "factId": "hz.web.91d9d2afba478f4c.fact.5",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 717,
+      "charStart": 712,
+      "factId": "hz.web.91d9d2afba478f4c.fact.6",
+      "kind": "bullet",
+      "text": "via",
+      "tokens": [
+        "via"
+      ]
+    },
+    {
+      "charEnd": 723,
+      "charStart": 718,
+      "factId": "hz.web.91d9d2afba478f4c.fact.7",
+      "kind": "bullet",
+      "text": "art",
+      "tokens": [
+        "art"
+      ]
+    },
+    {
+      "charEnd": 730,
+      "charStart": 724,
+      "factId": "hz.web.91d9d2afba478f4c.fact.8",
+      "kind": "bullet",
+      "text": "bear",
+      "tokens": [
+        "bear"
+      ]
+    },
+    {
+      "charEnd": 744,
+      "charStart": 731,
+      "factId": "hz.web.91d9d2afba478f4c.fact.9",
+      "kind": "bullet",
+      "text": "binarydigit",
+      "tokens": [
+        "binarydigit"
+      ]
+    },
+    {
+      "charEnd": 752,
+      "charStart": 745,
+      "factId": "hz.web.91d9d2afba478f4c.fact.10",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 758,
+      "charStart": 753,
+      "factId": "hz.web.91d9d2afba478f4c.fact.11",
+      "kind": "bullet",
+      "text": "net",
+      "tokens": [
+        "net"
+      ]
+    },
+    {
+      "charEnd": 765,
+      "charStart": 759,
+      "factId": "hz.web.91d9d2afba478f4c.fact.12",
+      "kind": "bullet",
+      "text": "page",
+      "tokens": [
+        "page"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.91d9d2afba478f4c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "About | BinaryDigit.net"
+    },
+    {
+      "charEnd": 116,
+      "charStart": 106,
+      "headingId": "hz.web.91d9d2afba478f4c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 702,
+      "charStart": 691,
+      "headingId": "hz.web.91d9d2afba478f4c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 777,
+      "charStart": 767,
+      "headingId": "hz.web.91d9d2afba478f4c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/91d9d2afba478f4c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2234,
+        "start": 0
+      }
+    ],
+    "hash": "2ef0c5541110d373adca49e94617c4792330fc00d35974f412131d2e37525800",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "About | BinaryDigit.net BinaryDigit.net About Posts Art Photos Status Blogroll Guestbook Links About me My name is Chas, but I go by the username \"BinaryDigit\" or \"B\" online.",
+      "I like to tinker with code on my personal websites, live stream a variety of games, music, art, co-working, practice photography and sketching art in mixed media (digital and paper) and love to travel when I can.",
+      "Welcome to my site where I write about my experiences in tech, creative projects, travel and hobbies."
+    ],
+    "medium": "Source: https://binarydigit.net/about/",
+    "short": "Source: https://binarydigit.net/about/",
+    "tokens": [
+      "about",
+      "binarydigit",
+      "net",
+      "source",
+      "https",
+      "binarydigit",
+      "net",
+      "about",
+      "source",
+      "https",
+      "binarydigit",
+      "net",
+      "about"
+    ]
+  },
+  "title": "About | BinaryDigit.net"
+}

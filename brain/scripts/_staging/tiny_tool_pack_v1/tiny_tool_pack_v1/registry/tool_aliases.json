@@ -1,0 +1,1617 @@
+{
+  "show files in folder": [
+    "list_files"
+  ],
+  "list_files": [
+    "list_files"
+  ],
+  "inventory": [
+    "list_files",
+    "shallow_inventory"
+  ],
+  "files": [
+    "list_files",
+    "count_files",
+    "largest_files",
+    "newest_files",
+    "oldest_files",
+    "files_by_extension",
+    "extension_breakdown",
+    "zero_byte_files",
+    "file_sizes",
+    "recent_files",
+    "merge_text_files"
+  ],
+  "list files": [
+    "list_files"
+  ],
+  "list": [
+    "list_files",
+    "list_directories"
+  ],
+  "show folders": [
+    "list_directories"
+  ],
+  "directories": [
+    "list_directories",
+    "count_directories",
+    "empty_directories"
+  ],
+  "list directories": [
+    "list_directories"
+  ],
+  "list_directories": [
+    "list_directories"
+  ],
+  "folders": [
+    "list_directories",
+    "tree_preview",
+    "folder_file_counts",
+    "folder_size_estimate"
+  ],
+  "count": [
+    "count_files",
+    "count_directories",
+    "count_lines",
+    "count_words",
+    "count_chars",
+    "count_comment_lines",
+    "json_object_count"
+  ],
+  "count files": [
+    "count_files"
+  ],
+  "count_files": [
+    "count_files"
+  ],
+  "count_directories": [
+    "count_directories"
+  ],
+  "count directories": [
+    "count_directories"
+  ],
+  "count folders": [
+    "count_directories"
+  ],
+  "tree_preview": [
+    "tree_preview"
+  ],
+  "tree": [
+    "tree_preview"
+  ],
+  "tree preview": [
+    "tree_preview"
+  ],
+  "preview structure": [
+    "tree_preview"
+  ],
+  "show folder tree": [
+    "tree_preview"
+  ],
+  "preview": [
+    "tree_preview"
+  ],
+  "size": [
+    "largest_files",
+    "file_sizes",
+    "folder_size_estimate",
+    "disk_usage_estimate"
+  ],
+  "biggest files": [
+    "largest_files"
+  ],
+  "largest files": [
+    "largest_files"
+  ],
+  "largest": [
+    "largest_files"
+  ],
+  "largest_files": [
+    "largest_files"
+  ],
+  "recent": [
+    "newest_files",
+    "recent_files"
+  ],
+  "mtime": [
+    "newest_files",
+    "oldest_files",
+    "recent_files",
+    "file_mtime_info"
+  ],
+  "recently modified files": [
+    "newest_files"
+  ],
+  "newest_files": [
+    "newest_files"
+  ],
+  "newest files": [
+    "newest_files"
+  ],
+  "oldest files": [
+    "oldest_files"
+  ],
+  "oldest_files": [
+    "oldest_files"
+  ],
+  "oldest": [
+    "oldest_files"
+  ],
+  "files by extension": [
+    "files_by_extension"
+  ],
+  "find js files": [
+    "files_by_extension"
+  ],
+  "extension": [
+    "files_by_extension",
+    "extension_breakdown",
+    "file_extension"
+  ],
+  "files_by_extension": [
+    "files_by_extension"
+  ],
+  "filter": [
+    "files_by_extension"
+  ],
+  "extension_breakdown": [
+    "extension_breakdown"
+  ],
+  "count file types": [
+    "extension_breakdown"
+  ],
+  "extension breakdown": [
+    "extension_breakdown"
+  ],
+  "stats": [
+    "extension_breakdown",
+    "line_length_stats",
+    "json_string_length_stats"
+  ],
+  "empty directories": [
+    "empty_directories"
+  ],
+  "empty_directories": [
+    "empty_directories"
+  ],
+  "find empty folders": [
+    "empty_directories"
+  ],
+  "empty": [
+    "empty_directories",
+    "zero_byte_files"
+  ],
+  "zero-byte": [
+    "zero_byte_files"
+  ],
+  "zero_byte_files": [
+    "zero_byte_files"
+  ],
+  "zero byte files": [
+    "zero_byte_files"
+  ],
+  "find empty files": [
+    "zero_byte_files"
+  ],
+  "duplicate filenames": [
+    "duplicate_filenames"
+  ],
+  "same filename in different folders": [
+    "duplicate_filenames"
+  ],
+  "duplicates": [
+    "duplicate_filenames"
+  ],
+  "duplicate_filenames": [
+    "duplicate_filenames"
+  ],
+  "duplicate file names": [
+    "duplicate_filenames"
+  ],
+  "filenames": [
+    "duplicate_filenames"
+  ],
+  "exists": [
+    "path_exists"
+  ],
+  "path_exists": [
+    "path_exists"
+  ],
+  "does path exist": [
+    "path_exists"
+  ],
+  "path": [
+    "path_exists",
+    "path_parts",
+    "normalize_path",
+    "relative_path",
+    "absolute_path",
+    "common_path_prefix",
+    "path_depth",
+    "parent_path",
+    "path_compare",
+    "join_paths",
+    "file_extension"
+  ],
+  "check": [
+    "path_exists"
+  ],
+  "path exists": [
+    "path_exists"
+  ],
+  "file sizes": [
+    "file_sizes"
+  ],
+  "show file sizes": [
+    "file_sizes"
+  ],
+  "file_sizes": [
+    "file_sizes"
+  ],
+  "recent_files": [
+    "recent_files"
+  ],
+  "recent files": [
+    "recent_files"
+  ],
+  "files from last 7 days": [
+    "recent_files"
+  ],
+  "hidden_files": [
+    "hidden_files"
+  ],
+  "find hidden files": [
+    "hidden_files"
+  ],
+  "hidden files": [
+    "hidden_files"
+  ],
+  "hidden": [
+    "hidden_files"
+  ],
+  "dotfiles": [
+    "hidden_files"
+  ],
+  "paths": [
+    "long_paths",
+    "json_key_paths"
+  ],
+  "find long paths": [
+    "long_paths"
+  ],
+  "long paths": [
+    "long_paths"
+  ],
+  "long_paths": [
+    "long_paths"
+  ],
+  "long": [
+    "long_paths"
+  ],
+  "top level inventory": [
+    "shallow_inventory"
+  ],
+  "shallow_inventory": [
+    "shallow_inventory"
+  ],
+  "top-level": [
+    "shallow_inventory"
+  ],
+  "shallow inventory": [
+    "shallow_inventory"
+  ],
+  "search": [
+    "file_name_search",
+    "json_key_search",
+    "json_value_search",
+    "registry_search"
+  ],
+  "file name search": [
+    "file_name_search"
+  ],
+  "find files named config": [
+    "file_name_search"
+  ],
+  "file_name_search": [
+    "file_name_search"
+  ],
+  "search file names": [
+    "file_name_search"
+  ],
+  "filename": [
+    "file_name_search",
+    "sanitize_filename"
+  ],
+  "path_parts": [
+    "path_parts"
+  ],
+  "split path": [
+    "path_parts"
+  ],
+  "parts": [
+    "path_parts"
+  ],
+  "path parts": [
+    "path_parts"
+  ],
+  "normalize_path": [
+    "normalize_path"
+  ],
+  "normalize path": [
+    "normalize_path"
+  ],
+  "normalize": [
+    "normalize_path",
+    "normalize_line_endings"
+  ],
+  "relative_path": [
+    "relative_path"
+  ],
+  "relative": [
+    "relative_path"
+  ],
+  "relative path": [
+    "relative_path"
+  ],
+  "absolute_path": [
+    "absolute_path"
+  ],
+  "absolute path": [
+    "absolute_path"
+  ],
+  "absolute": [
+    "absolute_path"
+  ],
+  "common path prefix": [
+    "common_path_prefix"
+  ],
+  "common": [
+    "common_path_prefix"
+  ],
+  "common parent path": [
+    "common_path_prefix"
+  ],
+  "common_path_prefix": [
+    "common_path_prefix"
+  ],
+  "path depth": [
+    "path_depth"
+  ],
+  "depth": [
+    "path_depth"
+  ],
+  "path_depth": [
+    "path_depth"
+  ],
+  "parent folder": [
+    "parent_path"
+  ],
+  "parent": [
+    "parent_path"
+  ],
+  "parent_path": [
+    "parent_path"
+  ],
+  "parent path": [
+    "parent_path"
+  ],
+  "path compare": [
+    "path_compare"
+  ],
+  "path_compare": [
+    "path_compare"
+  ],
+  "compare": [
+    "path_compare",
+    "compare_folder_snapshots"
+  ],
+  "compare two paths": [
+    "path_compare"
+  ],
+  "join_paths": [
+    "join_paths"
+  ],
+  "join": [
+    "join_paths"
+  ],
+  "join path segments": [
+    "join_paths"
+  ],
+  "join paths": [
+    "join_paths"
+  ],
+  "sanitize": [
+    "sanitize_filename"
+  ],
+  "sanitize filename": [
+    "sanitize_filename"
+  ],
+  "sanitize_filename": [
+    "sanitize_filename"
+  ],
+  "what is the file extension": [
+    "file_extension"
+  ],
+  "file extension": [
+    "file_extension"
+  ],
+  "file_extension": [
+    "file_extension"
+  ],
+  "basename_dirname": [
+    "basename_dirname"
+  ],
+  "basename": [
+    "basename_dirname",
+    "duplicate_basename_report"
+  ],
+  "basename dirname": [
+    "basename_dirname"
+  ],
+  "dirname": [
+    "basename_dirname"
+  ],
+  "count lines": [
+    "count_lines"
+  ],
+  "lines": [
+    "count_lines",
+    "count_comment_lines",
+    "longest_lines",
+    "line_length_stats",
+    "first_n_lines",
+    "last_n_lines",
+    "sort_lines",
+    "dedupe_lines"
+  ],
+  "count_lines": [
+    "count_lines"
+  ],
+  "text": [
+    "count_lines",
+    "count_words",
+    "count_chars",
+    "count_blank_lines",
+    "extract_json_like_keys",
+    "write_text_file",
+    "append_text_file",
+    "prepend_text_file",
+    "replace_literal_in_file",
+    "hash_text_sha256"
+  ],
+  "count_words": [
+    "count_words"
+  ],
+  "count words": [
+    "count_words"
+  ],
+  "words": [
+    "count_words",
+    "top_words",
+    "unique_words"
+  ],
+  "count_chars": [
+    "count_chars"
+  ],
+  "chars": [
+    "count_chars"
+  ],
+  "count chars": [
+    "count_chars"
+  ],
+  "count characters": [
+    "count_chars"
+  ],
+  "blank lines": [
+    "count_blank_lines"
+  ],
+  "count_blank_lines": [
+    "count_blank_lines"
+  ],
+  "count blank lines": [
+    "count_blank_lines"
+  ],
+  "comments": [
+    "count_comment_lines"
+  ],
+  "count_comment_lines": [
+    "count_comment_lines"
+  ],
+  "count comment lines": [
+    "count_comment_lines"
+  ],
+  "todo": [
+    "extract_todos"
+  ],
+  "extract_todos": [
+    "extract_todos"
+  ],
+  "extract todos": [
+    "extract_todos"
+  ],
+  "extract": [
+    "extract_todos",
+    "extract_fixmes",
+    "extract_urls",
+    "extract_emails",
+    "extract_numbers"
+  ],
+  "fixme": [
+    "extract_fixmes"
+  ],
+  "extract_fixmes": [
+    "extract_fixmes"
+  ],
+  "extract fixmes": [
+    "extract_fixmes"
+  ],
+  "markdown": [
+    "extract_headings",
+    "extract_markdown_links"
+  ],
+  "headings": [
+    "extract_headings"
+  ],
+  "extract_headings": [
+    "extract_headings"
+  ],
+  "extract headings": [
+    "extract_headings"
+  ],
+  "extract_markdown_links": [
+    "extract_markdown_links"
+  ],
+  "extract markdown links": [
+    "extract_markdown_links"
+  ],
+  "links": [
+    "extract_markdown_links"
+  ],
+  "extract_urls": [
+    "extract_urls"
+  ],
+  "urls": [
+    "extract_urls"
+  ],
+  "extract urls": [
+    "extract_urls"
+  ],
+  "extract_emails": [
+    "extract_emails"
+  ],
+  "extract emails": [
+    "extract_emails"
+  ],
+  "emails": [
+    "extract_emails"
+  ],
+  "extract_numbers": [
+    "extract_numbers"
+  ],
+  "extract numbers": [
+    "extract_numbers"
+  ],
+  "numbers": [
+    "extract_numbers"
+  ],
+  "frequency": [
+    "top_words"
+  ],
+  "top_words": [
+    "top_words"
+  ],
+  "top words": [
+    "top_words"
+  ],
+  "unique words": [
+    "unique_words"
+  ],
+  "unique": [
+    "unique_words",
+    "csv_unique_count_for_column"
+  ],
+  "unique_words": [
+    "unique_words"
+  ],
+  "longest_lines": [
+    "longest_lines"
+  ],
+  "longest": [
+    "longest_lines"
+  ],
+  "longest lines": [
+    "longest_lines"
+  ],
+  "line_length_stats": [
+    "line_length_stats"
+  ],
+  "line length stats": [
+    "line_length_stats"
+  ],
+  "first_n_lines": [
+    "first_n_lines"
+  ],
+  "first n lines": [
+    "first_n_lines"
+  ],
+  "first 20 lines": [
+    "first_n_lines"
+  ],
+  "head": [
+    "first_n_lines"
+  ],
+  "tail": [
+    "last_n_lines"
+  ],
+  "last n lines": [
+    "last_n_lines"
+  ],
+  "last 20 lines": [
+    "last_n_lines"
+  ],
+  "last_n_lines": [
+    "last_n_lines"
+  ],
+  "grep literal": [
+    "grep_literal"
+  ],
+  "literal": [
+    "grep_literal"
+  ],
+  "grep": [
+    "grep_literal",
+    "grep_regex"
+  ],
+  "grep_literal": [
+    "grep_literal"
+  ],
+  "find string in file": [
+    "grep_literal"
+  ],
+  "regex": [
+    "grep_regex"
+  ],
+  "regex search in file": [
+    "grep_regex"
+  ],
+  "grep regex": [
+    "grep_regex"
+  ],
+  "grep_regex": [
+    "grep_regex"
+  ],
+  "imports": [
+    "extract_import_lines",
+    "import_summary_js",
+    "import_summary_py"
+  ],
+  "code": [
+    "extract_import_lines",
+    "extract_export_lines"
+  ],
+  "extract_import_lines": [
+    "extract_import_lines"
+  ],
+  "extract import lines": [
+    "extract_import_lines"
+  ],
+  "extract export lines": [
+    "extract_export_lines"
+  ],
+  "extract_export_lines": [
+    "extract_export_lines"
+  ],
+  "exports": [
+    "extract_export_lines"
+  ],
+  "extract function names": [
+    "extract_function_names"
+  ],
+  "functions": [
+    "extract_function_names"
+  ],
+  "symbols": [
+    "extract_function_names",
+    "extract_class_names"
+  ],
+  "extract_function_names": [
+    "extract_function_names"
+  ],
+  "classes": [
+    "extract_class_names"
+  ],
+  "extract class names": [
+    "extract_class_names"
+  ],
+  "extract_class_names": [
+    "extract_class_names"
+  ],
+  "extract env keys": [
+    "extract_env_keys"
+  ],
+  "keys": [
+    "extract_env_keys",
+    "extract_json_like_keys",
+    "json_keys_top_level",
+    "json_key_search"
+  ],
+  "extract_env_keys": [
+    "extract_env_keys"
+  ],
+  "env": [
+    "extract_env_keys",
+    "env_example_files",
+    "env_var_names"
+  ],
+  "json": [
+    "extract_json_like_keys",
+    "json_keys_top_level",
+    "json_key_paths",
+    "json_value_types",
+    "json_array_lengths",
+    "json_schema_guess",
+    "json_pretty_print",
+    "json_minify",
+    "json_sort_keys",
+    "json_key_search",
+    "json_value_search",
+    "json_file_summary",
+    "json_numeric_fields",
+    "json_boolean_fields",
+    "json_null_fields",
+    "json_string_length_stats",
+    "json_object_count"
+  ],
+  "extract json-like keys": [
+    "extract_json_like_keys"
+  ],
+  "extract json keys from text": [
+    "extract_json_like_keys"
+  ],
+  "extract_json_like_keys": [
+    "extract_json_like_keys"
+  ],
+  "package.json": [
+    "package_json_files",
+    "package_json_scripts"
+  ],
+  "package_json_files": [
+    "package_json_files"
+  ],
+  "node": [
+    "package_json_files",
+    "node_runtime_info"
+  ],
+  "find package.json files": [
+    "package_json_files"
+  ],
+  "repo": [
+    "package_json_files",
+    "tsconfig_files",
+    "pyproject_files",
+    "requirements_files",
+    "docker_files",
+    "readme_files",
+    "test_file_candidates",
+    "source_file_candidates",
+    "entrypoint_candidates",
+    "extension_heatmap",
+    "folder_file_counts",
+    "folder_size_estimate",
+    "import_summary_js",
+    "import_summary_py",
+    "dependency_mentions",
+    "package_json_scripts",
+    "env_example_files",
+    "config_file_candidates",
+    "route_file_candidates",
+    "service_file_candidates",
+    "component_file_candidates",
+    "duplicate_basename_report"
+  ],
+  "package.json files": [
+    "package_json_files"
+  ],
+  "tsconfig files": [
+    "tsconfig_files"
+  ],
+  "tsconfig_files": [
+    "tsconfig_files"
+  ],
+  "typescript": [
+    "tsconfig_files"
+  ],
+  "find tsconfig files": [
+    "tsconfig_files"
+  ],
+  "tsconfig": [
+    "tsconfig_files"
+  ],
+  "pyproject files": [
+    "pyproject_files"
+  ],
+  "pyproject_files": [
+    "pyproject_files"
+  ],
+  "find pyproject files": [
+    "pyproject_files"
+  ],
+  "pyproject": [
+    "pyproject_files"
+  ],
+  "python": [
+    "pyproject_files",
+    "requirements_files",
+    "import_summary_py"
+  ],
+  "requirements files": [
+    "requirements_files"
+  ],
+  "requirements_files": [
+    "requirements_files"
+  ],
+  "requirements": [
+    "requirements_files"
+  ],
+  "find requirements files": [
+    "requirements_files"
+  ],
+  "docker_files": [
+    "docker_files"
+  ],
+  "docker": [
+    "docker_files"
+  ],
+  "docker files": [
+    "docker_files"
+  ],
+  "find docker files": [
+    "docker_files"
+  ],
+  "readme": [
+    "readme_files"
+  ],
+  "readme_files": [
+    "readme_files"
+  ],
+  "readme files": [
+    "readme_files"
+  ],
+  "docs": [
+    "readme_files"
+  ],
+  "find readmes": [
+    "readme_files"
+  ],
+  "tests": [
+    "test_file_candidates"
+  ],
+  "test file candidates": [
+    "test_file_candidates"
+  ],
+  "find test files": [
+    "test_file_candidates"
+  ],
+  "test_file_candidates": [
+    "test_file_candidates"
+  ],
+  "find source files": [
+    "source_file_candidates"
+  ],
+  "source_file_candidates": [
+    "source_file_candidates"
+  ],
+  "source file candidates": [
+    "source_file_candidates"
+  ],
+  "source": [
+    "source_file_candidates"
+  ],
+  "find entrypoints": [
+    "entrypoint_candidates"
+  ],
+  "entrypoint": [
+    "entrypoint_candidates"
+  ],
+  "entrypoint candidates": [
+    "entrypoint_candidates"
+  ],
+  "entrypoint_candidates": [
+    "entrypoint_candidates"
+  ],
+  "main": [
+    "entrypoint_candidates"
+  ],
+  "extension_heatmap": [
+    "extension_heatmap"
+  ],
+  "repo file type breakdown": [
+    "extension_heatmap"
+  ],
+  "extensions": [
+    "extension_heatmap"
+  ],
+  "extension heatmap": [
+    "extension_heatmap"
+  ],
+  "heatmap": [
+    "extension_heatmap"
+  ],
+  "folder_file_counts": [
+    "folder_file_counts"
+  ],
+  "counts": [
+    "folder_file_counts"
+  ],
+  "folder file counts": [
+    "folder_file_counts"
+  ],
+  "count files per folder": [
+    "folder_file_counts"
+  ],
+  "folder sizes": [
+    "folder_size_estimate"
+  ],
+  "folder size estimate": [
+    "folder_size_estimate"
+  ],
+  "folder_size_estimate": [
+    "folder_size_estimate"
+  ],
+  "import_summary_js": [
+    "import_summary_js"
+  ],
+  "js": [
+    "import_summary_js"
+  ],
+  "summarize js imports": [
+    "import_summary_js"
+  ],
+  "import summary js": [
+    "import_summary_js"
+  ],
+  "import summary py": [
+    "import_summary_py"
+  ],
+  "import_summary_py": [
+    "import_summary_py"
+  ],
+  "summarize python imports": [
+    "import_summary_py"
+  ],
+  "dependency": [
+    "dependency_mentions"
+  ],
+  "dependency_mentions": [
+    "dependency_mentions"
+  ],
+  "mentions": [
+    "dependency_mentions"
+  ],
+  "dependency mentions": [
+    "dependency_mentions"
+  ],
+  "package.json scripts": [
+    "package_json_scripts"
+  ],
+  "extract package.json scripts": [
+    "package_json_scripts"
+  ],
+  "scripts": [
+    "package_json_scripts"
+  ],
+  "package_json_scripts": [
+    "package_json_scripts"
+  ],
+  "find env example files": [
+    "env_example_files"
+  ],
+  "env_example_files": [
+    "env_example_files"
+  ],
+  "env example files": [
+    "env_example_files"
+  ],
+  "config": [
+    "config_file_candidates"
+  ],
+  "config_file_candidates": [
+    "config_file_candidates"
+  ],
+  "find config files": [
+    "config_file_candidates"
+  ],
+  "config file candidates": [
+    "config_file_candidates"
+  ],
+  "route_file_candidates": [
+    "route_file_candidates"
+  ],
+  "route file candidates": [
+    "route_file_candidates"
+  ],
+  "routes": [
+    "route_file_candidates"
+  ],
+  "find route files": [
+    "route_file_candidates"
+  ],
+  "service file candidates": [
+    "service_file_candidates"
+  ],
+  "services": [
+    "service_file_candidates"
+  ],
+  "service_file_candidates": [
+    "service_file_candidates"
+  ],
+  "find service files": [
+    "service_file_candidates"
+  ],
+  "find component files": [
+    "component_file_candidates"
+  ],
+  "component_file_candidates": [
+    "component_file_candidates"
+  ],
+  "component file candidates": [
+    "component_file_candidates"
+  ],
+  "components": [
+    "component_file_candidates"
+  ],
+  "ui": [
+    "component_file_candidates"
+  ],
+  "duplicate_basename_report": [
+    "duplicate_basename_report"
+  ],
+  "duplicate basename report": [
+    "duplicate_basename_report"
+  ],
+  "duplicate": [
+    "duplicate_basename_report"
+  ],
+  "duplicate basenames": [
+    "duplicate_basename_report"
+  ],
+  "json_keys_top_level": [
+    "json_keys_top_level"
+  ],
+  "json top level keys": [
+    "json_keys_top_level"
+  ],
+  "json keys top level": [
+    "json_keys_top_level"
+  ],
+  "json key paths": [
+    "json_key_paths"
+  ],
+  "json_key_paths": [
+    "json_key_paths"
+  ],
+  "types": [
+    "json_value_types"
+  ],
+  "json_value_types": [
+    "json_value_types"
+  ],
+  "json value types": [
+    "json_value_types"
+  ],
+  "json array lengths": [
+    "json_array_lengths"
+  ],
+  "json_array_lengths": [
+    "json_array_lengths"
+  ],
+  "arrays": [
+    "json_array_lengths"
+  ],
+  "guess json schema": [
+    "json_schema_guess"
+  ],
+  "json_schema_guess": [
+    "json_schema_guess"
+  ],
+  "json schema guess": [
+    "json_schema_guess"
+  ],
+  "schema": [
+    "json_schema_guess"
+  ],
+  "pretty print json": [
+    "json_pretty_print"
+  ],
+  "json_pretty_print": [
+    "json_pretty_print"
+  ],
+  "json pretty print": [
+    "json_pretty_print"
+  ],
+  "format": [
+    "json_pretty_print",
+    "ensure_final_newline"
+  ],
+  "minify json": [
+    "json_minify"
+  ],
+  "json minify": [
+    "json_minify"
+  ],
+  "minify": [
+    "json_minify"
+  ],
+  "json_minify": [
+    "json_minify"
+  ],
+  "json sort keys": [
+    "json_sort_keys"
+  ],
+  "sort json keys": [
+    "json_sort_keys"
+  ],
+  "sort keys": [
+    "json_sort_keys"
+  ],
+  "json_sort_keys": [
+    "json_sort_keys"
+  ],
+  "json key search": [
+    "json_key_search"
+  ],
+  "find json keys": [
+    "json_key_search"
+  ],
+  "json_key_search": [
+    "json_key_search"
+  ],
+  "values": [
+    "json_value_search"
+  ],
+  "find value in json": [
+    "json_value_search"
+  ],
+  "json_value_search": [
+    "json_value_search"
+  ],
+  "json value search": [
+    "json_value_search"
+  ],
+  "json file summary": [
+    "json_file_summary"
+  ],
+  "summary": [
+    "json_file_summary"
+  ],
+  "json_file_summary": [
+    "json_file_summary"
+  ],
+  "summarize json file": [
+    "json_file_summary"
+  ],
+  "json_numeric_fields": [
+    "json_numeric_fields"
+  ],
+  "numeric": [
+    "json_numeric_fields",
+    "csv_numeric_columns"
+  ],
+  "json numeric fields": [
+    "json_numeric_fields"
+  ],
+  "json boolean fields": [
+    "json_boolean_fields"
+  ],
+  "json_boolean_fields": [
+    "json_boolean_fields"
+  ],
+  "boolean": [
+    "json_boolean_fields"
+  ],
+  "json null fields": [
+    "json_null_fields"
+  ],
+  "null": [
+    "json_null_fields"
+  ],
+  "json_null_fields": [
+    "json_null_fields"
+  ],
+  "json_string_length_stats": [
+    "json_string_length_stats"
+  ],
+  "strings": [
+    "json_string_length_stats"
+  ],
+  "json string length stats": [
+    "json_string_length_stats"
+  ],
+  "json object count": [
+    "json_object_count"
+  ],
+  "json_object_count": [
+    "json_object_count"
+  ],
+  "count json objects": [
+    "json_object_count"
+  ],
+  "csv_header": [
+    "csv_header"
+  ],
+  "csv": [
+    "csv_header",
+    "csv_row_count",
+    "csv_column_count",
+    "csv_column_names",
+    "csv_sample_rows",
+    "csv_null_like_counts",
+    "csv_unique_count_for_column",
+    "csv_numeric_columns"
+  ],
+  "csv header": [
+    "csv_header"
+  ],
+  "header": [
+    "csv_header"
+  ],
+  "rows": [
+    "csv_row_count"
+  ],
+  "csv row count": [
+    "csv_row_count"
+  ],
+  "count csv rows": [
+    "csv_row_count"
+  ],
+  "csv_row_count": [
+    "csv_row_count"
+  ],
+  "csv_column_count": [
+    "csv_column_count"
+  ],
+  "columns": [
+    "csv_column_count",
+    "csv_column_names"
+  ],
+  "count csv columns": [
+    "csv_column_count"
+  ],
+  "csv column count": [
+    "csv_column_count"
+  ],
+  "csv column names": [
+    "csv_column_names"
+  ],
+  "csv_column_names": [
+    "csv_column_names"
+  ],
+  "csv_sample_rows": [
+    "csv_sample_rows"
+  ],
+  "sample": [
+    "csv_sample_rows"
+  ],
+  "csv sample rows": [
+    "csv_sample_rows"
+  ],
+  "sample csv rows": [
+    "csv_sample_rows"
+  ],
+  "csv_null_like_counts": [
+    "csv_null_like_counts"
+  ],
+  "nulls": [
+    "csv_null_like_counts"
+  ],
+  "null counts in csv": [
+    "csv_null_like_counts"
+  ],
+  "csv null-like counts": [
+    "csv_null_like_counts"
+  ],
+  "unique count for csv column": [
+    "csv_unique_count_for_column"
+  ],
+  "csv_unique_count_for_column": [
+    "csv_unique_count_for_column"
+  ],
+  "csv unique count for column": [
+    "csv_unique_count_for_column"
+  ],
+  "csv_numeric_columns": [
+    "csv_numeric_columns"
+  ],
+  "csv numeric columns": [
+    "csv_numeric_columns"
+  ],
+  "numeric columns in csv": [
+    "csv_numeric_columns"
+  ],
+  "create backup copy": [
+    "create_backup_copy"
+  ],
+  "file": [
+    "create_backup_copy",
+    "write_text_file",
+    "append_text_file",
+    "prepend_text_file",
+    "replace_literal_in_file",
+    "split_file_by_lines",
+    "hash_file_sha256",
+    "file_mtime_info"
+  ],
+  "backup a file": [
+    "create_backup_copy"
+  ],
+  "create_backup_copy": [
+    "create_backup_copy"
+  ],
+  "backup": [
+    "create_backup_copy"
+  ],
+  "write text file": [
+    "write_text_file"
+  ],
+  "write_text_file": [
+    "write_text_file"
+  ],
+  "write": [
+    "write_text_file"
+  ],
+  "append": [
+    "append_text_file"
+  ],
+  "append to file": [
+    "append_text_file"
+  ],
+  "append_text_file": [
+    "append_text_file"
+  ],
+  "append text file": [
+    "append_text_file"
+  ],
+  "prepend": [
+    "prepend_text_file"
+  ],
+  "prepend text file": [
+    "prepend_text_file"
+  ],
+  "prepend to file": [
+    "prepend_text_file"
+  ],
+  "prepend_text_file": [
+    "prepend_text_file"
+  ],
+  "replace literal in file": [
+    "replace_literal_in_file"
+  ],
+  "replace text in file": [
+    "replace_literal_in_file"
+  ],
+  "replace_literal_in_file": [
+    "replace_literal_in_file"
+  ],
+  "replace": [
+    "replace_literal_in_file"
+  ],
+  "normalize_line_endings": [
+    "normalize_line_endings"
+  ],
+  "line endings": [
+    "normalize_line_endings"
+  ],
+  "normalize line endings": [
+    "normalize_line_endings"
+  ],
+  "whitespace": [
+    "trim_trailing_whitespace"
+  ],
+  "trim_trailing_whitespace": [
+    "trim_trailing_whitespace"
+  ],
+  "trim trailing whitespace": [
+    "trim_trailing_whitespace"
+  ],
+  "trim": [
+    "trim_trailing_whitespace"
+  ],
+  "newline": [
+    "ensure_final_newline"
+  ],
+  "ensure final newline": [
+    "ensure_final_newline"
+  ],
+  "ensure_final_newline": [
+    "ensure_final_newline"
+  ],
+  "sort_lines": [
+    "sort_lines"
+  ],
+  "sort lines": [
+    "sort_lines"
+  ],
+  "sort lines in file": [
+    "sort_lines"
+  ],
+  "sort": [
+    "sort_lines"
+  ],
+  "dedupe lines": [
+    "dedupe_lines"
+  ],
+  "dedupe_lines": [
+    "dedupe_lines"
+  ],
+  "dedupe": [
+    "dedupe_lines"
+  ],
+  "split_file_by_lines": [
+    "split_file_by_lines"
+  ],
+  "split file by lines": [
+    "split_file_by_lines"
+  ],
+  "split": [
+    "split_file_by_lines"
+  ],
+  "merge text files": [
+    "merge_text_files"
+  ],
+  "merge_text_files": [
+    "merge_text_files"
+  ],
+  "merge": [
+    "merge_text_files"
+  ],
+  "cwd info": [
+    "cwd_info"
+  ],
+  "current directory info": [
+    "cwd_info"
+  ],
+  "cwd_info": [
+    "cwd_info"
+  ],
+  "system": [
+    "cwd_info",
+    "env_var_names",
+    "node_runtime_info",
+    "disk_usage_estimate"
+  ],
+  "cwd": [
+    "cwd_info"
+  ],
+  "env_var_names": [
+    "env_var_names"
+  ],
+  "env var names": [
+    "env_var_names"
+  ],
+  "list env vars": [
+    "env_var_names"
+  ],
+  "node runtime info": [
+    "node_runtime_info"
+  ],
+  "node_runtime_info": [
+    "node_runtime_info"
+  ],
+  "disk_usage_estimate": [
+    "disk_usage_estimate"
+  ],
+  "disk usage estimate": [
+    "disk_usage_estimate"
+  ],
+  "disk": [
+    "disk_usage_estimate"
+  ],
+  "estimate folder size": [
+    "disk_usage_estimate"
+  ],
+  "folder": [
+    "folder_snapshot"
+  ],
+  "snapshot a folder": [
+    "folder_snapshot"
+  ],
+  "snapshot": [
+    "folder_snapshot",
+    "compare_folder_snapshots"
+  ],
+  "folder_snapshot": [
+    "folder_snapshot"
+  ],
+  "folder snapshot": [
+    "folder_snapshot"
+  ],
+  "compare_folder_snapshots": [
+    "compare_folder_snapshots"
+  ],
+  "compare folder snapshots": [
+    "compare_folder_snapshots"
+  ],
+  "time": [
+    "timestamp_now"
+  ],
+  "timestamp now": [
+    "timestamp_now"
+  ],
+  "timestamp": [
+    "timestamp_now"
+  ],
+  "current timestamp": [
+    "timestamp_now"
+  ],
+  "timestamp_now": [
+    "timestamp_now"
+  ],
+  "hash_file_sha256": [
+    "hash_file_sha256"
+  ],
+  "hash file sha256": [
+    "hash_file_sha256"
+  ],
+  "hash": [
+    "hash_file_sha256",
+    "hash_text_sha256"
+  ],
+  "hash a file": [
+    "hash_file_sha256"
+  ],
+  "sha256": [
+    "hash_file_sha256",
+    "hash_text_sha256"
+  ],
+  "hash text": [
+    "hash_text_sha256"
+  ],
+  "hash_text_sha256": [
+    "hash_text_sha256"
+  ],
+  "hash text sha256": [
+    "hash_text_sha256"
+  ],
+  "file mtime info": [
+    "file_mtime_info"
+  ],
+  "file_mtime_info": [
+    "file_mtime_info"
+  ],
+  "file modification time": [
+    "file_mtime_info"
+  ],
+  "probe": [
+    "permission_probe_readonly"
+  ],
+  "permission_probe_readonly": [
+    "permission_probe_readonly"
+  ],
+  "permission probe readonly": [
+    "permission_probe_readonly"
+  ],
+  "check permissions for path": [
+    "permission_probe_readonly"
+  ],
+  "permissions": [
+    "permission_probe_readonly"
+  ],
+  "tools": [
+    "registry_search"
+  ],
+  "registry": [
+    "registry_search"
+  ],
+  "registry search": [
+    "registry_search"
+  ],
+  "search tool index": [
+    "registry_search"
+  ],
+  "registry_search": [
+    "registry_search"
+  ],
+  "find a tool for counting lines": [
+    "registry_search"
+  ]
+}

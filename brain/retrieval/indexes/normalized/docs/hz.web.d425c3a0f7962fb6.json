@@ -1,0 +1,359 @@
+{
+  "aliases": [
+    {
+      "alias": "d425c3a0f7962fb6",
+      "aliasId": "hz.web.d425c3a0f7962fb6.alias.1",
+      "canonical": "linkedin: log in or sign up"
+    },
+    {
+      "alias": "linkedin log in or sign up",
+      "aliasId": "hz.web.d425c3a0f7962fb6.alias.2",
+      "canonical": "linkedin: log in or sign up"
+    },
+    {
+      "alias": "web d425c3a0f7962fb6",
+      "aliasId": "hz.web.d425c3a0f7962fb6.alias.3",
+      "canonical": "linkedin: log in or sign up"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.89,
+  "docId": "hz.web.d425c3a0f7962fb6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d425c3a0f7962fb6.entity.1",
+      "kind": "document",
+      "name": "LinkedIn: Log In or Sign Up",
+      "tokens": [
+        "linkedin",
+        "log",
+        "sign",
+        "up"
+      ]
+    },
+    {
+      "entityId": "hz.web.d425c3a0f7962fb6.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn: Log In or Sign Up",
+      "tokens": [
+        "linkedin",
+        "log",
+        "sign",
+        "up"
+      ]
+    },
+    {
+      "entityId": "hz.web.d425c3a0f7962fb6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d425c3a0f7962fb6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d425c3a0f7962fb6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 100,
+      "charStart": 32,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/?trk=public_profile_nav-header-logo",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "trk",
+        "public_profile_nav",
+        "header",
+        "logo"
+      ]
+    },
+    {
+      "charEnd": 343,
+      "charStart": 152,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "tokens": [
+        "linkedin",
+        "log",
+        "sign",
+        "up",
+        "skip",
+        "main",
+        "content",
+        "agree",
+        "join",
+        "linkedin",
+        "clicking",
+        "continue",
+        "join",
+        "sign",
+        "agree",
+        "linkedin",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 583,
+      "charStart": 344,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.2",
+      "kind": "bullet",
+      "text": "LinkedIn Top Content People Learning Jobs Games Sign in Join now Explore jobs and grow your network Sign in with email By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "tokens": [
+        "linkedin",
+        "top",
+        "content",
+        "people",
+        "learning",
+        "jobs",
+        "games",
+        "sign",
+        "join",
+        "now",
+        "explore",
+        "jobs",
+        "grow",
+        "your",
+        "network",
+        "sign",
+        "email",
+        "clicking",
+        "continue",
+        "join",
+        "sign",
+        "agree",
+        "linkedin",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 602,
+      "charStart": 584,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.3",
+      "kind": "bullet",
+      "text": "New to LinkedIn?",
+      "tokens": [
+        "new",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 723,
+      "charStart": 603,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.4",
+      "kind": "bullet",
+      "text": "Join now Explore top LinkedIn content Discover relevant posts and expert insights — curated by topic and in one place.",
+      "tokens": [
+        "join",
+        "now",
+        "explore",
+        "top",
+        "linkedin",
+        "content",
+        "discover",
+        "relevant",
+        "posts",
+        "expert",
+        "insights",
+        "curated",
+        "topic",
+        "one",
+        "place"
+      ]
+    },
+    {
+      "charEnd": 747,
+      "charStart": 738,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.5",
+      "kind": "bullet",
+      "text": "courses",
+      "tokens": [
+        "courses"
+      ]
+    },
+    {
+      "charEnd": 756,
+      "charStart": 748,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.6",
+      "kind": "bullet",
+      "text": "course",
+      "tokens": [
+        "course"
+      ]
+    },
+    {
+      "charEnd": 767,
+      "charStart": 757,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.7",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 778,
+      "charStart": 768,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.8",
+      "kind": "bullet",
+      "text": "software",
+      "tokens": [
+        "software"
+      ]
+    },
+    {
+      "charEnd": 785,
+      "charStart": 779,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 798,
+      "charStart": 786,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.10",
+      "kind": "bullet",
+      "text": "management",
+      "tokens": [
+        "management"
+      ]
+    },
+    {
+      "charEnd": 807,
+      "charStart": 799,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.11",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 816,
+      "charStart": 808,
+      "factId": "hz.web.d425c3a0f7962fb6.fact.12",
+      "kind": "bullet",
+      "text": "people",
+      "tokens": [
+        "people"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 30,
+      "charStart": 1,
+      "headingId": "hz.web.d425c3a0f7962fb6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn: Log In or Sign Up"
+    },
+    {
+      "charEnd": 150,
+      "charStart": 140,
+      "headingId": "hz.web.d425c3a0f7962fb6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 736,
+      "charStart": 725,
+      "headingId": "hz.web.d425c3a0f7962fb6.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 828,
+      "charStart": 818,
+      "headingId": "hz.web.d425c3a0f7962fb6.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d425c3a0f7962fb6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4102,
+        "start": 0
+      }
+    ],
+    "hash": "1cf3a62d60f84f635b37666657dbd2306b13a58c4d1e9699b21a453c4910dc8f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn: Log In or Sign Up Skip to main content Agree & Join LinkedIn By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "LinkedIn Top Content People Learning Jobs Games Sign in Join now Explore jobs and grow your network Sign in with email By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "New to LinkedIn?"
+    ],
+    "medium": "Source: https://www.linkedin.com/?trk=public_profile_nav-header-logo",
+    "short": "Source: https://www.linkedin.com/?trk=public_profile_nav-header-logo",
+    "tokens": [
+      "linkedin",
+      "log",
+      "sign",
+      "up",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "trk",
+      "public_profile_nav",
+      "header",
+      "logo",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "trk",
+      "public_profile_nav",
+      "header",
+      "logo"
+    ]
+  },
+  "title": "LinkedIn: Log In or Sign Up"
+}

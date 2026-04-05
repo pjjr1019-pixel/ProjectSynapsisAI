@@ -1,0 +1,119 @@
+{
+  "aliases": [
+    {
+      "alias": "runbooks",
+      "aliasId": "hz.auto.ops.runbooks.readme.src-md.alias.1",
+      "canonical": "runbooks"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.ops.runbooks.readme.src-md",
+  "domain": "ops",
+  "entities": [
+    {
+      "entityId": "hz.auto.ops.runbooks.readme.src-md.entity.1",
+      "kind": "document",
+      "name": "Runbooks",
+      "tokens": [
+        "runbooks"
+      ]
+    },
+    {
+      "entityId": "hz.auto.ops.runbooks.readme.src-md.entity.2",
+      "kind": "heading",
+      "name": "Runbooks",
+      "tokens": [
+        "runbooks"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 126,
+      "charStart": 14,
+      "factId": "hz.auto.ops.runbooks.readme.src-md.fact.1",
+      "kind": "summary",
+      "text": "Step-by-step operational procedures (release, rollback, data repair). Add numbered runbooks as `.md` files here.",
+      "tokens": [
+        "step",
+        "step",
+        "operational",
+        "procedures",
+        "release",
+        "rollback",
+        "data",
+        "repair",
+        "add",
+        "numbered",
+        "runbooks",
+        "md",
+        "files",
+        "here"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 10,
+      "charStart": 0,
+      "headingId": "hz.auto.ops.runbooks.readme.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Runbooks"
+    }
+  ],
+  "moduleIds": [],
+  "path": "ops/runbooks/README.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 128,
+        "start": 0
+      }
+    ],
+    "hash": "a1a7c8f595019be073164c70727f53e25be60e5b44bd9eaf064725f51d483f22",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "Step-by-step operational procedures (release, rollback, data repair). Add numbered runbooks as `.md` files here.",
+    "short": "Step-by-step operational procedures (release, rollback, data repair). Add numbered runbooks as `.md` files here.",
+    "tokens": [
+      "runbooks",
+      "step",
+      "step",
+      "operational",
+      "procedures",
+      "release",
+      "rollback",
+      "data",
+      "repair",
+      "add",
+      "numbered",
+      "runbooks",
+      "md",
+      "files",
+      "here",
+      "step",
+      "step",
+      "operational",
+      "procedures",
+      "release",
+      "rollback",
+      "data",
+      "repair",
+      "add",
+      "numbered",
+      "runbooks",
+      "md",
+      "files",
+      "here"
+    ]
+  },
+  "title": "Runbooks"
+}

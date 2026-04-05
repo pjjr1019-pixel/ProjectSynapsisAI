@@ -1,0 +1,174 @@
+{
+  "aliases": [
+    {
+      "alias": "common questions v3",
+      "aliasId": "hz.pipeline.imports.common-questions-v3.alias.1",
+      "canonical": "import pack — common questions and workflows v3"
+    },
+    {
+      "alias": "import pack common questions and workflows v3",
+      "aliasId": "hz.pipeline.imports.common-questions-v3.alias.2",
+      "canonical": "import pack — common questions and workflows v3"
+    },
+    {
+      "alias": "imports common-questions-v3",
+      "aliasId": "hz.pipeline.imports.common-questions-v3.alias.3",
+      "canonical": "import pack — common questions and workflows v3"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.common-questions-v3",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.common-questions-v3.entity.1",
+      "kind": "document",
+      "name": "Import pack — Common Questions and Workflows v3",
+      "tokens": [
+        "import",
+        "pack",
+        "common",
+        "questions",
+        "workflows",
+        "v3"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.common-questions-v3.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.common-questions-v3.entity.3",
+      "kind": "tag",
+      "name": "qa",
+      "tokens": [
+        "qa"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.common-questions-v3.entity.4",
+      "kind": "tag",
+      "name": "workflows",
+      "tokens": [
+        "workflows"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.common-questions-v3.entity.5",
+      "kind": "tag",
+      "name": "intent",
+      "tokens": [
+        "intent"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.common-questions-v3.entity.6",
+      "kind": "tag",
+      "name": "clarification",
+      "tokens": [
+        "clarification"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.common-questions-v3.entity.7",
+      "kind": "heading",
+      "name": "Common Questions v3 (import anchor)",
+      "tokens": [
+        "common",
+        "questions",
+        "v3",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 150,
+      "charStart": 43,
+      "factId": "hz.pipeline.imports.common-questions-v3.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_brain_commonquestions_v3",
+        "horizonsai_brain_commonquestions_v3",
+        "readme",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 38,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.common-questions-v3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Common Questions v3 (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/common-questions-v3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 739,
+        "start": 0
+      }
+    ],
+    "hash": "ba84592293849cb182622dc1e5251264e731eb7430ca25fe2f5f0d449fd773a0",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Brain_CommonQuestions_v3/`",
+      "relationId": "hz.pipeline.imports.common-questions-v3.relation.1",
+      "sourceDocId": "hz.pipeline.imports.common-questions-v3",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_CommonQuestions_v3/README.md",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.common-questions-v3.relation.2",
+      "sourceDocId": "hz.pipeline.imports.common-questions-v3",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+    "short": "**Source tree:** [`HorizonsAI_Brain_CommonQuestions_v3/`](../HorizonsAI_Brain_CommonQuestions_v3/README.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "common",
+      "questions",
+      "workflows",
+      "v3",
+      "source",
+      "tree",
+      "horizonsai_brain_commonquestions_v3",
+      "horizonsai_brain_commonquestions_v3",
+      "readme",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_brain_commonquestions_v3",
+      "horizonsai_brain_commonquestions_v3",
+      "readme",
+      "md"
+    ]
+  },
+  "title": "Import pack — Common Questions and Workflows v3"
+}

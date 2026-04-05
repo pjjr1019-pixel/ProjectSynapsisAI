@@ -1,0 +1,143 @@
+{
+  "aliases": [
+    {
+      "alias": "assistant system baseline",
+      "aliasId": "hz.prompt.assistant.system-baseline.v1.alias.1",
+      "canonical": "assistant system baseline"
+    },
+    {
+      "alias": "system-baseline v1",
+      "aliasId": "hz.prompt.assistant.system-baseline.v1.alias.2",
+      "canonical": "assistant system baseline"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.prompt.assistant.system-baseline.v1",
+  "domain": "prompt",
+  "entities": [
+    {
+      "entityId": "hz.prompt.assistant.system-baseline.v1.entity.1",
+      "kind": "document",
+      "name": "assistant system baseline",
+      "tokens": [
+        "assistant",
+        "system",
+        "baseline"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 210,
+      "charStart": 2,
+      "factId": "hz.prompt.assistant.system-baseline.v1.fact.1",
+      "kind": "summary",
+      "text": "You are Horizons AI assistant. Follow `brain/core/safety-defaults.md` and `brain/core/retrieval-contract.md`. When using retrieved knowledge, prefer canonical docs and cite uncertainty when confidence is low.",
+      "tokens": [
+        "horizons",
+        "ai",
+        "assistant",
+        "follow",
+        "brain",
+        "core",
+        "safety",
+        "defaults",
+        "md",
+        "brain",
+        "core",
+        "retrieval",
+        "contract",
+        "md",
+        "using",
+        "retrieved",
+        "knowledge",
+        "prefer",
+        "canonical",
+        "docs",
+        "cite",
+        "uncertainty",
+        "confidence",
+        "low"
+      ]
+    }
+  ],
+  "headings": [],
+  "moduleIds": [
+    "hz.module.assistant.core"
+  ],
+  "path": "prompts/library/assistant-system-baseline.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 300,
+        "start": 0
+      }
+    ],
+    "hash": "0f84f07d07bf06fa1dba2b9228423f1d41735b1148521d144beab677628f6f6f",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "You are Horizons AI assistant. Follow `brain/core/safety-defaults.md` and `brain/core/retrieval-contract.md`. When using retrieved knowledge, prefer canonical docs and cite uncertainty when confidence is low.",
+    "short": "You are Horizons AI assistant. Follow `brain/core/safety-defaults.md` and `brain/core/retrieval-contract.md`. When using retrieved knowledge, prefer canonical docs and cite uncertainty when confidence is low.",
+    "tokens": [
+      "assistant",
+      "system",
+      "baseline",
+      "horizons",
+      "ai",
+      "assistant",
+      "follow",
+      "brain",
+      "core",
+      "safety",
+      "defaults",
+      "md",
+      "brain",
+      "core",
+      "retrieval",
+      "contract",
+      "md",
+      "using",
+      "retrieved",
+      "knowledge",
+      "prefer",
+      "canonical",
+      "docs",
+      "cite",
+      "uncertainty",
+      "confidence",
+      "low",
+      "horizons",
+      "ai",
+      "assistant",
+      "follow",
+      "brain",
+      "core",
+      "safety",
+      "defaults",
+      "md",
+      "brain",
+      "core",
+      "retrieval",
+      "contract",
+      "md",
+      "using",
+      "retrieved",
+      "knowledge",
+      "prefer",
+      "canonical",
+      "docs",
+      "cite",
+      "uncertainty",
+      "confidence",
+      "low"
+    ]
+  },
+  "title": "assistant system baseline"
+}

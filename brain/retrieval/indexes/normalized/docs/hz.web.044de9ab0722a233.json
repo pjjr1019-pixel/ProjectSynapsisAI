@@ -1,0 +1,346 @@
+{
+  "aliases": [
+    {
+      "alias": "044de9ab0722a233",
+      "aliasId": "hz.web.044de9ab0722a233.alias.1",
+      "canonical": "sign in with a pgp key"
+    },
+    {
+      "alias": "sign in with a pgp key",
+      "aliasId": "hz.web.044de9ab0722a233.alias.2",
+      "canonical": "sign in with a pgp key"
+    },
+    {
+      "alias": "web 044de9ab0722a233",
+      "aliasId": "hz.web.044de9ab0722a233.alias.3",
+      "canonical": "sign in with a pgp key"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.044de9ab0722a233",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.044de9ab0722a233.entity.1",
+      "kind": "document",
+      "name": "Sign In with a PGP Key",
+      "tokens": [
+        "sign",
+        "pgp",
+        "key"
+      ]
+    },
+    {
+      "entityId": "hz.web.044de9ab0722a233.entity.2",
+      "kind": "heading",
+      "name": "Sign In with a PGP Key",
+      "tokens": [
+        "sign",
+        "pgp",
+        "key"
+      ]
+    },
+    {
+      "entityId": "hz.web.044de9ab0722a233.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.044de9ab0722a233.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.044de9ab0722a233.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 27,
+      "factId": "hz.web.044de9ab0722a233.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieauth.com/pgp",
+      "tokens": [
+        "source",
+        "https",
+        "indieauth",
+        "com",
+        "pgp"
+      ]
+    },
+    {
+      "charEnd": 398,
+      "charStart": 112,
+      "factId": "hz.web.044de9ab0722a233.fact.1",
+      "kind": "bullet",
+      "text": "Sign In with a PGP Key Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History Set up Password-less Logins with your PGP Key PGP Key Setup Instructions You can sign in on indieauth.com without relying on any external providers by signing a challenge with your PGP key.",
+      "tokens": [
+        "sign",
+        "pgp",
+        "key",
+        "toggle",
+        "navigation",
+        "indieauth",
+        "com",
+        "setup",
+        "pgp",
+        "openid",
+        "developers",
+        "faq",
+        "history",
+        "set",
+        "up",
+        "password",
+        "less",
+        "logins",
+        "your",
+        "pgp",
+        "key",
+        "pgp",
+        "key",
+        "setup",
+        "instructions",
+        "sign",
+        "indieauth",
+        "com",
+        "without",
+        "relying",
+        "any",
+        "external",
+        "providers",
+        "signing",
+        "challenge",
+        "your",
+        "pgp",
+        "key"
+      ]
+    },
+    {
+      "charEnd": 403,
+      "charStart": 399,
+      "factId": "hz.web.044de9ab0722a233.fact.2",
+      "kind": "bullet",
+      "text": "1.",
+      "tokens": []
+    },
+    {
+      "charEnd": 541,
+      "charStart": 404,
+      "factId": "hz.web.044de9ab0722a233.fact.3",
+      "kind": "bullet",
+      "text": "Link to your PGP key on your home page On your home page, link to one or more PGP keys and add the rel=\"pgpkey\" attribute to the links.",
+      "tokens": [
+        "link",
+        "your",
+        "pgp",
+        "key",
+        "your",
+        "home",
+        "page",
+        "your",
+        "home",
+        "page",
+        "link",
+        "one",
+        "more",
+        "pgp",
+        "keys",
+        "add",
+        "rel",
+        "pgpkey",
+        "attribute",
+        "links"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 542,
+      "factId": "hz.web.044de9ab0722a233.fact.4",
+      "kind": "bullet",
+      "text": "This may look something like the following: &lt;link rel=\"pgpkey\" href=\"/key.pub\"&gt; 2.",
+      "tokens": [
+        "may",
+        "look",
+        "something",
+        "like",
+        "following",
+        "lt",
+        "link",
+        "rel",
+        "pgpkey",
+        "href",
+        "key",
+        "pub",
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 653,
+      "charStart": 647,
+      "factId": "hz.web.044de9ab0722a233.fact.5",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 659,
+      "charStart": 654,
+      "factId": "hz.web.044de9ab0722a233.fact.6",
+      "kind": "bullet",
+      "text": "key",
+      "tokens": [
+        "key"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 660,
+      "factId": "hz.web.044de9ab0722a233.fact.7",
+      "kind": "bullet",
+      "text": "pgp",
+      "tokens": [
+        "pgp"
+      ]
+    },
+    {
+      "charEnd": 672,
+      "charStart": 666,
+      "factId": "hz.web.044de9ab0722a233.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 679,
+      "charStart": 673,
+      "factId": "hz.web.044de9ab0722a233.fact.9",
+      "kind": "bullet",
+      "text": "text",
+      "tokens": [
+        "text"
+      ]
+    },
+    {
+      "charEnd": 685,
+      "charStart": 680,
+      "factId": "hz.web.044de9ab0722a233.fact.10",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 697,
+      "charStart": 686,
+      "factId": "hz.web.044de9ab0722a233.fact.11",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 706,
+      "charStart": 698,
+      "factId": "hz.web.044de9ab0722a233.fact.12",
+      "kind": "bullet",
+      "text": "signed",
+      "tokens": [
+        "signed"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.044de9ab0722a233.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Sign In with a PGP Key"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.044de9ab0722a233.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 645,
+      "charStart": 634,
+      "headingId": "hz.web.044de9ab0722a233.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 718,
+      "charStart": 708,
+      "headingId": "hz.web.044de9ab0722a233.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/044de9ab0722a233.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2728,
+        "start": 0
+      }
+    ],
+    "hash": "e4b8aa0c243162e33df69cef8e50c4fdaef9c885a99d94578f389373b3dd5505",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Sign In with a PGP Key Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History Set up Password-less Logins with your PGP Key PGP Key Setup Instructions You can sign in on indieauth.com without relying on any external providers by signing a challenge with your PGP key.",
+      "1.",
+      "Link to your PGP key on your home page On your home page, link to one or more PGP keys and add the rel=\"pgpkey\" attribute to the links."
+    ],
+    "medium": "Source: https://indieauth.com/pgp",
+    "short": "Source: https://indieauth.com/pgp",
+    "tokens": [
+      "sign",
+      "pgp",
+      "key",
+      "source",
+      "https",
+      "indieauth",
+      "com",
+      "pgp",
+      "source",
+      "https",
+      "indieauth",
+      "com",
+      "pgp"
+    ]
+  },
+  "title": "Sign In with a PGP Key"
+}

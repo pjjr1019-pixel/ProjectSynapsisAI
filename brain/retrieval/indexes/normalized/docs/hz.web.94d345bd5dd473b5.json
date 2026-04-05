@@ -1,0 +1,468 @@
+{
+  "aliases": [
+    {
+      "alias": "94d345bd5dd473b5",
+      "aliasId": "hz.web.94d345bd5dd473b5.alias.1",
+      "canonical": "www.nasa.gov"
+    },
+    {
+      "alias": "web 94d345bd5dd473b5",
+      "aliasId": "hz.web.94d345bd5dd473b5.alias.2",
+      "canonical": "www.nasa.gov"
+    },
+    {
+      "alias": "www.nasa.gov",
+      "aliasId": "hz.web.94d345bd5dd473b5.alias.3",
+      "canonical": "www.nasa.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.94d345bd5dd473b5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.94d345bd5dd473b5.entity.1",
+      "kind": "document",
+      "name": "www.nasa.gov",
+      "tokens": [
+        "www",
+        "nasa",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.94d345bd5dd473b5.entity.2",
+      "kind": "heading",
+      "name": "www.nasa.gov",
+      "tokens": [
+        "www",
+        "nasa",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.94d345bd5dd473b5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.94d345bd5dd473b5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.94d345bd5dd473b5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 127,
+      "charStart": 17,
+      "factId": "hz.web.94d345bd5dd473b5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/apple-touch-icon-57x57.png",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "nasa",
+        "gov",
+        "wp",
+        "content",
+        "plugins",
+        "nasa",
+        "hds",
+        "core",
+        "setup",
+        "assets",
+        "favicons",
+        "apple",
+        "touch",
+        "icon",
+        "57x57",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 714,
+      "charStart": 179,
+      "factId": "hz.web.94d345bd5dd473b5.fact.1",
+      "kind": "bullet",
+      "text": "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u00009\u0000\u0000\u00009\b\u0006\u0000\u0000\u0000�\u0018��\u0000\u0000\u0000 pHYs\u0000\u0000\u000e�\u0000\u0000\u000e�\u0001�+\u000e\u001b\u0000\u0000 ZIDATh��yTTW��u�V1\u0014����$��C\u0014\u0014��\u0018�!�N�3�1�\u001e��ݍI�N\u001c2��Ѥ#&��t�\u0012�D�Ϙg�\u0011�Q)�\u001d�\u0013��\u0004�80 \u0014U U��?nQPEUQE�o����Z�E�a��ݳ�>g�}�>��>���\u0018�{-P��� �\u0004R�>@O�+� 4\u0000�@ P\u0000�\u0002r ���{�G[�\u0013�\u001amf0�s`\u000e0\u001c\u0010\u001d����4���M7\u00039�v�+�.��^��\u0016�\u0012I�6�'�\u0002X\u0000��\u001b\u001b\u0011�ϝ*cG\"��\u0017��\u0006]Fɿ�[ �����\"��f�\u0002���D6�NA-*i2;]]#�.2ن��7k�ӁT�ۉ\u001amf*p\u001ax\u0011\u000f\bj|U� \u0006 2D����k���i#�P8�����O\u001am� ou\u00040k�S���6�VR��| �@'W/\"DCY�\u0011�$\u0001 *\u0005�͖��5\u0000�6�2�x�\u001c�6�?�\u001fxO�\u0015���Jj��ˁ�x@�G��ol��wLx \u0000w* 6��'\u0004�>o���\u001d¬�\u001f \u001c\u0006��u\u0000JO&Z\u001f��A�D��5[$��f��14Qch\u0002 :,\u0010��/�\u0000&�c�6�����\u001ad��?",
+      "tokens": [
+        "png",
+        "ihdr",
+        "phys",
+        "zidath",
+        "yttw",
+        "v1",
+        "80",
+        "nqpeuqe",
+        "mf0",
+        "m7",
+        "cg",
+        "d6",
+        "na",
+        "i2",
+        "7k",
+        "mf",
+        "2d",
+        "p8",
+        "ou",
+        "0k",
+        "vr",
+        "dcy",
+        "xo",
+        "jj",
+        "ol",
+        "wlx",
+        "jo",
+        "14qch"
+      ]
+    },
+    {
+      "charEnd": 3499,
+      "charStart": 715,
+      "factId": "hz.web.94d345bd5dd473b5.fact.2",
+      "kind": "bullet",
+      "text": "| �\u00013E]aq�d����Fg}�B��Y\u0003�\b�Pgl��̩�2���p���{:�a\u0001�v4]�6�\u0017X\u0003����+|���-I��;.Lt�SC�9{��7���S\"\u0018�\u0016��K��p�إ�!���^*u��3\u0018�Q\u0006]�\u0019��\bd\u00073�ڿ\u0003�+� m{���Z���H��>\"������ v킠����#�n\u0011\u0011�ς���TT����N�� �W�P\u0001c^���m_�a\u0005� ����\u0000���B�=���\u0000R\\u�K�NN�m\u0000z�\u0006�T(����\u001a��vL���f͖\\\u0016L���A=�ɐڵx��\u0014�, �\u0006�1��6�\u0001\u001e\u0016u��n\u001cN��z�)��-fbz z��c�e�1�\u0014���U+ihj�?�`\"��j��.�[N6<@\u0019�p���p�:\u0005L\u0016u�\u0015��Z�\u0017���Vg4��U�~\u0017��\u0001�\u0012\u0004�u�*�nT�i^�%\u0007R�&�r�m�\b\u001e\u0001ƻ\"\bNHZ��_t���[5�E\u0005y�� w��X\u0011+�N���hJ��7d��G�j��hU{\u000f��_3�qQW�6�i\u0017-\u0000O��*\u0002ܩ2\u0012\u0019��@U{�/�D\u0002�8o\b�l�mׯ��,.��� ���V�C>!�Q�_\u0018�jF \u0016\u0014����=�\u0019�9�*�@>�%/=ȅ�J4�\"�g `�7y\u0000DQ��䱐<±�\u001d&\u0004��\u000f\u0011 �Q�R&�����%ig5\u001amf\u0010P�s��0md<\u0015���ȿ�\u00119G<2*�$�\u0018|t+�����oM\b|I_6џ�ȱ���\\�{�aM@�A�Q��9�{r$m\bJ�d�k�\\-m���`ꈸ�ْ�\u001c��|�\u0013��K\u001c��#�x1����\u0011�Ƈu�񀴐��e3{�e�0V��H\u0010�#d�+��~�R[���\u0011����\u0019�_� ܸU����i2[x��T�_0�g��O}��� _*k\u001b�\u0011\u001a�\u000f�g�%���4�ݜ�XJ8F~F\u0001�s�!\u001a#�ҕ(F|\u0000�\u0012�/A���fI\u0005�o�f\u0017�4�dmx>O\u001aO�|���\u001c9�if ��m���]�� �sE�q%���S�hfǁ�\u0004i�\u0004i� �\u001dʒ�rh���U�4j~�-f�w��rf\u0000nV�QRZg�\u0013�Q�zj8c'��+os�!�\"��>�\u0019s�n%���2ﾶ�K�C�\u000eNc3� ����k\u0012�/bٰ\u0007a�#\u0004i�\u0004w�e�CI�x�q��dT�\u001f�\u000e�|A:�!\u001a�|�M�N�\u0011?\u001f�Ю~��� N\u000eC�j=�F�\u001f�hU9B�9���\u00181\u000e�be7\u001e/\u001bΫ�����\u0011�̺ȣ\u0014p�/��^�\u0010�\bU�h*��m��MI� ��5�\"ٵ�\u000fI��q����F\u0000\u0002�լ�ͨvB��:���k\u001c\u001eP��Ɉ��Zkg`\u0017�F�`'}X�D\u001eh�O���\u0010\u0013\u001fA���\u001c��?\bQ4�V�\u001a~+�c&���4�\u000e����R>��6qi)\u0011$�tsT��c�;�v{T�����7�똭mΤ>����Ŝ�0�Ȫ��\u0011�;H\u0019��t�0\u0015ه�W���?MYʯ��\u0016�Q���[�\u001f��)$��\u001bG���:��&�Ly�\u0002�{ܐ\u0018�v�:\u001b���\u0005�?��ב�����d�P\u0001ذ;� �d\u0013T(\u0014�]�\u000e��\u001ce\u0010eT�˷$�O��Κ\b2��NN�]�� �b ��z�xo�OL��.r�ˡ9c\u001eҞ�\b�}A�/\u0016��с\u0004���Q)\u0019=�\u0007f���I�\\)j�T>19\u0019�`w�9���\u001bpz=��\\͕����ՠP�%<\u0004���r�0��NX7�$$0�����h;%D���I}X��4\u0000=��y��$�=�*E:\u0003�_ɼ��\u0000\\*��1 ��ס\u0014\u0014�\u001a�\b�!\\ �B\u0003x05�\u0003��X����q%�r�=�zR�w9���:���\u001fN� ޤ\u001c�\u0005�#\u0001\u0013�c�]Q��_�୍'\u0018�h;�7klc�YM�7w�{�\u001eV�4��߳�\u0019�0�~>\u000044�Y��,\u0016�ČQ��>]�;\u0018�x\u0007\u000f>���\u0011γ7Y�9ZǕ,\u0010�x��<+�\"(y\u0005�-�X��<�/7\u0012��<[#cl�4S�����D�h��P\u0012E7k�lO\u001ek�0���Fn�驪����\u000f㊘T������l�t��\u0014��P`�$�O���C\u001dg���V*X��᜼p���+� g�d\u0011��\u0003��=�\u00129�R����\u0006��x�\u001bz� �n�)\"��\u0000�\u0003�\bJAAd���r9��5����O`�\u001b��56ыjֳ�:��� (B¹Yi��G$H���`Bo4�ɜ=�7_\u001f����\u0006]�\u000f.��\u0012\u001c |\u0010��X˼1�K��\u0012?O\u001f�$A��5��������^4��#�Y�>֓�*ƠG��^&dj�PWo���>5\u0019\u001b\u0019�?J�4[$��\u0002��f��$���ߛ��\\�\u0001�fm�s@\u001c�����Abg�\u0003�=f�\u0002��2��}��\u0018 �k&sH�����&3}b�))�C\u0001�D\u0001�\u0004Ӈ�QtG�v\u001e4�2>s'K\u0014u�qh�\u000e<�F\u000e��\u0005^�\bkk�0l�J�\u000f�e�kYT�\u001b=�\u0011\u0014�CX�cG�����go�d_\u001d�ޑ,g鏯\u0000�\u0012��BALx �\u0018��\u001e��43y�\u000fIc�;?\u0012��\u001fݧsI�nwSi��l�R\u0010\u0010��m�\u0018��\u001bM�����������)H��96X�O� V)\u0005�b�,�$ILj�'��\\�+�K�5$�כ��l7�r�m�\u001fwh�\u0015�\u0017U⣶w� M���7r���~�.�l��������\u0000h��\u0005\u0005�\u0011�\u0002�m�>4���L���o��~�� ��7�t͏\u001d�\"˳\u0016k5�*[�$H�F����ֽX��5�\u0010N�u\u0006]�\u001d��>Zޮ�WEy�� -\\�^v��]F�S��\u0014\u0014�E{\u0015�\u0006�\u0017��S��︜��o43�w(\u0011�v��׭zv\bw\u0017�w��'-�w�K��� �TA\u0019IT�Y�\u001ev�������0�]-o\u0017�9\"<؟j}#��f\u0012�� *\u0005�*\u0001�J������9w��\u0016\u001c��\u0016 o׶=��\u0000�\u000e�%:���\u0007�㐽\u001b�->�{�3�,z��#blt}G�\u0016��]\u000f<�J)�\u0012\u0005����t�A��q��m}Ҡ�8\u000f,D�&\u00010�k��!\u001e�gd� \u0000?9��R�E\u001b-0�=�Cbj�tD�\u0002,� x�a�F�� x�)�3��,f z[ �*�\u0013��N à�X��$�����c�b\u0019�9�wL��a+Ǆ\u0005�\u0012\u001fBIٽ�GƄ\u0007� �VX�e�!\b\u001e��Y\u001b/ {�taY\u0019�9\u000e{T���k:WE�\bu�&�ug\u0005�%i�Ƌ�{�\u0001QW�-؜�V�x�#�\u0000�݃�p�x��x5�\u0001��� ؜�P���=��[Qg��\u0017u\u0005�+i��'\u0002��+��j�F�\u0019\u0001�\u0011�v�]��9j�O�5\u0006]F�=�\u0007ܻo낀�ȗ�1x��O\u0003��\u001cM�0�2�u�;�� \u0000�i�J2 �쬌@\u0005p ����\u0019t\u0019\u001d~tw\u001f�q\u001f��� �\u0004ͼ��\u000e��\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "3e",
+        "aq",
+        "fg",
+        "pgl",
+        "v4",
+        "lt",
+        "sc",
+        "tt",
+        "m_",
+        "nn",
+        "vl",
+        "fbz",
+        "ihj",
+        "n6",
+        "vg4",
+        "nt",
+        "nhz",
+        "_t",
+        "hj",
+        "7d",
+        "hu",
+        "_3",
+        "qqw",
+        "8o",
+        "jf",
+        "j4",
+        "7y",
+        "dq",
+        "ig5",
+        "mf",
+        "0md",
+        "9g",
+        "om",
+        "i_6",
+        "am",
+        "x1",
+        "e3",
+        "0v",
+        "i2",
+        "_0",
+        "xj8f",
+        "fi",
+        "dmx",
+        "if",
+        "se",
+        "hf",
+        "rh",
+        "4j",
+        "rf",
+        "nv",
+        "qrzg",
+        "zj8",
+        "os",
+        "nc3",
+        "ci",
+        "dt",
+        "hu9b",
+        "be7",
+        "mi",
+        "vb",
+        "zkg",
+        "q4",
+        "6qi",
+        "tst",
+        "ly",
+        "et",
+        "nn",
+        "xo",
+        "ol",
+        "9c",
+        "19",
+        "pz",
+        "nx7",
+        "x05",
+        "zr",
+        "w9",
+        "7klc",
+        "ym",
+        "7w",
+        "44",
+        "7y",
+        "9z",
+        "cl",
+        "4s",
+        "e7k",
+        "lo",
+        "fn",
+        "jaad",
+        "r9",
+        "56",
+        "yi",
+        "bo4",
+        "7_",
+        "dj",
+        "pwo",
+        "fm",
+        "abg",
+        "sh",
+        "qtg",
+        "qh",
+        "kk",
+        "0l",
+        "kyt",
+        "cx",
+        "cg",
+        "go",
+        "d_",
+        "balx",
+        "43y",
+        "ic",
+        "si",
+        "nwsi",
+        "96x",
+        "ilj",
+        "l7",
+        "wh",
+        "7r",
+        "k5",
+        "wey",
+        "o43",
+        "zv",
+        "ta",
+        "9w",
+        "blt",
+        "gd",
+        "cbj",
+        "td",
+        "wl",
+        "bi",
+        "vx",
+        "tay",
+        "ug",
+        "qw",
+        "x5",
+        "qg",
+        "9j",
+        "1x",
+        "j2",
+        "tw",
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 3518,
+      "charStart": 3514,
+      "factId": "hz.web.94d345bd5dd473b5.fact.3",
+      "kind": "bullet",
+      "text": "7y",
+      "tokens": [
+        "7y"
+      ]
+    },
+    {
+      "charEnd": 3523,
+      "charStart": 3519,
+      "factId": "hz.web.94d345bd5dd473b5.fact.4",
+      "kind": "bullet",
+      "text": "cg",
+      "tokens": [
+        "cg"
+      ]
+    },
+    {
+      "charEnd": 3528,
+      "charStart": 3524,
+      "factId": "hz.web.94d345bd5dd473b5.fact.5",
+      "kind": "bullet",
+      "text": "i2",
+      "tokens": [
+        "i2"
+      ]
+    },
+    {
+      "charEnd": 3533,
+      "charStart": 3529,
+      "factId": "hz.web.94d345bd5dd473b5.fact.6",
+      "kind": "bullet",
+      "text": "mf",
+      "tokens": [
+        "mf"
+      ]
+    },
+    {
+      "charEnd": 3538,
+      "charStart": 3534,
+      "factId": "hz.web.94d345bd5dd473b5.fact.7",
+      "kind": "bullet",
+      "text": "nn",
+      "tokens": [
+        "nn"
+      ]
+    },
+    {
+      "charEnd": 3543,
+      "charStart": 3539,
+      "factId": "hz.web.94d345bd5dd473b5.fact.8",
+      "kind": "bullet",
+      "text": "ol",
+      "tokens": [
+        "ol"
+      ]
+    },
+    {
+      "charEnd": 3548,
+      "charStart": 3544,
+      "factId": "hz.web.94d345bd5dd473b5.fact.9",
+      "kind": "bullet",
+      "text": "xo",
+      "tokens": [
+        "xo"
+      ]
+    },
+    {
+      "charEnd": 3553,
+      "charStart": 3549,
+      "factId": "hz.web.94d345bd5dd473b5.fact.10",
+      "kind": "bullet",
+      "text": "_0",
+      "tokens": [
+        "_0"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.94d345bd5dd473b5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.nasa.gov"
+    },
+    {
+      "charEnd": 177,
+      "charStart": 167,
+      "headingId": "hz.web.94d345bd5dd473b5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 3512,
+      "charStart": 3501,
+      "headingId": "hz.web.94d345bd5dd473b5.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 3565,
+      "charStart": 3555,
+      "headingId": "hz.web.94d345bd5dd473b5.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/94d345bd5dd473b5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 6866,
+        "start": 0
+      }
+    ],
+    "hash": "79f1fbad044486c3caf5e520a20ac356f8c84d8b5c7a987f504cc13f72d72b5c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u00009\u0000\u0000\u00009\b\u0006\u0000\u0000\u0000�\u0018��\u0000\u0000\u0000 pHYs\u0000\u0000\u000e�\u0000\u0000\u000e�\u0001�+\u000e\u001b\u0000\u0000 ZIDATh��yTTW��u�V1\u0014����$��C\u0014\u0014��\u0018�!�N�3�1�\u001e��ݍI�N\u001c2��Ѥ#&��t�\u0012�D�Ϙg�\u0011�Q)�\u001d�\u0013��\u0004�80 \u0014U U��?nQPEUQE�o����Z�E�a��ݳ�>g�}�>��>���\u0018�{-P��� �\u0004R�>@O�+� 4\u0000�@ P\u0000�\u0002r ���{�G[�\u0013�\u001amf0�s`\u000e0\u001c\u0010\u001d����4���M7\u00039�v�+�.��^��\u0016�\u0012I�6�'�\u0002X\u0000��\u001b\u001b\u0011�ϝ*cG\"��\u0017��\u0006]Fɿ�[ �����\"��f�\u0002���D6�NA-*i2;]]#�.2ن��7k�ӁT�ۉ\u001amf*p\u001ax\u0011\u000f\bj|U� \u0006 2D����k���i#�P8�����O\u001am� ou\u00040k�S���6�VR��| �@'W/\"DCY�\u0011�$\u0001 *\u0005�͖��5\u0000�6�2�x�\u001c�6�?�\u001fxO�\u0015���Jj��ˁ�x@�G��ol��wLx \u0000w* 6��'\u0004�>o���\u001d¬�\u001f \u001c\u0006��u\u0000JO&Z\u001f��A�D��5[$��f��14Qch\u0002 :,\u0010��/�\u0000&�c�6�����\u001ad��?",
+      "| �\u00013E]aq�d����Fg}�B��Y\u0003�\b�Pgl��̩�2���p���{:�a\u0001�v4]�6�\u0017X\u0003����+|���-I��;.Lt�SC�9{��7���S\"\u0018�\u0016��K��p�إ�!���^*u��3\u0018�Q\u0006]�\u0019��\bd\u00073�ڿ\u0003�+� m{���Z���H��>\"������ v킠����#�n\u0011\u0011�ς���TT����N�� �W�P\u0001c^���m_�a\u0005� ����\u0000���B�=���\u0000R\\u�K�NN�m\u0000z�\u0006�T(����\u001a��vL���f͖\\\u0016L���A=�ɐڵx��\u0014�, �\u0006�1��6�\u0001\u001e\u0016u��n\u001cN��z�)��-fbz z��c�e�1�\u0014���U+ihj�?�`\"��j��.�[N6<@\u0019�p���p�:\u0005L\u0016u�\u0015��Z�\u0017���Vg4��U�~\u0017��\u0001�\u0012\u0004�u�*�nT�i^�%\u0007R�&�r�m�\b\u001e\u0001ƻ\"\bNHZ��_t���[5�E\u0005y�� w��X\u0011+�N���hJ��7d��G�j��hU{\u000f��_3�qQW�6�i\u0017-\u0000O��*\u0002ܩ2\u0012\u0019��@U{�/�D\u0002�8o\b�l�mׯ��,.��� ���V�C>!�Q�_\u0018�jF \u0016\u0014����=�\u0019�9�*�@>�%/=ȅ�J4�\"�g `�7y\u0000DQ��䱐<±�\u001d&\u0004��\u000f\u0011 �Q�R&�����%ig5\u001amf\u0010P�s��0md<\u0015���ȿ�\u00119G<2*�$�\u0018|t+�����oM\b|I_6џ�ȱ���\\�{�aM@�A�Q��9�{r$m\bJ�d�k�\\-m���`ꈸ�ْ�\u001c��|�\u0013��K\u001c��#�x1����\u0011�Ƈu�񀴐��e3{�e�0V��H\u0010�#d�+��~�R[���\u0011����\u0019�_� ܸU����i2[x��T�_0�g��O}��� _*k\u001b�\u0011\u001a�\u000f�g�%���4�ݜ�XJ8F~F\u0001�s�!\u001a#�ҕ(F|\u0000�\u0012�/A���fI\u0005�o�f\u0017�4�dmx>O\u001aO�|���\u001c9�if ��m���]�� �sE�q%���S�hfǁ�\u0004i�\u0004i� �\u001dʒ�rh���U�4j~�-f�w��rf\u0000nV�QRZg�\u0013�Q�zj8c'��+os�!�\"��>�\u0019s�n%���2ﾶ�K�C�\u000eNc3� ����k\u0012�/bٰ\u0007a�#\u0004i�\u0004w�e�CI�x�q��dT�\u001f�\u000e�|A:�!\u001a�|�M�N�\u0011?\u001f�Ю~��� N\u000eC�j=�F�\u001f�hU9B�9���\u00181\u000e�be7\u001e/\u001bΫ�����\u0011�̺ȣ\u0014p�/��^�\u0010�\bU�h*��m��MI� ��5�\"ٵ�\u000fI��q����F\u0000\u0002�լ�ͨvB��:���k\u001c\u001eP��Ɉ��Zkg`\u0017�F�`'}X�D\u001eh�O���\u0010\u0013\u001fA���\u001c��?\bQ4�V�\u001a~+�c&���4�\u000e����R>��6qi)\u0011$�tsT��c�;�v{T�����7�똭mΤ>����Ŝ�0�Ȫ��\u0011�;H\u0019��t�0\u0015ه�W���?MYʯ��\u0016�Q���[�\u001f��)$��\u001bG���:��&�Ly�\u0002�{ܐ\u0018�v�:\u001b���\u0005�?��ב�����d�P\u0001ذ;� �d\u0013T(\u0014�]�\u000e��\u001ce\u0010eT�˷$�O��Κ\b2��NN�]�� �b ��z�xo�OL��.r�ˡ9c\u001eҞ�\b�}A�/\u0016��с\u0004���Q)\u0019=�\u0007f���I�\\)j�T>19\u0019�`w�9���\u001bpz=��\\͕����ՠP�%<\u0004���r�0��NX7�$$0�����h;%D���I}X��4\u0000=��y��$�=�*E:\u0003�_ɼ��\u0000\\*��1 ��ס\u0014\u0014�\u001a�\b�!\\ �B\u0003x05�\u0003��X����q%�r�=�zR�w9���:���\u001fN� ޤ\u001c�\u0005�#\u0001\u0013�c�]Q��_�୍'\u0018�h;�7klc�YM�7w�{�\u001eV�4��߳�\u0019�0�~>\u000044�Y��,\u0016�ČQ��>]�;\u0018�x\u0007\u000f>���\u0011γ7Y�9ZǕ,\u0010�x��<+�\"(y\u0005�-�X��<�/7\u0012��<[#cl�4S�����D�h��P\u0012E7k�lO\u001ek�0���Fn�驪����\u000f㊘T������l�t��\u0014��P`�$�O���C\u001dg���V*X��᜼p���+� g�d\u0011��\u0003��=�\u00129�R����\u0006��x�\u001bz� �n�)\"��\u0000�\u0003�\bJAAd���r9��5����O`�\u001b��56ыjֳ�:��� (B¹Yi��G$H���`Bo4�ɜ=�7_\u001f����\u0006]�\u000f.��\u0012\u001c |\u0010��X˼1�K��\u0012?O\u001f�$A��5��������^4��#�Y�>֓�*ƠG��^&dj�PWo���>5\u0019\u001b\u0019�?J�4[$��\u0002��f��$���ߛ��\\�\u0001�fm�s@\u001c�����Abg�\u0003�=f�\u0002��2��}��\u0018 �k&sH�����&3}b�))�C\u0001�D\u0001�\u0004Ӈ�QtG�v\u001e4�2>s'K\u0014u�qh�\u000e<�F\u000e��\u0005^�\bkk�0l�J�\u000f�e�kYT�\u001b=�\u0011\u0014�CX�cG�����go�d_\u001d�ޑ,g鏯\u0000�\u0012��BALx �\u0018��\u001e��43y�\u000fIc�;?\u0012��\u001fݧsI�nwSi��l�R\u0010\u0010��m�\u0018��\u001bM�����������)H��96X�O� V)\u0005�b�,�$ILj�'��\\�+�K�5$�כ��l7�r�m�\u001fwh�\u0015�\u0017U⣶w� M���7r���~�.�l��������\u0000h��\u0005\u0005�\u0011�\u0002�m�>4���L���o��~�� ��7�t͏\u001d�\"˳\u0016k5�*[�$H�F����ֽX��5�\u0010N�u\u0006]�\u001d��>Zޮ�WEy�� -\\�^v��]F�S��\u0014\u0014�E{\u0015�\u0006�\u0017��S��︜��o43�w(\u0011�v��׭zv\bw\u0017�w��'-�w�K��� �TA\u0019IT�Y�\u001ev�������0�]-o\u0017�9\"<؟j}#��f\u0012�� *\u0005�*\u0001�J������9w��\u0016\u001c��\u0016 o׶=��\u0000�\u000e�%:���\u0007�㐽\u001b�->�{�3�,z��#blt}G�\u0016��]\u000f<�J)�\u0012\u0005����t�A��q��m}Ҡ�8\u000f,D�&\u00010�k��!\u001e�gd� \u0000?9��R�E\u001b-0�=�Cbj�tD�\u0002,� x�a�F�� x�)�3��,f z[ �*�\u0013��N à�X��$�����c�b\u0019�9�wL��a+Ǆ\u0005�\u0012\u001fBIٽ�GƄ\u0007� �VX�e�!\b\u001e��Y\u001b/ {�taY\u0019�9\u000e{T���k:WE�\bu�&�ug\u0005�%i�Ƌ�{�\u0001QW�-؜�V�x�#�\u0000�݃�p�x��x5�\u0001��� ؜�P���=��[Qg��\u0017u\u0005�+i��'\u0002��+��j�F�\u0019\u0001�\u0011�v�]��9j�O�5\u0006]F�=�\u0007ܻo낀�ȗ�1x��O\u0003��\u001cM�0�2�u�;�� \u0000�i�J2 �쬌@\u0005p ����\u0019t\u0019\u001d~tw\u001f�q\u001f��� �\u0004ͼ��\u000e��\u0000\u0000\u0000\u0000IEND�B`�",
+      "7y"
+    ],
+    "medium": "Source: https://www.nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/apple-touch-icon-57x57.png",
+    "short": "Source: https://www.nasa.gov/wp-content/plugins/nasa-hds-core-setup/assets/favicons/apple-touch-icon-57x57.png",
+    "tokens": [
+      "www",
+      "nasa",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "nasa",
+      "gov",
+      "wp",
+      "content",
+      "plugins",
+      "nasa",
+      "hds",
+      "core",
+      "setup",
+      "assets",
+      "favicons",
+      "apple",
+      "touch",
+      "icon",
+      "57x57",
+      "png",
+      "source",
+      "https",
+      "www",
+      "nasa",
+      "gov",
+      "wp",
+      "content",
+      "plugins",
+      "nasa",
+      "hds",
+      "core",
+      "setup",
+      "assets",
+      "favicons",
+      "apple",
+      "touch",
+      "icon",
+      "57x57",
+      "png"
+    ]
+  },
+  "title": "www.nasa.gov"
+}

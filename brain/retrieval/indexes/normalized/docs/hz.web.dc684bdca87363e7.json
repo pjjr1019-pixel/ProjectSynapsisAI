@@ -1,0 +1,427 @@
+{
+  "aliases": [
+    {
+      "alias": "dc684bdca87363e7",
+      "aliasId": "hz.web.dc684bdca87363e7.alias.1",
+      "canonical": "for librarians"
+    },
+    {
+      "alias": "for librarians",
+      "aliasId": "hz.web.dc684bdca87363e7.alias.2",
+      "canonical": "for librarians"
+    },
+    {
+      "alias": "web dc684bdca87363e7",
+      "aliasId": "hz.web.dc684bdca87363e7.alias.3",
+      "canonical": "for librarians"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.87,
+  "docId": "hz.web.dc684bdca87363e7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.dc684bdca87363e7.entity.1",
+      "kind": "document",
+      "name": "For Librarians",
+      "tokens": [
+        "librarians"
+      ]
+    },
+    {
+      "entityId": "hz.web.dc684bdca87363e7.entity.2",
+      "kind": "heading",
+      "name": "For Librarians",
+      "tokens": [
+        "librarians"
+      ]
+    },
+    {
+      "entityId": "hz.web.dc684bdca87363e7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.dc684bdca87363e7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.dc684bdca87363e7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 74,
+      "charStart": 19,
+      "factId": "hz.web.dc684bdca87363e7.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.nlm.nih.gov/portals/librarians.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "nlm",
+        "nih",
+        "gov",
+        "portals",
+        "librarians",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 366,
+      "charStart": 126,
+      "factId": "hz.web.dc684bdca87363e7.fact.1",
+      "kind": "bullet",
+      "text": "For Librarians Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "librarians",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 495,
+      "charStart": 367,
+      "factId": "hz.web.dc684bdca87363e7.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "lock",
+        "locked",
+        "padlock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 496,
+      "factId": "hz.web.dc684bdca87363e7.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1512,
+      "charStart": 561,
+      "factId": "hz.web.dc684bdca87363e7.fact.4",
+      "kind": "bullet",
+      "text": "Menu Products and Services All Products and Services ClinicalTrials.gov Digital Collections LocatorPlus Catalog Medical Subject Headings (MeSH) MedlinePlus PubMed/MEDLINE Unified Medical Language System (UMLS) Resources for You For Researchers For Publishers For Librarians For Educators/Trainers For Health care Professionals For the Public Explore NLM About the Library Visit the Library History of Medicine NLM by Organization Spotlights and Events Grants and Research NLM Extramural Programs NLM Division of Intramural Research National Center for Biotechnology Information Lister Hill National Center for Biomedical Communications Home For Librarians Online Catalogs | About the Library | Copyright Information | Digital Collections | Health Information | Library Functional Areas | Policies and Guidelines | Standards Search the NLM &reg; Online Library Catalogs See What's the difference between LocatorPlus &reg; Catalog and the NLM Catalog?",
+      "tokens": [
+        "menu",
+        "products",
+        "services",
+        "all",
+        "products",
+        "services",
+        "clinicaltrials",
+        "gov",
+        "digital",
+        "collections",
+        "locatorplus",
+        "catalog",
+        "medical",
+        "subject",
+        "headings",
+        "mesh",
+        "medlineplus",
+        "pubmed",
+        "medline",
+        "unified",
+        "medical",
+        "language",
+        "system",
+        "umls",
+        "resources",
+        "researchers",
+        "publishers",
+        "librarians",
+        "educators",
+        "trainers",
+        "health",
+        "care",
+        "professionals",
+        "public",
+        "explore",
+        "nlm",
+        "about",
+        "library",
+        "visit",
+        "library",
+        "history",
+        "medicine",
+        "nlm",
+        "organization",
+        "spotlights",
+        "events",
+        "grants",
+        "research",
+        "nlm",
+        "extramural",
+        "programs",
+        "nlm",
+        "division",
+        "intramural",
+        "research",
+        "national",
+        "center",
+        "biotechnology",
+        "information",
+        "lister",
+        "hill",
+        "national",
+        "center",
+        "biomedical",
+        "communications",
+        "home",
+        "librarians",
+        "online",
+        "catalogs",
+        "about",
+        "library",
+        "copyright",
+        "information",
+        "digital",
+        "collections",
+        "health",
+        "information",
+        "library",
+        "functional",
+        "areas",
+        "policies",
+        "guidelines",
+        "standards",
+        "search",
+        "nlm",
+        "reg",
+        "online",
+        "library",
+        "catalogs",
+        "see",
+        "difference",
+        "between",
+        "locatorplus",
+        "reg",
+        "catalog",
+        "nlm",
+        "catalog"
+      ]
+    },
+    {
+      "charEnd": 1532,
+      "charStart": 1527,
+      "factId": "hz.web.dc684bdca87363e7.fact.5",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 1538,
+      "charStart": 1533,
+      "factId": "hz.web.dc684bdca87363e7.fact.6",
+      "kind": "bullet",
+      "text": "reg",
+      "tokens": [
+        "reg"
+      ]
+    },
+    {
+      "charEnd": 1552,
+      "charStart": 1539,
+      "factId": "hz.web.dc684bdca87363e7.fact.7",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 1562,
+      "charStart": 1553,
+      "factId": "hz.web.dc684bdca87363e7.fact.8",
+      "kind": "bullet",
+      "text": "library",
+      "tokens": [
+        "library"
+      ]
+    },
+    {
+      "charEnd": 1568,
+      "charStart": 1563,
+      "factId": "hz.web.dc684bdca87363e7.fact.9",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1577,
+      "charStart": 1569,
+      "factId": "hz.web.dc684bdca87363e7.fact.10",
+      "kind": "bullet",
+      "text": "health",
+      "tokens": [
+        "health"
+      ]
+    },
+    {
+      "charEnd": 1588,
+      "charStart": 1578,
+      "factId": "hz.web.dc684bdca87363e7.fact.11",
+      "kind": "bullet",
+      "text": "medicine",
+      "tokens": [
+        "medicine"
+      ]
+    },
+    {
+      "charEnd": 1598,
+      "charStart": 1589,
+      "factId": "hz.web.dc684bdca87363e7.fact.12",
+      "kind": "bullet",
+      "text": "catalog",
+      "tokens": [
+        "catalog"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.dc684bdca87363e7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "For Librarians"
+    },
+    {
+      "charEnd": 124,
+      "charStart": 114,
+      "headingId": "hz.web.dc684bdca87363e7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1525,
+      "charStart": 1514,
+      "headingId": "hz.web.dc684bdca87363e7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1610,
+      "charStart": 1600,
+      "headingId": "hz.web.dc684bdca87363e7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/dc684bdca87363e7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4858,
+        "start": 0
+      }
+    ],
+    "hash": "bdfe3466288cf32c97eb9ff53ec1ba614c1ceae15acb13241b429ea307d84c03",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "For Librarians Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.nlm.nih.gov/portals/librarians.html",
+    "short": "Source: https://www.nlm.nih.gov/portals/librarians.html",
+    "tokens": [
+      "librarians",
+      "source",
+      "https",
+      "www",
+      "nlm",
+      "nih",
+      "gov",
+      "portals",
+      "librarians",
+      "html",
+      "source",
+      "https",
+      "www",
+      "nlm",
+      "nih",
+      "gov",
+      "portals",
+      "librarians",
+      "html"
+    ]
+  },
+  "title": "For Librarians"
+}

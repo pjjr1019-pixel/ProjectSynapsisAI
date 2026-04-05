@@ -1,0 +1,472 @@
+{
+  "aliases": [
+    {
+      "alias": "b298cc9c34e4473b",
+      "aliasId": "hz.web.b298cc9c34e4473b.alias.1",
+      "canonical": "thisweekinphoto.com"
+    },
+    {
+      "alias": "thisweekinphoto.com",
+      "aliasId": "hz.web.b298cc9c34e4473b.alias.2",
+      "canonical": "thisweekinphoto.com"
+    },
+    {
+      "alias": "web b298cc9c34e4473b",
+      "aliasId": "hz.web.b298cc9c34e4473b.alias.3",
+      "canonical": "thisweekinphoto.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.54,
+  "docId": "hz.web.b298cc9c34e4473b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.b298cc9c34e4473b.entity.1",
+      "kind": "document",
+      "name": "thisweekinphoto.com",
+      "tokens": [
+        "thisweekinphoto",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.b298cc9c34e4473b.entity.2",
+      "kind": "heading",
+      "name": "thisweekinphoto.com",
+      "tokens": [
+        "thisweekinphoto",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.b298cc9c34e4473b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.b298cc9c34e4473b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.b298cc9c34e4473b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 115,
+      "charStart": 24,
+      "factId": "hz.web.b298cc9c34e4473b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://thisweekinphoto.com/wp-content/themes/fvj-kadence-child-2/style.css?ver=1.0",
+      "tokens": [
+        "source",
+        "https",
+        "thisweekinphoto",
+        "com",
+        "wp",
+        "content",
+        "themes",
+        "fvj",
+        "kadence",
+        "child",
+        "style",
+        "css",
+        "ver"
+      ]
+    },
+    {
+      "charEnd": 365,
+      "charStart": 167,
+      "factId": "hz.web.b298cc9c34e4473b.fact.1",
+      "kind": "bullet",
+      "text": "/* Theme Name: FVJ Kadence Child Theme 02 Theme URI: http://www.frederickvan.com Template: kadence Author: Frederick Van Johnson Author URI: n/a Description: Base configuration for VanOS websites.",
+      "tokens": [
+        "theme",
+        "name",
+        "fvj",
+        "kadence",
+        "child",
+        "theme",
+        "02",
+        "theme",
+        "uri",
+        "http",
+        "www",
+        "frederickvan",
+        "com",
+        "template",
+        "kadence",
+        "author",
+        "frederick",
+        "van",
+        "johnson",
+        "author",
+        "uri",
+        "description",
+        "base",
+        "configuration",
+        "vanos",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1903,
+      "charStart": 366,
+      "factId": "hz.web.b298cc9c34e4473b.fact.2",
+      "kind": "bullet",
+      "text": "Version: 1.0 License: GNU General Public License v3.0 (or later) License URI: https://www.gnu.org/licenses/gpl-3.0.html */ .sidebar-inner-wrap { padding: 30px 20px !important; } .sidebar .widget { padding: 20px !important; margin-bottom: 30px !important; } .sidebar .widget .widget-content { padding: 15px !important; } .sidebar .widget { background: #f9f9f9; padding: 20px !important; border-radius: 8px; } .post-type-archive-ajde_events .sidebar, .tax-event_type .sidebar, .tax-event_type_2 .sidebar, .tax-event_location .sidebar, .tax-event_organizer .sidebar .fluent-product-single { padding-top: 120px !important; } .fluent-product-wrapper { padding: 40px 20px !important; } .fluent-product-gallery { margin-bottom: 40px !important; } .fluent-product-title { margin-bottom: 25px !important; padding-top: 20px !important; } .fluent-product-description { margin-top: 30px !important; padding: 20px 0 !important; } .fluent-product-actions, .fluent-cart-actions { margin-top: 30px !important; padding-top: 20px !important; } .fluent-product-variants { margin: 25px 0 !important; } .ajde_evcal_calendar.boxy .eventon_list_event, .ajde_evcal_calendar.boxy .evoShow_more_events { border-radius: 0 !important; } .ajde_evcal_calendar.boxy.boxstyle1 .evo_boxtop, .ajde_evcal_calendar.boxy .eventon_list_event.hasbgimg, .ajde_evcal_calendar.boxy.boxstyle1 #evcal_list .eventon_list_event .desc_trig { border-radius: 0 !important; } /* This adds 5px padding to the logo bottom for alignment */ .custom-logo { padding-bottom: 8px !important; }",
+      "tokens": [
+        "version",
+        "license",
+        "gnu",
+        "general",
+        "public",
+        "license",
+        "v3",
+        "later",
+        "license",
+        "uri",
+        "https",
+        "www",
+        "gnu",
+        "org",
+        "licenses",
+        "gpl",
+        "html",
+        "sidebar",
+        "inner",
+        "wrap",
+        "padding",
+        "30px",
+        "20px",
+        "important",
+        "sidebar",
+        "widget",
+        "padding",
+        "20px",
+        "important",
+        "margin",
+        "bottom",
+        "30px",
+        "important",
+        "sidebar",
+        "widget",
+        "widget",
+        "content",
+        "padding",
+        "15px",
+        "important",
+        "sidebar",
+        "widget",
+        "background",
+        "f9f9f9",
+        "padding",
+        "20px",
+        "important",
+        "border",
+        "radius",
+        "8px",
+        "post",
+        "type",
+        "archive",
+        "ajde_events",
+        "sidebar",
+        "tax",
+        "event_type",
+        "sidebar",
+        "tax",
+        "event_type_2",
+        "sidebar",
+        "tax",
+        "event_location",
+        "sidebar",
+        "tax",
+        "event_organizer",
+        "sidebar",
+        "fluent",
+        "product",
+        "single",
+        "padding",
+        "top",
+        "120px",
+        "important",
+        "fluent",
+        "product",
+        "wrapper",
+        "padding",
+        "40px",
+        "20px",
+        "important",
+        "fluent",
+        "product",
+        "gallery",
+        "margin",
+        "bottom",
+        "40px",
+        "important",
+        "fluent",
+        "product",
+        "title",
+        "margin",
+        "bottom",
+        "25px",
+        "important",
+        "padding",
+        "top",
+        "20px",
+        "important",
+        "fluent",
+        "product",
+        "description",
+        "margin",
+        "top",
+        "30px",
+        "important",
+        "padding",
+        "20px",
+        "important",
+        "fluent",
+        "product",
+        "actions",
+        "fluent",
+        "cart",
+        "actions",
+        "margin",
+        "top",
+        "30px",
+        "important",
+        "padding",
+        "top",
+        "20px",
+        "important",
+        "fluent",
+        "product",
+        "variants",
+        "margin",
+        "25px",
+        "important",
+        "ajde_evcal_calendar",
+        "boxy",
+        "eventon_list_event",
+        "ajde_evcal_calendar",
+        "boxy",
+        "evoshow_more_events",
+        "border",
+        "radius",
+        "important",
+        "ajde_evcal_calendar",
+        "boxy",
+        "boxstyle1",
+        "evo_boxtop",
+        "ajde_evcal_calendar",
+        "boxy",
+        "eventon_list_event",
+        "hasbgimg",
+        "ajde_evcal_calendar",
+        "boxy",
+        "boxstyle1",
+        "evcal_list",
+        "eventon_list_event",
+        "desc_trig",
+        "border",
+        "radius",
+        "important",
+        "adds",
+        "5px",
+        "padding",
+        "logo",
+        "bottom",
+        "alignment",
+        "custom",
+        "logo",
+        "padding",
+        "bottom",
+        "8px",
+        "important"
+      ]
+    },
+    {
+      "charEnd": 1929,
+      "charStart": 1918,
+      "factId": "hz.web.b298cc9c34e4473b.fact.3",
+      "kind": "bullet",
+      "text": "important",
+      "tokens": [
+        "important"
+      ]
+    },
+    {
+      "charEnd": 1939,
+      "charStart": 1930,
+      "factId": "hz.web.b298cc9c34e4473b.fact.4",
+      "kind": "bullet",
+      "text": "padding",
+      "tokens": [
+        "padding"
+      ]
+    },
+    {
+      "charEnd": 1949,
+      "charStart": 1940,
+      "factId": "hz.web.b298cc9c34e4473b.fact.5",
+      "kind": "bullet",
+      "text": "sidebar",
+      "tokens": [
+        "sidebar"
+      ]
+    },
+    {
+      "charEnd": 1958,
+      "charStart": 1950,
+      "factId": "hz.web.b298cc9c34e4473b.fact.6",
+      "kind": "bullet",
+      "text": "fluent",
+      "tokens": [
+        "fluent"
+      ]
+    },
+    {
+      "charEnd": 1965,
+      "charStart": 1959,
+      "factId": "hz.web.b298cc9c34e4473b.fact.7",
+      "kind": "bullet",
+      "text": "20px",
+      "tokens": [
+        "20px"
+      ]
+    },
+    {
+      "charEnd": 1975,
+      "charStart": 1966,
+      "factId": "hz.web.b298cc9c34e4473b.fact.8",
+      "kind": "bullet",
+      "text": "product",
+      "tokens": [
+        "product"
+      ]
+    },
+    {
+      "charEnd": 1984,
+      "charStart": 1976,
+      "factId": "hz.web.b298cc9c34e4473b.fact.9",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 2006,
+      "charStart": 1985,
+      "factId": "hz.web.b298cc9c34e4473b.fact.10",
+      "kind": "bullet",
+      "text": "ajde_evcal_calendar",
+      "tokens": [
+        "ajde_evcal_calendar"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.b298cc9c34e4473b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "thisweekinphoto.com"
+    },
+    {
+      "charEnd": 165,
+      "charStart": 155,
+      "headingId": "hz.web.b298cc9c34e4473b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1916,
+      "charStart": 1905,
+      "headingId": "hz.web.b298cc9c34e4473b.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2018,
+      "charStart": 2008,
+      "headingId": "hz.web.b298cc9c34e4473b.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/b298cc9c34e4473b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4039,
+        "start": 0
+      }
+    ],
+    "hash": "7c54bcac82e0ef1053cbe98a8a82792315f8f1241c4403f414332aa04182bc61",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* Theme Name: FVJ Kadence Child Theme 02 Theme URI: http://www.frederickvan.com Template: kadence Author: Frederick Van Johnson Author URI: n/a Description: Base configuration for VanOS websites.",
+      "Version: 1.0 License: GNU General Public License v3.0 (or later) License URI: https://www.gnu.org/licenses/gpl-3.0.html */ .sidebar-inner-wrap { padding: 30px 20px !important; } .sidebar .widget { padding: 20px !important; margin-bottom: 30px !important; } .sidebar .widget .widget-content { padding: 15px !important; } .sidebar .widget { background: #f9f9f9; padding: 20px !important; border-radius: 8px; } .post-type-archive-ajde_events .sidebar, .tax-event_type .sidebar, .tax-event_type_2 .sidebar, .tax-event_location .sidebar, .tax-event_organizer .sidebar .fluent-product-single { padding-top: 120px !important; } .fluent-product-wrapper { padding: 40px 20px !important; } .fluent-product-gallery { margin-bottom: 40px !important; } .fluent-product-title { margin-bottom: 25px !important; padding-top: 20px !important; } .fluent-product-description { margin-top: 30px !important; padding: 20px 0 !important; } .fluent-product-actions, .fluent-cart-actions { margin-top: 30px !important; padding-top: 20px !important; } .fluent-product-variants { margin: 25px 0 !important; } .ajde_evcal_calendar.boxy .eventon_list_event, .ajde_evcal_calendar.boxy .evoShow_more_events { border-radius: 0 !important; } .ajde_evcal_calendar.boxy.boxstyle1 .evo_boxtop, .ajde_evcal_calendar.boxy .eventon_list_event.hasbgimg, .ajde_evcal_calendar.boxy.boxstyle1 #evcal_list .eventon_list_event .desc_trig { border-radius: 0 !important; } /* This adds 5px padding to the logo bottom for alignment */ .custom-logo { padding-bottom: 8px !important; }",
+      "important"
+    ],
+    "medium": "Source: https://thisweekinphoto.com/wp-content/themes/fvj-kadence-child-2/style.css?ver=1.0",
+    "short": "Source: https://thisweekinphoto.com/wp-content/themes/fvj-kadence-child-2/style.css?ver=1.0",
+    "tokens": [
+      "thisweekinphoto",
+      "com",
+      "source",
+      "https",
+      "thisweekinphoto",
+      "com",
+      "wp",
+      "content",
+      "themes",
+      "fvj",
+      "kadence",
+      "child",
+      "style",
+      "css",
+      "ver",
+      "source",
+      "https",
+      "thisweekinphoto",
+      "com",
+      "wp",
+      "content",
+      "themes",
+      "fvj",
+      "kadence",
+      "child",
+      "style",
+      "css",
+      "ver"
+    ]
+  },
+  "title": "thisweekinphoto.com"
+}

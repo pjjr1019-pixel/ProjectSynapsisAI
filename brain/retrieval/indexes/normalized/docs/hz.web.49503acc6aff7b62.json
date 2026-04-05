@@ -1,0 +1,355 @@
+{
+  "aliases": [
+    {
+      "alias": "49503acc6aff7b62",
+      "aliasId": "hz.web.49503acc6aff7b62.alias.1",
+      "canonical": "info"
+    },
+    {
+      "alias": "info",
+      "aliasId": "hz.web.49503acc6aff7b62.alias.2",
+      "canonical": "info"
+    },
+    {
+      "alias": "web 49503acc6aff7b62",
+      "aliasId": "hz.web.49503acc6aff7b62.alias.3",
+      "canonical": "info"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.74,
+  "docId": "hz.web.49503acc6aff7b62",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.49503acc6aff7b62.entity.1",
+      "kind": "document",
+      "name": "Info",
+      "tokens": [
+        "info"
+      ]
+    },
+    {
+      "entityId": "hz.web.49503acc6aff7b62.entity.2",
+      "kind": "heading",
+      "name": "Info",
+      "tokens": [
+        "info"
+      ]
+    },
+    {
+      "entityId": "hz.web.49503acc6aff7b62.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.49503acc6aff7b62.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.49503acc6aff7b62.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 41,
+      "charStart": 9,
+      "factId": "hz.web.49503acc6aff7b62.fact.1",
+      "kind": "summary",
+      "text": "Source: http://goessner.net/info",
+      "tokens": [
+        "source",
+        "http",
+        "goessner",
+        "net",
+        "info"
+      ]
+    },
+    {
+      "charEnd": 353,
+      "charStart": 93,
+      "factId": "hz.web.49503acc6aff7b62.fact.1",
+      "kind": "bullet",
+      "text": "Info &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | [edit] [comment] [remove] | 2005-03-16 | e2 &#35; Willkommen Ich bin Stefan G�ssner , Professor an der Fachhochschule Dortmund im Fachbereich Maschinenbau .",
+      "tokens": [
+        "info",
+        "lt",
+        "stefan",
+        "goessner",
+        "gt",
+        "mechanik",
+        "das",
+        "web",
+        "und",
+        "der",
+        "ganze",
+        "rest",
+        "home",
+        "lehre",
+        "download",
+        "info",
+        "edit",
+        "comment",
+        "remove",
+        "2005",
+        "03",
+        "16",
+        "e2",
+        "35",
+        "willkommen",
+        "ich",
+        "bin",
+        "stefan",
+        "ssner",
+        "professor",
+        "der",
+        "fachhochschule",
+        "dortmund",
+        "im",
+        "fachbereich",
+        "maschinenbau"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 354,
+      "factId": "hz.web.49503acc6aff7b62.fact.2",
+      "kind": "bullet",
+      "text": "Meine Lehrgebiete sind Kinematik und Kinetik Getriebelehre Informatik/Webtechnologien Obgleich diese Webseiten vor allem meiner Lehre dienen, sind sie doch experimenteller Natur.",
+      "tokens": [
+        "meine",
+        "lehrgebiete",
+        "sind",
+        "kinematik",
+        "und",
+        "kinetik",
+        "getriebelehre",
+        "informatik",
+        "webtechnologien",
+        "obgleich",
+        "diese",
+        "webseiten",
+        "vor",
+        "allem",
+        "meiner",
+        "lehre",
+        "dienen",
+        "sind",
+        "sie",
+        "doch",
+        "experimenteller",
+        "natur"
+      ]
+    },
+    {
+      "charEnd": 558,
+      "charStart": 535,
+      "factId": "hz.web.49503acc6aff7b62.fact.3",
+      "kind": "bullet",
+      "text": "So verwende ich z.Zt.",
+      "tokens": [
+        "so",
+        "verwende",
+        "ich",
+        "zt"
+      ]
+    },
+    {
+      "charEnd": 719,
+      "charStart": 559,
+      "factId": "hz.web.49503acc6aff7b62.fact.4",
+      "kind": "bullet",
+      "text": "kein CMS , sondern teste stattdessen ein erstaunlich vertr�gliches Gemisch aus XML , XMLHttpRequest , Json und REST , um Inhalt zu meinen Seiten hinzuzuf�gen.",
+      "tokens": [
+        "kein",
+        "cms",
+        "sondern",
+        "teste",
+        "stattdessen",
+        "ein",
+        "erstaunlich",
+        "vertr",
+        "gliches",
+        "gemisch",
+        "aus",
+        "xml",
+        "xmlhttprequest",
+        "json",
+        "und",
+        "rest",
+        "um",
+        "inhalt",
+        "zu",
+        "meinen",
+        "seiten",
+        "hinzuzuf",
+        "gen"
+      ]
+    },
+    {
+      "charEnd": 741,
+      "charStart": 734,
+      "factId": "hz.web.49503acc6aff7b62.fact.5",
+      "kind": "bullet",
+      "text": "raquo",
+      "tokens": [
+        "raquo"
+      ]
+    },
+    {
+      "charEnd": 750,
+      "charStart": 742,
+      "factId": "hz.web.49503acc6aff7b62.fact.6",
+      "kind": "bullet",
+      "text": "stefan",
+      "tokens": [
+        "stefan"
+      ]
+    },
+    {
+      "charEnd": 756,
+      "charStart": 751,
+      "factId": "hz.web.49503acc6aff7b62.fact.7",
+      "kind": "bullet",
+      "text": "231",
+      "tokens": [
+        "231"
+      ]
+    },
+    {
+      "charEnd": 761,
+      "charStart": 757,
+      "factId": "hz.web.49503acc6aff7b62.fact.8",
+      "kind": "bullet",
+      "text": "49",
+      "tokens": [
+        "49"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 762,
+      "factId": "hz.web.49503acc6aff7b62.fact.9",
+      "kind": "bullet",
+      "text": "dortmund",
+      "tokens": [
+        "dortmund"
+      ]
+    },
+    {
+      "charEnd": 780,
+      "charStart": 773,
+      "factId": "hz.web.49503acc6aff7b62.fact.10",
+      "kind": "bullet",
+      "text": "ssner",
+      "tokens": [
+        "ssner"
+      ]
+    },
+    {
+      "charEnd": 786,
+      "charStart": 781,
+      "factId": "hz.web.49503acc6aff7b62.fact.11",
+      "kind": "bullet",
+      "text": "der",
+      "tokens": [
+        "der"
+      ]
+    },
+    {
+      "charEnd": 792,
+      "charStart": 787,
+      "factId": "hz.web.49503acc6aff7b62.fact.12",
+      "kind": "bullet",
+      "text": "ich",
+      "tokens": [
+        "ich"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 7,
+      "charStart": 1,
+      "headingId": "hz.web.49503acc6aff7b62.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Info"
+    },
+    {
+      "charEnd": 91,
+      "charStart": 81,
+      "headingId": "hz.web.49503acc6aff7b62.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 732,
+      "charStart": 721,
+      "headingId": "hz.web.49503acc6aff7b62.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 804,
+      "charStart": 794,
+      "headingId": "hz.web.49503acc6aff7b62.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/49503acc6aff7b62.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2467,
+        "start": 0
+      }
+    ],
+    "hash": "bde1fe27d5a891108cd25967cd3fa10a3d0e9c6895375cecf886d919b4329ca9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Info &lt;stefan.goessner/&gt; Mechanik, das Web und der ganze Rest | Home | Lehre | Download | Info | [edit] [comment] [remove] | 2005-03-16 | e2 &#35; Willkommen Ich bin Stefan G�ssner , Professor an der Fachhochschule Dortmund im Fachbereich Maschinenbau .",
+      "Meine Lehrgebiete sind Kinematik und Kinetik Getriebelehre Informatik/Webtechnologien Obgleich diese Webseiten vor allem meiner Lehre dienen, sind sie doch experimenteller Natur.",
+      "So verwende ich z.Zt."
+    ],
+    "medium": "Source: http://goessner.net/info",
+    "short": "Source: http://goessner.net/info",
+    "tokens": [
+      "info",
+      "source",
+      "http",
+      "goessner",
+      "net",
+      "info",
+      "source",
+      "http",
+      "goessner",
+      "net",
+      "info"
+    ]
+  },
+  "title": "Info"
+}

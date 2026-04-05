@@ -1,0 +1,390 @@
+{
+  "aliases": [
+    {
+      "alias": "c24951c1d6ed846c",
+      "aliasId": "hz.web.c24951c1d6ed846c.alias.1",
+      "canonical": "reagle's w3c public page"
+    },
+    {
+      "alias": "reagle s w3c public page",
+      "aliasId": "hz.web.c24951c1d6ed846c.alias.2",
+      "canonical": "reagle's w3c public page"
+    },
+    {
+      "alias": "web c24951c1d6ed846c",
+      "aliasId": "hz.web.c24951c1d6ed846c.alias.3",
+      "canonical": "reagle's w3c public page"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.77,
+  "docId": "hz.web.c24951c1d6ed846c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c24951c1d6ed846c.entity.1",
+      "kind": "document",
+      "name": "Reagle's W3C Public Page",
+      "tokens": [
+        "reagle",
+        "w3c",
+        "public",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.c24951c1d6ed846c.entity.2",
+      "kind": "heading",
+      "name": "Reagle's W3C Public Page",
+      "tokens": [
+        "reagle",
+        "w3c",
+        "public",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.c24951c1d6ed846c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c24951c1d6ed846c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c24951c1d6ed846c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 83,
+      "charStart": 29,
+      "factId": "hz.web.c24951c1d6ed846c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/People/Reagle/Overview.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "people",
+        "reagle",
+        "overview",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 443,
+      "charStart": 135,
+      "factId": "hz.web.c24951c1d6ed846c.fact.1",
+      "kind": "bullet",
+      "text": "Reagle's W3C Public Page joseph.m.reagle PGP Key | CV Work and Chairing Style [This is a historical page as I no longer work at the W3C, please see my personal home page for the latest.] In 1996 I joined the MIT Lab for Computer Science where I acted as a W3C public policy analyst and Working Group Chair.",
+      "tokens": [
+        "reagle",
+        "w3c",
+        "public",
+        "page",
+        "joseph",
+        "reagle",
+        "pgp",
+        "key",
+        "cv",
+        "work",
+        "chairing",
+        "style",
+        "historical",
+        "page",
+        "no",
+        "longer",
+        "work",
+        "w3c",
+        "please",
+        "see",
+        "personal",
+        "home",
+        "page",
+        "latest",
+        "1996",
+        "joined",
+        "mit",
+        "lab",
+        "computer",
+        "science",
+        "acted",
+        "w3c",
+        "public",
+        "policy",
+        "analyst",
+        "working",
+        "group",
+        "chair"
+      ]
+    },
+    {
+      "charEnd": 607,
+      "charStart": 444,
+      "factId": "hz.web.c24951c1d6ed846c.fact.2",
+      "kind": "bullet",
+      "text": "I've worked within the Technology & Society Domain on the technology and policy of digital signatures , encryption, privacy , and content-selection/free-speech .",
+      "tokens": [
+        "ve",
+        "worked",
+        "within",
+        "technology",
+        "society",
+        "domain",
+        "technology",
+        "policy",
+        "digital",
+        "signatures",
+        "encryption",
+        "privacy",
+        "content",
+        "selection",
+        "free",
+        "speech"
+      ]
+    },
+    {
+      "charEnd": 775,
+      "charStart": 608,
+      "factId": "hz.web.c24951c1d6ed846c.fact.3",
+      "kind": "bullet",
+      "text": "I've also worked on W3C's privacy and intellectual property policies: authoring and maintaining the copyright and trademark licenses and performing patent analysis .",
+      "tokens": [
+        "ve",
+        "also",
+        "worked",
+        "w3c",
+        "privacy",
+        "intellectual",
+        "property",
+        "policies",
+        "authoring",
+        "maintaining",
+        "copyright",
+        "trademark",
+        "licenses",
+        "performing",
+        "patent",
+        "analysis"
+      ]
+    },
+    {
+      "charEnd": 1031,
+      "charStart": 776,
+      "factId": "hz.web.c24951c1d6ed846c.fact.4",
+      "kind": "bullet",
+      "text": "I was the W3C co-chair of the joint IETF/W3C XML-Digital-Signature Working Group , Chair of the W3C XML Encryption Working Group and the Chair of the P3P Harmonization Group (developing a OECD privacy guideline like implementation language for the Web).",
+      "tokens": [
+        "w3c",
+        "co",
+        "chair",
+        "joint",
+        "ietf",
+        "w3c",
+        "xml",
+        "digital",
+        "signature",
+        "working",
+        "group",
+        "chair",
+        "w3c",
+        "xml",
+        "encryption",
+        "working",
+        "group",
+        "chair",
+        "p3p",
+        "harmonization",
+        "group",
+        "developing",
+        "oecd",
+        "privacy",
+        "guideline",
+        "like",
+        "implementation",
+        "language",
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1053,
+      "charStart": 1046,
+      "factId": "hz.web.c24951c1d6ed846c.fact.5",
+      "kind": "bullet",
+      "text": "notes",
+      "tokens": [
+        "notes"
+      ]
+    },
+    {
+      "charEnd": 1059,
+      "charStart": 1054,
+      "factId": "hz.web.c24951c1d6ed846c.fact.6",
+      "kind": "bullet",
+      "text": "w3c",
+      "tokens": [
+        "w3c"
+      ]
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1060,
+      "factId": "hz.web.c24951c1d6ed846c.fact.7",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 1071,
+      "charStart": 1066,
+      "factId": "hz.web.c24951c1d6ed846c.fact.8",
+      "kind": "bullet",
+      "text": "mit",
+      "tokens": [
+        "mit"
+      ]
+    },
+    {
+      "charEnd": 1082,
+      "charStart": 1072,
+      "factId": "hz.web.c24951c1d6ed846c.fact.9",
+      "kind": "bullet",
+      "text": "internet",
+      "tokens": [
+        "internet"
+      ]
+    },
+    {
+      "charEnd": 1089,
+      "charStart": 1083,
+      "factId": "hz.web.c24951c1d6ed846c.fact.10",
+      "kind": "bullet",
+      "text": "2000",
+      "tokens": [
+        "2000"
+      ]
+    },
+    {
+      "charEnd": 1098,
+      "charStart": 1090,
+      "factId": "hz.web.c24951c1d6ed846c.fact.11",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 1110,
+      "charStart": 1099,
+      "factId": "hz.web.c24951c1d6ed846c.fact.12",
+      "kind": "bullet",
+      "text": "signature",
+      "tokens": [
+        "signature"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.c24951c1d6ed846c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Reagle's W3C Public Page"
+    },
+    {
+      "charEnd": 133,
+      "charStart": 123,
+      "headingId": "hz.web.c24951c1d6ed846c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1044,
+      "charStart": 1033,
+      "headingId": "hz.web.c24951c1d6ed846c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1122,
+      "charStart": 1112,
+      "headingId": "hz.web.c24951c1d6ed846c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/c24951c1d6ed846c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4379,
+        "start": 0
+      }
+    ],
+    "hash": "916ef48b2a20665354b4d4d67d70011f9384b9ac06844091d3cd572fc69a0562",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Reagle's W3C Public Page joseph.m.reagle PGP Key | CV Work and Chairing Style [This is a historical page as I no longer work at the W3C, please see my personal home page for the latest.] In 1996 I joined the MIT Lab for Computer Science where I acted as a W3C public policy analyst and Working Group Chair.",
+      "I've worked within the Technology & Society Domain on the technology and policy of digital signatures , encryption, privacy , and content-selection/free-speech .",
+      "I've also worked on W3C's privacy and intellectual property policies: authoring and maintaining the copyright and trademark licenses and performing patent analysis ."
+    ],
+    "medium": "Source: https://www.w3.org/People/Reagle/Overview.html",
+    "short": "Source: https://www.w3.org/People/Reagle/Overview.html",
+    "tokens": [
+      "reagle",
+      "w3c",
+      "public",
+      "page",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "people",
+      "reagle",
+      "overview",
+      "html",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "people",
+      "reagle",
+      "overview",
+      "html"
+    ]
+  },
+  "title": "Reagle's W3C Public Page"
+}

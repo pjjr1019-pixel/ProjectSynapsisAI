@@ -1,0 +1,335 @@
+{
+  "aliases": [
+    {
+      "alias": "9f63aaf1fa7cbad3",
+      "aliasId": "hz.web.9f63aaf1fa7cbad3.alias.1",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "facebook",
+      "aliasId": "hz.web.9f63aaf1fa7cbad3.alias.2",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "web 9f63aaf1fa7cbad3",
+      "aliasId": "hz.web.9f63aaf1fa7cbad3.alias.3",
+      "canonical": "facebook"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.9f63aaf1fa7cbad3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9f63aaf1fa7cbad3.entity.1",
+      "kind": "document",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f63aaf1fa7cbad3.entity.2",
+      "kind": "heading",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f63aaf1fa7cbad3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f63aaf1fa7cbad3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9f63aaf1fa7cbad3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 50,
+      "charStart": 13,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://connect.facebook.net/",
+      "tokens": [
+        "source",
+        "https",
+        "connect",
+        "facebook",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 142,
+      "charStart": 102,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.1",
+      "kind": "bullet",
+      "text": "Facebook Explore the things you love .",
+      "tokens": [
+        "facebook",
+        "explore",
+        "things",
+        "love"
+      ]
+    },
+    {
+      "charEnd": 218,
+      "charStart": 143,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.2",
+      "kind": "bullet",
+      "text": "Log into Facebook Email or mobile number Password Log in Forgot password?",
+      "tokens": [
+        "log",
+        "into",
+        "facebook",
+        "email",
+        "mobile",
+        "number",
+        "password",
+        "log",
+        "forgot",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 625,
+      "charStart": 219,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.3",
+      "kind": "bullet",
+      "text": "Create new account English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026",
+      "tokens": [
+        "create",
+        "new",
+        "account",
+        "english",
+        "us",
+        "espa",
+        "ol",
+        "fran",
+        "ais",
+        "france",
+        "portugu",
+        "brasil",
+        "italiano",
+        "more",
+        "languages",
+        "sign",
+        "up",
+        "log",
+        "messenger",
+        "facebook",
+        "lite",
+        "video",
+        "meta",
+        "pay",
+        "meta",
+        "store",
+        "meta",
+        "quest",
+        "ray",
+        "ban",
+        "meta",
+        "meta",
+        "ai",
+        "instagram",
+        "threads",
+        "privacy",
+        "policy",
+        "consumer",
+        "health",
+        "privacy",
+        "privacy",
+        "center",
+        "about",
+        "create",
+        "ad",
+        "create",
+        "page",
+        "developers",
+        "careers",
+        "cookies",
+        "ad",
+        "choices",
+        "terms",
+        "help",
+        "contact",
+        "uploading",
+        "non",
+        "users",
+        "meta",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 646,
+      "charStart": 640,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.4",
+      "kind": "bullet",
+      "text": "meta",
+      "tokens": [
+        "meta"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 647,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.5",
+      "kind": "bullet",
+      "text": "create",
+      "tokens": [
+        "create"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 656,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.6",
+      "kind": "bullet",
+      "text": "facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "charEnd": 672,
+      "charStart": 667,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.7",
+      "kind": "bullet",
+      "text": "log",
+      "tokens": [
+        "log"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 673,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.8",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 687,
+      "charStart": 683,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.9",
+      "kind": "bullet",
+      "text": "ad",
+      "tokens": [
+        "ad"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 688,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.10",
+      "kind": "bullet",
+      "text": "password",
+      "tokens": [
+        "password"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 699,
+      "factId": "hz.web.9f63aaf1fa7cbad3.fact.11",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.9f63aaf1fa7cbad3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Facebook"
+    },
+    {
+      "charEnd": 100,
+      "charStart": 90,
+      "headingId": "hz.web.9f63aaf1fa7cbad3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 638,
+      "charStart": 627,
+      "headingId": "hz.web.9f63aaf1fa7cbad3.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 717,
+      "charStart": 707,
+      "headingId": "hz.web.9f63aaf1fa7cbad3.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/9f63aaf1fa7cbad3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1458,
+        "start": 0
+      }
+    ],
+    "hash": "4a6def54450c71a0af3cfc66ad3ce091d7c8725a7523cdfa4bc07ac39d49f943",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Facebook Explore the things you love .",
+      "Log into Facebook Email or mobile number Password Log in Forgot password?",
+      "Create new account English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026"
+    ],
+    "medium": "Source: https://connect.facebook.net/",
+    "short": "Source: https://connect.facebook.net/",
+    "tokens": [
+      "facebook",
+      "source",
+      "https",
+      "connect",
+      "facebook",
+      "net",
+      "source",
+      "https",
+      "connect",
+      "facebook",
+      "net"
+    ]
+  },
+  "title": "Facebook"
+}

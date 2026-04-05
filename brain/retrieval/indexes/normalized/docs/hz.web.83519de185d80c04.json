@@ -1,0 +1,374 @@
+{
+  "aliases": [
+    {
+      "alias": "83519de185d80c04",
+      "aliasId": "hz.web.83519de185d80c04.alias.1",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "facebook",
+      "aliasId": "hz.web.83519de185d80c04.alias.2",
+      "canonical": "facebook"
+    },
+    {
+      "alias": "web 83519de185d80c04",
+      "aliasId": "hz.web.83519de185d80c04.alias.3",
+      "canonical": "facebook"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.83519de185d80c04",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.83519de185d80c04.entity.1",
+      "kind": "document",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.83519de185d80c04.entity.2",
+      "kind": "heading",
+      "name": "Facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.83519de185d80c04.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.83519de185d80c04.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.83519de185d80c04.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 155,
+      "charStart": 13,
+      "factId": "hz.web.83519de185d80c04.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.facebook.com/sharer/sharer.php?caption=Google%20Marketing%20Platform&u=https://blog.google/products/marketingplatform/360/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "facebook",
+        "com",
+        "sharer",
+        "sharer",
+        "php",
+        "caption",
+        "google",
+        "20marketing",
+        "20platform",
+        "https",
+        "blog",
+        "google",
+        "products",
+        "marketingplatform",
+        "360"
+      ]
+    },
+    {
+      "charEnd": 247,
+      "charStart": 207,
+      "factId": "hz.web.83519de185d80c04.fact.1",
+      "kind": "bullet",
+      "text": "Facebook Explore the things you love .",
+      "tokens": [
+        "facebook",
+        "explore",
+        "things",
+        "love"
+      ]
+    },
+    {
+      "charEnd": 323,
+      "charStart": 248,
+      "factId": "hz.web.83519de185d80c04.fact.2",
+      "kind": "bullet",
+      "text": "Log into Facebook Email or mobile number Password Log in Forgot password?",
+      "tokens": [
+        "log",
+        "into",
+        "facebook",
+        "email",
+        "mobile",
+        "number",
+        "password",
+        "log",
+        "forgot",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 730,
+      "charStart": 324,
+      "factId": "hz.web.83519de185d80c04.fact.3",
+      "kind": "bullet",
+      "text": "Create new account English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026",
+      "tokens": [
+        "create",
+        "new",
+        "account",
+        "english",
+        "us",
+        "espa",
+        "ol",
+        "fran",
+        "ais",
+        "france",
+        "portugu",
+        "brasil",
+        "italiano",
+        "more",
+        "languages",
+        "sign",
+        "up",
+        "log",
+        "messenger",
+        "facebook",
+        "lite",
+        "video",
+        "meta",
+        "pay",
+        "meta",
+        "store",
+        "meta",
+        "quest",
+        "ray",
+        "ban",
+        "meta",
+        "meta",
+        "ai",
+        "instagram",
+        "threads",
+        "privacy",
+        "policy",
+        "consumer",
+        "health",
+        "privacy",
+        "privacy",
+        "center",
+        "about",
+        "create",
+        "ad",
+        "create",
+        "page",
+        "developers",
+        "careers",
+        "cookies",
+        "ad",
+        "choices",
+        "terms",
+        "help",
+        "contact",
+        "uploading",
+        "non",
+        "users",
+        "meta",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 751,
+      "charStart": 745,
+      "factId": "hz.web.83519de185d80c04.fact.4",
+      "kind": "bullet",
+      "text": "meta",
+      "tokens": [
+        "meta"
+      ]
+    },
+    {
+      "charEnd": 760,
+      "charStart": 752,
+      "factId": "hz.web.83519de185d80c04.fact.5",
+      "kind": "bullet",
+      "text": "create",
+      "tokens": [
+        "create"
+      ]
+    },
+    {
+      "charEnd": 771,
+      "charStart": 761,
+      "factId": "hz.web.83519de185d80c04.fact.6",
+      "kind": "bullet",
+      "text": "facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "charEnd": 777,
+      "charStart": 772,
+      "factId": "hz.web.83519de185d80c04.fact.7",
+      "kind": "bullet",
+      "text": "log",
+      "tokens": [
+        "log"
+      ]
+    },
+    {
+      "charEnd": 787,
+      "charStart": 778,
+      "factId": "hz.web.83519de185d80c04.fact.8",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 792,
+      "charStart": 788,
+      "factId": "hz.web.83519de185d80c04.fact.9",
+      "kind": "bullet",
+      "text": "ad",
+      "tokens": [
+        "ad"
+      ]
+    },
+    {
+      "charEnd": 803,
+      "charStart": 793,
+      "factId": "hz.web.83519de185d80c04.fact.10",
+      "kind": "bullet",
+      "text": "password",
+      "tokens": [
+        "password"
+      ]
+    },
+    {
+      "charEnd": 810,
+      "charStart": 804,
+      "factId": "hz.web.83519de185d80c04.fact.11",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.83519de185d80c04.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Facebook"
+    },
+    {
+      "charEnd": 205,
+      "charStart": 195,
+      "headingId": "hz.web.83519de185d80c04.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 743,
+      "charStart": 732,
+      "headingId": "hz.web.83519de185d80c04.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 822,
+      "charStart": 812,
+      "headingId": "hz.web.83519de185d80c04.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/83519de185d80c04.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1668,
+        "start": 0
+      }
+    ],
+    "hash": "5076ac6792fade06dcc7b6e3538b1860ebcbd823c2500258c2359c7d7f6ac18c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Facebook Explore the things you love .",
+      "Log into Facebook Email or mobile number Password Log in Forgot password?",
+      "Create new account English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano More languages… Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Meta © 2026"
+    ],
+    "medium": "Source: https://www.facebook.com/sharer/sharer.php?caption=Google%20Marketing%20Platform&u=https://blog.google/products/marketingplatform/360/",
+    "short": "Source: https://www.facebook.com/sharer/sharer.php?caption=Google%20Marketing%20Platform&u=https://blog.google/products/marketingplatform/360/",
+    "tokens": [
+      "facebook",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "sharer",
+      "sharer",
+      "php",
+      "caption",
+      "google",
+      "20marketing",
+      "20platform",
+      "https",
+      "blog",
+      "google",
+      "products",
+      "marketingplatform",
+      "360",
+      "source",
+      "https",
+      "www",
+      "facebook",
+      "com",
+      "sharer",
+      "sharer",
+      "php",
+      "caption",
+      "google",
+      "20marketing",
+      "20platform",
+      "https",
+      "blog",
+      "google",
+      "products",
+      "marketingplatform",
+      "360"
+    ]
+  },
+  "title": "Facebook"
+}

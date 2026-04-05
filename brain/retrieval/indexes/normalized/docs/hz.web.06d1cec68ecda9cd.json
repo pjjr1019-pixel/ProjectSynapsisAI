@@ -1,0 +1,357 @@
+{
+  "aliases": [
+    {
+      "alias": "06d1cec68ecda9cd",
+      "aliasId": "hz.web.06d1cec68ecda9cd.alias.1",
+      "canonical": "login linkedin, login | linkedin"
+    },
+    {
+      "alias": "login linkedin login linkedin",
+      "aliasId": "hz.web.06d1cec68ecda9cd.alias.2",
+      "canonical": "login linkedin, login | linkedin"
+    },
+    {
+      "alias": "web 06d1cec68ecda9cd",
+      "aliasId": "hz.web.06d1cec68ecda9cd.alias.3",
+      "canonical": "login linkedin, login | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.06d1cec68ecda9cd",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.06d1cec68ecda9cd.entity.1",
+      "kind": "document",
+      "name": "Login LinkedIn, Login | LinkedIn",
+      "tokens": [
+        "login",
+        "linkedin",
+        "login",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.06d1cec68ecda9cd.entity.2",
+      "kind": "heading",
+      "name": "Login LinkedIn, Login | LinkedIn",
+      "tokens": [
+        "login",
+        "linkedin",
+        "login",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.06d1cec68ecda9cd.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.06d1cec68ecda9cd.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.06d1cec68ecda9cd.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 78,
+      "charStart": 37,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login/id",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "id"
+      ]
+    },
+    {
+      "charEnd": 331,
+      "charStart": 130,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.1",
+      "kind": "bullet",
+      "text": "Login LinkedIn, Login | LinkedIn Login Login dengan Apple Login dengan kunci sandi Dengan mengeklik Lanjutkan, Anda menyetujui Perjanjian Pengguna , Kebijakan Privasi , dan Kebijakan Cookie LinkedIn.",
+      "tokens": [
+        "login",
+        "linkedin",
+        "login",
+        "linkedin",
+        "login",
+        "login",
+        "dengan",
+        "apple",
+        "login",
+        "dengan",
+        "kunci",
+        "sandi",
+        "dengan",
+        "mengeklik",
+        "lanjutkan",
+        "anda",
+        "menyetujui",
+        "perjanjian",
+        "pengguna",
+        "kebijakan",
+        "privasi",
+        "dan",
+        "kebijakan",
+        "cookie",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 395,
+      "charStart": 332,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.2",
+      "kind": "bullet",
+      "text": "atau Email atau telepon Kata sandi Tampilkan Lupa kata sandi?",
+      "tokens": [
+        "atau",
+        "email",
+        "atau",
+        "telepon",
+        "kata",
+        "sandi",
+        "tampilkan",
+        "lupa",
+        "kata",
+        "sandi"
+      ]
+    },
+    {
+      "charEnd": 550,
+      "charStart": 396,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.3",
+      "kind": "bullet",
+      "text": "Biarkan saya tetap login Login Kami telah mengirimkan link sekali pakai ke alamat email utama Anda Klik link untuk login langsung ke akun LinkedIn Anda.",
+      "tokens": [
+        "biarkan",
+        "saya",
+        "tetap",
+        "login",
+        "login",
+        "kami",
+        "telah",
+        "mengirimkan",
+        "link",
+        "sekali",
+        "pakai",
+        "ke",
+        "alamat",
+        "email",
+        "utama",
+        "anda",
+        "klik",
+        "link",
+        "untuk",
+        "login",
+        "langsung",
+        "ke",
+        "akun",
+        "linkedin",
+        "anda"
+      ]
+    },
+    {
+      "charEnd": 630,
+      "charStart": 551,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.4",
+      "kind": "bullet",
+      "text": "Jika Anda tidak menemukan email tersebut di kotak pesan, periksa folder spam.",
+      "tokens": [
+        "jika",
+        "anda",
+        "tidak",
+        "menemukan",
+        "email",
+        "tersebut",
+        "di",
+        "kotak",
+        "pesan",
+        "periksa",
+        "folder",
+        "spam"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 645,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 656,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.6",
+      "kind": "bullet",
+      "text": "login",
+      "tokens": [
+        "login"
+      ]
+    },
+    {
+      "charEnd": 675,
+      "charStart": 664,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.7",
+      "kind": "bullet",
+      "text": "kebijakan",
+      "tokens": [
+        "kebijakan"
+      ]
+    },
+    {
+      "charEnd": 682,
+      "charStart": 676,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.8",
+      "kind": "bullet",
+      "text": "anda",
+      "tokens": [
+        "anda"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 683,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.9",
+      "kind": "bullet",
+      "text": "dengan",
+      "tokens": [
+        "dengan"
+      ]
+    },
+    {
+      "charEnd": 699,
+      "charStart": 692,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.10",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 709,
+      "charStart": 700,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.11",
+      "kind": "bullet",
+      "text": "privasi",
+      "tokens": [
+        "privasi"
+      ]
+    },
+    {
+      "charEnd": 718,
+      "charStart": 710,
+      "factId": "hz.web.06d1cec68ecda9cd.fact.12",
+      "kind": "bullet",
+      "text": "bahasa",
+      "tokens": [
+        "bahasa"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.06d1cec68ecda9cd.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Login LinkedIn, Login | LinkedIn"
+    },
+    {
+      "charEnd": 128,
+      "charStart": 118,
+      "headingId": "hz.web.06d1cec68ecda9cd.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 643,
+      "charStart": 632,
+      "headingId": "hz.web.06d1cec68ecda9cd.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 730,
+      "charStart": 720,
+      "headingId": "hz.web.06d1cec68ecda9cd.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/06d1cec68ecda9cd.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2539,
+        "start": 0
+      }
+    ],
+    "hash": "84ebc309f3a10186f029c7d7b4214fc3330c06e910c62f8da4d0d64f93f13f19",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Login LinkedIn, Login | LinkedIn Login Login dengan Apple Login dengan kunci sandi Dengan mengeklik Lanjutkan, Anda menyetujui Perjanjian Pengguna , Kebijakan Privasi , dan Kebijakan Cookie LinkedIn.",
+      "atau Email atau telepon Kata sandi Tampilkan Lupa kata sandi?",
+      "Biarkan saya tetap login Login Kami telah mengirimkan link sekali pakai ke alamat email utama Anda Klik link untuk login langsung ke akun LinkedIn Anda."
+    ],
+    "medium": "Source: https://www.linkedin.com/login/id",
+    "short": "Source: https://www.linkedin.com/login/id",
+    "tokens": [
+      "login",
+      "linkedin",
+      "login",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "id",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "id"
+    ]
+  },
+  "title": "Login LinkedIn, Login | LinkedIn"
+}

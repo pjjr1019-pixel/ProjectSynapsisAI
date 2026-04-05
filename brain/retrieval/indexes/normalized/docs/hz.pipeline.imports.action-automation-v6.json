@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    {
+      "alias": "action automation v6",
+      "aliasId": "hz.pipeline.imports.action-automation-v6.alias.1",
+      "canonical": "import pack — action and automation v6"
+    },
+    {
+      "alias": "import pack action and automation v6",
+      "aliasId": "hz.pipeline.imports.action-automation-v6.alias.2",
+      "canonical": "import pack — action and automation v6"
+    },
+    {
+      "alias": "imports action-automation-v6",
+      "aliasId": "hz.pipeline.imports.action-automation-v6.alias.3",
+      "canonical": "import pack — action and automation v6"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.65,
+  "docId": "hz.pipeline.imports.action-automation-v6",
+  "domain": "pipeline",
+  "entities": [
+    {
+      "entityId": "hz.pipeline.imports.action-automation-v6.entity.1",
+      "kind": "document",
+      "name": "Import pack — Action and Automation v6",
+      "tokens": [
+        "import",
+        "pack",
+        "action",
+        "automation",
+        "v6"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.action-automation-v6.entity.2",
+      "kind": "tag",
+      "name": "imports",
+      "tokens": [
+        "imports"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.action-automation-v6.entity.3",
+      "kind": "tag",
+      "name": "actions",
+      "tokens": [
+        "actions"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.action-automation-v6.entity.4",
+      "kind": "tag",
+      "name": "automation",
+      "tokens": [
+        "automation"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.action-automation-v6.entity.5",
+      "kind": "tag",
+      "name": "safety",
+      "tokens": [
+        "safety"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.action-automation-v6.entity.6",
+      "kind": "tag",
+      "name": "guardrails",
+      "tokens": [
+        "guardrails"
+      ]
+    },
+    {
+      "entityId": "hz.pipeline.imports.action-automation-v6.entity.7",
+      "kind": "heading",
+      "name": "Action and Automation v6 (import anchor)",
+      "tokens": [
+        "action",
+        "automation",
+        "v6",
+        "import",
+        "anchor"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 157,
+      "charStart": 48,
+      "factId": "hz.pipeline.imports.action-automation-v6.fact.1",
+      "kind": "summary",
+      "text": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+      "tokens": [
+        "source",
+        "tree",
+        "horizonsai_brain_actionautomation_v6",
+        "horizonsai_brain_actionautomation_v6",
+        "readme",
+        "md"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 43,
+      "charStart": 1,
+      "headingId": "hz.pipeline.imports.action-automation-v6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Action and Automation v6 (import anchor)"
+    }
+  ],
+  "moduleIds": [],
+  "path": "imports/base-knowledge/_catalog/action-automation-v6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 869,
+        "start": 0
+      }
+    ],
+    "hash": "a88a7f90f5f2f683dbc88ea2871cd803f8512be133204552f2eabb70c50c1d6b",
+    "sourceType": "import"
+  },
+  "relations": [
+    {
+      "label": "`HorizonsAI_Brain_ActionAutomation_v6/`",
+      "relationId": "hz.pipeline.imports.action-automation-v6.relation.1",
+      "sourceDocId": "hz.pipeline.imports.action-automation-v6",
+      "targetPath": "imports/base-knowledge/HorizonsAI_Brain_ActionAutomation_v6/README.md",
+      "type": "references"
+    },
+    {
+      "label": "CATALOG.md",
+      "relationId": "hz.pipeline.imports.action-automation-v6.relation.2",
+      "sourceDocId": "hz.pipeline.imports.action-automation-v6",
+      "targetPath": "imports/base-knowledge/CATALOG.md",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "draft",
+  "summary": {
+    "bullets": [],
+    "medium": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+    "short": "**Source tree:** [`HorizonsAI_Brain_ActionAutomation_v6/`](../HorizonsAI_Brain_ActionAutomation_v6/README.md)",
+    "tokens": [
+      "import",
+      "pack",
+      "action",
+      "automation",
+      "v6",
+      "source",
+      "tree",
+      "horizonsai_brain_actionautomation_v6",
+      "horizonsai_brain_actionautomation_v6",
+      "readme",
+      "md",
+      "source",
+      "tree",
+      "horizonsai_brain_actionautomation_v6",
+      "horizonsai_brain_actionautomation_v6",
+      "readme",
+      "md"
+    ]
+  },
+  "title": "Import pack — Action and Automation v6"
+}

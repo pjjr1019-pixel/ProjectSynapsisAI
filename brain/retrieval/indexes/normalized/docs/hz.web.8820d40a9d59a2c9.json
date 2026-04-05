@@ -1,0 +1,498 @@
+{
+  "aliases": [
+    {
+      "alias": "8820d40a9d59a2c9",
+      "aliasId": "hz.web.8820d40a9d59a2c9.alias.1",
+      "canonical": "home"
+    },
+    {
+      "alias": "home",
+      "aliasId": "hz.web.8820d40a9d59a2c9.alias.2",
+      "canonical": "home"
+    },
+    {
+      "alias": "web 8820d40a9d59a2c9",
+      "aliasId": "hz.web.8820d40a9d59a2c9.alias.3",
+      "canonical": "home"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.8820d40a9d59a2c9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8820d40a9d59a2c9.entity.1",
+      "kind": "document",
+      "name": "Home",
+      "tokens": [
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.8820d40a9d59a2c9.entity.2",
+      "kind": "heading",
+      "name": "Home",
+      "tokens": [
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.8820d40a9d59a2c9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8820d40a9d59a2c9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8820d40a9d59a2c9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 35,
+      "charStart": 9,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.cwi.nl/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "cwi",
+        "nl"
+      ]
+    },
+    {
+      "charEnd": 520,
+      "charStart": 87,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.1",
+      "kind": "bullet",
+      "text": "Home Skip to main content CWI LinkedIn CWI Bluesky CWI Instagram CWI Youtube Login Menu Research Research Education Education Results Results News News Events Events Collaboration Collaboration Work@CWI Work@CWI About About Search Search Search Research Education Results News Events Collaboration Work@CWI About Home Featured In Barcelona, 200 residents co-created an award-winning opera, as part of an EU funded research project.",
+      "tokens": [
+        "home",
+        "skip",
+        "main",
+        "content",
+        "cwi",
+        "linkedin",
+        "cwi",
+        "bluesky",
+        "cwi",
+        "instagram",
+        "cwi",
+        "youtube",
+        "login",
+        "menu",
+        "research",
+        "research",
+        "education",
+        "education",
+        "results",
+        "results",
+        "news",
+        "news",
+        "events",
+        "events",
+        "collaboration",
+        "collaboration",
+        "work",
+        "cwi",
+        "work",
+        "cwi",
+        "about",
+        "about",
+        "search",
+        "search",
+        "search",
+        "research",
+        "education",
+        "results",
+        "news",
+        "events",
+        "collaboration",
+        "work",
+        "cwi",
+        "about",
+        "home",
+        "featured",
+        "barcelona",
+        "200",
+        "residents",
+        "co",
+        "created",
+        "award",
+        "winning",
+        "opera",
+        "part",
+        "eu",
+        "funded",
+        "research",
+        "project"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 521,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.2",
+      "kind": "bullet",
+      "text": "The digital platform that made it possible was built by CWI&#x27;s Distributed and Intelligent Systems group.",
+      "tokens": [
+        "digital",
+        "platform",
+        "made",
+        "possible",
+        "built",
+        "cwi",
+        "x27",
+        "distributed",
+        "intelligent",
+        "systems",
+        "group"
+      ]
+    },
+    {
+      "charEnd": 865,
+      "charStart": 633,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.3",
+      "kind": "bullet",
+      "text": "Previous Next Read more CWI LinkedIn CWI Bluesky CWI Instagram CWI Youtube Research themes Our fundamental research is focused on four topics: algorithms, data and intelligent systems, cryptography and security, quantum computing.",
+      "tokens": [
+        "previous",
+        "next",
+        "read",
+        "more",
+        "cwi",
+        "linkedin",
+        "cwi",
+        "bluesky",
+        "cwi",
+        "instagram",
+        "cwi",
+        "youtube",
+        "research",
+        "themes",
+        "our",
+        "fundamental",
+        "research",
+        "focused",
+        "four",
+        "topics",
+        "algorithms",
+        "data",
+        "intelligent",
+        "systems",
+        "cryptography",
+        "security",
+        "quantum",
+        "computing"
+      ]
+    },
+    {
+      "charEnd": 1126,
+      "charStart": 866,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.4",
+      "kind": "bullet",
+      "text": "Previous Next Read more CWI LinkedIn CWI Bluesky CWI Instagram CWI Youtube Semester programme Our Research Semester Programme aims to create an environment in which researchers from Dutch universities can exchange ideas on specific topics on a regular basis.",
+      "tokens": [
+        "previous",
+        "next",
+        "read",
+        "more",
+        "cwi",
+        "linkedin",
+        "cwi",
+        "bluesky",
+        "cwi",
+        "instagram",
+        "cwi",
+        "youtube",
+        "semester",
+        "programme",
+        "our",
+        "research",
+        "semester",
+        "programme",
+        "aims",
+        "create",
+        "environment",
+        "researchers",
+        "dutch",
+        "universities",
+        "exchange",
+        "ideas",
+        "specific",
+        "topics",
+        "regular",
+        "basis"
+      ]
+    },
+    {
+      "charEnd": 1146,
+      "charStart": 1141,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.5",
+      "kind": "bullet",
+      "text": "cwi",
+      "tokens": [
+        "cwi"
+      ]
+    },
+    {
+      "charEnd": 1157,
+      "charStart": 1147,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.6",
+      "kind": "bullet",
+      "text": "research",
+      "tokens": [
+        "research"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1158,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.7",
+      "kind": "bullet",
+      "text": "podcast",
+      "tokens": [
+        "podcast"
+      ]
+    },
+    {
+      "charEnd": 1174,
+      "charStart": 1168,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.8",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 1181,
+      "charStart": 1175,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.9",
+      "kind": "bullet",
+      "text": "read",
+      "tokens": [
+        "read"
+      ]
+    },
+    {
+      "charEnd": 1190,
+      "charStart": 1182,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.10",
+      "kind": "bullet",
+      "text": "listen",
+      "tokens": [
+        "listen"
+      ]
+    },
+    {
+      "charEnd": 1200,
+      "charStart": 1191,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.11",
+      "kind": "bullet",
+      "text": "cookies",
+      "tokens": [
+        "cookies"
+      ]
+    },
+    {
+      "charEnd": 1212,
+      "charStart": 1201,
+      "factId": "hz.web.8820d40a9d59a2c9.fact.12",
+      "kind": "bullet",
+      "text": "instagram",
+      "tokens": [
+        "instagram"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 7,
+      "charStart": 1,
+      "headingId": "hz.web.8820d40a9d59a2c9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Home"
+    },
+    {
+      "charEnd": 85,
+      "charStart": 75,
+      "headingId": "hz.web.8820d40a9d59a2c9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1139,
+      "charStart": 1128,
+      "headingId": "hz.web.8820d40a9d59a2c9.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1224,
+      "charStart": 1214,
+      "headingId": "hz.web.8820d40a9d59a2c9.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/8820d40a9d59a2c9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4433,
+        "start": 0
+      }
+    ],
+    "hash": "6b4c644babf7dc1ffe5c9b26cba6061656419827e24b8f30707685382606393f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.8820d40a9d59a2c9.rule.1",
+      "text": "Read more Dutch consortium Stage IX awarded grant to transform Immersive Art Read more Han La Poutré new President of ERCIM Read more Tidying up while you search: CWI paper Database Cracking wins CIDR Test of Time Award Read more Upcoming events All events 30 mar 2026 PhaseP Problem-Solving Workshop 1 apr 2026 PhD defence of Yu-Hsuan Huang (Cryptology) 2 apr 2026 PhaseP Plenary Talks 9 apr 2026 Conference: Celebrating 10 Years of QuSoft 14 apr 2026 PhaseC Problem-Solving Workshop 15 apr 2026 Cryptology seminar – Barbara Jiabao Benedikt (online) What we share on Instagram To display this embedded content, you must accept social media cookies.",
+      "tokens": [
+        "read",
+        "more",
+        "dutch",
+        "consortium",
+        "stage",
+        "ix",
+        "awarded",
+        "grant",
+        "transform",
+        "immersive",
+        "art",
+        "read",
+        "more",
+        "han",
+        "la",
+        "poutr",
+        "new",
+        "president",
+        "ercim",
+        "read",
+        "more",
+        "tidying",
+        "up",
+        "while",
+        "search",
+        "cwi",
+        "paper",
+        "database",
+        "cracking",
+        "wins",
+        "cidr",
+        "test",
+        "time",
+        "award",
+        "read",
+        "more",
+        "upcoming",
+        "events",
+        "all",
+        "events",
+        "30",
+        "mar",
+        "2026",
+        "phasep",
+        "problem",
+        "solving",
+        "workshop",
+        "apr",
+        "2026",
+        "phd",
+        "defence",
+        "yu",
+        "hsuan",
+        "huang",
+        "cryptology",
+        "apr",
+        "2026",
+        "phasep",
+        "plenary",
+        "talks",
+        "apr",
+        "2026",
+        "conference",
+        "celebrating",
+        "10",
+        "years",
+        "qusoft",
+        "14",
+        "apr",
+        "2026",
+        "phasec",
+        "problem",
+        "solving",
+        "workshop",
+        "15",
+        "apr",
+        "2026",
+        "cryptology",
+        "seminar",
+        "barbara",
+        "jiabao",
+        "benedikt",
+        "online",
+        "share",
+        "instagram",
+        "display",
+        "embedded",
+        "content",
+        "must",
+        "accept",
+        "social",
+        "media",
+        "cookies"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Home Skip to main content CWI LinkedIn CWI Bluesky CWI Instagram CWI Youtube Login Menu Research Research Education Education Results Results News News Events Events Collaboration Collaboration Work@CWI Work@CWI About About Search Search Search Research Education Results News Events Collaboration Work@CWI About Home Featured In Barcelona, 200 residents co-created an award-winning opera, as part of an EU funded research project.",
+      "The digital platform that made it possible was built by CWI&#x27;s Distributed and Intelligent Systems group.",
+      "Previous Next Read more CWI LinkedIn CWI Bluesky CWI Instagram CWI Youtube Research themes Our fundamental research is focused on four topics: algorithms, data and intelligent systems, cryptography and security, quantum computing."
+    ],
+    "medium": "Source: http://www.cwi.nl/",
+    "short": "Source: http://www.cwi.nl/",
+    "tokens": [
+      "home",
+      "source",
+      "http",
+      "www",
+      "cwi",
+      "nl",
+      "source",
+      "http",
+      "www",
+      "cwi",
+      "nl"
+    ]
+  },
+  "title": "Home"
+}

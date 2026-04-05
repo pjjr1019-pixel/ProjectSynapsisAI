@@ -1,0 +1,305 @@
+{
+  "aliases": [
+    {
+      "alias": "7d66d81dc928f785",
+      "aliasId": "hz.web.7d66d81dc928f785.alias.1",
+      "canonical": "twitter.com"
+    },
+    {
+      "alias": "twitter.com",
+      "aliasId": "hz.web.7d66d81dc928f785.alias.2",
+      "canonical": "twitter.com"
+    },
+    {
+      "alias": "web 7d66d81dc928f785",
+      "aliasId": "hz.web.7d66d81dc928f785.alias.3",
+      "canonical": "twitter.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.7d66d81dc928f785",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7d66d81dc928f785.entity.1",
+      "kind": "document",
+      "name": "twitter.com",
+      "tokens": [
+        "twitter",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.7d66d81dc928f785.entity.2",
+      "kind": "heading",
+      "name": "twitter.com",
+      "tokens": [
+        "twitter",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.7d66d81dc928f785.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7d66d81dc928f785.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7d66d81dc928f785.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 16,
+      "factId": "hz.web.7d66d81dc928f785.fact.1",
+      "kind": "summary",
+      "text": "Source: https://twitter.com/os-x.xml",
+      "tokens": [
+        "source",
+        "https",
+        "twitter",
+        "com",
+        "os",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 576,
+      "charStart": 104,
+      "factId": "hz.web.7d66d81dc928f785.fact.1",
+      "kind": "bullet",
+      "text": "<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>X</ShortName> <Description>Search X</Description> <Url type=\"text/html\" method=\"get\" template=\"https://x.com/search?q={searchTerms}\"/> <Image width=\"16\" height=\"16\">https://abs.twimg.com/favicons/twitter.3.ico</Image> <InputEncoding>UTF-8</InputEncoding> <moz:SearchForm>https://x.com/explore</moz:SearchForm> </OpenSearchDescription>",
+      "tokens": [
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "xmlns",
+        "moz",
+        "http",
+        "www",
+        "mozilla",
+        "org",
+        "2006",
+        "browser",
+        "search",
+        "shortname",
+        "shortname",
+        "description",
+        "search",
+        "description",
+        "url",
+        "type",
+        "text",
+        "html",
+        "method",
+        "get",
+        "template",
+        "https",
+        "com",
+        "search",
+        "searchterms",
+        "image",
+        "width",
+        "16",
+        "height",
+        "16",
+        "https",
+        "abs",
+        "twimg",
+        "com",
+        "favicons",
+        "twitter",
+        "ico",
+        "image",
+        "inputencoding",
+        "utf",
+        "inputencoding",
+        "moz",
+        "searchform",
+        "https",
+        "com",
+        "explore",
+        "moz",
+        "searchform",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 596,
+      "charStart": 591,
+      "factId": "hz.web.7d66d81dc928f785.fact.2",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 604,
+      "charStart": 597,
+      "factId": "hz.web.7d66d81dc928f785.fact.3",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 610,
+      "charStart": 605,
+      "factId": "hz.web.7d66d81dc928f785.fact.4",
+      "kind": "bullet",
+      "text": "moz",
+      "tokens": [
+        "moz"
+      ]
+    },
+    {
+      "charEnd": 619,
+      "charStart": 611,
+      "factId": "hz.web.7d66d81dc928f785.fact.5",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 624,
+      "charStart": 620,
+      "factId": "hz.web.7d66d81dc928f785.fact.6",
+      "kind": "bullet",
+      "text": "16",
+      "tokens": [
+        "16"
+      ]
+    },
+    {
+      "charEnd": 638,
+      "charStart": 625,
+      "factId": "hz.web.7d66d81dc928f785.fact.7",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 645,
+      "charStart": 639,
+      "factId": "hz.web.7d66d81dc928f785.fact.8",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 653,
+      "charStart": 646,
+      "factId": "hz.web.7d66d81dc928f785.fact.9",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.7d66d81dc928f785.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "twitter.com"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.7d66d81dc928f785.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 589,
+      "charStart": 578,
+      "headingId": "hz.web.7d66d81dc928f785.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 665,
+      "charStart": 655,
+      "headingId": "hz.web.7d66d81dc928f785.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7d66d81dc928f785.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1361,
+        "start": 0
+      }
+    ],
+    "hash": "89b857f3e8732cdaeb3cfd3d00c5b1a7e5ffe35b7af5cfe3e35b66e680ae7a4c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>X</ShortName> <Description>Search X</Description> <Url type=\"text/html\" method=\"get\" template=\"https://x.com/search?q={searchTerms}\"/> <Image width=\"16\" height=\"16\">https://abs.twimg.com/favicons/twitter.3.ico</Image> <InputEncoding>UTF-8</InputEncoding> <moz:SearchForm>https://x.com/explore</moz:SearchForm> </OpenSearchDescription>",
+      "com",
+      "https"
+    ],
+    "medium": "Source: https://twitter.com/os-x.xml",
+    "short": "Source: https://twitter.com/os-x.xml",
+    "tokens": [
+      "twitter",
+      "com",
+      "source",
+      "https",
+      "twitter",
+      "com",
+      "os",
+      "xml",
+      "source",
+      "https",
+      "twitter",
+      "com",
+      "os",
+      "xml"
+    ]
+  },
+  "title": "twitter.com"
+}

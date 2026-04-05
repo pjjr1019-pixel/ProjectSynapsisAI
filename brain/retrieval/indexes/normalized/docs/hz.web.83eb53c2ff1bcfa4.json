@@ -1,0 +1,392 @@
+{
+  "aliases": [
+    {
+      "alias": "83eb53c2ff1bcfa4",
+      "aliasId": "hz.web.83eb53c2ff1bcfa4.alias.1",
+      "canonical": "dobrado deploy"
+    },
+    {
+      "alias": "dobrado deploy",
+      "aliasId": "hz.web.83eb53c2ff1bcfa4.alias.2",
+      "canonical": "dobrado deploy"
+    },
+    {
+      "alias": "web 83eb53c2ff1bcfa4",
+      "aliasId": "hz.web.83eb53c2ff1bcfa4.alias.3",
+      "canonical": "dobrado deploy"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.83eb53c2ff1bcfa4",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.83eb53c2ff1bcfa4.entity.1",
+      "kind": "document",
+      "name": "Dobrado deploy",
+      "tokens": [
+        "dobrado",
+        "deploy"
+      ]
+    },
+    {
+      "entityId": "hz.web.83eb53c2ff1bcfa4.entity.2",
+      "kind": "heading",
+      "name": "Dobrado deploy",
+      "tokens": [
+        "dobrado",
+        "deploy"
+      ]
+    },
+    {
+      "entityId": "hz.web.83eb53c2ff1bcfa4.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.83eb53c2ff1bcfa4.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.83eb53c2ff1bcfa4.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 87,
+      "charStart": 19,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.1",
+      "kind": "summary",
+      "text": "Source: https://gitlab.com/dobrado/dobrado/raw/master/php/deploy.php",
+      "tokens": [
+        "source",
+        "https",
+        "gitlab",
+        "com",
+        "dobrado",
+        "dobrado",
+        "raw",
+        "master",
+        "php",
+        "deploy",
+        "php"
+      ]
+    },
+    {
+      "charEnd": 482,
+      "charStart": 139,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.1",
+      "kind": "bullet",
+      "text": "<?php // Dobrado Content Management System // Copyright (C) 2019 Malcolm Blaney // // This program is free software: you can redistribute it and/or modify // it under the terms of the GNU Affero General Public License as // published by the Free Software Foundation, either version 3 of the // License, or (at your option) any later version.",
+      "tokens": [
+        "php",
+        "dobrado",
+        "content",
+        "management",
+        "system",
+        "copyright",
+        "2019",
+        "malcolm",
+        "blaney",
+        "program",
+        "free",
+        "software",
+        "redistribute",
+        "modify",
+        "under",
+        "terms",
+        "gnu",
+        "affero",
+        "general",
+        "public",
+        "license",
+        "published",
+        "free",
+        "software",
+        "foundation",
+        "either",
+        "version",
+        "license",
+        "your",
+        "option",
+        "any",
+        "later",
+        "version"
+      ]
+    },
+    {
+      "charEnd": 676,
+      "charStart": 483,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.2",
+      "kind": "bullet",
+      "text": "// // This program is distributed in the hope that it will be useful, // but WITHOUT ANY WARRANTY; without even the implied warranty of // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "tokens": [
+        "program",
+        "distributed",
+        "hope",
+        "will",
+        "useful",
+        "but",
+        "without",
+        "any",
+        "warranty",
+        "without",
+        "even",
+        "implied",
+        "warranty",
+        "merchantability",
+        "fitness",
+        "particular",
+        "purpose"
+      ]
+    },
+    {
+      "charEnd": 741,
+      "charStart": 677,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.3",
+      "kind": "bullet",
+      "text": "See the // GNU Affero General Public License for more details.",
+      "tokens": [
+        "see",
+        "gnu",
+        "affero",
+        "general",
+        "public",
+        "license",
+        "more",
+        "details"
+      ]
+    },
+    {
+      "charEnd": 850,
+      "charStart": 742,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.4",
+      "kind": "bullet",
+      "text": "// // You should have received a copy of the GNU Affero General Public License // along with this program.",
+      "tokens": [
+        "have",
+        "received",
+        "copy",
+        "gnu",
+        "affero",
+        "general",
+        "public",
+        "license",
+        "along",
+        "program"
+      ]
+    },
+    {
+      "charEnd": 869,
+      "charStart": 865,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.5",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 878,
+      "charStart": 870,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.6",
+      "kind": "bullet",
+      "text": "deploy",
+      "tokens": [
+        "deploy"
+      ]
+    },
+    {
+      "charEnd": 887,
+      "charStart": 879,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.7",
+      "kind": "bullet",
+      "text": "return",
+      "tokens": [
+        "return"
+      ]
+    },
+    {
+      "charEnd": 893,
+      "charStart": 888,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.8",
+      "kind": "bullet",
+      "text": "php",
+      "tokens": [
+        "php"
+      ]
+    },
+    {
+      "charEnd": 899,
+      "charStart": 894,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.9",
+      "kind": "bullet",
+      "text": "div",
+      "tokens": [
+        "div"
+      ]
+    },
+    {
+      "charEnd": 906,
+      "charStart": 900,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.10",
+      "kind": "bullet",
+      "text": "step",
+      "tokens": [
+        "step"
+      ]
+    },
+    {
+      "charEnd": 917,
+      "charStart": 907,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.11",
+      "kind": "bullet",
+      "text": "database",
+      "tokens": [
+        "database"
+      ]
+    },
+    {
+      "charEnd": 925,
+      "charStart": 918,
+      "factId": "hz.web.83eb53c2ff1bcfa4.fact.12",
+      "kind": "bullet",
+      "text": "error",
+      "tokens": [
+        "error"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.83eb53c2ff1bcfa4.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Dobrado deploy"
+    },
+    {
+      "charEnd": 137,
+      "charStart": 127,
+      "headingId": "hz.web.83eb53c2ff1bcfa4.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 863,
+      "charStart": 852,
+      "headingId": "hz.web.83eb53c2ff1bcfa4.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 937,
+      "charStart": 927,
+      "headingId": "hz.web.83eb53c2ff1bcfa4.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/83eb53c2ff1bcfa4.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4198,
+        "start": 0
+      }
+    ],
+    "hash": "f7426635693e387c13224bfac3c6f9541a73def8ee42bb64ab145d44d6ffdd13",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.83eb53c2ff1bcfa4.rule.1",
+      "text": "- // // You should have received a copy of the GNU Affero General Public License // along with this program.",
+      "tokens": [
+        "have",
+        "received",
+        "copy",
+        "gnu",
+        "affero",
+        "general",
+        "public",
+        "license",
+        "along",
+        "program"
+      ]
+    },
+    {
+      "ruleId": "hz.web.83eb53c2ff1bcfa4.rule.2",
+      "text": "// // You should have received a copy of the GNU Affero General Public License // along with this program.",
+      "tokens": [
+        "have",
+        "received",
+        "copy",
+        "gnu",
+        "affero",
+        "general",
+        "public",
+        "license",
+        "along",
+        "program"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?php // Dobrado Content Management System // Copyright (C) 2019 Malcolm Blaney // // This program is free software: you can redistribute it and/or modify // it under the terms of the GNU Affero General Public License as // published by the Free Software Foundation, either version 3 of the // License, or (at your option) any later version.",
+      "// // This program is distributed in the hope that it will be useful, // but WITHOUT ANY WARRANTY; without even the implied warranty of // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "See the // GNU Affero General Public License for more details."
+    ],
+    "medium": "Source: https://gitlab.com/dobrado/dobrado/raw/master/php/deploy.php",
+    "short": "Source: https://gitlab.com/dobrado/dobrado/raw/master/php/deploy.php",
+    "tokens": [
+      "dobrado",
+      "deploy",
+      "source",
+      "https",
+      "gitlab",
+      "com",
+      "dobrado",
+      "dobrado",
+      "raw",
+      "master",
+      "php",
+      "deploy",
+      "php",
+      "source",
+      "https",
+      "gitlab",
+      "com",
+      "dobrado",
+      "dobrado",
+      "raw",
+      "master",
+      "php",
+      "deploy",
+      "php"
+    ]
+  },
+  "title": "Dobrado deploy"
+}

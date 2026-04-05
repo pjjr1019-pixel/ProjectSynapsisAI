@@ -1,0 +1,385 @@
+{
+  "aliases": [
+    {
+      "alias": "apnews.com",
+      "aliasId": "hz.web.d10c4fb3a51be791.alias.1",
+      "canonical": "apnews.com"
+    },
+    {
+      "alias": "d10c4fb3a51be791",
+      "aliasId": "hz.web.d10c4fb3a51be791.alias.2",
+      "canonical": "apnews.com"
+    },
+    {
+      "alias": "web d10c4fb3a51be791",
+      "aliasId": "hz.web.d10c4fb3a51be791.alias.3",
+      "canonical": "apnews.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.d10c4fb3a51be791",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d10c4fb3a51be791.entity.1",
+      "kind": "document",
+      "name": "apnews.com",
+      "tokens": [
+        "apnews",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d10c4fb3a51be791.entity.2",
+      "kind": "heading",
+      "name": "apnews.com",
+      "tokens": [
+        "apnews",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d10c4fb3a51be791.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d10c4fb3a51be791.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d10c4fb3a51be791.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 15,
+      "factId": "hz.web.d10c4fb3a51be791.fact.1",
+      "kind": "summary",
+      "text": "Source: https://apnews.com/manifest.json",
+      "tokens": [
+        "source",
+        "https",
+        "apnews",
+        "com",
+        "manifest",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 1313,
+      "charStart": 107,
+      "factId": "hz.web.d10c4fb3a51be791.fact.1",
+      "kind": "bullet",
+      "text": "{ \"id\": \"/\", \"short_name\": \"AP News\", \"name\": \"AP News: Advancing the power of facts\", \"start_url\": \"/\", \"display\": \"fullscreen\", \"icons\": [ { \"src\": \"https://assets.apnews.com/4f/85/c7bfcd884788ad50e6ec57acc8ef/android-app-icon-197.png\", \"type\": \"image/png\", \"sizes\": \"197x197\" }, { \"src\": \"https://assets.apnews.com/b7/b7/ae2379f142f3b154901a4149a618/android-app-icon-copy-512.png\", \"type\": \"image/png\", \"sizes\": \"512x512\" }, { \"src\": \"https://assets.apnews.com/77/8e/bddbc9f3405984501b8a10dfc921/android-app-icon-144.png\", \"type\": \"image/png\", \"sizes\": \"144x144\" } ], \"prefer_related_applications\": true, \"related_applications\": [ { \"platform\": \"play\", \"id\": \"mnn.Android\", \"url\": \"https://play.google.com/store/apps/details?id=mnn.Android\" } ], \"screenshots\": [ { \"src\": \"https://uat-static.apnews.com/c1/0a/7beab26f47e78ba166382e648d87/rsz-323f691c2d0740dfb135eb8bfb46bd06.png\", \"sizes\": \"540x720\", \"type\": \"image/png\", \"form_factor\": \"narrow\" }, { \"src\": \"https://uat-static.apnews.com/11/56/3a4a7dee46c6bbffb5af778af50f/rsz-wide-img.jpg\", \"sizes\": \"1200x800\", \"type\": \"image/png\", \"form_factor\": \"wide\" } ], \"protocol_handlers\": [ { \"protocol\": \"web+apnews\", \"url\": \"/handle-protocol?url=%s\" } ] }",
+      "tokens": [
+        "id",
+        "short_name",
+        "ap",
+        "news",
+        "name",
+        "ap",
+        "news",
+        "advancing",
+        "power",
+        "facts",
+        "start_url",
+        "display",
+        "fullscreen",
+        "icons",
+        "src",
+        "https",
+        "assets",
+        "apnews",
+        "com",
+        "4f",
+        "85",
+        "c7bfcd884788ad50e6ec57acc8ef",
+        "android",
+        "app",
+        "icon",
+        "197",
+        "png",
+        "type",
+        "image",
+        "png",
+        "sizes",
+        "197x197",
+        "src",
+        "https",
+        "assets",
+        "apnews",
+        "com",
+        "b7",
+        "b7",
+        "ae2379f142f3b154901a4149a618",
+        "android",
+        "app",
+        "icon",
+        "copy",
+        "512",
+        "png",
+        "type",
+        "image",
+        "png",
+        "sizes",
+        "512x512",
+        "src",
+        "https",
+        "assets",
+        "apnews",
+        "com",
+        "77",
+        "8e",
+        "bddbc9f3405984501b8a10dfc921",
+        "android",
+        "app",
+        "icon",
+        "144",
+        "png",
+        "type",
+        "image",
+        "png",
+        "sizes",
+        "144x144",
+        "prefer_related_applications",
+        "true",
+        "related_applications",
+        "platform",
+        "play",
+        "id",
+        "mnn",
+        "android",
+        "url",
+        "https",
+        "play",
+        "google",
+        "com",
+        "store",
+        "apps",
+        "details",
+        "id",
+        "mnn",
+        "android",
+        "screenshots",
+        "src",
+        "https",
+        "uat",
+        "static",
+        "apnews",
+        "com",
+        "c1",
+        "0a",
+        "7beab26f47e78ba166382e648d87",
+        "rsz",
+        "323f691c2d0740dfb135eb8bfb46bd06",
+        "png",
+        "sizes",
+        "540x720",
+        "type",
+        "image",
+        "png",
+        "form_factor",
+        "narrow",
+        "src",
+        "https",
+        "uat",
+        "static",
+        "apnews",
+        "com",
+        "11",
+        "56",
+        "3a4a7dee46c6bbffb5af778af50f",
+        "rsz",
+        "wide",
+        "img",
+        "jpg",
+        "sizes",
+        "1200x800",
+        "type",
+        "image",
+        "png",
+        "form_factor",
+        "wide",
+        "protocol_handlers",
+        "protocol",
+        "web",
+        "apnews",
+        "url",
+        "handle",
+        "protocol",
+        "url"
+      ]
+    },
+    {
+      "charEnd": 1333,
+      "charStart": 1328,
+      "factId": "hz.web.d10c4fb3a51be791.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 1342,
+      "charStart": 1334,
+      "factId": "hz.web.d10c4fb3a51be791.fact.3",
+      "kind": "bullet",
+      "text": "apnews",
+      "tokens": [
+        "apnews"
+      ]
+    },
+    {
+      "charEnd": 1348,
+      "charStart": 1343,
+      "factId": "hz.web.d10c4fb3a51be791.fact.4",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1356,
+      "charStart": 1349,
+      "factId": "hz.web.d10c4fb3a51be791.fact.5",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1366,
+      "charStart": 1357,
+      "factId": "hz.web.d10c4fb3a51be791.fact.6",
+      "kind": "bullet",
+      "text": "android",
+      "tokens": [
+        "android"
+      ]
+    },
+    {
+      "charEnd": 1374,
+      "charStart": 1367,
+      "factId": "hz.web.d10c4fb3a51be791.fact.7",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 1382,
+      "charStart": 1375,
+      "factId": "hz.web.d10c4fb3a51be791.fact.8",
+      "kind": "bullet",
+      "text": "sizes",
+      "tokens": [
+        "sizes"
+      ]
+    },
+    {
+      "charEnd": 1388,
+      "charStart": 1383,
+      "factId": "hz.web.d10c4fb3a51be791.fact.9",
+      "kind": "bullet",
+      "text": "src",
+      "tokens": [
+        "src"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.d10c4fb3a51be791.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "apnews.com"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.d10c4fb3a51be791.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1326,
+      "charStart": 1315,
+      "headingId": "hz.web.d10c4fb3a51be791.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1400,
+      "charStart": 1390,
+      "headingId": "hz.web.d10c4fb3a51be791.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d10c4fb3a51be791.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2833,
+        "start": 0
+      }
+    ],
+    "hash": "77e010ae2bef39c38a4f30f78bdab7904f4a5aae6f87de36b756a94963603aa9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"id\": \"/\", \"short_name\": \"AP News\", \"name\": \"AP News: Advancing the power of facts\", \"start_url\": \"/\", \"display\": \"fullscreen\", \"icons\": [ { \"src\": \"https://assets.apnews.com/4f/85/c7bfcd884788ad50e6ec57acc8ef/android-app-icon-197.png\", \"type\": \"image/png\", \"sizes\": \"197x197\" }, { \"src\": \"https://assets.apnews.com/b7/b7/ae2379f142f3b154901a4149a618/android-app-icon-copy-512.png\", \"type\": \"image/png\", \"sizes\": \"512x512\" }, { \"src\": \"https://assets.apnews.com/77/8e/bddbc9f3405984501b8a10dfc921/android-app-icon-144.png\", \"type\": \"image/png\", \"sizes\": \"144x144\" } ], \"prefer_related_applications\": true, \"related_applications\": [ { \"platform\": \"play\", \"id\": \"mnn.Android\", \"url\": \"https://play.google.com/store/apps/details?id=mnn.Android\" } ], \"screenshots\": [ { \"src\": \"https://uat-static.apnews.com/c1/0a/7beab26f47e78ba166382e648d87/rsz-323f691c2d0740dfb135eb8bfb46bd06.png\", \"sizes\": \"540x720\", \"type\": \"image/png\", \"form_factor\": \"narrow\" }, { \"src\": \"https://uat-static.apnews.com/11/56/3a4a7dee46c6bbffb5af778af50f/rsz-wide-img.jpg\", \"sizes\": \"1200x800\", \"type\": \"image/png\", \"form_factor\": \"wide\" } ], \"protocol_handlers\": [ { \"protocol\": \"web+apnews\", \"url\": \"/handle-protocol?url=%s\" } ] }",
+      "png",
+      "apnews"
+    ],
+    "medium": "Source: https://apnews.com/manifest.json",
+    "short": "Source: https://apnews.com/manifest.json",
+    "tokens": [
+      "apnews",
+      "com",
+      "source",
+      "https",
+      "apnews",
+      "com",
+      "manifest",
+      "json",
+      "source",
+      "https",
+      "apnews",
+      "com",
+      "manifest",
+      "json"
+    ]
+  },
+  "title": "apnews.com"
+}

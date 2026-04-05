@@ -1,0 +1,458 @@
+{
+  "aliases": [
+    {
+      "alias": "06f6631512ba7497",
+      "aliasId": "hz.web.06f6631512ba7497.alias.1",
+      "canonical": "superfeedr blog - updated pricing"
+    },
+    {
+      "alias": "superfeedr blog - updated pricing",
+      "aliasId": "hz.web.06f6631512ba7497.alias.2",
+      "canonical": "superfeedr blog - updated pricing"
+    },
+    {
+      "alias": "web 06f6631512ba7497",
+      "aliasId": "hz.web.06f6631512ba7497.alias.3",
+      "canonical": "superfeedr blog - updated pricing"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.79,
+  "docId": "hz.web.06f6631512ba7497",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.06f6631512ba7497.entity.1",
+      "kind": "document",
+      "name": "Superfeedr Blog - Updated Pricing",
+      "tokens": [
+        "superfeedr",
+        "blog",
+        "updated",
+        "pricing"
+      ]
+    },
+    {
+      "entityId": "hz.web.06f6631512ba7497.entity.2",
+      "kind": "heading",
+      "name": "Superfeedr Blog - Updated Pricing",
+      "tokens": [
+        "superfeedr",
+        "blog",
+        "updated",
+        "pricing"
+      ]
+    },
+    {
+      "entityId": "hz.web.06f6631512ba7497.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.06f6631512ba7497.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.06f6631512ba7497.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 89,
+      "charStart": 38,
+      "factId": "hz.web.06f6631512ba7497.fact.1",
+      "kind": "summary",
+      "text": "Source: http://blog.superfeedr.com/updated-pricing/",
+      "tokens": [
+        "source",
+        "http",
+        "blog",
+        "superfeedr",
+        "com",
+        "updated",
+        "pricing"
+      ]
+    },
+    {
+      "charEnd": 421,
+      "charStart": 141,
+      "factId": "hz.web.06f6631512ba7497.fact.1",
+      "kind": "bullet",
+      "text": "Superfeedr Blog - Updated Pricing Superfeedr Blog Publishers Subscribers Trackers Pricing Login Sign Up Read Archives Updated Pricing Updated Pricing blog.superfeedr.com:/updated-pricing By Julien 06 Feb 2017 Today, we are introducing a new pricing for Superfeedr’s subscribers.",
+      "tokens": [
+        "superfeedr",
+        "blog",
+        "updated",
+        "pricing",
+        "superfeedr",
+        "blog",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "read",
+        "archives",
+        "updated",
+        "pricing",
+        "updated",
+        "pricing",
+        "blog",
+        "superfeedr",
+        "com",
+        "updated",
+        "pricing",
+        "julien",
+        "06",
+        "feb",
+        "2017",
+        "today",
+        "introducing",
+        "new",
+        "pricing",
+        "superfeedr",
+        "subscribers"
+      ]
+    },
+    {
+      "charEnd": 535,
+      "charStart": 422,
+      "factId": "hz.web.06f6631512ba7497.fact.2",
+      "kind": "bullet",
+      "text": "In our early days, we wanted Superfeedr’s pricing to be based on the amount of data our service would send you.",
+      "tokens": [
+        "our",
+        "early",
+        "days",
+        "wanted",
+        "superfeedr",
+        "pricing",
+        "based",
+        "amount",
+        "data",
+        "our",
+        "service",
+        "send"
+      ]
+    },
+    {
+      "charEnd": 704,
+      "charStart": 536,
+      "factId": "hz.web.06f6631512ba7497.fact.3",
+      "kind": "bullet",
+      "text": "As we were very young start-up, we made the assumption that verbose feeds would cost us more to process and that it would be fair to pass this cost down to customers.",
+      "tokens": [
+        "very",
+        "young",
+        "start",
+        "up",
+        "made",
+        "assumption",
+        "verbose",
+        "feeds",
+        "cost",
+        "us",
+        "more",
+        "process",
+        "fair",
+        "pass",
+        "cost",
+        "down",
+        "customers"
+      ]
+    },
+    {
+      "charEnd": 898,
+      "charStart": 705,
+      "factId": "hz.web.06f6631512ba7497.fact.4",
+      "kind": "bullet",
+      "text": "In retrospect, this was not the best approach as it means that our pricing was less predictable than it should be: subscribers do not control how verbose the feeds they’re subscribed to are .",
+      "tokens": [
+        "retrospect",
+        "not",
+        "best",
+        "approach",
+        "means",
+        "our",
+        "pricing",
+        "less",
+        "predictable",
+        "than",
+        "subscribers",
+        "not",
+        "control",
+        "verbose",
+        "feeds",
+        "re",
+        "subscribed"
+      ]
+    },
+    {
+      "charEnd": 922,
+      "charStart": 913,
+      "factId": "hz.web.06f6631512ba7497.fact.5",
+      "kind": "bullet",
+      "text": "pricing",
+      "tokens": [
+        "pricing"
+      ]
+    },
+    {
+      "charEnd": 928,
+      "charStart": 923,
+      "factId": "hz.web.06f6631512ba7497.fact.6",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 929,
+      "factId": "hz.web.06f6631512ba7497.fact.7",
+      "kind": "bullet",
+      "text": "feed",
+      "tokens": [
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 943,
+      "charStart": 936,
+      "factId": "hz.web.06f6631512ba7497.fact.8",
+      "kind": "bullet",
+      "text": "feeds",
+      "tokens": [
+        "feeds"
+      ]
+    },
+    {
+      "charEnd": 956,
+      "charStart": 944,
+      "factId": "hz.web.06f6631512ba7497.fact.9",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 961,
+      "charStart": 957,
+      "factId": "hz.web.06f6631512ba7497.fact.10",
+      "kind": "bullet",
+      "text": "up",
+      "tokens": [
+        "up"
+      ]
+    },
+    {
+      "charEnd": 968,
+      "charStart": 962,
+      "factId": "hz.web.06f6631512ba7497.fact.11",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 982,
+      "charStart": 969,
+      "factId": "hz.web.06f6631512ba7497.fact.12",
+      "kind": "bullet",
+      "text": "subscribers",
+      "tokens": [
+        "subscribers"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.web.06f6631512ba7497.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Superfeedr Blog - Updated Pricing"
+    },
+    {
+      "charEnd": 139,
+      "charStart": 129,
+      "headingId": "hz.web.06f6631512ba7497.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 911,
+      "charStart": 900,
+      "headingId": "hz.web.06f6631512ba7497.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 994,
+      "charStart": 984,
+      "headingId": "hz.web.06f6631512ba7497.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/06f6631512ba7497.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3513,
+        "start": 0
+      }
+    ],
+    "hash": "e29653e4577f2bb55f86da333a3af57b837e5634454512fe5743f460cda30f72",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.06f6631512ba7497.rule.1",
+      "text": "- In retrospect, this was not the best approach as it means that our pricing was less predictable than it should be: subscribers do not control how verbose the feeds they’re subscribed to are .",
+      "tokens": [
+        "retrospect",
+        "not",
+        "best",
+        "approach",
+        "means",
+        "our",
+        "pricing",
+        "less",
+        "predictable",
+        "than",
+        "subscribers",
+        "not",
+        "control",
+        "verbose",
+        "feeds",
+        "re",
+        "subscribed"
+      ]
+    },
+    {
+      "ruleId": "hz.web.06f6631512ba7497.rule.2",
+      "text": "In retrospect, this was not the best approach as it means that our pricing was less predictable than it should be: subscribers do not control how verbose the feeds they’re subscribed to are .",
+      "tokens": [
+        "retrospect",
+        "not",
+        "best",
+        "approach",
+        "means",
+        "our",
+        "pricing",
+        "less",
+        "predictable",
+        "than",
+        "subscribers",
+        "not",
+        "control",
+        "verbose",
+        "feeds",
+        "re",
+        "subscribed"
+      ]
+    },
+    {
+      "ruleId": "hz.web.06f6631512ba7497.rule.3",
+      "text": "Additionally, if your invoice is less than $1, we will waive it; this means that the first 10 feeds are always free .",
+      "tokens": [
+        "additionally",
+        "if",
+        "your",
+        "invoice",
+        "less",
+        "than",
+        "will",
+        "waive",
+        "means",
+        "first",
+        "10",
+        "feeds",
+        "always",
+        "free"
+      ]
+    },
+    {
+      "ruleId": "hz.web.06f6631512ba7497.rule.4",
+      "text": "Finally, even though this pricing should almost always mean lower invoices for our existing customers, we offer them the ability to remain on the current pricing for as long as they want.",
+      "tokens": [
+        "finally",
+        "even",
+        "though",
+        "pricing",
+        "almost",
+        "always",
+        "mean",
+        "lower",
+        "invoices",
+        "our",
+        "existing",
+        "customers",
+        "offer",
+        "them",
+        "ability",
+        "remain",
+        "current",
+        "pricing",
+        "long",
+        "want"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Superfeedr Blog - Updated Pricing Superfeedr Blog Publishers Subscribers Trackers Pricing Login Sign Up Read Archives Updated Pricing Updated Pricing blog.superfeedr.com:/updated-pricing By Julien 06 Feb 2017 Today, we are introducing a new pricing for Superfeedr’s subscribers.",
+      "In our early days, we wanted Superfeedr’s pricing to be based on the amount of data our service would send you.",
+      "As we were very young start-up, we made the assumption that verbose feeds would cost us more to process and that it would be fair to pass this cost down to customers."
+    ],
+    "medium": "Source: http://blog.superfeedr.com/updated-pricing/",
+    "short": "Source: http://blog.superfeedr.com/updated-pricing/",
+    "tokens": [
+      "superfeedr",
+      "blog",
+      "updated",
+      "pricing",
+      "source",
+      "http",
+      "blog",
+      "superfeedr",
+      "com",
+      "updated",
+      "pricing",
+      "source",
+      "http",
+      "blog",
+      "superfeedr",
+      "com",
+      "updated",
+      "pricing"
+    ]
+  },
+  "title": "Superfeedr Blog - Updated Pricing"
+}

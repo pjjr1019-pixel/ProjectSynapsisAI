@@ -1,0 +1,496 @@
+{
+  "aliases": [
+    {
+      "alias": "c08b7ccc9d0d02fc",
+      "aliasId": "hz.web.c08b7ccc9d0d02fc.alias.1",
+      "canonical": "tyler data &amp; insights system status"
+    },
+    {
+      "alias": "tyler data amp insights system status",
+      "aliasId": "hz.web.c08b7ccc9d0d02fc.alias.2",
+      "canonical": "tyler data &amp; insights system status"
+    },
+    {
+      "alias": "web c08b7ccc9d0d02fc",
+      "aliasId": "hz.web.c08b7ccc9d0d02fc.alias.3",
+      "canonical": "tyler data &amp; insights system status"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.c08b7ccc9d0d02fc",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c08b7ccc9d0d02fc.entity.1",
+      "kind": "document",
+      "name": "Tyler Data &amp; Insights System Status",
+      "tokens": [
+        "tyler",
+        "data",
+        "amp",
+        "insights",
+        "system",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.c08b7ccc9d0d02fc.entity.2",
+      "kind": "heading",
+      "name": "Tyler Data &amp; Insights System Status",
+      "tokens": [
+        "tyler",
+        "data",
+        "amp",
+        "insights",
+        "system",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.c08b7ccc9d0d02fc.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c08b7ccc9d0d02fc.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c08b7ccc9d0d02fc.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 145,
+      "charStart": 44,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.1",
+      "kind": "summary",
+      "text": "Source: http://status.socrata.com/pages/maintenance/532b466499798da4200000cc/6945a10474a9b70517b5ec4a",
+      "tokens": [
+        "source",
+        "http",
+        "status",
+        "socrata",
+        "com",
+        "pages",
+        "maintenance",
+        "532b466499798da4200000cc",
+        "6945a10474a9b70517b5ec4a"
+      ]
+    },
+    {
+      "charEnd": 550,
+      "charStart": 197,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.1",
+      "kind": "bullet",
+      "text": "Tyler Data & Insights System Status SUBSCRIBE SUBSCRIBE Scheduled Maintenance on High Compliance Data Center April 18, 2026 1:00pm - 2:00pm Eastern Planned Maintenance Description For more information about Data and Insights' scheduled maintenance see here support.socrata.com/hc/en-us/articles/202951578-What-is-Socrata-s-maintenance-window-policy- .",
+      "tokens": [
+        "tyler",
+        "data",
+        "insights",
+        "system",
+        "status",
+        "subscribe",
+        "subscribe",
+        "scheduled",
+        "maintenance",
+        "high",
+        "compliance",
+        "data",
+        "center",
+        "april",
+        "18",
+        "2026",
+        "00pm",
+        "00pm",
+        "eastern",
+        "planned",
+        "maintenance",
+        "description",
+        "more",
+        "information",
+        "about",
+        "data",
+        "insights",
+        "scheduled",
+        "maintenance",
+        "see",
+        "here",
+        "support",
+        "socrata",
+        "com",
+        "hc",
+        "en",
+        "us",
+        "articles",
+        "202951578",
+        "socrata",
+        "maintenance",
+        "window",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 1448,
+      "charStart": 551,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.2",
+      "kind": "bullet",
+      "text": "Components Authentication, Catalog, Data Sharing, Data Table, Ingress/Publishing, Measures, Notifications, Primer - Dataset Metadata Page, SODA API, Stories, User Management, Visualizations, Vertical App: Citizen Connect, Vertical App: Executive Insights, Developer's Site Locations High Compliance - United States Schedule April 18, 2026 10:00AM - 11:00AM PDT April 18, 2026 5:00PM - 6:00PM UTC Back to current status SUBSCRIBE Status History Subscribe to receive status updates by email Close Subscribe Manage Subscription Manage Existing Subscription Create New Subscription Subscribe to receive status updates by webhook Each status update will POST a JSON payload to this URL Email address for managing webhook Close Subscribe Manage Subscription Manage Existing Subscription Create New Subscription Subscribe to receive status updates in Microsoft Teams Enter your Microsoft Teams webhook.",
+      "tokens": [
+        "components",
+        "authentication",
+        "catalog",
+        "data",
+        "sharing",
+        "data",
+        "table",
+        "ingress",
+        "publishing",
+        "measures",
+        "notifications",
+        "primer",
+        "dataset",
+        "metadata",
+        "page",
+        "soda",
+        "api",
+        "stories",
+        "user",
+        "management",
+        "visualizations",
+        "vertical",
+        "app",
+        "citizen",
+        "connect",
+        "vertical",
+        "app",
+        "executive",
+        "insights",
+        "developer",
+        "site",
+        "locations",
+        "high",
+        "compliance",
+        "united",
+        "states",
+        "schedule",
+        "april",
+        "18",
+        "2026",
+        "10",
+        "00am",
+        "11",
+        "00am",
+        "pdt",
+        "april",
+        "18",
+        "2026",
+        "00pm",
+        "00pm",
+        "utc",
+        "back",
+        "current",
+        "status",
+        "subscribe",
+        "status",
+        "history",
+        "subscribe",
+        "receive",
+        "status",
+        "updates",
+        "email",
+        "close",
+        "subscribe",
+        "manage",
+        "subscription",
+        "manage",
+        "existing",
+        "subscription",
+        "create",
+        "new",
+        "subscription",
+        "subscribe",
+        "receive",
+        "status",
+        "updates",
+        "webhook",
+        "each",
+        "status",
+        "update",
+        "will",
+        "post",
+        "json",
+        "payload",
+        "url",
+        "email",
+        "address",
+        "managing",
+        "webhook",
+        "close",
+        "subscribe",
+        "manage",
+        "subscription",
+        "manage",
+        "existing",
+        "subscription",
+        "create",
+        "new",
+        "subscription",
+        "subscribe",
+        "receive",
+        "status",
+        "updates",
+        "microsoft",
+        "teams",
+        "enter",
+        "your",
+        "microsoft",
+        "teams",
+        "webhook"
+      ]
+    },
+    {
+      "charEnd": 1783,
+      "charStart": 1449,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.3",
+      "kind": "bullet",
+      "text": "View Instructions Email address for managing subscription Close Subscribe Manage Subscription Manage Existing Subscription Create New Subscription Subscribe to receive status updates via RSS RSS Feed Close Subscribe to receive status updates in Slack Slack channel ID Find the channel ID: Select the channel in your Slack workspace.",
+      "tokens": [
+        "view",
+        "instructions",
+        "email",
+        "address",
+        "managing",
+        "subscription",
+        "close",
+        "subscribe",
+        "manage",
+        "subscription",
+        "manage",
+        "existing",
+        "subscription",
+        "create",
+        "new",
+        "subscription",
+        "subscribe",
+        "receive",
+        "status",
+        "updates",
+        "via",
+        "rss",
+        "rss",
+        "feed",
+        "close",
+        "subscribe",
+        "receive",
+        "status",
+        "updates",
+        "slack",
+        "slack",
+        "channel",
+        "id",
+        "find",
+        "channel",
+        "id",
+        "select",
+        "channel",
+        "your",
+        "slack",
+        "workspace"
+      ]
+    },
+    {
+      "charEnd": 1833,
+      "charStart": 1784,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.4",
+      "kind": "bullet",
+      "text": "The channel ID is displayed in the browser URL.",
+      "tokens": [
+        "channel",
+        "id",
+        "displayed",
+        "browser",
+        "url"
+      ]
+    },
+    {
+      "charEnd": 1862,
+      "charStart": 1848,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.5",
+      "kind": "bullet",
+      "text": "subscription",
+      "tokens": [
+        "subscription"
+      ]
+    },
+    {
+      "charEnd": 1874,
+      "charStart": 1863,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.6",
+      "kind": "bullet",
+      "text": "subscribe",
+      "tokens": [
+        "subscribe"
+      ]
+    },
+    {
+      "charEnd": 1883,
+      "charStart": 1875,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.7",
+      "kind": "bullet",
+      "text": "status",
+      "tokens": [
+        "status"
+      ]
+    },
+    {
+      "charEnd": 1892,
+      "charStart": 1884,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.8",
+      "kind": "bullet",
+      "text": "manage",
+      "tokens": [
+        "manage"
+      ]
+    },
+    {
+      "charEnd": 1900,
+      "charStart": 1893,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.9",
+      "kind": "bullet",
+      "text": "close",
+      "tokens": [
+        "close"
+      ]
+    },
+    {
+      "charEnd": 1907,
+      "charStart": 1901,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.10",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 1917,
+      "charStart": 1908,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.11",
+      "kind": "bullet",
+      "text": "receive",
+      "tokens": [
+        "receive"
+      ]
+    },
+    {
+      "charEnd": 1927,
+      "charStart": 1918,
+      "factId": "hz.web.c08b7ccc9d0d02fc.fact.12",
+      "kind": "bullet",
+      "text": "updates",
+      "tokens": [
+        "updates"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 42,
+      "charStart": 1,
+      "headingId": "hz.web.c08b7ccc9d0d02fc.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Tyler Data &amp; Insights System Status"
+    },
+    {
+      "charEnd": 195,
+      "charStart": 185,
+      "headingId": "hz.web.c08b7ccc9d0d02fc.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1846,
+      "charStart": 1835,
+      "headingId": "hz.web.c08b7ccc9d0d02fc.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1939,
+      "charStart": 1929,
+      "headingId": "hz.web.c08b7ccc9d0d02fc.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/c08b7ccc9d0d02fc.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4038,
+        "start": 0
+      }
+    ],
+    "hash": "bbc23f5c7f8b470ef06404605fc8fc0e1f84eaf2fec7341db31ff329407609c3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Tyler Data & Insights System Status SUBSCRIBE SUBSCRIBE Scheduled Maintenance on High Compliance Data Center April 18, 2026 1:00pm - 2:00pm Eastern Planned Maintenance Description For more information about Data and Insights' scheduled maintenance see here support.socrata.com/hc/en-us/articles/202951578-What-is-Socrata-s-maintenance-window-policy- .",
+      "Components Authentication, Catalog, Data Sharing, Data Table, Ingress/Publishing, Measures, Notifications, Primer - Dataset Metadata Page, SODA API, Stories, User Management, Visualizations, Vertical App: Citizen Connect, Vertical App: Executive Insights, Developer's Site Locations High Compliance - United States Schedule April 18, 2026 10:00AM - 11:00AM PDT April 18, 2026 5:00PM - 6:00PM UTC Back to current status SUBSCRIBE Status History Subscribe to receive status updates by email Close Subscribe Manage Subscription Manage Existing Subscription Create New Subscription Subscribe to receive status updates by webhook Each status update will POST a JSON payload to this URL Email address for managing webhook Close Subscribe Manage Subscription Manage Existing Subscription Create New Subscription Subscribe to receive status updates in Microsoft Teams Enter your Microsoft Teams webhook.",
+      "View Instructions Email address for managing subscription Close Subscribe Manage Subscription Manage Existing Subscription Create New Subscription Subscribe to receive status updates via RSS RSS Feed Close Subscribe to receive status updates in Slack Slack channel ID Find the channel ID: Select the channel in your Slack workspace."
+    ],
+    "medium": "Source: http://status.socrata.com/pages/maintenance/532b466499798da4200000cc/6945a10474a9b70517b5ec4a",
+    "short": "Source: http://status.socrata.com/pages/maintenance/532b466499798da4200000cc/6945a10474a9b70517b5ec4a",
+    "tokens": [
+      "tyler",
+      "data",
+      "amp",
+      "insights",
+      "system",
+      "status",
+      "source",
+      "http",
+      "status",
+      "socrata",
+      "com",
+      "pages",
+      "maintenance",
+      "532b466499798da4200000cc",
+      "6945a10474a9b70517b5ec4a",
+      "source",
+      "http",
+      "status",
+      "socrata",
+      "com",
+      "pages",
+      "maintenance",
+      "532b466499798da4200000cc",
+      "6945a10474a9b70517b5ec4a"
+    ]
+  },
+  "title": "Tyler Data &amp; Insights System Status"
+}

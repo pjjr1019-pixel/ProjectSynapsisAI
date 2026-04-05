@@ -1,0 +1,392 @@
+{
+  "aliases": [
+    {
+      "alias": "5cb7b196147b5052",
+      "aliasId": "hz.web.5cb7b196147b5052.alias.1",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "node.js blog",
+      "aliasId": "hz.web.5cb7b196147b5052.alias.2",
+      "canonical": "node.js — blog"
+    },
+    {
+      "alias": "web 5cb7b196147b5052",
+      "aliasId": "hz.web.5cb7b196147b5052.alias.3",
+      "canonical": "node.js — blog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.78,
+  "docId": "hz.web.5cb7b196147b5052",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5cb7b196147b5052.entity.1",
+      "kind": "document",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cb7b196147b5052.entity.2",
+      "kind": "heading",
+      "name": "Node.js — Blog",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cb7b196147b5052.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cb7b196147b5052.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cb7b196147b5052.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 19,
+      "factId": "hz.web.5cb7b196147b5052.fact.1",
+      "kind": "summary",
+      "text": "Source: https://nodejs.org/ta/blog",
+      "tokens": [
+        "source",
+        "https",
+        "nodejs",
+        "org",
+        "ta",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 248,
+      "charStart": 105,
+      "factId": "hz.web.5cb7b196147b5052.fact.1",
+      "kind": "bullet",
+      "text": "Node.js — Blog உள்ளடக்கத்திற்குச் செல்லவும் கற்க இதைப் பற்றி பதிவிறக்கவும் வலைப்பதிவு ஆவணங்கள் பங்களியுங்கள் பாடப்பிரிவுகள் எழுதத் தொடங்கு...",
+      "tokens": [
+        "node",
+        "js",
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 1286,
+      "charStart": 249,
+      "factId": "hz.web.5cb7b196147b5052.fact.2",
+      "kind": "bullet",
+      "text": "⌘ K வலைப்பதிவு சமீபத்திய Node.js செய்திகள், மாற்று வழிகாட்டிகள் மற்றும் நிகழ்வுச் சுருக்கங்கள் அனைத்தும் அனைத்தும் அனைத்தும் பாதுகாப்பு பிரச்சினைகள் மாற்று வழிகாட்டிகள் நிகழ்வுகள் பிரிவுகள் அனைத்தும் அனைத்தும் அனைத்தும் அனைத்தும் பாதுகாப்பு பிரச்சினைகள் மாற்று வழிகாட்டிகள் நிகழ்வுகள் Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 பாதுகாப்பு பிரச்சினைகள் Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung 24 மார்., 2026 Node.js 25.8.2 (Current) அனைத்தும் Node.js 25.8.2 (Current) RG Rafael Gonzaga 24 மார்., 2026 Node.js 24.14.1 (LTS) அனைத்தும் Node.js 24.14.1 (LTS) RG Rafael Gonzaga 24 மார்., 2026 Node.js 22.22.2 (LTS) அனைத்தும் Node.js 22.22.2 (LTS) RG Rafael Gonzaga 24 மார்., 2026 Node.js 20.20.2 (LTS) அனைத்தும் Node.js 20.20.2 (LTS) MI Marco Ippolito 24 மார்., 2026 Tuesday, March 24, 2026 Security Releases பாதுகாப்பு பிரச்சினைகள் Tuesday, March 24, 2026 Security Releases TNJP The Node.js Project 24 மார்., 2026 முந்தையது 1 2 3 4 5 ...",
+      "tokens": [
+        "node",
+        "js",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "developing",
+        "minimally",
+        "hashdos",
+        "resistant",
+        "yet",
+        "quickly",
+        "reversible",
+        "integer",
+        "hash",
+        "v8",
+        "jc",
+        "joyee",
+        "cheung",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "25",
+        "current",
+        "node",
+        "js",
+        "25",
+        "current",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "24",
+        "14",
+        "lts",
+        "node",
+        "js",
+        "24",
+        "14",
+        "lts",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "22",
+        "22",
+        "lts",
+        "node",
+        "js",
+        "22",
+        "22",
+        "lts",
+        "rg",
+        "rafael",
+        "gonzaga",
+        "24",
+        "2026",
+        "node",
+        "js",
+        "20",
+        "20",
+        "lts",
+        "node",
+        "js",
+        "20",
+        "20",
+        "lts",
+        "mi",
+        "marco",
+        "ippolito",
+        "24",
+        "2026",
+        "tuesday",
+        "march",
+        "24",
+        "2026",
+        "security",
+        "releases",
+        "tuesday",
+        "march",
+        "24",
+        "2026",
+        "security",
+        "releases",
+        "tnjp",
+        "node",
+        "js",
+        "project",
+        "24",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1413,
+      "charStart": 1287,
+      "factId": "hz.web.5cb7b196147b5052.fact.3",
+      "kind": "bullet",
+      "text": "171 அடுத்தது v24.14.1 சமீபத்திய LTS v25.8.2 சமீபத்திய வெளியீடு பதிப்புரிமை OpenJS நிறுவனம் மற்றும் Node.js பங்களிப்பாளர்கள்.",
+      "tokens": [
+        "171",
+        "v24",
+        "14",
+        "lts",
+        "v25",
+        "openjs",
+        "node",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1453,
+      "charStart": 1414,
+      "factId": "hz.web.5cb7b196147b5052.fact.4",
+      "kind": "bullet",
+      "text": "அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+      "tokens": []
+    },
+    {
+      "charEnd": 1472,
+      "charStart": 1468,
+      "factId": "hz.web.5cb7b196147b5052.fact.5",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1479,
+      "charStart": 1473,
+      "factId": "hz.web.5cb7b196147b5052.fact.6",
+      "kind": "bullet",
+      "text": "node",
+      "tokens": [
+        "node"
+      ]
+    },
+    {
+      "charEnd": 1484,
+      "charStart": 1480,
+      "factId": "hz.web.5cb7b196147b5052.fact.7",
+      "kind": "bullet",
+      "text": "24",
+      "tokens": [
+        "24"
+      ]
+    },
+    {
+      "charEnd": 1491,
+      "charStart": 1485,
+      "factId": "hz.web.5cb7b196147b5052.fact.8",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1497,
+      "charStart": 1492,
+      "factId": "hz.web.5cb7b196147b5052.fact.9",
+      "kind": "bullet",
+      "text": "lts",
+      "tokens": [
+        "lts"
+      ]
+    },
+    {
+      "charEnd": 1506,
+      "charStart": 1498,
+      "factId": "hz.web.5cb7b196147b5052.fact.10",
+      "kind": "bullet",
+      "text": "openjs",
+      "tokens": [
+        "openjs"
+      ]
+    },
+    {
+      "charEnd": 1511,
+      "charStart": 1507,
+      "factId": "hz.web.5cb7b196147b5052.fact.11",
+      "kind": "bullet",
+      "text": "20",
+      "tokens": [
+        "20"
+      ]
+    },
+    {
+      "charEnd": 1516,
+      "charStart": 1512,
+      "factId": "hz.web.5cb7b196147b5052.fact.12",
+      "kind": "bullet",
+      "text": "22",
+      "tokens": [
+        "22"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.5cb7b196147b5052.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Node.js — Blog"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.5cb7b196147b5052.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1466,
+      "charStart": 1455,
+      "headingId": "hz.web.5cb7b196147b5052.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1528,
+      "charStart": 1518,
+      "headingId": "hz.web.5cb7b196147b5052.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5cb7b196147b5052.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3828,
+        "start": 0
+      }
+    ],
+    "hash": "e1e8249df95a12e43fd4bf277c433306e25949a65b01b292baf45c833c12d29b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Node.js — Blog உள்ளடக்கத்திற்குச் செல்லவும் கற்க இதைப் பற்றி பதிவிறக்கவும் வலைப்பதிவு ஆவணங்கள் பங்களியுங்கள் பாடப்பிரிவுகள் எழுதத் தொடங்கு...",
+      "⌘ K வலைப்பதிவு சமீபத்திய Node.js செய்திகள், மாற்று வழிகாட்டிகள் மற்றும் நிகழ்வுச் சுருக்கங்கள் அனைத்தும் அனைத்தும் அனைத்தும் பாதுகாப்பு பிரச்சினைகள் மாற்று வழிகாட்டிகள் நிகழ்வுகள் பிரிவுகள் அனைத்தும் அனைத்தும் அனைத்தும் அனைத்தும் பாதுகாப்பு பிரச்சினைகள் மாற்று வழிகாட்டிகள் நிகழ்வுகள் Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 பாதுகாப்பு பிரச்சினைகள் Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8 JC Joyee Cheung 24 மார்., 2026 Node.js 25.8.2 (Current) அனைத்தும் Node.js 25.8.2 (Current) RG Rafael Gonzaga 24 மார்., 2026 Node.js 24.14.1 (LTS) அனைத்தும் Node.js 24.14.1 (LTS) RG Rafael Gonzaga 24 மார்., 2026 Node.js 22.22.2 (LTS) அனைத்தும் Node.js 22.22.2 (LTS) RG Rafael Gonzaga 24 மார்., 2026 Node.js 20.20.2 (LTS) அனைத்தும் Node.js 20.20.2 (LTS) MI Marco Ippolito 24 மார்., 2026 Tuesday, March 24, 2026 Security Releases பாதுகாப்பு பிரச்சினைகள் Tuesday, March 24, 2026 Security Releases TNJP The Node.js Project 24 மார்., 2026 முந்தையது 1 2 3 4 5 ...",
+      "171 அடுத்தது v24.14.1 சமீபத்திய LTS v25.8.2 சமீபத்திய வெளியீடு பதிப்புரிமை OpenJS நிறுவனம் மற்றும் Node.js பங்களிப்பாளர்கள்."
+    ],
+    "medium": "Source: https://nodejs.org/ta/blog",
+    "short": "Source: https://nodejs.org/ta/blog",
+    "tokens": [
+      "node",
+      "js",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "ta",
+      "blog",
+      "source",
+      "https",
+      "nodejs",
+      "org",
+      "ta",
+      "blog"
+    ]
+  },
+  "title": "Node.js — Blog"
+}

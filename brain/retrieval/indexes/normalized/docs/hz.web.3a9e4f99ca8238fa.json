@@ -1,0 +1,408 @@
+{
+  "aliases": [
+    {
+      "alias": "3a9e4f99ca8238fa",
+      "aliasId": "hz.web.3a9e4f99ca8238fa.alias.1",
+      "canonical": "linkedin login, sign in | linkedin"
+    },
+    {
+      "alias": "linkedin login sign in linkedin",
+      "aliasId": "hz.web.3a9e4f99ca8238fa.alias.2",
+      "canonical": "linkedin login, sign in | linkedin"
+    },
+    {
+      "alias": "web 3a9e4f99ca8238fa",
+      "aliasId": "hz.web.3a9e4f99ca8238fa.alias.3",
+      "canonical": "linkedin login, sign in | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.3a9e4f99ca8238fa",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3a9e4f99ca8238fa.entity.1",
+      "kind": "document",
+      "name": "LinkedIn Login, Sign in | LinkedIn",
+      "tokens": [
+        "linkedin",
+        "login",
+        "sign",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a9e4f99ca8238fa.entity.2",
+      "kind": "heading",
+      "name": "LinkedIn Login, Sign in | LinkedIn",
+      "tokens": [
+        "linkedin",
+        "login",
+        "sign",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a9e4f99ca8238fa.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a9e4f99ca8238fa.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3a9e4f99ca8238fa.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 251,
+      "charStart": 39,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fgooglemarketingplatform%2F&amp;fromSignIn=true&amp;trk=top-card_top-card-primary-button-top-card-primary-cta",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "session_redirect",
+        "https",
+        "3a",
+        "2f",
+        "2fwww",
+        "2elinkedin",
+        "2ecom",
+        "2fshowcase",
+        "2fgooglemarketingplatform",
+        "2f",
+        "amp",
+        "fromsignin",
+        "true",
+        "amp",
+        "trk",
+        "top",
+        "card_top",
+        "card",
+        "primary",
+        "button",
+        "top",
+        "card",
+        "primary",
+        "cta"
+      ]
+    },
+    {
+      "charEnd": 489,
+      "charStart": 303,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.1",
+      "kind": "bullet",
+      "text": "LinkedIn Login, Sign in | LinkedIn Sign in Sign in with Apple Sign in with a passkey By clicking Continue, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "tokens": [
+        "linkedin",
+        "login",
+        "sign",
+        "linkedin",
+        "sign",
+        "sign",
+        "apple",
+        "sign",
+        "passkey",
+        "clicking",
+        "continue",
+        "agree",
+        "linkedin",
+        "user",
+        "agreement",
+        "privacy",
+        "policy",
+        "cookie",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 540,
+      "charStart": 490,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.2",
+      "kind": "bullet",
+      "text": "or Email or phone Password Show Forgot password?",
+      "tokens": [
+        "email",
+        "phone",
+        "password",
+        "show",
+        "forgot",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 693,
+      "charStart": 541,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.3",
+      "kind": "bullet",
+      "text": "Keep me logged in Sign in We’ve emailed a one-time link to your primary email address Click on the link to sign in instantly to your LinkedIn account.",
+      "tokens": [
+        "keep",
+        "logged",
+        "sign",
+        "ve",
+        "emailed",
+        "one",
+        "time",
+        "link",
+        "your",
+        "primary",
+        "email",
+        "address",
+        "click",
+        "link",
+        "sign",
+        "instantly",
+        "your",
+        "linkedin",
+        "account"
+      ]
+    },
+    {
+      "charEnd": 761,
+      "charStart": 694,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.4",
+      "kind": "bullet",
+      "text": "If you don’t see the email in your inbox, check your spam folder.",
+      "tokens": [
+        "if",
+        "don",
+        "see",
+        "email",
+        "your",
+        "inbox",
+        "check",
+        "your",
+        "spam",
+        "folder"
+      ]
+    },
+    {
+      "charEnd": 786,
+      "charStart": 776,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 795,
+      "charStart": 787,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.6",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 802,
+      "charStart": 796,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.7",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 809,
+      "charStart": 803,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 810,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.9",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 827,
+      "charStart": 818,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.10",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 835,
+      "charStart": 828,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.11",
+      "kind": "bullet",
+      "text": "agree",
+      "tokens": [
+        "agree"
+      ]
+    },
+    {
+      "charEnd": 847,
+      "charStart": 836,
+      "factId": "hz.web.3a9e4f99ca8238fa.fact.12",
+      "kind": "bullet",
+      "text": "agreement",
+      "tokens": [
+        "agreement"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 37,
+      "charStart": 1,
+      "headingId": "hz.web.3a9e4f99ca8238fa.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "LinkedIn Login, Sign in | LinkedIn"
+    },
+    {
+      "charEnd": 301,
+      "charStart": 291,
+      "headingId": "hz.web.3a9e4f99ca8238fa.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 774,
+      "charStart": 763,
+      "headingId": "hz.web.3a9e4f99ca8238fa.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 859,
+      "charStart": 849,
+      "headingId": "hz.web.3a9e4f99ca8238fa.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3a9e4f99ca8238fa.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2718,
+        "start": 0
+      }
+    ],
+    "hash": "0c596d0e6525eab96ee021a5be14772309a6d5c593cdc249d8477e6fb83f3814",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "LinkedIn Login, Sign in | LinkedIn Sign in Sign in with Apple Sign in with a passkey By clicking Continue, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .",
+      "or Email or phone Password Show Forgot password?",
+      "Keep me logged in Sign in We’ve emailed a one-time link to your primary email address Click on the link to sign in instantly to your LinkedIn account."
+    ],
+    "medium": "Source: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fgooglemarketingplatform%2F&amp;fromSignIn=true&amp;trk=top-card_top-card-primary-button-top-card-primary-cta",
+    "short": "Source: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fshowcase%2Fgooglemarketingplatform%2F&amp;fromSignIn=true&amp;trk=top-card_top-card-primary-button-top-card-primary-cta",
+    "tokens": [
+      "linkedin",
+      "login",
+      "sign",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "session_redirect",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "2elinkedin",
+      "2ecom",
+      "2fshowcase",
+      "2fgooglemarketingplatform",
+      "2f",
+      "amp",
+      "fromsignin",
+      "true",
+      "amp",
+      "trk",
+      "top",
+      "card_top",
+      "card",
+      "primary",
+      "button",
+      "top",
+      "card",
+      "primary",
+      "cta",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "session_redirect",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "2elinkedin",
+      "2ecom",
+      "2fshowcase",
+      "2fgooglemarketingplatform",
+      "2f",
+      "amp",
+      "fromsignin",
+      "true",
+      "amp",
+      "trk",
+      "top",
+      "card_top",
+      "card",
+      "primary",
+      "button",
+      "top",
+      "card",
+      "primary",
+      "cta"
+    ]
+  },
+  "title": "LinkedIn Login, Sign in | LinkedIn"
+}

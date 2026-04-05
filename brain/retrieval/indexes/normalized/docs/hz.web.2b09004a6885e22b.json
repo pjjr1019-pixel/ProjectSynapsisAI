@@ -1,0 +1,319 @@
+{
+  "aliases": [
+    {
+      "alias": "2b09004a6885e22b",
+      "aliasId": "hz.web.2b09004a6885e22b.alias.1",
+      "canonical": "support.nlm.nih.gov"
+    },
+    {
+      "alias": "support.nlm.nih.gov",
+      "aliasId": "hz.web.2b09004a6885e22b.alias.2",
+      "canonical": "support.nlm.nih.gov"
+    },
+    {
+      "alias": "web 2b09004a6885e22b",
+      "aliasId": "hz.web.2b09004a6885e22b.alias.3",
+      "canonical": "support.nlm.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.2b09004a6885e22b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2b09004a6885e22b.entity.1",
+      "kind": "document",
+      "name": "support.nlm.nih.gov",
+      "tokens": [
+        "support",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b09004a6885e22b.entity.2",
+      "kind": "heading",
+      "name": "support.nlm.nih.gov",
+      "tokens": [
+        "support",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b09004a6885e22b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b09004a6885e22b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b09004a6885e22b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 101,
+      "charStart": 24,
+      "factId": "hz.web.2b09004a6885e22b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://support.nlm.nih.gov/Areas/KnowledgeManagement/css/article.css",
+      "tokens": [
+        "source",
+        "https",
+        "support",
+        "nlm",
+        "nih",
+        "gov",
+        "areas",
+        "knowledgemanagement",
+        "css",
+        "article",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 537,
+      "charStart": 153,
+      "factId": "hz.web.2b09004a6885e22b.fact.1",
+      "kind": "bullet",
+      "text": "#comments, #article-rating { clear: both; } .validation-summary-valid { display: none; } html[dir=\"rtl\"] #found-my-answer-bottom-comments { text-align: left; } html[dir=\"ltr\"] #found-my-answer-bottom-comments { text-align: right; } .knowledge-article-content { margin-bottom: 20px; } a.list-group-item { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #36f; }",
+      "tokens": [
+        "comments",
+        "article",
+        "rating",
+        "clear",
+        "both",
+        "validation",
+        "summary",
+        "valid",
+        "display",
+        "none",
+        "html",
+        "dir",
+        "rtl",
+        "found",
+        "answer",
+        "bottom",
+        "comments",
+        "text",
+        "align",
+        "left",
+        "html",
+        "dir",
+        "ltr",
+        "found",
+        "answer",
+        "bottom",
+        "comments",
+        "text",
+        "align",
+        "right",
+        "knowledge",
+        "article",
+        "content",
+        "margin",
+        "bottom",
+        "20px",
+        "list",
+        "group",
+        "item",
+        "overflow",
+        "hidden",
+        "text",
+        "overflow",
+        "ellipsis",
+        "white",
+        "space",
+        "nowrap",
+        "color",
+        "36f"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 552,
+      "factId": "hz.web.2b09004a6885e22b.fact.2",
+      "kind": "bullet",
+      "text": "bottom",
+      "tokens": [
+        "bottom"
+      ]
+    },
+    {
+      "charEnd": 571,
+      "charStart": 561,
+      "factId": "hz.web.2b09004a6885e22b.fact.3",
+      "kind": "bullet",
+      "text": "comments",
+      "tokens": [
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 578,
+      "charStart": 572,
+      "factId": "hz.web.2b09004a6885e22b.fact.4",
+      "kind": "bullet",
+      "text": "text",
+      "tokens": [
+        "text"
+      ]
+    },
+    {
+      "charEnd": 586,
+      "charStart": 579,
+      "factId": "hz.web.2b09004a6885e22b.fact.5",
+      "kind": "bullet",
+      "text": "align",
+      "tokens": [
+        "align"
+      ]
+    },
+    {
+      "charEnd": 595,
+      "charStart": 587,
+      "factId": "hz.web.2b09004a6885e22b.fact.6",
+      "kind": "bullet",
+      "text": "answer",
+      "tokens": [
+        "answer"
+      ]
+    },
+    {
+      "charEnd": 605,
+      "charStart": 596,
+      "factId": "hz.web.2b09004a6885e22b.fact.7",
+      "kind": "bullet",
+      "text": "article",
+      "tokens": [
+        "article"
+      ]
+    },
+    {
+      "charEnd": 611,
+      "charStart": 606,
+      "factId": "hz.web.2b09004a6885e22b.fact.8",
+      "kind": "bullet",
+      "text": "dir",
+      "tokens": [
+        "dir"
+      ]
+    },
+    {
+      "charEnd": 619,
+      "charStart": 612,
+      "factId": "hz.web.2b09004a6885e22b.fact.9",
+      "kind": "bullet",
+      "text": "found",
+      "tokens": [
+        "found"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 22,
+      "charStart": 1,
+      "headingId": "hz.web.2b09004a6885e22b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "support.nlm.nih.gov"
+    },
+    {
+      "charEnd": 151,
+      "charStart": 141,
+      "headingId": "hz.web.2b09004a6885e22b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 550,
+      "charStart": 539,
+      "headingId": "hz.web.2b09004a6885e22b.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 631,
+      "charStart": 621,
+      "headingId": "hz.web.2b09004a6885e22b.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2b09004a6885e22b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1288,
+        "start": 0
+      }
+    ],
+    "hash": "804315cf388f4afe911ff0217fa6923625438f4f6165389cf5a906960fb45184",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "#comments, #article-rating { clear: both; } .validation-summary-valid { display: none; } html[dir=\"rtl\"] #found-my-answer-bottom-comments { text-align: left; } html[dir=\"ltr\"] #found-my-answer-bottom-comments { text-align: right; } .knowledge-article-content { margin-bottom: 20px; } a.list-group-item { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #36f; }",
+      "bottom",
+      "comments"
+    ],
+    "medium": "Source: https://support.nlm.nih.gov/Areas/KnowledgeManagement/css/article.css",
+    "short": "Source: https://support.nlm.nih.gov/Areas/KnowledgeManagement/css/article.css",
+    "tokens": [
+      "support",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "support",
+      "nlm",
+      "nih",
+      "gov",
+      "areas",
+      "knowledgemanagement",
+      "css",
+      "article",
+      "css",
+      "source",
+      "https",
+      "support",
+      "nlm",
+      "nih",
+      "gov",
+      "areas",
+      "knowledgemanagement",
+      "css",
+      "article",
+      "css"
+    ]
+  },
+  "title": "support.nlm.nih.gov"
+}

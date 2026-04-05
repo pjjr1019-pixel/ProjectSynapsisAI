@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "domains": {
+    "core": {
+      "docIds": [
+        "hz.core.retrieval-contract.2026-03-27",
+        "hz.core.safety-defaults.2026-03-27"
+      ]
+    },
+    "assistant": {
+      "docIds": [
+        "hz.assistant.sample-topic.2026-03-27"
+      ]
+    },
+    "financial": { "docIds": [] },
+    "work": { "docIds": [] },
+    "social": { "docIds": [] },
+    "life": { "docIds": [] },
+    "intel": { "docIds": [] },
+    "launcher": {
+      "docIds": [
+        "hz.launcher.launcher-overview.2026-03-27"
+      ]
+    },
+    "pipeline": {
+      "docIds": [
+        "hz.pipeline.imports.action-automation-v6",
+        "hz.pipeline.imports.common-questions-v3",
+        "hz.pipeline.imports.edge-cases-v4",
+        "hz.pipeline.imports.live-data-v5",
+        "hz.pipeline.imports.memory-user-model-v8",
+        "hz.pipeline.imports.planning-orchestration-v7",
+        "hz.pipeline.imports.knowledge-pack-v1",
+        "hz.pipeline.imports.knowledge-pack-v2",
+        "hz.pipeline.imports.megapack-all-recommended"
+      ]
+    }
+  }
+}

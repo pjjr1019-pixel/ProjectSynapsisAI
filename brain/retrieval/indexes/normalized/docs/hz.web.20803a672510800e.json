@@ -1,0 +1,332 @@
+{
+  "aliases": [
+    {
+      "alias": "20803a672510800e",
+      "aliasId": "hz.web.20803a672510800e.alias.1",
+      "canonical": "about linkedin"
+    },
+    {
+      "alias": "about linkedin",
+      "aliasId": "hz.web.20803a672510800e.alias.2",
+      "canonical": "about linkedin"
+    },
+    {
+      "alias": "web 20803a672510800e",
+      "aliasId": "hz.web.20803a672510800e.alias.3",
+      "canonical": "about linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.20803a672510800e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.20803a672510800e.entity.1",
+      "kind": "document",
+      "name": "About LinkedIn",
+      "tokens": [
+        "about",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.20803a672510800e.entity.2",
+      "kind": "heading",
+      "name": "About LinkedIn",
+      "tokens": [
+        "about",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.20803a672510800e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.20803a672510800e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.20803a672510800e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 79,
+      "charStart": 19,
+      "factId": "hz.web.20803a672510800e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://about.linkedin.com/?trk=content_footer-about",
+      "tokens": [
+        "source",
+        "https",
+        "about",
+        "linkedin",
+        "com",
+        "trk",
+        "content_footer",
+        "about"
+      ]
+    },
+    {
+      "charEnd": 385,
+      "charStart": 131,
+      "factId": "hz.web.20803a672510800e.fact.1",
+      "kind": "bullet",
+      "text": "About LinkedIn Skip to main content Close jump menu LinkedIn Logo LinkedIn Logo LinkedIn About LinkedIn Welcome to LinkedIn, the world's largest professional network with more than 1 billion members in more than 200 countries and territories worldwide.",
+      "tokens": [
+        "about",
+        "linkedin",
+        "skip",
+        "main",
+        "content",
+        "close",
+        "jump",
+        "menu",
+        "linkedin",
+        "logo",
+        "linkedin",
+        "logo",
+        "linkedin",
+        "about",
+        "linkedin",
+        "welcome",
+        "linkedin",
+        "world",
+        "largest",
+        "professional",
+        "network",
+        "more",
+        "than",
+        "billion",
+        "members",
+        "more",
+        "than",
+        "200",
+        "countries",
+        "territories",
+        "worldwide"
+      ]
+    },
+    {
+      "charEnd": 464,
+      "charStart": 386,
+      "factId": "hz.web.20803a672510800e.fact.2",
+      "kind": "bullet",
+      "text": "Vision Create economic opportunity for every member of the global workforce.",
+      "tokens": [
+        "vision",
+        "create",
+        "economic",
+        "opportunity",
+        "every",
+        "member",
+        "global",
+        "workforce"
+      ]
+    },
+    {
+      "charEnd": 588,
+      "charStart": 465,
+      "factId": "hz.web.20803a672510800e.fact.3",
+      "kind": "bullet",
+      "text": "Mission The mission of LinkedIn is simple: connect the world’s professionals to make them more productive and successful.",
+      "tokens": [
+        "mission",
+        "mission",
+        "linkedin",
+        "simple",
+        "connect",
+        "world",
+        "professionals",
+        "make",
+        "them",
+        "more",
+        "productive",
+        "successful"
+      ]
+    },
+    {
+      "charEnd": 602,
+      "charStart": 589,
+      "factId": "hz.web.20803a672510800e.fact.4",
+      "kind": "bullet",
+      "text": "Who are we?",
+      "tokens": []
+    },
+    {
+      "charEnd": 627,
+      "charStart": 617,
+      "factId": "hz.web.20803a672510800e.fact.5",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 634,
+      "charStart": 628,
+      "factId": "hz.web.20803a672510800e.fact.6",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 642,
+      "charStart": 635,
+      "factId": "hz.web.20803a672510800e.fact.7",
+      "kind": "bullet",
+      "text": "world",
+      "tokens": [
+        "world"
+      ]
+    },
+    {
+      "charEnd": 650,
+      "charStart": 643,
+      "factId": "hz.web.20803a672510800e.fact.8",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 658,
+      "charStart": 651,
+      "factId": "hz.web.20803a672510800e.fact.9",
+      "kind": "bullet",
+      "text": "learn",
+      "tokens": [
+        "learn"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 659,
+      "factId": "hz.web.20803a672510800e.fact.10",
+      "kind": "bullet",
+      "text": "logo",
+      "tokens": [
+        "logo"
+      ]
+    },
+    {
+      "charEnd": 675,
+      "charStart": 666,
+      "factId": "hz.web.20803a672510800e.fact.11",
+      "kind": "bullet",
+      "text": "network",
+      "tokens": [
+        "network"
+      ]
+    },
+    {
+      "charEnd": 690,
+      "charStart": 676,
+      "factId": "hz.web.20803a672510800e.fact.12",
+      "kind": "bullet",
+      "text": "professional",
+      "tokens": [
+        "professional"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.20803a672510800e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "About LinkedIn"
+    },
+    {
+      "charEnd": 129,
+      "charStart": 119,
+      "headingId": "hz.web.20803a672510800e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 615,
+      "charStart": 604,
+      "headingId": "hz.web.20803a672510800e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 702,
+      "charStart": 692,
+      "headingId": "hz.web.20803a672510800e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/20803a672510800e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2412,
+        "start": 0
+      }
+    ],
+    "hash": "c7a0e451b036c046a145f9136e27da4829e2c884baeac99915b59e7a4004aef4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "About LinkedIn Skip to main content Close jump menu LinkedIn Logo LinkedIn Logo LinkedIn About LinkedIn Welcome to LinkedIn, the world's largest professional network with more than 1 billion members in more than 200 countries and territories worldwide.",
+      "Vision Create economic opportunity for every member of the global workforce.",
+      "Mission The mission of LinkedIn is simple: connect the world’s professionals to make them more productive and successful."
+    ],
+    "medium": "Source: https://about.linkedin.com/?trk=content_footer-about",
+    "short": "Source: https://about.linkedin.com/?trk=content_footer-about",
+    "tokens": [
+      "about",
+      "linkedin",
+      "source",
+      "https",
+      "about",
+      "linkedin",
+      "com",
+      "trk",
+      "content_footer",
+      "about",
+      "source",
+      "https",
+      "about",
+      "linkedin",
+      "com",
+      "trk",
+      "content_footer",
+      "about"
+    ]
+  },
+  "title": "About LinkedIn"
+}

@@ -1,0 +1,394 @@
+{
+  "aliases": [
+    {
+      "alias": "0b402ec92b420471",
+      "aliasId": "hz.web.0b402ec92b420471.alias.1",
+      "canonical": "schema & data formats - superfeedr documentation"
+    },
+    {
+      "alias": "schema data formats - superfeedr documentation",
+      "aliasId": "hz.web.0b402ec92b420471.alias.2",
+      "canonical": "schema & data formats - superfeedr documentation"
+    },
+    {
+      "alias": "web 0b402ec92b420471",
+      "aliasId": "hz.web.0b402ec92b420471.alias.3",
+      "canonical": "schema & data formats - superfeedr documentation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.0b402ec92b420471",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0b402ec92b420471.entity.1",
+      "kind": "document",
+      "name": "Schema & Data Formats - Superfeedr Documentation",
+      "tokens": [
+        "schema",
+        "data",
+        "formats",
+        "superfeedr",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.0b402ec92b420471.entity.2",
+      "kind": "heading",
+      "name": "Schema & Data Formats - Superfeedr Documentation",
+      "tokens": [
+        "schema",
+        "data",
+        "formats",
+        "superfeedr",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.0b402ec92b420471.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0b402ec92b420471.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0b402ec92b420471.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 108,
+      "charStart": 53,
+      "factId": "hz.web.0b402ec92b420471.fact.1",
+      "kind": "summary",
+      "text": "Source: http://documentation.superfeedr.com/schema.html",
+      "tokens": [
+        "source",
+        "http",
+        "documentation",
+        "superfeedr",
+        "com",
+        "schema",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 471,
+      "charStart": 160,
+      "factId": "hz.web.0b402ec92b420471.fact.1",
+      "kind": "bullet",
+      "text": "Schema & Data Formats - Superfeedr Documentation Superfeedr Documentation Publishers Subscribers Trackers Pricing Login Sign Up Documentation › Schema & Data Formats Introduction Subscribers Publishers Trackers Schema Miscellaneous Contents Status Entry JSON This section mostly applies to feed subscriptions.",
+      "tokens": [
+        "schema",
+        "data",
+        "formats",
+        "superfeedr",
+        "documentation",
+        "superfeedr",
+        "documentation",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "documentation",
+        "schema",
+        "data",
+        "formats",
+        "introduction",
+        "subscribers",
+        "publishers",
+        "trackers",
+        "schema",
+        "miscellaneous",
+        "contents",
+        "status",
+        "entry",
+        "json",
+        "section",
+        "mostly",
+        "applies",
+        "feed",
+        "subscriptions"
+      ]
+    },
+    {
+      "charEnd": 606,
+      "charStart": 472,
+      "factId": "hz.web.0b402ec92b420471.fact.2",
+      "kind": "bullet",
+      "text": "If you’re subscribing to arbitrary content resources, we will send you the exact content of the resource to which you’ve subscribed.",
+      "tokens": [
+        "if",
+        "re",
+        "subscribing",
+        "arbitrary",
+        "content",
+        "resources",
+        "will",
+        "send",
+        "exact",
+        "content",
+        "resource",
+        "ve",
+        "subscribed"
+      ]
+    },
+    {
+      "charEnd": 684,
+      "charStart": 607,
+      "factId": "hz.web.0b402ec92b420471.fact.3",
+      "kind": "bullet",
+      "text": "Some of the status information is available to non-feeds resources as well.",
+      "tokens": [
+        "some",
+        "status",
+        "information",
+        "available",
+        "non",
+        "feeds",
+        "resources",
+        "well"
+      ]
+    },
+    {
+      "charEnd": 880,
+      "charStart": 685,
+      "factId": "hz.web.0b402ec92b420471.fact.4",
+      "kind": "bullet",
+      "text": "Whatever the original format (RSS, Atom, or any other namespace) is, the notification that we will send to subscribers will use standard ATOM , as well as a few other namespaces detailed below.",
+      "tokens": [
+        "whatever",
+        "original",
+        "format",
+        "rss",
+        "atom",
+        "any",
+        "other",
+        "namespace",
+        "notification",
+        "will",
+        "send",
+        "subscribers",
+        "will",
+        "use",
+        "standard",
+        "atom",
+        "well",
+        "few",
+        "other",
+        "namespaces",
+        "detailed",
+        "below"
+      ]
+    },
+    {
+      "charEnd": 899,
+      "charStart": 895,
+      "factId": "hz.web.0b402ec92b420471.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 904,
+      "charStart": 900,
+      "factId": "hz.web.0b402ec92b420471.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 911,
+      "charStart": 905,
+      "factId": "hz.web.0b402ec92b420471.fact.7",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 919,
+      "charStart": 912,
+      "factId": "hz.web.0b402ec92b420471.fact.8",
+      "kind": "bullet",
+      "text": "title",
+      "tokens": [
+        "title"
+      ]
+    },
+    {
+      "charEnd": 926,
+      "charStart": 920,
+      "factId": "hz.web.0b402ec92b420471.fact.9",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 935,
+      "charStart": 927,
+      "factId": "hz.web.0b402ec92b420471.fact.10",
+      "kind": "bullet",
+      "text": "object",
+      "tokens": [
+        "object"
+      ]
+    },
+    {
+      "charEnd": 943,
+      "charStart": 936,
+      "factId": "hz.web.0b402ec92b420471.fact.11",
+      "kind": "bullet",
+      "text": "entry",
+      "tokens": [
+        "entry"
+      ]
+    },
+    {
+      "charEnd": 952,
+      "charStart": 944,
+      "factId": "hz.web.0b402ec92b420471.fact.12",
+      "kind": "bullet",
+      "text": "domain",
+      "tokens": [
+        "domain"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 51,
+      "charStart": 1,
+      "headingId": "hz.web.0b402ec92b420471.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Schema & Data Formats - Superfeedr Documentation"
+    },
+    {
+      "charEnd": 158,
+      "charStart": 148,
+      "headingId": "hz.web.0b402ec92b420471.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 893,
+      "charStart": 882,
+      "headingId": "hz.web.0b402ec92b420471.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 964,
+      "charStart": 954,
+      "headingId": "hz.web.0b402ec92b420471.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/0b402ec92b420471.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4246,
+        "start": 0
+      }
+    ],
+    "hash": "4c985441bca141e824215a0fe3b9938a0282ff6cae2bb5d717dd84ea9c5c9047",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.0b402ec92b420471.rule.1",
+      "text": "It happens that we fetch a resource and do not parse it as its content hasn't been modified last_maintenance_at Each resource inside Superfeedr has a maintenance cycle that we use to detect stale resource, or related resource.",
+      "tokens": [
+        "happens",
+        "fetch",
+        "resource",
+        "not",
+        "parse",
+        "its",
+        "content",
+        "hasn",
+        "modified",
+        "last_maintenance_at",
+        "each",
+        "resource",
+        "inside",
+        "superfeedr",
+        "has",
+        "maintenance",
+        "cycle",
+        "use",
+        "detect",
+        "stale",
+        "resource",
+        "related",
+        "resource"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Schema & Data Formats - Superfeedr Documentation Superfeedr Documentation Publishers Subscribers Trackers Pricing Login Sign Up Documentation › Schema & Data Formats Introduction Subscribers Publishers Trackers Schema Miscellaneous Contents Status Entry JSON This section mostly applies to feed subscriptions.",
+      "If you’re subscribing to arbitrary content resources, we will send you the exact content of the resource to which you’ve subscribed.",
+      "Some of the status information is available to non-feeds resources as well."
+    ],
+    "medium": "Source: http://documentation.superfeedr.com/schema.html",
+    "short": "Source: http://documentation.superfeedr.com/schema.html",
+    "tokens": [
+      "schema",
+      "data",
+      "formats",
+      "superfeedr",
+      "documentation",
+      "source",
+      "http",
+      "documentation",
+      "superfeedr",
+      "com",
+      "schema",
+      "html",
+      "source",
+      "http",
+      "documentation",
+      "superfeedr",
+      "com",
+      "schema",
+      "html"
+    ]
+  },
+  "title": "Schema & Data Formats - Superfeedr Documentation"
+}

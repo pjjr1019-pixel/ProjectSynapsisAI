@@ -1,0 +1,6 @@
+node run-tool.js registry_search --query "duplicate content"
+node run-tool.js generate_low_token_pack --path .
+node run-tool.js likely_entrypoints --path .
+node run-tool.js package_name_inventory --path .
+node run-tool.js route_file_candidates --path .
+node run-tool.js generate_coder_handoff --path . --output handoff.json

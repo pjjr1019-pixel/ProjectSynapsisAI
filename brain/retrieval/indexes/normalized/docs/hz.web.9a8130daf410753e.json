@@ -1,0 +1,413 @@
+{
+  "aliases": [
+    {
+      "alias": "9a8130daf410753e",
+      "aliasId": "hz.web.9a8130daf410753e.alias.1",
+      "canonical": "rfc 2104 - hmac: keyed-hashing for message authentication"
+    },
+    {
+      "alias": "rfc 2104 - hmac keyed-hashing for message authentication",
+      "aliasId": "hz.web.9a8130daf410753e.alias.2",
+      "canonical": "rfc 2104 - hmac: keyed-hashing for message authentication"
+    },
+    {
+      "alias": "web 9a8130daf410753e",
+      "aliasId": "hz.web.9a8130daf410753e.alias.3",
+      "canonical": "rfc 2104 - hmac: keyed-hashing for message authentication"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.9a8130daf410753e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9a8130daf410753e.entity.1",
+      "kind": "document",
+      "name": "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication",
+      "tokens": [
+        "rfc",
+        "2104",
+        "hmac",
+        "keyed",
+        "hashing",
+        "message",
+        "authentication"
+      ]
+    },
+    {
+      "entityId": "hz.web.9a8130daf410753e.entity.2",
+      "kind": "heading",
+      "name": "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication",
+      "tokens": [
+        "rfc",
+        "2104",
+        "hmac",
+        "keyed",
+        "hashing",
+        "message",
+        "authentication"
+      ]
+    },
+    {
+      "entityId": "hz.web.9a8130daf410753e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9a8130daf410753e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9a8130daf410753e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 104,
+      "charStart": 62,
+      "factId": "hz.web.9a8130daf410753e.fact.1",
+      "kind": "summary",
+      "text": "Source: http://tools.ietf.org/html/rfc2104",
+      "tokens": [
+        "source",
+        "http",
+        "tools",
+        "ietf",
+        "org",
+        "html",
+        "rfc2104"
+      ]
+    },
+    {
+      "charEnd": 796,
+      "charStart": 156,
+      "factId": "hz.web.9a8130daf410753e.fact.1",
+      "kind": "bullet",
+      "text": "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication Light Dark Auto RFC 2104 Informational Title HMAC: Keyed-Hashing for Message Authentication Document Document type RFC - Informational February 1997 View errata Report errata Updated by RFC 6151 Was draft-ietf-ipsec-hmac-md5 ( ipsec WG ) Select version 00 RFC 2104 Compare versions RFC 2104 draft-ietf-ipsec-hmac-md5-00 RFC 2104 draft-ietf-ipsec-hmac-md5-00 Side-by-side Inline Authors Hugo Krawczyk , Mihir Bellare , Ran Canetti Email authors RFC stream Other formats txt html pdf w/errata bibtex Additional resources Mailing list discussion Report a bug Network Working Group H.",
+      "tokens": [
+        "rfc",
+        "2104",
+        "hmac",
+        "keyed",
+        "hashing",
+        "message",
+        "authentication",
+        "light",
+        "dark",
+        "auto",
+        "rfc",
+        "2104",
+        "informational",
+        "title",
+        "hmac",
+        "keyed",
+        "hashing",
+        "message",
+        "authentication",
+        "document",
+        "document",
+        "type",
+        "rfc",
+        "informational",
+        "february",
+        "1997",
+        "view",
+        "errata",
+        "report",
+        "errata",
+        "updated",
+        "rfc",
+        "6151",
+        "draft",
+        "ietf",
+        "ipsec",
+        "hmac",
+        "md5",
+        "ipsec",
+        "wg",
+        "select",
+        "version",
+        "00",
+        "rfc",
+        "2104",
+        "compare",
+        "versions",
+        "rfc",
+        "2104",
+        "draft",
+        "ietf",
+        "ipsec",
+        "hmac",
+        "md5",
+        "00",
+        "rfc",
+        "2104",
+        "draft",
+        "ietf",
+        "ipsec",
+        "hmac",
+        "md5",
+        "00",
+        "side",
+        "side",
+        "inline",
+        "authors",
+        "hugo",
+        "krawczyk",
+        "mihir",
+        "bellare",
+        "ran",
+        "canetti",
+        "email",
+        "authors",
+        "rfc",
+        "stream",
+        "other",
+        "formats",
+        "txt",
+        "html",
+        "pdf",
+        "errata",
+        "bibtex",
+        "additional",
+        "resources",
+        "mailing",
+        "list",
+        "discussion",
+        "report",
+        "bug",
+        "network",
+        "working",
+        "group"
+      ]
+    },
+    {
+      "charEnd": 865,
+      "charStart": 797,
+      "factId": "hz.web.9a8130daf410753e.fact.2",
+      "kind": "bullet",
+      "text": "Krawczyk Request for Comments: 2104 IBM Category: Informational M.",
+      "tokens": [
+        "krawczyk",
+        "request",
+        "comments",
+        "2104",
+        "ibm",
+        "category",
+        "informational"
+      ]
+    },
+    {
+      "charEnd": 883,
+      "charStart": 866,
+      "factId": "hz.web.9a8130daf410753e.fact.3",
+      "kind": "bullet",
+      "text": "Bellare UCSD R.",
+      "tokens": [
+        "bellare",
+        "ucsd"
+      ]
+    },
+    {
+      "charEnd": 1037,
+      "charStart": 884,
+      "factId": "hz.web.9a8130daf410753e.fact.4",
+      "kind": "bullet",
+      "text": "Canetti IBM February 1997 HMAC: Keyed-Hashing for Message Authentication Status of This Memo This memo provides information for the Internet community.",
+      "tokens": [
+        "canetti",
+        "ibm",
+        "february",
+        "1997",
+        "hmac",
+        "keyed",
+        "hashing",
+        "message",
+        "authentication",
+        "status",
+        "memo",
+        "memo",
+        "provides",
+        "information",
+        "internet",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 1058,
+      "charStart": 1052,
+      "factId": "hz.web.9a8130daf410753e.fact.5",
+      "kind": "bullet",
+      "text": "hmac",
+      "tokens": [
+        "hmac"
+      ]
+    },
+    {
+      "charEnd": 1065,
+      "charStart": 1059,
+      "factId": "hz.web.9a8130daf410753e.fact.6",
+      "kind": "bullet",
+      "text": "hash",
+      "tokens": [
+        "hash"
+      ]
+    },
+    {
+      "charEnd": 1071,
+      "charStart": 1066,
+      "factId": "hz.web.9a8130daf410753e.fact.7",
+      "kind": "bullet",
+      "text": "key",
+      "tokens": [
+        "key"
+      ]
+    },
+    {
+      "charEnd": 1082,
+      "charStart": 1072,
+      "factId": "hz.web.9a8130daf410753e.fact.8",
+      "kind": "bullet",
+      "text": "function",
+      "tokens": [
+        "function"
+      ]
+    },
+    {
+      "charEnd": 1088,
+      "charStart": 1083,
+      "factId": "hz.web.9a8130daf410753e.fact.9",
+      "kind": "bullet",
+      "text": "md5",
+      "tokens": [
+        "md5"
+      ]
+    },
+    {
+      "charEnd": 1094,
+      "charStart": 1089,
+      "factId": "hz.web.9a8130daf410753e.fact.10",
+      "kind": "bullet",
+      "text": "rfc",
+      "tokens": [
+        "rfc"
+      ]
+    },
+    {
+      "charEnd": 1111,
+      "charStart": 1095,
+      "factId": "hz.web.9a8130daf410753e.fact.11",
+      "kind": "bullet",
+      "text": "authentication",
+      "tokens": [
+        "authentication"
+      ]
+    },
+    {
+      "charEnd": 1123,
+      "charStart": 1112,
+      "factId": "hz.web.9a8130daf410753e.fact.12",
+      "kind": "bullet",
+      "text": "functions",
+      "tokens": [
+        "functions"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 60,
+      "charStart": 1,
+      "headingId": "hz.web.9a8130daf410753e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication"
+    },
+    {
+      "charEnd": 154,
+      "charStart": 144,
+      "headingId": "hz.web.9a8130daf410753e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1050,
+      "charStart": 1039,
+      "headingId": "hz.web.9a8130daf410753e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1135,
+      "charStart": 1125,
+      "headingId": "hz.web.9a8130daf410753e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/9a8130daf410753e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4413,
+        "start": 0
+      }
+    ],
+    "hash": "365594257de73d15a8a6e7982cd0a023e28ea3fa13fa6c90cf601878e3a32474",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication Light Dark Auto RFC 2104 Informational Title HMAC: Keyed-Hashing for Message Authentication Document Document type RFC - Informational February 1997 View errata Report errata Updated by RFC 6151 Was draft-ietf-ipsec-hmac-md5 ( ipsec WG ) Select version 00 RFC 2104 Compare versions RFC 2104 draft-ietf-ipsec-hmac-md5-00 RFC 2104 draft-ietf-ipsec-hmac-md5-00 Side-by-side Inline Authors Hugo Krawczyk , Mihir Bellare , Ran Canetti Email authors RFC stream Other formats txt html pdf w/errata bibtex Additional resources Mailing list discussion Report a bug Network Working Group H.",
+      "Krawczyk Request for Comments: 2104 IBM Category: Informational M.",
+      "Bellare UCSD R."
+    ],
+    "medium": "Source: http://tools.ietf.org/html/rfc2104",
+    "short": "Source: http://tools.ietf.org/html/rfc2104",
+    "tokens": [
+      "rfc",
+      "2104",
+      "hmac",
+      "keyed",
+      "hashing",
+      "message",
+      "authentication",
+      "source",
+      "http",
+      "tools",
+      "ietf",
+      "org",
+      "html",
+      "rfc2104",
+      "source",
+      "http",
+      "tools",
+      "ietf",
+      "org",
+      "html",
+      "rfc2104"
+    ]
+  },
+  "title": "RFC 2104 - HMAC: Keyed-Hashing for Message Authentication"
+}

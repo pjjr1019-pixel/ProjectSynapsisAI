@@ -1,0 +1,417 @@
+{
+  "aliases": [
+    {
+      "alias": "6276263ca7e7ceb0",
+      "aliasId": "hz.web.6276263ca7e7ceb0.alias.1",
+      "canonical": "some.pics"
+    },
+    {
+      "alias": "some.pics",
+      "aliasId": "hz.web.6276263ca7e7ceb0.alias.2",
+      "canonical": "some.pics"
+    },
+    {
+      "alias": "web 6276263ca7e7ceb0",
+      "aliasId": "hz.web.6276263ca7e7ceb0.alias.3",
+      "canonical": "some.pics"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.6276263ca7e7ceb0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6276263ca7e7ceb0.entity.1",
+      "kind": "document",
+      "name": "some.pics",
+      "tokens": [
+        "some",
+        "pics"
+      ]
+    },
+    {
+      "entityId": "hz.web.6276263ca7e7ceb0.entity.2",
+      "kind": "heading",
+      "name": "some.pics",
+      "tokens": [
+        "some",
+        "pics"
+      ]
+    },
+    {
+      "entityId": "hz.web.6276263ca7e7ceb0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6276263ca7e7ceb0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6276263ca7e7ceb0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 40,
+      "charStart": 14,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://some.pics/",
+      "tokens": [
+        "source",
+        "https",
+        "some",
+        "pics"
+      ]
+    },
+    {
+      "charEnd": 879,
+      "charStart": 92,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.1",
+      "kind": "bullet",
+      "text": "some.pics some.pics roteskuffen JPG hp JPG NIKON Z 9 hp JPG NIKON Z 9 dhester JPG dnk JPG tp JPG roteskuffen JPG z428 JPG SM-M515F atog JPG von JPG iPhone 14 Pro macmanx JPG chrisod JPG chrisod JPG chrisod JPG chrisod JPG chrisod JPG z428 JPG SM-M515F yvan JPG iPhone 16 Pro roteskuffen JPG macmanx JPG macmanx JPG z428 JPG SM-M515F chilli JPG bsag JPG iPhone 13 mini roteskuffen JPG val JPG ericmwalk JPG z428 JPG SM-M515F roteskuffen JPG cygnoir JPG jinx JPG roteskuffen JPG dhester JPG atog JPG z428 JPG von JPG iPhone 14 Pro hp JPG NIKON Z50_2 hp JPG NIKON Z50_2 atog JPG iPhone 16 z428 JPG atog JPG iPhone 16 Info & Help Forum News & Updates System Status API Legal now.garden paste.lol profile.lol proven.lol social.lol some.pics status.lol terminal.land url.lol weblog.lol omg .",
+      "tokens": [
+        "some",
+        "pics",
+        "some",
+        "pics",
+        "roteskuffen",
+        "jpg",
+        "hp",
+        "jpg",
+        "nikon",
+        "hp",
+        "jpg",
+        "nikon",
+        "dhester",
+        "jpg",
+        "dnk",
+        "jpg",
+        "tp",
+        "jpg",
+        "roteskuffen",
+        "jpg",
+        "z428",
+        "jpg",
+        "sm",
+        "m515f",
+        "atog",
+        "jpg",
+        "von",
+        "jpg",
+        "iphone",
+        "14",
+        "pro",
+        "macmanx",
+        "jpg",
+        "chrisod",
+        "jpg",
+        "chrisod",
+        "jpg",
+        "chrisod",
+        "jpg",
+        "chrisod",
+        "jpg",
+        "chrisod",
+        "jpg",
+        "z428",
+        "jpg",
+        "sm",
+        "m515f",
+        "yvan",
+        "jpg",
+        "iphone",
+        "16",
+        "pro",
+        "roteskuffen",
+        "jpg",
+        "macmanx",
+        "jpg",
+        "macmanx",
+        "jpg",
+        "z428",
+        "jpg",
+        "sm",
+        "m515f",
+        "chilli",
+        "jpg",
+        "bsag",
+        "jpg",
+        "iphone",
+        "13",
+        "mini",
+        "roteskuffen",
+        "jpg",
+        "val",
+        "jpg",
+        "ericmwalk",
+        "jpg",
+        "z428",
+        "jpg",
+        "sm",
+        "m515f",
+        "roteskuffen",
+        "jpg",
+        "cygnoir",
+        "jpg",
+        "jinx",
+        "jpg",
+        "roteskuffen",
+        "jpg",
+        "dhester",
+        "jpg",
+        "atog",
+        "jpg",
+        "z428",
+        "jpg",
+        "von",
+        "jpg",
+        "iphone",
+        "14",
+        "pro",
+        "hp",
+        "jpg",
+        "nikon",
+        "z50_2",
+        "hp",
+        "jpg",
+        "nikon",
+        "z50_2",
+        "atog",
+        "jpg",
+        "iphone",
+        "16",
+        "z428",
+        "jpg",
+        "atog",
+        "jpg",
+        "iphone",
+        "16",
+        "info",
+        "help",
+        "forum",
+        "news",
+        "updates",
+        "system",
+        "status",
+        "api",
+        "legal",
+        "now",
+        "garden",
+        "paste",
+        "lol",
+        "profile",
+        "lol",
+        "proven",
+        "lol",
+        "social",
+        "lol",
+        "some",
+        "pics",
+        "status",
+        "lol",
+        "terminal",
+        "land",
+        "url",
+        "lol",
+        "weblog",
+        "lol",
+        "omg"
+      ]
+    },
+    {
+      "charEnd": 923,
+      "charStart": 880,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.2",
+      "kind": "bullet",
+      "text": "lol is made by Neatnik in Louisville, KY.",
+      "tokens": [
+        "lol",
+        "made",
+        "neatnik",
+        "louisville",
+        "ky"
+      ]
+    },
+    {
+      "charEnd": 957,
+      "charStart": 924,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.3",
+      "kind": "bullet",
+      "text": "Hope you’re having a great day!",
+      "tokens": [
+        "hope",
+        "re",
+        "having",
+        "great",
+        "day"
+      ]
+    },
+    {
+      "charEnd": 977,
+      "charStart": 972,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.4",
+      "kind": "bullet",
+      "text": "jpg",
+      "tokens": [
+        "jpg"
+      ]
+    },
+    {
+      "charEnd": 983,
+      "charStart": 978,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.5",
+      "kind": "bullet",
+      "text": "lol",
+      "tokens": [
+        "lol"
+      ]
+    },
+    {
+      "charEnd": 992,
+      "charStart": 984,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.6",
+      "kind": "bullet",
+      "text": "iphone",
+      "tokens": [
+        "iphone"
+      ]
+    },
+    {
+      "charEnd": 1006,
+      "charStart": 993,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.7",
+      "kind": "bullet",
+      "text": "roteskuffen",
+      "tokens": [
+        "roteskuffen"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 1007,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.8",
+      "kind": "bullet",
+      "text": "z428",
+      "tokens": [
+        "z428"
+      ]
+    },
+    {
+      "charEnd": 1023,
+      "charStart": 1014,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.9",
+      "kind": "bullet",
+      "text": "chrisod",
+      "tokens": [
+        "chrisod"
+      ]
+    },
+    {
+      "charEnd": 1030,
+      "charStart": 1024,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.10",
+      "kind": "bullet",
+      "text": "atog",
+      "tokens": [
+        "atog"
+      ]
+    },
+    {
+      "charEnd": 1035,
+      "charStart": 1031,
+      "factId": "hz.web.6276263ca7e7ceb0.fact.11",
+      "kind": "bullet",
+      "text": "hp",
+      "tokens": [
+        "hp"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.6276263ca7e7ceb0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "some.pics"
+    },
+    {
+      "charEnd": 90,
+      "charStart": 80,
+      "headingId": "hz.web.6276263ca7e7ceb0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 970,
+      "charStart": 959,
+      "headingId": "hz.web.6276263ca7e7ceb0.heading.3",
+      "level": 2,
+      "line": 14,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1047,
+      "charStart": 1037,
+      "headingId": "hz.web.6276263ca7e7ceb0.heading.4",
+      "level": 2,
+      "line": 25,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6276263ca7e7ceb0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2120,
+        "start": 0
+      }
+    ],
+    "hash": "ac8639d9a522db7367d11e06f81257e00996403f3f2d8bb920d03c610b31e4e7",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "some.pics some.pics roteskuffen JPG hp JPG NIKON Z 9 hp JPG NIKON Z 9 dhester JPG dnk JPG tp JPG roteskuffen JPG z428 JPG SM-M515F atog JPG von JPG iPhone 14 Pro macmanx JPG chrisod JPG chrisod JPG chrisod JPG chrisod JPG chrisod JPG z428 JPG SM-M515F yvan JPG iPhone 16 Pro roteskuffen JPG macmanx JPG macmanx JPG z428 JPG SM-M515F chilli JPG bsag JPG iPhone 13 mini roteskuffen JPG val JPG ericmwalk JPG z428 JPG SM-M515F roteskuffen JPG cygnoir JPG jinx JPG roteskuffen JPG dhester JPG atog JPG z428 JPG von JPG iPhone 14 Pro hp JPG NIKON Z50_2 hp JPG NIKON Z50_2 atog JPG iPhone 16 z428 JPG atog JPG iPhone 16 Info & Help Forum News & Updates System Status API Legal now.garden paste.lol profile.lol proven.lol social.lol some.pics status.lol terminal.land url.lol weblog.lol omg .",
+      "lol is made by Neatnik in Louisville, KY.",
+      "Hope you’re having a great day!"
+    ],
+    "medium": "Source: https://some.pics/",
+    "short": "Source: https://some.pics/",
+    "tokens": [
+      "some",
+      "pics",
+      "source",
+      "https",
+      "some",
+      "pics",
+      "source",
+      "https",
+      "some",
+      "pics"
+    ]
+  },
+  "title": "some.pics"
+}

@@ -1,0 +1,336 @@
+{
+  "aliases": [
+    {
+      "alias": "0f63a2a5a5620b74",
+      "aliasId": "hz.web.0f63a2a5a5620b74.alias.1",
+      "canonical": "hacker news"
+    },
+    {
+      "alias": "hacker news",
+      "aliasId": "hz.web.0f63a2a5a5620b74.alias.2",
+      "canonical": "hacker news"
+    },
+    {
+      "alias": "web 0f63a2a5a5620b74",
+      "aliasId": "hz.web.0f63a2a5a5620b74.alias.3",
+      "canonical": "hacker news"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.9,
+  "docId": "hz.web.0f63a2a5a5620b74",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0f63a2a5a5620b74.entity.1",
+      "kind": "document",
+      "name": "Hacker News",
+      "tokens": [
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.0f63a2a5a5620b74.entity.2",
+      "kind": "heading",
+      "name": "Hacker News",
+      "tokens": [
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.0f63a2a5a5620b74.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0f63a2a5a5620b74.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0f63a2a5a5620b74.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 16,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.1",
+      "kind": "summary",
+      "text": "Source: https://news.ycombinator.com/",
+      "tokens": [
+        "source",
+        "https",
+        "news",
+        "ycombinator",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 190,
+      "charStart": 105,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.1",
+      "kind": "bullet",
+      "text": "Hacker News Hacker News new | past | comments | ask | show | jobs | submit login 1.",
+      "tokens": [
+        "hacker",
+        "news",
+        "hacker",
+        "news",
+        "new",
+        "past",
+        "comments",
+        "ask",
+        "show",
+        "jobs",
+        "submit",
+        "login"
+      ]
+    },
+    {
+      "charEnd": 340,
+      "charStart": 191,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.2",
+      "kind": "bullet",
+      "text": "Axios compromised on NPM – Malicious versions drop remote access trojan ( stepsecurity.io ) 607 points by mtud 5 hours ago | hide | 183 comments 2.",
+      "tokens": [
+        "axios",
+        "compromised",
+        "npm",
+        "malicious",
+        "versions",
+        "drop",
+        "remote",
+        "access",
+        "trojan",
+        "stepsecurity",
+        "io",
+        "607",
+        "points",
+        "mtud",
+        "hours",
+        "ago",
+        "hide",
+        "183",
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 476,
+      "charStart": 341,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.3",
+      "kind": "bullet",
+      "text": "Ollama is now powered by MLX on Apple Silicon in preview ( ollama.com ) 182 points by redundantly 4 hours ago | hide | 76 comments 3.",
+      "tokens": [
+        "ollama",
+        "now",
+        "powered",
+        "mlx",
+        "apple",
+        "silicon",
+        "preview",
+        "ollama",
+        "com",
+        "182",
+        "points",
+        "redundantly",
+        "hours",
+        "ago",
+        "hide",
+        "76",
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 587,
+      "charStart": 477,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.4",
+      "kind": "bullet",
+      "text": "Artemis II is not safe to fly ( idlewords.com ) 247 points by idlewords 5 hours ago | hide | 153 comments 4.",
+      "tokens": [
+        "artemis",
+        "ii",
+        "not",
+        "safe",
+        "fly",
+        "idlewords",
+        "com",
+        "247",
+        "points",
+        "idlewords",
+        "hours",
+        "ago",
+        "hide",
+        "153",
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 607,
+      "charStart": 602,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.5",
+      "kind": "bullet",
+      "text": "ago",
+      "tokens": [
+        "ago"
+      ]
+    },
+    {
+      "charEnd": 614,
+      "charStart": 608,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.6",
+      "kind": "bullet",
+      "text": "hide",
+      "tokens": [
+        "hide"
+      ]
+    },
+    {
+      "charEnd": 622,
+      "charStart": 615,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.7",
+      "kind": "bullet",
+      "text": "hours",
+      "tokens": [
+        "hours"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 623,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.8",
+      "kind": "bullet",
+      "text": "points",
+      "tokens": [
+        "points"
+      ]
+    },
+    {
+      "charEnd": 642,
+      "charStart": 632,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.9",
+      "kind": "bullet",
+      "text": "comments",
+      "tokens": [
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 643,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.10",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 653,
+      "charStart": 649,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.11",
+      "kind": "bullet",
+      "text": "12",
+      "tokens": [
+        "12"
+      ]
+    },
+    {
+      "charEnd": 662,
+      "charStart": 654,
+      "factId": "hz.web.0f63a2a5a5620b74.fact.12",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.0f63a2a5a5620b74.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Hacker News"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.0f63a2a5a5620b74.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 600,
+      "charStart": 589,
+      "headingId": "hz.web.0f63a2a5a5620b74.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 674,
+      "charStart": 664,
+      "headingId": "hz.web.0f63a2a5a5620b74.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0f63a2a5a5620b74.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3901,
+        "start": 0
+      }
+    ],
+    "hash": "18753a23427de85ca4470fec80a0792f1f81a900aa547b4aca034395b71b6eed",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Hacker News Hacker News new | past | comments | ask | show | jobs | submit login 1.",
+      "Axios compromised on NPM – Malicious versions drop remote access trojan ( stepsecurity.io ) 607 points by mtud 5 hours ago | hide | 183 comments 2.",
+      "Ollama is now powered by MLX on Apple Silicon in preview ( ollama.com ) 182 points by redundantly 4 hours ago | hide | 76 comments 3."
+    ],
+    "medium": "Source: https://news.ycombinator.com/",
+    "short": "Source: https://news.ycombinator.com/",
+    "tokens": [
+      "hacker",
+      "news",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com"
+    ]
+  },
+  "title": "Hacker News"
+}

@@ -1,0 +1,340 @@
+{
+  "aliases": [
+    {
+      "alias": "7bb052bcc6340348",
+      "aliasId": "hz.web.7bb052bcc6340348.alias.1",
+      "canonical": "teranex weblog"
+    },
+    {
+      "alias": "teranex weblog",
+      "aliasId": "hz.web.7bb052bcc6340348.alias.2",
+      "canonical": "teranex weblog"
+    },
+    {
+      "alias": "web 7bb052bcc6340348",
+      "aliasId": "hz.web.7bb052bcc6340348.alias.3",
+      "canonical": "teranex weblog"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.7bb052bcc6340348",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7bb052bcc6340348.entity.1",
+      "kind": "document",
+      "name": "teranex weblog",
+      "tokens": [
+        "teranex",
+        "weblog"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bb052bcc6340348.entity.2",
+      "kind": "heading",
+      "name": "teranex weblog",
+      "tokens": [
+        "teranex",
+        "weblog"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bb052bcc6340348.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bb052bcc6340348.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7bb052bcc6340348.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 50,
+      "charStart": 19,
+      "factId": "hz.web.7bb052bcc6340348.fact.1",
+      "kind": "summary",
+      "text": "Source: http://budts.be/weblog/",
+      "tokens": [
+        "source",
+        "http",
+        "budts",
+        "weblog"
+      ]
+    },
+    {
+      "charEnd": 277,
+      "charStart": 102,
+      "factId": "hz.web.7bb052bcc6340348.fact.1",
+      "kind": "bullet",
+      "text": "teranex weblog teranex weblog budts.be v5: Pelican Date 2018-03-12 21:07 Tags #weblog , #pelican , #website Read 2 min read It's been 5 years since I wrote my last blogpost.",
+      "tokens": [
+        "teranex",
+        "weblog",
+        "teranex",
+        "weblog",
+        "budts",
+        "v5",
+        "pelican",
+        "date",
+        "2018",
+        "03",
+        "12",
+        "21",
+        "07",
+        "tags",
+        "weblog",
+        "pelican",
+        "website",
+        "read",
+        "min",
+        "read",
+        "years",
+        "since",
+        "wrote",
+        "last",
+        "blogpost"
+      ]
+    },
+    {
+      "charEnd": 292,
+      "charStart": 278,
+      "factId": "hz.web.7bb052bcc6340348.fact.2",
+      "kind": "bullet",
+      "text": "Until today.",
+      "tokens": [
+        "until",
+        "today"
+      ]
+    },
+    {
+      "charEnd": 343,
+      "charStart": 293,
+      "factId": "hz.web.7bb052bcc6340348.fact.3",
+      "kind": "bullet",
+      "text": "The past years my interest in blogging declined.",
+      "tokens": [
+        "past",
+        "years",
+        "interest",
+        "blogging",
+        "declined"
+      ]
+    },
+    {
+      "charEnd": 505,
+      "charStart": 344,
+      "factId": "hz.web.7bb052bcc6340348.fact.4",
+      "kind": "bullet",
+      "text": "Combined with the regular burden of Drupal security updates, I seriously considered to simply scrap everything and replace the website with a simple one-pager.",
+      "tokens": [
+        "combined",
+        "regular",
+        "burden",
+        "drupal",
+        "security",
+        "updates",
+        "seriously",
+        "considered",
+        "simply",
+        "scrap",
+        "everything",
+        "replace",
+        "website",
+        "simple",
+        "one",
+        "pager"
+      ]
+    },
+    {
+      "charEnd": 528,
+      "charStart": 520,
+      "factId": "hz.web.7bb052bcc6340348.fact.5",
+      "kind": "bullet",
+      "text": "drupal",
+      "tokens": [
+        "drupal"
+      ]
+    },
+    {
+      "charEnd": 535,
+      "charStart": 529,
+      "factId": "hz.web.7bb052bcc6340348.fact.6",
+      "kind": "bullet",
+      "text": "read",
+      "tokens": [
+        "read"
+      ]
+    },
+    {
+      "charEnd": 542,
+      "charStart": 536,
+      "factId": "hz.web.7bb052bcc6340348.fact.7",
+      "kind": "bullet",
+      "text": "open",
+      "tokens": [
+        "open"
+      ]
+    },
+    {
+      "charEnd": 549,
+      "charStart": 543,
+      "factId": "hz.web.7bb052bcc6340348.fact.8",
+      "kind": "bullet",
+      "text": "date",
+      "tokens": [
+        "date"
+      ]
+    },
+    {
+      "charEnd": 558,
+      "charStart": 550,
+      "factId": "hz.web.7bb052bcc6340348.fact.9",
+      "kind": "bullet",
+      "text": "planet",
+      "tokens": [
+        "planet"
+      ]
+    },
+    {
+      "charEnd": 565,
+      "charStart": 559,
+      "factId": "hz.web.7bb052bcc6340348.fact.10",
+      "kind": "bullet",
+      "text": "tags",
+      "tokens": [
+        "tags"
+      ]
+    },
+    {
+      "charEnd": 571,
+      "charStart": 566,
+      "factId": "hz.web.7bb052bcc6340348.fact.11",
+      "kind": "bullet",
+      "text": "min",
+      "tokens": [
+        "min"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 572,
+      "factId": "hz.web.7bb052bcc6340348.fact.12",
+      "kind": "bullet",
+      "text": "modules",
+      "tokens": [
+        "modules"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.7bb052bcc6340348.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "teranex weblog"
+    },
+    {
+      "charEnd": 100,
+      "charStart": 90,
+      "headingId": "hz.web.7bb052bcc6340348.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 518,
+      "charStart": 507,
+      "headingId": "hz.web.7bb052bcc6340348.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 593,
+      "charStart": 583,
+      "headingId": "hz.web.7bb052bcc6340348.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7bb052bcc6340348.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3817,
+        "start": 0
+      }
+    ],
+    "hash": "3086e65149700d40ad436856eceac50f08701ec26832a584fc6f0700f60238e3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.7bb052bcc6340348.rule.1",
+      "text": "Right, it feels like you just built a rocket, but upon launch you discover you didn't foresee a doorknob and can't get in anymore...",
+      "tokens": [
+        "right",
+        "feels",
+        "like",
+        "just",
+        "built",
+        "rocket",
+        "but",
+        "upon",
+        "launch",
+        "discover",
+        "didn",
+        "foresee",
+        "doorknob",
+        "get",
+        "anymore"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "teranex weblog teranex weblog budts.be v5: Pelican Date 2018-03-12 21:07 Tags #weblog , #pelican , #website Read 2 min read It's been 5 years since I wrote my last blogpost.",
+      "Until today.",
+      "The past years my interest in blogging declined."
+    ],
+    "medium": "Source: http://budts.be/weblog/",
+    "short": "Source: http://budts.be/weblog/",
+    "tokens": [
+      "teranex",
+      "weblog",
+      "source",
+      "http",
+      "budts",
+      "weblog",
+      "source",
+      "http",
+      "budts",
+      "weblog"
+    ]
+  },
+  "title": "teranex weblog"
+}

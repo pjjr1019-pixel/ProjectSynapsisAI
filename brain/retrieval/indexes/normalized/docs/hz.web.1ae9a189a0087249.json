@@ -1,0 +1,400 @@
+{
+  "aliases": [
+    {
+      "alias": "1ae9a189a0087249",
+      "aliasId": "hz.web.1ae9a189a0087249.alias.1",
+      "canonical": "redirect file"
+    },
+    {
+      "alias": "redirect file",
+      "aliasId": "hz.web.1ae9a189a0087249.alias.2",
+      "canonical": "redirect file"
+    },
+    {
+      "alias": "web 1ae9a189a0087249",
+      "aliasId": "hz.web.1ae9a189a0087249.alias.3",
+      "canonical": "redirect file"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.74,
+  "docId": "hz.web.1ae9a189a0087249",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1ae9a189a0087249.entity.1",
+      "kind": "document",
+      "name": "Redirect file",
+      "tokens": [
+        "redirect",
+        "file"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ae9a189a0087249.entity.2",
+      "kind": "heading",
+      "name": "Redirect file",
+      "tokens": [
+        "redirect",
+        "file"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ae9a189a0087249.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ae9a189a0087249.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1ae9a189a0087249.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 18,
+      "factId": "hz.web.1ae9a189a0087249.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.nlm.nih.gov/mesh/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "nlm",
+        "nih",
+        "gov",
+        "mesh"
+      ]
+    },
+    {
+      "charEnd": 346,
+      "charStart": 107,
+      "factId": "hz.web.1ae9a189a0087249.fact.1",
+      "kind": "bullet",
+      "text": "Redirect file Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "redirect",
+        "file",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 475,
+      "charStart": 347,
+      "factId": "hz.web.1ae9a189a0087249.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "lock",
+        "locked",
+        "padlock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 540,
+      "charStart": 476,
+      "factId": "hz.web.1ae9a189a0087249.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1238,
+      "charStart": 541,
+      "factId": "hz.web.1ae9a189a0087249.fact.4",
+      "kind": "bullet",
+      "text": "Menu Products and Services All Products and Services ClinicalTrials.gov Digital Collections LocatorPlus Catalog Medical Subject Headings (MeSH) MedlinePlus PubMed/MEDLINE Unified Medical Language System (UMLS) Resources for You For Researchers For Publishers For Librarians For Educators/Trainers For Health care Professionals For the Public Explore NLM About the Library Visit the Library History of Medicine NLM by Organization Spotlights and Events Grants and Research NLM Extramural Programs NLM Division of Intramural Research National Center for Biotechnology Information Lister Hill National Center for Biomedical Communications Home Redirect file This page is no longer being maintained.",
+      "tokens": [
+        "menu",
+        "products",
+        "services",
+        "all",
+        "products",
+        "services",
+        "clinicaltrials",
+        "gov",
+        "digital",
+        "collections",
+        "locatorplus",
+        "catalog",
+        "medical",
+        "subject",
+        "headings",
+        "mesh",
+        "medlineplus",
+        "pubmed",
+        "medline",
+        "unified",
+        "medical",
+        "language",
+        "system",
+        "umls",
+        "resources",
+        "researchers",
+        "publishers",
+        "librarians",
+        "educators",
+        "trainers",
+        "health",
+        "care",
+        "professionals",
+        "public",
+        "explore",
+        "nlm",
+        "about",
+        "library",
+        "visit",
+        "library",
+        "history",
+        "medicine",
+        "nlm",
+        "organization",
+        "spotlights",
+        "events",
+        "grants",
+        "research",
+        "nlm",
+        "extramural",
+        "programs",
+        "nlm",
+        "division",
+        "intramural",
+        "research",
+        "national",
+        "center",
+        "biotechnology",
+        "information",
+        "lister",
+        "hill",
+        "national",
+        "center",
+        "biomedical",
+        "communications",
+        "home",
+        "redirect",
+        "file",
+        "page",
+        "no",
+        "longer",
+        "maintained"
+      ]
+    },
+    {
+      "charEnd": 1258,
+      "charStart": 1253,
+      "factId": "hz.web.1ae9a189a0087249.fact.5",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 1264,
+      "charStart": 1259,
+      "factId": "hz.web.1ae9a189a0087249.fact.6",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1275,
+      "charStart": 1265,
+      "factId": "hz.web.1ae9a189a0087249.fact.7",
+      "kind": "bullet",
+      "text": "official",
+      "tokens": [
+        "official"
+      ]
+    },
+    {
+      "charEnd": 1284,
+      "charStart": 1276,
+      "factId": "hz.web.1ae9a189a0087249.fact.8",
+      "kind": "bullet",
+      "text": "center",
+      "tokens": [
+        "center"
+      ]
+    },
+    {
+      "charEnd": 1294,
+      "charStart": 1285,
+      "factId": "hz.web.1ae9a189a0087249.fact.9",
+      "kind": "bullet",
+      "text": "library",
+      "tokens": [
+        "library"
+      ]
+    },
+    {
+      "charEnd": 1305,
+      "charStart": 1295,
+      "factId": "hz.web.1ae9a189a0087249.fact.10",
+      "kind": "bullet",
+      "text": "national",
+      "tokens": [
+        "national"
+      ]
+    },
+    {
+      "charEnd": 1316,
+      "charStart": 1306,
+      "factId": "hz.web.1ae9a189a0087249.fact.11",
+      "kind": "bullet",
+      "text": "redirect",
+      "tokens": [
+        "redirect"
+      ]
+    },
+    {
+      "charEnd": 1326,
+      "charStart": 1317,
+      "factId": "hz.web.1ae9a189a0087249.fact.12",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.1ae9a189a0087249.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Redirect file"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.1ae9a189a0087249.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1251,
+      "charStart": 1240,
+      "headingId": "hz.web.1ae9a189a0087249.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1338,
+      "charStart": 1328,
+      "headingId": "hz.web.1ae9a189a0087249.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1ae9a189a0087249.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3051,
+        "start": 0
+      }
+    ],
+    "hash": "936106968b522c324a37d3307329602d402374fc37988b6d28ef17f2bf7759cd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Redirect file Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.nlm.nih.gov/mesh/",
+    "short": "Source: https://www.nlm.nih.gov/mesh/",
+    "tokens": [
+      "redirect",
+      "file",
+      "source",
+      "https",
+      "www",
+      "nlm",
+      "nih",
+      "gov",
+      "mesh",
+      "source",
+      "https",
+      "www",
+      "nlm",
+      "nih",
+      "gov",
+      "mesh"
+    ]
+  },
+  "title": "Redirect file"
+}

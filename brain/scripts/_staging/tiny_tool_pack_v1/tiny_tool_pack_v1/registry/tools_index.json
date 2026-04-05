@@ -1,0 +1,3286 @@
+[
+  {
+    "id": "list_files",
+    "category": "files",
+    "title": "List Files",
+    "description": "List files in a directory.",
+    "operation": "scan_dir",
+    "tags": [
+      "files",
+      "inventory",
+      "list"
+    ],
+    "intent_examples": [
+      "list files",
+      "show files in folder"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file"
+    },
+    "entrypoint": "scripts/files/list_files.js"
+  },
+  {
+    "id": "list_directories",
+    "category": "files",
+    "title": "List Directories",
+    "description": "List subdirectories in a directory.",
+    "operation": "scan_dir",
+    "tags": [
+      "folders",
+      "directories",
+      "list"
+    ],
+    "intent_examples": [
+      "list directories",
+      "show folders"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "dir"
+    },
+    "entrypoint": "scripts/files/list_directories.js"
+  },
+  {
+    "id": "count_files",
+    "category": "files",
+    "title": "Count Files",
+    "description": "Count files in a directory.",
+    "operation": "count_entries",
+    "tags": [
+      "count",
+      "files"
+    ],
+    "intent_examples": [
+      "count files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file"
+    },
+    "entrypoint": "scripts/files/count_files.js"
+  },
+  {
+    "id": "count_directories",
+    "category": "files",
+    "title": "Count Directories",
+    "description": "Count subdirectories in a directory.",
+    "operation": "count_entries",
+    "tags": [
+      "count",
+      "directories"
+    ],
+    "intent_examples": [
+      "count folders"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "dir"
+    },
+    "entrypoint": "scripts/files/count_directories.js"
+  },
+  {
+    "id": "tree_preview",
+    "category": "files",
+    "title": "Tree Preview",
+    "description": "Show a compact tree preview of a directory.",
+    "operation": "tree_preview",
+    "tags": [
+      "tree",
+      "preview",
+      "folders"
+    ],
+    "intent_examples": [
+      "show folder tree",
+      "preview structure"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "max_depth": "number optional",
+      "limit": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/tree_preview.js"
+  },
+  {
+    "id": "largest_files",
+    "category": "files",
+    "title": "Largest Files",
+    "description": "List the largest files in a directory.",
+    "operation": "rank_files",
+    "tags": [
+      "size",
+      "largest",
+      "files"
+    ],
+    "intent_examples": [
+      "largest files",
+      "biggest files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "limit": "number optional",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "sortBy": "size",
+      "sortDir": "desc"
+    },
+    "entrypoint": "scripts/files/largest_files.js"
+  },
+  {
+    "id": "newest_files",
+    "category": "files",
+    "title": "Newest Files",
+    "description": "List the newest modified files in a directory.",
+    "operation": "rank_files",
+    "tags": [
+      "mtime",
+      "recent",
+      "files"
+    ],
+    "intent_examples": [
+      "newest files",
+      "recently modified files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "limit": "number optional",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "sortBy": "mtimeMs",
+      "sortDir": "desc"
+    },
+    "entrypoint": "scripts/files/newest_files.js"
+  },
+  {
+    "id": "oldest_files",
+    "category": "files",
+    "title": "Oldest Files",
+    "description": "List the oldest modified files in a directory.",
+    "operation": "rank_files",
+    "tags": [
+      "mtime",
+      "oldest",
+      "files"
+    ],
+    "intent_examples": [
+      "oldest files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "limit": "number optional",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "sortBy": "mtimeMs",
+      "sortDir": "asc"
+    },
+    "entrypoint": "scripts/files/oldest_files.js"
+  },
+  {
+    "id": "files_by_extension",
+    "category": "files",
+    "title": "Files by Extension",
+    "description": "List files with a specific extension.",
+    "operation": "scan_dir",
+    "tags": [
+      "extension",
+      "filter",
+      "files"
+    ],
+    "intent_examples": [
+      "find js files",
+      "files by extension"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "extension": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file"
+    },
+    "entrypoint": "scripts/files/files_by_extension.js"
+  },
+  {
+    "id": "extension_breakdown",
+    "category": "files",
+    "title": "Extension Breakdown",
+    "description": "Count files by extension in a directory.",
+    "operation": "extension_breakdown",
+    "tags": [
+      "extension",
+      "stats",
+      "files"
+    ],
+    "intent_examples": [
+      "extension breakdown",
+      "count file types"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/extension_breakdown.js"
+  },
+  {
+    "id": "empty_directories",
+    "category": "files",
+    "title": "Empty Directories",
+    "description": "Find empty directories.",
+    "operation": "empty_directories",
+    "tags": [
+      "empty",
+      "directories"
+    ],
+    "intent_examples": [
+      "find empty folders"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/empty_directories.js"
+  },
+  {
+    "id": "zero_byte_files",
+    "category": "files",
+    "title": "Zero Byte Files",
+    "description": "Find zero-byte files.",
+    "operation": "zero_byte_files",
+    "tags": [
+      "empty",
+      "zero-byte",
+      "files"
+    ],
+    "intent_examples": [
+      "find empty files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/zero_byte_files.js"
+  },
+  {
+    "id": "duplicate_filenames",
+    "category": "files",
+    "title": "Duplicate Filenames",
+    "description": "Find duplicate basenames across a directory.",
+    "operation": "duplicate_filenames",
+    "tags": [
+      "duplicates",
+      "filenames"
+    ],
+    "intent_examples": [
+      "duplicate file names",
+      "same filename in different folders"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/duplicate_filenames.js"
+  },
+  {
+    "id": "path_exists",
+    "category": "files",
+    "title": "Path Exists",
+    "description": "Check whether a path exists and what type it is.",
+    "operation": "path_exists",
+    "tags": [
+      "path",
+      "exists",
+      "check"
+    ],
+    "intent_examples": [
+      "does path exist"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/path_exists.js"
+  },
+  {
+    "id": "file_sizes",
+    "category": "files",
+    "title": "File Sizes",
+    "description": "List files and their sizes.",
+    "operation": "file_sizes",
+    "tags": [
+      "size",
+      "files"
+    ],
+    "intent_examples": [
+      "show file sizes"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional",
+      "limit": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/file_sizes.js"
+  },
+  {
+    "id": "recent_files",
+    "category": "files",
+    "title": "Recent Files",
+    "description": "List files modified within the last N days.",
+    "operation": "recent_files",
+    "tags": [
+      "recent",
+      "mtime",
+      "files"
+    ],
+    "intent_examples": [
+      "recent files",
+      "files from last 7 days"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "days": "number",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/recent_files.js"
+  },
+  {
+    "id": "hidden_files",
+    "category": "files",
+    "title": "Hidden Files",
+    "description": "Find dotfiles and hidden-looking files.",
+    "operation": "hidden_files",
+    "tags": [
+      "hidden",
+      "dotfiles"
+    ],
+    "intent_examples": [
+      "find hidden files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/hidden_files.js"
+  },
+  {
+    "id": "long_paths",
+    "category": "files",
+    "title": "Long Paths",
+    "description": "Find paths longer than a threshold.",
+    "operation": "long_paths",
+    "tags": [
+      "paths",
+      "long"
+    ],
+    "intent_examples": [
+      "find long paths"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "min_length": "number optional",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "min_length": 120
+    },
+    "entrypoint": "scripts/files/long_paths.js"
+  },
+  {
+    "id": "shallow_inventory",
+    "category": "files",
+    "title": "Shallow Inventory",
+    "description": "Summarize only the top level of a directory.",
+    "operation": "shallow_inventory",
+    "tags": [
+      "inventory",
+      "top-level"
+    ],
+    "intent_examples": [
+      "top level inventory"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/shallow_inventory.js"
+  },
+  {
+    "id": "file_name_search",
+    "category": "files",
+    "title": "File Name Search",
+    "description": "Find files whose names include a search string.",
+    "operation": "file_name_search",
+    "tags": [
+      "search",
+      "filename"
+    ],
+    "intent_examples": [
+      "find files named config",
+      "search file names"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "query": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/files/file_name_search.js"
+  },
+  {
+    "id": "path_parts",
+    "category": "paths",
+    "title": "Path Parts",
+    "description": "Break a path into useful parts.",
+    "operation": "path_parts",
+    "tags": [
+      "path",
+      "parts"
+    ],
+    "intent_examples": [
+      "split path"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/path_parts.js"
+  },
+  {
+    "id": "normalize_path",
+    "category": "paths",
+    "title": "Normalize Path",
+    "description": "Normalize a path string.",
+    "operation": "normalize_path",
+    "tags": [
+      "path",
+      "normalize"
+    ],
+    "intent_examples": [
+      "normalize path"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/normalize_path.js"
+  },
+  {
+    "id": "relative_path",
+    "category": "paths",
+    "title": "Relative Path",
+    "description": "Compute a relative path from one path to another.",
+    "operation": "relative_path",
+    "tags": [
+      "path",
+      "relative"
+    ],
+    "intent_examples": [
+      "relative path"
+    ],
+    "aliases": [],
+    "inputs": {
+      "from": "string",
+      "to": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/relative_path.js"
+  },
+  {
+    "id": "absolute_path",
+    "category": "paths",
+    "title": "Absolute Path",
+    "description": "Resolve a path to an absolute path.",
+    "operation": "absolute_path",
+    "tags": [
+      "path",
+      "absolute"
+    ],
+    "intent_examples": [
+      "absolute path"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/absolute_path.js"
+  },
+  {
+    "id": "common_path_prefix",
+    "category": "paths",
+    "title": "Common Path Prefix",
+    "description": "Find the common directory prefix across paths.",
+    "operation": "common_path_prefix",
+    "tags": [
+      "path",
+      "common"
+    ],
+    "intent_examples": [
+      "common parent path"
+    ],
+    "aliases": [],
+    "inputs": {
+      "paths": "json array"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/common_path_prefix.js"
+  },
+  {
+    "id": "path_depth",
+    "category": "paths",
+    "title": "Path Depth",
+    "description": "Measure the depth of a path.",
+    "operation": "path_depth",
+    "tags": [
+      "path",
+      "depth"
+    ],
+    "intent_examples": [
+      "path depth"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/path_depth.js"
+  },
+  {
+    "id": "parent_path",
+    "category": "paths",
+    "title": "Parent Path",
+    "description": "Get the parent directory of a path.",
+    "operation": "parent_path",
+    "tags": [
+      "path",
+      "parent"
+    ],
+    "intent_examples": [
+      "parent folder"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/parent_path.js"
+  },
+  {
+    "id": "path_compare",
+    "category": "paths",
+    "title": "Path Compare",
+    "description": "Compare two paths after normalization.",
+    "operation": "path_compare",
+    "tags": [
+      "path",
+      "compare"
+    ],
+    "intent_examples": [
+      "compare two paths"
+    ],
+    "aliases": [],
+    "inputs": {
+      "a": "string",
+      "b": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/path_compare.js"
+  },
+  {
+    "id": "join_paths",
+    "category": "paths",
+    "title": "Join Paths",
+    "description": "Join path segments into one path.",
+    "operation": "join_paths",
+    "tags": [
+      "path",
+      "join"
+    ],
+    "intent_examples": [
+      "join path segments"
+    ],
+    "aliases": [],
+    "inputs": {
+      "paths": "json array"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/join_paths.js"
+  },
+  {
+    "id": "sanitize_filename",
+    "category": "paths",
+    "title": "Sanitize Filename",
+    "description": "Make a string safer to use as a filename.",
+    "operation": "sanitize_filename",
+    "tags": [
+      "filename",
+      "sanitize"
+    ],
+    "intent_examples": [
+      "sanitize filename"
+    ],
+    "aliases": [],
+    "inputs": {
+      "name": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/sanitize_filename.js"
+  },
+  {
+    "id": "file_extension",
+    "category": "paths",
+    "title": "File Extension",
+    "description": "Return extension details for a path.",
+    "operation": "file_extension",
+    "tags": [
+      "extension",
+      "path"
+    ],
+    "intent_examples": [
+      "what is the file extension"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/file_extension.js"
+  },
+  {
+    "id": "basename_dirname",
+    "category": "paths",
+    "title": "Basename Dirname",
+    "description": "Return basename and dirname for a path.",
+    "operation": "basename_dirname",
+    "tags": [
+      "basename",
+      "dirname"
+    ],
+    "intent_examples": [
+      "basename dirname"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/paths/basename_dirname.js"
+  },
+  {
+    "id": "count_lines",
+    "category": "text",
+    "title": "Count Lines",
+    "description": "Count lines in a text file.",
+    "operation": "text_metric",
+    "tags": [
+      "text",
+      "lines",
+      "count"
+    ],
+    "intent_examples": [
+      "count lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "metric": "lines"
+    },
+    "entrypoint": "scripts/text/count_lines.js"
+  },
+  {
+    "id": "count_words",
+    "category": "text",
+    "title": "Count Words",
+    "description": "Count words in a text file.",
+    "operation": "text_metric",
+    "tags": [
+      "text",
+      "words",
+      "count"
+    ],
+    "intent_examples": [
+      "count words"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "metric": "words"
+    },
+    "entrypoint": "scripts/text/count_words.js"
+  },
+  {
+    "id": "count_chars",
+    "category": "text",
+    "title": "Count Chars",
+    "description": "Count characters in a text file.",
+    "operation": "text_metric",
+    "tags": [
+      "text",
+      "chars",
+      "count"
+    ],
+    "intent_examples": [
+      "count characters"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "metric": "chars"
+    },
+    "entrypoint": "scripts/text/count_chars.js"
+  },
+  {
+    "id": "count_blank_lines",
+    "category": "text",
+    "title": "Count Blank Lines",
+    "description": "Count blank lines in a text file.",
+    "operation": "text_metric",
+    "tags": [
+      "text",
+      "blank lines"
+    ],
+    "intent_examples": [
+      "count blank lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "metric": "blank_lines"
+    },
+    "entrypoint": "scripts/text/count_blank_lines.js"
+  },
+  {
+    "id": "count_comment_lines",
+    "category": "text",
+    "title": "Count Comment Lines",
+    "description": "Count common comment lines in a code or text file.",
+    "operation": "text_metric",
+    "tags": [
+      "comments",
+      "lines",
+      "count"
+    ],
+    "intent_examples": [
+      "count comment lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "metric": "comment_lines"
+    },
+    "entrypoint": "scripts/text/count_comment_lines.js"
+  },
+  {
+    "id": "extract_todos",
+    "category": "text",
+    "title": "Extract TODOs",
+    "description": "Extract lines containing TODO.",
+    "operation": "grep_pattern_lines",
+    "tags": [
+      "todo",
+      "extract"
+    ],
+    "intent_examples": [
+      "extract todos"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "TODO",
+      "flags": "i"
+    },
+    "entrypoint": "scripts/text/extract_todos.js"
+  },
+  {
+    "id": "extract_fixmes",
+    "category": "text",
+    "title": "Extract FIXMEs",
+    "description": "Extract lines containing FIXME.",
+    "operation": "grep_pattern_lines",
+    "tags": [
+      "fixme",
+      "extract"
+    ],
+    "intent_examples": [
+      "extract fixmes"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "FIXME",
+      "flags": "i"
+    },
+    "entrypoint": "scripts/text/extract_fixmes.js"
+  },
+  {
+    "id": "extract_headings",
+    "category": "text",
+    "title": "Extract Headings",
+    "description": "Extract markdown or plain headings.",
+    "operation": "extract_headings",
+    "tags": [
+      "headings",
+      "markdown"
+    ],
+    "intent_examples": [
+      "extract headings"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/text/extract_headings.js"
+  },
+  {
+    "id": "extract_markdown_links",
+    "category": "text",
+    "title": "Extract Markdown Links",
+    "description": "Extract markdown links from a file.",
+    "operation": "regex_capture",
+    "tags": [
+      "links",
+      "markdown"
+    ],
+    "intent_examples": [
+      "extract markdown links"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "\\[([^\\]]+)\\]\\(([^)]+)\\)",
+      "captureMode": "pairs"
+    },
+    "entrypoint": "scripts/text/extract_markdown_links.js"
+  },
+  {
+    "id": "extract_urls",
+    "category": "text",
+    "title": "Extract URLs",
+    "description": "Extract URLs from a text file.",
+    "operation": "regex_capture",
+    "tags": [
+      "urls",
+      "extract"
+    ],
+    "intent_examples": [
+      "extract urls"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "https?://[^\\s)\\]\"]+"
+    },
+    "entrypoint": "scripts/text/extract_urls.js"
+  },
+  {
+    "id": "extract_emails",
+    "category": "text",
+    "title": "Extract Emails",
+    "description": "Extract email-like strings from a text file.",
+    "operation": "regex_capture",
+    "tags": [
+      "emails",
+      "extract"
+    ],
+    "intent_examples": [
+      "extract emails"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+    },
+    "entrypoint": "scripts/text/extract_emails.js"
+  },
+  {
+    "id": "extract_numbers",
+    "category": "text",
+    "title": "Extract Numbers",
+    "description": "Extract numbers from a text file.",
+    "operation": "regex_capture",
+    "tags": [
+      "numbers",
+      "extract"
+    ],
+    "intent_examples": [
+      "extract numbers"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "-?\\d+(?:\\.\\d+)?"
+    },
+    "entrypoint": "scripts/text/extract_numbers.js"
+  },
+  {
+    "id": "top_words",
+    "category": "text",
+    "title": "Top Words",
+    "description": "Return the most common words in a text file.",
+    "operation": "word_stats",
+    "tags": [
+      "words",
+      "frequency"
+    ],
+    "intent_examples": [
+      "top words"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "limit": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "top"
+    },
+    "entrypoint": "scripts/text/top_words.js"
+  },
+  {
+    "id": "unique_words",
+    "category": "text",
+    "title": "Unique Words",
+    "description": "Return unique word counts and a sample.",
+    "operation": "word_stats",
+    "tags": [
+      "words",
+      "unique"
+    ],
+    "intent_examples": [
+      "unique words"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "limit": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "unique"
+    },
+    "entrypoint": "scripts/text/unique_words.js"
+  },
+  {
+    "id": "longest_lines",
+    "category": "text",
+    "title": "Longest Lines",
+    "description": "Show the longest lines in a file.",
+    "operation": "line_view",
+    "tags": [
+      "lines",
+      "longest"
+    ],
+    "intent_examples": [
+      "longest lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "limit": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "longest"
+    },
+    "entrypoint": "scripts/text/longest_lines.js"
+  },
+  {
+    "id": "line_length_stats",
+    "category": "text",
+    "title": "Line Length Stats",
+    "description": "Compute line length statistics for a file.",
+    "operation": "line_length_stats",
+    "tags": [
+      "lines",
+      "stats"
+    ],
+    "intent_examples": [
+      "line length stats"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/text/line_length_stats.js"
+  },
+  {
+    "id": "first_n_lines",
+    "category": "text",
+    "title": "First N Lines",
+    "description": "Show the first N lines in a file.",
+    "operation": "line_view",
+    "tags": [
+      "lines",
+      "head"
+    ],
+    "intent_examples": [
+      "first 20 lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "n": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "first"
+    },
+    "entrypoint": "scripts/text/first_n_lines.js"
+  },
+  {
+    "id": "last_n_lines",
+    "category": "text",
+    "title": "Last N Lines",
+    "description": "Show the last N lines in a file.",
+    "operation": "line_view",
+    "tags": [
+      "lines",
+      "tail"
+    ],
+    "intent_examples": [
+      "last 20 lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "n": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "last"
+    },
+    "entrypoint": "scripts/text/last_n_lines.js"
+  },
+  {
+    "id": "grep_literal",
+    "category": "text",
+    "title": "Grep Literal",
+    "description": "Find lines containing an exact literal substring.",
+    "operation": "grep_pattern_lines",
+    "tags": [
+      "grep",
+      "literal"
+    ],
+    "intent_examples": [
+      "find string in file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "query": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "useQueryAsPattern": true,
+      "escapeQuery": true
+    },
+    "entrypoint": "scripts/text/grep_literal.js"
+  },
+  {
+    "id": "grep_regex",
+    "category": "text",
+    "title": "Grep Regex",
+    "description": "Find lines matching a regex pattern.",
+    "operation": "grep_pattern_lines",
+    "tags": [
+      "grep",
+      "regex"
+    ],
+    "intent_examples": [
+      "regex search in file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "pattern": "string",
+      "flags": "string optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/text/grep_regex.js"
+  },
+  {
+    "id": "extract_import_lines",
+    "category": "text",
+    "title": "Extract Import Lines",
+    "description": "Extract lines that look like import/include statements.",
+    "operation": "grep_pattern_lines",
+    "tags": [
+      "imports",
+      "code"
+    ],
+    "intent_examples": [
+      "extract import lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "^(?:\\s*(?:import|from|require\\(|#include|using\\s+))",
+      "flags": "im"
+    },
+    "entrypoint": "scripts/text/extract_import_lines.js"
+  },
+  {
+    "id": "extract_export_lines",
+    "category": "text",
+    "title": "Extract Export Lines",
+    "description": "Extract lines that look like export statements.",
+    "operation": "grep_pattern_lines",
+    "tags": [
+      "exports",
+      "code"
+    ],
+    "intent_examples": [
+      "extract export lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "^(?:\\s*(?:export|module\\.exports|exports\\.|public\\s+class|def\\s+))",
+      "flags": "im"
+    },
+    "entrypoint": "scripts/text/extract_export_lines.js"
+  },
+  {
+    "id": "extract_function_names",
+    "category": "text",
+    "title": "Extract Function Names",
+    "description": "Extract common function names from code-like text.",
+    "operation": "extract_symbols",
+    "tags": [
+      "functions",
+      "symbols"
+    ],
+    "intent_examples": [
+      "extract function names"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "symbolType": "function"
+    },
+    "entrypoint": "scripts/text/extract_function_names.js"
+  },
+  {
+    "id": "extract_class_names",
+    "category": "text",
+    "title": "Extract Class Names",
+    "description": "Extract common class names from code-like text.",
+    "operation": "extract_symbols",
+    "tags": [
+      "classes",
+      "symbols"
+    ],
+    "intent_examples": [
+      "extract class names"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "symbolType": "class"
+    },
+    "entrypoint": "scripts/text/extract_class_names.js"
+  },
+  {
+    "id": "extract_env_keys",
+    "category": "text",
+    "title": "Extract Env Keys",
+    "description": "Extract .env-style variable keys from a text file.",
+    "operation": "extract_env_keys",
+    "tags": [
+      "env",
+      "keys"
+    ],
+    "intent_examples": [
+      "extract env keys"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/text/extract_env_keys.js"
+  },
+  {
+    "id": "extract_json_like_keys",
+    "category": "text",
+    "title": "Extract JSON-like Keys",
+    "description": "Extract JSON-like keys from plain text.",
+    "operation": "regex_capture",
+    "tags": [
+      "json",
+      "keys",
+      "text"
+    ],
+    "intent_examples": [
+      "extract json keys from text"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "pattern": "\"([A-Za-z0-9_.$-]+)\"\\s*:"
+    },
+    "entrypoint": "scripts/text/extract_json_like_keys.js"
+  },
+  {
+    "id": "package_json_files",
+    "category": "repo",
+    "title": "Package.json Files",
+    "description": "Find package.json files in a directory tree.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "node",
+      "package.json"
+    ],
+    "intent_examples": [
+      "find package.json files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameEquals": "package.json"
+    },
+    "entrypoint": "scripts/repo/package_json_files.js"
+  },
+  {
+    "id": "tsconfig_files",
+    "category": "repo",
+    "title": "TSConfig Files",
+    "description": "Find tsconfig files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "typescript",
+      "tsconfig"
+    ],
+    "intent_examples": [
+      "find tsconfig files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "^tsconfig.*\\.json$"
+    },
+    "entrypoint": "scripts/repo/tsconfig_files.js"
+  },
+  {
+    "id": "pyproject_files",
+    "category": "repo",
+    "title": "Pyproject Files",
+    "description": "Find pyproject.toml files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "python",
+      "pyproject"
+    ],
+    "intent_examples": [
+      "find pyproject files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameEquals": "pyproject.toml"
+    },
+    "entrypoint": "scripts/repo/pyproject_files.js"
+  },
+  {
+    "id": "requirements_files",
+    "category": "repo",
+    "title": "Requirements Files",
+    "description": "Find Python requirements files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "python",
+      "requirements"
+    ],
+    "intent_examples": [
+      "find requirements files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "^requirements.*\\.txt$"
+    },
+    "entrypoint": "scripts/repo/requirements_files.js"
+  },
+  {
+    "id": "docker_files",
+    "category": "repo",
+    "title": "Docker Files",
+    "description": "Find Docker-related files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "docker"
+    ],
+    "intent_examples": [
+      "find docker files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "^(Dockerfile|docker-compose.*\\.(yml|yaml))$"
+    },
+    "entrypoint": "scripts/repo/docker_files.js"
+  },
+  {
+    "id": "readme_files",
+    "category": "repo",
+    "title": "README Files",
+    "description": "Find README-style files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "docs",
+      "readme"
+    ],
+    "intent_examples": [
+      "find readmes"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "^README(?:\\..+)?$",
+      "nameFlags": "i"
+    },
+    "entrypoint": "scripts/repo/readme_files.js"
+  },
+  {
+    "id": "test_file_candidates",
+    "category": "repo",
+    "title": "Test File Candidates",
+    "description": "Find likely test files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "tests"
+    ],
+    "intent_examples": [
+      "find test files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "(test|spec)\\.(js|ts|jsx|tsx|py|java|go|rs|php|rb|c|cpp|cs)$",
+      "nameFlags": "i"
+    },
+    "entrypoint": "scripts/repo/test_file_candidates.js"
+  },
+  {
+    "id": "source_file_candidates",
+    "category": "repo",
+    "title": "Source File Candidates",
+    "description": "Find common source files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "source"
+    ],
+    "intent_examples": [
+      "find source files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "extensions": [
+        ".js",
+        ".cjs",
+        ".mjs",
+        ".ts",
+        ".tsx",
+        ".jsx",
+        ".py",
+        ".java",
+        ".go",
+        ".rs",
+        ".cpp",
+        ".c",
+        ".cs",
+        ".php",
+        ".rb"
+      ]
+    },
+    "entrypoint": "scripts/repo/source_file_candidates.js"
+  },
+  {
+    "id": "entrypoint_candidates",
+    "category": "repo",
+    "title": "Entrypoint Candidates",
+    "description": "Find likely application entrypoints.",
+    "operation": "entrypoint_candidates",
+    "tags": [
+      "repo",
+      "entrypoint",
+      "main"
+    ],
+    "intent_examples": [
+      "find entrypoints"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/entrypoint_candidates.js"
+  },
+  {
+    "id": "extension_heatmap",
+    "category": "repo",
+    "title": "Extension Heatmap",
+    "description": "Count files by extension for repo-like trees.",
+    "operation": "extension_breakdown",
+    "tags": [
+      "repo",
+      "extensions",
+      "heatmap"
+    ],
+    "intent_examples": [
+      "repo file type breakdown"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/extension_heatmap.js"
+  },
+  {
+    "id": "folder_file_counts",
+    "category": "repo",
+    "title": "Folder File Counts",
+    "description": "Count files per directory.",
+    "operation": "folder_file_counts",
+    "tags": [
+      "repo",
+      "folders",
+      "counts"
+    ],
+    "intent_examples": [
+      "count files per folder"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/folder_file_counts.js"
+  },
+  {
+    "id": "folder_size_estimate",
+    "category": "repo",
+    "title": "Folder Size Estimate",
+    "description": "Estimate total bytes per top-level folder.",
+    "operation": "folder_size_estimate",
+    "tags": [
+      "repo",
+      "folders",
+      "size"
+    ],
+    "intent_examples": [
+      "folder sizes"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/folder_size_estimate.js"
+  },
+  {
+    "id": "import_summary_js",
+    "category": "repo",
+    "title": "Import Summary JS",
+    "description": "Summarize JS/TS import usage under a folder.",
+    "operation": "import_summary_js",
+    "tags": [
+      "repo",
+      "imports",
+      "js"
+    ],
+    "intent_examples": [
+      "summarize js imports"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/import_summary_js.js"
+  },
+  {
+    "id": "import_summary_py",
+    "category": "repo",
+    "title": "Import Summary PY",
+    "description": "Summarize Python import usage under a folder.",
+    "operation": "import_summary_py",
+    "tags": [
+      "repo",
+      "imports",
+      "python"
+    ],
+    "intent_examples": [
+      "summarize python imports"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/import_summary_py.js"
+  },
+  {
+    "id": "dependency_mentions",
+    "category": "repo",
+    "title": "Dependency Mentions",
+    "description": "Find common dependency names mentioned across text files.",
+    "operation": "dependency_mentions",
+    "tags": [
+      "repo",
+      "dependency",
+      "mentions"
+    ],
+    "intent_examples": [
+      "dependency mentions"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "names": "json array"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/dependency_mentions.js"
+  },
+  {
+    "id": "package_json_scripts",
+    "category": "repo",
+    "title": "Package.json Scripts",
+    "description": "Extract scripts sections from package.json files.",
+    "operation": "package_json_scripts",
+    "tags": [
+      "repo",
+      "package.json",
+      "scripts"
+    ],
+    "intent_examples": [
+      "extract package.json scripts"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/package_json_scripts.js"
+  },
+  {
+    "id": "env_example_files",
+    "category": "repo",
+    "title": "Env Example Files",
+    "description": "Find environment example files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "env"
+    ],
+    "intent_examples": [
+      "find env example files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "^\\.env(\\..+)?(\\.example|\\.sample)?$",
+      "nameFlags": "i"
+    },
+    "entrypoint": "scripts/repo/env_example_files.js"
+  },
+  {
+    "id": "config_file_candidates",
+    "category": "repo",
+    "title": "Config File Candidates",
+    "description": "Find likely config files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "config"
+    ],
+    "intent_examples": [
+      "find config files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "(config|settings|\\.rc|\\.ini|\\.toml|\\.yaml|\\.yml|\\.json)$",
+      "nameFlags": "i"
+    },
+    "entrypoint": "scripts/repo/config_file_candidates.js"
+  },
+  {
+    "id": "route_file_candidates",
+    "category": "repo",
+    "title": "Route File Candidates",
+    "description": "Find likely route or router files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "routes"
+    ],
+    "intent_examples": [
+      "find route files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "(route|router|routes)\\.(js|ts|jsx|tsx|py|php|rb|go)$",
+      "nameFlags": "i"
+    },
+    "entrypoint": "scripts/repo/route_file_candidates.js"
+  },
+  {
+    "id": "service_file_candidates",
+    "category": "repo",
+    "title": "Service File Candidates",
+    "description": "Find likely service files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "services"
+    ],
+    "intent_examples": [
+      "find service files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "service\\.(js|ts|jsx|tsx|py|java|go|rb|php|cs)$",
+      "nameFlags": "i"
+    },
+    "entrypoint": "scripts/repo/service_file_candidates.js"
+  },
+  {
+    "id": "component_file_candidates",
+    "category": "repo",
+    "title": "Component File Candidates",
+    "description": "Find likely UI component files.",
+    "operation": "scan_dir",
+    "tags": [
+      "repo",
+      "components",
+      "ui"
+    ],
+    "intent_examples": [
+      "find component files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "entryType": "file",
+      "nameRegex": "^[A-Z][A-Za-z0-9_-]*\\.(jsx|tsx|vue|svelte)$"
+    },
+    "entrypoint": "scripts/repo/component_file_candidates.js"
+  },
+  {
+    "id": "duplicate_basename_report",
+    "category": "repo",
+    "title": "Duplicate Basename Report",
+    "description": "Find duplicate basenames in a repo tree.",
+    "operation": "duplicate_filenames",
+    "tags": [
+      "repo",
+      "duplicate",
+      "basename"
+    ],
+    "intent_examples": [
+      "duplicate basenames"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/repo/duplicate_basename_report.js"
+  },
+  {
+    "id": "json_keys_top_level",
+    "category": "json",
+    "title": "JSON Keys Top Level",
+    "description": "List top-level keys of a JSON file.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "keys"
+    ],
+    "intent_examples": [
+      "json top level keys"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "top_keys"
+    },
+    "entrypoint": "scripts/json/json_keys_top_level.js"
+  },
+  {
+    "id": "json_key_paths",
+    "category": "json",
+    "title": "JSON Key Paths",
+    "description": "List nested JSON key paths.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "paths"
+    ],
+    "intent_examples": [
+      "json key paths"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "key_paths"
+    },
+    "entrypoint": "scripts/json/json_key_paths.js"
+  },
+  {
+    "id": "json_value_types",
+    "category": "json",
+    "title": "JSON Value Types",
+    "description": "Summarize top-level JSON value types.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "types"
+    ],
+    "intent_examples": [
+      "json value types"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "value_types"
+    },
+    "entrypoint": "scripts/json/json_value_types.js"
+  },
+  {
+    "id": "json_array_lengths",
+    "category": "json",
+    "title": "JSON Array Lengths",
+    "description": "List JSON arrays and their lengths.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "arrays"
+    ],
+    "intent_examples": [
+      "json array lengths"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "array_lengths"
+    },
+    "entrypoint": "scripts/json/json_array_lengths.js"
+  },
+  {
+    "id": "json_schema_guess",
+    "category": "json",
+    "title": "JSON Schema Guess",
+    "description": "Produce a lightweight schema guess for JSON.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "schema"
+    ],
+    "intent_examples": [
+      "guess json schema"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "schema_guess"
+    },
+    "entrypoint": "scripts/json/json_schema_guess.js"
+  },
+  {
+    "id": "json_pretty_print",
+    "category": "json",
+    "title": "JSON Pretty Print",
+    "description": "Pretty-print JSON to stdout or a file.",
+    "operation": "json_transform",
+    "tags": [
+      "json",
+      "format"
+    ],
+    "intent_examples": [
+      "pretty print json"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "output": "string optional"
+    },
+    "side_effects": [
+      "optional file write"
+    ],
+    "risk_level": "low",
+    "supports_dry_run": true,
+    "defaults": {
+      "mode": "pretty"
+    },
+    "entrypoint": "scripts/json/json_pretty_print.js"
+  },
+  {
+    "id": "json_minify",
+    "category": "json",
+    "title": "JSON Minify",
+    "description": "Minify JSON to stdout or a file.",
+    "operation": "json_transform",
+    "tags": [
+      "json",
+      "minify"
+    ],
+    "intent_examples": [
+      "minify json"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "output": "string optional"
+    },
+    "side_effects": [
+      "optional file write"
+    ],
+    "risk_level": "low",
+    "supports_dry_run": true,
+    "defaults": {
+      "mode": "minify"
+    },
+    "entrypoint": "scripts/json/json_minify.js"
+  },
+  {
+    "id": "json_sort_keys",
+    "category": "json",
+    "title": "JSON Sort Keys",
+    "description": "Sort JSON object keys.",
+    "operation": "json_transform",
+    "tags": [
+      "json",
+      "sort keys"
+    ],
+    "intent_examples": [
+      "sort json keys"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "output": "string optional"
+    },
+    "side_effects": [
+      "optional file write"
+    ],
+    "risk_level": "low",
+    "supports_dry_run": true,
+    "defaults": {
+      "mode": "sort_keys"
+    },
+    "entrypoint": "scripts/json/json_sort_keys.js"
+  },
+  {
+    "id": "json_key_search",
+    "category": "json",
+    "title": "JSON Key Search",
+    "description": "Find JSON key paths matching a search string.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "search",
+      "keys"
+    ],
+    "intent_examples": [
+      "find json keys"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "query": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "key_search"
+    },
+    "entrypoint": "scripts/json/json_key_search.js"
+  },
+  {
+    "id": "json_value_search",
+    "category": "json",
+    "title": "JSON Value Search",
+    "description": "Find JSON values matching a literal string.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "search",
+      "values"
+    ],
+    "intent_examples": [
+      "find value in json"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "query": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "value_search"
+    },
+    "entrypoint": "scripts/json/json_value_search.js"
+  },
+  {
+    "id": "json_file_summary",
+    "category": "json",
+    "title": "JSON File Summary",
+    "description": "Create a compact summary of a JSON file.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "summary"
+    ],
+    "intent_examples": [
+      "summarize json file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "summary"
+    },
+    "entrypoint": "scripts/json/json_file_summary.js"
+  },
+  {
+    "id": "json_numeric_fields",
+    "category": "json",
+    "title": "JSON Numeric Fields",
+    "description": "List JSON key paths that contain numeric values.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "numeric"
+    ],
+    "intent_examples": [
+      "json numeric fields"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "numeric_fields"
+    },
+    "entrypoint": "scripts/json/json_numeric_fields.js"
+  },
+  {
+    "id": "json_boolean_fields",
+    "category": "json",
+    "title": "JSON Boolean Fields",
+    "description": "List JSON key paths that contain boolean values.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "boolean"
+    ],
+    "intent_examples": [
+      "json boolean fields"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "boolean_fields"
+    },
+    "entrypoint": "scripts/json/json_boolean_fields.js"
+  },
+  {
+    "id": "json_null_fields",
+    "category": "json",
+    "title": "JSON Null Fields",
+    "description": "List JSON key paths with null values.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "null"
+    ],
+    "intent_examples": [
+      "json null fields"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "null_fields"
+    },
+    "entrypoint": "scripts/json/json_null_fields.js"
+  },
+  {
+    "id": "json_string_length_stats",
+    "category": "json",
+    "title": "JSON String Length Stats",
+    "description": "Compute string length stats inside JSON.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "strings",
+      "stats"
+    ],
+    "intent_examples": [
+      "json string length stats"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "string_length_stats"
+    },
+    "entrypoint": "scripts/json/json_string_length_stats.js"
+  },
+  {
+    "id": "json_object_count",
+    "category": "json",
+    "title": "JSON Object Count",
+    "description": "Count nested objects and arrays in JSON.",
+    "operation": "json_inspect",
+    "tags": [
+      "json",
+      "count"
+    ],
+    "intent_examples": [
+      "count json objects"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "object_count"
+    },
+    "entrypoint": "scripts/json/json_object_count.js"
+  },
+  {
+    "id": "csv_header",
+    "category": "csv",
+    "title": "CSV Header",
+    "description": "Read the header row of a CSV file.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "header"
+    ],
+    "intent_examples": [
+      "csv header"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "header"
+    },
+    "entrypoint": "scripts/csv/csv_header.js"
+  },
+  {
+    "id": "csv_row_count",
+    "category": "csv",
+    "title": "CSV Row Count",
+    "description": "Count data rows in a CSV file.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "rows"
+    ],
+    "intent_examples": [
+      "count csv rows"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "row_count"
+    },
+    "entrypoint": "scripts/csv/csv_row_count.js"
+  },
+  {
+    "id": "csv_column_count",
+    "category": "csv",
+    "title": "CSV Column Count",
+    "description": "Count columns in a CSV file.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "columns"
+    ],
+    "intent_examples": [
+      "count csv columns"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "column_count"
+    },
+    "entrypoint": "scripts/csv/csv_column_count.js"
+  },
+  {
+    "id": "csv_column_names",
+    "category": "csv",
+    "title": "CSV Column Names",
+    "description": "List CSV column names.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "columns"
+    ],
+    "intent_examples": [
+      "csv column names"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "column_names"
+    },
+    "entrypoint": "scripts/csv/csv_column_names.js"
+  },
+  {
+    "id": "csv_sample_rows",
+    "category": "csv",
+    "title": "CSV Sample Rows",
+    "description": "Show a sample of CSV rows.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "sample"
+    ],
+    "intent_examples": [
+      "sample csv rows"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "limit": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "sample_rows"
+    },
+    "entrypoint": "scripts/csv/csv_sample_rows.js"
+  },
+  {
+    "id": "csv_null_like_counts",
+    "category": "csv",
+    "title": "CSV Null-Like Counts",
+    "description": "Count null-like cells per column.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "nulls"
+    ],
+    "intent_examples": [
+      "null counts in csv"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "null_like_counts"
+    },
+    "entrypoint": "scripts/csv/csv_null_like_counts.js"
+  },
+  {
+    "id": "csv_unique_count_for_column",
+    "category": "csv",
+    "title": "CSV Unique Count For Column",
+    "description": "Count unique values for a selected CSV column.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "unique"
+    ],
+    "intent_examples": [
+      "unique count for csv column"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "column": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "unique_count_for_column"
+    },
+    "entrypoint": "scripts/csv/csv_unique_count_for_column.js"
+  },
+  {
+    "id": "csv_numeric_columns",
+    "category": "csv",
+    "title": "CSV Numeric Columns",
+    "description": "Guess which CSV columns are mostly numeric.",
+    "operation": "csv_inspect",
+    "tags": [
+      "csv",
+      "numeric"
+    ],
+    "intent_examples": [
+      "numeric columns in csv"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {
+      "mode": "numeric_columns"
+    },
+    "entrypoint": "scripts/csv/csv_numeric_columns.js"
+  },
+  {
+    "id": "create_backup_copy",
+    "category": "safe_write",
+    "title": "Create Backup Copy",
+    "description": "Create a backup copy of a file.",
+    "operation": "backup_file",
+    "tags": [
+      "backup",
+      "file"
+    ],
+    "intent_examples": [
+      "backup a file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "suffix": "string optional"
+    },
+    "side_effects": [
+      "writes a backup file"
+    ],
+    "risk_level": "low",
+    "supports_dry_run": true,
+    "defaults": {
+      "suffix": ".bak"
+    },
+    "entrypoint": "scripts/safe_write/create_backup_copy.js"
+  },
+  {
+    "id": "write_text_file",
+    "category": "safe_write",
+    "title": "Write Text File",
+    "description": "Write text content to a file.",
+    "operation": "write_text",
+    "tags": [
+      "write",
+      "file",
+      "text"
+    ],
+    "intent_examples": [
+      "write text file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "content": "string"
+    },
+    "side_effects": [
+      "writes file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/write_text_file.js"
+  },
+  {
+    "id": "append_text_file",
+    "category": "safe_write",
+    "title": "Append Text File",
+    "description": "Append text content to a file.",
+    "operation": "append_text",
+    "tags": [
+      "append",
+      "file",
+      "text"
+    ],
+    "intent_examples": [
+      "append to file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "content": "string"
+    },
+    "side_effects": [
+      "appends file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/append_text_file.js"
+  },
+  {
+    "id": "prepend_text_file",
+    "category": "safe_write",
+    "title": "Prepend Text File",
+    "description": "Prepend text content to a file.",
+    "operation": "prepend_text",
+    "tags": [
+      "prepend",
+      "file",
+      "text"
+    ],
+    "intent_examples": [
+      "prepend to file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "content": "string"
+    },
+    "side_effects": [
+      "prepends file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/prepend_text_file.js"
+  },
+  {
+    "id": "replace_literal_in_file",
+    "category": "safe_write",
+    "title": "Replace Literal In File",
+    "description": "Replace a literal substring in a file.",
+    "operation": "replace_literal",
+    "tags": [
+      "replace",
+      "text",
+      "file"
+    ],
+    "intent_examples": [
+      "replace text in file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "find": "string",
+      "replace": "string"
+    },
+    "side_effects": [
+      "rewrites file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/replace_literal_in_file.js"
+  },
+  {
+    "id": "normalize_line_endings",
+    "category": "safe_write",
+    "title": "Normalize Line Endings",
+    "description": "Normalize line endings to LF or CRLF.",
+    "operation": "normalize_line_endings",
+    "tags": [
+      "line endings",
+      "normalize"
+    ],
+    "intent_examples": [
+      "normalize line endings"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "style": "string optional"
+    },
+    "side_effects": [
+      "rewrites file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {
+      "style": "lf"
+    },
+    "entrypoint": "scripts/safe_write/normalize_line_endings.js"
+  },
+  {
+    "id": "trim_trailing_whitespace",
+    "category": "safe_write",
+    "title": "Trim Trailing Whitespace",
+    "description": "Trim trailing whitespace from each line.",
+    "operation": "trim_trailing_whitespace",
+    "tags": [
+      "whitespace",
+      "trim"
+    ],
+    "intent_examples": [
+      "trim trailing whitespace"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [
+      "rewrites file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/trim_trailing_whitespace.js"
+  },
+  {
+    "id": "ensure_final_newline",
+    "category": "safe_write",
+    "title": "Ensure Final Newline",
+    "description": "Ensure a file ends with a newline.",
+    "operation": "ensure_final_newline",
+    "tags": [
+      "newline",
+      "format"
+    ],
+    "intent_examples": [
+      "ensure final newline"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [
+      "rewrites file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/ensure_final_newline.js"
+  },
+  {
+    "id": "sort_lines",
+    "category": "safe_write",
+    "title": "Sort Lines",
+    "description": "Sort lines in a text file.",
+    "operation": "sort_lines",
+    "tags": [
+      "sort",
+      "lines"
+    ],
+    "intent_examples": [
+      "sort lines in file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [
+      "rewrites file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/sort_lines.js"
+  },
+  {
+    "id": "dedupe_lines",
+    "category": "safe_write",
+    "title": "Dedupe Lines",
+    "description": "Remove duplicate lines while preserving first occurrence order.",
+    "operation": "dedupe_lines",
+    "tags": [
+      "dedupe",
+      "lines"
+    ],
+    "intent_examples": [
+      "dedupe lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [
+      "rewrites file contents"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/dedupe_lines.js"
+  },
+  {
+    "id": "split_file_by_lines",
+    "category": "safe_write",
+    "title": "Split File By Lines",
+    "description": "Split a text file into chunks by line count.",
+    "operation": "split_file_by_lines",
+    "tags": [
+      "split",
+      "file"
+    ],
+    "intent_examples": [
+      "split file by lines"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "lines_per_file": "number",
+      "out_dir": "string optional"
+    },
+    "side_effects": [
+      "writes chunk files"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/split_file_by_lines.js"
+  },
+  {
+    "id": "merge_text_files",
+    "category": "safe_write",
+    "title": "Merge Text Files",
+    "description": "Merge text files into one output file.",
+    "operation": "merge_text_files",
+    "tags": [
+      "merge",
+      "files"
+    ],
+    "intent_examples": [
+      "merge text files"
+    ],
+    "aliases": [],
+    "inputs": {
+      "paths": "json array",
+      "output": "string"
+    },
+    "side_effects": [
+      "writes merged output"
+    ],
+    "risk_level": "medium",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/safe_write/merge_text_files.js"
+  },
+  {
+    "id": "cwd_info",
+    "category": "system",
+    "title": "CWD Info",
+    "description": "Return current working directory information.",
+    "operation": "cwd_info",
+    "tags": [
+      "system",
+      "cwd"
+    ],
+    "intent_examples": [
+      "current directory info"
+    ],
+    "aliases": [],
+    "inputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/cwd_info.js"
+  },
+  {
+    "id": "env_var_names",
+    "category": "system",
+    "title": "Env Var Names",
+    "description": "List environment variable names.",
+    "operation": "env_var_names",
+    "tags": [
+      "system",
+      "env"
+    ],
+    "intent_examples": [
+      "list env vars"
+    ],
+    "aliases": [],
+    "inputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/env_var_names.js"
+  },
+  {
+    "id": "node_runtime_info",
+    "category": "system",
+    "title": "Node Runtime Info",
+    "description": "Return Node runtime and platform info.",
+    "operation": "node_runtime_info",
+    "tags": [
+      "system",
+      "node"
+    ],
+    "intent_examples": [
+      "node runtime info"
+    ],
+    "aliases": [],
+    "inputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/node_runtime_info.js"
+  },
+  {
+    "id": "disk_usage_estimate",
+    "category": "system",
+    "title": "Disk Usage Estimate",
+    "description": "Estimate total bytes under a directory.",
+    "operation": "disk_usage_estimate",
+    "tags": [
+      "system",
+      "disk",
+      "size"
+    ],
+    "intent_examples": [
+      "estimate folder size"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/disk_usage_estimate.js"
+  },
+  {
+    "id": "folder_snapshot",
+    "category": "system",
+    "title": "Folder Snapshot",
+    "description": "Create a JSON snapshot of file metadata in a folder.",
+    "operation": "folder_snapshot",
+    "tags": [
+      "snapshot",
+      "folder"
+    ],
+    "intent_examples": [
+      "snapshot a folder"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string",
+      "output": "string optional",
+      "recursive": "boolean optional"
+    },
+    "side_effects": [
+      "optional snapshot file write"
+    ],
+    "risk_level": "low",
+    "supports_dry_run": true,
+    "defaults": {},
+    "entrypoint": "scripts/system/folder_snapshot.js"
+  },
+  {
+    "id": "compare_folder_snapshots",
+    "category": "system",
+    "title": "Compare Folder Snapshots",
+    "description": "Compare two folder snapshot JSON files.",
+    "operation": "compare_folder_snapshots",
+    "tags": [
+      "snapshot",
+      "compare"
+    ],
+    "intent_examples": [
+      "compare folder snapshots"
+    ],
+    "aliases": [],
+    "inputs": {
+      "before": "string",
+      "after": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/compare_folder_snapshots.js"
+  },
+  {
+    "id": "timestamp_now",
+    "category": "system",
+    "title": "Timestamp Now",
+    "description": "Return current timestamp values.",
+    "operation": "timestamp_now",
+    "tags": [
+      "time",
+      "timestamp"
+    ],
+    "intent_examples": [
+      "current timestamp"
+    ],
+    "aliases": [],
+    "inputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/timestamp_now.js"
+  },
+  {
+    "id": "hash_file_sha256",
+    "category": "system",
+    "title": "Hash File SHA256",
+    "description": "Compute SHA256 hash of a file.",
+    "operation": "hash_file_sha256",
+    "tags": [
+      "hash",
+      "sha256",
+      "file"
+    ],
+    "intent_examples": [
+      "hash a file"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/hash_file_sha256.js"
+  },
+  {
+    "id": "hash_text_sha256",
+    "category": "system",
+    "title": "Hash Text SHA256",
+    "description": "Compute SHA256 hash of a string.",
+    "operation": "hash_text_sha256",
+    "tags": [
+      "hash",
+      "sha256",
+      "text"
+    ],
+    "intent_examples": [
+      "hash text"
+    ],
+    "aliases": [],
+    "inputs": {
+      "text": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/hash_text_sha256.js"
+  },
+  {
+    "id": "file_mtime_info",
+    "category": "system",
+    "title": "File MTime Info",
+    "description": "Return modification time details for a file.",
+    "operation": "file_mtime_info",
+    "tags": [
+      "mtime",
+      "file"
+    ],
+    "intent_examples": [
+      "file modification time"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/file_mtime_info.js"
+  },
+  {
+    "id": "permission_probe_readonly",
+    "category": "system",
+    "title": "Permission Probe Readonly",
+    "description": "Probe basic read/write access on a path without changing it.",
+    "operation": "permission_probe_readonly",
+    "tags": [
+      "permissions",
+      "probe"
+    ],
+    "intent_examples": [
+      "check permissions for path"
+    ],
+    "aliases": [],
+    "inputs": {
+      "path": "string"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/permission_probe_readonly.js"
+  },
+  {
+    "id": "registry_search",
+    "category": "system",
+    "title": "Registry Search",
+    "description": "Search the tool index by keyword, tag, or alias.",
+    "operation": "registry_search",
+    "tags": [
+      "registry",
+      "search",
+      "tools"
+    ],
+    "intent_examples": [
+      "find a tool for counting lines",
+      "search tool index"
+    ],
+    "aliases": [],
+    "inputs": {
+      "query": "string",
+      "limit": "number optional"
+    },
+    "side_effects": [],
+    "risk_level": "low",
+    "supports_dry_run": false,
+    "defaults": {},
+    "entrypoint": "scripts/system/registry_search.js"
+  }
+]

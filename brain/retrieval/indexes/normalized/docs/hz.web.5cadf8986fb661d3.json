@@ -1,0 +1,493 @@
+{
+  "aliases": [
+    {
+      "alias": "5cadf8986fb661d3",
+      "aliasId": "hz.web.5cadf8986fb661d3.alias.1",
+      "canonical": "@federalreserve.gov - federal reserve"
+    },
+    {
+      "alias": "federalreserve.gov - federal reserve",
+      "aliasId": "hz.web.5cadf8986fb661d3.alias.2",
+      "canonical": "@federalreserve.gov - federal reserve"
+    },
+    {
+      "alias": "web 5cadf8986fb661d3",
+      "aliasId": "hz.web.5cadf8986fb661d3.alias.3",
+      "canonical": "@federalreserve.gov - federal reserve"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.5cadf8986fb661d3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5cadf8986fb661d3.entity.1",
+      "kind": "document",
+      "name": "@federalreserve.gov - Federal Reserve",
+      "tokens": [
+        "federalreserve",
+        "gov",
+        "federal",
+        "reserve"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cadf8986fb661d3.entity.2",
+      "kind": "heading",
+      "name": "@federalreserve.gov - Federal Reserve",
+      "tokens": [
+        "federalreserve",
+        "gov",
+        "federal",
+        "reserve"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cadf8986fb661d3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cadf8986fb661d3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5cadf8986fb661d3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 111,
+      "charStart": 42,
+      "factId": "hz.web.5cadf8986fb661d3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://bsky.app/profile/did:plc:d3vmaxc5ytftnf4gwdwptupg/rss",
+      "tokens": [
+        "source",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "plc",
+        "d3vmaxc5ytftnf4gwdwptupg",
+        "rss"
+      ]
+    },
+    {
+      "charEnd": 330,
+      "charStart": 163,
+      "factId": "hz.web.5cadf8986fb661d3.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\"><channel><description>The official Bluesky channel of the Board of Governors of the Federal Reserve System.",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "channel",
+        "description",
+        "official",
+        "bluesky",
+        "channel",
+        "board",
+        "governors",
+        "federal",
+        "reserve",
+        "system"
+      ]
+    },
+    {
+      "charEnd": 774,
+      "charStart": 331,
+      "factId": "hz.web.5cadf8986fb661d3.fact.2",
+      "kind": "bullet",
+      "text": "&#xA;&#xA;Privacy Policy: http://federalreserve.gov/privacy.htm&#xA;&#xA;https://www.federalreserve.gov/</description><link>https://bsky.app/profile/federalreserve.gov</link><title>@federalreserve.gov - Federal Reserve</title><item><link>https://bsky.app/profile/federalreserve.gov/post/3micdjutm4s23</link><description>If you get an email or text message that your bank account was compromised, be sure to check the validity of the message.",
+      "tokens": [
+        "xa",
+        "xa",
+        "privacy",
+        "policy",
+        "http",
+        "federalreserve",
+        "gov",
+        "privacy",
+        "htm",
+        "xa",
+        "xa",
+        "https",
+        "www",
+        "federalreserve",
+        "gov",
+        "description",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "federalreserve",
+        "gov",
+        "link",
+        "title",
+        "federalreserve",
+        "gov",
+        "federal",
+        "reserve",
+        "title",
+        "item",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "federalreserve",
+        "gov",
+        "post",
+        "3micdjutm4s23",
+        "link",
+        "description",
+        "if",
+        "get",
+        "email",
+        "text",
+        "message",
+        "your",
+        "bank",
+        "account",
+        "compromised",
+        "sure",
+        "check",
+        "validity",
+        "message"
+      ]
+    },
+    {
+      "charEnd": 877,
+      "charStart": 775,
+      "factId": "hz.web.5cadf8986fb661d3.fact.3",
+      "kind": "bullet",
+      "text": "You should be suspicious of any unexpected email message that claims to be from the Federal Reserve.",
+      "tokens": [
+        "suspicious",
+        "any",
+        "unexpected",
+        "email",
+        "message",
+        "claims",
+        "federal",
+        "reserve"
+      ]
+    },
+    {
+      "charEnd": 1685,
+      "charStart": 878,
+      "factId": "hz.web.5cadf8986fb661d3.fact.4",
+      "kind": "bullet",
+      "text": "For more information, visit www.federalreserve.gov</description><pubDate>30 Mar 2026 18:54 +0000</pubDate><guid isPermaLink=\"false\">at://did:plc:d3vmaxc5ytftnf4gwdwptupg/app.bsky.feed.post/3micdjutm4s23</guid></item><item><link>https://bsky.app/profile/federalreserve.gov/post/3mi2wqy5wq22o</link><description>Now available: Weekly data on the H.8 release, Assets and Liabilities of Commercial Banks in the United States #FedData https://federalreserve.gov/releases/h8/current/default.htm</description><pubDate>27 Mar 2026 20:16 +0000</pubDate><guid isPermaLink=\"false\">at://did:plc:d3vmaxc5ytftnf4gwdwptupg/app.bsky.feed.post/3mi2wqy5wq22o</guid></item><item><link>https://bsky.app/profile/federalreserve.gov/post/3mi2uv4obs22k</link><description>Did you get an unsolicited call from the Federal Reserve?",
+      "tokens": [
+        "more",
+        "information",
+        "visit",
+        "www",
+        "federalreserve",
+        "gov",
+        "description",
+        "pubdate",
+        "30",
+        "mar",
+        "2026",
+        "18",
+        "54",
+        "0000",
+        "pubdate",
+        "guid",
+        "ispermalink",
+        "false",
+        "plc",
+        "d3vmaxc5ytftnf4gwdwptupg",
+        "app",
+        "bsky",
+        "feed",
+        "post",
+        "3micdjutm4s23",
+        "guid",
+        "item",
+        "item",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "federalreserve",
+        "gov",
+        "post",
+        "3mi2wqy5wq22o",
+        "link",
+        "description",
+        "now",
+        "available",
+        "weekly",
+        "data",
+        "release",
+        "assets",
+        "liabilities",
+        "commercial",
+        "banks",
+        "united",
+        "states",
+        "feddata",
+        "https",
+        "federalreserve",
+        "gov",
+        "releases",
+        "h8",
+        "current",
+        "default",
+        "htm",
+        "description",
+        "pubdate",
+        "27",
+        "mar",
+        "2026",
+        "20",
+        "16",
+        "0000",
+        "pubdate",
+        "guid",
+        "ispermalink",
+        "false",
+        "plc",
+        "d3vmaxc5ytftnf4gwdwptupg",
+        "app",
+        "bsky",
+        "feed",
+        "post",
+        "3mi2wqy5wq22o",
+        "guid",
+        "item",
+        "item",
+        "link",
+        "https",
+        "bsky",
+        "app",
+        "profile",
+        "federalreserve",
+        "gov",
+        "post",
+        "3mi2uv4obs22k",
+        "link",
+        "description",
+        "get",
+        "unsolicited",
+        "call",
+        "federal",
+        "reserve"
+      ]
+    },
+    {
+      "charEnd": 1716,
+      "charStart": 1700,
+      "factId": "hz.web.5cadf8986fb661d3.fact.5",
+      "kind": "bullet",
+      "text": "federalreserve",
+      "tokens": [
+        "federalreserve"
+      ]
+    },
+    {
+      "charEnd": 1722,
+      "charStart": 1717,
+      "factId": "hz.web.5cadf8986fb661d3.fact.6",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1730,
+      "charStart": 1723,
+      "factId": "hz.web.5cadf8986fb661d3.fact.7",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1744,
+      "charStart": 1731,
+      "factId": "hz.web.5cadf8986fb661d3.fact.8",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 1751,
+      "charStart": 1745,
+      "factId": "hz.web.5cadf8986fb661d3.fact.9",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 1757,
+      "charStart": 1752,
+      "factId": "hz.web.5cadf8986fb661d3.fact.10",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    },
+    {
+      "charEnd": 1764,
+      "charStart": 1758,
+      "factId": "hz.web.5cadf8986fb661d3.fact.11",
+      "kind": "bullet",
+      "text": "bsky",
+      "tokens": [
+        "bsky"
+      ]
+    },
+    {
+      "charEnd": 1771,
+      "charStart": 1765,
+      "factId": "hz.web.5cadf8986fb661d3.fact.12",
+      "kind": "bullet",
+      "text": "guid",
+      "tokens": [
+        "guid"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 40,
+      "charStart": 1,
+      "headingId": "hz.web.5cadf8986fb661d3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "@federalreserve.gov - Federal Reserve"
+    },
+    {
+      "charEnd": 161,
+      "charStart": 151,
+      "headingId": "hz.web.5cadf8986fb661d3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1698,
+      "charStart": 1687,
+      "headingId": "hz.web.5cadf8986fb661d3.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1783,
+      "charStart": 1773,
+      "headingId": "hz.web.5cadf8986fb661d3.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5cadf8986fb661d3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5068,
+        "start": 0
+      }
+    ],
+    "hash": "0f5d89601924f7bd1e42fa2281301efad58c3af2878c7631f402e6087761d3e0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.5cadf8986fb661d3.rule.1",
+      "text": "- You should be suspicious of any unexpected email message that claims to be from the Federal Reserve.",
+      "tokens": [
+        "suspicious",
+        "any",
+        "unexpected",
+        "email",
+        "message",
+        "claims",
+        "federal",
+        "reserve"
+      ]
+    },
+    {
+      "ruleId": "hz.web.5cadf8986fb661d3.rule.2",
+      "text": "You should be suspicious of any unexpected email message that claims to be from the Federal Reserve.",
+      "tokens": [
+        "suspicious",
+        "any",
+        "unexpected",
+        "email",
+        "message",
+        "claims",
+        "federal",
+        "reserve"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\"><channel><description>The official Bluesky channel of the Board of Governors of the Federal Reserve System.",
+      "&#xA;&#xA;Privacy Policy: http://federalreserve.gov/privacy.htm&#xA;&#xA;https://www.federalreserve.gov/</description><link>https://bsky.app/profile/federalreserve.gov</link><title>@federalreserve.gov - Federal Reserve</title><item><link>https://bsky.app/profile/federalreserve.gov/post/3micdjutm4s23</link><description>If you get an email or text message that your bank account was compromised, be sure to check the validity of the message.",
+      "You should be suspicious of any unexpected email message that claims to be from the Federal Reserve."
+    ],
+    "medium": "Source: https://bsky.app/profile/did:plc:d3vmaxc5ytftnf4gwdwptupg/rss",
+    "short": "Source: https://bsky.app/profile/did:plc:d3vmaxc5ytftnf4gwdwptupg/rss",
+    "tokens": [
+      "federalreserve",
+      "gov",
+      "federal",
+      "reserve",
+      "source",
+      "https",
+      "bsky",
+      "app",
+      "profile",
+      "plc",
+      "d3vmaxc5ytftnf4gwdwptupg",
+      "rss",
+      "source",
+      "https",
+      "bsky",
+      "app",
+      "profile",
+      "plc",
+      "d3vmaxc5ytftnf4gwdwptupg",
+      "rss"
+    ]
+  },
+  "title": "@federalreserve.gov - Federal Reserve"
+}

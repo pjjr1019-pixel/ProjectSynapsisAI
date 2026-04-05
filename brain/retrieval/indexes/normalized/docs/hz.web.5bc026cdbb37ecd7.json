@@ -1,0 +1,552 @@
+{
+  "aliases": [
+    {
+      "alias": "5bc026cdbb37ecd7",
+      "aliasId": "hz.web.5bc026cdbb37ecd7.alias.1",
+      "canonical": "ncbi insights"
+    },
+    {
+      "alias": "ncbi insights",
+      "aliasId": "hz.web.5bc026cdbb37ecd7.alias.2",
+      "canonical": "ncbi insights"
+    },
+    {
+      "alias": "web 5bc026cdbb37ecd7",
+      "aliasId": "hz.web.5bc026cdbb37ecd7.alias.3",
+      "canonical": "ncbi insights"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.5bc026cdbb37ecd7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5bc026cdbb37ecd7.entity.1",
+      "kind": "document",
+      "name": "NCBI Insights",
+      "tokens": [
+        "ncbi",
+        "insights"
+      ]
+    },
+    {
+      "entityId": "hz.web.5bc026cdbb37ecd7.entity.2",
+      "kind": "heading",
+      "name": "NCBI Insights",
+      "tokens": [
+        "ncbi",
+        "insights"
+      ]
+    },
+    {
+      "entityId": "hz.web.5bc026cdbb37ecd7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5bc026cdbb37ecd7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5bc026cdbb37ecd7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 69,
+      "charStart": 18,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.1",
+      "kind": "summary",
+      "text": "Source: https://ncbiinsights.ncbi.nlm.nih.gov/feed/",
+      "tokens": [
+        "source",
+        "https",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 1269,
+      "charStart": 121,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" > <channel> <title>NCBI Insights</title> <atom:link href=\"https://ncbiinsights.ncbi.nlm.nih.gov/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://ncbiinsights.ncbi.nlm.nih.gov/</link> <description>News about NCBI resources and events</description> <lastBuildDate>Thu, 26 Mar 2026 15:43:06 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <image> <url>https://i0.wp.com/ncbiinsights.ncbi.nlm.nih.gov/wp-content/uploads/2021/05/nlm_favicon.png?fit=32%2C32&#038;ssl=1</url> <title>NCBI Insights</title> <link>https://ncbiinsights.ncbi.nlm.nih.gov/</link> <width>32</width> <height>32</height> </image> <site xmlns=\"com-wordpress:feed-additions:1\">42777678</site> <item> <title>Now Available!",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "rss",
+        "version",
+        "xmlns",
+        "content",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "content",
+        "xmlns",
+        "wfw",
+        "http",
+        "wellformedweb",
+        "org",
+        "commentapi",
+        "xmlns",
+        "dc",
+        "http",
+        "purl",
+        "org",
+        "dc",
+        "elements",
+        "xmlns",
+        "atom",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2005",
+        "atom",
+        "xmlns",
+        "sy",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "syndication",
+        "xmlns",
+        "slash",
+        "http",
+        "purl",
+        "org",
+        "rss",
+        "modules",
+        "slash",
+        "channel",
+        "title",
+        "ncbi",
+        "insights",
+        "title",
+        "atom",
+        "link",
+        "href",
+        "https",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "feed",
+        "rel",
+        "self",
+        "type",
+        "application",
+        "rss",
+        "xml",
+        "link",
+        "https",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "link",
+        "description",
+        "news",
+        "about",
+        "ncbi",
+        "resources",
+        "events",
+        "description",
+        "lastbuilddate",
+        "thu",
+        "26",
+        "mar",
+        "2026",
+        "15",
+        "43",
+        "06",
+        "0000",
+        "lastbuilddate",
+        "language",
+        "en",
+        "us",
+        "language",
+        "sy",
+        "updateperiod",
+        "hourly",
+        "sy",
+        "updateperiod",
+        "sy",
+        "updatefrequency",
+        "sy",
+        "updatefrequency",
+        "image",
+        "url",
+        "https",
+        "i0",
+        "wp",
+        "com",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "wp",
+        "content",
+        "uploads",
+        "2021",
+        "05",
+        "nlm_favicon",
+        "png",
+        "fit",
+        "32",
+        "2c32",
+        "038",
+        "ssl",
+        "url",
+        "title",
+        "ncbi",
+        "insights",
+        "title",
+        "link",
+        "https",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "link",
+        "width",
+        "32",
+        "width",
+        "height",
+        "32",
+        "height",
+        "image",
+        "site",
+        "xmlns",
+        "com",
+        "wordpress",
+        "feed",
+        "additions",
+        "42777678",
+        "site",
+        "item",
+        "title",
+        "now",
+        "available"
+      ]
+    },
+    {
+      "charEnd": 1857,
+      "charStart": 1270,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.2",
+      "kind": "bullet",
+      "text": "Preview the NCBI Beta Homepage Today</title> <link>https://ncbiinsights.ncbi.nlm.nih.gov/2026/03/26/preview-ncbi-beta-homepage/</link> <comments>https://ncbiinsights.ncbi.nlm.nih.gov/2026/03/26/preview-ncbi-beta-homepage/#respond</comments> <dc:creator><![CDATA[NCBI Staff]]></dc:creator> <pubDate>Thu, 26 Mar 2026 14:42:37 +0000</pubDate> <category><![CDATA[What's New]]></category> <guid isPermaLink=\"false\">https://ncbiinsights.ncbi.nlm.nih.gov/?p=15833</guid> <description><![CDATA[NCBI, part of the National Library of Medicine (NLM), is excited to announce our new Beta homepage!",
+      "tokens": [
+        "preview",
+        "ncbi",
+        "beta",
+        "homepage",
+        "today",
+        "title",
+        "link",
+        "https",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "2026",
+        "03",
+        "26",
+        "preview",
+        "ncbi",
+        "beta",
+        "homepage",
+        "link",
+        "comments",
+        "https",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "2026",
+        "03",
+        "26",
+        "preview",
+        "ncbi",
+        "beta",
+        "homepage",
+        "respond",
+        "comments",
+        "dc",
+        "creator",
+        "cdata",
+        "ncbi",
+        "staff",
+        "dc",
+        "creator",
+        "pubdate",
+        "thu",
+        "26",
+        "mar",
+        "2026",
+        "14",
+        "42",
+        "37",
+        "0000",
+        "pubdate",
+        "category",
+        "cdata",
+        "new",
+        "category",
+        "guid",
+        "ispermalink",
+        "false",
+        "https",
+        "ncbiinsights",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "15833",
+        "guid",
+        "description",
+        "cdata",
+        "ncbi",
+        "part",
+        "national",
+        "library",
+        "medicine",
+        "nlm",
+        "excited",
+        "announce",
+        "our",
+        "new",
+        "beta",
+        "homepage"
+      ]
+    },
+    {
+      "charEnd": 1952,
+      "charStart": 1858,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.3",
+      "kind": "bullet",
+      "text": "It represents the first phase of a multi-year effort to modernize many pages on our website.",
+      "tokens": [
+        "represents",
+        "first",
+        "phase",
+        "multi",
+        "year",
+        "effort",
+        "modernize",
+        "many",
+        "pages",
+        "our",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 2058,
+      "charStart": 1953,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.4",
+      "kind": "bullet",
+      "text": "We are working to improve your experience so you can find and access NCBI resources quickly and easily.",
+      "tokens": [
+        "working",
+        "improve",
+        "your",
+        "experience",
+        "so",
+        "find",
+        "access",
+        "ncbi",
+        "resources",
+        "quickly",
+        "easily"
+      ]
+    },
+    {
+      "charEnd": 2079,
+      "charStart": 2073,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.5",
+      "kind": "bullet",
+      "text": "ncbi",
+      "tokens": [
+        "ncbi"
+      ]
+    },
+    {
+      "charEnd": 2086,
+      "charStart": 2080,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 2092,
+      "charStart": 2087,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.7",
+      "kind": "bullet",
+      "text": "nih",
+      "tokens": [
+        "nih"
+      ]
+    },
+    {
+      "charEnd": 2098,
+      "charStart": 2093,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.8",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 2104,
+      "charStart": 2099,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.9",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 2112,
+      "charStart": 2105,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.10",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 2123,
+      "charStart": 2113,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.11",
+      "kind": "bullet",
+      "text": "category",
+      "tokens": [
+        "category"
+      ]
+    },
+    {
+      "charEnd": 2138,
+      "charStart": 2124,
+      "factId": "hz.web.5bc026cdbb37ecd7.fact.12",
+      "kind": "bullet",
+      "text": "ncbiinsights",
+      "tokens": [
+        "ncbiinsights"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.5bc026cdbb37ecd7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "NCBI Insights"
+    },
+    {
+      "charEnd": 119,
+      "charStart": 109,
+      "headingId": "hz.web.5bc026cdbb37ecd7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2071,
+      "charStart": 2060,
+      "headingId": "hz.web.5bc026cdbb37ecd7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2150,
+      "charStart": 2140,
+      "headingId": "hz.web.5bc026cdbb37ecd7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5bc026cdbb37ecd7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5393,
+        "start": 0
+      }
+    ],
+    "hash": "4740786b30e706b0cf878c429cc22aace110b07911103f2a4c351ad41d32b75b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\" xmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\" > <channel> <title>NCBI Insights</title> <atom:link href=\"https://ncbiinsights.ncbi.nlm.nih.gov/feed/\" rel=\"self\" type=\"application/rss+xml\" /> <link>https://ncbiinsights.ncbi.nlm.nih.gov/</link> <description>News about NCBI resources and events</description> <lastBuildDate>Thu, 26 Mar 2026 15:43:06 +0000</lastBuildDate> <language>en-US</language> <sy:updatePeriod> hourly </sy:updatePeriod> <sy:updateFrequency> 1 </sy:updateFrequency> <image> <url>https://i0.wp.com/ncbiinsights.ncbi.nlm.nih.gov/wp-content/uploads/2021/05/nlm_favicon.png?fit=32%2C32&#038;ssl=1</url> <title>NCBI Insights</title> <link>https://ncbiinsights.ncbi.nlm.nih.gov/</link> <width>32</width> <height>32</height> </image> <site xmlns=\"com-wordpress:feed-additions:1\">42777678</site> <item> <title>Now Available!",
+      "Preview the NCBI Beta Homepage Today</title> <link>https://ncbiinsights.ncbi.nlm.nih.gov/2026/03/26/preview-ncbi-beta-homepage/</link> <comments>https://ncbiinsights.ncbi.nlm.nih.gov/2026/03/26/preview-ncbi-beta-homepage/#respond</comments> <dc:creator><![CDATA[NCBI Staff]]></dc:creator> <pubDate>Thu, 26 Mar 2026 14:42:37 +0000</pubDate> <category><![CDATA[What's New]]></category> <guid isPermaLink=\"false\">https://ncbiinsights.ncbi.nlm.nih.gov/?p=15833</guid> <description><![CDATA[NCBI, part of the National Library of Medicine (NLM), is excited to announce our new Beta homepage!",
+      "It represents the first phase of a multi-year effort to modernize many pages on our website."
+    ],
+    "medium": "Source: https://ncbiinsights.ncbi.nlm.nih.gov/feed/",
+    "short": "Source: https://ncbiinsights.ncbi.nlm.nih.gov/feed/",
+    "tokens": [
+      "ncbi",
+      "insights",
+      "source",
+      "https",
+      "ncbiinsights",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "feed",
+      "source",
+      "https",
+      "ncbiinsights",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "feed"
+    ]
+  },
+  "title": "NCBI Insights"
+}

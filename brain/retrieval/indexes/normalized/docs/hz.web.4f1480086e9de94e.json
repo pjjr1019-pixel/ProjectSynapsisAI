@@ -1,0 +1,304 @@
+{
+  "aliases": [
+    {
+      "alias": "4f1480086e9de94e",
+      "aliasId": "hz.web.4f1480086e9de94e.alias.1",
+      "canonical": "seirdy’s home"
+    },
+    {
+      "alias": "seirdy s home",
+      "aliasId": "hz.web.4f1480086e9de94e.alias.2",
+      "canonical": "seirdy’s home"
+    },
+    {
+      "alias": "web 4f1480086e9de94e",
+      "aliasId": "hz.web.4f1480086e9de94e.alias.3",
+      "canonical": "seirdy’s home"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.97,
+  "docId": "hz.web.4f1480086e9de94e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4f1480086e9de94e.entity.1",
+      "kind": "document",
+      "name": "Seirdy’s Home",
+      "tokens": [
+        "seirdy",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1480086e9de94e.entity.2",
+      "kind": "heading",
+      "name": "Seirdy’s Home",
+      "tokens": [
+        "seirdy",
+        "home"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1480086e9de94e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1480086e9de94e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4f1480086e9de94e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 45,
+      "charStart": 18,
+      "factId": "hz.web.4f1480086e9de94e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://seirdy.one/",
+      "tokens": [
+        "source",
+        "https",
+        "seirdy",
+        "one"
+      ]
+    },
+    {
+      "charEnd": 227,
+      "charStart": 97,
+      "factId": "hz.web.4f1480086e9de94e.fact.1",
+      "kind": "bullet",
+      "text": "Seirdy’s Home Skip to content Seirdy’s Home Articles Notes Bookmarks About Meta Support Seirdy’s Home My personal IndieWeb site.",
+      "tokens": [
+        "seirdy",
+        "home",
+        "skip",
+        "content",
+        "seirdy",
+        "home",
+        "articles",
+        "notes",
+        "bookmarks",
+        "about",
+        "meta",
+        "support",
+        "seirdy",
+        "home",
+        "personal",
+        "indieweb",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 290,
+      "charStart": 228,
+      "factId": "hz.web.4f1480086e9de94e.fact.2",
+      "kind": "bullet",
+      "text": "I write about and develop software to promote user autonomy.",
+      "tokens": [
+        "write",
+        "about",
+        "develop",
+        "software",
+        "promote",
+        "user",
+        "autonomy"
+      ]
+    },
+    {
+      "charEnd": 363,
+      "charStart": 291,
+      "factId": "hz.web.4f1480086e9de94e.fact.3",
+      "kind": "bullet",
+      "text": "Topics include accessibility, security, privacy, and software freedom.",
+      "tokens": [
+        "topics",
+        "include",
+        "accessibility",
+        "security",
+        "privacy",
+        "software",
+        "freedom"
+      ]
+    },
+    {
+      "charEnd": 402,
+      "charStart": 364,
+      "factId": "hz.web.4f1480086e9de94e.fact.4",
+      "kind": "bullet",
+      "text": "About me I’m Seirdy ( they / them ).",
+      "tokens": [
+        "about",
+        "seirdy",
+        "them"
+      ]
+    },
+    {
+      "charEnd": 423,
+      "charStart": 417,
+      "factId": "hz.web.4f1480086e9de94e.fact.5",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 433,
+      "charStart": 424,
+      "factId": "hz.web.4f1480086e9de94e.fact.6",
+      "kind": "bullet",
+      "text": "webring",
+      "tokens": [
+        "webring"
+      ]
+    },
+    {
+      "charEnd": 440,
+      "charStart": 434,
+      "factId": "hz.web.4f1480086e9de94e.fact.7",
+      "kind": "bullet",
+      "text": "home",
+      "tokens": [
+        "home"
+      ]
+    },
+    {
+      "charEnd": 447,
+      "charStart": 441,
+      "factId": "hz.web.4f1480086e9de94e.fact.8",
+      "kind": "bullet",
+      "text": "next",
+      "tokens": [
+        "next"
+      ]
+    },
+    {
+      "charEnd": 458,
+      "charStart": 448,
+      "factId": "hz.web.4f1480086e9de94e.fact.9",
+      "kind": "bullet",
+      "text": "previous",
+      "tokens": [
+        "previous"
+      ]
+    },
+    {
+      "charEnd": 466,
+      "charStart": 459,
+      "factId": "hz.web.4f1480086e9de94e.fact.10",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 475,
+      "charStart": 467,
+      "factId": "hz.web.4f1480086e9de94e.fact.11",
+      "kind": "bullet",
+      "text": "random",
+      "tokens": [
+        "random"
+      ]
+    },
+    {
+      "charEnd": 480,
+      "charStart": 476,
+      "factId": "hz.web.4f1480086e9de94e.fact.12",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.4f1480086e9de94e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Seirdy’s Home"
+    },
+    {
+      "charEnd": 95,
+      "charStart": 85,
+      "headingId": "hz.web.4f1480086e9de94e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 415,
+      "charStart": 404,
+      "headingId": "hz.web.4f1480086e9de94e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 492,
+      "charStart": 482,
+      "headingId": "hz.web.4f1480086e9de94e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4f1480086e9de94e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3711,
+        "start": 0
+      }
+    ],
+    "hash": "bcbbe82e9d3740cc97ee0321c1edce1f328b2c7ac337e905f897bc2022546ce8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Seirdy’s Home Skip to content Seirdy’s Home Articles Notes Bookmarks About Meta Support Seirdy’s Home My personal IndieWeb site.",
+      "I write about and develop software to promote user autonomy.",
+      "Topics include accessibility, security, privacy, and software freedom."
+    ],
+    "medium": "Source: https://seirdy.one/",
+    "short": "Source: https://seirdy.one/",
+    "tokens": [
+      "seirdy",
+      "home",
+      "source",
+      "https",
+      "seirdy",
+      "one",
+      "source",
+      "https",
+      "seirdy",
+      "one"
+    ]
+  },
+  "title": "Seirdy’s Home"
+}

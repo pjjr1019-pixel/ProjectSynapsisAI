@@ -1,0 +1,32 @@
+# aggregatorhost
+
+## Summary
+Web search did not return usable snippets for "aggregatorhost Windows process" (timeout). This entry is based on the live process snapshot and observed file metadata.
+
+## Observed Signals
+- Identity key: aggregatorhost--unknown--sha256_7534eb6c09fe
+- Image name: aggregatorhost
+- Status: queued
+- First seen: 2026-04-01T22:35:53.603Z
+- Last seen: 2026-04-01T22:37:33.716Z
+- Publisher slug: unknown
+- SHA-256 prefix: 7534eb6c09fe
+- Hash type: derived
+- Confidence: 0
+
+## Web Evidence
+- Query: aggregatorhost Windows process
+- Web state: unavailable (timeout)
+- Provider: duckduckgo
+- Source count: 0
+
+No web evidence was returned.
+
+## Sources
+- None
+
+## Notes
+- Confidence: 10
+- Status: suspicious
+- Generated at: 2026-04-01T22:38:01.893Z
+- Markdown file: unknown

@@ -1,0 +1,416 @@
+{
+  "aliases": [
+    {
+      "alias": "fc9dd1eed6018e84",
+      "aliasId": "hz.web.fc9dd1eed6018e84.alias.1",
+      "canonical": "index of /"
+    },
+    {
+      "alias": "index of",
+      "aliasId": "hz.web.fc9dd1eed6018e84.alias.2",
+      "canonical": "index of /"
+    },
+    {
+      "alias": "web fc9dd1eed6018e84",
+      "aliasId": "hz.web.fc9dd1eed6018e84.alias.3",
+      "canonical": "index of /"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.fc9dd1eed6018e84",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fc9dd1eed6018e84.entity.1",
+      "kind": "document",
+      "name": "Index of /",
+      "tokens": [
+        "index"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc9dd1eed6018e84.entity.2",
+      "kind": "heading",
+      "name": "Index of /",
+      "tokens": [
+        "index"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc9dd1eed6018e84.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc9dd1eed6018e84.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fc9dd1eed6018e84.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 15,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.1",
+      "kind": "summary",
+      "text": "Source: http://photomatt.net/?C=N;O=D",
+      "tokens": [
+        "source",
+        "http",
+        "photomatt",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 919,
+      "charStart": 104,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.1",
+      "kind": "bullet",
+      "text": "Index of / Index of / Name Last modified Size Description xml/ 2026-03-30 19:31 - wp_cache_mutex.lock 2017-10-02 13:44 0 wp15/ 2009-03-31 23:00 - wp-config.php 2024-09-25 15:06 2.5K v3/ 2026-03-30 19:31 - tools/ 2026-03-30 19:31 - theme/ 2026-03-30 19:31 - stuff/ 2026-03-30 19:31 - shortstat/ 2009-03-31 23:00 - public_html/ 2005-11-10 12:58 - private/ 2009-07-22 22:59 - presentation-videos/ 2009-06-13 14:29 - photos/ 2026-03-30 19:31 - notes/ 2009-10-01 16:30 - meta/ 2017-09-14 21:33 - images/ 2026-03-30 19:31 - files/ 2026-01-01 02:01 - dropbox/ 2023-02-09 02:15 - css/ 2026-03-30 19:31 - converted/ 2026-03-30 19:31 - cgi-bin/ 2009-03-20 00:41 - cache/ 2026-03-30 19:31 - blog/ 2021-06-08 10:15 - blog-content/ 2026-03-30 19:31 - bin/ 2026-03-30 19:30 - about-old/ 2026-03-30 19:30 - a/ 2004-10-11 15:55 -",
+      "tokens": [
+        "index",
+        "index",
+        "name",
+        "last",
+        "modified",
+        "size",
+        "description",
+        "xml",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "wp_cache_mutex",
+        "lock",
+        "2017",
+        "10",
+        "02",
+        "13",
+        "44",
+        "wp15",
+        "2009",
+        "03",
+        "31",
+        "23",
+        "00",
+        "wp",
+        "config",
+        "php",
+        "2024",
+        "09",
+        "25",
+        "15",
+        "06",
+        "5k",
+        "v3",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "tools",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "theme",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "stuff",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "shortstat",
+        "2009",
+        "03",
+        "31",
+        "23",
+        "00",
+        "public_html",
+        "2005",
+        "11",
+        "10",
+        "12",
+        "58",
+        "private",
+        "2009",
+        "07",
+        "22",
+        "22",
+        "59",
+        "presentation",
+        "videos",
+        "2009",
+        "06",
+        "13",
+        "14",
+        "29",
+        "photos",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "notes",
+        "2009",
+        "10",
+        "01",
+        "16",
+        "30",
+        "meta",
+        "2017",
+        "09",
+        "14",
+        "21",
+        "33",
+        "images",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "files",
+        "2026",
+        "01",
+        "01",
+        "02",
+        "01",
+        "dropbox",
+        "2023",
+        "02",
+        "09",
+        "02",
+        "15",
+        "css",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "converted",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "cgi",
+        "bin",
+        "2009",
+        "03",
+        "20",
+        "00",
+        "41",
+        "cache",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "blog",
+        "2021",
+        "06",
+        "08",
+        "10",
+        "15",
+        "blog",
+        "content",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "31",
+        "bin",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "30",
+        "about",
+        "old",
+        "2026",
+        "03",
+        "30",
+        "19",
+        "30",
+        "2004",
+        "10",
+        "11",
+        "15",
+        "55"
+      ]
+    },
+    {
+      "charEnd": 938,
+      "charStart": 934,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.2",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 943,
+      "charStart": 939,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.3",
+      "kind": "bullet",
+      "text": "30",
+      "tokens": [
+        "30"
+      ]
+    },
+    {
+      "charEnd": 950,
+      "charStart": 944,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.4",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 955,
+      "charStart": 951,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.5",
+      "kind": "bullet",
+      "text": "19",
+      "tokens": [
+        "19"
+      ]
+    },
+    {
+      "charEnd": 960,
+      "charStart": 956,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.6",
+      "kind": "bullet",
+      "text": "31",
+      "tokens": [
+        "31"
+      ]
+    },
+    {
+      "charEnd": 967,
+      "charStart": 961,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.7",
+      "kind": "bullet",
+      "text": "2009",
+      "tokens": [
+        "2009"
+      ]
+    },
+    {
+      "charEnd": 972,
+      "charStart": 968,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.8",
+      "kind": "bullet",
+      "text": "10",
+      "tokens": [
+        "10"
+      ]
+    },
+    {
+      "charEnd": 977,
+      "charStart": 973,
+      "factId": "hz.web.fc9dd1eed6018e84.fact.9",
+      "kind": "bullet",
+      "text": "01",
+      "tokens": [
+        "01"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 13,
+      "charStart": 1,
+      "headingId": "hz.web.fc9dd1eed6018e84.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Index of /"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.fc9dd1eed6018e84.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 932,
+      "charStart": 921,
+      "headingId": "hz.web.fc9dd1eed6018e84.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 989,
+      "charStart": 979,
+      "headingId": "hz.web.fc9dd1eed6018e84.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/fc9dd1eed6018e84.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2028,
+        "start": 0
+      }
+    ],
+    "hash": "c7b85eeb544957a279724e3598eded0cb6ec9184fd07fa17c9cca397a8bcee22",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Index of / Index of / Name Last modified Size Description xml/ 2026-03-30 19:31 - wp_cache_mutex.lock 2017-10-02 13:44 0 wp15/ 2009-03-31 23:00 - wp-config.php 2024-09-25 15:06 2.5K v3/ 2026-03-30 19:31 - tools/ 2026-03-30 19:31 - theme/ 2026-03-30 19:31 - stuff/ 2026-03-30 19:31 - shortstat/ 2009-03-31 23:00 - public_html/ 2005-11-10 12:58 - private/ 2009-07-22 22:59 - presentation-videos/ 2009-06-13 14:29 - photos/ 2026-03-30 19:31 - notes/ 2009-10-01 16:30 - meta/ 2017-09-14 21:33 - images/ 2026-03-30 19:31 - files/ 2026-01-01 02:01 - dropbox/ 2023-02-09 02:15 - css/ 2026-03-30 19:31 - converted/ 2026-03-30 19:31 - cgi-bin/ 2009-03-20 00:41 - cache/ 2026-03-30 19:31 - blog/ 2021-06-08 10:15 - blog-content/ 2026-03-30 19:31 - bin/ 2026-03-30 19:30 - about-old/ 2026-03-30 19:30 - a/ 2004-10-11 15:55 -",
+      "03",
+      "30"
+    ],
+    "medium": "Source: http://photomatt.net/?C=N;O=D",
+    "short": "Source: http://photomatt.net/?C=N;O=D",
+    "tokens": [
+      "index",
+      "source",
+      "http",
+      "photomatt",
+      "net",
+      "source",
+      "http",
+      "photomatt",
+      "net"
+    ]
+  },
+  "title": "Index of /"
+}

@@ -1,0 +1,360 @@
+{
+  "aliases": [
+    {
+      "alias": "1fe15d337bf4812b",
+      "aliasId": "hz.web.1fe15d337bf4812b.alias.1",
+      "canonical": "harvard university"
+    },
+    {
+      "alias": "harvard university",
+      "aliasId": "hz.web.1fe15d337bf4812b.alias.2",
+      "canonical": "harvard university"
+    },
+    {
+      "alias": "web 1fe15d337bf4812b",
+      "aliasId": "hz.web.1fe15d337bf4812b.alias.3",
+      "canonical": "harvard university"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.1fe15d337bf4812b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1fe15d337bf4812b.entity.1",
+      "kind": "document",
+      "name": "Harvard University",
+      "tokens": [
+        "harvard",
+        "university"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fe15d337bf4812b.entity.2",
+      "kind": "heading",
+      "name": "Harvard University",
+      "tokens": [
+        "harvard",
+        "university"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fe15d337bf4812b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fe15d337bf4812b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1fe15d337bf4812b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 54,
+      "charStart": 23,
+      "factId": "hz.web.1fe15d337bf4812b.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.harvard.edu/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "harvard",
+        "edu"
+      ]
+    },
+    {
+      "charEnd": 405,
+      "charStart": 106,
+      "factId": "hz.web.1fe15d337bf4812b.fact.1",
+      "kind": "bullet",
+      "text": "Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life.",
+      "tokens": [
+        "harvard",
+        "university",
+        "skip",
+        "main",
+        "content",
+        "harvard",
+        "university",
+        "site",
+        "notification",
+        "learn",
+        "about",
+        "our",
+        "lawsuits",
+        "protect",
+        "our",
+        "students",
+        "researchers",
+        "search",
+        "search",
+        "quick",
+        "links",
+        "index",
+        "menu",
+        "academics",
+        "academics",
+        "academics",
+        "learning",
+        "harvard",
+        "happen",
+        "every",
+        "type",
+        "learner",
+        "any",
+        "phase",
+        "life"
+      ]
+    },
+    {
+      "charEnd": 518,
+      "charStart": 406,
+      "factId": "hz.web.1fe15d337bf4812b.fact.2",
+      "kind": "bullet",
+      "text": "Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees.",
+      "tokens": [
+        "degree",
+        "programs",
+        "academics",
+        "degree",
+        "programs",
+        "browse",
+        "all",
+        "our",
+        "undergraduate",
+        "concentrations",
+        "graduate",
+        "degrees"
+      ]
+    },
+    {
+      "charEnd": 708,
+      "charStart": 519,
+      "factId": "hz.web.1fe15d337bf4812b.fact.3",
+      "kind": "bullet",
+      "text": "Undergraduate Degrees Graduate Degrees Other Professional and Lifelong Learning Harvard Online Harvard Schools Academics Visit each School for information on admissions and financial aid.",
+      "tokens": [
+        "undergraduate",
+        "degrees",
+        "graduate",
+        "degrees",
+        "other",
+        "professional",
+        "lifelong",
+        "learning",
+        "harvard",
+        "online",
+        "harvard",
+        "schools",
+        "academics",
+        "visit",
+        "each",
+        "school",
+        "information",
+        "admissions",
+        "financial",
+        "aid"
+      ]
+    },
+    {
+      "charEnd": 884,
+      "charStart": 709,
+      "factId": "hz.web.1fe15d337bf4812b.fact.4",
+      "kind": "bullet",
+      "text": "Explore more Harvard College Harvard Business School Harvard Division of Continuing Education Harvard Divinity School Harvard Faculty of Arts and Sciences Harvard Kenneth C.",
+      "tokens": [
+        "explore",
+        "more",
+        "harvard",
+        "college",
+        "harvard",
+        "business",
+        "school",
+        "harvard",
+        "division",
+        "continuing",
+        "education",
+        "harvard",
+        "divinity",
+        "school",
+        "harvard",
+        "faculty",
+        "arts",
+        "sciences",
+        "harvard",
+        "kenneth"
+      ]
+    },
+    {
+      "charEnd": 908,
+      "charStart": 899,
+      "factId": "hz.web.1fe15d337bf4812b.fact.5",
+      "kind": "bullet",
+      "text": "harvard",
+      "tokens": [
+        "harvard"
+      ]
+    },
+    {
+      "charEnd": 913,
+      "charStart": 909,
+      "factId": "hz.web.1fe15d337bf4812b.fact.6",
+      "kind": "bullet",
+      "text": "ai",
+      "tokens": [
+        "ai"
+      ]
+    },
+    {
+      "charEnd": 921,
+      "charStart": 914,
+      "factId": "hz.web.1fe15d337bf4812b.fact.7",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 929,
+      "charStart": 922,
+      "factId": "hz.web.1fe15d337bf4812b.fact.8",
+      "kind": "bullet",
+      "text": "learn",
+      "tokens": [
+        "learn"
+      ]
+    },
+    {
+      "charEnd": 939,
+      "charStart": 930,
+      "factId": "hz.web.1fe15d337bf4812b.fact.9",
+      "kind": "bullet",
+      "text": "library",
+      "tokens": [
+        "library"
+      ]
+    },
+    {
+      "charEnd": 945,
+      "charStart": 940,
+      "factId": "hz.web.1fe15d337bf4812b.fact.10",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 954,
+      "charStart": 946,
+      "factId": "hz.web.1fe15d337bf4812b.fact.11",
+      "kind": "bullet",
+      "text": "school",
+      "tokens": [
+        "school"
+      ]
+    },
+    {
+      "charEnd": 969,
+      "charStart": 955,
+      "factId": "hz.web.1fe15d337bf4812b.fact.12",
+      "kind": "bullet",
+      "text": "intelligence",
+      "tokens": [
+        "intelligence"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.1fe15d337bf4812b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Harvard University"
+    },
+    {
+      "charEnd": 104,
+      "charStart": 94,
+      "headingId": "hz.web.1fe15d337bf4812b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 897,
+      "charStart": 886,
+      "headingId": "hz.web.1fe15d337bf4812b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 981,
+      "charStart": 971,
+      "headingId": "hz.web.1fe15d337bf4812b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1fe15d337bf4812b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4209,
+        "start": 0
+      }
+    ],
+    "hash": "f2f53e8d54cab247dab95d1cf386d588d41cc109fea2e97427a4d0e47a8c209d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Harvard University Skip to main content Harvard University 1 site notification Learn about our lawsuits to protect our students and researchers Search Search Quick Links A to Z index Menu Academics Academics Academics Learning at Harvard can happen for every type of learner, at any phase of life.",
+      "Degree programs Academics Degree programs Browse all of our undergraduate concentrations and graduate degrees.",
+      "Undergraduate Degrees Graduate Degrees Other Professional and Lifelong Learning Harvard Online Harvard Schools Academics Visit each School for information on admissions and financial aid."
+    ],
+    "medium": "Source: http://www.harvard.edu/",
+    "short": "Source: http://www.harvard.edu/",
+    "tokens": [
+      "harvard",
+      "university",
+      "source",
+      "http",
+      "www",
+      "harvard",
+      "edu",
+      "source",
+      "http",
+      "www",
+      "harvard",
+      "edu"
+    ]
+  },
+  "title": "Harvard University"
+}

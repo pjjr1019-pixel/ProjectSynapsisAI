@@ -1,0 +1,395 @@
+{
+  "aliases": [
+    {
+      "alias": "d133a2cc88bb6e20",
+      "aliasId": "hz.web.d133a2cc88bb6e20.alias.1",
+      "canonical": "nginx javascript module"
+    },
+    {
+      "alias": "nginx javascript module",
+      "aliasId": "hz.web.d133a2cc88bb6e20.alias.2",
+      "canonical": "nginx javascript module"
+    },
+    {
+      "alias": "web d133a2cc88bb6e20",
+      "aliasId": "hz.web.d133a2cc88bb6e20.alias.3",
+      "canonical": "nginx javascript module"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.d133a2cc88bb6e20",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d133a2cc88bb6e20.entity.1",
+      "kind": "document",
+      "name": "nginx JavaScript module",
+      "tokens": [
+        "nginx",
+        "javascript",
+        "module"
+      ]
+    },
+    {
+      "entityId": "hz.web.d133a2cc88bb6e20.entity.2",
+      "kind": "heading",
+      "name": "nginx JavaScript module",
+      "tokens": [
+        "nginx",
+        "javascript",
+        "module"
+      ]
+    },
+    {
+      "entityId": "hz.web.d133a2cc88bb6e20.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d133a2cc88bb6e20.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d133a2cc88bb6e20.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 28,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.1",
+      "kind": "summary",
+      "text": "Source: http://nginx.org/en/docs/njs/",
+      "tokens": [
+        "source",
+        "http",
+        "nginx",
+        "org",
+        "en",
+        "docs",
+        "njs"
+      ]
+    },
+    {
+      "charEnd": 181,
+      "charStart": 117,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.1",
+      "kind": "bullet",
+      "text": "nginx JavaScript module Planning your ingress-nginx migration?",
+      "tokens": [
+        "nginx",
+        "javascript",
+        "module",
+        "planning",
+        "your",
+        "ingress",
+        "nginx",
+        "migration"
+      ]
+    },
+    {
+      "charEnd": 218,
+      "charStart": 182,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.2",
+      "kind": "bullet",
+      "text": "Start here: kubernetes.nginx.org .",
+      "tokens": [
+        "start",
+        "here",
+        "kubernetes",
+        "nginx",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 559,
+      "charStart": 219,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.3",
+      "kind": "bullet",
+      "text": "english русский news about download security documentation faq books community enterprise community forum (new) x.com blog njs ingress controller gateway fabric nginx JavaScript module njs is an nginx module that extends the server's functionality through JavaScript scripting, enabling the creation of custom server-side logic and more .",
+      "tokens": [
+        "english",
+        "news",
+        "about",
+        "download",
+        "security",
+        "documentation",
+        "faq",
+        "books",
+        "community",
+        "enterprise",
+        "community",
+        "forum",
+        "new",
+        "com",
+        "blog",
+        "njs",
+        "ingress",
+        "controller",
+        "gateway",
+        "fabric",
+        "nginx",
+        "javascript",
+        "module",
+        "njs",
+        "nginx",
+        "module",
+        "extends",
+        "server",
+        "functionality",
+        "through",
+        "javascript",
+        "scripting",
+        "enabling",
+        "creation",
+        "custom",
+        "server",
+        "side",
+        "logic",
+        "more"
+      ]
+    },
+    {
+      "charEnd": 1093,
+      "charStart": 560,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.4",
+      "kind": "bullet",
+      "text": "Download and install Changes Reference JavaScript Engine Native modules Examples Security Compatibility Command-line interface Understanding preloaded objects Tested OS and platforms ngx_http_js_module ngx_stream_js_module Writing njs code using TypeScript definition files Using node modules with njs Use cases Complex access control and security checks in njs before a request reaches an upstream server Manipulating response headers Writing flexible asynchronous content handlers and filters See examples for more njs use cases.",
+      "tokens": [
+        "download",
+        "install",
+        "changes",
+        "reference",
+        "javascript",
+        "engine",
+        "native",
+        "modules",
+        "examples",
+        "security",
+        "compatibility",
+        "command",
+        "line",
+        "interface",
+        "understanding",
+        "preloaded",
+        "objects",
+        "tested",
+        "os",
+        "platforms",
+        "ngx_http_js_module",
+        "ngx_stream_js_module",
+        "writing",
+        "njs",
+        "code",
+        "using",
+        "typescript",
+        "definition",
+        "files",
+        "using",
+        "node",
+        "modules",
+        "njs",
+        "use",
+        "cases",
+        "complex",
+        "access",
+        "control",
+        "security",
+        "checks",
+        "njs",
+        "before",
+        "request",
+        "reaches",
+        "upstream",
+        "server",
+        "manipulating",
+        "response",
+        "headers",
+        "writing",
+        "flexible",
+        "asynchronous",
+        "content",
+        "handlers",
+        "filters",
+        "see",
+        "examples",
+        "more",
+        "njs",
+        "use",
+        "cases"
+      ]
+    },
+    {
+      "charEnd": 1113,
+      "charStart": 1108,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.5",
+      "kind": "bullet",
+      "text": "njs",
+      "tokens": [
+        "njs"
+      ]
+    },
+    {
+      "charEnd": 1121,
+      "charStart": 1114,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.6",
+      "kind": "bullet",
+      "text": "nginx",
+      "tokens": [
+        "nginx"
+      ]
+    },
+    {
+      "charEnd": 1128,
+      "charStart": 1122,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.7",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 1136,
+      "charStart": 1129,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.8",
+      "kind": "bullet",
+      "text": "hello",
+      "tokens": [
+        "hello"
+      ]
+    },
+    {
+      "charEnd": 1149,
+      "charStart": 1137,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.9",
+      "kind": "bullet",
+      "text": "javascript",
+      "tokens": [
+        "javascript"
+      ]
+    },
+    {
+      "charEnd": 1158,
+      "charStart": 1150,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.10",
+      "kind": "bullet",
+      "text": "module",
+      "tokens": [
+        "module"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1159,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.11",
+      "kind": "bullet",
+      "text": "server",
+      "tokens": [
+        "server"
+      ]
+    },
+    {
+      "charEnd": 1175,
+      "charStart": 1168,
+      "factId": "hz.web.d133a2cc88bb6e20.fact.12",
+      "kind": "bullet",
+      "text": "amd64",
+      "tokens": [
+        "amd64"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.d133a2cc88bb6e20.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "nginx JavaScript module"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.d133a2cc88bb6e20.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1106,
+      "charStart": 1095,
+      "headingId": "hz.web.d133a2cc88bb6e20.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1187,
+      "charStart": 1177,
+      "headingId": "hz.web.d133a2cc88bb6e20.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/d133a2cc88bb6e20.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3184,
+        "start": 0
+      }
+    ],
+    "hash": "847737215ade1f60c97fd4bc6a2d81ab528e4b5665f75f78e6caa0c5296ade8d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "nginx JavaScript module Planning your ingress-nginx migration?",
+      "Start here: kubernetes.nginx.org .",
+      "english русский news about download security documentation faq books community enterprise community forum (new) x.com blog njs ingress controller gateway fabric nginx JavaScript module njs is an nginx module that extends the server's functionality through JavaScript scripting, enabling the creation of custom server-side logic and more ."
+    ],
+    "medium": "Source: http://nginx.org/en/docs/njs/",
+    "short": "Source: http://nginx.org/en/docs/njs/",
+    "tokens": [
+      "nginx",
+      "javascript",
+      "module",
+      "source",
+      "http",
+      "nginx",
+      "org",
+      "en",
+      "docs",
+      "njs",
+      "source",
+      "http",
+      "nginx",
+      "org",
+      "en",
+      "docs",
+      "njs"
+    ]
+  },
+  "title": "nginx JavaScript module"
+}

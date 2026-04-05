@@ -1,0 +1,1105 @@
+{
+  "N": 6,
+  "artifactType": "bm25",
+  "avgdl": 75.5,
+  "buildVersion": "brain-ir-runtime-v1",
+  "builtAt": "2026-03-31T09:46:13.948Z",
+  "chunkConfidences": [
+    0.85,
+    0.95,
+    0.95,
+    0.9,
+    0.65,
+    0.65
+  ],
+  "chunkOrder": [
+    "hz.chunk.hz.assistant.sample-topic.2026-03-27.0",
+    "hz.chunk.hz.core.retrieval-contract.2026-03-27.0",
+    "hz.chunk.hz.core.safety-defaults.2026-03-27.0",
+    "hz.chunk.hz.launcher.launcher-overview.2026-03-27.0",
+    "hz.chunk.hz.pipeline.imports.knowledge-pack-v1.0",
+    "hz.chunk.hz.pipeline.imports.knowledge-pack-v2.0"
+  ],
+  "counts": {
+    "chunkCount": 6,
+    "termCount": 141
+  },
+  "df": {
+    "27": 4,
+    "65": 2,
+    "85": 1,
+    "95": 2,
+    "2026": 6,
+    "00": 6,
+    "00z": 6,
+    "03": 6,
+    "27t12": 4,
+    "28t12": 2,
+    "advanced": 1,
+    "also": 2,
+    "anchor": 2,
+    "any": 1,
+    "app": 6,
+    "applies": 1,
+    "architecture": 1,
+    "assistant": 2,
+    "base": 2,
+    "before": 1,
+    "bootstrap": 1,
+    "brain": 6,
+    "budgeting": 2,
+    "bypass": 1,
+    "canonical": 4,
+    "cards": 1,
+    "catalog": 2,
+    "chrome": 1,
+    "claim": 1,
+    "confidence": 6,
+    "contract": 1,
+    "core": 5,
+    "crypto": 2,
+    "deep": 1,
+    "default": 2,
+    "defaults": 1,
+    "domain": 6,
+    "draft": 2,
+    "evals": 2,
+    "exfiltrate": 1,
+    "fact": 1,
+    "file": 2,
+    "files": 2,
+    "finance": 2,
+    "follow": 1,
+    "forex": 1,
+    "futures": 1,
+    "generated": 1,
+    "glob": 1,
+    "glossary": 2,
+    "governance": 1,
+    "graph": 1,
+    "help": 1,
+    "horizonsai": 2,
+    "horizonsai_knowledge_pack_v1": 1,
+    "horizonsai_knowledge_pack_v2": 1,
+    "hz": 6,
+    "id": 6,
+    "import": 2,
+    "imports": 2,
+    "indexes": 2,
+    "ingest": 1,
+    "ingestedat": 6,
+    "inputs": 1,
+    "instructions": 1,
+    "internal": 4,
+    "inventory": 1,
+    "json": 2,
+    "jsonl": 2,
+    "kind": 6,
+    "knowledge": 4,
+    "knowledge_index": 2,
+    "launcher": 1,
+    "library": 1,
+    "lists": 1,
+    "load": 1,
+    "loads": 1,
+    "manifest": 2,
+    "markets": 1,
+    "md": 4,
+    "memory": 1,
+    "onboarding": 1,
+    "only": 1,
+    "ops": 1,
+    "options": 1,
+    "order": 1,
+    "overview": 1,
+    "pack": 2,
+    "paths": 1,
+    "per": 1,
+    "personal": 2,
+    "pipeline": 2,
+    "platform": 4,
+    "playbooks": 1,
+    "policies": 1,
+    "policy": 2,
+    "procedure": 1,
+    "provenance": 6,
+    "provides": 1,
+    "rag": 1,
+    "readme": 3,
+    "refusal": 1,
+    "refuse": 1,
+    "research": 2,
+    "retrieval": 3,
+    "retrievalprofile": 1,
+    "reviewedat": 4,
+    "safety": 1,
+    "sample": 1,
+    "secrets": 1,
+    "sections": 1,
+    "security": 1,
+    "see": 2,
+    "seed": 4,
+    "session": 1,
+    "shell": 1,
+    "social": 2,
+    "source": 2,
+    "sourceid": 6,
+    "sourcetype": 6,
+    "specific": 1,
+    "starter": 1,
+    "status": 6,
+    "string": 1,
+    "su": 1,
+    "surface": 1,
+    "system": 5,
+    "tags": 6,
+    "text": 1,
+    "title": 6,
+    "topic": 1,
+    "trading": 1,
+    "tree": 2,
+    "up": 1,
+    "v1": 2,
+    "v2": 1,
+    "verifiedby": 6,
+    "visibility": 6,
+    "window": 1,
+    "work": 2,
+    "yaml": 2
+  },
+  "inverted": {
+    "27": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "65": [
+      4,
+      5
+    ],
+    "85": [
+      0
+    ],
+    "95": [
+      1,
+      2
+    ],
+    "2026": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "00": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "00z": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "03": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "27t12": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "28t12": [
+      4,
+      5
+    ],
+    "advanced": [
+      5
+    ],
+    "also": [
+      4,
+      5
+    ],
+    "anchor": [
+      4,
+      5
+    ],
+    "any": [
+      3
+    ],
+    "app": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "applies": [
+      3
+    ],
+    "architecture": [
+      4
+    ],
+    "assistant": [
+      0,
+      1
+    ],
+    "base": [
+      4,
+      5
+    ],
+    "before": [
+      3
+    ],
+    "bootstrap": [
+      3
+    ],
+    "brain": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "budgeting": [
+      4,
+      5
+    ],
+    "bypass": [
+      2
+    ],
+    "canonical": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "cards": [
+      4
+    ],
+    "catalog": [
+      4,
+      5
+    ],
+    "chrome": [
+      3
+    ],
+    "claim": [
+      4
+    ],
+    "confidence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "contract": [
+      1
+    ],
+    "core": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "crypto": [
+      4,
+      5
+    ],
+    "deep": [
+      5
+    ],
+    "default": [
+      1,
+      2
+    ],
+    "defaults": [
+      2
+    ],
+    "domain": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "draft": [
+      4,
+      5
+    ],
+    "evals": [
+      4,
+      5
+    ],
+    "exfiltrate": [
+      2
+    ],
+    "fact": [
+      0
+    ],
+    "file": [
+      4,
+      5
+    ],
+    "files": [
+      4,
+      5
+    ],
+    "finance": [
+      4,
+      5
+    ],
+    "follow": [
+      5
+    ],
+    "forex": [
+      5
+    ],
+    "futures": [
+      5
+    ],
+    "generated": [
+      5
+    ],
+    "glob": [
+      5
+    ],
+    "glossary": [
+      4,
+      5
+    ],
+    "governance": [
+      2
+    ],
+    "graph": [
+      4
+    ],
+    "help": [
+      3
+    ],
+    "horizonsai": [
+      4,
+      5
+    ],
+    "horizonsai_knowledge_pack_v1": [
+      4
+    ],
+    "horizonsai_knowledge_pack_v2": [
+      5
+    ],
+    "hz": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "id": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "import": [
+      4,
+      5
+    ],
+    "imports": [
+      4,
+      5
+    ],
+    "indexes": [
+      4,
+      5
+    ],
+    "ingest": [
+      4
+    ],
+    "ingestedat": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "inputs": [
+      1
+    ],
+    "instructions": [
+      2
+    ],
+    "internal": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "inventory": [
+      4
+    ],
+    "json": [
+      4,
+      5
+    ],
+    "jsonl": [
+      4,
+      5
+    ],
+    "kind": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "knowledge": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "knowledge_index": [
+      4,
+      5
+    ],
+    "launcher": [
+      3
+    ],
+    "library": [
+      4
+    ],
+    "lists": [
+      5
+    ],
+    "load": [
+      3
+    ],
+    "loads": [
+      3
+    ],
+    "manifest": [
+      1,
+      3
+    ],
+    "markets": [
+      5
+    ],
+    "md": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "memory": [
+      4
+    ],
+    "onboarding": [
+      0
+    ],
+    "only": [
+      5
+    ],
+    "ops": [
+      5
+    ],
+    "options": [
+      5
+    ],
+    "order": [
+      3
+    ],
+    "overview": [
+      3
+    ],
+    "pack": [
+      4,
+      5
+    ],
+    "paths": [
+      5
+    ],
+    "per": [
+      5
+    ],
+    "personal": [
+      4,
+      5
+    ],
+    "pipeline": [
+      4,
+      5
+    ],
+    "platform": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "playbooks": [
+      4
+    ],
+    "policies": [
+      2
+    ],
+    "policy": [
+      1,
+      2
+    ],
+    "procedure": [
+      3
+    ],
+    "provenance": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "provides": [
+      3
+    ],
+    "rag": [
+      1
+    ],
+    "readme": [
+      0,
+      4,
+      5
+    ],
+    "refusal": [
+      2
+    ],
+    "refuse": [
+      2
+    ],
+    "research": [
+      4,
+      5
+    ],
+    "retrieval": [
+      1,
+      4,
+      5
+    ],
+    "retrievalprofile": [
+      1
+    ],
+    "reviewedat": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "safety": [
+      2
+    ],
+    "sample": [
+      0
+    ],
+    "secrets": [
+      2
+    ],
+    "sections": [
+      5
+    ],
+    "security": [
+      2
+    ],
+    "see": [
+      4,
+      5
+    ],
+    "seed": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "session": [
+      3
+    ],
+    "shell": [
+      3
+    ],
+    "social": [
+      4,
+      5
+    ],
+    "source": [
+      4,
+      5
+    ],
+    "sourceid": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "sourcetype": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "specific": [
+      3
+    ],
+    "starter": [
+      4
+    ],
+    "status": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "string": [
+      1
+    ],
+    "su": [
+      1
+    ],
+    "surface": [
+      3
+    ],
+    "system": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tags": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "text": [
+      3
+    ],
+    "title": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "topic": [
+      0
+    ],
+    "trading": [
+      4
+    ],
+    "tree": [
+      4,
+      5
+    ],
+    "up": [
+      5
+    ],
+    "v1": [
+      4,
+      5
+    ],
+    "v2": [
+      5
+    ],
+    "verifiedby": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visibility": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "window": [
+      3
+    ],
+    "work": [
+      4,
+      5
+    ],
+    "yaml": [
+      1,
+      3
+    ]
+  },
+  "profile": "assistant-knowledge-packs-only",
+  "schemaVersion": "1.0",
+  "tfs": [
+    {
+      "27": 1,
+      "85": 1,
+      "2026": 3,
+      "00": 2,
+      "00z": 2,
+      "03": 3,
+      "27t12": 2,
+      "app": 2,
+      "assistant": 3,
+      "brain": 1,
+      "canonical": 2,
+      "confidence": 1,
+      "domain": 1,
+      "fact": 1,
+      "hz": 1,
+      "id": 1,
+      "ingestedat": 1,
+      "internal": 1,
+      "kind": 1,
+      "knowledge": 1,
+      "md": 1,
+      "onboarding": 1,
+      "platform": 1,
+      "provenance": 1,
+      "readme": 1,
+      "reviewedat": 1,
+      "sample": 3,
+      "seed": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "status": 1,
+      "tags": 1,
+      "title": 1,
+      "topic": 2,
+      "verifiedby": 1,
+      "visibility": 1
+    },
+    {
+      "27": 1,
+      "95": 1,
+      "2026": 3,
+      "00": 2,
+      "00z": 2,
+      "03": 3,
+      "27t12": 2,
+      "app": 1,
+      "assistant": 1,
+      "brain": 1,
+      "canonical": 1,
+      "confidence": 1,
+      "contract": 3,
+      "core": 3,
+      "default": 1,
+      "domain": 1,
+      "hz": 1,
+      "id": 1,
+      "ingestedat": 1,
+      "inputs": 1,
+      "internal": 1,
+      "kind": 1,
+      "manifest": 2,
+      "platform": 1,
+      "policy": 1,
+      "provenance": 1,
+      "rag": 1,
+      "retrieval": 4,
+      "retrievalprofile": 1,
+      "reviewedat": 1,
+      "seed": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "status": 1,
+      "string": 1,
+      "su": 1,
+      "system": 1,
+      "tags": 1,
+      "title": 1,
+      "verifiedby": 1,
+      "visibility": 1,
+      "yaml": 2
+    },
+    {
+      "27": 1,
+      "95": 1,
+      "2026": 3,
+      "00": 2,
+      "00z": 2,
+      "03": 3,
+      "27t12": 2,
+      "app": 1,
+      "brain": 1,
+      "bypass": 1,
+      "canonical": 1,
+      "confidence": 1,
+      "core": 3,
+      "default": 1,
+      "defaults": 3,
+      "domain": 1,
+      "exfiltrate": 1,
+      "governance": 1,
+      "hz": 1,
+      "id": 1,
+      "ingestedat": 1,
+      "instructions": 1,
+      "internal": 1,
+      "kind": 1,
+      "md": 1,
+      "platform": 1,
+      "policies": 1,
+      "policy": 3,
+      "provenance": 1,
+      "refusal": 1,
+      "refuse": 1,
+      "reviewedat": 1,
+      "safety": 4,
+      "secrets": 1,
+      "security": 1,
+      "seed": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "status": 1,
+      "system": 1,
+      "tags": 1,
+      "title": 1,
+      "verifiedby": 1,
+      "visibility": 1
+    },
+    {
+      "27": 1,
+      "2026": 3,
+      "00": 2,
+      "00z": 2,
+      "03": 3,
+      "27t12": 2,
+      "any": 1,
+      "app": 2,
+      "applies": 1,
+      "before": 1,
+      "bootstrap": 1,
+      "brain": 2,
+      "canonical": 1,
+      "chrome": 1,
+      "confidence": 1,
+      "core": 1,
+      "domain": 1,
+      "help": 1,
+      "hz": 1,
+      "id": 1,
+      "ingestedat": 1,
+      "internal": 1,
+      "kind": 1,
+      "knowledge": 1,
+      "launcher": 8,
+      "load": 1,
+      "loads": 1,
+      "manifest": 1,
+      "order": 1,
+      "overview": 3,
+      "platform": 1,
+      "procedure": 1,
+      "provenance": 1,
+      "provides": 1,
+      "reviewedat": 1,
+      "seed": 1,
+      "session": 1,
+      "shell": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "specific": 1,
+      "status": 1,
+      "surface": 2,
+      "system": 1,
+      "tags": 1,
+      "text": 1,
+      "title": 1,
+      "verifiedby": 1,
+      "visibility": 1,
+      "window": 1,
+      "yaml": 1
+    },
+    {
+      "65": 1,
+      "2026": 1,
+      "00": 1,
+      "00z": 1,
+      "03": 1,
+      "28t12": 1,
+      "also": 1,
+      "anchor": 1,
+      "app": 2,
+      "architecture": 1,
+      "base": 1,
+      "brain": 1,
+      "budgeting": 1,
+      "cards": 1,
+      "catalog": 2,
+      "claim": 1,
+      "confidence": 1,
+      "core": 2,
+      "crypto": 1,
+      "domain": 1,
+      "draft": 1,
+      "evals": 2,
+      "file": 1,
+      "files": 2,
+      "finance": 2,
+      "glossary": 1,
+      "graph": 1,
+      "horizonsai": 1,
+      "horizonsai_knowledge_pack_v1": 4,
+      "hz": 1,
+      "id": 1,
+      "import": 4,
+      "imports": 5,
+      "indexes": 2,
+      "ingest": 1,
+      "ingestedat": 1,
+      "inventory": 1,
+      "json": 2,
+      "jsonl": 2,
+      "kind": 1,
+      "knowledge": 5,
+      "knowledge_index": 2,
+      "library": 1,
+      "md": 3,
+      "memory": 2,
+      "pack": 6,
+      "personal": 1,
+      "pipeline": 2,
+      "playbooks": 1,
+      "provenance": 1,
+      "readme": 1,
+      "research": 1,
+      "retrieval": 2,
+      "see": 1,
+      "social": 2,
+      "source": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "starter": 1,
+      "status": 1,
+      "system": 2,
+      "tags": 1,
+      "title": 1,
+      "trading": 1,
+      "tree": 1,
+      "v1": 3,
+      "verifiedby": 1,
+      "visibility": 1,
+      "work": 2
+    },
+    {
+      "65": 1,
+      "2026": 1,
+      "00": 1,
+      "00z": 1,
+      "03": 1,
+      "28t12": 1,
+      "advanced": 2,
+      "also": 1,
+      "anchor": 1,
+      "app": 1,
+      "base": 1,
+      "brain": 1,
+      "budgeting": 1,
+      "catalog": 2,
+      "confidence": 1,
+      "core": 1,
+      "crypto": 1,
+      "deep": 1,
+      "domain": 1,
+      "draft": 1,
+      "evals": 2,
+      "file": 1,
+      "files": 2,
+      "finance": 2,
+      "follow": 1,
+      "forex": 1,
+      "futures": 1,
+      "generated": 1,
+      "glob": 1,
+      "glossary": 1,
+      "horizonsai": 1,
+      "horizonsai_knowledge_pack_v2": 3,
+      "hz": 1,
+      "id": 1,
+      "import": 4,
+      "imports": 5,
+      "indexes": 2,
+      "ingestedat": 1,
+      "json": 1,
+      "jsonl": 2,
+      "kind": 1,
+      "knowledge": 5,
+      "knowledge_index": 1,
+      "lists": 1,
+      "markets": 1,
+      "md": 3,
+      "only": 1,
+      "ops": 1,
+      "options": 1,
+      "pack": 6,
+      "paths": 1,
+      "per": 1,
+      "personal": 1,
+      "pipeline": 2,
+      "provenance": 1,
+      "readme": 1,
+      "research": 1,
+      "retrieval": 2,
+      "sections": 1,
+      "see": 1,
+      "social": 1,
+      "source": 1,
+      "sourceid": 1,
+      "sourcetype": 1,
+      "status": 1,
+      "system": 1,
+      "tags": 1,
+      "title": 1,
+      "tree": 1,
+      "up": 1,
+      "v1": 1,
+      "v2": 4,
+      "verifiedby": 1,
+      "visibility": 1,
+      "work": 1
+    }
+  ],
+  "version": 1
+}

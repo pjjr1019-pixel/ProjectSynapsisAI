@@ -1,0 +1,95 @@
+---
+schema_version: 1
+pack_id: "repo-knowledge-pack"
+card_type: "file-summary"
+source_path: "taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.bf43eff3f8f76621.json"
+source_name: "hz.web.bf43eff3f8f76621.json"
+top_level: "taskmanager"
+surface: "brain-retrieval"
+classification: "generated"
+kind: "json"
+language: "json"
+extension: ".json"
+score: 60
+selected_rank: 2686
+content_hash: "56015c0adc6f45aa7959935f91a7b35a47b55750b3ae90b7522a27f314ea268e"
+generated_at: "2026-04-02T15:23:30.410Z"
+tags:
+  - "brain"
+  - "brain-retrieval"
+  - "generated"
+  - "index"
+  - "json"
+json_keys:
+  - "aliases"
+  - "app"
+  - "confidence"
+  - "docId"
+  - "domain"
+  - "entities"
+  - "facts"
+  - "headings"
+  - "moduleIds"
+  - "path"
+  - "provenance"
+  - "relations"
+  - "rules"
+  - "scenarios"
+  - "status"
+---
+
+# taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.bf43eff3f8f76621.json
+
+> JSON data file; keys aliases, app, confidence, docId, domain, entities
+
+## Key Signals
+
+- Source path: taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.bf43eff3f8f76621.json
+- Surface: brain-retrieval
+- Classification: generated
+- Kind: json
+- Language: json
+- Top level: taskmanager
+- Score: 60
+- Tags: brain, brain-retrieval, generated, index, json
+- JSON keys: aliases, app, confidence, docId, domain, entities, facts, headings, moduleIds, path
+
+## Lookup Notes
+
+- Use the card path in lookup.json to jump directly to this summary.
+- Open the source from this card with the repository-relative path.
+- Primary lookup terms: brain, brain-retrieval, generated, index, json, taskmanager
+- Source link target: taskmanager/brain/retrieval/indexes/normalized/docs/hz.web.bf43eff3f8f76621.json
+
+## Excerpt
+
+~~~json
+{
+  "aliases": [
+    {
+      "alias": "academic calendar-",
+      "aliasId": "hz.web.bf43eff3f8f76621.alias.1",
+      "canonical": "academic calendar-北京航空航天大学国际学院"
+    },
+    {
+      "alias": "bf43eff3f8f76621",
+      "aliasId": "hz.web.bf43eff3f8f76621.alias.2",
+      "canonical": "academic calendar-北京航空航天大学国际学院"
+    },
+    {
+      "alias": "web bf43eff3f8f76621",
+      "aliasId": "hz.web.bf43eff3f8f76621.alias.3",
+      "canonical": "academic calendar-北京航空航天大学国际学院"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.63,
+  "docId": "hz.web.bf43eff3f8f76621",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bf43eff3f8f76621.entity.1",
+      "kind": "document",
+      "name": "Academic Calendar-北京航空航天大学国际学院",
+      "tokens": [
+~~~

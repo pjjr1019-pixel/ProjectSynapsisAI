@@ -1,0 +1,332 @@
+{
+  "aliases": [
+    {
+      "alias": "0acdf00927bc3711",
+      "aliasId": "hz.web.0acdf00927bc3711.alias.1",
+      "canonical": "discuss.python.org"
+    },
+    {
+      "alias": "discuss.python.org",
+      "aliasId": "hz.web.0acdf00927bc3711.alias.2",
+      "canonical": "discuss.python.org"
+    },
+    {
+      "alias": "web 0acdf00927bc3711",
+      "aliasId": "hz.web.0acdf00927bc3711.alias.3",
+      "canonical": "discuss.python.org"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.0acdf00927bc3711",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0acdf00927bc3711.entity.1",
+      "kind": "document",
+      "name": "discuss.python.org",
+      "tokens": [
+        "discuss",
+        "python",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.0acdf00927bc3711.entity.2",
+      "kind": "heading",
+      "name": "discuss.python.org",
+      "tokens": [
+        "discuss",
+        "python",
+        "org"
+      ]
+    },
+    {
+      "entityId": "hz.web.0acdf00927bc3711.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0acdf00927bc3711.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0acdf00927bc3711.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 72,
+      "charStart": 23,
+      "factId": "hz.web.0acdf00927bc3711.fact.1",
+      "kind": "summary",
+      "text": "Source: https://discuss.python.org/opensearch.xml",
+      "tokens": [
+        "source",
+        "https",
+        "discuss",
+        "python",
+        "org",
+        "opensearch",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 819,
+      "charStart": 124,
+      "factId": "hz.web.0acdf00927bc3711.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Discussions on Python.org Search</ShortName> <Description>Search for posts on Discussions on Python.org</Description> <Tags>discourse forum</Tags> <Image type=\"image/png\">https://us1.discourse-cdn.com/flex002/uploads/python1/optimized/1X/9997f0605d56c4bfecd63594f52f42cdafd6b06a_2_32x32.png</Image> <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"https://discuss.python.org/opensearch.xml\"/> <Url type=\"text/html\" template=\"https://discuss.python.org/search?q={searchTerms}\"/> <Query role=\"example\" searchTerms=\"search term\"/> </OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "shortname",
+        "discussions",
+        "python",
+        "org",
+        "search",
+        "shortname",
+        "description",
+        "search",
+        "posts",
+        "discussions",
+        "python",
+        "org",
+        "description",
+        "tags",
+        "discourse",
+        "forum",
+        "tags",
+        "image",
+        "type",
+        "image",
+        "png",
+        "https",
+        "us1",
+        "discourse",
+        "cdn",
+        "com",
+        "flex002",
+        "uploads",
+        "python1",
+        "optimized",
+        "1x",
+        "9997f0605d56c4bfecd63594f52f42cdafd6b06a_2_32x32",
+        "png",
+        "image",
+        "url",
+        "type",
+        "application",
+        "opensearchdescription",
+        "xml",
+        "rel",
+        "self",
+        "template",
+        "https",
+        "discuss",
+        "python",
+        "org",
+        "opensearch",
+        "xml",
+        "url",
+        "type",
+        "text",
+        "html",
+        "template",
+        "https",
+        "discuss",
+        "python",
+        "org",
+        "search",
+        "searchterms",
+        "query",
+        "role",
+        "example",
+        "searchterms",
+        "search",
+        "term",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 839,
+      "charStart": 834,
+      "factId": "hz.web.0acdf00927bc3711.fact.2",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 848,
+      "charStart": 840,
+      "factId": "hz.web.0acdf00927bc3711.fact.3",
+      "kind": "bullet",
+      "text": "python",
+      "tokens": [
+        "python"
+      ]
+    },
+    {
+      "charEnd": 857,
+      "charStart": 849,
+      "factId": "hz.web.0acdf00927bc3711.fact.4",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 865,
+      "charStart": 858,
+      "factId": "hz.web.0acdf00927bc3711.fact.5",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 873,
+      "charStart": 866,
+      "factId": "hz.web.0acdf00927bc3711.fact.6",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 897,
+      "charStart": 874,
+      "factId": "hz.web.0acdf00927bc3711.fact.7",
+      "kind": "bullet",
+      "text": "opensearchdescription",
+      "tokens": [
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 904,
+      "charStart": 898,
+      "factId": "hz.web.0acdf00927bc3711.fact.8",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 910,
+      "charStart": 905,
+      "factId": "hz.web.0acdf00927bc3711.fact.9",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.0acdf00927bc3711.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "discuss.python.org"
+    },
+    {
+      "charEnd": 122,
+      "charStart": 112,
+      "headingId": "hz.web.0acdf00927bc3711.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 832,
+      "charStart": 821,
+      "headingId": "hz.web.0acdf00927bc3711.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 922,
+      "charStart": 912,
+      "headingId": "hz.web.0acdf00927bc3711.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/0acdf00927bc3711.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1861,
+        "start": 0
+      }
+    ],
+    "hash": "08f02f48654777e6c010d399110db6e3b5c321ddf85e9d3ed330fdda0e700c58",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"> <ShortName>Discussions on Python.org Search</ShortName> <Description>Search for posts on Discussions on Python.org</Description> <Tags>discourse forum</Tags> <Image type=\"image/png\">https://us1.discourse-cdn.com/flex002/uploads/python1/optimized/1X/9997f0605d56c4bfecd63594f52f42cdafd6b06a_2_32x32.png</Image> <Url type=\"application/opensearchdescription+xml\" rel=\"self\" template=\"https://discuss.python.org/opensearch.xml\"/> <Url type=\"text/html\" template=\"https://discuss.python.org/search?q={searchTerms}\"/> <Query role=\"example\" searchTerms=\"search term\"/> </OpenSearchDescription>",
+      "org",
+      "python"
+    ],
+    "medium": "Source: https://discuss.python.org/opensearch.xml",
+    "short": "Source: https://discuss.python.org/opensearch.xml",
+    "tokens": [
+      "discuss",
+      "python",
+      "org",
+      "source",
+      "https",
+      "discuss",
+      "python",
+      "org",
+      "opensearch",
+      "xml",
+      "source",
+      "https",
+      "discuss",
+      "python",
+      "org",
+      "opensearch",
+      "xml"
+    ]
+  },
+  "title": "discuss.python.org"
+}

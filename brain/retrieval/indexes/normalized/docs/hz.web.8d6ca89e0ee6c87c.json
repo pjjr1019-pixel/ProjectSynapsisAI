@@ -1,0 +1,282 @@
+{
+  "aliases": [
+    {
+      "alias": "8d6ca89e0ee6c87c",
+      "aliasId": "hz.web.8d6ca89e0ee6c87c.alias.1",
+      "canonical": "combo.staticflickr.com"
+    },
+    {
+      "alias": "combo.staticflickr.com",
+      "aliasId": "hz.web.8d6ca89e0ee6c87c.alias.2",
+      "canonical": "combo.staticflickr.com"
+    },
+    {
+      "alias": "web 8d6ca89e0ee6c87c",
+      "aliasId": "hz.web.8d6ca89e0ee6c87c.alias.3",
+      "canonical": "combo.staticflickr.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.8d6ca89e0ee6c87c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8d6ca89e0ee6c87c.entity.1",
+      "kind": "document",
+      "name": "combo.staticflickr.com",
+      "tokens": [
+        "combo",
+        "staticflickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d6ca89e0ee6c87c.entity.2",
+      "kind": "heading",
+      "name": "combo.staticflickr.com",
+      "tokens": [
+        "combo",
+        "staticflickr",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d6ca89e0ee6c87c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d6ca89e0ee6c87c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d6ca89e0ee6c87c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 133,
+      "charStart": 27,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67167dc1d73d7b88afde5a85_Flickr%20Fave.png",
+      "tokens": [
+        "source",
+        "https",
+        "combo",
+        "staticflickr",
+        "com",
+        "66a031f9fc343c5e42d965ca",
+        "67167dc1d73d7b88afde5a85_flickr",
+        "20fave",
+        "png"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 185,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.1",
+      "kind": "bullet",
+      "text": "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0006\u0000\u0000\u0000szz�\u0000\u0000\u0000 pHYs\u0000\u0000 \u0013\u0000\u0000 \u0013\u0001\u0000��\u0018\u0000\u0000\u0000\u0001sRGB\u0000��\u001c�\u0000\u0000\u0000\u0004gAMA\u0000\u0000�� �a\u0005\u0000\u0000\u0001�IDATx\u0001�U�q�@\u0010}� �\u0004\u0019-�\u0012(!\u0015(�@��\u0013�$�1\u0015\u0004SAJ��P@\u001c(�\u0002��]8���p��Ͻ\u0019�n��{,� �����1�\u001a��;`\u001f��w�V)��\u0017\u001c��bN�|�(^#��%�U�l`��@jU _ ��;��\u0006��3���)�xLx\\_70�}p(B-h�m������ϼ�/&�\u000f�]�\u0014�dO���\u0005�v���r�M�\u0002����U\u0006�+�ͫ\u0001�P�(@\u001c\u0014g\u0003ϙ�\u00197>~\u0003� �\u0001)8gq�<߱!\u001e�\u0010��~( m��h�����_�@\u000f\u001dC\u001b�>oO58��\u001a\u0006� ��pF�\u0005�����\u001d_f�>9\u001b�j&�v��@2�Մs��=N��A4��A�)��㡵߹\u001bxJҬ�\u000f���踻,��Q�3�[����5��\u001b�r�SR��|f�W\u001c\u001bʗ\u0011B�j�.��\u001c<M�lܣl5**C������G��\u0003�@~��T��\u0000\u0000\u0000\u0000IEND�B`�",
+      "tokens": [
+        "png",
+        "ihdr",
+        "szz",
+        "phys",
+        "srgb",
+        "gama",
+        "idatx",
+        "saj",
+        "bn",
+        "ju",
+        "xlx",
+        "_70",
+        "8gq",
+        "oo58",
+        "pf",
+        "_f",
+        "a4",
+        "xj",
+        "sr",
+        "l5",
+        "iend"
+      ]
+    },
+    {
+      "charEnd": 686,
+      "charStart": 681,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.2",
+      "kind": "bullet",
+      "text": "_70",
+      "tokens": [
+        "_70"
+      ]
+    },
+    {
+      "charEnd": 691,
+      "charStart": 687,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.3",
+      "kind": "bullet",
+      "text": "_f",
+      "tokens": [
+        "_f"
+      ]
+    },
+    {
+      "charEnd": 697,
+      "charStart": 692,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.4",
+      "kind": "bullet",
+      "text": "8gq",
+      "tokens": [
+        "8gq"
+      ]
+    },
+    {
+      "charEnd": 702,
+      "charStart": 698,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.5",
+      "kind": "bullet",
+      "text": "a4",
+      "tokens": [
+        "a4"
+      ]
+    },
+    {
+      "charEnd": 707,
+      "charStart": 703,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.6",
+      "kind": "bullet",
+      "text": "bn",
+      "tokens": [
+        "bn"
+      ]
+    },
+    {
+      "charEnd": 714,
+      "charStart": 708,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.7",
+      "kind": "bullet",
+      "text": "gama",
+      "tokens": [
+        "gama"
+      ]
+    },
+    {
+      "charEnd": 722,
+      "charStart": 715,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.8",
+      "kind": "bullet",
+      "text": "idatx",
+      "tokens": [
+        "idatx"
+      ]
+    },
+    {
+      "charEnd": 729,
+      "charStart": 723,
+      "factId": "hz.web.8d6ca89e0ee6c87c.fact.9",
+      "kind": "bullet",
+      "text": "iend",
+      "tokens": [
+        "iend"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 25,
+      "charStart": 1,
+      "headingId": "hz.web.8d6ca89e0ee6c87c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "combo.staticflickr.com"
+    },
+    {
+      "charEnd": 183,
+      "charStart": 173,
+      "headingId": "hz.web.8d6ca89e0ee6c87c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 679,
+      "charStart": 668,
+      "headingId": "hz.web.8d6ca89e0ee6c87c.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 741,
+      "charStart": 731,
+      "headingId": "hz.web.8d6ca89e0ee6c87c.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/8d6ca89e0ee6c87c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1527,
+        "start": 0
+      }
+    ],
+    "hash": "548c5f50fdb16efd696f07ddebec41e45839527a9196d518b3507848c4ea6e5f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "�PNG \u001a \u0000\u0000\u0000 IHDR\u0000\u0000\u0000 \u0000\u0000\u0000 \b\u0006\u0000\u0000\u0000szz�\u0000\u0000\u0000 pHYs\u0000\u0000 \u0013\u0000\u0000 \u0013\u0001\u0000��\u0018\u0000\u0000\u0000\u0001sRGB\u0000��\u001c�\u0000\u0000\u0000\u0004gAMA\u0000\u0000�� �a\u0005\u0000\u0000\u0001�IDATx\u0001�U�q�@\u0010}� �\u0004\u0019-�\u0012(!\u0015(�@��\u0013�$�1\u0015\u0004SAJ��P@\u001c(�\u0002��]8���p��Ͻ\u0019�n��{,� �����1�\u001a��;`\u001f��w�V)��\u0017\u001c��bN�|�(^#��%�U�l`��@jU _ ��;��\u0006��3���)�xLx\\_70�}p(B-h�m������ϼ�/&�\u000f�]�\u0014�dO���\u0005�v���r�M�\u0002����U\u0006�+�ͫ\u0001�P�(@\u001c\u0014g\u0003ϙ�\u00197>~\u0003� �\u0001)8gq�<߱!\u001e�\u0010��~( m��h�����_�@\u000f\u001dC\u001b�>oO58��\u001a\u0006� ��pF�\u0005�����\u001d_f�>9\u001b�j&�v��@2�Մs��=N��A4��A�)��㡵߹\u001bxJҬ�\u000f���踻,��Q�3�[����5��\u001b�r�SR��|f�W\u001c\u001bʗ\u0011B�j�.��\u001c<M�lܣl5**C������G��\u0003�@~��T��\u0000\u0000\u0000\u0000IEND�B`�",
+      "_70",
+      "_f"
+    ],
+    "medium": "Source: https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67167dc1d73d7b88afde5a85_Flickr%20Fave.png",
+    "short": "Source: https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67167dc1d73d7b88afde5a85_Flickr%20Fave.png",
+    "tokens": [
+      "combo",
+      "staticflickr",
+      "com",
+      "source",
+      "https",
+      "combo",
+      "staticflickr",
+      "com",
+      "66a031f9fc343c5e42d965ca",
+      "67167dc1d73d7b88afde5a85_flickr",
+      "20fave",
+      "png",
+      "source",
+      "https",
+      "combo",
+      "staticflickr",
+      "com",
+      "66a031f9fc343c5e42d965ca",
+      "67167dc1d73d7b88afde5a85_flickr",
+      "20fave",
+      "png"
+    ]
+  },
+  "title": "combo.staticflickr.com"
+}

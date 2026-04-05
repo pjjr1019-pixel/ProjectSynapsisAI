@@ -1,0 +1,365 @@
+{
+  "aliases": [
+    {
+      "alias": "000daf8577d9b65d",
+      "aliasId": "hz.web.000daf8577d9b65d.alias.1",
+      "canonical": "cdn.socrata.com"
+    },
+    {
+      "alias": "cdn.socrata.com",
+      "aliasId": "hz.web.000daf8577d9b65d.alias.2",
+      "canonical": "cdn.socrata.com"
+    },
+    {
+      "alias": "web 000daf8577d9b65d",
+      "aliasId": "hz.web.000daf8577d9b65d.alias.3",
+      "canonical": "cdn.socrata.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.000daf8577d9b65d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.000daf8577d9b65d.entity.1",
+      "kind": "document",
+      "name": "cdn.socrata.com",
+      "tokens": [
+        "cdn",
+        "socrata",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.000daf8577d9b65d.entity.2",
+      "kind": "heading",
+      "name": "cdn.socrata.com",
+      "tokens": [
+        "cdn",
+        "socrata",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.000daf8577d9b65d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.000daf8577d9b65d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.000daf8577d9b65d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 200,
+      "charStart": 20,
+      "factId": "hz.web.000daf8577d9b65d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cdn.socrata.com/frontend/F26-HF-4/javascripts/build/style-packages/datasets-common.6be9b64dd8ac6cc60569.css?272cf93a83a6426bf6ed7107a23f3edc964d968d.7893.1756420770",
+      "tokens": [
+        "source",
+        "https",
+        "cdn",
+        "socrata",
+        "com",
+        "frontend",
+        "f26",
+        "hf",
+        "javascripts",
+        "build",
+        "style",
+        "packages",
+        "datasets",
+        "common",
+        "6be9b64dd8ac6cc60569",
+        "css",
+        "272cf93a83a6426bf6ed7107a23f3edc964d968d",
+        "7893",
+        "1756420770"
+      ]
+    },
+    {
+      "charEnd": 746,
+      "charStart": 252,
+      "factId": "hz.web.000daf8577d9b65d.fact.1",
+      "kind": "bullet",
+      "text": ".skip-links{display:inline-block;position:absolute;top:-495px;left:5px;z-index:10001}.skip-links a.skip-link{width:30em;padding:.3em;padding-left:.8em;font-size:1rem;color:#fff;background-color:rgb(28,98.7,135.1);letter-spacing:1px;border-radius:1px;text-decoration:none;box-shadow:0 0 8px -2px #666;display:inline-block;position:absolute}.skip-links a.skip-link:focus,.skip-links a.skip-link:active{top:500px;z-index:10001} /*# sourceMappingURL=datasets-common.6be9b64dd8ac6cc60569.css.map*/",
+      "tokens": [
+        "skip",
+        "links",
+        "display",
+        "inline",
+        "block",
+        "position",
+        "absolute",
+        "top",
+        "495px",
+        "left",
+        "5px",
+        "index",
+        "10001",
+        "skip",
+        "links",
+        "skip",
+        "link",
+        "width",
+        "30em",
+        "padding",
+        "3em",
+        "padding",
+        "left",
+        "8em",
+        "font",
+        "size",
+        "1rem",
+        "color",
+        "fff",
+        "background",
+        "color",
+        "rgb",
+        "28",
+        "98",
+        "135",
+        "letter",
+        "spacing",
+        "1px",
+        "border",
+        "radius",
+        "1px",
+        "text",
+        "decoration",
+        "none",
+        "box",
+        "shadow",
+        "8px",
+        "2px",
+        "666",
+        "display",
+        "inline",
+        "block",
+        "position",
+        "absolute",
+        "skip",
+        "links",
+        "skip",
+        "link",
+        "focus",
+        "skip",
+        "links",
+        "skip",
+        "link",
+        "active",
+        "top",
+        "500px",
+        "index",
+        "10001",
+        "sourcemappingurl",
+        "datasets",
+        "common",
+        "6be9b64dd8ac6cc60569",
+        "css",
+        "map"
+      ]
+    },
+    {
+      "charEnd": 767,
+      "charStart": 761,
+      "factId": "hz.web.000daf8577d9b65d.fact.2",
+      "kind": "bullet",
+      "text": "skip",
+      "tokens": [
+        "skip"
+      ]
+    },
+    {
+      "charEnd": 775,
+      "charStart": 768,
+      "factId": "hz.web.000daf8577d9b65d.fact.3",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 782,
+      "charStart": 776,
+      "factId": "hz.web.000daf8577d9b65d.fact.4",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 790,
+      "charStart": 783,
+      "factId": "hz.web.000daf8577d9b65d.fact.5",
+      "kind": "bullet",
+      "text": "10001",
+      "tokens": [
+        "10001"
+      ]
+    },
+    {
+      "charEnd": 796,
+      "charStart": 791,
+      "factId": "hz.web.000daf8577d9b65d.fact.6",
+      "kind": "bullet",
+      "text": "1px",
+      "tokens": [
+        "1px"
+      ]
+    },
+    {
+      "charEnd": 807,
+      "charStart": 797,
+      "factId": "hz.web.000daf8577d9b65d.fact.7",
+      "kind": "bullet",
+      "text": "absolute",
+      "tokens": [
+        "absolute"
+      ]
+    },
+    {
+      "charEnd": 815,
+      "charStart": 808,
+      "factId": "hz.web.000daf8577d9b65d.fact.8",
+      "kind": "bullet",
+      "text": "block",
+      "tokens": [
+        "block"
+      ]
+    },
+    {
+      "charEnd": 823,
+      "charStart": 816,
+      "factId": "hz.web.000daf8577d9b65d.fact.9",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.000daf8577d9b65d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cdn.socrata.com"
+    },
+    {
+      "charEnd": 250,
+      "charStart": 240,
+      "headingId": "hz.web.000daf8577d9b65d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 759,
+      "charStart": 748,
+      "headingId": "hz.web.000daf8577d9b65d.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 835,
+      "charStart": 825,
+      "headingId": "hz.web.000daf8577d9b65d.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/000daf8577d9b65d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1701,
+        "start": 0
+      }
+    ],
+    "hash": "5e0cda8bd5b2e72be68b3b4759744e4d20a85417a82edad253043342eebeb743",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".skip-links{display:inline-block;position:absolute;top:-495px;left:5px;z-index:10001}.skip-links a.skip-link{width:30em;padding:.3em;padding-left:.8em;font-size:1rem;color:#fff;background-color:rgb(28,98.7,135.1);letter-spacing:1px;border-radius:1px;text-decoration:none;box-shadow:0 0 8px -2px #666;display:inline-block;position:absolute}.skip-links a.skip-link:focus,.skip-links a.skip-link:active{top:500px;z-index:10001} /*# sourceMappingURL=datasets-common.6be9b64dd8ac6cc60569.css.map*/",
+      "skip",
+      "links"
+    ],
+    "medium": "Source: https://cdn.socrata.com/frontend/F26-HF-4/javascripts/build/style-packages/datasets-common.6be9b64dd8ac6cc60569.css?272cf93a83a6426bf6ed7107a23f3edc964d968d.7893.1756420770",
+    "short": "Source: https://cdn.socrata.com/frontend/F26-HF-4/javascripts/build/style-packages/datasets-common.6be9b64dd8ac6cc60569.css?272cf93a83a6426bf6ed7107a23f3edc964d968d.7893.1756420770",
+    "tokens": [
+      "cdn",
+      "socrata",
+      "com",
+      "source",
+      "https",
+      "cdn",
+      "socrata",
+      "com",
+      "frontend",
+      "f26",
+      "hf",
+      "javascripts",
+      "build",
+      "style",
+      "packages",
+      "datasets",
+      "common",
+      "6be9b64dd8ac6cc60569",
+      "css",
+      "272cf93a83a6426bf6ed7107a23f3edc964d968d",
+      "7893",
+      "1756420770",
+      "source",
+      "https",
+      "cdn",
+      "socrata",
+      "com",
+      "frontend",
+      "f26",
+      "hf",
+      "javascripts",
+      "build",
+      "style",
+      "packages",
+      "datasets",
+      "common",
+      "6be9b64dd8ac6cc60569",
+      "css",
+      "272cf93a83a6426bf6ed7107a23f3edc964d968d",
+      "7893",
+      "1756420770"
+    ]
+  },
+  "title": "cdn.socrata.com"
+}

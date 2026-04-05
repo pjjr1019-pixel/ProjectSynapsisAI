@@ -1,0 +1,418 @@
+{
+  "aliases": [
+    {
+      "alias": "57cb773e7ac077a0",
+      "aliasId": "hz.web.57cb773e7ac077a0.alias.1",
+      "canonical": "sign in - google accounts"
+    },
+    {
+      "alias": "sign in - google accounts",
+      "aliasId": "hz.web.57cb773e7ac077a0.alias.2",
+      "canonical": "sign in - google accounts"
+    },
+    {
+      "alias": "web 57cb773e7ac077a0",
+      "aliasId": "hz.web.57cb773e7ac077a0.alias.3",
+      "canonical": "sign in - google accounts"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.58,
+  "docId": "hz.web.57cb773e7ac077a0",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.57cb773e7ac077a0.entity.1",
+      "kind": "document",
+      "name": "Sign in - Google Accounts",
+      "tokens": [
+        "sign",
+        "google",
+        "accounts"
+      ]
+    },
+    {
+      "entityId": "hz.web.57cb773e7ac077a0.entity.2",
+      "kind": "heading",
+      "name": "Sign in - Google Accounts",
+      "tokens": [
+        "sign",
+        "google",
+        "accounts"
+      ]
+    },
+    {
+      "entityId": "hz.web.57cb773e7ac077a0.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.57cb773e7ac077a0.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.57cb773e7ac077a0.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 153,
+      "charStart": 30,
+      "factId": "hz.web.57cb773e7ac077a0.fact.1",
+      "kind": "summary",
+      "text": "Source: https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAmgQ",
+      "tokens": [
+        "source",
+        "https",
+        "accounts",
+        "google",
+        "com",
+        "servicelogin",
+        "hl",
+        "en",
+        "amp",
+        "passive",
+        "true",
+        "amp",
+        "continue",
+        "https",
+        "www",
+        "google",
+        "com",
+        "amp",
+        "ec",
+        "gazamgq"
+      ]
+    },
+    {
+      "charEnd": 293,
+      "charStart": 205,
+      "factId": "hz.web.57cb773e7ac077a0.fact.1",
+      "kind": "bullet",
+      "text": "Sign in - Google Accounts Sign in Use your Google Account Email or phone Forgot email?",
+      "tokens": [
+        "sign",
+        "google",
+        "accounts",
+        "sign",
+        "use",
+        "your",
+        "google",
+        "account",
+        "email",
+        "phone",
+        "forgot",
+        "email"
+      ]
+    },
+    {
+      "charEnd": 314,
+      "charStart": 294,
+      "factId": "hz.web.57cb773e7ac077a0.fact.2",
+      "kind": "bullet",
+      "text": "Not your computer?",
+      "tokens": [
+        "not",
+        "your",
+        "computer"
+      ]
+    },
+    {
+      "charEnd": 358,
+      "charStart": 315,
+      "factId": "hz.web.57cb773e7ac077a0.fact.3",
+      "kind": "bullet",
+      "text": "Use a private browsing window to sign in.",
+      "tokens": [
+        "use",
+        "private",
+        "browsing",
+        "window",
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1204,
+      "charStart": 359,
+      "factId": "hz.web.57cb773e7ac077a0.fact.4",
+      "kind": "bullet",
+      "text": "Learn more about using Guest mode Next Create account Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqip Slovenčina slovenščina srpski (latinica) Suomi Svenska Tiếng Việt Türkçe Ελληνικά беларуская български кыргызча қазақ тілі македонски монгол Русский српски (ћирилица) Українська ქართული հայերեն ‫עברית‬‎ ‫اردو‬‎ ‫العربية‬‎ ‫فارسی‬‎ አማርኛ नेपाली मराठी हिन्दी অসমীয়া বাংলা ਪੰਜਾਬੀ ગુજરાતી ଓଡ଼ିଆ தமிழ் తెలుగు ಕನ್ನಡ മലയാളം සිංහල ไทย ລາວ မြန်မာ ខ្មែរ 한국어 中文（香港） 日本語 简体中文 繁體中文 Help Privacy Terms",
+      "tokens": [
+        "learn",
+        "more",
+        "about",
+        "using",
+        "guest",
+        "mode",
+        "next",
+        "create",
+        "account",
+        "afrikaans",
+        "az",
+        "rbaycan",
+        "bosanski",
+        "catal",
+        "tina",
+        "cymraeg",
+        "dansk",
+        "deutsch",
+        "eesti",
+        "english",
+        "united",
+        "kingdom",
+        "english",
+        "united",
+        "states",
+        "espa",
+        "ol",
+        "espa",
+        "espa",
+        "ol",
+        "latinoam",
+        "rica",
+        "euskara",
+        "filipino",
+        "fran",
+        "ais",
+        "canada",
+        "fran",
+        "ais",
+        "france",
+        "gaeilge",
+        "galego",
+        "hrvatski",
+        "indonesia",
+        "isizulu",
+        "slenska",
+        "italiano",
+        "kiswahili",
+        "latvie",
+        "lietuvi",
+        "magyar",
+        "melayu",
+        "nederlands",
+        "norsk",
+        "zbek",
+        "polski",
+        "portugu",
+        "brasil",
+        "portugu",
+        "portugal",
+        "rom",
+        "shqip",
+        "sloven",
+        "ina",
+        "sloven",
+        "ina",
+        "srpski",
+        "latinica",
+        "suomi",
+        "svenska",
+        "ti",
+        "ng",
+        "vi",
+        "rk",
+        "help",
+        "privacy",
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 1225,
+      "charStart": 1219,
+      "factId": "hz.web.57cb773e7ac077a0.fact.5",
+      "kind": "bullet",
+      "text": "espa",
+      "tokens": [
+        "espa"
+      ]
+    },
+    {
+      "charEnd": 1232,
+      "charStart": 1226,
+      "factId": "hz.web.57cb773e7ac077a0.fact.6",
+      "kind": "bullet",
+      "text": "sign",
+      "tokens": [
+        "sign"
+      ]
+    },
+    {
+      "charEnd": 1242,
+      "charStart": 1233,
+      "factId": "hz.web.57cb773e7ac077a0.fact.7",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 1248,
+      "charStart": 1243,
+      "factId": "hz.web.57cb773e7ac077a0.fact.8",
+      "kind": "bullet",
+      "text": "ais",
+      "tokens": [
+        "ais"
+      ]
+    },
+    {
+      "charEnd": 1256,
+      "charStart": 1249,
+      "factId": "hz.web.57cb773e7ac077a0.fact.9",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 1266,
+      "charStart": 1257,
+      "factId": "hz.web.57cb773e7ac077a0.fact.10",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    },
+    {
+      "charEnd": 1273,
+      "charStart": 1267,
+      "factId": "hz.web.57cb773e7ac077a0.fact.11",
+      "kind": "bullet",
+      "text": "fran",
+      "tokens": [
+        "fran"
+      ]
+    },
+    {
+      "charEnd": 1282,
+      "charStart": 1274,
+      "factId": "hz.web.57cb773e7ac077a0.fact.12",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 28,
+      "charStart": 1,
+      "headingId": "hz.web.57cb773e7ac077a0.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Sign in - Google Accounts"
+    },
+    {
+      "charEnd": 203,
+      "charStart": 193,
+      "headingId": "hz.web.57cb773e7ac077a0.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1217,
+      "charStart": 1206,
+      "headingId": "hz.web.57cb773e7ac077a0.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1294,
+      "charStart": 1284,
+      "headingId": "hz.web.57cb773e7ac077a0.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/57cb773e7ac077a0.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2612,
+        "start": 0
+      }
+    ],
+    "hash": "c2d1abd583d0f69eae4390a86147a1b465137fe4ad2794ef4f5cdb5b60cc7418",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Sign in - Google Accounts Sign in Use your Google Account Email or phone Forgot email?",
+      "Not your computer?",
+      "Use a private browsing window to sign in."
+    ],
+    "medium": "Source: https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAmgQ",
+    "short": "Source: https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAmgQ",
+    "tokens": [
+      "sign",
+      "google",
+      "accounts",
+      "source",
+      "https",
+      "accounts",
+      "google",
+      "com",
+      "servicelogin",
+      "hl",
+      "en",
+      "amp",
+      "passive",
+      "true",
+      "amp",
+      "continue",
+      "https",
+      "www",
+      "google",
+      "com",
+      "amp",
+      "ec",
+      "gazamgq",
+      "source",
+      "https",
+      "accounts",
+      "google",
+      "com",
+      "servicelogin",
+      "hl",
+      "en",
+      "amp",
+      "passive",
+      "true",
+      "amp",
+      "continue",
+      "https",
+      "www",
+      "google",
+      "com",
+      "amp",
+      "ec",
+      "gazamgq"
+    ]
+  },
+  "title": "Sign in - Google Accounts"
+}

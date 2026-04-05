@@ -1,0 +1,528 @@
+{
+  "aliases": [
+    {
+      "alias": "5079904955b24f95",
+      "aliasId": "hz.web.5079904955b24f95.alias.1",
+      "canonical": "mysql :: contact a mysql sales representative"
+    },
+    {
+      "alias": "mysql contact a mysql sales representative",
+      "aliasId": "hz.web.5079904955b24f95.alias.2",
+      "canonical": "mysql :: contact a mysql sales representative"
+    },
+    {
+      "alias": "web 5079904955b24f95",
+      "aliasId": "hz.web.5079904955b24f95.alias.3",
+      "canonical": "mysql :: contact a mysql sales representative"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.5079904955b24f95",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5079904955b24f95.entity.1",
+      "kind": "document",
+      "name": "MySQL :: Contact a MySQL Sales Representative",
+      "tokens": [
+        "mysql",
+        "contact",
+        "mysql",
+        "sales",
+        "representative"
+      ]
+    },
+    {
+      "entityId": "hz.web.5079904955b24f95.entity.2",
+      "kind": "heading",
+      "name": "MySQL :: Contact a MySQL Sales Representative",
+      "tokens": [
+        "mysql",
+        "contact",
+        "mysql",
+        "sales",
+        "representative"
+      ]
+    },
+    {
+      "entityId": "hz.web.5079904955b24f95.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5079904955b24f95.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5079904955b24f95.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 94,
+      "charStart": 50,
+      "factId": "hz.web.5079904955b24f95.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.mysql.com/about/contact/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "mysql",
+        "com",
+        "about",
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 451,
+      "charStart": 146,
+      "factId": "hz.web.5079904955b24f95.fact.1",
+      "kind": "bullet",
+      "text": "MySQL :: Contact a MySQL Sales Representative Skip to Main Content The world's most popular open source database Contact MySQL | Login | Register -->MySQL.com -->Downloads -->Documentation -->Developer Zone Developer Zone Documentation Downloads MySQL.com Products Services Partners Customers Why MySQL?",
+      "tokens": [
+        "mysql",
+        "contact",
+        "mysql",
+        "sales",
+        "representative",
+        "skip",
+        "main",
+        "content",
+        "world",
+        "most",
+        "popular",
+        "open",
+        "source",
+        "database",
+        "contact",
+        "mysql",
+        "login",
+        "register",
+        "mysql",
+        "com",
+        "downloads",
+        "documentation",
+        "developer",
+        "zone",
+        "developer",
+        "zone",
+        "documentation",
+        "downloads",
+        "mysql",
+        "com",
+        "products",
+        "services",
+        "partners",
+        "customers",
+        "why",
+        "mysql"
+      ]
+    },
+    {
+      "charEnd": 968,
+      "charStart": 452,
+      "factId": "hz.web.5079904955b24f95.fact.2",
+      "kind": "bullet",
+      "text": "News & Events How to Buy Downloads Documentation Developer Zone Section Menu: Contact Sales USA: +1-866-221-0634 Canada: +1-866-221-0634 Germany: +49 89 143 01280 France: +33 1 57 60 83 57 Italy: +39 02 249 59 120 UK: +44 207 553 8447 Japan: 0120-065556 China: 400 669 0561 India: 0008001005870 More Countries &raquo; Contact Us Online &raquo; Contact a MySQL Sales Representative Login &raquo; using my Oracle Web account Sign Up &raquo; for an Oracle Web account MySQL.com is using Oracle SSO for authentication.",
+      "tokens": [
+        "news",
+        "events",
+        "buy",
+        "downloads",
+        "documentation",
+        "developer",
+        "zone",
+        "section",
+        "menu",
+        "contact",
+        "sales",
+        "usa",
+        "866",
+        "221",
+        "0634",
+        "canada",
+        "866",
+        "221",
+        "0634",
+        "germany",
+        "49",
+        "89",
+        "143",
+        "01280",
+        "france",
+        "33",
+        "57",
+        "60",
+        "83",
+        "57",
+        "italy",
+        "39",
+        "02",
+        "249",
+        "59",
+        "120",
+        "uk",
+        "44",
+        "207",
+        "553",
+        "8447",
+        "japan",
+        "0120",
+        "065556",
+        "china",
+        "400",
+        "669",
+        "0561",
+        "india",
+        "0008001005870",
+        "more",
+        "countries",
+        "raquo",
+        "contact",
+        "us",
+        "online",
+        "raquo",
+        "contact",
+        "mysql",
+        "sales",
+        "representative",
+        "login",
+        "raquo",
+        "using",
+        "oracle",
+        "web",
+        "account",
+        "sign",
+        "up",
+        "raquo",
+        "oracle",
+        "web",
+        "account",
+        "mysql",
+        "com",
+        "using",
+        "oracle",
+        "sso",
+        "authentication"
+      ]
+    },
+    {
+      "charEnd": 1035,
+      "charStart": 969,
+      "factId": "hz.web.5079904955b24f95.fact.3",
+      "kind": "bullet",
+      "text": "If you already have an Oracle Web account, click the Login link.",
+      "tokens": [
+        "if",
+        "already",
+        "have",
+        "oracle",
+        "web",
+        "account",
+        "click",
+        "login",
+        "link"
+      ]
+    },
+    {
+      "charEnd": 1143,
+      "charStart": 1036,
+      "factId": "hz.web.5079904955b24f95.fact.4",
+      "kind": "bullet",
+      "text": "Otherwise, you can signup for a free account by clicking the Sign Up link and following the instructions.",
+      "tokens": [
+        "otherwise",
+        "signup",
+        "free",
+        "account",
+        "clicking",
+        "sign",
+        "up",
+        "link",
+        "following",
+        "instructions"
+      ]
+    },
+    {
+      "charEnd": 1165,
+      "charStart": 1158,
+      "factId": "hz.web.5079904955b24f95.fact.5",
+      "kind": "bullet",
+      "text": "mysql",
+      "tokens": [
+        "mysql"
+      ]
+    },
+    {
+      "charEnd": 1175,
+      "charStart": 1166,
+      "factId": "hz.web.5079904955b24f95.fact.6",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 1184,
+      "charStart": 1176,
+      "factId": "hz.web.5079904955b24f95.fact.7",
+      "kind": "bullet",
+      "text": "oracle",
+      "tokens": [
+        "oracle"
+      ]
+    },
+    {
+      "charEnd": 1192,
+      "charStart": 1185,
+      "factId": "hz.web.5079904955b24f95.fact.8",
+      "kind": "bullet",
+      "text": "raquo",
+      "tokens": [
+        "raquo"
+      ]
+    },
+    {
+      "charEnd": 1200,
+      "charStart": 1193,
+      "factId": "hz.web.5079904955b24f95.fact.9",
+      "kind": "bullet",
+      "text": "sales",
+      "tokens": [
+        "sales"
+      ]
+    },
+    {
+      "charEnd": 1210,
+      "charStart": 1201,
+      "factId": "hz.web.5079904955b24f95.fact.10",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 1226,
+      "charStart": 1211,
+      "factId": "hz.web.5079904955b24f95.fact.11",
+      "kind": "bullet",
+      "text": "documentation",
+      "tokens": [
+        "documentation"
+      ]
+    },
+    {
+      "charEnd": 1238,
+      "charStart": 1227,
+      "factId": "hz.web.5079904955b24f95.fact.12",
+      "kind": "bullet",
+      "text": "downloads",
+      "tokens": [
+        "downloads"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 48,
+      "charStart": 1,
+      "headingId": "hz.web.5079904955b24f95.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "MySQL :: Contact a MySQL Sales Representative"
+    },
+    {
+      "charEnd": 144,
+      "charStart": 134,
+      "headingId": "hz.web.5079904955b24f95.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1156,
+      "charStart": 1145,
+      "headingId": "hz.web.5079904955b24f95.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1250,
+      "charStart": 1240,
+      "headingId": "hz.web.5079904955b24f95.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5079904955b24f95.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3262,
+        "start": 0
+      }
+    ],
+    "hash": "b1c5185156dc5690bf8f0c0bb7cb1d9308787f4a6b58b1bca4cd35975adbea1d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.5079904955b24f95.rule.1",
+      "text": "For general questions, see the FAQ Phone a MySQL Sales Representative &raquo; Contact MySQL Sales USA/Canada: +1-866-221-0634 ( More Countries &raquo; ) &copy; 2026 Oracle Products MySQL HeatWave MySQL Enterprise Edition MySQL Standard Edition MySQL Classic Edition MySQL Cluster CGE MySQL Embedded (OEM/ISV) Services Training Certification Support Downloads MySQL Community Server MySQL NDB Cluster MySQL Shell MySQL Router MySQL Workbench Documentation MySQL Reference Manual MySQL Workbench MySQL NDB Cluster MySQL Connectors Topic Guides About MySQL Contact Us Blogs How to Buy Partners Job Opportunities Site Map English ( Deutsch | Français | Italiano | 日本 | 中文 ) &copy; 2026 Oracle Privacy / Do Not Sell My Info | Terms of Use | Trademark Policy |",
+      "tokens": [
+        "general",
+        "questions",
+        "see",
+        "faq",
+        "phone",
+        "mysql",
+        "sales",
+        "representative",
+        "raquo",
+        "contact",
+        "mysql",
+        "sales",
+        "usa",
+        "canada",
+        "866",
+        "221",
+        "0634",
+        "more",
+        "countries",
+        "raquo",
+        "copy",
+        "2026",
+        "oracle",
+        "products",
+        "mysql",
+        "heatwave",
+        "mysql",
+        "enterprise",
+        "edition",
+        "mysql",
+        "standard",
+        "edition",
+        "mysql",
+        "classic",
+        "edition",
+        "mysql",
+        "cluster",
+        "cge",
+        "mysql",
+        "embedded",
+        "oem",
+        "isv",
+        "services",
+        "training",
+        "certification",
+        "support",
+        "downloads",
+        "mysql",
+        "community",
+        "server",
+        "mysql",
+        "ndb",
+        "cluster",
+        "mysql",
+        "shell",
+        "mysql",
+        "router",
+        "mysql",
+        "workbench",
+        "documentation",
+        "mysql",
+        "reference",
+        "manual",
+        "mysql",
+        "workbench",
+        "mysql",
+        "ndb",
+        "cluster",
+        "mysql",
+        "connectors",
+        "topic",
+        "guides",
+        "about",
+        "mysql",
+        "contact",
+        "us",
+        "blogs",
+        "buy",
+        "partners",
+        "job",
+        "opportunities",
+        "site",
+        "map",
+        "english",
+        "deutsch",
+        "fran",
+        "ais",
+        "italiano",
+        "copy",
+        "2026",
+        "oracle",
+        "privacy",
+        "not",
+        "sell",
+        "info",
+        "terms",
+        "use",
+        "trademark",
+        "policy"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "MySQL :: Contact a MySQL Sales Representative Skip to Main Content The world's most popular open source database Contact MySQL | Login | Register -->MySQL.com -->Downloads -->Documentation -->Developer Zone Developer Zone Documentation Downloads MySQL.com Products Services Partners Customers Why MySQL?",
+      "News & Events How to Buy Downloads Documentation Developer Zone Section Menu: Contact Sales USA: +1-866-221-0634 Canada: +1-866-221-0634 Germany: +49 89 143 01280 France: +33 1 57 60 83 57 Italy: +39 02 249 59 120 UK: +44 207 553 8447 Japan: 0120-065556 China: 400 669 0561 India: 0008001005870 More Countries &raquo; Contact Us Online &raquo; Contact a MySQL Sales Representative Login &raquo; using my Oracle Web account Sign Up &raquo; for an Oracle Web account MySQL.com is using Oracle SSO for authentication.",
+      "If you already have an Oracle Web account, click the Login link."
+    ],
+    "medium": "Source: https://www.mysql.com/about/contact/",
+    "short": "Source: https://www.mysql.com/about/contact/",
+    "tokens": [
+      "mysql",
+      "contact",
+      "mysql",
+      "sales",
+      "representative",
+      "source",
+      "https",
+      "www",
+      "mysql",
+      "com",
+      "about",
+      "contact",
+      "source",
+      "https",
+      "www",
+      "mysql",
+      "com",
+      "about",
+      "contact"
+    ]
+  },
+  "title": "MySQL :: Contact a MySQL Sales Representative"
+}

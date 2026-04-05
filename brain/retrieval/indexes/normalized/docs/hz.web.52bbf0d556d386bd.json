@@ -1,0 +1,308 @@
+{
+  "aliases": [
+    {
+      "alias": "52bbf0d556d386bd",
+      "aliasId": "hz.web.52bbf0d556d386bd.alias.1",
+      "canonical": "index - lettuceshare"
+    },
+    {
+      "alias": "index - lettuceshare",
+      "aliasId": "hz.web.52bbf0d556d386bd.alias.2",
+      "canonical": "index - lettuceshare"
+    },
+    {
+      "alias": "web 52bbf0d556d386bd",
+      "aliasId": "hz.web.52bbf0d556d386bd.alias.3",
+      "canonical": "index - lettuceshare"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.61,
+  "docId": "hz.web.52bbf0d556d386bd",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.52bbf0d556d386bd.entity.1",
+      "kind": "document",
+      "name": "index - lettuceshare",
+      "tokens": [
+        "index",
+        "lettuceshare"
+      ]
+    },
+    {
+      "entityId": "hz.web.52bbf0d556d386bd.entity.2",
+      "kind": "heading",
+      "name": "index - lettuceshare",
+      "tokens": [
+        "index",
+        "lettuceshare"
+      ]
+    },
+    {
+      "entityId": "hz.web.52bbf0d556d386bd.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.52bbf0d556d386bd.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.52bbf0d556d386bd.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 25,
+      "factId": "hz.web.52bbf0d556d386bd.fact.1",
+      "kind": "summary",
+      "text": "Source: https://lettuceshare.org/",
+      "tokens": [
+        "source",
+        "https",
+        "lettuceshare",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 208,
+      "charStart": 110,
+      "factId": "hz.web.52bbf0d556d386bd.fact.1",
+      "kind": "bullet",
+      "text": "index - lettuceshare Login Welcome to Lettuceshare Use Lettuceshare to manage your buying group.",
+      "tokens": [
+        "index",
+        "lettuceshare",
+        "login",
+        "welcome",
+        "lettuceshare",
+        "use",
+        "lettuceshare",
+        "manage",
+        "your",
+        "buying",
+        "group"
+      ]
+    },
+    {
+      "charEnd": 283,
+      "charStart": 209,
+      "factId": "hz.web.52bbf0d556d386bd.fact.2",
+      "kind": "bullet",
+      "text": "Looking for help running your co-op, community food group or shop front?",
+      "tokens": [
+        "looking",
+        "help",
+        "running",
+        "your",
+        "co",
+        "op",
+        "community",
+        "food",
+        "group",
+        "shop",
+        "front"
+      ]
+    },
+    {
+      "charEnd": 357,
+      "charStart": 284,
+      "factId": "hz.web.52bbf0d556d386bd.fact.3",
+      "kind": "bullet",
+      "text": "Use Lettuceshare to manage your memberships, stock lists and purchases.",
+      "tokens": [
+        "use",
+        "lettuceshare",
+        "manage",
+        "your",
+        "memberships",
+        "stock",
+        "lists",
+        "purchases"
+      ]
+    },
+    {
+      "charEnd": 439,
+      "charStart": 358,
+      "factId": "hz.web.52bbf0d556d386bd.fact.4",
+      "kind": "bullet",
+      "text": "It will save you time by automating ordering, invoicing and payment processing.",
+      "tokens": [
+        "will",
+        "save",
+        "time",
+        "automating",
+        "ordering",
+        "invoicing",
+        "payment",
+        "processing"
+      ]
+    },
+    {
+      "charEnd": 468,
+      "charStart": 454,
+      "factId": "hz.web.52bbf0d556d386bd.fact.5",
+      "kind": "bullet",
+      "text": "lettuceshare",
+      "tokens": [
+        "lettuceshare"
+      ]
+    },
+    {
+      "charEnd": 476,
+      "charStart": 469,
+      "factId": "hz.web.52bbf0d556d386bd.fact.6",
+      "kind": "bullet",
+      "text": "group",
+      "tokens": [
+        "group"
+      ]
+    },
+    {
+      "charEnd": 483,
+      "charStart": 477,
+      "factId": "hz.web.52bbf0d556d386bd.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 492,
+      "charStart": 484,
+      "factId": "hz.web.52bbf0d556d386bd.fact.8",
+      "kind": "bullet",
+      "text": "buying",
+      "tokens": [
+        "buying"
+      ]
+    },
+    {
+      "charEnd": 497,
+      "charStart": 493,
+      "factId": "hz.web.52bbf0d556d386bd.fact.9",
+      "kind": "bullet",
+      "text": "if",
+      "tokens": [
+        "if"
+      ]
+    },
+    {
+      "charEnd": 507,
+      "charStart": 498,
+      "factId": "hz.web.52bbf0d556d386bd.fact.10",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 514,
+      "charStart": 508,
+      "factId": "hz.web.52bbf0d556d386bd.fact.11",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 521,
+      "charStart": 515,
+      "factId": "hz.web.52bbf0d556d386bd.fact.12",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.52bbf0d556d386bd.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "index - lettuceshare"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.52bbf0d556d386bd.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 452,
+      "charStart": 441,
+      "headingId": "hz.web.52bbf0d556d386bd.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 533,
+      "charStart": 523,
+      "headingId": "hz.web.52bbf0d556d386bd.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/52bbf0d556d386bd.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1755,
+        "start": 0
+      }
+    ],
+    "hash": "043fbece0e81eb0c63919aded5c2eb615b2e705955e90d78b414e38a35e19a25",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "index - lettuceshare Login Welcome to Lettuceshare Use Lettuceshare to manage your buying group.",
+      "Looking for help running your co-op, community food group or shop front?",
+      "Use Lettuceshare to manage your memberships, stock lists and purchases."
+    ],
+    "medium": "Source: https://lettuceshare.org/",
+    "short": "Source: https://lettuceshare.org/",
+    "tokens": [
+      "index",
+      "lettuceshare",
+      "source",
+      "https",
+      "lettuceshare",
+      "org",
+      "source",
+      "https",
+      "lettuceshare",
+      "org"
+    ]
+  },
+  "title": "index - lettuceshare"
+}

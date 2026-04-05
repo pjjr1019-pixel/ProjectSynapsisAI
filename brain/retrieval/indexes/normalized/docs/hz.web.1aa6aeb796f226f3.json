@@ -1,0 +1,380 @@
+{
+  "aliases": [
+    {
+      "alias": "1aa6aeb796f226f3",
+      "aliasId": "hz.web.1aa6aeb796f226f3.alias.1",
+      "canonical": "icon-dot-gov"
+    },
+    {
+      "alias": "icon-dot-gov",
+      "aliasId": "hz.web.1aa6aeb796f226f3.alias.2",
+      "canonical": "icon-dot-gov"
+    },
+    {
+      "alias": "web 1aa6aeb796f226f3",
+      "aliasId": "hz.web.1aa6aeb796f226f3.alias.3",
+      "canonical": "icon-dot-gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.1aa6aeb796f226f3",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1aa6aeb796f226f3.entity.1",
+      "kind": "document",
+      "name": "icon-dot-gov",
+      "tokens": [
+        "icon",
+        "dot",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa6aeb796f226f3.entity.2",
+      "kind": "heading",
+      "name": "icon-dot-gov",
+      "tokens": [
+        "icon",
+        "dot",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa6aeb796f226f3.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa6aeb796f226f3.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1aa6aeb796f226f3.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 85,
+      "charStart": 17,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.1",
+      "kind": "summary",
+      "text": "Source: https://designsystem.digital.gov/assets/img/icon-dot-gov.svg",
+      "tokens": [
+        "source",
+        "https",
+        "designsystem",
+        "digital",
+        "gov",
+        "assets",
+        "img",
+        "icon",
+        "dot",
+        "gov",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 772,
+      "charStart": 137,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><title>icon-dot-gov</title><path fill=\"#2378C3\" fill-rule=\"evenodd\" d=\"m32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm0 1.2c-17 0-30.8 13.8-30.8 30.8s13.8 30.8 30.8 30.8 30.8-13.8 30.8-30.8-13.8-30.8-30.8-30.8zm11.4 38.9c.5 0 .9.4.9.8v1.6h-24.6v-1.6c0-.5.4-.8.9-.8zm-17.1-12.3v9.8h1.6v-9.8h3.3v9.8h1.6v-9.8h3.3v9.8h1.6v-9.8h3.3v9.8h.8c.5 0 .9.4.9.8v.8h-21.4v-.8c0-.5.4-.8.9-.8h.8v-9.8zm5.7-8.2 12.3 4.9v1.6h-1.6c0 .5-.4.8-.9.8h-19.6c-.5 0-.9-.4-.9-.8h-1.6v-1.6s12.3-4.9 12.3-4.9z\"/></svg>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "svg",
+        "xmlns",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "2000",
+        "svg",
+        "width",
+        "64",
+        "height",
+        "64",
+        "viewbox",
+        "64",
+        "64",
+        "title",
+        "icon",
+        "dot",
+        "gov",
+        "title",
+        "path",
+        "fill",
+        "2378c3",
+        "fill",
+        "rule",
+        "evenodd",
+        "m32",
+        "0c17",
+        "32",
+        "14",
+        "32",
+        "32s",
+        "14",
+        "32",
+        "32",
+        "32",
+        "32",
+        "14",
+        "32",
+        "32",
+        "14",
+        "32",
+        "32",
+        "32zm0",
+        "2c",
+        "17",
+        "30",
+        "13",
+        "30",
+        "30",
+        "8s13",
+        "30",
+        "30",
+        "30",
+        "30",
+        "13",
+        "30",
+        "30",
+        "13",
+        "30",
+        "30",
+        "30",
+        "8zm11",
+        "38",
+        "9c",
+        "8v1",
+        "6h",
+        "24",
+        "6v",
+        "6c0",
+        "8zm",
+        "17",
+        "12",
+        "3v9",
+        "8h1",
+        "6v",
+        "8h3",
+        "3v9",
+        "8h1",
+        "6v",
+        "8h3",
+        "3v9",
+        "8h1",
+        "6v",
+        "8h3",
+        "3v9",
+        "8h",
+        "8c",
+        "8v",
+        "8h",
+        "21",
+        "4v",
+        "8c0",
+        "8h",
+        "8v",
+        "8zm5",
+        "12",
+        "9v1",
+        "6h",
+        "6c0",
+        "8h",
+        "19",
+        "6c",
+        "8h",
+        "6v",
+        "6s12",
+        "12",
+        "9z",
+        "svg"
+      ]
+    },
+    {
+      "charEnd": 791,
+      "charStart": 787,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.2",
+      "kind": "bullet",
+      "text": "30",
+      "tokens": [
+        "30"
+      ]
+    },
+    {
+      "charEnd": 796,
+      "charStart": 792,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.3",
+      "kind": "bullet",
+      "text": "32",
+      "tokens": [
+        "32"
+      ]
+    },
+    {
+      "charEnd": 801,
+      "charStart": 797,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.4",
+      "kind": "bullet",
+      "text": "6v",
+      "tokens": [
+        "6v"
+      ]
+    },
+    {
+      "charEnd": 806,
+      "charStart": 802,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.5",
+      "kind": "bullet",
+      "text": "8h",
+      "tokens": [
+        "8h"
+      ]
+    },
+    {
+      "charEnd": 811,
+      "charStart": 807,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.6",
+      "kind": "bullet",
+      "text": "14",
+      "tokens": [
+        "14"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 812,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.7",
+      "kind": "bullet",
+      "text": "3v9",
+      "tokens": [
+        "3v9"
+      ]
+    },
+    {
+      "charEnd": 822,
+      "charStart": 818,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.8",
+      "kind": "bullet",
+      "text": "64",
+      "tokens": [
+        "64"
+      ]
+    },
+    {
+      "charEnd": 827,
+      "charStart": 823,
+      "factId": "hz.web.1aa6aeb796f226f3.fact.9",
+      "kind": "bullet",
+      "text": "12",
+      "tokens": [
+        "12"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.1aa6aeb796f226f3.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "icon-dot-gov"
+    },
+    {
+      "charEnd": 135,
+      "charStart": 125,
+      "headingId": "hz.web.1aa6aeb796f226f3.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 785,
+      "charStart": 774,
+      "headingId": "hz.web.1aa6aeb796f226f3.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 839,
+      "charStart": 829,
+      "headingId": "hz.web.1aa6aeb796f226f3.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1aa6aeb796f226f3.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1731,
+        "start": 0
+      }
+    ],
+    "hash": "7fedb0cbec0038b8f4b903413ba52f9655569b7827d8d8b00ede3e9b1ebcb3f8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 64 64\"><title>icon-dot-gov</title><path fill=\"#2378C3\" fill-rule=\"evenodd\" d=\"m32 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm0 1.2c-17 0-30.8 13.8-30.8 30.8s13.8 30.8 30.8 30.8 30.8-13.8 30.8-30.8-13.8-30.8-30.8-30.8zm11.4 38.9c.5 0 .9.4.9.8v1.6h-24.6v-1.6c0-.5.4-.8.9-.8zm-17.1-12.3v9.8h1.6v-9.8h3.3v9.8h1.6v-9.8h3.3v9.8h1.6v-9.8h3.3v9.8h.8c.5 0 .9.4.9.8v.8h-21.4v-.8c0-.5.4-.8.9-.8h.8v-9.8zm5.7-8.2 12.3 4.9v1.6h-1.6c0 .5-.4.8-.9.8h-19.6c-.5 0-.9-.4-.9-.8h-1.6v-1.6s12.3-4.9 12.3-4.9z\"/></svg>",
+      "30",
+      "32"
+    ],
+    "medium": "Source: https://designsystem.digital.gov/assets/img/icon-dot-gov.svg",
+    "short": "Source: https://designsystem.digital.gov/assets/img/icon-dot-gov.svg",
+    "tokens": [
+      "icon",
+      "dot",
+      "gov",
+      "source",
+      "https",
+      "designsystem",
+      "digital",
+      "gov",
+      "assets",
+      "img",
+      "icon",
+      "dot",
+      "gov",
+      "svg",
+      "source",
+      "https",
+      "designsystem",
+      "digital",
+      "gov",
+      "assets",
+      "img",
+      "icon",
+      "dot",
+      "gov",
+      "svg"
+    ]
+  },
+  "title": "icon-dot-gov"
+}

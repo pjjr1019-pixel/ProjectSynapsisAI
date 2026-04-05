@@ -1,0 +1,11 @@
+{
+  "name": "tiny-tool-pack-v1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "128 tiny Node.js scripts with a registry for AI orchestrators.",
+  "type": "commonjs",
+  "scripts": {
+    "search": "node run-tool.js registry_search",
+    "list:tools": "node -e \"const t=require('./registry/tools_index.json');console.log(t.map(x=>x.id).join('\\n'))\""
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "aliases": [
+    {
+      "alias": "a70d1bc82eb83604",
+      "aliasId": "hz.web.a70d1bc82eb83604.alias.1",
+      "canonical": "keio university"
+    },
+    {
+      "alias": "keio university",
+      "aliasId": "hz.web.a70d1bc82eb83604.alias.2",
+      "canonical": "keio university"
+    },
+    {
+      "alias": "web a70d1bc82eb83604",
+      "aliasId": "hz.web.a70d1bc82eb83604.alias.3",
+      "canonical": "keio university"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.89,
+  "docId": "hz.web.a70d1bc82eb83604",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a70d1bc82eb83604.entity.1",
+      "kind": "document",
+      "name": "Keio University",
+      "tokens": [
+        "keio",
+        "university"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70d1bc82eb83604.entity.2",
+      "kind": "heading",
+      "name": "Keio University",
+      "tokens": [
+        "keio",
+        "university"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70d1bc82eb83604.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70d1bc82eb83604.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a70d1bc82eb83604.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 20,
+      "factId": "hz.web.a70d1bc82eb83604.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.keio.ac.jp/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "keio",
+        "ac",
+        "jp"
+      ]
+    },
+    {
+      "charEnd": 222,
+      "charStart": 103,
+      "factId": "hz.web.a70d1bc82eb83604.fact.1",
+      "kind": "bullet",
+      "text": "Keio University Jump to the content Jump to the navigation Header start 慶應義塾 Keio University Content start Fri., Mar.",
+      "tokens": [
+        "keio",
+        "university",
+        "jump",
+        "content",
+        "jump",
+        "navigation",
+        "header",
+        "start",
+        "keio",
+        "university",
+        "content",
+        "start",
+        "fri",
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 344,
+      "charStart": 223,
+      "factId": "hz.web.a70d1bc82eb83604.fact.2",
+      "kind": "bullet",
+      "text": "27, 2026 【Live Stream】AY 2026 Undergraduate Entrance Ceremony (April 1, 2026, 14:00) Links to external sites Fri., Mar.",
+      "tokens": [
+        "27",
+        "2026",
+        "live",
+        "stream",
+        "ay",
+        "2026",
+        "undergraduate",
+        "entrance",
+        "ceremony",
+        "april",
+        "2026",
+        "14",
+        "00",
+        "links",
+        "external",
+        "sites",
+        "fri",
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 674,
+      "charStart": 345,
+      "factId": "hz.web.a70d1bc82eb83604.fact.3",
+      "kind": "bullet",
+      "text": "27, 2026 【Live Stream】AY 2026 Graduate Entrance Ceremony (April 1, 2026, 9:30) Links to external sites Featured News & Events Keio Times Recommended Featured AY 2025 Undergraduate and Graduate Commencement Ceremonies: 6,231 Undergraduate and 1,599 Graduate Students Embark on a New Chapter Notes from the President's Office No.",
+      "tokens": [
+        "27",
+        "2026",
+        "live",
+        "stream",
+        "ay",
+        "2026",
+        "graduate",
+        "entrance",
+        "ceremony",
+        "april",
+        "2026",
+        "30",
+        "links",
+        "external",
+        "sites",
+        "featured",
+        "news",
+        "events",
+        "keio",
+        "times",
+        "recommended",
+        "featured",
+        "ay",
+        "2025",
+        "undergraduate",
+        "graduate",
+        "commencement",
+        "ceremonies",
+        "231",
+        "undergraduate",
+        "599",
+        "graduate",
+        "students",
+        "embark",
+        "new",
+        "chapter",
+        "notes",
+        "president",
+        "office",
+        "no"
+      ]
+    },
+    {
+      "charEnd": 1033,
+      "charStart": 675,
+      "factId": "hz.web.a70d1bc82eb83604.fact.4",
+      "kind": "bullet",
+      "text": "14 What It Means to Compete with AI: Towards Realizing the World's Top AI-Native Campus President Itoh and Vice-President Tsuchiya Attend U7+ Presidential Delegates Meeting \"Meet Our Researchers\" Now Available Links to external sites Keio and Notion Launch Strategic Collaboration to Realize a Top Global AI-Native University Editor-in-Chief of Nature, Dr.",
+      "tokens": [
+        "14",
+        "means",
+        "compete",
+        "ai",
+        "towards",
+        "realizing",
+        "world",
+        "top",
+        "ai",
+        "native",
+        "campus",
+        "president",
+        "itoh",
+        "vice",
+        "president",
+        "tsuchiya",
+        "attend",
+        "u7",
+        "presidential",
+        "delegates",
+        "meeting",
+        "meet",
+        "our",
+        "researchers",
+        "now",
+        "available",
+        "links",
+        "external",
+        "sites",
+        "keio",
+        "notion",
+        "launch",
+        "strategic",
+        "collaboration",
+        "realize",
+        "top",
+        "global",
+        "ai",
+        "native",
+        "university",
+        "editor",
+        "chief",
+        "nature",
+        "dr"
+      ]
+    },
+    {
+      "charEnd": 1054,
+      "charStart": 1048,
+      "factId": "hz.web.a70d1bc82eb83604.fact.5",
+      "kind": "bullet",
+      "text": "keio",
+      "tokens": [
+        "keio"
+      ]
+    },
+    {
+      "charEnd": 1061,
+      "charStart": 1055,
+      "factId": "hz.web.a70d1bc82eb83604.fact.6",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1072,
+      "charStart": 1062,
+      "factId": "hz.web.a70d1bc82eb83604.fact.7",
+      "kind": "bullet",
+      "text": "graduate",
+      "tokens": [
+        "graduate"
+      ]
+    },
+    {
+      "charEnd": 1080,
+      "charStart": 1073,
+      "factId": "hz.web.a70d1bc82eb83604.fact.8",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 1091,
+      "charStart": 1081,
+      "factId": "hz.web.a70d1bc82eb83604.fact.9",
+      "kind": "bullet",
+      "text": "research",
+      "tokens": [
+        "research"
+      ]
+    },
+    {
+      "charEnd": 1104,
+      "charStart": 1092,
+      "factId": "hz.web.a70d1bc82eb83604.fact.10",
+      "kind": "bullet",
+      "text": "university",
+      "tokens": [
+        "university"
+      ]
+    },
+    {
+      "charEnd": 1115,
+      "charStart": 1105,
+      "factId": "hz.web.a70d1bc82eb83604.fact.11",
+      "kind": "bullet",
+      "text": "external",
+      "tokens": [
+        "external"
+      ]
+    },
+    {
+      "charEnd": 1121,
+      "charStart": 1116,
+      "factId": "hz.web.a70d1bc82eb83604.fact.12",
+      "kind": "bullet",
+      "text": "mar",
+      "tokens": [
+        "mar"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.a70d1bc82eb83604.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Keio University"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.a70d1bc82eb83604.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1046,
+      "charStart": 1035,
+      "headingId": "hz.web.a70d1bc82eb83604.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1133,
+      "charStart": 1123,
+      "headingId": "hz.web.a70d1bc82eb83604.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/a70d1bc82eb83604.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4358,
+        "start": 0
+      }
+    ],
+    "hash": "a40400e71ae18bc7bf9aa21bf42b5803df9bb23d83ee52696f8a5c7ca38bb915",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Keio University Jump to the content Jump to the navigation Header start 慶應義塾 Keio University Content start Fri., Mar.",
+      "27, 2026 【Live Stream】AY 2026 Undergraduate Entrance Ceremony (April 1, 2026, 14:00) Links to external sites Fri., Mar.",
+      "27, 2026 【Live Stream】AY 2026 Graduate Entrance Ceremony (April 1, 2026, 9:30) Links to external sites Featured News & Events Keio Times Recommended Featured AY 2025 Undergraduate and Graduate Commencement Ceremonies: 6,231 Undergraduate and 1,599 Graduate Students Embark on a New Chapter Notes from the President's Office No."
+    ],
+    "medium": "Source: https://www.keio.ac.jp/",
+    "short": "Source: https://www.keio.ac.jp/",
+    "tokens": [
+      "keio",
+      "university",
+      "source",
+      "https",
+      "www",
+      "keio",
+      "ac",
+      "jp",
+      "source",
+      "https",
+      "www",
+      "keio",
+      "ac",
+      "jp"
+    ]
+  },
+  "title": "Keio University"
+}

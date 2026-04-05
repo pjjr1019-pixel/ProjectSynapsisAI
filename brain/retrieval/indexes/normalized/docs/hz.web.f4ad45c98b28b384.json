@@ -1,0 +1,423 @@
+{
+  "aliases": [
+    {
+      "alias": "f4ad45c98b28b384",
+      "aliasId": "hz.web.f4ad45c98b28b384.alias.1",
+      "canonical": "updates - dobrado"
+    },
+    {
+      "alias": "updates - dobrado",
+      "aliasId": "hz.web.f4ad45c98b28b384.alias.2",
+      "canonical": "updates - dobrado"
+    },
+    {
+      "alias": "web f4ad45c98b28b384",
+      "aliasId": "hz.web.f4ad45c98b28b384.alias.3",
+      "canonical": "updates - dobrado"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.f4ad45c98b28b384",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f4ad45c98b28b384.entity.1",
+      "kind": "document",
+      "name": "updates - dobrado",
+      "tokens": [
+        "updates",
+        "dobrado"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4ad45c98b28b384.entity.2",
+      "kind": "heading",
+      "name": "updates - dobrado",
+      "tokens": [
+        "updates",
+        "dobrado"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4ad45c98b28b384.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4ad45c98b28b384.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f4ad45c98b28b384.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 57,
+      "charStart": 22,
+      "factId": "hz.web.f4ad45c98b28b384.fact.1",
+      "kind": "summary",
+      "text": "Source: https://dobrado.net/updates",
+      "tokens": [
+        "source",
+        "https",
+        "dobrado",
+        "net",
+        "updates"
+      ]
+    },
+    {
+      "charEnd": 473,
+      "charStart": 109,
+      "factId": "hz.web.f4ad45c98b28b384.fact.1",
+      "kind": "bullet",
+      "text": "updates - dobrado Dobrado updates feed dobrado Payment By dobrado on 3 July 2022, 7:00pm Add GSB importer payment 3 true Stock By dobrado on 6 June 2022, 5:00pm Fix Ecofarms importer stock 11 true Stock By dobrado on 2 February 2022, 7:00pm Fix typo in last commit stock 10 true Stock By dobrado on 29 January 2022, 6:00pm Add sku check to export format as well.",
+      "tokens": [
+        "updates",
+        "dobrado",
+        "dobrado",
+        "updates",
+        "feed",
+        "dobrado",
+        "payment",
+        "dobrado",
+        "july",
+        "2022",
+        "00pm",
+        "add",
+        "gsb",
+        "importer",
+        "payment",
+        "true",
+        "stock",
+        "dobrado",
+        "june",
+        "2022",
+        "00pm",
+        "fix",
+        "ecofarms",
+        "importer",
+        "stock",
+        "11",
+        "true",
+        "stock",
+        "dobrado",
+        "february",
+        "2022",
+        "00pm",
+        "fix",
+        "typo",
+        "last",
+        "commit",
+        "stock",
+        "10",
+        "true",
+        "stock",
+        "dobrado",
+        "29",
+        "january",
+        "2022",
+        "00pm",
+        "add",
+        "sku",
+        "check",
+        "export",
+        "format",
+        "well"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 474,
+      "factId": "hz.web.f4ad45c98b28b384.fact.2",
+      "kind": "bullet",
+      "text": "stock 9 true Stock By dobrado on 27 December 2021, 8:00pm Add SKU's to Stock module.",
+      "tokens": [
+        "stock",
+        "true",
+        "stock",
+        "dobrado",
+        "27",
+        "december",
+        "2021",
+        "00pm",
+        "add",
+        "sku",
+        "stock",
+        "module"
+      ]
+    },
+    {
+      "charEnd": 673,
+      "charStart": 561,
+      "factId": "hz.web.f4ad45c98b28b384.fact.3",
+      "kind": "bullet",
+      "text": "stock 8 true Payment By dobrado on 20 December 2021, 5:00pm Add modified NAB import format to payments module.",
+      "tokens": [
+        "stock",
+        "true",
+        "payment",
+        "dobrado",
+        "20",
+        "december",
+        "2021",
+        "00pm",
+        "add",
+        "modified",
+        "nab",
+        "import",
+        "format",
+        "payments",
+        "module"
+      ]
+    },
+    {
+      "charEnd": 819,
+      "charStart": 674,
+      "factId": "hz.web.f4ad45c98b28b384.fact.4",
+      "kind": "bullet",
+      "text": "payment 2 true Xero OAuth By dobrado on 20 September 2021, 1:00pm Create a contact if the name given for the invoice doesn't have a contact_id.",
+      "tokens": [
+        "payment",
+        "true",
+        "xero",
+        "oauth",
+        "dobrado",
+        "20",
+        "september",
+        "2021",
+        "00pm",
+        "create",
+        "contact",
+        "if",
+        "name",
+        "given",
+        "invoice",
+        "doesn",
+        "have",
+        "contact_id"
+      ]
+    },
+    {
+      "charEnd": 843,
+      "charStart": 834,
+      "factId": "hz.web.f4ad45c98b28b384.fact.5",
+      "kind": "bullet",
+      "text": "dobrado",
+      "tokens": [
+        "dobrado"
+      ]
+    },
+    {
+      "charEnd": 850,
+      "charStart": 844,
+      "factId": "hz.web.f4ad45c98b28b384.fact.6",
+      "kind": "bullet",
+      "text": "00pm",
+      "tokens": [
+        "00pm"
+      ]
+    },
+    {
+      "charEnd": 857,
+      "charStart": 851,
+      "factId": "hz.web.f4ad45c98b28b384.fact.7",
+      "kind": "bullet",
+      "text": "true",
+      "tokens": [
+        "true"
+      ]
+    },
+    {
+      "charEnd": 864,
+      "charStart": 858,
+      "factId": "hz.web.f4ad45c98b28b384.fact.8",
+      "kind": "bullet",
+      "text": "2019",
+      "tokens": [
+        "2019"
+      ]
+    },
+    {
+      "charEnd": 873,
+      "charStart": 865,
+      "factId": "hz.web.f4ad45c98b28b384.fact.9",
+      "kind": "bullet",
+      "text": "reader",
+      "tokens": [
+        "reader"
+      ]
+    },
+    {
+      "charEnd": 881,
+      "charStart": 874,
+      "factId": "hz.web.f4ad45c98b28b384.fact.10",
+      "kind": "bullet",
+      "text": "false",
+      "tokens": [
+        "false"
+      ]
+    },
+    {
+      "charEnd": 892,
+      "charStart": 882,
+      "factId": "hz.web.f4ad45c98b28b384.fact.11",
+      "kind": "bullet",
+      "text": "november",
+      "tokens": [
+        "november"
+      ]
+    },
+    {
+      "charEnd": 899,
+      "charStart": 893,
+      "factId": "hz.web.f4ad45c98b28b384.fact.12",
+      "kind": "bullet",
+      "text": "2020",
+      "tokens": [
+        "2020"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.f4ad45c98b28b384.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "updates - dobrado"
+    },
+    {
+      "charEnd": 107,
+      "charStart": 97,
+      "headingId": "hz.web.f4ad45c98b28b384.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 832,
+      "charStart": 821,
+      "headingId": "hz.web.f4ad45c98b28b384.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 911,
+      "charStart": 901,
+      "headingId": "hz.web.f4ad45c98b28b384.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/f4ad45c98b28b384.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4142,
+        "start": 0
+      }
+    ],
+    "hash": "5bff9c6a30b12831c02669298a42e55f1cbc98f3eb7a98045144ad35d5385ceb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.f4ad45c98b28b384.rule.1",
+      "text": "cart 15 true Xero2 module support By dobrado on 23 August 2021, 2:00pm Vendor folder required for new Xero2 module and oauth callback file for new Xero api.",
+      "tokens": [
+        "cart",
+        "15",
+        "true",
+        "xero2",
+        "module",
+        "support",
+        "dobrado",
+        "23",
+        "august",
+        "2021",
+        "00pm",
+        "vendor",
+        "folder",
+        "required",
+        "new",
+        "xero2",
+        "module",
+        "oauth",
+        "callback",
+        "file",
+        "new",
+        "xero",
+        "api"
+      ]
+    },
+    {
+      "ruleId": "hz.web.f4ad45c98b28b384.rule.2",
+      "text": "reader 45 true Purchase By dobrado on 21 November 2020, 11:00pm Added ActiveUsers again as it includes buyers who don't receive an invoice.",
+      "tokens": [
+        "reader",
+        "45",
+        "true",
+        "purchase",
+        "dobrado",
+        "21",
+        "november",
+        "2020",
+        "11",
+        "00pm",
+        "added",
+        "activeusers",
+        "again",
+        "includes",
+        "buyers",
+        "don",
+        "receive",
+        "invoice"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "updates - dobrado Dobrado updates feed dobrado Payment By dobrado on 3 July 2022, 7:00pm Add GSB importer payment 3 true Stock By dobrado on 6 June 2022, 5:00pm Fix Ecofarms importer stock 11 true Stock By dobrado on 2 February 2022, 7:00pm Fix typo in last commit stock 10 true Stock By dobrado on 29 January 2022, 6:00pm Add sku check to export format as well.",
+      "stock 9 true Stock By dobrado on 27 December 2021, 8:00pm Add SKU's to Stock module.",
+      "stock 8 true Payment By dobrado on 20 December 2021, 5:00pm Add modified NAB import format to payments module."
+    ],
+    "medium": "Source: https://dobrado.net/updates",
+    "short": "Source: https://dobrado.net/updates",
+    "tokens": [
+      "updates",
+      "dobrado",
+      "source",
+      "https",
+      "dobrado",
+      "net",
+      "updates",
+      "source",
+      "https",
+      "dobrado",
+      "net",
+      "updates"
+    ]
+  },
+  "title": "updates - dobrado"
+}

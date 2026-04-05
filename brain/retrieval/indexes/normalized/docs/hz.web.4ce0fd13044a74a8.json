@@ -1,0 +1,373 @@
+{
+  "aliases": [
+    {
+      "alias": "4ce0fd13044a74a8",
+      "aliasId": "hz.web.4ce0fd13044a74a8.alias.1",
+      "canonical": "cdn.socrata.com"
+    },
+    {
+      "alias": "cdn.socrata.com",
+      "aliasId": "hz.web.4ce0fd13044a74a8.alias.2",
+      "canonical": "cdn.socrata.com"
+    },
+    {
+      "alias": "web 4ce0fd13044a74a8",
+      "aliasId": "hz.web.4ce0fd13044a74a8.alias.3",
+      "canonical": "cdn.socrata.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.4ce0fd13044a74a8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4ce0fd13044a74a8.entity.1",
+      "kind": "document",
+      "name": "cdn.socrata.com",
+      "tokens": [
+        "cdn",
+        "socrata",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ce0fd13044a74a8.entity.2",
+      "kind": "heading",
+      "name": "cdn.socrata.com",
+      "tokens": [
+        "cdn",
+        "socrata",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ce0fd13044a74a8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ce0fd13044a74a8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4ce0fd13044a74a8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 185,
+      "charStart": 20,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cdn.socrata.com/frontend/F26-HF-4/asset_pipeline/socrata_site_chrome/application-e3aeec5fd5935b99828fb8f43ec8a1afd3aad7f84cc15ac5eafc65b5ad8ef866.css",
+      "tokens": [
+        "source",
+        "https",
+        "cdn",
+        "socrata",
+        "com",
+        "frontend",
+        "f26",
+        "hf",
+        "asset_pipeline",
+        "socrata_site_chrome",
+        "application",
+        "e3aeec5fd5935b99828fb8f43ec8a1afd3aad7f84cc15ac5eafc65b5ad8ef866",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 358,
+      "charStart": 237,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.1",
+      "kind": "bullet",
+      "text": "/* * This is a manifest file that'll be compiled into application.css, which will include all the files * listed below.",
+      "tokens": [
+        "manifest",
+        "file",
+        "ll",
+        "compiled",
+        "into",
+        "application",
+        "css",
+        "will",
+        "include",
+        "all",
+        "files",
+        "listed",
+        "below"
+      ]
+    },
+    {
+      "charEnd": 560,
+      "charStart": 359,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.2",
+      "kind": "bullet",
+      "text": "* * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets, * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.",
+      "tokens": [
+        "any",
+        "css",
+        "scss",
+        "file",
+        "within",
+        "directory",
+        "lib",
+        "assets",
+        "stylesheets",
+        "vendor",
+        "assets",
+        "stylesheets",
+        "any",
+        "plugin",
+        "vendor",
+        "assets",
+        "stylesheets",
+        "directory",
+        "referenced",
+        "here",
+        "using",
+        "relative",
+        "path"
+      ]
+    },
+    {
+      "charEnd": 812,
+      "charStart": 561,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.3",
+      "kind": "bullet",
+      "text": "* * You're free to add application-wide styles to this file and they'll appear at the bottom of the * compiled file so the styles you add here take precedence over styles defined in any styles * defined in the other CSS/SCSS files in this directory.",
+      "tokens": [
+        "re",
+        "free",
+        "add",
+        "application",
+        "wide",
+        "styles",
+        "file",
+        "ll",
+        "appear",
+        "bottom",
+        "compiled",
+        "file",
+        "so",
+        "styles",
+        "add",
+        "here",
+        "take",
+        "precedence",
+        "over",
+        "styles",
+        "defined",
+        "any",
+        "styles",
+        "defined",
+        "other",
+        "css",
+        "scss",
+        "files",
+        "directory"
+      ]
+    },
+    {
+      "charEnd": 877,
+      "charStart": 813,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.4",
+      "kind": "bullet",
+      "text": "It is generally better to create a new * file per style scope.",
+      "tokens": [
+        "generally",
+        "better",
+        "create",
+        "new",
+        "file",
+        "per",
+        "style",
+        "scope"
+      ]
+    },
+    {
+      "charEnd": 898,
+      "charStart": 892,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.5",
+      "kind": "bullet",
+      "text": "file",
+      "tokens": [
+        "file"
+      ]
+    },
+    {
+      "charEnd": 907,
+      "charStart": 899,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.6",
+      "kind": "bullet",
+      "text": "styles",
+      "tokens": [
+        "styles"
+      ]
+    },
+    {
+      "charEnd": 913,
+      "charStart": 908,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.7",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 922,
+      "charStart": 914,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.8",
+      "kind": "bullet",
+      "text": "assets",
+      "tokens": [
+        "assets"
+      ]
+    },
+    {
+      "charEnd": 928,
+      "charStart": 923,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.9",
+      "kind": "bullet",
+      "text": "css",
+      "tokens": [
+        "css"
+      ]
+    },
+    {
+      "charEnd": 940,
+      "charStart": 929,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.10",
+      "kind": "bullet",
+      "text": "directory",
+      "tokens": [
+        "directory"
+      ]
+    },
+    {
+      "charEnd": 954,
+      "charStart": 941,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.11",
+      "kind": "bullet",
+      "text": "stylesheets",
+      "tokens": [
+        "stylesheets"
+      ]
+    },
+    {
+      "charEnd": 960,
+      "charStart": 955,
+      "factId": "hz.web.4ce0fd13044a74a8.fact.12",
+      "kind": "bullet",
+      "text": "add",
+      "tokens": [
+        "add"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.4ce0fd13044a74a8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cdn.socrata.com"
+    },
+    {
+      "charEnd": 235,
+      "charStart": 225,
+      "headingId": "hz.web.4ce0fd13044a74a8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 890,
+      "charStart": 879,
+      "headingId": "hz.web.4ce0fd13044a74a8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 972,
+      "charStart": 962,
+      "headingId": "hz.web.4ce0fd13044a74a8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/4ce0fd13044a74a8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1968,
+        "start": 0
+      }
+    ],
+    "hash": "30c14e7ec0eb2cfb2f821d5ae2dd1f08f20dd38e4be53b8fd50afd3ffbea3f53",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* * This is a manifest file that'll be compiled into application.css, which will include all the files * listed below.",
+      "* * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets, * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.",
+      "* * You're free to add application-wide styles to this file and they'll appear at the bottom of the * compiled file so the styles you add here take precedence over styles defined in any styles * defined in the other CSS/SCSS files in this directory."
+    ],
+    "medium": "Source: https://cdn.socrata.com/frontend/F26-HF-4/asset_pipeline/socrata_site_chrome/application-e3aeec5fd5935b99828fb8f43ec8a1afd3aad7f84cc15ac5eafc65b5ad8ef866.css",
+    "short": "Source: https://cdn.socrata.com/frontend/F26-HF-4/asset_pipeline/socrata_site_chrome/application-e3aeec5fd5935b99828fb8f43ec8a1afd3aad7f84cc15ac5eafc65b5ad8ef866.css",
+    "tokens": [
+      "cdn",
+      "socrata",
+      "com",
+      "source",
+      "https",
+      "cdn",
+      "socrata",
+      "com",
+      "frontend",
+      "f26",
+      "hf",
+      "asset_pipeline",
+      "socrata_site_chrome",
+      "application",
+      "e3aeec5fd5935b99828fb8f43ec8a1afd3aad7f84cc15ac5eafc65b5ad8ef866",
+      "css",
+      "source",
+      "https",
+      "cdn",
+      "socrata",
+      "com",
+      "frontend",
+      "f26",
+      "hf",
+      "asset_pipeline",
+      "socrata_site_chrome",
+      "application",
+      "e3aeec5fd5935b99828fb8f43ec8a1afd3aad7f84cc15ac5eafc65b5ad8ef866",
+      "css"
+    ]
+  },
+  "title": "cdn.socrata.com"
+}

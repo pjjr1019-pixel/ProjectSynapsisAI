@@ -1,0 +1,382 @@
+{
+  "aliases": [
+    {
+      "alias": "317c929c49055c33",
+      "aliasId": "hz.web.317c929c49055c33.alias.1",
+      "canonical": "shop.rsms.me"
+    },
+    {
+      "alias": "shop.rsms.me",
+      "aliasId": "hz.web.317c929c49055c33.alias.2",
+      "canonical": "shop.rsms.me"
+    },
+    {
+      "alias": "web 317c929c49055c33",
+      "aliasId": "hz.web.317c929c49055c33.alias.3",
+      "canonical": "shop.rsms.me"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.317c929c49055c33",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.317c929c49055c33.entity.1",
+      "kind": "document",
+      "name": "shop.rsms.me",
+      "tokens": [
+        "shop",
+        "rsms"
+      ]
+    },
+    {
+      "entityId": "hz.web.317c929c49055c33.entity.2",
+      "kind": "heading",
+      "name": "shop.rsms.me",
+      "tokens": [
+        "shop",
+        "rsms"
+      ]
+    },
+    {
+      "entityId": "hz.web.317c929c49055c33.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.317c929c49055c33.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.317c929c49055c33.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 87,
+      "charStart": 17,
+      "factId": "hz.web.317c929c49055c33.fact.1",
+      "kind": "summary",
+      "text": "Source: https://shop.rsms.me/products/fleeting-ampersand-poster.oembed",
+      "tokens": [
+        "source",
+        "https",
+        "shop",
+        "rsms",
+        "products",
+        "fleeting",
+        "ampersand",
+        "poster",
+        "oembed"
+      ]
+    },
+    {
+      "charEnd": 347,
+      "charStart": 139,
+      "factId": "hz.web.317c929c49055c33.fact.1",
+      "kind": "bullet",
+      "text": "{\"product_id\":\"fleeting-ampersand-poster\",\"title\":\"Fleeting Ampersand poster\",\"description\":\"\\u003cp\\u003eInter Variable ampersand glyph rendered in weights ranging from 100 to 900, with gradual coloration.",
+      "tokens": [
+        "product_id",
+        "fleeting",
+        "ampersand",
+        "poster",
+        "title",
+        "fleeting",
+        "ampersand",
+        "poster",
+        "description",
+        "u003cp",
+        "u003einter",
+        "variable",
+        "ampersand",
+        "glyph",
+        "rendered",
+        "weights",
+        "ranging",
+        "100",
+        "900",
+        "gradual",
+        "coloration"
+      ]
+    },
+    {
+      "charEnd": 1142,
+      "charStart": 348,
+      "factId": "hz.web.317c929c49055c33.fact.2",
+      "kind": "bullet",
+      "text": "Printed using Giclée printing process on museum-quality thick and durable matte 189 g\\/m² paper.\\u003c\\/p\\u003e\",\"brand\":\"rsms\",\"offers\":[{\"title\":\"24×36″ (610×914mm)\",\"offer_id\":41531786789056,\"sku\":\"9875652_2\",\"price\":29.0,\"currency_code\":\"USD\",\"in_stock\":true},{\"title\":\"18×24″ (457×610mm)\",\"offer_id\":41531786756288,\"sku\":\"9875652_1\",\"price\":24.0,\"currency_code\":\"USD\",\"in_stock\":true},{\"title\":\"12×16″ (305×406mm)\",\"offer_id\":41531786723520,\"sku\":\"2156297_1349\",\"price\":20.0,\"currency_code\":\"USD\",\"in_stock\":true}],\"thumbnail_url\":\"\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0504\\/5131\\/6928\\/products\\/enhanced-matte-paper-poster-_in_-24x36-front-61e872992dc03.jpg?v=1681767455\",\"url\":\"https:\\/\\/shop.rsms.me\\/products\\/fleeting-ampersand-poster\",\"provider\":\"rsms\",\"version\":\"1.0\",\"type\":\"link\"}",
+      "tokens": [
+        "printed",
+        "using",
+        "gicl",
+        "printing",
+        "process",
+        "museum",
+        "quality",
+        "thick",
+        "durable",
+        "matte",
+        "189",
+        "paper",
+        "u003c",
+        "u003e",
+        "brand",
+        "rsms",
+        "offers",
+        "title",
+        "24",
+        "36",
+        "610",
+        "914mm",
+        "offer_id",
+        "41531786789056",
+        "sku",
+        "9875652_2",
+        "price",
+        "29",
+        "currency_code",
+        "usd",
+        "in_stock",
+        "true",
+        "title",
+        "18",
+        "24",
+        "457",
+        "610mm",
+        "offer_id",
+        "41531786756288",
+        "sku",
+        "9875652_1",
+        "price",
+        "24",
+        "currency_code",
+        "usd",
+        "in_stock",
+        "true",
+        "title",
+        "12",
+        "16",
+        "305",
+        "406mm",
+        "offer_id",
+        "41531786723520",
+        "sku",
+        "2156297_1349",
+        "price",
+        "20",
+        "currency_code",
+        "usd",
+        "in_stock",
+        "true",
+        "thumbnail_url",
+        "cdn",
+        "shopify",
+        "com",
+        "files",
+        "0504",
+        "5131",
+        "6928",
+        "products",
+        "enhanced",
+        "matte",
+        "paper",
+        "poster",
+        "_in_",
+        "24x36",
+        "front",
+        "61e872992dc03",
+        "jpg",
+        "1681767455",
+        "url",
+        "https",
+        "shop",
+        "rsms",
+        "products",
+        "fleeting",
+        "ampersand",
+        "poster",
+        "provider",
+        "rsms",
+        "version",
+        "type",
+        "link"
+      ]
+    },
+    {
+      "charEnd": 1168,
+      "charStart": 1157,
+      "factId": "hz.web.317c929c49055c33.fact.3",
+      "kind": "bullet",
+      "text": "ampersand",
+      "tokens": [
+        "ampersand"
+      ]
+    },
+    {
+      "charEnd": 1177,
+      "charStart": 1169,
+      "factId": "hz.web.317c929c49055c33.fact.4",
+      "kind": "bullet",
+      "text": "poster",
+      "tokens": [
+        "poster"
+      ]
+    },
+    {
+      "charEnd": 1185,
+      "charStart": 1178,
+      "factId": "hz.web.317c929c49055c33.fact.5",
+      "kind": "bullet",
+      "text": "title",
+      "tokens": [
+        "title"
+      ]
+    },
+    {
+      "charEnd": 1190,
+      "charStart": 1186,
+      "factId": "hz.web.317c929c49055c33.fact.6",
+      "kind": "bullet",
+      "text": "24",
+      "tokens": [
+        "24"
+      ]
+    },
+    {
+      "charEnd": 1206,
+      "charStart": 1191,
+      "factId": "hz.web.317c929c49055c33.fact.7",
+      "kind": "bullet",
+      "text": "currency_code",
+      "tokens": [
+        "currency_code"
+      ]
+    },
+    {
+      "charEnd": 1217,
+      "charStart": 1207,
+      "factId": "hz.web.317c929c49055c33.fact.8",
+      "kind": "bullet",
+      "text": "fleeting",
+      "tokens": [
+        "fleeting"
+      ]
+    },
+    {
+      "charEnd": 1228,
+      "charStart": 1218,
+      "factId": "hz.web.317c929c49055c33.fact.9",
+      "kind": "bullet",
+      "text": "in_stock",
+      "tokens": [
+        "in_stock"
+      ]
+    },
+    {
+      "charEnd": 1239,
+      "charStart": 1229,
+      "factId": "hz.web.317c929c49055c33.fact.10",
+      "kind": "bullet",
+      "text": "offer_id",
+      "tokens": [
+        "offer_id"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.317c929c49055c33.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "shop.rsms.me"
+    },
+    {
+      "charEnd": 137,
+      "charStart": 127,
+      "headingId": "hz.web.317c929c49055c33.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1155,
+      "charStart": 1144,
+      "headingId": "hz.web.317c929c49055c33.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1251,
+      "charStart": 1241,
+      "headingId": "hz.web.317c929c49055c33.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/317c929c49055c33.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2511,
+        "start": 0
+      }
+    ],
+    "hash": "a6ddcf8cf582d247e0977edf3fe143a1f75451865a1bf62a6d0f419e8fb701bc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{\"product_id\":\"fleeting-ampersand-poster\",\"title\":\"Fleeting Ampersand poster\",\"description\":\"\\u003cp\\u003eInter Variable ampersand glyph rendered in weights ranging from 100 to 900, with gradual coloration.",
+      "Printed using Giclée printing process on museum-quality thick and durable matte 189 g\\/m² paper.\\u003c\\/p\\u003e\",\"brand\":\"rsms\",\"offers\":[{\"title\":\"24×36″ (610×914mm)\",\"offer_id\":41531786789056,\"sku\":\"9875652_2\",\"price\":29.0,\"currency_code\":\"USD\",\"in_stock\":true},{\"title\":\"18×24″ (457×610mm)\",\"offer_id\":41531786756288,\"sku\":\"9875652_1\",\"price\":24.0,\"currency_code\":\"USD\",\"in_stock\":true},{\"title\":\"12×16″ (305×406mm)\",\"offer_id\":41531786723520,\"sku\":\"2156297_1349\",\"price\":20.0,\"currency_code\":\"USD\",\"in_stock\":true}],\"thumbnail_url\":\"\\/\\/cdn.shopify.com\\/s\\/files\\/1\\/0504\\/5131\\/6928\\/products\\/enhanced-matte-paper-poster-_in_-24x36-front-61e872992dc03.jpg?v=1681767455\",\"url\":\"https:\\/\\/shop.rsms.me\\/products\\/fleeting-ampersand-poster\",\"provider\":\"rsms\",\"version\":\"1.0\",\"type\":\"link\"}",
+      "ampersand"
+    ],
+    "medium": "Source: https://shop.rsms.me/products/fleeting-ampersand-poster.oembed",
+    "short": "Source: https://shop.rsms.me/products/fleeting-ampersand-poster.oembed",
+    "tokens": [
+      "shop",
+      "rsms",
+      "source",
+      "https",
+      "shop",
+      "rsms",
+      "products",
+      "fleeting",
+      "ampersand",
+      "poster",
+      "oembed",
+      "source",
+      "https",
+      "shop",
+      "rsms",
+      "products",
+      "fleeting",
+      "ampersand",
+      "poster",
+      "oembed"
+    ]
+  },
+  "title": "shop.rsms.me"
+}

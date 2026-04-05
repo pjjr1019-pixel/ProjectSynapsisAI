@@ -1,0 +1,83 @@
+---
+schema_version: 1
+pack_id: "repo-knowledge-pack"
+card_type: "file-summary"
+source_path: "taskmanager/brain/scripts/ai-toolkit/brain-retry-controller.mjs"
+source_name: "brain-retry-controller.mjs"
+top_level: "taskmanager"
+surface: "brain-scripts"
+classification: "neutral"
+kind: "code"
+language: "javascript"
+extension: ".mjs"
+score: 112
+selected_rank: 126
+content_hash: "2644fb6a6ea7ba434d79f976c0b8c3cff34413744db77cdcc1f2e63b45de1d96"
+generated_at: "2026-04-02T15:23:30.410Z"
+tags:
+  - "brain"
+  - "brain-scripts"
+  - "code"
+  - "mjs"
+  - "neutral"
+  - "scripts"
+exports:
+  - "async"
+  - "createRetryController"
+---
+
+# taskmanager/brain/scripts/ai-toolkit/brain-retry-controller.mjs
+
+> Script surface; exports async, createRetryController
+
+## Key Signals
+
+- Source path: taskmanager/brain/scripts/ai-toolkit/brain-retry-controller.mjs
+- Surface: brain-scripts
+- Classification: neutral
+- Kind: code
+- Language: javascript
+- Top level: taskmanager
+- Score: 112
+- Tags: brain, brain-scripts, code, mjs, neutral, scripts
+- Exports: async, createRetryController
+
+## Lookup Notes
+
+- Use the card path in lookup.json to jump directly to this summary.
+- Open the source from this card with the repository-relative path.
+- Primary lookup terms: brain, brain-scripts, code, mjs, neutral, scripts, taskmanager
+- Source link target: taskmanager/brain/scripts/ai-toolkit/brain-retry-controller.mjs
+
+## Excerpt
+
+~~~javascript
+function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, Math.max(0, ms)));
+}
+
+export async function retryBrainOperation({ fn, maxAttempts = 3, backoff = "linear", delayMs = 250 } = {}) {
+  if (typeof fn !== "function") {
+    throw new Error("retryBrainOperation: fn must be a function");
+  }
+
+  let attempts = 0;
+  let lastError = null;
+
+  while (attempts < Math.max(1, maxAttempts)) {
+    attempts += 1;
+    try {
+      const result = await fn({ attempt: attempts });
+      return { result, attempts, succeeded: true, lastError: null };
+    } catch (error) {
+      lastError = error;
+      if (attempts >= maxAttempts) break;
+      const factor = backoff === "exponential" ? Math.pow(2, attempts - 1) : attempts;
+      await wait(delayMs * factor);
+    }
+  }
+
+  return {
+    result: null,
+    attempts,
+~~~

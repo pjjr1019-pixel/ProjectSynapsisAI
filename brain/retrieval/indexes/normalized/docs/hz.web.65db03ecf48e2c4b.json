@@ -1,0 +1,321 @@
+{
+  "aliases": [
+    {
+      "alias": "65db03ecf48e2c4b",
+      "aliasId": "hz.web.65db03ecf48e2c4b.alias.1",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "fonts.googleapis.com",
+      "aliasId": "hz.web.65db03ecf48e2c4b.alias.2",
+      "canonical": "fonts.googleapis.com"
+    },
+    {
+      "alias": "web 65db03ecf48e2c4b",
+      "aliasId": "hz.web.65db03ecf48e2c4b.alias.3",
+      "canonical": "fonts.googleapis.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.65db03ecf48e2c4b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.65db03ecf48e2c4b.entity.1",
+      "kind": "document",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.65db03ecf48e2c4b.entity.2",
+      "kind": "heading",
+      "name": "fonts.googleapis.com",
+      "tokens": [
+        "fonts",
+        "googleapis",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.65db03ecf48e2c4b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.65db03ecf48e2c4b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.65db03ecf48e2c4b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 88,
+      "charStart": 25,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://fonts.googleapis.com/icon?family=Material+Icons",
+      "tokens": [
+        "source",
+        "https",
+        "fonts",
+        "googleapis",
+        "com",
+        "icon",
+        "family",
+        "material",
+        "icons"
+      ]
+    },
+    {
+      "charEnd": 585,
+      "charStart": 140,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.1",
+      "kind": "bullet",
+      "text": "@font-face { font-family: 'Material Icons'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format('truetype'); } .material-icons { font-family: 'Material Icons'; font-weight: normal; font-style: normal; font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; word-wrap: normal; direction: ltr; }",
+      "tokens": [
+        "font",
+        "face",
+        "font",
+        "family",
+        "material",
+        "icons",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "https",
+        "fonts",
+        "gstatic",
+        "com",
+        "materialicons",
+        "v145",
+        "fluhrq6tzzclqej",
+        "vdg",
+        "iuiadsnz",
+        "ttf",
+        "format",
+        "truetype",
+        "material",
+        "icons",
+        "font",
+        "family",
+        "material",
+        "icons",
+        "font",
+        "weight",
+        "normal",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "size",
+        "24px",
+        "line",
+        "height",
+        "letter",
+        "spacing",
+        "normal",
+        "text",
+        "transform",
+        "none",
+        "display",
+        "inline",
+        "block",
+        "white",
+        "space",
+        "nowrap",
+        "word",
+        "wrap",
+        "normal",
+        "direction",
+        "ltr"
+      ]
+    },
+    {
+      "charEnd": 606,
+      "charStart": 600,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.2",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 615,
+      "charStart": 607,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.3",
+      "kind": "bullet",
+      "text": "normal",
+      "tokens": [
+        "normal"
+      ]
+    },
+    {
+      "charEnd": 623,
+      "charStart": 616,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.4",
+      "kind": "bullet",
+      "text": "icons",
+      "tokens": [
+        "icons"
+      ]
+    },
+    {
+      "charEnd": 634,
+      "charStart": 624,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.5",
+      "kind": "bullet",
+      "text": "material",
+      "tokens": [
+        "material"
+      ]
+    },
+    {
+      "charEnd": 643,
+      "charStart": 635,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.6",
+      "kind": "bullet",
+      "text": "family",
+      "tokens": [
+        "family"
+      ]
+    },
+    {
+      "charEnd": 651,
+      "charStart": 644,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.7",
+      "kind": "bullet",
+      "text": "style",
+      "tokens": [
+        "style"
+      ]
+    },
+    {
+      "charEnd": 660,
+      "charStart": 652,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.8",
+      "kind": "bullet",
+      "text": "weight",
+      "tokens": [
+        "weight"
+      ]
+    },
+    {
+      "charEnd": 667,
+      "charStart": 661,
+      "factId": "hz.web.65db03ecf48e2c4b.fact.9",
+      "kind": "bullet",
+      "text": "24px",
+      "tokens": [
+        "24px"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.65db03ecf48e2c4b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "fonts.googleapis.com"
+    },
+    {
+      "charEnd": 138,
+      "charStart": 128,
+      "headingId": "hz.web.65db03ecf48e2c4b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 598,
+      "charStart": 587,
+      "headingId": "hz.web.65db03ecf48e2c4b.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 679,
+      "charStart": 669,
+      "headingId": "hz.web.65db03ecf48e2c4b.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/65db03ecf48e2c4b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1384,
+        "start": 0
+      }
+    ],
+    "hash": "413ae5e985bd3efef83e4f993509980feab8919cb3f0c2bac0e775dc3c1d9eff",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "@font-face { font-family: 'Material Icons'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format('truetype'); } .material-icons { font-family: 'Material Icons'; font-weight: normal; font-style: normal; font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; word-wrap: normal; direction: ltr; }",
+      "font",
+      "normal"
+    ],
+    "medium": "Source: https://fonts.googleapis.com/icon?family=Material+Icons",
+    "short": "Source: https://fonts.googleapis.com/icon?family=Material+Icons",
+    "tokens": [
+      "fonts",
+      "googleapis",
+      "com",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "icon",
+      "family",
+      "material",
+      "icons",
+      "source",
+      "https",
+      "fonts",
+      "googleapis",
+      "com",
+      "icon",
+      "family",
+      "material",
+      "icons"
+    ]
+  },
+  "title": "fonts.googleapis.com"
+}

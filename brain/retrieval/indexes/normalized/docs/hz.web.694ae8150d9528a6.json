@@ -1,0 +1,385 @@
+{
+  "aliases": [
+    {
+      "alias": "694ae8150d9528a6",
+      "aliasId": "hz.web.694ae8150d9528a6.alias.1",
+      "canonical": "web-assets.ifttt.com"
+    },
+    {
+      "alias": "web 694ae8150d9528a6",
+      "aliasId": "hz.web.694ae8150d9528a6.alias.2",
+      "canonical": "web-assets.ifttt.com"
+    },
+    {
+      "alias": "web-assets.ifttt.com",
+      "aliasId": "hz.web.694ae8150d9528a6.alias.3",
+      "canonical": "web-assets.ifttt.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.51,
+  "docId": "hz.web.694ae8150d9528a6",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.694ae8150d9528a6.entity.1",
+      "kind": "document",
+      "name": "web-assets.ifttt.com",
+      "tokens": [
+        "web",
+        "assets",
+        "ifttt",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.694ae8150d9528a6.entity.2",
+      "kind": "heading",
+      "name": "web-assets.ifttt.com",
+      "tokens": [
+        "web",
+        "assets",
+        "ifttt",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.694ae8150d9528a6.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.694ae8150d9528a6.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.694ae8150d9528a6.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 108,
+      "charStart": 25,
+      "factId": "hz.web.694ae8150d9528a6.fact.1",
+      "kind": "summary",
+      "text": "Source: https://web-assets.ifttt.com/builds/assets/shared_vanilla_setup-DL5SR3FE.js",
+      "tokens": [
+        "source",
+        "https",
+        "web",
+        "assets",
+        "ifttt",
+        "com",
+        "builds",
+        "assets",
+        "shared_vanilla_setup",
+        "dl5sr3fe",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1555,
+      "charStart": 160,
+      "factId": "hz.web.694ae8150d9528a6.fact.1",
+      "kind": "bullet",
+      "text": "import{d as e}from\"./utils-DrhijpWU.js\";import{$ as t,F as n,G as r,I as i,K as a,L as o,M as s,N as c,P as l,Q as u,X as d,Y as f,et as p,it as m,j as h,nt as g,q as _,t as v}from\"./header-DX_C22h7.js\";import{t as y}from\"./setup_unified_mobile_menu-BPXGQfFZ.js\";function b(){window.App?.sentryDSNGrizzlyClient&&(r({dsn:window.App.sentryDSNGrizzlyClient,release:window.App.datadogVersion,initialScope:{user:{id:window.App?.user?.id}},integrations:[a({onunhandledrejection:!1}),_()],beforeSend(e){let t=e?.request?.url||e?.request?.headers?.Referer;return typeof t==`string`&&t.includes(`email.ifttt.com`)?null:e},ignoreErrors:m}),window.App=window.App||{},window.App.Sentry={captureException:f,captureMessage:d})}function x(){p(),b(),h(),v(),document.addEventListener(`DOMContentLoaded`,()=>{g(),document.getElementById(`try-pro-free`)?.addEventListener(`click`,()=>{u?.(`click_try_pro_free`)},{once:!0}),i(),e(()=>{o(),c(),window.App.user?.id&&s()})}),window.App=window.App||{},window.App=Object.assign(window.App,{storedFieldPath:(e,t=``)=>t===``?`/stored_fields/options?resolve_url=${e}`:`/stored_fields/options?resolve_url=${e}&live_channel_id=${t}`}),window.App.Comps={},window.App.Scripts={BackButton:l,RubberBandPinchColor:n,SetupUnifiedMobileMenu:y},window.App.Utils={logCustomDatadogAction:u,logDatadogError:t}}export{x as t}; //# sourceMappingURL=shared_vanilla_setup-DL5SR3FE.js.map",
+      "tokens": [
+        "import",
+        "utils",
+        "drhijpwu",
+        "js",
+        "import",
+        "et",
+        "nt",
+        "header",
+        "dx_c22h7",
+        "js",
+        "import",
+        "setup_unified_mobile_menu",
+        "bpxgqffz",
+        "js",
+        "function",
+        "window",
+        "app",
+        "sentrydsngrizzlyclient",
+        "dsn",
+        "window",
+        "app",
+        "sentrydsngrizzlyclient",
+        "release",
+        "window",
+        "app",
+        "datadogversion",
+        "initialscope",
+        "user",
+        "id",
+        "window",
+        "app",
+        "user",
+        "id",
+        "integrations",
+        "onunhandledrejection",
+        "beforesend",
+        "let",
+        "request",
+        "url",
+        "request",
+        "headers",
+        "referer",
+        "return",
+        "typeof",
+        "string",
+        "includes",
+        "email",
+        "ifttt",
+        "com",
+        "null",
+        "ignoreerrors",
+        "window",
+        "app",
+        "window",
+        "app",
+        "window",
+        "app",
+        "sentry",
+        "captureexception",
+        "capturemessage",
+        "function",
+        "document",
+        "addeventlistener",
+        "domcontentloaded",
+        "document",
+        "getelementbyid",
+        "try",
+        "pro",
+        "free",
+        "addeventlistener",
+        "click",
+        "click_try_pro_free",
+        "once",
+        "window",
+        "app",
+        "user",
+        "id",
+        "window",
+        "app",
+        "window",
+        "app",
+        "window",
+        "app",
+        "object",
+        "assign",
+        "window",
+        "app",
+        "storedfieldpath",
+        "stored_fields",
+        "options",
+        "resolve_url",
+        "stored_fields",
+        "options",
+        "resolve_url",
+        "live_channel_id",
+        "window",
+        "app",
+        "comps",
+        "window",
+        "app",
+        "scripts",
+        "backbutton",
+        "rubberbandpinchcolor",
+        "setupunifiedmobilemenu",
+        "window",
+        "app",
+        "utils",
+        "logcustomdatadogaction",
+        "logdatadogerror",
+        "export",
+        "sourcemappingurl",
+        "shared_vanilla_setup",
+        "dl5sr3fe",
+        "js",
+        "map"
+      ]
+    },
+    {
+      "charEnd": 1575,
+      "charStart": 1570,
+      "factId": "hz.web.694ae8150d9528a6.fact.2",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    },
+    {
+      "charEnd": 1584,
+      "charStart": 1576,
+      "factId": "hz.web.694ae8150d9528a6.fact.3",
+      "kind": "bullet",
+      "text": "window",
+      "tokens": [
+        "window"
+      ]
+    },
+    {
+      "charEnd": 1589,
+      "charStart": 1585,
+      "factId": "hz.web.694ae8150d9528a6.fact.4",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1594,
+      "charStart": 1590,
+      "factId": "hz.web.694ae8150d9528a6.fact.5",
+      "kind": "bullet",
+      "text": "id",
+      "tokens": [
+        "id"
+      ]
+    },
+    {
+      "charEnd": 1603,
+      "charStart": 1595,
+      "factId": "hz.web.694ae8150d9528a6.fact.6",
+      "kind": "bullet",
+      "text": "import",
+      "tokens": [
+        "import"
+      ]
+    },
+    {
+      "charEnd": 1610,
+      "charStart": 1604,
+      "factId": "hz.web.694ae8150d9528a6.fact.7",
+      "kind": "bullet",
+      "text": "user",
+      "tokens": [
+        "user"
+      ]
+    },
+    {
+      "charEnd": 1629,
+      "charStart": 1611,
+      "factId": "hz.web.694ae8150d9528a6.fact.8",
+      "kind": "bullet",
+      "text": "addeventlistener",
+      "tokens": [
+        "addeventlistener"
+      ]
+    },
+    {
+      "charEnd": 1640,
+      "charStart": 1630,
+      "factId": "hz.web.694ae8150d9528a6.fact.9",
+      "kind": "bullet",
+      "text": "document",
+      "tokens": [
+        "document"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.694ae8150d9528a6.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "web-assets.ifttt.com"
+    },
+    {
+      "charEnd": 158,
+      "charStart": 148,
+      "headingId": "hz.web.694ae8150d9528a6.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1568,
+      "charStart": 1557,
+      "headingId": "hz.web.694ae8150d9528a6.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1652,
+      "charStart": 1642,
+      "headingId": "hz.web.694ae8150d9528a6.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/694ae8150d9528a6.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3327,
+        "start": 0
+      }
+    ],
+    "hash": "94ebc2163e5c08727e89e2676e7dec5490135fa47848e5d68c5109f9cab48f64",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "import{d as e}from\"./utils-DrhijpWU.js\";import{$ as t,F as n,G as r,I as i,K as a,L as o,M as s,N as c,P as l,Q as u,X as d,Y as f,et as p,it as m,j as h,nt as g,q as _,t as v}from\"./header-DX_C22h7.js\";import{t as y}from\"./setup_unified_mobile_menu-BPXGQfFZ.js\";function b(){window.App?.sentryDSNGrizzlyClient&&(r({dsn:window.App.sentryDSNGrizzlyClient,release:window.App.datadogVersion,initialScope:{user:{id:window.App?.user?.id}},integrations:[a({onunhandledrejection:!1}),_()],beforeSend(e){let t=e?.request?.url||e?.request?.headers?.Referer;return typeof t==`string`&&t.includes(`email.ifttt.com`)?null:e},ignoreErrors:m}),window.App=window.App||{},window.App.Sentry={captureException:f,captureMessage:d})}function x(){p(),b(),h(),v(),document.addEventListener(`DOMContentLoaded`,()=>{g(),document.getElementById(`try-pro-free`)?.addEventListener(`click`,()=>{u?.(`click_try_pro_free`)},{once:!0}),i(),e(()=>{o(),c(),window.App.user?.id&&s()})}),window.App=window.App||{},window.App=Object.assign(window.App,{storedFieldPath:(e,t=``)=>t===``?`/stored_fields/options?resolve_url=${e}`:`/stored_fields/options?resolve_url=${e}&live_channel_id=${t}`}),window.App.Comps={},window.App.Scripts={BackButton:l,RubberBandPinchColor:n,SetupUnifiedMobileMenu:y},window.App.Utils={logCustomDatadogAction:u,logDatadogError:t}}export{x as t}; //# sourceMappingURL=shared_vanilla_setup-DL5SR3FE.js.map",
+      "app",
+      "window"
+    ],
+    "medium": "Source: https://web-assets.ifttt.com/builds/assets/shared_vanilla_setup-DL5SR3FE.js",
+    "short": "Source: https://web-assets.ifttt.com/builds/assets/shared_vanilla_setup-DL5SR3FE.js",
+    "tokens": [
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "source",
+      "https",
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "builds",
+      "assets",
+      "shared_vanilla_setup",
+      "dl5sr3fe",
+      "js",
+      "source",
+      "https",
+      "web",
+      "assets",
+      "ifttt",
+      "com",
+      "builds",
+      "assets",
+      "shared_vanilla_setup",
+      "dl5sr3fe",
+      "js"
+    ]
+  },
+  "title": "web-assets.ifttt.com"
+}

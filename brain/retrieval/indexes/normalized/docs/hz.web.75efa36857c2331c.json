@@ -1,0 +1,409 @@
+{
+  "aliases": [
+    {
+      "alias": "75efa36857c2331c",
+      "aliasId": "hz.web.75efa36857c2331c.alias.1",
+      "canonical": "datatables releases feed"
+    },
+    {
+      "alias": "datatables releases feed",
+      "aliasId": "hz.web.75efa36857c2331c.alias.2",
+      "canonical": "datatables releases feed"
+    },
+    {
+      "alias": "web 75efa36857c2331c",
+      "aliasId": "hz.web.75efa36857c2331c.alias.3",
+      "canonical": "datatables releases feed"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.67,
+  "docId": "hz.web.75efa36857c2331c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.75efa36857c2331c.entity.1",
+      "kind": "document",
+      "name": "DataTables releases feed",
+      "tokens": [
+        "datatables",
+        "releases",
+        "feed"
+      ]
+    },
+    {
+      "entityId": "hz.web.75efa36857c2331c.entity.2",
+      "kind": "heading",
+      "name": "DataTables releases feed",
+      "tokens": [
+        "datatables",
+        "releases",
+        "feed"
+      ]
+    },
+    {
+      "entityId": "hz.web.75efa36857c2331c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.75efa36857c2331c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.75efa36857c2331c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 77,
+      "charStart": 29,
+      "factId": "hz.web.75efa36857c2331c.fact.1",
+      "kind": "summary",
+      "text": "Source: http://datatables.net/feeds/releases.xml",
+      "tokens": [
+        "source",
+        "http",
+        "datatables",
+        "net",
+        "feeds",
+        "releases",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 321,
+      "charStart": 129,
+      "factId": "hz.web.75efa36857c2331c.fact.1",
+      "kind": "bullet",
+      "text": "DataTables releases feed http://www.datatables.net/ en-us Software release information for DataTables and its extensions ColumnControl 1.2.1 released A number of bug fixes for ColumnControl.",
+      "tokens": [
+        "datatables",
+        "releases",
+        "feed",
+        "http",
+        "www",
+        "datatables",
+        "net",
+        "en",
+        "us",
+        "software",
+        "release",
+        "information",
+        "datatables",
+        "its",
+        "extensions",
+        "columncontrol",
+        "released",
+        "number",
+        "bug",
+        "fixes",
+        "columncontrol"
+      ]
+    },
+    {
+      "charEnd": 473,
+      "charStart": 322,
+      "factId": "hz.web.75efa36857c2331c.fact.2",
+      "kind": "bullet",
+      "text": "Fixes When using a free text search input, list search and state saving, a dropdown button might not show as active when a search is applied at load.",
+      "tokens": [
+        "fixes",
+        "using",
+        "free",
+        "text",
+        "search",
+        "input",
+        "list",
+        "search",
+        "state",
+        "saving",
+        "dropdown",
+        "button",
+        "might",
+        "not",
+        "show",
+        "active",
+        "search",
+        "applied",
+        "load"
+      ]
+    },
+    {
+      "charEnd": 713,
+      "charStart": 474,
+      "factId": "hz.web.75efa36857c2331c.fact.3",
+      "kind": "bullet",
+      "text": "Search clear button wasn't enabling when used with server-side processing State saving could throw an error when used with search ColumnControl and ColReorder, with state saving enabled, could result in saved searches not being restored.",
+      "tokens": [
+        "search",
+        "clear",
+        "button",
+        "wasn",
+        "enabling",
+        "used",
+        "server",
+        "side",
+        "processing",
+        "state",
+        "saving",
+        "throw",
+        "error",
+        "used",
+        "search",
+        "columncontrol",
+        "colreorder",
+        "state",
+        "saving",
+        "enabled",
+        "result",
+        "saved",
+        "searches",
+        "not",
+        "restored"
+      ]
+    },
+    {
+      "charEnd": 873,
+      "charStart": 714,
+      "factId": "hz.web.75efa36857c2331c.fact.4",
+      "kind": "bullet",
+      "text": "For searchList has a list of options defined on the client-side, and state saving is enabled, the s tate saved option wouldn't be shown as enabled on reload.",
+      "tokens": [
+        "searchlist",
+        "has",
+        "list",
+        "options",
+        "defined",
+        "client",
+        "side",
+        "state",
+        "saving",
+        "enabled",
+        "tate",
+        "saved",
+        "option",
+        "wouldn",
+        "shown",
+        "enabled",
+        "reload"
+      ]
+    },
+    {
+      "charEnd": 900,
+      "charStart": 888,
+      "factId": "hz.web.75efa36857c2331c.fact.5",
+      "kind": "bullet",
+      "text": "datatables",
+      "tokens": [
+        "datatables"
+      ]
+    },
+    {
+      "charEnd": 907,
+      "charStart": 901,
+      "factId": "hz.web.75efa36857c2331c.fact.6",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 913,
+      "charStart": 908,
+      "factId": "hz.web.75efa36857c2331c.fact.7",
+      "kind": "bullet",
+      "text": "net",
+      "tokens": [
+        "net"
+      ]
+    },
+    {
+      "charEnd": 919,
+      "charStart": 914,
+      "factId": "hz.web.75efa36857c2331c.fact.8",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 927,
+      "charStart": 920,
+      "factId": "hz.web.75efa36857c2331c.fact.9",
+      "kind": "bullet",
+      "text": "fixes",
+      "tokens": [
+        "fixes"
+      ]
+    },
+    {
+      "charEnd": 934,
+      "charStart": 928,
+      "factId": "hz.web.75efa36857c2331c.fact.10",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 945,
+      "charStart": 935,
+      "factId": "hz.web.75efa36857c2331c.fact.11",
+      "kind": "bullet",
+      "text": "download",
+      "tokens": [
+        "download"
+      ]
+    },
+    {
+      "charEnd": 951,
+      "charStart": 946,
+      "factId": "hz.web.75efa36857c2331c.fact.12",
+      "kind": "bullet",
+      "text": "fri",
+      "tokens": [
+        "fri"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.75efa36857c2331c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "DataTables releases feed"
+    },
+    {
+      "charEnd": 127,
+      "charStart": 117,
+      "headingId": "hz.web.75efa36857c2331c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 886,
+      "charStart": 875,
+      "headingId": "hz.web.75efa36857c2331c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 963,
+      "charStart": 953,
+      "headingId": "hz.web.75efa36857c2331c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/75efa36857c2331c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3599,
+        "start": 0
+      }
+    ],
+    "hash": "05812c17f224205e153d94e976838ce6c5005c1711ceb3013cd709690e3cabd5",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.75efa36857c2331c.rule.1",
+      "text": "tfoot should be the last element in the table, per the WhatWG spec Download DataTables 2.3.7 ]]> Fri, 30 Jan 2026 10:55:15 GMT http://www.datatables.net/#718 http://www.datatables.net/ Responsive 3.0.8 released A single change for the :visible selector in DataTables to operate correctly in tables that use Responsive.",
+      "tokens": [
+        "tfoot",
+        "last",
+        "element",
+        "table",
+        "per",
+        "whatwg",
+        "spec",
+        "download",
+        "datatables",
+        "fri",
+        "30",
+        "jan",
+        "2026",
+        "10",
+        "55",
+        "15",
+        "gmt",
+        "http",
+        "www",
+        "datatables",
+        "net",
+        "718",
+        "http",
+        "www",
+        "datatables",
+        "net",
+        "responsive",
+        "released",
+        "single",
+        "change",
+        "visible",
+        "selector",
+        "datatables",
+        "operate",
+        "correctly",
+        "tables",
+        "use",
+        "responsive"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "DataTables releases feed http://www.datatables.net/ en-us Software release information for DataTables and its extensions ColumnControl 1.2.1 released A number of bug fixes for ColumnControl.",
+      "Fixes When using a free text search input, list search and state saving, a dropdown button might not show as active when a search is applied at load.",
+      "Search clear button wasn't enabling when used with server-side processing State saving could throw an error when used with search ColumnControl and ColReorder, with state saving enabled, could result in saved searches not being restored."
+    ],
+    "medium": "Source: http://datatables.net/feeds/releases.xml",
+    "short": "Source: http://datatables.net/feeds/releases.xml",
+    "tokens": [
+      "datatables",
+      "releases",
+      "feed",
+      "source",
+      "http",
+      "datatables",
+      "net",
+      "feeds",
+      "releases",
+      "xml",
+      "source",
+      "http",
+      "datatables",
+      "net",
+      "feeds",
+      "releases",
+      "xml"
+    ]
+  },
+  "title": "DataTables releases feed"
+}

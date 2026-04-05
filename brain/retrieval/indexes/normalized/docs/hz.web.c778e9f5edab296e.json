@@ -1,0 +1,368 @@
+{
+  "aliases": [
+    {
+      "alias": "c778e9f5edab296e",
+      "aliasId": "hz.web.c778e9f5edab296e.alias.1",
+      "canonical": "superfeedr blog - superfeedr blog - page 1"
+    },
+    {
+      "alias": "superfeedr blog - superfeedr blog - page 1",
+      "aliasId": "hz.web.c778e9f5edab296e.alias.2",
+      "canonical": "superfeedr blog - superfeedr blog - page 1"
+    },
+    {
+      "alias": "web c778e9f5edab296e",
+      "aliasId": "hz.web.c778e9f5edab296e.alias.3",
+      "canonical": "superfeedr blog - superfeedr blog - page 1"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.96,
+  "docId": "hz.web.c778e9f5edab296e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c778e9f5edab296e.entity.1",
+      "kind": "document",
+      "name": "Superfeedr Blog - Superfeedr Blog - Page 1",
+      "tokens": [
+        "superfeedr",
+        "blog",
+        "superfeedr",
+        "blog",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.c778e9f5edab296e.entity.2",
+      "kind": "heading",
+      "name": "Superfeedr Blog - Superfeedr Blog - Page 1",
+      "tokens": [
+        "superfeedr",
+        "blog",
+        "superfeedr",
+        "blog",
+        "page"
+      ]
+    },
+    {
+      "entityId": "hz.web.c778e9f5edab296e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c778e9f5edab296e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c778e9f5edab296e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 82,
+      "charStart": 47,
+      "factId": "hz.web.c778e9f5edab296e.fact.1",
+      "kind": "summary",
+      "text": "Source: http://blog.superfeedr.com/",
+      "tokens": [
+        "source",
+        "http",
+        "blog",
+        "superfeedr",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 364,
+      "charStart": 134,
+      "factId": "hz.web.c778e9f5edab296e.fact.1",
+      "kind": "bullet",
+      "text": "Superfeedr Blog - Superfeedr Blog - Page 1 Superfeedr Blog Publishers Subscribers Trackers Pricing Login Sign Up Read Archives Superfeedr Blog Updated Pricing Today, we are introducing a new pricing for Superfeedr’s subscribers.",
+      "tokens": [
+        "superfeedr",
+        "blog",
+        "superfeedr",
+        "blog",
+        "page",
+        "superfeedr",
+        "blog",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "read",
+        "archives",
+        "superfeedr",
+        "blog",
+        "updated",
+        "pricing",
+        "today",
+        "introducing",
+        "new",
+        "pricing",
+        "superfeedr",
+        "subscribers"
+      ]
+    },
+    {
+      "charEnd": 478,
+      "charStart": 365,
+      "factId": "hz.web.c778e9f5edab296e.fact.2",
+      "kind": "bullet",
+      "text": "In our early days, we wanted Superfeedr’s pricing to be based on the amount of data our service would send you.",
+      "tokens": [
+        "our",
+        "early",
+        "days",
+        "wanted",
+        "superfeedr",
+        "pricing",
+        "based",
+        "amount",
+        "data",
+        "our",
+        "service",
+        "send"
+      ]
+    },
+    {
+      "charEnd": 587,
+      "charStart": 479,
+      "factId": "hz.web.c778e9f5edab296e.fact.3",
+      "kind": "bullet",
+      "text": "As we were very young start-up, we made the assumption that verbose feeds would cost us more to process...",
+      "tokens": [
+        "very",
+        "young",
+        "start",
+        "up",
+        "made",
+        "assumption",
+        "verbose",
+        "feeds",
+        "cost",
+        "us",
+        "more",
+        "process"
+      ]
+    },
+    {
+      "charEnd": 708,
+      "charStart": 588,
+      "factId": "hz.web.c778e9f5edab296e.fact.4",
+      "kind": "bullet",
+      "text": "06 Feb 2017 Julien View Comments | feed, API, pricing, and credits Read More &rarr; Google Feed API is gone: now what?",
+      "tokens": [
+        "06",
+        "feb",
+        "2017",
+        "julien",
+        "view",
+        "comments",
+        "feed",
+        "api",
+        "pricing",
+        "credits",
+        "read",
+        "more",
+        "rarr",
+        "google",
+        "feed",
+        "api",
+        "gone",
+        "now"
+      ]
+    },
+    {
+      "charEnd": 729,
+      "charStart": 723,
+      "factId": "hz.web.c778e9f5edab296e.fact.5",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 742,
+      "charStart": 730,
+      "factId": "hz.web.c778e9f5edab296e.fact.6",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 749,
+      "charStart": 743,
+      "factId": "hz.web.c778e9f5edab296e.fact.7",
+      "kind": "bullet",
+      "text": "feed",
+      "tokens": [
+        "feed"
+      ]
+    },
+    {
+      "charEnd": 755,
+      "charStart": 750,
+      "factId": "hz.web.c778e9f5edab296e.fact.8",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 762,
+      "charStart": 756,
+      "factId": "hz.web.c778e9f5edab296e.fact.9",
+      "kind": "bullet",
+      "text": "read",
+      "tokens": [
+        "read"
+      ]
+    },
+    {
+      "charEnd": 769,
+      "charStart": 763,
+      "factId": "hz.web.c778e9f5edab296e.fact.10",
+      "kind": "bullet",
+      "text": "2016",
+      "tokens": [
+        "2016"
+      ]
+    },
+    {
+      "charEnd": 775,
+      "charStart": 770,
+      "factId": "hz.web.c778e9f5edab296e.fact.11",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    },
+    {
+      "charEnd": 786,
+      "charStart": 776,
+      "factId": "hz.web.c778e9f5edab296e.fact.12",
+      "kind": "bullet",
+      "text": "comments",
+      "tokens": [
+        "comments"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 45,
+      "charStart": 1,
+      "headingId": "hz.web.c778e9f5edab296e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Superfeedr Blog - Superfeedr Blog - Page 1"
+    },
+    {
+      "charEnd": 132,
+      "charStart": 122,
+      "headingId": "hz.web.c778e9f5edab296e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 721,
+      "charStart": 710,
+      "headingId": "hz.web.c778e9f5edab296e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 798,
+      "charStart": 788,
+      "headingId": "hz.web.c778e9f5edab296e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/c778e9f5edab296e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4054,
+        "start": 0
+      }
+    ],
+    "hash": "a9f3379253cf445726c7b430100a849bb802124f7cf2195156a1f155144e04c9",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.c778e9f5edab296e.rule.1",
+      "text": "Building and maintaining servers is not always trivial, which is why more and more applications are built...",
+      "tokens": [
+        "building",
+        "maintaining",
+        "servers",
+        "not",
+        "always",
+        "trivial",
+        "why",
+        "more",
+        "more",
+        "applications",
+        "built"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Superfeedr Blog - Superfeedr Blog - Page 1 Superfeedr Blog Publishers Subscribers Trackers Pricing Login Sign Up Read Archives Superfeedr Blog Updated Pricing Today, we are introducing a new pricing for Superfeedr’s subscribers.",
+      "In our early days, we wanted Superfeedr’s pricing to be based on the amount of data our service would send you.",
+      "As we were very young start-up, we made the assumption that verbose feeds would cost us more to process..."
+    ],
+    "medium": "Source: http://blog.superfeedr.com/",
+    "short": "Source: http://blog.superfeedr.com/",
+    "tokens": [
+      "superfeedr",
+      "blog",
+      "superfeedr",
+      "blog",
+      "page",
+      "source",
+      "http",
+      "blog",
+      "superfeedr",
+      "com",
+      "source",
+      "http",
+      "blog",
+      "superfeedr",
+      "com"
+    ]
+  },
+  "title": "Superfeedr Blog - Superfeedr Blog - Page 1"
+}

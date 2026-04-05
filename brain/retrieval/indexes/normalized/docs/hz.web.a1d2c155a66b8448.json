@@ -1,0 +1,503 @@
+{
+  "aliases": [
+    {
+      "alias": "a1d2c155a66b8448",
+      "aliasId": "hz.web.a1d2c155a66b8448.alias.1",
+      "canonical": "eric a. meyer’s presentations on notist"
+    },
+    {
+      "alias": "eric a. meyer s presentations on notist",
+      "aliasId": "hz.web.a1d2c155a66b8448.alias.2",
+      "canonical": "eric a. meyer’s presentations on notist"
+    },
+    {
+      "alias": "web a1d2c155a66b8448",
+      "aliasId": "hz.web.a1d2c155a66b8448.alias.3",
+      "canonical": "eric a. meyer’s presentations on notist"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.77,
+  "docId": "hz.web.a1d2c155a66b8448",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.a1d2c155a66b8448.entity.1",
+      "kind": "document",
+      "name": "Eric A. Meyer’s presentations on Notist",
+      "tokens": [
+        "eric",
+        "meyer",
+        "presentations",
+        "notist"
+      ]
+    },
+    {
+      "entityId": "hz.web.a1d2c155a66b8448.entity.2",
+      "kind": "heading",
+      "name": "Eric A. Meyer’s presentations on Notist",
+      "tokens": [
+        "eric",
+        "meyer",
+        "presentations",
+        "notist"
+      ]
+    },
+    {
+      "entityId": "hz.web.a1d2c155a66b8448.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.a1d2c155a66b8448.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.a1d2c155a66b8448.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 90,
+      "charStart": 44,
+      "factId": "hz.web.a1d2c155a66b8448.fact.1",
+      "kind": "summary",
+      "text": "Source: https://noti.st/meyerweb/presentations",
+      "tokens": [
+        "source",
+        "https",
+        "noti",
+        "st",
+        "meyerweb",
+        "presentations"
+      ]
+    },
+    {
+      "charEnd": 151,
+      "charStart": 142,
+      "factId": "hz.web.a1d2c155a66b8448.fact.1",
+      "kind": "bullet",
+      "text": "Eric A.",
+      "tokens": [
+        "eric"
+      ]
+    },
+    {
+      "charEnd": 234,
+      "charStart": 152,
+      "factId": "hz.web.a1d2c155a66b8448.fact.2",
+      "kind": "bullet",
+      "text": "Meyer’s presentations on Notist Explore Register Log in Presentations by Eric A.",
+      "tokens": [
+        "meyer",
+        "presentations",
+        "notist",
+        "explore",
+        "register",
+        "log",
+        "presentations",
+        "eric"
+      ]
+    },
+    {
+      "charEnd": 288,
+      "charStart": 235,
+      "factId": "hz.web.a1d2c155a66b8448.fact.3",
+      "kind": "bullet",
+      "text": "Meyer All these presentations were given by Eric A.",
+      "tokens": [
+        "meyer",
+        "all",
+        "these",
+        "presentations",
+        "given",
+        "eric"
+      ]
+    },
+    {
+      "charEnd": 1900,
+      "charStart": 289,
+      "factId": "hz.web.a1d2c155a66b8448.fact.4",
+      "kind": "bullet",
+      "text": "Meyer between 1996 and 2020 2020 2019 2018 2017 2016 2015 2014 2013 2012 2009 2008 2006 2005 2004 2003 2001 2000 1999 1998 1997 1996 2020 Talk.CSS Design in the Background 2019 CSS-Minsk-JS Remembrance of Tags Past 2018 CSS Day + UX Special The Friction of Web Standards 2017 From Business to Buttons 2017 Engaging with Compassion 2016 Web Design Day 2016 Design for Real Life 2015 Compassionate Design Rustbelt Refresh 2015 Compassionate Design Designing for Crisis Generate London 2015 Designing for Crisis We Are What We Build XOXO 2015 We Are What We Build Designing for Crisis HxRefactored Designing for Crisis 2014 Designing for Crisis World Usability Day Cleveland Designing for Crisis Designing for Crisis An Event Apart Orlando 2014 Designing for Crisis 2013 Scrutinizing @font-face CSS Day 2013 Scrutinizing @font-face The Era of Intentional Layout Rustbelt Refresh 2013 The Era of Intentional Layout 2012 Lessons From the Evolution of the Web Stir Trek: Avengers Edition Lessons From the Evolution of the Web 2009 A More Tangled Web Build 2009 A More Tangled Web The State of the Web National Association of Government Webmasters The State of the Web JavaScript Will Save Us All Spring &lt;br /&gt; Conference JavaScript Will Save Us All Presentation for The Next Web 2009 The Next Web 2009 Presentation for The Next Web 2009 2008 The State of the Web Web Directions East 2008 The State of the Web Presentation for Higher Education Web Symposium Higher Education Web Symposium Presentation for Higher Education Web Symposium 2006 A Decade of Style @media 2006 A Decade of Style The One True Layout?",
+      "tokens": [
+        "meyer",
+        "between",
+        "1996",
+        "2020",
+        "2020",
+        "2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "2013",
+        "2012",
+        "2009",
+        "2008",
+        "2006",
+        "2005",
+        "2004",
+        "2003",
+        "2001",
+        "2000",
+        "1999",
+        "1998",
+        "1997",
+        "1996",
+        "2020",
+        "talk",
+        "css",
+        "design",
+        "background",
+        "2019",
+        "css",
+        "minsk",
+        "js",
+        "remembrance",
+        "tags",
+        "past",
+        "2018",
+        "css",
+        "day",
+        "ux",
+        "special",
+        "friction",
+        "web",
+        "standards",
+        "2017",
+        "business",
+        "buttons",
+        "2017",
+        "engaging",
+        "compassion",
+        "2016",
+        "web",
+        "design",
+        "day",
+        "2016",
+        "design",
+        "real",
+        "life",
+        "2015",
+        "compassionate",
+        "design",
+        "rustbelt",
+        "refresh",
+        "2015",
+        "compassionate",
+        "design",
+        "designing",
+        "crisis",
+        "generate",
+        "london",
+        "2015",
+        "designing",
+        "crisis",
+        "build",
+        "xoxo",
+        "2015",
+        "build",
+        "designing",
+        "crisis",
+        "hxrefactored",
+        "designing",
+        "crisis",
+        "2014",
+        "designing",
+        "crisis",
+        "world",
+        "usability",
+        "day",
+        "cleveland",
+        "designing",
+        "crisis",
+        "designing",
+        "crisis",
+        "event",
+        "apart",
+        "orlando",
+        "2014",
+        "designing",
+        "crisis",
+        "2013",
+        "scrutinizing",
+        "font",
+        "face",
+        "css",
+        "day",
+        "2013",
+        "scrutinizing",
+        "font",
+        "face",
+        "era",
+        "intentional",
+        "layout",
+        "rustbelt",
+        "refresh",
+        "2013",
+        "era",
+        "intentional",
+        "layout",
+        "2012",
+        "lessons",
+        "evolution",
+        "web",
+        "stir",
+        "trek",
+        "avengers",
+        "edition",
+        "lessons",
+        "evolution",
+        "web",
+        "2009",
+        "more",
+        "tangled",
+        "web",
+        "build",
+        "2009",
+        "more",
+        "tangled",
+        "web",
+        "state",
+        "web",
+        "national",
+        "association",
+        "government",
+        "webmasters",
+        "state",
+        "web",
+        "javascript",
+        "will",
+        "save",
+        "us",
+        "all",
+        "spring",
+        "lt",
+        "br",
+        "gt",
+        "conference",
+        "javascript",
+        "will",
+        "save",
+        "us",
+        "all",
+        "presentation",
+        "next",
+        "web",
+        "2009",
+        "next",
+        "web",
+        "2009",
+        "presentation",
+        "next",
+        "web",
+        "2009",
+        "2008",
+        "state",
+        "web",
+        "web",
+        "directions",
+        "east",
+        "2008",
+        "state",
+        "web",
+        "presentation",
+        "higher",
+        "education",
+        "web",
+        "symposium",
+        "higher",
+        "education",
+        "web",
+        "symposium",
+        "presentation",
+        "higher",
+        "education",
+        "web",
+        "symposium",
+        "2006",
+        "decade",
+        "style",
+        "media",
+        "2006",
+        "decade",
+        "style",
+        "one",
+        "true",
+        "layout"
+      ]
+    },
+    {
+      "charEnd": 1920,
+      "charStart": 1915,
+      "factId": "hz.web.a1d2c155a66b8448.fact.5",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1926,
+      "charStart": 1921,
+      "factId": "hz.web.a1d2c155a66b8448.fact.6",
+      "kind": "bullet",
+      "text": "css",
+      "tokens": [
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1939,
+      "charStart": 1927,
+      "factId": "hz.web.a1d2c155a66b8448.fact.7",
+      "kind": "bullet",
+      "text": "conference",
+      "tokens": [
+        "conference"
+      ]
+    },
+    {
+      "charEnd": 1948,
+      "charStart": 1940,
+      "factId": "hz.web.a1d2c155a66b8448.fact.8",
+      "kind": "bullet",
+      "text": "crisis",
+      "tokens": [
+        "crisis"
+      ]
+    },
+    {
+      "charEnd": 1960,
+      "charStart": 1949,
+      "factId": "hz.web.a1d2c155a66b8448.fact.9",
+      "kind": "bullet",
+      "text": "designing",
+      "tokens": [
+        "designing"
+      ]
+    },
+    {
+      "charEnd": 1976,
+      "charStart": 1961,
+      "factId": "hz.web.a1d2c155a66b8448.fact.10",
+      "kind": "bullet",
+      "text": "international",
+      "tokens": [
+        "international"
+      ]
+    },
+    {
+      "charEnd": 1991,
+      "charStart": 1977,
+      "factId": "hz.web.a1d2c155a66b8448.fact.11",
+      "kind": "bullet",
+      "text": "presentation",
+      "tokens": [
+        "presentation"
+      ]
+    },
+    {
+      "charEnd": 2000,
+      "charStart": 1992,
+      "factId": "hz.web.a1d2c155a66b8448.fact.12",
+      "kind": "bullet",
+      "text": "design",
+      "tokens": [
+        "design"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 42,
+      "charStart": 1,
+      "headingId": "hz.web.a1d2c155a66b8448.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Eric A. Meyer’s presentations on Notist"
+    },
+    {
+      "charEnd": 140,
+      "charStart": 130,
+      "headingId": "hz.web.a1d2c155a66b8448.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1913,
+      "charStart": 1902,
+      "headingId": "hz.web.a1d2c155a66b8448.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2012,
+      "charStart": 2002,
+      "headingId": "hz.web.a1d2c155a66b8448.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/a1d2c155a66b8448.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5276,
+        "start": 0
+      }
+    ],
+    "hash": "bc44bbcc2bc751bc498c31e4500d084a88b0bea8416181e8eefd6fed49a2c6e4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Eric A.",
+      "Meyer’s presentations on Notist Explore Register Log in Presentations by Eric A.",
+      "Meyer All these presentations were given by Eric A."
+    ],
+    "medium": "Source: https://noti.st/meyerweb/presentations",
+    "short": "Source: https://noti.st/meyerweb/presentations",
+    "tokens": [
+      "eric",
+      "meyer",
+      "presentations",
+      "notist",
+      "source",
+      "https",
+      "noti",
+      "st",
+      "meyerweb",
+      "presentations",
+      "source",
+      "https",
+      "noti",
+      "st",
+      "meyerweb",
+      "presentations"
+    ]
+  },
+  "title": "Eric A. Meyer’s presentations on Notist"
+}

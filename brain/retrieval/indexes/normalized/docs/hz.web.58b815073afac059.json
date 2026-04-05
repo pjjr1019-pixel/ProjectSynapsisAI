@@ -1,0 +1,348 @@
+{
+  "aliases": [
+    {
+      "alias": "58b815073afac059",
+      "aliasId": "hz.web.58b815073afac059.alias.1",
+      "canonical": "the nftables in linux explained with examples"
+    },
+    {
+      "alias": "the nftables in linux explained with examples",
+      "aliasId": "hz.web.58b815073afac059.alias.2",
+      "canonical": "the nftables in linux explained with examples"
+    },
+    {
+      "alias": "web 58b815073afac059",
+      "aliasId": "hz.web.58b815073afac059.alias.3",
+      "canonical": "the nftables in linux explained with examples"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.58b815073afac059",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.58b815073afac059.entity.1",
+      "kind": "document",
+      "name": "The nftables in Linux Explained with Examples",
+      "tokens": [
+        "nftables",
+        "linux",
+        "explained",
+        "examples"
+      ]
+    },
+    {
+      "entityId": "hz.web.58b815073afac059.entity.2",
+      "kind": "heading",
+      "name": "The nftables in Linux Explained with Examples",
+      "tokens": [
+        "nftables",
+        "linux",
+        "explained",
+        "examples"
+      ]
+    },
+    {
+      "entityId": "hz.web.58b815073afac059.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.58b815073afac059.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.58b815073afac059.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 162,
+      "charStart": 50,
+      "factId": "hz.web.58b815073afac059.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-iptables-firewall-in-linux.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "computernetworkingnotes",
+        "com",
+        "linux",
+        "tutorials",
+        "configure",
+        "iptables",
+        "firewall",
+        "linux",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 472,
+      "charStart": 214,
+      "factId": "hz.web.58b815073afac059.fact.1",
+      "kind": "bullet",
+      "text": "The nftables in Linux Explained with Examples Home CCNA Study Guide Linux Tutorials Networking Tutorials Career Resources The nftables in Linux Explained with Examples The nftables framework provides a highly customizable packet filtering firewall service.",
+      "tokens": [
+        "nftables",
+        "linux",
+        "explained",
+        "examples",
+        "home",
+        "ccna",
+        "study",
+        "guide",
+        "linux",
+        "tutorials",
+        "networking",
+        "tutorials",
+        "career",
+        "resources",
+        "nftables",
+        "linux",
+        "explained",
+        "examples",
+        "nftables",
+        "framework",
+        "provides",
+        "highly",
+        "customizable",
+        "packet",
+        "filtering",
+        "firewall",
+        "service"
+      ]
+    },
+    {
+      "charEnd": 506,
+      "charStart": 473,
+      "factId": "hz.web.58b815073afac059.fact.2",
+      "kind": "bullet",
+      "text": "It is part of the Linux kernel.",
+      "tokens": [
+        "part",
+        "linux",
+        "kernel"
+      ]
+    },
+    {
+      "charEnd": 589,
+      "charStart": 507,
+      "factId": "hz.web.58b815073afac059.fact.3",
+      "kind": "bullet",
+      "text": "It allows you to create complex firewall rules to enhance the system's security.",
+      "tokens": [
+        "allows",
+        "create",
+        "complex",
+        "firewall",
+        "rules",
+        "enhance",
+        "system",
+        "security"
+      ]
+    },
+    {
+      "charEnd": 709,
+      "charStart": 590,
+      "factId": "hz.web.58b815073afac059.fact.4",
+      "kind": "bullet",
+      "text": "This tutorial explains the basic concepts, fundamentals, and essential configuration steps of the nftables framework.",
+      "tokens": [
+        "tutorial",
+        "explains",
+        "basic",
+        "concepts",
+        "fundamentals",
+        "essential",
+        "configuration",
+        "steps",
+        "nftables",
+        "framework"
+      ]
+    },
+    {
+      "charEnd": 731,
+      "charStart": 724,
+      "factId": "hz.web.58b815073afac059.fact.5",
+      "kind": "bullet",
+      "text": "chain",
+      "tokens": [
+        "chain"
+      ]
+    },
+    {
+      "charEnd": 738,
+      "charStart": 732,
+      "factId": "hz.web.58b815073afac059.fact.6",
+      "kind": "bullet",
+      "text": "rule",
+      "tokens": [
+        "rule"
+      ]
+    },
+    {
+      "charEnd": 745,
+      "charStart": 739,
+      "factId": "hz.web.58b815073afac059.fact.7",
+      "kind": "bullet",
+      "text": "inet",
+      "tokens": [
+        "inet"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 746,
+      "factId": "hz.web.58b815073afac059.fact.8",
+      "kind": "bullet",
+      "text": "rules",
+      "tokens": [
+        "rules"
+      ]
+    },
+    {
+      "charEnd": 761,
+      "charStart": 754,
+      "factId": "hz.web.58b815073afac059.fact.9",
+      "kind": "bullet",
+      "text": "table",
+      "tokens": [
+        "table"
+      ]
+    },
+    {
+      "charEnd": 767,
+      "charStart": 762,
+      "factId": "hz.web.58b815073afac059.fact.10",
+      "kind": "bullet",
+      "text": "nft",
+      "tokens": [
+        "nft"
+      ]
+    },
+    {
+      "charEnd": 780,
+      "charStart": 768,
+      "factId": "hz.web.58b815073afac059.fact.11",
+      "kind": "bullet",
+      "text": "test_table",
+      "tokens": [
+        "test_table"
+      ]
+    },
+    {
+      "charEnd": 789,
+      "charStart": 781,
+      "factId": "hz.web.58b815073afac059.fact.12",
+      "kind": "bullet",
+      "text": "chains",
+      "tokens": [
+        "chains"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 48,
+      "charStart": 1,
+      "headingId": "hz.web.58b815073afac059.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "The nftables in Linux Explained with Examples"
+    },
+    {
+      "charEnd": 212,
+      "charStart": 202,
+      "headingId": "hz.web.58b815073afac059.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 722,
+      "charStart": 711,
+      "headingId": "hz.web.58b815073afac059.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 801,
+      "charStart": 791,
+      "headingId": "hz.web.58b815073afac059.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/58b815073afac059.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4137,
+        "start": 0
+      }
+    ],
+    "hash": "cbf5ec2938d892e1afd213f361ac16a10da942e0b6bf15fc394680099178f587",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "The nftables in Linux Explained with Examples Home CCNA Study Guide Linux Tutorials Networking Tutorials Career Resources The nftables in Linux Explained with Examples The nftables framework provides a highly customizable packet filtering firewall service.",
+      "It is part of the Linux kernel.",
+      "It allows you to create complex firewall rules to enhance the system's security."
+    ],
+    "medium": "Source: https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-iptables-firewall-in-linux.html",
+    "short": "Source: https://www.computernetworkingnotes.com/linux-tutorials/how-to-configure-iptables-firewall-in-linux.html",
+    "tokens": [
+      "nftables",
+      "linux",
+      "explained",
+      "examples",
+      "source",
+      "https",
+      "www",
+      "computernetworkingnotes",
+      "com",
+      "linux",
+      "tutorials",
+      "configure",
+      "iptables",
+      "firewall",
+      "linux",
+      "html",
+      "source",
+      "https",
+      "www",
+      "computernetworkingnotes",
+      "com",
+      "linux",
+      "tutorials",
+      "configure",
+      "iptables",
+      "firewall",
+      "linux",
+      "html"
+    ]
+  },
+  "title": "The nftables in Linux Explained with Examples"
+}

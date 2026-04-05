@@ -1,0 +1,401 @@
+{
+  "aliases": [
+    {
+      "alias": "ce4d75f72b021b04",
+      "aliasId": "hz.web.ce4d75f72b021b04.alias.1",
+      "canonical": "www.cloudfest.com"
+    },
+    {
+      "alias": "web ce4d75f72b021b04",
+      "aliasId": "hz.web.ce4d75f72b021b04.alias.2",
+      "canonical": "www.cloudfest.com"
+    },
+    {
+      "alias": "www.cloudfest.com",
+      "aliasId": "hz.web.ce4d75f72b021b04.alias.3",
+      "canonical": "www.cloudfest.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.49,
+  "docId": "hz.web.ce4d75f72b021b04",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ce4d75f72b021b04.entity.1",
+      "kind": "document",
+      "name": "www.cloudfest.com",
+      "tokens": [
+        "www",
+        "cloudfest",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ce4d75f72b021b04.entity.2",
+      "kind": "heading",
+      "name": "www.cloudfest.com",
+      "tokens": [
+        "www",
+        "cloudfest",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ce4d75f72b021b04.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ce4d75f72b021b04.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ce4d75f72b021b04.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 112,
+      "charStart": 22,
+      "factId": "hz.web.ce4d75f72b021b04.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cloudfest.com/wp-includes/css/dist/preferences/style.min.css?ver=6.9.4",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cloudfest",
+        "com",
+        "wp",
+        "includes",
+        "css",
+        "dist",
+        "preferences",
+        "style",
+        "min",
+        "css",
+        "ver"
+      ]
+    },
+    {
+      "charEnd": 1169,
+      "charStart": 164,
+      "factId": "hz.web.ce4d75f72b021b04.fact.1",
+      "kind": "bullet",
+      "text": ".preference-base-option+.preference-base-option{margin-top:16px}@media (min-width:600px){.preferences-modal{height:calc(100% - 128px);width:calc(100% - 32px)}}@media (min-width:782px){.preferences-modal{width:750px}}@media (min-width:960px){.preferences-modal{height:70%}}@media (max-width:781px){.preferences-modal .components-modal__content{padding:0}}.preferences__tabs-tablist{left:16px;position:absolute!important;top:88px;width:160px}.preferences__tabs-tabpanel{margin-left:160px;padding-left:24px}@media (max-width:781px){.preferences__provider{height:100%}}.preferences-modal__section{border:0;margin:0 0 2.5rem;padding:0}.preferences-modal__section:last-child{margin:0}.preferences-modal__section-legend{margin-bottom:8px}.preferences-modal__section-title{font-size:.9rem;font-weight:600;margin-top:0}.preferences-modal__section-description{color:#757575;font-size:12px;font-style:normal;margin:-8px 0 8px}.preferences-modal__section:has(.preferences-modal__section-content:empty){display:none}",
+      "tokens": [
+        "preference",
+        "base",
+        "option",
+        "preference",
+        "base",
+        "option",
+        "margin",
+        "top",
+        "16px",
+        "media",
+        "min",
+        "width",
+        "600px",
+        "preferences",
+        "modal",
+        "height",
+        "calc",
+        "100",
+        "128px",
+        "width",
+        "calc",
+        "100",
+        "32px",
+        "media",
+        "min",
+        "width",
+        "782px",
+        "preferences",
+        "modal",
+        "width",
+        "750px",
+        "media",
+        "min",
+        "width",
+        "960px",
+        "preferences",
+        "modal",
+        "height",
+        "70",
+        "media",
+        "max",
+        "width",
+        "781px",
+        "preferences",
+        "modal",
+        "components",
+        "modal__content",
+        "padding",
+        "preferences__tabs",
+        "tablist",
+        "left",
+        "16px",
+        "position",
+        "absolute",
+        "important",
+        "top",
+        "88px",
+        "width",
+        "160px",
+        "preferences__tabs",
+        "tabpanel",
+        "margin",
+        "left",
+        "160px",
+        "padding",
+        "left",
+        "24px",
+        "media",
+        "max",
+        "width",
+        "781px",
+        "preferences__provider",
+        "height",
+        "100",
+        "preferences",
+        "modal__section",
+        "border",
+        "margin",
+        "5rem",
+        "padding",
+        "preferences",
+        "modal__section",
+        "last",
+        "child",
+        "margin",
+        "preferences",
+        "modal__section",
+        "legend",
+        "margin",
+        "bottom",
+        "8px",
+        "preferences",
+        "modal__section",
+        "title",
+        "font",
+        "size",
+        "9rem",
+        "font",
+        "weight",
+        "600",
+        "margin",
+        "top",
+        "preferences",
+        "modal__section",
+        "description",
+        "color",
+        "757575",
+        "font",
+        "size",
+        "12px",
+        "font",
+        "style",
+        "normal",
+        "margin",
+        "8px",
+        "8px",
+        "preferences",
+        "modal__section",
+        "has",
+        "preferences",
+        "modal__section",
+        "content",
+        "empty",
+        "display",
+        "none"
+      ]
+    },
+    {
+      "charEnd": 1197,
+      "charStart": 1184,
+      "factId": "hz.web.ce4d75f72b021b04.fact.2",
+      "kind": "bullet",
+      "text": "preferences",
+      "tokens": [
+        "preferences"
+      ]
+    },
+    {
+      "charEnd": 1205,
+      "charStart": 1198,
+      "factId": "hz.web.ce4d75f72b021b04.fact.3",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    },
+    {
+      "charEnd": 1214,
+      "charStart": 1206,
+      "factId": "hz.web.ce4d75f72b021b04.fact.4",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 1231,
+      "charStart": 1215,
+      "factId": "hz.web.ce4d75f72b021b04.fact.5",
+      "kind": "bullet",
+      "text": "modal__section",
+      "tokens": [
+        "modal__section"
+      ]
+    },
+    {
+      "charEnd": 1239,
+      "charStart": 1232,
+      "factId": "hz.web.ce4d75f72b021b04.fact.6",
+      "kind": "bullet",
+      "text": "media",
+      "tokens": [
+        "media"
+      ]
+    },
+    {
+      "charEnd": 1246,
+      "charStart": 1240,
+      "factId": "hz.web.ce4d75f72b021b04.fact.7",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 1254,
+      "charStart": 1247,
+      "factId": "hz.web.ce4d75f72b021b04.fact.8",
+      "kind": "bullet",
+      "text": "modal",
+      "tokens": [
+        "modal"
+      ]
+    },
+    {
+      "charEnd": 1260,
+      "charStart": 1255,
+      "factId": "hz.web.ce4d75f72b021b04.fact.9",
+      "kind": "bullet",
+      "text": "100",
+      "tokens": [
+        "100"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 20,
+      "charStart": 1,
+      "headingId": "hz.web.ce4d75f72b021b04.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.cloudfest.com"
+    },
+    {
+      "charEnd": 162,
+      "charStart": 152,
+      "headingId": "hz.web.ce4d75f72b021b04.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1182,
+      "charStart": 1171,
+      "headingId": "hz.web.ce4d75f72b021b04.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1272,
+      "charStart": 1262,
+      "headingId": "hz.web.ce4d75f72b021b04.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/ce4d75f72b021b04.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2561,
+        "start": 0
+      }
+    ],
+    "hash": "e02bd974d77c30a9eb8b6ea2a8881046a27b53c948b4cf3e6b586a7c7c84a321",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      ".preference-base-option+.preference-base-option{margin-top:16px}@media (min-width:600px){.preferences-modal{height:calc(100% - 128px);width:calc(100% - 32px)}}@media (min-width:782px){.preferences-modal{width:750px}}@media (min-width:960px){.preferences-modal{height:70%}}@media (max-width:781px){.preferences-modal .components-modal__content{padding:0}}.preferences__tabs-tablist{left:16px;position:absolute!important;top:88px;width:160px}.preferences__tabs-tabpanel{margin-left:160px;padding-left:24px}@media (max-width:781px){.preferences__provider{height:100%}}.preferences-modal__section{border:0;margin:0 0 2.5rem;padding:0}.preferences-modal__section:last-child{margin:0}.preferences-modal__section-legend{margin-bottom:8px}.preferences-modal__section-title{font-size:.9rem;font-weight:600;margin-top:0}.preferences-modal__section-description{color:#757575;font-size:12px;font-style:normal;margin:-8px 0 8px}.preferences-modal__section:has(.preferences-modal__section-content:empty){display:none}",
+      "preferences",
+      "width"
+    ],
+    "medium": "Source: https://www.cloudfest.com/wp-includes/css/dist/preferences/style.min.css?ver=6.9.4",
+    "short": "Source: https://www.cloudfest.com/wp-includes/css/dist/preferences/style.min.css?ver=6.9.4",
+    "tokens": [
+      "www",
+      "cloudfest",
+      "com",
+      "source",
+      "https",
+      "www",
+      "cloudfest",
+      "com",
+      "wp",
+      "includes",
+      "css",
+      "dist",
+      "preferences",
+      "style",
+      "min",
+      "css",
+      "ver",
+      "source",
+      "https",
+      "www",
+      "cloudfest",
+      "com",
+      "wp",
+      "includes",
+      "css",
+      "dist",
+      "preferences",
+      "style",
+      "min",
+      "css",
+      "ver"
+    ]
+  },
+  "title": "www.cloudfest.com"
+}

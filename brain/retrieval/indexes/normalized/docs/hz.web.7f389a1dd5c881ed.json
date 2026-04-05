@@ -1,0 +1,360 @@
+{
+  "aliases": [
+    {
+      "alias": "7f389a1dd5c881ed",
+      "aliasId": "hz.web.7f389a1dd5c881ed.alias.1",
+      "canonical": "python module index &#8212; python 3.14.3 documentation"
+    },
+    {
+      "alias": "python module index 8212 python 3.14.3 documentation",
+      "aliasId": "hz.web.7f389a1dd5c881ed.alias.2",
+      "canonical": "python module index &#8212; python 3.14.3 documentation"
+    },
+    {
+      "alias": "web 7f389a1dd5c881ed",
+      "aliasId": "hz.web.7f389a1dd5c881ed.alias.3",
+      "canonical": "python module index &#8212; python 3.14.3 documentation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.7f389a1dd5c881ed",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7f389a1dd5c881ed.entity.1",
+      "kind": "document",
+      "name": "Python Module Index &#8212; Python 3.14.3 documentation",
+      "tokens": [
+        "python",
+        "module",
+        "index",
+        "8212",
+        "python",
+        "14",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f389a1dd5c881ed.entity.2",
+      "kind": "heading",
+      "name": "Python Module Index &#8212; Python 3.14.3 documentation",
+      "tokens": [
+        "python",
+        "module",
+        "index",
+        "8212",
+        "python",
+        "14",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f389a1dd5c881ed.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f389a1dd5c881ed.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7f389a1dd5c881ed.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 110,
+      "charStart": 60,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.1",
+      "kind": "summary",
+      "text": "Source: https://docs.python.org/3/py-modindex.html",
+      "tokens": [
+        "source",
+        "https",
+        "docs",
+        "python",
+        "org",
+        "py",
+        "modindex",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 162,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.1",
+      "kind": "bullet",
+      "text": "Python Module Index &#8212; Python 3.14.3 documentation Theme Auto Light Dark Navigation index modules | Python &#187; 3.14.3 Documentation &#187; Python Module Index | Theme Auto Light Dark | Python Module Index _ | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | z &#160; _ __future__ Future statement definitions __main__ The environment where top-level code is run.",
+      "tokens": [
+        "python",
+        "module",
+        "index",
+        "8212",
+        "python",
+        "14",
+        "documentation",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "navigation",
+        "index",
+        "modules",
+        "python",
+        "187",
+        "14",
+        "documentation",
+        "187",
+        "python",
+        "module",
+        "index",
+        "theme",
+        "auto",
+        "light",
+        "dark",
+        "python",
+        "module",
+        "index",
+        "160",
+        "__future__",
+        "future",
+        "statement",
+        "definitions",
+        "__main__",
+        "environment",
+        "top",
+        "level",
+        "code",
+        "run"
+      ]
+    },
+    {
+      "charEnd": 669,
+      "charStart": 582,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.2",
+      "kind": "bullet",
+      "text": "Covers command-line interfaces, import-time behavior, and ``__name__ == '__main__'``.",
+      "tokens": [
+        "covers",
+        "command",
+        "line",
+        "interfaces",
+        "import",
+        "time",
+        "behavior",
+        "__name__",
+        "__main__"
+      ]
+    },
+    {
+      "charEnd": 704,
+      "charStart": 670,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.3",
+      "kind": "bullet",
+      "text": "_thread Low-level threading API.",
+      "tokens": [
+        "_thread",
+        "low",
+        "level",
+        "threading",
+        "api"
+      ]
+    },
+    {
+      "charEnd": 780,
+      "charStart": 705,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.4",
+      "kind": "bullet",
+      "text": "_tkinter A binary module that contains the low-level interface to Tcl/Tk.",
+      "tokens": [
+        "_tkinter",
+        "binary",
+        "module",
+        "contains",
+        "low",
+        "level",
+        "interface",
+        "tcl",
+        "tk"
+      ]
+    },
+    {
+      "charEnd": 800,
+      "charStart": 795,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.5",
+      "kind": "bullet",
+      "text": "160",
+      "tokens": [
+        "160"
+      ]
+    },
+    {
+      "charEnd": 809,
+      "charStart": 801,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.6",
+      "kind": "bullet",
+      "text": "python",
+      "tokens": [
+        "python"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 810,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.7",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 827,
+      "charStart": 818,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.8",
+      "kind": "bullet",
+      "text": "support",
+      "tokens": [
+        "support"
+      ]
+    },
+    {
+      "charEnd": 840,
+      "charStart": 828,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.9",
+      "kind": "bullet",
+      "text": "deprecated",
+      "tokens": [
+        "deprecated"
+      ]
+    },
+    {
+      "charEnd": 850,
+      "charStart": 841,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.10",
+      "kind": "bullet",
+      "text": "removed",
+      "tokens": [
+        "removed"
+      ]
+    },
+    {
+      "charEnd": 855,
+      "charStart": 851,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.11",
+      "kind": "bullet",
+      "text": "13",
+      "tokens": [
+        "13"
+      ]
+    },
+    {
+      "charEnd": 861,
+      "charStart": 856,
+      "factId": "hz.web.7f389a1dd5c881ed.fact.12",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 58,
+      "charStart": 1,
+      "headingId": "hz.web.7f389a1dd5c881ed.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Python Module Index &#8212; Python 3.14.3 documentation"
+    },
+    {
+      "charEnd": 160,
+      "charStart": 150,
+      "headingId": "hz.web.7f389a1dd5c881ed.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 793,
+      "charStart": 782,
+      "headingId": "hz.web.7f389a1dd5c881ed.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 873,
+      "charStart": 863,
+      "headingId": "hz.web.7f389a1dd5c881ed.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7f389a1dd5c881ed.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4157,
+        "start": 0
+      }
+    ],
+    "hash": "f5516ee5c7ac20501a007fab683aef74d4dd5c8e816e930d046ed9882779c452",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Python Module Index &#8212; Python 3.14.3 documentation Theme Auto Light Dark Navigation index modules | Python &#187; 3.14.3 Documentation &#187; Python Module Index | Theme Auto Light Dark | Python Module Index _ | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | z &#160; _ __future__ Future statement definitions __main__ The environment where top-level code is run.",
+      "Covers command-line interfaces, import-time behavior, and ``__name__ == '__main__'``.",
+      "_thread Low-level threading API."
+    ],
+    "medium": "Source: https://docs.python.org/3/py-modindex.html",
+    "short": "Source: https://docs.python.org/3/py-modindex.html",
+    "tokens": [
+      "python",
+      "module",
+      "index",
+      "8212",
+      "python",
+      "14",
+      "documentation",
+      "source",
+      "https",
+      "docs",
+      "python",
+      "org",
+      "py",
+      "modindex",
+      "html",
+      "source",
+      "https",
+      "docs",
+      "python",
+      "org",
+      "py",
+      "modindex",
+      "html"
+    ]
+  },
+  "title": "Python Module Index &#8212; Python 3.14.3 documentation"
+}

@@ -1,0 +1,320 @@
+{
+  "aliases": [
+    {
+      "alias": "abd3a217476e0ac9",
+      "aliasId": "hz.web.abd3a217476e0ac9.alias.1",
+      "canonical": "sendgrid status"
+    },
+    {
+      "alias": "sendgrid status",
+      "aliasId": "hz.web.abd3a217476e0ac9.alias.2",
+      "canonical": "sendgrid status"
+    },
+    {
+      "alias": "web abd3a217476e0ac9",
+      "aliasId": "hz.web.abd3a217476e0ac9.alias.3",
+      "canonical": "sendgrid status"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.abd3a217476e0ac9",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.abd3a217476e0ac9.entity.1",
+      "kind": "document",
+      "name": "SendGrid Status",
+      "tokens": [
+        "sendgrid",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.abd3a217476e0ac9.entity.2",
+      "kind": "heading",
+      "name": "SendGrid Status",
+      "tokens": [
+        "sendgrid",
+        "status"
+      ]
+    },
+    {
+      "entityId": "hz.web.abd3a217476e0ac9.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.abd3a217476e0ac9.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.abd3a217476e0ac9.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 20,
+      "factId": "hz.web.abd3a217476e0ac9.fact.1",
+      "kind": "summary",
+      "text": "Source: http://status.sendgrid.com/",
+      "tokens": [
+        "source",
+        "http",
+        "status",
+        "sendgrid",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 262,
+      "charStart": 107,
+      "factId": "hz.web.abd3a217476e0ac9.fact.1",
+      "kind": "bullet",
+      "text": "SendGrid Status STATUS HOME SUPPORT Subscribe to Updates Subscribe x Get email notifications whenever SendGrid creates , updates or resolves an incident.",
+      "tokens": [
+        "sendgrid",
+        "status",
+        "status",
+        "home",
+        "support",
+        "subscribe",
+        "updates",
+        "subscribe",
+        "get",
+        "email",
+        "notifications",
+        "whenever",
+        "sendgrid",
+        "creates",
+        "updates",
+        "resolves",
+        "incident"
+      ]
+    },
+    {
+      "charEnd": 337,
+      "charStart": 263,
+      "factId": "hz.web.abd3a217476e0ac9.fact.2",
+      "kind": "bullet",
+      "text": "Email address: Enter OTP: Resend OTP in: seconds Didn't receive the OTP?",
+      "tokens": [
+        "email",
+        "address",
+        "enter",
+        "otp",
+        "resend",
+        "otp",
+        "seconds",
+        "didn",
+        "receive",
+        "otp"
+      ]
+    },
+    {
+      "charEnd": 444,
+      "charStart": 338,
+      "factId": "hz.web.abd3a217476e0ac9.fact.3",
+      "kind": "bullet",
+      "text": "Resend OTP This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.",
+      "tokens": [
+        "resend",
+        "otp",
+        "site",
+        "protected",
+        "recaptcha",
+        "google",
+        "privacy",
+        "policy",
+        "terms",
+        "service",
+        "apply"
+      ]
+    },
+    {
+      "charEnd": 528,
+      "charStart": 445,
+      "factId": "hz.web.abd3a217476e0ac9.fact.4",
+      "kind": "bullet",
+      "text": "Get text message notifications whenever SendGrid creates or resolves an incident.",
+      "tokens": [
+        "get",
+        "text",
+        "message",
+        "notifications",
+        "whenever",
+        "sendgrid",
+        "creates",
+        "resolves",
+        "incident"
+      ]
+    },
+    {
+      "charEnd": 548,
+      "charStart": 543,
+      "factId": "hz.web.abd3a217476e0ac9.fact.5",
+      "kind": "bullet",
+      "text": "mar",
+      "tokens": [
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 562,
+      "charStart": 549,
+      "factId": "hz.web.abd3a217476e0ac9.fact.6",
+      "kind": "bullet",
+      "text": "operational",
+      "tokens": [
+        "operational"
+      ]
+    },
+    {
+      "charEnd": 569,
+      "charStart": 563,
+      "factId": "hz.web.abd3a217476e0ac9.fact.7",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 581,
+      "charStart": 570,
+      "factId": "hz.web.abd3a217476e0ac9.fact.8",
+      "kind": "bullet",
+      "text": "incidents",
+      "tokens": [
+        "incidents"
+      ]
+    },
+    {
+      "charEnd": 586,
+      "charStart": 582,
+      "factId": "hz.web.abd3a217476e0ac9.fact.9",
+      "kind": "bullet",
+      "text": "no",
+      "tokens": [
+        "no"
+      ]
+    },
+    {
+      "charEnd": 597,
+      "charStart": 587,
+      "factId": "hz.web.abd3a217476e0ac9.fact.10",
+      "kind": "bullet",
+      "text": "reported",
+      "tokens": [
+        "reported"
+      ]
+    },
+    {
+      "charEnd": 603,
+      "charStart": 598,
+      "factId": "hz.web.abd3a217476e0ac9.fact.11",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 609,
+      "charStart": 604,
+      "factId": "hz.web.abd3a217476e0ac9.fact.12",
+      "kind": "bullet",
+      "text": "pdt",
+      "tokens": [
+        "pdt"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.abd3a217476e0ac9.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "SendGrid Status"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.abd3a217476e0ac9.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 541,
+      "charStart": 530,
+      "headingId": "hz.web.abd3a217476e0ac9.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 621,
+      "charStart": 611,
+      "headingId": "hz.web.abd3a217476e0ac9.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/abd3a217476e0ac9.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3850,
+        "start": 0
+      }
+    ],
+    "hash": "6b866e956d27c4eca7e9e19f5decd0e8aa66b28f598c8263464b044b218e8515",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "SendGrid Status STATUS HOME SUPPORT Subscribe to Updates Subscribe x Get email notifications whenever SendGrid creates , updates or resolves an incident.",
+      "Email address: Enter OTP: Resend OTP in: seconds Didn't receive the OTP?",
+      "Resend OTP This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply."
+    ],
+    "medium": "Source: http://status.sendgrid.com/",
+    "short": "Source: http://status.sendgrid.com/",
+    "tokens": [
+      "sendgrid",
+      "status",
+      "source",
+      "http",
+      "status",
+      "sendgrid",
+      "com",
+      "source",
+      "http",
+      "status",
+      "sendgrid",
+      "com"
+    ]
+  },
+  "title": "SendGrid Status"
+}

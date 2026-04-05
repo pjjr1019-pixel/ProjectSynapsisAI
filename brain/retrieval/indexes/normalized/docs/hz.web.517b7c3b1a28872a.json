@@ -1,0 +1,399 @@
+{
+  "aliases": [
+    {
+      "alias": "517b7c3b1a28872a",
+      "aliasId": "hz.web.517b7c3b1a28872a.alias.1",
+      "canonical": "trackers - superfeedr documentation"
+    },
+    {
+      "alias": "trackers - superfeedr documentation",
+      "aliasId": "hz.web.517b7c3b1a28872a.alias.2",
+      "canonical": "trackers - superfeedr documentation"
+    },
+    {
+      "alias": "web 517b7c3b1a28872a",
+      "aliasId": "hz.web.517b7c3b1a28872a.alias.3",
+      "canonical": "trackers - superfeedr documentation"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.517b7c3b1a28872a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.517b7c3b1a28872a.entity.1",
+      "kind": "document",
+      "name": "Trackers - Superfeedr Documentation",
+      "tokens": [
+        "trackers",
+        "superfeedr",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.517b7c3b1a28872a.entity.2",
+      "kind": "heading",
+      "name": "Trackers - Superfeedr Documentation",
+      "tokens": [
+        "trackers",
+        "superfeedr",
+        "documentation"
+      ]
+    },
+    {
+      "entityId": "hz.web.517b7c3b1a28872a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.517b7c3b1a28872a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.517b7c3b1a28872a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 97,
+      "charStart": 40,
+      "factId": "hz.web.517b7c3b1a28872a.fact.1",
+      "kind": "summary",
+      "text": "Source: http://documentation.superfeedr.com/trackers.html",
+      "tokens": [
+        "source",
+        "http",
+        "documentation",
+        "superfeedr",
+        "com",
+        "trackers",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 618,
+      "charStart": 149,
+      "factId": "hz.web.517b7c3b1a28872a.fact.1",
+      "kind": "bullet",
+      "text": "Trackers - Superfeedr Documentation Superfeedr Documentation Publishers Subscribers Trackers Pricing Login Sign Up Documentation › Trackers Introduction Subscribers Publishers Trackers Schema Miscellaneous Contents Introduction Building Track Feeds Queries Site Link Language Popularity Porn filtering Bozo Filtering Testing Scope Introduction You may want to subscribe transversally to any entry that matches a certain query, rather than subscribing to single feeds.",
+      "tokens": [
+        "trackers",
+        "superfeedr",
+        "documentation",
+        "superfeedr",
+        "documentation",
+        "publishers",
+        "subscribers",
+        "trackers",
+        "pricing",
+        "login",
+        "sign",
+        "up",
+        "documentation",
+        "trackers",
+        "introduction",
+        "subscribers",
+        "publishers",
+        "trackers",
+        "schema",
+        "miscellaneous",
+        "contents",
+        "introduction",
+        "building",
+        "track",
+        "feeds",
+        "queries",
+        "site",
+        "link",
+        "language",
+        "popularity",
+        "porn",
+        "filtering",
+        "bozo",
+        "filtering",
+        "testing",
+        "scope",
+        "introduction",
+        "may",
+        "want",
+        "subscribe",
+        "transversally",
+        "any",
+        "entry",
+        "matches",
+        "certain",
+        "query",
+        "rather",
+        "than",
+        "subscribing",
+        "single",
+        "feeds"
+      ]
+    },
+    {
+      "charEnd": 705,
+      "charStart": 619,
+      "factId": "hz.web.517b7c3b1a28872a.fact.2",
+      "kind": "bullet",
+      "text": "The most common use case is to subscribe to any entry which matches a given keyword.",
+      "tokens": [
+        "most",
+        "common",
+        "use",
+        "case",
+        "subscribe",
+        "any",
+        "entry",
+        "matches",
+        "given",
+        "keyword"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 706,
+      "factId": "hz.web.517b7c3b1a28872a.fact.3",
+      "kind": "bullet",
+      "text": "Only the “Tracker” users can use track feeds.",
+      "tokens": [
+        "only",
+        "tracker",
+        "users",
+        "use",
+        "track",
+        "feeds"
+      ]
+    },
+    {
+      "charEnd": 942,
+      "charStart": 754,
+      "factId": "hz.web.517b7c3b1a28872a.fact.4",
+      "kind": "bullet",
+      "text": "However, the API calls for subscribing , unsubscribing , listing or retrieving past entries are the same that “ Subscriber ” users can use for regular feeds, using our PubSubHubbub API .",
+      "tokens": [
+        "however",
+        "api",
+        "calls",
+        "subscribing",
+        "unsubscribing",
+        "listing",
+        "retrieving",
+        "past",
+        "entries",
+        "same",
+        "subscriber",
+        "users",
+        "use",
+        "regular",
+        "feeds",
+        "using",
+        "our",
+        "pubsubhubbub",
+        "api"
+      ]
+    },
+    {
+      "charEnd": 969,
+      "charStart": 957,
+      "factId": "hz.web.517b7c3b1a28872a.fact.5",
+      "kind": "bullet",
+      "text": "superfeedr",
+      "tokens": [
+        "superfeedr"
+      ]
+    },
+    {
+      "charEnd": 977,
+      "charStart": 970,
+      "factId": "hz.web.517b7c3b1a28872a.fact.6",
+      "kind": "bullet",
+      "text": "query",
+      "tokens": [
+        "query"
+      ]
+    },
+    {
+      "charEnd": 983,
+      "charStart": 978,
+      "factId": "hz.web.517b7c3b1a28872a.fact.7",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 984,
+      "factId": "hz.web.517b7c3b1a28872a.fact.8",
+      "kind": "bullet",
+      "text": "will",
+      "tokens": [
+        "will"
+      ]
+    },
+    {
+      "charEnd": 998,
+      "charStart": 991,
+      "factId": "hz.web.517b7c3b1a28872a.fact.9",
+      "kind": "bullet",
+      "text": "feeds",
+      "tokens": [
+        "feeds"
+      ]
+    },
+    {
+      "charEnd": 1006,
+      "charStart": 999,
+      "factId": "hz.web.517b7c3b1a28872a.fact.10",
+      "kind": "bullet",
+      "text": "match",
+      "tokens": [
+        "match"
+      ]
+    },
+    {
+      "charEnd": 1017,
+      "charStart": 1007,
+      "factId": "hz.web.517b7c3b1a28872a.fact.11",
+      "kind": "bullet",
+      "text": "language",
+      "tokens": [
+        "language"
+      ]
+    },
+    {
+      "charEnd": 1023,
+      "charStart": 1018,
+      "factId": "hz.web.517b7c3b1a28872a.fact.12",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 38,
+      "charStart": 1,
+      "headingId": "hz.web.517b7c3b1a28872a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Trackers - Superfeedr Documentation"
+    },
+    {
+      "charEnd": 147,
+      "charStart": 137,
+      "headingId": "hz.web.517b7c3b1a28872a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 955,
+      "charStart": 944,
+      "headingId": "hz.web.517b7c3b1a28872a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1035,
+      "charStart": 1025,
+      "headingId": "hz.web.517b7c3b1a28872a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/517b7c3b1a28872a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4306,
+        "start": 0
+      }
+    ],
+    "hash": "4f2387f8340db5acb7844b299b167ff06fab6c293690c7881d02fda44163f946",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.517b7c3b1a28872a.rule.1",
+      "text": "You should refer to our schema section for details on both ATOM and JSON.",
+      "tokens": [
+        "refer",
+        "our",
+        "schema",
+        "section",
+        "details",
+        "both",
+        "atom",
+        "json"
+      ]
+    },
+    {
+      "ruleId": "hz.web.517b7c3b1a28872a.rule.2",
+      "text": "Site The site: flag allows you to define from which site the content must have been published.",
+      "tokens": [
+        "site",
+        "site",
+        "flag",
+        "allows",
+        "define",
+        "site",
+        "content",
+        "must",
+        "have",
+        "published"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Trackers - Superfeedr Documentation Superfeedr Documentation Publishers Subscribers Trackers Pricing Login Sign Up Documentation › Trackers Introduction Subscribers Publishers Trackers Schema Miscellaneous Contents Introduction Building Track Feeds Queries Site Link Language Popularity Porn filtering Bozo Filtering Testing Scope Introduction You may want to subscribe transversally to any entry that matches a certain query, rather than subscribing to single feeds.",
+      "The most common use case is to subscribe to any entry which matches a given keyword.",
+      "Only the “Tracker” users can use track feeds."
+    ],
+    "medium": "Source: http://documentation.superfeedr.com/trackers.html",
+    "short": "Source: http://documentation.superfeedr.com/trackers.html",
+    "tokens": [
+      "trackers",
+      "superfeedr",
+      "documentation",
+      "source",
+      "http",
+      "documentation",
+      "superfeedr",
+      "com",
+      "trackers",
+      "html",
+      "source",
+      "http",
+      "documentation",
+      "superfeedr",
+      "com",
+      "trackers",
+      "html"
+    ]
+  },
+  "title": "Trackers - Superfeedr Documentation"
+}

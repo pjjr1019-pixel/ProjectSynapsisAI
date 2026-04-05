@@ -1,0 +1,324 @@
+{
+  "aliases": [
+    {
+      "alias": "e372083aae7ec118",
+      "aliasId": "hz.web.e372083aae7ec118.alias.1",
+      "canonical": "www.youtube.com"
+    },
+    {
+      "alias": "web e372083aae7ec118",
+      "aliasId": "hz.web.e372083aae7ec118.alias.2",
+      "canonical": "www.youtube.com"
+    },
+    {
+      "alias": "www.youtube.com",
+      "aliasId": "hz.web.e372083aae7ec118.alias.3",
+      "canonical": "www.youtube.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.e372083aae7ec118",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e372083aae7ec118.entity.1",
+      "kind": "document",
+      "name": "www.youtube.com",
+      "tokens": [
+        "www",
+        "youtube",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e372083aae7ec118.entity.2",
+      "kind": "heading",
+      "name": "www.youtube.com",
+      "tokens": [
+        "www",
+        "youtube",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.e372083aae7ec118.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e372083aae7ec118.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e372083aae7ec118.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 75,
+      "charStart": 20,
+      "factId": "hz.web.e372083aae7ec118.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.youtube.com/opensearch?locale=en_US",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "youtube",
+        "com",
+        "opensearch",
+        "locale",
+        "en_us"
+      ]
+    },
+    {
+      "charEnd": 669,
+      "charStart": 127,
+      "factId": "hz.web.e372083aae7ec118.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"><ShortName>YouTube</ShortName><Description>Search for videos on YouTube</Description><Tags>youtube video</Tags><Image height=\"16\" width=\"16\" type=\"image/vnd.microsoft.icon\">https://www.youtube.com/favicon.ico</Image><Url type=\"text/html\" template=\"https://www.youtube.com/results?search_query={searchTerms}&amp;page={startPage?}&amp;utm_source=opensearch\"></Url><Query role=\"example\" searchTerms=\"cat\"></Query></OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "shortname",
+        "youtube",
+        "shortname",
+        "description",
+        "search",
+        "videos",
+        "youtube",
+        "description",
+        "tags",
+        "youtube",
+        "video",
+        "tags",
+        "image",
+        "height",
+        "16",
+        "width",
+        "16",
+        "type",
+        "image",
+        "vnd",
+        "microsoft",
+        "icon",
+        "https",
+        "www",
+        "youtube",
+        "com",
+        "favicon",
+        "ico",
+        "image",
+        "url",
+        "type",
+        "text",
+        "html",
+        "template",
+        "https",
+        "www",
+        "youtube",
+        "com",
+        "results",
+        "search_query",
+        "searchterms",
+        "amp",
+        "page",
+        "startpage",
+        "amp",
+        "utm_source",
+        "opensearch",
+        "url",
+        "query",
+        "role",
+        "example",
+        "searchterms",
+        "cat",
+        "query",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 693,
+      "charStart": 684,
+      "factId": "hz.web.e372083aae7ec118.fact.2",
+      "kind": "bullet",
+      "text": "youtube",
+      "tokens": [
+        "youtube"
+      ]
+    },
+    {
+      "charEnd": 699,
+      "charStart": 694,
+      "factId": "hz.web.e372083aae7ec118.fact.3",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 707,
+      "charStart": 700,
+      "factId": "hz.web.e372083aae7ec118.fact.4",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 712,
+      "charStart": 708,
+      "factId": "hz.web.e372083aae7ec118.fact.5",
+      "kind": "bullet",
+      "text": "16",
+      "tokens": [
+        "16"
+      ]
+    },
+    {
+      "charEnd": 718,
+      "charStart": 713,
+      "factId": "hz.web.e372083aae7ec118.fact.6",
+      "kind": "bullet",
+      "text": "amp",
+      "tokens": [
+        "amp"
+      ]
+    },
+    {
+      "charEnd": 732,
+      "charStart": 719,
+      "factId": "hz.web.e372083aae7ec118.fact.7",
+      "kind": "bullet",
+      "text": "description",
+      "tokens": [
+        "description"
+      ]
+    },
+    {
+      "charEnd": 740,
+      "charStart": 733,
+      "factId": "hz.web.e372083aae7ec118.fact.8",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 741,
+      "factId": "hz.web.e372083aae7ec118.fact.9",
+      "kind": "bullet",
+      "text": "opensearch",
+      "tokens": [
+        "opensearch"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.e372083aae7ec118.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.youtube.com"
+    },
+    {
+      "charEnd": 125,
+      "charStart": 115,
+      "headingId": "hz.web.e372083aae7ec118.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 682,
+      "charStart": 671,
+      "headingId": "hz.web.e372083aae7ec118.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 765,
+      "charStart": 755,
+      "headingId": "hz.web.e372083aae7ec118.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e372083aae7ec118.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1554,
+        "start": 0
+      }
+    ],
+    "hash": "0f9fe971a1b7fe1b75e86c6215f28ca8633e1754f441955c56ef82a9951907ec",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?><OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\"><ShortName>YouTube</ShortName><Description>Search for videos on YouTube</Description><Tags>youtube video</Tags><Image height=\"16\" width=\"16\" type=\"image/vnd.microsoft.icon\">https://www.youtube.com/favicon.ico</Image><Url type=\"text/html\" template=\"https://www.youtube.com/results?search_query={searchTerms}&amp;page={startPage?}&amp;utm_source=opensearch\"></Url><Query role=\"example\" searchTerms=\"cat\"></Query></OpenSearchDescription>",
+      "youtube",
+      "com"
+    ],
+    "medium": "Source: https://www.youtube.com/opensearch?locale=en_US",
+    "short": "Source: https://www.youtube.com/opensearch?locale=en_US",
+    "tokens": [
+      "www",
+      "youtube",
+      "com",
+      "source",
+      "https",
+      "www",
+      "youtube",
+      "com",
+      "opensearch",
+      "locale",
+      "en_us",
+      "source",
+      "https",
+      "www",
+      "youtube",
+      "com",
+      "opensearch",
+      "locale",
+      "en_us"
+    ]
+  },
+  "title": "www.youtube.com"
+}

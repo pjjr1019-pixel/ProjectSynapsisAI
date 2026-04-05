@@ -1,0 +1,303 @@
+{
+  "aliases": [
+    {
+      "alias": "3bdf39e285128db8",
+      "aliasId": "hz.web.3bdf39e285128db8.alias.1",
+      "canonical": "omg.lol - info center"
+    },
+    {
+      "alias": "omg.lol - info center",
+      "aliasId": "hz.web.3bdf39e285128db8.alias.2",
+      "canonical": "omg.lol - info center"
+    },
+    {
+      "alias": "web 3bdf39e285128db8",
+      "aliasId": "hz.web.3bdf39e285128db8.alias.3",
+      "canonical": "omg.lol - info center"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.3bdf39e285128db8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3bdf39e285128db8.entity.1",
+      "kind": "document",
+      "name": "omg.lol - Info Center",
+      "tokens": [
+        "omg",
+        "lol",
+        "info",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.3bdf39e285128db8.entity.2",
+      "kind": "heading",
+      "name": "omg.lol - Info Center",
+      "tokens": [
+        "omg",
+        "lol",
+        "info",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.3bdf39e285128db8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3bdf39e285128db8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3bdf39e285128db8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 26,
+      "factId": "hz.web.3bdf39e285128db8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://home.omg.lol/info",
+      "tokens": [
+        "source",
+        "https",
+        "home",
+        "omg",
+        "lol",
+        "info"
+      ]
+    },
+    {
+      "charEnd": 140,
+      "charStart": 111,
+      "factId": "hz.web.3bdf39e285128db8.fact.1",
+      "kind": "bullet",
+      "text": "omg.lol - Info Center omg .",
+      "tokens": [
+        "omg",
+        "lol",
+        "info",
+        "center",
+        "omg"
+      ]
+    },
+    {
+      "charEnd": 193,
+      "charStart": 141,
+      "factId": "hz.web.3bdf39e285128db8.fact.2",
+      "kind": "bullet",
+      "text": "lol Help Sign up Sign in Info Center Read & learn!",
+      "tokens": [
+        "lol",
+        "help",
+        "sign",
+        "up",
+        "sign",
+        "info",
+        "center",
+        "read",
+        "learn"
+      ]
+    },
+    {
+      "charEnd": 210,
+      "charStart": 194,
+      "factId": "hz.web.3bdf39e285128db8.fact.3",
+      "kind": "bullet",
+      "text": "It’s all here.",
+      "tokens": [
+        "all",
+        "here"
+      ]
+    },
+    {
+      "charEnd": 248,
+      "charStart": 211,
+      "factId": "hz.web.3bdf39e285128db8.fact.4",
+      "kind": "bullet",
+      "text": "Welcome to the omg.lol Info Center.",
+      "tokens": [
+        "welcome",
+        "omg",
+        "lol",
+        "info",
+        "center"
+      ]
+    },
+    {
+      "charEnd": 268,
+      "charStart": 263,
+      "factId": "hz.web.3bdf39e285128db8.fact.5",
+      "kind": "bullet",
+      "text": "lol",
+      "tokens": [
+        "lol"
+      ]
+    },
+    {
+      "charEnd": 274,
+      "charStart": 269,
+      "factId": "hz.web.3bdf39e285128db8.fact.6",
+      "kind": "bullet",
+      "text": "omg",
+      "tokens": [
+        "omg"
+      ]
+    },
+    {
+      "charEnd": 282,
+      "charStart": 275,
+      "factId": "hz.web.3bdf39e285128db8.fact.7",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 294,
+      "charStart": 283,
+      "factId": "hz.web.3bdf39e285128db8.fact.8",
+      "kind": "bullet",
+      "text": "community",
+      "tokens": [
+        "community"
+      ]
+    },
+    {
+      "charEnd": 302,
+      "charStart": 295,
+      "factId": "hz.web.3bdf39e285128db8.fact.9",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 309,
+      "charStart": 303,
+      "factId": "hz.web.3bdf39e285128db8.fact.10",
+      "kind": "bullet",
+      "text": "help",
+      "tokens": [
+        "help"
+      ]
+    },
+    {
+      "charEnd": 316,
+      "charStart": 310,
+      "factId": "hz.web.3bdf39e285128db8.fact.11",
+      "kind": "bullet",
+      "text": "info",
+      "tokens": [
+        "info"
+      ]
+    },
+    {
+      "charEnd": 326,
+      "charStart": 317,
+      "factId": "hz.web.3bdf39e285128db8.fact.12",
+      "kind": "bullet",
+      "text": "profile",
+      "tokens": [
+        "profile"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 24,
+      "charStart": 1,
+      "headingId": "hz.web.3bdf39e285128db8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "omg.lol - Info Center"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.3bdf39e285128db8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 261,
+      "charStart": 250,
+      "headingId": "hz.web.3bdf39e285128db8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 338,
+      "charStart": 328,
+      "headingId": "hz.web.3bdf39e285128db8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3bdf39e285128db8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2066,
+        "start": 0
+      }
+    ],
+    "hash": "f0dcf704a01224c4ef59e31dd3785fa63ff341e8bb26e2a2d714520e2ab289bf",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "omg.lol - Info Center omg .",
+      "lol Help Sign up Sign in Info Center Read & learn!",
+      "It’s all here."
+    ],
+    "medium": "Source: https://home.omg.lol/info",
+    "short": "Source: https://home.omg.lol/info",
+    "tokens": [
+      "omg",
+      "lol",
+      "info",
+      "center",
+      "source",
+      "https",
+      "home",
+      "omg",
+      "lol",
+      "info",
+      "source",
+      "https",
+      "home",
+      "omg",
+      "lol",
+      "info"
+    ]
+  },
+  "title": "omg.lol - Info Center"
+}

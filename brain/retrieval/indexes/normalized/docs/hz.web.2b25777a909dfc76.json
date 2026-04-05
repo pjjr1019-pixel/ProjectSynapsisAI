@@ -1,0 +1,390 @@
+{
+  "aliases": [
+    {
+      "alias": "2b25777a909dfc76",
+      "aliasId": "hz.web.2b25777a909dfc76.alias.1",
+      "canonical": "documenting bits of tweeting from my own site. thanks @leyink for the favicon, and twitter + pubsubhubbub (push) for simple apis easily implemented with a few lines of php. - tantek"
+    },
+    {
+      "alias": "documenting bits of tweeting from my own site. thanks leyink for the favicon and twitter pubsubhubbub push for simple apis easily implemented with a few lines of php. - tantek",
+      "aliasId": "hz.web.2b25777a909dfc76.alias.2",
+      "canonical": "documenting bits of tweeting from my own site. thanks @leyink for the favicon, and twitter + pubsubhubbub (push) for simple apis easily implemented with a few lines of php. - tantek"
+    },
+    {
+      "alias": "web 2b25777a909dfc76",
+      "aliasId": "hz.web.2b25777a909dfc76.alias.3",
+      "canonical": "documenting bits of tweeting from my own site. thanks @leyink for the favicon, and twitter + pubsubhubbub (push) for simple apis easily implemented with a few lines of php. - tantek"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.2b25777a909dfc76",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2b25777a909dfc76.entity.1",
+      "kind": "document",
+      "name": "documenting bits of tweeting from my own site. thanks @leyink for the favicon, and Twitter + PubSubHubbub (PuSH) for simple APIs easily implemented with a few lines of PHP. - Tantek",
+      "tokens": [
+        "documenting",
+        "bits",
+        "tweeting",
+        "own",
+        "site",
+        "thanks",
+        "leyink",
+        "favicon",
+        "twitter",
+        "pubsubhubbub",
+        "push",
+        "simple",
+        "apis",
+        "easily",
+        "implemented",
+        "few",
+        "lines",
+        "php",
+        "tantek"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b25777a909dfc76.entity.2",
+      "kind": "heading",
+      "name": "documenting bits of tweeting from my own site. thanks @leyink for the favicon, and Twitter + PubSubHubbub (PuSH) for simple APIs easily implemented with a few lines of PHP. - Tantek",
+      "tokens": [
+        "documenting",
+        "bits",
+        "tweeting",
+        "own",
+        "site",
+        "thanks",
+        "leyink",
+        "favicon",
+        "twitter",
+        "pubsubhubbub",
+        "push",
+        "simple",
+        "apis",
+        "easily",
+        "implemented",
+        "few",
+        "lines",
+        "php",
+        "tantek"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b25777a909dfc76.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b25777a909dfc76.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2b25777a909dfc76.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 279,
+      "charStart": 186,
+      "factId": "hz.web.2b25777a909dfc76.fact.1",
+      "kind": "summary",
+      "text": "Source: http://tantek.com/2010/032/t3/bits-tweeting-from-my-site-favicon-twitter-pubsubhubbub",
+      "tokens": [
+        "source",
+        "http",
+        "tantek",
+        "com",
+        "2010",
+        "032",
+        "t3",
+        "bits",
+        "tweeting",
+        "site",
+        "favicon",
+        "twitter",
+        "pubsubhubbub"
+      ]
+    },
+    {
+      "charEnd": 379,
+      "charStart": 331,
+      "factId": "hz.web.2b25777a909dfc76.fact.1",
+      "kind": "bullet",
+      "text": "documenting bits of tweeting from my own site.",
+      "tokens": [
+        "documenting",
+        "bits",
+        "tweeting",
+        "own",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 507,
+      "charStart": 380,
+      "factId": "hz.web.2b25777a909dfc76.fact.2",
+      "kind": "bullet",
+      "text": "thanks @leyink for the favicon, and Twitter + PubSubHubbub (PuSH) for simple APIs easily implemented with a few lines of PHP.",
+      "tokens": [
+        "thanks",
+        "leyink",
+        "favicon",
+        "twitter",
+        "pubsubhubbub",
+        "push",
+        "simple",
+        "apis",
+        "easily",
+        "implemented",
+        "few",
+        "lines",
+        "php"
+      ]
+    },
+    {
+      "charEnd": 601,
+      "charStart": 508,
+      "factId": "hz.web.2b25777a909dfc76.fact.3",
+      "kind": "bullet",
+      "text": "- Tantek tantek.com Search &#x2190; &#x2192; documenting bits of tweeting from my own site.",
+      "tokens": [
+        "tantek",
+        "tantek",
+        "com",
+        "search",
+        "x2190",
+        "x2192",
+        "documenting",
+        "bits",
+        "tweeting",
+        "own",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 729,
+      "charStart": 602,
+      "factId": "hz.web.2b25777a909dfc76.fact.4",
+      "kind": "bullet",
+      "text": "thanks @leyink for the favicon, and Twitter + PubSubHubbub (PuSH) for simple APIs easily implemented with a few lines of PHP.",
+      "tokens": [
+        "thanks",
+        "leyink",
+        "favicon",
+        "twitter",
+        "pubsubhubbub",
+        "push",
+        "simple",
+        "apis",
+        "easily",
+        "implemented",
+        "few",
+        "lines",
+        "php"
+      ]
+    },
+    {
+      "charEnd": 753,
+      "charStart": 744,
+      "factId": "hz.web.2b25777a909dfc76.fact.5",
+      "kind": "bullet",
+      "text": "twitter",
+      "tokens": [
+        "twitter"
+      ]
+    },
+    {
+      "charEnd": 760,
+      "charStart": 754,
+      "factId": "hz.web.2b25777a909dfc76.fact.6",
+      "kind": "bullet",
+      "text": "apis",
+      "tokens": [
+        "apis"
+      ]
+    },
+    {
+      "charEnd": 767,
+      "charStart": 761,
+      "factId": "hz.web.2b25777a909dfc76.fact.7",
+      "kind": "bullet",
+      "text": "bits",
+      "tokens": [
+        "bits"
+      ]
+    },
+    {
+      "charEnd": 781,
+      "charStart": 768,
+      "factId": "hz.web.2b25777a909dfc76.fact.8",
+      "kind": "bullet",
+      "text": "documenting",
+      "tokens": [
+        "documenting"
+      ]
+    },
+    {
+      "charEnd": 790,
+      "charStart": 782,
+      "factId": "hz.web.2b25777a909dfc76.fact.9",
+      "kind": "bullet",
+      "text": "easily",
+      "tokens": [
+        "easily"
+      ]
+    },
+    {
+      "charEnd": 800,
+      "charStart": 791,
+      "factId": "hz.web.2b25777a909dfc76.fact.10",
+      "kind": "bullet",
+      "text": "favicon",
+      "tokens": [
+        "favicon"
+      ]
+    },
+    {
+      "charEnd": 806,
+      "charStart": 801,
+      "factId": "hz.web.2b25777a909dfc76.fact.11",
+      "kind": "bullet",
+      "text": "few",
+      "tokens": [
+        "few"
+      ]
+    },
+    {
+      "charEnd": 820,
+      "charStart": 807,
+      "factId": "hz.web.2b25777a909dfc76.fact.12",
+      "kind": "bullet",
+      "text": "implemented",
+      "tokens": [
+        "implemented"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 184,
+      "charStart": 1,
+      "headingId": "hz.web.2b25777a909dfc76.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "documenting bits of tweeting from my own site. thanks @leyink for the favicon, and Twitter + PubSubHubbub (PuSH) for simple APIs easily implemented with a few lines of PHP. - Tantek"
+    },
+    {
+      "charEnd": 329,
+      "charStart": 319,
+      "headingId": "hz.web.2b25777a909dfc76.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 742,
+      "charStart": 731,
+      "headingId": "hz.web.2b25777a909dfc76.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 832,
+      "charStart": 822,
+      "headingId": "hz.web.2b25777a909dfc76.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2b25777a909dfc76.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1744,
+        "start": 0
+      }
+    ],
+    "hash": "3085ac096395ed09e70e012aa014b8210a8bb5c7ba8c593fc878b84a4ddbe3ef",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "documenting bits of tweeting from my own site.",
+      "thanks @leyink for the favicon, and Twitter + PubSubHubbub (PuSH) for simple APIs easily implemented with a few lines of PHP.",
+      "- Tantek tantek.com Search &#x2190; &#x2192; documenting bits of tweeting from my own site."
+    ],
+    "medium": "Source: http://tantek.com/2010/032/t3/bits-tweeting-from-my-site-favicon-twitter-pubsubhubbub",
+    "short": "Source: http://tantek.com/2010/032/t3/bits-tweeting-from-my-site-favicon-twitter-pubsubhubbub",
+    "tokens": [
+      "documenting",
+      "bits",
+      "tweeting",
+      "own",
+      "site",
+      "thanks",
+      "leyink",
+      "favicon",
+      "twitter",
+      "pubsubhubbub",
+      "push",
+      "simple",
+      "apis",
+      "easily",
+      "implemented",
+      "few",
+      "lines",
+      "php",
+      "tantek",
+      "source",
+      "http",
+      "tantek",
+      "com",
+      "2010",
+      "032",
+      "t3",
+      "bits",
+      "tweeting",
+      "site",
+      "favicon",
+      "twitter",
+      "pubsubhubbub",
+      "source",
+      "http",
+      "tantek",
+      "com",
+      "2010",
+      "032",
+      "t3",
+      "bits",
+      "tweeting",
+      "site",
+      "favicon",
+      "twitter",
+      "pubsubhubbub"
+    ]
+  },
+  "title": "documenting bits of tweeting from my own site. thanks @leyink for the favicon, and Twitter + PubSubHubbub (PuSH) for simple APIs easily implemented with a few lines of PHP. - Tantek"
+}

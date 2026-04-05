@@ -1,0 +1,508 @@
+{
+  "aliases": [
+    {
+      "alias": "6a53e3b2f5b03b87",
+      "aliasId": "hz.web.6a53e3b2f5b03b87.alias.1",
+      "canonical": "omni auth"
+    },
+    {
+      "alias": "omni auth",
+      "aliasId": "hz.web.6a53e3b2f5b03b87.alias.2",
+      "canonical": "omni auth"
+    },
+    {
+      "alias": "web 6a53e3b2f5b03b87",
+      "aliasId": "hz.web.6a53e3b2f5b03b87.alias.3",
+      "canonical": "omni auth"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.67,
+  "docId": "hz.web.6a53e3b2f5b03b87",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6a53e3b2f5b03b87.entity.1",
+      "kind": "document",
+      "name": "Omni Auth",
+      "tokens": [
+        "omni",
+        "auth"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a53e3b2f5b03b87.entity.2",
+      "kind": "heading",
+      "name": "Omni Auth",
+      "tokens": [
+        "omni",
+        "auth"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a53e3b2f5b03b87.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a53e3b2f5b03b87.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6a53e3b2f5b03b87.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 46,
+      "charStart": 14,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.1",
+      "kind": "summary",
+      "text": "Source: http://www.omniauth.org/",
+      "tokens": [
+        "source",
+        "http",
+        "www",
+        "omniauth",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 321,
+      "charStart": 98,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.1",
+      "kind": "bullet",
+      "text": "Omni Auth Skip to content OmniAuth is a Ruby authentication framework that provides a standardized interface to many different authentication providers such as Facebook, OpenID, and even traditional username and password.",
+      "tokens": [
+        "omni",
+        "auth",
+        "skip",
+        "content",
+        "omniauth",
+        "ruby",
+        "authentication",
+        "framework",
+        "provides",
+        "standardized",
+        "interface",
+        "many",
+        "different",
+        "authentication",
+        "providers",
+        "such",
+        "facebook",
+        "openid",
+        "even",
+        "traditional",
+        "username",
+        "password"
+      ]
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 322,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.2",
+      "kind": "bullet",
+      "text": "Quick Links GITHUB HOME FULL DOCUMENTATION REPORT A PROBLEM Getting Started To use OmniAuth in a project with a Gemfile, just add each of the strategies you want to use individually: gem &lsquo;omniauth-github&rsquo; gem &lsquo;omniauth-openid&rsquo; Now you can use the OmniAuth::Builder Rack middleware to build up your list of OmniAuth strategies for use in your application: use OmniAuth::Builder do provider :github, ENV[&lsquo;GITHUB_KEY&rsquo;], ENV[&lsquo;GITHUB_SECRET&rsquo;] provider :openid, :store =&gt; OpenID::Store::Filesystem.new(&lsquo;/tmp&rsquo;) end By default, OmniAuth will return auth information to the path /auth/:provider/callback inside the Rack environment.",
+      "tokens": [
+        "quick",
+        "links",
+        "github",
+        "home",
+        "full",
+        "documentation",
+        "report",
+        "problem",
+        "getting",
+        "started",
+        "use",
+        "omniauth",
+        "project",
+        "gemfile",
+        "just",
+        "add",
+        "each",
+        "strategies",
+        "want",
+        "use",
+        "individually",
+        "gem",
+        "lsquo",
+        "omniauth",
+        "github",
+        "rsquo",
+        "gem",
+        "lsquo",
+        "omniauth",
+        "openid",
+        "rsquo",
+        "now",
+        "use",
+        "omniauth",
+        "builder",
+        "rack",
+        "middleware",
+        "build",
+        "up",
+        "your",
+        "list",
+        "omniauth",
+        "strategies",
+        "use",
+        "your",
+        "application",
+        "use",
+        "omniauth",
+        "builder",
+        "provider",
+        "github",
+        "env",
+        "lsquo",
+        "github_key",
+        "rsquo",
+        "env",
+        "lsquo",
+        "github_secret",
+        "rsquo",
+        "provider",
+        "openid",
+        "store",
+        "gt",
+        "openid",
+        "store",
+        "filesystem",
+        "new",
+        "lsquo",
+        "tmp",
+        "rsquo",
+        "end",
+        "default",
+        "omniauth",
+        "will",
+        "return",
+        "auth",
+        "information",
+        "path",
+        "auth",
+        "provider",
+        "callback",
+        "inside",
+        "rack",
+        "environment"
+      ]
+    },
+    {
+      "charEnd": 1340,
+      "charStart": 1011,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.3",
+      "kind": "bullet",
+      "text": "In Sinatra, for example, a callback might look something like this: # Support both GET and POST for callbacks %w(get post).each do |method| send(method, &ldquo;/auth/:provider/callback&rdquo;) do env[&lsquo;omniauth.auth&rsquo;] # =&gt; OmniAuth::AuthHash end end For additional documentation, you should see the OmniAuth wiki.",
+      "tokens": [
+        "sinatra",
+        "example",
+        "callback",
+        "might",
+        "look",
+        "something",
+        "like",
+        "support",
+        "both",
+        "get",
+        "post",
+        "callbacks",
+        "get",
+        "post",
+        "each",
+        "method",
+        "send",
+        "method",
+        "ldquo",
+        "auth",
+        "provider",
+        "callback",
+        "rdquo",
+        "env",
+        "lsquo",
+        "omniauth",
+        "auth",
+        "rsquo",
+        "gt",
+        "omniauth",
+        "authhash",
+        "end",
+        "end",
+        "additional",
+        "documentation",
+        "see",
+        "omniauth",
+        "wiki"
+      ]
+    },
+    {
+      "charEnd": 1356,
+      "charStart": 1341,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.4",
+      "kind": "bullet",
+      "text": "Try OmniAuth!",
+      "tokens": [
+        "try",
+        "omniauth"
+      ]
+    },
+    {
+      "charEnd": 1381,
+      "charStart": 1371,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.5",
+      "kind": "bullet",
+      "text": "omniauth",
+      "tokens": [
+        "omniauth"
+      ]
+    },
+    {
+      "charEnd": 1389,
+      "charStart": 1382,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.6",
+      "kind": "bullet",
+      "text": "lsquo",
+      "tokens": [
+        "lsquo"
+      ]
+    },
+    {
+      "charEnd": 1397,
+      "charStart": 1390,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.7",
+      "kind": "bullet",
+      "text": "rsquo",
+      "tokens": [
+        "rsquo"
+      ]
+    },
+    {
+      "charEnd": 1403,
+      "charStart": 1398,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.8",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 1410,
+      "charStart": 1404,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.9",
+      "kind": "bullet",
+      "text": "auth",
+      "tokens": [
+        "auth"
+      ]
+    },
+    {
+      "charEnd": 1427,
+      "charStart": 1411,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.10",
+      "kind": "bullet",
+      "text": "authentication",
+      "tokens": [
+        "authentication"
+      ]
+    },
+    {
+      "charEnd": 1436,
+      "charStart": 1428,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.11",
+      "kind": "bullet",
+      "text": "openid",
+      "tokens": [
+        "openid"
+      ]
+    },
+    {
+      "charEnd": 1447,
+      "charStart": 1437,
+      "factId": "hz.web.6a53e3b2f5b03b87.fact.12",
+      "kind": "bullet",
+      "text": "provider",
+      "tokens": [
+        "provider"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.6a53e3b2f5b03b87.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Omni Auth"
+    },
+    {
+      "charEnd": 96,
+      "charStart": 86,
+      "headingId": "hz.web.6a53e3b2f5b03b87.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1369,
+      "charStart": 1358,
+      "headingId": "hz.web.6a53e3b2f5b03b87.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1459,
+      "charStart": 1449,
+      "headingId": "hz.web.6a53e3b2f5b03b87.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6a53e3b2f5b03b87.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3589,
+        "start": 0
+      }
+    ],
+    "hash": "b354eb120f7c9d481f2f9a7b3c1f580617662192b2dd51c63da0508223d0b29c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.6a53e3b2f5b03b87.rule.1",
+      "text": "- In Sinatra, for example, a callback might look something like this: # Support both GET and POST for callbacks %w(get post).each do |method| send(method, &ldquo;/auth/:provider/callback&rdquo;) do env[&lsquo;omniauth.auth&rsquo;] # =&gt; OmniAuth::AuthHash end end For additional documentation, you should see the OmniAuth wiki.",
+      "tokens": [
+        "sinatra",
+        "example",
+        "callback",
+        "might",
+        "look",
+        "something",
+        "like",
+        "support",
+        "both",
+        "get",
+        "post",
+        "callbacks",
+        "get",
+        "post",
+        "each",
+        "method",
+        "send",
+        "method",
+        "ldquo",
+        "auth",
+        "provider",
+        "callback",
+        "rdquo",
+        "env",
+        "lsquo",
+        "omniauth",
+        "auth",
+        "rsquo",
+        "gt",
+        "omniauth",
+        "authhash",
+        "end",
+        "end",
+        "additional",
+        "documentation",
+        "see",
+        "omniauth",
+        "wiki"
+      ]
+    },
+    {
+      "ruleId": "hz.web.6a53e3b2f5b03b87.rule.2",
+      "text": "In Sinatra, for example, a callback might look something like this: # Support both GET and POST for callbacks %w(get post).each do |method| send(method, &ldquo;/auth/:provider/callback&rdquo;) do env[&lsquo;omniauth.auth&rsquo;] # =&gt; OmniAuth::AuthHash end end For additional documentation, you should see the OmniAuth wiki.",
+      "tokens": [
+        "sinatra",
+        "example",
+        "callback",
+        "might",
+        "look",
+        "something",
+        "like",
+        "support",
+        "both",
+        "get",
+        "post",
+        "callbacks",
+        "get",
+        "post",
+        "each",
+        "method",
+        "send",
+        "method",
+        "ldquo",
+        "auth",
+        "provider",
+        "callback",
+        "rdquo",
+        "env",
+        "lsquo",
+        "omniauth",
+        "auth",
+        "rsquo",
+        "gt",
+        "omniauth",
+        "authhash",
+        "end",
+        "end",
+        "additional",
+        "documentation",
+        "see",
+        "omniauth",
+        "wiki"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Omni Auth Skip to content OmniAuth is a Ruby authentication framework that provides a standardized interface to many different authentication providers such as Facebook, OpenID, and even traditional username and password.",
+      "Quick Links GITHUB HOME FULL DOCUMENTATION REPORT A PROBLEM Getting Started To use OmniAuth in a project with a Gemfile, just add each of the strategies you want to use individually: gem &lsquo;omniauth-github&rsquo; gem &lsquo;omniauth-openid&rsquo; Now you can use the OmniAuth::Builder Rack middleware to build up your list of OmniAuth strategies for use in your application: use OmniAuth::Builder do provider :github, ENV[&lsquo;GITHUB_KEY&rsquo;], ENV[&lsquo;GITHUB_SECRET&rsquo;] provider :openid, :store =&gt; OpenID::Store::Filesystem.new(&lsquo;/tmp&rsquo;) end By default, OmniAuth will return auth information to the path /auth/:provider/callback inside the Rack environment.",
+      "In Sinatra, for example, a callback might look something like this: # Support both GET and POST for callbacks %w(get post).each do |method| send(method, &ldquo;/auth/:provider/callback&rdquo;) do env[&lsquo;omniauth.auth&rsquo;] # =&gt; OmniAuth::AuthHash end end For additional documentation, you should see the OmniAuth wiki."
+    ],
+    "medium": "Source: http://www.omniauth.org/",
+    "short": "Source: http://www.omniauth.org/",
+    "tokens": [
+      "omni",
+      "auth",
+      "source",
+      "http",
+      "www",
+      "omniauth",
+      "org",
+      "source",
+      "http",
+      "www",
+      "omniauth",
+      "org"
+    ]
+  },
+  "title": "Omni Auth"
+}

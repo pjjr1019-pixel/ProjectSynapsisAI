@@ -1,0 +1,15 @@
+{
+  "id": "tool.example-skill",
+  "title": "Example Skill",
+  "group": "tool",
+  "subgroup": "custom",
+  "executor": "command",
+  "command": "notepad.exe",
+  "args": [],
+  "risk": "safe",
+  "aliases": [
+    "example skill",
+    "open example skill"
+  ],
+  "notes": "Copy into one of the source data files and rebuild INDEX.json."
+}

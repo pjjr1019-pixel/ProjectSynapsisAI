@@ -1,0 +1,465 @@
+{
+  "aliases": [
+    {
+      "alias": "110efe780be8dcdf",
+      "aliasId": "hz.web.110efe780be8dcdf.alias.1",
+      "canonical": "liaisons | w3c"
+    },
+    {
+      "alias": "liaisons w3c",
+      "aliasId": "hz.web.110efe780be8dcdf.alias.2",
+      "canonical": "liaisons | w3c"
+    },
+    {
+      "alias": "web 110efe780be8dcdf",
+      "aliasId": "hz.web.110efe780be8dcdf.alias.3",
+      "canonical": "liaisons | w3c"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.110efe780be8dcdf",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.110efe780be8dcdf.entity.1",
+      "kind": "document",
+      "name": "Liaisons | W3C",
+      "tokens": [
+        "liaisons",
+        "w3c"
+      ]
+    },
+    {
+      "entityId": "hz.web.110efe780be8dcdf.entity.2",
+      "kind": "heading",
+      "name": "Liaisons | W3C",
+      "tokens": [
+        "liaisons",
+        "w3c"
+      ]
+    },
+    {
+      "entityId": "hz.web.110efe780be8dcdf.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.110efe780be8dcdf.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.110efe780be8dcdf.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 55,
+      "charStart": 19,
+      "factId": "hz.web.110efe780be8dcdf.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/liaisons/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "liaisons"
+      ]
+    },
+    {
+      "charEnd": 389,
+      "charStart": 107,
+      "factId": "hz.web.110efe780be8dcdf.fact.1",
+      "kind": "bullet",
+      "text": "Liaisons | W3C Skip to content 日本語ホームページ Japanese website 简体中文首页 Chinese website Visit the W3C homepage Standards & groups Standards & groups Understand the various specifications, their maturity levels on the web standards track, their adoption, and the groups that develop them.",
+      "tokens": [
+        "liaisons",
+        "w3c",
+        "skip",
+        "content",
+        "japanese",
+        "website",
+        "chinese",
+        "website",
+        "visit",
+        "w3c",
+        "homepage",
+        "standards",
+        "groups",
+        "standards",
+        "groups",
+        "understand",
+        "various",
+        "specifications",
+        "their",
+        "maturity",
+        "levels",
+        "web",
+        "standards",
+        "track",
+        "their",
+        "adoption",
+        "groups",
+        "develop",
+        "them"
+      ]
+    },
+    {
+      "charEnd": 740,
+      "charStart": 390,
+      "factId": "hz.web.110efe780be8dcdf.fact.2",
+      "kind": "bullet",
+      "text": "Explore web standards About W3C web standards W3C standards & drafts Types of documents W3C publishes W3C groups Translations of W3C standards & drafts Reviews & public feedback Promote web standards Liaisons Technical Architecture Group (TAG) Get involved Get involved W3C works at the nexus of core technology, industry needs, and societal needs.",
+      "tokens": [
+        "explore",
+        "web",
+        "standards",
+        "about",
+        "w3c",
+        "web",
+        "standards",
+        "w3c",
+        "standards",
+        "drafts",
+        "types",
+        "documents",
+        "w3c",
+        "publishes",
+        "w3c",
+        "groups",
+        "translations",
+        "w3c",
+        "standards",
+        "drafts",
+        "reviews",
+        "public",
+        "feedback",
+        "promote",
+        "web",
+        "standards",
+        "liaisons",
+        "technical",
+        "architecture",
+        "group",
+        "tag",
+        "get",
+        "involved",
+        "get",
+        "involved",
+        "w3c",
+        "works",
+        "nexus",
+        "core",
+        "technology",
+        "industry",
+        "needs",
+        "societal",
+        "needs"
+      ]
+    },
+    {
+      "charEnd": 1016,
+      "charStart": 741,
+      "factId": "hz.web.110efe780be8dcdf.fact.3",
+      "kind": "bullet",
+      "text": "Find ways to get involved Browse our work by industry Become a Member Member home (restricted) Support us Mailing lists Participant guidebook Positive work environment Invited Experts Resources Resources Master web fundamentals, use our developer tools, or contribute code.",
+      "tokens": [
+        "find",
+        "ways",
+        "get",
+        "involved",
+        "browse",
+        "our",
+        "work",
+        "industry",
+        "become",
+        "member",
+        "member",
+        "home",
+        "restricted",
+        "support",
+        "us",
+        "mailing",
+        "lists",
+        "participant",
+        "guidebook",
+        "positive",
+        "work",
+        "environment",
+        "invited",
+        "experts",
+        "resources",
+        "resources",
+        "master",
+        "web",
+        "fundamentals",
+        "use",
+        "our",
+        "developer",
+        "tools",
+        "contribute",
+        "code"
+      ]
+    },
+    {
+      "charEnd": 1294,
+      "charStart": 1017,
+      "factId": "hz.web.110efe780be8dcdf.fact.4",
+      "kind": "bullet",
+      "text": "Learn from W3C resources Developers Validators & tools Accessibility fundamentals Internationalization (i18n) Translations of W3C standards & drafts Code of conduct Reports News & events News & events Recent content across news, blogs, press releases, media; upcoming events.",
+      "tokens": [
+        "learn",
+        "w3c",
+        "resources",
+        "developers",
+        "validators",
+        "tools",
+        "accessibility",
+        "fundamentals",
+        "internationalization",
+        "i18n",
+        "translations",
+        "w3c",
+        "standards",
+        "drafts",
+        "code",
+        "conduct",
+        "reports",
+        "news",
+        "events",
+        "news",
+        "events",
+        "recent",
+        "content",
+        "across",
+        "news",
+        "blogs",
+        "press",
+        "releases",
+        "media",
+        "upcoming",
+        "events"
+      ]
+    },
+    {
+      "charEnd": 1314,
+      "charStart": 1309,
+      "factId": "hz.web.110efe780be8dcdf.fact.5",
+      "kind": "bullet",
+      "text": "w3c",
+      "tokens": [
+        "w3c"
+      ]
+    },
+    {
+      "charEnd": 1320,
+      "charStart": 1315,
+      "factId": "hz.web.110efe780be8dcdf.fact.6",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1331,
+      "charStart": 1321,
+      "factId": "hz.web.110efe780be8dcdf.fact.7",
+      "kind": "bullet",
+      "text": "liaisons",
+      "tokens": [
+        "liaisons"
+      ]
+    },
+    {
+      "charEnd": 1341,
+      "charStart": 1332,
+      "factId": "hz.web.110efe780be8dcdf.fact.8",
+      "kind": "bullet",
+      "text": "liaison",
+      "tokens": [
+        "liaison"
+      ]
+    },
+    {
+      "charEnd": 1349,
+      "charStart": 1342,
+      "factId": "hz.web.110efe780be8dcdf.fact.9",
+      "kind": "bullet",
+      "text": "media",
+      "tokens": [
+        "media"
+      ]
+    },
+    {
+      "charEnd": 1357,
+      "charStart": 1350,
+      "factId": "hz.web.110efe780be8dcdf.fact.10",
+      "kind": "bullet",
+      "text": "group",
+      "tokens": [
+        "group"
+      ]
+    },
+    {
+      "charEnd": 1363,
+      "charStart": 1358,
+      "factId": "hz.web.110efe780be8dcdf.fact.11",
+      "kind": "bullet",
+      "text": "tbd",
+      "tokens": [
+        "tbd"
+      ]
+    },
+    {
+      "charEnd": 1375,
+      "charStart": 1364,
+      "factId": "hz.web.110efe780be8dcdf.fact.12",
+      "kind": "bullet",
+      "text": "standards",
+      "tokens": [
+        "standards"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.110efe780be8dcdf.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Liaisons | W3C"
+    },
+    {
+      "charEnd": 105,
+      "charStart": 95,
+      "headingId": "hz.web.110efe780be8dcdf.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1307,
+      "charStart": 1296,
+      "headingId": "hz.web.110efe780be8dcdf.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1387,
+      "charStart": 1377,
+      "headingId": "hz.web.110efe780be8dcdf.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/110efe780be8dcdf.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4616,
+        "start": 0
+      }
+    ],
+    "hash": "e857e87e5b70a7900e4e6b8b5ea30efc57059559da8ce1fc1722e7c31c85f9cb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.110efe780be8dcdf.rule.1",
+      "text": "Listing a formal liaison with W3C on behalf of a CG on this page is generally discouraged because CG output does not represent the consensus of the W3C Community (of course informal liaison is always encouraged).",
+      "tokens": [
+        "listing",
+        "formal",
+        "liaison",
+        "w3c",
+        "behalf",
+        "cg",
+        "page",
+        "generally",
+        "discouraged",
+        "because",
+        "cg",
+        "output",
+        "not",
+        "represent",
+        "consensus",
+        "w3c",
+        "community",
+        "course",
+        "informal",
+        "liaison",
+        "always",
+        "encouraged"
+      ]
+    },
+    {
+      "ruleId": "hz.web.110efe780be8dcdf.rule.2",
+      "text": "If an external group outside of W3C would like a Liaison with a CG, they must write up their rationale and be explicit th",
+      "tokens": [
+        "if",
+        "external",
+        "group",
+        "outside",
+        "w3c",
+        "like",
+        "liaison",
+        "cg",
+        "must",
+        "write",
+        "up",
+        "their",
+        "rationale",
+        "explicit",
+        "th"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Liaisons | W3C Skip to content 日本語ホームページ Japanese website 简体中文首页 Chinese website Visit the W3C homepage Standards & groups Standards & groups Understand the various specifications, their maturity levels on the web standards track, their adoption, and the groups that develop them.",
+      "Explore web standards About W3C web standards W3C standards & drafts Types of documents W3C publishes W3C groups Translations of W3C standards & drafts Reviews & public feedback Promote web standards Liaisons Technical Architecture Group (TAG) Get involved Get involved W3C works at the nexus of core technology, industry needs, and societal needs.",
+      "Find ways to get involved Browse our work by industry Become a Member Member home (restricted) Support us Mailing lists Participant guidebook Positive work environment Invited Experts Resources Resources Master web fundamentals, use our developer tools, or contribute code."
+    ],
+    "medium": "Source: https://www.w3.org/liaisons/",
+    "short": "Source: https://www.w3.org/liaisons/",
+    "tokens": [
+      "liaisons",
+      "w3c",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "liaisons",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "liaisons"
+    ]
+  },
+  "title": "Liaisons | W3C"
+}

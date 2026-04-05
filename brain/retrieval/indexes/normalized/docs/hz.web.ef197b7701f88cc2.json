@@ -1,0 +1,373 @@
+{
+  "aliases": [
+    {
+      "alias": "ef197b7701f88cc2",
+      "aliasId": "hz.web.ef197b7701f88cc2.alias.1",
+      "canonical": "s’identifier sur linkedin | linkedin"
+    },
+    {
+      "alias": "s identifier sur linkedin linkedin",
+      "aliasId": "hz.web.ef197b7701f88cc2.alias.2",
+      "canonical": "s’identifier sur linkedin | linkedin"
+    },
+    {
+      "alias": "web ef197b7701f88cc2",
+      "aliasId": "hz.web.ef197b7701f88cc2.alias.3",
+      "canonical": "s’identifier sur linkedin | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.66,
+  "docId": "hz.web.ef197b7701f88cc2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ef197b7701f88cc2.entity.1",
+      "kind": "document",
+      "name": "S’identifier sur LinkedIn | LinkedIn",
+      "tokens": [
+        "identifier",
+        "sur",
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.ef197b7701f88cc2.entity.2",
+      "kind": "heading",
+      "name": "S’identifier sur LinkedIn | LinkedIn",
+      "tokens": [
+        "identifier",
+        "sur",
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.ef197b7701f88cc2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ef197b7701f88cc2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ef197b7701f88cc2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 82,
+      "charStart": 41,
+      "factId": "hz.web.ef197b7701f88cc2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login/fr",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "fr"
+      ]
+    },
+    {
+      "charEnd": 400,
+      "charStart": 134,
+      "factId": "hz.web.ef197b7701f88cc2.fact.1",
+      "kind": "bullet",
+      "text": "S’identifier sur LinkedIn | LinkedIn S’identifier S’identifier avec Apple Identifiez-vous avec une clé d’accès En cliquant sur Continuer, vous acceptez les Conditions d’utilisation , la Politique de confidentialité et la Politique relative aux cookies de LinkedIn.",
+      "tokens": [
+        "identifier",
+        "sur",
+        "linkedin",
+        "linkedin",
+        "identifier",
+        "identifier",
+        "avec",
+        "apple",
+        "identifiez",
+        "vous",
+        "avec",
+        "une",
+        "cl",
+        "acc",
+        "en",
+        "cliquant",
+        "sur",
+        "continuer",
+        "vous",
+        "acceptez",
+        "les",
+        "conditions",
+        "utilisation",
+        "la",
+        "politique",
+        "de",
+        "confidentialit",
+        "et",
+        "la",
+        "politique",
+        "relative",
+        "aux",
+        "cookies",
+        "de",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 469,
+      "charStart": 401,
+      "factId": "hz.web.ef197b7701f88cc2.fact.2",
+      "kind": "bullet",
+      "text": "ou E-mail ou téléphone Mot de passe Afficher Mot de passe oublié ?",
+      "tokens": [
+        "ou",
+        "mail",
+        "ou",
+        "phone",
+        "mot",
+        "de",
+        "passe",
+        "afficher",
+        "mot",
+        "de",
+        "passe",
+        "oubli"
+      ]
+    },
+    {
+      "charEnd": 661,
+      "charStart": 470,
+      "factId": "hz.web.ef197b7701f88cc2.fact.3",
+      "kind": "bullet",
+      "text": "Rester connecté(e) S’identifier Nous avons envoyé un lien à usage unique à votre adresse e-mail principale Cliquez sur le lien pour vous identifier instantanément sur votre compte LinkedIn.",
+      "tokens": [
+        "rester",
+        "connect",
+        "identifier",
+        "nous",
+        "avons",
+        "envoy",
+        "un",
+        "lien",
+        "usage",
+        "unique",
+        "votre",
+        "adresse",
+        "mail",
+        "principale",
+        "cliquez",
+        "sur",
+        "le",
+        "lien",
+        "pour",
+        "vous",
+        "identifier",
+        "instantan",
+        "ment",
+        "sur",
+        "votre",
+        "compte",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 748,
+      "charStart": 662,
+      "factId": "hz.web.ef197b7701f88cc2.fact.4",
+      "kind": "bullet",
+      "text": "Si vous ne voyez pas l’e-mail dans votre messagerie, vérifiez votre dossier de spam.",
+      "tokens": [
+        "si",
+        "vous",
+        "ne",
+        "voyez",
+        "pas",
+        "mail",
+        "dans",
+        "votre",
+        "messagerie",
+        "rifiez",
+        "votre",
+        "dossier",
+        "de",
+        "spam"
+      ]
+    },
+    {
+      "charEnd": 767,
+      "charStart": 763,
+      "factId": "hz.web.ef197b7701f88cc2.fact.5",
+      "kind": "bullet",
+      "text": "de",
+      "tokens": [
+        "de"
+      ]
+    },
+    {
+      "charEnd": 778,
+      "charStart": 768,
+      "factId": "hz.web.ef197b7701f88cc2.fact.6",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 790,
+      "charStart": 779,
+      "factId": "hz.web.ef197b7701f88cc2.fact.7",
+      "kind": "bullet",
+      "text": "politique",
+      "tokens": [
+        "politique"
+      ]
+    },
+    {
+      "charEnd": 796,
+      "charStart": 791,
+      "factId": "hz.web.ef197b7701f88cc2.fact.8",
+      "kind": "bullet",
+      "text": "sur",
+      "tokens": [
+        "sur"
+      ]
+    },
+    {
+      "charEnd": 803,
+      "charStart": 797,
+      "factId": "hz.web.ef197b7701f88cc2.fact.9",
+      "kind": "bullet",
+      "text": "vous",
+      "tokens": [
+        "vous"
+      ]
+    },
+    {
+      "charEnd": 816,
+      "charStart": 804,
+      "factId": "hz.web.ef197b7701f88cc2.fact.10",
+      "kind": "bullet",
+      "text": "identifier",
+      "tokens": [
+        "identifier"
+      ]
+    },
+    {
+      "charEnd": 821,
+      "charStart": 817,
+      "factId": "hz.web.ef197b7701f88cc2.fact.11",
+      "kind": "bullet",
+      "text": "la",
+      "tokens": [
+        "la"
+      ]
+    },
+    {
+      "charEnd": 838,
+      "charStart": 822,
+      "factId": "hz.web.ef197b7701f88cc2.fact.12",
+      "kind": "bullet",
+      "text": "confidentialit",
+      "tokens": [
+        "confidentialit"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 39,
+      "charStart": 1,
+      "headingId": "hz.web.ef197b7701f88cc2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "S’identifier sur LinkedIn | LinkedIn"
+    },
+    {
+      "charEnd": 132,
+      "charStart": 122,
+      "headingId": "hz.web.ef197b7701f88cc2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 761,
+      "charStart": 750,
+      "headingId": "hz.web.ef197b7701f88cc2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 850,
+      "charStart": 840,
+      "headingId": "hz.web.ef197b7701f88cc2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ef197b7701f88cc2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2875,
+        "start": 0
+      }
+    ],
+    "hash": "3e6a7c77f8e3720dd4763d3fe889f776d29cd1ecaea649dcbfc48107e8a976e3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "S’identifier sur LinkedIn | LinkedIn S’identifier S’identifier avec Apple Identifiez-vous avec une clé d’accès En cliquant sur Continuer, vous acceptez les Conditions d’utilisation , la Politique de confidentialité et la Politique relative aux cookies de LinkedIn.",
+      "ou E-mail ou téléphone Mot de passe Afficher Mot de passe oublié ?",
+      "Rester connecté(e) S’identifier Nous avons envoyé un lien à usage unique à votre adresse e-mail principale Cliquez sur le lien pour vous identifier instantanément sur votre compte LinkedIn."
+    ],
+    "medium": "Source: https://www.linkedin.com/login/fr",
+    "short": "Source: https://www.linkedin.com/login/fr",
+    "tokens": [
+      "identifier",
+      "sur",
+      "linkedin",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "fr",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "fr"
+    ]
+  },
+  "title": "S’identifier sur LinkedIn | LinkedIn"
+}

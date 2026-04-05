@@ -1,0 +1,164 @@
+{
+  "aliases": [
+    {
+      "alias": "redaction rules",
+      "aliasId": "hz.auto.governance.redaction-rules.src-md.alias.1",
+      "canonical": "redaction rules"
+    }
+  ],
+  "app": "core",
+  "confidence": 0.8,
+  "docId": "hz.auto.governance.redaction-rules.src-md",
+  "domain": "governance",
+  "entities": [
+    {
+      "entityId": "hz.auto.governance.redaction-rules.src-md.entity.1",
+      "kind": "document",
+      "name": "Redaction rules",
+      "tokens": [
+        "redaction",
+        "rules"
+      ]
+    },
+    {
+      "entityId": "hz.auto.governance.redaction-rules.src-md.entity.2",
+      "kind": "heading",
+      "name": "Redaction rules",
+      "tokens": [
+        "redaction",
+        "rules"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 70,
+      "charStart": 21,
+      "factId": "hz.auto.governance.redaction-rules.src-md.fact.1",
+      "kind": "summary",
+      "text": "When logging, exporting, or building diagnostics:",
+      "tokens": [
+        "logging",
+        "exporting",
+        "building",
+        "diagnostics"
+      ]
+    },
+    {
+      "charEnd": 128,
+      "charStart": 70,
+      "factId": "hz.auto.governance.redaction-rules.src-md.fact.1",
+      "kind": "bullet",
+      "text": "Replace API keys, tokens, and passwords with `REDACTED`.",
+      "tokens": [
+        "replace",
+        "api",
+        "keys",
+        "tokens",
+        "passwords",
+        "redacted"
+      ]
+    },
+    {
+      "charEnd": 210,
+      "charStart": 129,
+      "factId": "hz.auto.governance.redaction-rules.src-md.fact.2",
+      "kind": "bullet",
+      "text": "Truncate long user messages in traces; keep hashes for deduplication if needed.",
+      "tokens": [
+        "truncate",
+        "long",
+        "user",
+        "messages",
+        "traces",
+        "keep",
+        "hashes",
+        "deduplication",
+        "if",
+        "needed"
+      ]
+    },
+    {
+      "charEnd": 281,
+      "charStart": 211,
+      "factId": "hz.auto.governance.redaction-rules.src-md.fact.3",
+      "kind": "bullet",
+      "text": "Do not embed full `brain/memory/user/` payloads in public telemetry.",
+      "tokens": [
+        "not",
+        "embed",
+        "full",
+        "brain",
+        "memory",
+        "user",
+        "payloads",
+        "public",
+        "telemetry"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 0,
+      "headingId": "hz.auto.governance.redaction-rules.src-md.heading.1",
+      "level": 1,
+      "line": 1,
+      "text": "Redaction rules"
+    }
+  ],
+  "moduleIds": [],
+  "path": "governance/redaction-rules.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 289,
+        "start": 0
+      }
+    ],
+    "hash": "7ddde0cc620b3bdb896596069e10932f59a94641d88bca5e9248e90132b7c575",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.auto.governance.redaction-rules.src-md.rule.1",
+      "text": "- Do not embed full `brain/memory/user/` payloads in public telemetry.",
+      "tokens": [
+        "not",
+        "embed",
+        "full",
+        "brain",
+        "memory",
+        "user",
+        "payloads",
+        "public",
+        "telemetry"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Replace API keys, tokens, and passwords with `REDACTED`.",
+      "Truncate long user messages in traces; keep hashes for deduplication if needed.",
+      "Do not embed full `brain/memory/user/` payloads in public telemetry."
+    ],
+    "medium": "When logging, exporting, or building diagnostics:",
+    "short": "When logging, exporting, or building diagnostics:",
+    "tokens": [
+      "redaction",
+      "rules",
+      "logging",
+      "exporting",
+      "building",
+      "diagnostics",
+      "logging",
+      "exporting",
+      "building",
+      "diagnostics"
+    ]
+  },
+  "title": "Redaction rules"
+}

@@ -1,0 +1,408 @@
+{
+  "aliases": [
+    {
+      "alias": "4647bef4a0eb90fb",
+      "aliasId": "hz.web.4647bef4a0eb90fb.alias.1",
+      "canonical": "catalog | national library of medicine | national institutes of health | open data portal"
+    },
+    {
+      "alias": "catalog national library of medicine national institutes of health open data portal",
+      "aliasId": "hz.web.4647bef4a0eb90fb.alias.2",
+      "canonical": "catalog | national library of medicine | national institutes of health | open data portal"
+    },
+    {
+      "alias": "web 4647bef4a0eb90fb",
+      "aliasId": "hz.web.4647bef4a0eb90fb.alias.3",
+      "canonical": "catalog | national library of medicine | national institutes of health | open data portal"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.4647bef4a0eb90fb",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4647bef4a0eb90fb.entity.1",
+      "kind": "document",
+      "name": "Catalog | National Library of Medicine | National Institutes of Health | Open Data Portal",
+      "tokens": [
+        "catalog",
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "institutes",
+        "health",
+        "open",
+        "data",
+        "portal"
+      ]
+    },
+    {
+      "entityId": "hz.web.4647bef4a0eb90fb.entity.2",
+      "kind": "heading",
+      "name": "Catalog | National Library of Medicine | National Institutes of Health | Open Data Portal",
+      "tokens": [
+        "catalog",
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "institutes",
+        "health",
+        "open",
+        "data",
+        "portal"
+      ]
+    },
+    {
+      "entityId": "hz.web.4647bef4a0eb90fb.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4647bef4a0eb90fb.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4647bef4a0eb90fb.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 246,
+      "charStart": 94,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.1",
+      "kind": "summary",
+      "text": "Source: https://datadiscovery.nlm.nih.gov/browse?sortBy=alpha&pageSize=100&Common-Core_Additional-Filters=%5B+%27NLM+Products+and+Services%27+%5D&page=1",
+      "tokens": [
+        "source",
+        "https",
+        "datadiscovery",
+        "nlm",
+        "nih",
+        "gov",
+        "browse",
+        "sortby",
+        "alpha",
+        "pagesize",
+        "100",
+        "common",
+        "core_additional",
+        "filters",
+        "5b",
+        "27nlm",
+        "products",
+        "services",
+        "27",
+        "5d",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 579,
+      "charStart": 298,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.1",
+      "kind": "bullet",
+      "text": "Catalog | National Library of Medicine | National Institutes of Health | Open Data Portal Skip to main content Skip to footer An official website of the United States Government Here's how you know Official websites use .gov Federal government websites often end in .gov or .mil.",
+      "tokens": [
+        "catalog",
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "institutes",
+        "health",
+        "open",
+        "data",
+        "portal",
+        "skip",
+        "main",
+        "content",
+        "skip",
+        "footer",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "federal",
+        "government",
+        "websites",
+        "often",
+        "end",
+        "gov",
+        "mil"
+      ]
+    },
+    {
+      "charEnd": 666,
+      "charStart": 580,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.2",
+      "kind": "bullet",
+      "text": "Before sharing sensitive information, make sure you're on a federal government site.",
+      "tokens": [
+        "before",
+        "sharing",
+        "sensitive",
+        "information",
+        "make",
+        "sure",
+        "re",
+        "federal",
+        "government",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 773,
+      "charStart": 667,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.3",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 838,
+      "charStart": 774,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.4",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 858,
+      "charStart": 853,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.5",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 864,
+      "charStart": 859,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.6",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 875,
+      "charStart": 865,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.7",
+      "kind": "bullet",
+      "text": "websites",
+      "tokens": [
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 882,
+      "charStart": 876,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.8",
+      "kind": "bullet",
+      "text": "data",
+      "tokens": [
+        "data"
+      ]
+    },
+    {
+      "charEnd": 895,
+      "charStart": 883,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.9",
+      "kind": "bullet",
+      "text": "government",
+      "tokens": [
+        "government"
+      ]
+    },
+    {
+      "charEnd": 906,
+      "charStart": 896,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.10",
+      "kind": "bullet",
+      "text": "official",
+      "tokens": [
+        "official"
+      ]
+    },
+    {
+      "charEnd": 915,
+      "charStart": 907,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.11",
+      "kind": "bullet",
+      "text": "search",
+      "tokens": [
+        "search"
+      ]
+    },
+    {
+      "charEnd": 924,
+      "charStart": 916,
+      "factId": "hz.web.4647bef4a0eb90fb.fact.12",
+      "kind": "bullet",
+      "text": "browse",
+      "tokens": [
+        "browse"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 92,
+      "charStart": 1,
+      "headingId": "hz.web.4647bef4a0eb90fb.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Catalog | National Library of Medicine | National Institutes of Health | Open Data Portal"
+    },
+    {
+      "charEnd": 296,
+      "charStart": 286,
+      "headingId": "hz.web.4647bef4a0eb90fb.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 851,
+      "charStart": 840,
+      "headingId": "hz.web.4647bef4a0eb90fb.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 936,
+      "charStart": 926,
+      "headingId": "hz.web.4647bef4a0eb90fb.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/4647bef4a0eb90fb.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2180,
+        "start": 0
+      }
+    ],
+    "hash": "51b9a9f94ce65f264407341a415cdf4d34b354ead129fb2968440ef91e83b115",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Catalog | National Library of Medicine | National Institutes of Health | Open Data Portal Skip to main content Skip to footer An official website of the United States Government Here's how you know Official websites use .gov Federal government websites often end in .gov or .mil.",
+      "Before sharing sensitive information, make sure you're on a federal government site.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website."
+    ],
+    "medium": "Source: https://datadiscovery.nlm.nih.gov/browse?sortBy=alpha&pageSize=100&Common-Core_Additional-Filters=%5B+%27NLM+Products+and+Services%27+%5D&page=1",
+    "short": "Source: https://datadiscovery.nlm.nih.gov/browse?sortBy=alpha&pageSize=100&Common-Core_Additional-Filters=%5B+%27NLM+Products+and+Services%27+%5D&page=1",
+    "tokens": [
+      "catalog",
+      "national",
+      "library",
+      "medicine",
+      "national",
+      "institutes",
+      "health",
+      "open",
+      "data",
+      "portal",
+      "source",
+      "https",
+      "datadiscovery",
+      "nlm",
+      "nih",
+      "gov",
+      "browse",
+      "sortby",
+      "alpha",
+      "pagesize",
+      "100",
+      "common",
+      "core_additional",
+      "filters",
+      "5b",
+      "27nlm",
+      "products",
+      "services",
+      "27",
+      "5d",
+      "page",
+      "source",
+      "https",
+      "datadiscovery",
+      "nlm",
+      "nih",
+      "gov",
+      "browse",
+      "sortby",
+      "alpha",
+      "pagesize",
+      "100",
+      "common",
+      "core_additional",
+      "filters",
+      "5b",
+      "27nlm",
+      "products",
+      "services",
+      "27",
+      "5d",
+      "page"
+    ]
+  },
+  "title": "Catalog | National Library of Medicine | National Institutes of Health | Open Data Portal"
+}

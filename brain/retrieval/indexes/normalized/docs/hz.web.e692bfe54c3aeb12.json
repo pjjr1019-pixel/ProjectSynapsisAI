@@ -1,0 +1,347 @@
+{
+  "aliases": [
+    {
+      "alias": "e692bfe54c3aeb12",
+      "aliasId": "hz.web.e692bfe54c3aeb12.alias.1",
+      "canonical": "sendgrid"
+    },
+    {
+      "alias": "sendgrid",
+      "aliasId": "hz.web.e692bfe54c3aeb12.alias.2",
+      "canonical": "sendgrid"
+    },
+    {
+      "alias": "web e692bfe54c3aeb12",
+      "aliasId": "hz.web.e692bfe54c3aeb12.alias.3",
+      "canonical": "sendgrid"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.e692bfe54c3aeb12",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e692bfe54c3aeb12.entity.1",
+      "kind": "document",
+      "name": "SendGrid",
+      "tokens": [
+        "sendgrid"
+      ]
+    },
+    {
+      "entityId": "hz.web.e692bfe54c3aeb12.entity.2",
+      "kind": "heading",
+      "name": "SendGrid",
+      "tokens": [
+        "sendgrid"
+      ]
+    },
+    {
+      "entityId": "hz.web.e692bfe54c3aeb12.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e692bfe54c3aeb12.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e692bfe54c3aeb12.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 13,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.1",
+      "kind": "summary",
+      "text": "Source: https://support.sendgrid.com/hc/en-us",
+      "tokens": [
+        "source",
+        "https",
+        "support",
+        "sendgrid",
+        "com",
+        "hc",
+        "en",
+        "us"
+      ]
+    },
+    {
+      "charEnd": 131,
+      "charStart": 110,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.1",
+      "kind": "bullet",
+      "text": "SendGrid Read More.",
+      "tokens": [
+        "sendgrid",
+        "read",
+        "more"
+      ]
+    },
+    {
+      "charEnd": 253,
+      "charStart": 132,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.2",
+      "kind": "bullet",
+      "text": "Log In --> Knowledge Center Support Status Sign Up Knowledge Center Support Status Log In Sign Up Search for Solutions.",
+      "tokens": [
+        "log",
+        "knowledge",
+        "center",
+        "support",
+        "status",
+        "sign",
+        "up",
+        "knowledge",
+        "center",
+        "support",
+        "status",
+        "log",
+        "sign",
+        "up",
+        "search",
+        "solutions"
+      ]
+    },
+    {
+      "charEnd": 268,
+      "charStart": 254,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.3",
+      "kind": "bullet",
+      "text": "Get Support.",
+      "tokens": [
+        "get",
+        "support"
+      ]
+    },
+    {
+      "charEnd": 620,
+      "charStart": 269,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.4",
+      "kind": "bullet",
+      "text": "Login & Contact Support Product Guides Read our documentation Read More &#8250; API Docs Learn how to Integrate with our API or SMTP Relay Read More &#8250; Expert Services Learn directly from our email experts Read More &#8250; Troubleshooting Find answers to common problems Read More &#8250; &copy; 2020 SendGrid / Home / Knowledge Center / Legal",
+      "tokens": [
+        "login",
+        "contact",
+        "support",
+        "product",
+        "guides",
+        "read",
+        "our",
+        "documentation",
+        "read",
+        "more",
+        "8250",
+        "api",
+        "docs",
+        "learn",
+        "integrate",
+        "our",
+        "api",
+        "smtp",
+        "relay",
+        "read",
+        "more",
+        "8250",
+        "expert",
+        "services",
+        "learn",
+        "directly",
+        "our",
+        "email",
+        "experts",
+        "read",
+        "more",
+        "8250",
+        "troubleshooting",
+        "find",
+        "answers",
+        "common",
+        "problems",
+        "read",
+        "more",
+        "8250",
+        "copy",
+        "2020",
+        "sendgrid",
+        "home",
+        "knowledge",
+        "center",
+        "legal"
+      ]
+    },
+    {
+      "charEnd": 641,
+      "charStart": 635,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.5",
+      "kind": "bullet",
+      "text": "read",
+      "tokens": [
+        "read"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 642,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.6",
+      "kind": "bullet",
+      "text": "more",
+      "tokens": [
+        "more"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 649,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.7",
+      "kind": "bullet",
+      "text": "8250",
+      "tokens": [
+        "8250"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 656,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.8",
+      "kind": "bullet",
+      "text": "support",
+      "tokens": [
+        "support"
+      ]
+    },
+    {
+      "charEnd": 674,
+      "charStart": 666,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.9",
+      "kind": "bullet",
+      "text": "center",
+      "tokens": [
+        "center"
+      ]
+    },
+    {
+      "charEnd": 686,
+      "charStart": 675,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.10",
+      "kind": "bullet",
+      "text": "knowledge",
+      "tokens": [
+        "knowledge"
+      ]
+    },
+    {
+      "charEnd": 692,
+      "charStart": 687,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.11",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 693,
+      "factId": "hz.web.e692bfe54c3aeb12.fact.12",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.e692bfe54c3aeb12.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "SendGrid"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.e692bfe54c3aeb12.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 633,
+      "charStart": 622,
+      "headingId": "hz.web.e692bfe54c3aeb12.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 710,
+      "charStart": 700,
+      "headingId": "hz.web.e692bfe54c3aeb12.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/e692bfe54c3aeb12.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1444,
+        "start": 0
+      }
+    ],
+    "hash": "080f5b2e1a764fb3e0c9a1ac9f86c22a79801d41e3eb68d6dd8bd4860960e9aa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "SendGrid Read More.",
+      "Log In --> Knowledge Center Support Status Sign Up Knowledge Center Support Status Log In Sign Up Search for Solutions.",
+      "Get Support."
+    ],
+    "medium": "Source: https://support.sendgrid.com/hc/en-us",
+    "short": "Source: https://support.sendgrid.com/hc/en-us",
+    "tokens": [
+      "sendgrid",
+      "source",
+      "https",
+      "support",
+      "sendgrid",
+      "com",
+      "hc",
+      "en",
+      "us",
+      "source",
+      "https",
+      "support",
+      "sendgrid",
+      "com",
+      "hc",
+      "en",
+      "us"
+    ]
+  },
+  "title": "SendGrid"
+}

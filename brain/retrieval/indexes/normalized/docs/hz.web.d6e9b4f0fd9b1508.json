@@ -1,0 +1,434 @@
+{
+  "aliases": [
+    {
+      "alias": "d6e9b4f0fd9b1508",
+      "aliasId": "hz.web.d6e9b4f0fd9b1508.alias.1",
+      "canonical": "indieauth - indieweb"
+    },
+    {
+      "alias": "indieauth - indieweb",
+      "aliasId": "hz.web.d6e9b4f0fd9b1508.alias.2",
+      "canonical": "indieauth - indieweb"
+    },
+    {
+      "alias": "web d6e9b4f0fd9b1508",
+      "aliasId": "hz.web.d6e9b4f0fd9b1508.alias.3",
+      "canonical": "indieauth - indieweb"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.d6e9b4f0fd9b1508",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d6e9b4f0fd9b1508.entity.1",
+      "kind": "document",
+      "name": "IndieAuth - IndieWeb",
+      "tokens": [
+        "indieauth",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.d6e9b4f0fd9b1508.entity.2",
+      "kind": "heading",
+      "name": "IndieAuth - IndieWeb",
+      "tokens": [
+        "indieauth",
+        "indieweb"
+      ]
+    },
+    {
+      "entityId": "hz.web.d6e9b4f0fd9b1508.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d6e9b4f0fd9b1508.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d6e9b4f0fd9b1508.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 63,
+      "charStart": 25,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieweb.org/IndieAuth",
+      "tokens": [
+        "source",
+        "https",
+        "indieweb",
+        "org",
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 352,
+      "charStart": 115,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.1",
+      "kind": "bullet",
+      "text": "IndieAuth - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "tokens": [
+        "indieauth",
+        "indieweb",
+        "jump",
+        "content",
+        "main",
+        "menu",
+        "main",
+        "menu",
+        "move",
+        "sidebar",
+        "hide",
+        "explore",
+        "indieweb",
+        "principles",
+        "community",
+        "posts",
+        "visit",
+        "random",
+        "site",
+        "get",
+        "personal",
+        "site",
+        "faq",
+        "subscribe",
+        "newsletter",
+        "new",
+        "coming",
+        "up",
+        "soon"
+      ]
+    },
+    {
+      "charEnd": 381,
+      "charStart": 353,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.2",
+      "kind": "bullet",
+      "text": "🎁 IndieWeb Gift Calendar!",
+      "tokens": [
+        "indieweb",
+        "gift",
+        "calendar"
+      ]
+    },
+    {
+      "charEnd": 429,
+      "charStart": 382,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.3",
+      "kind": "bullet",
+      "text": "🎪 IWC Düsseldorf 4/25…26 Join the community!",
+      "tokens": [
+        "iwc",
+        "sseldorf",
+        "25",
+        "26",
+        "join",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 1409,
+      "charStart": 430,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.4",
+      "kind": "bullet",
+      "text": "🌈 Code of conduct 💬 Join #indieweb chat 📜 Chat log 📅 Events 👥 Meetups: 2026-03-31 👕☕️ IndieWeb shirts & mugs ❤️ Sponsor Developers 🔩 Building Blocks 🛠 Tools 🧰 Projects 🔌 Standards 💬 Join developer chat Wiki resources 👤 Login ✳️ Recent changes 🖼 Recent uploads 🎲 Random page 📑 6,006 articles © Wiki content is CC0 Search Search Log in Personal tools Log in Contents move to sidebar hide Beginning 1 Why 2 How it works 3 How to Toggle How to subsection 3.1 Set up your own IndieAuth provider 3.2 Set up in WordPress 3.3 Set up using IndieAuth.com 4 IndieWeb Examples 5 IndieAuth Providers 6 Services Toggle Services subsection 6.1 IndieLogin.com 6.2 IndieAuth.com 7 Server Implementations 8 IndieAuth Clients 9 Client Libraries 10 IndieAuth Protocol Toggle IndieAuth Protocol subsection 10.1 Discovery from the User's Homepage 10.2 The Authorization Endpoint 10.3 The Token Endpoint 11 FAQ Toggle FAQ subsection 11.1 How is IndieAuth different from OpenID Connect?",
+      "tokens": [
+        "code",
+        "conduct",
+        "join",
+        "indieweb",
+        "chat",
+        "chat",
+        "log",
+        "events",
+        "meetups",
+        "2026",
+        "03",
+        "31",
+        "indieweb",
+        "shirts",
+        "mugs",
+        "sponsor",
+        "developers",
+        "building",
+        "blocks",
+        "tools",
+        "projects",
+        "standards",
+        "join",
+        "developer",
+        "chat",
+        "wiki",
+        "resources",
+        "login",
+        "recent",
+        "changes",
+        "recent",
+        "uploads",
+        "random",
+        "page",
+        "006",
+        "articles",
+        "wiki",
+        "content",
+        "cc0",
+        "search",
+        "search",
+        "log",
+        "personal",
+        "tools",
+        "log",
+        "contents",
+        "move",
+        "sidebar",
+        "hide",
+        "beginning",
+        "why",
+        "works",
+        "toggle",
+        "subsection",
+        "set",
+        "up",
+        "your",
+        "own",
+        "indieauth",
+        "provider",
+        "set",
+        "up",
+        "wordpress",
+        "set",
+        "up",
+        "using",
+        "indieauth",
+        "com",
+        "indieweb",
+        "examples",
+        "indieauth",
+        "providers",
+        "services",
+        "toggle",
+        "services",
+        "subsection",
+        "indielogin",
+        "com",
+        "indieauth",
+        "com",
+        "server",
+        "implementations",
+        "indieauth",
+        "clients",
+        "client",
+        "libraries",
+        "10",
+        "indieauth",
+        "protocol",
+        "toggle",
+        "indieauth",
+        "protocol",
+        "subsection",
+        "10",
+        "discovery",
+        "user",
+        "homepage",
+        "10",
+        "authorization",
+        "endpoint",
+        "10",
+        "token",
+        "endpoint",
+        "11",
+        "faq",
+        "toggle",
+        "faq",
+        "subsection",
+        "11",
+        "indieauth",
+        "different",
+        "openid",
+        "connect"
+      ]
+    },
+    {
+      "charEnd": 1435,
+      "charStart": 1424,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.5",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 1446,
+      "charStart": 1436,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.6",
+      "kind": "bullet",
+      "text": "endpoint",
+      "tokens": [
+        "endpoint"
+      ]
+    },
+    {
+      "charEnd": 1462,
+      "charStart": 1447,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.7",
+      "kind": "bullet",
+      "text": "authorization",
+      "tokens": [
+        "authorization"
+      ]
+    },
+    {
+      "charEnd": 1468,
+      "charStart": 1463,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.8",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1475,
+      "charStart": 1469,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.9",
+      "kind": "bullet",
+      "text": "user",
+      "tokens": [
+        "user"
+      ]
+    },
+    {
+      "charEnd": 1480,
+      "charStart": 1476,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.10",
+      "kind": "bullet",
+      "text": "32",
+      "tokens": [
+        "32"
+      ]
+    },
+    {
+      "charEnd": 1487,
+      "charStart": 1481,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.11",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1495,
+      "charStart": 1488,
+      "factId": "hz.web.d6e9b4f0fd9b1508.fact.12",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.d6e9b4f0fd9b1508.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "IndieAuth - IndieWeb"
+    },
+    {
+      "charEnd": 113,
+      "charStart": 103,
+      "headingId": "hz.web.d6e9b4f0fd9b1508.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1422,
+      "charStart": 1411,
+      "headingId": "hz.web.d6e9b4f0fd9b1508.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1507,
+      "charStart": 1497,
+      "headingId": "hz.web.d6e9b4f0fd9b1508.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d6e9b4f0fd9b1508.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4744,
+        "start": 0
+      }
+    ],
+    "hash": "6c4f55d87cb7ec96677ddd4f34a8d9e10f34b4a63903b95a8b1ea3d8069c50ae",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.d6e9b4f0fd9b1508.rule.1",
+      "text": "11.5 Should I use HTTPS?",
+      "tokens": [
+        "11",
+        "use",
+        "https"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "IndieAuth - IndieWeb Jump to content Main menu Main menu move to sidebar hide Explore the IndieWeb 🗽 Principles 📜 Community posts 🌐 Visit a random site 🌱 Get a personal site ℹ️ FAQ 📩 Subscribe to newsletter New and coming up soon!",
+      "🎁 IndieWeb Gift Calendar!",
+      "🎪 IWC Düsseldorf 4/25…26 Join the community!"
+    ],
+    "medium": "Source: https://indieweb.org/IndieAuth",
+    "short": "Source: https://indieweb.org/IndieAuth",
+    "tokens": [
+      "indieauth",
+      "indieweb",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "indieauth",
+      "source",
+      "https",
+      "indieweb",
+      "org",
+      "indieauth"
+    ]
+  },
+  "title": "IndieAuth - IndieWeb"
+}

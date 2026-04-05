@@ -1,0 +1,316 @@
+{
+  "aliases": [
+    {
+      "alias": "0ce53821b793856a",
+      "aliasId": "hz.web.0ce53821b793856a.alias.1",
+      "canonical": "cdnjs - the #1 free and open source cdn built to make life easier for developers"
+    },
+    {
+      "alias": "cdnjs - the 1 free and open source cdn built to make life easier for developers",
+      "aliasId": "hz.web.0ce53821b793856a.alias.2",
+      "canonical": "cdnjs - the #1 free and open source cdn built to make life easier for developers"
+    },
+    {
+      "alias": "web 0ce53821b793856a",
+      "aliasId": "hz.web.0ce53821b793856a.alias.3",
+      "canonical": "cdnjs - the #1 free and open source cdn built to make life easier for developers"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.0ce53821b793856a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.0ce53821b793856a.entity.1",
+      "kind": "document",
+      "name": "cdnjs - The #1 free and open source CDN built to make life easier for developers",
+      "tokens": [
+        "cdnjs",
+        "free",
+        "open",
+        "source",
+        "cdn",
+        "built",
+        "make",
+        "life",
+        "easier",
+        "developers"
+      ]
+    },
+    {
+      "entityId": "hz.web.0ce53821b793856a.entity.2",
+      "kind": "heading",
+      "name": "cdnjs - The #1 free and open source CDN built to make life easier for developers",
+      "tokens": [
+        "cdnjs",
+        "free",
+        "open",
+        "source",
+        "cdn",
+        "built",
+        "make",
+        "life",
+        "easier",
+        "developers"
+      ]
+    },
+    {
+      "entityId": "hz.web.0ce53821b793856a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.0ce53821b793856a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.0ce53821b793856a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 111,
+      "charStart": 85,
+      "factId": "hz.web.0ce53821b793856a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cdnjs.com/",
+      "tokens": [
+        "source",
+        "https",
+        "cdnjs",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 287,
+      "charStart": 163,
+      "factId": "hz.web.0ce53821b793856a.fact.1",
+      "kind": "bullet",
+      "text": "cdnjs - The #1 free and open source CDN built to make life easier for developers About Libraries API GitHub Status Simple.",
+      "tokens": [
+        "cdnjs",
+        "free",
+        "open",
+        "source",
+        "cdn",
+        "built",
+        "make",
+        "life",
+        "easier",
+        "developers",
+        "about",
+        "libraries",
+        "api",
+        "github",
+        "status",
+        "simple"
+      ]
+    },
+    {
+      "charEnd": 295,
+      "charStart": 288,
+      "factId": "hz.web.0ce53821b793856a.fact.2",
+      "kind": "bullet",
+      "text": "Fast.",
+      "tokens": [
+        "fast"
+      ]
+    },
+    {
+      "charEnd": 307,
+      "charStart": 296,
+      "factId": "hz.web.0ce53821b793856a.fact.3",
+      "kind": "bullet",
+      "text": "Reliable.",
+      "tokens": [
+        "reliable"
+      ]
+    },
+    {
+      "charEnd": 341,
+      "charStart": 308,
+      "factId": "hz.web.0ce53821b793856a.fact.4",
+      "kind": "bullet",
+      "text": "Content delivery at its finest.",
+      "tokens": [
+        "content",
+        "delivery",
+        "its",
+        "finest"
+      ]
+    },
+    {
+      "charEnd": 363,
+      "charStart": 356,
+      "factId": "hz.web.0ce53821b793856a.fact.5",
+      "kind": "bullet",
+      "text": "cdnjs",
+      "tokens": [
+        "cdnjs"
+      ]
+    },
+    {
+      "charEnd": 371,
+      "charStart": 364,
+      "factId": "hz.web.0ce53821b793856a.fact.6",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 377,
+      "charStart": 372,
+      "factId": "hz.web.0ce53821b793856a.fact.7",
+      "kind": "bullet",
+      "text": "cdn",
+      "tokens": [
+        "cdn"
+      ]
+    },
+    {
+      "charEnd": 386,
+      "charStart": 378,
+      "factId": "hz.web.0ce53821b793856a.fact.8",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    },
+    {
+      "charEnd": 398,
+      "charStart": 387,
+      "factId": "hz.web.0ce53821b793856a.fact.9",
+      "kind": "bullet",
+      "text": "libraries",
+      "tokens": [
+        "libraries"
+      ]
+    },
+    {
+      "charEnd": 405,
+      "charStart": 399,
+      "factId": "hz.web.0ce53821b793856a.fact.10",
+      "kind": "bullet",
+      "text": "make",
+      "tokens": [
+        "make"
+      ]
+    },
+    {
+      "charEnd": 412,
+      "charStart": 406,
+      "factId": "hz.web.0ce53821b793856a.fact.11",
+      "kind": "bullet",
+      "text": "open",
+      "tokens": [
+        "open"
+      ]
+    },
+    {
+      "charEnd": 421,
+      "charStart": 413,
+      "factId": "hz.web.0ce53821b793856a.fact.12",
+      "kind": "bullet",
+      "text": "status",
+      "tokens": [
+        "status"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 83,
+      "charStart": 1,
+      "headingId": "hz.web.0ce53821b793856a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cdnjs - The #1 free and open source CDN built to make life easier for developers"
+    },
+    {
+      "charEnd": 161,
+      "charStart": 151,
+      "headingId": "hz.web.0ce53821b793856a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 354,
+      "charStart": 343,
+      "headingId": "hz.web.0ce53821b793856a.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 433,
+      "charStart": 423,
+      "headingId": "hz.web.0ce53821b793856a.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/0ce53821b793856a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1521,
+        "start": 0
+      }
+    ],
+    "hash": "7eb038a8bdfb42526edf3939d80ab1b65d236cc33133cfa0d2f1c146e0f4c40b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "cdnjs - The #1 free and open source CDN built to make life easier for developers About Libraries API GitHub Status Simple.",
+      "Fast.",
+      "Reliable."
+    ],
+    "medium": "Source: https://cdnjs.com/",
+    "short": "Source: https://cdnjs.com/",
+    "tokens": [
+      "cdnjs",
+      "free",
+      "open",
+      "source",
+      "cdn",
+      "built",
+      "make",
+      "life",
+      "easier",
+      "developers",
+      "source",
+      "https",
+      "cdnjs",
+      "com",
+      "source",
+      "https",
+      "cdnjs",
+      "com"
+    ]
+  },
+  "title": "cdnjs - The #1 free and open source CDN built to make life easier for developers"
+}

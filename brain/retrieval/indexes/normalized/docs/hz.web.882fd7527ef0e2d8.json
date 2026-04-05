@@ -1,0 +1,486 @@
+{
+  "aliases": [
+    {
+      "alias": "882fd7527ef0e2d8",
+      "aliasId": "hz.web.882fd7527ef0e2d8.alias.1",
+      "canonical": "welcome to steam"
+    },
+    {
+      "alias": "web 882fd7527ef0e2d8",
+      "aliasId": "hz.web.882fd7527ef0e2d8.alias.2",
+      "canonical": "welcome to steam"
+    },
+    {
+      "alias": "welcome to steam",
+      "aliasId": "hz.web.882fd7527ef0e2d8.alias.3",
+      "canonical": "welcome to steam"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.882fd7527ef0e2d8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.882fd7527ef0e2d8.entity.1",
+      "kind": "document",
+      "name": "Welcome to Steam",
+      "tokens": [
+        "welcome",
+        "steam"
+      ]
+    },
+    {
+      "entityId": "hz.web.882fd7527ef0e2d8.entity.2",
+      "kind": "heading",
+      "name": "Welcome to Steam",
+      "tokens": [
+        "welcome",
+        "steam"
+      ]
+    },
+    {
+      "entityId": "hz.web.882fd7527ef0e2d8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.882fd7527ef0e2d8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.882fd7527ef0e2d8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 60,
+      "charStart": 21,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://store.steampowered.com/",
+      "tokens": [
+        "source",
+        "https",
+        "store",
+        "steampowered",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 349,
+      "charStart": 112,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.1",
+      "kind": "bullet",
+      "text": "Welcome to Steam Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation.",
+      "tokens": [
+        "welcome",
+        "steam",
+        "sign",
+        "store",
+        "home",
+        "discovery",
+        "queue",
+        "wishlist",
+        "points",
+        "shop",
+        "news",
+        "charts",
+        "community",
+        "home",
+        "discussions",
+        "workshop",
+        "market",
+        "broadcasts",
+        "about",
+        "support",
+        "change",
+        "language",
+        "get",
+        "steam",
+        "mobile",
+        "app",
+        "view",
+        "desktop",
+        "website",
+        "valve",
+        "corporation"
+      ]
+    },
+    {
+      "charEnd": 372,
+      "charStart": 350,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.2",
+      "kind": "bullet",
+      "text": "All rights reserved.",
+      "tokens": [
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 460,
+      "charStart": 373,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.3",
+      "kind": "bullet",
+      "text": "All trademarks are property of their respective owners in the US and other countries.",
+      "tokens": [
+        "all",
+        "trademarks",
+        "property",
+        "their",
+        "respective",
+        "owners",
+        "us",
+        "other",
+        "countries"
+      ]
+    },
+    {
+      "charEnd": 1881,
+      "charStart": 461,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.4",
+      "kind": "bullet",
+      "text": "Privacy Policy | Legal | Accessibility | Steam Subscriber Agreement | Refunds | Cookies STORE Home Discovery Queue Wishlist Points Shop News Charts COMMUNITY Home Discussions Workshop Market Broadcasts About SUPPORT Install Steam sign in | language 简体中文 (Simplified Chinese) 繁體中文 (Traditional Chinese) 日本語 (Japanese) 한국어 (Korean) ไทย (Thai) Български (Bulgarian) Čeština (Czech) Dansk (Danish) Deutsch (German) Español - España (Spanish - Spain) Español - Latinoamérica (Spanish - Latin America) Ελληνικά (Greek) Français (French) Italiano (Italian) Bahasa Indonesia (Indonesian) Magyar (Hungarian) Nederlands (Dutch) Norsk (Norwegian) Polski (Polish) Português (Portuguese - Portugal) Português - Brasil (Portuguese - Brazil) Română (Romanian) Русский (Russian) Suomi (Finnish) Svenska (Swedish) Türkçe (Turkish) Tiếng Việt (Vietnamese) Українська (Ukrainian) Report a translation problem Steam Deck Your Games, Everywhere Steam Gift Cards Give the Gift of Game Recently Viewed Your Tags Recommended By Friends By Curators Tags Browse Categories Top Sellers New Releases Upcoming Specials VR Titles Controller-Friendly Great on Deck Hardware Steam Deck Steam Deck Dock VR Hardware Browse by genre Free To Play Early Access Action Adventure Casual Indie Massively Multiplayer Racing RPG Simulation Sports Strategy --> Featured & Recommended Discounts & Events Browse More More Midweek Deal Offer ends Apr 13 @ 10:00am.",
+      "tokens": [
+        "privacy",
+        "policy",
+        "legal",
+        "accessibility",
+        "steam",
+        "subscriber",
+        "agreement",
+        "refunds",
+        "cookies",
+        "store",
+        "home",
+        "discovery",
+        "queue",
+        "wishlist",
+        "points",
+        "shop",
+        "news",
+        "charts",
+        "community",
+        "home",
+        "discussions",
+        "workshop",
+        "market",
+        "broadcasts",
+        "about",
+        "support",
+        "install",
+        "steam",
+        "sign",
+        "language",
+        "simplified",
+        "chinese",
+        "traditional",
+        "chinese",
+        "japanese",
+        "korean",
+        "thai",
+        "bulgarian",
+        "tina",
+        "czech",
+        "dansk",
+        "danish",
+        "deutsch",
+        "german",
+        "espa",
+        "ol",
+        "espa",
+        "spanish",
+        "spain",
+        "espa",
+        "ol",
+        "latinoam",
+        "rica",
+        "spanish",
+        "latin",
+        "america",
+        "greek",
+        "fran",
+        "ais",
+        "french",
+        "italiano",
+        "italian",
+        "bahasa",
+        "indonesia",
+        "indonesian",
+        "magyar",
+        "hungarian",
+        "nederlands",
+        "dutch",
+        "norsk",
+        "norwegian",
+        "polski",
+        "polish",
+        "portugu",
+        "portuguese",
+        "portugal",
+        "portugu",
+        "brasil",
+        "portuguese",
+        "brazil",
+        "rom",
+        "romanian",
+        "russian",
+        "suomi",
+        "finnish",
+        "svenska",
+        "swedish",
+        "rk",
+        "turkish",
+        "ti",
+        "ng",
+        "vi",
+        "vietnamese",
+        "ukrainian",
+        "report",
+        "translation",
+        "problem",
+        "steam",
+        "deck",
+        "your",
+        "games",
+        "everywhere",
+        "steam",
+        "gift",
+        "cards",
+        "give",
+        "gift",
+        "game",
+        "recently",
+        "viewed",
+        "your",
+        "tags",
+        "recommended",
+        "friends",
+        "curators",
+        "tags",
+        "browse",
+        "categories",
+        "top",
+        "sellers",
+        "new",
+        "releases",
+        "upcoming",
+        "specials",
+        "vr",
+        "titles",
+        "controller",
+        "friendly",
+        "great",
+        "deck",
+        "hardware",
+        "steam",
+        "deck",
+        "steam",
+        "deck",
+        "dock",
+        "vr",
+        "hardware",
+        "browse",
+        "genre",
+        "free",
+        "play",
+        "early",
+        "access",
+        "action",
+        "adventure",
+        "casual",
+        "indie",
+        "massively",
+        "multiplayer",
+        "racing",
+        "rpg",
+        "simulation",
+        "sports",
+        "strategy",
+        "featured",
+        "recommended",
+        "discounts",
+        "events",
+        "browse",
+        "more",
+        "more",
+        "midweek",
+        "deal",
+        "offer",
+        "ends",
+        "apr",
+        "13",
+        "10",
+        "00am"
+      ]
+    },
+    {
+      "charEnd": 1900,
+      "charStart": 1896,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.5",
+      "kind": "bullet",
+      "text": "99",
+      "tokens": [
+        "99"
+      ]
+    },
+    {
+      "charEnd": 1907,
+      "charStart": 1901,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.6",
+      "kind": "bullet",
+      "text": "free",
+      "tokens": [
+        "free"
+      ]
+    },
+    {
+      "charEnd": 1914,
+      "charStart": 1908,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.7",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1923,
+      "charStart": 1915,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.8",
+      "kind": "bullet",
+      "text": "action",
+      "tokens": [
+        "action"
+      ]
+    },
+    {
+      "charEnd": 1929,
+      "charStart": 1924,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.9",
+      "kind": "bullet",
+      "text": "mar",
+      "tokens": [
+        "mar"
+      ]
+    },
+    {
+      "charEnd": 1943,
+      "charStart": 1930,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.10",
+      "kind": "bullet",
+      "text": "multiplayer",
+      "tokens": [
+        "multiplayer"
+      ]
+    },
+    {
+      "charEnd": 1949,
+      "charStart": 1944,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.11",
+      "kind": "bullet",
+      "text": "rpg",
+      "tokens": [
+        "rpg"
+      ]
+    },
+    {
+      "charEnd": 1960,
+      "charStart": 1950,
+      "factId": "hz.web.882fd7527ef0e2d8.fact.12",
+      "kind": "bullet",
+      "text": "strategy",
+      "tokens": [
+        "strategy"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.882fd7527ef0e2d8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Welcome to Steam"
+    },
+    {
+      "charEnd": 110,
+      "charStart": 100,
+      "headingId": "hz.web.882fd7527ef0e2d8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1894,
+      "charStart": 1883,
+      "headingId": "hz.web.882fd7527ef0e2d8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1972,
+      "charStart": 1962,
+      "headingId": "hz.web.882fd7527ef0e2d8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/882fd7527ef0e2d8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5206,
+        "start": 0
+      }
+    ],
+    "hash": "047e6e83fca5d4f7d85ebbd965b0b0d2b1d369b8248c5ac6275ece536e0d93cd",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Welcome to Steam Sign in Store Home Discovery Queue Wishlist Points Shop News Charts Community Home Discussions Workshop Market Broadcasts About Support Change language Get the Steam Mobile App View desktop website © Valve Corporation.",
+      "All rights reserved.",
+      "All trademarks are property of their respective owners in the US and other countries."
+    ],
+    "medium": "Source: https://store.steampowered.com/",
+    "short": "Source: https://store.steampowered.com/",
+    "tokens": [
+      "welcome",
+      "steam",
+      "source",
+      "https",
+      "store",
+      "steampowered",
+      "com",
+      "source",
+      "https",
+      "store",
+      "steampowered",
+      "com"
+    ]
+  },
+  "title": "Welcome to Steam"
+}

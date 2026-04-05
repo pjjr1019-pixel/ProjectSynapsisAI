@@ -1,0 +1,373 @@
+{
+  "aliases": [
+    {
+      "alias": "f0476cb8c0ac1f6d",
+      "aliasId": "hz.web.f0476cb8c0ac1f6d.alias.1",
+      "canonical": "leaving facebook"
+    },
+    {
+      "alias": "leaving facebook",
+      "aliasId": "hz.web.f0476cb8c0ac1f6d.alias.2",
+      "canonical": "leaving facebook"
+    },
+    {
+      "alias": "web f0476cb8c0ac1f6d",
+      "aliasId": "hz.web.f0476cb8c0ac1f6d.alias.3",
+      "canonical": "leaving facebook"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.58,
+  "docId": "hz.web.f0476cb8c0ac1f6d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f0476cb8c0ac1f6d.entity.1",
+      "kind": "document",
+      "name": "Leaving Facebook",
+      "tokens": [
+        "leaving",
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0476cb8c0ac1f6d.entity.2",
+      "kind": "heading",
+      "name": "Leaving Facebook",
+      "tokens": [
+        "leaving",
+        "facebook"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0476cb8c0ac1f6d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0476cb8c0ac1f6d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f0476cb8c0ac1f6d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 245,
+      "charStart": 21,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT5TaApwtghCjs_25hLcTIw5ab-1Wj7rRHPJoTkMnbAVTOpSWp7hak_jd5cib-ztOVI_31EMgWGZTu60Hy3_CdeaJKEwIYKwQ5noNrpi65Sf0F2P_iHIXih11ZlG6i97DC00o7VNRSzAMefc",
+      "tokens": [
+        "source",
+        "https",
+        "facebook",
+        "com",
+        "php",
+        "https",
+        "3a",
+        "2f",
+        "2fwww",
+        "instagram",
+        "com",
+        "2f",
+        "amp",
+        "at5taapwtghcjs_25hlctiw5ab",
+        "1wj7rrhpjotkmnbavtopswp7hak_jd5cib",
+        "ztovi_31emgwgztu60hy3_cdeajkewiykwq5nonrpi65sf0f2p_ihixih11zlg6i97dc00o7vnrszamefc"
+      ]
+    },
+    {
+      "charEnd": 490,
+      "charStart": 297,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.1",
+      "kind": "bullet",
+      "text": "Leaving Facebook Facebook Notice You’re going to a link outside Facebook The link you tried to go to is outside Facebook: https://www.instagram.com/ Are you sure you want to follow this link?",
+      "tokens": [
+        "leaving",
+        "facebook",
+        "facebook",
+        "notice",
+        "re",
+        "going",
+        "link",
+        "outside",
+        "facebook",
+        "link",
+        "tried",
+        "go",
+        "outside",
+        "facebook",
+        "https",
+        "www",
+        "instagram",
+        "com",
+        "sure",
+        "want",
+        "follow",
+        "link"
+      ]
+    },
+    {
+      "charEnd": 927,
+      "charStart": 491,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.2",
+      "kind": "bullet",
+      "text": "Go back Follow link English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano 한국어 Deutsch हिन्दी 日本語 Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Settings Activity log Meta © 2026",
+      "tokens": [
+        "go",
+        "back",
+        "follow",
+        "link",
+        "english",
+        "us",
+        "espa",
+        "ol",
+        "fran",
+        "ais",
+        "france",
+        "portugu",
+        "brasil",
+        "italiano",
+        "deutsch",
+        "sign",
+        "up",
+        "log",
+        "messenger",
+        "facebook",
+        "lite",
+        "video",
+        "meta",
+        "pay",
+        "meta",
+        "store",
+        "meta",
+        "quest",
+        "ray",
+        "ban",
+        "meta",
+        "meta",
+        "ai",
+        "instagram",
+        "threads",
+        "privacy",
+        "policy",
+        "consumer",
+        "health",
+        "privacy",
+        "privacy",
+        "center",
+        "about",
+        "create",
+        "ad",
+        "create",
+        "page",
+        "developers",
+        "careers",
+        "cookies",
+        "ad",
+        "choices",
+        "terms",
+        "help",
+        "contact",
+        "uploading",
+        "non",
+        "users",
+        "settings",
+        "activity",
+        "log",
+        "meta",
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 948,
+      "charStart": 942,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.3",
+      "kind": "bullet",
+      "text": "meta",
+      "tokens": [
+        "meta"
+      ]
+    },
+    {
+      "charEnd": 959,
+      "charStart": 949,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.4",
+      "kind": "bullet",
+      "text": "facebook",
+      "tokens": [
+        "facebook"
+      ]
+    },
+    {
+      "charEnd": 966,
+      "charStart": 960,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.5",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 976,
+      "charStart": 967,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.6",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 981,
+      "charStart": 977,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.7",
+      "kind": "bullet",
+      "text": "ad",
+      "tokens": [
+        "ad"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 982,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.8",
+      "kind": "bullet",
+      "text": "create",
+      "tokens": [
+        "create"
+      ]
+    },
+    {
+      "charEnd": 999,
+      "charStart": 991,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.9",
+      "kind": "bullet",
+      "text": "follow",
+      "tokens": [
+        "follow"
+      ]
+    },
+    {
+      "charEnd": 1004,
+      "charStart": 1000,
+      "factId": "hz.web.f0476cb8c0ac1f6d.fact.10",
+      "kind": "bullet",
+      "text": "go",
+      "tokens": [
+        "go"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.f0476cb8c0ac1f6d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Leaving Facebook"
+    },
+    {
+      "charEnd": 295,
+      "charStart": 285,
+      "headingId": "hz.web.f0476cb8c0ac1f6d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 940,
+      "charStart": 929,
+      "headingId": "hz.web.f0476cb8c0ac1f6d.heading.3",
+      "level": 2,
+      "line": 13,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1016,
+      "charStart": 1006,
+      "headingId": "hz.web.f0476cb8c0ac1f6d.heading.4",
+      "level": 2,
+      "line": 24,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f0476cb8c0ac1f6d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2061,
+        "start": 0
+      }
+    ],
+    "hash": "5fe69d54c9c6143efee8676ae9f284e6760eadac71a16c00a6e2e9fa91f499fa",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Leaving Facebook Facebook Notice You’re going to a link outside Facebook The link you tried to go to is outside Facebook: https://www.instagram.com/ Are you sure you want to follow this link?",
+      "Go back Follow link English (US) Español Français (France) 中文(简体) العربية Português (Brasil) Italiano 한국어 Deutsch हिन्दी 日本語 Sign Up Log In Messenger Facebook Lite Video Meta Pay Meta Store Meta Quest Ray-Ban Meta Meta AI Instagram Threads Privacy Policy Consumer Health Privacy Privacy Center About Create ad Create Page Developers Careers Cookies Ad choices Terms Help Contact Uploading & Non-Users Settings Activity log Meta © 2026",
+      "meta"
+    ],
+    "medium": "Source: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT5TaApwtghCjs_25hLcTIw5ab-1Wj7rRHPJoTkMnbAVTOpSWp7hak_jd5cib-ztOVI_31EMgWGZTu60Hy3_CdeaJKEwIYKwQ5noNrpi65Sf0F2P_iHIXih11ZlG6i97DC00o7VNRSzAMefc",
+    "short": "Source: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT5TaApwtghCjs_25hLcTIw5ab-1Wj7rRHPJoTkMnbAVTOpSWp7hak_jd5cib-ztOVI_31EMgWGZTu60Hy3_CdeaJKEwIYKwQ5noNrpi65Sf0F2P_iHIXih11ZlG6i97DC00o7VNRSzAMefc",
+    "tokens": [
+      "leaving",
+      "facebook",
+      "source",
+      "https",
+      "facebook",
+      "com",
+      "php",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "instagram",
+      "com",
+      "2f",
+      "amp",
+      "at5taapwtghcjs_25hlctiw5ab",
+      "1wj7rrhpjotkmnbavtopswp7hak_jd5cib",
+      "ztovi_31emgwgztu60hy3_cdeajkewiykwq5nonrpi65sf0f2p_ihixih11zlg6i97dc00o7vnrszamefc",
+      "source",
+      "https",
+      "facebook",
+      "com",
+      "php",
+      "https",
+      "3a",
+      "2f",
+      "2fwww",
+      "instagram",
+      "com",
+      "2f",
+      "amp",
+      "at5taapwtghcjs_25hlctiw5ab",
+      "1wj7rrhpjotkmnbavtopswp7hak_jd5cib",
+      "ztovi_31emgwgztu60hy3_cdeajkewiykwq5nonrpi65sf0f2p_ihixih11zlg6i97dc00o7vnrszamefc"
+    ]
+  },
+  "title": "Leaving Facebook"
+}

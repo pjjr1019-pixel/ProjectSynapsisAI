@@ -1,0 +1,316 @@
+{
+  "aliases": [
+    {
+      "alias": "52d491c8680856ef",
+      "aliasId": "hz.web.52d491c8680856ef.alias.1",
+      "canonical": "www.computernetworkingnotes.com"
+    },
+    {
+      "alias": "web 52d491c8680856ef",
+      "aliasId": "hz.web.52d491c8680856ef.alias.2",
+      "canonical": "www.computernetworkingnotes.com"
+    },
+    {
+      "alias": "www.computernetworkingnotes.com",
+      "aliasId": "hz.web.52d491c8680856ef.alias.3",
+      "canonical": "www.computernetworkingnotes.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.52d491c8680856ef",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.52d491c8680856ef.entity.1",
+      "kind": "document",
+      "name": "www.computernetworkingnotes.com",
+      "tokens": [
+        "www",
+        "computernetworkingnotes",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.52d491c8680856ef.entity.2",
+      "kind": "heading",
+      "name": "www.computernetworkingnotes.com",
+      "tokens": [
+        "www",
+        "computernetworkingnotes",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.52d491c8680856ef.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.52d491c8680856ef.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.52d491c8680856ef.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 131,
+      "charStart": 36,
+      "factId": "hz.web.52d491c8680856ef.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.computernetworkingnotes.com/wp-content/themes/cnn/favipack/site.webmanifest",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "computernetworkingnotes",
+        "com",
+        "wp",
+        "content",
+        "themes",
+        "cnn",
+        "favipack",
+        "site",
+        "webmanifest"
+      ]
+    },
+    {
+      "charEnd": 643,
+      "charStart": 183,
+      "factId": "hz.web.52d491c8680856ef.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"ComputerNetworkingNotes\", \"short_name\": \"ComputerNetworkingNotes\", \"icons\": [ { \"src\": \"/wp-content/themes/cnn/favipack/android-chrome-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\" }, { \"src\": \"/wp-content/themes/cnn/favipack/android-chrome-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\" } ], \"theme_color\": \"#17558a\", \"background_color\": \"#17558a\", \"start_url\": \"https://www.computernetworkingnotes.com/\", \"display\": \"standalone\" }",
+      "tokens": [
+        "name",
+        "computernetworkingnotes",
+        "short_name",
+        "computernetworkingnotes",
+        "icons",
+        "src",
+        "wp",
+        "content",
+        "themes",
+        "cnn",
+        "favipack",
+        "android",
+        "chrome",
+        "192x192",
+        "png",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "src",
+        "wp",
+        "content",
+        "themes",
+        "cnn",
+        "favipack",
+        "android",
+        "chrome",
+        "512x512",
+        "png",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "theme_color",
+        "17558a",
+        "background_color",
+        "17558a",
+        "start_url",
+        "https",
+        "www",
+        "computernetworkingnotes",
+        "com",
+        "display",
+        "standalone"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 658,
+      "factId": "hz.web.52d491c8680856ef.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 689,
+      "charStart": 664,
+      "factId": "hz.web.52d491c8680856ef.fact.3",
+      "kind": "bullet",
+      "text": "computernetworkingnotes",
+      "tokens": [
+        "computernetworkingnotes"
+      ]
+    },
+    {
+      "charEnd": 698,
+      "charStart": 690,
+      "factId": "hz.web.52d491c8680856ef.fact.4",
+      "kind": "bullet",
+      "text": "17558a",
+      "tokens": [
+        "17558a"
+      ]
+    },
+    {
+      "charEnd": 708,
+      "charStart": 699,
+      "factId": "hz.web.52d491c8680856ef.fact.5",
+      "kind": "bullet",
+      "text": "192x192",
+      "tokens": [
+        "192x192"
+      ]
+    },
+    {
+      "charEnd": 718,
+      "charStart": 709,
+      "factId": "hz.web.52d491c8680856ef.fact.6",
+      "kind": "bullet",
+      "text": "512x512",
+      "tokens": [
+        "512x512"
+      ]
+    },
+    {
+      "charEnd": 728,
+      "charStart": 719,
+      "factId": "hz.web.52d491c8680856ef.fact.7",
+      "kind": "bullet",
+      "text": "android",
+      "tokens": [
+        "android"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 729,
+      "factId": "hz.web.52d491c8680856ef.fact.8",
+      "kind": "bullet",
+      "text": "chrome",
+      "tokens": [
+        "chrome"
+      ]
+    },
+    {
+      "charEnd": 743,
+      "charStart": 738,
+      "factId": "hz.web.52d491c8680856ef.fact.9",
+      "kind": "bullet",
+      "text": "cnn",
+      "tokens": [
+        "cnn"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 34,
+      "charStart": 1,
+      "headingId": "hz.web.52d491c8680856ef.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.computernetworkingnotes.com"
+    },
+    {
+      "charEnd": 181,
+      "charStart": 171,
+      "headingId": "hz.web.52d491c8680856ef.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 656,
+      "charStart": 645,
+      "headingId": "hz.web.52d491c8680856ef.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 755,
+      "charStart": 745,
+      "headingId": "hz.web.52d491c8680856ef.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/52d491c8680856ef.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1518,
+        "start": 0
+      }
+    ],
+    "hash": "ce233b7591d96846e59233e0db06f5f8b8f3aaad37ca5a00151af3847d56d8c8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"ComputerNetworkingNotes\", \"short_name\": \"ComputerNetworkingNotes\", \"icons\": [ { \"src\": \"/wp-content/themes/cnn/favipack/android-chrome-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image/png\" }, { \"src\": \"/wp-content/themes/cnn/favipack/android-chrome-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image/png\" } ], \"theme_color\": \"#17558a\", \"background_color\": \"#17558a\", \"start_url\": \"https://www.computernetworkingnotes.com/\", \"display\": \"standalone\" }",
+      "png",
+      "computernetworkingnotes"
+    ],
+    "medium": "Source: https://www.computernetworkingnotes.com/wp-content/themes/cnn/favipack/site.webmanifest",
+    "short": "Source: https://www.computernetworkingnotes.com/wp-content/themes/cnn/favipack/site.webmanifest",
+    "tokens": [
+      "www",
+      "computernetworkingnotes",
+      "com",
+      "source",
+      "https",
+      "www",
+      "computernetworkingnotes",
+      "com",
+      "wp",
+      "content",
+      "themes",
+      "cnn",
+      "favipack",
+      "site",
+      "webmanifest",
+      "source",
+      "https",
+      "www",
+      "computernetworkingnotes",
+      "com",
+      "wp",
+      "content",
+      "themes",
+      "cnn",
+      "favipack",
+      "site",
+      "webmanifest"
+    ]
+  },
+  "title": "www.computernetworkingnotes.com"
+}

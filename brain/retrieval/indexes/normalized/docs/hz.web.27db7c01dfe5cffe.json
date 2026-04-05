@@ -1,0 +1,373 @@
+{
+  "aliases": [
+    {
+      "alias": "27db7c01dfe5cffe",
+      "aliasId": "hz.web.27db7c01dfe5cffe.alias.1",
+      "canonical": "iniciar sesión en linkedin | linkedin"
+    },
+    {
+      "alias": "iniciar sesi n en linkedin linkedin",
+      "aliasId": "hz.web.27db7c01dfe5cffe.alias.2",
+      "canonical": "iniciar sesión en linkedin | linkedin"
+    },
+    {
+      "alias": "web 27db7c01dfe5cffe",
+      "aliasId": "hz.web.27db7c01dfe5cffe.alias.3",
+      "canonical": "iniciar sesión en linkedin | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.65,
+  "docId": "hz.web.27db7c01dfe5cffe",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.27db7c01dfe5cffe.entity.1",
+      "kind": "document",
+      "name": "Iniciar sesión en LinkedIn | LinkedIn",
+      "tokens": [
+        "iniciar",
+        "sesi",
+        "en",
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.27db7c01dfe5cffe.entity.2",
+      "kind": "heading",
+      "name": "Iniciar sesión en LinkedIn | LinkedIn",
+      "tokens": [
+        "iniciar",
+        "sesi",
+        "en",
+        "linkedin",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.27db7c01dfe5cffe.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.27db7c01dfe5cffe.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.27db7c01dfe5cffe.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 83,
+      "charStart": 42,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login/es",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "es"
+      ]
+    },
+    {
+      "charEnd": 399,
+      "charStart": 135,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.1",
+      "kind": "bullet",
+      "text": "Iniciar sesión en LinkedIn | LinkedIn Iniciar sesión Iniciar sesión con Apple Inicia sesión con una llave de acceso Al hacer clic en «Continuar como» a continuación, aceptas las Condiciones de uso , la Política de privacidad y la Política de cookies de LinkedIn.",
+      "tokens": [
+        "iniciar",
+        "sesi",
+        "en",
+        "linkedin",
+        "linkedin",
+        "iniciar",
+        "sesi",
+        "iniciar",
+        "sesi",
+        "con",
+        "apple",
+        "inicia",
+        "sesi",
+        "con",
+        "una",
+        "llave",
+        "de",
+        "acceso",
+        "al",
+        "hacer",
+        "clic",
+        "en",
+        "continuar",
+        "como",
+        "continuaci",
+        "aceptas",
+        "las",
+        "condiciones",
+        "de",
+        "uso",
+        "la",
+        "pol",
+        "tica",
+        "de",
+        "privacidad",
+        "la",
+        "pol",
+        "tica",
+        "de",
+        "cookies",
+        "de",
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 468,
+      "charStart": 400,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.2",
+      "kind": "bullet",
+      "text": "o Email o teléfono Contraseña Mostrar ¿Has olvidado tu contraseña?",
+      "tokens": [
+        "email",
+        "tel",
+        "fono",
+        "contrase",
+        "mostrar",
+        "has",
+        "olvidado",
+        "tu",
+        "contrase"
+      ]
+    },
+    {
+      "charEnd": 588,
+      "charStart": 469,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.3",
+      "kind": "bullet",
+      "text": "Mantener la sesión iniciada Iniciar sesión Te hemos enviado un enlace de uso único a tu dirección de email principal.",
+      "tokens": [
+        "mantener",
+        "la",
+        "sesi",
+        "iniciada",
+        "iniciar",
+        "sesi",
+        "te",
+        "hemos",
+        "enviado",
+        "un",
+        "enlace",
+        "de",
+        "uso",
+        "nico",
+        "tu",
+        "direcci",
+        "de",
+        "email",
+        "principal"
+      ]
+    },
+    {
+      "charEnd": 671,
+      "charStart": 589,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.4",
+      "kind": "bullet",
+      "text": "Haz clic en el enlace para iniciar sesión con tu cuenta de LinkedIn al instante.",
+      "tokens": [
+        "haz",
+        "clic",
+        "en",
+        "el",
+        "enlace",
+        "para",
+        "iniciar",
+        "sesi",
+        "con",
+        "tu",
+        "cuenta",
+        "de",
+        "linkedin",
+        "al",
+        "instante"
+      ]
+    },
+    {
+      "charEnd": 690,
+      "charStart": 686,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.5",
+      "kind": "bullet",
+      "text": "de",
+      "tokens": [
+        "de"
+      ]
+    },
+    {
+      "charEnd": 701,
+      "charStart": 691,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.6",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 707,
+      "charStart": 702,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.7",
+      "kind": "bullet",
+      "text": "pol",
+      "tokens": [
+        "pol"
+      ]
+    },
+    {
+      "charEnd": 714,
+      "charStart": 708,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.8",
+      "kind": "bullet",
+      "text": "sesi",
+      "tokens": [
+        "sesi"
+      ]
+    },
+    {
+      "charEnd": 721,
+      "charStart": 715,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.9",
+      "kind": "bullet",
+      "text": "tica",
+      "tokens": [
+        "tica"
+      ]
+    },
+    {
+      "charEnd": 726,
+      "charStart": 722,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.10",
+      "kind": "bullet",
+      "text": "en",
+      "tokens": [
+        "en"
+      ]
+    },
+    {
+      "charEnd": 731,
+      "charStart": 727,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.11",
+      "kind": "bullet",
+      "text": "la",
+      "tokens": [
+        "la"
+      ]
+    },
+    {
+      "charEnd": 741,
+      "charStart": 732,
+      "factId": "hz.web.27db7c01dfe5cffe.fact.12",
+      "kind": "bullet",
+      "text": "iniciar",
+      "tokens": [
+        "iniciar"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 40,
+      "charStart": 1,
+      "headingId": "hz.web.27db7c01dfe5cffe.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Iniciar sesión en LinkedIn | LinkedIn"
+    },
+    {
+      "charEnd": 133,
+      "charStart": 123,
+      "headingId": "hz.web.27db7c01dfe5cffe.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 684,
+      "charStart": 673,
+      "headingId": "hz.web.27db7c01dfe5cffe.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 753,
+      "charStart": 743,
+      "headingId": "hz.web.27db7c01dfe5cffe.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/27db7c01dfe5cffe.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2693,
+        "start": 0
+      }
+    ],
+    "hash": "5d99bf92f5bc28b49a19b550b61abb144e71aea14c1974ab54d5a6f24fa15066",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Iniciar sesión en LinkedIn | LinkedIn Iniciar sesión Iniciar sesión con Apple Inicia sesión con una llave de acceso Al hacer clic en «Continuar como» a continuación, aceptas las Condiciones de uso , la Política de privacidad y la Política de cookies de LinkedIn.",
+      "o Email o teléfono Contraseña Mostrar ¿Has olvidado tu contraseña?",
+      "Mantener la sesión iniciada Iniciar sesión Te hemos enviado un enlace de uso único a tu dirección de email principal."
+    ],
+    "medium": "Source: https://www.linkedin.com/login/es",
+    "short": "Source: https://www.linkedin.com/login/es",
+    "tokens": [
+      "iniciar",
+      "sesi",
+      "en",
+      "linkedin",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "es",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "es"
+    ]
+  },
+  "title": "Iniciar sesión en LinkedIn | LinkedIn"
+}

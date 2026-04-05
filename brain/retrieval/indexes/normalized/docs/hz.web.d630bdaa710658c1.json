@@ -1,0 +1,363 @@
+{
+  "aliases": [
+    {
+      "alias": "d630bdaa710658c1",
+      "aliasId": "hz.web.d630bdaa710658c1.alias.1",
+      "canonical": "ryze.com"
+    },
+    {
+      "alias": "ryze.com",
+      "aliasId": "hz.web.d630bdaa710658c1.alias.2",
+      "canonical": "ryze.com"
+    },
+    {
+      "alias": "web d630bdaa710658c1",
+      "aliasId": "hz.web.d630bdaa710658c1.alias.3",
+      "canonical": "ryze.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.web.d630bdaa710658c1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.d630bdaa710658c1.entity.1",
+      "kind": "document",
+      "name": "ryze.com",
+      "tokens": [
+        "ryze",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d630bdaa710658c1.entity.2",
+      "kind": "heading",
+      "name": "ryze.com",
+      "tokens": [
+        "ryze",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.d630bdaa710658c1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.d630bdaa710658c1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.d630bdaa710658c1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 37,
+      "charStart": 13,
+      "factId": "hz.web.d630bdaa710658c1.fact.1",
+      "kind": "summary",
+      "text": "Source: http://ryze.com/",
+      "tokens": [
+        "source",
+        "http",
+        "ryze",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 353,
+      "charStart": 89,
+      "factId": "hz.web.d630bdaa710658c1.fact.1",
+      "kind": "bullet",
+      "text": "Ryze.com Business Networking Selected Historical Press Coverage Quotes New York Times, 2/16/03 At Ryze.com, a networking group, members get a free profile page where they list their vitals, favorite quotations, hobbies, previous jobs and future career interests.",
+      "tokens": [
+        "ryze",
+        "com",
+        "business",
+        "networking",
+        "selected",
+        "historical",
+        "press",
+        "coverage",
+        "quotes",
+        "new",
+        "york",
+        "times",
+        "16",
+        "03",
+        "ryze",
+        "com",
+        "networking",
+        "group",
+        "members",
+        "get",
+        "free",
+        "profile",
+        "page",
+        "list",
+        "their",
+        "vitals",
+        "favorite",
+        "quotations",
+        "hobbies",
+        "previous",
+        "jobs",
+        "future",
+        "career",
+        "interests"
+      ]
+    },
+    {
+      "charEnd": 472,
+      "charStart": 354,
+      "factId": "hz.web.d630bdaa710658c1.fact.2",
+      "kind": "bullet",
+      "text": "Then they can contact one another by sending private messages or by leaving notes in a guest book area on each page.",
+      "tokens": [
+        "then",
+        "contact",
+        "one",
+        "another",
+        "sending",
+        "private",
+        "messages",
+        "leaving",
+        "notes",
+        "guest",
+        "book",
+        "area",
+        "each",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 628,
+      "charStart": 473,
+      "factId": "hz.web.d630bdaa710658c1.fact.3",
+      "kind": "bullet",
+      "text": "-- Abby Ellin, writing for The New York Times, Link NY Newsday, 2/9/03 Vincent Lai carries things a step further than just showing up ahead of the crowd.",
+      "tokens": [
+        "abby",
+        "ellin",
+        "writing",
+        "new",
+        "york",
+        "times",
+        "link",
+        "ny",
+        "newsday",
+        "03",
+        "vincent",
+        "lai",
+        "carries",
+        "things",
+        "step",
+        "further",
+        "than",
+        "just",
+        "showing",
+        "up",
+        "ahead",
+        "crowd"
+      ]
+    },
+    {
+      "charEnd": 838,
+      "charStart": 629,
+      "factId": "hz.web.d630bdaa710658c1.fact.4",
+      "kind": "bullet",
+      "text": "This former business analyst, who has studied computer programming and is now considering a writing career, attends Pink Slip Parties as well as events sponsored by Ryze.com, a business networking community.",
+      "tokens": [
+        "former",
+        "business",
+        "analyst",
+        "has",
+        "studied",
+        "computer",
+        "programming",
+        "now",
+        "considering",
+        "writing",
+        "career",
+        "attends",
+        "pink",
+        "slip",
+        "parties",
+        "well",
+        "events",
+        "sponsored",
+        "ryze",
+        "com",
+        "business",
+        "networking",
+        "community"
+      ]
+    },
+    {
+      "charEnd": 859,
+      "charStart": 853,
+      "factId": "hz.web.d630bdaa710658c1.fact.5",
+      "kind": "bullet",
+      "text": "ryze",
+      "tokens": [
+        "ryze"
+      ]
+    },
+    {
+      "charEnd": 872,
+      "charStart": 860,
+      "factId": "hz.web.d630bdaa710658c1.fact.6",
+      "kind": "bullet",
+      "text": "networking",
+      "tokens": [
+        "networking"
+      ]
+    },
+    {
+      "charEnd": 881,
+      "charStart": 873,
+      "factId": "hz.web.d630bdaa710658c1.fact.7",
+      "kind": "bullet",
+      "text": "people",
+      "tokens": [
+        "people"
+      ]
+    },
+    {
+      "charEnd": 892,
+      "charStart": 882,
+      "factId": "hz.web.d630bdaa710658c1.fact.8",
+      "kind": "bullet",
+      "text": "business",
+      "tokens": [
+        "business"
+      ]
+    },
+    {
+      "charEnd": 899,
+      "charStart": 893,
+      "factId": "hz.web.d630bdaa710658c1.fact.9",
+      "kind": "bullet",
+      "text": "face",
+      "tokens": [
+        "face"
+      ]
+    },
+    {
+      "charEnd": 906,
+      "charStart": 900,
+      "factId": "hz.web.d630bdaa710658c1.fact.10",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 915,
+      "charStart": 907,
+      "factId": "hz.web.d630bdaa710658c1.fact.11",
+      "kind": "bullet",
+      "text": "online",
+      "tokens": [
+        "online"
+      ]
+    },
+    {
+      "charEnd": 925,
+      "charStart": 916,
+      "factId": "hz.web.d630bdaa710658c1.fact.12",
+      "kind": "bullet",
+      "text": "writing",
+      "tokens": [
+        "writing"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.d630bdaa710658c1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "ryze.com"
+    },
+    {
+      "charEnd": 87,
+      "charStart": 77,
+      "headingId": "hz.web.d630bdaa710658c1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 851,
+      "charStart": 840,
+      "headingId": "hz.web.d630bdaa710658c1.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 937,
+      "charStart": 927,
+      "headingId": "hz.web.d630bdaa710658c1.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/d630bdaa710658c1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4148,
+        "start": 0
+      }
+    ],
+    "hash": "00df1b48a006fc444471dd913e76b8e96b215b0e8e8f03523c651ed0c1341441",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Ryze.com Business Networking Selected Historical Press Coverage Quotes New York Times, 2/16/03 At Ryze.com, a networking group, members get a free profile page where they list their vitals, favorite quotations, hobbies, previous jobs and future career interests.",
+      "Then they can contact one another by sending private messages or by leaving notes in a guest book area on each page.",
+      "-- Abby Ellin, writing for The New York Times, Link NY Newsday, 2/9/03 Vincent Lai carries things a step further than just showing up ahead of the crowd."
+    ],
+    "medium": "Source: http://ryze.com/",
+    "short": "Source: http://ryze.com/",
+    "tokens": [
+      "ryze",
+      "com",
+      "source",
+      "http",
+      "ryze",
+      "com",
+      "source",
+      "http",
+      "ryze",
+      "com"
+    ]
+  },
+  "title": "ryze.com"
+}

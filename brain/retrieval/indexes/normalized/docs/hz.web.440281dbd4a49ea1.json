@@ -1,0 +1,386 @@
+{
+  "aliases": [
+    {
+      "alias": "440281dbd4a49ea1",
+      "aliasId": "hz.web.440281dbd4a49ea1.alias.1",
+      "canonical": "&#8988; i &nbsp; c h o o s e &nbsp; y o u ! &#8991; &nbsp; &nbsp; &#9702; &nbsp; &nbsp; pok&eacute;mon claim clique"
+    },
+    {
+      "alias": "8988 i nbsp c h o o s e nbsp y o u 8991 nbsp nbsp 9702 nbsp nbsp pok eacute mon claim clique",
+      "aliasId": "hz.web.440281dbd4a49ea1.alias.2",
+      "canonical": "&#8988; i &nbsp; c h o o s e &nbsp; y o u ! &#8991; &nbsp; &nbsp; &#9702; &nbsp; &nbsp; pok&eacute;mon claim clique"
+    },
+    {
+      "alias": "web 440281dbd4a49ea1",
+      "aliasId": "hz.web.440281dbd4a49ea1.alias.3",
+      "canonical": "&#8988; i &nbsp; c h o o s e &nbsp; y o u ! &#8991; &nbsp; &nbsp; &#9702; &nbsp; &nbsp; pok&eacute;mon claim clique"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.6,
+  "docId": "hz.web.440281dbd4a49ea1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.440281dbd4a49ea1.entity.1",
+      "kind": "document",
+      "name": "&#8988; i &nbsp; c h o o s e &nbsp; y o u ! &#8991; &nbsp; &nbsp; &#9702; &nbsp; &nbsp; pok&eacute;mon claim clique",
+      "tokens": [
+        "8988",
+        "nbsp",
+        "nbsp",
+        "8991",
+        "nbsp",
+        "nbsp",
+        "9702",
+        "nbsp",
+        "nbsp",
+        "pok",
+        "eacute",
+        "mon",
+        "claim",
+        "clique"
+      ]
+    },
+    {
+      "entityId": "hz.web.440281dbd4a49ea1.entity.2",
+      "kind": "heading",
+      "name": "&#8988; i &nbsp; c h o o s e &nbsp; y o u ! &#8991; &nbsp; &nbsp; &#9702; &nbsp; &nbsp; pok&eacute;mon claim clique",
+      "tokens": [
+        "8988",
+        "nbsp",
+        "nbsp",
+        "8991",
+        "nbsp",
+        "nbsp",
+        "9702",
+        "nbsp",
+        "nbsp",
+        "pok",
+        "eacute",
+        "mon",
+        "claim",
+        "clique"
+      ]
+    },
+    {
+      "entityId": "hz.web.440281dbd4a49ea1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.440281dbd4a49ea1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.440281dbd4a49ea1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 152,
+      "charStart": 120,
+      "factId": "hz.web.440281dbd4a49ea1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://pkmn.aquarel.nu/",
+      "tokens": [
+        "source",
+        "https",
+        "pkmn",
+        "aquarel",
+        "nu"
+      ]
+    },
+    {
+      "charEnd": 235,
+      "charStart": 204,
+      "factId": "hz.web.440281dbd4a49ea1.fact.1",
+      "kind": "bullet",
+      "text": "&#8988; i c h o o s e y o u !",
+      "tokens": [
+        "8988"
+      ]
+    },
+    {
+      "charEnd": 399,
+      "charStart": 236,
+      "factId": "hz.web.440281dbd4a49ea1.fact.2",
+      "kind": "bullet",
+      "text": "&#8991; &#9702; pok&eacute;mon claim clique Greetings Whether you've wandered here intentionally or stumbled upon it by accident, you've arrived at I Choose You!",
+      "tokens": [
+        "8991",
+        "9702",
+        "pok",
+        "eacute",
+        "mon",
+        "claim",
+        "clique",
+        "greetings",
+        "whether",
+        "ve",
+        "wandered",
+        "here",
+        "intentionally",
+        "stumbled",
+        "upon",
+        "accident",
+        "ve",
+        "arrived",
+        "choose"
+      ]
+    },
+    {
+      "charEnd": 433,
+      "charStart": 400,
+      "factId": "hz.web.440281dbd4a49ea1.fact.3",
+      "kind": "bullet",
+      "text": "&mdash;a Pok&eacute;mon clique!",
+      "tokens": [
+        "mdash",
+        "pok",
+        "eacute",
+        "mon",
+        "clique"
+      ]
+    },
+    {
+      "charEnd": 541,
+      "charStart": 434,
+      "factId": "hz.web.440281dbd4a49ea1.fact.4",
+      "kind": "bullet",
+      "text": "Team Rocket is always capturing and stealing Pok&eacute;mon, selling them, and funding cruel experiments.",
+      "tokens": [
+        "team",
+        "rocket",
+        "always",
+        "capturing",
+        "stealing",
+        "pok",
+        "eacute",
+        "mon",
+        "selling",
+        "them",
+        "funding",
+        "cruel",
+        "experiments"
+      ]
+    },
+    {
+      "charEnd": 564,
+      "charStart": 556,
+      "factId": "hz.web.440281dbd4a49ea1.fact.5",
+      "kind": "bullet",
+      "text": "eacute",
+      "tokens": [
+        "eacute"
+      ]
+    },
+    {
+      "charEnd": 570,
+      "charStart": 565,
+      "factId": "hz.web.440281dbd4a49ea1.fact.6",
+      "kind": "bullet",
+      "text": "mon",
+      "tokens": [
+        "mon"
+      ]
+    },
+    {
+      "charEnd": 576,
+      "charStart": 571,
+      "factId": "hz.web.440281dbd4a49ea1.fact.7",
+      "kind": "bullet",
+      "text": "pok",
+      "tokens": [
+        "pok"
+      ]
+    },
+    {
+      "charEnd": 583,
+      "charStart": 577,
+      "factId": "hz.web.440281dbd4a49ea1.fact.8",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 592,
+      "charStart": 584,
+      "factId": "hz.web.440281dbd4a49ea1.fact.9",
+      "kind": "bullet",
+      "text": "clique",
+      "tokens": [
+        "clique"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 593,
+      "factId": "hz.web.440281dbd4a49ea1.fact.10",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 608,
+      "charStart": 600,
+      "factId": "hz.web.440281dbd4a49ea1.fact.11",
+      "kind": "bullet",
+      "text": "choose",
+      "tokens": [
+        "choose"
+      ]
+    },
+    {
+      "charEnd": 615,
+      "charStart": 609,
+      "factId": "hz.web.440281dbd4a49ea1.fact.12",
+      "kind": "bullet",
+      "text": "copy",
+      "tokens": [
+        "copy"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 118,
+      "charStart": 1,
+      "headingId": "hz.web.440281dbd4a49ea1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "&#8988; i &nbsp; c h o o s e &nbsp; y o u ! &#8991; &nbsp; &nbsp; &#9702; &nbsp; &nbsp; pok&eacute;mon claim clique"
+    },
+    {
+      "charEnd": 202,
+      "charStart": 192,
+      "headingId": "hz.web.440281dbd4a49ea1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 554,
+      "charStart": 543,
+      "headingId": "hz.web.440281dbd4a49ea1.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 627,
+      "charStart": 617,
+      "headingId": "hz.web.440281dbd4a49ea1.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/440281dbd4a49ea1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1845,
+        "start": 0
+      }
+    ],
+    "hash": "2683ae265be2744cfd87e070b8bfc6cd2cb9ce3d2d911f472792213588ff7c8b",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.440281dbd4a49ea1.rule.1",
+      "text": "- Team Rocket is always capturing and stealing Pok&eacute;mon, selling them, and funding cruel experiments.",
+      "tokens": [
+        "team",
+        "rocket",
+        "always",
+        "capturing",
+        "stealing",
+        "pok",
+        "eacute",
+        "mon",
+        "selling",
+        "them",
+        "funding",
+        "cruel",
+        "experiments"
+      ]
+    },
+    {
+      "ruleId": "hz.web.440281dbd4a49ea1.rule.2",
+      "text": "Team Rocket is always capturing and stealing Pok&eacute;mon, selling them, and funding cruel experiments.",
+      "tokens": [
+        "team",
+        "rocket",
+        "always",
+        "capturing",
+        "stealing",
+        "pok",
+        "eacute",
+        "mon",
+        "selling",
+        "them",
+        "funding",
+        "cruel",
+        "experiments"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "&#8988; i c h o o s e y o u !",
+      "&#8991; &#9702; pok&eacute;mon claim clique Greetings Whether you've wandered here intentionally or stumbled upon it by accident, you've arrived at I Choose You!",
+      "&mdash;a Pok&eacute;mon clique!"
+    ],
+    "medium": "Source: https://pkmn.aquarel.nu/",
+    "short": "Source: https://pkmn.aquarel.nu/",
+    "tokens": [
+      "8988",
+      "nbsp",
+      "nbsp",
+      "8991",
+      "nbsp",
+      "nbsp",
+      "9702",
+      "nbsp",
+      "nbsp",
+      "pok",
+      "eacute",
+      "mon",
+      "claim",
+      "clique",
+      "source",
+      "https",
+      "pkmn",
+      "aquarel",
+      "nu",
+      "source",
+      "https",
+      "pkmn",
+      "aquarel",
+      "nu"
+    ]
+  },
+  "title": "&#8988; i &nbsp; c h o o s e &nbsp; y o u ! &#8991; &nbsp; &nbsp; &#9702; &nbsp; &nbsp; pok&eacute;mon claim clique"
+}

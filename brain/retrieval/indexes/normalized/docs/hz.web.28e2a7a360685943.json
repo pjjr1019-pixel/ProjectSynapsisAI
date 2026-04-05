@@ -1,0 +1,361 @@
+{
+  "aliases": [
+    {
+      "alias": "28e2a7a360685943",
+      "aliasId": "hz.web.28e2a7a360685943.alias.1",
+      "canonical": "simplebits.shop"
+    },
+    {
+      "alias": "simplebits.shop",
+      "aliasId": "hz.web.28e2a7a360685943.alias.2",
+      "canonical": "simplebits.shop"
+    },
+    {
+      "alias": "web 28e2a7a360685943",
+      "aliasId": "hz.web.28e2a7a360685943.alias.3",
+      "canonical": "simplebits.shop"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.82,
+  "docId": "hz.web.28e2a7a360685943",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.28e2a7a360685943.entity.1",
+      "kind": "document",
+      "name": "simplebits.shop",
+      "tokens": [
+        "simplebits",
+        "shop"
+      ]
+    },
+    {
+      "entityId": "hz.web.28e2a7a360685943.entity.2",
+      "kind": "heading",
+      "name": "simplebits.shop",
+      "tokens": [
+        "simplebits",
+        "shop"
+      ]
+    },
+    {
+      "entityId": "hz.web.28e2a7a360685943.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.28e2a7a360685943.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.28e2a7a360685943.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 120,
+      "charStart": 20,
+      "factId": "hz.web.28e2a7a360685943.fact.1",
+      "kind": "summary",
+      "text": "Source: https://simplebits.shop/cdn/shop/t/14/assets/stylesheet.css?v=100472060368173908671772747517",
+      "tokens": [
+        "source",
+        "https",
+        "simplebits",
+        "shop",
+        "cdn",
+        "shop",
+        "14",
+        "assets",
+        "stylesheet",
+        "css",
+        "100472060368173908671772747517"
+      ]
+    },
+    {
+      "charEnd": 433,
+      "charStart": 172,
+      "factId": "hz.web.28e2a7a360685943.fact.1",
+      "kind": "bullet",
+      "text": "/** Shopify CDN: Minification failed Line 2777:10 Unexpected \"'[type=hidden]'\" Line 5455:16 Unexpected \"'.icn--stock-levels'\" Line 5490:2 Expected identifier but found \"*\" Line 5589:46 Expected identifier but found \".\" Line 12170:2 Comments in CSS use \"/* ...",
+      "tokens": [
+        "shopify",
+        "cdn",
+        "minification",
+        "failed",
+        "line",
+        "2777",
+        "10",
+        "unexpected",
+        "type",
+        "hidden",
+        "line",
+        "5455",
+        "16",
+        "unexpected",
+        "icn",
+        "stock",
+        "levels",
+        "line",
+        "5490",
+        "expected",
+        "identifier",
+        "but",
+        "found",
+        "line",
+        "5589",
+        "46",
+        "expected",
+        "identifier",
+        "but",
+        "found",
+        "line",
+        "12170",
+        "comments",
+        "css",
+        "use"
+      ]
+    },
+    {
+      "charEnd": 611,
+      "charStart": 434,
+      "factId": "hz.web.28e2a7a360685943.fact.2",
+      "kind": "bullet",
+      "text": "*/\" instead of \"//\" **/ /* * Icon Shopify Theme * Copyright 2021, We are Underground llc * https://www.weareunderground.com * * Gridlock v3.2.1 * A responsive CSS grid system.",
+      "tokens": [
+        "instead",
+        "icon",
+        "shopify",
+        "theme",
+        "copyright",
+        "2021",
+        "underground",
+        "llc",
+        "https",
+        "www",
+        "weareunderground",
+        "com",
+        "gridlock",
+        "v3",
+        "responsive",
+        "css",
+        "grid",
+        "system"
+      ]
+    },
+    {
+      "charEnd": 644,
+      "charStart": 612,
+      "factId": "hz.web.28e2a7a360685943.fact.3",
+      "kind": "bullet",
+      "text": "Part of the Formstone Library.",
+      "tokens": [
+        "part",
+        "formstone",
+        "library"
+      ]
+    },
+    {
+      "charEnd": 784,
+      "charStart": 645,
+      "factId": "hz.web.28e2a7a360685943.fact.4",
+      "kind": "bullet",
+      "text": "* http://formstone.it/gridlock/ * * Copyright 2014 Ben Plum; MIT Licensed */ /* shopify is corrupting the first declaration in this file.",
+      "tokens": [
+        "http",
+        "formstone",
+        "gridlock",
+        "copyright",
+        "2014",
+        "ben",
+        "plum",
+        "mit",
+        "licensed",
+        "shopify",
+        "corrupting",
+        "first",
+        "declaration",
+        "file"
+      ]
+    },
+    {
+      "charEnd": 805,
+      "charStart": 799,
+      "factId": "hz.web.28e2a7a360685943.fact.5",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 816,
+      "charStart": 806,
+      "factId": "hz.web.28e2a7a360685943.fact.6",
+      "kind": "bullet",
+      "text": "gridlock",
+      "tokens": [
+        "gridlock"
+      ]
+    },
+    {
+      "charEnd": 822,
+      "charStart": 817,
+      "factId": "hz.web.28e2a7a360685943.fact.7",
+      "kind": "bullet",
+      "text": "row",
+      "tokens": [
+        "row"
+      ]
+    },
+    {
+      "charEnd": 830,
+      "charStart": 823,
+      "factId": "hz.web.28e2a7a360685943.fact.8",
+      "kind": "bullet",
+      "text": "woff2",
+      "tokens": [
+        "woff2"
+      ]
+    },
+    {
+      "charEnd": 839,
+      "charStart": 831,
+      "factId": "hz.web.28e2a7a360685943.fact.9",
+      "kind": "bullet",
+      "text": "normal",
+      "tokens": [
+        "normal"
+      ]
+    },
+    {
+      "charEnd": 847,
+      "charStart": 840,
+      "factId": "hz.web.28e2a7a360685943.fact.10",
+      "kind": "bullet",
+      "text": "width",
+      "tokens": [
+        "width"
+      ]
+    },
+    {
+      "charEnd": 856,
+      "charStart": 848,
+      "factId": "hz.web.28e2a7a360685943.fact.11",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    },
+    {
+      "charEnd": 868,
+      "charStart": 857,
+      "factId": "hz.web.28e2a7a360685943.fact.12",
+      "kind": "bullet",
+      "text": "contained",
+      "tokens": [
+        "contained"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.28e2a7a360685943.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "simplebits.shop"
+    },
+    {
+      "charEnd": 170,
+      "charStart": 160,
+      "headingId": "hz.web.28e2a7a360685943.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 797,
+      "charStart": 786,
+      "headingId": "hz.web.28e2a7a360685943.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 880,
+      "charStart": 870,
+      "headingId": "hz.web.28e2a7a360685943.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/28e2a7a360685943.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4174,
+        "start": 0
+      }
+    ],
+    "hash": "ae1189ac56189acd0cf4961d46a6c97bb941820f0a0d8b4cff9d2cd5bce9f8a7",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/** Shopify CDN: Minification failed Line 2777:10 Unexpected \"'[type=hidden]'\" Line 5455:16 Unexpected \"'.icn--stock-levels'\" Line 5490:2 Expected identifier but found \"*\" Line 5589:46 Expected identifier but found \".\" Line 12170:2 Comments in CSS use \"/* ...",
+      "*/\" instead of \"//\" **/ /* * Icon Shopify Theme * Copyright 2021, We are Underground llc * https://www.weareunderground.com * * Gridlock v3.2.1 * A responsive CSS grid system.",
+      "Part of the Formstone Library."
+    ],
+    "medium": "Source: https://simplebits.shop/cdn/shop/t/14/assets/stylesheet.css?v=100472060368173908671772747517",
+    "short": "Source: https://simplebits.shop/cdn/shop/t/14/assets/stylesheet.css?v=100472060368173908671772747517",
+    "tokens": [
+      "simplebits",
+      "shop",
+      "source",
+      "https",
+      "simplebits",
+      "shop",
+      "cdn",
+      "shop",
+      "14",
+      "assets",
+      "stylesheet",
+      "css",
+      "100472060368173908671772747517",
+      "source",
+      "https",
+      "simplebits",
+      "shop",
+      "cdn",
+      "shop",
+      "14",
+      "assets",
+      "stylesheet",
+      "css",
+      "100472060368173908671772747517"
+    ]
+  },
+  "title": "simplebits.shop"
+}

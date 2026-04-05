@@ -1,0 +1,389 @@
+{
+  "aliases": [
+    {
+      "alias": "3639f9f8fb8bcce4",
+      "aliasId": "hz.web.3639f9f8fb8bcce4.alias.1",
+      "canonical": "www.nih.gov"
+    },
+    {
+      "alias": "web 3639f9f8fb8bcce4",
+      "aliasId": "hz.web.3639f9f8fb8bcce4.alias.2",
+      "canonical": "www.nih.gov"
+    },
+    {
+      "alias": "www.nih.gov",
+      "aliasId": "hz.web.3639f9f8fb8bcce4.alias.3",
+      "canonical": "www.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.45,
+  "docId": "hz.web.3639f9f8fb8bcce4",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.3639f9f8fb8bcce4.entity.1",
+      "kind": "document",
+      "name": "www.nih.gov",
+      "tokens": [
+        "www",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.3639f9f8fb8bcce4.entity.2",
+      "kind": "heading",
+      "name": "www.nih.gov",
+      "tokens": [
+        "www",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.3639f9f8fb8bcce4.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.3639f9f8fb8bcce4.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.3639f9f8fb8bcce4.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 108,
+      "charStart": 16,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.nih.gov/themes/contrib/stable/css/system/components/js.module.css?taz0vp",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "nih",
+        "gov",
+        "themes",
+        "contrib",
+        "stable",
+        "css",
+        "system",
+        "components",
+        "js",
+        "module",
+        "css",
+        "taz0vp"
+      ]
+    },
+    {
+      "charEnd": 232,
+      "charStart": 160,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.1",
+      "kind": "bullet",
+      "text": "/** * @file * Utility classes to assist with JavaScript functionality.",
+      "tokens": [
+        "file",
+        "utility",
+        "classes",
+        "assist",
+        "javascript",
+        "functionality"
+      ]
+    },
+    {
+      "charEnd": 376,
+      "charStart": 233,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.2",
+      "kind": "bullet",
+      "text": "*/ /** * For anything you want to hide on page load when JS is enabled, so * that you can use the JS to control visibility and avoid flicker.",
+      "tokens": [
+        "anything",
+        "want",
+        "hide",
+        "page",
+        "load",
+        "js",
+        "enabled",
+        "so",
+        "use",
+        "js",
+        "control",
+        "visibility",
+        "avoid",
+        "flicker"
+      ]
+    },
+    {
+      "charEnd": 487,
+      "charStart": 377,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.3",
+      "kind": "bullet",
+      "text": "*/ .js .js-hide { display: none; } /** * For anything you want to show on page load only when JS is enabled.",
+      "tokens": [
+        "js",
+        "js",
+        "hide",
+        "display",
+        "none",
+        "anything",
+        "want",
+        "show",
+        "page",
+        "load",
+        "only",
+        "js",
+        "enabled"
+      ]
+    },
+    {
+      "charEnd": 553,
+      "charStart": 488,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.4",
+      "kind": "bullet",
+      "text": "*/ .js-show { display: none; } .js .js-show { display: block; }",
+      "tokens": [
+        "js",
+        "show",
+        "display",
+        "none",
+        "js",
+        "js",
+        "show",
+        "display",
+        "block"
+      ]
+    },
+    {
+      "charEnd": 572,
+      "charStart": 568,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.5",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 582,
+      "charStart": 573,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.6",
+      "kind": "bullet",
+      "text": "display",
+      "tokens": [
+        "display"
+      ]
+    },
+    {
+      "charEnd": 589,
+      "charStart": 583,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.7",
+      "kind": "bullet",
+      "text": "show",
+      "tokens": [
+        "show"
+      ]
+    },
+    {
+      "charEnd": 600,
+      "charStart": 590,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.8",
+      "kind": "bullet",
+      "text": "anything",
+      "tokens": [
+        "anything"
+      ]
+    },
+    {
+      "charEnd": 610,
+      "charStart": 601,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.9",
+      "kind": "bullet",
+      "text": "enabled",
+      "tokens": [
+        "enabled"
+      ]
+    },
+    {
+      "charEnd": 617,
+      "charStart": 611,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.10",
+      "kind": "bullet",
+      "text": "hide",
+      "tokens": [
+        "hide"
+      ]
+    },
+    {
+      "charEnd": 624,
+      "charStart": 618,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.11",
+      "kind": "bullet",
+      "text": "load",
+      "tokens": [
+        "load"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 625,
+      "factId": "hz.web.3639f9f8fb8bcce4.fact.12",
+      "kind": "bullet",
+      "text": "none",
+      "tokens": [
+        "none"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 14,
+      "charStart": 1,
+      "headingId": "hz.web.3639f9f8fb8bcce4.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.nih.gov"
+    },
+    {
+      "charEnd": 158,
+      "charStart": 148,
+      "headingId": "hz.web.3639f9f8fb8bcce4.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 566,
+      "charStart": 555,
+      "headingId": "hz.web.3639f9f8fb8bcce4.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 643,
+      "charStart": 633,
+      "headingId": "hz.web.3639f9f8fb8bcce4.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/3639f9f8fb8bcce4.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1310,
+        "start": 0
+      }
+    ],
+    "hash": "f17c65a7fa3d5acb10a9d4fa38ae8afb2ff771314c9e631622b6bc4d87db2034",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.3639f9f8fb8bcce4.rule.1",
+      "text": "- */ /** * For anything you want to hide on page load when JS is enabled, so * that you can use the JS to control visibility and avoid flicker.",
+      "tokens": [
+        "anything",
+        "want",
+        "hide",
+        "page",
+        "load",
+        "js",
+        "enabled",
+        "so",
+        "use",
+        "js",
+        "control",
+        "visibility",
+        "avoid",
+        "flicker"
+      ]
+    },
+    {
+      "ruleId": "hz.web.3639f9f8fb8bcce4.rule.2",
+      "text": "*/ /** * For anything you want to hide on page load when JS is enabled, so * that you can use the JS to control visibility and avoid flicker.",
+      "tokens": [
+        "anything",
+        "want",
+        "hide",
+        "page",
+        "load",
+        "js",
+        "enabled",
+        "so",
+        "use",
+        "js",
+        "control",
+        "visibility",
+        "avoid",
+        "flicker"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/** * @file * Utility classes to assist with JavaScript functionality.",
+      "*/ /** * For anything you want to hide on page load when JS is enabled, so * that you can use the JS to control visibility and avoid flicker.",
+      "*/ .js .js-hide { display: none; } /** * For anything you want to show on page load only when JS is enabled."
+    ],
+    "medium": "Source: https://www.nih.gov/themes/contrib/stable/css/system/components/js.module.css?taz0vp",
+    "short": "Source: https://www.nih.gov/themes/contrib/stable/css/system/components/js.module.css?taz0vp",
+    "tokens": [
+      "www",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "nih",
+      "gov",
+      "themes",
+      "contrib",
+      "stable",
+      "css",
+      "system",
+      "components",
+      "js",
+      "module",
+      "css",
+      "taz0vp",
+      "source",
+      "https",
+      "www",
+      "nih",
+      "gov",
+      "themes",
+      "contrib",
+      "stable",
+      "css",
+      "system",
+      "components",
+      "js",
+      "module",
+      "css",
+      "taz0vp"
+    ]
+  },
+  "title": "www.nih.gov"
+}

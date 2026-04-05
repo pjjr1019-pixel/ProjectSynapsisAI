@@ -1,0 +1,389 @@
+{
+  "aliases": [
+    {
+      "alias": "2685953d0814b807",
+      "aliasId": "hz.web.2685953d0814b807.alias.1",
+      "canonical": "openid"
+    },
+    {
+      "alias": "openid",
+      "aliasId": "hz.web.2685953d0814b807.alias.2",
+      "canonical": "openid"
+    },
+    {
+      "alias": "web 2685953d0814b807",
+      "aliasId": "hz.web.2685953d0814b807.alias.3",
+      "canonical": "openid"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.2685953d0814b807",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.2685953d0814b807.entity.1",
+      "kind": "document",
+      "name": "OpenID",
+      "tokens": [
+        "openid"
+      ]
+    },
+    {
+      "entityId": "hz.web.2685953d0814b807.entity.2",
+      "kind": "heading",
+      "name": "OpenID",
+      "tokens": [
+        "openid"
+      ]
+    },
+    {
+      "entityId": "hz.web.2685953d0814b807.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.2685953d0814b807.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.2685953d0814b807.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 47,
+      "charStart": 11,
+      "factId": "hz.web.2685953d0814b807.fact.1",
+      "kind": "summary",
+      "text": "Source: https://indieauth.com/openid",
+      "tokens": [
+        "source",
+        "https",
+        "indieauth",
+        "com",
+        "openid"
+      ]
+    },
+    {
+      "charEnd": 259,
+      "charStart": 99,
+      "factId": "hz.web.2685953d0814b807.fact.1",
+      "kind": "bullet",
+      "text": "OpenID Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History Use indieauth.com as your OpenID Provider OpenID Provider Setup Instructions 1.",
+      "tokens": [
+        "openid",
+        "toggle",
+        "navigation",
+        "indieauth",
+        "com",
+        "setup",
+        "pgp",
+        "openid",
+        "developers",
+        "faq",
+        "history",
+        "use",
+        "indieauth",
+        "com",
+        "your",
+        "openid",
+        "provider",
+        "openid",
+        "provider",
+        "setup",
+        "instructions"
+      ]
+    },
+    {
+      "charEnd": 507,
+      "charStart": 260,
+      "factId": "hz.web.2685953d0814b807.fact.2",
+      "kind": "bullet",
+      "text": "Delegate to indieauth.com To use indieauth.com as an OpenID delegate for the OpenID identifier of your site, add the following two link tags to the HTML (inside the &lt;head&gt; element) of your website, replacing \"example.com\" with your domain.",
+      "tokens": [
+        "delegate",
+        "indieauth",
+        "com",
+        "use",
+        "indieauth",
+        "com",
+        "openid",
+        "delegate",
+        "openid",
+        "identifier",
+        "your",
+        "site",
+        "add",
+        "following",
+        "two",
+        "link",
+        "tags",
+        "html",
+        "inside",
+        "lt",
+        "head",
+        "gt",
+        "element",
+        "your",
+        "website",
+        "replacing",
+        "example",
+        "com",
+        "your",
+        "domain"
+      ]
+    },
+    {
+      "charEnd": 655,
+      "charStart": 508,
+      "factId": "hz.web.2685953d0814b807.fact.3",
+      "kind": "bullet",
+      "text": "&lt;link rel=\"openid.delegate\" href=\"https://example.com/\" /&gt; &lt;link rel=\"openid.server\" href=\"https://openid.indieauth.com/openid\" /&gt; 2.",
+      "tokens": [
+        "lt",
+        "link",
+        "rel",
+        "openid",
+        "delegate",
+        "href",
+        "https",
+        "example",
+        "com",
+        "gt",
+        "lt",
+        "link",
+        "rel",
+        "openid",
+        "server",
+        "href",
+        "https",
+        "openid",
+        "indieauth",
+        "com",
+        "openid",
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 788,
+      "charStart": 656,
+      "factId": "hz.web.2685953d0814b807.fact.4",
+      "kind": "bullet",
+      "text": "Configure a login provider for indieauth.com Follow the setup instructions to set up one or more login provider for indieauth.com.",
+      "tokens": [
+        "configure",
+        "login",
+        "provider",
+        "indieauth",
+        "com",
+        "follow",
+        "setup",
+        "instructions",
+        "set",
+        "up",
+        "one",
+        "more",
+        "login",
+        "provider",
+        "indieauth",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 811,
+      "charStart": 803,
+      "factId": "hz.web.2685953d0814b807.fact.5",
+      "kind": "bullet",
+      "text": "openid",
+      "tokens": [
+        "openid"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 812,
+      "factId": "hz.web.2685953d0814b807.fact.6",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 829,
+      "charStart": 818,
+      "factId": "hz.web.2685953d0814b807.fact.7",
+      "kind": "bullet",
+      "text": "indieauth",
+      "tokens": [
+        "indieauth"
+      ]
+    },
+    {
+      "charEnd": 834,
+      "charStart": 830,
+      "factId": "hz.web.2685953d0814b807.fact.8",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 839,
+      "charStart": 835,
+      "factId": "hz.web.2685953d0814b807.fact.9",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 846,
+      "charStart": 840,
+      "factId": "hz.web.2685953d0814b807.fact.10",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 853,
+      "charStart": 847,
+      "factId": "hz.web.2685953d0814b807.fact.11",
+      "kind": "bullet",
+      "text": "href",
+      "tokens": [
+        "href"
+      ]
+    },
+    {
+      "charEnd": 860,
+      "charStart": 854,
+      "factId": "hz.web.2685953d0814b807.fact.12",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 9,
+      "charStart": 1,
+      "headingId": "hz.web.2685953d0814b807.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "OpenID"
+    },
+    {
+      "charEnd": 97,
+      "charStart": 87,
+      "headingId": "hz.web.2685953d0814b807.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 801,
+      "charStart": 790,
+      "headingId": "hz.web.2685953d0814b807.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 872,
+      "charStart": 862,
+      "headingId": "hz.web.2685953d0814b807.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/2685953d0814b807.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2627,
+        "start": 0
+      }
+    ],
+    "hash": "a8e232131d9cf39da788d995aeb91f11874f8d8140206c207237b5bad4371b86",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.2685953d0814b807.rule.1",
+      "text": "&lt;a href=\"https://twitter.com/aaronpk\" rel=\"me\"&gt;@aaronpk on Twitter&lt;/a&gt; Additionally, you can avoid needing an account with a third party by using either the email or PGP providers.",
+      "tokens": [
+        "lt",
+        "href",
+        "https",
+        "twitter",
+        "com",
+        "aaronpk",
+        "rel",
+        "gt",
+        "aaronpk",
+        "twitter",
+        "lt",
+        "gt",
+        "additionally",
+        "avoid",
+        "needing",
+        "account",
+        "third",
+        "party",
+        "using",
+        "either",
+        "email",
+        "pgp",
+        "providers"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "OpenID Toggle navigation IndieAuth.com Setup PGP OpenID Developers FAQ History Use indieauth.com as your OpenID Provider OpenID Provider Setup Instructions 1.",
+      "Delegate to indieauth.com To use indieauth.com as an OpenID delegate for the OpenID identifier of your site, add the following two link tags to the HTML (inside the &lt;head&gt; element) of your website, replacing \"example.com\" with your domain.",
+      "&lt;link rel=\"openid.delegate\" href=\"https://example.com/\" /&gt; &lt;link rel=\"openid.server\" href=\"https://openid.indieauth.com/openid\" /&gt; 2."
+    ],
+    "medium": "Source: https://indieauth.com/openid",
+    "short": "Source: https://indieauth.com/openid",
+    "tokens": [
+      "openid",
+      "source",
+      "https",
+      "indieauth",
+      "com",
+      "openid",
+      "source",
+      "https",
+      "indieauth",
+      "com",
+      "openid"
+    ]
+  },
+  "title": "OpenID"
+}

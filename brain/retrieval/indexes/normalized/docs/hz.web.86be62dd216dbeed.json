@@ -1,0 +1,354 @@
+{
+  "aliases": [
+    {
+      "alias": "86be62dd216dbeed",
+      "aliasId": "hz.web.86be62dd216dbeed.alias.1",
+      "canonical": "download"
+    },
+    {
+      "alias": "download",
+      "aliasId": "hz.web.86be62dd216dbeed.alias.2",
+      "canonical": "download"
+    },
+    {
+      "alias": "web 86be62dd216dbeed",
+      "aliasId": "hz.web.86be62dd216dbeed.alias.3",
+      "canonical": "download"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.86be62dd216dbeed",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.86be62dd216dbeed.entity.1",
+      "kind": "document",
+      "name": "Download",
+      "tokens": [
+        "download"
+      ]
+    },
+    {
+      "entityId": "hz.web.86be62dd216dbeed.entity.2",
+      "kind": "heading",
+      "name": "Download",
+      "tokens": [
+        "download"
+      ]
+    },
+    {
+      "entityId": "hz.web.86be62dd216dbeed.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.86be62dd216dbeed.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.86be62dd216dbeed.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 13,
+      "factId": "hz.web.86be62dd216dbeed.fact.1",
+      "kind": "summary",
+      "text": "Source: https://datatables.net/download",
+      "tokens": [
+        "source",
+        "https",
+        "datatables",
+        "net",
+        "download"
+      ]
+    },
+    {
+      "charEnd": 172,
+      "charStart": 104,
+      "factId": "hz.web.86be62dd216dbeed.fact.1",
+      "kind": "bullet",
+      "text": "Download DataTables Advanced interaction features for your tables.",
+      "tokens": [
+        "download",
+        "datatables",
+        "advanced",
+        "interaction",
+        "features",
+        "your",
+        "tables"
+      ]
+    },
+    {
+      "charEnd": 227,
+      "charStart": 173,
+      "factId": "hz.web.86be62dd216dbeed.fact.2",
+      "kind": "bullet",
+      "text": "Editor Comprehensive editing library for DataTables.",
+      "tokens": [
+        "editor",
+        "comprehensive",
+        "editing",
+        "library",
+        "datatables"
+      ]
+    },
+    {
+      "charEnd": 255,
+      "charStart": 228,
+      "factId": "hz.web.86be62dd216dbeed.fact.3",
+      "kind": "bullet",
+      "text": "Manual Download Search...",
+      "tokens": [
+        "manual",
+        "download",
+        "search"
+      ]
+    },
+    {
+      "charEnd": 555,
+      "charStart": 256,
+      "factId": "hz.web.86be62dd216dbeed.fact.4",
+      "kind": "bullet",
+      "text": "Examples Manual Reference Extensions Plug-ins Blog Forums Support FAQs Download Purchase &#8801; Show site navigation Download Compatibility A detailed compatibility table shows the browser's that DataTables supports and also which features of the extensions can be used with the other extensions.",
+      "tokens": [
+        "examples",
+        "manual",
+        "reference",
+        "extensions",
+        "plug",
+        "ins",
+        "blog",
+        "forums",
+        "support",
+        "faqs",
+        "download",
+        "purchase",
+        "8801",
+        "show",
+        "site",
+        "navigation",
+        "download",
+        "compatibility",
+        "detailed",
+        "compatibility",
+        "table",
+        "shows",
+        "browser",
+        "datatables",
+        "supports",
+        "also",
+        "features",
+        "extensions",
+        "used",
+        "other",
+        "extensions"
+      ]
+    },
+    {
+      "charEnd": 582,
+      "charStart": 570,
+      "factId": "hz.web.86be62dd216dbeed.fact.5",
+      "kind": "bullet",
+      "text": "datatables",
+      "tokens": [
+        "datatables"
+      ]
+    },
+    {
+      "charEnd": 593,
+      "charStart": 583,
+      "factId": "hz.web.86be62dd216dbeed.fact.6",
+      "kind": "bullet",
+      "text": "download",
+      "tokens": [
+        "download"
+      ]
+    },
+    {
+      "charEnd": 600,
+      "charStart": 594,
+      "factId": "hz.web.86be62dd216dbeed.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 609,
+      "charStart": 601,
+      "factId": "hz.web.86be62dd216dbeed.fact.8",
+      "kind": "bullet",
+      "text": "editor",
+      "tokens": [
+        "editor"
+      ]
+    },
+    {
+      "charEnd": 617,
+      "charStart": 610,
+      "factId": "hz.web.86be62dd216dbeed.fact.9",
+      "kind": "bullet",
+      "text": "files",
+      "tokens": [
+        "files"
+      ]
+    },
+    {
+      "charEnd": 623,
+      "charStart": 618,
+      "factId": "hz.web.86be62dd216dbeed.fact.10",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 624,
+      "factId": "hz.web.86be62dd216dbeed.fact.11",
+      "kind": "bullet",
+      "text": "table",
+      "tokens": [
+        "table"
+      ]
+    },
+    {
+      "charEnd": 641,
+      "charStart": 632,
+      "factId": "hz.web.86be62dd216dbeed.fact.12",
+      "kind": "bullet",
+      "text": "package",
+      "tokens": [
+        "package"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.86be62dd216dbeed.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Download"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.86be62dd216dbeed.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 568,
+      "charStart": 557,
+      "headingId": "hz.web.86be62dd216dbeed.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 653,
+      "charStart": 643,
+      "headingId": "hz.web.86be62dd216dbeed.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/86be62dd216dbeed.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3879,
+        "start": 0
+      }
+    ],
+    "hash": "828b3337123b993c061e0e0570ee69e9cfcaeeed577ea562ddae68a4180a57e4",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.86be62dd216dbeed.rule.1",
+      "text": "A few features may not always be fully compatible with every other aspect of the software (due to overlapping functionality), so please take the time to review this table.",
+      "tokens": [
+        "few",
+        "features",
+        "may",
+        "not",
+        "always",
+        "fully",
+        "compatible",
+        "every",
+        "other",
+        "aspect",
+        "software",
+        "due",
+        "overlapping",
+        "functionality",
+        "so",
+        "please",
+        "take",
+        "time",
+        "review",
+        "table"
+      ]
+    },
+    {
+      "ruleId": "hz.web.86be62dd216dbeed.rule.2",
+      "text": "Don't select if you already have it.",
+      "tokens": [
+        "don",
+        "select",
+        "if",
+        "already",
+        "have"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Download DataTables Advanced interaction features for your tables.",
+      "Editor Comprehensive editing library for DataTables.",
+      "Manual Download Search..."
+    ],
+    "medium": "Source: https://datatables.net/download",
+    "short": "Source: https://datatables.net/download",
+    "tokens": [
+      "download",
+      "source",
+      "https",
+      "datatables",
+      "net",
+      "download",
+      "source",
+      "https",
+      "datatables",
+      "net",
+      "download"
+    ]
+  },
+  "title": "Download"
+}

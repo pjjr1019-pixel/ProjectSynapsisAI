@@ -1,0 +1,5055 @@
+[
+  {
+    "id": "registry_search",
+    "title": "Registry search",
+    "description": "Search the tool index by query words.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/registry_search.js",
+    "handler": "registry_search",
+    "defaults": {
+      "limit": 15
+    }
+  },
+  {
+    "id": "list_source_files",
+    "title": "List source files",
+    "description": "List source-like files in the repo.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/list_source_files.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "source",
+      "mode": "list"
+    }
+  },
+  {
+    "id": "list_test_files",
+    "title": "List test files",
+    "description": "List test/spec files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/list_test_files.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "test",
+      "mode": "list"
+    }
+  },
+  {
+    "id": "list_docs_files",
+    "title": "List docs files",
+    "description": "List markdown/text documentation files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/list_docs_files.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "docs",
+      "mode": "list"
+    }
+  },
+  {
+    "id": "list_config_files",
+    "title": "List config files",
+    "description": "List config-like files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/list_config_files.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "config",
+      "mode": "list"
+    }
+  },
+  {
+    "id": "list_asset_files",
+    "title": "List asset files",
+    "description": "List asset-like files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/list_asset_files.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "asset",
+      "mode": "list"
+    }
+  },
+  {
+    "id": "list_build_artifacts",
+    "title": "List build artifacts",
+    "description": "List build output and generated artifact files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/list_build_artifacts.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "build",
+      "mode": "list",
+      "include_ignored": true
+    }
+  },
+  {
+    "id": "count_source_files",
+    "title": "Count source files",
+    "description": "Count source-like files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/count_source_files.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "source",
+      "mode": "count"
+    }
+  },
+  {
+    "id": "count_test_files",
+    "title": "Count test files",
+    "description": "Count test/spec files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/count_test_files.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "test",
+      "mode": "count"
+    }
+  },
+  {
+    "id": "repo_file_inventory",
+    "title": "Repo file inventory",
+    "description": "Summarize files in the repo.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/repo_file_inventory.js",
+    "handler": "inventory_scan",
+    "defaults": {
+      "filter_kind": "all",
+      "mode": "summary"
+    }
+  },
+  {
+    "id": "repo_extension_breakdown",
+    "title": "Repo extension breakdown",
+    "description": "Count files by extension.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/repo_extension_breakdown.js",
+    "handler": "extension_breakdown",
+    "defaults": {}
+  },
+  {
+    "id": "largest_source_files",
+    "title": "Largest source files",
+    "description": "Show the largest source files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/largest_source_files.js",
+    "handler": "ranked_files",
+    "defaults": {
+      "filter_kind": "source",
+      "sort": "size"
+    }
+  },
+  {
+    "id": "newest_source_files",
+    "title": "Newest source files",
+    "description": "Show most recently modified source files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/newest_source_files.js",
+    "handler": "ranked_files",
+    "defaults": {
+      "filter_kind": "source",
+      "sort": "mtime_desc"
+    }
+  },
+  {
+    "id": "oldest_source_files",
+    "title": "Oldest source files",
+    "description": "Show oldest source files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/oldest_source_files.js",
+    "handler": "ranked_files",
+    "defaults": {
+      "filter_kind": "source",
+      "sort": "mtime_asc"
+    }
+  },
+  {
+    "id": "likely_entrypoints",
+    "title": "Likely entrypoints",
+    "description": "Find likely runnable entrypoint files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/likely_entrypoints.js",
+    "handler": "likely_entrypoints",
+    "defaults": {}
+  },
+  {
+    "id": "likely_root_configs",
+    "title": "Likely root configs",
+    "description": "Find important config files near the repo root.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/likely_root_configs.js",
+    "handler": "likely_root_configs",
+    "defaults": {}
+  },
+  {
+    "id": "empty_files",
+    "title": "Empty files",
+    "description": "Find zero-byte or blank text files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/empty_files.js",
+    "handler": "empties",
+    "defaults": {
+      "target": "files"
+    }
+  },
+  {
+    "id": "empty_directories",
+    "title": "Empty directories",
+    "description": "Find empty directories.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/empty_directories.js",
+    "handler": "empties",
+    "defaults": {
+      "target": "dirs"
+    }
+  },
+  {
+    "id": "duplicate_filenames",
+    "title": "Duplicate filenames",
+    "description": "Find repeated filenames across folders.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/duplicate_filenames.js",
+    "handler": "duplicate_names",
+    "defaults": {
+      "mode": "filename"
+    }
+  },
+  {
+    "id": "duplicate_file_content",
+    "title": "Duplicate file content",
+    "description": "Find exact duplicate file contents by hash.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/duplicate_file_content.js",
+    "handler": "duplicate_content",
+    "defaults": {}
+  },
+  {
+    "id": "repo_tree_preview",
+    "title": "Repo tree preview",
+    "description": "Generate a compact repo tree preview.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/repo_tree_preview.js",
+    "handler": "tree_preview",
+    "defaults": {}
+  },
+  {
+    "id": "repo_size_summary",
+    "title": "Repo size summary",
+    "description": "Summarize repo size, files, and directories.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/repo_size_summary.js",
+    "handler": "size_summary",
+    "defaults": {}
+  },
+  {
+    "id": "deep_folder_summary",
+    "title": "Deep folder summary",
+    "description": "Summarize each top folder by file mix and size.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/deep_folder_summary.js",
+    "handler": "folder_summary",
+    "defaults": {}
+  },
+  {
+    "id": "folder_role_guess",
+    "title": "Folder role guess",
+    "description": "Guess likely role of each top-level folder.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/folder_role_guess.js",
+    "handler": "folder_roles",
+    "defaults": {}
+  },
+  {
+    "id": "canonical_candidates",
+    "title": "Canonical candidates",
+    "description": "Find files that look like canonical source-of-truth files.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/canonical_candidates.js",
+    "handler": "file_candidates",
+    "defaults": {
+      "mode": "canonical"
+    }
+  },
+  {
+    "id": "generated_file_candidates",
+    "title": "Generated file candidates",
+    "description": "Find files that appear to be generated.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/generated_file_candidates.js",
+    "handler": "file_candidates",
+    "defaults": {
+      "mode": "generated"
+    }
+  },
+  {
+    "id": "minified_file_candidates",
+    "title": "Minified file candidates",
+    "description": "Find files that look minified or bundled.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/minified_file_candidates.js",
+    "handler": "file_candidates",
+    "defaults": {
+      "mode": "minified"
+    }
+  },
+  {
+    "id": "symlink_inventory",
+    "title": "Symlink inventory",
+    "description": "List symlinks in the repo.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/symlink_inventory.js",
+    "handler": "file_candidates",
+    "defaults": {
+      "mode": "symlink"
+    }
+  },
+  {
+    "id": "hidden_file_inventory",
+    "title": "Hidden file inventory",
+    "description": "List hidden files and folders.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/hidden_file_inventory.js",
+    "handler": "file_candidates",
+    "defaults": {
+      "mode": "hidden",
+      "include_ignored": true
+    }
+  },
+  {
+    "id": "stale_files",
+    "title": "Stale files",
+    "description": "Find files older than a threshold.",
+    "category": "repo",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/repo/stale_files.js",
+    "handler": "ranked_files",
+    "defaults": {
+      "filter_kind": "all",
+      "sort": "stale",
+      "days": 180
+    }
+  },
+  {
+    "id": "extract_imports_js_ts",
+    "title": "Extract JS/TS imports",
+    "description": "Extract JS/TS ES module imports.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_imports_js_ts.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "imports_js_ts"
+    }
+  },
+  {
+    "id": "extract_exports_js_ts",
+    "title": "Extract JS/TS exports",
+    "description": "Extract JS/TS exports.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_exports_js_ts.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "exports_js_ts"
+    }
+  },
+  {
+    "id": "extract_requires_js",
+    "title": "Extract JS requires",
+    "description": "Extract CommonJS require() calls.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_requires_js.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "requires_js"
+    }
+  },
+  {
+    "id": "extract_py_imports",
+    "title": "Extract Python imports",
+    "description": "Extract Python import statements.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_py_imports.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "imports_py"
+    }
+  },
+  {
+    "id": "extract_functions_js_ts",
+    "title": "Extract JS/TS functions",
+    "description": "Extract JS/TS function names.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_functions_js_ts.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "functions_js_ts"
+    }
+  },
+  {
+    "id": "extract_functions_py",
+    "title": "Extract Python functions",
+    "description": "Extract Python function names.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_functions_py.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "functions_py"
+    }
+  },
+  {
+    "id": "extract_classes_js_ts",
+    "title": "Extract JS/TS classes",
+    "description": "Extract JS/TS class names.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_classes_js_ts.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "classes_js_ts"
+    }
+  },
+  {
+    "id": "extract_classes_py",
+    "title": "Extract Python classes",
+    "description": "Extract Python class names.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_classes_py.js",
+    "handler": "symbol_extract",
+    "defaults": {
+      "mode": "classes_py"
+    }
+  },
+  {
+    "id": "extract_todos",
+    "title": "Extract TODOs",
+    "description": "Extract TODO lines from text files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_todos.js",
+    "handler": "marker_scan",
+    "defaults": {
+      "marker": "TODO"
+    }
+  },
+  {
+    "id": "extract_fixmes",
+    "title": "Extract FIXMEs",
+    "description": "Extract FIXME lines from text files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_fixmes.js",
+    "handler": "marker_scan",
+    "defaults": {
+      "marker": "FIXME"
+    }
+  },
+  {
+    "id": "extract_notes",
+    "title": "Extract NOTES",
+    "description": "Extract NOTE lines from text files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_notes.js",
+    "handler": "marker_scan",
+    "defaults": {
+      "marker": "NOTE"
+    }
+  },
+  {
+    "id": "extract_comments_summary",
+    "title": "Extract comments summary",
+    "description": "Summarize comment-heavy files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/extract_comments_summary.js",
+    "handler": "comment_scan",
+    "defaults": {
+      "mode": "summary"
+    }
+  },
+  {
+    "id": "file_symbol_summary",
+    "title": "File symbol summary",
+    "description": "Summarize symbols in a single file.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/file_symbol_summary.js",
+    "handler": "symbol_summary",
+    "defaults": {
+      "scope": "file"
+    }
+  },
+  {
+    "id": "folder_symbol_summary",
+    "title": "Folder symbol summary",
+    "description": "Summarize symbols in files under a folder.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/folder_symbol_summary.js",
+    "handler": "symbol_summary",
+    "defaults": {
+      "scope": "folder"
+    }
+  },
+  {
+    "id": "project_symbol_inventory",
+    "title": "Project symbol inventory",
+    "description": "Build a compact inventory of project symbols.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/project_symbol_inventory.js",
+    "handler": "symbol_summary",
+    "defaults": {
+      "scope": "project"
+    }
+  },
+  {
+    "id": "import_graph_js_ts",
+    "title": "JS/TS import graph",
+    "description": "Build a JS/TS local import graph.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/import_graph_js_ts.js",
+    "handler": "import_graph",
+    "defaults": {
+      "lang": "js_ts"
+    }
+  },
+  {
+    "id": "import_graph_py",
+    "title": "Python import graph",
+    "description": "Build a Python local import graph.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/import_graph_py.js",
+    "handler": "import_graph",
+    "defaults": {
+      "lang": "py"
+    }
+  },
+  {
+    "id": "unresolved_local_imports_js_ts",
+    "title": "Unresolved JS/TS local imports",
+    "description": "Find local JS/TS imports that do not resolve.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/unresolved_local_imports_js_ts.js",
+    "handler": "unresolved_imports",
+    "defaults": {
+      "lang": "js_ts"
+    }
+  },
+  {
+    "id": "unresolved_local_imports_py",
+    "title": "Unresolved Python local imports",
+    "description": "Find likely unresolved Python local imports.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/unresolved_local_imports_py.js",
+    "handler": "unresolved_imports",
+    "defaults": {
+      "lang": "py"
+    }
+  },
+  {
+    "id": "circular_import_hints_js_ts",
+    "title": "Circular import hints",
+    "description": "Find simple circular dependency hints in JS/TS graph.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/circular_import_hints_js_ts.js",
+    "handler": "graph_analysis",
+    "defaults": {
+      "mode": "circular_js_ts"
+    }
+  },
+  {
+    "id": "orphan_module_candidates_js_ts",
+    "title": "Orphan JS/TS module candidates",
+    "description": "Find JS/TS files with no inbound local imports.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/orphan_module_candidates_js_ts.js",
+    "handler": "graph_analysis",
+    "defaults": {
+      "mode": "orphans_js_ts"
+    }
+  },
+  {
+    "id": "orphan_module_candidates_py",
+    "title": "Orphan Python module candidates",
+    "description": "Find Python files with no inbound local imports.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/orphan_module_candidates_py.js",
+    "handler": "graph_analysis",
+    "defaults": {
+      "mode": "orphans_py"
+    }
+  },
+  {
+    "id": "unused_export_hints_js_ts",
+    "title": "Unused export hints",
+    "description": "Find exported JS/TS symbols with no obvious local references.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/unused_export_hints_js_ts.js",
+    "handler": "graph_analysis",
+    "defaults": {
+      "mode": "unused_exports_js_ts"
+    }
+  },
+  {
+    "id": "side_effect_file_candidates",
+    "title": "Side-effect file candidates",
+    "description": "Find files that likely execute code on import.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/side_effect_file_candidates.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "side_effects"
+    }
+  },
+  {
+    "id": "risky_script_candidates",
+    "title": "Risky script candidates",
+    "description": "Find code that deletes, kills, shells out, or force-writes.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/risky_script_candidates.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "risky"
+    }
+  },
+  {
+    "id": "hardcoded_path_candidates",
+    "title": "Hardcoded path candidates",
+    "description": "Find likely hardcoded absolute paths.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/hardcoded_path_candidates.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "hardcoded_paths"
+    }
+  },
+  {
+    "id": "env_var_usage_scan",
+    "title": "Env var usage scan",
+    "description": "Find environment variable access sites.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/env_var_usage_scan.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "env_usage"
+    }
+  },
+  {
+    "id": "console_log_scan",
+    "title": "Console log scan",
+    "description": "Find console logging statements.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/console_log_scan.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "console_logs"
+    }
+  },
+  {
+    "id": "debug_statement_scan_py",
+    "title": "Python debug scan",
+    "description": "Find pdb/breakpoint/debugger statements.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/debug_statement_scan_py.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "debug_py"
+    }
+  },
+  {
+    "id": "long_line_scan",
+    "title": "Long line scan",
+    "description": "Find files with lines longer than a threshold.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/long_line_scan.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "long_lines",
+      "threshold": 140
+    }
+  },
+  {
+    "id": "very_large_file_scan",
+    "title": "Very large file scan",
+    "description": "Find very large text/source files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/very_large_file_scan.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "very_large_files",
+      "threshold": 50000
+    }
+  },
+  {
+    "id": "mixed_language_folder_scan",
+    "title": "Mixed-language folder scan",
+    "description": "Find folders mixing many code languages.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/mixed_language_folder_scan.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "mixed_lang_folders"
+    }
+  },
+  {
+    "id": "duplicate_code_blocks",
+    "title": "Duplicate code blocks",
+    "description": "Find repeated normalized code lines across files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/duplicate_code_blocks.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "duplicate_blocks"
+    }
+  },
+  {
+    "id": "repeated_string_literals",
+    "title": "Repeated string literals",
+    "description": "Find repeated string literals across code files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/repeated_string_literals.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "repeated_strings"
+    }
+  },
+  {
+    "id": "json_schema_like_keys",
+    "title": "JSON schema-like keys",
+    "description": "Find files with schema-ish key patterns.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/json_schema_like_keys.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "json_schema"
+    }
+  },
+  {
+    "id": "route_file_candidates",
+    "title": "Route file candidates",
+    "description": "Find files that likely define routes/endpoints.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/route_file_candidates.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "route_files"
+    }
+  },
+  {
+    "id": "api_endpoint_string_scan",
+    "title": "API endpoint string scan",
+    "description": "Find HTTP path strings and URLs in source files.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/api_endpoint_string_scan.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "api_strings"
+    }
+  },
+  {
+    "id": "cli_script_candidates",
+    "title": "CLI script candidates",
+    "description": "Find files that look like CLI entrypoints.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/cli_script_candidates.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "cli_files"
+    }
+  },
+  {
+    "id": "test_file_targets",
+    "title": "Test file targets",
+    "description": "Guess production files each test might target.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/test_file_targets.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "test_targets"
+    }
+  },
+  {
+    "id": "helper_utility_candidates",
+    "title": "Helper utility candidates",
+    "description": "Find files likely acting as utility/helper modules.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/helper_utility_candidates.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "helpers"
+    }
+  },
+  {
+    "id": "all_code_summary",
+    "title": "All code summary",
+    "description": "Summarize major code file types and symbols.",
+    "category": "code",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/code/all_code_summary.js",
+    "handler": "pattern_scan",
+    "defaults": {
+      "mode": "code_summary"
+    }
+  },
+  {
+    "id": "keyword_search",
+    "title": "Keyword search",
+    "description": "Search text files for a keyword.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {
+      "path": "string optional",
+      "query": "string required"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/keyword_search.js",
+    "handler": "text_stats",
+    "defaults": {
+      "mode": "keyword_search"
+    }
+  },
+  {
+    "id": "regex_search",
+    "title": "Regex search",
+    "description": "Search text files with a regex.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {
+      "path": "string optional",
+      "pattern": "string required"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/regex_search.js",
+    "handler": "text_stats",
+    "defaults": {
+      "mode": "regex_search"
+    }
+  },
+  {
+    "id": "phrase_frequency",
+    "title": "Phrase frequency",
+    "description": "Count exact phrase occurrences.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {
+      "path": "string optional",
+      "phrase": "string required"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/phrase_frequency.js",
+    "handler": "text_stats",
+    "defaults": {
+      "mode": "phrase_frequency"
+    }
+  },
+  {
+    "id": "top_words",
+    "title": "Top words",
+    "description": "Show common words across text files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/top_words.js",
+    "handler": "text_stats",
+    "defaults": {
+      "mode": "top_words"
+    }
+  },
+  {
+    "id": "top_identifiers",
+    "title": "Top identifiers",
+    "description": "Show common code-style identifiers.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/top_identifiers.js",
+    "handler": "text_stats",
+    "defaults": {
+      "mode": "top_identifiers"
+    }
+  },
+  {
+    "id": "heading_inventory_md",
+    "title": "Heading inventory",
+    "description": "Extract markdown headings.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/heading_inventory_md.js",
+    "handler": "docs_scan",
+    "defaults": {
+      "mode": "headings"
+    }
+  },
+  {
+    "id": "markdown_link_inventory",
+    "title": "Markdown link inventory",
+    "description": "Extract links from markdown.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/markdown_link_inventory.js",
+    "handler": "docs_scan",
+    "defaults": {
+      "mode": "links"
+    }
+  },
+  {
+    "id": "readme_inventory",
+    "title": "Readme inventory",
+    "description": "List README-like files and brief contents.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/readme_inventory.js",
+    "handler": "docs_scan",
+    "defaults": {
+      "mode": "readmes"
+    }
+  },
+  {
+    "id": "changelog_inventory",
+    "title": "Changelog inventory",
+    "description": "List changelog/history files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/changelog_inventory.js",
+    "handler": "docs_scan",
+    "defaults": {
+      "mode": "changelogs"
+    }
+  },
+  {
+    "id": "license_inventory",
+    "title": "License inventory",
+    "description": "List license-related files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/license_inventory.js",
+    "handler": "docs_scan",
+    "defaults": {
+      "mode": "licenses"
+    }
+  },
+  {
+    "id": "package_json_summary",
+    "title": "package.json summary",
+    "description": "Summarize package.json files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/package_json_summary.js",
+    "handler": "typed_file_summary",
+    "defaults": {
+      "mode": "package_json"
+    }
+  },
+  {
+    "id": "tsconfig_summary",
+    "title": "tsconfig summary",
+    "description": "Summarize tsconfig files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/tsconfig_summary.js",
+    "handler": "typed_file_summary",
+    "defaults": {
+      "mode": "tsconfig"
+    }
+  },
+  {
+    "id": "pyproject_summary",
+    "title": "pyproject summary",
+    "description": "Summarize pyproject.toml files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/pyproject_summary.js",
+    "handler": "typed_file_summary",
+    "defaults": {
+      "mode": "pyproject"
+    }
+  },
+  {
+    "id": "env_example_summary",
+    "title": ".env example summary",
+    "description": "Summarize .env.example-style files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/env_example_summary.js",
+    "handler": "typed_file_summary",
+    "defaults": {
+      "mode": "env_example"
+    }
+  },
+  {
+    "id": "csv_file_summary",
+    "title": "CSV file summary",
+    "description": "Summarize CSV headers and row counts.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/csv_file_summary.js",
+    "handler": "typed_file_summary",
+    "defaults": {
+      "mode": "csv"
+    }
+  },
+  {
+    "id": "json_file_summary",
+    "title": "JSON file summary",
+    "description": "Summarize JSON object keys and shape hints.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/json_file_summary.js",
+    "handler": "typed_file_summary",
+    "defaults": {
+      "mode": "json"
+    }
+  },
+  {
+    "id": "yaml_file_summary",
+    "title": "YAML file summary",
+    "description": "Summarize YAML keys loosely.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/yaml_file_summary.js",
+    "handler": "typed_file_summary",
+    "defaults": {
+      "mode": "yaml"
+    }
+  },
+  {
+    "id": "line_count_summary",
+    "title": "Line count summary",
+    "description": "Summarize line counts by file.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/line_count_summary.js",
+    "handler": "text_stats",
+    "defaults": {
+      "mode": "line_counts"
+    }
+  },
+  {
+    "id": "doc_comment_inventory",
+    "title": "Doc comment inventory",
+    "description": "Extract docblocks and doc comments.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/doc_comment_inventory.js",
+    "handler": "comment_scan",
+    "defaults": {
+      "mode": "docblocks"
+    }
+  },
+  {
+    "id": "markdown_todo_summary",
+    "title": "Markdown TODO summary",
+    "description": "Summarize TODO items in markdown files.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/markdown_todo_summary.js",
+    "handler": "docs_scan",
+    "defaults": {
+      "mode": "md_todos"
+    }
+  },
+  {
+    "id": "text_file_preview",
+    "title": "Text file preview",
+    "description": "Preview the first and last lines of a text file.",
+    "category": "text",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {
+      "path": "string required"
+    },
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/text/text_file_preview.js",
+    "handler": "text_stats",
+    "defaults": {
+      "mode": "preview"
+    }
+  },
+  {
+    "id": "generate_file_brief",
+    "title": "Generate file brief",
+    "description": "Create a compact brief for one file.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_file_brief.js",
+    "handler": "brief_generate",
+    "defaults": {
+      "mode": "file"
+    }
+  },
+  {
+    "id": "generate_folder_brief",
+    "title": "Generate folder brief",
+    "description": "Create a compact brief for one folder.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_folder_brief.js",
+    "handler": "brief_generate",
+    "defaults": {
+      "mode": "folder"
+    }
+  },
+  {
+    "id": "generate_repo_brief",
+    "title": "Generate repo brief",
+    "description": "Create a compact repo brief.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_repo_brief.js",
+    "handler": "brief_generate",
+    "defaults": {
+      "mode": "repo"
+    }
+  },
+  {
+    "id": "generate_context_pack",
+    "title": "Generate context pack",
+    "description": "Create a compact JSON context pack for the repo.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_context_pack.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "context_pack"
+    }
+  },
+  {
+    "id": "generate_low_token_pack",
+    "title": "Generate low-token pack",
+    "description": "Create a very small summary pack for weak coding AIs.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_low_token_pack.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "low_token_pack"
+    }
+  },
+  {
+    "id": "generate_tooling_manifest",
+    "title": "Generate tooling manifest",
+    "description": "Create a manifest of scripts, configs, and tooling.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_tooling_manifest.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "tooling_manifest"
+    }
+  },
+  {
+    "id": "generate_entrypoint_pack",
+    "title": "Generate entrypoint pack",
+    "description": "Create a pack focused on entrypoints and boot flow.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_entrypoint_pack.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "entrypoint_pack"
+    }
+  },
+  {
+    "id": "generate_dependency_pack",
+    "title": "Generate dependency pack",
+    "description": "Create a compact dependency/context report.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_dependency_pack.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "dependency_pack"
+    }
+  },
+  {
+    "id": "generate_docs_pack",
+    "title": "Generate docs pack",
+    "description": "Create a docs-focused context report.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_docs_pack.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "docs_pack"
+    }
+  },
+  {
+    "id": "generate_test_pack",
+    "title": "Generate test pack",
+    "description": "Create a test-focused context report.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_test_pack.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "test_pack"
+    }
+  },
+  {
+    "id": "generate_cleanup_candidates_report",
+    "title": "Generate cleanup candidates",
+    "description": "Report duplicates, empties, and generated files.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_cleanup_candidates_report.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "cleanup_report"
+    }
+  },
+  {
+    "id": "generate_portability_report",
+    "title": "Generate portability report",
+    "description": "Report portability blockers and external assumptions.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_portability_report.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "portability_report"
+    }
+  },
+  {
+    "id": "generate_script_registry_template",
+    "title": "Generate script registry template",
+    "description": "Create a starter registry template for scripts.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_script_registry_template.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "script_registry_template"
+    }
+  },
+  {
+    "id": "generate_coder_handoff",
+    "title": "Generate coder handoff",
+    "description": "Create a handoff summary for another coding AI.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_coder_handoff.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "coder_handoff"
+    }
+  },
+  {
+    "id": "generate_runtime_surface_map",
+    "title": "Generate runtime surface map",
+    "description": "Map likely runtime surfaces and services.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_runtime_surface_map.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "runtime_surface_map"
+    }
+  },
+  {
+    "id": "generate_feature_guess_map",
+    "title": "Generate feature guess map",
+    "description": "Guess major features by folder and file names.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_feature_guess_map.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "feature_guess_map"
+    }
+  },
+  {
+    "id": "generate_path_alias_report",
+    "title": "Generate path alias report",
+    "description": "Summarize path aliases and import shortcuts.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_path_alias_report.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "path_alias_report"
+    }
+  },
+  {
+    "id": "generate_machine_context_index",
+    "title": "Generate machine context index",
+    "description": "Create a machine-friendly index with compact facts.",
+    "category": "context",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/context/generate_machine_context_index.js",
+    "handler": "report_generate",
+    "defaults": {
+      "mode": "machine_context_index"
+    }
+  },
+  {
+    "id": "package_name_inventory",
+    "title": "Package name inventory",
+    "description": "List package names from package.json files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/package_name_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "package_names"
+    }
+  },
+  {
+    "id": "package_dependency_summary",
+    "title": "Dependency summary",
+    "description": "Summarize dependencies from package.json files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/package_dependency_summary.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "dependencies"
+    }
+  },
+  {
+    "id": "package_dev_dependency_summary",
+    "title": "Dev dependency summary",
+    "description": "Summarize devDependencies from package.json files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/package_dev_dependency_summary.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "dev_dependencies"
+    }
+  },
+  {
+    "id": "workspace_package_scan",
+    "title": "Workspace package scan",
+    "description": "Find workspace/monorepo package.json files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/workspace_package_scan.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "workspace_packages"
+    }
+  },
+  {
+    "id": "npm_script_inventory",
+    "title": "npm script inventory",
+    "description": "List npm scripts and where they appear.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/npm_script_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "npm_scripts"
+    }
+  },
+  {
+    "id": "ts_path_alias_inventory",
+    "title": "TS path alias inventory",
+    "description": "List paths/baseUrl aliases from tsconfig files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/ts_path_alias_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "ts_paths"
+    }
+  },
+  {
+    "id": "python_requirements_inventory",
+    "title": "Python requirements inventory",
+    "description": "List Python dependency files and entries.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/python_requirements_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "python_requirements"
+    }
+  },
+  {
+    "id": "dockerfile_inventory",
+    "title": "Dockerfile inventory",
+    "description": "List Dockerfiles and key base images.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/dockerfile_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "dockerfiles"
+    }
+  },
+  {
+    "id": "ci_file_inventory",
+    "title": "CI file inventory",
+    "description": "List CI workflow files and quick hints.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/ci_file_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "ci_files"
+    }
+  },
+  {
+    "id": "env_file_inventory",
+    "title": "Env file inventory",
+    "description": "List .env-like files without exposing secrets.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/env_file_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "env_files"
+    }
+  },
+  {
+    "id": "gitignore_summary",
+    "title": ".gitignore summary",
+    "description": "Summarize .gitignore patterns.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/gitignore_summary.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "gitignore"
+    }
+  },
+  {
+    "id": "lockfile_inventory",
+    "title": "Lockfile inventory",
+    "description": "List lockfiles and package managers in use.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/lockfile_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "lockfiles"
+    }
+  },
+  {
+    "id": "import_alias_candidates",
+    "title": "Import alias candidates",
+    "description": "Find import alias syntax usage in source files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/import_alias_candidates.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "import_aliases"
+    }
+  },
+  {
+    "id": "version_string_inventory",
+    "title": "Version string inventory",
+    "description": "Find version-like strings in config files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/version_string_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "versions"
+    }
+  },
+  {
+    "id": "port_number_inventory",
+    "title": "Port number inventory",
+    "description": "Find likely port numbers in source/config files.",
+    "category": "deps",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/deps/port_number_inventory.js",
+    "handler": "config_scan",
+    "defaults": {
+      "mode": "ports"
+    }
+  },
+  {
+    "id": "git_status_summary",
+    "title": "Git status summary",
+    "description": "Summarize git working tree status.",
+    "category": "git",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/git/git_status_summary.js",
+    "handler": "git_scan",
+    "defaults": {
+      "mode": "status"
+    }
+  },
+  {
+    "id": "git_branch_summary",
+    "title": "Git branch summary",
+    "description": "Show current branch and upstream info.",
+    "category": "git",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/git/git_branch_summary.js",
+    "handler": "git_scan",
+    "defaults": {
+      "mode": "branch"
+    }
+  },
+  {
+    "id": "git_recent_commit_summary",
+    "title": "Recent commit summary",
+    "description": "Show recent commit headlines.",
+    "category": "git",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/git/git_recent_commit_summary.js",
+    "handler": "git_scan",
+    "defaults": {
+      "mode": "recent_commits"
+    }
+  },
+  {
+    "id": "git_changed_files_summary",
+    "title": "Changed files summary",
+    "description": "Show changed files according to git.",
+    "category": "git",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/git/git_changed_files_summary.js",
+    "handler": "git_scan",
+    "defaults": {
+      "mode": "changed_files"
+    }
+  },
+  {
+    "id": "git_untracked_files_summary",
+    "title": "Untracked files summary",
+    "description": "Show untracked files according to git.",
+    "category": "git",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/git/git_untracked_files_summary.js",
+    "handler": "git_scan",
+    "defaults": {
+      "mode": "untracked"
+    }
+  },
+  {
+    "id": "filename_case_breakdown",
+    "title": "Filename case breakdown",
+    "description": "Break down file naming styles.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/filename_case_breakdown.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "filename_case"
+    }
+  },
+  {
+    "id": "suspicious_filename_scan",
+    "title": "Suspicious filename scan",
+    "description": "Find odd, temporary, backup, or conflict filenames.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/suspicious_filename_scan.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "suspicious_names"
+    }
+  },
+  {
+    "id": "duplicate_basename_by_extension",
+    "title": "Duplicate basenames by extension",
+    "description": "Find same basename with multiple extensions.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/duplicate_basename_by_extension.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "duplicate_basename_ext"
+    }
+  },
+  {
+    "id": "shallow_duplicate_folder_names",
+    "title": "Duplicate folder names",
+    "description": "Find repeated folder names across the tree.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/shallow_duplicate_folder_names.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "duplicate_folder_names"
+    }
+  },
+  {
+    "id": "folder_depth_stats",
+    "title": "Folder depth stats",
+    "description": "Summarize folder depth and nesting.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/folder_depth_stats.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "folder_depth"
+    }
+  },
+  {
+    "id": "file_age_buckets",
+    "title": "File age buckets",
+    "description": "Bucket files by modified age.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/file_age_buckets.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "age_buckets"
+    }
+  },
+  {
+    "id": "line_length_percentiles",
+    "title": "Line length percentiles",
+    "description": "Estimate line length percentiles across text files.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/line_length_percentiles.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "line_length_percentiles"
+    }
+  },
+  {
+    "id": "import_density_scan",
+    "title": "Import density scan",
+    "description": "Find files with many imports.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/import_density_scan.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "import_density"
+    }
+  },
+  {
+    "id": "comment_density_scan",
+    "title": "Comment density scan",
+    "description": "Find files with unusually high or low comment density.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/comment_density_scan.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "comment_density"
+    }
+  },
+  {
+    "id": "test_gap_hints",
+    "title": "Test gap hints",
+    "description": "Find source folders with few visible tests.",
+    "category": "quality",
+    "tags": [],
+    "intent_examples": [],
+    "inputs": {},
+    "outputs": {},
+    "side_effects": [],
+    "risk_level": "low",
+    "requires_confirmation": false,
+    "estimated_runtime": "low",
+    "platform": [
+      "windows",
+      "linux",
+      "macos"
+    ],
+    "dependencies": [
+      "node"
+    ],
+    "success_criteria": [
+      "Tool returned structured output."
+    ],
+    "failure_modes": [
+      "Path not found.",
+      "Permission denied.",
+      "Unreadable file.",
+      "Tool input invalid."
+    ],
+    "entrypoint": "scripts/quality/test_gap_hints.js",
+    "handler": "quality_scan",
+    "defaults": {
+      "mode": "test_gaps"
+    }
+  }
+]

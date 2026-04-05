@@ -1,0 +1,468 @@
+{
+  "aliases": [
+    {
+      "alias": "fe87add4617b5e6c",
+      "aliasId": "hz.web.fe87add4617b5e6c.alias.1",
+      "canonical": "slack"
+    },
+    {
+      "alias": "slack",
+      "aliasId": "hz.web.fe87add4617b5e6c.alias.2",
+      "canonical": "slack"
+    },
+    {
+      "alias": "web fe87add4617b5e6c",
+      "aliasId": "hz.web.fe87add4617b5e6c.alias.3",
+      "canonical": "slack"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.71,
+  "docId": "hz.web.fe87add4617b5e6c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.fe87add4617b5e6c.entity.1",
+      "kind": "document",
+      "name": "Slack",
+      "tokens": [
+        "slack"
+      ]
+    },
+    {
+      "entityId": "hz.web.fe87add4617b5e6c.entity.2",
+      "kind": "heading",
+      "name": "Slack",
+      "tokens": [
+        "slack"
+      ]
+    },
+    {
+      "entityId": "hz.web.fe87add4617b5e6c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.fe87add4617b5e6c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.fe87add4617b5e6c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 10,
+      "factId": "hz.web.fe87add4617b5e6c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://slack-invite.openjsf.org/",
+      "tokens": [
+        "source",
+        "https",
+        "slack",
+        "invite",
+        "openjsf",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 663,
+      "charStart": 103,
+      "factId": "hz.web.fe87add4617b5e6c.fact.1",
+      "kind": "bullet",
+      "text": "Slack Product Pricing Support Download Slack Create a new workspace Find your workspace Sign in Menu Product Pricing Support Download the Slack app Sign in Create a new workspace &lt;style type=\"text/css\"&gt; nav.top { position: relative; } #page_contents &gt; h1 { width: 920px; margin-right: auto; margin-left: auto; } h2, .align_margin { padding-left: 50px; } .card { width: 920px; margin: 0 auto; .card { width: 880px; } } .linux_col { display: none; } .platform_icon { display: none; } &lt;/style&gt; We're very sorry, but your browser is not supported!",
+      "tokens": [
+        "slack",
+        "product",
+        "pricing",
+        "support",
+        "download",
+        "slack",
+        "create",
+        "new",
+        "workspace",
+        "find",
+        "your",
+        "workspace",
+        "sign",
+        "menu",
+        "product",
+        "pricing",
+        "support",
+        "download",
+        "slack",
+        "app",
+        "sign",
+        "create",
+        "new",
+        "workspace",
+        "lt",
+        "style",
+        "type",
+        "text",
+        "css",
+        "gt",
+        "nav",
+        "top",
+        "position",
+        "relative",
+        "page_contents",
+        "gt",
+        "h1",
+        "width",
+        "920px",
+        "margin",
+        "right",
+        "auto",
+        "margin",
+        "left",
+        "auto",
+        "h2",
+        "align_margin",
+        "padding",
+        "left",
+        "50px",
+        "card",
+        "width",
+        "920px",
+        "margin",
+        "auto",
+        "card",
+        "width",
+        "880px",
+        "linux_col",
+        "display",
+        "none",
+        "platform_icon",
+        "display",
+        "none",
+        "lt",
+        "style",
+        "gt",
+        "re",
+        "very",
+        "sorry",
+        "but",
+        "your",
+        "browser",
+        "not",
+        "supported"
+      ]
+    },
+    {
+      "charEnd": 729,
+      "charStart": 664,
+      "factId": "hz.web.fe87add4617b5e6c.fact.2",
+      "kind": "bullet",
+      "text": "Please upgrade to a supported browser , or try one of our apps.",
+      "tokens": [
+        "please",
+        "upgrade",
+        "supported",
+        "browser",
+        "try",
+        "one",
+        "our",
+        "apps"
+      ]
+    },
+    {
+      "charEnd": 930,
+      "charStart": 730,
+      "factId": "hz.web.fe87add4617b5e6c.fact.3",
+      "kind": "bullet",
+      "text": "Desktop Apps Mac See system requirements v4.48.102 Windows See system requirements v4.48.102 Linux See system requirements v4.47.69 Mobile Apps iOS Android Don't see the platform you're looking for?",
+      "tokens": [
+        "desktop",
+        "apps",
+        "mac",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "48",
+        "102",
+        "windows",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "48",
+        "102",
+        "linux",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "47",
+        "69",
+        "mobile",
+        "apps",
+        "ios",
+        "android",
+        "don",
+        "see",
+        "platform",
+        "re",
+        "looking"
+      ]
+    },
+    {
+      "charEnd": 945,
+      "charStart": 931,
+      "factId": "hz.web.fe87add4617b5e6c.fact.4",
+      "kind": "bullet",
+      "text": "Let us know.",
+      "tokens": [
+        "let",
+        "us",
+        "know"
+      ]
+    },
+    {
+      "charEnd": 967,
+      "charStart": 960,
+      "factId": "hz.web.fe87add4617b5e6c.fact.5",
+      "kind": "bullet",
+      "text": "slack",
+      "tokens": [
+        "slack"
+      ]
+    },
+    {
+      "charEnd": 978,
+      "charStart": 968,
+      "factId": "hz.web.fe87add4617b5e6c.fact.6",
+      "kind": "bullet",
+      "text": "download",
+      "tokens": [
+        "download"
+      ]
+    },
+    {
+      "charEnd": 984,
+      "charStart": 979,
+      "factId": "hz.web.fe87add4617b5e6c.fact.7",
+      "kind": "bullet",
+      "text": "see",
+      "tokens": [
+        "see"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 985,
+      "factId": "hz.web.fe87add4617b5e6c.fact.8",
+      "kind": "bullet",
+      "text": "app",
+      "tokens": [
+        "app"
+      ]
+    },
+    {
+      "charEnd": 997,
+      "charStart": 991,
+      "factId": "hz.web.fe87add4617b5e6c.fact.9",
+      "kind": "bullet",
+      "text": "apps",
+      "tokens": [
+        "apps"
+      ]
+    },
+    {
+      "charEnd": 1004,
+      "charStart": 998,
+      "factId": "hz.web.fe87add4617b5e6c.fact.10",
+      "kind": "bullet",
+      "text": "auto",
+      "tokens": [
+        "auto"
+      ]
+    },
+    {
+      "charEnd": 1009,
+      "charStart": 1005,
+      "factId": "hz.web.fe87add4617b5e6c.fact.11",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 1018,
+      "charStart": 1010,
+      "factId": "hz.web.fe87add4617b5e6c.fact.12",
+      "kind": "bullet",
+      "text": "margin",
+      "tokens": [
+        "margin"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 8,
+      "charStart": 1,
+      "headingId": "hz.web.fe87add4617b5e6c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Slack"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.fe87add4617b5e6c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 958,
+      "charStart": 947,
+      "headingId": "hz.web.fe87add4617b5e6c.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1030,
+      "charStart": 1020,
+      "headingId": "hz.web.fe87add4617b5e6c.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/fe87add4617b5e6c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2366,
+        "start": 0
+      }
+    ],
+    "hash": "13be09c171dd81c5fe2728c1dd809acc8c2baa2304c432a024ab3847d74a6ef3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.fe87add4617b5e6c.rule.1",
+      "text": "- Desktop Apps Mac See system requirements v4.48.102 Windows See system requirements v4.48.102 Linux See system requirements v4.47.69 Mobile Apps iOS Android Don't see the platform you're looking for?",
+      "tokens": [
+        "desktop",
+        "apps",
+        "mac",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "48",
+        "102",
+        "windows",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "48",
+        "102",
+        "linux",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "47",
+        "69",
+        "mobile",
+        "apps",
+        "ios",
+        "android",
+        "don",
+        "see",
+        "platform",
+        "re",
+        "looking"
+      ]
+    },
+    {
+      "ruleId": "hz.web.fe87add4617b5e6c.rule.2",
+      "text": "Desktop Apps Mac See system requirements v4.48.102 Windows See system requirements v4.48.102 Linux See system requirements v4.47.69 Mobile Apps iOS Android Don't see the platform you're looking for?",
+      "tokens": [
+        "desktop",
+        "apps",
+        "mac",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "48",
+        "102",
+        "windows",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "48",
+        "102",
+        "linux",
+        "see",
+        "system",
+        "requirements",
+        "v4",
+        "47",
+        "69",
+        "mobile",
+        "apps",
+        "ios",
+        "android",
+        "don",
+        "see",
+        "platform",
+        "re",
+        "looking"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Slack Product Pricing Support Download Slack Create a new workspace Find your workspace Sign in Menu Product Pricing Support Download the Slack app Sign in Create a new workspace &lt;style type=\"text/css\"&gt; nav.top { position: relative; } #page_contents &gt; h1 { width: 920px; margin-right: auto; margin-left: auto; } h2, .align_margin { padding-left: 50px; } .card { width: 920px; margin: 0 auto; .card { width: 880px; } } .linux_col { display: none; } .platform_icon { display: none; } &lt;/style&gt; We're very sorry, but your browser is not supported!",
+      "Please upgrade to a supported browser , or try one of our apps.",
+      "Desktop Apps Mac See system requirements v4.48.102 Windows See system requirements v4.48.102 Linux See system requirements v4.47.69 Mobile Apps iOS Android Don't see the platform you're looking for?"
+    ],
+    "medium": "Source: https://slack-invite.openjsf.org/",
+    "short": "Source: https://slack-invite.openjsf.org/",
+    "tokens": [
+      "slack",
+      "source",
+      "https",
+      "slack",
+      "invite",
+      "openjsf",
+      "org",
+      "source",
+      "https",
+      "slack",
+      "invite",
+      "openjsf",
+      "org"
+    ]
+  },
+  "title": "Slack"
+}

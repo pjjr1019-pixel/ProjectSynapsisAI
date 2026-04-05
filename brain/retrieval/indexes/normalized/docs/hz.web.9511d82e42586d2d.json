@@ -1,0 +1,352 @@
+{
+  "aliases": [
+    {
+      "alias": "9511d82e42586d2d",
+      "aliasId": "hz.web.9511d82e42586d2d.alias.1",
+      "canonical": "www.greatplacetowork.com"
+    },
+    {
+      "alias": "web 9511d82e42586d2d",
+      "aliasId": "hz.web.9511d82e42586d2d.alias.2",
+      "canonical": "www.greatplacetowork.com"
+    },
+    {
+      "alias": "www.greatplacetowork.com",
+      "aliasId": "hz.web.9511d82e42586d2d.alias.3",
+      "canonical": "www.greatplacetowork.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.9511d82e42586d2d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.9511d82e42586d2d.entity.1",
+      "kind": "document",
+      "name": "www.greatplacetowork.com",
+      "tokens": [
+        "www",
+        "greatplacetowork",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.9511d82e42586d2d.entity.2",
+      "kind": "heading",
+      "name": "www.greatplacetowork.com",
+      "tokens": [
+        "www",
+        "greatplacetowork",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.9511d82e42586d2d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.9511d82e42586d2d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.9511d82e42586d2d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 107,
+      "charStart": 29,
+      "factId": "hz.web.9511d82e42586d2d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.greatplacetowork.com/templates/gptw15/images/manifest.json",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "greatplacetowork",
+        "com",
+        "templates",
+        "gptw15",
+        "images",
+        "manifest",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 914,
+      "charStart": 159,
+      "factId": "hz.web.9511d82e42586d2d.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"App\", \"icons\": [ { \"src\": \"\\/templates/gptw/images/android-icon-36x36.png\", \"sizes\": \"36x36\", \"type\": \"image\\/png\", \"density\": \"0.75\" }, { \"src\": \"\\/templates/gptw/images/android-icon-48x48.png\", \"sizes\": \"48x48\", \"type\": \"image\\/png\", \"density\": \"1.0\" }, { \"src\": \"\\/templates/gptw/images/android-icon-72x72.png\", \"sizes\": \"72x72\", \"type\": \"image\\/png\", \"density\": \"1.5\" }, { \"src\": \"\\/templates/gptw/images/android-icon-96x96.png\", \"sizes\": \"96x96\", \"type\": \"image\\/png\", \"density\": \"2.0\" }, { \"src\": \"\\/templates/gptw/images/android-icon-144x144.png\", \"sizes\": \"144x144\", \"type\": \"image\\/png\", \"density\": \"3.0\" }, { \"src\": \"\\/templates/gptw/images/android-icon-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image\\/png\", \"density\": \"4.0\" } ] }",
+      "tokens": [
+        "name",
+        "app",
+        "icons",
+        "src",
+        "templates",
+        "gptw",
+        "images",
+        "android",
+        "icon",
+        "36x36",
+        "png",
+        "sizes",
+        "36x36",
+        "type",
+        "image",
+        "png",
+        "density",
+        "75",
+        "src",
+        "templates",
+        "gptw",
+        "images",
+        "android",
+        "icon",
+        "48x48",
+        "png",
+        "sizes",
+        "48x48",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "templates",
+        "gptw",
+        "images",
+        "android",
+        "icon",
+        "72x72",
+        "png",
+        "sizes",
+        "72x72",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "templates",
+        "gptw",
+        "images",
+        "android",
+        "icon",
+        "96x96",
+        "png",
+        "sizes",
+        "96x96",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "templates",
+        "gptw",
+        "images",
+        "android",
+        "icon",
+        "144x144",
+        "png",
+        "sizes",
+        "144x144",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "templates",
+        "gptw",
+        "images",
+        "android",
+        "icon",
+        "192x192",
+        "png",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "density"
+      ]
+    },
+    {
+      "charEnd": 934,
+      "charStart": 929,
+      "factId": "hz.web.9511d82e42586d2d.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 944,
+      "charStart": 935,
+      "factId": "hz.web.9511d82e42586d2d.fact.3",
+      "kind": "bullet",
+      "text": "android",
+      "tokens": [
+        "android"
+      ]
+    },
+    {
+      "charEnd": 954,
+      "charStart": 945,
+      "factId": "hz.web.9511d82e42586d2d.fact.4",
+      "kind": "bullet",
+      "text": "density",
+      "tokens": [
+        "density"
+      ]
+    },
+    {
+      "charEnd": 961,
+      "charStart": 955,
+      "factId": "hz.web.9511d82e42586d2d.fact.5",
+      "kind": "bullet",
+      "text": "gptw",
+      "tokens": [
+        "gptw"
+      ]
+    },
+    {
+      "charEnd": 968,
+      "charStart": 962,
+      "factId": "hz.web.9511d82e42586d2d.fact.6",
+      "kind": "bullet",
+      "text": "icon",
+      "tokens": [
+        "icon"
+      ]
+    },
+    {
+      "charEnd": 976,
+      "charStart": 969,
+      "factId": "hz.web.9511d82e42586d2d.fact.7",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 985,
+      "charStart": 977,
+      "factId": "hz.web.9511d82e42586d2d.fact.8",
+      "kind": "bullet",
+      "text": "images",
+      "tokens": [
+        "images"
+      ]
+    },
+    {
+      "charEnd": 993,
+      "charStart": 986,
+      "factId": "hz.web.9511d82e42586d2d.fact.9",
+      "kind": "bullet",
+      "text": "sizes",
+      "tokens": [
+        "sizes"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.9511d82e42586d2d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.greatplacetowork.com"
+    },
+    {
+      "charEnd": 157,
+      "charStart": 147,
+      "headingId": "hz.web.9511d82e42586d2d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 927,
+      "charStart": 916,
+      "headingId": "hz.web.9511d82e42586d2d.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1005,
+      "charStart": 995,
+      "headingId": "hz.web.9511d82e42586d2d.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/9511d82e42586d2d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2039,
+        "start": 0
+      }
+    ],
+    "hash": "5bc5e4b3c3fd03a93034fa3015e846bc6cf303ea815517ff7bb5f9c18309747e",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"App\", \"icons\": [ { \"src\": \"\\/templates/gptw/images/android-icon-36x36.png\", \"sizes\": \"36x36\", \"type\": \"image\\/png\", \"density\": \"0.75\" }, { \"src\": \"\\/templates/gptw/images/android-icon-48x48.png\", \"sizes\": \"48x48\", \"type\": \"image\\/png\", \"density\": \"1.0\" }, { \"src\": \"\\/templates/gptw/images/android-icon-72x72.png\", \"sizes\": \"72x72\", \"type\": \"image\\/png\", \"density\": \"1.5\" }, { \"src\": \"\\/templates/gptw/images/android-icon-96x96.png\", \"sizes\": \"96x96\", \"type\": \"image\\/png\", \"density\": \"2.0\" }, { \"src\": \"\\/templates/gptw/images/android-icon-144x144.png\", \"sizes\": \"144x144\", \"type\": \"image\\/png\", \"density\": \"3.0\" }, { \"src\": \"\\/templates/gptw/images/android-icon-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image\\/png\", \"density\": \"4.0\" } ] }",
+      "png",
+      "android"
+    ],
+    "medium": "Source: https://www.greatplacetowork.com/templates/gptw15/images/manifest.json",
+    "short": "Source: https://www.greatplacetowork.com/templates/gptw15/images/manifest.json",
+    "tokens": [
+      "www",
+      "greatplacetowork",
+      "com",
+      "source",
+      "https",
+      "www",
+      "greatplacetowork",
+      "com",
+      "templates",
+      "gptw15",
+      "images",
+      "manifest",
+      "json",
+      "source",
+      "https",
+      "www",
+      "greatplacetowork",
+      "com",
+      "templates",
+      "gptw15",
+      "images",
+      "manifest",
+      "json"
+    ]
+  },
+  "title": "www.greatplacetowork.com"
+}

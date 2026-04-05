@@ -1,0 +1,514 @@
+{
+  "aliases": [
+    {
+      "alias": "deb31ec2466ee440",
+      "aliasId": "hz.web.deb31ec2466ee440.alias.1",
+      "canonical": "#indieweb 2026-03-31"
+    },
+    {
+      "alias": "indieweb 2026-03-31",
+      "aliasId": "hz.web.deb31ec2466ee440.alias.2",
+      "canonical": "#indieweb 2026-03-31"
+    },
+    {
+      "alias": "web deb31ec2466ee440",
+      "aliasId": "hz.web.deb31ec2466ee440.alias.3",
+      "canonical": "#indieweb 2026-03-31"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.web.deb31ec2466ee440",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.deb31ec2466ee440.entity.1",
+      "kind": "document",
+      "name": "#indieweb 2026-03-31",
+      "tokens": [
+        "indieweb",
+        "2026",
+        "03",
+        "31"
+      ]
+    },
+    {
+      "entityId": "hz.web.deb31ec2466ee440.entity.2",
+      "kind": "heading",
+      "name": "#indieweb 2026-03-31",
+      "tokens": [
+        "indieweb",
+        "2026",
+        "03",
+        "31"
+      ]
+    },
+    {
+      "entityId": "hz.web.deb31ec2466ee440.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.deb31ec2466ee440.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.deb31ec2466ee440.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 25,
+      "factId": "hz.web.deb31ec2466ee440.fact.1",
+      "kind": "summary",
+      "text": "Source: https://chat.indieweb.org/",
+      "tokens": [
+        "source",
+        "https",
+        "chat",
+        "indieweb",
+        "org"
+      ]
+    },
+    {
+      "charEnd": 1511,
+      "charStart": 111,
+      "factId": "hz.web.deb31ec2466ee440.fact.1",
+      "kind": "bullet",
+      "text": "#indieweb 2026-03-31 #indieweb 2026-03-31 Prev Next #indieweb #dev #wordpress #meta #stream #microformats #known #events search -5 GMT Africa/Accra Africa/Tunis America/Boise America/Chicago America/Denver America/Detroit America/Edmonton America/Halifax America/Indiana/Indianapolis America/Los_Angeles America/Los_angeles America/Mexico_City America/Monterrey America/Montreal America/New_York America/Phoenix America/Santiago America/Sao_Paulo America/Toronto America/Vancouver Asia/Bangkok Asia/Calcutta Asia/Hong_Kong Asia/Kolkata Asia/Kuala_Lumpur Asia/Kuching Asia/Manila Asia/Seoul Asia/Shanghai Asia/Tbilisi Asia/Tehran Asia/Tokyo Atlantic/Faroe Atlantic/Reykjavik Australia/Adelaide Australia/Brisbane Australia/Melbourne Australia/Perth Australia/Queensland Australia/Sydney CET Canada/Eastern Etc/UTC Europe/Amsterdam Europe/Athens Europe/Belfast Europe/Belgrade Europe/Berlin Europe/Brussels Europe/Budapest Europe/Copenhagen Europe/Dublin Europe/Helsinki Europe/Istanbul Europe/Lisbon Europe/London Europe/Luxembourg Europe/Madrid Europe/Moscow Europe/Oslo Europe/Paris Europe/Prague Europe/Rome Europe/Stockholm Europe/Vienna Europe/Warsaw Europe/Zurich GMT Pacific/Auckland US/Central US/Eastern US/Pacific UTC #indieweb ≡ ← → #indieweb 2026-03-31 2026-03-31 UTC vhbelvadi and cotsuka joined the channel # 00:38 [aciccarello] Made some updates to my cap page to make it interactive!",
+      "tokens": [
+        "indieweb",
+        "2026",
+        "03",
+        "31",
+        "indieweb",
+        "2026",
+        "03",
+        "31",
+        "prev",
+        "next",
+        "indieweb",
+        "dev",
+        "wordpress",
+        "meta",
+        "stream",
+        "microformats",
+        "known",
+        "events",
+        "search",
+        "gmt",
+        "africa",
+        "accra",
+        "africa",
+        "tunis",
+        "america",
+        "boise",
+        "america",
+        "chicago",
+        "america",
+        "denver",
+        "america",
+        "detroit",
+        "america",
+        "edmonton",
+        "america",
+        "halifax",
+        "america",
+        "indiana",
+        "indianapolis",
+        "america",
+        "los_angeles",
+        "america",
+        "los_angeles",
+        "america",
+        "mexico_city",
+        "america",
+        "monterrey",
+        "america",
+        "montreal",
+        "america",
+        "new_york",
+        "america",
+        "phoenix",
+        "america",
+        "santiago",
+        "america",
+        "sao_paulo",
+        "america",
+        "toronto",
+        "america",
+        "vancouver",
+        "asia",
+        "bangkok",
+        "asia",
+        "calcutta",
+        "asia",
+        "hong_kong",
+        "asia",
+        "kolkata",
+        "asia",
+        "kuala_lumpur",
+        "asia",
+        "kuching",
+        "asia",
+        "manila",
+        "asia",
+        "seoul",
+        "asia",
+        "shanghai",
+        "asia",
+        "tbilisi",
+        "asia",
+        "tehran",
+        "asia",
+        "tokyo",
+        "atlantic",
+        "faroe",
+        "atlantic",
+        "reykjavik",
+        "australia",
+        "adelaide",
+        "australia",
+        "brisbane",
+        "australia",
+        "melbourne",
+        "australia",
+        "perth",
+        "australia",
+        "queensland",
+        "australia",
+        "sydney",
+        "cet",
+        "canada",
+        "eastern",
+        "etc",
+        "utc",
+        "europe",
+        "amsterdam",
+        "europe",
+        "athens",
+        "europe",
+        "belfast",
+        "europe",
+        "belgrade",
+        "europe",
+        "berlin",
+        "europe",
+        "brussels",
+        "europe",
+        "budapest",
+        "europe",
+        "copenhagen",
+        "europe",
+        "dublin",
+        "europe",
+        "helsinki",
+        "europe",
+        "istanbul",
+        "europe",
+        "lisbon",
+        "europe",
+        "london",
+        "europe",
+        "luxembourg",
+        "europe",
+        "madrid",
+        "europe",
+        "moscow",
+        "europe",
+        "oslo",
+        "europe",
+        "paris",
+        "europe",
+        "prague",
+        "europe",
+        "rome",
+        "europe",
+        "stockholm",
+        "europe",
+        "vienna",
+        "europe",
+        "warsaw",
+        "europe",
+        "zurich",
+        "gmt",
+        "pacific",
+        "auckland",
+        "us",
+        "central",
+        "us",
+        "eastern",
+        "us",
+        "pacific",
+        "utc",
+        "indieweb",
+        "indieweb",
+        "2026",
+        "03",
+        "31",
+        "2026",
+        "03",
+        "31",
+        "utc",
+        "vhbelvadi",
+        "cotsuka",
+        "joined",
+        "channel",
+        "00",
+        "38",
+        "aciccarello",
+        "made",
+        "some",
+        "updates",
+        "cap",
+        "page",
+        "make",
+        "interactive"
+      ]
+    },
+    {
+      "charEnd": 1668,
+      "charStart": 1512,
+      "factId": "hz.web.deb31ec2466ee440.fact.2",
+      "kind": "bullet",
+      "text": "http://rello.me/caw # 00:40 [Sophia_wood] Let me know if you want more photos - happy to share vhbelvadi joined the channel # 00:44 [aciccarello] Oh nice!",
+      "tokens": [
+        "http",
+        "rello",
+        "caw",
+        "00",
+        "40",
+        "sophia_wood",
+        "let",
+        "know",
+        "if",
+        "want",
+        "more",
+        "photos",
+        "happy",
+        "share",
+        "vhbelvadi",
+        "joined",
+        "channel",
+        "00",
+        "44",
+        "aciccarello",
+        "oh",
+        "nice"
+      ]
+    },
+    {
+      "charEnd": 1714,
+      "charStart": 1669,
+      "factId": "hz.web.deb31ec2466ee440.fact.3",
+      "kind": "bullet",
+      "text": "I might add some more photos at the bottom.",
+      "tokens": [
+        "might",
+        "add",
+        "some",
+        "more",
+        "photos",
+        "bottom"
+      ]
+    },
+    {
+      "charEnd": 1778,
+      "charStart": 1715,
+      "factId": "hz.web.deb31ec2466ee440.fact.4",
+      "kind": "bullet",
+      "text": "All the quiz ones were sourced directly from ebird as embeds.",
+      "tokens": [
+        "all",
+        "quiz",
+        "ones",
+        "sourced",
+        "directly",
+        "ebird",
+        "embeds"
+      ]
+    },
+    {
+      "charEnd": 1801,
+      "charStart": 1793,
+      "factId": "hz.web.deb31ec2466ee440.fact.5",
+      "kind": "bullet",
+      "text": "europe",
+      "tokens": [
+        "europe"
+      ]
+    },
+    {
+      "charEnd": 1811,
+      "charStart": 1802,
+      "factId": "hz.web.deb31ec2466ee440.fact.6",
+      "kind": "bullet",
+      "text": "america",
+      "tokens": [
+        "america"
+      ]
+    },
+    {
+      "charEnd": 1818,
+      "charStart": 1812,
+      "factId": "hz.web.deb31ec2466ee440.fact.7",
+      "kind": "bullet",
+      "text": "asia",
+      "tokens": [
+        "asia"
+      ]
+    },
+    {
+      "charEnd": 1823,
+      "charStart": 1819,
+      "factId": "hz.web.deb31ec2466ee440.fact.8",
+      "kind": "bullet",
+      "text": "00",
+      "tokens": [
+        "00"
+      ]
+    },
+    {
+      "charEnd": 1834,
+      "charStart": 1824,
+      "factId": "hz.web.deb31ec2466ee440.fact.9",
+      "kind": "bullet",
+      "text": "indieweb",
+      "tokens": [
+        "indieweb"
+      ]
+    },
+    {
+      "charEnd": 1846,
+      "charStart": 1835,
+      "factId": "hz.web.deb31ec2466ee440.fact.10",
+      "kind": "bullet",
+      "text": "australia",
+      "tokens": [
+        "australia"
+      ]
+    },
+    {
+      "charEnd": 1851,
+      "charStart": 1847,
+      "factId": "hz.web.deb31ec2466ee440.fact.11",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 1858,
+      "charStart": 1852,
+      "factId": "hz.web.deb31ec2466ee440.fact.12",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.deb31ec2466ee440.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "#indieweb 2026-03-31"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.deb31ec2466ee440.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1791,
+      "charStart": 1780,
+      "headingId": "hz.web.deb31ec2466ee440.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1870,
+      "charStart": 1860,
+      "headingId": "hz.web.deb31ec2466ee440.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/deb31ec2466ee440.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4476,
+        "start": 0
+      }
+    ],
+    "hash": "83e9e64b709232575d43206bf299f6250785863203faa07a881c20626ef5e6bc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.deb31ec2466ee440.rule.1",
+      "text": "# 00:58 [Sophia_wood] I should try to record sometime.",
+      "tokens": [
+        "00",
+        "58",
+        "sophia_wood",
+        "try",
+        "record",
+        "sometime"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "#indieweb 2026-03-31 #indieweb 2026-03-31 Prev Next #indieweb #dev #wordpress #meta #stream #microformats #known #events search -5 GMT Africa/Accra Africa/Tunis America/Boise America/Chicago America/Denver America/Detroit America/Edmonton America/Halifax America/Indiana/Indianapolis America/Los_Angeles America/Los_angeles America/Mexico_City America/Monterrey America/Montreal America/New_York America/Phoenix America/Santiago America/Sao_Paulo America/Toronto America/Vancouver Asia/Bangkok Asia/Calcutta Asia/Hong_Kong Asia/Kolkata Asia/Kuala_Lumpur Asia/Kuching Asia/Manila Asia/Seoul Asia/Shanghai Asia/Tbilisi Asia/Tehran Asia/Tokyo Atlantic/Faroe Atlantic/Reykjavik Australia/Adelaide Australia/Brisbane Australia/Melbourne Australia/Perth Australia/Queensland Australia/Sydney CET Canada/Eastern Etc/UTC Europe/Amsterdam Europe/Athens Europe/Belfast Europe/Belgrade Europe/Berlin Europe/Brussels Europe/Budapest Europe/Copenhagen Europe/Dublin Europe/Helsinki Europe/Istanbul Europe/Lisbon Europe/London Europe/Luxembourg Europe/Madrid Europe/Moscow Europe/Oslo Europe/Paris Europe/Prague Europe/Rome Europe/Stockholm Europe/Vienna Europe/Warsaw Europe/Zurich GMT Pacific/Auckland US/Central US/Eastern US/Pacific UTC #indieweb ≡ ← → #indieweb 2026-03-31 2026-03-31 UTC vhbelvadi and cotsuka joined the channel # 00:38 [aciccarello] Made some updates to my cap page to make it interactive!",
+      "http://rello.me/caw # 00:40 [Sophia_wood] Let me know if you want more photos - happy to share vhbelvadi joined the channel # 00:44 [aciccarello] Oh nice!",
+      "I might add some more photos at the bottom."
+    ],
+    "medium": "Source: https://chat.indieweb.org/",
+    "short": "Source: https://chat.indieweb.org/",
+    "tokens": [
+      "indieweb",
+      "2026",
+      "03",
+      "31",
+      "source",
+      "https",
+      "chat",
+      "indieweb",
+      "org",
+      "source",
+      "https",
+      "chat",
+      "indieweb",
+      "org"
+    ]
+  },
+  "title": "#indieweb 2026-03-31"
+}

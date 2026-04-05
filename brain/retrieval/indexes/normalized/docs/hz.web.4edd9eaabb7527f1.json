@@ -1,0 +1,295 @@
+{
+  "aliases": [
+    {
+      "alias": "4edd9eaabb7527f1",
+      "aliasId": "hz.web.4edd9eaabb7527f1.alias.1",
+      "canonical": "neatnik"
+    },
+    {
+      "alias": "neatnik",
+      "aliasId": "hz.web.4edd9eaabb7527f1.alias.2",
+      "canonical": "neatnik"
+    },
+    {
+      "alias": "web 4edd9eaabb7527f1",
+      "aliasId": "hz.web.4edd9eaabb7527f1.alias.3",
+      "canonical": "neatnik"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.7,
+  "docId": "hz.web.4edd9eaabb7527f1",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.4edd9eaabb7527f1.entity.1",
+      "kind": "document",
+      "name": "Neatnik",
+      "tokens": [
+        "neatnik"
+      ]
+    },
+    {
+      "entityId": "hz.web.4edd9eaabb7527f1.entity.2",
+      "kind": "heading",
+      "name": "Neatnik",
+      "tokens": [
+        "neatnik"
+      ]
+    },
+    {
+      "entityId": "hz.web.4edd9eaabb7527f1.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.4edd9eaabb7527f1.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.4edd9eaabb7527f1.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 45,
+      "charStart": 12,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.1",
+      "kind": "summary",
+      "text": "Source: https://phpforpeople.com/",
+      "tokens": [
+        "source",
+        "https",
+        "phpforpeople",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 246,
+      "charStart": 97,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.1",
+      "kind": "bullet",
+      "text": "Neatnik for People A book for everyone Table of Contents Introduction Setup & testing HTTP 101 Guestbook.php Make an entry Show it off What’s next?",
+      "tokens": [
+        "neatnik",
+        "people",
+        "book",
+        "everyone",
+        "table",
+        "contents",
+        "introduction",
+        "setup",
+        "testing",
+        "http",
+        "101",
+        "guestbook",
+        "php",
+        "make",
+        "entry",
+        "show",
+        "off",
+        "next"
+      ]
+    },
+    {
+      "charEnd": 276,
+      "charStart": 247,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.2",
+      "kind": "bullet",
+      "text": "This is a work in progress!",
+      "tokens": [
+        "work",
+        "progress"
+      ]
+    },
+    {
+      "charEnd": 317,
+      "charStart": 277,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.3",
+      "kind": "bullet",
+      "text": "I’m writing this book out in the open.",
+      "tokens": [
+        "writing",
+        "book",
+        "out",
+        "open"
+      ]
+    },
+    {
+      "charEnd": 366,
+      "charStart": 318,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.4",
+      "kind": "bullet",
+      "text": "It’s messy, unedited, and extemely unfinished.",
+      "tokens": [
+        "messy",
+        "unedited",
+        "extemely",
+        "unfinished"
+      ]
+    },
+    {
+      "charEnd": 390,
+      "charStart": 381,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.5",
+      "kind": "bullet",
+      "text": "chapter",
+      "tokens": [
+        "chapter"
+      ]
+    },
+    {
+      "charEnd": 396,
+      "charStart": 391,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.6",
+      "kind": "bullet",
+      "text": "php",
+      "tokens": [
+        "php"
+      ]
+    },
+    {
+      "charEnd": 403,
+      "charStart": 397,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.7",
+      "kind": "bullet",
+      "text": "read",
+      "tokens": [
+        "read"
+      ]
+    },
+    {
+      "charEnd": 414,
+      "charStart": 404,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.8",
+      "kind": "bullet",
+      "text": "concepts",
+      "tokens": [
+        "concepts"
+      ]
+    },
+    {
+      "charEnd": 426,
+      "charStart": 415,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.9",
+      "kind": "bullet",
+      "text": "guestbook",
+      "tokens": [
+        "guestbook"
+      ]
+    },
+    {
+      "charEnd": 432,
+      "charStart": 427,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.10",
+      "kind": "bullet",
+      "text": "key",
+      "tokens": [
+        "key"
+      ]
+    },
+    {
+      "charEnd": 439,
+      "charStart": 433,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.11",
+      "kind": "bullet",
+      "text": "book",
+      "tokens": [
+        "book"
+      ]
+    },
+    {
+      "charEnd": 446,
+      "charStart": 440,
+      "factId": "hz.web.4edd9eaabb7527f1.fact.12",
+      "kind": "bullet",
+      "text": "have",
+      "tokens": [
+        "have"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 10,
+      "charStart": 1,
+      "headingId": "hz.web.4edd9eaabb7527f1.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Neatnik"
+    },
+    {
+      "charEnd": 95,
+      "charStart": 85,
+      "headingId": "hz.web.4edd9eaabb7527f1.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 379,
+      "charStart": 368,
+      "headingId": "hz.web.4edd9eaabb7527f1.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 458,
+      "charStart": 448,
+      "headingId": "hz.web.4edd9eaabb7527f1.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/4edd9eaabb7527f1.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3144,
+        "start": 0
+      }
+    ],
+    "hash": "0c199d8b9902446bf2f6a63e9da9d45e336bd82547cfefe2849f47c8a17b28ee",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Neatnik for People A book for everyone Table of Contents Introduction Setup & testing HTTP 101 Guestbook.php Make an entry Show it off What’s next?",
+      "This is a work in progress!",
+      "I’m writing this book out in the open."
+    ],
+    "medium": "Source: https://phpforpeople.com/",
+    "short": "Source: https://phpforpeople.com/",
+    "tokens": [
+      "neatnik",
+      "source",
+      "https",
+      "phpforpeople",
+      "com",
+      "source",
+      "https",
+      "phpforpeople",
+      "com"
+    ]
+  },
+  "title": "Neatnik"
+}

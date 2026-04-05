@@ -1,0 +1,487 @@
+{
+  "aliases": [
+    {
+      "alias": "85ddd5663cdc942c",
+      "aliasId": "hz.web.85ddd5663cdc942c.alias.1",
+      "canonical": "www.cc.nih.gov"
+    },
+    {
+      "alias": "web 85ddd5663cdc942c",
+      "aliasId": "hz.web.85ddd5663cdc942c.alias.2",
+      "canonical": "www.cc.nih.gov"
+    },
+    {
+      "alias": "www.cc.nih.gov",
+      "aliasId": "hz.web.85ddd5663cdc942c.alias.3",
+      "canonical": "www.cc.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.5,
+  "docId": "hz.web.85ddd5663cdc942c",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.85ddd5663cdc942c.entity.1",
+      "kind": "document",
+      "name": "www.cc.nih.gov",
+      "tokens": [
+        "www",
+        "cc",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.85ddd5663cdc942c.entity.2",
+      "kind": "heading",
+      "name": "www.cc.nih.gov",
+      "tokens": [
+        "www",
+        "cc",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.85ddd5663cdc942c.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.85ddd5663cdc942c.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.85ddd5663cdc942c.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 19,
+      "factId": "hz.web.85ddd5663cdc942c.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.cc.nih.gov/sites/default/files/favicon.ico",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "cc",
+        "nih",
+        "gov",
+        "sites",
+        "default",
+        "files",
+        "favicon",
+        "ico"
+      ]
+    },
+    {
+      "charEnd": 1276,
+      "charStart": 133,
+      "factId": "hz.web.85ddd5663cdc942c.fact.1",
+      "kind": "bullet",
+      "text": "\u0000\u0000\u0001\u0000\u0001\u0000\u0010\u0010\u0000\u0000\u0000\u0000\u0000\u0000h\u0004\u0000\u0000\u0016\u0000\u0000\u0000(\u0000\u0000\u0000\u0010\u0000\u0000\u0000 \u0000\u0000\u0000\u0001\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000jfeZjfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0005�b2a�b2Ɨb2��b2.�b2\u0000�b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfeZ���\u0000�b2ɗb2��b2�b2\u0014�b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�b2\u0000�b26�b2��b2��b2��b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfew�b2\u0000�b2��b2��b2��b2.�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0011�b2\u001d�b2��b2��b2��b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe��b2\u0000�b2|�b2��b2��b2Ejfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe<�b2\u0000�b2җb2��b2�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe>�b2\u0000�b2їb2��b2�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe��b2\u0000�b2|�b2��b2��b2Gjfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0012�b2\u001c�b2��b2��b2��b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfez�b2\u0000�b2��b2��b2��b2.�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe����\u0000�b24�b2��b2��b2��b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe]���\u0000�b2Ɨb2��b2�b2\u0016�b2\u0000�b2\u0000jfeZjfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0006�b2^�b2Ɨb2��b2.�b2\u0000�b2\u0000�b2\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000��\u0000\u0000��\u0000\u0000\u0000�\u0000\u0000\u0000c\u0000\u0000\u0000c\u0000\u0000\u00001\u0000\u0000\u0000\u0019\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0019\u0000\u0000\u00001\u0000\u0000\u0000c\u0000\u0000\u0000c\u0000\u0000\u0000�\u0000\u0000��\u0000\u0000��\u0000\u0000",
+      "tokens": [
+        "jfezjfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2a",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfez",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b26",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfew",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2ejfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2gjfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfez",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b24",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "jfezjfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "jfe",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2",
+        "b2"
+      ]
+    },
+    {
+      "charEnd": 1296,
+      "charStart": 1291,
+      "factId": "hz.web.85ddd5663cdc942c.fact.2",
+      "kind": "bullet",
+      "text": "jfe",
+      "tokens": [
+        "jfe"
+      ]
+    },
+    {
+      "charEnd": 1301,
+      "charStart": 1297,
+      "factId": "hz.web.85ddd5663cdc942c.fact.3",
+      "kind": "bullet",
+      "text": "b2",
+      "tokens": [
+        "b2"
+      ]
+    },
+    {
+      "charEnd": 1308,
+      "charStart": 1302,
+      "factId": "hz.web.85ddd5663cdc942c.fact.4",
+      "kind": "bullet",
+      "text": "jfez",
+      "tokens": [
+        "jfez"
+      ]
+    },
+    {
+      "charEnd": 1318,
+      "charStart": 1309,
+      "factId": "hz.web.85ddd5663cdc942c.fact.5",
+      "kind": "bullet",
+      "text": "jfezjfe",
+      "tokens": [
+        "jfezjfe"
+      ]
+    },
+    {
+      "charEnd": 1324,
+      "charStart": 1319,
+      "factId": "hz.web.85ddd5663cdc942c.fact.6",
+      "kind": "bullet",
+      "text": "b24",
+      "tokens": [
+        "b24"
+      ]
+    },
+    {
+      "charEnd": 1330,
+      "charStart": 1325,
+      "factId": "hz.web.85ddd5663cdc942c.fact.7",
+      "kind": "bullet",
+      "text": "b26",
+      "tokens": [
+        "b26"
+      ]
+    },
+    {
+      "charEnd": 1336,
+      "charStart": 1331,
+      "factId": "hz.web.85ddd5663cdc942c.fact.8",
+      "kind": "bullet",
+      "text": "b2a",
+      "tokens": [
+        "b2a"
+      ]
+    },
+    {
+      "charEnd": 1345,
+      "charStart": 1337,
+      "factId": "hz.web.85ddd5663cdc942c.fact.9",
+      "kind": "bullet",
+      "text": "b2ejfe",
+      "tokens": [
+        "b2ejfe"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.85ddd5663cdc942c.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "www.cc.nih.gov"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.85ddd5663cdc942c.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1289,
+      "charStart": 1278,
+      "headingId": "hz.web.85ddd5663cdc942c.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1357,
+      "charStart": 1347,
+      "headingId": "hz.web.85ddd5663cdc942c.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/85ddd5663cdc942c.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2753,
+        "start": 0
+      }
+    ],
+    "hash": "08b6d714a7d10f9fac1dc5ff9ac2075d38343f6e5b9e4fb780159ee494c12333",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "\u0000\u0000\u0001\u0000\u0001\u0000\u0010\u0010\u0000\u0000\u0000\u0000\u0000\u0000h\u0004\u0000\u0000\u0016\u0000\u0000\u0000(\u0000\u0000\u0000\u0010\u0000\u0000\u0000 \u0000\u0000\u0000\u0001\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000jfeZjfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0005�b2a�b2Ɨb2��b2.�b2\u0000�b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfeZ���\u0000�b2ɗb2��b2�b2\u0014�b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�b2\u0000�b26�b2��b2��b2��b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfew�b2\u0000�b2��b2��b2��b2.�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0011�b2\u001d�b2��b2��b2��b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe��b2\u0000�b2|�b2��b2��b2Ejfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe<�b2\u0000�b2җb2��b2�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe>�b2\u0000�b2їb2��b2�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe��b2\u0000�b2|�b2��b2��b2Gjfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0012�b2\u001c�b2��b2��b2��b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfez�b2\u0000�b2��b2��b2��b2.�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe����\u0000�b24�b2��b2��b2��b2\u0000�b2\u0000jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe]���\u0000�b2Ɨb2��b2�b2\u0016�b2\u0000�b2\u0000jfeZjfe�jfe�jfe�jfe�jfe�jfe�jfe�jfe\u0006�b2^�b2Ɨb2��b2.�b2\u0000�b2\u0000�b2\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000���\u0000��\u0000\u0000��\u0000\u0000\u0000�\u0000\u0000\u0000c\u0000\u0000\u0000c\u0000\u0000\u00001\u0000\u0000\u0000\u0019\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0019\u0000\u0000\u00001\u0000\u0000\u0000c\u0000\u0000\u0000c\u0000\u0000\u0000�\u0000\u0000��\u0000\u0000��\u0000\u0000",
+      "jfe",
+      "b2"
+    ],
+    "medium": "Source: https://www.cc.nih.gov/sites/default/files/favicon.ico",
+    "short": "Source: https://www.cc.nih.gov/sites/default/files/favicon.ico",
+    "tokens": [
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "sites",
+      "default",
+      "files",
+      "favicon",
+      "ico",
+      "source",
+      "https",
+      "www",
+      "cc",
+      "nih",
+      "gov",
+      "sites",
+      "default",
+      "files",
+      "favicon",
+      "ico"
+    ]
+  },
+  "title": "www.cc.nih.gov"
+}

@@ -1,0 +1,360 @@
+{
+  "aliases": [
+    {
+      "alias": "f097fa8ee7ec8d33",
+      "aliasId": "hz.web.f097fa8ee7ec8d33.alias.1",
+      "canonical": "knowledge article &nbsp;&middot; nlm customer support center"
+    },
+    {
+      "alias": "knowledge article nbsp middot nlm customer support center",
+      "aliasId": "hz.web.f097fa8ee7ec8d33.alias.2",
+      "canonical": "knowledge article &nbsp;&middot; nlm customer support center"
+    },
+    {
+      "alias": "web f097fa8ee7ec8d33",
+      "aliasId": "hz.web.f097fa8ee7ec8d33.alias.3",
+      "canonical": "knowledge article &nbsp;&middot; nlm customer support center"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.75,
+  "docId": "hz.web.f097fa8ee7ec8d33",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f097fa8ee7ec8d33.entity.1",
+      "kind": "document",
+      "name": "Knowledge Article &nbsp;&middot; NLM Customer Support Center",
+      "tokens": [
+        "knowledge",
+        "article",
+        "nbsp",
+        "middot",
+        "nlm",
+        "customer",
+        "support",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.f097fa8ee7ec8d33.entity.2",
+      "kind": "heading",
+      "name": "Knowledge Article &nbsp;&middot; NLM Customer Support Center",
+      "tokens": [
+        "knowledge",
+        "article",
+        "nbsp",
+        "middot",
+        "nlm",
+        "customer",
+        "support",
+        "center"
+      ]
+    },
+    {
+      "entityId": "hz.web.f097fa8ee7ec8d33.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f097fa8ee7ec8d33.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f097fa8ee7ec8d33.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 123,
+      "charStart": 65,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.1",
+      "kind": "summary",
+      "text": "Source: https://support.nlm.nih.gov/kbArticle/?pn=KA-03304",
+      "tokens": [
+        "source",
+        "https",
+        "support",
+        "nlm",
+        "nih",
+        "gov",
+        "kbarticle",
+        "pn",
+        "ka",
+        "03304"
+      ]
+    },
+    {
+      "charEnd": 253,
+      "charStart": 175,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.1",
+      "kind": "bullet",
+      "text": "Knowledge Article &middot; NLM Customer Support Center You&#8217;re offline.",
+      "tokens": [
+        "knowledge",
+        "article",
+        "middot",
+        "nlm",
+        "customer",
+        "support",
+        "center",
+        "8217",
+        "re",
+        "offline"
+      ]
+    },
+    {
+      "charEnd": 296,
+      "charStart": 254,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.2",
+      "kind": "bullet",
+      "text": "This is a read only version of the page.",
+      "tokens": [
+        "read",
+        "only",
+        "version",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 451,
+      "charStart": 297,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.3",
+      "kind": "bullet",
+      "text": "Toggle navigation National Library of Medicine National Library of Medicine Support Center Home Sign in --> How do I obtain the full text of an article?",
+      "tokens": [
+        "toggle",
+        "navigation",
+        "national",
+        "library",
+        "medicine",
+        "national",
+        "library",
+        "medicine",
+        "support",
+        "center",
+        "home",
+        "sign",
+        "obtain",
+        "full",
+        "text",
+        "article"
+      ]
+    },
+    {
+      "charEnd": 508,
+      "charStart": 452,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.4",
+      "kind": "bullet",
+      "text": "!--> Home How do I obtain the full text of an article?",
+      "tokens": [
+        "home",
+        "obtain",
+        "full",
+        "text",
+        "article"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 523,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.5",
+      "kind": "bullet",
+      "text": "full",
+      "tokens": [
+        "full"
+      ]
+    },
+    {
+      "charEnd": 536,
+      "charStart": 530,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.6",
+      "kind": "bullet",
+      "text": "text",
+      "tokens": [
+        "text"
+      ]
+    },
+    {
+      "charEnd": 545,
+      "charStart": 537,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.7",
+      "kind": "bullet",
+      "text": "pubmed",
+      "tokens": [
+        "pubmed"
+      ]
+    },
+    {
+      "charEnd": 555,
+      "charStart": 546,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.8",
+      "kind": "bullet",
+      "text": "article",
+      "tokens": [
+        "article"
+      ]
+    },
+    {
+      "charEnd": 566,
+      "charStart": 556,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.9",
+      "kind": "bullet",
+      "text": "articles",
+      "tokens": [
+        "articles"
+      ]
+    },
+    {
+      "charEnd": 573,
+      "charStart": 567,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.10",
+      "kind": "bullet",
+      "text": "link",
+      "tokens": [
+        "link"
+      ]
+    },
+    {
+      "charEnd": 583,
+      "charStart": 574,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.11",
+      "kind": "bullet",
+      "text": "library",
+      "tokens": [
+        "library"
+      ]
+    },
+    {
+      "charEnd": 589,
+      "charStart": 584,
+      "factId": "hz.web.f097fa8ee7ec8d33.fact.12",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 63,
+      "charStart": 1,
+      "headingId": "hz.web.f097fa8ee7ec8d33.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Knowledge Article &nbsp;&middot; NLM Customer Support Center"
+    },
+    {
+      "charEnd": 173,
+      "charStart": 163,
+      "headingId": "hz.web.f097fa8ee7ec8d33.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 521,
+      "charStart": 510,
+      "headingId": "hz.web.f097fa8ee7ec8d33.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 601,
+      "charStart": 591,
+      "headingId": "hz.web.f097fa8ee7ec8d33.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/f097fa8ee7ec8d33.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2551,
+        "start": 0
+      }
+    ],
+    "hash": "cf8873276a5106b67c32c85c6338c1fe86f2db4ef542d4f8978fe4dc9ff7c135",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.f097fa8ee7ec8d33.rule.1",
+      "text": "If you do not see a web link to full text, contact your local library for access.",
+      "tokens": [
+        "if",
+        "not",
+        "see",
+        "web",
+        "link",
+        "full",
+        "text",
+        "contact",
+        "your",
+        "local",
+        "library",
+        "access"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Knowledge Article &middot; NLM Customer Support Center You&#8217;re offline.",
+      "This is a read only version of the page.",
+      "Toggle navigation National Library of Medicine National Library of Medicine Support Center Home Sign in --> How do I obtain the full text of an article?"
+    ],
+    "medium": "Source: https://support.nlm.nih.gov/kbArticle/?pn=KA-03304",
+    "short": "Source: https://support.nlm.nih.gov/kbArticle/?pn=KA-03304",
+    "tokens": [
+      "knowledge",
+      "article",
+      "nbsp",
+      "middot",
+      "nlm",
+      "customer",
+      "support",
+      "center",
+      "source",
+      "https",
+      "support",
+      "nlm",
+      "nih",
+      "gov",
+      "kbarticle",
+      "pn",
+      "ka",
+      "03304",
+      "source",
+      "https",
+      "support",
+      "nlm",
+      "nih",
+      "gov",
+      "kbarticle",
+      "pn",
+      "ka",
+      "03304"
+    ]
+  },
+  "title": "Knowledge Article &nbsp;&middot; NLM Customer Support Center"
+}

@@ -1,0 +1,79 @@
+{
+  "repoName": "Horizons.AI taskmanager token saver defaults",
+  "notes": [
+    "These defaults are tailored from the uploaded repo map.",
+    "They intentionally boost taskmanager/src, server, shared, desktop, portable_lib, crawlers, and brain/core.",
+    "They intentionally de-prioritize huge generated/runtime/index zones that consume tokens but are rarely the right first read."
+  ],
+  "highValuePrefixes": [
+    "taskmanager/server/",
+    "taskmanager/shared/",
+    "taskmanager/desktop/",
+    "taskmanager/portable_lib/",
+    "taskmanager/crawlers/",
+    "taskmanager/brain/core/",
+    "taskmanager/package.json",
+    "taskmanager/package-lock.json",
+    "taskmanager/README.md",
+    "taskmanager/READ_FIRST.md",
+    "taskmanager/DEPENDENCY_AUDIT.md",
+    "taskmanager/PORTABILITY_"
+  ],
+  "docPrefixes": [
+    "taskmanager/README.md",
+    "taskmanager/READ_FIRST.md",
+    "taskmanager/DEPENDENCY_AUDIT.md",
+    "taskmanager/PORTABILITY_",
+    "taskmanager/crawlers/README.md",
+    "taskmanager/brain/core/"
+  ],
+  "lowValuePrefixes": [
+    "taskmanager/node_modules/",
+    "taskmanager/dist/",
+    "taskmanager/.runtime/",
+    "taskmanager/brain/runtime/",
+    "taskmanager/brain/retrieval/indexes/normalized/docs/",
+    "taskmanager/brain/retrieval/indexes/context-packs/",
+    "taskmanager/brain/retrieval/indexes/lancedb/",
+    "taskmanager/brain/retrieval/indexes/evals/history/",
+    "taskmanager/brain/retrieval/embeddings/",
+    "taskmanager/brain/retrieval/indexes/imports-files.jsonl",
+    "taskmanager/brain/retrieval/indexes/chunks.jsonl"
+  ],
+  "generatedPrefixes": [
+    "taskmanager/node_modules/",
+    "taskmanager/dist/",
+    "taskmanager/.runtime/",
+    "taskmanager/brain/runtime/",
+    "taskmanager/brain/retrieval/indexes/normalized/",
+    "taskmanager/brain/retrieval/indexes/context-packs/",
+    "taskmanager/brain/retrieval/indexes/lancedb/",
+    "taskmanager/brain/retrieval/indexes/evals/history/"
+  ],
+  "priorityGlobs": [
+    "taskmanager/server/**/*.mjs",
+    "taskmanager/shared/**/*.mjs",
+    "taskmanager/desktop/**/*.cjs",
+    "taskmanager/portable_lib/**/*.mjs"
+  ],
+  "defaultTaskReadOrder": [
+    "taskmanager/READ_FIRST.md",
+    "taskmanager/package.json",
+    "taskmanager/server/task-manager-ai.mjs",
+    "taskmanager/shared/task-manager-core.mjs",
+    "taskmanager/shared/utils.mjs",
+    "taskmanager/portable_lib/repo-intelligence.mjs",
+    "taskmanager/desktop/main.cjs",
+    "taskmanager/portable_lib/taskmanager-paths.mjs"
+  ],
+  "contextPack": {
+    "maxFiles": 18,
+    "maxCharsPerFile": 5000,
+    "snippetLines": 80
+  },
+  "reports": {
+    "maxHeavyDirectories": 30,
+    "maxDuplicateGroups": 50,
+    "maxTaskCandidates": 30
+  }
+}

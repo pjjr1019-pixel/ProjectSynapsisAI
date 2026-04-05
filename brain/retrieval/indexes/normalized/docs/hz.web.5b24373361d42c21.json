@@ -1,0 +1,322 @@
+{
+  "aliases": [
+    {
+      "alias": "5b24373361d42c21",
+      "aliasId": "hz.web.5b24373361d42c21.alias.1",
+      "canonical": "diana zalucky"
+    },
+    {
+      "alias": "diana zalucky",
+      "aliasId": "hz.web.5b24373361d42c21.alias.2",
+      "canonical": "diana zalucky"
+    },
+    {
+      "alias": "web 5b24373361d42c21",
+      "aliasId": "hz.web.5b24373361d42c21.alias.3",
+      "canonical": "diana zalucky"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.59,
+  "docId": "hz.web.5b24373361d42c21",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5b24373361d42c21.entity.1",
+      "kind": "document",
+      "name": "Diana Zalucky",
+      "tokens": [
+        "diana",
+        "zalucky"
+      ]
+    },
+    {
+      "entityId": "hz.web.5b24373361d42c21.entity.2",
+      "kind": "heading",
+      "name": "Diana Zalucky",
+      "tokens": [
+        "diana",
+        "zalucky"
+      ]
+    },
+    {
+      "entityId": "hz.web.5b24373361d42c21.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5b24373361d42c21.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5b24373361d42c21.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 51,
+      "charStart": 18,
+      "factId": "hz.web.5b24373361d42c21.fact.1",
+      "kind": "summary",
+      "text": "Source: https://dianazalucky.com/",
+      "tokens": [
+        "source",
+        "https",
+        "dianazalucky",
+        "com"
+      ]
+    },
+    {
+      "charEnd": 326,
+      "charStart": 103,
+      "factId": "hz.web.5b24373361d42c21.fact.1",
+      "kind": "bullet",
+      "text": "--> Diana Zalucky --> Directing Stories Stills Connect --> Contact [redacted-email] @dianazalucky Stories VIEW ALL PREVIOUS NEXT California Dreamin’ An ongoing series of personal snapshots exploring my love of California.",
+      "tokens": [
+        "diana",
+        "zalucky",
+        "directing",
+        "stories",
+        "stills",
+        "connect",
+        "contact",
+        "redacted",
+        "email",
+        "dianazalucky",
+        "stories",
+        "view",
+        "all",
+        "previous",
+        "next",
+        "california",
+        "dreamin",
+        "ongoing",
+        "series",
+        "personal",
+        "snapshots",
+        "exploring",
+        "love",
+        "california"
+      ]
+    },
+    {
+      "charEnd": 392,
+      "charStart": 327,
+      "factId": "hz.web.5b24373361d42c21.fact.2",
+      "kind": "bullet",
+      "text": "Japanese Dreams A 15-day trip that took us from Kyoto to Tokyo.",
+      "tokens": [
+        "japanese",
+        "dreams",
+        "15",
+        "day",
+        "trip",
+        "took",
+        "us",
+        "kyoto",
+        "tokyo"
+      ]
+    },
+    {
+      "charEnd": 481,
+      "charStart": 393,
+      "factId": "hz.web.5b24373361d42c21.fact.3",
+      "kind": "bullet",
+      "text": "Egypt A magical journey through Egypt shooting with my little point and shoot film ...",
+      "tokens": [
+        "egypt",
+        "magical",
+        "journey",
+        "through",
+        "egypt",
+        "shooting",
+        "little",
+        "point",
+        "shoot",
+        "film"
+      ]
+    },
+    {
+      "charEnd": 567,
+      "charStart": 482,
+      "factId": "hz.web.5b24373361d42c21.fact.4",
+      "kind": "bullet",
+      "text": "Polaroids A collection of personal polaroids taken all over the world on a Polar...",
+      "tokens": [
+        "polaroids",
+        "collection",
+        "personal",
+        "polaroids",
+        "taken",
+        "all",
+        "over",
+        "world",
+        "polar"
+      ]
+    },
+    {
+      "charEnd": 587,
+      "charStart": 582,
+      "factId": "hz.web.5b24373361d42c21.fact.5",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 600,
+      "charStart": 588,
+      "factId": "hz.web.5b24373361d42c21.fact.6",
+      "kind": "bullet",
+      "text": "california",
+      "tokens": [
+        "california"
+      ]
+    },
+    {
+      "charEnd": 610,
+      "charStart": 601,
+      "factId": "hz.web.5b24373361d42c21.fact.7",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 625,
+      "charStart": 611,
+      "factId": "hz.web.5b24373361d42c21.fact.8",
+      "kind": "bullet",
+      "text": "dianazalucky",
+      "tokens": [
+        "dianazalucky"
+      ]
+    },
+    {
+      "charEnd": 633,
+      "charStart": 626,
+      "factId": "hz.web.5b24373361d42c21.fact.9",
+      "kind": "bullet",
+      "text": "egypt",
+      "tokens": [
+        "egypt"
+      ]
+    },
+    {
+      "charEnd": 641,
+      "charStart": 634,
+      "factId": "hz.web.5b24373361d42c21.fact.10",
+      "kind": "bullet",
+      "text": "email",
+      "tokens": [
+        "email"
+      ]
+    },
+    {
+      "charEnd": 652,
+      "charStart": 642,
+      "factId": "hz.web.5b24373361d42c21.fact.11",
+      "kind": "bullet",
+      "text": "personal",
+      "tokens": [
+        "personal"
+      ]
+    },
+    {
+      "charEnd": 664,
+      "charStart": 653,
+      "factId": "hz.web.5b24373361d42c21.fact.12",
+      "kind": "bullet",
+      "text": "pleasures",
+      "tokens": [
+        "pleasures"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.5b24373361d42c21.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Diana Zalucky"
+    },
+    {
+      "charEnd": 101,
+      "charStart": 91,
+      "headingId": "hz.web.5b24373361d42c21.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 580,
+      "charStart": 569,
+      "headingId": "hz.web.5b24373361d42c21.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 676,
+      "charStart": 666,
+      "headingId": "hz.web.5b24373361d42c21.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/5b24373361d42c21.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1701,
+        "start": 0
+      }
+    ],
+    "hash": "9e567130a8a2f3f6042036a582ba00055b495dbc66ef8bd715554f53c4c3992f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "--> Diana Zalucky --> Directing Stories Stills Connect --> Contact [redacted-email] @dianazalucky Stories VIEW ALL PREVIOUS NEXT California Dreamin’ An ongoing series of personal snapshots exploring my love of California.",
+      "Japanese Dreams A 15-day trip that took us from Kyoto to Tokyo.",
+      "Egypt A magical journey through Egypt shooting with my little point and shoot film ..."
+    ],
+    "medium": "Source: https://dianazalucky.com/",
+    "short": "Source: https://dianazalucky.com/",
+    "tokens": [
+      "diana",
+      "zalucky",
+      "source",
+      "https",
+      "dianazalucky",
+      "com",
+      "source",
+      "https",
+      "dianazalucky",
+      "com"
+    ]
+  },
+  "title": "Diana Zalucky"
+}

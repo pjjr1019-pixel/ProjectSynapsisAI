@@ -1,0 +1,780 @@
+{
+  "artifactType": "brain-eval-report",
+  "buildVersion": "brain-ir-runtime-v1",
+  "builtAt": "2026-03-30T02:51:08.790Z",
+  "comparisons": {
+    "densePilotDelta": null,
+    "densePilotReady": false
+  },
+  "counts": {
+    "caseCount": 1,
+    "failCount": 0,
+    "passCount": 1
+  },
+  "failureClusters": [],
+  "metrics": {
+    "deterministicRepeatability": 1,
+    "endToEndLatencyMs": 109.66666666666667,
+    "fullChunkFallbackRate": 1,
+    "hitAt1": 1,
+    "hitAt3": 1,
+    "hitAt5": 1,
+    "mrr": 1,
+    "ndcgAt10": 1.5,
+    "ndcgAt5": 1.5,
+    "scenarioAccuracy": 0,
+    "summaryFirstAccuracy": 1
+  },
+  "regressions": [],
+  "results": [
+    {
+      "caseId": "generated_upgrade_case",
+      "failures": [],
+      "metrics": {
+        "endToEndLatencyMs": 109.66666666666667,
+        "fullChunkFallback": 1,
+        "hitAt1": 1,
+        "hitAt3": 1,
+        "hitAt5": 1,
+        "ndcgAt10": 1.5,
+        "ndcgAt5": 1.5,
+        "reciprocalRank": 1,
+        "repeatability": 1,
+        "scenarioAccuracy": null,
+        "stageLatencyMs": {
+          "artifactLookup": 94,
+          "dictionary": 0,
+          "quick": 0,
+          "retrieval": 5,
+          "scenario": 7
+        },
+        "summaryFirstAccuracy": 1
+      },
+      "pass": true,
+      "pilotComparison": null,
+      "profile": "assistant-default",
+      "query": "chunking canonical knowledge",
+      "trace": {
+        "artifactType": "brain-trace",
+        "buildVersion": "brain-ir-runtime-v1",
+        "builtAt": "2026-03-30T02:51:08.463Z",
+        "candidateRankings": [
+          {
+            "artifactType": "compact_fact",
+            "candidateId": "fact:hz.assistant.sample-topic.2026-03-27.fact.1",
+            "chunkIds": [],
+            "denseScore": 0,
+            "docIds": [
+              "hz.assistant.sample-topic.2026-03-27"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "apps/assistant/canonical/sample-topic.md"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 1.0362,
+            "sectionRefs": [
+              "hz.assistant.sample-topic.2026-03-27:20-205"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "compact_fact",
+            "candidateId": "fact:hz.launcher.launcher-overview.2026-03-27.fact.2",
+            "chunkIds": [],
+            "denseScore": 0,
+            "docIds": [
+              "hz.launcher.launcher-overview.2026-03-27"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "launcher/canonical/launcher-overview.md"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 1.0082,
+            "sectionRefs": [
+              "hz.launcher.launcher-overview.2026-03-27:209-239"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "summary",
+            "candidateId": "summary:hz.assistant.sample-topic.2026-03-27",
+            "chunkIds": [
+              "hz.chunk.hz.assistant.sample-topic.2026-03-27.0"
+            ],
+            "denseScore": 0,
+            "docIds": [
+              "hz.assistant.sample-topic.2026-03-27"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "apps/assistant/canonical/sample-topic.md"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 1.0048,
+            "sectionRefs": [
+              "hz.chunk.hz.assistant.sample-topic.2026-03-27.0"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "chunk",
+            "candidateId": "chunk:hz.chunk.hz.launcher.launcher-overview.2026-03-27.0",
+            "chunkIds": [
+              "hz.chunk.hz.launcher.launcher-overview.2026-03-27.0"
+            ],
+            "denseScore": 0,
+            "docIds": [
+              "hz.launcher.launcher-overview.2026-03-27"
+            ],
+            "laneHits": [
+              "bm25"
+            ],
+            "pathRefs": [
+              "launcher/canonical/launcher-overview.md"
+            ],
+            "primaryLane": "bm25",
+            "queryVariants": [
+              "original"
+            ],
+            "rerankScore": 0.6911290322580645,
+            "rrfScore": 0.016129032258064516,
+            "rrfScoreNormalized": 0.9838709677419354,
+            "score": 1.00412892261606,
+            "sectionRefs": [
+              "hz.launcher.launcher-overview.2026-03-27:0-600"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "summary",
+            "candidateId": "summary:hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json",
+            "chunkIds": [],
+            "denseScore": 0,
+            "docIds": [
+              "hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "apps/assistant/knowledge/modules/sample-module.manifest.json"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 0.9708,
+            "sectionRefs": [],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "summary",
+            "candidateId": "summary:hz.core.retrieval-contract.2026-03-27",
+            "chunkIds": [
+              "hz.chunk.hz.core.retrieval-contract.2026-03-27.0"
+            ],
+            "denseScore": 0,
+            "docIds": [
+              "hz.core.retrieval-contract.2026-03-27"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "core/retrieval-contract.md"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 0.9708,
+            "sectionRefs": [
+              "hz.chunk.hz.core.retrieval-contract.2026-03-27.0"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "summary",
+            "candidateId": "summary:hz.launcher.launcher-overview.2026-03-27",
+            "chunkIds": [
+              "hz.chunk.hz.launcher.launcher-overview.2026-03-27.0"
+            ],
+            "denseScore": 0,
+            "docIds": [
+              "hz.launcher.launcher-overview.2026-03-27"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "launcher/canonical/launcher-overview.md"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 0.9708,
+            "sectionRefs": [
+              "hz.chunk.hz.launcher.launcher-overview.2026-03-27.0"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "compact_fact",
+            "candidateId": "fact:hz.core.retrieval-contract.2026-03-27.fact.1",
+            "chunkIds": [],
+            "denseScore": 0,
+            "docIds": [
+              "hz.core.retrieval-contract.2026-03-27"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "core/retrieval-contract.md"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 0.8912,
+            "sectionRefs": [
+              "hz.core.retrieval-contract.2026-03-27"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "compact_fact",
+            "candidateId": "fact:hz.core.retrieval-contract.2026-03-27.fact.2",
+            "chunkIds": [],
+            "denseScore": 0,
+            "docIds": [
+              "hz.core.retrieval-contract.2026-03-27"
+            ],
+            "laneHits": [],
+            "pathRefs": [
+              "core/retrieval-contract.md"
+            ],
+            "primaryLane": "",
+            "queryVariants": [],
+            "rerankScore": 0,
+            "rrfScore": 0,
+            "rrfScoreNormalized": 0,
+            "score": 0.8912,
+            "sectionRefs": [
+              "hz.core.retrieval-contract.2026-03-27:121-240"
+            ],
+            "sourceType": "canonical"
+          },
+          {
+            "artifactType": "chunk",
+            "candidateId": "chunk:hz.chunk.hz.core.retrieval-contract.2026-03-27.0",
+            "chunkIds": [
+              "hz.chunk.hz.core.retrieval-contract.2026-03-27.0"
+            ],
+            "denseScore": 0,
+            "docIds": [
+              "hz.core.retrieval-contract.2026-03-27"
+            ],
+            "laneHits": [
+              "bm25"
+            ],
+            "pathRefs": [
+              "core/retrieval-contract.md"
+            ],
+            "primaryLane": "bm25",
+            "queryVariants": [
+              "original"
+            ],
+            "rerankScore": 0.5742187500000001,
+            "rrfScore": 0.015625,
+            "rrfScoreNormalized": 0.953125,
+            "score": 0.7928056228792586,
+            "sectionRefs": [
+              "hz.core.retrieval-contract.2026-03-27:0-500"
+            ],
+            "sourceType": "canonical"
+          }
+        ],
+        "excludedByConfidence": [],
+        "excludedByProfile": [
+          {
+            "rule": "profile",
+            "value": "assistant-default"
+          },
+          {
+            "rule": "allowDraft",
+            "value": false
+          },
+          {
+            "rule": "allowImports",
+            "value": true
+          },
+          {
+            "rule": "allowMemory",
+            "value": false
+          },
+          {
+            "rule": "minConfidence",
+            "value": 0.5
+          },
+          {
+            "rule": "denseEnabled",
+            "value": true
+          },
+          {
+            "rule": "rrfK",
+            "value": 60
+          },
+          {
+            "rule": "queryExpansion",
+            "value": true
+          },
+          {
+            "rule": "queryDecomposition",
+            "value": true
+          },
+          {
+            "rule": "rerankMode",
+            "value": "heuristic"
+          },
+          {
+            "rule": "freshnessBias",
+            "value": 1
+          },
+          {
+            "rule": "includeDomains",
+            "value": [
+              "assistant",
+              "core",
+              "launcher",
+              "pipeline",
+              "runtime",
+              "web"
+            ]
+          }
+        ],
+        "excludedBySourceType": [
+          "draft",
+          "memory"
+        ],
+        "expansionsUsed": {
+          "aliasHits": [],
+          "expandedQuery": "canonical chunking knowledge",
+          "expandedTerms": [
+            "canonical",
+            "chunking",
+            "knowledge"
+          ],
+          "synonymHits": []
+        },
+        "fallbackStagesUsed": [
+          "normalize",
+          "retrieval_policy",
+          "query_decompose",
+          "query_expand",
+          "quick",
+          "dictionary",
+          "summary",
+          "bm25",
+          "hybrid_retrieval",
+          "rerank",
+          "arbitration"
+        ],
+        "finalContextAssembly": {
+          "budget": 1200,
+          "itemKinds": [
+            "fact",
+            "fact",
+            "fact",
+            "fact",
+            "summary",
+            "summary",
+            "summary",
+            "summary",
+            "glossary",
+            "glossary",
+            "glossary",
+            "chunk",
+            "chunk",
+            "chunk",
+            "chunk",
+            "chunk"
+          ],
+          "packId": "ctx.40bdbf1409de785c",
+          "textPreview": "[fact] hz.assistant.sample-topic.2026-03-27\nThis document demonstrates **canonical** assistant knowledge: front matter matches `brain/SCHEMAS/knowledge-document.schema.json`, body is plain Markdown for human readers and chunking.\n\n---\n\n[fact] hz.launcher.launcher-overview.2026-03-27\n`brain/launcher/canonical/`\n\n---\n\n[fact] hz.core.retrieval-contract.2026-03-27\n- `retrievalProfile`: string (e.g. `a",
+          "usedTokens": 574
+        },
+        "learnedQaBypassed": false,
+        "pathRefs": [
+          "apps/assistant/canonical/sample-topic.md"
+        ],
+        "profileId": "assistant-default",
+        "profileName": "assistant-default",
+        "queryNormalized": "chunking canonical knowledge",
+        "queryRaw": "chunking canonical knowledge",
+        "recentIntent": false,
+        "recentIntentMode": "",
+        "recentSourceBias": "",
+        "recentTopic": "",
+        "schemaVersion": "1.0",
+        "scoreBreakdown": {
+          "artifactPriority": 0.88,
+          "canonicalBias": 0.017999999999999988,
+          "chunkBoost": 0,
+          "confidence": 1,
+          "empiricalSupport": 0.72,
+          "freshness": 1,
+          "freshnessBias": 1,
+          "intentStrength": 1,
+          "preferredBoost": 0.065,
+          "provenanceQuality": 0.88,
+          "retrievalSignal": 0,
+          "sourcePriority": 1,
+          "summaryPenalty": 0,
+          "total": 1.0362
+        },
+        "sectionRefs": [
+          "hz.assistant.sample-topic.2026-03-27:20-205"
+        ],
+        "stageLatencyMs": {
+          "artifactLookup": 94,
+          "dictionary": 0,
+          "quick": 0,
+          "retrieval": 5,
+          "scenario": 7
+        },
+        "stageMatched": "compact-fact",
+        "stages": [
+          {
+            "aliasHits": [],
+            "expandedQuery": "canonical chunking knowledge",
+            "expandedTerms": [
+              "canonical",
+              "chunking",
+              "knowledge"
+            ],
+            "normalized": "chunking canonical knowledge",
+            "stage": "normalize",
+            "synonymHits": []
+          },
+          {
+            "denseEnabled": false,
+            "denseModel": "Xenova/bge-small-en-v1.5",
+            "freshnessBias": 1,
+            "queryDecomposition": true,
+            "queryExpansion": true,
+            "rerankMode": "heuristic",
+            "rrfK": 60,
+            "stage": "retrieval_policy"
+          },
+          {
+            "complexityScore": 0.21428571428571427,
+            "enabled": true,
+            "stage": "query_decompose",
+            "strategy": "skip",
+            "subqueries": []
+          },
+          {
+            "enabled": true,
+            "hypothetical": "",
+            "stage": "query_expand",
+            "strategy": "heuristic-skip"
+          },
+          {
+            "calculator": false,
+            "quickReply": false,
+            "stage": "quick"
+          },
+          {
+            "bm25": null,
+            "enabled": false,
+            "exactAliasEntryId": "",
+            "exactHeadwordEntryId": "",
+            "intentMode": "none",
+            "queryKeys": [
+              "chunking canonical knowledge",
+              "chunkingcanonicalknowledge"
+            ],
+            "queryText": "chunking canonical knowledge",
+            "selectedEntryId": "",
+            "selectedMatchType": "",
+            "stage": "dictionary"
+          },
+          {
+            "candidateCount": 4,
+            "stage": "compact-fact",
+            "topFactIds": [
+              {
+                "docId": "hz.assistant.sample-topic.2026-03-27",
+                "factId": "hz.assistant.sample-topic.2026-03-27.fact.1",
+                "score": 1.1500000000000001
+              },
+              {
+                "docId": "hz.launcher.launcher-overview.2026-03-27",
+                "factId": "hz.launcher.launcher-overview.2026-03-27.fact.2",
+                "score": 0.7666666666666667
+              },
+              {
+                "docId": "hz.core.retrieval-contract.2026-03-27",
+                "factId": "hz.core.retrieval-contract.2026-03-27.fact.1",
+                "score": 0.3833333333333333
+              }
+            ]
+          },
+          {
+            "candidateCount": 4,
+            "stage": "summary",
+            "topDocIds": [
+              {
+                "docId": "hz.assistant.sample-topic.2026-03-27",
+                "score": 3.483333333333333
+              },
+              {
+                "docId": "hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json",
+                "score": 0.7166666666666667
+              },
+              {
+                "docId": "hz.core.retrieval-contract.2026-03-27",
+                "score": 0.7166666666666667
+              }
+            ]
+          },
+          {
+            "hybridBest": {
+              "chunkId": "hz.chunk.hz.assistant.sample-topic.2026-03-27.0",
+              "score": 1,
+              "secondScore": 0.9838709677419354
+            },
+            "stage": "bm25",
+            "topChunkIds": [
+              {
+                "chunkId": "hz.chunk.hz.assistant.sample-topic.2026-03-27.0",
+                "matchedTerms": [
+                  "canonical",
+                  "knowledge"
+                ],
+                "score": 0.9621838652570415
+              },
+              {
+                "chunkId": "hz.chunk.hz.launcher.launcher-overview.2026-03-27.0",
+                "matchedTerms": [
+                  "canonical",
+                  "knowledge"
+                ],
+                "score": 0.7800919048462258
+              },
+              {
+                "chunkId": "hz.chunk.hz.pipeline.imports.megapack-all-recommended.0",
+                "matchedTerms": [
+                  "knowledge"
+                ],
+                "score": 0.37699245815397575
+              },
+              {
+                "chunkId": "hz.chunk.hz.core.retrieval-contract.2026-03-27.0",
+                "matchedTerms": [
+                  "canonical"
+                ],
+                "score": 0.29920981637918725
+              },
+              {
+                "chunkId": "hz.chunk.hz.core.safety-defaults.2026-03-27.0",
+                "matchedTerms": [
+                  "canonical"
+                ],
+                "score": 0.2954276698238324
+              }
+            ]
+          },
+          {
+            "queryVariants": [
+              {
+                "label": "original",
+                "text": "chunking canonical knowledge"
+              }
+            ],
+            "settings": {
+              "densePilot": false,
+              "profileName": "assistant-default",
+              "rrfK": 60,
+              "scope": "default",
+              "topK": 5
+            },
+            "stage": "hybrid_retrieval",
+            "topCandidates": [
+              {
+                "bm25Score": 0.9621838652570415,
+                "chunkId": "hz.chunk.hz.assistant.sample-topic.2026-03-27.0",
+                "denseScore": 0,
+                "laneHits": [
+                  "bm25"
+                ],
+                "primaryLane": "bm25",
+                "rrfScore": 0.01639344262295082,
+                "rrfScoreNormalized": 1
+              },
+              {
+                "bm25Score": 0.7800919048462258,
+                "chunkId": "hz.chunk.hz.launcher.launcher-overview.2026-03-27.0",
+                "denseScore": 0,
+                "laneHits": [
+                  "bm25"
+                ],
+                "primaryLane": "bm25",
+                "rrfScore": 0.016129032258064516,
+                "rrfScoreNormalized": 0.9838709677419354
+              },
+              {
+                "bm25Score": 0.37699245815397575,
+                "chunkId": "hz.chunk.hz.pipeline.imports.megapack-all-recommended.0",
+                "denseScore": 0,
+                "laneHits": [
+                  "bm25"
+                ],
+                "primaryLane": "bm25",
+                "rrfScore": 0.015873015873015872,
+                "rrfScoreNormalized": 0.9682539682539681
+              },
+              {
+                "bm25Score": 0.29920981637918725,
+                "chunkId": "hz.chunk.hz.core.retrieval-contract.2026-03-27.0",
+                "denseScore": 0,
+                "laneHits": [
+                  "bm25"
+                ],
+                "primaryLane": "bm25",
+                "rrfScore": 0.015625,
+                "rrfScoreNormalized": 0.953125
+              },
+              {
+                "bm25Score": 0.2954276698238324,
+                "chunkId": "hz.chunk.hz.core.safety-defaults.2026-03-27.0",
+                "denseScore": 0,
+                "laneHits": [
+                  "bm25"
+                ],
+                "primaryLane": "bm25",
+                "rrfScore": 0.015384615384615385,
+                "rrfScoreNormalized": 0.9384615384615385
+              }
+            ]
+          },
+          {
+            "mode": "heuristic",
+            "stage": "rerank",
+            "topCandidates": [
+              {
+                "candidateId": "chunk:hz.chunk.hz.launcher.launcher-overview.2026-03-27.0",
+                "overlap": 0.3333333333333333,
+                "rerankScore": 0.6911290322580645
+              },
+              {
+                "candidateId": "chunk:hz.chunk.hz.pipeline.imports.megapack-all-recommended.0",
+                "overlap": 0,
+                "rerankScore": 0.5825396825396826
+              },
+              {
+                "candidateId": "chunk:hz.chunk.hz.core.retrieval-contract.2026-03-27.0",
+                "overlap": 0,
+                "rerankScore": 0.5742187500000001
+              },
+              {
+                "candidateId": "chunk:hz.chunk.hz.core.safety-defaults.2026-03-27.0",
+                "overlap": 0,
+                "rerankScore": 0.5561538461538462
+              }
+            ]
+          },
+          {
+            "policy": {
+              "canonicalBias": 1.15,
+              "contextPackStrategy": "summary-first",
+              "freshnessBias": 1,
+              "preferredArtifactTypes": [
+                "scenario",
+                "compact-fact",
+                "summary",
+                "chunk"
+              ],
+              "profileName": "assistant-default",
+              "summaryFirst": true
+            },
+            "replyCandidate": {
+              "artifactType": "compact_fact",
+              "candidateId": "fact:hz.assistant.sample-topic.2026-03-27.fact.1",
+              "primaryLane": "",
+              "score": 1.0362,
+              "sourceType": "canonical"
+            },
+            "replyMode": "accepted",
+            "stage": "arbitration",
+            "topCandidates": [
+              {
+                "artifactType": "compact_fact",
+                "candidateId": "fact:hz.assistant.sample-topic.2026-03-27.fact.1",
+                "primaryLane": "",
+                "score": 1.0362,
+                "sourceType": "canonical"
+              },
+              {
+                "artifactType": "compact_fact",
+                "candidateId": "fact:hz.launcher.launcher-overview.2026-03-27.fact.2",
+                "primaryLane": "",
+                "score": 1.0082,
+                "sourceType": "canonical"
+              },
+              {
+                "artifactType": "summary",
+                "candidateId": "summary:hz.assistant.sample-topic.2026-03-27",
+                "primaryLane": "",
+                "score": 1.0048,
+                "sourceType": "canonical"
+              },
+              {
+                "artifactType": "chunk",
+                "candidateId": "chunk:hz.chunk.hz.launcher.launcher-overview.2026-03-27.0",
+                "primaryLane": "bm25",
+                "score": 1.00412892261606,
+                "sourceType": "canonical"
+              },
+              {
+                "artifactType": "summary",
+                "candidateId": "summary:hz.auto.apps.assistant.knowledge.modules.sample-module.manifest.src-json",
+                "primaryLane": "",
+                "score": 0.9708,
+                "sourceType": "canonical"
+              }
+            ],
+            "winner": {
+              "artifactType": "compact_fact",
+              "candidateId": "fact:hz.assistant.sample-topic.2026-03-27.fact.1",
+              "primaryLane": "",
+              "score": 1.0362,
+              "sourceType": "canonical"
+            }
+          }
+        ],
+        "winningArtifactType": "compact_fact",
+        "winningChunkIds": [],
+        "winningDocIds": [
+          "hz.assistant.sample-topic.2026-03-27"
+        ],
+        "winningSourceType": "canonical"
+      }
+    }
+  ],
+  "runtimeBuiltAt": "2026-03-30T02:50:50.289Z",
+  "schemaVersion": "1.0",
+  "suggestedTuningTargets": []
+}

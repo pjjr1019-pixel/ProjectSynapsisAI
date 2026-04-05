@@ -1,0 +1,404 @@
+{
+  "aliases": [
+    {
+      "alias": "- google",
+      "aliasId": "hz.web.1d53ab24c8d19d3b.alias.1",
+      "canonical": "로그인 - google 계정"
+    },
+    {
+      "alias": "1d53ab24c8d19d3b",
+      "aliasId": "hz.web.1d53ab24c8d19d3b.alias.2",
+      "canonical": "로그인 - google 계정"
+    },
+    {
+      "alias": "web 1d53ab24c8d19d3b",
+      "aliasId": "hz.web.1d53ab24c8d19d3b.alias.3",
+      "canonical": "로그인 - google 계정"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.57,
+  "docId": "hz.web.1d53ab24c8d19d3b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.1d53ab24c8d19d3b.entity.1",
+      "kind": "document",
+      "name": "로그인 - Google 계정",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d53ab24c8d19d3b.entity.2",
+      "kind": "heading",
+      "name": "로그인 - Google 계정",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d53ab24c8d19d3b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d53ab24c8d19d3b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.1d53ab24c8d19d3b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 217,
+      "charStart": 20,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://accounts.google.com/ServiceLogin?hl=ko&amp;passive=true&amp;continue=http://support.google.com/websearch/%3Fvisit_id%3D639105425591071238-3362249688%26hl%3Dko%26rd%3D1&amp;ec=GAZAdQ",
+      "tokens": [
+        "source",
+        "https",
+        "accounts",
+        "google",
+        "com",
+        "servicelogin",
+        "hl",
+        "ko",
+        "amp",
+        "passive",
+        "true",
+        "amp",
+        "continue",
+        "http",
+        "support",
+        "google",
+        "com",
+        "websearch",
+        "3fvisit_id",
+        "3d639105425591071238",
+        "3362249688",
+        "26hl",
+        "3dko",
+        "26rd",
+        "3d1",
+        "amp",
+        "ec",
+        "gazadq"
+      ]
+    },
+    {
+      "charEnd": 327,
+      "charStart": 269,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.1",
+      "kind": "bullet",
+      "text": "로그인 - Google 계정 로그인 Google 계정 사용 이메일 또는 휴대전화 이메일을 잊으셨나요?",
+      "tokens": [
+        "google",
+        "google"
+      ]
+    },
+    {
+      "charEnd": 342,
+      "charStart": 328,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.2",
+      "kind": "bullet",
+      "text": "내 컴퓨터가 아닌가요?",
+      "tokens": []
+    },
+    {
+      "charEnd": 369,
+      "charStart": 343,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.3",
+      "kind": "bullet",
+      "text": "시크릿 브라우징 창을 사용하여 로그인하세요.",
+      "tokens": []
+    },
+    {
+      "charEnd": 1190,
+      "charStart": 370,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.4",
+      "kind": "bullet",
+      "text": "게스트 모드 사용 방법 자세히 알아보기 다음 계정 만들기 繁體中文 日本語 中文（香港） 한국어 简体中文 Afrikaans azərbaycan bosanski català Čeština Cymraeg Dansk Deutsch eesti English (United Kingdom) English (United States) Español (España) Español (Latinoamérica) euskara Filipino Français (Canada) Français (France) Gaeilge galego Hrvatski Indonesia isiZulu íslenska Italiano Kiswahili latviešu lietuvių magyar Melayu Nederlands norsk o‘zbek polski Português (Brasil) Português (Portugal) română shqip Slovenčina slovenščina srpski (latinica) Suomi Svenska Tiếng Việt Türkçe Ελληνικά беларуская български кыргызча қазақ тілі македонски монгол Русский српски (ћирилица) Українська ქართული հայերեն ‫עברית‬‎ ‫اردو‬‎ ‫العربية‬‎ ‫فارسی‬‎ አማርኛ नेपाली मराठी हिन्दी অসমীয়া বাংলা ਪੰਜਾਬੀ ગુજરાતી ଓଡ଼ିଆ தமிழ் తెలుగు ಕನ್ನಡ മലയാളം සිංහල ไทย ລາວ မြန်မာ ខ្មែរ 도움말 개인정보처리방침 약관",
+      "tokens": [
+        "afrikaans",
+        "az",
+        "rbaycan",
+        "bosanski",
+        "catal",
+        "tina",
+        "cymraeg",
+        "dansk",
+        "deutsch",
+        "eesti",
+        "english",
+        "united",
+        "kingdom",
+        "english",
+        "united",
+        "states",
+        "espa",
+        "ol",
+        "espa",
+        "espa",
+        "ol",
+        "latinoam",
+        "rica",
+        "euskara",
+        "filipino",
+        "fran",
+        "ais",
+        "canada",
+        "fran",
+        "ais",
+        "france",
+        "gaeilge",
+        "galego",
+        "hrvatski",
+        "indonesia",
+        "isizulu",
+        "slenska",
+        "italiano",
+        "kiswahili",
+        "latvie",
+        "lietuvi",
+        "magyar",
+        "melayu",
+        "nederlands",
+        "norsk",
+        "zbek",
+        "polski",
+        "portugu",
+        "brasil",
+        "portugu",
+        "portugal",
+        "rom",
+        "shqip",
+        "sloven",
+        "ina",
+        "sloven",
+        "ina",
+        "srpski",
+        "latinica",
+        "suomi",
+        "svenska",
+        "ti",
+        "ng",
+        "vi",
+        "rk"
+      ]
+    },
+    {
+      "charEnd": 1211,
+      "charStart": 1205,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.5",
+      "kind": "bullet",
+      "text": "espa",
+      "tokens": [
+        "espa"
+      ]
+    },
+    {
+      "charEnd": 1217,
+      "charStart": 1212,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.6",
+      "kind": "bullet",
+      "text": "ais",
+      "tokens": [
+        "ais"
+      ]
+    },
+    {
+      "charEnd": 1227,
+      "charStart": 1218,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.7",
+      "kind": "bullet",
+      "text": "english",
+      "tokens": [
+        "english"
+      ]
+    },
+    {
+      "charEnd": 1234,
+      "charStart": 1228,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.8",
+      "kind": "bullet",
+      "text": "fran",
+      "tokens": [
+        "fran"
+      ]
+    },
+    {
+      "charEnd": 1243,
+      "charStart": 1235,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.9",
+      "kind": "bullet",
+      "text": "google",
+      "tokens": [
+        "google"
+      ]
+    },
+    {
+      "charEnd": 1249,
+      "charStart": 1244,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.10",
+      "kind": "bullet",
+      "text": "ina",
+      "tokens": [
+        "ina"
+      ]
+    },
+    {
+      "charEnd": 1254,
+      "charStart": 1250,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.11",
+      "kind": "bullet",
+      "text": "ol",
+      "tokens": [
+        "ol"
+      ]
+    },
+    {
+      "charEnd": 1264,
+      "charStart": 1255,
+      "factId": "hz.web.1d53ab24c8d19d3b.fact.12",
+      "kind": "bullet",
+      "text": "portugu",
+      "tokens": [
+        "portugu"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.1d53ab24c8d19d3b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "로그인 - Google 계정"
+    },
+    {
+      "charEnd": 267,
+      "charStart": 257,
+      "headingId": "hz.web.1d53ab24c8d19d3b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1203,
+      "charStart": 1192,
+      "headingId": "hz.web.1d53ab24c8d19d3b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1276,
+      "charStart": 1266,
+      "headingId": "hz.web.1d53ab24c8d19d3b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/1d53ab24c8d19d3b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2580,
+        "start": 0
+      }
+    ],
+    "hash": "6984f710b3cbab27352de8d6715658fdfd97371e21d9fa11ac8ce4cdd2a0948c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "로그인 - Google 계정 로그인 Google 계정 사용 이메일 또는 휴대전화 이메일을 잊으셨나요?",
+      "내 컴퓨터가 아닌가요?",
+      "시크릿 브라우징 창을 사용하여 로그인하세요."
+    ],
+    "medium": "Source: https://accounts.google.com/ServiceLogin?hl=ko&amp;passive=true&amp;continue=http://support.google.com/websearch/%3Fvisit_id%3D639105425591071238-3362249688%26hl%3Dko%26rd%3D1&amp;ec=GAZAdQ",
+    "short": "Source: https://accounts.google.com/ServiceLogin?hl=ko&amp;passive=true&amp;continue=http://support.google.com/websearch/%3Fvisit_id%3D639105425591071238-3362249688%26hl%3Dko%26rd%3D1&amp;ec=GAZAdQ",
+    "tokens": [
+      "google",
+      "source",
+      "https",
+      "accounts",
+      "google",
+      "com",
+      "servicelogin",
+      "hl",
+      "ko",
+      "amp",
+      "passive",
+      "true",
+      "amp",
+      "continue",
+      "http",
+      "support",
+      "google",
+      "com",
+      "websearch",
+      "3fvisit_id",
+      "3d639105425591071238",
+      "3362249688",
+      "26hl",
+      "3dko",
+      "26rd",
+      "3d1",
+      "amp",
+      "ec",
+      "gazadq",
+      "source",
+      "https",
+      "accounts",
+      "google",
+      "com",
+      "servicelogin",
+      "hl",
+      "ko",
+      "amp",
+      "passive",
+      "true",
+      "amp",
+      "continue",
+      "http",
+      "support",
+      "google",
+      "com",
+      "websearch",
+      "3fvisit_id",
+      "3d639105425591071238",
+      "3362249688",
+      "26hl",
+      "3dko",
+      "26rd",
+      "3d1",
+      "amp",
+      "ec",
+      "gazadq"
+    ]
+  },
+  "title": "로그인 - Google 계정"
+}

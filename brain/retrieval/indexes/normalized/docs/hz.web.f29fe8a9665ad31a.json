@@ -1,0 +1,351 @@
+{
+  "aliases": [
+    {
+      "alias": "f29fe8a9665ad31a",
+      "aliasId": "hz.web.f29fe8a9665ad31a.alias.1",
+      "canonical": "img6.wsimg.com"
+    },
+    {
+      "alias": "img6.wsimg.com",
+      "aliasId": "hz.web.f29fe8a9665ad31a.alias.2",
+      "canonical": "img6.wsimg.com"
+    },
+    {
+      "alias": "web f29fe8a9665ad31a",
+      "aliasId": "hz.web.f29fe8a9665ad31a.alias.3",
+      "canonical": "img6.wsimg.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.47,
+  "docId": "hz.web.f29fe8a9665ad31a",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.f29fe8a9665ad31a.entity.1",
+      "kind": "document",
+      "name": "img6.wsimg.com",
+      "tokens": [
+        "img6",
+        "wsimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f29fe8a9665ad31a.entity.2",
+      "kind": "heading",
+      "name": "img6.wsimg.com",
+      "tokens": [
+        "img6",
+        "wsimg",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.f29fe8a9665ad31a.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.f29fe8a9665ad31a.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.f29fe8a9665ad31a.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 81,
+      "charStart": 19,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.1",
+      "kind": "summary",
+      "text": "Source: https://img6.wsimg.com/ux-assets/favicon/manifest.json",
+      "tokens": [
+        "source",
+        "https",
+        "img6",
+        "wsimg",
+        "com",
+        "ux",
+        "assets",
+        "favicon",
+        "manifest",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 919,
+      "charStart": 133,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.1",
+      "kind": "bullet",
+      "text": "{ \"name\": \"GoDaddy\", \"short_name\": \"GoDaddy\", \"icons\": [ { \"src\": \"/android-icon-36x36.png\", \"sizes\": \"36x36\", \"type\": \"image\\/png\", \"density\": \"0.75\" }, { \"src\": \"/android-icon-48x48.png\", \"sizes\": \"48x48\", \"type\": \"image\\/png\", \"density\": \"1.0\" }, { \"src\": \"/android-icon-72x72.png\", \"sizes\": \"72x72\", \"type\": \"image\\/png\", \"density\": \"1.5\" }, { \"src\": \"/android-icon-96x96.png\", \"sizes\": \"96x96\", \"type\": \"image\\/png\", \"density\": \"2.0\" }, { \"src\": \"/android-icon-144x144.png\", \"sizes\": \"144x144\", \"type\": \"image\\/png\", \"density\": \"3.0\" }, { \"src\": \"/android-icon-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image\\/png\" }, { \"src\": \"/android-icon-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image\\/png\" } ], \"theme_color\": \"#111\", \"background_color\": \"#111\", \"display\": \"standalone\" }",
+      "tokens": [
+        "name",
+        "godaddy",
+        "short_name",
+        "godaddy",
+        "icons",
+        "src",
+        "android",
+        "icon",
+        "36x36",
+        "png",
+        "sizes",
+        "36x36",
+        "type",
+        "image",
+        "png",
+        "density",
+        "75",
+        "src",
+        "android",
+        "icon",
+        "48x48",
+        "png",
+        "sizes",
+        "48x48",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "android",
+        "icon",
+        "72x72",
+        "png",
+        "sizes",
+        "72x72",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "android",
+        "icon",
+        "96x96",
+        "png",
+        "sizes",
+        "96x96",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "android",
+        "icon",
+        "144x144",
+        "png",
+        "sizes",
+        "144x144",
+        "type",
+        "image",
+        "png",
+        "density",
+        "src",
+        "android",
+        "icon",
+        "192x192",
+        "png",
+        "sizes",
+        "192x192",
+        "type",
+        "image",
+        "png",
+        "src",
+        "android",
+        "icon",
+        "512x512",
+        "png",
+        "sizes",
+        "512x512",
+        "type",
+        "image",
+        "png",
+        "theme_color",
+        "111",
+        "background_color",
+        "111",
+        "display",
+        "standalone"
+      ]
+    },
+    {
+      "charEnd": 939,
+      "charStart": 934,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.2",
+      "kind": "bullet",
+      "text": "png",
+      "tokens": [
+        "png"
+      ]
+    },
+    {
+      "charEnd": 949,
+      "charStart": 940,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.3",
+      "kind": "bullet",
+      "text": "android",
+      "tokens": [
+        "android"
+      ]
+    },
+    {
+      "charEnd": 956,
+      "charStart": 950,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.4",
+      "kind": "bullet",
+      "text": "icon",
+      "tokens": [
+        "icon"
+      ]
+    },
+    {
+      "charEnd": 964,
+      "charStart": 957,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.5",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 972,
+      "charStart": 965,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.6",
+      "kind": "bullet",
+      "text": "sizes",
+      "tokens": [
+        "sizes"
+      ]
+    },
+    {
+      "charEnd": 978,
+      "charStart": 973,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.7",
+      "kind": "bullet",
+      "text": "src",
+      "tokens": [
+        "src"
+      ]
+    },
+    {
+      "charEnd": 985,
+      "charStart": 979,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.8",
+      "kind": "bullet",
+      "text": "type",
+      "tokens": [
+        "type"
+      ]
+    },
+    {
+      "charEnd": 995,
+      "charStart": 986,
+      "factId": "hz.web.f29fe8a9665ad31a.fact.9",
+      "kind": "bullet",
+      "text": "density",
+      "tokens": [
+        "density"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 17,
+      "charStart": 1,
+      "headingId": "hz.web.f29fe8a9665ad31a.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "img6.wsimg.com"
+    },
+    {
+      "charEnd": 131,
+      "charStart": 121,
+      "headingId": "hz.web.f29fe8a9665ad31a.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 932,
+      "charStart": 921,
+      "headingId": "hz.web.f29fe8a9665ad31a.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1007,
+      "charStart": 997,
+      "headingId": "hz.web.f29fe8a9665ad31a.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/f29fe8a9665ad31a.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2046,
+        "start": 0
+      }
+    ],
+    "hash": "1e398c5700457e3b497d987f9348e511426a67f511c28388e7d7037875bcb0df",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"name\": \"GoDaddy\", \"short_name\": \"GoDaddy\", \"icons\": [ { \"src\": \"/android-icon-36x36.png\", \"sizes\": \"36x36\", \"type\": \"image\\/png\", \"density\": \"0.75\" }, { \"src\": \"/android-icon-48x48.png\", \"sizes\": \"48x48\", \"type\": \"image\\/png\", \"density\": \"1.0\" }, { \"src\": \"/android-icon-72x72.png\", \"sizes\": \"72x72\", \"type\": \"image\\/png\", \"density\": \"1.5\" }, { \"src\": \"/android-icon-96x96.png\", \"sizes\": \"96x96\", \"type\": \"image\\/png\", \"density\": \"2.0\" }, { \"src\": \"/android-icon-144x144.png\", \"sizes\": \"144x144\", \"type\": \"image\\/png\", \"density\": \"3.0\" }, { \"src\": \"/android-icon-192x192.png\", \"sizes\": \"192x192\", \"type\": \"image\\/png\" }, { \"src\": \"/android-icon-512x512.png\", \"sizes\": \"512x512\", \"type\": \"image\\/png\" } ], \"theme_color\": \"#111\", \"background_color\": \"#111\", \"display\": \"standalone\" }",
+      "png",
+      "android"
+    ],
+    "medium": "Source: https://img6.wsimg.com/ux-assets/favicon/manifest.json",
+    "short": "Source: https://img6.wsimg.com/ux-assets/favicon/manifest.json",
+    "tokens": [
+      "img6",
+      "wsimg",
+      "com",
+      "source",
+      "https",
+      "img6",
+      "wsimg",
+      "com",
+      "ux",
+      "assets",
+      "favicon",
+      "manifest",
+      "json",
+      "source",
+      "https",
+      "img6",
+      "wsimg",
+      "com",
+      "ux",
+      "assets",
+      "favicon",
+      "manifest",
+      "json"
+    ]
+  },
+  "title": "img6.wsimg.com"
+}

@@ -1,0 +1,371 @@
+{
+  "aliases": [
+    {
+      "alias": "6dc87ed6611fc652",
+      "aliasId": "hz.web.6dc87ed6611fc652.alias.1",
+      "canonical": "gov.content.powerapps.us"
+    },
+    {
+      "alias": "gov.content.powerapps.us",
+      "aliasId": "hz.web.6dc87ed6611fc652.alias.2",
+      "canonical": "gov.content.powerapps.us"
+    },
+    {
+      "alias": "web 6dc87ed6611fc652",
+      "aliasId": "hz.web.6dc87ed6611fc652.alias.3",
+      "canonical": "gov.content.powerapps.us"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.46,
+  "docId": "hz.web.6dc87ed6611fc652",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6dc87ed6611fc652.entity.1",
+      "kind": "document",
+      "name": "gov.content.powerapps.us",
+      "tokens": [
+        "gov",
+        "content",
+        "powerapps",
+        "us"
+      ]
+    },
+    {
+      "entityId": "hz.web.6dc87ed6611fc652.entity.2",
+      "kind": "heading",
+      "name": "gov.content.powerapps.us",
+      "tokens": [
+        "gov",
+        "content",
+        "powerapps",
+        "us"
+      ]
+    },
+    {
+      "entityId": "hz.web.6dc87ed6611fc652.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6dc87ed6611fc652.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6dc87ed6611fc652.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 131,
+      "charStart": 29,
+      "factId": "hz.web.6dc87ed6611fc652.fact.1",
+      "kind": "summary",
+      "text": "Source: https://gov.content.powerapps.us/resource/powerappsportal/dist/pwa-style.bundle-55718a4c0d.css",
+      "tokens": [
+        "source",
+        "https",
+        "gov",
+        "content",
+        "powerapps",
+        "us",
+        "resource",
+        "powerappsportal",
+        "dist",
+        "pwa",
+        "style",
+        "bundle",
+        "55718a4c0d",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 761,
+      "charStart": 183,
+      "factId": "hz.web.6dc87ed6611fc652.fact.1",
+      "kind": "bullet",
+      "text": "#offlineNotificationBar{padding-top:10px;padding-bottom:10px;background:#fff4ce}.displayNone{display:none!important}#message{position:relative;font-family:Segoe UI;font-style:normal;font-weight:600;font-size:12px;line-height:133%;color:#323130}html[dir=rtl] #message{right:36px;margin-left:64px}html[dir=ltr] #message{left:36px;margin-right:64px}#web{position:absolute;line-height:100%}html[dir=rtl] #web{right:12px}html[dir=ltr] #web{left:12px}#close{position:absolute;line-height:100%;display:flex;cursor:pointer}html[dir=rtl] #close{left:8px}html[dir=ltr] #close{right:8px}",
+      "tokens": [
+        "offlinenotificationbar",
+        "padding",
+        "top",
+        "10px",
+        "padding",
+        "bottom",
+        "10px",
+        "background",
+        "fff4ce",
+        "displaynone",
+        "display",
+        "none",
+        "important",
+        "message",
+        "position",
+        "relative",
+        "font",
+        "family",
+        "segoe",
+        "ui",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "600",
+        "font",
+        "size",
+        "12px",
+        "line",
+        "height",
+        "133",
+        "color",
+        "323130",
+        "html",
+        "dir",
+        "rtl",
+        "message",
+        "right",
+        "36px",
+        "margin",
+        "left",
+        "64px",
+        "html",
+        "dir",
+        "ltr",
+        "message",
+        "left",
+        "36px",
+        "margin",
+        "right",
+        "64px",
+        "web",
+        "position",
+        "absolute",
+        "line",
+        "height",
+        "100",
+        "html",
+        "dir",
+        "rtl",
+        "web",
+        "right",
+        "12px",
+        "html",
+        "dir",
+        "ltr",
+        "web",
+        "left",
+        "12px",
+        "close",
+        "position",
+        "absolute",
+        "line",
+        "height",
+        "100",
+        "display",
+        "flex",
+        "cursor",
+        "pointer",
+        "html",
+        "dir",
+        "rtl",
+        "close",
+        "left",
+        "8px",
+        "html",
+        "dir",
+        "ltr",
+        "close",
+        "right",
+        "8px"
+      ]
+    },
+    {
+      "charEnd": 781,
+      "charStart": 776,
+      "factId": "hz.web.6dc87ed6611fc652.fact.2",
+      "kind": "bullet",
+      "text": "dir",
+      "tokens": [
+        "dir"
+      ]
+    },
+    {
+      "charEnd": 788,
+      "charStart": 782,
+      "factId": "hz.web.6dc87ed6611fc652.fact.3",
+      "kind": "bullet",
+      "text": "html",
+      "tokens": [
+        "html"
+      ]
+    },
+    {
+      "charEnd": 795,
+      "charStart": 789,
+      "factId": "hz.web.6dc87ed6611fc652.fact.4",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    },
+    {
+      "charEnd": 802,
+      "charStart": 796,
+      "factId": "hz.web.6dc87ed6611fc652.fact.5",
+      "kind": "bullet",
+      "text": "left",
+      "tokens": [
+        "left"
+      ]
+    },
+    {
+      "charEnd": 810,
+      "charStart": 803,
+      "factId": "hz.web.6dc87ed6611fc652.fact.6",
+      "kind": "bullet",
+      "text": "right",
+      "tokens": [
+        "right"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 811,
+      "factId": "hz.web.6dc87ed6611fc652.fact.7",
+      "kind": "bullet",
+      "text": "12px",
+      "tokens": [
+        "12px"
+      ]
+    },
+    {
+      "charEnd": 825,
+      "charStart": 818,
+      "factId": "hz.web.6dc87ed6611fc652.fact.8",
+      "kind": "bullet",
+      "text": "close",
+      "tokens": [
+        "close"
+      ]
+    },
+    {
+      "charEnd": 834,
+      "charStart": 826,
+      "factId": "hz.web.6dc87ed6611fc652.fact.9",
+      "kind": "bullet",
+      "text": "height",
+      "tokens": [
+        "height"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 27,
+      "charStart": 1,
+      "headingId": "hz.web.6dc87ed6611fc652.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "gov.content.powerapps.us"
+    },
+    {
+      "charEnd": 181,
+      "charStart": 171,
+      "headingId": "hz.web.6dc87ed6611fc652.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 774,
+      "charStart": 763,
+      "headingId": "hz.web.6dc87ed6611fc652.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 846,
+      "charStart": 836,
+      "headingId": "hz.web.6dc87ed6611fc652.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6dc87ed6611fc652.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 1727,
+        "start": 0
+      }
+    ],
+    "hash": "19b1af6de595e1ddba8705133793cf8c1bd0dbf658eca6a073bca409ef14cf9d",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "#offlineNotificationBar{padding-top:10px;padding-bottom:10px;background:#fff4ce}.displayNone{display:none!important}#message{position:relative;font-family:Segoe UI;font-style:normal;font-weight:600;font-size:12px;line-height:133%;color:#323130}html[dir=rtl] #message{right:36px;margin-left:64px}html[dir=ltr] #message{left:36px;margin-right:64px}#web{position:absolute;line-height:100%}html[dir=rtl] #web{right:12px}html[dir=ltr] #web{left:12px}#close{position:absolute;line-height:100%;display:flex;cursor:pointer}html[dir=rtl] #close{left:8px}html[dir=ltr] #close{right:8px}",
+      "dir",
+      "html"
+    ],
+    "medium": "Source: https://gov.content.powerapps.us/resource/powerappsportal/dist/pwa-style.bundle-55718a4c0d.css",
+    "short": "Source: https://gov.content.powerapps.us/resource/powerappsportal/dist/pwa-style.bundle-55718a4c0d.css",
+    "tokens": [
+      "gov",
+      "content",
+      "powerapps",
+      "us",
+      "source",
+      "https",
+      "gov",
+      "content",
+      "powerapps",
+      "us",
+      "resource",
+      "powerappsportal",
+      "dist",
+      "pwa",
+      "style",
+      "bundle",
+      "55718a4c0d",
+      "css",
+      "source",
+      "https",
+      "gov",
+      "content",
+      "powerapps",
+      "us",
+      "resource",
+      "powerappsportal",
+      "dist",
+      "pwa",
+      "style",
+      "bundle",
+      "55718a4c0d",
+      "css"
+    ]
+  },
+  "title": "gov.content.powerapps.us"
+}

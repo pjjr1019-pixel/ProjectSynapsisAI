@@ -1,0 +1,371 @@
+{
+  "aliases": [
+    {
+      "alias": "b7b21cb0d2f60c90",
+      "aliasId": "hz.web.b7b21cb0d2f60c90.alias.1",
+      "canonical": "&ulcorner; m e m o i r s &drcorn; &nbsp;&nbsp; &ctdot; &nbsp;&nbsp; update log"
+    },
+    {
+      "alias": "ulcorner m e m o i r s drcorn nbsp nbsp ctdot nbsp nbsp update log",
+      "aliasId": "hz.web.b7b21cb0d2f60c90.alias.2",
+      "canonical": "&ulcorner; m e m o i r s &drcorn; &nbsp;&nbsp; &ctdot; &nbsp;&nbsp; update log"
+    },
+    {
+      "alias": "web b7b21cb0d2f60c90",
+      "aliasId": "hz.web.b7b21cb0d2f60c90.alias.3",
+      "canonical": "&ulcorner; m e m o i r s &drcorn; &nbsp;&nbsp; &ctdot; &nbsp;&nbsp; update log"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.67,
+  "docId": "hz.web.b7b21cb0d2f60c90",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.b7b21cb0d2f60c90.entity.1",
+      "kind": "document",
+      "name": "&ulcorner; M E M O I R S &drcorn; &nbsp;&nbsp; &ctdot; &nbsp;&nbsp; update log",
+      "tokens": [
+        "ulcorner",
+        "drcorn",
+        "nbsp",
+        "nbsp",
+        "ctdot",
+        "nbsp",
+        "nbsp",
+        "update",
+        "log"
+      ]
+    },
+    {
+      "entityId": "hz.web.b7b21cb0d2f60c90.entity.2",
+      "kind": "heading",
+      "name": "&ulcorner; M E M O I R S &drcorn; &nbsp;&nbsp; &ctdot; &nbsp;&nbsp; update log",
+      "tokens": [
+        "ulcorner",
+        "drcorn",
+        "nbsp",
+        "nbsp",
+        "ctdot",
+        "nbsp",
+        "nbsp",
+        "update",
+        "log"
+      ]
+    },
+    {
+      "entityId": "hz.web.b7b21cb0d2f60c90.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.b7b21cb0d2f60c90.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.b7b21cb0d2f60c90.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 120,
+      "charStart": 83,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.1",
+      "kind": "summary",
+      "text": "Source: https://log.caelestis.nu/e/48",
+      "tokens": [
+        "source",
+        "https",
+        "log",
+        "caelestis",
+        "nu",
+        "48"
+      ]
+    },
+    {
+      "charEnd": 322,
+      "charStart": 172,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.1",
+      "kind": "bullet",
+      "text": "&ulcorner; M E M O I R S &drcorn; &ctdot; update log Index Archives Caelestis Contact Guestbook Welcome to Memoirs , the update log of Caelestis.nu!",
+      "tokens": [
+        "ulcorner",
+        "drcorn",
+        "ctdot",
+        "update",
+        "log",
+        "index",
+        "archives",
+        "caelestis",
+        "contact",
+        "guestbook",
+        "welcome",
+        "memoirs",
+        "update",
+        "log",
+        "caelestis",
+        "nu"
+      ]
+    },
+    {
+      "charEnd": 402,
+      "charStart": 323,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.2",
+      "kind": "bullet",
+      "text": "This is where you'll find all the latest changes and additions to the domain.",
+      "tokens": [
+        "ll",
+        "find",
+        "all",
+        "latest",
+        "changes",
+        "additions",
+        "domain"
+      ]
+    },
+    {
+      "charEnd": 511,
+      "charStart": 403,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.3",
+      "kind": "bullet",
+      "text": "If you're looking for an update for a particular site on the network, check out the archive section above.",
+      "tokens": [
+        "if",
+        "re",
+        "looking",
+        "update",
+        "particular",
+        "site",
+        "network",
+        "check",
+        "out",
+        "archive",
+        "section",
+        "above"
+      ]
+    },
+    {
+      "charEnd": 576,
+      "charStart": 512,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.4",
+      "kind": "bullet",
+      "text": "Individual site updates can be navigated by browsing the tags.",
+      "tokens": [
+        "individual",
+        "site",
+        "updates",
+        "navigated",
+        "browsing",
+        "tags"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 591,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.5",
+      "kind": "bullet",
+      "text": "clique",
+      "tokens": [
+        "clique"
+      ]
+    },
+    {
+      "charEnd": 607,
+      "charStart": 600,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.6",
+      "kind": "bullet",
+      "text": "aelyn",
+      "tokens": [
+        "aelyn"
+      ]
+    },
+    {
+      "charEnd": 615,
+      "charStart": 608,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.7",
+      "kind": "bullet",
+      "text": "field",
+      "tokens": [
+        "field"
+      ]
+    },
+    {
+      "charEnd": 623,
+      "charStart": 616,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.8",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 633,
+      "charStart": 624,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.9",
+      "kind": "bullet",
+      "text": "members",
+      "tokens": [
+        "members"
+      ]
+    },
+    {
+      "charEnd": 639,
+      "charStart": 634,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.10",
+      "kind": "bullet",
+      "text": "new",
+      "tokens": [
+        "new"
+      ]
+    },
+    {
+      "charEnd": 649,
+      "charStart": 640,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.11",
+      "kind": "bullet",
+      "text": "section",
+      "tokens": [
+        "section"
+      ]
+    },
+    {
+      "charEnd": 656,
+      "charStart": 650,
+      "factId": "hz.web.b7b21cb0d2f60c90.fact.12",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 81,
+      "charStart": 1,
+      "headingId": "hz.web.b7b21cb0d2f60c90.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "&ulcorner; M E M O I R S &drcorn; &nbsp;&nbsp; &ctdot; &nbsp;&nbsp; update log"
+    },
+    {
+      "charEnd": 170,
+      "charStart": 160,
+      "headingId": "hz.web.b7b21cb0d2f60c90.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 589,
+      "charStart": 578,
+      "headingId": "hz.web.b7b21cb0d2f60c90.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 668,
+      "charStart": 658,
+      "headingId": "hz.web.b7b21cb0d2f60c90.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/b7b21cb0d2f60c90.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2880,
+        "start": 0
+      }
+    ],
+    "hash": "16502df56fec2fce0b767e79d03455df036b66c8eed379a03bb29c4bf5b21abe",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.b7b21cb0d2f60c90.rule.1",
+      "text": "I went through 300+ members to do my sporadic link checks and pruned out dead links, links that took me a trip to find the code (and never found them) , and links that had decided not to link back to the clique.",
+      "tokens": [
+        "went",
+        "through",
+        "300",
+        "members",
+        "sporadic",
+        "link",
+        "checks",
+        "pruned",
+        "out",
+        "dead",
+        "links",
+        "links",
+        "took",
+        "trip",
+        "find",
+        "code",
+        "never",
+        "found",
+        "them",
+        "links",
+        "had",
+        "decided",
+        "not",
+        "link",
+        "back",
+        "clique"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "&ulcorner; M E M O I R S &drcorn; &ctdot; update log Index Archives Caelestis Contact Guestbook Welcome to Memoirs , the update log of Caelestis.nu!",
+      "This is where you'll find all the latest changes and additions to the domain.",
+      "If you're looking for an update for a particular site on the network, check out the archive section above."
+    ],
+    "medium": "Source: https://log.caelestis.nu/e/48",
+    "short": "Source: https://log.caelestis.nu/e/48",
+    "tokens": [
+      "ulcorner",
+      "drcorn",
+      "nbsp",
+      "nbsp",
+      "ctdot",
+      "nbsp",
+      "nbsp",
+      "update",
+      "log",
+      "source",
+      "https",
+      "log",
+      "caelestis",
+      "nu",
+      "48",
+      "source",
+      "https",
+      "log",
+      "caelestis",
+      "nu",
+      "48"
+    ]
+  },
+  "title": "&ulcorner; M E M O I R S &drcorn; &nbsp;&nbsp; &ctdot; &nbsp;&nbsp; update log"
+}

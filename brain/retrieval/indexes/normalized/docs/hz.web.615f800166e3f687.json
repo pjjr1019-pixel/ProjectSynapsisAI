@@ -1,0 +1,500 @@
+{
+  "aliases": [
+    {
+      "alias": "615f800166e3f687",
+      "aliasId": "hz.web.615f800166e3f687.alias.1",
+      "canonical": "product tour"
+    },
+    {
+      "alias": "product tour",
+      "aliasId": "hz.web.615f800166e3f687.alias.2",
+      "canonical": "product tour"
+    },
+    {
+      "alias": "web 615f800166e3f687",
+      "aliasId": "hz.web.615f800166e3f687.alias.3",
+      "canonical": "product tour"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.67,
+  "docId": "hz.web.615f800166e3f687",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.615f800166e3f687.entity.1",
+      "kind": "document",
+      "name": "Product Tour",
+      "tokens": [
+        "product",
+        "tour"
+      ]
+    },
+    {
+      "entityId": "hz.web.615f800166e3f687.entity.2",
+      "kind": "heading",
+      "name": "Product Tour",
+      "tokens": [
+        "product",
+        "tour"
+      ]
+    },
+    {
+      "entityId": "hz.web.615f800166e3f687.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.615f800166e3f687.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.615f800166e3f687.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 65,
+      "charStart": 17,
+      "factId": "hz.web.615f800166e3f687.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.stepsecurity.io/product-tour",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "stepsecurity",
+        "io",
+        "product",
+        "tour"
+      ]
+    },
+    {
+      "charEnd": 1882,
+      "charStart": 117,
+      "factId": "hz.web.615f800166e3f687.fact.1",
+      "kind": "bullet",
+      "text": "Product Tour Skip to main content Solutions GitHub Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Request a Demo Login Solutions Github Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Start Free Login StepSecurity Product Tour Explore StepSecurity product features with an interactive experience Categories Developer Experience Harden Runner Actions Governance Orchestrate Security Workflow Run Policies Search How Harden Runner detected the tj-actions supply chain attack Harden Runner Policy driven Pull Requests Orchestrate Security Harden Runner Detailed Demo Harden Runner Compromised Actions Policy Workflow Run Policies How to Get Your GitHub Actions Security Score Actions Governance Prevent NPM Supply Chain Attacks with Harden-Runner Harden Runner StepSecurity Maintained Actions Developer Experience How Harden-Runner determines minimum GITHUB_TOKEN permissions Harden Runner Policy driven Pull Requests (Developers) Developer Experience GitHub Checks (Harden Runner) Developer Experience Replace Third-Party Actions with StepSecurity Maintained Actions Actions Governance How to Setup Allowed Actions Policy Workflow Run Policies Workflow Run Policies Developer Experience Harden Runner analysis of compromised nx npm package Harden Runner How to Request a StepSecurity Maintained Action Actions Governance Explore Secrets Exfiltration Policy Workflow Run Policies How to Create Runner Label policy Workflow Run Policies There are no Product matching your criteria at this time.",
+      "tokens": [
+        "product",
+        "tour",
+        "skip",
+        "main",
+        "content",
+        "solutions",
+        "github",
+        "actions",
+        "dev",
+        "machine",
+        "guard",
+        "npm",
+        "security",
+        "customers",
+        "pricing",
+        "resources",
+        "blog",
+        "documentation",
+        "product",
+        "tour",
+        "github",
+        "actions",
+        "advisor",
+        "github",
+        "actions",
+        "audit",
+        "roi",
+        "calculator",
+        "company",
+        "about",
+        "us",
+        "newsroom",
+        "request",
+        "demo",
+        "login",
+        "solutions",
+        "github",
+        "actions",
+        "dev",
+        "machine",
+        "guard",
+        "npm",
+        "security",
+        "customers",
+        "pricing",
+        "resources",
+        "blog",
+        "documentation",
+        "product",
+        "tour",
+        "github",
+        "actions",
+        "advisor",
+        "github",
+        "actions",
+        "audit",
+        "roi",
+        "calculator",
+        "company",
+        "about",
+        "us",
+        "newsroom",
+        "start",
+        "free",
+        "login",
+        "stepsecurity",
+        "product",
+        "tour",
+        "explore",
+        "stepsecurity",
+        "product",
+        "features",
+        "interactive",
+        "experience",
+        "categories",
+        "developer",
+        "experience",
+        "harden",
+        "runner",
+        "actions",
+        "governance",
+        "orchestrate",
+        "security",
+        "workflow",
+        "run",
+        "policies",
+        "search",
+        "harden",
+        "runner",
+        "detected",
+        "tj",
+        "actions",
+        "supply",
+        "chain",
+        "attack",
+        "harden",
+        "runner",
+        "policy",
+        "driven",
+        "pull",
+        "requests",
+        "orchestrate",
+        "security",
+        "harden",
+        "runner",
+        "detailed",
+        "demo",
+        "harden",
+        "runner",
+        "compromised",
+        "actions",
+        "policy",
+        "workflow",
+        "run",
+        "policies",
+        "get",
+        "your",
+        "github",
+        "actions",
+        "security",
+        "score",
+        "actions",
+        "governance",
+        "prevent",
+        "npm",
+        "supply",
+        "chain",
+        "attacks",
+        "harden",
+        "runner",
+        "harden",
+        "runner",
+        "stepsecurity",
+        "maintained",
+        "actions",
+        "developer",
+        "experience",
+        "harden",
+        "runner",
+        "determines",
+        "minimum",
+        "github_token",
+        "permissions",
+        "harden",
+        "runner",
+        "policy",
+        "driven",
+        "pull",
+        "requests",
+        "developers",
+        "developer",
+        "experience",
+        "github",
+        "checks",
+        "harden",
+        "runner",
+        "developer",
+        "experience",
+        "replace",
+        "third",
+        "party",
+        "actions",
+        "stepsecurity",
+        "maintained",
+        "actions",
+        "actions",
+        "governance",
+        "setup",
+        "allowed",
+        "actions",
+        "policy",
+        "workflow",
+        "run",
+        "policies",
+        "workflow",
+        "run",
+        "policies",
+        "developer",
+        "experience",
+        "harden",
+        "runner",
+        "analysis",
+        "compromised",
+        "nx",
+        "npm",
+        "package",
+        "harden",
+        "runner",
+        "request",
+        "stepsecurity",
+        "maintained",
+        "action",
+        "actions",
+        "governance",
+        "explore",
+        "secrets",
+        "exfiltration",
+        "policy",
+        "workflow",
+        "run",
+        "policies",
+        "create",
+        "runner",
+        "label",
+        "policy",
+        "workflow",
+        "run",
+        "policies",
+        "there",
+        "no",
+        "product",
+        "matching",
+        "your",
+        "criteria",
+        "time"
+      ]
+    },
+    {
+      "charEnd": 1895,
+      "charStart": 1883,
+      "factId": "hz.web.615f800166e3f687.fact.2",
+      "kind": "bullet",
+      "text": "Thank you!",
+      "tokens": [
+        "thank"
+      ]
+    },
+    {
+      "charEnd": 1932,
+      "charStart": 1896,
+      "factId": "hz.web.615f800166e3f687.fact.3",
+      "kind": "bullet",
+      "text": "Your submission has been received!",
+      "tokens": [
+        "your",
+        "submission",
+        "has",
+        "received"
+      ]
+    },
+    {
+      "charEnd": 1940,
+      "charStart": 1933,
+      "factId": "hz.web.615f800166e3f687.fact.4",
+      "kind": "bullet",
+      "text": "Oops!",
+      "tokens": [
+        "oops"
+      ]
+    },
+    {
+      "charEnd": 1964,
+      "charStart": 1955,
+      "factId": "hz.web.615f800166e3f687.fact.5",
+      "kind": "bullet",
+      "text": "actions",
+      "tokens": [
+        "actions"
+      ]
+    },
+    {
+      "charEnd": 1973,
+      "charStart": 1965,
+      "factId": "hz.web.615f800166e3f687.fact.6",
+      "kind": "bullet",
+      "text": "runner",
+      "tokens": [
+        "runner"
+      ]
+    },
+    {
+      "charEnd": 1982,
+      "charStart": 1974,
+      "factId": "hz.web.615f800166e3f687.fact.7",
+      "kind": "bullet",
+      "text": "harden",
+      "tokens": [
+        "harden"
+      ]
+    },
+    {
+      "charEnd": 1991,
+      "charStart": 1983,
+      "factId": "hz.web.615f800166e3f687.fact.8",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    },
+    {
+      "charEnd": 2000,
+      "charStart": 1992,
+      "factId": "hz.web.615f800166e3f687.fact.9",
+      "kind": "bullet",
+      "text": "policy",
+      "tokens": [
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 2010,
+      "charStart": 2001,
+      "factId": "hz.web.615f800166e3f687.fact.10",
+      "kind": "bullet",
+      "text": "product",
+      "tokens": [
+        "product"
+      ]
+    },
+    {
+      "charEnd": 2023,
+      "charStart": 2011,
+      "factId": "hz.web.615f800166e3f687.fact.11",
+      "kind": "bullet",
+      "text": "experience",
+      "tokens": [
+        "experience"
+      ]
+    },
+    {
+      "charEnd": 2034,
+      "charStart": 2024,
+      "factId": "hz.web.615f800166e3f687.fact.12",
+      "kind": "bullet",
+      "text": "policies",
+      "tokens": [
+        "policies"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.615f800166e3f687.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Product Tour"
+    },
+    {
+      "charEnd": 115,
+      "charStart": 105,
+      "headingId": "hz.web.615f800166e3f687.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1953,
+      "charStart": 1942,
+      "headingId": "hz.web.615f800166e3f687.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2046,
+      "charStart": 2036,
+      "headingId": "hz.web.615f800166e3f687.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/615f800166e3f687.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4308,
+        "start": 0
+      }
+    ],
+    "hash": "fe340190ca138720ba4176e7046f54b4842a8489d3cfb4791cc8ec6e1856037c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Product Tour Skip to main content Solutions GitHub Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Request a Demo Login Solutions Github Actions Dev Machine Guard NPM Security Customers Pricing Resources Blog Documentation Product Tour GitHub Actions Advisor GitHub Actions Audit ROI Calculator Company About Us Newsroom Start Free Login StepSecurity Product Tour Explore StepSecurity product features with an interactive experience Categories Developer Experience Harden Runner Actions Governance Orchestrate Security Workflow Run Policies Search How Harden Runner detected the tj-actions supply chain attack Harden Runner Policy driven Pull Requests Orchestrate Security Harden Runner Detailed Demo Harden Runner Compromised Actions Policy Workflow Run Policies How to Get Your GitHub Actions Security Score Actions Governance Prevent NPM Supply Chain Attacks with Harden-Runner Harden Runner StepSecurity Maintained Actions Developer Experience How Harden-Runner determines minimum GITHUB_TOKEN permissions Harden Runner Policy driven Pull Requests (Developers) Developer Experience GitHub Checks (Harden Runner) Developer Experience Replace Third-Party Actions with StepSecurity Maintained Actions Actions Governance How to Setup Allowed Actions Policy Workflow Run Policies Workflow Run Policies Developer Experience Harden Runner analysis of compromised nx npm package Harden Runner How to Request a StepSecurity Maintained Action Actions Governance Explore Secrets Exfiltration Policy Workflow Run Policies How to Create Runner Label policy Workflow Run Policies There are no Product matching your criteria at this time.",
+      "Thank you!",
+      "Your submission has been received!"
+    ],
+    "medium": "Source: https://www.stepsecurity.io/product-tour",
+    "short": "Source: https://www.stepsecurity.io/product-tour",
+    "tokens": [
+      "product",
+      "tour",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "product",
+      "tour",
+      "source",
+      "https",
+      "www",
+      "stepsecurity",
+      "io",
+      "product",
+      "tour"
+    ]
+  },
+  "title": "Product Tour"
+}

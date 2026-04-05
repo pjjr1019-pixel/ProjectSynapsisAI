@@ -1,0 +1,359 @@
+{
+  "aliases": [
+    {
+      "alias": "c8981b481d4a16df",
+      "aliasId": "hz.web.c8981b481d4a16df.alias.1",
+      "canonical": "document notice"
+    },
+    {
+      "alias": "document notice",
+      "aliasId": "hz.web.c8981b481d4a16df.alias.2",
+      "canonical": "document notice"
+    },
+    {
+      "alias": "web c8981b481d4a16df",
+      "aliasId": "hz.web.c8981b481d4a16df.alias.3",
+      "canonical": "document notice"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.75,
+  "docId": "hz.web.c8981b481d4a16df",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.c8981b481d4a16df.entity.1",
+      "kind": "document",
+      "name": "DOCUMENT NOTICE",
+      "tokens": [
+        "document",
+        "notice"
+      ]
+    },
+    {
+      "entityId": "hz.web.c8981b481d4a16df.entity.2",
+      "kind": "heading",
+      "name": "DOCUMENT NOTICE",
+      "tokens": [
+        "document",
+        "notice"
+      ]
+    },
+    {
+      "entityId": "hz.web.c8981b481d4a16df.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.c8981b481d4a16df.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.c8981b481d4a16df.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 92,
+      "charStart": 20,
+      "factId": "hz.web.c8981b481d4a16df.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/Consortium/Legal/copyright-documents-19990405",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "consortium",
+        "legal",
+        "copyright",
+        "documents",
+        "19990405"
+      ]
+    },
+    {
+      "charEnd": 373,
+      "charStart": 144,
+      "factId": "hz.web.c8981b481d4a16df.fact.1",
+      "kind": "bullet",
+      "text": "DOCUMENT NOTICE W3C � DOCUMENT NOTICE AND LICENSE Copyright � 1994-2002 World Wide Web Consortium , ( Massachusetts Institute of Technology , Institut National de Recherche en Informatique et en Automatique , Keio University ).",
+      "tokens": [
+        "document",
+        "notice",
+        "w3c",
+        "document",
+        "notice",
+        "license",
+        "copyright",
+        "1994",
+        "2002",
+        "world",
+        "wide",
+        "web",
+        "consortium",
+        "massachusetts",
+        "institute",
+        "technology",
+        "institut",
+        "national",
+        "de",
+        "recherche",
+        "en",
+        "informatique",
+        "et",
+        "en",
+        "automatique",
+        "keio",
+        "university"
+      ]
+    },
+    {
+      "charEnd": 396,
+      "charStart": 374,
+      "factId": "hz.web.c8981b481d4a16df.fact.2",
+      "kind": "bullet",
+      "text": "All Rights Reserved.",
+      "tokens": [
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 397,
+      "factId": "hz.web.c8981b481d4a16df.fact.3",
+      "kind": "bullet",
+      "text": "http://www.w3.org/Consortium/Legal/ Public documents on the W3C site are provided by the copyright holders under the following license.",
+      "tokens": [
+        "http",
+        "www",
+        "w3",
+        "org",
+        "consortium",
+        "legal",
+        "public",
+        "documents",
+        "w3c",
+        "site",
+        "provided",
+        "copyright",
+        "holders",
+        "under",
+        "following",
+        "license"
+      ]
+    },
+    {
+      "charEnd": 658,
+      "charStart": 535,
+      "factId": "hz.web.c8981b481d4a16df.fact.4",
+      "kind": "bullet",
+      "text": "The software or Document Type Definitions (DTDs) associated with W3C specifications are governed by the Software Notice .",
+      "tokens": [
+        "software",
+        "document",
+        "type",
+        "definitions",
+        "dtds",
+        "associated",
+        "w3c",
+        "specifications",
+        "governed",
+        "software",
+        "notice"
+      ]
+    },
+    {
+      "charEnd": 683,
+      "charStart": 673,
+      "factId": "hz.web.c8981b481d4a16df.fact.5",
+      "kind": "bullet",
+      "text": "document",
+      "tokens": [
+        "document"
+      ]
+    },
+    {
+      "charEnd": 695,
+      "charStart": 684,
+      "factId": "hz.web.c8981b481d4a16df.fact.6",
+      "kind": "bullet",
+      "text": "copyright",
+      "tokens": [
+        "copyright"
+      ]
+    },
+    {
+      "charEnd": 701,
+      "charStart": 696,
+      "factId": "hz.web.c8981b481d4a16df.fact.7",
+      "kind": "bullet",
+      "text": "w3c",
+      "tokens": [
+        "w3c"
+      ]
+    },
+    {
+      "charEnd": 707,
+      "charStart": 702,
+      "factId": "hz.web.c8981b481d4a16df.fact.8",
+      "kind": "bullet",
+      "text": "any",
+      "tokens": [
+        "any"
+      ]
+    },
+    {
+      "charEnd": 716,
+      "charStart": 708,
+      "factId": "hz.web.c8981b481d4a16df.fact.9",
+      "kind": "bullet",
+      "text": "notice",
+      "tokens": [
+        "notice"
+      ]
+    },
+    {
+      "charEnd": 727,
+      "charStart": 717,
+      "factId": "hz.web.c8981b481d4a16df.fact.10",
+      "kind": "bullet",
+      "text": "contents",
+      "tokens": [
+        "contents"
+      ]
+    },
+    {
+      "charEnd": 737,
+      "charStart": 728,
+      "factId": "hz.web.c8981b481d4a16df.fact.11",
+      "kind": "bullet",
+      "text": "holders",
+      "tokens": [
+        "holders"
+      ]
+    },
+    {
+      "charEnd": 748,
+      "charStart": 738,
+      "factId": "hz.web.c8981b481d4a16df.fact.12",
+      "kind": "bullet",
+      "text": "provided",
+      "tokens": [
+        "provided"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.c8981b481d4a16df.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "DOCUMENT NOTICE"
+    },
+    {
+      "charEnd": 142,
+      "charStart": 132,
+      "headingId": "hz.web.c8981b481d4a16df.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 671,
+      "charStart": 660,
+      "headingId": "hz.web.c8981b481d4a16df.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 760,
+      "charStart": 750,
+      "headingId": "hz.web.c8981b481d4a16df.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/c8981b481d4a16df.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4026,
+        "start": 0
+      }
+    ],
+    "hash": "1bb8ed4db1cf9d5c4f17849e6699fdfef89ba8d113a296329e83a4b917b817b0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.c8981b481d4a16df.rule.1",
+      "text": "When space permits, inclusion of the full text of this NOTICE should be provided.",
+      "tokens": [
+        "space",
+        "permits",
+        "inclusion",
+        "full",
+        "text",
+        "notice",
+        "provided"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "DOCUMENT NOTICE W3C � DOCUMENT NOTICE AND LICENSE Copyright � 1994-2002 World Wide Web Consortium , ( Massachusetts Institute of Technology , Institut National de Recherche en Informatique et en Automatique , Keio University ).",
+      "All Rights Reserved.",
+      "http://www.w3.org/Consortium/Legal/ Public documents on the W3C site are provided by the copyright holders under the following license."
+    ],
+    "medium": "Source: https://www.w3.org/Consortium/Legal/copyright-documents-19990405",
+    "short": "Source: https://www.w3.org/Consortium/Legal/copyright-documents-19990405",
+    "tokens": [
+      "document",
+      "notice",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "consortium",
+      "legal",
+      "copyright",
+      "documents",
+      "19990405",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "consortium",
+      "legal",
+      "copyright",
+      "documents",
+      "19990405"
+    ]
+  },
+  "title": "DOCUMENT NOTICE"
+}

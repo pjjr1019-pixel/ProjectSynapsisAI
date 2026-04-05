@@ -1,0 +1,392 @@
+{
+  "aliases": [
+    {
+      "alias": "accessgudid - identify your medical device",
+      "aliasId": "hz.web.bd9cd37539a23d0d.alias.1",
+      "canonical": "accessgudid - identify your medical device"
+    },
+    {
+      "alias": "bd9cd37539a23d0d",
+      "aliasId": "hz.web.bd9cd37539a23d0d.alias.2",
+      "canonical": "accessgudid - identify your medical device"
+    },
+    {
+      "alias": "web bd9cd37539a23d0d",
+      "aliasId": "hz.web.bd9cd37539a23d0d.alias.3",
+      "canonical": "accessgudid - identify your medical device"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.73,
+  "docId": "hz.web.bd9cd37539a23d0d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bd9cd37539a23d0d.entity.1",
+      "kind": "document",
+      "name": "AccessGUDID - Identify Your Medical Device",
+      "tokens": [
+        "accessgudid",
+        "identify",
+        "your",
+        "medical",
+        "device"
+      ]
+    },
+    {
+      "entityId": "hz.web.bd9cd37539a23d0d.entity.2",
+      "kind": "heading",
+      "name": "AccessGUDID - Identify Your Medical Device",
+      "tokens": [
+        "accessgudid",
+        "identify",
+        "your",
+        "medical",
+        "device"
+      ]
+    },
+    {
+      "entityId": "hz.web.bd9cd37539a23d0d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.bd9cd37539a23d0d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.bd9cd37539a23d0d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 87,
+      "charStart": 47,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://accessgudid.nlm.nih.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "accessgudid",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 218,
+      "charStart": 139,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.1",
+      "kind": "bullet",
+      "text": "AccessGUDID - Identify Your Medical Device You are using an outdated browser.",
+      "tokens": [
+        "accessgudid",
+        "identify",
+        "your",
+        "medical",
+        "device",
+        "using",
+        "outdated",
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 276,
+      "charStart": 219,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.2",
+      "kind": "bullet",
+      "text": "Please upgrade your browser to improve your experience.",
+      "tokens": [
+        "please",
+        "upgrade",
+        "your",
+        "browser",
+        "improve",
+        "your",
+        "experience"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 277,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.3",
+      "kind": "bullet",
+      "text": "Skip to Search Skip to Main Content National Library of Medicine NLM Tools and Resources FDA UDI Home FDA Medical Devices Home Report a Device Problem (MedWatch) Device Recalls Device Safety Communications New Data Elements New fields in AccessGUDID data!",
+      "tokens": [
+        "skip",
+        "search",
+        "skip",
+        "main",
+        "content",
+        "national",
+        "library",
+        "medicine",
+        "nlm",
+        "tools",
+        "resources",
+        "fda",
+        "udi",
+        "home",
+        "fda",
+        "medical",
+        "devices",
+        "home",
+        "report",
+        "device",
+        "problem",
+        "medwatch",
+        "device",
+        "recalls",
+        "device",
+        "safety",
+        "communications",
+        "new",
+        "data",
+        "elements",
+        "new",
+        "fields",
+        "accessgudid",
+        "data"
+      ]
+    },
+    {
+      "charEnd": 999,
+      "charStart": 535,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.4",
+      "kind": "bullet",
+      "text": "--> Home About News Download API Help Customer Support & FAQ FDA Tools and Resources FDA UDI Home FDA Medical Devices Home Report a Device Problem (MedWatch) Device Recalls Device Safety Communications GUDID Advanced Search Search Help ABOUT AccessGUDID ABOUT AccessGUDID The Global Unique Device Identification Database (GUDID) contains key device identification information submitted to the FDA about medical devices that have Unique Device Identifiers (UDI) .",
+      "tokens": [
+        "home",
+        "about",
+        "news",
+        "download",
+        "api",
+        "help",
+        "customer",
+        "support",
+        "faq",
+        "fda",
+        "tools",
+        "resources",
+        "fda",
+        "udi",
+        "home",
+        "fda",
+        "medical",
+        "devices",
+        "home",
+        "report",
+        "device",
+        "problem",
+        "medwatch",
+        "device",
+        "recalls",
+        "device",
+        "safety",
+        "communications",
+        "gudid",
+        "advanced",
+        "search",
+        "search",
+        "help",
+        "about",
+        "accessgudid",
+        "about",
+        "accessgudid",
+        "global",
+        "unique",
+        "device",
+        "identification",
+        "database",
+        "gudid",
+        "contains",
+        "key",
+        "device",
+        "identification",
+        "information",
+        "submitted",
+        "fda",
+        "about",
+        "medical",
+        "devices",
+        "have",
+        "unique",
+        "device",
+        "identifiers",
+        "udi"
+      ]
+    },
+    {
+      "charEnd": 1022,
+      "charStart": 1014,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.5",
+      "kind": "bullet",
+      "text": "device",
+      "tokens": [
+        "device"
+      ]
+    },
+    {
+      "charEnd": 1028,
+      "charStart": 1023,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.6",
+      "kind": "bullet",
+      "text": "fda",
+      "tokens": [
+        "fda"
+      ]
+    },
+    {
+      "charEnd": 1042,
+      "charStart": 1029,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.7",
+      "kind": "bullet",
+      "text": "accessgudid",
+      "tokens": [
+        "accessgudid"
+      ]
+    },
+    {
+      "charEnd": 1049,
+      "charStart": 1043,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.8",
+      "kind": "bullet",
+      "text": "home",
+      "tokens": [
+        "home"
+      ]
+    },
+    {
+      "charEnd": 1059,
+      "charStart": 1050,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.9",
+      "kind": "bullet",
+      "text": "medical",
+      "tokens": [
+        "medical"
+      ]
+    },
+    {
+      "charEnd": 1067,
+      "charStart": 1060,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.10",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1077,
+      "charStart": 1068,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.11",
+      "kind": "bullet",
+      "text": "devices",
+      "tokens": [
+        "devices"
+      ]
+    },
+    {
+      "charEnd": 1088,
+      "charStart": 1078,
+      "factId": "hz.web.bd9cd37539a23d0d.fact.12",
+      "kind": "bullet",
+      "text": "download",
+      "tokens": [
+        "download"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 45,
+      "charStart": 1,
+      "headingId": "hz.web.bd9cd37539a23d0d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "AccessGUDID - Identify Your Medical Device"
+    },
+    {
+      "charEnd": 137,
+      "charStart": 127,
+      "headingId": "hz.web.bd9cd37539a23d0d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1012,
+      "charStart": 1001,
+      "headingId": "hz.web.bd9cd37539a23d0d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1100,
+      "charStart": 1090,
+      "headingId": "hz.web.bd9cd37539a23d0d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/bd9cd37539a23d0d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4186,
+        "start": 0
+      }
+    ],
+    "hash": "ff0d5b3efb2c95a4ef43a783977957bc703eb016989212f6e0ff8f94b4fad9bc",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "AccessGUDID - Identify Your Medical Device You are using an outdated browser.",
+      "Please upgrade your browser to improve your experience.",
+      "Skip to Search Skip to Main Content National Library of Medicine NLM Tools and Resources FDA UDI Home FDA Medical Devices Home Report a Device Problem (MedWatch) Device Recalls Device Safety Communications New Data Elements New fields in AccessGUDID data!"
+    ],
+    "medium": "Source: https://accessgudid.nlm.nih.gov/",
+    "short": "Source: https://accessgudid.nlm.nih.gov/",
+    "tokens": [
+      "accessgudid",
+      "identify",
+      "your",
+      "medical",
+      "device",
+      "source",
+      "https",
+      "accessgudid",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "accessgudid",
+      "nlm",
+      "nih",
+      "gov"
+    ]
+  },
+  "title": "AccessGUDID - Identify Your Medical Device"
+}

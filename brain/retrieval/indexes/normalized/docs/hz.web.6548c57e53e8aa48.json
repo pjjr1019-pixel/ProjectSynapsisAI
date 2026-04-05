@@ -1,0 +1,387 @@
+{
+  "aliases": [
+    {
+      "alias": "6548c57e53e8aa48",
+      "aliasId": "hz.web.6548c57e53e8aa48.alias.1",
+      "canonical": "cdn.ncbi.nlm.nih.gov"
+    },
+    {
+      "alias": "cdn.ncbi.nlm.nih.gov",
+      "aliasId": "hz.web.6548c57e53e8aa48.alias.2",
+      "canonical": "cdn.ncbi.nlm.nih.gov"
+    },
+    {
+      "alias": "web 6548c57e53e8aa48",
+      "aliasId": "hz.web.6548c57e53e8aa48.alias.3",
+      "canonical": "cdn.ncbi.nlm.nih.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.6548c57e53e8aa48",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6548c57e53e8aa48.entity.1",
+      "kind": "document",
+      "name": "cdn.ncbi.nlm.nih.gov",
+      "tokens": [
+        "cdn",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548c57e53e8aa48.entity.2",
+      "kind": "heading",
+      "name": "cdn.ncbi.nlm.nih.gov",
+      "tokens": [
+        "cdn",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548c57e53e8aa48.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548c57e53e8aa48.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6548c57e53e8aa48.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 94,
+      "charStart": 25,
+      "factId": "hz.web.6548c57e53e8aa48.fact.1",
+      "kind": "summary",
+      "text": "Source: https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/opensearch.xml",
+      "tokens": [
+        "source",
+        "https",
+        "cdn",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "pubmed",
+        "persistent",
+        "opensearch",
+        "xml"
+      ]
+    },
+    {
+      "charEnd": 990,
+      "charStart": 146,
+      "factId": "hz.web.6548c57e53e8aa48.fact.1",
+      "kind": "bullet",
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>PubMed</ShortName> <Description>Use PubMed to search 17 million citations from MEDLINE and other life science journals for biomedical articles back to the 1800s.</Description> <Tags>PubMed</Tags> <Contact>[redacted-email]</Contact> <Image width=\"64\" height=\"64\" type=\"image/png\">https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-logo.png</Image> <Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico</Image> <Url type=\"text/html\" method=\"get\" template=\"https://pubmed.ncbi.nlm.nih.gov/?term={searchTerms}\"/> <moz:SearchForm>https://pubmed.ncbi.nlm.nih.gov/</moz:SearchForm> </OpenSearchDescription>",
+      "tokens": [
+        "xml",
+        "version",
+        "encoding",
+        "utf",
+        "opensearchdescription",
+        "xmlns",
+        "http",
+        "a9",
+        "com",
+        "spec",
+        "opensearch",
+        "xmlns",
+        "moz",
+        "http",
+        "www",
+        "mozilla",
+        "org",
+        "2006",
+        "browser",
+        "search",
+        "shortname",
+        "pubmed",
+        "shortname",
+        "description",
+        "use",
+        "pubmed",
+        "search",
+        "17",
+        "million",
+        "citations",
+        "medline",
+        "other",
+        "life",
+        "science",
+        "journals",
+        "biomedical",
+        "articles",
+        "back",
+        "1800s",
+        "description",
+        "tags",
+        "pubmed",
+        "tags",
+        "contact",
+        "redacted",
+        "email",
+        "contact",
+        "image",
+        "width",
+        "64",
+        "height",
+        "64",
+        "type",
+        "image",
+        "png",
+        "https",
+        "cdn",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "pubmed",
+        "persistent",
+        "pubmed",
+        "logo",
+        "png",
+        "image",
+        "image",
+        "height",
+        "16",
+        "width",
+        "16",
+        "type",
+        "image",
+        "icon",
+        "https",
+        "cdn",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "coreutils",
+        "nwds",
+        "img",
+        "favicons",
+        "favicon",
+        "ico",
+        "image",
+        "url",
+        "type",
+        "text",
+        "html",
+        "method",
+        "get",
+        "template",
+        "https",
+        "pubmed",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "term",
+        "searchterms",
+        "moz",
+        "searchform",
+        "https",
+        "pubmed",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov",
+        "moz",
+        "searchform",
+        "opensearchdescription"
+      ]
+    },
+    {
+      "charEnd": 1013,
+      "charStart": 1005,
+      "factId": "hz.web.6548c57e53e8aa48.fact.2",
+      "kind": "bullet",
+      "text": "pubmed",
+      "tokens": [
+        "pubmed"
+      ]
+    },
+    {
+      "charEnd": 1021,
+      "charStart": 1014,
+      "factId": "hz.web.6548c57e53e8aa48.fact.3",
+      "kind": "bullet",
+      "text": "image",
+      "tokens": [
+        "image"
+      ]
+    },
+    {
+      "charEnd": 1027,
+      "charStart": 1022,
+      "factId": "hz.web.6548c57e53e8aa48.fact.4",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1035,
+      "charStart": 1028,
+      "factId": "hz.web.6548c57e53e8aa48.fact.5",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1042,
+      "charStart": 1036,
+      "factId": "hz.web.6548c57e53e8aa48.fact.6",
+      "kind": "bullet",
+      "text": "ncbi",
+      "tokens": [
+        "ncbi"
+      ]
+    },
+    {
+      "charEnd": 1048,
+      "charStart": 1043,
+      "factId": "hz.web.6548c57e53e8aa48.fact.7",
+      "kind": "bullet",
+      "text": "nih",
+      "tokens": [
+        "nih"
+      ]
+    },
+    {
+      "charEnd": 1054,
+      "charStart": 1049,
+      "factId": "hz.web.6548c57e53e8aa48.fact.8",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 1060,
+      "charStart": 1055,
+      "factId": "hz.web.6548c57e53e8aa48.fact.9",
+      "kind": "bullet",
+      "text": "moz",
+      "tokens": [
+        "moz"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.6548c57e53e8aa48.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "cdn.ncbi.nlm.nih.gov"
+    },
+    {
+      "charEnd": 144,
+      "charStart": 134,
+      "headingId": "hz.web.6548c57e53e8aa48.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1003,
+      "charStart": 992,
+      "headingId": "hz.web.6548c57e53e8aa48.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1072,
+      "charStart": 1062,
+      "headingId": "hz.web.6548c57e53e8aa48.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/6548c57e53e8aa48.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2182,
+        "start": 0
+      }
+    ],
+    "hash": "081147eb92cf61b8a758b2e9f8d561782290632ad8e1251b59396fcddfe482d7",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <OpenSearchDescription xmlns=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:moz=\"http://www.mozilla.org/2006/browser/search/\"> <ShortName>PubMed</ShortName> <Description>Use PubMed to search 17 million citations from MEDLINE and other life science journals for biomedical articles back to the 1800s.</Description> <Tags>PubMed</Tags> <Contact>[redacted-email]</Contact> <Image width=\"64\" height=\"64\" type=\"image/png\">https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-logo.png</Image> <Image height=\"16\" width=\"16\" type=\"image/x-icon\">https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico</Image> <Url type=\"text/html\" method=\"get\" template=\"https://pubmed.ncbi.nlm.nih.gov/?term={searchTerms}\"/> <moz:SearchForm>https://pubmed.ncbi.nlm.nih.gov/</moz:SearchForm> </OpenSearchDescription>",
+      "pubmed",
+      "image"
+    ],
+    "medium": "Source: https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/opensearch.xml",
+    "short": "Source: https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/opensearch.xml",
+    "tokens": [
+      "cdn",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "cdn",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "pubmed",
+      "persistent",
+      "opensearch",
+      "xml",
+      "source",
+      "https",
+      "cdn",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "pubmed",
+      "persistent",
+      "opensearch",
+      "xml"
+    ]
+  },
+  "title": "cdn.ncbi.nlm.nih.gov"
+}

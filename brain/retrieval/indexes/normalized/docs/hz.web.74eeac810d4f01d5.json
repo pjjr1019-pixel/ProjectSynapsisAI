@@ -1,0 +1,406 @@
+{
+  "aliases": [
+    {
+      "alias": "74eeac810d4f01d5",
+      "aliasId": "hz.web.74eeac810d4f01d5.alias.1",
+      "canonical": "year one of maha | hhs.gov"
+    },
+    {
+      "alias": "web 74eeac810d4f01d5",
+      "aliasId": "hz.web.74eeac810d4f01d5.alias.2",
+      "canonical": "year one of maha | hhs.gov"
+    },
+    {
+      "alias": "year one of maha hhs.gov",
+      "aliasId": "hz.web.74eeac810d4f01d5.alias.3",
+      "canonical": "year one of maha | hhs.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.74eeac810d4f01d5",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.74eeac810d4f01d5.entity.1",
+      "kind": "document",
+      "name": "Year One of MAHA | HHS.gov",
+      "tokens": [
+        "year",
+        "one",
+        "maha",
+        "hhs",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.74eeac810d4f01d5.entity.2",
+      "kind": "heading",
+      "name": "Year One of MAHA | HHS.gov",
+      "tokens": [
+        "year",
+        "one",
+        "maha",
+        "hhs",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.74eeac810d4f01d5.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.74eeac810d4f01d5.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.74eeac810d4f01d5.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 86,
+      "charStart": 31,
+      "factId": "hz.web.74eeac810d4f01d5.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.hhs.gov/one-year-of-maha/index.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "hhs",
+        "gov",
+        "one",
+        "year",
+        "maha",
+        "index",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 390,
+      "charStart": 138,
+      "factId": "hz.web.74eeac810d4f01d5.fact.1",
+      "kind": "bullet",
+      "text": "Year One of MAHA | HHS.gov Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "year",
+        "one",
+        "maha",
+        "hhs",
+        "gov",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 497,
+      "charStart": 391,
+      "factId": "hz.web.74eeac810d4f01d5.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 562,
+      "charStart": 498,
+      "factId": "hz.web.74eeac810d4f01d5.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1057,
+      "charStart": 563,
+      "factId": "hz.web.74eeac810d4f01d5.fact.4",
+      "kind": "bullet",
+      "text": "Join HHS in Celebrating Freedom 250 About HHS RealFood.gov MAHA Programs & Services Grants & Contracts Laws & Regulations Radical Transparency Show search form HHS Search block Search Menu Year One of MAHA Building a healthier, stronger America Under the leadership of President Trump and Secretary Kennedy, HHS is taking bold, decisive action to reform America’s food, health, and scientific systems to identify the root causes of the chronic disease epidemic and Make America Healthy Again.",
+      "tokens": [
+        "join",
+        "hhs",
+        "celebrating",
+        "freedom",
+        "250",
+        "about",
+        "hhs",
+        "realfood",
+        "gov",
+        "maha",
+        "programs",
+        "services",
+        "grants",
+        "contracts",
+        "laws",
+        "regulations",
+        "radical",
+        "transparency",
+        "show",
+        "search",
+        "form",
+        "hhs",
+        "search",
+        "block",
+        "search",
+        "menu",
+        "year",
+        "one",
+        "maha",
+        "building",
+        "healthier",
+        "stronger",
+        "america",
+        "under",
+        "leadership",
+        "president",
+        "trump",
+        "secretary",
+        "kennedy",
+        "hhs",
+        "taking",
+        "bold",
+        "decisive",
+        "action",
+        "reform",
+        "america",
+        "food",
+        "health",
+        "scientific",
+        "systems",
+        "identify",
+        "root",
+        "causes",
+        "chronic",
+        "disease",
+        "epidemic",
+        "make",
+        "america",
+        "healthy",
+        "again"
+      ]
+    },
+    {
+      "charEnd": 1077,
+      "charStart": 1072,
+      "factId": "hz.web.74eeac810d4f01d5.fact.5",
+      "kind": "bullet",
+      "text": "hhs",
+      "tokens": [
+        "hhs"
+      ]
+    },
+    {
+      "charEnd": 1085,
+      "charStart": 1078,
+      "factId": "hz.web.74eeac810d4f01d5.fact.6",
+      "kind": "bullet",
+      "text": "video",
+      "tokens": [
+        "video"
+      ]
+    },
+    {
+      "charEnd": 1093,
+      "charStart": 1086,
+      "factId": "hz.web.74eeac810d4f01d5.fact.7",
+      "kind": "bullet",
+      "text": "watch",
+      "tokens": [
+        "watch"
+      ]
+    },
+    {
+      "charEnd": 1101,
+      "charStart": 1094,
+      "factId": "hz.web.74eeac810d4f01d5.fact.8",
+      "kind": "bullet",
+      "text": "press",
+      "tokens": [
+        "press"
+      ]
+    },
+    {
+      "charEnd": 1111,
+      "charStart": 1102,
+      "factId": "hz.web.74eeac810d4f01d5.fact.9",
+      "kind": "bullet",
+      "text": "release",
+      "tokens": [
+        "release"
+      ]
+    },
+    {
+      "charEnd": 1117,
+      "charStart": 1112,
+      "factId": "hz.web.74eeac810d4f01d5.fact.10",
+      "kind": "bullet",
+      "text": "sec",
+      "tokens": [
+        "sec"
+      ]
+    },
+    {
+      "charEnd": 1124,
+      "charStart": 1118,
+      "factId": "hz.web.74eeac810d4f01d5.fact.11",
+      "kind": "bullet",
+      "text": "food",
+      "tokens": [
+        "food"
+      ]
+    },
+    {
+      "charEnd": 1136,
+      "charStart": 1125,
+      "factId": "hz.web.74eeac810d4f01d5.fact.12",
+      "kind": "bullet",
+      "text": "childhood",
+      "tokens": [
+        "childhood"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 29,
+      "charStart": 1,
+      "headingId": "hz.web.74eeac810d4f01d5.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Year One of MAHA | HHS.gov"
+    },
+    {
+      "charEnd": 136,
+      "charStart": 126,
+      "headingId": "hz.web.74eeac810d4f01d5.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1070,
+      "charStart": 1059,
+      "headingId": "hz.web.74eeac810d4f01d5.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1148,
+      "charStart": 1138,
+      "headingId": "hz.web.74eeac810d4f01d5.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/74eeac810d4f01d5.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4408,
+        "start": 0
+      }
+    ],
+    "hash": "9c7001dcc597399d31f70a9faab3f752c1c0a660fe480f8cb98f42f3093e7fd6",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Year One of MAHA | HHS.gov Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.hhs.gov/one-year-of-maha/index.html",
+    "short": "Source: https://www.hhs.gov/one-year-of-maha/index.html",
+    "tokens": [
+      "year",
+      "one",
+      "maha",
+      "hhs",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "hhs",
+      "gov",
+      "one",
+      "year",
+      "maha",
+      "index",
+      "html",
+      "source",
+      "https",
+      "www",
+      "hhs",
+      "gov",
+      "one",
+      "year",
+      "maha",
+      "index",
+      "html"
+    ]
+  },
+  "title": "Year One of MAHA | HHS.gov"
+}

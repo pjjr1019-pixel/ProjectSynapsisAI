@@ -1,0 +1,413 @@
+{
+  "aliases": [
+    {
+      "alias": "7587796c67978d59",
+      "aliasId": "hz.web.7587796c67978d59.alias.1",
+      "canonical": "a p3p assurance signature profile"
+    },
+    {
+      "alias": "a p3p assurance signature profile",
+      "aliasId": "hz.web.7587796c67978d59.alias.2",
+      "canonical": "a p3p assurance signature profile"
+    },
+    {
+      "alias": "web 7587796c67978d59",
+      "aliasId": "hz.web.7587796c67978d59.alias.3",
+      "canonical": "a p3p assurance signature profile"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.7587796c67978d59",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.7587796c67978d59.entity.1",
+      "kind": "document",
+      "name": "A P3P Assurance Signature Profile",
+      "tokens": [
+        "p3p",
+        "assurance",
+        "signature",
+        "profile"
+      ]
+    },
+    {
+      "entityId": "hz.web.7587796c67978d59.entity.2",
+      "kind": "heading",
+      "name": "A P3P Assurance Signature Profile",
+      "tokens": [
+        "p3p",
+        "assurance",
+        "signature",
+        "profile"
+      ]
+    },
+    {
+      "entityId": "hz.web.7587796c67978d59.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.7587796c67978d59.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.7587796c67978d59.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 107,
+      "charStart": 38,
+      "factId": "hz.web.7587796c67978d59.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/TR/2001/NOTE-xmldsig-p3p-profile-20010202/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2001",
+        "note",
+        "xmldsig",
+        "p3p",
+        "profile",
+        "20010202"
+      ]
+    },
+    {
+      "charEnd": 575,
+      "charStart": 159,
+      "factId": "hz.web.7587796c67978d59.fact.1",
+      "kind": "bullet",
+      "text": "A P3P Assurance Signature Profile A P3P Assurance Signature Profile W3C Note 2 February 2001 This version: http://www.w3.org/TR/2001/NOTE-xmldsig-p3p-profile-20010202/ Latest version: http://www.w3.org/TR/xmldsig-p3p-profile/ Previous version: n/a Author/Editor: Joseph Reagle &lt; [redacted-email] &gt; Contributors See Acknowledgements Copyright &copy; 2001 W3C &reg; ( MIT , INRIA , Keio ), All Rights Reserved.",
+      "tokens": [
+        "p3p",
+        "assurance",
+        "signature",
+        "profile",
+        "p3p",
+        "assurance",
+        "signature",
+        "profile",
+        "w3c",
+        "note",
+        "february",
+        "2001",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2001",
+        "note",
+        "xmldsig",
+        "p3p",
+        "profile",
+        "20010202",
+        "latest",
+        "version",
+        "http",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "xmldsig",
+        "p3p",
+        "profile",
+        "previous",
+        "version",
+        "author",
+        "editor",
+        "joseph",
+        "reagle",
+        "lt",
+        "redacted",
+        "email",
+        "gt",
+        "contributors",
+        "see",
+        "acknowledgements",
+        "copyright",
+        "copy",
+        "2001",
+        "w3c",
+        "reg",
+        "mit",
+        "inria",
+        "keio",
+        "all",
+        "rights",
+        "reserved"
+      ]
+    },
+    {
+      "charEnd": 654,
+      "charStart": 576,
+      "factId": "hz.web.7587796c67978d59.fact.2",
+      "kind": "bullet",
+      "text": "W3C liability , trademark , document use and software licensing rules apply.",
+      "tokens": [
+        "w3c",
+        "liability",
+        "trademark",
+        "document",
+        "use",
+        "software",
+        "licensing",
+        "rules",
+        "apply"
+      ]
+    },
+    {
+      "charEnd": 825,
+      "charStart": 655,
+      "factId": "hz.web.7587796c67978d59.fact.3",
+      "kind": "bullet",
+      "text": "Abstract This document specifies a P3P Assurance Signature Profile: the intended meaning (assures) of the key holder is bound to the signature via a SignatureProperty .",
+      "tokens": [
+        "abstract",
+        "document",
+        "specifies",
+        "p3p",
+        "assurance",
+        "signature",
+        "profile",
+        "intended",
+        "meaning",
+        "assures",
+        "key",
+        "holder",
+        "bound",
+        "signature",
+        "via",
+        "signatureproperty"
+      ]
+    },
+    {
+      "charEnd": 897,
+      "charStart": 826,
+      "factId": "hz.web.7587796c67978d59.fact.4",
+      "kind": "bullet",
+      "text": "Status of this document This Note is available for W3C-member review.",
+      "tokens": [
+        "status",
+        "document",
+        "note",
+        "available",
+        "w3c",
+        "member",
+        "review"
+      ]
+    },
+    {
+      "charEnd": 916,
+      "charStart": 912,
+      "factId": "hz.web.7587796c67978d59.fact.5",
+      "kind": "bullet",
+      "text": "gt",
+      "tokens": [
+        "gt"
+      ]
+    },
+    {
+      "charEnd": 921,
+      "charStart": 917,
+      "factId": "hz.web.7587796c67978d59.fact.6",
+      "kind": "bullet",
+      "text": "lt",
+      "tokens": [
+        "lt"
+      ]
+    },
+    {
+      "charEnd": 927,
+      "charStart": 922,
+      "factId": "hz.web.7587796c67978d59.fact.7",
+      "kind": "bullet",
+      "text": "p3p",
+      "tokens": [
+        "p3p"
+      ]
+    },
+    {
+      "charEnd": 939,
+      "charStart": 928,
+      "factId": "hz.web.7587796c67978d59.fact.8",
+      "kind": "bullet",
+      "text": "signature",
+      "tokens": [
+        "signature"
+      ]
+    },
+    {
+      "charEnd": 946,
+      "charStart": 940,
+      "factId": "hz.web.7587796c67978d59.fact.9",
+      "kind": "bullet",
+      "text": "http",
+      "tokens": [
+        "http"
+      ]
+    },
+    {
+      "charEnd": 952,
+      "charStart": 947,
+      "factId": "hz.web.7587796c67978d59.fact.10",
+      "kind": "bullet",
+      "text": "org",
+      "tokens": [
+        "org"
+      ]
+    },
+    {
+      "charEnd": 958,
+      "charStart": 953,
+      "factId": "hz.web.7587796c67978d59.fact.11",
+      "kind": "bullet",
+      "text": "www",
+      "tokens": [
+        "www"
+      ]
+    },
+    {
+      "charEnd": 964,
+      "charStart": 959,
+      "factId": "hz.web.7587796c67978d59.fact.12",
+      "kind": "bullet",
+      "text": "xml",
+      "tokens": [
+        "xml"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.web.7587796c67978d59.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "A P3P Assurance Signature Profile"
+    },
+    {
+      "charEnd": 157,
+      "charStart": 147,
+      "headingId": "hz.web.7587796c67978d59.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 910,
+      "charStart": 899,
+      "headingId": "hz.web.7587796c67978d59.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 976,
+      "charStart": 966,
+      "headingId": "hz.web.7587796c67978d59.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/7587796c67978d59.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4257,
+        "start": 0
+      }
+    ],
+    "hash": "8c747bb342d691cfcc75321d7ad603de6bd1f58ca1bdaac688e70156714a4df1",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.7587796c67978d59.rule.1",
+      "text": "Instead this document presents a possible use of SignatureProperty , as permitted (but not required) by the XML Signature specification, for further exploration/discussion.",
+      "tokens": [
+        "instead",
+        "document",
+        "presents",
+        "possible",
+        "use",
+        "signatureproperty",
+        "permitted",
+        "but",
+        "not",
+        "required",
+        "xml",
+        "signature",
+        "specification",
+        "further",
+        "exploration",
+        "discussion"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "A P3P Assurance Signature Profile A P3P Assurance Signature Profile W3C Note 2 February 2001 This version: http://www.w3.org/TR/2001/NOTE-xmldsig-p3p-profile-20010202/ Latest version: http://www.w3.org/TR/xmldsig-p3p-profile/ Previous version: n/a Author/Editor: Joseph Reagle &lt; [redacted-email] &gt; Contributors See Acknowledgements Copyright &copy; 2001 W3C &reg; ( MIT , INRIA , Keio ), All Rights Reserved.",
+      "W3C liability , trademark , document use and software licensing rules apply.",
+      "Abstract This document specifies a P3P Assurance Signature Profile: the intended meaning (assures) of the key holder is bound to the signature via a SignatureProperty ."
+    ],
+    "medium": "Source: https://www.w3.org/TR/2001/NOTE-xmldsig-p3p-profile-20010202/",
+    "short": "Source: https://www.w3.org/TR/2001/NOTE-xmldsig-p3p-profile-20010202/",
+    "tokens": [
+      "p3p",
+      "assurance",
+      "signature",
+      "profile",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "2001",
+      "note",
+      "xmldsig",
+      "p3p",
+      "profile",
+      "20010202",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "2001",
+      "note",
+      "xmldsig",
+      "p3p",
+      "profile",
+      "20010202"
+    ]
+  },
+  "title": "A P3P Assurance Signature Profile"
+}

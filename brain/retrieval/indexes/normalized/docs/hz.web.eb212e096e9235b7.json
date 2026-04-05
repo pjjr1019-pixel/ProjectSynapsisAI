@@ -1,0 +1,518 @@
+{
+  "aliases": [
+    {
+      "alias": "aaronparecki.com",
+      "aliasId": "hz.web.eb212e096e9235b7.alias.1",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "eb212e096e9235b7",
+      "aliasId": "hz.web.eb212e096e9235b7.alias.2",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "web eb212e096e9235b7",
+      "aliasId": "hz.web.eb212e096e9235b7.alias.3",
+      "canonical": "aaronparecki.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.eb212e096e9235b7",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.eb212e096e9235b7.entity.1",
+      "kind": "document",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.eb212e096e9235b7.entity.2",
+      "kind": "heading",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.eb212e096e9235b7.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.eb212e096e9235b7.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.eb212e096e9235b7.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 94,
+      "charStart": 21,
+      "factId": "hz.web.eb212e096e9235b7.fact.1",
+      "kind": "summary",
+      "text": "Source: https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web.json",
+      "tokens": [
+        "source",
+        "https",
+        "aaronparecki",
+        "com",
+        "2018",
+        "07",
+        "07",
+        "oauth",
+        "open",
+        "web",
+        "json"
+      ]
+    },
+    {
+      "charEnd": 744,
+      "charStart": 146,
+      "factId": "hz.web.eb212e096e9235b7.fact.1",
+      "kind": "bullet",
+      "text": "{ \"items\": [ { \"type\": [ \"h-entry\" ], \"properties\": { \"name\": [ \"OAuth for the Open Web\" ], \"category\": [ \"indieauth\", \"oauth\", \"oauth2\", \"indieweb\" ], \"featured\": [ \"https://aaronparecki.com/2018/07/07/7/image-1.jpg\" ], \"url\": [ \"https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web\" ], \"author\": [ \"https://aaronparecki.com/\" ], \"published\": [ \"2018-07-07T09:30:27-07:00\" ], \"content\": [ { \"html\": \"<img src=\\\"https://aaronparecki.com/2018/07/07/7/image-1.jpg\\\" alt=\\\"\\\" class=\\\"u-featured\\\">\\n\\n<p>OAuth has become the de facto standard for authorization and authentication on the web.",
+      "tokens": [
+        "items",
+        "type",
+        "entry",
+        "properties",
+        "name",
+        "oauth",
+        "open",
+        "web",
+        "category",
+        "indieauth",
+        "oauth",
+        "oauth2",
+        "indieweb",
+        "featured",
+        "https",
+        "aaronparecki",
+        "com",
+        "2018",
+        "07",
+        "07",
+        "image",
+        "jpg",
+        "url",
+        "https",
+        "aaronparecki",
+        "com",
+        "2018",
+        "07",
+        "07",
+        "oauth",
+        "open",
+        "web",
+        "author",
+        "https",
+        "aaronparecki",
+        "com",
+        "published",
+        "2018",
+        "07",
+        "07t09",
+        "30",
+        "27",
+        "07",
+        "00",
+        "content",
+        "html",
+        "img",
+        "src",
+        "https",
+        "aaronparecki",
+        "com",
+        "2018",
+        "07",
+        "07",
+        "image",
+        "jpg",
+        "alt",
+        "class",
+        "featured",
+        "oauth",
+        "has",
+        "become",
+        "de",
+        "facto",
+        "standard",
+        "authorization",
+        "authentication",
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1033,
+      "charStart": 745,
+      "factId": "hz.web.eb212e096e9235b7.fact.2",
+      "kind": "bullet",
+      "text": "Nearly every company with an API used by third party developers has implemented OAuth to enable people to build apps on top of it.</p>\\n<p>While OAuth is a great framework for this, the way it has ended up being used is much more centralized and closed than prior efforts like OpenID 1.",
+      "tokens": [
+        "nearly",
+        "every",
+        "company",
+        "api",
+        "used",
+        "third",
+        "party",
+        "developers",
+        "has",
+        "implemented",
+        "oauth",
+        "enable",
+        "people",
+        "build",
+        "apps",
+        "top",
+        "while",
+        "oauth",
+        "great",
+        "framework",
+        "way",
+        "has",
+        "ended",
+        "up",
+        "used",
+        "much",
+        "more",
+        "centralized",
+        "closed",
+        "than",
+        "prior",
+        "efforts",
+        "like",
+        "openid"
+      ]
+    },
+    {
+      "charEnd": 1123,
+      "charStart": 1034,
+      "factId": "hz.web.eb212e096e9235b7.fact.3",
+      "kind": "bullet",
+      "text": "Every service that spins up an OAuth-enabled API ends up being its own isolated system.",
+      "tokens": [
+        "every",
+        "service",
+        "spins",
+        "up",
+        "oauth",
+        "enabled",
+        "api",
+        "ends",
+        "up",
+        "its",
+        "own",
+        "isolated",
+        "system"
+      ]
+    },
+    {
+      "charEnd": 1551,
+      "charStart": 1124,
+      "factId": "hz.web.eb212e096e9235b7.fact.4",
+      "kind": "bullet",
+      "text": "For example, if I want to build an app that can read someone's step count from FitBit, I have to first go register as a developer on FitBit's website in order to get API keys to use with their OAuth API.&#xA0;</p>\\n<p>This works okay for major services like Google, Twitter, Facebook, and even FitBit, but breaks down when you start to consider use cases like having someone's personal WordPress blog be its own OAuth server.",
+      "tokens": [
+        "example",
+        "if",
+        "want",
+        "build",
+        "app",
+        "read",
+        "someone",
+        "step",
+        "count",
+        "fitbit",
+        "have",
+        "first",
+        "go",
+        "register",
+        "developer",
+        "fitbit",
+        "website",
+        "order",
+        "get",
+        "api",
+        "keys",
+        "use",
+        "their",
+        "oauth",
+        "api",
+        "xa0",
+        "works",
+        "okay",
+        "major",
+        "services",
+        "like",
+        "google",
+        "twitter",
+        "facebook",
+        "even",
+        "fitbit",
+        "but",
+        "breaks",
+        "down",
+        "start",
+        "consider",
+        "use",
+        "cases",
+        "like",
+        "having",
+        "someone",
+        "personal",
+        "wordpress",
+        "blog",
+        "its",
+        "own",
+        "oauth",
+        "server"
+      ]
+    },
+    {
+      "charEnd": 1573,
+      "charStart": 1566,
+      "factId": "hz.web.eb212e096e9235b7.fact.5",
+      "kind": "bullet",
+      "text": "oauth",
+      "tokens": [
+        "oauth"
+      ]
+    },
+    {
+      "charEnd": 1581,
+      "charStart": 1574,
+      "factId": "hz.web.eb212e096e9235b7.fact.6",
+      "kind": "bullet",
+      "text": "https",
+      "tokens": [
+        "https"
+      ]
+    },
+    {
+      "charEnd": 1588,
+      "charStart": 1582,
+      "factId": "hz.web.eb212e096e9235b7.fact.7",
+      "kind": "bullet",
+      "text": "user",
+      "tokens": [
+        "user"
+      ]
+    },
+    {
+      "charEnd": 1594,
+      "charStart": 1589,
+      "factId": "hz.web.eb212e096e9235b7.fact.8",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1610,
+      "charStart": 1595,
+      "factId": "hz.web.eb212e096e9235b7.fact.9",
+      "kind": "bullet",
+      "text": "authorization",
+      "tokens": [
+        "authorization"
+      ]
+    },
+    {
+      "charEnd": 1624,
+      "charStart": 1611,
+      "factId": "hz.web.eb212e096e9235b7.fact.10",
+      "kind": "bullet",
+      "text": "application",
+      "tokens": [
+        "application"
+      ]
+    },
+    {
+      "charEnd": 1633,
+      "charStart": 1625,
+      "factId": "hz.web.eb212e096e9235b7.fact.11",
+      "kind": "bullet",
+      "text": "server",
+      "tokens": [
+        "server"
+      ]
+    },
+    {
+      "charEnd": 1648,
+      "charStart": 1634,
+      "factId": "hz.web.eb212e096e9235b7.fact.12",
+      "kind": "bullet",
+      "text": "aaronparecki",
+      "tokens": [
+        "aaronparecki"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.eb212e096e9235b7.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "aaronparecki.com"
+    },
+    {
+      "charEnd": 144,
+      "charStart": 134,
+      "headingId": "hz.web.eb212e096e9235b7.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1564,
+      "charStart": 1553,
+      "headingId": "hz.web.eb212e096e9235b7.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1660,
+      "charStart": 1650,
+      "headingId": "hz.web.eb212e096e9235b7.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/eb212e096e9235b7.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4928,
+        "start": 0
+      }
+    ],
+    "hash": "c09f12b12a7b60c20d8b47b7b7797a33a29359b4a882813cbd9a6b2caf16cbcf",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.eb212e096e9235b7.rule.1",
+      "text": "The trick is always how do these apps authenticate the user or obtain a token they can use to access those APIs.</p>\\n<p>This post details a few specific challenges with OAuth preventing it from being used by independent websites, as well as the solutions to each.</p>\\n\\n<h2>Client Registration</h2>\\n<p>The first major hurdle to overcome is the need for the developer to register to get API keys for the service.",
+      "tokens": [
+        "trick",
+        "always",
+        "these",
+        "apps",
+        "authenticate",
+        "user",
+        "obtain",
+        "token",
+        "use",
+        "access",
+        "those",
+        "apis",
+        "post",
+        "details",
+        "few",
+        "specific",
+        "challenges",
+        "oauth",
+        "preventing",
+        "used",
+        "independent",
+        "websites",
+        "well",
+        "solutions",
+        "each",
+        "h2",
+        "client",
+        "registration",
+        "h2",
+        "first",
+        "major",
+        "hurdle",
+        "overcome",
+        "need",
+        "developer",
+        "register",
+        "get",
+        "api",
+        "keys",
+        "service"
+      ]
+    },
+    {
+      "ruleId": "hz.web.eb212e096e9235b7.rule.2",
+      "text": "Since we're trying to avoid registration ent",
+      "tokens": [
+        "since",
+        "re",
+        "trying",
+        "avoid",
+        "registration",
+        "ent"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "{ \"items\": [ { \"type\": [ \"h-entry\" ], \"properties\": { \"name\": [ \"OAuth for the Open Web\" ], \"category\": [ \"indieauth\", \"oauth\", \"oauth2\", \"indieweb\" ], \"featured\": [ \"https://aaronparecki.com/2018/07/07/7/image-1.jpg\" ], \"url\": [ \"https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web\" ], \"author\": [ \"https://aaronparecki.com/\" ], \"published\": [ \"2018-07-07T09:30:27-07:00\" ], \"content\": [ { \"html\": \"<img src=\\\"https://aaronparecki.com/2018/07/07/7/image-1.jpg\\\" alt=\\\"\\\" class=\\\"u-featured\\\">\\n\\n<p>OAuth has become the de facto standard for authorization and authentication on the web.",
+      "Nearly every company with an API used by third party developers has implemented OAuth to enable people to build apps on top of it.</p>\\n<p>While OAuth is a great framework for this, the way it has ended up being used is much more centralized and closed than prior efforts like OpenID 1.",
+      "Every service that spins up an OAuth-enabled API ends up being its own isolated system."
+    ],
+    "medium": "Source: https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web.json",
+    "short": "Source: https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web.json",
+    "tokens": [
+      "aaronparecki",
+      "com",
+      "source",
+      "https",
+      "aaronparecki",
+      "com",
+      "2018",
+      "07",
+      "07",
+      "oauth",
+      "open",
+      "web",
+      "json",
+      "source",
+      "https",
+      "aaronparecki",
+      "com",
+      "2018",
+      "07",
+      "07",
+      "oauth",
+      "open",
+      "web",
+      "json"
+    ]
+  },
+  "title": "aaronparecki.com"
+}

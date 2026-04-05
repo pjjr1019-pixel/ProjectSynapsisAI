@@ -1,0 +1,349 @@
+{
+  "aliases": [
+    {
+      "alias": "53cf8b42c9b2a717",
+      "aliasId": "hz.web.53cf8b42c9b2a717.alias.1",
+      "canonical": "github.githubassets.com"
+    },
+    {
+      "alias": "github.githubassets.com",
+      "aliasId": "hz.web.53cf8b42c9b2a717.alias.2",
+      "canonical": "github.githubassets.com"
+    },
+    {
+      "alias": "web 53cf8b42c9b2a717",
+      "aliasId": "hz.web.53cf8b42c9b2a717.alias.3",
+      "canonical": "github.githubassets.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.48,
+  "docId": "hz.web.53cf8b42c9b2a717",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.53cf8b42c9b2a717.entity.1",
+      "kind": "document",
+      "name": "github.githubassets.com",
+      "tokens": [
+        "github",
+        "githubassets",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.53cf8b42c9b2a717.entity.2",
+      "kind": "heading",
+      "name": "github.githubassets.com",
+      "tokens": [
+        "github",
+        "githubassets",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.53cf8b42c9b2a717.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.53cf8b42c9b2a717.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.53cf8b42c9b2a717.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 116,
+      "charStart": 28,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.1",
+      "kind": "summary",
+      "text": "Source: https://github.githubassets.com/assets/global-banner-disable-758f0cae02744f7a.js",
+      "tokens": [
+        "source",
+        "https",
+        "github",
+        "githubassets",
+        "com",
+        "assets",
+        "global",
+        "banner",
+        "disable",
+        "758f0cae02744f7a",
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1010,
+      "charStart": 168,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.1",
+      "kind": "bullet",
+      "text": "performance.mark(\"js-parse-end:global-banner-disable-758f0cae02744f7a.js\"); (()=>{var e={35684(){let e=document.cookie.match(RegExp(\"(?:^|;\\\\s*)disabled_global_site_banners\\\\s*=\\\\s*([^;]+)\")),t=e?e[1]:null;if(t){let e=t.split(\",\")||[];for(let t=0;t<e.length;t++){let r=document.getElementById(e[t]||\"\");r&&(r.hidden=!0)}}}},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var l=t[o]={exports:{}};return e[o](l,l.exports,r),l.exports}r.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return r.d(t,{a:t}),t},r.d=(e,t)=>{for(var o in t)r.o(t,o)&&!r.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:t[o]})},r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),r.rv=()=>\"1.7.7\",r.ruid=\"bundler=rspack@1.7.7\",(()=>{\"use strict\";r(35684)})()})(); //# sourceMappingURL=global-banner-disable-758f0cae02744f7a-d1a1034ec23c6476.js.map",
+      "tokens": [
+        "performance",
+        "mark",
+        "js",
+        "parse",
+        "end",
+        "global",
+        "banner",
+        "disable",
+        "758f0cae02744f7a",
+        "js",
+        "var",
+        "35684",
+        "let",
+        "document",
+        "cookie",
+        "match",
+        "regexp",
+        "disabled_global_site_banners",
+        "null",
+        "if",
+        "let",
+        "split",
+        "let",
+        "length",
+        "let",
+        "document",
+        "getelementbyid",
+        "hidden",
+        "function",
+        "var",
+        "if",
+        "void",
+        "return",
+        "exports",
+        "var",
+        "exports",
+        "return",
+        "exports",
+        "exports",
+        "var",
+        "__esmodule",
+        "default",
+        "return",
+        "var",
+        "object",
+        "defineproperty",
+        "enumerable",
+        "get",
+        "object",
+        "prototype",
+        "hasownproperty",
+        "call",
+        "rv",
+        "ruid",
+        "bundler",
+        "rspack",
+        "use",
+        "strict",
+        "35684",
+        "sourcemappingurl",
+        "global",
+        "banner",
+        "disable",
+        "758f0cae02744f7a",
+        "d1a1034ec23c6476",
+        "js",
+        "map"
+      ]
+    },
+    {
+      "charEnd": 1030,
+      "charStart": 1025,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.2",
+      "kind": "bullet",
+      "text": "var",
+      "tokens": [
+        "var"
+      ]
+    },
+    {
+      "charEnd": 1040,
+      "charStart": 1031,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.3",
+      "kind": "bullet",
+      "text": "exports",
+      "tokens": [
+        "exports"
+      ]
+    },
+    {
+      "charEnd": 1046,
+      "charStart": 1041,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.4",
+      "kind": "bullet",
+      "text": "let",
+      "tokens": [
+        "let"
+      ]
+    },
+    {
+      "charEnd": 1051,
+      "charStart": 1047,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.5",
+      "kind": "bullet",
+      "text": "js",
+      "tokens": [
+        "js"
+      ]
+    },
+    {
+      "charEnd": 1060,
+      "charStart": 1052,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.6",
+      "kind": "bullet",
+      "text": "return",
+      "tokens": [
+        "return"
+      ]
+    },
+    {
+      "charEnd": 1068,
+      "charStart": 1061,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.7",
+      "kind": "bullet",
+      "text": "35684",
+      "tokens": [
+        "35684"
+      ]
+    },
+    {
+      "charEnd": 1087,
+      "charStart": 1069,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.8",
+      "kind": "bullet",
+      "text": "758f0cae02744f7a",
+      "tokens": [
+        "758f0cae02744f7a"
+      ]
+    },
+    {
+      "charEnd": 1096,
+      "charStart": 1088,
+      "factId": "hz.web.53cf8b42c9b2a717.fact.9",
+      "kind": "bullet",
+      "text": "banner",
+      "tokens": [
+        "banner"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 26,
+      "charStart": 1,
+      "headingId": "hz.web.53cf8b42c9b2a717.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "github.githubassets.com"
+    },
+    {
+      "charEnd": 166,
+      "charStart": 156,
+      "headingId": "hz.web.53cf8b42c9b2a717.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1023,
+      "charStart": 1012,
+      "headingId": "hz.web.53cf8b42c9b2a717.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1108,
+      "charStart": 1098,
+      "headingId": "hz.web.53cf8b42c9b2a717.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/53cf8b42c9b2a717.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2238,
+        "start": 0
+      }
+    ],
+    "hash": "427640894f69b706334105f045619ef7355ced0cc0e3138fce15b1555b022dfb",
+    "sourceType": "web"
+  },
+  "relations": [
+    {
+      "label": "o",
+      "relationId": "hz.web.53cf8b42c9b2a717.relation.1",
+      "sourceDocId": "hz.web.53cf8b42c9b2a717",
+      "targetPath": "runtime/learning/promoted/2026-03-31/l,l.exports,r",
+      "type": "references"
+    },
+    {
+      "label": "o",
+      "relationId": "hz.web.53cf8b42c9b2a717.relation.2",
+      "sourceDocId": "hz.web.53cf8b42c9b2a717",
+      "targetPath": "runtime/learning/promoted/2026-03-31/l,l.exports,r",
+      "type": "references"
+    }
+  ],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "performance.mark(\"js-parse-end:global-banner-disable-758f0cae02744f7a.js\"); (()=>{var e={35684(){let e=document.cookie.match(RegExp(\"(?:^|;\\\\s*)disabled_global_site_banners\\\\s*=\\\\s*([^;]+)\")),t=e?e[1]:null;if(t){let e=t.split(\",\")||[];for(let t=0;t<e.length;t++){let r=document.getElementById(e[t]||\"\");r&&(r.hidden=!0)}}}},t={};function r(o){var n=t[o];if(void 0!==n)return n.exports;var l=t[o]={exports:{}};return e[o](l,l.exports,r),l.exports}r.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return r.d(t,{a:t}),t},r.d=(e,t)=>{for(var o in t)r.o(t,o)&&!r.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:t[o]})},r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),r.rv=()=>\"1.7.7\",r.ruid=\"bundler=rspack@1.7.7\",(()=>{\"use strict\";r(35684)})()})(); //# sourceMappingURL=global-banner-disable-758f0cae02744f7a-d1a1034ec23c6476.js.map",
+      "var",
+      "exports"
+    ],
+    "medium": "Source: https://github.githubassets.com/assets/global-banner-disable-758f0cae02744f7a.js",
+    "short": "Source: https://github.githubassets.com/assets/global-banner-disable-758f0cae02744f7a.js",
+    "tokens": [
+      "github",
+      "githubassets",
+      "com",
+      "source",
+      "https",
+      "github",
+      "githubassets",
+      "com",
+      "assets",
+      "global",
+      "banner",
+      "disable",
+      "758f0cae02744f7a",
+      "js",
+      "source",
+      "https",
+      "github",
+      "githubassets",
+      "com",
+      "assets",
+      "global",
+      "banner",
+      "disable",
+      "758f0cae02744f7a",
+      "js"
+    ]
+  },
+  "title": "github.githubassets.com"
+}

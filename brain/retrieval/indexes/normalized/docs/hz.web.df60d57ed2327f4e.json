@@ -1,0 +1,324 @@
+{
+  "aliases": [
+    {
+      "alias": "df60d57ed2327f4e",
+      "aliasId": "hz.web.df60d57ed2327f4e.alias.1",
+      "canonical": "show | hacker news"
+    },
+    {
+      "alias": "show hacker news",
+      "aliasId": "hz.web.df60d57ed2327f4e.alias.2",
+      "canonical": "show | hacker news"
+    },
+    {
+      "alias": "web df60d57ed2327f4e",
+      "aliasId": "hz.web.df60d57ed2327f4e.alias.3",
+      "canonical": "show | hacker news"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.df60d57ed2327f4e",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.df60d57ed2327f4e.entity.1",
+      "kind": "document",
+      "name": "Show | Hacker News",
+      "tokens": [
+        "show",
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.df60d57ed2327f4e.entity.2",
+      "kind": "heading",
+      "name": "Show | Hacker News",
+      "tokens": [
+        "show",
+        "hacker",
+        "news"
+      ]
+    },
+    {
+      "entityId": "hz.web.df60d57ed2327f4e.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.df60d57ed2327f4e.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.df60d57ed2327f4e.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 23,
+      "factId": "hz.web.df60d57ed2327f4e.fact.1",
+      "kind": "summary",
+      "text": "Source: https://news.ycombinator.com/show",
+      "tokens": [
+        "source",
+        "https",
+        "news",
+        "ycombinator",
+        "com",
+        "show"
+      ]
+    },
+    {
+      "charEnd": 260,
+      "charStart": 116,
+      "factId": "hz.web.df60d57ed2327f4e.fact.1",
+      "kind": "bullet",
+      "text": "Show | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Please read the Show HN rules and tips before posting.",
+      "tokens": [
+        "show",
+        "hacker",
+        "news",
+        "hacker",
+        "news",
+        "new",
+        "past",
+        "comments",
+        "ask",
+        "show",
+        "jobs",
+        "submit",
+        "login",
+        "please",
+        "read",
+        "show",
+        "hn",
+        "rules",
+        "tips",
+        "before",
+        "posting"
+      ]
+    },
+    {
+      "charEnd": 304,
+      "charStart": 261,
+      "factId": "hz.web.df60d57ed2327f4e.fact.2",
+      "kind": "bullet",
+      "text": "You can browse the newest Show HNs here .",
+      "tokens": [
+        "browse",
+        "newest",
+        "show",
+        "hns",
+        "here"
+      ]
+    },
+    {
+      "charEnd": 309,
+      "charStart": 305,
+      "factId": "hz.web.df60d57ed2327f4e.fact.3",
+      "kind": "bullet",
+      "text": "1.",
+      "tokens": []
+    },
+    {
+      "charEnd": 463,
+      "charStart": 310,
+      "factId": "hz.web.df60d57ed2327f4e.fact.4",
+      "kind": "bullet",
+      "text": "Show HN: QuickBEAM – run JavaScript as supervised Erlang&#x2F;OTP processes ( github.com/elixir-volt ) 39 points by dannote 3 hours ago | 4 comments 2.",
+      "tokens": [
+        "show",
+        "hn",
+        "quickbeam",
+        "run",
+        "javascript",
+        "supervised",
+        "erlang",
+        "x2f",
+        "otp",
+        "processes",
+        "github",
+        "com",
+        "elixir",
+        "volt",
+        "39",
+        "points",
+        "dannote",
+        "hours",
+        "ago",
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 484,
+      "charStart": 478,
+      "factId": "hz.web.df60d57ed2327f4e.fact.5",
+      "kind": "bullet",
+      "text": "show",
+      "tokens": [
+        "show"
+      ]
+    },
+    {
+      "charEnd": 489,
+      "charStart": 485,
+      "factId": "hz.web.df60d57ed2327f4e.fact.6",
+      "kind": "bullet",
+      "text": "hn",
+      "tokens": [
+        "hn"
+      ]
+    },
+    {
+      "charEnd": 495,
+      "charStart": 490,
+      "factId": "hz.web.df60d57ed2327f4e.fact.7",
+      "kind": "bullet",
+      "text": "ago",
+      "tokens": [
+        "ago"
+      ]
+    },
+    {
+      "charEnd": 504,
+      "charStart": 496,
+      "factId": "hz.web.df60d57ed2327f4e.fact.8",
+      "kind": "bullet",
+      "text": "points",
+      "tokens": [
+        "points"
+      ]
+    },
+    {
+      "charEnd": 515,
+      "charStart": 505,
+      "factId": "hz.web.df60d57ed2327f4e.fact.9",
+      "kind": "bullet",
+      "text": "comments",
+      "tokens": [
+        "comments"
+      ]
+    },
+    {
+      "charEnd": 521,
+      "charStart": 516,
+      "factId": "hz.web.df60d57ed2327f4e.fact.10",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 529,
+      "charStart": 522,
+      "factId": "hz.web.df60d57ed2327f4e.fact.11",
+      "kind": "bullet",
+      "text": "hours",
+      "tokens": [
+        "hours"
+      ]
+    },
+    {
+      "charEnd": 538,
+      "charStart": 530,
+      "factId": "hz.web.df60d57ed2327f4e.fact.12",
+      "kind": "bullet",
+      "text": "github",
+      "tokens": [
+        "github"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.df60d57ed2327f4e.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Show | Hacker News"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.df60d57ed2327f4e.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 476,
+      "charStart": 465,
+      "headingId": "hz.web.df60d57ed2327f4e.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 550,
+      "charStart": 540,
+      "headingId": "hz.web.df60d57ed2327f4e.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/df60d57ed2327f4e.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3788,
+        "start": 0
+      }
+    ],
+    "hash": "6a1c79fb4e55c890bbd63c5b86c7e6c2aa0ed0ae68436127bf99dfad79aa03c0",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Show | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Please read the Show HN rules and tips before posting.",
+      "You can browse the newest Show HNs here .",
+      "1."
+    ],
+    "medium": "Source: https://news.ycombinator.com/show",
+    "short": "Source: https://news.ycombinator.com/show",
+    "tokens": [
+      "show",
+      "hacker",
+      "news",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com",
+      "show",
+      "source",
+      "https",
+      "news",
+      "ycombinator",
+      "com",
+      "show"
+    ]
+  },
+  "title": "Show | Hacker News"
+}

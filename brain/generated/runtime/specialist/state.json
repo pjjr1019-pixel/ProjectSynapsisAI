@@ -1,0 +1,6759 @@
+{
+  "version": 1,
+  "lastIndexHash": "cf1226cd98ce88709533796b1fd04a5ecee319fc",
+  "lastIndexedAt": "2026-04-02T15:23:01.259Z",
+  "manifestCount": 57,
+  "malformedManifestCount": 0,
+  "manifests": [
+    {
+      "id": "list_running_processes",
+      "title": "List running processes",
+      "description": "Collect normalized process rows with CPU, memory, PID, parent PID, and command metadata.",
+      "aliases": [
+        "show running processes"
+      ],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_by": {
+          "type": "string",
+          "default": "memory_mb"
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/list_running_processes.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.248Z",
+      "last_updated_time": "2026-04-02T15:23:01.248Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_by": {
+          "type": "string",
+          "default": "memory_mb"
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        }
+      },
+      "usage_examples": [
+        "list running processes"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "top_cpu_processes",
+      "title": "Top CPU processes",
+      "description": "Rank processes by CPU usage.",
+      "aliases": [
+        "what is using cpu"
+      ],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 15
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/top_cpu_processes.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.249Z",
+      "last_updated_time": "2026-04-02T15:23:01.249Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 15
+        }
+      },
+      "usage_examples": [
+        "top cpu processes"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "top_memory_processes",
+      "title": "Top memory processes",
+      "description": "Rank processes by working set memory.",
+      "aliases": [
+        "show top ram apps"
+      ],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 15
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/top_memory_processes.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.249Z",
+      "last_updated_time": "2026-04-02T15:23:01.249Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 15
+        }
+      },
+      "usage_examples": [
+        "top memory processes"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_details_by_pid",
+      "title": "Process details by PID",
+      "description": "Return merged process details for one PID.",
+      "aliases": [
+        "show process details"
+      ],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/process_details_by_pid.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.250Z",
+      "last_updated_time": "2026-04-02T15:23:01.250Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        }
+      },
+      "usage_examples": [
+        "process details by pid"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_details_by_name",
+      "title": "Process details by name",
+      "description": "Return merged process details for one exact process name.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/process_details_by_name.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.250Z",
+      "last_updated_time": "2026-04-02T15:23:01.250Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "process details by name"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_tree_by_pid",
+      "title": "Process tree by PID",
+      "description": "Build a parent-child tree around one PID.",
+      "aliases": [
+        "show process tree"
+      ],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/process_tree_by_pid.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.250Z",
+      "last_updated_time": "2026-04-02T15:23:01.250Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        }
+      },
+      "usage_examples": [
+        "process tree by pid"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_executable_path",
+      "title": "Process executable path",
+      "description": "Return the executable path for matching processes.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/process_executable_path.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.250Z",
+      "last_updated_time": "2026-04-02T15:23:01.250Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "process executable path"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_command_line",
+      "title": "Process command line",
+      "description": "Return command-line text when available.",
+      "aliases": [
+        "show process command line"
+      ],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/process_command_line.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.251Z",
+      "last_updated_time": "2026-04-02T15:23:01.251Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "process command line"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_count",
+      "title": "Process count",
+      "description": "Count running processes after filters are applied.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "query": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/process_count.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.251Z",
+      "last_updated_time": "2026-04-02T15:23:01.251Z",
+      "argument_schema": {
+        "query": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "process count"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "duplicate_process_names",
+      "title": "Duplicate process names",
+      "description": "Detect process names that appear more than once.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/duplicate_process_names.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.251Z",
+      "last_updated_time": "2026-04-02T15:23:01.251Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "duplicate process names"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "long_running_processes",
+      "title": "Long-running processes",
+      "description": "Find processes that have been alive for a long time.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "min_age_minutes": {
+          "type": "number",
+          "default": 30
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/long_running_processes.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.251Z",
+      "last_updated_time": "2026-04-02T15:23:01.251Z",
+      "argument_schema": {
+        "min_age_minutes": {
+          "type": "number",
+          "default": 30
+        }
+      },
+      "usage_examples": [
+        "long running processes"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "likely_idle_heavy_processes",
+      "title": "Likely idle heavy processes",
+      "description": "Flag processes with high memory use and low CPU.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "min_memory_mb": {
+          "type": "number",
+          "default": 250
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 1.5
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/likely_idle_heavy_processes.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.252Z",
+      "last_updated_time": "2026-04-02T15:23:01.252Z",
+      "argument_schema": {
+        "min_memory_mb": {
+          "type": "number",
+          "default": 250
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 1.5
+        }
+      },
+      "usage_examples": [
+        "likely idle heavy processes"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_risk_classification",
+      "title": "Process risk classification",
+      "description": "Classify candidate processes using protected and helper heuristics.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/process_risk_classification.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.252Z",
+      "last_updated_time": "2026-04-02T15:23:01.252Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "process risk classification"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "dry_run_kill_process_by_pid",
+      "title": "Dry-run kill process by PID",
+      "description": "Preview what would be killed for a PID.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/dry_run_kill_process_by_pid.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.252Z",
+      "last_updated_time": "2026-04-02T15:23:01.252Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        }
+      },
+      "usage_examples": [
+        "dry run kill process by pid"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "kill_process_by_pid",
+      "title": "Kill process by PID",
+      "description": "Terminate a process by PID using a guarded action.",
+      "aliases": [
+        "kill process 1234"
+      ],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "taskkill"
+      ],
+      "safe_to_autorun": false,
+      "requires_confirmation": true,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/kill_process_by_pid.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.252Z",
+      "last_updated_time": "2026-04-02T15:23:01.252Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "usage_examples": [
+        "kill process by pid"
+      ],
+      "safety_notes": [
+        "You do not have explicit approval for a mutation."
+      ],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "taskkill"
+      ],
+      "modifies_state": true,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "high",
+      "policy_class": "system_sensitive"
+    },
+    {
+      "id": "dry_run_kill_process_by_name",
+      "title": "Dry-run kill process by name",
+      "description": "Preview what would be killed for an exact process name.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/dry_run_kill_process_by_name.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.252Z",
+      "last_updated_time": "2026-04-02T15:23:01.252Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "dry run kill process by name"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "kill_process_by_name",
+      "title": "Kill process by name",
+      "description": "Terminate processes by exact image name using a guarded action.",
+      "aliases": [],
+      "tags": [
+        "process",
+        "task-manager",
+        "windows"
+      ],
+      "category": "process",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "taskkill"
+      ],
+      "safe_to_autorun": false,
+      "requires_confirmation": true,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/process/kill_process_by_name.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.252Z",
+      "last_updated_time": "2026-04-02T15:23:01.252Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "usage_examples": [
+        "kill process by name"
+      ],
+      "safety_notes": [
+        "You do not have explicit approval for a mutation."
+      ],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "taskkill"
+      ],
+      "modifies_state": true,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "high",
+      "policy_class": "system_sensitive"
+    },
+    {
+      "id": "cpu_summary",
+      "title": "CPU summary",
+      "description": "Summarize CPU state, logical cores, and recent utilization.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "sample_seconds": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/cpu_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.253Z",
+      "last_updated_time": "2026-04-02T15:23:01.253Z",
+      "argument_schema": {
+        "sample_seconds": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "usage_examples": [
+        "cpu summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "memory_summary",
+      "title": "Memory summary",
+      "description": "Summarize physical and virtual memory state.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/memory_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.253Z",
+      "last_updated_time": "2026-04-02T15:23:01.253Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "memory summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "disk_usage_summary",
+      "title": "Disk usage summary",
+      "description": "Summarize disk capacity and free space.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/disk_usage_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.253Z",
+      "last_updated_time": "2026-04-02T15:23:01.253Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "disk usage summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "uptime_summary",
+      "title": "Uptime summary",
+      "description": "Summarize boot time and elapsed uptime.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/uptime_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.253Z",
+      "last_updated_time": "2026-04-02T15:23:01.253Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "uptime summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "machine_summary",
+      "title": "Machine summary",
+      "description": "Summarize host, OS, CPU, memory, and session data.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/machine_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.253Z",
+      "last_updated_time": "2026-04-02T15:23:01.253Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "machine summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "os_version_summary",
+      "title": "OS version summary",
+      "description": "Summarize the OS version and build information.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/os_version_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.253Z",
+      "last_updated_time": "2026-04-02T15:23:01.253Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "os version summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "live_counter_snapshot",
+      "title": "Live counter snapshot",
+      "description": "Capture a current performance counter snapshot.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "sample_seconds": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/live_counter_snapshot.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.254Z",
+      "last_updated_time": "2026-04-02T15:23:01.254Z",
+      "argument_schema": {
+        "sample_seconds": {
+          "type": "number",
+          "default": 1
+        }
+      },
+      "usage_examples": [
+        "live counter snapshot"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "threshold_warning_report",
+      "title": "Threshold warning report",
+      "description": "Compare live system metrics against warning thresholds.",
+      "aliases": [],
+      "tags": [
+        "system",
+        "health",
+        "windows"
+      ],
+      "category": "system",
+      "inputs": {
+        "cpu_warn_pct": {
+          "type": "number",
+          "default": 75
+        },
+        "memory_warn_pct": {
+          "type": "number",
+          "default": 80
+        },
+        "disk_warn_pct": {
+          "type": "number",
+          "default": 85
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/system/threshold_warning_report.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.254Z",
+      "last_updated_time": "2026-04-02T15:23:01.254Z",
+      "argument_schema": {
+        "cpu_warn_pct": {
+          "type": "number",
+          "default": 75
+        },
+        "memory_warn_pct": {
+          "type": "number",
+          "default": 80
+        },
+        "disk_warn_pct": {
+          "type": "number",
+          "default": 85
+        }
+      },
+      "usage_examples": [
+        "threshold warning report"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "running_services",
+      "title": "Running services",
+      "description": "List running services with normalized metadata.",
+      "aliases": [
+        "show services"
+      ],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/running_services.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.254Z",
+      "last_updated_time": "2026-04-02T15:23:01.254Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "running services"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "stopped_services",
+      "title": "Stopped services",
+      "description": "List stopped services with normalized metadata.",
+      "aliases": [
+        "show stopped services"
+      ],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/stopped_services.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.254Z",
+      "last_updated_time": "2026-04-02T15:23:01.254Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "stopped services"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "service_details_by_name",
+      "title": "Service details by name",
+      "description": "Return service metadata for one exact service name.",
+      "aliases": [],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/service_details_by_name.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.254Z",
+      "last_updated_time": "2026-04-02T15:23:01.254Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "service details by name"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "auto_start_services",
+      "title": "Auto-start services",
+      "description": "List services configured to start automatically.",
+      "aliases": [
+        "show auto start services"
+      ],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/auto_start_services.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.254Z",
+      "last_updated_time": "2026-04-02T15:23:01.254Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "auto start services"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "non_microsoft_services",
+      "title": "Non-Microsoft services",
+      "description": "List services whose binary paths look third-party or custom.",
+      "aliases": [],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/non_microsoft_services.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.255Z",
+      "last_updated_time": "2026-04-02T15:23:01.255Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "non microsoft services"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "service_control_preview",
+      "title": "Service control preview",
+      "description": "Preview a start, stop, or restart action for a service.",
+      "aliases": [],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "action": {
+          "type": "string",
+          "default": "stop"
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/service_control_preview.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.255Z",
+      "last_updated_time": "2026-04-02T15:23:01.255Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "action": {
+          "type": "string",
+          "default": "stop"
+        }
+      },
+      "usage_examples": [
+        "service control preview"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "start_service_by_name",
+      "title": "Start service by name",
+      "description": "Start a service using guarded approval and dry-run support.",
+      "aliases": [],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": false,
+      "requires_confirmation": true,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/start_service_by_name.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.255Z",
+      "last_updated_time": "2026-04-02T15:23:01.255Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "usage_examples": [
+        "start service by name"
+      ],
+      "safety_notes": [
+        "You do not have explicit approval for a mutation."
+      ],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": true,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "high",
+      "policy_class": "system_sensitive"
+    },
+    {
+      "id": "stop_service_by_name",
+      "title": "Stop service by name",
+      "description": "Stop a service using guarded approval and dry-run support.",
+      "aliases": [],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": false,
+      "requires_confirmation": true,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/stop_service_by_name.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.255Z",
+      "last_updated_time": "2026-04-02T15:23:01.255Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "usage_examples": [
+        "stop service by name"
+      ],
+      "safety_notes": [
+        "You do not have explicit approval for a mutation."
+      ],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": true,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "high",
+      "policy_class": "system_sensitive"
+    },
+    {
+      "id": "restart_service_by_name",
+      "title": "Restart service by name",
+      "description": "Restart a service using guarded approval and dry-run support.",
+      "aliases": [],
+      "tags": [
+        "service",
+        "windows",
+        "control"
+      ],
+      "category": "services",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "safe_to_autorun": false,
+      "requires_confirmation": true,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/services/restart_service_by_name.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.255Z",
+      "last_updated_time": "2026-04-02T15:23:01.255Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "usage_examples": [
+        "restart service by name"
+      ],
+      "safety_notes": [
+        "You do not have explicit approval for a mutation."
+      ],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "sc.exe"
+      ],
+      "modifies_state": true,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "high",
+      "policy_class": "system_sensitive"
+    },
+    {
+      "id": "list_startup_entries",
+      "title": "List startup entries",
+      "description": "List startup commands from Windows startup metadata.",
+      "aliases": [
+        "show startup apps"
+      ],
+      "tags": [
+        "startup",
+        "task-manager",
+        "windows"
+      ],
+      "category": "startup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/startup/list_startup_entries.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.255Z",
+      "last_updated_time": "2026-04-02T15:23:01.255Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "list startup entries"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "startup_folder_items",
+      "title": "Startup folder items",
+      "description": "List items in user and common startup folders.",
+      "aliases": [],
+      "tags": [
+        "startup",
+        "task-manager",
+        "windows"
+      ],
+      "category": "startup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/startup/startup_folder_items.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.255Z",
+      "last_updated_time": "2026-04-02T15:23:01.255Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "startup folder items"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "registry_startup_items",
+      "title": "Registry startup items",
+      "description": "List Run and RunOnce registry startup entries.",
+      "aliases": [],
+      "tags": [
+        "startup",
+        "task-manager",
+        "windows"
+      ],
+      "category": "startup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/startup/registry_startup_items.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.256Z",
+      "last_updated_time": "2026-04-02T15:23:01.256Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "registry startup items"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "scheduled_tasks_summary",
+      "title": "Scheduled tasks summary",
+      "description": "Summarize scheduled tasks and their state.",
+      "aliases": [
+        "show scheduled tasks"
+      ],
+      "tags": [
+        "startup",
+        "task-manager",
+        "windows"
+      ],
+      "category": "startup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/startup/scheduled_tasks_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.256Z",
+      "last_updated_time": "2026-04-02T15:23:01.256Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "scheduled tasks summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "suspicious_startup_candidates",
+      "title": "Suspicious startup candidates",
+      "description": "Flag startup items that look path-based or script-based.",
+      "aliases": [],
+      "tags": [
+        "startup",
+        "task-manager",
+        "windows"
+      ],
+      "category": "startup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/startup/suspicious_startup_candidates.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.256Z",
+      "last_updated_time": "2026-04-02T15:23:01.256Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "suspicious startup candidates"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "duplicate_startup_candidates",
+      "title": "Duplicate startup candidates",
+      "description": "Detect startup names and commands that appear multiple times.",
+      "aliases": [],
+      "tags": [
+        "startup",
+        "task-manager",
+        "windows"
+      ],
+      "category": "startup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/startup/duplicate_startup_candidates.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.256Z",
+      "last_updated_time": "2026-04-02T15:23:01.256Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "duplicate startup candidates"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "schtasks"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "list_listening_ports",
+      "title": "List listening ports",
+      "description": "List listening TCP ports and UDP endpoints.",
+      "aliases": [
+        "show listening ports"
+      ],
+      "tags": [
+        "network",
+        "ports",
+        "connections"
+      ],
+      "category": "network",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/network/list_listening_ports.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.256Z",
+      "last_updated_time": "2026-04-02T15:23:01.256Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "list listening ports"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "list_established_connections",
+      "title": "List established connections",
+      "description": "List established TCP connections.",
+      "aliases": [
+        "show network connections"
+      ],
+      "tags": [
+        "network",
+        "ports",
+        "connections"
+      ],
+      "category": "network",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/network/list_established_connections.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.256Z",
+      "last_updated_time": "2026-04-02T15:23:01.256Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "list established connections"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_port_mapping",
+      "title": "Process-port mapping",
+      "description": "Map processes to their listening ports and connections.",
+      "aliases": [],
+      "tags": [
+        "network",
+        "ports",
+        "connections"
+      ],
+      "category": "network",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/network/process_port_mapping.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "process port mapping"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "basic_network_activity_summary",
+      "title": "Basic network activity summary",
+      "description": "Summarize port, connection, and remote peer activity.",
+      "aliases": [],
+      "tags": [
+        "network",
+        "ports",
+        "connections"
+      ],
+      "category": "network",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/network/basic_network_activity_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "basic network activity summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "local_network_diagnostics_summary",
+      "title": "Local network diagnostics summary",
+      "description": "Summarize local adapter and IP configuration.",
+      "aliases": [
+        "show network diagnostics"
+      ],
+      "tags": [
+        "network",
+        "ports",
+        "connections"
+      ],
+      "category": "network",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/network/local_network_diagnostics_summary.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "local network diagnostics summary"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell",
+        "netstat"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "temp_cleanup_candidates",
+      "title": "Temp cleanup candidates",
+      "description": "List candidate temp files and directories for cleanup review.",
+      "aliases": [
+        "show temp cleanup candidates"
+      ],
+      "tags": [
+        "cleanup",
+        "diagnostics",
+        "windows"
+      ],
+      "category": "cleanup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/cleanup/temp_cleanup_candidates.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "temp cleanup candidates"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "stale_log_candidates",
+      "title": "Stale log candidates",
+      "description": "List old log files and likely stale log artifacts.",
+      "aliases": [],
+      "tags": [
+        "cleanup",
+        "diagnostics",
+        "windows"
+      ],
+      "category": "cleanup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/cleanup/stale_log_candidates.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "stale log candidates"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "generate_diagnostics_report",
+      "title": "Generate diagnostics report",
+      "description": "Build a combined Task Manager style diagnostics report.",
+      "aliases": [
+        "show diagnostics report"
+      ],
+      "tags": [
+        "cleanup",
+        "diagnostics",
+        "windows"
+      ],
+      "category": "cleanup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/cleanup/generate_diagnostics_report.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "generate diagnostics report"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "generate_machine_readiness_report",
+      "title": "Generate machine readiness report",
+      "description": "Build a local AI readiness and command availability report.",
+      "aliases": [
+        "show readiness report"
+      ],
+      "tags": [
+        "cleanup",
+        "diagnostics",
+        "windows"
+      ],
+      "category": "cleanup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/cleanup/generate_machine_readiness_report.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "generate machine readiness report"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "generate_process_health_snapshot",
+      "title": "Generate process health snapshot",
+      "description": "Build a focused process health snapshot.",
+      "aliases": [],
+      "tags": [
+        "cleanup",
+        "diagnostics",
+        "windows"
+      ],
+      "category": "cleanup",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/cleanup/generate_process_health_snapshot.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "generate process health snapshot"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "before_after_optimization_snapshot",
+      "title": "Before/after optimization snapshot",
+      "description": "Compare two snapshot payloads for resource changes.",
+      "aliases": [],
+      "tags": [
+        "cleanup",
+        "diagnostics",
+        "windows"
+      ],
+      "category": "cleanup",
+      "inputs": {
+        "before_path": {
+          "type": "string",
+          "default": ""
+        },
+        "after_path": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node",
+        "powershell"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/cleanup/before_after_optimization_snapshot.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.257Z",
+      "last_updated_time": "2026-04-02T15:23:01.257Z",
+      "argument_schema": {
+        "before_path": {
+          "type": "string",
+          "default": ""
+        },
+        "after_path": {
+          "type": "string",
+          "default": ""
+        }
+      },
+      "usage_examples": [
+        "before after optimization snapshot"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node",
+        "powershell"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "protected_processes",
+      "title": "Protected processes",
+      "description": "Return the protected process allowlist used by the pack.",
+      "aliases": [
+        "show protected processes"
+      ],
+      "tags": [
+        "policy",
+        "safety",
+        "guardrails"
+      ],
+      "category": "policy",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/policy/protected_processes.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.258Z",
+      "last_updated_time": "2026-04-02T15:23:01.258Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "protected processes"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "protected_services",
+      "title": "Protected services",
+      "description": "Return the protected service allowlist used by the pack.",
+      "aliases": [
+        "show protected services"
+      ],
+      "tags": [
+        "policy",
+        "safety",
+        "guardrails"
+      ],
+      "category": "policy",
+      "inputs": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/policy/protected_services.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.258Z",
+      "last_updated_time": "2026-04-02T15:23:01.258Z",
+      "argument_schema": {
+        "limit": {
+          "type": "number",
+          "default": 25
+        },
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": true
+        },
+        "approve": {
+          "type": "boolean",
+          "default": false
+        },
+        "sort_by": {
+          "type": "string",
+          "default": ""
+        },
+        "sort_dir": {
+          "type": "string",
+          "default": "desc"
+        },
+        "min_age_minutes": {
+          "type": "number",
+          "default": 10
+        },
+        "min_memory_mb": {
+          "type": "number",
+          "default": 0
+        },
+        "min_cpu_pct": {
+          "type": "number",
+          "default": 0
+        },
+        "max_cpu_pct": {
+          "type": "number",
+          "default": 100
+        }
+      },
+      "usage_examples": [
+        "protected services"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "process_action_policy",
+      "title": "Process action policy",
+      "description": "Classify a process or process name against kill safety rules.",
+      "aliases": [],
+      "tags": [
+        "policy",
+        "safety",
+        "guardrails"
+      ],
+      "category": "policy",
+      "inputs": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "action": {
+          "type": "string",
+          "default": "end"
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/policy/process_action_policy.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.258Z",
+      "last_updated_time": "2026-04-02T15:23:01.258Z",
+      "argument_schema": {
+        "pid": {
+          "type": "number",
+          "default": null
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "action": {
+          "type": "string",
+          "default": "end"
+        }
+      },
+      "usage_examples": [
+        "process action policy"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "service_action_policy",
+      "title": "Service action policy",
+      "description": "Classify a service or service name against control safety rules.",
+      "aliases": [],
+      "tags": [
+        "policy",
+        "safety",
+        "guardrails"
+      ],
+      "category": "policy",
+      "inputs": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "action": {
+          "type": "string",
+          "default": "stop"
+        }
+      },
+      "outputs": {
+        "items": "array",
+        "summary": "string",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/policy/service_action_policy.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.258Z",
+      "last_updated_time": "2026-04-02T15:23:01.258Z",
+      "argument_schema": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "action": {
+          "type": "string",
+          "default": "stop"
+        }
+      },
+      "usage_examples": [
+        "service action policy"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": false,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "windows_skill_pack_lookup",
+      "title": "Windows skill pack lookup",
+      "description": "Resolve Windows requests to imported skill candidates.",
+      "aliases": [
+        "open windows setting",
+        "find windows setting",
+        "open control panel item",
+        "run windows skill pack"
+      ],
+      "tags": [
+        "windows",
+        "skill-pack",
+        "lookup",
+        "routing"
+      ],
+      "category": "windows",
+      "inputs": {
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "limit": {
+          "type": "number",
+          "default": 5
+        }
+      },
+      "outputs": {
+        "match": "object",
+        "candidates": "array",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [],
+      "permissions_needed": [
+        "node"
+      ],
+      "safe_to_autorun": true,
+      "requires_confirmation": false,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/windows/windows_skill_pack_lookup.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.258Z",
+      "last_updated_time": "2026-04-02T15:23:01.258Z",
+      "argument_schema": {
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "limit": {
+          "type": "number",
+          "default": 5
+        }
+      },
+      "usage_examples": [
+        "open bluetooth settings",
+        "find programs and features"
+      ],
+      "safety_notes": [],
+      "input_output_description": "",
+      "dependencies": [
+        "node"
+      ],
+      "modifies_state": false,
+      "read_only": true,
+      "reversible": true,
+      "risk_level": "low",
+      "policy_class": "read_only_safe"
+    },
+    {
+      "id": "windows_skill_pack_execute",
+      "title": "Windows skill pack execute",
+      "description": "Execute a resolved Windows skill with confirmation guardrails.",
+      "aliases": [
+        "launch windows tool"
+      ],
+      "tags": [
+        "windows",
+        "skill-pack",
+        "execute"
+      ],
+      "category": "windows",
+      "inputs": {
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "skill_id": {
+          "type": "string",
+          "default": ""
+        },
+        "confirm": {
+          "type": "boolean",
+          "default": false
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "outputs": {
+        "execution_result": "object",
+        "warnings": "array",
+        "errors": "array",
+        "meta": "object"
+      },
+      "side_effects": [
+        "May open Windows settings/control panel/tools/windows."
+      ],
+      "permissions_needed": [
+        "node"
+      ],
+      "safe_to_autorun": false,
+      "requires_confirmation": true,
+      "timeout_seconds": 30,
+      "platform": [
+        "windows"
+      ],
+      "path": "brain/scripts/windows/windows_skill_pack_execute.js",
+      "version": "1.0.0",
+      "created_by": "registry-import",
+      "creation_source": "brain/scripts/registry/tools_index.json",
+      "last_verified": "2026-04-02T15:23:01.258Z",
+      "last_updated_time": "2026-04-02T15:23:01.258Z",
+      "argument_schema": {
+        "query": {
+          "type": "string",
+          "default": ""
+        },
+        "skill_id": {
+          "type": "string",
+          "default": ""
+        },
+        "confirm": {
+          "type": "boolean",
+          "default": false
+        },
+        "dry_run": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "usage_examples": [
+        "open display settings",
+        "launch device manager"
+      ],
+      "safety_notes": [
+        "The user did not approve risky/admin actions.",
+        "Resolver confidence is low; use lookup first."
+      ],
+      "input_output_description": "",
+      "dependencies": [
+        "node"
+      ],
+      "modifies_state": true,
+      "read_only": false,
+      "reversible": true,
+      "risk_level": "high",
+      "policy_class": "system_sensitive"
+    }
+  ],
+  "exactNameIndex": {
+    "list_running_processes": "list_running_processes",
+    "list running processes": "list_running_processes",
+    "top_cpu_processes": "top_cpu_processes",
+    "top cpu processes": "top_cpu_processes",
+    "top_memory_processes": "top_memory_processes",
+    "top memory processes": "top_memory_processes",
+    "process_details_by_pid": "process_details_by_pid",
+    "process details by pid": "process_details_by_pid",
+    "process_details_by_name": "process_details_by_name",
+    "process details by name": "process_details_by_name",
+    "process_tree_by_pid": "process_tree_by_pid",
+    "process tree by pid": "process_tree_by_pid",
+    "process_executable_path": "process_executable_path",
+    "process executable path": "process_executable_path",
+    "process_command_line": "process_command_line",
+    "process command line": "process_command_line",
+    "process_count": "process_count",
+    "process count": "process_count",
+    "duplicate_process_names": "duplicate_process_names",
+    "duplicate process names": "duplicate_process_names",
+    "long_running_processes": "long_running_processes",
+    "long-running processes": "long_running_processes",
+    "likely_idle_heavy_processes": "likely_idle_heavy_processes",
+    "likely idle heavy processes": "likely_idle_heavy_processes",
+    "process_risk_classification": "process_risk_classification",
+    "process risk classification": "process_risk_classification",
+    "dry_run_kill_process_by_pid": "dry_run_kill_process_by_pid",
+    "dry-run kill process by pid": "dry_run_kill_process_by_pid",
+    "kill_process_by_pid": "kill_process_by_pid",
+    "kill process by pid": "kill_process_by_pid",
+    "dry_run_kill_process_by_name": "dry_run_kill_process_by_name",
+    "dry-run kill process by name": "dry_run_kill_process_by_name",
+    "kill_process_by_name": "kill_process_by_name",
+    "kill process by name": "kill_process_by_name",
+    "cpu_summary": "cpu_summary",
+    "cpu summary": "cpu_summary",
+    "memory_summary": "memory_summary",
+    "memory summary": "memory_summary",
+    "disk_usage_summary": "disk_usage_summary",
+    "disk usage summary": "disk_usage_summary",
+    "uptime_summary": "uptime_summary",
+    "uptime summary": "uptime_summary",
+    "machine_summary": "machine_summary",
+    "machine summary": "machine_summary",
+    "os_version_summary": "os_version_summary",
+    "os version summary": "os_version_summary",
+    "live_counter_snapshot": "live_counter_snapshot",
+    "live counter snapshot": "live_counter_snapshot",
+    "threshold_warning_report": "threshold_warning_report",
+    "threshold warning report": "threshold_warning_report",
+    "running_services": "running_services",
+    "running services": "running_services",
+    "stopped_services": "stopped_services",
+    "stopped services": "stopped_services",
+    "service_details_by_name": "service_details_by_name",
+    "service details by name": "service_details_by_name",
+    "auto_start_services": "auto_start_services",
+    "auto-start services": "auto_start_services",
+    "non_microsoft_services": "non_microsoft_services",
+    "non-microsoft services": "non_microsoft_services",
+    "service_control_preview": "service_control_preview",
+    "service control preview": "service_control_preview",
+    "start_service_by_name": "start_service_by_name",
+    "start service by name": "start_service_by_name",
+    "stop_service_by_name": "stop_service_by_name",
+    "stop service by name": "stop_service_by_name",
+    "restart_service_by_name": "restart_service_by_name",
+    "restart service by name": "restart_service_by_name",
+    "list_startup_entries": "list_startup_entries",
+    "list startup entries": "list_startup_entries",
+    "startup_folder_items": "startup_folder_items",
+    "startup folder items": "startup_folder_items",
+    "registry_startup_items": "registry_startup_items",
+    "registry startup items": "registry_startup_items",
+    "scheduled_tasks_summary": "scheduled_tasks_summary",
+    "scheduled tasks summary": "scheduled_tasks_summary",
+    "suspicious_startup_candidates": "suspicious_startup_candidates",
+    "suspicious startup candidates": "suspicious_startup_candidates",
+    "duplicate_startup_candidates": "duplicate_startup_candidates",
+    "duplicate startup candidates": "duplicate_startup_candidates",
+    "list_listening_ports": "list_listening_ports",
+    "list listening ports": "list_listening_ports",
+    "list_established_connections": "list_established_connections",
+    "list established connections": "list_established_connections",
+    "process_port_mapping": "process_port_mapping",
+    "process-port mapping": "process_port_mapping",
+    "basic_network_activity_summary": "basic_network_activity_summary",
+    "basic network activity summary": "basic_network_activity_summary",
+    "local_network_diagnostics_summary": "local_network_diagnostics_summary",
+    "local network diagnostics summary": "local_network_diagnostics_summary",
+    "temp_cleanup_candidates": "temp_cleanup_candidates",
+    "temp cleanup candidates": "temp_cleanup_candidates",
+    "stale_log_candidates": "stale_log_candidates",
+    "stale log candidates": "stale_log_candidates",
+    "generate_diagnostics_report": "generate_diagnostics_report",
+    "generate diagnostics report": "generate_diagnostics_report",
+    "generate_machine_readiness_report": "generate_machine_readiness_report",
+    "generate machine readiness report": "generate_machine_readiness_report",
+    "generate_process_health_snapshot": "generate_process_health_snapshot",
+    "generate process health snapshot": "generate_process_health_snapshot",
+    "before_after_optimization_snapshot": "before_after_optimization_snapshot",
+    "before/after optimization snapshot": "before_after_optimization_snapshot",
+    "protected_processes": "protected_processes",
+    "protected processes": "protected_processes",
+    "protected_services": "protected_services",
+    "protected services": "protected_services",
+    "process_action_policy": "process_action_policy",
+    "process action policy": "process_action_policy",
+    "service_action_policy": "service_action_policy",
+    "service action policy": "service_action_policy",
+    "windows_skill_pack_lookup": "windows_skill_pack_lookup",
+    "windows skill pack lookup": "windows_skill_pack_lookup",
+    "windows_skill_pack_execute": "windows_skill_pack_execute",
+    "windows skill pack execute": "windows_skill_pack_execute"
+  },
+  "aliasIndex": {
+    "show running processes": "list_running_processes",
+    "what is using cpu": "top_cpu_processes",
+    "show top ram apps": "top_memory_processes",
+    "show process details": "process_details_by_pid",
+    "show process tree": "process_tree_by_pid",
+    "show process command line": "process_command_line",
+    "kill process 1234": "kill_process_by_pid",
+    "show services": "running_services",
+    "show stopped services": "stopped_services",
+    "show auto start services": "auto_start_services",
+    "show startup apps": "list_startup_entries",
+    "show scheduled tasks": "scheduled_tasks_summary",
+    "show listening ports": "list_listening_ports",
+    "show network connections": "list_established_connections",
+    "show network diagnostics": "local_network_diagnostics_summary",
+    "show temp cleanup candidates": "temp_cleanup_candidates",
+    "show diagnostics report": "generate_diagnostics_report",
+    "show readiness report": "generate_machine_readiness_report",
+    "show protected processes": "protected_processes",
+    "show protected services": "protected_services",
+    "open windows setting": "windows_skill_pack_lookup",
+    "find windows setting": "windows_skill_pack_lookup",
+    "open control panel item": "windows_skill_pack_lookup",
+    "run windows skill pack": "windows_skill_pack_lookup",
+    "launch windows tool": "windows_skill_pack_execute"
+  },
+  "categoryIndex": {
+    "process": [
+      "list_running_processes",
+      "top_cpu_processes",
+      "top_memory_processes",
+      "process_details_by_pid",
+      "process_details_by_name",
+      "process_tree_by_pid",
+      "process_executable_path",
+      "process_command_line",
+      "process_count",
+      "duplicate_process_names",
+      "long_running_processes",
+      "likely_idle_heavy_processes",
+      "process_risk_classification",
+      "dry_run_kill_process_by_pid",
+      "kill_process_by_pid",
+      "dry_run_kill_process_by_name",
+      "kill_process_by_name"
+    ],
+    "system": [
+      "cpu_summary",
+      "memory_summary",
+      "disk_usage_summary",
+      "uptime_summary",
+      "machine_summary",
+      "os_version_summary",
+      "live_counter_snapshot",
+      "threshold_warning_report"
+    ],
+    "services": [
+      "running_services",
+      "stopped_services",
+      "service_details_by_name",
+      "auto_start_services",
+      "non_microsoft_services",
+      "service_control_preview",
+      "start_service_by_name",
+      "stop_service_by_name",
+      "restart_service_by_name"
+    ],
+    "startup": [
+      "list_startup_entries",
+      "startup_folder_items",
+      "registry_startup_items",
+      "scheduled_tasks_summary",
+      "suspicious_startup_candidates",
+      "duplicate_startup_candidates"
+    ],
+    "network": [
+      "list_listening_ports",
+      "list_established_connections",
+      "process_port_mapping",
+      "basic_network_activity_summary",
+      "local_network_diagnostics_summary"
+    ],
+    "cleanup": [
+      "temp_cleanup_candidates",
+      "stale_log_candidates",
+      "generate_diagnostics_report",
+      "generate_machine_readiness_report",
+      "generate_process_health_snapshot",
+      "before_after_optimization_snapshot"
+    ],
+    "policy": [
+      "protected_processes",
+      "protected_services",
+      "process_action_policy",
+      "service_action_policy"
+    ],
+    "windows": [
+      "windows_skill_pack_lookup",
+      "windows_skill_pack_execute"
+    ]
+  },
+  "tagIndex": {
+    "process": [
+      "list_running_processes",
+      "top_cpu_processes",
+      "top_memory_processes",
+      "process_details_by_pid",
+      "process_details_by_name",
+      "process_tree_by_pid",
+      "process_executable_path",
+      "process_command_line",
+      "process_count",
+      "duplicate_process_names",
+      "long_running_processes",
+      "likely_idle_heavy_processes",
+      "process_risk_classification",
+      "dry_run_kill_process_by_pid",
+      "kill_process_by_pid",
+      "dry_run_kill_process_by_name",
+      "kill_process_by_name"
+    ],
+    "task-manager": [
+      "list_running_processes",
+      "top_cpu_processes",
+      "top_memory_processes",
+      "process_details_by_pid",
+      "process_details_by_name",
+      "process_tree_by_pid",
+      "process_executable_path",
+      "process_command_line",
+      "process_count",
+      "duplicate_process_names",
+      "long_running_processes",
+      "likely_idle_heavy_processes",
+      "process_risk_classification",
+      "dry_run_kill_process_by_pid",
+      "kill_process_by_pid",
+      "dry_run_kill_process_by_name",
+      "kill_process_by_name",
+      "list_startup_entries",
+      "startup_folder_items",
+      "registry_startup_items",
+      "scheduled_tasks_summary",
+      "suspicious_startup_candidates",
+      "duplicate_startup_candidates"
+    ],
+    "windows": [
+      "list_running_processes",
+      "top_cpu_processes",
+      "top_memory_processes",
+      "process_details_by_pid",
+      "process_details_by_name",
+      "process_tree_by_pid",
+      "process_executable_path",
+      "process_command_line",
+      "process_count",
+      "duplicate_process_names",
+      "long_running_processes",
+      "likely_idle_heavy_processes",
+      "process_risk_classification",
+      "dry_run_kill_process_by_pid",
+      "kill_process_by_pid",
+      "dry_run_kill_process_by_name",
+      "kill_process_by_name",
+      "cpu_summary",
+      "memory_summary",
+      "disk_usage_summary",
+      "uptime_summary",
+      "machine_summary",
+      "os_version_summary",
+      "live_counter_snapshot",
+      "threshold_warning_report",
+      "running_services",
+      "stopped_services",
+      "service_details_by_name",
+      "auto_start_services",
+      "non_microsoft_services",
+      "service_control_preview",
+      "start_service_by_name",
+      "stop_service_by_name",
+      "restart_service_by_name",
+      "list_startup_entries",
+      "startup_folder_items",
+      "registry_startup_items",
+      "scheduled_tasks_summary",
+      "suspicious_startup_candidates",
+      "duplicate_startup_candidates",
+      "temp_cleanup_candidates",
+      "stale_log_candidates",
+      "generate_diagnostics_report",
+      "generate_machine_readiness_report",
+      "generate_process_health_snapshot",
+      "before_after_optimization_snapshot",
+      "windows_skill_pack_lookup",
+      "windows_skill_pack_execute"
+    ],
+    "system": [
+      "cpu_summary",
+      "memory_summary",
+      "disk_usage_summary",
+      "uptime_summary",
+      "machine_summary",
+      "os_version_summary",
+      "live_counter_snapshot",
+      "threshold_warning_report"
+    ],
+    "health": [
+      "cpu_summary",
+      "memory_summary",
+      "disk_usage_summary",
+      "uptime_summary",
+      "machine_summary",
+      "os_version_summary",
+      "live_counter_snapshot",
+      "threshold_warning_report"
+    ],
+    "service": [
+      "running_services",
+      "stopped_services",
+      "service_details_by_name",
+      "auto_start_services",
+      "non_microsoft_services",
+      "service_control_preview",
+      "start_service_by_name",
+      "stop_service_by_name",
+      "restart_service_by_name"
+    ],
+    "control": [
+      "running_services",
+      "stopped_services",
+      "service_details_by_name",
+      "auto_start_services",
+      "non_microsoft_services",
+      "service_control_preview",
+      "start_service_by_name",
+      "stop_service_by_name",
+      "restart_service_by_name"
+    ],
+    "startup": [
+      "list_startup_entries",
+      "startup_folder_items",
+      "registry_startup_items",
+      "scheduled_tasks_summary",
+      "suspicious_startup_candidates",
+      "duplicate_startup_candidates"
+    ],
+    "network": [
+      "list_listening_ports",
+      "list_established_connections",
+      "process_port_mapping",
+      "basic_network_activity_summary",
+      "local_network_diagnostics_summary"
+    ],
+    "ports": [
+      "list_listening_ports",
+      "list_established_connections",
+      "process_port_mapping",
+      "basic_network_activity_summary",
+      "local_network_diagnostics_summary"
+    ],
+    "connections": [
+      "list_listening_ports",
+      "list_established_connections",
+      "process_port_mapping",
+      "basic_network_activity_summary",
+      "local_network_diagnostics_summary"
+    ],
+    "cleanup": [
+      "temp_cleanup_candidates",
+      "stale_log_candidates",
+      "generate_diagnostics_report",
+      "generate_machine_readiness_report",
+      "generate_process_health_snapshot",
+      "before_after_optimization_snapshot"
+    ],
+    "diagnostics": [
+      "temp_cleanup_candidates",
+      "stale_log_candidates",
+      "generate_diagnostics_report",
+      "generate_machine_readiness_report",
+      "generate_process_health_snapshot",
+      "before_after_optimization_snapshot"
+    ],
+    "policy": [
+      "protected_processes",
+      "protected_services",
+      "process_action_policy",
+      "service_action_policy"
+    ],
+    "safety": [
+      "protected_processes",
+      "protected_services",
+      "process_action_policy",
+      "service_action_policy"
+    ],
+    "guardrails": [
+      "protected_processes",
+      "protected_services",
+      "process_action_policy",
+      "service_action_policy"
+    ],
+    "skill-pack": [
+      "windows_skill_pack_lookup",
+      "windows_skill_pack_execute"
+    ],
+    "lookup": [
+      "windows_skill_pack_lookup"
+    ],
+    "routing": [
+      "windows_skill_pack_lookup"
+    ],
+    "execute": [
+      "windows_skill_pack_execute"
+    ]
+  }
+}

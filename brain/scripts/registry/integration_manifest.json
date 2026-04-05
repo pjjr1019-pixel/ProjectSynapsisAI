@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-04-02T04:03:11.564Z",
+  "pack_root": "C:/Users/Pgiov/OneDrive/Documents/Custom programs/Horizons.AI/taskmanager/brain/scripts",
+  "total_tools": 57,
+  "tool_counts_by_category": {
+    "process": 17,
+    "system": 8,
+    "services": 9,
+    "startup": 6,
+    "network": 5,
+    "cleanup": 6,
+    "policy": 4,
+    "windows": 2
+  },
+  "risk_counts": {
+    "low": 51,
+    "medium": 0,
+    "high": 6,
+    "critical": 0
+  },
+  "registry_files": [
+    "registry/tools_index.json",
+    "registry/tool_aliases.json",
+    "registry/playbooks.json",
+    "registry/TOOL_QUICK_LOOKUP.md",
+    "windows/INDEX.json",
+    "windows/registry/compact-skills.json",
+    "windows/registry/compact-aliases.json"
+  ],
+  "runner": "run-tool.js",
+  "validation": {
+    "json_validated": true,
+    "entrypoints_validated": true,
+    "syntax_validated": true,
+    "smoke_tested": true,
+    "runner_smoke_tested": true,
+    "summary": "Registry JSON parsed, entrypoints exist, syntax checks passed, and representative runner smoke tests succeeded."
+  },
+  "status": "generated",
+  "imported_modules": [
+    {
+      "module_id": "windows-js-skill-pack",
+      "name": "Windows JS Skill Pack",
+      "purpose": "Lookup + execution routing for Windows Settings, Control Panel, tools, and folders.",
+      "searchable_paths": [
+        "taskmanager/brain/scripts/windows/INDEX.json",
+        "taskmanager/brain/scripts/windows/registry/compact-skills.json",
+        "taskmanager/brain/scripts/windows/registry/compact-aliases.json",
+        "taskmanager/brain/retrieval/imports/windows-js-skill-pack"
+      ],
+      "runtime_paths": [
+        "taskmanager/brain/scripts/windows/tools",
+        "taskmanager/brain/scripts/windows/executors",
+        "taskmanager/brain/scripts/windows/skills"
+      ],
+      "import_provenance": "taskmanager/brain/imports/windows-js-skill-pack/manifests/import-manifest.json",
+      "state": "imported",
+      "low_cost_model_search_allowed": true
+    }
+  ]
+}

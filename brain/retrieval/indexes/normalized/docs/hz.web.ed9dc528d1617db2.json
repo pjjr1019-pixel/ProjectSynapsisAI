@@ -1,0 +1,484 @@
+{
+  "aliases": [
+    {
+      "alias": "ed9dc528d1617db2",
+      "aliasId": "hz.web.ed9dc528d1617db2.alias.1",
+      "canonical": "user suggestions for medical subject headings"
+    },
+    {
+      "alias": "user suggestions for medical subject headings",
+      "aliasId": "hz.web.ed9dc528d1617db2.alias.2",
+      "canonical": "user suggestions for medical subject headings"
+    },
+    {
+      "alias": "web ed9dc528d1617db2",
+      "aliasId": "hz.web.ed9dc528d1617db2.alias.3",
+      "canonical": "user suggestions for medical subject headings"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.92,
+  "docId": "hz.web.ed9dc528d1617db2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ed9dc528d1617db2.entity.1",
+      "kind": "document",
+      "name": "User Suggestions for Medical Subject Headings",
+      "tokens": [
+        "user",
+        "suggestions",
+        "medical",
+        "subject",
+        "headings"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed9dc528d1617db2.entity.2",
+      "kind": "heading",
+      "name": "User Suggestions for Medical Subject Headings",
+      "tokens": [
+        "user",
+        "suggestions",
+        "medical",
+        "subject",
+        "headings"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed9dc528d1617db2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed9dc528d1617db2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ed9dc528d1617db2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 100,
+      "charStart": 50,
+      "factId": "hz.web.ed9dc528d1617db2.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.nlm.nih.gov/mesh/meshsugg.html",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "nlm",
+        "nih",
+        "gov",
+        "mesh",
+        "meshsugg",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 423,
+      "charStart": 152,
+      "factId": "hz.web.ed9dc528d1617db2.fact.1",
+      "kind": "bullet",
+      "text": "User Suggestions for Medical Subject Headings Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "tokens": [
+        "user",
+        "suggestions",
+        "medical",
+        "subject",
+        "headings",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "here",
+        "know",
+        "official",
+        "websites",
+        "use",
+        "gov",
+        "gov",
+        "website",
+        "belongs",
+        "official",
+        "government",
+        "organization",
+        "united",
+        "states"
+      ]
+    },
+    {
+      "charEnd": 552,
+      "charStart": 424,
+      "factId": "hz.web.ed9dc528d1617db2.fact.2",
+      "kind": "bullet",
+      "text": "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "tokens": [
+        "secure",
+        "gov",
+        "websites",
+        "use",
+        "https",
+        "lock",
+        "lock",
+        "locked",
+        "padlock",
+        "https",
+        "means",
+        "ve",
+        "safely",
+        "connected",
+        "gov",
+        "website"
+      ]
+    },
+    {
+      "charEnd": 617,
+      "charStart": 553,
+      "factId": "hz.web.ed9dc528d1617db2.fact.3",
+      "kind": "bullet",
+      "text": "Share sensitive information only on official, secure websites.",
+      "tokens": [
+        "share",
+        "sensitive",
+        "information",
+        "only",
+        "official",
+        "secure",
+        "websites"
+      ]
+    },
+    {
+      "charEnd": 1453,
+      "charStart": 618,
+      "factId": "hz.web.ed9dc528d1617db2.fact.4",
+      "kind": "bullet",
+      "text": "Menu Products and Services All Products and Services ClinicalTrials.gov Digital Collections LocatorPlus Catalog Medical Subject Headings (MeSH) MedlinePlus PubMed/MEDLINE Unified Medical Language System (UMLS) Resources for You For Researchers For Publishers For Librarians For Educators/Trainers For Health care Professionals For the Public Explore NLM About the Library Visit the Library History of Medicine NLM by Organization Spotlights and Events Grants and Research NLM Extramural Programs NLM Division of Intramural Research National Center for Biotechnology Information Lister Hill National Center for Biomedical Communications Medical Subject Headings MeSH Home | Learn About MeSH | MeSH Browser | Download MeSH Data | MeSH on Demand | Suggestions Home User Suggestions for Medical Subject Headings Your Feedback is Welcome!",
+      "tokens": [
+        "menu",
+        "products",
+        "services",
+        "all",
+        "products",
+        "services",
+        "clinicaltrials",
+        "gov",
+        "digital",
+        "collections",
+        "locatorplus",
+        "catalog",
+        "medical",
+        "subject",
+        "headings",
+        "mesh",
+        "medlineplus",
+        "pubmed",
+        "medline",
+        "unified",
+        "medical",
+        "language",
+        "system",
+        "umls",
+        "resources",
+        "researchers",
+        "publishers",
+        "librarians",
+        "educators",
+        "trainers",
+        "health",
+        "care",
+        "professionals",
+        "public",
+        "explore",
+        "nlm",
+        "about",
+        "library",
+        "visit",
+        "library",
+        "history",
+        "medicine",
+        "nlm",
+        "organization",
+        "spotlights",
+        "events",
+        "grants",
+        "research",
+        "nlm",
+        "extramural",
+        "programs",
+        "nlm",
+        "division",
+        "intramural",
+        "research",
+        "national",
+        "center",
+        "biotechnology",
+        "information",
+        "lister",
+        "hill",
+        "national",
+        "center",
+        "biomedical",
+        "communications",
+        "medical",
+        "subject",
+        "headings",
+        "mesh",
+        "home",
+        "learn",
+        "about",
+        "mesh",
+        "mesh",
+        "browser",
+        "download",
+        "mesh",
+        "data",
+        "mesh",
+        "demand",
+        "suggestions",
+        "home",
+        "user",
+        "suggestions",
+        "medical",
+        "subject",
+        "headings",
+        "your",
+        "feedback",
+        "welcome"
+      ]
+    },
+    {
+      "charEnd": 1474,
+      "charStart": 1468,
+      "factId": "hz.web.ed9dc528d1617db2.fact.5",
+      "kind": "bullet",
+      "text": "mesh",
+      "tokens": [
+        "mesh"
+      ]
+    },
+    {
+      "charEnd": 1480,
+      "charStart": 1475,
+      "factId": "hz.web.ed9dc528d1617db2.fact.6",
+      "kind": "bullet",
+      "text": "nlm",
+      "tokens": [
+        "nlm"
+      ]
+    },
+    {
+      "charEnd": 1487,
+      "charStart": 1481,
+      "factId": "hz.web.ed9dc528d1617db2.fact.7",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 1496,
+      "charStart": 1488,
+      "factId": "hz.web.ed9dc528d1617db2.fact.8",
+      "kind": "bullet",
+      "text": "change",
+      "tokens": [
+        "change"
+      ]
+    },
+    {
+      "charEnd": 1506,
+      "charStart": 1497,
+      "factId": "hz.web.ed9dc528d1617db2.fact.9",
+      "kind": "bullet",
+      "text": "request",
+      "tokens": [
+        "request"
+      ]
+    },
+    {
+      "charEnd": 1516,
+      "charStart": 1507,
+      "factId": "hz.web.ed9dc528d1617db2.fact.10",
+      "kind": "bullet",
+      "text": "subject",
+      "tokens": [
+        "subject"
+      ]
+    },
+    {
+      "charEnd": 1522,
+      "charStart": 1517,
+      "factId": "hz.web.ed9dc528d1617db2.fact.11",
+      "kind": "bullet",
+      "text": "gov",
+      "tokens": [
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 1532,
+      "charStart": 1523,
+      "factId": "hz.web.ed9dc528d1617db2.fact.12",
+      "kind": "bullet",
+      "text": "medical",
+      "tokens": [
+        "medical"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 48,
+      "charStart": 1,
+      "headingId": "hz.web.ed9dc528d1617db2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "User Suggestions for Medical Subject Headings"
+    },
+    {
+      "charEnd": 150,
+      "charStart": 140,
+      "headingId": "hz.web.ed9dc528d1617db2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1466,
+      "charStart": 1455,
+      "headingId": "hz.web.ed9dc528d1617db2.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1544,
+      "charStart": 1534,
+      "headingId": "hz.web.ed9dc528d1617db2.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/ed9dc528d1617db2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4818,
+        "start": 0
+      }
+    ],
+    "hash": "60079a2f9dca0822a5f971e7b80085491fb293f2cb88a5a84d19ceaae0af16bb",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.ed9dc528d1617db2.rule.1",
+      "text": "Each entry term expression in MeSH is unique and carefully chosen to avoid expressions that are multimeaning.",
+      "tokens": [
+        "each",
+        "entry",
+        "term",
+        "expression",
+        "mesh",
+        "unique",
+        "carefully",
+        "chosen",
+        "avoid",
+        "expressions",
+        "multimeaning"
+      ]
+    },
+    {
+      "ruleId": "hz.web.ed9dc528d1617db2.rule.2",
+      "text": "Although MeSH works closely with a variety of NLM departments that provide indexing, citation data, and publications we are not directly involved in these processes and cannot provide answers for questions related to these areas.",
+      "tokens": [
+        "although",
+        "mesh",
+        "works",
+        "closely",
+        "variety",
+        "nlm",
+        "departments",
+        "provide",
+        "indexing",
+        "citation",
+        "data",
+        "publications",
+        "not",
+        "directly",
+        "involved",
+        "these",
+        "processes",
+        "cannot",
+        "provide",
+        "answers",
+        "questions",
+        "related",
+        "these",
+        "areas"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "User Suggestions for Medical Subject Headings Skip to main content An official website of the United States government Here’s how you know Here’s how you know Official websites use .gov A .gov website belongs to an official government organization in the United States.",
+      "Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website.",
+      "Share sensitive information only on official, secure websites."
+    ],
+    "medium": "Source: https://www.nlm.nih.gov/mesh/meshsugg.html",
+    "short": "Source: https://www.nlm.nih.gov/mesh/meshsugg.html",
+    "tokens": [
+      "user",
+      "suggestions",
+      "medical",
+      "subject",
+      "headings",
+      "source",
+      "https",
+      "www",
+      "nlm",
+      "nih",
+      "gov",
+      "mesh",
+      "meshsugg",
+      "html",
+      "source",
+      "https",
+      "www",
+      "nlm",
+      "nih",
+      "gov",
+      "mesh",
+      "meshsugg",
+      "html"
+    ]
+  },
+  "title": "User Suggestions for Medical Subject Headings"
+}

@@ -1,0 +1,392 @@
+{
+  "aliases": [
+    {
+      "alias": "38af79e1ff81ec59",
+      "aliasId": "hz.web.38af79e1ff81ec59.alias.1",
+      "canonical": "omg.lol - legal"
+    },
+    {
+      "alias": "omg.lol - legal",
+      "aliasId": "hz.web.38af79e1ff81ec59.alias.2",
+      "canonical": "omg.lol - legal"
+    },
+    {
+      "alias": "web 38af79e1ff81ec59",
+      "aliasId": "hz.web.38af79e1ff81ec59.alias.3",
+      "canonical": "omg.lol - legal"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.38af79e1ff81ec59",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.38af79e1ff81ec59.entity.1",
+      "kind": "document",
+      "name": "omg.lol - Legal",
+      "tokens": [
+        "omg",
+        "lol",
+        "legal"
+      ]
+    },
+    {
+      "entityId": "hz.web.38af79e1ff81ec59.entity.2",
+      "kind": "heading",
+      "name": "omg.lol - Legal",
+      "tokens": [
+        "omg",
+        "lol",
+        "legal"
+      ]
+    },
+    {
+      "entityId": "hz.web.38af79e1ff81ec59.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.38af79e1ff81ec59.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.38af79e1ff81ec59.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 20,
+      "factId": "hz.web.38af79e1ff81ec59.fact.1",
+      "kind": "summary",
+      "text": "Source: https://home.omg.lol/info/legal",
+      "tokens": [
+        "source",
+        "https",
+        "home",
+        "omg",
+        "lol",
+        "info",
+        "legal"
+      ]
+    },
+    {
+      "charEnd": 134,
+      "charStart": 111,
+      "factId": "hz.web.38af79e1ff81ec59.fact.1",
+      "kind": "bullet",
+      "text": "omg.lol - Legal omg .",
+      "tokens": [
+        "omg",
+        "lol",
+        "legal",
+        "omg"
+      ]
+    },
+    {
+      "charEnd": 346,
+      "charStart": 135,
+      "factId": "hz.web.38af79e1ff81ec59.fact.2",
+      "kind": "bullet",
+      "text": "lol Help Sign up Sign in Info Center Legal Updated 4 years ago This page contains important legal information regarding omg.lol—our Terms of Service , Privacy Policy , DMCA Policy , and Acceptable Use Policy .",
+      "tokens": [
+        "lol",
+        "help",
+        "sign",
+        "up",
+        "sign",
+        "info",
+        "center",
+        "legal",
+        "updated",
+        "years",
+        "ago",
+        "page",
+        "contains",
+        "important",
+        "legal",
+        "information",
+        "regarding",
+        "omg",
+        "lol",
+        "our",
+        "terms",
+        "service",
+        "privacy",
+        "policy",
+        "dmca",
+        "policy",
+        "acceptable",
+        "use",
+        "policy"
+      ]
+    },
+    {
+      "charEnd": 410,
+      "charStart": 347,
+      "factId": "hz.web.38af79e1ff81ec59.fact.3",
+      "kind": "bullet",
+      "text": "You should read all of this information before using omg.lol.",
+      "tokens": [
+        "read",
+        "all",
+        "information",
+        "before",
+        "using",
+        "omg",
+        "lol"
+      ]
+    },
+    {
+      "charEnd": 547,
+      "charStart": 411,
+      "factId": "hz.web.38af79e1ff81ec59.fact.4",
+      "kind": "bullet",
+      "text": "Terms of Service Effective date: February 1, 2022 Article 1: Contract Summary: When you use our Services you agree to all these terms.",
+      "tokens": [
+        "terms",
+        "service",
+        "effective",
+        "date",
+        "february",
+        "2022",
+        "article",
+        "contract",
+        "summary",
+        "use",
+        "our",
+        "services",
+        "agree",
+        "all",
+        "these",
+        "terms"
+      ]
+    },
+    {
+      "charEnd": 572,
+      "charStart": 562,
+      "factId": "hz.web.38af79e1ff81ec59.fact.5",
+      "kind": "bullet",
+      "text": "services",
+      "tokens": [
+        "services"
+      ]
+    },
+    {
+      "charEnd": 578,
+      "charStart": 573,
+      "factId": "hz.web.38af79e1ff81ec59.fact.6",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 585,
+      "charStart": 579,
+      "factId": "hz.web.38af79e1ff81ec59.fact.7",
+      "kind": "bullet",
+      "text": "part",
+      "tokens": [
+        "part"
+      ]
+    },
+    {
+      "charEnd": 599,
+      "charStart": 586,
+      "factId": "hz.web.38af79e1ff81ec59.fact.8",
+      "kind": "bullet",
+      "text": "information",
+      "tokens": [
+        "information"
+      ]
+    },
+    {
+      "charEnd": 606,
+      "charStart": 600,
+      "factId": "hz.web.38af79e1ff81ec59.fact.9",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 607,
+      "factId": "hz.web.38af79e1ff81ec59.fact.10",
+      "kind": "bullet",
+      "text": "lol",
+      "tokens": [
+        "lol"
+      ]
+    },
+    {
+      "charEnd": 618,
+      "charStart": 613,
+      "factId": "hz.web.38af79e1ff81ec59.fact.11",
+      "kind": "bullet",
+      "text": "omg",
+      "tokens": [
+        "omg"
+      ]
+    },
+    {
+      "charEnd": 628,
+      "charStart": 619,
+      "factId": "hz.web.38af79e1ff81ec59.fact.12",
+      "kind": "bullet",
+      "text": "section",
+      "tokens": [
+        "section"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.38af79e1ff81ec59.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "omg.lol - Legal"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.38af79e1ff81ec59.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 560,
+      "charStart": 549,
+      "headingId": "hz.web.38af79e1ff81ec59.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 640,
+      "charStart": 630,
+      "headingId": "hz.web.38af79e1ff81ec59.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/38af79e1ff81ec59.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3873,
+        "start": 0
+      }
+    ],
+    "hash": "8d9b42842d8f5bec921acf674e4ad57b04cd22eee052802333b76bb1533be465",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.38af79e1ff81ec59.rule.1",
+      "text": "- You should read all of this information before using omg.lol.",
+      "tokens": [
+        "read",
+        "all",
+        "information",
+        "before",
+        "using",
+        "omg",
+        "lol"
+      ]
+    },
+    {
+      "ruleId": "hz.web.38af79e1ff81ec59.rule.2",
+      "text": "You should read all of this information before using omg.lol.",
+      "tokens": [
+        "read",
+        "all",
+        "information",
+        "before",
+        "using",
+        "omg",
+        "lol"
+      ]
+    },
+    {
+      "ruleId": "hz.web.38af79e1ff81ec59.rule.3",
+      "text": "Section 1.2 If you do not agree to this contract (“Contract” or “User Agreement”), do not click “Buy it for $20”, “Pay” (or similar) and do not access or otherwise use any of our Services.",
+      "tokens": [
+        "section",
+        "if",
+        "not",
+        "agree",
+        "contract",
+        "contract",
+        "user",
+        "agreement",
+        "not",
+        "click",
+        "buy",
+        "20",
+        "pay",
+        "similar",
+        "not",
+        "access",
+        "otherwise",
+        "use",
+        "any",
+        "our",
+        "services"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "omg.lol - Legal omg .",
+      "lol Help Sign up Sign in Info Center Legal Updated 4 years ago This page contains important legal information regarding omg.lol—our Terms of Service , Privacy Policy , DMCA Policy , and Acceptable Use Policy .",
+      "You should read all of this information before using omg.lol."
+    ],
+    "medium": "Source: https://home.omg.lol/info/legal",
+    "short": "Source: https://home.omg.lol/info/legal",
+    "tokens": [
+      "omg",
+      "lol",
+      "legal",
+      "source",
+      "https",
+      "home",
+      "omg",
+      "lol",
+      "info",
+      "legal",
+      "source",
+      "https",
+      "home",
+      "omg",
+      "lol",
+      "info",
+      "legal"
+    ]
+  },
+  "title": "omg.lol - Legal"
+}

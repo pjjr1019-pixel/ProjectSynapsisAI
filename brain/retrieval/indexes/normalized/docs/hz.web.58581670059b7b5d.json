@@ -1,0 +1,466 @@
+{
+  "aliases": [
+    {
+      "alias": "58581670059b7b5d",
+      "aliasId": "hz.web.58581670059b7b5d.alias.1",
+      "canonical": "rsms"
+    },
+    {
+      "alias": "rsms",
+      "aliasId": "hz.web.58581670059b7b5d.alias.2",
+      "canonical": "rsms"
+    },
+    {
+      "alias": "web 58581670059b7b5d",
+      "aliasId": "hz.web.58581670059b7b5d.alias.3",
+      "canonical": "rsms"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.74,
+  "docId": "hz.web.58581670059b7b5d",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.58581670059b7b5d.entity.1",
+      "kind": "document",
+      "name": "rsms",
+      "tokens": [
+        "rsms"
+      ]
+    },
+    {
+      "entityId": "hz.web.58581670059b7b5d.entity.2",
+      "kind": "heading",
+      "name": "rsms",
+      "tokens": [
+        "rsms"
+      ]
+    },
+    {
+      "entityId": "hz.web.58581670059b7b5d.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.58581670059b7b5d.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.58581670059b7b5d.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 33,
+      "charStart": 9,
+      "factId": "hz.web.58581670059b7b5d.fact.1",
+      "kind": "summary",
+      "text": "Source: https://rsms.me/",
+      "tokens": [
+        "source",
+        "https",
+        "rsms"
+      ]
+    },
+    {
+      "charEnd": 254,
+      "charStart": 85,
+      "factId": "hz.web.58581670059b7b5d.fact.1",
+      "kind": "bullet",
+      "text": "rsms Hello, I'm Rasmus &#x25CF; About Projects Work Photography Shop Projects stuff Random media I’ve collected since the early 2000s, restored from an old hard drive.",
+      "tokens": [
+        "rsms",
+        "hello",
+        "rasmus",
+        "x25cf",
+        "about",
+        "projects",
+        "work",
+        "photography",
+        "shop",
+        "projects",
+        "stuff",
+        "random",
+        "media",
+        "ve",
+        "collected",
+        "since",
+        "early",
+        "2000s",
+        "restored",
+        "old",
+        "hard",
+        "drive"
+      ]
+    },
+    {
+      "charEnd": 288,
+      "charStart": 255,
+      "factId": "hz.web.58581670059b7b5d.fact.2",
+      "kind": "bullet",
+      "text": "I’ve added some new stuff, too.",
+      "tokens": [
+        "ve",
+        "added",
+        "some",
+        "new",
+        "stuff",
+        "too"
+      ]
+    },
+    {
+      "charEnd": 1011,
+      "charStart": 289,
+      "factId": "hz.web.58581670059b7b5d.fact.3",
+      "kind": "bullet",
+      "text": "llvmbox Portable, self contained llvm tools & libs with cross-compilation capability rsm Virtual computer WebGL compressed texture loading demo Demonstrates loading high-resolution photos into WebGL with compressed textures vs “naïve” uncompressed textures from JPEG images Quality in Software Keynote talk at Handmade Seattle 2021 xsys browser demo Proof of concept to implement a virtual OS interface as a syscall that works on many platforms LLVM 13 coroutine example Minimal C & LLVM IR program compiled to WASM, demonstrating the new coroutine intrinsics in LLVM 13 1998.rsms.me Homepage for old software (no SSL) Browser pixel-rounding playground Tests how different web browsers round geometry to pixels, dp, etc.",
+      "tokens": [
+        "llvmbox",
+        "portable",
+        "self",
+        "contained",
+        "llvm",
+        "tools",
+        "libs",
+        "cross",
+        "compilation",
+        "capability",
+        "rsm",
+        "virtual",
+        "computer",
+        "webgl",
+        "compressed",
+        "texture",
+        "loading",
+        "demo",
+        "demonstrates",
+        "loading",
+        "high",
+        "resolution",
+        "photos",
+        "into",
+        "webgl",
+        "compressed",
+        "textures",
+        "vs",
+        "na",
+        "ve",
+        "uncompressed",
+        "textures",
+        "jpeg",
+        "images",
+        "quality",
+        "software",
+        "keynote",
+        "talk",
+        "handmade",
+        "seattle",
+        "2021",
+        "xsys",
+        "browser",
+        "demo",
+        "proof",
+        "concept",
+        "implement",
+        "virtual",
+        "os",
+        "interface",
+        "syscall",
+        "works",
+        "many",
+        "platforms",
+        "llvm",
+        "13",
+        "coroutine",
+        "example",
+        "minimal",
+        "llvm",
+        "ir",
+        "program",
+        "compiled",
+        "wasm",
+        "demonstrating",
+        "new",
+        "coroutine",
+        "intrinsics",
+        "llvm",
+        "13",
+        "1998",
+        "rsms",
+        "homepage",
+        "old",
+        "software",
+        "no",
+        "ssl",
+        "browser",
+        "pixel",
+        "rounding",
+        "playground",
+        "tests",
+        "different",
+        "web",
+        "browsers",
+        "round",
+        "geometry",
+        "pixels",
+        "dp",
+        "etc"
+      ]
+    },
+    {
+      "charEnd": 1783,
+      "charStart": 1012,
+      "factId": "hz.web.58581670059b7b5d.fact.4",
+      "kind": "bullet",
+      "text": "Estrella Light-weight runner for the esbuild compiler Pointer latency playground Explore web browser input pointer latency and try predictive tracking Bézier tangent Toy that derives the tangent and normal from an arbitrary point of a Bézier curve Markdown WASM Fast Markdown parser and HTML renderer implemented in WebAssembly Chaitin-Briggs visualization Interactive visualization of the Chaitin-Briggs “graph coloring” approach to register allocation Web Clipboard Promise Demo of clipboard promises on the Web See all 73 projects &rarr; Thoughts & ideas Introduction to WebAssembly WebAssembly is a new technology for running portable programs in a safe and efficient manner, represented by a low-level virtual-machine assembly, primarily aimed at the web platform.",
+      "tokens": [
+        "estrella",
+        "light",
+        "weight",
+        "runner",
+        "esbuild",
+        "compiler",
+        "pointer",
+        "latency",
+        "playground",
+        "explore",
+        "web",
+        "browser",
+        "input",
+        "pointer",
+        "latency",
+        "try",
+        "predictive",
+        "tracking",
+        "zier",
+        "tangent",
+        "toy",
+        "derives",
+        "tangent",
+        "normal",
+        "arbitrary",
+        "point",
+        "zier",
+        "curve",
+        "markdown",
+        "wasm",
+        "fast",
+        "markdown",
+        "parser",
+        "html",
+        "renderer",
+        "implemented",
+        "webassembly",
+        "chaitin",
+        "briggs",
+        "visualization",
+        "interactive",
+        "visualization",
+        "chaitin",
+        "briggs",
+        "graph",
+        "coloring",
+        "approach",
+        "register",
+        "allocation",
+        "web",
+        "clipboard",
+        "promise",
+        "demo",
+        "clipboard",
+        "promises",
+        "web",
+        "see",
+        "all",
+        "73",
+        "projects",
+        "rarr",
+        "thoughts",
+        "ideas",
+        "introduction",
+        "webassembly",
+        "webassembly",
+        "new",
+        "technology",
+        "running",
+        "portable",
+        "programs",
+        "safe",
+        "efficient",
+        "manner",
+        "represented",
+        "low",
+        "level",
+        "virtual",
+        "machine",
+        "assembly",
+        "primarily",
+        "aimed",
+        "web",
+        "platform"
+      ]
+    },
+    {
+      "charEnd": 1803,
+      "charStart": 1798,
+      "factId": "hz.web.58581670059b7b5d.fact.5",
+      "kind": "bullet",
+      "text": "web",
+      "tokens": [
+        "web"
+      ]
+    },
+    {
+      "charEnd": 1813,
+      "charStart": 1804,
+      "factId": "hz.web.58581670059b7b5d.fact.6",
+      "kind": "bullet",
+      "text": "virtual",
+      "tokens": [
+        "virtual"
+      ]
+    },
+    {
+      "charEnd": 1821,
+      "charStart": 1814,
+      "factId": "hz.web.58581670059b7b5d.fact.7",
+      "kind": "bullet",
+      "text": "1950s",
+      "tokens": [
+        "1950s"
+      ]
+    },
+    {
+      "charEnd": 1828,
+      "charStart": 1822,
+      "factId": "hz.web.58581670059b7b5d.fact.8",
+      "kind": "bullet",
+      "text": "llvm",
+      "tokens": [
+        "llvm"
+      ]
+    },
+    {
+      "charEnd": 1835,
+      "charStart": 1829,
+      "factId": "hz.web.58581670059b7b5d.fact.9",
+      "kind": "bullet",
+      "text": "rarr",
+      "tokens": [
+        "rarr"
+      ]
+    },
+    {
+      "charEnd": 1849,
+      "charStart": 1836,
+      "factId": "hz.web.58581670059b7b5d.fact.10",
+      "kind": "bullet",
+      "text": "webassembly",
+      "tokens": [
+        "webassembly"
+      ]
+    },
+    {
+      "charEnd": 1859,
+      "charStart": 1850,
+      "factId": "hz.web.58581670059b7b5d.fact.11",
+      "kind": "bullet",
+      "text": "browser",
+      "tokens": [
+        "browser"
+      ]
+    },
+    {
+      "charEnd": 1866,
+      "charStart": 1860,
+      "factId": "hz.web.58581670059b7b5d.fact.12",
+      "kind": "bullet",
+      "text": "demo",
+      "tokens": [
+        "demo"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 7,
+      "charStart": 1,
+      "headingId": "hz.web.58581670059b7b5d.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "rsms"
+    },
+    {
+      "charEnd": 83,
+      "charStart": 73,
+      "headingId": "hz.web.58581670059b7b5d.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1796,
+      "charStart": 1785,
+      "headingId": "hz.web.58581670059b7b5d.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1878,
+      "charStart": 1868,
+      "headingId": "hz.web.58581670059b7b5d.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-29/58581670059b7b5d.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5085,
+        "start": 0
+      }
+    ],
+    "hash": "407ed5bb85e783b0926830b500329a7b30518c630563e29b615b509ce3ce6100",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "rsms Hello, I'm Rasmus &#x25CF; About Projects Work Photography Shop Projects stuff Random media I’ve collected since the early 2000s, restored from an old hard drive.",
+      "I’ve added some new stuff, too.",
+      "llvmbox Portable, self contained llvm tools & libs with cross-compilation capability rsm Virtual computer WebGL compressed texture loading demo Demonstrates loading high-resolution photos into WebGL with compressed textures vs “naïve” uncompressed textures from JPEG images Quality in Software Keynote talk at Handmade Seattle 2021 xsys browser demo Proof of concept to implement a virtual OS interface as a syscall that works on many platforms LLVM 13 coroutine example Minimal C & LLVM IR program compiled to WASM, demonstrating the new coroutine intrinsics in LLVM 13 1998.rsms.me Homepage for old software (no SSL) Browser pixel-rounding playground Tests how different web browsers round geometry to pixels, dp, etc."
+    ],
+    "medium": "Source: https://rsms.me/",
+    "short": "Source: https://rsms.me/",
+    "tokens": [
+      "rsms",
+      "source",
+      "https",
+      "rsms",
+      "source",
+      "https",
+      "rsms"
+    ]
+  },
+  "title": "rsms"
+}

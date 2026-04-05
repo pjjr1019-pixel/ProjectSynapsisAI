@@ -1,0 +1,321 @@
+{
+  "aliases": [
+    {
+      "alias": "ea4d94a009462b5f",
+      "aliasId": "hz.web.ea4d94a009462b5f.alias.1",
+      "canonical": "meyerweb.com"
+    },
+    {
+      "alias": "meyerweb.com",
+      "aliasId": "hz.web.ea4d94a009462b5f.alias.2",
+      "canonical": "meyerweb.com"
+    },
+    {
+      "alias": "web ea4d94a009462b5f",
+      "aliasId": "hz.web.ea4d94a009462b5f.alias.3",
+      "canonical": "meyerweb.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.71,
+  "docId": "hz.web.ea4d94a009462b5f",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.ea4d94a009462b5f.entity.1",
+      "kind": "document",
+      "name": "meyerweb.com",
+      "tokens": [
+        "meyerweb",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea4d94a009462b5f.entity.2",
+      "kind": "heading",
+      "name": "meyerweb.com",
+      "tokens": [
+        "meyerweb",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea4d94a009462b5f.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea4d94a009462b5f.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.ea4d94a009462b5f.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 58,
+      "charStart": 17,
+      "factId": "hz.web.ea4d94a009462b5f.fact.1",
+      "kind": "summary",
+      "text": "Source: http://meyerweb.com/ui/about.html",
+      "tokens": [
+        "source",
+        "http",
+        "meyerweb",
+        "com",
+        "ui",
+        "about",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 261,
+      "charStart": 110,
+      "factId": "hz.web.ea4d94a009462b5f.fact.1",
+      "kind": "bullet",
+      "text": "meyerweb.com meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Greetings!",
+      "tokens": [
+        "meyerweb",
+        "com",
+        "meyerweb",
+        "com",
+        "main",
+        "content",
+        "navigation",
+        "links",
+        "footer",
+        "post",
+        "archives",
+        "css",
+        "work",
+        "toolbox",
+        "writing",
+        "speaking",
+        "other",
+        "stuff",
+        "about",
+        "site",
+        "greetings"
+      ]
+    },
+    {
+      "charEnd": 359,
+      "charStart": 262,
+      "factId": "hz.web.ea4d94a009462b5f.fact.2",
+      "kind": "bullet",
+      "text": "Thanks for stopping by meyerweb, an internet tradition in continuous operation since late 1999.",
+      "tokens": [
+        "thanks",
+        "stopping",
+        "meyerweb",
+        "internet",
+        "tradition",
+        "continuous",
+        "operation",
+        "since",
+        "late",
+        "1999"
+      ]
+    },
+    {
+      "charEnd": 423,
+      "charStart": 360,
+      "factId": "hz.web.ea4d94a009462b5f.fact.3",
+      "kind": "bullet",
+      "text": "It’s mostly the personal and professional web site of Eric A.",
+      "tokens": [
+        "mostly",
+        "personal",
+        "professional",
+        "web",
+        "site",
+        "eric"
+      ]
+    },
+    {
+      "charEnd": 479,
+      "charStart": 424,
+      "factId": "hz.web.ea4d94a009462b5f.fact.4",
+      "kind": "bullet",
+      "text": "Meyer , which is to say, me who am writing this page.",
+      "tokens": [
+        "meyer",
+        "say",
+        "am",
+        "writing",
+        "page"
+      ]
+    },
+    {
+      "charEnd": 500,
+      "charStart": 494,
+      "factId": "hz.web.ea4d94a009462b5f.fact.5",
+      "kind": "bullet",
+      "text": "site",
+      "tokens": [
+        "site"
+      ]
+    },
+    {
+      "charEnd": 508,
+      "charStart": 501,
+      "factId": "hz.web.ea4d94a009462b5f.fact.6",
+      "kind": "bullet",
+      "text": "color",
+      "tokens": [
+        "color"
+      ]
+    },
+    {
+      "charEnd": 514,
+      "charStart": 509,
+      "factId": "hz.web.ea4d94a009462b5f.fact.7",
+      "kind": "bullet",
+      "text": "css",
+      "tokens": [
+        "css"
+      ]
+    },
+    {
+      "charEnd": 521,
+      "charStart": 515,
+      "factId": "hz.web.ea4d94a009462b5f.fact.8",
+      "kind": "bullet",
+      "text": "eric",
+      "tokens": [
+        "eric"
+      ]
+    },
+    {
+      "charEnd": 528,
+      "charStart": 522,
+      "factId": "hz.web.ea4d94a009462b5f.fact.9",
+      "kind": "bullet",
+      "text": "hand",
+      "tokens": [
+        "hand"
+      ]
+    },
+    {
+      "charEnd": 536,
+      "charStart": 529,
+      "factId": "hz.web.ea4d94a009462b5f.fact.10",
+      "kind": "bullet",
+      "text": "meyer",
+      "tokens": [
+        "meyer"
+      ]
+    },
+    {
+      "charEnd": 547,
+      "charStart": 537,
+      "factId": "hz.web.ea4d94a009462b5f.fact.11",
+      "kind": "bullet",
+      "text": "meyerweb",
+      "tokens": [
+        "meyerweb"
+      ]
+    },
+    {
+      "charEnd": 553,
+      "charStart": 548,
+      "factId": "hz.web.ea4d94a009462b5f.fact.12",
+      "kind": "bullet",
+      "text": "her",
+      "tokens": [
+        "her"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 15,
+      "charStart": 1,
+      "headingId": "hz.web.ea4d94a009462b5f.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "meyerweb.com"
+    },
+    {
+      "charEnd": 108,
+      "charStart": 98,
+      "headingId": "hz.web.ea4d94a009462b5f.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 492,
+      "charStart": 481,
+      "headingId": "hz.web.ea4d94a009462b5f.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 565,
+      "charStart": 555,
+      "headingId": "hz.web.ea4d94a009462b5f.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/ea4d94a009462b5f.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3365,
+        "start": 0
+      }
+    ],
+    "hash": "2d75fe5b1e7e5802c51c10e1e985c88504169d611fca29d541a41d5ee8e4f481",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "meyerweb.com meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site Greetings!",
+      "Thanks for stopping by meyerweb, an internet tradition in continuous operation since late 1999.",
+      "It’s mostly the personal and professional web site of Eric A."
+    ],
+    "medium": "Source: http://meyerweb.com/ui/about.html",
+    "short": "Source: http://meyerweb.com/ui/about.html",
+    "tokens": [
+      "meyerweb",
+      "com",
+      "source",
+      "http",
+      "meyerweb",
+      "com",
+      "ui",
+      "about",
+      "html",
+      "source",
+      "http",
+      "meyerweb",
+      "com",
+      "ui",
+      "about",
+      "html"
+    ]
+  },
+  "title": "meyerweb.com"
+}

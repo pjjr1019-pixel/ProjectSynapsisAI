@@ -1,0 +1,70 @@
+[
+  {
+    "id": "repo_fast_map",
+    "title": "Repo fast map",
+    "description": "Quickly map a repository for a weaker coding AI.",
+    "steps": [
+      "generate_low_token_pack",
+      "generate_repo_brief",
+      "likely_entrypoints",
+      "likely_root_configs",
+      "folder_role_guess",
+      "package_name_inventory",
+      "readme_inventory"
+    ]
+  },
+  {
+    "id": "cleanup_scan",
+    "title": "Cleanup scan",
+    "description": "Find duplicates, empties, and generated or stale files.",
+    "steps": [
+      "generate_cleanup_candidates_report",
+      "empty_files",
+      "empty_directories",
+      "duplicate_filenames",
+      "duplicate_file_content",
+      "generated_file_candidates",
+      "stale_files"
+    ]
+  },
+  {
+    "id": "dependency_audit",
+    "title": "Dependency audit",
+    "description": "Summarize package managers, dependency files, scripts, and path aliases.",
+    "steps": [
+      "generate_dependency_pack",
+      "package_dependency_summary",
+      "package_dev_dependency_summary",
+      "workspace_package_scan",
+      "npm_script_inventory",
+      "ts_path_alias_inventory",
+      "lockfile_inventory"
+    ]
+  },
+  {
+    "id": "runtime_surface_scan",
+    "title": "Runtime surface scan",
+    "description": "Find entrypoints, route files, cli scripts, and runtime folders.",
+    "steps": [
+      "generate_runtime_surface_map",
+      "likely_entrypoints",
+      "route_file_candidates",
+      "cli_script_candidates",
+      "folder_role_guess",
+      "port_number_inventory"
+    ]
+  },
+  {
+    "id": "quality_pass",
+    "title": "Quality pass",
+    "description": "Find suspicious names, long lines, dense imports, and test gaps.",
+    "steps": [
+      "filename_case_breakdown",
+      "suspicious_filename_scan",
+      "long_line_scan",
+      "import_density_scan",
+      "comment_density_scan",
+      "test_gap_hints"
+    ]
+  }
+]

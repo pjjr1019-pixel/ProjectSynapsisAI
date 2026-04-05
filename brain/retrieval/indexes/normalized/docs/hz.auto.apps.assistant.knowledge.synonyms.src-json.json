@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    {
+      "alias": "synonyms",
+      "aliasId": "hz.auto.apps.assistant.knowledge.synonyms.src-json.alias.1",
+      "canonical": "synonyms"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.8,
+  "docId": "hz.auto.apps.assistant.knowledge.synonyms.src-json",
+  "domain": "assistant",
+  "entities": [
+    {
+      "entityId": "hz.auto.apps.assistant.knowledge.synonyms.src-json.entity.1",
+      "kind": "document",
+      "name": "synonyms",
+      "tokens": [
+        "synonyms"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 0,
+      "charStart": 0,
+      "factId": "hz.auto.apps.assistant.knowledge.synonyms.src-json.fact.1",
+      "kind": "summary",
+      "text": "Structured JSON keys: nvda, googl, fb, msg, msgs, docs, repo, ui, ux",
+      "tokens": [
+        "structured",
+        "json",
+        "keys",
+        "nvda",
+        "googl",
+        "fb",
+        "msg",
+        "msgs",
+        "docs",
+        "repo",
+        "ui",
+        "ux"
+      ]
+    }
+  ],
+  "headings": [],
+  "moduleIds": [],
+  "path": "apps/assistant/knowledge/synonyms.json",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 211,
+        "start": 0
+      }
+    ],
+    "hash": "1c3921de88803f1e2b3c1b037512d3b517be3a84ddfa0bff071ad88802b93de0",
+    "sourceType": "canonical"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [],
+    "medium": "{ \"nvda\": \"nvidia\", \"googl\": \"google\", \"fb\": \"facebook\", \"msg\": \"message\", \"msgs\": \"messages\", \"docs\": \"documentation\", \"repo\": \"repository\", \"ui\": \"interface\", \"ux\": \"experience\" }",
+    "short": "{ \"nvda\": \"nvidia\", \"googl\": \"google\", \"fb\": \"facebook\", \"msg\": \"message\", \"msgs\": \"messages\", \"docs\": \"documentation\", \"repo\": \"repository\", \"ui\": \"interface\", \"ux\": \"experience\" }",
+    "tokens": [
+      "synonyms",
+      "nvda",
+      "nvidia",
+      "googl",
+      "google",
+      "fb",
+      "facebook",
+      "msg",
+      "message",
+      "msgs",
+      "messages",
+      "docs",
+      "documentation",
+      "repo",
+      "repository",
+      "ui",
+      "interface",
+      "ux",
+      "experience",
+      "nvda",
+      "nvidia",
+      "googl",
+      "google",
+      "fb",
+      "facebook",
+      "msg",
+      "message",
+      "msgs",
+      "messages",
+      "docs",
+      "documentation",
+      "repo",
+      "repository",
+      "ui",
+      "interface",
+      "ux",
+      "experience"
+    ]
+  },
+  "title": "synonyms"
+}

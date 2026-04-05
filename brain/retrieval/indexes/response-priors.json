@@ -1,0 +1,317 @@
+{
+  "artifactType": "response-priors",
+  "buildVersion": "brain-ir-runtime-v1",
+  "builtAt": "2026-03-31T09:46:13.192Z",
+  "counts": {
+    "docs": 2627,
+    "scenarios": 1332
+  },
+  "domainWeights": {
+    "assistant": 5,
+    "core": 6,
+    "financial": 2,
+    "governance": 2,
+    "intel": 2,
+    "launcher": 2,
+    "life": 2,
+    "memory": 2,
+    "ops": 2,
+    "pipeline": 10,
+    "prompt": 1,
+    "runtime": 22,
+    "social": 2,
+    "web": 2565,
+    "work": 2
+  },
+  "schemaVersion": "1.0",
+  "topScenarioRows": [
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.capabilities.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.capabilities.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.capabilities.3"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.capabilities.4"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.feedback.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.feedback.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.feedback.3"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.identity.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.identity.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.identity.3"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.identity.4"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.language.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.language.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.limits.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.limits.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.limits.3"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.meta.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.meta.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.meta.3"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.meta.4"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.safety.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.safety.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.smalltalk.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.smalltalk.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.smalltalk.3"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.smalltalk.4"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.style.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.style.2"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.style.3"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.style.4"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.style.5"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 10,
+      "rowId": "hz.scenario.core.style.6"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.base.bye.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.base.greet.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.base.help.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.base.ok.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.base.thanks.1"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.10"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.11"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.12"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.13"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.14"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.15"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.16"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.17"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.18"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.19"
+    },
+    {
+      "app": "assistant",
+      "domain": "assistant",
+      "priority": 0,
+      "rowId": "hz.scenario.gen.greet.20"
+    }
+  ]
+}

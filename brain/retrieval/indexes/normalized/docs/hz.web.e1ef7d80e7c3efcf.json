@@ -1,0 +1,456 @@
+{
+  "aliases": [
+    {
+      "alias": "e1ef7d80e7c3efcf",
+      "aliasId": "hz.web.e1ef7d80e7c3efcf.alias.1",
+      "canonical": "micropub"
+    },
+    {
+      "alias": "micropub",
+      "aliasId": "hz.web.e1ef7d80e7c3efcf.alias.2",
+      "canonical": "micropub"
+    },
+    {
+      "alias": "web e1ef7d80e7c3efcf",
+      "aliasId": "hz.web.e1ef7d80e7c3efcf.alias.3",
+      "canonical": "micropub"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 1,
+  "docId": "hz.web.e1ef7d80e7c3efcf",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e1ef7d80e7c3efcf.entity.1",
+      "kind": "document",
+      "name": "Micropub",
+      "tokens": [
+        "micropub"
+      ]
+    },
+    {
+      "entityId": "hz.web.e1ef7d80e7c3efcf.entity.2",
+      "kind": "heading",
+      "name": "Micropub",
+      "tokens": [
+        "micropub"
+      ]
+    },
+    {
+      "entityId": "hz.web.e1ef7d80e7c3efcf.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e1ef7d80e7c3efcf.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e1ef7d80e7c3efcf.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 52,
+      "charStart": 13,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.w3.org/TR/micropub/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "micropub"
+      ]
+    },
+    {
+      "charEnd": 631,
+      "charStart": 104,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.1",
+      "kind": "bullet",
+      "text": "Micropub Micropub W3C Recommendation 23 May 2017 This version: https://www.w3.org/TR/2017/REC-micropub-20170523/ Latest published version: https://www.w3.org/TR/micropub/ Latest editor's draft: https://micropub.net/draft/ Test suite: https://micropub.rocks/ Implementation report: https://micropub.net/implementation-reports/ Previous version: https://www.w3.org/TR/2017/PR-micropub-20170413/ Editor: Aaron Parecki Repository: Github Issues Commits Please check the errata for any errors or issues reported since publication.",
+      "tokens": [
+        "micropub",
+        "micropub",
+        "w3c",
+        "recommendation",
+        "23",
+        "may",
+        "2017",
+        "version",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2017",
+        "rec",
+        "micropub",
+        "20170523",
+        "latest",
+        "published",
+        "version",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "micropub",
+        "latest",
+        "editor",
+        "draft",
+        "https",
+        "micropub",
+        "net",
+        "draft",
+        "test",
+        "suite",
+        "https",
+        "micropub",
+        "rocks",
+        "implementation",
+        "report",
+        "https",
+        "micropub",
+        "net",
+        "implementation",
+        "reports",
+        "previous",
+        "version",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2017",
+        "pr",
+        "micropub",
+        "20170413",
+        "editor",
+        "aaron",
+        "parecki",
+        "repository",
+        "github",
+        "issues",
+        "commits",
+        "please",
+        "check",
+        "errata",
+        "any",
+        "errors",
+        "issues",
+        "reported",
+        "since",
+        "publication"
+      ]
+    },
+    {
+      "charEnd": 706,
+      "charStart": 632,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.2",
+      "kind": "bullet",
+      "text": "The English version of this specification is the only normative version.",
+      "tokens": [
+        "english",
+        "version",
+        "specification",
+        "only",
+        "normative",
+        "version"
+      ]
+    },
+    {
+      "charEnd": 758,
+      "charStart": 707,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.3",
+      "kind": "bullet",
+      "text": "Non-normative translations may also be available.",
+      "tokens": [
+        "non",
+        "normative",
+        "translations",
+        "may",
+        "also",
+        "available"
+      ]
+    },
+    {
+      "charEnd": 817,
+      "charStart": 759,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.4",
+      "kind": "bullet",
+      "text": "Copyright © 2017 W3C ® ( MIT , ERCIM , Keio , Beihang ).",
+      "tokens": [
+        "copyright",
+        "2017",
+        "w3c",
+        "mit",
+        "ercim",
+        "keio",
+        "beihang"
+      ]
+    },
+    {
+      "charEnd": 842,
+      "charStart": 832,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.5",
+      "kind": "bullet",
+      "text": "micropub",
+      "tokens": [
+        "micropub"
+      ]
+    },
+    {
+      "charEnd": 849,
+      "charStart": 843,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.6",
+      "kind": "bullet",
+      "text": "post",
+      "tokens": [
+        "post"
+      ]
+    },
+    {
+      "charEnd": 856,
+      "charStart": 850,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.7",
+      "kind": "bullet",
+      "text": "form",
+      "tokens": [
+        "form"
+      ]
+    },
+    {
+      "charEnd": 867,
+      "charStart": 857,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.8",
+      "kind": "bullet",
+      "text": "endpoint",
+      "tokens": [
+        "endpoint"
+      ]
+    },
+    {
+      "charEnd": 874,
+      "charStart": 868,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.9",
+      "kind": "bullet",
+      "text": "must",
+      "tokens": [
+        "must"
+      ]
+    },
+    {
+      "charEnd": 887,
+      "charStart": 875,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.10",
+      "kind": "bullet",
+      "text": "properties",
+      "tokens": [
+        "properties"
+      ]
+    },
+    {
+      "charEnd": 897,
+      "charStart": 888,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.11",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 903,
+      "charStart": 898,
+      "factId": "hz.web.e1ef7d80e7c3efcf.fact.12",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 11,
+      "charStart": 1,
+      "headingId": "hz.web.e1ef7d80e7c3efcf.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Micropub"
+    },
+    {
+      "charEnd": 102,
+      "charStart": 92,
+      "headingId": "hz.web.e1ef7d80e7c3efcf.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 830,
+      "charStart": 819,
+      "headingId": "hz.web.e1ef7d80e7c3efcf.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 915,
+      "charStart": 905,
+      "headingId": "hz.web.e1ef7d80e7c3efcf.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/e1ef7d80e7c3efcf.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4141,
+        "start": 0
+      }
+    ],
+    "hash": "c394e93c943c9acb146cac133ae2c8fd3819e38c859ee68eb7560ff2e764855c",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.e1ef7d80e7c3efcf.rule.1",
+      "text": "## Keywords - micropub - post - form - endpoint - must - properties - content - url ## Excerpt Micropub Micropub W3C Recommendation 23 May 2017 This version: https://www.w3.org/TR/2017/REC-micropub-20170523/ Latest published version: https://www.w3.org/TR/micropub/ Latest editor's draft: https://micropub.net/draft/ Test suite: https://micropub.rocks/ Implementation report: https://micropub.net/implementation-reports/ Previous version: https://www.w3.org/TR/2017/PR-micropub-20170413/ Editor: Aaron Parecki Repository: Github Issues Commits Please check the errata for any errors or issues reported since publication.",
+      "tokens": [
+        "keywords",
+        "micropub",
+        "post",
+        "form",
+        "endpoint",
+        "must",
+        "properties",
+        "content",
+        "url",
+        "excerpt",
+        "micropub",
+        "micropub",
+        "w3c",
+        "recommendation",
+        "23",
+        "may",
+        "2017",
+        "version",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2017",
+        "rec",
+        "micropub",
+        "20170523",
+        "latest",
+        "published",
+        "version",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "micropub",
+        "latest",
+        "editor",
+        "draft",
+        "https",
+        "micropub",
+        "net",
+        "draft",
+        "test",
+        "suite",
+        "https",
+        "micropub",
+        "rocks",
+        "implementation",
+        "report",
+        "https",
+        "micropub",
+        "net",
+        "implementation",
+        "reports",
+        "previous",
+        "version",
+        "https",
+        "www",
+        "w3",
+        "org",
+        "tr",
+        "2017",
+        "pr",
+        "micropub",
+        "20170413",
+        "editor",
+        "aaron",
+        "parecki",
+        "repository",
+        "github",
+        "issues",
+        "commits",
+        "please",
+        "check",
+        "errata",
+        "any",
+        "errors",
+        "issues",
+        "reported",
+        "since",
+        "publication"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Micropub Micropub W3C Recommendation 23 May 2017 This version: https://www.w3.org/TR/2017/REC-micropub-20170523/ Latest published version: https://www.w3.org/TR/micropub/ Latest editor's draft: https://micropub.net/draft/ Test suite: https://micropub.rocks/ Implementation report: https://micropub.net/implementation-reports/ Previous version: https://www.w3.org/TR/2017/PR-micropub-20170413/ Editor: Aaron Parecki Repository: Github Issues Commits Please check the errata for any errors or issues reported since publication.",
+      "The English version of this specification is the only normative version.",
+      "Non-normative translations may also be available."
+    ],
+    "medium": "Source: https://www.w3.org/TR/micropub/",
+    "short": "Source: https://www.w3.org/TR/micropub/",
+    "tokens": [
+      "micropub",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "micropub",
+      "source",
+      "https",
+      "www",
+      "w3",
+      "org",
+      "tr",
+      "micropub"
+    ]
+  },
+  "title": "Micropub"
+}

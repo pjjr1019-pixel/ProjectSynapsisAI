@@ -1,0 +1,151 @@
+[
+  {
+    "id": "process_triage",
+    "title": "Process triage",
+    "description": "Inspect hotspots, classify risk, and decide whether a process should be left alone or killed.",
+    "steps": [
+      "Run top_cpu_processes and top_memory_processes.",
+      "Run process_details_by_pid or process_details_by_name for the suspicious target.",
+      "Run process_action_policy and dry_run_kill_process_by_pid if the target is eligible."
+    ],
+    "tools": [
+      "top_cpu_processes",
+      "top_memory_processes",
+      "process_details_by_pid",
+      "process_action_policy",
+      "dry_run_kill_process_by_pid"
+    ]
+  },
+  {
+    "id": "local_ai_readiness_scan",
+    "title": "Local AI readiness scan",
+    "description": "Collect the current system posture for local AI work.",
+    "steps": [
+      "Run machine_summary, cpu_summary, memory_summary, and disk_usage_summary.",
+      "Run process_health_snapshot and basic_network_activity_summary.",
+      "Run generate_machine_readiness_report for a compact summary."
+    ],
+    "tools": [
+      "machine_summary",
+      "cpu_summary",
+      "memory_summary",
+      "disk_usage_summary",
+      "generate_process_health_snapshot",
+      "basic_network_activity_summary",
+      "generate_machine_readiness_report"
+    ]
+  },
+  {
+    "id": "safe_performance_inspection",
+    "title": "Safe performance inspection",
+    "description": "Inspect performance without changing system state.",
+    "steps": [
+      "Run system summary tools.",
+      "Inspect top_cpu_processes and top_memory_processes.",
+      "Use threshold_warning_report to flag pressure."
+    ],
+    "tools": [
+      "cpu_summary",
+      "memory_summary",
+      "disk_usage_summary",
+      "top_cpu_processes",
+      "top_memory_processes",
+      "threshold_warning_report"
+    ]
+  },
+  {
+    "id": "startup_audit",
+    "title": "Startup audit",
+    "description": "Review startup paths, registry entries, and scheduled tasks.",
+    "steps": [
+      "Run list_startup_entries, startup_folder_items, and registry_startup_items.",
+      "Run scheduled_tasks_summary.",
+      "Inspect suspicious_startup_candidates and duplicate_startup_candidates."
+    ],
+    "tools": [
+      "list_startup_entries",
+      "startup_folder_items",
+      "registry_startup_items",
+      "scheduled_tasks_summary",
+      "suspicious_startup_candidates",
+      "duplicate_startup_candidates"
+    ]
+  },
+  {
+    "id": "network_audit",
+    "title": "Network audit",
+    "description": "Check listening ports, established connections, and process mappings.",
+    "steps": [
+      "Run list_listening_ports and list_established_connections.",
+      "Use process_port_mapping for the suspicious PID.",
+      "Run basic_network_activity_summary and local_network_diagnostics_summary."
+    ],
+    "tools": [
+      "list_listening_ports",
+      "list_established_connections",
+      "process_port_mapping",
+      "basic_network_activity_summary",
+      "local_network_diagnostics_summary"
+    ]
+  },
+  {
+    "id": "diagnostics_bundle_generation",
+    "title": "Diagnostics bundle generation",
+    "description": "Collect a compact bundle for escalation or handoff.",
+    "steps": [
+      "Run generate_diagnostics_report.",
+      "Run generate_machine_readiness_report.",
+      "Run generate_process_health_snapshot."
+    ],
+    "tools": [
+      "generate_diagnostics_report",
+      "generate_machine_readiness_report",
+      "generate_process_health_snapshot"
+    ]
+  },
+  {
+    "id": "before_after_optimization_snapshot",
+    "title": "Before/after optimization snapshot",
+    "description": "Compare two snapshots to quantify resource change.",
+    "steps": [
+      "Capture a baseline snapshot.",
+      "Capture a follow-up snapshot after the change.",
+      "Run before_after_optimization_snapshot to compare them."
+    ],
+    "tools": [
+      "before_after_optimization_snapshot"
+    ]
+  },
+  {
+    "id": "guarded_process_termination_flow",
+    "title": "Guarded process termination flow",
+    "description": "Validate a target, preview impact, and only then terminate if explicitly approved.",
+    "steps": [
+      "Run process_action_policy.",
+      "Run dry_run_kill_process_by_pid or dry_run_kill_process_by_name.",
+      "Run the matching kill tool with dry_run false and approve true only if the preview is acceptable."
+    ],
+    "tools": [
+      "process_action_policy",
+      "dry_run_kill_process_by_pid",
+      "kill_process_by_pid",
+      "dry_run_kill_process_by_name",
+      "kill_process_by_name"
+    ]
+  },
+  {
+    "id": "windows_skill_pack_lookup_then_execute",
+    "title": "Windows skill lookup then execute",
+    "description": "Resolve a Windows skill, validate confidence/safety, then execute.",
+    "steps": [
+      "Run windows_skill_pack_lookup with the user request.",
+      "If confidence is low, return top 3 candidates.",
+      "If confidence is high, run windows_skill_pack_execute in dry_run mode.",
+      "Execute with explicit confirmation for risky/admin-required actions."
+    ],
+    "tools": [
+      "windows_skill_pack_lookup",
+      "windows_skill_pack_execute"
+    ]
+  }
+]

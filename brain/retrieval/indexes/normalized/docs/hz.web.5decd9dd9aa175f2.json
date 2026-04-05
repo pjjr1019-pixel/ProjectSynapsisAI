@@ -1,0 +1,426 @@
+{
+  "aliases": [
+    {
+      "alias": "5decd9dd9aa175f2",
+      "aliasId": "hz.web.5decd9dd9aa175f2.alias.1",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "aaronparecki.com",
+      "aliasId": "hz.web.5decd9dd9aa175f2.alias.2",
+      "canonical": "aaronparecki.com"
+    },
+    {
+      "alias": "web 5decd9dd9aa175f2",
+      "aliasId": "hz.web.5decd9dd9aa175f2.alias.3",
+      "canonical": "aaronparecki.com"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.51,
+  "docId": "hz.web.5decd9dd9aa175f2",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.5decd9dd9aa175f2.entity.1",
+      "kind": "document",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5decd9dd9aa175f2.entity.2",
+      "kind": "heading",
+      "name": "aaronparecki.com",
+      "tokens": [
+        "aaronparecki",
+        "com"
+      ]
+    },
+    {
+      "entityId": "hz.web.5decd9dd9aa175f2.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.5decd9dd9aa175f2.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.5decd9dd9aa175f2.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 68,
+      "charStart": 21,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.1",
+      "kind": "summary",
+      "text": "Source: http://aaronparecki.com/assets/font.css",
+      "tokens": [
+        "source",
+        "http",
+        "aaronparecki",
+        "com",
+        "assets",
+        "font",
+        "css"
+      ]
+    },
+    {
+      "charEnd": 1449,
+      "charStart": 120,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.1",
+      "kind": "bullet",
+      "text": "/* montserrat-regular - latin */ @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400; src: url('../fonts/montserrat-v18-latin-regular.eot'); /* IE9 Compat Modes */ src: local(''), url('../fonts/montserrat-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/montserrat-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/montserrat-v18-latin-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/montserrat-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/montserrat-v18-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */ } /* montserrat-600 - latin */ @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 600; src: url('../fonts/montserrat-v18-latin-600.eot'); /* IE9 Compat Modes */ src: local(''), url('../fonts/montserrat-v18-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/montserrat-v18-latin-600.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/montserrat-v18-latin-600.woff') format('woff'), /* Modern Browsers */ url('../fonts/montserrat-v18-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/montserrat-v18-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */ }",
+      "tokens": [
+        "montserrat",
+        "regular",
+        "latin",
+        "font",
+        "face",
+        "font",
+        "family",
+        "montserrat",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "400",
+        "src",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "regular",
+        "eot",
+        "ie9",
+        "compat",
+        "modes",
+        "src",
+        "local",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "regular",
+        "eot",
+        "iefix",
+        "format",
+        "embedded",
+        "opentype",
+        "ie6",
+        "ie8",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "regular",
+        "woff2",
+        "format",
+        "woff2",
+        "super",
+        "modern",
+        "browsers",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "regular",
+        "woff",
+        "format",
+        "woff",
+        "modern",
+        "browsers",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "regular",
+        "ttf",
+        "format",
+        "truetype",
+        "safari",
+        "android",
+        "ios",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "regular",
+        "svg",
+        "montserrat",
+        "format",
+        "svg",
+        "legacy",
+        "ios",
+        "montserrat",
+        "600",
+        "latin",
+        "font",
+        "face",
+        "font",
+        "family",
+        "montserrat",
+        "font",
+        "style",
+        "normal",
+        "font",
+        "weight",
+        "600",
+        "src",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "600",
+        "eot",
+        "ie9",
+        "compat",
+        "modes",
+        "src",
+        "local",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "600",
+        "eot",
+        "iefix",
+        "format",
+        "embedded",
+        "opentype",
+        "ie6",
+        "ie8",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "600",
+        "woff2",
+        "format",
+        "woff2",
+        "super",
+        "modern",
+        "browsers",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "600",
+        "woff",
+        "format",
+        "woff",
+        "modern",
+        "browsers",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "600",
+        "ttf",
+        "format",
+        "truetype",
+        "safari",
+        "android",
+        "ios",
+        "url",
+        "fonts",
+        "montserrat",
+        "v18",
+        "latin",
+        "600",
+        "svg",
+        "montserrat",
+        "format",
+        "svg",
+        "legacy",
+        "ios"
+      ]
+    },
+    {
+      "charEnd": 1476,
+      "charStart": 1464,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.2",
+      "kind": "bullet",
+      "text": "montserrat",
+      "tokens": [
+        "montserrat"
+      ]
+    },
+    {
+      "charEnd": 1484,
+      "charStart": 1477,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.3",
+      "kind": "bullet",
+      "text": "latin",
+      "tokens": [
+        "latin"
+      ]
+    },
+    {
+      "charEnd": 1492,
+      "charStart": 1485,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.4",
+      "kind": "bullet",
+      "text": "fonts",
+      "tokens": [
+        "fonts"
+      ]
+    },
+    {
+      "charEnd": 1498,
+      "charStart": 1493,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.5",
+      "kind": "bullet",
+      "text": "url",
+      "tokens": [
+        "url"
+      ]
+    },
+    {
+      "charEnd": 1504,
+      "charStart": 1499,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.6",
+      "kind": "bullet",
+      "text": "v18",
+      "tokens": [
+        "v18"
+      ]
+    },
+    {
+      "charEnd": 1513,
+      "charStart": 1505,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.7",
+      "kind": "bullet",
+      "text": "format",
+      "tokens": [
+        "format"
+      ]
+    },
+    {
+      "charEnd": 1519,
+      "charStart": 1514,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.8",
+      "kind": "bullet",
+      "text": "600",
+      "tokens": [
+        "600"
+      ]
+    },
+    {
+      "charEnd": 1526,
+      "charStart": 1520,
+      "factId": "hz.web.5decd9dd9aa175f2.fact.9",
+      "kind": "bullet",
+      "text": "font",
+      "tokens": [
+        "font"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 19,
+      "charStart": 1,
+      "headingId": "hz.web.5decd9dd9aa175f2.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "aaronparecki.com"
+    },
+    {
+      "charEnd": 118,
+      "charStart": 108,
+      "headingId": "hz.web.5decd9dd9aa175f2.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1462,
+      "charStart": 1451,
+      "headingId": "hz.web.5decd9dd9aa175f2.heading.3",
+      "level": 2,
+      "line": 12,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1538,
+      "charStart": 1528,
+      "headingId": "hz.web.5decd9dd9aa175f2.heading.4",
+      "level": 2,
+      "line": 23,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/5decd9dd9aa175f2.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3107,
+        "start": 0
+      }
+    ],
+    "hash": "547454245f7db36691ff9a4f2c8c55695e7c7652dc647c65938452b84e9bd138",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "/* montserrat-regular - latin */ @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400; src: url('../fonts/montserrat-v18-latin-regular.eot'); /* IE9 Compat Modes */ src: local(''), url('../fonts/montserrat-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/montserrat-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/montserrat-v18-latin-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/montserrat-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/montserrat-v18-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */ } /* montserrat-600 - latin */ @font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 600; src: url('../fonts/montserrat-v18-latin-600.eot'); /* IE9 Compat Modes */ src: local(''), url('../fonts/montserrat-v18-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/montserrat-v18-latin-600.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/montserrat-v18-latin-600.woff') format('woff'), /* Modern Browsers */ url('../fonts/montserrat-v18-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/montserrat-v18-latin-600.svg#Montserrat') format('svg'); /* Legacy iOS */ }",
+      "montserrat",
+      "latin"
+    ],
+    "medium": "Source: http://aaronparecki.com/assets/font.css",
+    "short": "Source: http://aaronparecki.com/assets/font.css",
+    "tokens": [
+      "aaronparecki",
+      "com",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "assets",
+      "font",
+      "css",
+      "source",
+      "http",
+      "aaronparecki",
+      "com",
+      "assets",
+      "font",
+      "css"
+    ]
+  },
+  "title": "aaronparecki.com"
+}

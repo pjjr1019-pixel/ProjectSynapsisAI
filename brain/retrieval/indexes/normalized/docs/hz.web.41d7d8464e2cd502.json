@@ -1,0 +1,360 @@
+{
+  "aliases": [
+    {
+      "alias": "41d7d8464e2cd502",
+      "aliasId": "hz.web.41d7d8464e2cd502.alias.1",
+      "canonical": "log ind | linkedin"
+    },
+    {
+      "alias": "log ind linkedin",
+      "aliasId": "hz.web.41d7d8464e2cd502.alias.2",
+      "canonical": "log ind | linkedin"
+    },
+    {
+      "alias": "web 41d7d8464e2cd502",
+      "aliasId": "hz.web.41d7d8464e2cd502.alias.3",
+      "canonical": "log ind | linkedin"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.64,
+  "docId": "hz.web.41d7d8464e2cd502",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.41d7d8464e2cd502.entity.1",
+      "kind": "document",
+      "name": "Log ind | LinkedIn",
+      "tokens": [
+        "log",
+        "ind",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.41d7d8464e2cd502.entity.2",
+      "kind": "heading",
+      "name": "Log ind | LinkedIn",
+      "tokens": [
+        "log",
+        "ind",
+        "linkedin"
+      ]
+    },
+    {
+      "entityId": "hz.web.41d7d8464e2cd502.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.41d7d8464e2cd502.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.41d7d8464e2cd502.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 23,
+      "factId": "hz.web.41d7d8464e2cd502.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.linkedin.com/login/da",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "linkedin",
+        "com",
+        "login",
+        "da"
+      ]
+    },
+    {
+      "charEnd": 297,
+      "charStart": 116,
+      "factId": "hz.web.41d7d8464e2cd502.fact.1",
+      "kind": "bullet",
+      "text": "Log ind | LinkedIn Log ind Log ind med Apple Log ind med en adgangsnøgle Ved at klikke på Fortsæt accepterer du LinkedIns Brugeraftale , Privatlivspolitik og Politik for cookies .",
+      "tokens": [
+        "log",
+        "ind",
+        "linkedin",
+        "log",
+        "ind",
+        "log",
+        "ind",
+        "med",
+        "apple",
+        "log",
+        "ind",
+        "med",
+        "en",
+        "adgangsn",
+        "gle",
+        "ved",
+        "klikke",
+        "forts",
+        "accepterer",
+        "du",
+        "linkedins",
+        "brugeraftale",
+        "privatlivspolitik",
+        "og",
+        "politik",
+        "cookies"
+      ]
+    },
+    {
+      "charEnd": 369,
+      "charStart": 298,
+      "factId": "hz.web.41d7d8464e2cd502.fact.2",
+      "kind": "bullet",
+      "text": "eller E-mail eller telefon Adgangskode Vis Har du glemt adgangskoden?",
+      "tokens": [
+        "eller",
+        "mail",
+        "eller",
+        "telefon",
+        "adgangskode",
+        "vis",
+        "har",
+        "du",
+        "glemt",
+        "adgangskoden"
+      ]
+    },
+    {
+      "charEnd": 534,
+      "charStart": 370,
+      "factId": "hz.web.41d7d8464e2cd502.fact.3",
+      "kind": "bullet",
+      "text": "Lad mig forblive logget ind Log ind Vi har sendt et engangslink til din primære e-mailadresse Klik på linket for at logge ind på din LinkedIn-konto med det samme.",
+      "tokens": [
+        "lad",
+        "mig",
+        "forblive",
+        "logget",
+        "ind",
+        "log",
+        "ind",
+        "vi",
+        "har",
+        "sendt",
+        "et",
+        "engangslink",
+        "til",
+        "din",
+        "prim",
+        "re",
+        "mailadresse",
+        "klik",
+        "linket",
+        "logge",
+        "ind",
+        "din",
+        "linkedin",
+        "konto",
+        "med",
+        "det",
+        "samme"
+      ]
+    },
+    {
+      "charEnd": 623,
+      "charStart": 535,
+      "factId": "hz.web.41d7d8464e2cd502.fact.4",
+      "kind": "bullet",
+      "text": "Hvis du ikke kan finde e-mailen i din indbakke, kan du prøve at kigge i din spammappe.",
+      "tokens": [
+        "hvis",
+        "du",
+        "ikke",
+        "kan",
+        "finde",
+        "mailen",
+        "din",
+        "indbakke",
+        "kan",
+        "du",
+        "pr",
+        "ve",
+        "kigge",
+        "din",
+        "spammappe"
+      ]
+    },
+    {
+      "charEnd": 643,
+      "charStart": 638,
+      "factId": "hz.web.41d7d8464e2cd502.fact.5",
+      "kind": "bullet",
+      "text": "ind",
+      "tokens": [
+        "ind"
+      ]
+    },
+    {
+      "charEnd": 648,
+      "charStart": 644,
+      "factId": "hz.web.41d7d8464e2cd502.fact.6",
+      "kind": "bullet",
+      "text": "du",
+      "tokens": [
+        "du"
+      ]
+    },
+    {
+      "charEnd": 659,
+      "charStart": 649,
+      "factId": "hz.web.41d7d8464e2cd502.fact.7",
+      "kind": "bullet",
+      "text": "linkedin",
+      "tokens": [
+        "linkedin"
+      ]
+    },
+    {
+      "charEnd": 665,
+      "charStart": 660,
+      "factId": "hz.web.41d7d8464e2cd502.fact.8",
+      "kind": "bullet",
+      "text": "log",
+      "tokens": [
+        "log"
+      ]
+    },
+    {
+      "charEnd": 671,
+      "charStart": 666,
+      "factId": "hz.web.41d7d8464e2cd502.fact.9",
+      "kind": "bullet",
+      "text": "din",
+      "tokens": [
+        "din"
+      ]
+    },
+    {
+      "charEnd": 686,
+      "charStart": 672,
+      "factId": "hz.web.41d7d8464e2cd502.fact.10",
+      "kind": "bullet",
+      "text": "brugeraftale",
+      "tokens": [
+        "brugeraftale"
+      ]
+    },
+    {
+      "charEnd": 696,
+      "charStart": 687,
+      "factId": "hz.web.41d7d8464e2cd502.fact.11",
+      "kind": "bullet",
+      "text": "cookies",
+      "tokens": [
+        "cookies"
+      ]
+    },
+    {
+      "charEnd": 702,
+      "charStart": 697,
+      "factId": "hz.web.41d7d8464e2cd502.fact.12",
+      "kind": "bullet",
+      "text": "med",
+      "tokens": [
+        "med"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 21,
+      "charStart": 1,
+      "headingId": "hz.web.41d7d8464e2cd502.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Log ind | LinkedIn"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.41d7d8464e2cd502.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 636,
+      "charStart": 625,
+      "headingId": "hz.web.41d7d8464e2cd502.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 714,
+      "charStart": 704,
+      "headingId": "hz.web.41d7d8464e2cd502.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/41d7d8464e2cd502.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 2479,
+        "start": 0
+      }
+    ],
+    "hash": "2ec315651a8f885edf454af89a91a01935acb2ccded8c589675f27807b6357c3",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Log ind | LinkedIn Log ind Log ind med Apple Log ind med en adgangsnøgle Ved at klikke på Fortsæt accepterer du LinkedIns Brugeraftale , Privatlivspolitik og Politik for cookies .",
+      "eller E-mail eller telefon Adgangskode Vis Har du glemt adgangskoden?",
+      "Lad mig forblive logget ind Log ind Vi har sendt et engangslink til din primære e-mailadresse Klik på linket for at logge ind på din LinkedIn-konto med det samme."
+    ],
+    "medium": "Source: https://www.linkedin.com/login/da",
+    "short": "Source: https://www.linkedin.com/login/da",
+    "tokens": [
+      "log",
+      "ind",
+      "linkedin",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "da",
+      "source",
+      "https",
+      "www",
+      "linkedin",
+      "com",
+      "login",
+      "da"
+    ]
+  },
+  "title": "Log ind | LinkedIn"
+}

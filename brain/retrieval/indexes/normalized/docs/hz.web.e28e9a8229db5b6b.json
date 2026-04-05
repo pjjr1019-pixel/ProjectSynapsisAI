@@ -1,0 +1,325 @@
+{
+  "aliases": [
+    {
+      "alias": "e28e9a8229db5b6b",
+      "aliasId": "hz.web.e28e9a8229db5b6b.alias.1",
+      "canonical": "neatstats"
+    },
+    {
+      "alias": "neatstats",
+      "aliasId": "hz.web.e28e9a8229db5b6b.alias.2",
+      "canonical": "neatstats"
+    },
+    {
+      "alias": "web e28e9a8229db5b6b",
+      "aliasId": "hz.web.e28e9a8229db5b6b.alias.3",
+      "canonical": "neatstats"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.71,
+  "docId": "hz.web.e28e9a8229db5b6b",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e28e9a8229db5b6b.entity.1",
+      "kind": "document",
+      "name": "NeatStats",
+      "tokens": [
+        "neatstats"
+      ]
+    },
+    {
+      "entityId": "hz.web.e28e9a8229db5b6b.entity.2",
+      "kind": "heading",
+      "name": "NeatStats",
+      "tokens": [
+        "neatstats"
+      ]
+    },
+    {
+      "entityId": "hz.web.e28e9a8229db5b6b.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e28e9a8229db5b6b.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e28e9a8229db5b6b.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 44,
+      "charStart": 14,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.1",
+      "kind": "summary",
+      "text": "Source: https://neatstats.net/",
+      "tokens": [
+        "source",
+        "https",
+        "neatstats",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 268,
+      "charStart": 96,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.1",
+      "kind": "bullet",
+      "text": "NeatStats NeatStats Home Sign in API Docs Simple, lightweight, privacy-first web stats NeatStats makes it easy to learn about how, when, and where your website is viewed.",
+      "tokens": [
+        "neatstats",
+        "neatstats",
+        "home",
+        "sign",
+        "api",
+        "docs",
+        "simple",
+        "lightweight",
+        "privacy",
+        "first",
+        "web",
+        "stats",
+        "neatstats",
+        "makes",
+        "easy",
+        "learn",
+        "about",
+        "your",
+        "website",
+        "viewed"
+      ]
+    },
+    {
+      "charEnd": 396,
+      "charStart": 269,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.2",
+      "kind": "bullet",
+      "text": "We respect everyone’s privacy by only working with basic information that browsers already share with web servers by default.",
+      "tokens": [
+        "respect",
+        "everyone",
+        "privacy",
+        "only",
+        "working",
+        "basic",
+        "information",
+        "browsers",
+        "already",
+        "share",
+        "web",
+        "servers",
+        "default"
+      ]
+    },
+    {
+      "charEnd": 435,
+      "charStart": 397,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.3",
+      "kind": "bullet",
+      "text": "We don’t log any IP addresses, ever.",
+      "tokens": [
+        "don",
+        "log",
+        "any",
+        "ip",
+        "addresses",
+        "ever"
+      ]
+    },
+    {
+      "charEnd": 579,
+      "charStart": 436,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.4",
+      "kind": "bullet",
+      "text": "Privacy first We don’t do any gross stuff—no fingerprinting, no cross-site tracking, no behavioral tracking, and no cookies or local storage.",
+      "tokens": [
+        "privacy",
+        "first",
+        "don",
+        "any",
+        "gross",
+        "stuff",
+        "no",
+        "fingerprinting",
+        "no",
+        "cross",
+        "site",
+        "tracking",
+        "no",
+        "behavioral",
+        "tracking",
+        "no",
+        "cookies",
+        "local",
+        "storage"
+      ]
+    },
+    {
+      "charEnd": 605,
+      "charStart": 594,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.5",
+      "kind": "bullet",
+      "text": "neatstats",
+      "tokens": [
+        "neatstats"
+      ]
+    },
+    {
+      "charEnd": 612,
+      "charStart": 606,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.6",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 617,
+      "charStart": 613,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.7",
+      "kind": "bullet",
+      "text": "ll",
+      "tokens": [
+        "ll"
+      ]
+    },
+    {
+      "charEnd": 622,
+      "charStart": 618,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.8",
+      "kind": "bullet",
+      "text": "no",
+      "tokens": [
+        "no"
+      ]
+    },
+    {
+      "charEnd": 632,
+      "charStart": 623,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.9",
+      "kind": "bullet",
+      "text": "privacy",
+      "tokens": [
+        "privacy"
+      ]
+    },
+    {
+      "charEnd": 641,
+      "charStart": 633,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.10",
+      "kind": "bullet",
+      "text": "rights",
+      "tokens": [
+        "rights"
+      ]
+    },
+    {
+      "charEnd": 647,
+      "charStart": 642,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.11",
+      "kind": "bullet",
+      "text": "use",
+      "tokens": [
+        "use"
+      ]
+    },
+    {
+      "charEnd": 653,
+      "charStart": 648,
+      "factId": "hz.web.e28e9a8229db5b6b.fact.12",
+      "kind": "bullet",
+      "text": "api",
+      "tokens": [
+        "api"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 12,
+      "charStart": 1,
+      "headingId": "hz.web.e28e9a8229db5b6b.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "NeatStats"
+    },
+    {
+      "charEnd": 94,
+      "charStart": 84,
+      "headingId": "hz.web.e28e9a8229db5b6b.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 592,
+      "charStart": 581,
+      "headingId": "hz.web.e28e9a8229db5b6b.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 665,
+      "charStart": 655,
+      "headingId": "hz.web.e28e9a8229db5b6b.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e28e9a8229db5b6b.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3363,
+        "start": 0
+      }
+    ],
+    "hash": "9b28d39438ce696a98991758b79e370d10013642fac08feca0bee384ec984f78",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "NeatStats NeatStats Home Sign in API Docs Simple, lightweight, privacy-first web stats NeatStats makes it easy to learn about how, when, and where your website is viewed.",
+      "We respect everyone’s privacy by only working with basic information that browsers already share with web servers by default.",
+      "We don’t log any IP addresses, ever."
+    ],
+    "medium": "Source: https://neatstats.net/",
+    "short": "Source: https://neatstats.net/",
+    "tokens": [
+      "neatstats",
+      "source",
+      "https",
+      "neatstats",
+      "net",
+      "source",
+      "https",
+      "neatstats",
+      "net"
+    ]
+  },
+  "title": "NeatStats"
+}

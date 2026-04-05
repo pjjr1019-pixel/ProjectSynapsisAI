@@ -1,0 +1,430 @@
+{
+  "aliases": [
+    {
+      "alias": "8d33b5501d5fa607",
+      "aliasId": "hz.web.8d33b5501d5fa607.alias.1",
+      "canonical": "&middot; roytang.net"
+    },
+    {
+      "alias": "middot roytang.net",
+      "aliasId": "hz.web.8d33b5501d5fa607.alias.2",
+      "canonical": "&middot; roytang.net"
+    },
+    {
+      "alias": "web 8d33b5501d5fa607",
+      "aliasId": "hz.web.8d33b5501d5fa607.alias.3",
+      "canonical": "&middot; roytang.net"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.76,
+  "docId": "hz.web.8d33b5501d5fa607",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.8d33b5501d5fa607.entity.1",
+      "kind": "document",
+      "name": "&middot; roytang.net",
+      "tokens": [
+        "middot",
+        "roytang",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d33b5501d5fa607.entity.2",
+      "kind": "heading",
+      "name": "&middot; roytang.net",
+      "tokens": [
+        "middot",
+        "roytang",
+        "net"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d33b5501d5fa607.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d33b5501d5fa607.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.8d33b5501d5fa607.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 53,
+      "charStart": 25,
+      "factId": "hz.web.8d33b5501d5fa607.fact.1",
+      "kind": "summary",
+      "text": "Source: https://roytang.net/",
+      "tokens": [
+        "source",
+        "https",
+        "roytang",
+        "net"
+      ]
+    },
+    {
+      "charEnd": 241,
+      "charStart": 105,
+      "factId": "hz.web.8d33b5501d5fa607.fact.1",
+      "kind": "bullet",
+      "text": "&middot; roytang.net roytang.net Blog Links About Hi, my name is Roy This site has been my home on the internet since the early 2000s.",
+      "tokens": [
+        "middot",
+        "roytang",
+        "net",
+        "roytang",
+        "net",
+        "blog",
+        "links",
+        "about",
+        "hi",
+        "name",
+        "roy",
+        "site",
+        "has",
+        "home",
+        "internet",
+        "since",
+        "early",
+        "2000s"
+      ]
+    },
+    {
+      "charEnd": 289,
+      "charStart": 242,
+      "factId": "hz.web.8d33b5501d5fa607.fact.2",
+      "kind": "bullet",
+      "text": "Stick around and explore a while if you like.",
+      "tokens": [
+        "stick",
+        "around",
+        "explore",
+        "while",
+        "if",
+        "like"
+      ]
+    },
+    {
+      "charEnd": 1098,
+      "charStart": 290,
+      "factId": "hz.web.8d33b5501d5fa607.fact.3",
+      "kind": "bullet",
+      "text": "Recent blog posts Weeknotes 2026-03-29 Palm Sunday Books: Hogfather by Terry Pratchett (Discworld #20) Weeknotes 2026-03-22 A Look Back at the PlayStation 2 Weeknotes 2026-03-15 View all blog posts Featured blog posts My Eyeglasses Belong To The Sea Killer-killer Pasmado Scenes from a Quiz Night Sketching Daily Globe&#x27;s Fair Use Policy and the \"Rotten Bananas\", four years later You don&#x27;t have to be on all the time Reddit PH: Software Dev Q&A This is Metro Manila Tales from the Old Web (Development) Burnout Thoughts on Blogging, 2020 Edition Word Persons and Web Persons You Can Write About Anything Recent links BSky Post by Alyssa Mercante Open Source Gave Me Everything Until I Had Nothing Left to Give - Kenneth Reitz Endgame for the Open Web - Anil Dash I’m OK being left behind, thanks!",
+      "tokens": [
+        "recent",
+        "blog",
+        "posts",
+        "weeknotes",
+        "2026",
+        "03",
+        "29",
+        "palm",
+        "sunday",
+        "books",
+        "hogfather",
+        "terry",
+        "pratchett",
+        "discworld",
+        "20",
+        "weeknotes",
+        "2026",
+        "03",
+        "22",
+        "look",
+        "back",
+        "playstation",
+        "weeknotes",
+        "2026",
+        "03",
+        "15",
+        "view",
+        "all",
+        "blog",
+        "posts",
+        "featured",
+        "blog",
+        "posts",
+        "eyeglasses",
+        "belong",
+        "sea",
+        "killer",
+        "killer",
+        "pasmado",
+        "scenes",
+        "quiz",
+        "night",
+        "sketching",
+        "daily",
+        "globe",
+        "x27",
+        "fair",
+        "use",
+        "policy",
+        "rotten",
+        "bananas",
+        "four",
+        "years",
+        "later",
+        "don",
+        "x27",
+        "have",
+        "all",
+        "time",
+        "reddit",
+        "ph",
+        "software",
+        "dev",
+        "metro",
+        "manila",
+        "tales",
+        "old",
+        "web",
+        "development",
+        "burnout",
+        "thoughts",
+        "blogging",
+        "2020",
+        "edition",
+        "word",
+        "persons",
+        "web",
+        "persons",
+        "write",
+        "about",
+        "anything",
+        "recent",
+        "links",
+        "bsky",
+        "post",
+        "alyssa",
+        "mercante",
+        "open",
+        "source",
+        "gave",
+        "everything",
+        "until",
+        "had",
+        "nothing",
+        "left",
+        "give",
+        "kenneth",
+        "reitz",
+        "endgame",
+        "open",
+        "web",
+        "anil",
+        "dash",
+        "ok",
+        "left",
+        "behind",
+        "thanks"
+      ]
+    },
+    {
+      "charEnd": 1314,
+      "charStart": 1099,
+      "factId": "hz.web.8d33b5501d5fa607.fact.4",
+      "kind": "bullet",
+      "text": "– Terence Eden’s Blog How Forbes sent e-mails to the future—and what happened 20 years later | Scientific American View all links Roy Tang Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart.",
+      "tokens": [
+        "terence",
+        "eden",
+        "blog",
+        "forbes",
+        "sent",
+        "mails",
+        "future",
+        "happened",
+        "20",
+        "years",
+        "later",
+        "scientific",
+        "american",
+        "view",
+        "all",
+        "links",
+        "roy",
+        "tang",
+        "programmer",
+        "engineer",
+        "scientist",
+        "critic",
+        "gamer",
+        "dreamer",
+        "kid",
+        "heart"
+      ]
+    },
+    {
+      "charEnd": 1335,
+      "charStart": 1329,
+      "factId": "hz.web.8d33b5501d5fa607.fact.5",
+      "kind": "bullet",
+      "text": "blog",
+      "tokens": [
+        "blog"
+      ]
+    },
+    {
+      "charEnd": 1341,
+      "charStart": 1336,
+      "factId": "hz.web.8d33b5501d5fa607.fact.6",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 1348,
+      "charStart": 1342,
+      "factId": "hz.web.8d33b5501d5fa607.fact.7",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    },
+    {
+      "charEnd": 1356,
+      "charStart": 1349,
+      "factId": "hz.web.8d33b5501d5fa607.fact.8",
+      "kind": "bullet",
+      "text": "links",
+      "tokens": [
+        "links"
+      ]
+    },
+    {
+      "charEnd": 1361,
+      "charStart": 1357,
+      "factId": "hz.web.8d33b5501d5fa607.fact.9",
+      "kind": "bullet",
+      "text": "03",
+      "tokens": [
+        "03"
+      ]
+    },
+    {
+      "charEnd": 1369,
+      "charStart": 1362,
+      "factId": "hz.web.8d33b5501d5fa607.fact.10",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1376,
+      "charStart": 1370,
+      "factId": "hz.web.8d33b5501d5fa607.fact.11",
+      "kind": "bullet",
+      "text": "next",
+      "tokens": [
+        "next"
+      ]
+    },
+    {
+      "charEnd": 1384,
+      "charStart": 1377,
+      "factId": "hz.web.8d33b5501d5fa607.fact.12",
+      "kind": "bullet",
+      "text": "posts",
+      "tokens": [
+        "posts"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 23,
+      "charStart": 1,
+      "headingId": "hz.web.8d33b5501d5fa607.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "&middot; roytang.net"
+    },
+    {
+      "charEnd": 103,
+      "charStart": 93,
+      "headingId": "hz.web.8d33b5501d5fa607.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1327,
+      "charStart": 1316,
+      "headingId": "hz.web.8d33b5501d5fa607.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1396,
+      "charStart": 1386,
+      "headingId": "hz.web.8d33b5501d5fa607.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/8d33b5501d5fa607.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3366,
+        "start": 0
+      }
+    ],
+    "hash": "8f617dd3930fffdbe2607a18c7b1b6cb8c0fc0fd8563cc089689c6f2117122a8",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "&middot; roytang.net roytang.net Blog Links About Hi, my name is Roy This site has been my home on the internet since the early 2000s.",
+      "Stick around and explore a while if you like.",
+      "Recent blog posts Weeknotes 2026-03-29 Palm Sunday Books: Hogfather by Terry Pratchett (Discworld #20) Weeknotes 2026-03-22 A Look Back at the PlayStation 2 Weeknotes 2026-03-15 View all blog posts Featured blog posts My Eyeglasses Belong To The Sea Killer-killer Pasmado Scenes from a Quiz Night Sketching Daily Globe&#x27;s Fair Use Policy and the \"Rotten Bananas\", four years later You don&#x27;t have to be on all the time Reddit PH: Software Dev Q&A This is Metro Manila Tales from the Old Web (Development) Burnout Thoughts on Blogging, 2020 Edition Word Persons and Web Persons You Can Write About Anything Recent links BSky Post by Alyssa Mercante Open Source Gave Me Everything Until I Had Nothing Left to Give - Kenneth Reitz Endgame for the Open Web - Anil Dash I’m OK being left behind, thanks!"
+    ],
+    "medium": "Source: https://roytang.net/",
+    "short": "Source: https://roytang.net/",
+    "tokens": [
+      "middot",
+      "roytang",
+      "net",
+      "source",
+      "https",
+      "roytang",
+      "net",
+      "source",
+      "https",
+      "roytang",
+      "net"
+    ]
+  },
+  "title": "&middot; roytang.net"
+}

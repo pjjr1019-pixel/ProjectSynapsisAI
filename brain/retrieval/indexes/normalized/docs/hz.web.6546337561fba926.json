@@ -1,0 +1,568 @@
+{
+  "aliases": [
+    {
+      "alias": "6546337561fba926",
+      "aliasId": "hz.web.6546337561fba926.alias.1",
+      "canonical": "account sharing"
+    },
+    {
+      "alias": "account sharing",
+      "aliasId": "hz.web.6546337561fba926.alias.2",
+      "canonical": "account sharing"
+    },
+    {
+      "alias": "web 6546337561fba926",
+      "aliasId": "hz.web.6546337561fba926.alias.3",
+      "canonical": "account sharing"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.85,
+  "docId": "hz.web.6546337561fba926",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6546337561fba926.entity.1",
+      "kind": "document",
+      "name": "Account Sharing",
+      "tokens": [
+        "account",
+        "sharing"
+      ]
+    },
+    {
+      "entityId": "hz.web.6546337561fba926.entity.2",
+      "kind": "heading",
+      "name": "Account Sharing",
+      "tokens": [
+        "account",
+        "sharing"
+      ]
+    },
+    {
+      "entityId": "hz.web.6546337561fba926.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6546337561fba926.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6546337561fba926.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 69,
+      "charStart": 20,
+      "factId": "hz.web.6546337561fba926.fact.1",
+      "kind": "summary",
+      "text": "Source: https://hcaptcha.com/account-sharing.html",
+      "tokens": [
+        "source",
+        "https",
+        "hcaptcha",
+        "com",
+        "account",
+        "sharing",
+        "html"
+      ]
+    },
+    {
+      "charEnd": 1965,
+      "charStart": 121,
+      "factId": "hz.web.6546337561fba926.fact.1",
+      "kind": "bullet",
+      "text": "Account Sharing Platform PLANS Pro Enterprise FEATURES Bot Detection User Journeys MFA Fraud Protection Account Defense Private Learning Use Cases ACCOUNT SECURITY Account Takeover Multi-Accounting Account Sharing IDENTITY & FRAUD Synthetic Identities Incentive Abuse Transaction Fraud Pricing Docs DOCUMENTATION Developer Guide Integrations Enterprise Features Switch from reCAPTCHA RESOURCES FAQ Blog Sign Up Log In From the blog: hCaptcha CAPTCHAs: Highly Effective Against Bots and Agents in 2026 → Switch to English Accessibility Platform PLANS Pro Frictionless user experience Enterprise World-class bot and abuse protection FEATURES Bot Detection Multi-layered bot defense User Journeys Protect across sessions, devices, and apps Fraud Protection Secure transactions from fraud and abuse MFA Stronger verification with pull-based SMS Account Defense Privacy-preserving ATO detection Private Learning ML-driven detection, response, and analysis Use Cases ACCOUNT SECURITY Account Takeover Block takeover attempts Multi-Accounting Stop abuse across accounts Account Sharing Enforce access and usage policies IDENTITY & FRAUD Synthetic Identities Prevent fake account creation Incentive Abuse Stop fraudulent reward claims Transaction Fraud Prevent fraudulent payments Pricing Docs DOCUMENTATION Developer Guide Get started in minutes Integrations Hundreds of plugins and integrations Enterprise Features Overview of hCaptcha Enterprise Switch from reCAPTCHA Switch with two lines of code RESOURCES FAQ Frequently asked questions Blog Research, strategies, and more Contact Sales Sign Up Log In ACCOUNT SHARING Stop Account Sharing Instantly Identify and manage account sharing in real time to control policy abuse Get Started Identify Account Sharing Without KYC Checks A unique privacy-preserving approach to preventing account sharing.",
+      "tokens": [
+        "account",
+        "sharing",
+        "platform",
+        "plans",
+        "pro",
+        "enterprise",
+        "features",
+        "bot",
+        "detection",
+        "user",
+        "journeys",
+        "mfa",
+        "fraud",
+        "protection",
+        "account",
+        "defense",
+        "private",
+        "learning",
+        "use",
+        "cases",
+        "account",
+        "security",
+        "account",
+        "takeover",
+        "multi",
+        "accounting",
+        "account",
+        "sharing",
+        "identity",
+        "fraud",
+        "synthetic",
+        "identities",
+        "incentive",
+        "abuse",
+        "transaction",
+        "fraud",
+        "pricing",
+        "docs",
+        "documentation",
+        "developer",
+        "guide",
+        "integrations",
+        "enterprise",
+        "features",
+        "switch",
+        "recaptcha",
+        "resources",
+        "faq",
+        "blog",
+        "sign",
+        "up",
+        "log",
+        "blog",
+        "hcaptcha",
+        "captchas",
+        "highly",
+        "effective",
+        "against",
+        "bots",
+        "agents",
+        "2026",
+        "switch",
+        "english",
+        "accessibility",
+        "platform",
+        "plans",
+        "pro",
+        "frictionless",
+        "user",
+        "experience",
+        "enterprise",
+        "world",
+        "class",
+        "bot",
+        "abuse",
+        "protection",
+        "features",
+        "bot",
+        "detection",
+        "multi",
+        "layered",
+        "bot",
+        "defense",
+        "user",
+        "journeys",
+        "protect",
+        "across",
+        "sessions",
+        "devices",
+        "apps",
+        "fraud",
+        "protection",
+        "secure",
+        "transactions",
+        "fraud",
+        "abuse",
+        "mfa",
+        "stronger",
+        "verification",
+        "pull",
+        "based",
+        "sms",
+        "account",
+        "defense",
+        "privacy",
+        "preserving",
+        "ato",
+        "detection",
+        "private",
+        "learning",
+        "ml",
+        "driven",
+        "detection",
+        "response",
+        "analysis",
+        "use",
+        "cases",
+        "account",
+        "security",
+        "account",
+        "takeover",
+        "block",
+        "takeover",
+        "attempts",
+        "multi",
+        "accounting",
+        "stop",
+        "abuse",
+        "across",
+        "accounts",
+        "account",
+        "sharing",
+        "enforce",
+        "access",
+        "usage",
+        "policies",
+        "identity",
+        "fraud",
+        "synthetic",
+        "identities",
+        "prevent",
+        "fake",
+        "account",
+        "creation",
+        "incentive",
+        "abuse",
+        "stop",
+        "fraudulent",
+        "reward",
+        "claims",
+        "transaction",
+        "fraud",
+        "prevent",
+        "fraudulent",
+        "payments",
+        "pricing",
+        "docs",
+        "documentation",
+        "developer",
+        "guide",
+        "get",
+        "started",
+        "minutes",
+        "integrations",
+        "hundreds",
+        "plugins",
+        "integrations",
+        "enterprise",
+        "features",
+        "overview",
+        "hcaptcha",
+        "enterprise",
+        "switch",
+        "recaptcha",
+        "switch",
+        "two",
+        "lines",
+        "code",
+        "resources",
+        "faq",
+        "frequently",
+        "asked",
+        "questions",
+        "blog",
+        "research",
+        "strategies",
+        "more",
+        "contact",
+        "sales",
+        "sign",
+        "up",
+        "log",
+        "account",
+        "sharing",
+        "stop",
+        "account",
+        "sharing",
+        "instantly",
+        "identify",
+        "manage",
+        "account",
+        "sharing",
+        "real",
+        "time",
+        "control",
+        "policy",
+        "abuse",
+        "get",
+        "started",
+        "identify",
+        "account",
+        "sharing",
+        "without",
+        "kyc",
+        "checks",
+        "unique",
+        "privacy",
+        "preserving",
+        "approach",
+        "preventing",
+        "account",
+        "sharing"
+      ]
+    },
+    {
+      "charEnd": 2120,
+      "charStart": 1966,
+      "factId": "hz.web.6546337561fba926.fact.2",
+      "kind": "bullet",
+      "text": "Pre-blinded data streamlines compliance, reduces risk, and blocks abuse without costly or invasive KYC, while protecting against multi-identity attacks.",
+      "tokens": [
+        "pre",
+        "blinded",
+        "data",
+        "streamlines",
+        "compliance",
+        "reduces",
+        "risk",
+        "blocks",
+        "abuse",
+        "without",
+        "costly",
+        "invasive",
+        "kyc",
+        "while",
+        "protecting",
+        "against",
+        "multi",
+        "identity",
+        "attacks"
+      ]
+    },
+    {
+      "charEnd": 2200,
+      "charStart": 2121,
+      "factId": "hz.web.6546337561fba926.fact.3",
+      "kind": "bullet",
+      "text": "Automate Your Policy Enforcement In Real-Time Contain policy abuse instantly.",
+      "tokens": [
+        "automate",
+        "your",
+        "policy",
+        "enforcement",
+        "real",
+        "time",
+        "contain",
+        "policy",
+        "abuse",
+        "instantly"
+      ]
+    },
+    {
+      "charEnd": 2318,
+      "charStart": 2201,
+      "factId": "hz.web.6546337561fba926.fact.4",
+      "kind": "bullet",
+      "text": "Use our powerful rules engine and built-in mitigation tools to respond to any level of risk and adapt in real-time.",
+      "tokens": [
+        "use",
+        "our",
+        "powerful",
+        "rules",
+        "engine",
+        "built",
+        "mitigation",
+        "tools",
+        "respond",
+        "any",
+        "level",
+        "risk",
+        "adapt",
+        "real",
+        "time"
+      ]
+    },
+    {
+      "charEnd": 2342,
+      "charStart": 2333,
+      "factId": "hz.web.6546337561fba926.fact.5",
+      "kind": "bullet",
+      "text": "account",
+      "tokens": [
+        "account"
+      ]
+    },
+    {
+      "charEnd": 2350,
+      "charStart": 2343,
+      "factId": "hz.web.6546337561fba926.fact.6",
+      "kind": "bullet",
+      "text": "abuse",
+      "tokens": [
+        "abuse"
+      ]
+    },
+    {
+      "charEnd": 2360,
+      "charStart": 2351,
+      "factId": "hz.web.6546337561fba926.fact.7",
+      "kind": "bullet",
+      "text": "sharing",
+      "tokens": [
+        "sharing"
+      ]
+    },
+    {
+      "charEnd": 2366,
+      "charStart": 2361,
+      "factId": "hz.web.6546337561fba926.fact.8",
+      "kind": "bullet",
+      "text": "our",
+      "tokens": [
+        "our"
+      ]
+    },
+    {
+      "charEnd": 2376,
+      "charStart": 2367,
+      "factId": "hz.web.6546337561fba926.fact.9",
+      "kind": "bullet",
+      "text": "contact",
+      "tokens": [
+        "contact"
+      ]
+    },
+    {
+      "charEnd": 2384,
+      "charStart": 2377,
+      "factId": "hz.web.6546337561fba926.fact.10",
+      "kind": "bullet",
+      "text": "fraud",
+      "tokens": [
+        "fraud"
+      ]
+    },
+    {
+      "charEnd": 2391,
+      "charStart": 2385,
+      "factId": "hz.web.6546337561fba926.fact.11",
+      "kind": "bullet",
+      "text": "your",
+      "tokens": [
+        "your"
+      ]
+    },
+    {
+      "charEnd": 2404,
+      "charStart": 2392,
+      "factId": "hz.web.6546337561fba926.fact.12",
+      "kind": "bullet",
+      "text": "enterprise",
+      "tokens": [
+        "enterprise"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 18,
+      "charStart": 1,
+      "headingId": "hz.web.6546337561fba926.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Account Sharing"
+    },
+    {
+      "charEnd": 119,
+      "charStart": 109,
+      "headingId": "hz.web.6546337561fba926.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 2331,
+      "charStart": 2320,
+      "headingId": "hz.web.6546337561fba926.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 2416,
+      "charStart": 2406,
+      "headingId": "hz.web.6546337561fba926.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/6546337561fba926.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 5659,
+        "start": 0
+      }
+    ],
+    "hash": "e9691e172595c45ca4cfcd791e1ba68ebe2f4a56b723afdcc31c1a7531e9e92f",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.6546337561fba926.rule.1",
+      "text": "Investigate Suspicious Actors with A Complete Toolkit When a deeper look is required, our analytics, real-time insights, anomaly views, and SOC as",
+      "tokens": [
+        "investigate",
+        "suspicious",
+        "actors",
+        "complete",
+        "toolkit",
+        "deeper",
+        "look",
+        "required",
+        "our",
+        "analytics",
+        "real",
+        "time",
+        "insights",
+        "anomaly",
+        "views",
+        "soc"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Account Sharing Platform PLANS Pro Enterprise FEATURES Bot Detection User Journeys MFA Fraud Protection Account Defense Private Learning Use Cases ACCOUNT SECURITY Account Takeover Multi-Accounting Account Sharing IDENTITY & FRAUD Synthetic Identities Incentive Abuse Transaction Fraud Pricing Docs DOCUMENTATION Developer Guide Integrations Enterprise Features Switch from reCAPTCHA RESOURCES FAQ Blog Sign Up Log In From the blog: hCaptcha CAPTCHAs: Highly Effective Against Bots and Agents in 2026 → Switch to English Accessibility Platform PLANS Pro Frictionless user experience Enterprise World-class bot and abuse protection FEATURES Bot Detection Multi-layered bot defense User Journeys Protect across sessions, devices, and apps Fraud Protection Secure transactions from fraud and abuse MFA Stronger verification with pull-based SMS Account Defense Privacy-preserving ATO detection Private Learning ML-driven detection, response, and analysis Use Cases ACCOUNT SECURITY Account Takeover Block takeover attempts Multi-Accounting Stop abuse across accounts Account Sharing Enforce access and usage policies IDENTITY & FRAUD Synthetic Identities Prevent fake account creation Incentive Abuse Stop fraudulent reward claims Transaction Fraud Prevent fraudulent payments Pricing Docs DOCUMENTATION Developer Guide Get started in minutes Integrations Hundreds of plugins and integrations Enterprise Features Overview of hCaptcha Enterprise Switch from reCAPTCHA Switch with two lines of code RESOURCES FAQ Frequently asked questions Blog Research, strategies, and more Contact Sales Sign Up Log In ACCOUNT SHARING Stop Account Sharing Instantly Identify and manage account sharing in real time to control policy abuse Get Started Identify Account Sharing Without KYC Checks A unique privacy-preserving approach to preventing account sharing.",
+      "Pre-blinded data streamlines compliance, reduces risk, and blocks abuse without costly or invasive KYC, while protecting against multi-identity attacks.",
+      "Automate Your Policy Enforcement In Real-Time Contain policy abuse instantly."
+    ],
+    "medium": "Source: https://hcaptcha.com/account-sharing.html",
+    "short": "Source: https://hcaptcha.com/account-sharing.html",
+    "tokens": [
+      "account",
+      "sharing",
+      "source",
+      "https",
+      "hcaptcha",
+      "com",
+      "account",
+      "sharing",
+      "html",
+      "source",
+      "https",
+      "hcaptcha",
+      "com",
+      "account",
+      "sharing",
+      "html"
+    ]
+  },
+  "title": "Account Sharing"
+}

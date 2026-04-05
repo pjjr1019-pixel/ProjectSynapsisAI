@@ -1,0 +1,415 @@
+{
+  "aliases": [
+    {
+      "alias": "bfa6d7cdc4d9f1a8",
+      "aliasId": "hz.web.bfa6d7cdc4d9f1a8.alias.1",
+      "canonical": "bug triage | contribute to jquery"
+    },
+    {
+      "alias": "bug triage contribute to jquery",
+      "aliasId": "hz.web.bfa6d7cdc4d9f1a8.alias.2",
+      "canonical": "bug triage | contribute to jquery"
+    },
+    {
+      "alias": "web bfa6d7cdc4d9f1a8",
+      "aliasId": "hz.web.bfa6d7cdc4d9f1a8.alias.3",
+      "canonical": "bug triage | contribute to jquery"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.9,
+  "docId": "hz.web.bfa6d7cdc4d9f1a8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.bfa6d7cdc4d9f1a8.entity.1",
+      "kind": "document",
+      "name": "Bug Triage | Contribute to jQuery",
+      "tokens": [
+        "bug",
+        "triage",
+        "contribute",
+        "jquery"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfa6d7cdc4d9f1a8.entity.2",
+      "kind": "heading",
+      "name": "Bug Triage | Contribute to jQuery",
+      "tokens": [
+        "bug",
+        "triage",
+        "contribute",
+        "jquery"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfa6d7cdc4d9f1a8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfa6d7cdc4d9f1a8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.bfa6d7cdc4d9f1a8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 83,
+      "charStart": 38,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://contribute.jquery.org/triage/",
+      "tokens": [
+        "source",
+        "https",
+        "contribute",
+        "jquery",
+        "org",
+        "triage"
+      ]
+    },
+    {
+      "charEnd": 752,
+      "charStart": 135,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.1",
+      "kind": "bullet",
+      "text": "Bug Triage | Contribute to jQuery jQuery jQuery UI jQuery Mobile Sizzle QUnit Plugins Contribute CLA Style Guides Bug Triage Code Documentation Web Sites Events Support Learning Center Chat Stack Overflow Report a bug OpenJS Foundation Join Members jQuery Team Governance Conduct Projects Contribute to jQuery Navigation CLA Style Guides Markup Conventions Commits & Pull Requests Bug Triage Triage, the process of reviewing incoming bug tickets, gathering more information about the situation, and verifying whether or not the report is valid, is a critical part of the day-to-day operation of all of our projects.",
+      "tokens": [
+        "bug",
+        "triage",
+        "contribute",
+        "jquery",
+        "jquery",
+        "jquery",
+        "ui",
+        "jquery",
+        "mobile",
+        "sizzle",
+        "qunit",
+        "plugins",
+        "contribute",
+        "cla",
+        "style",
+        "guides",
+        "bug",
+        "triage",
+        "code",
+        "documentation",
+        "web",
+        "sites",
+        "events",
+        "support",
+        "learning",
+        "center",
+        "chat",
+        "stack",
+        "overflow",
+        "report",
+        "bug",
+        "openjs",
+        "foundation",
+        "join",
+        "members",
+        "jquery",
+        "team",
+        "governance",
+        "conduct",
+        "projects",
+        "contribute",
+        "jquery",
+        "navigation",
+        "cla",
+        "style",
+        "guides",
+        "markup",
+        "conventions",
+        "commits",
+        "pull",
+        "requests",
+        "bug",
+        "triage",
+        "triage",
+        "process",
+        "reviewing",
+        "incoming",
+        "bug",
+        "tickets",
+        "gathering",
+        "more",
+        "information",
+        "about",
+        "situation",
+        "verifying",
+        "whether",
+        "not",
+        "report",
+        "valid",
+        "critical",
+        "part",
+        "day",
+        "day",
+        "operation",
+        "all",
+        "our",
+        "projects"
+      ]
+    },
+    {
+      "charEnd": 914,
+      "charStart": 753,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.2",
+      "kind": "bullet",
+      "text": "Some new tickets are valuable reports of broken behavior, others are suggestions for enhancements both large and small, and some are, in fact, not bugs at all.",
+      "tokens": [
+        "some",
+        "new",
+        "tickets",
+        "valuable",
+        "reports",
+        "broken",
+        "behavior",
+        "others",
+        "suggestions",
+        "enhancements",
+        "both",
+        "large",
+        "small",
+        "some",
+        "fact",
+        "not",
+        "bugs",
+        "all"
+      ]
+    },
+    {
+      "charEnd": 1116,
+      "charStart": 915,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.3",
+      "kind": "bullet",
+      "text": "Identifying which issues are which and facilitating timely communication between the reporter and the contributors whose input is necessary to resolve the problem are all parts of the triage process.",
+      "tokens": [
+        "identifying",
+        "issues",
+        "facilitating",
+        "timely",
+        "communication",
+        "between",
+        "reporter",
+        "contributors",
+        "whose",
+        "input",
+        "necessary",
+        "resolve",
+        "problem",
+        "all",
+        "parts",
+        "triage",
+        "process"
+      ]
+    },
+    {
+      "charEnd": 1135,
+      "charStart": 1117,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.4",
+      "kind": "bullet",
+      "text": "link Why Triage?",
+      "tokens": [
+        "link",
+        "why",
+        "triage"
+      ]
+    },
+    {
+      "charEnd": 1158,
+      "charStart": 1150,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.5",
+      "kind": "bullet",
+      "text": "jquery",
+      "tokens": [
+        "jquery"
+      ]
+    },
+    {
+      "charEnd": 1167,
+      "charStart": 1159,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.6",
+      "kind": "bullet",
+      "text": "issues",
+      "tokens": [
+        "issues"
+      ]
+    },
+    {
+      "charEnd": 1176,
+      "charStart": 1168,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.7",
+      "kind": "bullet",
+      "text": "triage",
+      "tokens": [
+        "triage"
+      ]
+    },
+    {
+      "charEnd": 1182,
+      "charStart": 1177,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.8",
+      "kind": "bullet",
+      "text": "com",
+      "tokens": [
+        "com"
+      ]
+    },
+    {
+      "charEnd": 1192,
+      "charStart": 1183,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.9",
+      "kind": "bullet",
+      "text": "content",
+      "tokens": [
+        "content"
+      ]
+    },
+    {
+      "charEnd": 1198,
+      "charStart": 1193,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.10",
+      "kind": "bullet",
+      "text": "all",
+      "tokens": [
+        "all"
+      ]
+    },
+    {
+      "charEnd": 1204,
+      "charStart": 1199,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.11",
+      "kind": "bullet",
+      "text": "bug",
+      "tokens": [
+        "bug"
+      ]
+    },
+    {
+      "charEnd": 1211,
+      "charStart": 1205,
+      "factId": "hz.web.bfa6d7cdc4d9f1a8.fact.12",
+      "kind": "bullet",
+      "text": "bugs",
+      "tokens": [
+        "bugs"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 36,
+      "charStart": 1,
+      "headingId": "hz.web.bfa6d7cdc4d9f1a8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Bug Triage | Contribute to jQuery"
+    },
+    {
+      "charEnd": 133,
+      "charStart": 123,
+      "headingId": "hz.web.bfa6d7cdc4d9f1a8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1148,
+      "charStart": 1137,
+      "headingId": "hz.web.bfa6d7cdc4d9f1a8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1223,
+      "charStart": 1213,
+      "headingId": "hz.web.bfa6d7cdc4d9f1a8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-30/bfa6d7cdc4d9f1a8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 4480,
+        "start": 0
+      }
+    ],
+    "hash": "acd947b56675e0a31a5d0b579ebf7da7d063b23b2de73f55b7e12aa8a4642871",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [
+    {
+      "ruleId": "hz.web.bfa6d7cdc4d9f1a8.rule.1",
+      "text": "All you have to do is sign up for a GitHub account if you don't already have one.",
+      "tokens": [
+        "all",
+        "have",
+        "sign",
+        "up",
+        "github",
+        "account",
+        "if",
+        "don",
+        "already",
+        "have",
+        "one"
+      ]
+    }
+  ],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Bug Triage | Contribute to jQuery jQuery jQuery UI jQuery Mobile Sizzle QUnit Plugins Contribute CLA Style Guides Bug Triage Code Documentation Web Sites Events Support Learning Center Chat Stack Overflow Report a bug OpenJS Foundation Join Members jQuery Team Governance Conduct Projects Contribute to jQuery Navigation CLA Style Guides Markup Conventions Commits & Pull Requests Bug Triage Triage, the process of reviewing incoming bug tickets, gathering more information about the situation, and verifying whether or not the report is valid, is a critical part of the day-to-day operation of all of our projects.",
+      "Some new tickets are valuable reports of broken behavior, others are suggestions for enhancements both large and small, and some are, in fact, not bugs at all.",
+      "Identifying which issues are which and facilitating timely communication between the reporter and the contributors whose input is necessary to resolve the problem are all parts of the triage process."
+    ],
+    "medium": "Source: https://contribute.jquery.org/triage/",
+    "short": "Source: https://contribute.jquery.org/triage/",
+    "tokens": [
+      "bug",
+      "triage",
+      "contribute",
+      "jquery",
+      "source",
+      "https",
+      "contribute",
+      "jquery",
+      "org",
+      "triage",
+      "source",
+      "https",
+      "contribute",
+      "jquery",
+      "org",
+      "triage"
+    ]
+  },
+  "title": "Bug Triage | Contribute to jQuery"
+}

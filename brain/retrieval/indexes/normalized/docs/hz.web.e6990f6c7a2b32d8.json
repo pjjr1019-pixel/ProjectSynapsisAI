@@ -1,0 +1,397 @@
+{
+  "aliases": [
+    {
+      "alias": "california state portal ca.gov",
+      "aliasId": "hz.web.e6990f6c7a2b32d8.alias.1",
+      "canonical": "california state portal | ca.gov"
+    },
+    {
+      "alias": "e6990f6c7a2b32d8",
+      "aliasId": "hz.web.e6990f6c7a2b32d8.alias.2",
+      "canonical": "california state portal | ca.gov"
+    },
+    {
+      "alias": "web e6990f6c7a2b32d8",
+      "aliasId": "hz.web.e6990f6c7a2b32d8.alias.3",
+      "canonical": "california state portal | ca.gov"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.69,
+  "docId": "hz.web.e6990f6c7a2b32d8",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.e6990f6c7a2b32d8.entity.1",
+      "kind": "document",
+      "name": "California State Portal | CA.gov",
+      "tokens": [
+        "california",
+        "state",
+        "portal",
+        "ca",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6990f6c7a2b32d8.entity.2",
+      "kind": "heading",
+      "name": "California State Portal | CA.gov",
+      "tokens": [
+        "california",
+        "state",
+        "portal",
+        "ca",
+        "gov"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6990f6c7a2b32d8.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6990f6c7a2b32d8.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.e6990f6c7a2b32d8.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 64,
+      "charStart": 37,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.1",
+      "kind": "summary",
+      "text": "Source: https://www.ca.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "www",
+        "ca",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 296,
+      "charStart": 116,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.1",
+      "kind": "bullet",
+      "text": "California State Portal | CA.gov Skip to Main Content Official California website California government websites use .ca.gov A .ca.gov website is part of California’s government.",
+      "tokens": [
+        "california",
+        "state",
+        "portal",
+        "ca",
+        "gov",
+        "skip",
+        "main",
+        "content",
+        "official",
+        "california",
+        "website",
+        "california",
+        "government",
+        "websites",
+        "use",
+        "ca",
+        "gov",
+        "ca",
+        "gov",
+        "website",
+        "part",
+        "california",
+        "government"
+      ]
+    },
+    {
+      "charEnd": 629,
+      "charStart": 297,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.2",
+      "kind": "bullet",
+      "text": "Español 한국어 Tagalog Tiếng Việt 繁體中文 Translate Menu Custom Google Search Submit Close Services Departments About California Get help Find government services and information Search for a service Submit Get disaster help Get what you need to recover , like food, shelter, cash assistance, replacement documents, and rebuilding help.",
+      "tokens": [
+        "espa",
+        "ol",
+        "tagalog",
+        "ti",
+        "ng",
+        "vi",
+        "translate",
+        "menu",
+        "custom",
+        "google",
+        "search",
+        "submit",
+        "close",
+        "services",
+        "departments",
+        "about",
+        "california",
+        "get",
+        "help",
+        "find",
+        "government",
+        "services",
+        "information",
+        "search",
+        "service",
+        "submit",
+        "get",
+        "disaster",
+        "help",
+        "get",
+        "need",
+        "recover",
+        "like",
+        "food",
+        "shelter",
+        "cash",
+        "assistance",
+        "replacement",
+        "documents",
+        "rebuilding",
+        "help"
+      ]
+    },
+    {
+      "charEnd": 989,
+      "charStart": 630,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.3",
+      "kind": "bullet",
+      "text": "Popular services Real ID/license Birth certificates Check your refund Traffic tickets Business license Seller’s permit Popular topics DMV/Auto Personal records Businesses Jobs and unemployment Social services Taxes View all topics California highlights Places to visit Discover places to visit and learn about California's various regions and lively cities.",
+      "tokens": [
+        "popular",
+        "services",
+        "real",
+        "id",
+        "license",
+        "birth",
+        "certificates",
+        "check",
+        "your",
+        "refund",
+        "traffic",
+        "tickets",
+        "business",
+        "license",
+        "seller",
+        "permit",
+        "popular",
+        "topics",
+        "dmv",
+        "auto",
+        "personal",
+        "records",
+        "businesses",
+        "jobs",
+        "unemployment",
+        "social",
+        "services",
+        "taxes",
+        "view",
+        "all",
+        "topics",
+        "california",
+        "highlights",
+        "places",
+        "visit",
+        "discover",
+        "places",
+        "visit",
+        "learn",
+        "about",
+        "california",
+        "various",
+        "regions",
+        "lively",
+        "cities"
+      ]
+    },
+    {
+      "charEnd": 1035,
+      "charStart": 990,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.4",
+      "kind": "bullet",
+      "text": "State parks Visit California's state parks.",
+      "tokens": [
+        "state",
+        "parks",
+        "visit",
+        "california",
+        "state",
+        "parks"
+      ]
+    },
+    {
+      "charEnd": 1062,
+      "charStart": 1050,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.5",
+      "kind": "bullet",
+      "text": "california",
+      "tokens": [
+        "california"
+      ]
+    },
+    {
+      "charEnd": 1073,
+      "charStart": 1063,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.6",
+      "kind": "bullet",
+      "text": "governor",
+      "tokens": [
+        "governor"
+      ]
+    },
+    {
+      "charEnd": 1081,
+      "charStart": 1074,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.7",
+      "kind": "bullet",
+      "text": "state",
+      "tokens": [
+        "state"
+      ]
+    },
+    {
+      "charEnd": 1091,
+      "charStart": 1082,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.8",
+      "kind": "bullet",
+      "text": "website",
+      "tokens": [
+        "website"
+      ]
+    },
+    {
+      "charEnd": 1099,
+      "charStart": 1092,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.9",
+      "kind": "bullet",
+      "text": "parks",
+      "tokens": [
+        "parks"
+      ]
+    },
+    {
+      "charEnd": 1107,
+      "charStart": 1100,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.10",
+      "kind": "bullet",
+      "text": "visit",
+      "tokens": [
+        "visit"
+      ]
+    },
+    {
+      "charEnd": 1115,
+      "charStart": 1108,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.11",
+      "kind": "bullet",
+      "text": "about",
+      "tokens": [
+        "about"
+      ]
+    },
+    {
+      "charEnd": 1122,
+      "charStart": 1116,
+      "factId": "hz.web.e6990f6c7a2b32d8.fact.12",
+      "kind": "bullet",
+      "text": "2026",
+      "tokens": [
+        "2026"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 35,
+      "charStart": 1,
+      "headingId": "hz.web.e6990f6c7a2b32d8.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "California State Portal | CA.gov"
+    },
+    {
+      "charEnd": 114,
+      "charStart": 104,
+      "headingId": "hz.web.e6990f6c7a2b32d8.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 1048,
+      "charStart": 1037,
+      "headingId": "hz.web.e6990f6c7a2b32d8.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 1134,
+      "charStart": 1124,
+      "headingId": "hz.web.e6990f6c7a2b32d8.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/e6990f6c7a2b32d8.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3686,
+        "start": 0
+      }
+    ],
+    "hash": "d7b920f5fd5a70df75500c4f77c444a391d654eea07e3172e5219545436c3874",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "California State Portal | CA.gov Skip to Main Content Official California website California government websites use .ca.gov A .ca.gov website is part of California’s government.",
+      "Español 한국어 Tagalog Tiếng Việt 繁體中文 Translate Menu Custom Google Search Submit Close Services Departments About California Get help Find government services and information Search for a service Submit Get disaster help Get what you need to recover , like food, shelter, cash assistance, replacement documents, and rebuilding help.",
+      "Popular services Real ID/license Birth certificates Check your refund Traffic tickets Business license Seller’s permit Popular topics DMV/Auto Personal records Businesses Jobs and unemployment Social services Taxes View all topics California highlights Places to visit Discover places to visit and learn about California's various regions and lively cities."
+    ],
+    "medium": "Source: https://www.ca.gov/",
+    "short": "Source: https://www.ca.gov/",
+    "tokens": [
+      "california",
+      "state",
+      "portal",
+      "ca",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "ca",
+      "gov",
+      "source",
+      "https",
+      "www",
+      "ca",
+      "gov"
+    ]
+  },
+  "title": "California State Portal | CA.gov"
+}

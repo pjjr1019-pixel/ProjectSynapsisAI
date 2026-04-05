@@ -1,0 +1,310 @@
+{
+  "aliases": [
+    {
+      "alias": "6bac3f75a00fac82",
+      "aliasId": "hz.web.6bac3f75a00fac82.alias.1",
+      "canonical": "log in / ncbi"
+    },
+    {
+      "alias": "log in ncbi",
+      "aliasId": "hz.web.6bac3f75a00fac82.alias.2",
+      "canonical": "log in / ncbi"
+    },
+    {
+      "alias": "web 6bac3f75a00fac82",
+      "aliasId": "hz.web.6bac3f75a00fac82.alias.3",
+      "canonical": "log in / ncbi"
+    }
+  ],
+  "app": "assistant",
+  "confidence": 0.94,
+  "docId": "hz.web.6bac3f75a00fac82",
+  "domain": "web",
+  "entities": [
+    {
+      "entityId": "hz.web.6bac3f75a00fac82.entity.1",
+      "kind": "document",
+      "name": "Log in / NCBI",
+      "tokens": [
+        "log",
+        "ncbi"
+      ]
+    },
+    {
+      "entityId": "hz.web.6bac3f75a00fac82.entity.2",
+      "kind": "heading",
+      "name": "Log in / NCBI",
+      "tokens": [
+        "log",
+        "ncbi"
+      ]
+    },
+    {
+      "entityId": "hz.web.6bac3f75a00fac82.entity.3",
+      "kind": "heading",
+      "name": "Summary",
+      "tokens": [
+        "summary"
+      ]
+    },
+    {
+      "entityId": "hz.web.6bac3f75a00fac82.entity.4",
+      "kind": "heading",
+      "name": "Keywords",
+      "tokens": [
+        "keywords"
+      ]
+    },
+    {
+      "entityId": "hz.web.6bac3f75a00fac82.entity.5",
+      "kind": "heading",
+      "name": "Excerpt",
+      "tokens": [
+        "excerpt"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "charEnd": 59,
+      "charStart": 18,
+      "factId": "hz.web.6bac3f75a00fac82.fact.1",
+      "kind": "summary",
+      "text": "Source: https://account.ncbi.nlm.nih.gov/",
+      "tokens": [
+        "source",
+        "https",
+        "account",
+        "ncbi",
+        "nlm",
+        "nih",
+        "gov"
+      ]
+    },
+    {
+      "charEnd": 228,
+      "charStart": 111,
+      "factId": "hz.web.6bac3f75a00fac82.fact.1",
+      "kind": "bullet",
+      "text": "Log in / NCBI An official website of the United States government Here's how you know The .gov means it’s official.",
+      "tokens": [
+        "log",
+        "ncbi",
+        "official",
+        "website",
+        "united",
+        "states",
+        "government",
+        "here",
+        "know",
+        "gov",
+        "means",
+        "official"
+      ]
+    },
+    {
+      "charEnd": 285,
+      "charStart": 229,
+      "factId": "hz.web.6bac3f75a00fac82.fact.2",
+      "kind": "bullet",
+      "text": "Federal government websites often end in .gov or .mil.",
+      "tokens": [
+        "federal",
+        "government",
+        "websites",
+        "often",
+        "end",
+        "gov",
+        "mil"
+      ]
+    },
+    {
+      "charEnd": 372,
+      "charStart": 286,
+      "factId": "hz.web.6bac3f75a00fac82.fact.3",
+      "kind": "bullet",
+      "text": "Before sharing sensitive information, make sure you’re on a federal government site.",
+      "tokens": [
+        "before",
+        "sharing",
+        "sensitive",
+        "information",
+        "make",
+        "sure",
+        "re",
+        "federal",
+        "government",
+        "site"
+      ]
+    },
+    {
+      "charEnd": 394,
+      "charStart": 373,
+      "factId": "hz.web.6bac3f75a00fac82.fact.4",
+      "kind": "bullet",
+      "text": "The site is secure.",
+      "tokens": [
+        "site",
+        "secure"
+      ]
+    },
+    {
+      "charEnd": 421,
+      "charStart": 409,
+      "factId": "hz.web.6bac3f75a00fac82.fact.5",
+      "kind": "bullet",
+      "text": "university",
+      "tokens": [
+        "university"
+      ]
+    },
+    {
+      "charEnd": 429,
+      "charStart": 422,
+      "factId": "hz.web.6bac3f75a00fac82.fact.6",
+      "kind": "bullet",
+      "text": "china",
+      "tokens": [
+        "china"
+      ]
+    },
+    {
+      "charEnd": 439,
+      "charStart": 430,
+      "factId": "hz.web.6bac3f75a00fac82.fact.7",
+      "kind": "bullet",
+      "text": "college",
+      "tokens": [
+        "college"
+      ]
+    },
+    {
+      "charEnd": 448,
+      "charStart": 440,
+      "factId": "hz.web.6bac3f75a00fac82.fact.8",
+      "kind": "bullet",
+      "text": "united",
+      "tokens": [
+        "united"
+      ]
+    },
+    {
+      "charEnd": 458,
+      "charStart": 449,
+      "factId": "hz.web.6bac3f75a00fac82.fact.9",
+      "kind": "bullet",
+      "text": "kingdom",
+      "tokens": [
+        "kingdom"
+      ]
+    },
+    {
+      "charEnd": 467,
+      "charStart": 459,
+      "factId": "hz.web.6bac3f75a00fac82.fact.10",
+      "kind": "bullet",
+      "text": "uganda",
+      "tokens": [
+        "uganda"
+      ]
+    },
+    {
+      "charEnd": 480,
+      "charStart": 468,
+      "factId": "hz.web.6bac3f75a00fac82.fact.11",
+      "kind": "bullet",
+      "text": "technology",
+      "tokens": [
+        "technology"
+      ]
+    },
+    {
+      "charEnd": 485,
+      "charStart": 481,
+      "factId": "hz.web.6bac3f75a00fac82.fact.12",
+      "kind": "bullet",
+      "text": "de",
+      "tokens": [
+        "de"
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "charEnd": 16,
+      "charStart": 1,
+      "headingId": "hz.web.6bac3f75a00fac82.heading.1",
+      "level": 1,
+      "line": 2,
+      "text": "Log in / NCBI"
+    },
+    {
+      "charEnd": 109,
+      "charStart": 99,
+      "headingId": "hz.web.6bac3f75a00fac82.heading.2",
+      "level": 2,
+      "line": 8,
+      "text": "Summary"
+    },
+    {
+      "charEnd": 407,
+      "charStart": 396,
+      "headingId": "hz.web.6bac3f75a00fac82.heading.3",
+      "level": 2,
+      "line": 15,
+      "text": "Keywords"
+    },
+    {
+      "charEnd": 497,
+      "charStart": 487,
+      "headingId": "hz.web.6bac3f75a00fac82.heading.4",
+      "level": 2,
+      "line": 26,
+      "text": "Excerpt"
+    }
+  ],
+  "moduleIds": [],
+  "path": "runtime/learning/promoted/2026-03-31/6bac3f75a00fac82.md",
+  "provenance": {
+    "charRanges": [
+      {
+        "end": 3730,
+        "start": 0
+      }
+    ],
+    "hash": "2388243a87b7e04db9707f26ce4bd790050b6f6fb33d922d084d670d1ed96d05",
+    "sourceType": "web"
+  },
+  "relations": [],
+  "rules": [],
+  "scenarios": [],
+  "status": "canonical",
+  "summary": {
+    "bullets": [
+      "Log in / NCBI An official website of the United States government Here's how you know The .gov means it’s official.",
+      "Federal government websites often end in .gov or .mil.",
+      "Before sharing sensitive information, make sure you’re on a federal government site."
+    ],
+    "medium": "Source: https://account.ncbi.nlm.nih.gov/",
+    "short": "Source: https://account.ncbi.nlm.nih.gov/",
+    "tokens": [
+      "log",
+      "ncbi",
+      "source",
+      "https",
+      "account",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov",
+      "source",
+      "https",
+      "account",
+      "ncbi",
+      "nlm",
+      "nih",
+      "gov"
+    ]
+  },
+  "title": "Log in / NCBI"
+}

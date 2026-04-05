@@ -1,16 +1,18 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { ensureDir } from "./brain-build-utils.mjs";
+import { getTaskmanagerPaths } from "./taskmanager-paths.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const taskmanagerRoot = path.resolve(__dirname, "..");
-const defaultRuntimeBaseRoot = path.join(taskmanagerRoot, "brain", "runtime");
+const fallbackTaskmanagerRoot = path.resolve(__dirname, "..");
 
 export function getTaskmanagerRoot() {
-  return taskmanagerRoot;
+  return getTaskmanagerPaths()?.taskmanagerRoot || fallbackTaskmanagerRoot;
 }
 
 export function getWorkflowRuntimePaths() {
+  const taskmanagerRoot = getTaskmanagerRoot();
+  const defaultRuntimeBaseRoot = path.join(taskmanagerRoot, "brain", "runtime");
   const workflowsRoot = process.env.HORIZONS_WORKFLOW_RUNTIME_ROOT
     ? path.resolve(process.env.HORIZONS_WORKFLOW_RUNTIME_ROOT)
     : path.join(defaultRuntimeBaseRoot, "workflows");
@@ -42,4 +44,3 @@ export function ensureWorkflowRuntimePaths() {
   ensureDir(paths.indexRoot);
   return paths;
 }
-

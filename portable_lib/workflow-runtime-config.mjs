@@ -6,6 +6,8 @@ const DEFAULT_FLAGS = Object.freeze({
   ENABLE_WORKFLOW_CAPTURE: true,
   ENABLE_WORKFLOW_REUSE: true,
   ENABLE_WORKFLOW_PROMOTION: true,
+  ENABLE_MODEL_FIRST_WORKFLOWS: true,
+  ENABLE_LEGACY_GOVERNED_CHAT_PLANNER: false,
 });
 
 function parseBoolean(value, fallback) {
@@ -24,6 +26,14 @@ function parseNumber(value, fallback, { min = Number.NEGATIVE_INFINITY, max = Nu
 
 export function getWorkflowRuntimeConfig(overrides = {}) {
   const env = process.env;
+  const enableModelFirstWorkflows = parseBoolean(
+    overrides.ENABLE_MODEL_FIRST_WORKFLOWS ?? env.ENABLE_MODEL_FIRST_WORKFLOWS,
+    DEFAULT_FLAGS.ENABLE_MODEL_FIRST_WORKFLOWS
+  );
+  const enableLegacyGovernedChatPlanner = parseBoolean(
+    overrides.ENABLE_LEGACY_GOVERNED_CHAT_PLANNER ?? env.ENABLE_LEGACY_GOVERNED_CHAT_PLANNER,
+    DEFAULT_FLAGS.ENABLE_LEGACY_GOVERNED_CHAT_PLANNER
+  );
   const flags = {
     enableLegacyRuleRouter: parseBoolean(
       overrides.ENABLE_LEGACY_RULE_ROUTER ?? env.ENABLE_LEGACY_RULE_ROUTER,
@@ -45,6 +55,9 @@ export function getWorkflowRuntimeConfig(overrides = {}) {
       overrides.ENABLE_WORKFLOW_PROMOTION ?? env.ENABLE_WORKFLOW_PROMOTION,
       DEFAULT_FLAGS.ENABLE_WORKFLOW_PROMOTION
     ),
+    enableModelFirstWorkflows,
+    enableLegacyGovernedChatPlanner,
+    enableModelFirstPlanner: enableModelFirstWorkflows,
   };
 
   return {
@@ -94,4 +107,3 @@ export function getWorkflowRuntimeConfig(overrides = {}) {
 export function getWorkflowFeatureFlags(overrides = {}) {
   return getWorkflowRuntimeConfig(overrides).flags;
 }
-

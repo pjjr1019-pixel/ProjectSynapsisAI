@@ -6,9 +6,10 @@ import { execFile } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { writeAuditEvent } from "./optimizer-audit.mjs";
 import { getSessionHints } from "./brain-session-store.mjs";
+import { getTaskmanagerPaths } from "./taskmanager-paths.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const taskmanagerRoot = path.resolve(__dirname, "..");
+const taskmanagerRoot = getTaskmanagerPaths()?.taskmanagerRoot || path.resolve(__dirname, "..");
 const workspaceRoot = path.resolve(taskmanagerRoot, "..");
 
 const runtimeRoot = process.env.HORIZONS_GOVERNED_RUNTIME_ROOT
@@ -286,6 +287,19 @@ function normalizePathInput(rawPath, { baseDir = taskmanagerRoot } = {}) {
 function startsWithPath(target, root) {
   const rel = path.relative(root, target);
   return rel === "" || (!rel.startsWith("..") && !path.isAbsolute(rel));
+}
+
+function shouldSkipBatchSummarizeEntry(filePath, sourceFolder, outputFolder) {
+  const normalizedPath = path.normalize(filePath);
+  const normalizedSource = path.normalize(sourceFolder);
+  const normalizedOutput = path.normalize(outputFolder);
+  if (startsWithPath(normalizedPath, normalizedOutput)) return true;
+  const baseName = path.basename(normalizedPath).toLowerCase();
+  if (baseName === "summary-report.md") return true;
+  if (baseName.endsWith(".summary.md")) return true;
+  const relative = path.relative(normalizedSource, normalizedPath).replace(/\\/g, "/").toLowerCase();
+  if (relative.includes("/summaries/") || relative.startsWith("summaries/")) return true;
+  return false;
 }
 
 function getApprovedRoots() {
@@ -1036,7 +1050,8 @@ function executeStep(run, step, options = {}) {
         : [".txt", ".md", ".json", ".csv", ".html", ".htm"];
       const entries = listDirectoryEntries(sourceFolder, { recursive: args.recursive !== false, includeHidden: false })
         .filter((entry) => entry.type === "file")
-        .filter((entry) => patterns.includes(path.extname(entry.path).toLowerCase()));
+        .filter((entry) => patterns.includes(path.extname(entry.path).toLowerCase()))
+        .filter((entry) => !shouldSkipBatchSummarizeEntry(entry.path, sourceFolder, outputFolder));
 
       const summaries = [];
       for (const entry of entries) {
@@ -1804,6 +1819,8 @@ function executePlan(plan, { approvalStatus = "not_required" } = {}) {
     results: [],
     snapshots: [],
     success: true,
+    metadata: plan.metadata || null,
+    workflowRuntime: plan.workflowRuntime || null,
   };
 
   for (const step of plan.steps) {
@@ -2116,6 +2133,7 @@ export async function tryHandleGovernedChatRequest(message, options = {}) {
 
 export function executeGovernedPlanDirect(planInput, options = {}) {
   const plan = attachApprovalMetadata({
+    ...(planInput && typeof planInput === "object" ? planInput : {}),
     workflow_id: planInput?.workflow_id || createId("workflow"),
     source: planInput?.source || "api",
     message: planInput?.message || "direct-plan",
@@ -2151,3 +2169,10 @@ export {
   buildChatReplyFromRun as buildGovernedRunReply,
   buildChatActionPlan as buildLegacyGovernedChatActionPlan,
 };
+
+export function __resetGovernedActionsForTests() {
+  pendingApprovals.splice(0, pendingApprovals.length);
+  actionRuns.clear();
+  nextApprovalId = 1;
+  hydrateApprovalState();
+}

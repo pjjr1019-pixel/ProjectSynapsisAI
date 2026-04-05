@@ -26,8 +26,11 @@ import {
   getGovernedActionContracts,
   getPendingGovernedApprovals,
   rollbackGovernedRun,
-  tryHandleGovernedChatRequest,
 } from "../portable_lib/governed-actions.mjs";
+import {
+  finalizeApprovedWorkflowExecution,
+  maybeHandleWorkflowChatRequest,
+} from "../portable_lib/workflow-execution-service.mjs";
 import {
   getProcessKnowledgeEnrichmentSnapshot,
   runProcessKnowledgeEnrichmentOnce,
@@ -51,7 +54,18 @@ const PROCESS_COUNT_QUERY_RE = /\b(how many|count)\b.*\b(process|app|task)s?\b|\
 const RECOMMENDATION_QUERY_RE = /\b(recommend|recommendation|cleanup|close|suspend|stop|background task)\b/i;
 const LOCAL_AI_QUERY_RE =
   /\b(local ai|local llm|local model|ollama|ai provider|llm provider)\b|(\bmodel\b.*\b(ai|llm|ollama|local)\b)|(\b(ai|llm|ollama|local)\b.*\bmodel\b)/i;
+const LOCAL_AI_STATUS_HINT_RE =
+  /\b(status|configured|configuration|running|offline|online|enabled|disabled|using|provider|which|what model|model am i using|base url|ready)\b/i;
+const COMPLEX_GOAL_RE =
+  /\b(workflow|schedule|scheduled|recurring|every weekday|every day|daily|weekly|monthly|briefing|brief|news|compare|scan|create|build|run)\b/i;
 const RAM_USAGE_QUERY_RE = /\b(how much|used|usage|pressure|free|available)\b.*\b(ram|memory)\b|\b(ram|memory).*\b(used|usage|pressure|free|available)\b/i;
+
+export function isDirectLocalAiStatusQuery(message = "") {
+  const text = String(message || "").trim().toLowerCase();
+  if (!LOCAL_AI_QUERY_RE.test(text)) return false;
+  if (LOCAL_AI_STATUS_HINT_RE.test(text)) return true;
+  return !COMPLEX_GOAL_RE.test(text);
+}
 
 function formatGroupLabel(group) {
   const name = compactText(group?.displayName || group?.name || "Unknown task", 72);
@@ -135,7 +149,7 @@ function tryBuildRuntimeReply(message, context) {
     ? context.payload.rows.find((row) => row?.id === "provider-model")
     : null;
 
-  if (LOCAL_AI_QUERY_RE.test(text)) {
+  if (isDirectLocalAiStatusQuery(text)) {
     if (!context.localLlmConfig) {
       return {
         reply: `${providerRow?.detail || "Local AI is not configured in the Task Manager server right now."} Status: ${providerRow?.status || "Offline"}.`,
@@ -432,8 +446,26 @@ export async function handleTaskManagerHttpRoute({ req, res, headers, pathname }
         res.end(JSON.stringify({ error: `Approval not found: ${approvalId}` }));
         return true;
       }
+      const workflowResult = finalizeApprovedWorkflowExecution(result) || null;
       res.writeHead(200, responseHeaders);
-      res.end(JSON.stringify({ ok: true, ...result }));
+      res.end(
+        JSON.stringify({
+          ok: true,
+          ...result,
+          ...(workflowResult
+            ? {
+                reply: workflowResult.reply,
+                source: workflowResult.source,
+                status: workflowResult.status,
+                workflowId: workflowResult.workflowId,
+                workflowStatus: workflowResult.workflowStatus,
+                verified: workflowResult.verified,
+                verificationStrength: workflowResult.verificationStrength,
+                workflow: workflowResult,
+              }
+            : {}),
+        })
+      );
       return true;
     }
 
@@ -480,35 +512,8 @@ export async function handleTaskManagerHttpRoute({ req, res, headers, pathname }
       }
 
       const chatSessionId = typeof body?.sessionId === "string" ? body.sessionId : undefined;
-
-      const governedResult = await tryHandleGovernedChatRequest(message, {
-        dryRun: body?.dryRun === true || body?.dry_run === true,
-        sessionId: chatSessionId,
-      });
-      if (governedResult?.handled) {
-        // Record turns for governed action replies so the LLM has conversation context.
-        recordUserTurn(chatSessionId, message);
-        recordAssistantTurn(chatSessionId, governedResult.reply);
-        if (governedResult.run?.runId) {
-          updateSessionHints(chatSessionId, { lastRunId: governedResult.run.runId, lastActionResult: governedResult.reply });
-        }
-        res.writeHead(200, responseHeaders);
-        res.end(
-          JSON.stringify({
-            reply: governedResult.reply,
-            source: "governed-actions",
-            status: governedResult.status,
-            plan: governedResult.plan || null,
-            run: governedResult.run || null,
-            approval: governedResult.approval || null,
-            capturedAt: new Date().toISOString(),
-            localLlmConfigured: Boolean(getLocalLlmConfig()),
-          })
-        );
-        return true;
-      }
-
       const context = getTaskManagerChatContext();
+
       const runtimeReply = tryBuildRuntimeReply(message, context);
       if (runtimeReply) {
         recordUserTurn(chatSessionId, message);
@@ -520,6 +525,42 @@ export async function handleTaskManagerHttpRoute({ req, res, headers, pathname }
             source: runtimeReply.source,
             capturedAt: context.overview?.snapshot?.capturedAt || context.payload?.capturedAt || new Date().toISOString(),
             localLlmConfigured: Boolean(context.localLlmConfig),
+          })
+        );
+        return true;
+      }
+
+      const workflowResult = await maybeHandleWorkflowChatRequest(message, {
+        dryRun: body?.dryRun === true || body?.dry_run === true,
+        sessionId: chatSessionId,
+      });
+      if (workflowResult?.handled) {
+        recordUserTurn(chatSessionId, message);
+        recordAssistantTurn(chatSessionId, workflowResult.reply);
+        if (workflowResult.run?.runId) {
+          updateSessionHints(chatSessionId, {
+            lastRunId: workflowResult.run.runId,
+            lastActionResult: workflowResult.reply,
+          });
+        }
+        res.writeHead(200, responseHeaders);
+        res.end(
+          JSON.stringify({
+            reply: workflowResult.reply,
+            source: workflowResult.source,
+            status: workflowResult.status,
+            workflowId: workflowResult.workflowId || null,
+            workflowStatus: workflowResult.workflowStatus || null,
+            plan: workflowResult.plan || null,
+            run: workflowResult.run || null,
+            approval: workflowResult.approval || null,
+            verified: workflowResult.verified === true,
+            verificationStrength: workflowResult.verificationStrength || "none",
+            episode: workflowResult.episode || null,
+            capture: workflowResult.capture || null,
+            reflection: workflowResult.reflection || null,
+            capturedAt: workflowResult.capturedAt || new Date().toISOString(),
+            localLlmConfigured: Boolean(getLocalLlmConfig()),
           })
         );
         return true;

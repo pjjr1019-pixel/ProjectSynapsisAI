@@ -2141,3 +2141,13 @@ export function executeGovernedPlanDirect(planInput, options = {}) {
     plan,
   };
 }
+
+export {
+  normalizePathInput as normalizeGovernedPathInput,
+  classifyPath as classifyGovernedPath,
+  validateContract as validateGovernedActionContract,
+  classifyApprovalRequirement as classifyGovernedApprovalRequirement,
+  attachApprovalMetadata as decorateGovernedPlanWithApprovalMetadata,
+  buildChatReplyFromRun as buildGovernedRunReply,
+  buildChatActionPlan as buildLegacyGovernedChatActionPlan,
+};

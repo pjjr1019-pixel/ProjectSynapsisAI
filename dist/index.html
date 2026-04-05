@@ -9,5 +9,962 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- ── Horizons.AI UI Polish Layer ─────────────────────────────────────
+         Design system enhancements sitting above compiled inline styles.
+         Targets data-attributes and global patterns. Never breaks JS logic.
+    ──────────────────────────────────────────────────────────────────────── -->
+    <style id="hz-design-system">
+
+    /* ── Root design tokens ──────────────────────────────────────────────── */
+    :root {
+      --hz-accent:        rgba(121, 200, 255, 0.92);
+      --hz-accent-soft:   rgba(121, 200, 255, 0.12);
+      --hz-accent-ring:   rgba(121, 200, 255, 0.42);
+      --hz-amber:         rgba(255, 190, 80, 0.92);
+      --hz-amber-soft:    rgba(255, 190, 80, 0.12);
+      --hz-green:         rgba(110, 231, 183, 0.92);
+      --hz-green-soft:    rgba(110, 231, 183, 0.10);
+      --hz-red:           rgba(252, 165, 165, 0.92);
+      --hz-red-soft:      rgba(252, 165, 165, 0.10);
+      --hz-surface-0:     rgba(4, 8, 18, 1);
+      --hz-surface-1:     rgba(8, 12, 22, 0.92);
+      --hz-surface-2:     rgba(14, 18, 32, 0.94);
+      --hz-border-soft:   rgba(151, 209, 255, 0.09);
+      --hz-border-med:    rgba(151, 209, 255, 0.15);
+      --hz-border-strong: rgba(151, 209, 255, 0.24);
+      --hz-t-eyebrow:     9.5px;
+      --hz-t-meta:        10.5px;
+      --hz-t-label:       11.5px;
+      --hz-t-body:        12.5px;
+      --hz-t-section:     13.5px;
+      --hz-t-metric:      26px;
+      --hz-space-1:       4px;
+      --hz-space-2:       8px;
+      --hz-space-3:       12px;
+      --hz-space-4:       16px;
+      --hz-space-5:       20px;
+      --hz-space-6:       24px;
+      --hz-r-sm:          6px;
+      --hz-r-md:          10px;
+      --hz-r-lg:          14px;
+      --hz-r-xl:          18px;
+      --hz-r-pill:        999px;
+      --hz-ease-fast:     90ms ease-out;
+      --hz-ease-mid:      160ms ease;
+      --hz-ease-slow:     260ms ease;
+      --hz-ease-panel:    240ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* ── Scrollbar system — slimmer, cleaner ─────────────────────────────── */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: rgba(121, 200, 255, 0.26) transparent;
+    }
+    *::-webkit-scrollbar       { width: 4px; height: 4px; }
+    *::-webkit-scrollbar-track { background: transparent; }
+    *::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg,
+        rgba(121, 200, 255, 0.38),
+        rgba(100, 160, 230, 0.46));
+      border-radius: 999px;
+    }
+    *::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(180deg,
+        rgba(143, 213, 255, 0.62),
+        rgba(121, 190, 240, 0.68));
+    }
+    *::-webkit-scrollbar-corner { background: transparent; }
+
+    /* ── Focus ring — tighter, more premium ──────────────────────────────── */
+    [data-tm-focusable=true]:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 1.5px rgba(121, 200, 255, 0.52),
+                  0 0 0 4px   rgba(121, 200, 255, 0.16) !important;
+    }
+
+    /* ── Button system ───────────────────────────────────────────────────── */
+    [data-tm-button=true] {
+      transition:
+        transform      90ms ease-out,
+        filter         140ms ease,
+        box-shadow     160ms ease,
+        background-color 140ms ease,
+        border-color   140ms ease,
+        color          140ms ease,
+        opacity        140ms ease !important;
+      will-change: transform;
+    }
+    [data-tm-button=true]:hover:not(:disabled) {
+      transform: translateY(-1px);
+      filter: brightness(1.07) saturate(1.04);
+    }
+    [data-tm-button=true]:active:not(:disabled) {
+      transform: translateY(0) scale(0.978);
+      filter: brightness(0.95);
+      transition-duration: 55ms !important;
+    }
+    [data-tm-button=true]:disabled {
+      opacity: 0.38;
+      cursor: not-allowed;
+      pointer-events: auto;
+    }
+
+    /* ── Process row interactions ─────────────────────────────────────────── */
+    [data-tm-row=true] {
+      transition:
+        background-color 120ms ease,
+        border-color     120ms ease,
+        box-shadow       160ms ease !important;
+    }
+    [data-tm-row=true]:hover {
+      background: rgba(121, 200, 255, 0.035) !important;
+      border-color: rgba(121, 200, 255, 0.082) !important;
+    }
+    /* Suppress the default translate-x row hover since we're using bg instead */
+    [data-tm-row=true]:hover { transform: none !important; }
+
+    /* ── Approval attention pulse ─────────────────────────────────────────── */
+    @keyframes hz-approval-pulse {
+      0%   { box-shadow: 0 0 0 0   rgba(255, 185, 60, 0.55); }
+      60%  { box-shadow: 0 0 0 6px rgba(255, 185, 60, 0.00); }
+      100% { box-shadow: 0 0 0 0   rgba(255, 185, 60, 0.00); }
+    }
+    [data-hz-approval-pulse] {
+      animation: hz-approval-pulse 2.6s ease infinite;
+    }
+
+    /* ── Live state pulse (status dots, sync indicators) ─────────────────── */
+    @keyframes hz-live-dot {
+      0%, 100% { opacity: 1.0; }
+      50%       { opacity: 0.42; }
+    }
+    [data-hz-live-dot] {
+      animation: hz-live-dot 2.4s ease infinite;
+      border-radius: 50%;
+    }
+
+    /* ── Panel reveal animation ───────────────────────────────────────────── */
+    @keyframes hz-panel-in {
+      from { opacity: 0; transform: translateY(5px) scale(0.995); }
+      to   { opacity: 1; transform: translateY(0)   scale(1.000); }
+    }
+    .hz-panel-reveal {
+      animation: hz-panel-in 200ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    /* ── Tab active indicator ─────────────────────────────────────────────── */
+    [data-hz-tab] {
+      transition:
+        background-color 130ms ease,
+        border-color     130ms ease,
+        color            130ms ease !important;
+      position: relative;
+    }
+    [data-hz-tab=active]::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 20%;
+      right: 20%;
+      height: 2px;
+      border-radius: 1px;
+      background: rgba(121, 200, 255, 0.72);
+    }
+
+    /* ── Eyebrow / section label baseline ────────────────────────────────── */
+    [data-hz-eyebrow] {
+      font-size: var(--hz-t-eyebrow) !important;
+      letter-spacing: 0.14em !important;
+      text-transform: uppercase !important;
+      font-weight: 650 !important;
+      opacity: 0.72;
+    }
+
+    /* ── Metric value baseline ────────────────────────────────────────────── */
+    [data-hz-metric] {
+      font-size: var(--hz-t-metric) !important;
+      font-variant-numeric: tabular-nums !important;
+      letter-spacing: -0.01em !important;
+      font-weight: 700 !important;
+      line-height: 1.0 !important;
+    }
+
+    /* ── Chip / badge system ──────────────────────────────────────────────── */
+    [data-hz-chip] {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 17px;
+      padding: 0 6px;
+      border-radius: 999px;
+      font-size: 9px;
+      font-weight: 680;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      transition: background-color 130ms ease, border-color 130ms ease;
+    }
+    [data-hz-chip=status-live] {
+      border: 1px solid rgba(110, 231, 183, 0.30);
+      background: rgba(110, 231, 183, 0.10);
+      color: rgba(167, 243, 208, 0.95);
+    }
+    [data-hz-chip=status-idle] {
+      border: 1px solid rgba(214, 231, 255, 0.14);
+      background: rgba(255, 255, 255, 0.04);
+      color: rgba(187, 194, 222, 0.72);
+    }
+    [data-hz-chip=status-warn] {
+      border: 1px solid rgba(255, 190, 80, 0.30);
+      background: rgba(255, 190, 80, 0.10);
+      color: rgba(255, 220, 150, 0.95);
+    }
+    [data-hz-chip=status-error] {
+      border: 1px solid rgba(252, 165, 165, 0.30);
+      background: rgba(252, 165, 165, 0.10);
+      color: rgba(254, 202, 202, 0.95);
+    }
+    [data-hz-chip=approval] {
+      border: 1px solid rgba(255, 185, 60, 0.35);
+      background: rgba(255, 185, 60, 0.14);
+      color: rgba(255, 224, 140, 0.98);
+      font-size: 9.5px;
+    }
+
+    /* ── Risk tier chips ──────────────────────────────────────────────────── */
+    [data-hz-risk=high] {
+      border-color: rgba(252, 165, 165, 0.38) !important;
+      background: rgba(252, 165, 165, 0.10) !important;
+      color: rgba(254, 202, 202, 0.96) !important;
+    }
+    [data-hz-risk=medium] {
+      border-color: rgba(255, 210, 100, 0.38) !important;
+      background: rgba(255, 210, 100, 0.10) !important;
+      color: rgba(255, 228, 150, 0.96) !important;
+    }
+    [data-hz-risk=low] {
+      border-color: rgba(110, 231, 183, 0.30) !important;
+      background: rgba(110, 231, 183, 0.10) !important;
+      color: rgba(167, 243, 208, 0.94) !important;
+    }
+
+    /* ── Empty / placeholder state ────────────────────────────────────────── */
+    .hz-empty {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 28px 20px 32px;
+      gap: 10px;
+      pointer-events: none;
+    }
+    .hz-empty__icon {
+      font-size: 24px;
+      line-height: 1;
+      opacity: 0.20;
+      filter: grayscale(0.4);
+    }
+    .hz-empty__title {
+      font-size: 13px;
+      font-weight: 620;
+      color: rgba(214, 231, 255, 0.78);
+      line-height: 1.3;
+      letter-spacing: 0.01em;
+    }
+    .hz-empty__body {
+      font-size: 11.5px;
+      color: rgba(187, 194, 222, 0.54);
+      line-height: 1.6;
+      max-width: 210px;
+    }
+    .hz-empty__cta {
+      pointer-events: auto;
+      margin-top: 6px;
+    }
+
+    /* ── Loading shimmer ──────────────────────────────────────────────────── */
+    @keyframes hz-shimmer {
+      0%   { background-position: -200% center; }
+      100% { background-position:  200% center; }
+    }
+    .hz-skeleton {
+      background: linear-gradient(90deg,
+        rgba(255,255,255,0.04) 25%,
+        rgba(255,255,255,0.09) 50%,
+        rgba(255,255,255,0.04) 75%);
+      background-size: 200% auto;
+      animation: hz-shimmer 1.6s linear infinite;
+      border-radius: 4px;
+    }
+
+    /* ── Metric card hover ────────────────────────────────────────────────── */
+    .hz-metric-card {
+      transition: box-shadow 180ms ease, border-color 180ms ease !important;
+    }
+    .hz-metric-card:hover {
+      box-shadow: 0 20px 40px rgba(0,0,0,0.30),
+                  inset 0 1px 0 rgba(255,255,255,0.05) !important;
+    }
+
+    /* ── Window header title ─────────────────────────────────────────────── */
+    [data-hz-wintitle] {
+      font-size: 11.5px !important;
+      font-weight: 660 !important;
+      letter-spacing: 0.005em !important;
+      color: rgba(240, 246, 255, 0.96) !important;
+    }
+
+    /* ── Section heading ─────────────────────────────────────────────────── */
+    [data-hz-section-heading] {
+      font-size: 11px !important;
+      font-weight: 650 !important;
+      letter-spacing: 0.10em !important;
+      text-transform: uppercase !important;
+      color: rgba(187, 194, 222, 0.58) !important;
+    }
+
+    /* ── Process name (primary row label) ────────────────────────────────── */
+    [data-hz-process-name] {
+      font-size: 13px !important;
+      font-weight: 600 !important;
+      color: rgba(244, 248, 255, 0.96) !important;
+      letter-spacing: 0.003em !important;
+    }
+
+    /* ── Process metric (secondary row value) ────────────────────────────── */
+    [data-hz-process-metric] {
+      font-size: 11px !important;
+      font-variant-numeric: tabular-nums !important;
+      letter-spacing: 0.02em !important;
+    }
+
+    /* ── Footer dock ─────────────────────────────────────────────────────── */
+    [data-hz-dock] {
+      border-top: 1px solid rgba(151, 209, 255, 0.08) !important;
+      background: rgba(6, 10, 20, 0.84) !important;
+      backdrop-filter: blur(12px) !important;
+    }
+
+    /* ── Approval window improvements ────────────────────────────────────── */
+    [data-hz-approval-action] {
+      font-size: 14px !important;
+      font-weight: 660 !important;
+      line-height: 1.25 !important;
+      color: rgba(240, 246, 255, 0.97) !important;
+    }
+    [data-hz-approval-path] {
+      font-size: 11px !important;
+      font-family: ui-monospace, 'Cascadia Code', 'Consolas', monospace !important;
+      color: rgba(143, 213, 255, 0.88) !important;
+      background: rgba(0, 0, 0, 0.28) !important;
+      border-radius: 5px !important;
+      padding: 4px 8px !important;
+      word-break: break-all !important;
+      line-height: 1.45 !important;
+    }
+    [data-hz-approval-reason] {
+      font-size: 12px !important;
+      color: rgba(187, 200, 230, 0.88) !important;
+      line-height: 1.5 !important;
+    }
+    [data-hz-approval-accept] {
+      background: rgba(22, 163, 74, 0.22) !important;
+      border: 1px solid rgba(22, 163, 74, 0.45) !important;
+      color: rgba(187, 247, 208, 0.96) !important;
+      font-weight: 700 !important;
+    }
+    [data-hz-approval-accept]:hover:not(:disabled) {
+      background: rgba(22, 163, 74, 0.32) !important;
+      border-color: rgba(22, 163, 74, 0.58) !important;
+    }
+    [data-hz-approval-reject] {
+      background: rgba(185, 28, 28, 0.12) !important;
+      border: 1px solid rgba(185, 28, 28, 0.32) !important;
+      color: rgba(252, 165, 165, 0.88) !important;
+      font-weight: 600 !important;
+    }
+    [data-hz-approval-reject]:hover:not(:disabled) {
+      background: rgba(185, 28, 28, 0.20) !important;
+      border-color: rgba(185, 28, 28, 0.45) !important;
+    }
+
+    /* ── Hint text (decision guidance) ───────────────────────────────────── */
+    [data-hz-hint] {
+      font-size: 10px !important;
+      color: rgba(187, 194, 222, 0.50) !important;
+      line-height: 1.45 !important;
+      font-style: italic !important;
+    }
+
+    /* ── Runtime / feed line tones ───────────────────────────────────────── */
+    [data-hz-feed-tone=success] { color: rgba(110, 231, 183, 0.90) !important; }
+    [data-hz-feed-tone=warning] { color: rgba(255, 210, 100, 0.90) !important; }
+    [data-hz-feed-tone=error]   { color: rgba(252, 165, 165, 0.92) !important; }
+    [data-hz-feed-tone=info]    { color: rgba(143, 213, 255, 0.82) !important; }
+    [data-hz-feed-tone=muted]   { color: rgba(187, 194, 222, 0.52) !important; }
+
+    /* ── Process row child typography ────────────────────────────────────── */
+    [data-hz-process-name] {
+      font-size: 13px !important;
+      font-weight: 610 !important;
+      letter-spacing: 0.003em !important;
+      line-height: 1.22 !important;
+    }
+    [data-hz-process-meta] {
+      font-size: 9.5px !important;
+      letter-spacing: 0.03em !important;
+      opacity: 0.88;
+    }
+    [data-hz-process-metric] {
+      font-variant-numeric: tabular-nums !important;
+      letter-spacing: 0.025em !important;
+    }
+    [data-hz-row-icon] {
+      transition: opacity 120ms ease !important;
+    }
+    [data-tm-row=true]:hover [data-hz-row-icon] {
+      opacity: 1 !important;
+    }
+
+    /* ── Metric card enhancements ─────────────────────────────────────────── */
+    [data-hz-metric-card] {
+      transition: box-shadow 200ms ease, border-color 180ms ease,
+                  transform 180ms ease !important;
+    }
+    [data-hz-metric-card]:hover {
+      box-shadow: 0 22px 44px rgba(0,0,0,0.32),
+                  inset 0 1px 0 rgba(255,255,255,0.06) !important;
+      transform: translateY(-1px) !important;
+    }
+    [data-hz-metric-value] {
+      font-size: 26px !important;
+      font-variant-numeric: tabular-nums !important;
+      letter-spacing: -0.012em !important;
+      font-weight: 700 !important;
+      line-height: 1.0 !important;
+    }
+
+    /* ── Tab active state ─────────────────────────────────────────────────── */
+    [data-hz-tab] {
+      transition: background-color 120ms ease, color 120ms ease,
+                  border-color 120ms ease, font-weight 0ms !important;
+      font-weight: 500;
+    }
+
+    /* ── Light theme adjustments ─────────────────────────────────────────── */
+    .theme-light {
+      --hz-accent:        rgba(0, 120, 212, 0.92);
+      --hz-accent-soft:   rgba(0, 120, 212, 0.09);
+      --hz-accent-ring:   rgba(0, 120, 212, 0.30);
+      --hz-border-soft:   rgba(0, 0, 0, 0.07);
+      --hz-border-med:    rgba(0, 0, 0, 0.10);
+    }
+    .theme-light * {
+      scrollbar-color: rgba(0, 0, 0, 0.18) transparent;
+    }
+    .theme-light *::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.20);
+    }
+    .theme-light *::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 0, 0, 0.34);
+    }
+    .theme-light [data-tm-row=true]:hover {
+      background: rgba(0, 120, 212, 0.04) !important;
+      border-color: rgba(0, 120, 212, 0.09) !important;
+    }
+    .theme-light [data-hz-chip=status-live] {
+      border-color: rgba(16, 124, 16, 0.30);
+      background: rgba(16, 124, 16, 0.08);
+      color: rgba(12, 72, 12, 0.92);
+    }
+    .theme-light [data-hz-approval-action] {
+      color: rgba(0, 0, 0, 0.88) !important;
+    }
+    .theme-light [data-hz-approval-path] {
+      color: rgba(0, 70, 130, 0.92) !important;
+      background: rgba(0, 0, 0, 0.05) !important;
+    }
+
+    </style>
+
+    <style>
+      #hz-tip {
+        position: fixed;
+        z-index: 9999;
+        max-width: 272px;
+        border-radius: 12px;
+        border: 1px solid rgba(143,213,255,0.13);
+        background: rgba(8,14,27,0.97);
+        box-shadow: 0 18px 32px rgba(0,0,0,0.40), inset 0 1px 0 rgba(140,210,255,0.06);
+        padding: 10px 12px;
+        font-size: 10.75px;
+        line-height: 1.58;
+        color: rgba(230,241,255,0.93);
+        pointer-events: none;
+        font-family: "Segoe UI Variable","Segoe UI","Helvetica Neue",Arial,sans-serif;
+        transition: opacity 0.13s ease;
+        opacity: 0;
+      }
+      #hz-tip.hz-visible { opacity: 1; }
+      #hz-tip .hz-name {
+        font-size: 11.5px;
+        font-weight: 700;
+        color: rgba(180,220,255,0.96);
+        margin-bottom: 4px;
+        display: block;
+      }
+    </style>
+    <div id="hz-tip" role="tooltip" aria-hidden="true"></div>
+
+    <script>
+    (function () {
+      'use strict';
+
+      // ── AI worker tooltips (keyed by row name text, case-insensitive) ────────
+      const AI_WORKERS = {
+        'chat pipeline':
+          'Handles every conversation you have with the AI. When you send a message, it goes through here — this is the live request channel.',
+        'provider / model':
+          'The actual AI brain answering your questions. Shows which model is active (local on your PC, or a web-based one) and whether it\'s reachable.',
+        'crawler fleet':
+          'Background workers that quietly browse websites and files you\'ve pointed Horizons at, so the AI can learn from them over time.',
+        'brain browser':
+          'Horizons\' long-term memory browser — everything the AI has read, indexed, or learned. You can open it to explore or edit what it knows.',
+        'retrieval / dense pilot':
+          'Searches Horizons\' memory to find relevant past knowledge before answering. "Dense Pilot" is a faster, always-ready search model kept loaded in RAM.',
+        'ingestion / build jobs':
+          'Reads and indexes new documents, code files, or web pages so the AI can actually use them. Running = it\'s currently digesting something new.',
+        'optimizer':
+          'Watches your computer in the background and quietly takes small safe actions to keep it fast — like lowering priority on idle processes.',
+      };
+
+      // ── Windows process tooltips (keyed by lowercase process name prefix) ───
+      // Matched against the first "word" of the process name (before any space/(pid)).
+      const PROCESS_TIPS = {
+        // Core Windows
+        'system':         { name: 'Windows System', tip: 'The core Windows kernel. Always runs, cannot be closed. Manages hardware, memory, and everything else.' },
+        'smss':           { name: 'Session Manager', tip: 'Starts Windows user sessions. Closes itself once login is complete.' },
+        'csrss':          { name: 'Client/Server Runtime', tip: 'Handles Windows console windows and some core UI tasks. Essential — do not end it.' },
+        'wininit':        { name: 'Windows Initialization', tip: 'Starts key Windows services at boot. Runs briefly and stays in the background.' },
+        'winlogon':       { name: 'Windows Logon', tip: 'Manages the login/logout screen and user session security.' },
+        'services':       { name: 'Service Control Manager', tip: 'Manages all Windows background services — starts, stops, and monitors them.' },
+        'lsass':          { name: 'Local Security Authority', tip: 'Handles login passwords and user authentication. Essential security process — never end it.' },
+        'svchost':        { name: 'Windows Service Host', tip: 'A shared container that runs multiple Windows services at once to save memory. Many of these run at the same time.' },
+        'dwm':            { name: 'Desktop Window Manager', tip: 'Draws all the windows on your screen — transparency, shadows, animations. If it stops, your display goes black.' },
+        'explorer':       { name: 'Windows Explorer', tip: 'The Windows desktop and file browser. Restarting it refreshes your taskbar and desktop without rebooting.' },
+        'taskhostw':      { name: 'Task Host', tip: 'Runs scheduled Windows maintenance tasks in the background.' },
+        'runtimebroker':  { name: 'Runtime Broker', tip: 'Manages permissions for Windows Store apps — camera, microphone, location access.' },
+        'searchhost':     { name: 'Windows Search', tip: 'Powers the Windows search bar. Indexes your files so searches feel instant.' },
+        'searchindexer':  { name: 'Search Indexer', tip: 'Crawls your files to build the search index. Uses CPU briefly when files change, then goes quiet.' },
+        'ntoskrnl':       { name: 'Windows Kernel', tip: 'The heart of Windows. Manages CPU, memory, and all hardware. Cannot be ended.' },
+        'registry':       { name: 'Registry Process', tip: 'Manages the Windows Registry — the database that stores all system and app settings.' },
+        'audiodg':        { name: 'Windows Audio', tip: 'Runs in isolation for security so crashes can\'t take down your whole system audio.' },
+        'fontdrvhost':    { name: 'Font Driver Host', tip: 'Renders fonts on screen. Runs isolated so a bad font file can\'t crash the system.' },
+        'ctfmon':         { name: 'Text Input Manager', tip: 'Enables the on-screen keyboard, voice input, and alternative text input methods.' },
+        'spoolsv':        { name: 'Print Spooler', tip: 'Manages your print queue. Safe to restart if a printer job is stuck.' },
+        'sihost':         { name: 'Shell Infrastructure', tip: 'Powers parts of the Windows taskbar and Start menu experience.' },
+
+        // Horizons / Electron
+        'electron':       { name: 'Horizons AI (Electron)', tip: 'This IS Horizons. Electron is the framework it runs on — every window you see is an Electron process.' },
+        'horizons':       { name: 'Horizons AI', tip: 'Horizons Task Manager process.' },
+
+        // Development
+        'code':           { name: 'VS Code', tip: 'Visual Studio Code editor. Multiple "Code" processes are normal — each tab/extension gets its own for safety.' },
+        'node':           { name: 'Node.js', tip: 'JavaScript runtime. Horizons\' server side runs on Node, so you\'ll see several of these.' },
+
+        // AI
+        'claude':         { name: 'Claude AI', tip: 'The Claude AI model process. This is the Horizons AI brain running locally on your machine.' },
+        'ollama':         { name: 'Ollama', tip: 'Runs local AI models on your GPU/CPU. Horizons uses it when Local LLM mode is on.' },
+        'lmstudio':       { name: 'LM Studio', tip: 'Another local AI model runner. Horizons can connect to it as a provider.' },
+
+        // Browsers
+        'chrome':         { name: 'Google Chrome', tip: 'Chrome browser. Each tab runs in its own process — that\'s normal and intentional for stability.' },
+        'msedge':         { name: 'Microsoft Edge', tip: 'Edge browser. Like Chrome, each tab gets its own process.' },
+        'firefox':        { name: 'Firefox', tip: 'Firefox browser.' },
+        'brave':          { name: 'Brave Browser', tip: 'Privacy-focused browser built on Chromium.' },
+
+        // Common apps
+        'discord':        { name: 'Discord', tip: 'Discord messaging app. Uses Electron, so it shows several processes.' },
+        'slack':          { name: 'Slack', tip: 'Slack messaging app.' },
+        'spotify':        { name: 'Spotify', tip: 'Spotify music player.' },
+        'steam':          { name: 'Steam', tip: 'Steam game launcher and store.' },
+        'teams':          { name: 'Microsoft Teams', tip: 'Microsoft Teams app for meetings and messaging.' },
+        'zoom':           { name: 'Zoom', tip: 'Zoom video meetings app.' },
+        'onedrive':       { name: 'OneDrive', tip: 'Microsoft OneDrive — keeps your files synced to the cloud in the background.' },
+        'dropbox':        { name: 'Dropbox', tip: 'Dropbox file sync service — runs in the background.' },
+        'antimalware':    { name: 'Windows Defender', tip: 'Windows security scanning in the background. Normal to see CPU spikes briefly.' },
+        'msmpeng':        { name: 'Windows Defender', tip: 'Windows Defender antivirus engine. Spikes during scans, otherwise quiet.' },
+        'securityhealthservice': { name: 'Security Health', tip: 'Reports your PC\'s security status to Windows Security Center.' },
+        'nvcontainer':    { name: 'NVIDIA Container', tip: 'NVIDIA GPU driver service — needed for your graphics card to work.' },
+        'nvdisplay':      { name: 'NVIDIA Display', tip: 'NVIDIA display driver process.' },
+        'amdow':          { name: 'AMD Driver', tip: 'AMD graphics card driver process.' },
+        'igfxem':         { name: 'Intel Graphics', tip: 'Intel integrated graphics driver.' },
+        'conhost':        { name: 'Console Host', tip: 'Hosts command prompt and PowerShell windows. Each terminal you open gets one.' },
+        'powershell':     { name: 'PowerShell', tip: 'Windows command shell. Used by scripts and automation tools.' },
+        'cmd':            { name: 'Command Prompt', tip: 'Classic Windows command line.' },
+        'wsl':            { name: 'Windows Subsystem for Linux', tip: 'Runs Linux programs on Windows without a virtual machine.' },
+        'python':         { name: 'Python', tip: 'Python programming runtime. Often used by tools and scripts.' },
+        'git':            { name: 'Git', tip: 'Version control tool. Usually runs briefly then exits.' },
+      };
+
+      // ── Button/badge tooltip map ─────────────────────────────────────────────
+      const BTN_TIPS = new Map([
+        ['run now',       'Run this workflow right now, without waiting for its scheduled time.'],
+        ['configure',     'This workflow needs some setup before it can run. Click to fill in the required info.'],
+        ['pause',         'Temporarily stop this workflow. It won\'t run until you click Resume.'],
+        ['resume',        'Turn this workflow back on so it runs on its schedule again.'],
+        ['disable',       'Turn this workflow off completely.'],
+        ['details',       'See the full settings, history, and schedule for this workflow.'],
+        ['armed',         'This workflow is active and will run automatically on schedule.'],
+        ['scheduled',     'This workflow has a run time set and is waiting for it.'],
+        ['scan',          'Scan all running processes and refresh the list with live data.'],
+        ['optimize',      'Ask the AI to look for safe ways to free up CPU or memory right now.'],
+        ['pause auto',    'Stop the AI from automatically making changes. It will still watch and suggest — just won\'t act.'],
+        ['efficiency mode', 'Lowers this process\'s CPU priority so it runs quieter without closing it.'],
+        ['end task',      'Close this program. Unsaved work may be lost.'],
+        ['end process tree', 'Close this program AND everything it launched. Use carefully.'],
+        ['open file location', 'Open the folder on your computer where this program lives.'],
+        ['search online', 'Search the web for this process name to learn what it does.'],
+        ['approvals',     'Actions the AI wants to take but needs your permission first.'],
+        ['pc',            'Shows all running processes, CPU, RAM, and GPU usage on your computer.'],
+        ['ai',            'Shows what the Horizons AI system is doing right now — workers, models, crawlers.'],
+        ['workflows',     'Automated tasks that run on a schedule — news, memory cleanup, daily reports, etc.'],
+        ['0 hot',         'No processes are currently spiking CPU or memory above normal.'],
+        ['high',          'System pressure is HIGH — something is using a lot of resources.'],
+        ['ai idle',       'The AI is not actively doing anything right now.'],
+        ['processes',     'View all running programs and background tasks on your PC.'],
+        ['services',      'View Windows background services — system components that run without a visible window.'],
+      ]);
+
+      // ── Tooltip DOM ──────────────────────────────────────────────────────────
+      const tipEl  = document.getElementById('hz-tip');
+      let curAnchor = null;
+
+      function show(anchor, html) {
+        if (curAnchor === anchor) return;
+        curAnchor = anchor;
+        tipEl.innerHTML = html;
+        tipEl.classList.add('hz-visible');
+        reposition(anchor);
+      }
+      function hide() {
+        curAnchor = null;
+        tipEl.classList.remove('hz-visible');
+      }
+      function reposition(anchor) {
+        const r  = anchor.getBoundingClientRect();
+        const W  = 272, GAP = 8;
+        let left = Math.max(10, Math.min(r.left, window.innerWidth - W - 10));
+        let top  = r.bottom + GAP;
+        if (top + 100 > window.innerHeight - 10) {
+          top = r.top - GAP - tipEl.offsetHeight;
+          if (top < 10) top = r.bottom + GAP;
+        }
+        tipEl.style.left = left + 'px';
+        tipEl.style.top  = top  + 'px';
+      }
+
+      function attach(el, htmlFn) {
+        if (el._hzAttached) return;
+        el._hzAttached = true;
+        el.addEventListener('mouseenter', function () { show(el, htmlFn()); });
+        el.addEventListener('mouseleave', hide);
+        el.addEventListener('focus',      function () { show(el, htmlFn()); });
+        el.addEventListener('blur',       hide);
+      }
+
+      // ── Process row logic ────────────────────────────────────────────────────
+      function getRowName(row) {
+        // The name is in the first deeply-nested div with fontSize 12.75
+        // Simpler: grab the first text-heavy child div
+        const divs = row.querySelectorAll('div');
+        for (const d of divs) {
+          const txt = (d.textContent || '').trim();
+          // Name div: short-ish, has no sub-divs with significant text, is the title
+          if (txt && txt.length < 80 && d.children.length === 0) {
+            return txt;
+          }
+        }
+        return '';
+      }
+
+      function getRowNameAndSubtitle(row) {
+        const textDivs = [];
+        const walk = (el) => {
+          for (const child of el.children) {
+            if (child.children.length === 0) {
+              const t = (child.textContent || '').trim();
+              if (t) textDivs.push(t);
+            } else {
+              walk(child);
+            }
+          }
+        };
+        walk(row);
+        return { name: textDivs[0] || '', subtitle: textDivs[1] || '' };
+      }
+
+      function processKey(name) {
+        // Strip (PID) suffix, lowercase, get first word
+        return name.replace(/\s*\(\d+\)\s*$/, '').toLowerCase().split(/[\s._-]/)[0];
+      }
+
+      function buildProcessTip(name, subtitle) {
+        const key  = processKey(name);
+        const info = PROCESS_TIPS[key];
+
+        // Check if this is an AI worker row (subtitle text)
+        const sub = (subtitle || '').toLowerCase();
+        if (sub === 'ai worker') {
+          const aiKey = name.toLowerCase().trim();
+          const aiTip = AI_WORKERS[aiKey];
+          if (aiTip) {
+            return `<span class="hz-name">${name}</span>${aiTip}`;
+          }
+          return `<span class="hz-name">${name} — AI Worker</span>An internal Horizons AI component that handles a specific part of the system.`;
+        }
+
+        if (info) {
+          return `<span class="hz-name">${info.name}</span>${info.tip}`;
+        }
+
+        // Fallback: show the name and a generic message
+        if (sub === 'protected group') {
+          return `<span class="hz-name">${name}</span>A protected system process that Horizons will not automatically modify. Safe to monitor but not recommended to close.`;
+        }
+        if (sub === 'live process group') {
+          return `<span class="hz-name">${name}</span>A running program on your computer. Horizons is tracking its resource usage.`;
+        }
+        return null; // no tip for unknown processes
+      }
+
+      function tagRow(row) {
+        if (row._hzAttached) return;
+        const { name, subtitle } = getRowNameAndSubtitle(row);
+        if (!name) return;
+
+        const html = buildProcessTip(name, subtitle);
+        if (!html) return;
+
+        attach(row, () => html);
+      }
+
+      // ── Button/badge logic ───────────────────────────────────────────────────
+      function getLeafText(el) {
+        let t = '';
+        for (const n of el.childNodes) {
+          if (n.nodeType === 3) t += n.textContent;
+        }
+        return t.trim().toLowerCase() || el.textContent.trim().toLowerCase();
+      }
+
+      function tagButton(el) {
+        if (el._hzAttached) return;
+        const txt = getLeafText(el);
+        if (!txt || txt.length > 60) return;
+        const tip = BTN_TIPS.get(txt);
+        if (!tip) return;
+        attach(el, () => tip);
+      }
+
+      // ── Scanner ──────────────────────────────────────────────────────────────
+      function scan(root) {
+        const el = root.querySelectorAll ? root : document;
+        // Process/AI worker rows
+        for (const row of el.querySelectorAll('[data-tm-row]')) tagRow(row);
+        // Buttons and chips
+        for (const btn of el.querySelectorAll('button, [role="button"], span, div')) tagButton(btn);
+      }
+
+      // ── MutationObserver ─────────────────────────────────────────────────────
+      let pending = false;
+      const observer = new MutationObserver(function (mutations) {
+        if (pending) return;
+        pending = true;
+        requestAnimationFrame(function () {
+          pending = false;
+          for (const m of mutations) {
+            for (const node of m.addedNodes) {
+              if (node.nodeType === 1) scan(node);
+            }
+          }
+        });
+      });
+
+      window.addEventListener('scroll', function () {
+        if (curAnchor) reposition(curAnchor);
+      }, true);
+      window.addEventListener('resize', hide);
+
+      function start() {
+        observer.observe(document.body, { childList: true, subtree: true });
+        scan(document.body);
+        setTimeout(() => scan(document.body), 800);
+        setTimeout(() => scan(document.body), 2500);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', start);
+      } else {
+        start();
+      }
+    })();
+    </script>
+
+    <!-- ── Row + metric card enhancer ──────────────────────────────────────
+         Adds semantic data-attributes to process rows and metric cards so
+         the CSS design system can target them with proper typography and
+         interaction styles — without touching any React-managed state.
+    ──────────────────────────────────────────────────────────────────────── -->
+    <script>
+    (function () {
+      'use strict';
+
+      // ── Process row enhancer ─────────────────────────────────────────────
+      function enhanceRow(row) {
+        if (row._hzRowEnhanced) return;
+        row._hzRowEnhanced = true;
+        const kids = Array.from(row.children);
+        // Icon span — first direct child
+        if (kids[0] && (kids[0].tagName === 'SPAN' || kids[0].tagName === 'DIV') && kids[0].children.length === 0) {
+          kids[0].setAttribute('data-hz-row-icon', '');
+        }
+        // Info column — second direct child (div containing name + subtitle)
+        if (kids[1] && kids[1].tagName === 'DIV') {
+          const infoDivs = kids[1].querySelectorAll('div');
+          // First leaf-ish div is the process name
+          if (infoDivs[0] && !infoDivs[0].hasAttribute('data-hz-process-name')) {
+            infoDivs[0].setAttribute('data-hz-process-name', '');
+          }
+          // Second leaf div is the subtitle/role
+          if (infoDivs[1] && !infoDivs[1].hasAttribute('data-hz-process-meta')) {
+            infoDivs[1].setAttribute('data-hz-process-meta', '');
+          }
+        }
+        // Metric column — third direct child
+        if (kids[2] && !kids[2].hasAttribute('data-hz-process-metric')) {
+          kids[2].setAttribute('data-hz-process-metric', '');
+        }
+      }
+
+      // ── Metric card enhancer ─────────────────────────────────────────────
+      // The 3 top metric cards (CPU/GPU/Memory) are flex children inside the
+      // metric strip. We identify them heuristically by their large numeric child.
+      function enhanceMetricCard(el) {
+        if (el._hzCardEnhanced) return;
+        // Look for a large-font numeric value inside (metric cards have fontSize >= 22)
+        const divs = el.querySelectorAll('div');
+        for (const d of divs) {
+          const s = d.style.fontSize;
+          const sz = parseFloat(s);
+          if (sz >= 20 && d.children.length === 0) {
+            el._hzCardEnhanced = true;
+            el.setAttribute('data-hz-metric-card', '');
+            d.setAttribute('data-hz-metric-value', '');
+            break;
+          }
+        }
+      }
+
+      // ── Tab enhancer ─────────────────────────────────────────────────────
+      // Mark the PC/AI/Workflows tabs for CSS targeting
+      const TAB_LABELS = ['pc', 'ai', 'workflows'];
+      function enhanceTabs(root) {
+        const btns = root.querySelectorAll ? root.querySelectorAll('button') : [];
+        for (const btn of btns) {
+          if (btn._hzTabEnhanced) continue;
+          const txt = (btn.textContent || '').trim().toLowerCase();
+          if (TAB_LABELS.includes(txt)) {
+            btn._hzTabEnhanced = true;
+            btn.setAttribute('data-hz-tab', '');
+          }
+        }
+      }
+
+      // ── Scanner ─────────────────────────────────────────────────────────
+      function enhanceScan(root) {
+        const el = root.querySelectorAll ? root : document;
+        for (const row of el.querySelectorAll('[data-tm-row]')) enhanceRow(row);
+        for (const card of el.querySelectorAll('[style*="flex"]')) enhanceMetricCard(card);
+        enhanceTabs(el);
+      }
+
+      // ── MutationObserver ──────────────────────────────────────────────────
+      let pending = false;
+      const observer = new MutationObserver(function (mutations) {
+        if (pending) return;
+        pending = true;
+        requestAnimationFrame(function () {
+          pending = false;
+          for (const m of mutations) {
+            for (const node of m.addedNodes) {
+              if (node.nodeType === 1) enhanceScan(node);
+            }
+          }
+          // Re-scan all rows in case attributes changed
+          enhanceScan(document.body);
+        });
+      });
+
+      function startEnhancer() {
+        observer.observe(document.body, { childList: true, subtree: true });
+        enhanceScan(document.body);
+        setTimeout(() => enhanceScan(document.body), 600);
+        setTimeout(() => enhanceScan(document.body), 1800);
+        setTimeout(() => enhanceScan(document.body), 4000);
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', startEnhancer);
+      } else {
+        startEnhancer();
+      }
+    })();
+    </script>
+
+    <!-- ── Chat action interceptor ───────────────────────────────────────────
+         Wraps fetch so that when the AI responds with an action (e.g. open a
+         companion window), the app acts on it automatically.
+    ──────────────────────────────────────────────────────────────────────── -->
+    <script>
+    (function () {
+      const CHAT_PATHS = ['/api/task-manager/chat', '/api/chat'];
+      const _origFetch = window.fetch.bind(window);
+
+      function execAction(action) {
+        if (!action || action.type !== 'open_window') return;
+        const wm = window.horizonsDesktop?.windowManager;
+        if (!wm) return;
+        // Use the generic open() bridge which accepts any registered window type
+        if (typeof wm.open === 'function') {
+          wm.open(action.window);
+        } else {
+          // Fallback to named methods
+          const named = {
+            tasks: wm.openTasks,
+            chat: wm.openChat,
+            dev: wm.openDev,
+            diagnostics: wm.openDiagnostics,
+          };
+          const fn = named[action.window];
+          if (typeof fn === 'function') fn();
+        }
+      }
+
+      window.fetch = async function (...args) {
+        const res = await _origFetch(...args);
+        try {
+          const url = typeof args[0] === 'string' ? args[0]
+            : (args[0] instanceof Request ? args[0].url : '');
+          const isChat = CHAT_PATHS.some(p => url.includes(p));
+          if (isChat) {
+            const clone = res.clone();
+            clone.json().then(data => { if (data?.action) execAction(data.action); }).catch(() => {});
+          }
+        } catch (_) {}
+        return res;
+      };
+    })();
+    </script>
   </body>
 </html>

@@ -3,7 +3,8 @@ import { IPC_CHANNELS, type SynAIBridge } from "../../../packages/contracts/src"
 
 const api: SynAIBridge = {
   getAppHealth: () => ipcRenderer.invoke(IPC_CHANNELS.appHealth),
-  getModelHealth: () => ipcRenderer.invoke(IPC_CHANNELS.modelHealth),
+  getModelHealth: (modelOverride) => ipcRenderer.invoke(IPC_CHANNELS.modelHealth, modelOverride),
+  listAvailableModels: () => ipcRenderer.invoke(IPC_CHANNELS.listModels),
   sendChat: (payload) => ipcRenderer.invoke(IPC_CHANNELS.sendChat, payload),
   subscribeChatStream: (listener) => {
     const wrapped = (_event: Electron.IpcRendererEvent, payload: Parameters<typeof listener>[0]) =>

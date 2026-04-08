@@ -26,14 +26,17 @@ export function ConversationList(props: ConversationListProps) {
   } = props;
 
   return (
-    <Panel className="flex h-full flex-col gap-3">
-      <Button onClick={() => void onNewConversation()}>New Chat</Button>
+    <Panel className="flex h-full flex-col gap-2 p-2">
+      <Button className="py-1" onClick={() => void onNewConversation()}>
+        New Chat
+      </Button>
       <Input
+        className="py-1"
         value={query}
         placeholder="Search conversations"
         onChange={(event) => onQueryChange(event.target.value)}
       />
-      <div className="flex-1 overflow-y-auto space-y-2">
+      <div className="flex-1 space-y-2 overflow-y-auto">
         {conversations.map((conversation) => (
           <div
             key={conversation.id}
@@ -47,11 +50,11 @@ export function ConversationList(props: ConversationListProps) {
               className="w-full text-left"
               onClick={() => void onSelectConversation(conversation.id)}
             >
-              <p className="truncate text-sm text-slate-100">{conversation.title}</p>
-              <p className="mt-1 text-[11px] text-slate-500">{formatDateTime(conversation.updatedAt)}</p>
+              <p className="truncate text-[13px] text-slate-100">{conversation.title}</p>
+              <p className="mt-0.5 text-[10px] text-slate-500">{formatDateTime(conversation.updatedAt)}</p>
             </button>
             <Button
-              className="mt-2 w-full"
+              className="mt-2 w-full py-1"
               variant="ghost"
               onClick={() => void onDeleteConversation(conversation.id)}
             >

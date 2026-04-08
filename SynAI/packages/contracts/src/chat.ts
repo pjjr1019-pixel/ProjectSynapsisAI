@@ -1,7 +1,8 @@
-import type { ContextPreview } from "./memory";
+import type { ContextPreview, WebSearchResult } from "./memory";
 import type { ModelHealth } from "./health";
 
 export type ChatRole = "system" | "user" | "assistant";
+export type ResponseMode = "fast" | "balanced" | "smart";
 
 export interface ChatMessage {
   id: string;
@@ -9,6 +10,7 @@ export interface ChatMessage {
   role: ChatRole;
   content: string;
   createdAt: string;
+  sources?: WebSearchResult[];
 }
 
 export interface Conversation {
@@ -24,6 +26,8 @@ export interface SendChatRequest {
   regenerate?: boolean;
   requestId?: string;
   useWebSearch?: boolean;
+  modelOverride?: string;
+  responseMode?: ResponseMode;
 }
 
 export interface SendChatResponse {
@@ -31,7 +35,7 @@ export interface SendChatResponse {
   assistantMessage: ChatMessage;
   messages: ChatMessage[];
   contextPreview: ContextPreview;
-  modelStatus: HealthStatus;
+  modelStatus: ModelHealth;
 }
 
 export interface ConversationWithMessages {

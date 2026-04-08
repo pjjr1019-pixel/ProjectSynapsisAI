@@ -12,6 +12,7 @@ import type { ContextPreview, MemoryEntry } from "./memory";
 export const IPC_CHANNELS = {
   appHealth: "app:health",
   modelHealth: "model:health",
+  listModels: "model:list",
   sendChat: "chat:send",
   chatStream: "chat:stream",
   backgroundSync: "chat:background-sync",
@@ -28,7 +29,8 @@ export const IPC_CHANNELS = {
 
 export interface SynAIBridge {
   getAppHealth(): Promise<AppHealth>;
-  getModelHealth(): Promise<ModelHealth>;
+  getModelHealth(modelOverride?: string): Promise<ModelHealth>;
+  listAvailableModels(): Promise<string[]>;
   sendChat(payload: SendChatRequest): Promise<SendChatResponse>;
   subscribeChatStream(listener: (event: ChatStreamEvent) => void): () => void;
   subscribeBackgroundSync(listener: (event: BackgroundSyncEvent) => void): () => void;

@@ -14,13 +14,13 @@ export interface OllamaChatMessage {
   content: string;
 }
 
-export const getOllamaConfig = (): OllamaConfig => {
+export const getOllamaConfig = (overrides?: Partial<OllamaConfig>): OllamaConfig => {
   ensureLocalEnvLoaded();
 
   return {
-    baseUrl: process.env.OLLAMA_BASE_URL ?? DEFAULT_BASE_URL,
-    model: process.env.OLLAMA_MODEL ?? DEFAULT_MODEL,
-    embedModel: process.env.OLLAMA_EMBED_MODEL
+    baseUrl: overrides?.baseUrl ?? process.env.OLLAMA_BASE_URL ?? DEFAULT_BASE_URL,
+    model: overrides?.model ?? process.env.OLLAMA_MODEL ?? DEFAULT_MODEL,
+    embedModel: overrides?.embedModel ?? process.env.OLLAMA_EMBED_MODEL
   };
 };
 
@@ -159,6 +159,10 @@ interface OllamaEmbeddingsResponse {
   embedding: number[];
 }
 
+interface OllamaTagsResponse {
+  models: Array<{ name: string }>;
+}
+
 export const ollamaEmbeddings = async (
   config: OllamaConfig,
   text: string
@@ -177,5 +181,10 @@ export const ollamaEmbeddings = async (
 };
 
 export const pingOllama = async (config: OllamaConfig): Promise<void> => {
-  await ollamaFetch<{ models: Array<{ name: string }> }>(config, "/api/tags");
+  await ollamaFetch<OllamaTagsResponse>(config, "/api/tags");
+};
+
+export const listOllamaModels = async (config: OllamaConfig): Promise<string[]> => {
+  const data = await ollamaFetch<OllamaTagsResponse>(config, "/api/tags");
+  return data.models.map((model) => model.name);
 };

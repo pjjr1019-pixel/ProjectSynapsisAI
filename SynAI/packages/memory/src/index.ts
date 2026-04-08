@@ -3,7 +3,8 @@ import type {
   ContextPreview,
   MemoryEntry,
   RetrievedMemory,
-  WebSearchContext
+  WebSearchContext,
+  WebSearchResult
 } from "../../contracts/src/memory";
 import { assembleContext } from "./context/assembler";
 import { buildRollingSummary } from "./processing/summarizer";
@@ -62,9 +63,10 @@ export const clearConversationMessages = async (conversationId: string) => {
 export const appendChatMessage = async (
   conversationId: string,
   role: ChatMessage["role"],
-  content: string
+  content: string,
+  sources?: WebSearchResult[]
 ) => {
-  const message = await addMessage(conversationId, role, content);
+  const message = await addMessage(conversationId, role, content, sources);
   await touchConversation(conversationId);
   return message;
 };

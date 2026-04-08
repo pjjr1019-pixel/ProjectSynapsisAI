@@ -5,10 +5,10 @@ import { checkOllamaHealth } from "./health";
 import { getEmbeddings } from "./embeddings";
 
 export const createOllamaProvider = (): LocalAIProvider => ({
-  checkHealth: async () => checkOllamaHealth(false),
-  chat: async (messages: ChatMessage[]) => sendOllamaChat(messages),
-  chatStream: async (messages: ChatMessage[], onChunk: (content: string) => void) =>
-    sendOllamaChatStream(messages, onChunk),
+  checkHealth: async (overrides) => checkOllamaHealth(false, overrides),
+  chat: async (messages: ChatMessage[], overrides) => sendOllamaChat(messages, overrides),
+  chatStream: async (messages: ChatMessage[], onChunk: (content: string) => void, overrides) =>
+    sendOllamaChatStream(messages, onChunk, overrides),
   embeddings: async (text: string) => getEmbeddings(text)
 });
 

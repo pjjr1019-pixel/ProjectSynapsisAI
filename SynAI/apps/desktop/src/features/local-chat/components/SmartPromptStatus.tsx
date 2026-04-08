@@ -17,7 +17,7 @@ export function SmartPromptStatus({ preview }: SmartPromptStatusProps) {
           : "neutral";
 
   return (
-    <div className="flex items-center gap-2 border-b border-slate-800 px-4 py-2 text-xs text-slate-400">
+    <div className="flex items-center gap-2 border-b border-slate-800 px-3 py-1.5 text-[11px] text-slate-400">
       <Badge tone="neutral">Smart Prompt</Badge>
       <Badge tone={webTone}>Recent Web</Badge>
       <span>{summarizePromptContext(preview)}</span>

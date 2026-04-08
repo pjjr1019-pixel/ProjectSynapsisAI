@@ -23,29 +23,36 @@ export function ChatControls(props: ChatControlsProps) {
         : "text-amber-300";
 
   return (
-    <Card className="space-y-2 p-3">
+    <Card className="space-y-2 p-2">
       <h3 className="text-sm font-semibold text-slate-100">Chat Controls</h3>
-      <Button className="w-full" variant="ghost" disabled={props.loading} onClick={() => void props.onRunHealthCheck()}>
+      <Button
+        className="w-full py-1"
+        variant="ghost"
+        disabled={props.loading}
+        onClick={() => void props.onRunHealthCheck()}
+      >
         {props.healthCheckState === "running" ? "Running Health Check..." : "Run Health Check"}
       </Button>
-      <p aria-live="polite" className={`text-xs ${props.healthCheckMessage ? feedbackClassName : "text-slate-500"}`}>
+      <p aria-live="polite" className={`text-[10px] ${props.healthCheckMessage ? feedbackClassName : "text-slate-500"}`}>
         {props.healthCheckMessage ?? "Health check updates appear here."}
       </p>
-      <Button className="w-full" variant="ghost" disabled={props.loading} onClick={() => void props.onNewConversation()}>
-        New Conversation
-      </Button>
-      <Button className="w-full" variant="ghost" disabled={props.loading} onClick={() => void props.onClearChat()}>
-        Clear Chat
-      </Button>
-      <Button className="w-full" variant="ghost" disabled={props.loading} onClick={() => void props.onRegenerate()}>
-        Regenerate Last Reply
-      </Button>
-      <Button className="w-full" variant="ghost" disabled={props.loading} onClick={() => void props.onRefreshMemory()}>
-        Refresh Retrieved Memory
-      </Button>
-      <Button className="w-full" variant="ghost" disabled={props.loading} onClick={() => void props.onCopyResponse()}>
-        Copy Response
-      </Button>
+      <div className="grid grid-cols-2 gap-2">
+        <Button className="py-1" variant="ghost" disabled={props.loading} onClick={() => void props.onNewConversation()}>
+          New Conversation
+        </Button>
+        <Button className="py-1" variant="ghost" disabled={props.loading} onClick={() => void props.onClearChat()}>
+          Clear Chat
+        </Button>
+        <Button className="py-1" variant="ghost" disabled={props.loading} onClick={() => void props.onRegenerate()}>
+          Regenerate Reply
+        </Button>
+        <Button className="py-1" variant="ghost" disabled={props.loading} onClick={() => void props.onRefreshMemory()}>
+          Refresh Memory
+        </Button>
+        <Button className="col-span-2 py-1" variant="ghost" disabled={props.loading} onClick={() => void props.onCopyResponse()}>
+          Copy Response
+        </Button>
+      </div>
     </Card>
   );
 }

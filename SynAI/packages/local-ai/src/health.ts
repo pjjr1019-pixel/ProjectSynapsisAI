@@ -1,10 +1,24 @@
 import type { ModelHealth } from "../../contracts/src/health";
-import { getOllamaConfig, pingOllama } from "./ollama";
+import type { OllamaConfig } from "./ollama";
+import { getOllamaConfig, listOllamaModels } from "./ollama";
 
-export const checkOllamaHealth = async (busy = false): Promise<ModelHealth> => {
-  const config = getOllamaConfig();
+export const checkOllamaHealth = async (
+  busy = false,
+  overrides?: Partial<OllamaConfig>
+): Promise<ModelHealth> => {
+  const config = getOllamaConfig(overrides);
   try {
-    await pingOllama(config);
+    const models = await listOllamaModels(config);
+    if (!models.includes(config.model)) {
+      return {
+        status: "error",
+        provider: "ollama",
+        model: config.model,
+        baseUrl: config.baseUrl,
+        detail: `Model "${config.model}" is not installed in Ollama.`,
+        checkedAt: new Date().toISOString()
+      };
+    }
     return {
       status: busy ? "busy" : "connected",
       provider: "ollama",

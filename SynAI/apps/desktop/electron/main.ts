@@ -3,16 +3,19 @@ import * as path from "node:path";
 import {
   IPC_CHANNELS,
   type AppHealth,
+  type ChatMessage,
   type ContextPreview,
   type ConversationWithMessages,
   type ModelHealth,
+  type ResponseMode,
   type SendChatRequest,
   type SendChatResponse
 } from "../../../packages/contracts/src";
 import {
   checkOllamaHealth,
   createOllamaProvider,
-  getOllamaConfig
+  getOllamaConfig,
+  listOllamaModels
 } from "../../../packages/local-ai/src";
 import {
   appendChatMessage,
@@ -42,6 +45,17 @@ let mainWindow: BrowserWindow | null = null;
 let busy = false;
 
 const APP_VERSION = "0.1.0";
+
+const responseModeInstruction = (mode: ResponseMode | undefined): string => {
+  switch (mode) {
+    case "fast":
+      return "Reply style: prioritize quick, direct answers. Keep the response compact unless the user asks for depth.";
+    case "smart":
+      return "Reply style: be more thorough, careful, and context-aware. Include important caveats and nuance when it helps.";
+    default:
+      return "Reply style: balance speed and quality. Be clear, concise, and helpful.";
+  }
+};
 
 const createWindow = async (): Promise<void> => {
   mainWindow = new BrowserWindow({
@@ -89,9 +103,10 @@ const emptyContextPreview: ContextPreview = {
 
 const createModelStatus = (
   status: ModelHealth["status"],
-  detail?: string
+  detail?: string,
+  modelOverride?: string
 ): ModelHealth => {
-  const config = getOllamaConfig();
+  const config = getOllamaConfig(modelOverride ? { model: modelOverride } : undefined);
 
   return {
     status,
@@ -103,6 +118,19 @@ const createModelStatus = (
   };
 };
 
+const applyResponseMode = (
+  promptMessages: ChatMessage[],
+  responseMode: ResponseMode | undefined
+): ChatMessage[] =>
+  promptMessages.map((message, index) =>
+    index === 0 && message.role === "system"
+      ? {
+          ...message,
+          content: `${message.content}\n\n${responseModeInstruction(responseMode)}`
+        }
+      : message
+  );
+
 const sendRendererEvent = <T>(channel: string, payload: T): void => {
   mainWindow?.webContents.send(channel, payload);
 };
@@ -110,7 +138,8 @@ const sendRendererEvent = <T>(channel: string, payload: T): void => {
 const scheduleConversationMaintenance = (
   conversationId: string,
   userText: string,
-  assistantReply: string
+  assistantReply: string,
+  modelOverride?: string
 ): void => {
   void (async () => {
     await Promise.allSettled([
@@ -121,10 +150,11 @@ const scheduleConversationMaintenance = (
 
     const [conversations, modelStatus] = await Promise.all([
       listConversationRecords(),
-      checkOllamaHealth(false).catch((error) =>
+      checkOllamaHealth(false, modelOverride ? { model: modelOverride } : undefined).catch((error) =>
         createModelStatus(
           "error",
-          error instanceof Error ? error.message : "Background health check failed"
+          error instanceof Error ? error.message : "Background health check failed",
+          modelOverride
         )
       )
     ]);
@@ -152,6 +182,7 @@ const resolveConversation = async (conversationId: string): Promise<Conversation
 const handleSendChat = async (payload: SendChatRequest): Promise<SendChatResponse> => {
   busy = true;
   const requestId = payload.requestId ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  const modelOverride = payload.modelOverride?.trim() || undefined;
   let contextPreview = emptyContextPreview;
 
   try {
@@ -169,24 +200,35 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
     ]);
     const latestContext = finalizePromptContext(preparedPromptContext, recentWeb);
     contextPreview = latestContext.contextPreview;
-    const assistantReply = await provider.chatStream(latestContext.promptMessages, (content) => {
-      sendRendererEvent(IPC_CHANNELS.chatStream, {
-        requestId,
-        conversationId,
-        content
-      });
-    });
-    const assistantMessage = await appendChatMessage(conversationId, "assistant", assistantReply);
+    const promptMessages = applyResponseMode(latestContext.promptMessages, payload.responseMode);
+    const assistantReply = await provider.chatStream(
+      promptMessages,
+      (content) => {
+        sendRendererEvent(IPC_CHANNELS.chatStream, {
+          requestId,
+          conversationId,
+          content
+        });
+      },
+      modelOverride ? { model: modelOverride } : undefined
+    );
+    const assistantSources = recentWeb.status === "used" ? recentWeb.results : undefined;
+    const assistantMessage = await appendChatMessage(
+      conversationId,
+      "assistant",
+      assistantReply,
+      assistantSources
+    );
 
     const conversationWithMessages = await resolveConversation(conversationId);
-    scheduleConversationMaintenance(conversationId, payload.text, assistantReply);
+    scheduleConversationMaintenance(conversationId, payload.text, assistantReply, modelOverride);
 
     return {
       conversation: conversationWithMessages.conversation,
       assistantMessage,
       messages: conversationWithMessages.messages,
       contextPreview,
-      modelStatus: createModelStatus("connected")
+      modelStatus: createModelStatus("connected", undefined, modelOverride)
     };
   } catch (error) {
     const detail = error instanceof Error ? error.message : "Unknown chat error";
@@ -203,7 +245,7 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
       assistantMessage,
       messages: conversationWithMessages.messages,
       contextPreview,
-      modelStatus: createModelStatus("error", detail)
+      modelStatus: createModelStatus("error", detail, modelOverride)
     };
   } finally {
     busy = false;
@@ -217,7 +259,17 @@ const registerIpc = (): void => {
     version: APP_VERSION
   }));
 
-  ipcMain.handle(IPC_CHANNELS.modelHealth, async () => checkOllamaHealth(busy));
+  ipcMain.handle(IPC_CHANNELS.modelHealth, async (_event, modelOverride?: string) =>
+    checkOllamaHealth(busy, modelOverride ? { model: modelOverride } : undefined)
+  );
+
+  ipcMain.handle(IPC_CHANNELS.listModels, async () => {
+    try {
+      return await listOllamaModels(getOllamaConfig());
+    } catch {
+      return [];
+    }
+  });
 
   ipcMain.handle(IPC_CHANNELS.createConversation, async () => {
     const conversation = await createConversationRecord();

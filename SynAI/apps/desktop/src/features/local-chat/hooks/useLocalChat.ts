@@ -2,11 +2,65 @@ import { useEffect, useSyncExternalStore } from "react";
 import type { ChatMessage, Conversation, ModelHealth } from "@contracts";
 import { localChatStore } from "../store/localChatStore";
 import { formatTime } from "../../../shared/utils/time";
+import type { ChatSettingsState } from "../types/localChat.types";
 
 const bridge = () => window.synai;
 
 const setError = (message: string | null): void => {
   localChatStore.setState({ error: message });
+};
+
+const SETTINGS_STORAGE_KEY = "synai.chat.settings";
+
+const defaultSettings: ChatSettingsState = {
+  selectedModel: "",
+  defaultWebSearch: false,
+  responseMode: "balanced"
+};
+
+const loadPersistedSettings = (): ChatSettingsState => {
+  if (typeof window === "undefined") {
+    return defaultSettings;
+  }
+
+  try {
+    const raw = window.localStorage.getItem(SETTINGS_STORAGE_KEY);
+    if (!raw) {
+      return defaultSettings;
+    }
+
+    const parsed = JSON.parse(raw) as Partial<ChatSettingsState>;
+    return {
+      selectedModel: parsed.selectedModel ?? defaultSettings.selectedModel,
+      defaultWebSearch: parsed.defaultWebSearch ?? defaultSettings.defaultWebSearch,
+      responseMode: parsed.responseMode ?? defaultSettings.responseMode
+    };
+  } catch {
+    return defaultSettings;
+  }
+};
+
+const persistSettings = (settings: ChatSettingsState): void => {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  window.localStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(settings));
+};
+
+const mergeAvailableModels = (...lists: Array<Array<string | null | undefined>>): string[] => {
+  const seen = new Set<string>();
+
+  for (const list of lists) {
+    for (const item of list) {
+      const value = item?.trim();
+      if (value) {
+        seen.add(value);
+      }
+    }
+  }
+
+  return [...seen];
 };
 
 const createOptimisticMessage = (
@@ -113,6 +167,17 @@ const ensureConversation = async (): Promise<Conversation> => {
   return created.conversation;
 };
 
+const hydrateSettingsFromModel = (
+  settings: ChatSettingsState,
+  modelHealth: ModelHealth
+): ChatSettingsState =>
+  settings.selectedModel
+    ? settings
+    : {
+        ...settings,
+        selectedModel: modelHealth.model
+      };
+
 export const useLocalChat = () => {
   const state = useSyncExternalStore(localChatStore.subscribe, localChatStore.getState);
 
@@ -146,11 +211,22 @@ export const useLocalChat = () => {
     const start = async () => {
       localChatStore.setState({ loading: true });
       try {
-        const [appHealth, modelHealth] = await Promise.all([
+        const persistedSettings = loadPersistedSettings();
+        localChatStore.setState({ settings: persistedSettings });
+
+        const [appHealth, modelHealth, availableModels] = await Promise.all([
           bridge().getAppHealth(),
-          bridge().getModelHealth()
+          bridge().getModelHealth(persistedSettings.selectedModel || undefined),
+          bridge().listAvailableModels().catch(() => [])
         ]);
-        localChatStore.setState({ appHealth, modelHealth });
+        const hydratedSettings = hydrateSettingsFromModel(persistedSettings, modelHealth);
+        persistSettings(hydratedSettings);
+        localChatStore.setState({
+          appHealth,
+          modelHealth,
+          availableModels: mergeAvailableModels(availableModels, [hydratedSettings.selectedModel, modelHealth.model]),
+          settings: hydratedSettings
+        });
         await ensureConversation();
       } catch (error) {
         setError(error instanceof Error ? error.message : "Failed to initialize local chat");
@@ -167,16 +243,21 @@ export const useLocalChat = () => {
   }, []);
 
   const refreshModelHealth = async (): Promise<void> => {
+    const currentSettings = localChatStore.getState().settings;
     localChatStore.setState({
       loading: true,
       healthCheckState: "running",
       healthCheckMessage: "Running health check..."
     });
     try {
-      const modelHealth = await bridge().getModelHealth();
+      const [modelHealth, availableModels] = await Promise.all([
+        bridge().getModelHealth(currentSettings.selectedModel || undefined),
+        bridge().listAvailableModels().catch(() => localChatStore.getState().availableModels)
+      ]);
       const feedback = buildHealthCheckFeedback(modelHealth);
       localChatStore.setState({
         modelHealth,
+        availableModels: mergeAvailableModels(availableModels, [currentSettings.selectedModel, modelHealth.model]),
         healthCheckState: feedback.state,
         healthCheckMessage: feedback.message
       });
@@ -190,6 +271,33 @@ export const useLocalChat = () => {
       setError(detail);
     } finally {
       localChatStore.setState({ loading: false });
+    }
+  };
+
+  const updateSettings = async (patch: Partial<ChatSettingsState>): Promise<void> => {
+    const currentState = localChatStore.getState();
+    const nextSettings = {
+      ...currentState.settings,
+      ...patch
+    };
+
+    persistSettings(nextSettings);
+    localChatStore.setState({ settings: nextSettings });
+
+    if (patch.selectedModel !== undefined && patch.selectedModel !== currentState.settings.selectedModel) {
+      try {
+        const [modelHealth, availableModels] = await Promise.all([
+          bridge().getModelHealth(nextSettings.selectedModel || undefined),
+          bridge().listAvailableModels().catch(() => currentState.availableModels)
+        ]);
+        localChatStore.setState({
+          modelHealth,
+          availableModels: mergeAvailableModels(availableModels, [nextSettings.selectedModel, modelHealth.model])
+        });
+        setError(modelHealth.status === "error" ? modelHealth.detail ?? null : null);
+      } catch (error) {
+        setError(error instanceof Error ? error.message : "Failed to update model setting");
+      }
     }
   };
 
@@ -266,6 +374,7 @@ export const useLocalChat = () => {
     if (!state.activeConversationId || !text.trim()) {
       return;
     }
+    const resolvedUseWebSearch = options?.useWebSearch ?? state.settings.defaultWebSearch;
     const requestId = `chat-${Date.now()}-${Math.random().toString(16).slice(2)}`;
     const previousMessages = state.messages;
     const previousConversations = state.conversations;
@@ -295,7 +404,9 @@ export const useLocalChat = () => {
         text,
         regenerate,
         requestId,
-        useWebSearch: options?.useWebSearch
+        useWebSearch: resolvedUseWebSearch,
+        modelOverride: state.settings.selectedModel || undefined,
+        responseMode: state.settings.responseMode
       });
       localChatStore.setState({
         conversations: mergeConversation(localChatStore.getState().conversations, response.conversation),
@@ -382,6 +493,7 @@ export const useLocalChat = () => {
   return {
     ...state,
     refreshModelHealth,
+    updateSettings,
     createConversation,
     switchConversation,
     deleteConversation,

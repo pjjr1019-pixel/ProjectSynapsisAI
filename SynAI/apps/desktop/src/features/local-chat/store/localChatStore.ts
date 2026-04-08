@@ -5,6 +5,12 @@ type Listener = () => void;
 const initialState: LocalChatState = {
   appHealth: null,
   modelHealth: null,
+  availableModels: [],
+  settings: {
+    selectedModel: "",
+    defaultWebSearch: false,
+    responseMode: "balanced"
+  },
   conversations: [],
   activeConversationId: null,
   messages: [],

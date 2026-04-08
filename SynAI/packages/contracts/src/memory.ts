@@ -1,3 +1,11 @@
+import type {
+  AwarenessDigest,
+  AwarenessQueryAnswer,
+  FileAwarenessSummary,
+  MachineAwarenessSummary,
+  ScreenAwarenessSummary
+} from "./awareness";
+
 export type MemoryCategory =
   | "preference"
   | "personal_fact"
@@ -58,4 +66,9 @@ export interface ContextPreview {
   recentMessagesCount: number;
   estimatedChars: number;
   webSearch: WebSearchContext;
+  awareness?: AwarenessDigest | null;
+  awarenessQuery?: AwarenessQueryAnswer | null;
+  machineAwareness?: MachineAwarenessSummary | null;
+  fileAwareness?: FileAwarenessSummary | null;
+  screenAwareness?: ScreenAwarenessSummary | null;
 }

@@ -5,6 +5,7 @@ import react from "@vitejs/plugin-react";
 const aliases = {
   "@contracts": resolve(__dirname, "packages/contracts/src/index.ts"),
   "@memory": resolve(__dirname, "packages/memory/src/index.ts"),
+  "@awareness": resolve(__dirname, "packages/awareness/src/index.ts"),
   "@local-ai": resolve(__dirname, "packages/local-ai/src/index.ts"),
   "@web-search": resolve(__dirname, "packages/web-search/src/index.ts"),
   "@desktop": resolve(__dirname, "apps/desktop/src")

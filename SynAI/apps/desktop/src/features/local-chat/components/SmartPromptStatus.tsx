@@ -15,11 +15,17 @@ export function SmartPromptStatus({ preview }: SmartPromptStatusProps) {
         : preview?.webSearch.status === "no_results"
           ? "warn"
           : "neutral";
+  const awarenessTone = preview?.awareness ? "good" : "neutral";
+  const queryTone = preview?.awarenessQuery ? "good" : "neutral";
+  const assistTone = preview?.screenAwareness ? "good" : "neutral";
 
   return (
     <div className="flex items-center gap-2 border-b border-slate-800 px-3 py-1.5 text-[11px] text-slate-400">
       <Badge tone="neutral">Smart Prompt</Badge>
       <Badge tone={webTone}>Recent Web</Badge>
+      <Badge tone={awarenessTone}>Awareness</Badge>
+      <Badge tone={queryTone}>Query</Badge>
+      <Badge tone={assistTone}>Assist</Badge>
       <span>{summarizePromptContext(preview)}</span>
     </div>
   );

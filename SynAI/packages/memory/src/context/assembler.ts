@@ -1,12 +1,22 @@
 import type { ChatMessage } from "../../../contracts/src/chat";
 import type {
+  AwarenessDigest,
+  AwarenessQueryAnswer,
   ContextPreview,
   MemoryEntry,
   RetrievedMemory,
   WebSearchContext,
   WebSearchResult
 } from "../../../contracts/src/memory";
+import type { FileAwarenessSnapshot, MachineAwarenessSnapshot, ScreenAwarenessSnapshot } from "../../../contracts/src/awareness";
 import { clipByChars, DEFAULT_CONTEXT_BUDGET, MAX_WEB_RESULTS_IN_PROMPT } from "./budget";
+import {
+  buildAwarenessContextSection,
+  buildAwarenessQueryContextSection,
+  buildFileAwarenessContextSection,
+  buildMachineAwarenessContextSection,
+  buildScreenAwarenessContextSection
+} from "@awareness";
 
 export interface AssembleContextInput {
   systemInstruction: string;
@@ -15,6 +25,11 @@ export interface AssembleContextInput {
   stableMemories: MemoryEntry[];
   retrievedMemories: RetrievedMemory[];
   webSearch: WebSearchContext;
+  awareness?: AwarenessDigest | null;
+  awarenessQuery?: AwarenessQueryAnswer | null;
+  machineAwareness?: MachineAwarenessSnapshot | null;
+  fileAwareness?: FileAwarenessSnapshot | null;
+  screenAwareness?: ScreenAwarenessSnapshot | null;
 }
 
 export interface AssembleContextResult {
@@ -28,6 +43,9 @@ const formatMemory = (memory: MemoryEntry): string =>
 const formatWebResult = (result: WebSearchResult): string =>
   `${result.title} | ${result.source}${result.publishedAt ? ` | ${result.publishedAt}` : ""}\n${result.snippet}\n${result.url}`;
 
+const getLatestUserMessage = (messages: ChatMessage[]): string =>
+  [...messages].reverse().find((message) => message.role === "user")?.content ?? "";
+
 export const assembleContext = (input: AssembleContextInput): AssembleContextResult => {
   const stable = [...input.stableMemories]
     .sort((a, b) => b.importance - a.importance)
@@ -39,6 +57,27 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
 
   const recentMessages = input.allMessages.slice(-DEFAULT_CONTEXT_BUDGET.maxRecentMessages);
   const webResults = [...input.webSearch.results].slice(0, MAX_WEB_RESULTS_IN_PROMPT);
+  const latestUserMessage = getLatestUserMessage(input.allMessages);
+  const machineSection = buildMachineAwarenessContextSection(
+    input.machineAwareness,
+    latestUserMessage,
+    input.awareness?.awarenessMode ?? "observe"
+  );
+  const fileSection = buildFileAwarenessContextSection(
+    input.fileAwareness,
+    latestUserMessage,
+    input.awareness?.awarenessMode ?? "observe"
+  );
+  const screenSection = buildScreenAwarenessContextSection(
+    input.screenAwareness,
+    latestUserMessage,
+    input.awareness?.awarenessMode ?? "observe"
+  );
+  const awarenessQuerySection = buildAwarenessQueryContextSection(
+    input.awarenessQuery,
+    latestUserMessage,
+    input.awareness?.awarenessMode ?? "observe"
+  );
 
   const sections = [
     input.systemInstruction,
@@ -46,6 +85,11 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
     retrieved.length > 0
       ? `Retrieved memory:\n${retrieved.map((item) => formatMemory(item.memory)).join("\n")}`
       : "",
+    buildAwarenessContextSection(input.awareness),
+    awarenessQuerySection,
+    machineSection,
+    fileSection,
+    screenSection,
     input.summaryText ? `Rolling summary:\n${input.summaryText}` : "",
     input.webSearch.status === "used" && webResults.length > 0
       ? `Recent web results for "${input.webSearch.query}" (use these for time-sensitive facts and cite source names with dates when helpful):\n${webResults
@@ -79,7 +123,12 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
       summarySnippet: clipByChars(input.summaryText, 600),
       recentMessagesCount: recentMessages.length,
       estimatedChars,
-      webSearch: input.webSearch
+      webSearch: input.webSearch,
+      awareness: input.awareness && input.awareness.includeInContext ? input.awareness : null,
+      awarenessQuery: input.awarenessQuery ?? null,
+      machineAwareness: machineSection ? input.machineAwareness?.summary ?? null : null,
+      fileAwareness: fileSection ? input.fileAwareness?.summary ?? null : null,
+      screenAwareness: screenSection ? input.screenAwareness?.summary ?? null : null
     }
   };
 };

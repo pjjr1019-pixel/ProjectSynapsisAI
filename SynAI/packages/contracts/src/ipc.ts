@@ -8,6 +8,13 @@ import type {
 } from "./chat";
 import type { AppHealth, ModelHealth } from "./health";
 import type { ContextPreview, MemoryEntry } from "./memory";
+import type {
+  ForegroundWindowSnapshot,
+  ScreenAwarenessStatus,
+  ScreenUiTreeSnapshot,
+  StartAssistModeOptions,
+  AwarenessEvent
+} from "./awareness";
 
 export const IPC_CHANNELS = {
   appHealth: "app:health",
@@ -24,7 +31,13 @@ export const IPC_CHANNELS = {
   searchMemories: "memory:search",
   listMemories: "memory:list",
   deleteMemory: "memory:delete",
-  contextPreview: "context:preview"
+  contextPreview: "context:preview",
+  screenStatus: "screen:status",
+  screenForegroundWindow: "screen:foreground-window",
+  screenUiTree: "screen:ui-tree",
+  screenLastEvents: "screen:last-events",
+  screenStartAssist: "screen:start-assist",
+  screenStopAssist: "screen:stop-assist"
 } as const;
 
 export interface SynAIBridge {
@@ -43,4 +56,10 @@ export interface SynAIBridge {
   listMemories(): Promise<MemoryEntry[]>;
   deleteMemory(memoryId: string): Promise<void>;
   getContextPreview(conversationId: string, latestUserMessage: string): Promise<ContextPreview>;
+  getScreenStatus(): Promise<ScreenAwarenessStatus>;
+  getScreenForegroundWindow(): Promise<ForegroundWindowSnapshot | null>;
+  getScreenUiTree(): Promise<ScreenUiTreeSnapshot | null>;
+  getScreenLastEvents(): Promise<AwarenessEvent[]>;
+  startAssistMode(options?: StartAssistModeOptions): Promise<ScreenAwarenessStatus>;
+  stopAssistMode(reason?: string): Promise<ScreenAwarenessStatus>;
 }

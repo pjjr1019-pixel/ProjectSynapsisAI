@@ -5,7 +5,8 @@ import type {
   Conversation,
   MemoryEntry,
   ModelHealth,
-  ResponseMode
+  ResponseMode,
+  ScreenAwarenessStatus
 } from "@contracts";
 
 export type HealthCheckState = "idle" | "running" | "success" | "failure";
@@ -27,6 +28,7 @@ export interface ConversationTurn {
 export interface LocalChatState {
   appHealth: AppHealth | null;
   modelHealth: ModelHealth | null;
+  screenStatus: ScreenAwarenessStatus | null;
   availableModels: string[];
   settings: ChatSettingsState;
   conversations: Conversation[];

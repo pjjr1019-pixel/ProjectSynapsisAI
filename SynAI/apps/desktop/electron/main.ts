@@ -12,6 +12,12 @@ import {
   type SendChatResponse
 } from "../../../packages/contracts/src";
 import {
+  createAwarenessApiServer,
+  initializeAwarenessEngine,
+  type AwarenessApiServer,
+  type AwarenessEngine
+} from "../../../packages/awareness/src";
+import {
   checkOllamaHealth,
   createOllamaProvider,
   getOllamaConfig,
@@ -38,11 +44,14 @@ import {
   updateConversationTitleFromMessages
 } from "../../../packages/memory/src";
 import { resolveRecentWebContext } from "../../../packages/web-search/src";
+import { featureRegistry } from "../src/features/feature-registry";
 
 const provider = createOllamaProvider();
 const startedAt = new Date().toISOString();
 let mainWindow: BrowserWindow | null = null;
 let busy = false;
+let awarenessEngine: AwarenessEngine | null = null;
+let awarenessApiServer: AwarenessApiServer | null = null;
 
 const APP_VERSION = "0.1.0";
 
@@ -94,6 +103,8 @@ const emptyContextPreview: ContextPreview = {
   summarySnippet: "",
   recentMessagesCount: 0,
   estimatedChars: 0,
+  fileAwareness: null,
+  awarenessQuery: null,
   webSearch: {
     status: "off",
     query: "",
@@ -134,6 +145,9 @@ const applyResponseMode = (
 const sendRendererEvent = <T>(channel: string, payload: T): void => {
   mainWindow?.webContents.send(channel, payload);
 };
+
+const getActiveFeatureFlags = (): string[] =>
+  featureRegistry.filter((feature) => feature.status === "active").map((feature) => feature.id);
 
 const scheduleConversationMaintenance = (
   conversationId: string,
@@ -194,11 +208,24 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
       await appendChatMessage(conversationId, "user", payload.text);
     }
 
+    const awarenessDigest = awarenessEngine?.getDigest() ?? null;
+    const awarenessQuery = awarenessEngine?.queryAwareness({ query: payload.text }) ?? null;
+    const machineAwareness = awarenessEngine?.machineAwareness ?? null;
+    const fileAwareness = awarenessEngine?.fileAwareness ?? null;
+    const screenAwareness = awarenessEngine?.screenAwareness ?? null;
     const [preparedPromptContext, recentWeb] = await Promise.all([
       preparePromptContext(conversationId, payload.text),
       resolveRecentWebContext(payload.text, Boolean(payload.useWebSearch))
     ]);
-    const latestContext = finalizePromptContext(preparedPromptContext, recentWeb);
+    const latestContext = finalizePromptContext(
+      preparedPromptContext,
+      recentWeb,
+      awarenessDigest,
+      awarenessQuery,
+      machineAwareness,
+      fileAwareness,
+      screenAwareness
+    );
     contextPreview = latestContext.contextPreview;
     const promptMessages = applyResponseMode(latestContext.promptMessages, payload.responseMode);
     const assistantReply = await provider.chatStream(
@@ -308,13 +335,46 @@ const registerIpc = (): void => {
   ipcMain.handle(
     IPC_CHANNELS.contextPreview,
     async (_event, conversationId: string, latestUserMessage: string) =>
-      buildPromptMessages(conversationId, latestUserMessage).then((result) => result.contextPreview)
+      buildPromptMessages(
+        conversationId,
+        latestUserMessage,
+        undefined,
+        awarenessEngine?.getDigest() ?? null,
+        awarenessEngine?.queryAwareness({ query: latestUserMessage }) ?? null,
+        awarenessEngine?.machineAwareness ?? null,
+        awarenessEngine?.fileAwareness ?? null,
+        awarenessEngine?.screenAwareness ?? null
+      ).then((result) => result.contextPreview)
+  );
+
+  ipcMain.handle(IPC_CHANNELS.screenStatus, async () => awarenessEngine?.getScreenStatus() ?? null);
+  ipcMain.handle(IPC_CHANNELS.screenForegroundWindow, async () => awarenessEngine?.screenAwareness?.foregroundWindow ?? null);
+  ipcMain.handle(IPC_CHANNELS.screenUiTree, async () => awarenessEngine?.screenAwareness?.uiTree ?? null);
+  ipcMain.handle(IPC_CHANNELS.screenLastEvents, async () => awarenessEngine?.screenAwareness?.recentEvents ?? []);
+  ipcMain.handle(IPC_CHANNELS.screenStartAssist, async (_event, options) =>
+    awarenessEngine?.startAssistMode(options) ?? Promise.resolve(null)
+  );
+  ipcMain.handle(IPC_CHANNELS.screenStopAssist, async (_event, payload?: { reason?: string }) =>
+    awarenessEngine?.stopAssistMode(payload?.reason) ?? Promise.resolve(null)
   );
 };
 
 app.whenReady().then(async () => {
   const databasePath = path.join(app.getPath("userData"), "synai-db.json");
   configureMemoryDatabase(databasePath);
+  awarenessEngine = await initializeAwarenessEngine({
+    workspaceRoot: process.cwd(),
+    appStartedAt: startedAt,
+    activeFeatureFlags: getActiveFeatureFlags()
+  });
+  try {
+    awarenessApiServer = await createAwarenessApiServer(awarenessEngine, { host: "127.0.0.1" });
+  } catch (error) {
+    console.warn(
+      "Awareness API server failed to start:",
+      error instanceof Error ? error.message : "unknown error"
+    );
+  }
   registerIpc();
   await createWindow();
 });
@@ -329,4 +389,9 @@ app.on("activate", async () => {
   if (BrowserWindow.getAllWindows().length === 0) {
     await createWindow();
   }
+});
+
+app.on("before-quit", () => {
+  void awarenessApiServer?.close();
+  void awarenessEngine?.close();
 });

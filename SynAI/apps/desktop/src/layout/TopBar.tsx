@@ -1,11 +1,25 @@
-import type { ModelHealth } from "@contracts";
+import type { ModelHealth, ScreenAwarenessStatus } from "@contracts";
 import { Badge } from "../shared/components/Badge";
 
 interface TopBarProps {
   modelHealth: ModelHealth | null;
+  screenStatus: ScreenAwarenessStatus | null;
 }
 
-export function TopBar({ modelHealth }: TopBarProps) {
+const formatScope = (scope: ScreenAwarenessStatus["scope"]): string => {
+  switch (scope) {
+    case "current-window":
+      return "Current Window";
+    case "selected-app":
+      return "Selected App";
+    case "chosen-display":
+      return "Chosen Display";
+    default:
+      return "Off";
+  }
+};
+
+export function TopBar({ modelHealth, screenStatus }: TopBarProps) {
   const tone =
     modelHealth?.status === "connected"
       ? "good"
@@ -14,6 +28,7 @@ export function TopBar({ modelHealth }: TopBarProps) {
         : modelHealth?.status === "disconnected" || modelHealth?.status === "error"
           ? "bad"
           : "neutral";
+  const assistTone = screenStatus?.assistMode.enabled ? "good" : "neutral";
 
   return (
     <header className="flex h-11 items-center justify-between border-b border-slate-800 bg-slate-950/90 px-3">
@@ -23,6 +38,10 @@ export function TopBar({ modelHealth }: TopBarProps) {
       </div>
       <div className="flex items-center gap-2">
         <Badge tone={tone}>{modelHealth?.status ?? "unknown"}</Badge>
+        <Badge tone={assistTone}>{screenStatus?.assistMode.enabled ? "Assist On" : "Assist Off"}</Badge>
+        <span className="max-w-[180px] truncate text-xs text-slate-400">
+          {screenStatus?.assistMode.enabled ? formatScope(screenStatus.scope) : "No screen capture"}
+        </span>
         <span className="max-w-[220px] truncate text-xs text-slate-400">{modelHealth?.model ?? "No model"}</span>
       </div>
     </header>

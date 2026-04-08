@@ -1,6 +1,6 @@
 import type { ContextPreview as ContextPreviewModel } from "@contracts";
 import { Card } from "../../../shared/components/Card";
-import { formatDateTime } from "../../../shared/utils/time";
+import { formatDateTime, formatStopwatch } from "../../../shared/utils/time";
 import { cn } from "../../../shared/utils/cn";
 
 interface ContextPreviewProps {
@@ -26,6 +26,64 @@ export function ContextPreview({ preview, className, hideTitle = false, compact 
       <p className="text-xs text-slate-300">Estimated chars: {preview.estimatedChars}</p>
       <p className="text-xs text-slate-300">Stable memories: {preview.stableMemories.length}</p>
       <p className="text-xs text-slate-300">Retrieved memories: {preview.retrievedMemories.length}</p>
+      {preview.awareness ? (
+        <div className="rounded border border-cyan-900/60 bg-cyan-950/20 p-2">
+          <p className="text-xs font-medium text-cyan-200">Awareness</p>
+          <p className="mt-1 text-[11px] text-cyan-100/90">{preview.awareness.summary}</p>
+          <p className="mt-1 text-[11px] text-cyan-200/70">
+            Freshness: {preview.awareness.freshness.isFresh ? "fresh" : "stale"} | age{" "}
+            {formatStopwatch(preview.awareness.freshness.ageMs)}
+          </p>
+        </div>
+      ) : null}
+      {preview.machineAwareness ? (
+        <div className="rounded border border-emerald-900/60 bg-emerald-950/20 p-2">
+          <p className="text-xs font-medium text-emerald-200">Machine Awareness</p>
+          <p className="mt-1 text-[11px] text-emerald-100/90">{preview.machineAwareness.summary}</p>
+          <p className="mt-1 text-[11px] text-emerald-200/70">
+            {preview.machineAwareness.counts.processes} processes | {preview.machineAwareness.counts.services} services |{" "}
+            {preview.machineAwareness.counts.startupEntries} startup items | {preview.machineAwareness.counts.installedApps} apps
+          </p>
+          <p className="mt-1 text-[11px] text-emerald-200/70">
+            Freshness: {preview.machineAwareness.freshness.isFresh ? "fresh" : "stale"} | age{" "}
+            {formatStopwatch(preview.machineAwareness.freshness.ageMs)}
+          </p>
+        </div>
+      ) : null}
+      {preview.fileAwareness ? (
+        <div className="rounded border border-amber-900/60 bg-amber-950/20 p-2">
+          <p className="text-xs font-medium text-amber-200">File Awareness</p>
+          <p className="mt-1 text-[11px] text-amber-100/90">{preview.fileAwareness.summary}</p>
+          <p className="mt-1 text-[11px] text-amber-200/70">
+            {preview.fileAwareness.counts.roots} roots | {preview.fileAwareness.counts.files} files |{" "}
+            {preview.fileAwareness.counts.media} media | {preview.fileAwareness.counts.recentChanges} changes
+          </p>
+          <p className="mt-1 text-[11px] text-amber-200/70">
+            Freshness: {preview.fileAwareness.freshness.isFresh ? "fresh" : "stale"} | age{" "}
+            {formatStopwatch(preview.fileAwareness.freshness.ageMs)}
+          </p>
+        </div>
+      ) : null}
+      {preview.screenAwareness ? (
+        <div className="rounded border border-violet-900/60 bg-violet-950/20 p-2">
+          <p className="text-xs font-medium text-violet-200">Assist Mode</p>
+          <p className="mt-1 text-[11px] text-violet-100/90">{preview.screenAwareness.summary}</p>
+        </div>
+      ) : null}
+      {preview.awarenessQuery ? (
+        <div className="rounded border border-sky-900/60 bg-sky-950/20 p-2">
+          <p className="text-xs font-medium text-sky-200">Awareness Query</p>
+          <p className="mt-1 text-[11px] text-sky-100/90">{preview.awarenessQuery.summary}</p>
+          <p className="mt-1 text-[11px] text-sky-200/70">
+            {preview.awarenessQuery.intent.label} | scope {preview.awarenessQuery.scope} |{" "}
+            confidence {preview.awarenessQuery.bundle.confidenceLevel}
+          </p>
+          <p className="mt-1 text-[11px] text-sky-200/70">
+            Freshness: {preview.awarenessQuery.bundle.freshness.isFresh ? "fresh" : "stale"} | age{" "}
+            {formatStopwatch(preview.awarenessQuery.bundle.freshness.ageMs)}
+          </p>
+        </div>
+      ) : null}
       <p className="text-xs text-slate-300">
         Recent web:{" "}
         {preview.webSearch.status === "used"

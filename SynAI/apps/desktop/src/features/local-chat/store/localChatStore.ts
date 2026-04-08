@@ -5,6 +5,7 @@ type Listener = () => void;
 const initialState: LocalChatState = {
   appHealth: null,
   modelHealth: null,
+  screenStatus: null,
   availableModels: [],
   settings: {
     selectedModel: "",

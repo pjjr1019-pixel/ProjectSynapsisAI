@@ -25,6 +25,12 @@
       "@memory/*": [
         "./packages/memory/src/*"
       ],
+      "@awareness": [
+        "./packages/awareness/src/index.ts"
+      ],
+      "@awareness/*": [
+        "./packages/awareness/src/*"
+      ],
       "@local-ai/*": [
         "./packages/local-ai/src/*"
       ],

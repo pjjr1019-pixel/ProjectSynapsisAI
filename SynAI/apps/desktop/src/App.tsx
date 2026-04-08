@@ -76,7 +76,7 @@ function App() {
   };
 
   return (
-    <Shell modelHealth={chat.modelHealth} error={chat.error}>
+    <Shell modelHealth={chat.modelHealth} screenStatus={chat.screenStatus} error={chat.error}>
       <div className="flex h-full min-h-0 w-full flex-col overflow-hidden">
         <WorkspaceTabs activeTab={activeTab} onChange={setActiveTab} />
 
@@ -117,6 +117,7 @@ function App() {
           {activeTab === "tools" ? (
             <ToolsPanel
               modelHealth={chat.modelHealth}
+              screenStatus={chat.screenStatus}
               loading={chat.loading}
               healthCheckState={chat.healthCheckState}
               healthCheckMessage={chat.healthCheckMessage}
@@ -128,6 +129,8 @@ function App() {
               onCopyResponse={chat.copyLastResponse}
               preview={chat.contextPreview}
               memories={chat.memories}
+              onStartAssistMode={chat.startAssistMode}
+              onStopAssistMode={chat.stopAssistMode}
             />
           ) : null}
 

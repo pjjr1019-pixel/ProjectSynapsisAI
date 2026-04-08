@@ -1,10 +1,18 @@
 import { useEffect, useSyncExternalStore } from "react";
-import type { ChatMessage, Conversation, ModelHealth } from "@contracts";
+import type { ChatMessage, Conversation, ModelHealth, ScreenAwarenessStatus, StartAssistModeOptions } from "@contracts";
 import { localChatStore } from "../store/localChatStore";
 import { formatTime } from "../../../shared/utils/time";
 import type { ChatSettingsState } from "../types/localChat.types";
 
 const bridge = () => window.synai;
+
+interface ScreenBridgeApi {
+  getScreenStatus?: () => Promise<ScreenAwarenessStatus | null>;
+  startAssistMode?: (options: StartAssistModeOptions) => Promise<ScreenAwarenessStatus | null>;
+  stopAssistMode?: (reason?: string) => Promise<ScreenAwarenessStatus | null>;
+}
+
+const screenBridge = (): ScreenBridgeApi => bridge() as ScreenBridgeApi;
 
 const setError = (message: string | null): void => {
   localChatStore.setState({ error: message });
@@ -219,11 +227,14 @@ export const useLocalChat = () => {
           bridge().getModelHealth(persistedSettings.selectedModel || undefined),
           bridge().listAvailableModels().catch(() => [])
         ]);
+        const screenApi = screenBridge();
+        const screenStatus = screenApi.getScreenStatus ? await screenApi.getScreenStatus().catch(() => null) : null;
         const hydratedSettings = hydrateSettingsFromModel(persistedSettings, modelHealth);
         persistSettings(hydratedSettings);
         localChatStore.setState({
           appHealth,
           modelHealth,
+          screenStatus,
           availableModels: mergeAvailableModels(availableModels, [hydratedSettings.selectedModel, modelHealth.model]),
           settings: hydratedSettings
         });
@@ -271,6 +282,38 @@ export const useLocalChat = () => {
       setError(detail);
     } finally {
       localChatStore.setState({ loading: false });
+    }
+  };
+
+  const startAssistMode = async (options: StartAssistModeOptions): Promise<void> => {
+    try {
+      const screenApi = screenBridge();
+      if (!screenApi.startAssistMode) {
+        setError("Screen awareness bridge unavailable");
+        return;
+      }
+
+      const status = await screenApi.startAssistMode(options).catch(() => null);
+      localChatStore.setState({ screenStatus: status });
+      setError(null);
+    } catch (error) {
+      setError(error instanceof Error ? error.message : "Failed to start Assist Mode");
+    }
+  };
+
+  const stopAssistMode = async (reason = "user-disabled"): Promise<void> => {
+    try {
+      const screenApi = screenBridge();
+      if (!screenApi.stopAssistMode) {
+        setError("Screen awareness bridge unavailable");
+        return;
+      }
+
+      const status = await screenApi.stopAssistMode(reason).catch(() => null);
+      localChatStore.setState({ screenStatus: status });
+      setError(null);
+    } catch (error) {
+      setError(error instanceof Error ? error.message : "Failed to stop Assist Mode");
     }
   };
 
@@ -504,6 +547,8 @@ export const useLocalChat = () => {
     listMemories,
     searchMemories,
     deleteMemory,
-    copyLastResponse
+    copyLastResponse,
+    startAssistMode,
+    stopAssistMode
   };
 };

@@ -1,11 +1,15 @@
 import type { ChatMessage } from "../../contracts/src/chat";
 import type {
+  AwarenessDigest,
+  AwarenessQueryAnswer,
   ContextPreview,
+  FileAwarenessSnapshot,
   MemoryEntry,
   RetrievedMemory,
   WebSearchContext,
   WebSearchResult
 } from "../../contracts/src/memory";
+import type { MachineAwarenessSnapshot, ScreenAwarenessSnapshot } from "../../contracts/src/awareness";
 import { assembleContext } from "./context/assembler";
 import { buildRollingSummary } from "./processing/summarizer";
 import { extractMemoriesFromText } from "./processing/memory-extractor";
@@ -148,7 +152,12 @@ export const preparePromptContext = async (
 
 export const finalizePromptContext = (
   context: LoadedPromptContext,
-  webSearch: WebSearchContext = emptyWebSearch(context.latestUserMessage)
+  webSearch: WebSearchContext = emptyWebSearch(context.latestUserMessage),
+  awareness: AwarenessDigest | null = null,
+  awarenessQuery: AwarenessQueryAnswer | null = null,
+  machineAwareness: MachineAwarenessSnapshot | null = null,
+  fileAwareness: FileAwarenessSnapshot | null = null,
+  screenAwareness: ScreenAwarenessSnapshot | null = null
 ): ReturnType<typeof assembleContext> =>
   assembleContext({
     systemInstruction: SYSTEM_INSTRUCTION,
@@ -156,25 +165,53 @@ export const finalizePromptContext = (
     allMessages: context.messages,
     stableMemories: context.stableMemories,
     retrievedMemories: context.retrievedMemories,
-    webSearch
+    webSearch,
+    awareness,
+    awarenessQuery,
+    machineAwareness,
+    fileAwareness,
+    screenAwareness
   });
 
 export const buildContextPreview = async (
   conversationId: string,
   latestUserMessage: string,
-  webSearch: WebSearchContext = emptyWebSearch(latestUserMessage)
+  webSearch: WebSearchContext = emptyWebSearch(latestUserMessage),
+  awareness: AwarenessDigest | null = null,
+  awarenessQuery: AwarenessQueryAnswer | null = null,
+  machineAwareness: MachineAwarenessSnapshot | null = null,
+  fileAwareness: FileAwarenessSnapshot | null = null,
+  screenAwareness: ScreenAwarenessSnapshot | null = null
 ): Promise<ContextPreview> => {
-  return finalizePromptContext(await preparePromptContext(conversationId, latestUserMessage), webSearch).preview;
+  return finalizePromptContext(
+    await preparePromptContext(conversationId, latestUserMessage),
+    webSearch,
+    awareness,
+    awarenessQuery,
+    machineAwareness,
+    fileAwareness,
+    screenAwareness
+  ).preview;
 };
 
 export const buildPromptMessages = async (
   conversationId: string,
   latestUserMessage: string,
-  webSearch: WebSearchContext = emptyWebSearch(latestUserMessage)
+  webSearch: WebSearchContext = emptyWebSearch(latestUserMessage),
+  awareness: AwarenessDigest | null = null,
+  awarenessQuery: AwarenessQueryAnswer | null = null,
+  machineAwareness: MachineAwarenessSnapshot | null = null,
+  fileAwareness: FileAwarenessSnapshot | null = null,
+  screenAwareness: ScreenAwarenessSnapshot | null = null
 ): Promise<{ promptMessages: ChatMessage[]; contextPreview: ContextPreview }> => {
   const assembled = finalizePromptContext(
     await preparePromptContext(conversationId, latestUserMessage),
-    webSearch
+    webSearch,
+    awareness,
+    awarenessQuery,
+    machineAwareness,
+    fileAwareness,
+    screenAwareness
   );
   return {
     promptMessages: assembled.promptMessages,

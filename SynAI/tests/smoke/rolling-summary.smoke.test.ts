@@ -7,7 +7,7 @@ import {
   createConversationRecord,
   getSummary,
   refreshRollingSummary
-} from "../../packages/memory/src";
+} from "../../packages/Awareness-Reasoning/src/memory";
 
 describe("rolling-summary smoke", () => {
   it("stores a summary once conversation history exceeds the recent-message window", async () => {

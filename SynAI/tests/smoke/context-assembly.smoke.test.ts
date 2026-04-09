@@ -1,4 +1,4 @@
-import { assembleContext } from "../../packages/memory/src/context/assembler";
+import { assembleContext } from "../../packages/Awareness-Reasoning/src/memory/context/assembler";
 
 describe("context-assembly smoke", () => {
   it("assembles context with memory, summary, and recent messages", () => {

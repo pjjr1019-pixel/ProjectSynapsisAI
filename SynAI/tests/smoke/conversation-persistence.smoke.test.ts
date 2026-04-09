@@ -7,7 +7,7 @@ import {
   createConversationRecord,
   listConversationRecords,
   loadConversationRecord
-} from "../../packages/memory/src";
+} from "../../packages/Awareness-Reasoning/src/memory";
 
 describe("conversation-persistence smoke", () => {
   it("persists conversations and messages across reload", async () => {

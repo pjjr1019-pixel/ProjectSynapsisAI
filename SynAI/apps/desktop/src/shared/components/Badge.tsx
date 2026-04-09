@@ -16,7 +16,7 @@ const toneClass: Record<NonNullable<BadgeProps["tone"]>, string> = {
 export function Badge({ children, className, tone = "neutral", ...props }: BadgeProps) {
   return (
     <span
-      className={cn("inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-medium", toneClass[tone], className)}
+      className={cn("inline-flex items-center rounded-md border px-1.5 py-0.5 text-[10px] font-medium", toneClass[tone], className)}
       {...props}
     >
       {children}

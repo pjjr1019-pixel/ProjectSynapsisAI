@@ -1,4 +1,4 @@
-import { checkOllamaHealth } from "../../packages/local-ai/src/health";
+import { checkOllamaHealth } from "../../packages/Awareness-Reasoning/src/local-ai/health";
 
 describe("local-ai-health smoke", () => {
   it("reports connected when Ollama responds", async () => {

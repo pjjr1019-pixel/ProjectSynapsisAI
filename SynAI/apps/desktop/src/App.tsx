@@ -1,18 +1,30 @@
-import { useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import type { Conversation } from "@contracts";
 import { Shell } from "./layout/Shell";
 import { WorkspaceTabs } from "./features/local-chat/components/WorkspaceTabs";
 import { ChatPanel } from "./features/local-chat/components/ChatPanel";
-import { HistoryPanel } from "./features/local-chat/components/HistoryPanel";
-import { ToolsPanel } from "./features/local-chat/components/ToolsPanel";
-import { SettingsPanel } from "./features/local-chat/components/SettingsPanel";
 import { useLocalChat } from "./features/local-chat/hooks/useLocalChat";
 import type { WorkspaceTab } from "./features/local-chat/types/localChat.types";
 import { buildConversationTurns } from "./features/local-chat/utils/conversationTurns";
 
+// Rec #15: lazy-load secondary tabs — they are never shown on first render
+const HistoryPanel = lazy(() =>
+  import("./features/local-chat/components/HistoryPanel").then((m) => ({ default: m.HistoryPanel }))
+);
+const ToolsPanel = lazy(() =>
+  import("./features/local-chat/components/ToolsPanel").then((m) => ({ default: m.ToolsPanel }))
+);
+const SettingsPanel = lazy(() =>
+  import("./features/local-chat/components/SettingsPanel").then((m) => ({ default: m.SettingsPanel }))
+);
+
+const TabFallback = () => (
+  <div className="flex h-full items-center justify-center text-xs text-slate-500">Loading…</div>
+);
+
 function App() {
-  const chat = useLocalChat();
   const [activeTab, setActiveTab] = useState<WorkspaceTab>("chat");
+  const chat = useLocalChat({ chatVisible: activeTab === "chat" });
   const [activeTurnIndex, setActiveTurnIndex] = useState<number | null>(null);
   const [historyQuery, setHistoryQuery] = useState("");
 
@@ -25,7 +37,6 @@ function App() {
   }, [chat.activeConversationId, chat.conversations]);
 
   const turns = useMemo(() => buildConversationTurns(chat.messages), [chat.messages]);
-  const latestTurn = turns.length > 0 ? turns[turns.length - 1] : null;
 
   useEffect(() => {
     setActiveTurnIndex(null);
@@ -39,7 +50,10 @@ function App() {
     setActiveTab("history");
   };
 
-  const sendMessage = async (text: string, options?: { useWebSearch?: boolean }): Promise<void> => {
+  const sendMessage = async (
+    text: string,
+    options?: { ragMode?: "inherit" | "on" | "off"; webMode?: "inherit" | "on" | "off"; traceMode?: "inherit" | "on" | "off" }
+  ): Promise<void> => {
     await chat.sendMessage(text, false, options);
     setActiveTurnIndex(null);
   };
@@ -76,7 +90,7 @@ function App() {
   };
 
   return (
-    <Shell modelHealth={chat.modelHealth} screenStatus={chat.screenStatus} error={chat.error}>
+    <Shell appHealth={chat.appHealth} modelHealth={chat.modelHealth} screenStatus={chat.screenStatus} error={chat.error}>
       <div className="flex h-full min-h-0 w-full flex-col overflow-hidden">
         <WorkspaceTabs activeTab={activeTab} onChange={setActiveTab} />
 
@@ -84,11 +98,14 @@ function App() {
           {activeTab === "chat" ? (
             <ChatPanel
               conversation={currentConversation}
+              appHealth={chat.appHealth}
+              messages={chat.messages}
               messageCount={chat.messages.length}
-              latestTurn={latestTurn}
               contextPreview={chat.contextPreview}
               loading={chat.loading}
-              defaultWebSearch={chat.settings.defaultWebSearch}
+              settings={chat.settings}
+              pendingAssistantId={chat.pendingAssistantId}
+              pendingReasoningTrace={chat.pendingReasoningTrace}
               onSendMessage={sendMessage}
               onNewConversation={createConversation}
               onClearChat={clearConversation}
@@ -98,48 +115,59 @@ function App() {
           ) : null}
 
           {activeTab === "history" ? (
-            <HistoryPanel
-              conversations={chat.conversations}
-              activeConversationId={chat.activeConversationId}
-              onNewConversation={createConversation}
-              onSelectConversation={switchConversation}
-              onDeleteConversation={chat.deleteConversation}
-              onOpenChat={openChat}
-              turns={turns}
-              activeTurnIndex={activeTurnIndex}
-              onSelectTurnIndex={selectTurn}
-              onResetTurn={() => setActiveTurnIndex(null)}
-              query={historyQuery}
-              onQueryChange={setHistoryQuery}
-            />
+            <Suspense fallback={<TabFallback />}>
+              <HistoryPanel
+                conversations={chat.conversations}
+                activeConversationId={chat.activeConversationId}
+                onNewConversation={createConversation}
+                onSelectConversation={switchConversation}
+                onDeleteConversation={chat.deleteConversation}
+                onOpenChat={openChat}
+                turns={turns}
+                activeTurnIndex={activeTurnIndex}
+                onSelectTurnIndex={selectTurn}
+                onResetTurn={() => setActiveTurnIndex(null)}
+                query={historyQuery}
+                onQueryChange={setHistoryQuery}
+              />
+            </Suspense>
           ) : null}
 
           {activeTab === "tools" ? (
-            <ToolsPanel
-              modelHealth={chat.modelHealth}
-              screenStatus={chat.screenStatus}
-              loading={chat.loading}
-              healthCheckState={chat.healthCheckState}
-              healthCheckMessage={chat.healthCheckMessage}
-              onRunHealthCheck={chat.refreshModelHealth}
-              onNewConversation={createConversation}
-              onClearChat={clearConversation}
-              onRegenerate={regenerateReply}
-              onRefreshMemory={refreshMemory}
-              onCopyResponse={chat.copyLastResponse}
-              preview={chat.contextPreview}
-              memories={chat.memories}
-              onStartAssistMode={chat.startAssistMode}
-              onStopAssistMode={chat.stopAssistMode}
-            />
+            <Suspense fallback={<TabFallback />}>
+              <ToolsPanel
+                settings={chat.settings}
+                modelHealth={chat.modelHealth}
+                screenStatus={chat.screenStatus}
+                loading={chat.loading}
+                healthCheckState={chat.healthCheckState}
+                healthCheckMessage={chat.healthCheckMessage}
+                promptEvaluationRunning={chat.promptEvaluationRunning}
+                promptEvaluationResult={chat.promptEvaluationResult}
+                promptEvaluationError={chat.promptEvaluationError}
+                onRunHealthCheck={chat.refreshModelHealth}
+                onNewConversation={createConversation}
+                onClearChat={clearConversation}
+                onRegenerate={regenerateReply}
+                onRefreshMemory={refreshMemory}
+                onCopyResponse={chat.copyLastResponse}
+                onRunPromptEvaluation={chat.runPromptEvaluation}
+                preview={chat.contextPreview}
+                memories={chat.memories}
+                onStartAssistMode={chat.startAssistMode}
+                onStopAssistMode={chat.stopAssistMode}
+              />
+            </Suspense>
           ) : null}
 
           {activeTab === "settings" ? (
-            <SettingsPanel
-              settings={chat.settings}
-              availableModels={chat.availableModels}
-              onUpdateSettings={chat.updateSettings}
-            />
+            <Suspense fallback={<TabFallback />}>
+              <SettingsPanel
+                settings={chat.settings}
+                availableModels={chat.availableModels}
+                onUpdateSettings={chat.updateSettings}
+              />
+            </Suspense>
           ) : null}
         </div>
       </div>

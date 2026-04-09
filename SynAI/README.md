@@ -56,6 +56,8 @@ This folder is a clean staged rebuild focused on local chat intelligence:
 
 ## Extending Later
 Add non-chat features in new feature folders and packages, keeping:
-- provider logic in `packages/local-ai`
-- memory/context logic in `packages/memory`
+- provider logic in `packages/Awareness-Reasoning/src/local-ai`
+- memory/context logic in `packages/Awareness-Reasoning/src/memory`
 - UI wiring in `apps/desktop/src/features/*`
+
+

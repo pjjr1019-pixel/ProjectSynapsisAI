@@ -1,5 +1,5 @@
 import { contextBridge, ipcRenderer } from "electron";
-import { IPC_CHANNELS, type SynAIBridge } from "../../../packages/contracts/src";
+import { IPC_CHANNELS, type SynAIBridge } from "@contracts";
 
 const api: SynAIBridge = {
   getAppHealth: () => ipcRenderer.invoke(IPC_CHANNELS.appHealth),
@@ -12,6 +12,14 @@ const api: SynAIBridge = {
     ipcRenderer.on(IPC_CHANNELS.chatStream, wrapped);
     return () => {
       ipcRenderer.removeListener(IPC_CHANNELS.chatStream, wrapped);
+    };
+  },
+  subscribeReasoningTrace: (listener) => {
+    const wrapped = (_event: Electron.IpcRendererEvent, payload: Parameters<typeof listener>[0]) =>
+      listener(payload);
+    ipcRenderer.on(IPC_CHANNELS.reasoningTrace, wrapped);
+    return () => {
+      ipcRenderer.removeListener(IPC_CHANNELS.reasoningTrace, wrapped);
     };
   },
   subscribeBackgroundSync: (listener) => {
@@ -30,8 +38,16 @@ const api: SynAIBridge = {
   searchMemories: (query) => ipcRenderer.invoke(IPC_CHANNELS.searchMemories, query),
   listMemories: () => ipcRenderer.invoke(IPC_CHANNELS.listMemories),
   deleteMemory: (memoryId) => ipcRenderer.invoke(IPC_CHANNELS.deleteMemory, memoryId),
-  getContextPreview: (conversationId, latestUserMessage) =>
-    ipcRenderer.invoke(IPC_CHANNELS.contextPreview, conversationId, latestUserMessage),
+  runPromptEvaluation: (payload) => ipcRenderer.invoke(IPC_CHANNELS.promptEvaluationRun, payload),
+  queryAwareness: (request) => ipcRenderer.invoke(IPC_CHANNELS.awarenessQuery, request),
+  getContextPreview: (conversationId, latestUserMessage, awarenessAnswerMode, ragOptions) =>
+    ipcRenderer.invoke(
+      IPC_CHANNELS.contextPreview,
+      conversationId,
+      latestUserMessage,
+      awarenessAnswerMode,
+      ragOptions
+    ),
   getScreenStatus: () => ipcRenderer.invoke(IPC_CHANNELS.screenStatus),
   getScreenForegroundWindow: () => ipcRenderer.invoke(IPC_CHANNELS.screenForegroundWindow),
   getScreenUiTree: () => ipcRenderer.invoke(IPC_CHANNELS.screenUiTree),
@@ -41,3 +57,4 @@ const api: SynAIBridge = {
 };
 
 contextBridge.exposeInMainWorld("synai", api);
+

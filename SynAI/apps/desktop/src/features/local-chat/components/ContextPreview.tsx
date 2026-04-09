@@ -13,78 +13,169 @@ interface ContextPreviewProps {
 export function ContextPreview({ preview, className, hideTitle = false, compact = false }: ContextPreviewProps) {
   if (!preview) {
     return (
-      <Card className={cn("p-3 text-xs text-slate-400", className)}>
+      <Card className={cn("p-2 text-[10px] text-slate-400", className)}>
         Context preview will appear after sending a message.
       </Card>
     );
   }
 
   return (
-    <Card className={cn("space-y-2 p-3", className)}>
-      {hideTitle ? null : <h3 className="text-sm font-semibold text-slate-100">Context Preview</h3>}
-      <p className="text-xs text-slate-300">Recent messages: {preview.recentMessagesCount}</p>
-      <p className="text-xs text-slate-300">Estimated chars: {preview.estimatedChars}</p>
-      <p className="text-xs text-slate-300">Stable memories: {preview.stableMemories.length}</p>
-      <p className="text-xs text-slate-300">Retrieved memories: {preview.retrievedMemories.length}</p>
+    <Card className={cn("space-y-1.5 p-2", className)}>
+      {hideTitle ? null : <h3 className="text-xs font-semibold text-slate-100">Context Preview</h3>}
+      <p className="text-[10px] text-slate-300">Recent messages: {preview.recentMessagesCount}</p>
+      <p className="text-[10px] text-slate-300">Estimated chars: {preview.estimatedChars}</p>
+      <p className="text-[10px] text-slate-300">Stable memories: {preview.stableMemories.length}</p>
+      <p className="text-[10px] text-slate-300">Retrieved memories: {preview.retrievedMemories.length}</p>
+      <p className="text-[10px] text-slate-300">Workspace hits: {preview.workspaceHits?.length ?? 0}</p>
+      {preview.awarenessAnswerMode ? (
+        <p className="text-[10px] text-slate-300">Awareness mode: {preview.awarenessAnswerMode}</p>
+      ) : null}
+      {preview.rag ? (
+        <div className="rounded border border-orange-900/60 bg-orange-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-orange-200">Advanced RAG</p>
+          <p className="mt-0.5 text-[10px] text-orange-100/90">
+            {preview.rag.mode} | {preview.rag.triggerReason} | {preview.rag.retrieval.total} retrieved sources
+          </p>
+          <p className="mt-0.5 text-[10px] text-orange-200/70">
+            Memory {preview.rag.retrieval.memoryKeyword + preview.rag.retrieval.memorySemantic} | Workspace{" "}
+            {preview.rag.retrieval.workspace} | Awareness {preview.rag.retrieval.awareness} | Web{" "}
+            {preview.rag.retrieval.web}
+          </p>
+          {preview.rag.workspaceIndex ? (
+            <p className="mt-0.5 text-[10px] text-orange-200/70">
+              Index: {preview.rag.workspaceIndex.mode} | {preview.rag.workspaceIndex.fileCount} files |{" "}
+              {preview.rag.workspaceIndex.chunkCount} chunks
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+      {preview.grounding ? (
+        <div className="rounded border border-cyan-900/60 bg-cyan-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-cyan-200">Grounded Answer</p>
+          <p className="mt-0.5 text-[10px] text-cyan-100/90">
+            {preview.grounding.overallConfidence} confidence | {preview.grounding.claimCount} claims |{" "}
+            {Math.round(preview.grounding.citationCoverage * 100)}% cited
+          </p>
+          <p className="mt-0.5 text-[10px] text-cyan-200/70">
+            Grounded {preview.grounding.groundedClaimCount} | Inference {preview.grounding.inferenceClaimCount} | Unsupported{" "}
+            {preview.grounding.unsupportedClaimCount} | Conflicts {preview.grounding.conflictedClaimCount}
+          </p>
+        </div>
+      ) : null}
+      {preview.retrievalEval ? (
+        <div className="rounded border border-teal-900/60 bg-teal-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-teal-200">Evidence & Retrieval Eval</p>
+          <p className="mt-0.5 text-[10px] text-teal-100/90">
+            Route {preview.retrievalEval.routeReason} | retrieved {preview.retrievalEval.retrievedSourceCount} | used{" "}
+            {preview.retrievalEval.usedSourceCount} | unused {preview.retrievalEval.unusedSourceCount}
+          </p>
+          <p className="mt-0.5 text-[10px] text-teal-200/70">
+            Memory {preview.retrievalEval.sourceKindCounts.memory} | Workspace {preview.retrievalEval.sourceKindCounts.workspace} |
+            Awareness {preview.retrievalEval.sourceKindCounts.awareness} | Official {preview.retrievalEval.sourceKindCounts.official} |
+            Web {preview.retrievalEval.sourceKindCounts.web}
+          </p>
+          <p className="mt-0.5 text-[10px] text-teal-200/70">
+            Citation coverage {Math.round(preview.retrievalEval.citationCoverage * 100)}% | unsupported{" "}
+            {preview.retrievalEval.unsupportedClaimCount} | conflicts {preview.retrievalEval.conflictedClaimCount}
+          </p>
+          {preview.retrievalEval.warnings.length > 0 ? (
+            <div className="mt-1 space-y-0.5">
+              {preview.retrievalEval.warnings.slice(0, compact ? 2 : preview.retrievalEval.warnings.length).map((warning) => (
+                <p key={warning} className="text-[10px] text-amber-200/90">
+                  {warning}
+                </p>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
+      {preview.awarenessGrounding ? (
+        <p className="text-[10px] text-slate-300">
+          Grounding: {preview.awarenessGrounding.status} ({preview.awarenessGrounding.confidenceLevel}) | traces{" "}
+          {preview.awarenessGrounding.traceCount} | age {formatStopwatch(preview.awarenessGrounding.ageMs)}
+        </p>
+      ) : null}
       {preview.awareness ? (
-        <div className="rounded border border-cyan-900/60 bg-cyan-950/20 p-2">
-          <p className="text-xs font-medium text-cyan-200">Awareness</p>
-          <p className="mt-1 text-[11px] text-cyan-100/90">{preview.awareness.summary}</p>
-          <p className="mt-1 text-[11px] text-cyan-200/70">
+        <div className="rounded border border-cyan-900/60 bg-cyan-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-cyan-200">Awareness</p>
+          <p className="mt-0.5 text-[10px] text-cyan-100/90">{preview.awareness.summary}</p>
+          <p className="mt-0.5 text-[10px] text-cyan-200/70">
             Freshness: {preview.awareness.freshness.isFresh ? "fresh" : "stale"} | age{" "}
             {formatStopwatch(preview.awareness.freshness.ageMs)}
           </p>
         </div>
       ) : null}
       {preview.machineAwareness ? (
-        <div className="rounded border border-emerald-900/60 bg-emerald-950/20 p-2">
-          <p className="text-xs font-medium text-emerald-200">Machine Awareness</p>
-          <p className="mt-1 text-[11px] text-emerald-100/90">{preview.machineAwareness.summary}</p>
-          <p className="mt-1 text-[11px] text-emerald-200/70">
+        <div className="rounded border border-emerald-900/60 bg-emerald-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-emerald-200">Machine Awareness</p>
+          <p className="mt-0.5 text-[10px] text-emerald-100/90">{preview.machineAwareness.summary}</p>
+          <p className="mt-0.5 text-[10px] text-emerald-200/70">
             {preview.machineAwareness.counts.processes} processes | {preview.machineAwareness.counts.services} services |{" "}
-            {preview.machineAwareness.counts.startupEntries} startup items | {preview.machineAwareness.counts.installedApps} apps
+            {preview.machineAwareness.counts.startupEntries} startup items | {preview.machineAwareness.counts.installedApps} apps |{" "}
+            {preview.machineAwareness.counts.eventLogErrors} event-log errors
           </p>
-          <p className="mt-1 text-[11px] text-emerald-200/70">
+          <p className="mt-0.5 text-[10px] text-emerald-200/70">
             Freshness: {preview.machineAwareness.freshness.isFresh ? "fresh" : "stale"} | age{" "}
             {formatStopwatch(preview.machineAwareness.freshness.ageMs)}
           </p>
         </div>
       ) : null}
       {preview.fileAwareness ? (
-        <div className="rounded border border-amber-900/60 bg-amber-950/20 p-2">
-          <p className="text-xs font-medium text-amber-200">File Awareness</p>
-          <p className="mt-1 text-[11px] text-amber-100/90">{preview.fileAwareness.summary}</p>
-          <p className="mt-1 text-[11px] text-amber-200/70">
-            {preview.fileAwareness.counts.roots} roots | {preview.fileAwareness.counts.files} files |{" "}
+        <div className="rounded border border-amber-900/60 bg-amber-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-amber-200">File Awareness</p>
+          <p className="mt-0.5 text-[10px] text-amber-100/90">{preview.fileAwareness.summary}</p>
+          <p className="mt-0.5 text-[10px] text-amber-200/70">
+            {preview.fileAwareness.counts.volumes} volumes | {preview.fileAwareness.counts.roots} roots | {preview.fileAwareness.counts.files} files |{" "}
             {preview.fileAwareness.counts.media} media | {preview.fileAwareness.counts.recentChanges} changes
           </p>
-          <p className="mt-1 text-[11px] text-amber-200/70">
+          <p className="mt-0.5 text-[10px] text-amber-200/70">
             Freshness: {preview.fileAwareness.freshness.isFresh ? "fresh" : "stale"} | age{" "}
             {formatStopwatch(preview.fileAwareness.freshness.ageMs)}
           </p>
         </div>
       ) : null}
       {preview.screenAwareness ? (
-        <div className="rounded border border-violet-900/60 bg-violet-950/20 p-2">
-          <p className="text-xs font-medium text-violet-200">Assist Mode</p>
-          <p className="mt-1 text-[11px] text-violet-100/90">{preview.screenAwareness.summary}</p>
+        <div className="rounded border border-violet-900/60 bg-violet-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-violet-200">Assist Mode</p>
+          <p className="mt-0.5 text-[10px] text-violet-100/90">{preview.screenAwareness.summary}</p>
         </div>
       ) : null}
       {preview.awarenessQuery ? (
-        <div className="rounded border border-sky-900/60 bg-sky-950/20 p-2">
-          <p className="text-xs font-medium text-sky-200">Awareness Query</p>
-          <p className="mt-1 text-[11px] text-sky-100/90">{preview.awarenessQuery.summary}</p>
-          <p className="mt-1 text-[11px] text-sky-200/70">
+        <div className="rounded border border-sky-900/60 bg-sky-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-sky-200">Awareness Query</p>
+          <p className="mt-0.5 text-[10px] text-sky-100/90">{preview.awarenessQuery.summary}</p>
+          <p className="mt-0.5 text-[10px] text-sky-200/70">
             {preview.awarenessQuery.intent.label} | scope {preview.awarenessQuery.scope} |{" "}
             confidence {preview.awarenessQuery.bundle.confidenceLevel}
           </p>
-          <p className="mt-1 text-[11px] text-sky-200/70">
+          <p className="mt-0.5 text-[10px] text-sky-200/70">
             Freshness: {preview.awarenessQuery.bundle.freshness.isFresh ? "fresh" : "stale"} | age{" "}
             {formatStopwatch(preview.awarenessQuery.bundle.freshness.ageMs)}
           </p>
         </div>
       ) : null}
-      <p className="text-xs text-slate-300">
+      {preview.officialKnowledge?.used ? (
+        <div className="rounded border border-blue-900/60 bg-blue-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-blue-200">Official Windows Knowledge</p>
+          <p className="mt-0.5 text-[10px] text-blue-100/90">
+            {preview.officialKnowledge.hitCount} Microsoft source{preview.officialKnowledge.hitCount === 1 ? "" : "s"} |{" "}
+            {preview.officialKnowledge.source}
+          </p>
+          <p className="mt-0.5 text-[10px] text-blue-200/70">
+            Mirror: {preview.officialKnowledge.mirrorFresh ? "fresh" : "stale"} | last refreshed{" "}
+            {preview.officialKnowledge.lastRefreshedAt
+              ? formatDateTime(preview.officialKnowledge.lastRefreshedAt)
+              : "n/a"}
+          </p>
+          <p className="mt-0.5 text-[10px] text-blue-100/90">
+            {preview.officialKnowledge.hits
+              .slice(0, compact ? 1 : 2)
+              .map((hit) => hit.title)
+              .join(" | ")}
+          </p>
+        </div>
+      ) : null}
+      <p className="text-[10px] text-slate-300">
         Recent web:{" "}
         {preview.webSearch.status === "used"
           ? `${preview.webSearch.results.length} sources`
@@ -95,7 +186,7 @@ export function ContextPreview({ preview, className, hideTitle = false, compact 
               : "not used"}
       </p>
       <p
-        className="text-xs whitespace-pre-wrap text-slate-500"
+        className="whitespace-pre-wrap text-[10px] text-slate-500"
         style={
           compact
             ? {

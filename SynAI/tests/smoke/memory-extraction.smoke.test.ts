@@ -6,7 +6,7 @@ import {
   createConversationRecord,
   extractAndStoreMemories,
   listMemoryRecords
-} from "../../packages/memory/src";
+} from "../../packages/Awareness-Reasoning/src/memory";
 
 describe("memory-extraction smoke", () => {
   it("extracts and deduplicates useful memory", async () => {

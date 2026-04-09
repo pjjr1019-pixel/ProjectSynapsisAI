@@ -1,10 +1,13 @@
 import type {
+  AwarenessAnswerMode,
   AppHealth,
   ChatMessage,
   ContextPreview,
   Conversation,
   MemoryEntry,
   ModelHealth,
+  PromptEvaluationResponse,
+  ReasoningTraceState,
   ResponseMode,
   ScreenAwarenessStatus
 } from "@contracts";
@@ -16,7 +19,12 @@ export type WorkspaceToolTab = "model" | "actions" | "memory" | "context" | "sea
 export interface ChatSettingsState {
   selectedModel: string;
   defaultWebSearch: boolean;
+  advancedRagEnabled: boolean;
+  workspaceIndexingEnabled: boolean;
+  webInRagEnabled: boolean;
+  liveTraceVisible: boolean;
   responseMode: ResponseMode;
+  awarenessAnswerMode: AwarenessAnswerMode;
 }
 
 export interface ConversationTurn {
@@ -39,7 +47,11 @@ export interface LocalChatState {
   loading: boolean;
   pendingRequestId: string | null;
   pendingAssistantId: string | null;
+  pendingReasoningTrace: ReasoningTraceState | null;
   healthCheckState: HealthCheckState;
   healthCheckMessage: string | null;
+  promptEvaluationRunning: boolean;
+  promptEvaluationResult: PromptEvaluationResponse | null;
+  promptEvaluationError: string | null;
   error: string | null;
 }

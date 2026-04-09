@@ -17,28 +17,34 @@
     ],
     "paths": {
       "@contracts": [
-        "./packages/contracts/src/index.ts"
+        "./packages/Awareness-Reasoning/src/contracts/index.ts"
       ],
       "@contracts/*": [
-        "./packages/contracts/src/*"
+        "./packages/Awareness-Reasoning/src/contracts/*"
+      ],
+      "@memory": [
+        "./packages/Awareness-Reasoning/src/memory/index.ts"
       ],
       "@memory/*": [
-        "./packages/memory/src/*"
+        "./packages/Awareness-Reasoning/src/memory/*"
       ],
       "@awareness": [
-        "./packages/awareness/src/index.ts"
+        "./packages/Awareness-Reasoning/src/index.ts"
       ],
       "@awareness/*": [
-        "./packages/awareness/src/*"
+        "./packages/Awareness-Reasoning/src/*"
+      ],
+      "@local-ai": [
+        "./packages/Awareness-Reasoning/src/local-ai/index.ts"
       ],
       "@local-ai/*": [
-        "./packages/local-ai/src/*"
+        "./packages/Awareness-Reasoning/src/local-ai/*"
       ],
       "@web-search": [
-        "./packages/web-search/src/index.ts"
+        "./packages/Awareness-Reasoning/src/web-search/index.ts"
       ],
       "@web-search/*": [
-        "./packages/web-search/src/*"
+        "./packages/Awareness-Reasoning/src/web-search/*"
       ],
       "@desktop/*": [
         "./apps/desktop/src/*"

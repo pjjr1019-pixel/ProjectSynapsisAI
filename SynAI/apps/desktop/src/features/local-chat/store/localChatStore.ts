@@ -10,7 +10,12 @@ const initialState: LocalChatState = {
   settings: {
     selectedModel: "",
     defaultWebSearch: false,
-    responseMode: "balanced"
+    advancedRagEnabled: true,
+    workspaceIndexingEnabled: true,
+    webInRagEnabled: true,
+    liveTraceVisible: false,
+    responseMode: "balanced",
+    awarenessAnswerMode: "evidence-first"
   },
   conversations: [],
   activeConversationId: null,
@@ -20,8 +25,12 @@ const initialState: LocalChatState = {
   loading: false,
   pendingRequestId: null,
   pendingAssistantId: null,
+  pendingReasoningTrace: null,
   healthCheckState: "idle",
   healthCheckMessage: null,
+  promptEvaluationRunning: false,
+  promptEvaluationResult: null,
+  promptEvaluationError: null,
   error: null
 };
 

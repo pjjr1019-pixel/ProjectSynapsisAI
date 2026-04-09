@@ -1,0 +1,86 @@
+import type { AwarenessQueryAnswer, ChatMessageMetadata } from "@contracts";
+
+export const LIVE_USAGE_REFRESH_MS = 2_000;
+
+const normalizeLine = (value: string): string => value.replace(/\s+/g, " ").trim();
+
+const focusForQuery = (query: string): "cpu" | "ram" | "gpu" | "disk" | "uptime" | "all" => {
+  const normalized = query.toLowerCase();
+  if (/(free storage|free space|available space|space left|disk space|drive space|hard drive)/.test(normalized)) {
+    return "disk";
+  }
+  if (/(disk usage|storage usage)/.test(normalized)) {
+    return "disk";
+  }
+  if (/(uptime|since boot)/.test(normalized)) {
+    return "uptime";
+  }
+  if (/(vram|gpu)/.test(normalized)) {
+    return "gpu";
+  }
+  if (/(ram|memory)/.test(normalized)) {
+    return "ram";
+  }
+  if (/(cpu|processor)/.test(normalized)) {
+    return "cpu";
+  }
+  return "all";
+};
+
+const lineForLabel = (lines: string[], label: string): string | null =>
+  lines.find((line) => line.toLowerCase().startsWith(label.toLowerCase())) ?? null;
+
+export const isLiveUsageAnswer = (answer: AwarenessQueryAnswer | null | undefined): boolean =>
+  answer?.intent.family === "live-usage";
+
+export const buildLiveUsageMessageMetadata = (
+  answer: AwarenessQueryAnswer,
+  query: string,
+  refreshedAt = answer.generatedAt
+): ChatMessageMetadata => ({
+  awareness: {
+    intentFamily: answer.intent.family,
+    answerMode: answer.answerMode ?? null,
+    query,
+    refreshEveryMs: LIVE_USAGE_REFRESH_MS,
+    lastRefreshedAt: refreshedAt,
+    confidenceLevel: answer.bundle.confidenceLevel,
+    card: answer.card ?? null
+  }
+});
+
+export const formatLiveUsageReply = (
+  answer: AwarenessQueryAnswer,
+  _refreshedAt = answer.generatedAt
+): string => {
+  const verifiedLines = answer.bundle.verifiedFindings.map(normalizeLine).filter(Boolean).slice(0, 6);
+  const focus = focusForQuery(answer.query);
+  const cpuLine = lineForLabel(verifiedLines, "Current CPU load") ?? lineForLabel(verifiedLines, "CPU load");
+  const ramLine = lineForLabel(verifiedLines, "Current RAM") ?? lineForLabel(verifiedLines, "RAM");
+  const gpuLine = lineForLabel(verifiedLines, "GPU");
+  const diskLine = verifiedLines.find((line) => /(free on|Current disk|^Disk:)/i.test(line)) ?? null;
+  const uptimeLine = lineForLabel(verifiedLines, "Uptime");
+
+  if (focus === "disk" && diskLine) {
+    return diskLine;
+  }
+
+  if (focus === "cpu" && cpuLine) {
+    return cpuLine;
+  }
+
+  if (focus === "ram" && ramLine) {
+    return ramLine;
+  }
+
+  if (focus === "gpu" && gpuLine) {
+    return gpuLine;
+  }
+
+  if (focus === "uptime" && uptimeLine) {
+    return uptimeLine;
+  }
+
+  const lines = verifiedLines.length > 0 ? verifiedLines.slice(0, 4) : ["No live usage data available."];
+  return [lines[0] ?? "No live usage data available.", ...lines.slice(1).map((line) => `- ${line}`)].join("\n");
+};

@@ -1,6 +1,7 @@
-import type { ScreenAwarenessStatus } from "@contracts";
+import type { AppHealth, ScreenAwarenessStatus } from "@contracts";
 
 interface StatusBarProps {
+  appHealth: AppHealth | null;
   error: string | null;
   screenStatus: ScreenAwarenessStatus | null;
 }
@@ -18,7 +19,7 @@ const formatScope = (scope: ScreenAwarenessStatus["scope"]): string => {
   }
 };
 
-export function StatusBar({ error, screenStatus }: StatusBarProps) {
+export function StatusBar({ appHealth, error, screenStatus }: StatusBarProps) {
   return (
     <footer className="flex h-6 items-center border-t border-slate-800 bg-slate-950/90 px-3 text-[11px]">
       {error ? (
@@ -26,6 +27,12 @@ export function StatusBar({ error, screenStatus }: StatusBarProps) {
       ) : screenStatus?.assistMode.enabled ? (
         <span className="text-emerald-300">
           Assist mode active | {formatScope(screenStatus.scope)} | {screenStatus.summary}
+        </span>
+      ) : appHealth?.awareness ? (
+        <span className="text-slate-400">
+          {appHealth.awareness.ready ? "Awareness ready" : appHealth.awareness.initializing ? "Awareness initializing" : "Awareness idle"}
+          {appHealth.awareness.lastSampledAt ? ` | last sample ${appHealth.awareness.lastSampledAt.slice(11, 19)}` : ""}
+          {appHealth.awareness.backgroundSamplerActive ? " | sampler active" : ""}
         </span>
       ) : (
         <span className="text-slate-500">Ready</span>

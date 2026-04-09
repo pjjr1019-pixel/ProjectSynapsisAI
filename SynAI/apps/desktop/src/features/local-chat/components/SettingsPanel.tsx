@@ -13,19 +13,19 @@ interface SettingsPanelProps {
 export function SettingsPanel({ settings, availableModels, onUpdateSettings }: SettingsPanelProps) {
   return (
     <section className="flex h-full flex-col overflow-hidden rounded-lg border border-slate-800 bg-slate-950/60">
-      <header className="border-b border-slate-800 px-3 py-2">
-        <h2 className="text-base font-semibold text-slate-100">Settings</h2>
-        <p className="text-[10px] text-slate-400">Model, search, and reply style live here.</p>
+      <header className="border-b border-slate-800 px-2.5 py-1.5">
+        <h2 className="text-sm font-semibold text-slate-100">Settings</h2>
+        <p className="text-[9px] text-slate-400">Model, search, and reply style live here.</p>
       </header>
-      <div className="grid gap-2 overflow-hidden p-2">
+      <div className="grid gap-1.5 overflow-hidden p-2">
         <ChatSettings
           settings={settings}
           availableModels={availableModels}
           onUpdateSettings={onUpdateSettings}
           hideTitle
         />
-        <Card className="space-y-2 p-2">
-          <h3 className="text-xs font-semibold text-slate-100">Feature Stages</h3>
+        <Card className="space-y-2 p-1.5">
+          <h3 className="text-[10px] font-semibold text-slate-100">Feature Stages</h3>
           <div className="flex flex-wrap gap-1">
             {featureRegistry.map((feature) => (
               <Badge key={feature.id} tone={feature.status === "active" ? "good" : "neutral"}>

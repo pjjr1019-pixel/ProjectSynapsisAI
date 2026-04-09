@@ -1,4 +1,4 @@
-import { resolveRecentWebContext, shouldUseRecentWebSearch } from "../../packages/web-search/src";
+import { resolveRecentWebContext, shouldUseRecentWebSearch } from "../../packages/Awareness-Reasoning/src/web-search";
 
 const originalFetch = global.fetch;
 

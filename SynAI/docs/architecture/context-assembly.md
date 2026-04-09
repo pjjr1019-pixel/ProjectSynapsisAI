@@ -1,6 +1,6 @@
 # Context Assembly
 
-Prompt context is assembled in one place: `packages/memory/src/context/assembler.ts`.
+Prompt context is assembled in one place: `packages/Awareness-Reasoning/src/memory/context/assembler.ts`.
 
 Included sources:
 - system instruction
@@ -9,4 +9,6 @@ Included sources:
 - rolling summary snippet
 - recent raw messages
 
-Budget rules in `packages/memory/src/context/budget.ts` prevent dumping all history.
+Budget rules in `packages/Awareness-Reasoning/src/memory/context/budget.ts` prevent dumping all history.
+
+

@@ -2,14 +2,20 @@ import { resolve } from "node:path";
 import { defineConfig, externalizeDepsPlugin } from "electron-vite";
 import react from "@vitejs/plugin-react";
 
-const aliases = {
-  "@contracts": resolve(__dirname, "packages/contracts/src/index.ts"),
-  "@memory": resolve(__dirname, "packages/memory/src/index.ts"),
-  "@awareness": resolve(__dirname, "packages/awareness/src/index.ts"),
-  "@local-ai": resolve(__dirname, "packages/local-ai/src/index.ts"),
-  "@web-search": resolve(__dirname, "packages/web-search/src/index.ts"),
-  "@desktop": resolve(__dirname, "apps/desktop/src")
-};
+const aliases = [
+  { find: "@contracts", replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/contracts/index.ts") },
+  { find: /^@contracts\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/contracts/$1") },
+  { find: "@memory", replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/memory/index.ts") },
+  { find: /^@memory\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/memory/$1") },
+  { find: "@awareness", replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/index.ts") },
+  { find: /^@awareness\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/$1") },
+  { find: "@local-ai", replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/local-ai/index.ts") },
+  { find: /^@local-ai\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/local-ai/$1") },
+  { find: "@web-search", replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/web-search/index.ts") },
+  { find: /^@web-search\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/web-search/$1") },
+  { find: "@desktop", replacement: resolve(__dirname, "apps/desktop/src") },
+  { find: /^@desktop\/(.+)$/, replacement: resolve(__dirname, "apps/desktop/src/$1") }
+];
 
 export default defineConfig({
   main: {
@@ -50,7 +56,13 @@ export default defineConfig({
     },
     build: {
       rollupOptions: {
-        input: resolve(__dirname, "apps/desktop/index.html")
+        input: resolve(__dirname, "apps/desktop/index.html"),
+        output: {
+          // Rec #15: split vendor + lazy tab chunks so the initial bundle is smaller
+          manualChunks: {
+            vendor: ["react", "react-dom"]
+          }
+        }
       }
     }
   }

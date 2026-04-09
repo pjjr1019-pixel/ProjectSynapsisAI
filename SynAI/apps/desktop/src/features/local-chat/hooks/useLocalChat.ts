@@ -1,8 +1,24 @@
-import { useEffect, useSyncExternalStore } from "react";
-import type { ChatMessage, Conversation, ModelHealth, ScreenAwarenessStatus, StartAssistModeOptions } from "@contracts";
+import { useEffect, useRef, useSyncExternalStore } from "react";
+import type {
+  AwarenessQueryAnswer,
+  AwarenessQueryRequest,
+  ChatMessage,
+  Conversation,
+  ModelHealth,
+  PromptEvaluationRequest,
+  RagToggleMode,
+  ScreenAwarenessStatus,
+  StartAssistModeOptions
+} from "@contracts";
 import { localChatStore } from "../store/localChatStore";
 import { formatTime } from "../../../shared/utils/time";
 import type { ChatSettingsState } from "../types/localChat.types";
+import {
+  buildLiveUsageMessageMetadata,
+  formatLiveUsageReply,
+  isLiveUsageAnswer,
+  LIVE_USAGE_REFRESH_MS
+} from "../utils/liveUsageReply";
 
 const bridge = () => window.synai;
 
@@ -12,7 +28,12 @@ interface ScreenBridgeApi {
   stopAssistMode?: (reason?: string) => Promise<ScreenAwarenessStatus | null>;
 }
 
+interface AwarenessBridgeApi {
+  queryAwareness?: (request: AwarenessQueryRequest) => Promise<AwarenessQueryAnswer | null>;
+}
+
 const screenBridge = (): ScreenBridgeApi => bridge() as ScreenBridgeApi;
+const awarenessBridge = (): AwarenessBridgeApi => bridge() as AwarenessBridgeApi;
 
 const setError = (message: string | null): void => {
   localChatStore.setState({ error: message });
@@ -23,7 +44,12 @@ const SETTINGS_STORAGE_KEY = "synai.chat.settings";
 const defaultSettings: ChatSettingsState = {
   selectedModel: "",
   defaultWebSearch: false,
-  responseMode: "balanced"
+  advancedRagEnabled: true,
+  workspaceIndexingEnabled: true,
+  webInRagEnabled: true,
+  liveTraceVisible: false,
+  responseMode: "balanced",
+  awarenessAnswerMode: "evidence-first"
 };
 
 const loadPersistedSettings = (): ChatSettingsState => {
@@ -41,7 +67,15 @@ const loadPersistedSettings = (): ChatSettingsState => {
     return {
       selectedModel: parsed.selectedModel ?? defaultSettings.selectedModel,
       defaultWebSearch: parsed.defaultWebSearch ?? defaultSettings.defaultWebSearch,
-      responseMode: parsed.responseMode ?? defaultSettings.responseMode
+      advancedRagEnabled: parsed.advancedRagEnabled ?? defaultSettings.advancedRagEnabled,
+      workspaceIndexingEnabled: parsed.workspaceIndexingEnabled ?? defaultSettings.workspaceIndexingEnabled,
+      webInRagEnabled: parsed.webInRagEnabled ?? defaultSettings.webInRagEnabled,
+      liveTraceVisible: parsed.liveTraceVisible ?? defaultSettings.liveTraceVisible,
+      responseMode: parsed.responseMode ?? defaultSettings.responseMode,
+      awarenessAnswerMode:
+        parsed.awarenessAnswerMode === "llm-primary" || parsed.awarenessAnswerMode === "evidence-first"
+          ? parsed.awarenessAnswerMode
+          : defaultSettings.awarenessAnswerMode
     };
   } catch {
     return defaultSettings;
@@ -120,6 +154,12 @@ const buildOptimisticMessages = (
   };
 };
 
+export interface SendMessageOptions {
+  ragMode?: RagToggleMode;
+  webMode?: RagToggleMode;
+  traceMode?: RagToggleMode;
+}
+
 const buildHealthCheckFeedback = (
   modelHealth: ModelHealth
 ): { state: "success" | "failure"; message: string } => {
@@ -186,10 +226,160 @@ const hydrateSettingsFromModel = (
         selectedModel: modelHealth.model
       };
 
-export const useLocalChat = () => {
+export const useLocalChat = (options: { chatVisible?: boolean } = {}) => {
+  const chatVisible = options.chatVisible ?? true;
   const state = useSyncExternalStore(localChatStore.subscribe, localChatStore.getState);
+  const liveUsageTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const liveUsageSessionRef = useRef<{
+    conversationId: string;
+    messageId: string;
+    query: string;
+    answerMode: AwarenessQueryAnswer["answerMode"];
+  } | null>(null);
+  const liveUsageInFlightRef = useRef(false);
+
+  // Rec #6: streaming chunk batching via requestAnimationFrame
+  const streamingContentRef = useRef<string>("");
+  const streamingRafRef = useRef<number | null>(null);
+  const pendingAssistantIdRef = useRef<string | null>(null);
+
+  const stopLiveUsageRefresh = (reason = "stop"): void => {
+    void reason;
+    if (liveUsageTimerRef.current !== null) {
+      clearInterval(liveUsageTimerRef.current);
+      liveUsageTimerRef.current = null;
+    }
+    liveUsageSessionRef.current = null;
+    liveUsageInFlightRef.current = false;
+  };
+
+  const updateLiveUsageMessage = (
+    session: NonNullable<typeof liveUsageSessionRef.current>,
+    answer: AwarenessQueryAnswer
+  ): void => {
+    const refreshedAt = answer.generatedAt ?? new Date().toISOString();
+    localChatStore.setState({
+      messages: localChatStore.getState().messages.map((message) =>
+        message.id === session.messageId
+          ? {
+              ...message,
+              content: formatLiveUsageReply(answer, refreshedAt),
+              metadata: buildLiveUsageMessageMetadata(answer, session.query, refreshedAt)
+            }
+          : message
+      )
+    });
+  };
+
+  const startLiveUsageRefresh = (session: {
+    conversationId: string;
+    messageId: string;
+    query: string;
+    answerMode: AwarenessQueryAnswer["answerMode"];
+  }): void => {
+    if (!chatVisible) {
+      return;
+    }
+
+    stopLiveUsageRefresh("restart");
+    liveUsageSessionRef.current = session;
+
+    const tick = async (): Promise<void> => {
+      if (liveUsageInFlightRef.current) {
+        return;
+      }
+
+      const currentSession = liveUsageSessionRef.current;
+      if (
+        !currentSession ||
+        !chatVisible ||
+        currentSession.conversationId !== localChatStore.getState().activeConversationId
+      ) {
+        stopLiveUsageRefresh("inactive");
+        return;
+      }
+
+      liveUsageInFlightRef.current = true;
+      try {
+        const refreshed = await awarenessBridge().queryAwareness?.({
+          query: currentSession.query,
+          awarenessAnswerMode: currentSession.answerMode ?? undefined,
+          refresh: true,
+          hints: {
+            force: true,
+            strictGrounding: true,
+            maxScanMs: 250
+          }
+        });
+
+        const latestSession = liveUsageSessionRef.current;
+        if (!refreshed || !latestSession || latestSession.messageId !== currentSession.messageId || !isLiveUsageAnswer(refreshed)) {
+          return;
+        }
+
+        updateLiveUsageMessage(latestSession, refreshed);
+      } catch {
+        // Leave the last known live values in place.
+      } finally {
+        liveUsageInFlightRef.current = false;
+      }
+    };
+
+    liveUsageTimerRef.current = setInterval(() => {
+      void tick();
+    }, LIVE_USAGE_REFRESH_MS);
+  };
 
   useEffect(() => {
+    let appHealthTimer: ReturnType<typeof setTimeout> | null = null;
+    let cancelled = false;
+
+    const nextAppHealthDelay = (): number => {
+      const runtime = localChatStore.getState().appHealth?.awareness;
+      if (typeof document !== "undefined" && document.hidden) {
+        return 12_000;
+      }
+      return runtime?.ready ? 8_000 : 4_000;
+    };
+
+    const refreshAppHealth = async (): Promise<void> => {
+      try {
+        const nextAppHealth = await bridge().getAppHealth();
+        localChatStore.setState({ appHealth: nextAppHealth });
+      } catch {
+        // Keep the last known app health in place.
+      }
+    };
+
+    const scheduleAppHealthPoll = (delayMs = nextAppHealthDelay()): void => {
+      appHealthTimer = setTimeout(() => {
+        void refreshAppHealth().finally(() => {
+          if (!cancelled) {
+            scheduleAppHealthPoll(nextAppHealthDelay());
+          }
+        });
+      }, delayMs);
+    };
+
+    const flushStreamingContent = (): void => {
+      streamingRafRef.current = null;
+      const pendingId = pendingAssistantIdRef.current;
+      const content = streamingContentRef.current;
+      if (!pendingId) {
+        return;
+      }
+      const s = localChatStore.getState();
+      // Only update if still streaming this message
+      if (s.pendingAssistantId !== pendingId) {
+        return;
+      }
+      localChatStore.setState({
+        messages: s.messages.map((message) =>
+          message.id === pendingId ? { ...message, content } : message
+        )
+      });
+    };
+
     const unsubscribeChatStream = bridge().subscribeChatStream((event) => {
       const currentState = localChatStore.getState();
       if (
@@ -200,14 +390,29 @@ export const useLocalChat = () => {
         return;
       }
 
-      localChatStore.setState({
-        messages: currentState.messages.map((message) =>
-          message.id === currentState.pendingAssistantId
-            ? { ...message, content: event.content }
-            : message
-        )
-      });
+      // Rec #6: accumulate content in a ref and flush via RAF — one store update per frame
+      streamingContentRef.current = event.content;
+      pendingAssistantIdRef.current = currentState.pendingAssistantId;
+
+      if (streamingRafRef.current === null) {
+        streamingRafRef.current = requestAnimationFrame(flushStreamingContent);
+      }
     });
+
+    const unsubscribeReasoningTrace =
+      bridge().subscribeReasoningTrace?.((event) => {
+        const currentState = localChatStore.getState();
+        if (
+          currentState.pendingRequestId !== event.requestId ||
+          currentState.activeConversationId !== event.conversationId
+        ) {
+          return;
+        }
+
+        localChatStore.setState({
+          pendingReasoningTrace: event.trace
+        });
+      }) ?? (() => {});
 
     const unsubscribeBackgroundSync = bridge().subscribeBackgroundSync((event) => {
       localChatStore.setState({
@@ -238,6 +443,7 @@ export const useLocalChat = () => {
           availableModels: mergeAvailableModels(availableModels, [hydratedSettings.selectedModel, modelHealth.model]),
           settings: hydratedSettings
         });
+        scheduleAppHealthPoll();
         await ensureConversation();
       } catch (error) {
         setError(error instanceof Error ? error.message : "Failed to initialize local chat");
@@ -249,9 +455,67 @@ export const useLocalChat = () => {
 
     return () => {
       unsubscribeChatStream();
+      unsubscribeReasoningTrace();
       unsubscribeBackgroundSync();
+      stopLiveUsageRefresh("unmount");
+      if (appHealthTimer !== null) {
+        clearTimeout(appHealthTimer);
+      }
+      cancelled = true;
+      if (streamingRafRef.current !== null) {
+        cancelAnimationFrame(streamingRafRef.current);
+        streamingRafRef.current = null;
+      }
     };
   }, []);
+
+  // Rec #5: use the last message ID as a stable dep instead of the full messages array.
+  // This prevents the effect from running on every streaming chunk (content change ≠ new message).
+  const lastMessageId = state.messages[state.messages.length - 1]?.id ?? null;
+
+  useEffect(() => {
+    if (!chatVisible || state.loading || state.pendingRequestId || !state.activeConversationId) {
+      stopLiveUsageRefresh(chatVisible ? "inactive" : "hidden");
+      return;
+    }
+
+    const lastAssistant = [...state.messages].reverse().find((message) => message.role === "assistant");
+    const awareness = lastAssistant?.metadata?.awareness;
+    if (!lastAssistant || awareness?.intentFamily !== "live-usage" || !awareness.query) {
+      stopLiveUsageRefresh("no-live-usage");
+      return;
+    }
+
+    const currentSession = liveUsageSessionRef.current;
+    if (
+      currentSession &&
+      currentSession.conversationId === state.activeConversationId &&
+      currentSession.messageId === lastAssistant.id &&
+      currentSession.query === awareness.query
+    ) {
+      return;
+    }
+
+    startLiveUsageRefresh({
+      conversationId: state.activeConversationId,
+      messageId: lastAssistant.id,
+      query: awareness.query,
+      answerMode: awareness.answerMode ?? state.settings.awarenessAnswerMode
+    });
+
+    return () => {
+      if (!chatVisible) {
+        stopLiveUsageRefresh("hidden");
+      }
+    };
+  }, [
+    chatVisible,
+    state.activeConversationId,
+    state.loading,
+    lastMessageId,
+    state.pendingRequestId,
+    state.settings.awarenessAnswerMode
+  ]);
 
   const refreshModelHealth = async (): Promise<void> => {
     const currentSettings = localChatStore.getState().settings;
@@ -345,6 +609,7 @@ export const useLocalChat = () => {
   };
 
   const createConversation = async (): Promise<void> => {
+    stopLiveUsageRefresh("new-conversation");
     localChatStore.setState({ loading: true });
     try {
       const created = await bridge().createConversation();
@@ -353,7 +618,8 @@ export const useLocalChat = () => {
         conversations,
         activeConversationId: created.conversation.id,
         messages: created.messages,
-        contextPreview: null
+        contextPreview: null,
+        pendingReasoningTrace: null
       });
       setError(null);
     } catch (error) {
@@ -364,7 +630,8 @@ export const useLocalChat = () => {
   };
 
   const switchConversation = async (conversationId: string): Promise<void> => {
-    localChatStore.setState({ loading: true });
+    stopLiveUsageRefresh("switch-conversation");
+    localChatStore.setState({ loading: true, pendingReasoningTrace: null });
     try {
       await loadConversation(conversationId);
       setError(null);
@@ -376,7 +643,8 @@ export const useLocalChat = () => {
   };
 
   const deleteConversation = async (conversationId: string): Promise<void> => {
-    localChatStore.setState({ loading: true });
+    stopLiveUsageRefresh("delete-conversation");
+    localChatStore.setState({ loading: true, pendingReasoningTrace: null });
     try {
       await bridge().deleteConversation(conversationId);
       await ensureConversation();
@@ -394,12 +662,14 @@ export const useLocalChat = () => {
     if (!state.activeConversationId) {
       return;
     }
+    stopLiveUsageRefresh("clear-conversation");
     localChatStore.setState({ loading: true });
     try {
       const result = await bridge().clearConversation(state.activeConversationId);
       localChatStore.setState({
         messages: result.messages,
-        contextPreview: null
+        contextPreview: null,
+        pendingReasoningTrace: null
       });
       setError(null);
     } catch (error) {
@@ -412,12 +682,14 @@ export const useLocalChat = () => {
   const sendMessage = async (
     text: string,
     regenerate = false,
-    options?: { useWebSearch?: boolean }
+    options?: SendMessageOptions
   ): Promise<void> => {
     if (!state.activeConversationId || !text.trim()) {
       return;
     }
-    const resolvedUseWebSearch = options?.useWebSearch ?? state.settings.defaultWebSearch;
+    stopLiveUsageRefresh("new-message");
+    const resolvedUseWebSearch =
+      options?.webMode === "on" ? true : options?.webMode === "off" ? false : undefined;
     const requestId = `chat-${Date.now()}-${Math.random().toString(16).slice(2)}`;
     const previousMessages = state.messages;
     const previousConversations = state.conversations;
@@ -432,6 +704,7 @@ export const useLocalChat = () => {
       loading: true,
       pendingRequestId: requestId,
       pendingAssistantId: optimistic.pendingAssistant.id,
+      pendingReasoningTrace: null,
       messages: optimistic.messages,
       modelHealth: state.modelHealth
         ? {
@@ -449,8 +722,24 @@ export const useLocalChat = () => {
         requestId,
         useWebSearch: resolvedUseWebSearch,
         modelOverride: state.settings.selectedModel || undefined,
-        responseMode: state.settings.responseMode
+        responseMode: state.settings.responseMode,
+        awarenessAnswerMode: state.settings.awarenessAnswerMode,
+        ragOptions: {
+          enabled: options?.ragMode ?? "inherit",
+          useWeb: options?.webMode ?? "inherit",
+          showTrace: options?.traceMode ?? "inherit",
+          defaultEnabled: state.settings.advancedRagEnabled,
+          defaultUseWeb: state.settings.defaultWebSearch && state.settings.webInRagEnabled,
+          defaultShowTrace: state.settings.liveTraceVisible,
+          workspaceIndexingEnabled: state.settings.workspaceIndexingEnabled
+        }
       });
+      // Rec #6: cancel any pending RAF flush before writing the authoritative final state
+      if (streamingRafRef.current !== null) {
+        cancelAnimationFrame(streamingRafRef.current);
+        streamingRafRef.current = null;
+      }
+      pendingAssistantIdRef.current = null;
       localChatStore.setState({
         conversations: mergeConversation(localChatStore.getState().conversations, response.conversation),
         activeConversationId: response.conversation.id,
@@ -458,7 +747,8 @@ export const useLocalChat = () => {
         contextPreview: response.contextPreview,
         modelHealth: response.modelStatus,
         pendingRequestId: null,
-        pendingAssistantId: null
+        pendingAssistantId: null,
+        pendingReasoningTrace: null
       });
       setError(null);
     } catch (error) {
@@ -466,7 +756,8 @@ export const useLocalChat = () => {
         messages: previousMessages,
         conversations: previousConversations,
         pendingRequestId: null,
-        pendingAssistantId: null
+        pendingAssistantId: null,
+        pendingReasoningTrace: null
       });
       setError(error instanceof Error ? error.message : "Failed to send message");
     } finally {
@@ -479,6 +770,7 @@ export const useLocalChat = () => {
     if (!lastUser) {
       return;
     }
+    stopLiveUsageRefresh("regenerate");
     await sendMessage(lastUser.content, true);
   };
 
@@ -491,8 +783,18 @@ export const useLocalChat = () => {
       return;
     }
     try {
-      const contextPreview = await bridge().getContextPreview(state.activeConversationId, lastUser.content);
-      localChatStore.setState({ contextPreview });
+      const awareContextPreview = await bridge().getContextPreview(
+        state.activeConversationId,
+        lastUser.content,
+        state.settings.awarenessAnswerMode,
+        {
+          defaultEnabled: state.settings.advancedRagEnabled,
+          defaultUseWeb: state.settings.defaultWebSearch && state.settings.webInRagEnabled,
+          defaultShowTrace: state.settings.liveTraceVisible,
+          workspaceIndexingEnabled: state.settings.workspaceIndexingEnabled
+        }
+      );
+      localChatStore.setState({ contextPreview: awareContextPreview });
     } catch (error) {
       setError(error instanceof Error ? error.message : "Failed to refresh context preview");
     }
@@ -533,6 +835,32 @@ export const useLocalChat = () => {
     await navigator.clipboard.writeText(lastAssistant.content);
   };
 
+  const runPromptEvaluation = async (request: PromptEvaluationRequest): Promise<void> => {
+    if (localChatStore.getState().promptEvaluationRunning) {
+      return;
+    }
+
+    localChatStore.setState({
+      promptEvaluationRunning: true,
+      promptEvaluationError: null
+    });
+
+    try {
+      const result = await bridge().runPromptEvaluation(request);
+      localChatStore.setState({
+        promptEvaluationResult: result,
+        promptEvaluationError: null
+      });
+    } catch (error) {
+      localChatStore.setState({
+        promptEvaluationError:
+          error instanceof Error ? error.message : "Failed to run prompt evaluation"
+      });
+    } finally {
+      localChatStore.setState({ promptEvaluationRunning: false });
+    }
+  };
+
   return {
     ...state,
     refreshModelHealth,
@@ -548,6 +876,7 @@ export const useLocalChat = () => {
     searchMemories,
     deleteMemory,
     copyLastResponse,
+    runPromptEvaluation,
     startAssistMode,
     stopAssistMode
   };

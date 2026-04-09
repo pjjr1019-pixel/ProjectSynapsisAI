@@ -2,6 +2,42 @@ import { act, fireEvent, render, screen, waitFor } from "@testing-library/react"
 import App from "../../apps/desktop/src/App";
 
 const chatStreamListeners = new Set<(event: { requestId: string; conversationId: string; content: string }) => void>();
+const reasoningTraceListeners = new Set<
+  (event: {
+    requestId: string;
+    conversationId: string;
+    trace: {
+      requestId: string;
+      conversationId: string;
+      mode: "fast" | "advanced";
+      triggerReason: string;
+      visible: boolean;
+      startedAt: string;
+      completedAt: string | null;
+      confidence: "low" | "medium" | "high";
+      retrieval: {
+        memoryKeyword: number;
+        memorySemantic: number;
+        workspace: number;
+        awareness: number;
+        web: number;
+        total: number;
+      };
+      groundedSourceCount: number;
+      stages: Array<{
+        id: string;
+        label: string;
+        status: "pending" | "running" | "completed" | "skipped" | "error";
+        startedAt: string | null;
+        endedAt: string | null;
+        durationMs: number | null;
+        summary: string | null;
+        detail: string | null;
+        sourceCount: number | null;
+      }>;
+    };
+  }) => void
+>();
 const backgroundSyncListeners = new Set<
   (event: {
     conversationId: string;
@@ -42,6 +78,45 @@ const mockBridge = {
   subscribeChatStream: (listener: (event: { requestId: string; conversationId: string; content: string }) => void) => {
     chatStreamListeners.add(listener);
     return () => chatStreamListeners.delete(listener);
+  },
+  subscribeReasoningTrace: (
+    listener: (event: {
+      requestId: string;
+      conversationId: string;
+      trace: {
+        requestId: string;
+        conversationId: string;
+        mode: "fast" | "advanced";
+        triggerReason: string;
+        visible: boolean;
+        startedAt: string;
+        completedAt: string | null;
+        confidence: "low" | "medium" | "high";
+        retrieval: {
+          memoryKeyword: number;
+          memorySemantic: number;
+          workspace: number;
+          awareness: number;
+          web: number;
+          total: number;
+        };
+        groundedSourceCount: number;
+        stages: Array<{
+          id: string;
+          label: string;
+          status: "pending" | "running" | "completed" | "skipped" | "error";
+          startedAt: string | null;
+          endedAt: string | null;
+          durationMs: number | null;
+          summary: string | null;
+          detail: string | null;
+          sourceCount: number | null;
+        }>;
+      };
+    }) => void
+  ) => {
+    reasoningTraceListeners.add(listener);
+    return () => reasoningTraceListeners.delete(listener);
   },
   subscribeBackgroundSync: (
     listener: (event: {
@@ -123,6 +198,7 @@ describe("app-start smoke", () => {
   beforeEach(() => {
     window.localStorage.clear();
     chatStreamListeners.clear();
+    reasoningTraceListeners.clear();
     backgroundSyncListeners.clear();
     getModelHealth.mockClear();
     listAvailableModels.mockClear();
@@ -218,6 +294,14 @@ describe("app-start smoke", () => {
               summarySnippet: string;
               recentMessagesCount: number;
               estimatedChars: number;
+              awarenessAnswerMode?: "evidence-first" | "llm-primary" | null;
+              awarenessGrounding?: {
+                status: "grounded" | "partial" | "weak";
+                confidenceLevel: "low" | "medium" | "high";
+                isFresh: boolean;
+                ageMs: number;
+                traceCount: number;
+              } | null;
               webSearch: {
                 status: "used" | "off";
                 query: string;
@@ -253,7 +337,12 @@ describe("app-start smoke", () => {
       JSON.stringify({
         selectedModel: "qwen2.5:3b-instruct-q4_K_M",
         defaultWebSearch: true,
-        responseMode: "smart"
+        advancedRagEnabled: true,
+        workspaceIndexingEnabled: true,
+        webInRagEnabled: true,
+        liveTraceVisible: false,
+        responseMode: "smart",
+        awarenessAnswerMode: "llm-primary"
       })
     );
 
@@ -265,7 +354,8 @@ describe("app-start smoke", () => {
     expect(await screen.findByDisplayValue("Smart")).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole("tab", { name: "Chat" }));
-    expect(await screen.findByLabelText("Use recent web search")).toBeChecked();
+    expect(await screen.findByRole("button", { name: "Web: Default On" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "RAG: Default On" })).toBeInTheDocument();
     const input = await screen.findByPlaceholderText("Message local model...");
     expect(input).toBeVisible();
 
@@ -280,10 +370,74 @@ describe("app-start smoke", () => {
     const [{ requestId }] = mockBridge.sendChat.mock.calls[0];
     expect(mockBridge.sendChat.mock.calls[0][0]).toMatchObject({
       text: "hello fast",
-      useWebSearch: true,
       modelOverride: "qwen2.5:3b-instruct-q4_K_M",
-      responseMode: "smart"
+      responseMode: "smart",
+      awarenessAnswerMode: "llm-primary",
+      ragOptions: {
+        enabled: "inherit",
+        useWeb: "inherit",
+        showTrace: "inherit",
+        defaultEnabled: true,
+        defaultUseWeb: true,
+        defaultShowTrace: false,
+        workspaceIndexingEnabled: true
+      }
     });
+    await act(async () => {
+      reasoningTraceListeners.forEach((listener) =>
+        listener({
+          requestId,
+          conversationId: "c-1",
+          trace: {
+            requestId,
+            conversationId: "c-1",
+            mode: "advanced",
+            triggerReason: "auto-complexity",
+            visible: true,
+            startedAt: "2026-04-08T01:00:00.500Z",
+            completedAt: null,
+            confidence: "medium",
+            retrieval: {
+              memoryKeyword: 1,
+              memorySemantic: 1,
+              workspace: 2,
+              awareness: 1,
+              web: 0,
+              total: 5
+            },
+            groundedSourceCount: 5,
+            stages: [
+              {
+                id: "route",
+                label: "Route",
+                status: "completed",
+                startedAt: "2026-04-08T01:00:00.500Z",
+                endedAt: "2026-04-08T01:00:00.600Z",
+                durationMs: 100,
+                summary: "advanced path",
+                detail: null,
+                sourceCount: 0
+              },
+              {
+                id: "synthesize",
+                label: "Synthesize",
+                status: "running",
+                startedAt: "2026-04-08T01:00:00.700Z",
+                endedAt: null,
+                durationMs: null,
+                summary: "Building reply",
+                detail: null,
+                sourceCount: 5
+              }
+            ]
+          }
+        })
+      );
+    });
+
+    expect(await screen.findByText("Live Reasoning")).toBeInTheDocument();
+    expect(screen.getByText(/advanced \| auto-complexity/i)).toBeInTheDocument();
+    expect(screen.getByText("Synthesize")).toBeInTheDocument();
     await act(async () => {
       chatStreamListeners.forEach((listener) =>
         listener({
@@ -352,6 +506,14 @@ describe("app-start smoke", () => {
           summarySnippet: "",
           recentMessagesCount: 2,
           estimatedChars: 12,
+          awarenessAnswerMode: "llm-primary",
+          awarenessGrounding: {
+            status: "partial",
+            confidenceLevel: "medium",
+            isFresh: true,
+            ageMs: 24,
+            traceCount: 3
+          },
           webSearch: {
             status: "used",
             query: "hello fast",
@@ -377,8 +539,27 @@ describe("app-start smoke", () => {
     });
 
     expect(await screen.findByText("hello from stream and final")).toBeInTheDocument();
+    expect(await screen.findByText(/mode llm-primary/i)).toBeInTheDocument();
+    expect(await screen.findByText(/grounding partial\/medium/i)).toBeInTheDocument();
     expect(await screen.findByText("Sources")).toBeInTheDocument();
     expect((await screen.findAllByText("Example source")).length).toBeGreaterThan(0);
     expect(screen.getByPlaceholderText("Message local model...")).toBeVisible();
+  });
+
+  it("persists the awareness answer mode as a global chat setting", async () => {
+    Object.assign(window, { synai: mockBridge });
+    render(<App />);
+
+    fireEvent.click(await screen.findByRole("tab", { name: "Settings" }));
+    const awarenessModeSelect = (await screen.findByDisplayValue("Evidence-first")) as HTMLSelectElement;
+    expect(awarenessModeSelect.value).toBe("evidence-first");
+
+    fireEvent.change(awarenessModeSelect, { target: { value: "llm-primary" } });
+    await waitFor(() => {
+      const raw = window.localStorage.getItem("synai.chat.settings");
+      expect(raw).not.toBeNull();
+      const parsed = JSON.parse(raw ?? "{}") as { awarenessAnswerMode?: string };
+      expect(parsed.awarenessAnswerMode).toBe("llm-primary");
+    });
   });
 });

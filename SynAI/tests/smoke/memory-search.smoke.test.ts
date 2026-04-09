@@ -5,7 +5,7 @@ import {
   configureMemoryDatabase,
   searchMemoryRecords,
   upsertMemory
-} from "../../packages/memory/src";
+} from "../../packages/Awareness-Reasoning/src/memory";
 
 describe("memory-search smoke", () => {
   it("finds memories by keyword", async () => {

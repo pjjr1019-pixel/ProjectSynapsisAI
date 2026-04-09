@@ -1,0 +1,104 @@
+[
+  {
+    "name": "workspace-only grounding",
+    "prompt": "Analyze the entire workspace and explain the indexing path",
+    "answerText": "The workspace index scans text and code files and stores chunk metadata.",
+    "sources": [
+      {
+        "id": "workspace:chunk-1",
+        "kind": "workspace",
+        "title": "src/retrieval/workspace-index.ts",
+        "label": "src/retrieval/workspace-index.ts:1-40",
+        "excerpt": "The index scans text and code files and stores chunk metadata."
+      }
+    ],
+    "expected": {
+      "routeMode": "advanced",
+      "topKinds": ["workspace"],
+      "minCitationCoverage": 1,
+      "confidence": "medium",
+      "conflictedClaimCount": 0,
+      "unsupportedClaimCount": 0
+    }
+  },
+  {
+    "name": "mixed workspace and web grounding",
+    "prompt": "Compare the local implementation to current documentation and explain the tradeoff",
+    "answerText": "The local implementation uses incremental indexing. The documentation emphasizes fallback keyword ranking when embeddings are unavailable.",
+    "sources": [
+      {
+        "id": "workspace:chunk-2",
+        "kind": "workspace",
+        "title": "src/retrieval/workspace-index.ts",
+        "label": "src/retrieval/workspace-index.ts:80-120",
+        "excerpt": "The index uses incremental refreshes by default."
+      },
+      {
+        "id": "web:doc-1",
+        "kind": "web",
+        "title": "Product docs",
+        "label": "Docs",
+        "excerpt": "When embeddings are unavailable the system falls back to keyword ranking."
+      }
+    ],
+    "expected": {
+      "routeMode": "advanced",
+      "topKinds": ["workspace", "web"],
+      "minCitationCoverage": 1,
+      "confidence": "high",
+      "conflictedClaimCount": 0,
+      "unsupportedClaimCount": 0
+    }
+  },
+  {
+    "name": "awareness-only grounding",
+    "prompt": "Analyze my current CPU usage and explain why it matters",
+    "answerText": "CPU is using 12%. Why it matters: this spike may be temporary.",
+    "sources": [
+      {
+        "id": "awareness:api:cpu-snapshot",
+        "kind": "awareness",
+        "title": "CPU snapshot",
+        "label": "api evidence",
+        "excerpt": "CPU is using 12%."
+      }
+    ],
+    "expected": {
+      "routeMode": "advanced",
+      "topKinds": ["awareness"],
+      "minCitationCoverage": 1,
+      "confidence": "high",
+      "conflictedClaimCount": 0,
+      "unsupportedClaimCount": 0
+    }
+  },
+  {
+    "name": "conflicting evidence",
+    "prompt": "Analyze this complex status mismatch and explain what is true",
+    "answerText": "The service is enabled.",
+    "sources": [
+      {
+        "id": "awareness:api:service-a",
+        "kind": "awareness",
+        "title": "Service state",
+        "label": "api evidence",
+        "excerpt": "The service is enabled."
+      },
+      {
+        "id": "web:status-1",
+        "kind": "web",
+        "title": "Status page",
+        "label": "Example",
+        "excerpt": "The service is disabled."
+      }
+    ],
+    "expected": {
+      "routeMode": "advanced",
+      "topKinds": ["awareness", "web"],
+      "minCitationCoverage": 1,
+      "confidence": "low",
+      "conflictedClaimCount": 1,
+      "unsupportedClaimCount": 0
+    }
+  }
+]

@@ -293,4 +293,72 @@ describe("workflow orchestrator", () => {
       await orchestrator.close();
     }
   });
+
+  it("returns a markdown report body and summary for research workflows", async () => {
+    const orchestrator = createWorkflowOrchestrator({
+      workspaceRoot: "C:/workspace",
+      runtimeRoot: "C:/workspace/.runtime",
+      desktopActions,
+      getMachineAwareness: () => machineAwareness,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null,
+      emitProgress: (event) => {
+        progressEvents.push(event);
+      },
+      browserHost: {
+        search: async () => [],
+        open: async (url: string, visible?: boolean) => ({
+          url,
+          title: visible ? "Visible browser result" : "Hidden browser result",
+          text: "",
+          links: []
+        }),
+        playYoutube: async () => ({
+          url: "https://www.youtube.com",
+          title: "YouTube",
+          text: "",
+          links: []
+        }),
+        click: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        type: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        hotkey: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        close: async () => {}
+      }
+    });
+
+    try {
+      const plan = (await orchestrator.suggestWorkflow("do deep research on the stock market and give me a full summary")) as WorkflowPlan;
+      expect(plan.family).toBe("research-report");
+
+      const result = await orchestrator.executeWorkflow({
+        prompt: plan.prompt,
+        plan,
+        dryRun: true,
+        approvedBy: "qa-operator",
+        approvalToken: null
+      });
+
+      expect(result.status).toBe("simulated");
+      expect(result.reportMarkdown).toContain("## Summary");
+      expect(result.reportSummary).toContain("AI snapshot");
+      expect(result.stepResults.some((step) => step.kind === "write-markdown" && step.status === "simulated")).toBe(true);
+    } finally {
+      await orchestrator.close();
+    }
+  });
 });

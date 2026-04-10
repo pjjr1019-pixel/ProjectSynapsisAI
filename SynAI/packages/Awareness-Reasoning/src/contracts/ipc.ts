@@ -19,9 +19,15 @@ import type {
   ScreenAwarenessStatus,
   ScreenUiTreeSnapshot,
   OfficialKnowledgeSourceStatus,
-  OfficialKnowledgeStatus,
   StartAssistModeOptions
 } from "./awareness";
+import type { OfficialKnowledgeStatus } from "../official-knowledge";
+import type {
+  AgentRuntimeRunResult,
+  AgentTask,
+} from "../../../../../src/agent/contracts/agent-runtime.contracts";
+
+export type { OfficialKnowledgeStatus } from "../official-knowledge";
 
 export const ACTION_SCOPES = [
   "application",
@@ -321,6 +327,8 @@ export interface WorkflowExecutionResult {
   plan: WorkflowPlan;
   status: "executed" | "simulated" | "blocked" | "denied" | "failed";
   summary: string;
+  reportMarkdown?: string | null;
+  reportSummary?: string | null;
   approvalRequired: boolean;
   approvedBy: string | null;
   commandId: string | null;
@@ -562,7 +570,8 @@ export const IPC_CHANNELS = {
   screenUiTree: "screen:ui-tree",
   screenLastEvents: "screen:last-events",
   screenStartAssist: "screen:start-assist",
-  screenStopAssist: "screen:stop-assist"
+  screenStopAssist: "screen:stop-assist",
+  agentRuntimeRun: "agent-runtime:run"
 } as const;
 
 export interface SynAIBridge {
@@ -614,4 +623,5 @@ export interface SynAIBridge {
   getScreenLastEvents(): Promise<AwarenessEvent[]>;
   startAssistMode(options?: StartAssistModeOptions): Promise<ScreenAwarenessStatus>;
   stopAssistMode(reason?: string): Promise<ScreenAwarenessStatus>;
+  runAgentRuntimeTask(task: AgentTask): Promise<AgentRuntimeRunResult>;
 }

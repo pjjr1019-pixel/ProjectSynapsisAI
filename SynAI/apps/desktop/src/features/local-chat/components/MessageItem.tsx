@@ -96,6 +96,9 @@ export function MessageItem({ message, previousUserAt = null, liveTrace = null }
           {taskState.executionSummary ? (
             <p className="mt-0.5 text-[9px] text-slate-300">Execution: {taskState.executionSummary}</p>
           ) : null}
+          {taskState.reportSummary ? (
+            <p className="mt-0.5 text-[9px] text-cyan-200">Report: {taskState.reportSummary}</p>
+          ) : null}
           {taskState.verificationSummary ? (
             <p className="mt-0.5 text-[9px] text-slate-300">Verification: {taskState.verificationSummary}</p>
           ) : null}

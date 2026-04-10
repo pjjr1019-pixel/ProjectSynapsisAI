@@ -14,27 +14,44 @@ describe("web-search smoke", () => {
   });
 
   it("parses recent web results from rss", async () => {
-    global.fetch = vi.fn(async () => ({
-      ok: true,
-      text: async () => `<?xml version="1.0" encoding="UTF-8"?>
+    const fetchMock = vi.fn();
+    fetchMock
+      .mockResolvedValueOnce({
+        ok: true,
+        text: async () => `<?xml version="1.0" encoding="UTF-8"?>
 <rss>
   <channel>
     <item>
-      <title><![CDATA[Latest headline - Example News]]></title>
+      <title><![CDATA[Current AI headline - Example News]]></title>
       <link>https://example.com/story</link>
-      <description><![CDATA[Fresh summary for the story.]]></description>
+      <description><![CDATA[Fresh summary for the current state of AI.]]></description>
       <pubDate>Wed, 08 Apr 2026 01:00:00 GMT</pubDate>
       <source url="https://example.com">Example News</source>
     </item>
   </channel>
 </rss>`
-    })) as typeof fetch;
+      })
+      .mockResolvedValueOnce({
+        ok: true,
+        text: async () => `<!doctype html>
+<html>
+  <body>
+    <article class="result">
+      <a class="result__a" href="https://learn.microsoft.com/en-us/windows/ai/">Windows AI docs</a>
+      <div class="result__snippet">Official documentation for Windows AI features.</div>
+    </article>
+  </body>
+</html>`
+      });
+    global.fetch = fetchMock as typeof fetch;
 
-    const result = await resolveRecentWebContext("latest iran news", true);
+    const result = await resolveRecentWebContext("current state of ai", true);
 
     expect(result.status).toBe("used");
-    expect(result.results[0]?.title).toBe("Latest headline");
+    expect(result.results[0]?.title).toContain("Current AI headline");
     expect(result.results[0]?.source).toBe("Example News");
+    expect(result.results[0]?.sourceFamily).toBe("news");
     expect(result.results[0]?.url).toBe("https://example.com/story");
+    expect(result.results.some((entry) => entry.sourceFamily === "official-doc")).toBe(true);
   });
 });

@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/agent/**/*",
+    "tests/agent/**/*",
+    "SynAI/src/agent/**/*",
+    "SynAI/tests/agent/contracts/**/*"
+  ]
+}

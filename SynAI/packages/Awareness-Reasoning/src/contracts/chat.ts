@@ -94,6 +94,8 @@ export interface ChatGovernedTaskMetadata {
   rollbackSummary: string | null;
   gapClass: string | null;
   remediationSummary: string | null;
+  reportMarkdown?: string | null;
+  reportSummary?: string | null;
   artifacts: ChatGovernedTaskArtifact[];
 }
 

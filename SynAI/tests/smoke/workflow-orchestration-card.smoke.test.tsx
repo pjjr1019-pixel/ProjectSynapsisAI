@@ -99,6 +99,8 @@ describe("workflow-orchestration-card smoke", () => {
       plan: samplePlan,
       status: "simulated",
       summary: "Workflow simulated.",
+      reportMarkdown: "# Research Report\n\n## Summary\nDetailed research findings.\n\n## Evidence\n- Collected web results.",
+      reportSummary: "A concise research report.",
       approvalRequired: true,
       approvedBy: "qa-operator",
       commandId: "cmd-1",
@@ -165,5 +167,8 @@ describe("workflow-orchestration-card smoke", () => {
     expect(screen.getByText("Artifacts")).toBeInTheDocument();
     expect(screen.getAllByText(/ai-report\.md/).length).toBeGreaterThan(0);
     expect(screen.getByText("Last Result")).toBeInTheDocument();
+    expect(screen.getByText("Report summary")).toBeInTheDocument();
+    expect(screen.getByText("A concise research report.")).toBeInTheDocument();
+    expect(screen.getByText("Report preview")).toBeInTheDocument();
   });
 });

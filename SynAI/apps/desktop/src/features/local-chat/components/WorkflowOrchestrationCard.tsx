@@ -280,6 +280,20 @@ export function WorkflowOrchestrationCard() {
               Verification: {lastResult.verification.summary}
             </p>
           ) : null}
+          {lastResult.reportSummary ? (
+            <div className="mt-1 rounded border border-cyan-500/20 bg-cyan-500/5 p-1.5">
+              <p className="text-slate-400">Report summary</p>
+              <p className="mt-0.5 text-slate-200">{lastResult.reportSummary}</p>
+            </div>
+          ) : null}
+          {lastResult.reportMarkdown ? (
+            <details className="mt-1 rounded border border-slate-800 bg-slate-950/50 p-1.5">
+              <summary className="cursor-pointer text-slate-300">Report preview</summary>
+              <pre className="mt-1 max-h-48 overflow-auto whitespace-pre-wrap font-mono text-[8px] leading-snug text-slate-200">
+                {lastResult.reportMarkdown}
+              </pre>
+            </details>
+          ) : null}
           {lastResult.artifactPaths.length > 0 ? (
             <div className="mt-1">
               <p className="text-slate-400">Saved files</p>

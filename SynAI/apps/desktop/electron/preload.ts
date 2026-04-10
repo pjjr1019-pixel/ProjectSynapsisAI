@@ -80,7 +80,8 @@ const api: SynAIBridge = {
   getScreenUiTree: () => ipcRenderer.invoke(IPC_CHANNELS.screenUiTree),
   getScreenLastEvents: () => ipcRenderer.invoke(IPC_CHANNELS.screenLastEvents),
   startAssistMode: (options) => ipcRenderer.invoke(IPC_CHANNELS.screenStartAssist, options),
-  stopAssistMode: (reason) => ipcRenderer.invoke(IPC_CHANNELS.screenStopAssist, { reason })
+  stopAssistMode: (reason) => ipcRenderer.invoke(IPC_CHANNELS.screenStopAssist, { reason }),
+  runAgentRuntimeTask: (task) => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeRun, task)
 };
 
 contextBridge.exposeInMainWorld("synai", api);

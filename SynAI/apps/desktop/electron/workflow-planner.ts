@@ -508,7 +508,7 @@ const researchPlan = (
   ];
 
   if (web?.status === "used") {
-    for (const [index, result] of web.results.slice(0, 2).entries()) {
+    for (const [index, result] of web.results.slice(0, 4).entries()) {
       steps.push({
         id: `open-source-${index + 1}`,
         kind: "browser-open",

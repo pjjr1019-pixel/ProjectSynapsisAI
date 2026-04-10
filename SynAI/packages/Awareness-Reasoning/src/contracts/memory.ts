@@ -63,12 +63,22 @@ export interface RetrievedMemory {
 
 export type WebSearchStatus = "off" | "used" | "no_results" | "error";
 
+export const WEB_SEARCH_SOURCE_FAMILIES = [
+  "news",
+  "web",
+  "official-doc",
+  "authoritative"
+] as const;
+
+export type WebSearchSourceFamily = (typeof WEB_SEARCH_SOURCE_FAMILIES)[number];
+
 export interface WebSearchResult {
   title: string;
   url: string;
   source: string;
   snippet: string;
   publishedAt: string | null;
+  sourceFamily?: WebSearchSourceFamily | null;
 }
 
 export interface WebSearchContext {

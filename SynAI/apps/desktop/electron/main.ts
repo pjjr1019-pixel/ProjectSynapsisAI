@@ -89,6 +89,8 @@ import {
   createDesktopActionService,
   resolveDefaultDesktopActionPaths
 } from "./desktop-actions";
+import type { AgentTask } from "../../../src/agent/contracts";
+import { runAgentTask } from "../../../src/agent/runtime";
 import { createGovernedChatService } from "./governed-chat";
 import { createWorkflowOrchestrator } from "./workflow-orchestrator";
 import {
@@ -1812,7 +1814,10 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       const conversationWithMessages =
         (await loadConversationRecord(conversationId)) ?? (await resolveConversation(conversationId));
       if (payload.runMode !== "evaluation") {
-        scheduleConversationMaintenance(conversationId, payload.text, governedTurn.assistantReply, modelOverride, {
+        const maintenanceReply = governedTurn.taskState?.reportMarkdown?.trim()
+          ? governedTurn.taskState.reportSummary ?? governedTurn.executionResult?.reportSummary ?? governedTurn.assistantReply
+          : governedTurn.assistantReply;
+        scheduleConversationMaintenance(conversationId, payload.text, maintenanceReply, modelOverride, {
           skipMemories: false
         });
       }
@@ -2652,6 +2657,8 @@ const registerIpc = (): void => {
   ipcMain.handle(IPC_CHANNELS.screenStopAssist, async (_event, payload?: { reason?: string }) =>
     awarenessEngine?.stopAssistMode(payload?.reason) ?? Promise.resolve(null)
   );
+
+  ipcMain.handle(IPC_CHANNELS.agentRuntimeRun, async (_event, task: AgentTask) => runAgentTask(task));
 };
 
 app.whenReady().then(async () => {

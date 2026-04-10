@@ -1,0 +1,114 @@
+repo:
+  name: SynAI
+  posture: foundation-first
+  canonical_agent_root: src/agent
+  app_root: SynAI
+  shim_root: SynAI/src/agent
+  legacy_guidance: SynAI/docs/AGENT_INSERTION_POINTS.md
+
+areas:
+  - path: src/agent
+    purpose: Canonical agent foundation: contracts, core helpers, skills, planner, executor, perception, policy, runtime, verifier, audit, evals.
+    risk_level: medium
+    notes: New agent logic should start here.
+
+  - path: SynAI/src/agent
+    purpose: Thin compatibility re-exports that keep app imports and shim tests stable.
+    risk_level: low
+    notes: Keep logic out of this layer unless the export surface changes.
+
+  - path: "SynAI/apps/desktop/electron"
+    purpose: Electron main process, preload bridge, IPC, workflow orchestration, desktop actions, and the agentRuntimeRun bridge.
+    risk_level: high
+    notes: Main-process only. Avoid renderer coupling.
+
+  - path: "SynAI/apps/desktop/src"
+    purpose: React renderer UI for chat, history, tools, settings, memory, workflow cards, and context preview.
+    risk_level: medium
+    notes: UI-only. Do not add privileged side effects here.
+
+  - path: "SynAI/packages/Awareness-Reasoning/src"
+    purpose: Local AI, memory, context assembly, screen/machine/file awareness, retrieval, web search, and capability-eval plumbing.
+    risk_level: high
+    notes: Shared reasoning and storage logic. Keep it deterministic and test-backed.
+
+  - path: "SynAI/packages/Governance and exicution/src"
+    purpose: Governance policy, approvals, command hashing/bus, Windows action catalog, execution helpers, and remediation.
+    risk_level: high
+    notes: Shared policy/execution layer. Treat approvals and command hashes as stable contracts.
+
+  - path: tests
+    purpose: Root Jest tests for the agent foundation.
+    risk_level: low
+    notes: Update alongside any root agent contract or runtime change.
+
+  - path: "SynAI/tests"
+    purpose: Vitest coverage for app, governance, capability, smoke, and e2e behavior.
+    risk_level: medium
+    notes: Keep these in sync with app and shared-package changes.
+
+  - path: "SynAI/capability"
+    purpose: Capability cards, schemas, and retrieval hints for eval-driven workflows.
+    risk_level: medium
+    notes: Changes here can alter the behavior harness even when runtime code stays untouched.
+
+  - path: docs
+    purpose: Repo docs and foundation draft material.
+    risk_level: low
+    notes: Safe place for high-signal support docs.
+
+  - path: context
+    purpose: Agent support layer: guide, repo map, blast radius manifest, glossary, and prompt packs.
+    risk_level: low
+    notes: This is the canonical support layer for future agent runs.
+
+boundaries:
+  main_process:
+    - "SynAI/apps/desktop/electron"
+  renderer:
+    - "SynAI/apps/desktop/src"
+  shared_logic:
+    - "src/agent"
+    - "SynAI/src/agent"
+    - "SynAI/packages/Awareness-Reasoning/src"
+    - "SynAI/packages/Governance and exicution/src"
+  storage:
+    - "SynAI/packages/Awareness-Reasoning/src/memory/storage"
+    - "SynAI/.runtime"
+    - "SynAI/HKCU/Software/SynAI"
+  tests:
+    - "tests"
+    - "SynAI/tests"
+    - "SynAI/packages/Awareness-Reasoning/tests"
+
+safe_to_edit:
+  - context
+  - docs/decisions
+  - specs/agent
+  - tests/agent
+  - src/agent
+  - tsconfig.agent-foundation.json
+  - scripts/validate-agent-foundation.ps1
+
+danger_zones:
+  - "SynAI/apps/desktop/electron/main.ts"
+  - "SynAI/apps/desktop/electron/workflow-orchestrator.ts"
+  - "SynAI/apps/desktop/electron/workflow-planner.ts"
+  - "SynAI/packages/Governance and exicution/src/policy/engine.ts"
+  - "SynAI/packages/Governance and exicution/src/execution/windows-actions.ts"
+  - "SynAI/packages/Governance and exicution/src/execution/windows-action-catalog.ts"
+  - "SynAI/packages/Awareness-Reasoning/src/memory/context/assembler.ts"
+  - "SynAI/packages/Awareness-Reasoning/src/memory/storage"
+  - "SynAI/capability/cards"
+  - "SynAI/capability/schemas"
+
+key_docs_to_read_first:
+  - "context/AGENT_GUIDE.md"
+  - "context/BLAST_RADIUS_MANIFEST.yaml"
+  - "context/GLOSSARY.yaml"
+  - "SynAI/README.md"
+  - "SynAI/docs/AGENT_INSERTION_POINTS.md"
+  - "SynAI/docs/architecture/governed-execution-roadmap.md"
+  - "SynAI/docs/governance-execution-usage.md"
+  - "SynAI/docs/architecture/phase-1-chat-overview.md"
+  - "docs/AGENT_RUNTIME_FOUNDATION_DRAFT.md"

@@ -58,6 +58,19 @@ const approvalConfirmations = new Set(["approve", "approved", "confirm", "confir
 
 const isApprovalConfirmation = (value: string): boolean => approvalConfirmations.has(normalize(value));
 
+const REPORT_SUMMARY_PATTERNS = [
+  /\bsummar(?:ize|ise|y)\b/i,
+  /\brecap\b/i,
+  /\bresults?\b/i,
+  /\bfindings?\b/i,
+  /\bwhat did (?:it|you) find\b/i,
+  /\bwhat(?:'s| is) the results?\b/i,
+  /\bshort summary\b/i,
+  /\bbrief summary\b/i
+];
+
+const isReportSummaryRequest = (value: string): boolean => REPORT_SUMMARY_PATTERNS.some((pattern) => pattern.test(value));
+
 const extractQuotedText = (value: string): string | null => {
   const quoted = value.match(/["'`]{1}([^"'`]{2,})["'`]{1}/)?.[1]?.trim();
   return quoted?.length ? quoted : null;
@@ -94,6 +107,58 @@ const buildClarificationReply = (reason: string): string =>
 
 const buildDenialReply = (reason: string): string =>
   [reason, "", "Iâ€™m not going to guess on this one."].join("\n");
+
+const summarizeReportMarkdown = (markdown: string, fallback: string | null = null): string => {
+  const lines = markdown.split(/\r?\n/).map((line) => line.trim());
+  const summaryIndex = lines.findIndex((line) => line === "## Summary");
+  if (summaryIndex >= 0) {
+    const collected: string[] = [];
+    for (const line of lines.slice(summaryIndex + 1)) {
+      if (line.startsWith("## ")) {
+        break;
+      }
+      if (line) {
+        collected.push(line);
+      }
+    }
+    if (collected.length > 0) {
+      return collected.join(" ");
+    }
+  }
+
+  const heading = lines.find((line) => line.startsWith("# "));
+  const body = lines
+    .filter((line) => line && !line.startsWith("#") && !line.startsWith("Generated:") && !line.startsWith("Saved to:"))
+    .slice(0, 4)
+    .join(" ");
+
+  return fallback ?? heading ?? body ?? markdown.slice(0, 600);
+};
+
+const findLatestReportPayload = (
+  messages: ChatMessage[]
+): {
+  reportMarkdown: string | null;
+  reportSummary: string | null;
+  task: ChatGovernedTaskMetadata;
+} | null => {
+  const lastAssistant = [...messages]
+    .reverse()
+    .find(
+      (message) =>
+        message.role === "assistant" &&
+        Boolean(message.metadata?.task?.reportMarkdown || message.metadata?.task?.reportSummary)
+    );
+  if (!lastAssistant?.metadata?.task) {
+    return null;
+  }
+
+  return {
+    reportMarkdown: lastAssistant.metadata.task.reportMarkdown ?? null,
+    reportSummary: lastAssistant.metadata.task.reportSummary ?? null,
+    task: lastAssistant.metadata.task
+  };
+};
 
 const findPendingApproval = (
   messages: ChatMessage[]
@@ -183,11 +248,13 @@ const buildTaskState = (
 });
 
 const summarizeWorkflowResult = (result: WorkflowExecutionResult): string =>
-  result.status === "executed"
-    ? result.summary || "Workflow executed."
-    : result.status === "simulated"
-      ? result.summary || "Workflow simulated."
-      : result.error ?? result.summary;
+  result.reportSummary?.trim().length
+    ? result.reportSummary
+    : result.status === "executed"
+      ? result.summary || "Workflow executed."
+      : result.status === "simulated"
+        ? result.summary || "Workflow simulated."
+        : result.error ?? result.summary;
 
 const summarizeDesktopResult = (result: DesktopActionResult): string =>
   result.status === "executed"
@@ -288,11 +355,29 @@ export const createGovernedChatService = (options: {
     const pending = findPendingApproval(input.messages);
     const historyFindings = await mineHistory();
     const webContext = input.getRecentWebContext ? await input.getRecentWebContext(input.text) : null;
-    const route = await routeGovernedChatTask({
+  const route = await routeGovernedChatTask({
       request: await toTaskPlanRequest(input, webContext),
       historyFindings
     });
     const approvedBy = input.approvedBy?.trim() || "local-chat-user";
+    const latestReport = findLatestReportPayload(input.messages);
+
+    if (latestReport && isReportSummaryRequest(input.text)) {
+      const assistantReply =
+        latestReport.reportSummary ??
+        (latestReport.reportMarkdown ? summarizeReportMarkdown(latestReport.reportMarkdown, latestReport.task.reportSummary ?? null) : null) ??
+        "I found the last report, but I could not summarize it.";
+      return {
+        handled: true,
+        assistantReply,
+        taskState: null,
+        route: null,
+        executionResult: null,
+        verification: null,
+        gap: null,
+        remediation: null
+      };
+    }
 
     if (route.actionType === "answer-only" && route.decision === "allow") {
       return {
@@ -517,6 +602,8 @@ export const createGovernedChatService = (options: {
         rollbackSummary: summarizeRollbackSummary(executionResult),
         gapClass: gap?.primary_gap ?? null,
         remediationSummary: remediation?.patch_summary ?? null,
+        reportMarkdown: executionResult.reportMarkdown ?? null,
+        reportSummary: executionResult.reportSummary ?? null,
         artifacts: buildTaskMetadataArtifact({
           route: sourceLabel,
           workflowRequest,
@@ -527,6 +614,10 @@ export const createGovernedChatService = (options: {
           remediation
         })
       });
+      const reportReply =
+        executionResult.reportMarkdown?.trim() && (executionResult.status === "executed" || executionResult.status === "simulated")
+          ? executionResult.reportMarkdown
+          : null;
       await writeAuditRecord(auditPath, {
         requestId: input.requestId,
         conversationId: input.conversationId,
@@ -575,9 +666,9 @@ export const createGovernedChatService = (options: {
       });
       return {
         handled: true,
-        assistantReply: verification.passed
+        assistantReply: reportReply ?? (verification.passed
           ? `Completed the workflow: ${executionResult.summary}`
-          : `I ran the workflow, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`,
+          : `I ran the workflow, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`),
         taskState,
         route: executionRoute,
         executionResult,
@@ -1176,6 +1267,8 @@ export const createGovernedChatService = (options: {
         rollbackSummary: summarizeRollbackSummary(executionResult),
         gapClass: gap?.primary_gap ?? null,
         remediationSummary: remediation?.patch_summary ?? null,
+        reportMarkdown: executionResult.reportMarkdown ?? null,
+        reportSummary: executionResult.reportSummary ?? null,
         artifacts: buildTaskMetadataArtifact({
           route: "workflow",
           workflowRequest,
@@ -1186,6 +1279,10 @@ export const createGovernedChatService = (options: {
           remediation
         })
       });
+      const reportReply =
+        executionResult.reportMarkdown?.trim() && (executionResult.status === "executed" || executionResult.status === "simulated")
+          ? executionResult.reportMarkdown
+          : null;
       await writeAuditRecord(auditPath, {
         requestId: input.requestId,
         conversationId: input.conversationId,
@@ -1198,9 +1295,9 @@ export const createGovernedChatService = (options: {
       });
       return {
         handled: true,
-        assistantReply: verification.passed
+        assistantReply: reportReply ?? (verification.passed
           ? `Completed the workflow: ${executionResult.summary}`
-          : `I ran the workflow, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`,
+          : `I ran the workflow, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`),
         taskState,
         route,
         executionResult,

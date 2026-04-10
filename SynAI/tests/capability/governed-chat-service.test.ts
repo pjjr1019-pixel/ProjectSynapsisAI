@@ -53,6 +53,17 @@ const buildWorkflowPlan = (): WorkflowPlan => {
   };
 };
 
+const sampleReportMarkdown = `# AI Research Report
+
+## Summary
+A concise research report.
+
+## Evidence
+- Collected web results.
+`;
+
+const sampleReportSummary = "A concise research report.";
+
 const buildWorkflowExecutionResult = (plan: WorkflowPlan): WorkflowExecutionResult => {
   const stepResult: WorkflowStepResult = {
     id: "step-1",
@@ -69,6 +80,8 @@ const buildWorkflowExecutionResult = (plan: WorkflowPlan): WorkflowExecutionResu
     plan,
     status: "executed",
     summary: "Workflow executed successfully.",
+    reportMarkdown: sampleReportMarkdown,
+    reportSummary: sampleReportSummary,
     approvalRequired: true,
     approvedBy: "qa-operator",
     commandId: "cmd-1",
@@ -297,9 +310,93 @@ describe("governed chat service", () => {
     expect(result.handled).toBe(true);
     expect(result.executionResult?.status).toBe("executed");
     expect(result.taskState?.approvalState.pending).toBe(false);
+    expect(result.taskState?.reportMarkdown).toContain("# AI Research Report");
+    expect(result.taskState?.reportSummary).toBe(sampleReportSummary);
     expect(approvalIssued).toBe(1);
     expect(executionCalled).toBe(1);
-    expect(result.assistantReply).toContain("Completed the workflow");
+    expect(result.assistantReply).toBe(sampleReportMarkdown);
+
+    await rm(root, { recursive: true, force: true });
+  });
+
+  it("summarizes the latest report when the user asks for the results", async () => {
+    const root = join(tmpdir(), `synai-test-${Date.now()}-governed-chat-summary`);
+    const dbPath = join(root, "memory.json");
+    const runtimeRoot = join(root, "runtime");
+    configureMemoryDatabase(dbPath);
+
+    const desktopActions = {
+      suggestDesktopAction: () => null,
+      issueDesktopActionApproval: () => {
+        throw new Error("desktop approval should not be requested");
+      },
+      executeDesktopAction: async () => {
+        throw new Error("desktop execution should not be requested");
+      }
+    };
+
+    const workflowOrchestrator = {
+      suggestWorkflow: async () => null,
+      issueWorkflowApproval: async () => {
+        throw new Error("workflow approval should not be requested");
+      },
+      executeWorkflow: async () => {
+        throw new Error("workflow execution should not be requested");
+      }
+    };
+
+    const conversation = await createConversationRecord();
+    await appendChatMessage(conversation.id, "user", "Please research AI and save a report in Documents.");
+    await appendChatMessage(conversation.id, "assistant", sampleReportMarkdown, undefined, {
+      task: {
+        ...buildPendingTask(),
+        approvalState: {
+          required: false,
+          pending: false,
+          reason: null,
+          approver: "qa-operator",
+          tokenId: null,
+          expiresAt: null
+        },
+        executionSummary: sampleReportSummary,
+        verificationSummary: "Verification passed.",
+        rollbackSummary: null,
+        gapClass: null,
+        remediationSummary: null,
+        reportMarkdown: sampleReportMarkdown,
+        reportSummary: sampleReportSummary
+      }
+    });
+    const loaded = await loadConversationRecord(conversation.id);
+
+    const service = createGovernedChatService({
+      workspaceRoot: root,
+      runtimeRoot,
+      desktopActions,
+      workflowOrchestrator,
+      getMachineAwareness: () => null,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null
+    });
+
+    const result = await service.handleTurn({
+      requestId: "req-summary",
+      conversationId: conversation.id,
+      text: "what's the results of the research",
+      messages: loaded?.messages ?? [],
+      workspaceRoot: root,
+      desktopPath: "C:/Users/Pgiov/Desktop",
+      documentsPath: "C:/Users/Pgiov/Documents",
+      runtimeRoot,
+      getMachineAwareness: () => null,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null
+    });
+
+    expect(result.handled).toBe(true);
+    expect(result.assistantReply).toBe(sampleReportSummary);
+    expect(result.route).toBeNull();
+    expect(result.taskState).toBeNull();
 
     await rm(root, { recursive: true, force: true });
   });

@@ -53,7 +53,7 @@ const formatMemory = (memory: MemoryEntry): string =>
   `[${memory.category}] (${memory.importance.toFixed(2)}) ${memory.text}`;
 
 const formatWebResult = (result: WebSearchResult): string =>
-  `${result.title} | ${result.source}${result.publishedAt ? ` | ${result.publishedAt}` : ""}\n${result.snippet}\n${result.url}`;
+  `${result.title} | ${result.source}${result.sourceFamily ? ` | ${result.sourceFamily}` : ""}${result.publishedAt ? ` | ${result.publishedAt}` : ""}\n${result.snippet}\n${result.url}`;
 
 const formatWorkspaceHit = (hit: WorkspaceChunkHit, index: number): string =>
   `[WS${index + 1}] ${hit.relativePath}:${hit.startLine}-${hit.endLine} | ${hit.reason} | score ${hit.score.toFixed(

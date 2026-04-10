@@ -221,13 +221,38 @@ const buildSourcesSection = (
   const sources: string[] = [];
   if (webResults?.status === "used") {
     for (const result of webResults.results.slice(0, 5)) {
-      sources.push(`- [${result.title}](${result.url}) - ${result.source}`);
+      sources.push(
+        `- [${result.title}](${result.url}) - ${result.sourceFamily ?? "web"} | ${result.source}${
+          result.publishedAt ? ` | ${result.publishedAt}` : ""
+        }`
+      );
     }
   }
   for (const result of browserResults.slice(0, 5)) {
     sources.push(`- [${result.title || result.url}](${result.url})`);
   }
   return sources.length > 0 ? sources : ["- No sources recorded."];
+};
+
+const buildReportSummary = (input: {
+  plan: WorkflowPlan;
+  webResults: Awaited<ReturnType<typeof resolveRecentWebContext>> | null;
+  browserResults: WorkflowBrowserResult[];
+}): string => {
+  const sourceTitles = [
+    ...(input.webResults?.status === "used" ? input.webResults.results : []),
+    ...input.browserResults
+  ]
+    .slice(0, 3)
+    .map((result) => result.title || result.url)
+    .filter((value) => value.length > 0);
+  const evidenceHighlights = input.plan.evidence.slice(0, 2).map((entry) => entry.summary).filter(Boolean);
+  const summaryParts = [
+    input.plan.summary,
+    sourceTitles.length > 0 ? `Top sources: ${sourceTitles.join(" | ")}.` : null,
+    evidenceHighlights.length > 0 ? `Key evidence: ${evidenceHighlights.join(" | ")}` : null
+  ].filter((part): part is string => Boolean(part));
+  return summaryParts.join(" ");
 };
 
 const createReportMarkdown = (input: {
@@ -534,6 +559,8 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
       ? await resolveRecentWebContext(plan.prompt, true)
       : null;
     const browserResults: WorkflowBrowserResult[] = [];
+    let reportMarkdown: string | null = null;
+    let reportSummary: string | null = null;
     let failure: { stepId: string; stepIndex: number; message: string } | null = null;
 
     const pushProgress = (
@@ -794,6 +821,12 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
                   sources: buildSourcesSection(webContext, browserResults),
                   savedPath: targetPath
                 });
+          reportMarkdown = reportBody;
+          reportSummary = buildReportSummary({
+            plan,
+            webResults: webContext,
+            browserResults
+          });
           if (!dryRun) {
             await writeTextFile(targetPath, reportBody);
             artifactPaths.push(targetPath);
@@ -923,6 +956,8 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         plan,
         status: "failed",
         summary,
+        reportMarkdown,
+        reportSummary,
         approvalRequired: plan.approvalRequired,
         approvedBy,
         commandId: null,
@@ -987,6 +1022,8 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
       plan,
       status: dryRun ? "simulated" : "executed",
       summary,
+      reportMarkdown,
+      reportSummary,
       approvalRequired: plan.approvalRequired,
       approvedBy,
       commandId: null,

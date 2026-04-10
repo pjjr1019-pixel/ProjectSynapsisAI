@@ -1,0 +1,198 @@
+manifest_version: 1
+posture: foundation-first
+
+areas:
+  - area: "src/agent/contracts/agent-runtime.contracts.ts"
+    purpose: Canonical agent schemas and exported contract types.
+    risk_level: high
+    dependencies:
+      - zod
+      - "tests/agent"
+      - "SynAI/tests/agent/contracts"
+      - "SynAI/src/agent/contracts"
+    allowed_edit_types:
+      - "add backward-compatible fields with defaults"
+      - "extend types and docs"
+      - "add or update schema tests"
+    forbidden_changes:
+      - "rename existing enum values"
+      - "remove fields without a migration plan"
+      - "change strict parse behavior without tests"
+    validation_commands:
+      - "npx jest --runInBand --config jest.config.js tests/agent"
+      - "cd SynAI; npx vitest run tests/agent/contracts/agent-runtime.contracts.test.ts"
+    rollback_concerns:
+      - "Any contract drift can break both root imports and the SynAI shim."
+    notes:
+      - "Treat this as the source of truth for task, step, skill, policy, audit, and runtime result shapes."
+
+  - area: "src/agent/runtime/noop-runtime.ts"
+    purpose: Current end-to-end foundation runtime that exercises planner, policy, executor, perception, verifier, and audit.
+    risk_level: high
+    dependencies:
+      - "src/agent/contracts"
+      - "src/agent/core"
+      - "src/agent/planner"
+      - "src/agent/executor"
+      - "src/agent/perception"
+      - "src/agent/policy"
+      - "src/agent/verifier"
+      - "src/agent/skills"
+      - "src/agent/audit"
+    allowed_edit_types:
+      - "add deterministic behavior"
+      - "improve test coverage"
+      - "add mock skills"
+    forbidden_changes:
+      - "introduce real Windows automation"
+      - "change allow/block/escalate semantics without tests"
+      - "remove audit events"
+    validation_commands:
+      - "npx jest --runInBand --config jest.config.js tests/agent/runtime/runtime.noop.test.ts"
+      - "npx jest --runInBand --config jest.config.js tests/agent"
+    rollback_concerns:
+      - "Behavior changes here alter the runtime smoke path used by multiple docs and tests."
+    notes:
+      - "Keep this deterministic and mock-backed until later layers land."
+
+  - area: "src/agent/{core,planner,executor,perception,policy,verifier,audit,skills}"
+    purpose: Supporting modules for the current foundation runtime.
+    risk_level: medium
+    dependencies:
+      - "src/agent/contracts"
+    allowed_edit_types:
+      - "pure helper changes"
+      - "new mock capabilities"
+      - "test-only additions"
+    forbidden_changes:
+      - "cross-layer coupling that skips the contracts"
+      - "platform side effects outside adapters"
+    validation_commands:
+      - "npx jest --runInBand --config jest.config.js tests/agent"
+    rollback_concerns:
+      - "Small helper changes can still change task, step, or status behavior."
+    notes:
+      - "Keep responsibilities separate: planner plans, executor runs, verifier checks, audit records."
+
+  - area: "SynAI/src/agent"
+    purpose: App-facing compatibility shim that re-exports the canonical root agent foundation.
+    risk_level: low
+    dependencies:
+      - "src/agent"
+      - "SynAI/tests/agent/contracts"
+    allowed_edit_types:
+      - "re-exports"
+      - "compatibility wrappers"
+      - "test coverage for the shim"
+    forbidden_changes:
+      - "new business logic"
+      - "silent divergence from root exports"
+    validation_commands:
+      - "cd SynAI; npx vitest run tests/agent/contracts/agent-runtime.contracts.test.ts"
+    rollback_concerns:
+      - "If the shim diverges, the Electron app can import stale or partial contracts."
+    notes:
+      - "Mirror root exports only."
+
+  - area: "SynAI/apps/desktop/electron"
+    purpose: Main-process integration, IPC, workflow orchestration, desktop actions, and the agent runtime bridge.
+    risk_level: high
+    dependencies:
+      - "SynAI/packages/Awareness-Reasoning/src"
+      - "SynAI/packages/Governance and exicution/src"
+      - "SynAI/src/agent"
+    allowed_edit_types:
+      - "IPC wiring"
+      - "adapter changes"
+      - "test-backed orchestration changes"
+    forbidden_changes:
+      - "renderer-only shortcuts for privileged operations"
+      - "hidden side effects"
+      - "breaking IPC names without coordinated updates"
+    validation_commands:
+      - "cd SynAI; npx vitest run tests/capability/workflow-orchestrator.test.ts"
+      - "cd SynAI; npx vitest run tests/smoke/app-start.smoke.test.tsx"
+    rollback_concerns:
+      - "Main-process bugs can block the entire app."
+    notes:
+      - "This is the narrowest stable entry point for agent runtime invocation."
+
+  - area: "SynAI/packages/Awareness-Reasoning/src"
+    purpose: Shared awareness, memory, retrieval, local AI, and context assembly stack.
+    risk_level: high
+    dependencies:
+      - "SynAI/packages/Awareness-Reasoning/src/contracts"
+      - "SynAI/packages/Awareness-Reasoning/src/memory/storage"
+      - "SynAI/packages/Awareness-Reasoning/src/retrieval"
+    allowed_edit_types:
+      - "context assembly changes"
+      - "new retrieval helpers"
+      - "test-backed storage tweaks"
+    forbidden_changes:
+      - "breaking prompt-context shapes without app test updates"
+      - "silent storage format changes"
+    validation_commands:
+      - "cd SynAI; npx vitest run packages/Awareness-Reasoning/tests/grounding.test.ts packages/Awareness-Reasoning/tests/awareness-engine.test.ts tests/smoke/context-assembly.smoke.test.ts"
+    rollback_concerns:
+      - "Context assembly changes can alter chat behavior and retrieval quality."
+    notes:
+      - "This layer is shared by chat, workflow planning, and eval tooling."
+
+  - area: "SynAI/packages/Governance and exicution/src"
+    purpose: Shared policy, approvals, command bus, Windows action catalog, and governed execution helpers.
+    risk_level: high
+    dependencies:
+      - "SynAI/packages/Governance and exicution/src/policy"
+      - "SynAI/packages/Governance and exicution/src/commands"
+      - "SynAI/packages/Governance and exicution/src/execution"
+      - "SynAI/packages/Governance and exicution/src/approvals"
+    allowed_edit_types:
+      - "policy rule changes"
+      - "catalog additions"
+      - "approval flow tests"
+    forbidden_changes:
+      - "bypassing approval tokens"
+      - "unbounded destructive actions"
+      - "changing command hashes without coordinated tests"
+    validation_commands:
+      - "cd SynAI; npx vitest run tests/capability/policy-engine.test.ts tests/capability/governance-command-bus.test.ts tests/capability/workflow-orchestrator.test.ts"
+    rollback_concerns:
+      - "Governance regressions can expose unsafe execution paths."
+    notes:
+      - "Treat approval and risk semantics as stable contracts."
+
+  - area: "SynAI/capability"
+    purpose: Capability cards, schemas, and retrieval hints for eval-driven behavior.
+    risk_level: medium
+    dependencies:
+      - "SynAI/packages/Awareness-Reasoning/src/capability-eval"
+    allowed_edit_types:
+      - "add cards"
+      - "update schemas"
+      - "update retrieval hints"
+    forbidden_changes:
+      - "card/schema drift without eval updates"
+    validation_commands:
+      - "cd SynAI; npm run capability:run -- --card-id windows.highest-ram-process"
+    rollback_concerns:
+      - "Cards can encode expectations that other layers use as ground truth."
+    notes:
+      - "Keep card changes aligned with tests and docs."
+
+  - area: "tests"
+    purpose: Root Jest coverage for the foundation layer.
+    risk_level: low
+    dependencies:
+      - "src/agent"
+      - "tsconfig.agent-foundation.json"
+    allowed_edit_types:
+      - "add coverage"
+      - "tighten assertions"
+    forbidden_changes:
+      - "tests that mask runtime drift"
+    validation_commands:
+      - "npx jest --runInBand --config jest.config.js tests/agent"
+    rollback_concerns:
+      - "Overly broad assertions can hide subtle contract changes."
+    notes:
+      - "These tests are the fastest signal for foundation regressions."

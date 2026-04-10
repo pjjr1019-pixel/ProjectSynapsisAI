@@ -5,7 +5,7 @@ describe("governance policy engine", () => {
   it("allows non-destructive low-risk commands", () => {
     const decision = evaluateGovernancePolicy({
       commandName: "capability.sandbox.apply",
-      command: "write-json capability/cards/windows/test.json",
+      command: "write-json packages/Capability-Catalog/cards/windows/test.json",
       riskClass: "low"
     });
     expect(decision.outcome).toBe("allow");

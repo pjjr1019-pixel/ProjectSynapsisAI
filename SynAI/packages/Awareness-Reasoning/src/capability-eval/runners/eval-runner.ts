@@ -1,4 +1,5 @@
 import { randomUUID } from "node:crypto";
+import { CAPABILITY_CARDS_ROOT } from "@capability-catalog";
 import { loadCapabilityCards, findCardById, type LoadedCapabilityCard } from "../cards";
 import { loadCapabilityCardFromFile } from "../schema";
 import type {
@@ -307,7 +308,7 @@ export const runCapabilityEval = async (
 };
 
 export const defaultRunnerOptions = (workspaceRoot: string): CapabilityRunnerOptions => ({
-  cardsRoot: `${workspaceRoot}/capability/cards`,
+  cardsRoot: `${workspaceRoot}/${CAPABILITY_CARDS_ROOT}`,
   artifactsRoot: `${workspaceRoot}/.runtime/capability-eval`,
   workspaceRoot,
   mode: "proposal-only",

@@ -1,8 +1,14 @@
 import type { ApprovalToken, DesktopActionRequest, DesktopActionResult, WorkflowExecutionRequest, WorkflowExecutionResult } from "@contracts";
+import type {
+  ActionProposal,
+  ActionRequest,
+  ActionResult,
+  ExecutionContext,
+  RiskClassification,
+} from "@agent-runtime/contracts";
+import { createBindingHash, createRuntimeId, nowIso } from "@agent-runtime/core";
+import type { AgentActionAdapter } from "@agent-runtime/executor";
 import { buildWindowsActionPreview, findWindowsActionDefinitionById } from "@governance-execution/execution/windows-action-catalog";
-import type { ActionProposal, ActionRequest, ActionResult, ExecutionContext, RiskClassification } from "../../../src/agent/contracts";
-import { createBindingHash, createRuntimeId, nowIso } from "../../../../src/agent/core";
-import type { AgentActionAdapter } from "../../../src/agent/executor";
 import type { DesktopActionService } from "./desktop-actions";
 import type { WorkflowOrchestrator } from "./workflow-orchestrator";
 

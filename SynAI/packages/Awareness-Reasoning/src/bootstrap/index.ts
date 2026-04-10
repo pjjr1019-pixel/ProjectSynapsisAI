@@ -666,6 +666,11 @@ export const initializeAwarenessEngine = async (
   const fileAwarenessState = await initializeFileAwareness({
     runtimeRoot: paths.fileRuntimeRoot,
     workspaceRoot,
+    roots:
+      options.fileInventory?.roots && options.fileInventory.roots.length > 0
+        ? options.fileInventory.roots
+        : [workspaceRoot],
+    additionalRoots: options.fileInventory?.additionalRoots,
     ...(options.fileInventory ?? {}),
     now
   });

@@ -40,7 +40,7 @@ const e2eCard: CapabilityTestCard = {
 describe("capability remediation loop e2e smoke", () => {
   it("handles failing capability with remediation proposal and sandbox rerun", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-e2e-"));
-    const cardsRoot = path.join(workspaceRoot, "capability", "cards");
+    const cardsRoot = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards");
     const artifactsRoot = path.join(workspaceRoot, ".runtime", "capability-eval");
     await mkdir(cardsRoot, { recursive: true });
     await writeFile(path.join(cardsRoot, "e2e-card.json"), `${JSON.stringify(e2eCard, null, 2)}\n`, "utf8");

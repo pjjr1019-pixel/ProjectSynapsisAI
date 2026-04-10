@@ -1,5 +1,9 @@
 import type { GovernedTaskGapClassification } from "./gap-classifier";
 import type { GovernedTaskPlanResult, GovernedTaskRemediationPlan } from "./types";
+import {
+  CAPABILITY_CARDS_ROOT,
+  CAPABILITY_RETRIEVAL_HINTS_PATH
+} from "@capability-catalog";
 
 export interface GovernedTaskRemediationInput {
   route: GovernedTaskPlanResult;
@@ -139,7 +143,7 @@ export const planGovernedTaskRemediation = (
         exact_file_targets: [
           "SynAI/packages/Awareness-Reasoning/src/governance-history/miner.ts",
           "SynAI/packages/Awareness-Reasoning/src/memory/index.ts",
-          "SynAI/capability/retrieval/index-hints.json"
+          `SynAI/${CAPABILITY_RETRIEVAL_HINTS_PATH}`
         ],
         risk_level: "low",
         safe_autofix_allowed: true,
@@ -193,7 +197,7 @@ export const planGovernedTaskRemediation = (
       return {
         ...basePlan(input),
         exact_file_targets: [
-          "SynAI/capability/cards/governance-exec/*.json",
+          `SynAI/${CAPABILITY_CARDS_ROOT}/governance-exec/*.json`,
           "SynAI/tests/governance/*.test.ts"
         ],
         risk_level: "low",
@@ -217,4 +221,3 @@ export const planGovernedTaskRemediation = (
       };
   }
 };
-

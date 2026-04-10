@@ -1,15 +1,25 @@
 # Root dependency and build outputs
 /node_modules/
+/SynAI/node_modules/
 /.runtime/
+/SynAI/.runtime/
+/SynAI/HKCU/
 /dist/
+/SynAI/dist/
 /coverage/
+/SynAI/coverage/
 /.vite/
+/SynAI/.vite/
 /.vitest/
+/SynAI/.vitest/
 /.cache/
+/SynAI/.cache/
 
 # Local temp and runtime artifacts
 /tmp/
+/SynAI/tmp/
 /temp/
+/SynAI/temp/
 /*.log
 /*.log.*
 /*.pid

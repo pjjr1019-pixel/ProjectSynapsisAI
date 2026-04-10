@@ -3,7 +3,7 @@
 ## 2026-04-10
 
 ### Added
-- Canonical 5-layer agent runtime implementation in root `src/agent` covering typed action substrate, perception evidence, planner/executor/verifier flow, durable runtime jobs/checkpoints, and policy/audit/eval contracts.
+- Canonical 5-layer agent runtime implementation in `SynAI/packages/Agent-Runtime/src` covering typed action substrate, perception evidence, planner/executor/verifier flow, durable runtime jobs/checkpoints, and policy/audit/eval contracts.
 - File-backed runtime state and audit stores with inspectable job history, checkpoint persistence, progress events, and replay-friendly runtime artifacts.
 - Electron main-process runtime bridge, preload APIs, and a compact Tools > Workflows runtime inspector for job status, planned steps, policy, verification, audit, and checkpoint summaries.
 - Governed desktop action support with a Windows-first catalog for launch, open, file, folder, and process operations.
@@ -18,7 +18,7 @@
 - Added a governance-execution usage guide and a `capability:mine-history` CLI entrypoint for mining local failures into candidate cards.
 
 ### Improved
-- `SynAI/src/agent` now stays a thin compatibility shim while the canonical runtime logic lives in the root agent modules.
+- `@synai-agent` now resolves directly into `SynAI/packages/Agent-Runtime/src`, which removes the redundant root shim folder while keeping SynAI-facing imports stable.
 - Runtime inspection, cancel, resume, and recover flows now return structured policy, verification, audit, and checkpoint data without rerunning side effects.
 - Live runtime approvals now validate exact approval tokens against the normalized runtime binding hash before any adapter side effect is allowed to run.
 - Runtime outcomes now preserve `clarification_needed` and `denied` separately, including denied adapter results and approval-validation failures.

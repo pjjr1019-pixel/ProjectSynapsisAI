@@ -7,12 +7,12 @@ import {
   discoverCapabilityCards,
   parseCapabilityCliSummary,
   resolveCardArtifactPath
-} from "../../vscode/capability-testing-extension/src/core";
+} from "../../apps/vscode-capability-testing/src/core";
 
 describe("vscode capability extension smoke helpers", () => {
   it("discovers capability cards for Test Explorer listing", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-vscode-"));
-    const cardsRoot = path.join(workspaceRoot, "capability", "cards", "windows");
+    const cardsRoot = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards", "windows");
     await mkdir(cardsRoot, { recursive: true });
     await writeFile(
       path.join(cardsRoot, "one.json"),
@@ -26,7 +26,7 @@ describe("vscode capability extension smoke helpers", () => {
     );
 
     try {
-      const cards = await discoverCapabilityCards(path.join(workspaceRoot, "capability", "cards"));
+      const cards = await discoverCapabilityCards(path.join(workspaceRoot, "packages", "Capability-Catalog", "cards"));
       expect(cards.map((entry) => entry.id)).toEqual(["windows.one", "windows.two"]);
     } finally {
       await rm(workspaceRoot, { recursive: true, force: true });

@@ -21,7 +21,7 @@ describe("governance command bus", () => {
     });
     const queued = bus.enqueueGovernanceCommand({
       commandName: "capability.sandbox.apply",
-      command: "write-json capability/cards/windows/test.json",
+      command: "write-json packages/Capability-Catalog/cards/windows/test.json",
       riskClass: "low"
     });
     const result = await bus.processNextGovernanceCommand();
@@ -50,7 +50,7 @@ describe("governance command bus", () => {
 
     const blockedRequest = {
       commandName: "capability.promote.windows.test",
-      command: "promote capability/cards/windows/test.json",
+      command: "promote packages/Capability-Catalog/cards/windows/test.json",
       riskClass: "high" as const,
       destructive: true
     };

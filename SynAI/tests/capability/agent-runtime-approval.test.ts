@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { createAgentTask } from "@agent-runtime/core";
 import { issueApprovalToken } from "@governance-execution";
-import { createAgentTask } from "../../../src/agent/core";
 import { createAgentRuntimeApprovalValidator } from "../../apps/desktop/electron/agent-runtime-approval";
 
 const buildStep = () => ({

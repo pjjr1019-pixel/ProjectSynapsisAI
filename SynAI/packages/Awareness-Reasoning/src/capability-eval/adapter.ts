@@ -1,5 +1,6 @@
 import * as path from "node:path";
 import { randomUUID } from "node:crypto";
+import { CAPABILITY_CARDS_ROOT } from "@capability-catalog";
 import { createChatExecutionService, type ApprovalToken } from "@governance-execution";
 import type { ChatMessage } from "../contracts/chat";
 import { createOllamaProvider, type LocalAIProvider } from "../local-ai";
@@ -235,6 +236,6 @@ export const resolveDefaultCapabilityRoots = (workspaceRoot: string): {
   cardsRoot: string;
   artifactsRoot: string;
 } => ({
-  cardsRoot: path.join(workspaceRoot, "capability", "cards"),
+  cardsRoot: path.join(workspaceRoot, CAPABILITY_CARDS_ROOT),
   artifactsRoot: path.join(workspaceRoot, ".runtime", "capability-eval")
 });

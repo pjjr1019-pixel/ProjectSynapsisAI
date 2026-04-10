@@ -89,7 +89,7 @@ const buildAdapter = (workspaceRoot: string): CapabilityEvalAdapter => ({
 describe("governed promotion e2e smoke", () => {
   it("blocks promotion without token and promotes with a valid token", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-governed-"));
-    const cardsRoot = path.join(workspaceRoot, "capability", "cards");
+    const cardsRoot = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards");
     const artifactsRoot = path.join(workspaceRoot, ".runtime", "capability-eval");
     await mkdir(cardsRoot, { recursive: true });
     const cardPath = path.join(cardsRoot, "governed-card.json");
@@ -120,7 +120,7 @@ describe("governed promotion e2e smoke", () => {
       expect(blocked.cardResults[0].sandbox?.promoted).toBe(false);
 
       const commandHash = hashGovernanceCommand(
-        createGovernedPromotionHashInput("e2e.governed-promotion", "capability/cards/governed-card.json")
+        createGovernedPromotionHashInput("e2e.governed-promotion", "packages/Capability-Catalog/cards/governed-card.json")
       );
       const token = issueApprovalToken(commandHash, "qa-operator", 10 * 60 * 1000);
       const promoted = await runCapabilityEval({

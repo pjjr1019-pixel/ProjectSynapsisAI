@@ -136,6 +136,12 @@ describe("agent-runtime-card smoke", () => {
       summary: "Checkpoint saved.",
       activeStepId: "step-1",
       completedStepIds: [],
+      continuation: {
+        mode: "reconstructed",
+        resumable: false,
+        sourceCheckpointId: "checkpoint-1",
+        limitation: "Inspection is reconstructive only.",
+      },
       state: { phase: "inspect" }
     },
     checkpoints: [],
@@ -299,6 +305,12 @@ describe("agent-runtime-card smoke", () => {
       summary: "Checkpoint saved.",
       activeStepId: "step-2",
       completedStepIds: ["step-1", "step-2"],
+      continuation: {
+        mode: "reconstructed",
+        resumable: false,
+        sourceCheckpointId: "checkpoint-2",
+        limitation: "Runtime checkpoint is reconstructive only.",
+      },
       state: { phase: "complete" }
     }
   } as unknown as AgentRuntimeRunResult;
@@ -421,6 +433,8 @@ describe("agent-runtime-card smoke", () => {
     expect(screen.getByText("Policy Decision")).toBeInTheDocument();
     expect(screen.getByText("Verification")).toBeInTheDocument();
     expect(screen.getByText("Checkpoint Summary")).toBeInTheDocument();
+    expect(screen.getByText("Continuation")).toBeInTheDocument();
+    expect(screen.getByText("reconstruction only")).toBeInTheDocument();
     expect(screen.getByText("Audit Trail")).toBeInTheDocument();
 
     expect(runtimeProgressListener).not.toBeNull();

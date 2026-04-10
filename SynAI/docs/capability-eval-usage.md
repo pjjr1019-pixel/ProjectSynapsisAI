@@ -6,16 +6,16 @@ Capability eval is a deterministic harness that verifies whether SynAI can compl
 
 ## Architecture Summary
 
-- Test cards: `capability/cards/**/*.json`
-- Card schema: `capability/schemas/capability-test-card.v1.schema.json`
-- Retrieval hints: `capability/retrieval/index-hints.json`
+- Test cards: `packages/Capability-Catalog/cards/**/*.json`
+- Card schema: `packages/Capability-Catalog/schemas/capability-test-card.v1.schema.json`
+- Retrieval hints: `packages/Capability-Catalog/retrieval/index-hints.json`
 - Core eval engine: `packages/Awareness-Reasoning/src/capability-eval/`
 - Governance + execution package: `packages/Governance and exicution/src/`
 - Desktop action catalog and governed runtime: `apps/desktop/electron/desktop-actions.ts`
 - Renderer desktop actions surface: `apps/desktop/src/features/local-chat/components/DesktopActionsCard.tsx`
 - Artifacts/history output: `.runtime/capability-eval/`
 - VS Code tasks: `.vscode/tasks.json`
-- VS Code Testing API wrapper: `vscode/capability-testing-extension/`
+- VS Code Testing API wrapper: `apps/vscode-capability-testing/`
 
 ## Operator Quickstart
 
@@ -48,7 +48,7 @@ From repo root (`SynAI`):
 ## Governed Promotion With Signed Token
 
 1. Compute command hash for the card promotion target:
-`npm run capability:promotion-hash -- --card-id windows.identify-slowing-pc --target-path capability/cards/windows/identify-slowing-pc.json`
+`npm run capability:promotion-hash -- --card-id windows.identify-slowing-pc --target-path packages/Capability-Catalog/cards/windows/identify-slowing-pc.json`
 
 2. Issue signed token:
 `npm run capability:issue-token -- --command-hash <sha256-from-step-1> --approved-by "qa-operator" --json`
@@ -102,7 +102,7 @@ Notes:
 
 ## Adding New Capability Cards
 
-1. Copy an existing card under `capability/cards/`.
+1. Copy an existing card under `packages/Capability-Catalog/cards/`.
 2. Set unique `id`, deterministic prompt, and strict verifier config.
 3. Declare tool boundaries (`allowed_tools`, `forbidden_tools`) and context.
 4. Set `approval_required=true` for risky/destructive scenarios.

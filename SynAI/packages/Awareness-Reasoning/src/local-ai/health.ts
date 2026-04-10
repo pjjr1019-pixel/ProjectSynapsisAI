@@ -1,6 +1,6 @@
 import type { ModelHealth } from "../contracts/health";
 import type { OllamaConfig } from "./ollama";
-import { getOllamaConfig, listOllamaModels } from "./ollama";
+import { getOllamaConfig, isOllamaReachabilityErrorDetail, listOllamaModels } from "./ollama";
 
 export const checkOllamaHealth = async (
   busy = false,
@@ -29,7 +29,7 @@ export const checkOllamaHealth = async (
   } catch (error) {
     const detail = error instanceof Error ? error.message : "Unknown error";
     return {
-      status: detail.includes("fetch") ? "disconnected" : "error",
+      status: isOllamaReachabilityErrorDetail(detail) ? "disconnected" : "error",
       provider: "ollama",
       model: config.model,
       baseUrl: config.baseUrl,

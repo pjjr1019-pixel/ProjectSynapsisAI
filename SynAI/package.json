@@ -9,7 +9,9 @@
     "build": "electron-vite build",
     "preview": "node scripts/dev/run-electron-vite.mjs preview",
     "test": "vitest run",
+    "test:agent-runtime": "jest --runInBand --config jest.agent-runtime.config.cjs packages/Agent-Runtime/tests",
     "test:watch": "vitest",
+    "validate:agent-runtime": "powershell -ExecutionPolicy Bypass -File packages/Agent-Runtime/scripts/validate-agent-foundation.ps1",
     "verify:env": "node scripts/dev/verify-env.mjs",
     "capability:run": "vite-node scripts/capability-eval.ts run",
     "capability:run:all": "vite-node scripts/capability-eval.ts run --all",
@@ -25,11 +27,13 @@
     "@tanstack/react-virtual": "^3.13.23",
     "playwright-core": "^1.59.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
+    "@types/jest": "^30.0.0",
     "@types/node": "^22.10.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
@@ -37,9 +41,11 @@
     "autoprefixer": "^10.4.20",
     "electron": "^33.2.0",
     "electron-vite": "^2.3.0",
+    "jest": "^30.3.0",
     "jsdom": "^25.0.1",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16",
+    "ts-jest": "^29.4.9",
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vitest": "^2.1.8"

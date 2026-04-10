@@ -7,3 +7,10 @@ if (typeof window !== "undefined" && typeof window.HTMLElement !== "undefined") 
     value: vi.fn()
   });
 }
+
+if (!("jest" in globalThis)) {
+  Object.defineProperty(globalThis, "jest", {
+    configurable: true,
+    value: vi
+  });
+}

@@ -71,9 +71,16 @@ const buildRuntimePreviewSection = (preview?: AgentRuntimePreviewSummary | null)
     `Task: ${preview.taskTitle}`,
     `Job: ${preview.jobStatus}${preview.resultStatus ? ` | result ${preview.resultStatus}` : ""}`,
     `Plan steps: ${preview.plannedStepCount}`,
+    `Attempts: ${preview.attemptCount} | Resumes: ${preview.resumeCount}`,
+    `Recovery: ${preview.recoverable ? "recoverable" : "not recoverable"} | ${preview.cancellable ? "cancellable" : "locked"}`,
     preview.policyDecisionType ? `Policy: ${preview.policyDecisionType}` : null,
     preview.verificationStatus ? `Verification: ${preview.verificationStatus}` : null,
     `Audit events: ${preview.auditEventCount}`,
+    preview.latestObservationSummary ? `Latest observation: ${preview.latestObservationSummary}` : null,
+    preview.continuationMode
+      ? `Continuation: ${preview.continuationMode}${preview.continuationResumable ? " | resumable" : ""}`
+      : null,
+    preview.bindingHash ? `Binding: ${preview.bindingHash}` : null,
     preview.checkpointSummary ? `Checkpoint: ${preview.checkpointSummary}` : null
   ].filter((entry): entry is string => Boolean(entry));
 

@@ -77,7 +77,7 @@ const baseExecution: LocalAiEvalExecutionResult = {
     safety_flags: ["approval-required"],
     artifacts: {
       source_ids: ["src-1", "src-2"],
-      changed_files: ["capability/cards/windows/example.json"]
+      changed_files: ["packages/Capability-Catalog/cards/windows/example.json"]
     }
   },
   awarenessAnswer: null

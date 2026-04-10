@@ -37,7 +37,7 @@
 ### VS Code Integration
 - Existing task integration: `.vscode/tasks.json`
 - Added minimal Testing API extension wrapper:
-  - `vscode/capability-testing-extension/*`
+  - `apps/vscode-capability-testing/*`
 
 ## Files/Modules Extended
 
@@ -71,9 +71,9 @@
 - `packages/Awareness-Reasoning/src/capability-eval/types.ts`
 
 ### Capability Data + Schema
-- `capability/schemas/capability-test-card.v1.schema.json`
-- `capability/cards/windows/safely-close-chrome.json`
-- `capability/retrieval/index-hints.json` (new deterministic retrieval metadata hints file)
+- `packages/Capability-Catalog/schemas/capability-test-card.v1.schema.json`
+- `packages/Capability-Catalog/cards/windows/safely-close-chrome.json`
+- `packages/Capability-Catalog/retrieval/index-hints.json` (new deterministic retrieval metadata hints file)
 
 ### Desktop Execution Extraction
 - `apps/desktop/electron/main.ts`
@@ -85,10 +85,10 @@
 
 ### VS Code Wrapper
 - `.vscode/tasks.json`
-- `vscode/capability-testing-extension/package.json`
-- `vscode/capability-testing-extension/tsconfig.json`
-- `vscode/capability-testing-extension/src/core.ts`
-- `vscode/capability-testing-extension/src/extension.ts`
+- `apps/vscode-capability-testing/package.json`
+- `apps/vscode-capability-testing/tsconfig.json`
+- `apps/vscode-capability-testing/src/core.ts`
+- `apps/vscode-capability-testing/src/extension.ts`
 
 ### Scripts and Package Commands
 - `package.json` scripts updated (`capability:issue-token`)

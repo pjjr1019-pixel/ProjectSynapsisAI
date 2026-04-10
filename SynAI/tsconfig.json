@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ES2022",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -16,6 +17,27 @@
       "vite/client"
     ],
     "paths": {
+      "@synai-agent/contracts/agent-runtime.contracts": [
+        "./packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts"
+      ],
+      "@synai-agent": [
+        "./packages/Agent-Runtime/src/index.ts"
+      ],
+      "@synai-agent/*": [
+        "./packages/Agent-Runtime/src/*"
+      ],
+      "@agent-runtime": [
+        "./packages/Agent-Runtime/src/index.ts"
+      ],
+      "@agent-runtime/*": [
+        "./packages/Agent-Runtime/src/*"
+      ],
+      "@capability-catalog": [
+        "./packages/Capability-Catalog/index.ts"
+      ],
+      "@capability-catalog/*": [
+        "./packages/Capability-Catalog/*"
+      ],
       "@contracts": [
         "./packages/Awareness-Reasoning/src/contracts/index.ts"
       ],

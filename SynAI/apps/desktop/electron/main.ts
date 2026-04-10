@@ -79,6 +79,7 @@ import {
   checkOllamaHealth,
   createOllamaProvider,
   getOllamaConfig,
+  isOllamaReachabilityErrorDetail,
   listOllamaModels
 } from "@local-ai";
 import {
@@ -90,11 +91,11 @@ import {
   createDesktopActionService,
   resolveDefaultDesktopActionPaths
 } from "./desktop-actions";
+import type { AgentTask } from "@agent-runtime/contracts";
+import { FileAuditStore } from "@agent-runtime/audit";
+import { createAgentRuntimeService, FileAgentRuntimeStateStore } from "@agent-runtime/runtime";
 import { createAgentRuntimeApprovalValidator } from "./agent-runtime-approval";
 import { createDesktopActionRuntimeAdapter, createWorkflowRuntimeAdapter } from "./agent-runtime-adapters";
-import type { AgentTask } from "../../../src/agent/contracts";
-import { createAgentRuntimeService, FileAgentRuntimeStateStore } from "../../../src/agent/runtime";
-import { FileAuditStore } from "../../../../src/agent/audit";
 import { createGovernedChatService } from "./governed-chat";
 import { createWorkflowOrchestrator } from "./workflow-orchestrator";
 import {
@@ -688,6 +689,10 @@ const createModelStatus = (
     detail,
     checkedAt: new Date().toISOString()
   };
+};
+
+const resolveModelErrorStatus = (detail: string): ModelHealth["status"] => {
+  return isOllamaReachabilityErrorDetail(detail) ? "disconnected" : "error";
 };
 
 const resolvePromptEvaluationSettings = (
@@ -1792,7 +1797,7 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
       assistantMessage,
       messages: conversationWithMessages.messages,
       contextPreview,
-      modelStatus: createModelStatus("error", detail, modelOverride)
+      modelStatus: createModelStatus(resolveModelErrorStatus(detail), detail, modelOverride)
     };
   } finally {
     busy = false;
@@ -2316,7 +2321,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       assistantMessage,
       messages: conversationWithMessages.messages,
       contextPreview,
-      modelStatus: createModelStatus("error", detail, modelOverride),
+      modelStatus: createModelStatus(resolveModelErrorStatus(detail), detail, modelOverride),
       diagnostics: buildExecutionDiagnostics()
     };
   } finally {
@@ -2410,7 +2415,11 @@ const runPromptEvaluation = async (
         durationMs: Math.max(0, Date.parse(completedAt) - Date.parse(startedAt)),
         status: "error",
         qualityStatus: evaluation.qualityStatus,
-        modelStatus: createModelStatus("error", detail, request.modelOverride?.trim() || undefined),
+        modelStatus: createModelStatus(
+          resolveModelErrorStatus(detail),
+          detail,
+          request.modelOverride?.trim() || undefined
+        ),
         traceSummary: null,
         routing,
         checkResults: evaluation.checkResults

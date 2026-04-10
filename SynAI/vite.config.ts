@@ -3,6 +3,13 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 const aliasEntries = [
+  { find: /^@synai-agent\/contracts\/agent-runtime\.contracts$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts") },
+  { find: /^@synai-agent\/(.+)$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/$1") },
+  { find: /^@synai-agent$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/index.ts") },
+  { find: /^@agent-runtime\/(.+)$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/$1") },
+  { find: /^@agent-runtime$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/index.ts") },
+  { find: /^@capability-catalog\/(.+)$/, replacement: resolve(__dirname, "packages/Capability-Catalog/$1") },
+  { find: /^@capability-catalog$/, replacement: resolve(__dirname, "packages/Capability-Catalog/index.ts") },
   { find: /^@contracts\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/contracts/$1") },
   { find: /^@contracts$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/contracts/index.ts") },
   { find: /^@memory\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/memory/$1") },
@@ -28,6 +35,8 @@ export default defineConfig({
     globals: true,
     setupFiles: ["tests/setup.ts"],
     environment: "node",
+    testTimeout: 10000,
+    hookTimeout: 10000,
     environmentMatchGlobs: [
       ["tests/smoke/app-start.smoke.test.tsx", "jsdom"],
       ["tests/smoke/local-chat-ui.smoke.test.tsx", "jsdom"]

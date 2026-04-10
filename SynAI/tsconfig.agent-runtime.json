@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "include": [
+    "packages/Agent-Runtime/src/**/*",
+    "packages/Agent-Runtime/tests/**/*"
+  ]
+}

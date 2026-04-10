@@ -1,0 +1,127 @@
+repo:
+  name: SynAI
+  posture: foundation-first
+  operational_root: SynAI
+  canonical_agent_root: SynAI/packages/Agent-Runtime/src
+  compat_surface: '@synai-agent -> SynAI/packages/Agent-Runtime/src'
+  legacy_guidance: SynAI/docs/AGENT_INSERTION_POINTS.md
+
+areas:
+  - path: SynAI/packages/Agent-Runtime/src
+    purpose: Canonical agent runtime package with contracts, core helpers, skills, planner, executor, perception, policy, runtime, verifier, audit, and evals.
+    risk_level: high
+    notes: New canonical agent logic starts here.
+
+  - path: SynAI/packages/Agent-Runtime/tests
+    purpose: Jest coverage for the canonical agent runtime package.
+    risk_level: medium
+    notes: Keep package tests aligned with any contract or runtime behavior change.
+
+  - path: SynAI/packages/Agent-Runtime/vitest/agent
+    purpose: Vitest coverage for the SynAI-facing compatibility alias and its expected export surface.
+    risk_level: low
+    notes: Keep compatibility expectations aligned with canonical package exports.
+
+  - path: SynAI/apps/desktop/electron
+    purpose: Electron main process, preload bridge, IPC, workflow orchestration, desktop actions, and the runtime bridge.
+    risk_level: high
+    notes: Main-process only. Avoid renderer coupling.
+
+  - path: SynAI/apps/desktop/src
+    purpose: React renderer UI for chat, history, tools, settings, memory, workflow cards, and context preview.
+    risk_level: medium
+    notes: UI-only. Do not add privileged side effects here.
+
+  - path: SynAI/packages/Awareness-Reasoning/src
+    purpose: Local AI, memory, context assembly, retrieval, awareness, web search, and capability-eval plumbing.
+    risk_level: high
+    notes: Shared reasoning and storage logic. Keep it deterministic and test-backed.
+
+  - path: SynAI/packages/Governance and exicution/src
+    purpose: Governance policy, approvals, command hashing, audit query plumbing, Windows action catalogs, and governed execution helpers.
+    risk_level: high
+    notes: Shared policy and execution layer. Treat approvals and command hashes as stable contracts.
+
+  - path: SynAI/tests
+    purpose: Vitest coverage for app, governance, capability, smoke, and integration behavior.
+    risk_level: medium
+    notes: Keep these in sync with app and shared-package changes.
+
+  - path: SynAI/packages/Capability-Catalog
+    purpose: Capability cards, schemas, retrieval hints, and path constants for eval-driven workflows.
+    risk_level: medium
+    notes: Changes here can alter the behavior harness even when runtime code stays untouched.
+
+  - path: SynAI/apps/vscode-capability-testing
+    purpose: Minimal VS Code Testing API wrapper for running and inspecting capability evals from the editor.
+    risk_level: low
+    notes: Treat this as an editor-facing app surface, not shared runtime logic.
+
+  - path: SynAI/docs
+    purpose: Repo docs, architecture notes, decisions, and reports.
+    risk_level: low
+    notes: Safe place for high-signal support docs.
+
+  - path: SynAI/packages/Agent-Runtime/context
+    purpose: Agent runtime support layer: guide, repo map, blast radius manifest, glossary, and prompt packs.
+    risk_level: low
+    notes: This is the canonical support layer for future agent-runtime implementation runs.
+
+  - path: SynAI/packages/Agent-Runtime/docs
+    purpose: Package-owned runtime foundation and implementation-status docs.
+    risk_level: low
+    notes: Keep package-specific runtime docs with the package they describe.
+
+boundaries:
+  main_process:
+    - SynAI/apps/desktop/electron
+  renderer:
+    - SynAI/apps/desktop/src
+  shared_logic:
+    - SynAI/packages/Agent-Runtime/src
+    - SynAI/packages/Awareness-Reasoning/src
+    - SynAI/packages/Governance and exicution/src
+  storage:
+    - SynAI/packages/Awareness-Reasoning/src/memory/storage
+    - SynAI/.runtime
+  tests:
+    - SynAI/packages/Agent-Runtime/tests
+    - SynAI/packages/Agent-Runtime/vitest
+    - SynAI/tests
+    - SynAI/packages/Awareness-Reasoning/tests
+
+safe_to_edit:
+  - SynAI/packages/Agent-Runtime/context
+  - SynAI/packages/Agent-Runtime/docs
+  - SynAI/docs/decisions
+  - SynAI/packages/Agent-Runtime/specs
+  - SynAI/packages/Agent-Runtime/tests
+  - SynAI/packages/Agent-Runtime/vitest
+  - SynAI/packages/Agent-Runtime/src
+  - SynAI/tsconfig.agent-runtime.json
+  - SynAI/packages/Agent-Runtime/scripts/validate-agent-foundation.ps1
+
+danger_zones:
+  - SynAI/packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts
+  - SynAI/packages/Agent-Runtime/src/runtime
+  - SynAI/apps/desktop/electron/main.ts
+  - SynAI/apps/desktop/electron/workflow-orchestrator.ts
+  - SynAI/apps/desktop/electron/workflow-planner.ts
+  - SynAI/packages/Governance and exicution/src/policy/engine.ts
+  - SynAI/packages/Governance and exicution/src/execution/windows-actions.ts
+  - SynAI/packages/Governance and exicution/src/execution/windows-action-catalog.ts
+  - SynAI/packages/Awareness-Reasoning/src/memory/context/assembler.ts
+  - SynAI/packages/Awareness-Reasoning/src/memory/storage
+  - SynAI/packages/Capability-Catalog/cards
+  - SynAI/packages/Capability-Catalog/schemas
+
+key_docs_to_read_first:
+  - SynAI/packages/Agent-Runtime/context/AGENT_GUIDE.md
+  - SynAI/packages/Agent-Runtime/context/BLAST_RADIUS_MANIFEST.yaml
+  - SynAI/packages/Agent-Runtime/context/GLOSSARY.yaml
+  - SynAI/README.md
+  - SynAI/docs/AGENT_INSERTION_POINTS.md
+  - SynAI/docs/architecture/governed-execution-roadmap.md
+  - SynAI/docs/governance-execution-usage.md
+  - SynAI/docs/architecture/phase-1-chat-overview.md
+  - SynAI/packages/Agent-Runtime/docs/AGENT_RUNTIME_FOUNDATION.md

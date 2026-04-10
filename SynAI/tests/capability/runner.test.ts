@@ -40,7 +40,7 @@ const cardFixture: CapabilityTestCard = {
 describe("capability eval runner", () => {
   it("runs selected cards and produces summary counts", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-runner-"));
-    const cardsRoot = path.join(workspaceRoot, "capability", "cards");
+    const cardsRoot = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards");
     const artifactsRoot = path.join(workspaceRoot, ".runtime", "capability-eval");
     await mkdir(cardsRoot, { recursive: true });
     await writeFile(path.join(cardsRoot, "runner-pass.json"), `${JSON.stringify(cardFixture, null, 2)}\n`, "utf8");

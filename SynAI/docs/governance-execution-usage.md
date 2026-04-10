@@ -58,7 +58,7 @@ Get-Content .runtime/governance-history/candidate-cards.json
 
 ### Add a new governed card
 
-1. Create a JSON file under `capability/cards/governance-exec/`.
+1. Create a JSON file under `packages/Capability-Catalog/cards/governance-exec/`.
 2. Set `schema_version` to `governance-execution-eval-card.v1`.
 3. Fill in the governance fields:
    - `action_intent`
@@ -87,6 +87,5 @@ Get-Content .runtime/governance-history/candidate-cards.json
 
 1. Run `npm run capability:mine-history -- --json`.
 2. Inspect `.runtime/governance-history/candidate-cards.json`.
-3. Promote useful drafts into `capability/cards/governance-exec/`.
+3. Promote useful drafts into `packages/Capability-Catalog/cards/governance-exec/`.
 4. Add or update tests for the recovered intent.
-

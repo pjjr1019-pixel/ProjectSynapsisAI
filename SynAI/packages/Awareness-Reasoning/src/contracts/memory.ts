@@ -16,10 +16,11 @@ import type { AwarenessRuntimeHealth } from "./health";
 import type { RagContextPreview } from "./rag";
 import type {
   PolicyDecisionType,
+  RuntimeContinuationMode,
   RuntimeJobStatus,
   RuntimeOutcomeStatus,
   VerificationStatus
-} from "../../../../../src/agent/contracts/agent-runtime.contracts";
+} from "@agent-runtime/contracts/agent-runtime.contracts";
 
 export type MemoryCategory =
   | "preference"
@@ -101,12 +102,19 @@ export interface AgentRuntimePreviewSummary {
   jobStatus: RuntimeJobStatus;
   resultStatus?: RuntimeOutcomeStatus | null;
   plannedStepCount: number;
+  attemptCount: number;
+  resumeCount: number;
+  recoverable: boolean;
+  cancellable: boolean;
   policyDecisionType?: PolicyDecisionType | null;
   verificationStatus?: VerificationStatus | null;
   checkpointId?: string | null;
   checkpointSummary?: string | null;
-  auditEventCount: number;
+  latestObservationSummary?: string | null;
   bindingHash?: string | null;
+  continuationMode?: RuntimeContinuationMode | null;
+  continuationResumable?: boolean | null;
+  auditEventCount: number;
   updatedAt: string;
 }
 

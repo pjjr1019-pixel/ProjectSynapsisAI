@@ -39,12 +39,12 @@ describe("capability cli parser", () => {
     expect(parsedIssue.approvedBy).toBe("qa");
 
     const parsedHash = parseCapabilityCliArgs(
-      ["promotion-hash", "--card-id", "windows.test", "--target-path", "capability/cards/windows/test.json"],
+      ["promotion-hash", "--card-id", "windows.test", "--target-path", "packages/Capability-Catalog/cards/windows/test.json"],
       "C:/repo/SynAI"
     );
     expect(parsedHash.command).toBe("promotion-hash");
     expect(parsedHash.cardIds).toEqual(["windows.test"]);
-    expect(parsedHash.targetPath).toBe("capability/cards/windows/test.json");
+    expect(parsedHash.targetPath).toBe("packages/Capability-Catalog/cards/windows/test.json");
 
     const parsedHistory = parseCapabilityCliArgs(
       ["mine-history", "--max-findings", "3", "--json"],

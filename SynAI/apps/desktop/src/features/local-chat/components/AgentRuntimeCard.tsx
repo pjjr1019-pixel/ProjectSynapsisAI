@@ -88,7 +88,7 @@ const buildRuntimeTask = (title: string, description: string, metadata: Record<s
 };
 
 const summarizeJob = (job: RuntimeJob): string =>
-  `${job.status}${job.activeStepId ? ` | ${job.activeStepId}` : ""}${job.completedStepIds.length ? ` | ${job.completedStepIds.length} done` : ""}`;
+  `${job.status}${job.activeStepId ? ` | ${job.activeStepId}` : ""}${job.completedStepIds.length ? ` | ${job.completedStepIds.length} done` : ""}${job.resumeCount ? ` | resumed ${job.resumeCount}x` : ""}`;
 
 const summarizeAuditEvents = (auditTrail: AgentRuntimeRunResult["auditTrail"] | AgentRuntimeInspection["auditTrail"]): string => {
   if (auditTrail.length === 0) {
@@ -120,6 +120,7 @@ export function AgentRuntimeCard() {
   const snapshotVerification = selectedInspection?.verification ?? runtimeResult?.verification ?? null;
   const snapshotPlannedSteps = selectedInspection?.plannedSteps ?? runtimeResult?.plannedSteps ?? [];
   const snapshotCheckpoint = selectedInspection?.latestCheckpoint ?? runtimeResult?.checkpoint ?? null;
+  const snapshotContinuation = snapshotCheckpoint?.continuation ?? snapshotResult?.continuation ?? null;
   const snapshotAuditTrail = selectedInspection?.auditTrail ?? runtimeResult?.auditTrail ?? [];
   const selectedJob = jobs.find((job) => job.id === selectedJobId) ?? null;
   const stepCount = snapshotPlannedSteps.length;
@@ -425,6 +426,22 @@ export function AgentRuntimeCard() {
                 {snapshotCheckpoint?.completedStepIds.length ?? 0} complete
               </p>
               <p className="mt-0.5 text-slate-400">{snapshotCheckpoint?.summary ?? "No checkpoint summary provided."}</p>
+            </div>
+
+            <div>
+              <p className="text-slate-400">Continuation</p>
+              <div className="mt-1 flex flex-wrap gap-1">
+                <Badge tone={snapshotContinuation?.mode === "exact" ? "good" : snapshotContinuation ? "warn" : "neutral"}>
+                  {snapshotContinuation?.mode ?? "unknown"}
+                </Badge>
+                <Badge tone={snapshotContinuation?.resumable ? "good" : "neutral"}>
+                  {snapshotContinuation?.resumable ? "resumable" : "reconstruction only"}
+                </Badge>
+              </div>
+              <p className="mt-1 text-slate-300">
+                {snapshotContinuation?.limitation ??
+                  "Checkpoint state is recoverable, but terminal jobs are reconstructed rather than replayed."}
+              </p>
             </div>
 
             <div>

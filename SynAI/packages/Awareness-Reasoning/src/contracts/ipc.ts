@@ -28,7 +28,7 @@ import type {
   AgentTask,
   RuntimeJob,
   RuntimeProgressEvent,
-} from "../../../../../src/agent/contracts/agent-runtime.contracts";
+} from "@agent-runtime/contracts/agent-runtime.contracts";
 
 export type { OfficialKnowledgeStatus } from "../official-knowledge";
 

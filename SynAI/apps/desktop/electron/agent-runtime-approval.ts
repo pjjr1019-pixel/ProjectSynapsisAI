@@ -1,6 +1,6 @@
 import type { ApprovalToken } from "@contracts";
 import { validateApprovalToken } from "@governance-execution";
-import type { ApprovalValidator } from "../../../../src/agent/policy";
+import type { ApprovalValidator } from "@agent-runtime/policy";
 
 const toApprovalToken = (value: unknown): ApprovalToken | null => {
   if (!value || typeof value !== "object") {

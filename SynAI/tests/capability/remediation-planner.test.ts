@@ -88,7 +88,7 @@ describe("remediation planner", () => {
     };
     const plan = planCapabilityRemediation({
       card,
-      cardFilePath: "capability/cards/windows/test.json",
+      cardFilePath: "packages/Capability-Catalog/cards/windows/test.json",
       gap,
       verifier,
       execution
@@ -108,7 +108,7 @@ describe("remediation planner", () => {
     };
     const plan = planCapabilityRemediation({
       card,
-      cardFilePath: "capability/cards/windows/test.json",
+      cardFilePath: "packages/Capability-Catalog/cards/windows/test.json",
       gap,
       verifier,
       execution
@@ -128,13 +128,13 @@ describe("remediation planner", () => {
     };
     const plan = planCapabilityRemediation({
       card,
-      cardFilePath: "capability/cards/windows/test.json",
+      cardFilePath: "packages/Capability-Catalog/cards/windows/test.json",
       gap,
       verifier,
       execution
     });
     expect(plan.remediation_type).toBe("retrieval-adjustment");
     expect(plan.auto_patch?.kind).toBe("retrieval-hint-merge");
-    expect(plan.auto_patch?.target).toBe("capability/retrieval/index-hints.json");
+    expect(plan.auto_patch?.target).toBe("packages/Capability-Catalog/retrieval/index-hints.json");
   });
 });

@@ -29,7 +29,7 @@ const plan: CapabilityRemediationPlan = {
   follow_up_tests_to_rerun: ["windows.test"],
   auto_patch: {
     kind: "card-json-merge",
-    target: "capability/cards/windows/test.json",
+    target: "packages/Capability-Catalog/cards/windows/test.json",
     merge: {
       enabled: true
     }
@@ -46,7 +46,7 @@ const retrievalPlan: CapabilityRemediationPlan = {
   follow_up_tests_to_rerun: ["windows.test"],
   auto_patch: {
     kind: "retrieval-hint-merge",
-    target: "capability/retrieval/index-hints.json",
+    target: "packages/Capability-Catalog/retrieval/index-hints.json",
     merge: {
       cards: {
         "windows.test": {
@@ -61,7 +61,7 @@ describe("approval gate sandbox flow", () => {
   it("applies low-risk patch in sandbox without promoting", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-gate-"));
     const artifactsRoot = path.join(workspaceRoot, ".runtime", "capability-eval");
-    const targetPath = path.join(workspaceRoot, "capability", "cards", "windows", "test.json");
+    const targetPath = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards", "windows", "test.json");
     await mkdir(path.dirname(targetPath), { recursive: true });
     await writeFile(targetPath, `${JSON.stringify({ id: "windows.test", enabled: false }, null, 2)}\n`, "utf8");
 
@@ -91,7 +91,7 @@ describe("approval gate sandbox flow", () => {
   it("blocks governed promotion when token is missing", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-gate-"));
     const artifactsRoot = path.join(workspaceRoot, ".runtime", "capability-eval");
-    const targetPath = path.join(workspaceRoot, "capability", "cards", "windows", "test.json");
+    const targetPath = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards", "windows", "test.json");
     await mkdir(path.dirname(targetPath), { recursive: true });
     await writeFile(targetPath, `${JSON.stringify({ id: "windows.test", enabled: false }, null, 2)}\n`, "utf8");
 
@@ -119,13 +119,13 @@ describe("approval gate sandbox flow", () => {
   it("promotes patch only with valid signed token and passing rerun", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-gate-"));
     const artifactsRoot = path.join(workspaceRoot, ".runtime", "capability-eval");
-    const targetPath = path.join(workspaceRoot, "capability", "cards", "windows", "test.json");
+    const targetPath = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards", "windows", "test.json");
     await mkdir(path.dirname(targetPath), { recursive: true });
     await writeFile(targetPath, `${JSON.stringify({ id: "windows.test", enabled: false }, null, 2)}\n`, "utf8");
 
     try {
       const commandHash = hashGovernanceCommand(
-        createGovernedPromotionHashInput("windows.test", "capability/cards/windows/test.json")
+        createGovernedPromotionHashInput("windows.test", "packages/Capability-Catalog/cards/windows/test.json")
       );
       const token = issueApprovalToken(commandHash, "qa-operator", 10 * 60 * 1000);
       const result = await applyRemediationSandbox({
@@ -154,8 +154,8 @@ describe("approval gate sandbox flow", () => {
   it("applies retrieval hint patch in sandbox under governance checks", async () => {
     const workspaceRoot = await mkdtemp(path.join(tmpdir(), "capability-gate-"));
     const artifactsRoot = path.join(workspaceRoot, ".runtime", "capability-eval");
-    const cardPath = path.join(workspaceRoot, "capability", "cards", "windows", "test.json");
-    const hintsPath = path.join(workspaceRoot, "capability", "retrieval", "index-hints.json");
+    const cardPath = path.join(workspaceRoot, "packages", "Capability-Catalog", "cards", "windows", "test.json");
+    const hintsPath = path.join(workspaceRoot, "packages", "Capability-Catalog", "retrieval", "index-hints.json");
     await mkdir(path.dirname(cardPath), { recursive: true });
     await mkdir(path.dirname(hintsPath), { recursive: true });
     await writeFile(cardPath, `${JSON.stringify({ id: "windows.test", enabled: false }, null, 2)}\n`, "utf8");

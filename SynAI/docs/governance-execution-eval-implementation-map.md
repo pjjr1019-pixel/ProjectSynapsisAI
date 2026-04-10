@@ -34,13 +34,13 @@
 
 ### Existing Capability Eval / Regression Infrastructure
 - `packages/Awareness-Reasoning/src/capability-eval/*`
-- `capability/cards/windows/*.json`
-- `capability/retrieval/index-hints.json`
+- `packages/Capability-Catalog/cards/windows/*.json`
+- `packages/Capability-Catalog/retrieval/index-hints.json`
 - `scripts/capability-eval.ts`
 - `tests/capability/*`
 - `tests/e2e/*`
 - `.vscode/tasks.json`
-- `vscode/capability-testing-extension/*`
+- `apps/vscode-capability-testing/*`
 
 ### Existing Audit / Artifact Locations
 - `.runtime/governance/`
@@ -189,14 +189,14 @@
 - `packages/Awareness-Reasoning/src/capability-eval/remediation/planner.ts`
 - `packages/Awareness-Reasoning/src/capability-eval/runners/eval-runner.ts`
 - `packages/Awareness-Reasoning/src/capability-eval/cli/index.ts`
-- `capability/cards/governance-exec/*.json`
+- `packages/Capability-Catalog/cards/governance-exec/*.json`
 
 ### CLI, Tasks, And VS Code
 - `package.json`
 - `scripts/capability-eval.ts`
 - `.vscode/tasks.json`
-- `vscode/capability-testing-extension/src/core.ts`
-- `vscode/capability-testing-extension/src/extension.ts`
+- `apps/vscode-capability-testing/src/core.ts`
+- `apps/vscode-capability-testing/src/extension.ts`
 
 ## Naming Decisions
 
@@ -234,4 +234,3 @@
 8. Extend the capability-eval schema and starter cards for governance-execution.
 9. Add CLI and VS Code task hooks for running, rerunning, mining, and inspecting artifacts.
 10. Add tests for routing, verification, mining, remediation, and artifact generation.
-

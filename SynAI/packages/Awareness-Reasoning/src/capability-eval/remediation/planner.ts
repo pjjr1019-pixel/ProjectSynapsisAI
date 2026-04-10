@@ -1,3 +1,7 @@
+import {
+  CAPABILITY_CARDS_ROOT,
+  CAPABILITY_RETRIEVAL_HINTS_PATH
+} from "@capability-catalog";
 import type {
   CapabilityGapClassification,
   CapabilityRemediationPlan,
@@ -50,7 +54,7 @@ export const planCapabilityRemediation = (
         rationale: `Expected knowledge was absent in output. Verifier evidence: ${reasonSummary}`,
         concrete_file_targets: [
           "docs/architecture/",
-          "capability/cards/",
+          `${CAPABILITY_CARDS_ROOT}/`,
           "packages/Awareness-Reasoning/src/capability-eval/contract.ts"
         ],
         proposed_patch_summary:
@@ -71,7 +75,7 @@ export const planCapabilityRemediation = (
         remediation_type: "retrieval-adjustment",
         rationale: `Required evidence retrieval underperformed. Verifier evidence: ${reasonSummary}`,
         concrete_file_targets: [
-          "capability/retrieval/index-hints.json",
+          CAPABILITY_RETRIEVAL_HINTS_PATH,
           "packages/Awareness-Reasoning/src/retrieval/workspace-index.ts",
           cardFilePath
         ],
@@ -82,7 +86,7 @@ export const planCapabilityRemediation = (
         follow_up_tests_to_rerun: [card.id],
         auto_patch: {
           kind: "retrieval-hint-merge",
-          target: "capability/retrieval/index-hints.json",
+          target: CAPABILITY_RETRIEVAL_HINTS_PATH,
           merge: {
             cards: {
               [card.id]: {

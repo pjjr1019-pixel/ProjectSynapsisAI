@@ -1,0 +1,62 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.create-file",
+  "name": "Create File",
+  "category": "windows-files",
+  "description": "Create a file inside the workspace with a clear, writable target.",
+  "prompt": "Create a new file inside the workspace. Provide an action proposal with id create-file and a commandPreview that uses New-Item -ItemType File.",
+  "success_definition": "Output includes a valid file creation action and the action is scoped to a writable workspace path.",
+  "allowed_tools": [
+    "windows.action-planner",
+    "workspace.file"
+  ],
+  "forbidden_tools": [
+    "windows.kill-process.force",
+    "filesystem.delete",
+    "registry.write"
+  ],
+  "required_context": [
+    {
+      "id": "workspace-write-policy",
+      "source": "inline",
+      "value": "File creation must stay inside the workspace root unless an explicit approval path is provided."
+    }
+  ],
+  "optional_context": [],
+  "verifier_type": "command-action-selection",
+  "verifier_config": {
+    "required_action_ids": [
+      "create-file"
+    ],
+    "required_command_regex": [
+      "New-Item\\s+-ItemType\\s+File"
+    ],
+    "disallow_dangerous": true
+  },
+  "remediation_options": [
+    "workflow-wrapper",
+    "retrieval-adjustment",
+    "prompt-or-planner-adjustment"
+  ],
+  "risk_level": "medium",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "file",
+    "workspace"
+  ],
+  "enabled": true,
+  "priority": 82,
+  "platform": "windows",
+  "environment_preconditions": [],
+  "regression_group": "windows-actions",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "verifier-result.json"
+  ]
+}

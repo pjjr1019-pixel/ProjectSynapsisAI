@@ -13,3 +13,8 @@ export * from "./local-ai";
 export * from "./web-search";
 export * from "./official-knowledge";
 export * from "./retrieval";
+export * from "./capability-eval";
+export * from "./governance-history/miner";
+export * from "./governance-history/replay-envelope";
+export * from "./target-knowledge";
+export * from "./runtime-capabilities";

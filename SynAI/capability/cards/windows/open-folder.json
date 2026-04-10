@@ -1,0 +1,54 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.open-folder",
+  "name": "Open Folder",
+  "category": "windows-file",
+  "description": "Select a safe path for opening a folder in File Explorer.",
+  "prompt": "Open a folder on Windows. Provide an action proposal with id open-folder and a commandPreview that uses explorer.",
+  "success_definition": "Output includes a valid folder open action and keeps risk low.",
+  "allowed_tools": [
+    "windows.action-planner"
+  ],
+  "forbidden_tools": [
+    "windows.kill-process.force",
+    "filesystem.delete",
+    "registry.write"
+  ],
+  "required_context": [],
+  "optional_context": [],
+  "verifier_type": "command-action-selection",
+  "verifier_config": {
+    "required_action_ids": [
+      "open-folder"
+    ],
+    "required_command_regex": [
+      "explorer"
+    ],
+    "disallow_dangerous": true
+  },
+  "remediation_options": [
+    "workflow-wrapper",
+    "prompt-or-planner-adjustment"
+  ],
+  "risk_level": "low",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "folder",
+    "action"
+  ],
+  "enabled": true,
+  "priority": 84,
+  "platform": "windows",
+  "environment_preconditions": [],
+  "regression_group": "windows-actions",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "verifier-result.json"
+  ]
+}

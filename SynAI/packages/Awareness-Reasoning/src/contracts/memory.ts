@@ -34,6 +34,17 @@ export interface MemoryEntry {
   importance: number;
   archived: boolean;
   keywords: string[];
+  provenance?: {
+    sourceConversationId: string;
+    sourceKind: "conversation" | "replay" | "manual";
+    capturedAt: string;
+    sourceMessageCount: number | null;
+  } | null;
+  lifecycle?: {
+    status: "active" | "archived";
+    reviewStatus: "unreviewed" | "reviewed" | "promoted" | "suppressed";
+    archivedAt: string | null;
+  } | null;
 }
 
 export interface ConversationSummary {

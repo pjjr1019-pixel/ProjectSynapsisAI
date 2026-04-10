@@ -21,7 +21,16 @@ export const deleteMemory = async (memoryId: string): Promise<void> => {
     ...db,
     memories: db.memories.map((memory) =>
       memory.id === memoryId
-        ? { ...memory, archived: true, updatedAt: new Date().toISOString() }
+        ? {
+            ...memory,
+            archived: true,
+            updatedAt: new Date().toISOString(),
+            lifecycle: {
+              status: "archived",
+              reviewStatus: memory.lifecycle?.reviewStatus ?? "unreviewed",
+              archivedAt: new Date().toISOString()
+            }
+          }
         : memory
     )
   }));
@@ -51,7 +60,18 @@ export const upsertMemory = async (input: {
         importance: Math.max(existing.importance, input.importance),
         sourceConversationId: input.sourceConversationId,
         updatedAt: now,
-        keywords: tokenize(normalizedText)
+        keywords: tokenize(normalizedText),
+        provenance: {
+          sourceConversationId: input.sourceConversationId,
+          sourceKind: "conversation",
+          capturedAt: now,
+          sourceMessageCount: null
+        },
+        lifecycle: {
+          status: "active",
+          reviewStatus: existing.lifecycle?.reviewStatus ?? "unreviewed",
+          archivedAt: null
+        }
       };
       return {
         ...db,
@@ -59,17 +79,28 @@ export const upsertMemory = async (input: {
       };
     }
 
-    nextMemory = {
-      id: createId(),
-      category: input.category,
-      text: normalizedText,
-      sourceConversationId: input.sourceConversationId,
-      createdAt: now,
-      updatedAt: now,
-      importance: input.importance,
-      archived: false,
-      keywords: tokenize(normalizedText)
-    };
+      nextMemory = {
+        id: createId(),
+        category: input.category,
+        text: normalizedText,
+        sourceConversationId: input.sourceConversationId,
+        createdAt: now,
+        updatedAt: now,
+        importance: input.importance,
+        archived: false,
+        keywords: tokenize(normalizedText),
+        provenance: {
+          sourceConversationId: input.sourceConversationId,
+          sourceKind: "conversation",
+          capturedAt: now,
+          sourceMessageCount: null
+        },
+        lifecycle: {
+          status: "active",
+          reviewStatus: "unreviewed",
+          archivedAt: null
+        }
+      };
     return {
       ...db,
       memories: [...db.memories, nextMemory]
@@ -112,7 +143,18 @@ export const batchUpsertMemories = async (
           importance: Math.max(existing.importance, input.importance),
           sourceConversationId: input.sourceConversationId,
           updatedAt: now,
-          keywords: tokenize(normalizedText)
+          keywords: tokenize(normalizedText),
+          provenance: {
+            sourceConversationId: input.sourceConversationId,
+            sourceKind: "conversation",
+            capturedAt: now,
+            sourceMessageCount: null
+          },
+          lifecycle: {
+            status: "active",
+            reviewStatus: existing.lifecycle?.reviewStatus ?? "unreviewed",
+            archivedAt: null
+          }
         };
         nextMemories[existingIndex] = updated;
         stored.push(updated);
@@ -126,7 +168,18 @@ export const batchUpsertMemories = async (
           updatedAt: now,
           importance: input.importance,
           archived: false,
-          keywords: tokenize(normalizedText)
+          keywords: tokenize(normalizedText),
+          provenance: {
+            sourceConversationId: input.sourceConversationId,
+            sourceKind: "conversation",
+            capturedAt: now,
+            sourceMessageCount: null
+          },
+          lifecycle: {
+            status: "active",
+            reviewStatus: "unreviewed",
+            archivedAt: null
+          }
         };
         nextMemories.push(newMemory);
         stored.push(newMemory);

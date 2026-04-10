@@ -1,0 +1,62 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.create-folder-and-move-item",
+  "name": "Create Folder Then Move Item",
+  "category": "windows-files",
+  "description": "Select an ordered workspace action path for creating a folder and moving an item into it.",
+  "prompt": "Create a folder in the workspace and move an existing item into it. Provide the actions in order and keep the path workspace-scoped.",
+  "success_definition": "Output includes a create-folder action followed by a move-item action.",
+  "allowed_tools": [
+    "windows.action-planner",
+    "workspace.file"
+  ],
+  "forbidden_tools": [
+    "windows.kill-process.force",
+    "filesystem.delete",
+    "registry.write"
+  ],
+  "required_context": [
+    {
+      "id": "workspace-scope",
+      "source": "inline",
+      "value": "Both the created folder and moved item must remain inside the workspace root."
+    }
+  ],
+  "optional_context": [],
+  "verifier_type": "action-sequence",
+  "verifier_config": {
+    "ordered_action_ids": [
+      "create-folder",
+      "move-item"
+    ],
+    "allow_intermediate_actions": true,
+    "require_exact_length": false
+  },
+  "remediation_options": [
+    "workflow-wrapper",
+    "retrieval-adjustment",
+    "prompt-or-planner-adjustment"
+  ],
+  "risk_level": "medium",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "file",
+    "folder",
+    "workspace"
+  ],
+  "enabled": true,
+  "priority": 81,
+  "platform": "windows",
+  "environment_preconditions": [],
+  "regression_group": "windows-actions",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "verifier-result.json"
+  ]
+}

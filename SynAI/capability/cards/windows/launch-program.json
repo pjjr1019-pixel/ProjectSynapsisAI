@@ -1,0 +1,54 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.launch-program",
+  "name": "Launch Program",
+  "category": "windows-launch",
+  "description": "Select a safe launch path for a local program.",
+  "prompt": "Launch a local program. Provide an action proposal with id launch-program and a commandPreview that uses spawn with the program name or path.",
+  "success_definition": "Output includes a valid program launch action and keeps risk low.",
+  "allowed_tools": [
+    "windows.action-planner"
+  ],
+  "forbidden_tools": [
+    "windows.kill-process.force",
+    "filesystem.delete",
+    "registry.write"
+  ],
+  "required_context": [],
+  "optional_context": [],
+  "verifier_type": "command-action-selection",
+  "verifier_config": {
+    "required_action_ids": [
+      "launch-program"
+    ],
+    "required_command_regex": [
+      "spawn"
+    ],
+    "disallow_dangerous": true
+  },
+  "remediation_options": [
+    "workflow-wrapper",
+    "prompt-or-planner-adjustment"
+  ],
+  "risk_level": "low",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "launch",
+    "action"
+  ],
+  "enabled": true,
+  "priority": 88,
+  "platform": "windows",
+  "environment_preconditions": [],
+  "regression_group": "windows-actions",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "verifier-result.json"
+  ]
+}

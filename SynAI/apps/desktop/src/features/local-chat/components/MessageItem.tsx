@@ -1,4 +1,5 @@
 import type { ChatMessage, ReasoningTraceState } from "@contracts";
+import { Badge } from "../../../shared/components/Badge";
 import { cn } from "../../../shared/utils/cn";
 import { formatDateTime, formatStopwatch, formatTime } from "../../../shared/utils/time";
 import { AwarenessCard } from "./AwarenessCard";
@@ -11,6 +12,19 @@ interface MessageItemProps {
   liveTrace?: ReasoningTraceState | null;
 }
 
+const taskDecisionTone = (decision: string): "neutral" | "good" | "warn" | "bad" => {
+  if (decision === "allow" || decision === "allow_with_verification") {
+    return "good";
+  }
+  if (decision === "require_approval" || decision === "clarify" || decision === "plan_only") {
+    return "warn";
+  }
+  if (decision === "deny") {
+    return "bad";
+  }
+  return "neutral";
+};
+
 export function MessageItem({ message, previousUserAt = null, liveTrace = null }: MessageItemProps) {
   const isUser = message.role === "user";
   const isLiveUsage = message.role === "assistant" && message.metadata?.awareness?.intentFamily === "live-usage";
@@ -18,6 +32,7 @@ export function MessageItem({ message, previousUserAt = null, liveTrace = null }
   const awarenessCard = message.metadata?.awareness?.card ?? null;
   const ragTraceSummary = message.metadata?.rag?.traceSummary ?? null;
   const grounding = message.metadata?.grounding ?? null;
+  const taskState = message.metadata?.task ?? null;
   const sources = message.sources ?? [];
   const replyLatencyMs =
     !isUser && previousUserAt ? new Date(message.createdAt).getTime() - new Date(previousUserAt).getTime() : null;
@@ -61,6 +76,35 @@ export function MessageItem({ message, previousUserAt = null, liveTrace = null }
       {!isUser && !liveTrace && ragTraceSummary ? (
         <div className="mb-1.5">
           <ReasoningTraceView trace={ragTraceSummary} />
+        </div>
+      ) : null}
+      {!isUser && taskState ? (
+        <div className="mb-1.5 rounded border border-cyan-500/20 bg-cyan-500/5 p-1.5">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <Badge tone={taskDecisionTone(taskState.decision)}>{taskState.decision}</Badge>
+            <Badge tone={taskState.approvalState.pending ? "warn" : taskState.approvalRequired ? "warn" : "good"}>
+              {taskState.approvalState.pending ? "Approval pending" : taskState.approvalRequired ? "Approval gated" : "Approved"}
+            </Badge>
+            <Badge tone={taskState.verificationSummary ? "neutral" : "good"}>
+              {taskState.recommendedExecutor}
+            </Badge>
+            <Badge tone={taskState.gapClass ? "warn" : "good"}>
+              {taskState.gapClass ?? taskState.riskTier}
+            </Badge>
+          </div>
+          <p className="mt-1 text-[9px] text-cyan-100/80">{taskState.interpretedIntent}</p>
+          {taskState.executionSummary ? (
+            <p className="mt-0.5 text-[9px] text-slate-300">Execution: {taskState.executionSummary}</p>
+          ) : null}
+          {taskState.verificationSummary ? (
+            <p className="mt-0.5 text-[9px] text-slate-300">Verification: {taskState.verificationSummary}</p>
+          ) : null}
+          {taskState.rollbackSummary ? (
+            <p className="mt-0.5 text-[9px] text-slate-300">Rollback: {taskState.rollbackSummary}</p>
+          ) : null}
+          {taskState.remediationSummary ? (
+            <p className="mt-0.5 text-[9px] text-amber-200">Remediation: {taskState.remediationSummary}</p>
+          ) : null}
         </div>
       ) : null}
       {!isUser && grounding && grounding.claims.length > 0 ? (

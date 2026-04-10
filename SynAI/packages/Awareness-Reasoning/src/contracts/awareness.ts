@@ -104,6 +104,19 @@ export interface OfficialKnowledgeSource {
   versionTags: string[];
 }
 
+export interface OfficialKnowledgeSourceStatus {
+  id: string;
+  title: string;
+  url: string;
+  domain: string;
+  enabled: boolean;
+  provenance: "catalog" | "mirror" | "live-fallback";
+  documentCount: number;
+  lastFetchedAt: string | null;
+  lastStatus: "idle" | "fetched" | "skipped" | "disabled" | "failed";
+  error: string | null;
+}
+
 export interface OfficialKnowledgeDocument {
   id: string;
   sourceId: string;
@@ -428,6 +441,12 @@ export interface HardwareDisplaySummary {
   primary: boolean;
 }
 
+export interface HardwareRadioStateSummary {
+  bluetoothEnabled: boolean | null;
+  wifiEnabled: boolean | null;
+  airplaneModeEnabled: boolean | null;
+}
+
 export interface HardwareSnapshot {
   capturedAt: string;
   freshness: FreshnessMetadata;
@@ -438,6 +457,7 @@ export interface HardwareSnapshot {
   gpus: HardwareGpuSummary[];
   networkAdapters: HardwareNetworkAdapterSummary[];
   displays: HardwareDisplaySummary[];
+  radioState: HardwareRadioStateSummary;
 }
 
 export interface SystemIdentity {
@@ -709,6 +729,25 @@ export interface ScreenBounds {
   height: number;
 }
 
+export interface ScreenMonitorSnapshot {
+  id: string;
+  name: string | null;
+  primary: boolean;
+  bounds: ScreenBounds;
+  workingArea: ScreenBounds | null;
+}
+
+export interface ScreenOcrWordSnapshot {
+  text: string;
+  bounds: ScreenBounds | null;
+}
+
+export interface ScreenOcrLineSnapshot {
+  text: string;
+  bounds: ScreenBounds | null;
+  words: ScreenOcrWordSnapshot[];
+}
+
 export interface AssistModeStatus {
   enabled: boolean;
   visibleIndicator: boolean;
@@ -787,8 +826,14 @@ export interface ScreenFrameSnapshot {
   captureMode: ScreenCaptureMode;
   windowHandle: string | null;
   windowTitle: string | null;
+  virtualBounds?: ScreenBounds | null;
+  monitorCount?: number | null;
+  monitors?: ScreenMonitorSnapshot[] | null;
   redactions: string[];
   uiElementCount: number;
+  screenshotPath?: string | null;
+  ocrText?: string | null;
+  ocrLines?: ScreenOcrLineSnapshot[] | null;
 }
 
 export interface ScreenAwarenessCounts {

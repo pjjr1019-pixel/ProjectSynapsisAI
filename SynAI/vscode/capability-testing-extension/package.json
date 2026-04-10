@@ -1,0 +1,65 @@
+{
+  "name": "synai-capability-testing",
+  "displayName": "SynAI Capability Testing",
+  "description": "Minimal VS Code Testing API wrapper for SynAI capability cards.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Testing"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:synaiCapability.refreshTests",
+    "onCommand:synaiCapability.runFailed",
+    "onCommand:synaiCapability.openLatestArtifacts",
+    "onCommand:synaiCapability.openOperatorDashboard",
+    "onCommand:synaiCapability.openApprovalQueue",
+    "onCommand:synaiCapability.openGovernanceAudit",
+    "onCommand:synaiCapability.openKnowledgeSources"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "synaiCapability.refreshTests",
+        "title": "SynAI: Refresh Capability Tests"
+      },
+      {
+        "command": "synaiCapability.runFailed",
+        "title": "SynAI: Rerun Failed Capability Tests"
+      },
+      {
+        "command": "synaiCapability.openLatestArtifacts",
+        "title": "SynAI: Open Latest Capability Artifacts"
+      },
+      {
+        "command": "synaiCapability.openOperatorDashboard",
+        "title": "SynAI: Open Operator Dashboard"
+      },
+      {
+        "command": "synaiCapability.openApprovalQueue",
+        "title": "SynAI: Open Approval Queue"
+      },
+      {
+        "command": "synaiCapability.openGovernanceAudit",
+        "title": "SynAI: Open Governance Audit"
+      },
+      {
+        "command": "synaiCapability.openKnowledgeSources",
+        "title": "SynAI: Open Knowledge Sources"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc -w -p ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/vscode": "^1.95.0",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,5 +1,39 @@
 # Changelog
 
+## 2026-04-10
+
+### Added
+- Governed desktop action support with a Windows-first catalog for launch, open, file, folder, and process operations.
+- Electron main-process desktop execution service, IPC bridge methods, and a renderer Tools-tab Actions surface.
+- Approval-token issuance and validation bound to exact desktop action requests, plus JSONL audit logging.
+- Dedicated governed-execution roadmap docs and new capability cards for launch/open, file operations, folder moves, and gated termination.
+- Governed Windows task orchestration with workflow planning for research, reports, app launch, system navigation, file workflows, process control, and uninstall flows.
+- Browser-backed workflow execution, workflow progress events, and a dedicated Workflow tab in the desktop Tools panel.
+- Normal chat now routes task-like prompts through governed chat execution with approval replay, history replay, and task-state metadata in the message stream.
+- Local governance-history mining now emits backlog artifacts and candidate eval cards from repeated failed conversations.
+- Governance-execution starter cards now cover clarification, approval gating, rollback metadata, refusal, verification, and execution-selection scenarios.
+- Added a governance-execution usage guide and a `capability:mine-history` CLI entrypoint for mining local failures into candidate cards.
+
+### Improved
+- Actions and approvals now appear as active feature stages in the desktop UI.
+- Desktop action requests now validate approval-token JSON inline and keep dry-run preview as the default path.
+- Capability eval coverage now includes governed desktop action selection, sequencing, and approval-token checks.
+- Workflow hashes now bind to stable plan content instead of volatile request IDs, which makes approvals safer to reuse for identical plans.
+- Approved Desktop/Documents file operations now flow through explicit allowed roots instead of being blocked by the workspace guard.
+- The workflow browser host no longer waits for load events that already completed before the listener was attached.
+- Approval confirmations now replay the pending governed task instead of treating "approve" like a fresh free-text request.
+- History replay stays plan-only until the user reissues the task with fresh governance instead of auto-running the old failure.
+- Message rendering now surfaces governed task decision, approval, verification, gap, and remediation state inline.
+
+### Tests
+- Added smoke coverage for the Desktop Actions card and updated app-start coverage for the Actions tab.
+- Added integration coverage for the governed desktop action service and new capability-card scenarios.
+- Verified the desktop build and focused governance/action test slices remain green.
+- Added planner, workflow-orchestrator, Workflow tab, and Workflow card smoke coverage for the new task runner flow.
+- Added browser-session coverage for page open, search, and YouTube playback flows.
+- Added tests for governed chat routing, governed chat service approval replay, history mining, CLI parsing, and governed task-state rendering.
+- Verified the full Vitest suite and Electron build remain green after the governance-execution changes.
+
 ## 2026-04-08
 
 ### Added

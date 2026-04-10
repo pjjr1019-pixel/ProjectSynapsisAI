@@ -1,20 +1,38 @@
 import { app, BrowserWindow, ipcMain, shell } from "electron";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import * as path from "node:path";
 import {
   IPC_CHANNELS,
+  CHAT_GOVERNED_TASK_EXECUTORS,
+  WORKFLOW_FAMILIES,
+  WORKFLOW_STEP_KINDS,
   type AwarenessAnswerMode,
   type AwarenessQueryAnswer,
   type AwarenessQueryRequest,
   type AwarenessRuntimeHealth,
+  type CapabilityRegistryEntry,
+  type CapabilityRegistrySnapshot,
+  type GovernanceAuditEntry,
+  type GovernanceAuditQuery,
+  type GovernanceApprovalQueueSnapshot,
+  type GovernanceCapabilitySummary,
+  type GovernanceDashboardSnapshot,
+  type GovernanceHistoryBacklogSummary,
+  type GovernancePendingApprovalRecord,
+  type DesktopActionProposal,
+  type DesktopActionRequest,
+  type DesktopActionResult,
   type AppHealth,
   type ChatReplyPolicy,
   type ChatMessage,
+  type ChatGovernedTaskMetadata,
   type ContextPreview,
   type ConversationWithMessages,
   type GroundingSummary,
   type ModelHealth,
   type OfficialKnowledgeContext,
+  type OfficialKnowledgeSourceStatus,
+  type OfficialKnowledgeStatus,
   type PromptEvaluationCaseInput,
   type PromptEvaluationCaseResult,
   type PromptEvaluationCheck,
@@ -55,12 +73,24 @@ import {
   withRetrievalTotals,
   type AwarenessEngine
 } from "@awareness";
+import { loadRuntimeCapabilityRegistry } from "@awareness/runtime-capabilities";
 import {
   checkOllamaHealth,
   createOllamaProvider,
   getOllamaConfig,
   listOllamaModels
 } from "@local-ai";
+import {
+  createChatExecutionService,
+  createGovernanceApprovalQueueStore,
+  queryGovernanceAuditEntries
+} from "@governance-execution";
+import {
+  createDesktopActionService,
+  resolveDefaultDesktopActionPaths
+} from "./desktop-actions";
+import { createGovernedChatService } from "./governed-chat";
+import { createWorkflowOrchestrator } from "./workflow-orchestrator";
 import {
   appendChatMessage,
   buildPromptMessages,
@@ -90,8 +120,10 @@ import {
 import { isLiveUsageAnswer } from "../src/features/local-chat/utils/liveUsageReply";
 import { cleanupPlainTextAnswer, formatAwarenessReply } from "./reply-formatting";
 import {
+  buildPromptEvaluationChatHistoryPath,
   buildPromptEvaluationReportPath,
-  formatPromptEvaluationMarkdown
+  formatPromptEvaluationMarkdown,
+  upsertPromptEvaluationChatHistory
 } from "./prompt-eval";
 import {
   filterWorkspaceHitsForReplyPolicy,
@@ -102,6 +134,37 @@ import {
 } from "./reply-policy";
 
 const provider = createOllamaProvider();
+const chatExecution = createChatExecutionService({ provider });
+const desktopActionPaths = resolveDefaultDesktopActionPaths(process.cwd());
+const approvalQueue = createGovernanceApprovalQueueStore(desktopActionPaths.runtimeRoot);
+const desktopActions = createDesktopActionService({
+  workspaceRoot: desktopActionPaths.workspaceRoot,
+  runtimeRoot: desktopActionPaths.runtimeRoot,
+  approvalQueue,
+  getInstalledAppsSnapshot: () => awarenessEngine?.machineAwareness?.installedAppsSnapshot ?? null
+});
+const workflowOrchestrator = createWorkflowOrchestrator({
+  workspaceRoot: process.cwd(),
+  runtimeRoot: desktopActionPaths.runtimeRoot,
+  desktopActions,
+  approvalQueue,
+  getMachineAwareness: () => awarenessEngine?.machineAwareness ?? null,
+  getFileAwareness: () => awarenessEngine?.fileAwareness?.summary ?? null,
+  getScreenAwareness: () => awarenessEngine?.screenAwareness ?? null,
+  emitProgress: (event) => {
+    sendRendererEvent(IPC_CHANNELS.workflowProgress, event);
+  }
+});
+const governedChatService = createGovernedChatService({
+  workspaceRoot: process.cwd(),
+  runtimeRoot: desktopActionPaths.runtimeRoot,
+  desktopActions,
+  workflowOrchestrator,
+  approvalQueue,
+  getMachineAwareness: () => awarenessEngine?.machineAwareness ?? null,
+  getFileAwareness: () => awarenessEngine?.fileAwareness?.summary ?? null,
+  getScreenAwareness: () => awarenessEngine?.screenAwareness ?? null
+});
 const startedAt = new Date().toISOString();
 let mainWindow: BrowserWindow | null = null;
 let busy = false;
@@ -505,7 +568,9 @@ const summarizeFeatureChangesWithLocalAi = async (
     }
   ];
 
-  const summarized = await provider.chat(messages, modelOverride ? { model: modelOverride } : undefined);
+  const summarized = await chatExecution.runChat(messages, {
+    model: modelOverride
+  });
   return cleanupPlainTextAnswer(summarized.trim()) || formatAwarenessReply(answer);
 };
 
@@ -737,6 +802,244 @@ const getAwarenessRuntimeHealth = (): AwarenessRuntimeHealth => {
 
 const getActiveFeatureFlags = (): string[] =>
   featureRegistry.filter((feature) => feature.status === "active").map((feature) => feature.id);
+
+const readJsonFile = async <T>(filePath: string): Promise<T | null> => {
+  const raw = await readFile(filePath, "utf8").catch(() => null);
+  if (!raw) {
+    return null;
+  }
+
+  try {
+    return JSON.parse(raw) as T;
+  } catch {
+    return null;
+  }
+};
+
+const buildGovernanceCapabilitySummary = async (): Promise<GovernanceCapabilitySummary | null> => {
+  const summaryPath = path.join(desktopActionPaths.runtimeRoot, "capability-eval", "latest-summary.json");
+  const summary = await readJsonFile<Record<string, unknown>>(summaryPath);
+  if (!summary) {
+    return null;
+  }
+
+  const cardResults = Array.isArray(summary.cardResults) ? summary.cardResults : [];
+  return {
+    runId: typeof summary.runId === "string" ? summary.runId : "unknown",
+    totals: {
+      total: cardResults.length,
+      passed: cardResults.filter((entry) => (entry as { status?: unknown }).status === "passed").length,
+      failed: cardResults.filter((entry) => (entry as { status?: unknown }).status === "failed").length
+    },
+    artifactRoot: typeof summary.artifactRoot === "string" ? summary.artifactRoot : path.dirname(summaryPath),
+    latestFailedCardIds: cardResults
+      .filter((entry) => (entry as { status?: unknown }).status === "failed")
+      .map((entry) => String((entry as { cardId?: unknown }).cardId ?? "unknown"))
+  };
+};
+
+const buildGovernanceHistoryBacklogSummary = async (): Promise<GovernanceHistoryBacklogSummary | null> => {
+  const backlogPath = path.join(desktopActionPaths.runtimeRoot, "governance-history", "latest-backlog.json");
+  const backlog = await readJsonFile<Record<string, unknown>>(backlogPath);
+  if (!backlog) {
+    return null;
+  }
+
+  const findings = Array.isArray(backlog.findings) ? backlog.findings : [];
+  const cardDrafts = Array.isArray(backlog.cardDrafts) ? backlog.cardDrafts : [];
+  return {
+    startedAt: typeof backlog.startedAt === "string" ? backlog.startedAt : new Date().toISOString(),
+    conversationCount: typeof backlog.conversationCount === "number" ? backlog.conversationCount : 0,
+    findingCount: findings.length,
+    draftCount: cardDrafts.length,
+    topFindings: findings.slice(0, 5).map((finding) => {
+      const value = finding as Record<string, unknown>;
+      return {
+        recoveredIntent: String(value.recovered_intent ?? value.recoveredIntent ?? "unknown"),
+        repeatedRequestCount: Number(value.repeated_request_count ?? value.repeatedRequestCount ?? 0),
+        suggestedGap: String(value.suggested_gap ?? value.suggestedGap ?? "unknown"),
+        userImpactScore: Number(value.user_impact_score ?? value.userImpactScore ?? 0),
+        suggestedExecutor: String(value.suggested_executor ?? value.suggestedExecutor ?? "answer-only")
+      };
+    }),
+    candidateCardIds: cardDrafts
+      .slice(0, 10)
+      .map((draft) => String((draft as { id?: unknown; cardId?: unknown }).id ?? (draft as { cardId?: unknown }).cardId ?? "unknown"))
+  };
+};
+
+const buildPendingApprovals = async (): Promise<GovernancePendingApprovalRecord[]> => {
+  const conversations = await listConversationRecords();
+  const pending: GovernancePendingApprovalRecord[] = [];
+
+  for (const conversation of conversations) {
+    const loaded = await loadConversationRecord(conversation.id);
+    const assistant = loaded?.messages
+      .slice()
+      .reverse()
+      .find((message) => message.role === "assistant" && message.metadata?.task?.approvalState.pending);
+    const task = assistant?.metadata?.task;
+    if (!task) {
+      continue;
+    }
+
+    pending.push({
+      conversationId: conversation.id,
+      requestId: task.requestId,
+      actionType: task.actionType,
+      decision: task.decision,
+      approvalReason: task.approvalReason,
+      approver: task.approvalState.approver,
+      tokenId: task.approvalState.tokenId,
+      expiresAt: task.approvalState.expiresAt,
+      summary: task.executionSummary ?? task.reasoningSummary
+    });
+  }
+
+  return pending.slice(0, 25);
+};
+
+const buildRecentAuditEntries = async (): Promise<GovernanceAuditEntry[]> => {
+  return await queryGovernanceAuditEntries(desktopActionPaths.runtimeRoot, { limit: 25 });
+};
+
+const buildApprovalQueueSnapshot = async (): Promise<GovernanceApprovalQueueSnapshot> =>
+  await approvalQueue.list();
+
+const buildCapabilityRegistrySnapshot = async (): Promise<CapabilityRegistrySnapshot> => {
+  const entries: CapabilityRegistryEntry[] = [];
+  const runtimeCapabilities = await loadRuntimeCapabilityRegistry(
+    desktopActionPaths.runtimeRoot,
+    desktopActionPaths.workspaceRoot
+  );
+  const desktopActionDefinitions = desktopActions.listDesktopActions();
+
+  for (const action of desktopActionDefinitions) {
+    entries.push({
+      id: `desktop-action.${action.id}`,
+      kind: "desktop-action",
+      title: action.title,
+      description: action.description,
+      status: action.approvalRequired || action.riskClass === "high" || action.riskClass === "critical" ? "partial" : "active",
+      riskClass: action.riskClass,
+      approvalRequired: action.approvalRequired,
+      source: "desktop-actions",
+      metadata: {
+        proposalId: action.id,
+        scope: action.scope,
+        targetKind: action.targetKind
+      }
+    });
+  }
+
+  for (const family of WORKFLOW_FAMILIES) {
+    entries.push({
+      id: `workflow-family.${family}`,
+      kind: "workflow-family",
+      title: family,
+      description: `Workflow family ${family}.`,
+      status: family === "general" || family.includes("service") || family.includes("registry") || family.includes("ui") || family.includes("browser") ? "partial" : "active",
+      riskClass: "low",
+      approvalRequired: false,
+      source: "workflow-planner",
+      metadata: { family }
+    });
+  }
+
+  for (const stepKind of WORKFLOW_STEP_KINDS) {
+    entries.push({
+      id: `workflow-step.${stepKind}`,
+      kind: "workflow-step",
+      title: stepKind,
+      description: `Workflow step ${stepKind}.`,
+      status: stepKind.includes("service") || stepKind.includes("registry") || stepKind.includes("ui") || stepKind === "browser-interact" ? "partial" : "active",
+      riskClass: "low",
+      approvalRequired: false,
+      source: "workflow-planner",
+      metadata: { stepKind }
+    });
+  }
+
+  for (const executor of CHAT_GOVERNED_TASK_EXECUTORS) {
+    entries.push({
+      id: `executor.${executor}`,
+      kind: "executor",
+      title: executor,
+      description: `Governed executor ${executor}.`,
+      status:
+        executor === "ui-automation" || executor === "service-control" || executor === "registry-control" || executor === "browser-automation"
+          ? "partial"
+          : executor === "none"
+            ? "blocked"
+            : "active",
+      riskClass:
+        executor === "service-control" || executor === "registry-control"
+          ? "high"
+          : executor === "ui-automation" || executor === "browser-automation"
+            ? "medium"
+            : "low",
+      approvalRequired: executor === "approval-queue" || executor === "service-control" || executor === "registry-control",
+      source: "governed-chat",
+      metadata: { executor }
+    });
+  }
+
+  for (const capability of [
+    { id: "browser.search", title: "Search browser", description: "Browser search", status: "active" as const, riskClass: "low" as const },
+    { id: "browser.open", title: "Open browser URL", description: "Browser navigation", status: "active" as const, riskClass: "low" as const },
+    { id: "browser.play", title: "Play YouTube video", description: "Browser playback", status: "active" as const, riskClass: "low" as const },
+    { id: "browser.click", title: "Click browser UI", description: "Browser click automation", status: "partial" as const, riskClass: "medium" as const },
+    { id: "browser.type", title: "Type browser input", description: "Browser text entry", status: "partial" as const, riskClass: "medium" as const },
+    { id: "browser.hotkey", title: "Send browser hotkeys", description: "Browser keyboard automation", status: "partial" as const, riskClass: "medium" as const }
+  ]) {
+    entries.push({
+      id: `browser-capability.${capability.id}`,
+      kind: "browser-capability",
+      title: capability.title,
+      description: capability.description,
+      status: capability.status,
+      riskClass: capability.riskClass,
+      approvalRequired: false,
+      source: "browser-session"
+    });
+  }
+
+  const combinedEntries = [...entries, ...runtimeCapabilities.entries];
+  const totals = combinedEntries.reduce(
+    (acc, entry) => {
+      acc.total += 1;
+      acc[entry.status] += 1;
+      return acc;
+    },
+    { total: 0, active: 0, partial: 0, planned: 0, blocked: 0 }
+  );
+
+  return {
+    capturedAt: new Date().toISOString(),
+    totals,
+    executors: [
+      ...new Set([
+        ...CHAT_GOVERNED_TASK_EXECUTORS,
+        ...combinedEntries
+          .filter((entry) => entry.kind === "executor")
+          .map((entry) => String(entry.metadata?.executorId ?? entry.id))
+      ])
+    ],
+    entries: combinedEntries,
+    plugins: runtimeCapabilities.plugins
+  };
+};
+
+const buildGovernanceDashboardSnapshot = async (): Promise<GovernanceDashboardSnapshot> => ({
+  capturedAt: new Date().toISOString(),
+  capabilitySummary: await buildGovernanceCapabilitySummary(),
+  historyBacklog: await buildGovernanceHistoryBacklogSummary(),
+  pendingApprovals: await buildPendingApprovals(),
+  approvalQueue: await buildApprovalQueueSnapshot(),
+  recentAuditEntries: await buildRecentAuditEntries(),
+  capabilityRegistry: await buildCapabilityRegistrySnapshot(),
+  officialKnowledge: (awarenessEngine?.getOfficialKnowledgeStatus() ?? null) as OfficialKnowledgeStatus | null
+});
 
 const scheduleConversationMaintenance = (
   conversationId: string,
@@ -1449,6 +1752,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
   let cleanupBypassed = false;
   let routingSuppressionReason: string | null = null;
   let retrievedSourceSummary: NonNullable<SendChatResponse["diagnostics"]>["retrievedSourceSummary"] = null;
+  let governedTaskState: ChatGovernedTaskMetadata | null = null;
 
   const buildExecutionDiagnostics = (): NonNullable<SendChatResponse["diagnostics"]> => ({
     routeFamily: routingSuppressionReason ? "generic-writing" : intentRoute?.family ?? null,
@@ -1464,7 +1768,8 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     routingSuppressionReason,
     retrievedSourceSummary,
     reasoningMode: reasoningMode?.mode ?? null,
-    evaluationSuiteMode
+    evaluationSuiteMode,
+    taskState: governedTaskState
   });
 
   try {
@@ -1474,6 +1779,53 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       await removeLastAssistantMessage(conversationId);
     } else {
       await appendChatMessage(conversationId, "user", payload.text);
+    }
+
+    const conversationAfterTurn =
+      (await loadConversationRecord(conversationId)) ?? (await resolveConversation(conversationId));
+    const governedTurn = await governedChatService.handleTurn({
+      requestId,
+      conversationId,
+      text: payload.text,
+      messages: conversationAfterTurn.messages,
+      workspaceRoot: process.cwd(),
+      desktopPath: app.getPath("desktop"),
+      documentsPath: app.getPath("documents"),
+      runtimeRoot: desktopActionPaths.runtimeRoot,
+      desktopActions,
+      workflowOrchestrator,
+      getMachineAwareness: () => awarenessEngine?.machineAwareness ?? null,
+      getFileAwareness: () => awarenessEngine?.fileAwareness?.summary ?? null,
+      getScreenAwareness: () => awarenessEngine?.screenAwareness ?? null
+    });
+
+    if (governedTurn.handled) {
+      governedTaskState = governedTurn.taskState;
+      const assistantMetadata = governedTaskState ? { task: governedTaskState } : undefined;
+      const assistantMessage = await appendChatMessage(
+        conversationId,
+        "assistant",
+        governedTurn.assistantReply,
+        undefined,
+        assistantMetadata
+      );
+      const conversationWithMessages =
+        (await loadConversationRecord(conversationId)) ?? (await resolveConversation(conversationId));
+      if (payload.runMode !== "evaluation") {
+        scheduleConversationMaintenance(conversationId, payload.text, governedTurn.assistantReply, modelOverride, {
+          skipMemories: false
+        });
+      }
+
+      return {
+        conversation: conversationWithMessages.conversation,
+        assistantMessage,
+        messages: conversationWithMessages.messages,
+        contextPreview,
+        modelStatus: createModelStatus("connected", undefined, modelOverride),
+        diagnostics: buildExecutionDiagnostics(),
+        taskState: governedTaskState
+      };
     }
 
     const ragOptions: RagOptions = payload.ragOptions ?? {};
@@ -1721,10 +2073,9 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         reasoningTrace = startTraceStage(reasoningTrace, "plan");
         sendReasoningTrace(reasoningTrace);
         planText = cleanupPlainTextAnswer(
-          await provider.chat(
-            createPlanningMessages(promptMessages, payload.text),
-            modelOverride ? { model: modelOverride } : undefined
-          )
+          await chatExecution.runChat(createPlanningMessages(promptMessages, payload.text), {
+            model: modelOverride
+          })
         );
         reasoningTrace = completeTraceStage(reasoningTrace, "plan", {
           summary: planText.split(/\r?\n/)[0]?.trim() || "Built a short plan",
@@ -1762,7 +2113,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       });
     } else {
       const synthesisMessages = createSynthesisMessages(promptMessages, planText);
-      assistantReply = await provider.chatStream(
+      assistantReply = await chatExecution.runChatStream(
         synthesisMessages,
         (content) => {
           sendRendererEvent(IPC_CHANNELS.chatStream, {
@@ -1771,7 +2122,9 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
             content
           });
         },
-        modelOverride ? { model: modelOverride } : undefined
+        {
+          model: modelOverride
+        }
       );
       if (!cleanupBypassed) {
         assistantReply = cleanupPlainTextAnswer(assistantReply);
@@ -1797,7 +2150,10 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       awarenessQuery,
       deterministicAwareness: deterministicAwarenessReply,
       sourceScopeApplied: replyPolicy?.sourceScope ?? null,
-      runVerifier: (messages) => provider.chat(messages, modelOverride ? { model: modelOverride } : undefined)
+      runVerifier: (messages) =>
+        chatExecution.runChat(messages, {
+          model: modelOverride
+        })
     });
     const verificationConfidence = groundedReply.metadata.summary.overallConfidence;
     reasoningTrace = updateTraceGrounding(reasoningTrace, groundedReply.metadata.summary);
@@ -1995,6 +2351,7 @@ const runPromptEvaluation = async (
 
   const generatedAt = new Date().toISOString();
   const reportPath = buildPromptEvaluationReportPath(workspaceRoot, suiteName, generatedAt);
+  const chatHistoryPath = buildPromptEvaluationChatHistoryPath(workspaceRoot);
   const report: PromptEvaluationResponse = {
     suiteName,
     generatedAt,
@@ -2015,6 +2372,8 @@ const runPromptEvaluation = async (
 
   await mkdir(path.dirname(reportPath), { recursive: true });
   await writeFile(reportPath, formatPromptEvaluationMarkdown(report), "utf8");
+  const existingChatHistory = await readFile(chatHistoryPath, "utf8").catch(() => "");
+  await writeFile(chatHistoryPath, upsertPromptEvaluationChatHistory(existingChatHistory, report), "utf8");
 
   return report;
 };
@@ -2120,6 +2479,87 @@ const registerIpc = (): void => {
 
   ipcMain.handle(IPC_CHANNELS.deleteMemory, async (_event, memoryId: string) => {
     await deleteMemoryRecord(memoryId);
+  });
+
+  ipcMain.handle(IPC_CHANNELS.desktopActionCatalog, async (): Promise<DesktopActionProposal[]> =>
+    desktopActions.listDesktopActions()
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.desktopActionSuggest,
+    async (_event, prompt: string): Promise<DesktopActionProposal | null> =>
+      desktopActions.suggestDesktopAction(prompt)
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.desktopActionApprove,
+    async (
+      _event,
+      request: DesktopActionRequest,
+      approvedBy: string,
+      ttlMs?: number
+    ) => desktopActions.issueDesktopActionApproval(request, approvedBy, ttlMs)
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.desktopActionExecute,
+    async (_event, request: DesktopActionRequest): Promise<DesktopActionResult> =>
+      desktopActions.executeDesktopAction(request)
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.workflowPlanSuggest,
+    async (_event, prompt: string) => workflowOrchestrator.suggestWorkflow(prompt)
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.workflowApprove,
+    async (_event, plan, approvedBy: string, ttlMs?: number) =>
+      workflowOrchestrator.issueWorkflowApproval(plan, approvedBy, ttlMs)
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.workflowExecute,
+    async (_event, request) => workflowOrchestrator.executeWorkflow(request)
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.rollbackDesktopAction,
+    async (_event, commandId: string, approvedBy: string, dryRun?: boolean) =>
+      desktopActions.rollbackDesktopAction(commandId, approvedBy, dryRun)
+  );
+
+  ipcMain.handle(IPC_CHANNELS.governanceDashboard, async () => buildGovernanceDashboardSnapshot());
+
+  ipcMain.handle(IPC_CHANNELS.governanceApprovalQueue, async () => approvalQueue.list());
+
+  ipcMain.handle(
+    IPC_CHANNELS.governanceAuditQuery,
+    async (_event, query?: GovernanceAuditQuery) =>
+      queryGovernanceAuditEntries(desktopActionPaths.runtimeRoot, query ?? {})
+  );
+
+  ipcMain.handle(IPC_CHANNELS.officialKnowledgeSources, async (): Promise<OfficialKnowledgeSourceStatus[]> =>
+    awarenessEngine?.listOfficialKnowledgeSources() ?? []
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.officialKnowledgeSourceUpdate,
+    async (_event, sourceId: string, enabled: boolean): Promise<OfficialKnowledgeStatus> => {
+      if (!awarenessEngine) {
+        throw new Error("Awareness engine is not ready.");
+      }
+      return await awarenessEngine.setOfficialKnowledgeSourceEnabled(sourceId, enabled);
+    }
+  );
+
+  ipcMain.handle(
+    IPC_CHANNELS.officialKnowledgeSourceRefresh,
+    async (_event, sourceId: string): Promise<OfficialKnowledgeStatus> => {
+    if (!awarenessEngine) {
+      throw new Error("Awareness engine is not ready.");
+    }
+    return await awarenessEngine.refreshOfficialKnowledgeSource(sourceId);
   });
 
   ipcMain.handle(
@@ -2242,6 +2682,7 @@ app.on("activate", async () => {
 app.on("before-quit", () => {
   void awarenessApiServer?.close();
   void awarenessEngine?.close();
+  void workflowOrchestrator.close();
 });
 
 

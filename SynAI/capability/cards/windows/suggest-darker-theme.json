@@ -1,0 +1,59 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.suggest-darker-theme",
+  "name": "Suggest Darker Theme Path",
+  "category": "windows-settings",
+  "description": "Provide deterministic guidance for making Windows theme darker.",
+  "prompt": "Suggest how to make the Windows theme darker. Include a direct settings path and keep the answer concise.",
+  "success_definition": "Answer references dark mode and points to the correct settings area.",
+  "allowed_tools": [
+    "awareness.settings-map"
+  ],
+  "forbidden_tools": [
+    "registry.write",
+    "windows.kill-process.force"
+  ],
+  "required_context": [
+    {
+      "id": "dark-theme-map",
+      "source": "awareness.settings-map",
+      "query": "How do I switch Windows theme to dark mode?"
+    }
+  ],
+  "optional_context": [],
+  "verifier_type": "substring-regex",
+  "verifier_config": {
+    "includes": [
+      "dark",
+      "settings"
+    ],
+    "regex": [
+      "personalization|ms-settings:"
+    ]
+  },
+  "remediation_options": [
+    "retrieval-adjustment",
+    "test-card-clarification"
+  ],
+  "risk_level": "low",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "ui",
+    "theme"
+  ],
+  "enabled": true,
+  "priority": 80,
+  "platform": "windows",
+  "environment_preconditions": [],
+  "regression_group": "windows-core",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "model-response.structured.json"
+  ]
+}

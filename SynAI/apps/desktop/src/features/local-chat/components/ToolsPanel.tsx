@@ -17,6 +17,8 @@ import { ContextPreview as ContextPreviewCard } from "./ContextPreview";
 import { MemoryPanel } from "../../memory/components/MemoryPanel";
 import { featureRegistry } from "../../feature-registry";
 import { cn } from "../../../shared/utils/cn";
+import { DesktopActionsCard } from "./DesktopActionsCard";
+import { WorkflowOrchestrationCard } from "./WorkflowOrchestrationCard";
 import { PromptEvaluationCard } from "./PromptEvaluationCard";
 import type { ChatSettingsState } from "../types/localChat.types";
 
@@ -46,6 +48,7 @@ interface ToolsPanelProps {
 const toolTabs: Array<{ id: WorkspaceToolTab; label: string }> = [
   { id: "model", label: "Model" },
   { id: "actions", label: "Actions" },
+  { id: "workflows", label: "Workflows" },
   { id: "memory", label: "Memory" },
   { id: "context", label: "Context" },
   { id: "search", label: "Search" }
@@ -77,7 +80,7 @@ export function ToolsPanel(props: ToolsPanelProps) {
           </div>
           <Badge tone="neutral">Compact</Badge>
         </div>
-        <div role="tablist" aria-label="Tool tabs" className="mt-1.5 grid grid-cols-5 gap-1">
+        <div role="tablist" aria-label="Tool tabs" className="mt-1.5 grid grid-cols-6 gap-1">
           {toolTabs.map((tab) => (
             <button
               key={tab.id}
@@ -117,6 +120,7 @@ export function ToolsPanel(props: ToolsPanelProps) {
 
         {activeToolTab === "actions" ? (
           <div className="flex h-full min-h-0 flex-col gap-1.5 overflow-y-auto pr-1">
+            <DesktopActionsCard />
             <PromptEvaluationCard
               settings={props.settings}
               running={props.promptEvaluationRunning}
@@ -223,6 +227,12 @@ export function ToolsPanel(props: ToolsPanelProps) {
               onRefreshMemory={props.onRefreshMemory}
               onCopyResponse={props.onCopyResponse}
             />
+          </div>
+        ) : null}
+
+        {activeToolTab === "workflows" ? (
+          <div className="flex h-full min-h-0 flex-col gap-1.5 overflow-y-auto pr-1">
+            <WorkflowOrchestrationCard />
           </div>
         ) : null}
 

@@ -39,10 +39,6 @@ describe("local-chat-ui smoke", () => {
               {
                 label: "CPU",
                 value: "12%"
-              },
-              {
-                label: "RAM",
-                value: "7.7GB used"
               }
             ],
             sections: [],

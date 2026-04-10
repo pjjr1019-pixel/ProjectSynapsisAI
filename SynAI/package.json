@@ -5,15 +5,25 @@
   "type": "module",
   "main": "out/main/main.cjs",
   "scripts": {
-    "dev": "electron-vite dev",
+    "dev": "node scripts/dev/run-electron-vite.mjs dev",
     "build": "electron-vite build",
-    "preview": "electron-vite preview",
+    "preview": "node scripts/dev/run-electron-vite.mjs preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "verify:env": "node scripts/dev/verify-env.mjs"
+    "verify:env": "node scripts/dev/verify-env.mjs",
+    "capability:run": "vite-node scripts/capability-eval.ts run",
+    "capability:run:all": "vite-node scripts/capability-eval.ts run --all",
+    "capability:rerun-failed": "vite-node scripts/capability-eval.ts rerun-failed",
+    "capability:propose": "vite-node scripts/capability-eval.ts run --mode proposal-only",
+    "capability:sandbox": "vite-node scripts/capability-eval.ts run --all --mode sandbox-apply --auto-remediate",
+    "capability:promotion-hash": "vite-node scripts/capability-eval.ts promotion-hash",
+    "capability:issue-token": "vite-node scripts/capability-eval.ts issue-token",
+    "capability:mine-history": "vite-node scripts/capability-eval.ts mine-history",
+    "operator": "vite-node scripts/operator.ts"
   },
   "dependencies": {
     "@tanstack/react-virtual": "^3.13.23",
+    "playwright-core": "^1.59.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

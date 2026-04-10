@@ -1402,6 +1402,8 @@ describe("awareness engine", () => {
       expect(routeAwarenessIntent("what's using all my disk?").family).toBe("resource-hotspot");
       expect(routeAwarenessIntent("whats my ram usage").family).toBe("live-usage");
       expect(routeAwarenessIntent("what is my cpu usage right now?").family).toBe("live-usage");
+      expect(routeAwarenessIntent("my ram and cpu").family).toBe("live-usage");
+      expect(routeAwarenessIntent("cpu and ram").family).toBe("live-usage");
       expect(routeAwarenessIntent("how much free storage do i have").family).toBe("live-usage");
       expect(routeAwarenessIntent("what about the storage on my hard drive").family).toBe("live-usage");
       expect(routeAwarenessIntent("what gpu and vram do I have?").family).toBe("hardware");
@@ -2401,19 +2403,35 @@ describe("awareness engine", () => {
       const cpuAnswer = engine.queryAwareness({ query: "what is my cpu usage right now?" });
       expect(cpuAnswer?.intent.family).toBe("live-usage");
       expect(cpuAnswer?.bundle.verifiedFindings.join(" ")).toContain("CPU load: 37%");
-      expect(cpuAnswer?.bundle.verifiedFindings.join(" ")).toContain("RAM");
+      expect(cpuAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("RAM");
+      expect(cpuAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("Uptime");
       expect(cpuAnswer?.bundle.uncertainty).toEqual([]);
+
+      const cpuRamAnswer = engine.queryAwareness({ query: "my ram and cpu" });
+      expect(cpuRamAnswer?.intent.family).toBe("live-usage");
+      expect(cpuRamAnswer?.bundle.verifiedFindings.join(" ")).toContain("CPU load: 37%");
+      expect(cpuRamAnswer?.bundle.verifiedFindings.join(" ")).toContain("RAM");
+      expect(cpuRamAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("GPU:");
+      expect(cpuRamAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("Disk:");
+      expect(cpuRamAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("Uptime:");
+      expect(cpuRamAnswer?.bundle.uncertainty).toEqual([]);
 
       const gpuAnswer = engine.queryAwareness({ query: "what gpu and vram do I have?" });
       expect(gpuAnswer?.intent.family).toBe("hardware");
       expect(gpuAnswer?.bundle.verifiedFindings.join(" ")).toContain("GPU:");
       expect(gpuAnswer?.bundle.verifiedFindings.join(" ")).toMatch(/VRAM|vram/);
+      expect(gpuAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("CPU");
+      expect(gpuAnswer?.bundle.verifiedFindings.join(" ")).not.toMatch(/\bRAM\b/);
+      expect(gpuAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("Uptime");
 
       const vramUsageAnswer = engine.queryAwareness({ query: "what is my vram usage?" });
       expect(vramUsageAnswer?.intent.family).toBe("live-usage");
       expect(vramUsageAnswer?.bundle.verifiedFindings.join(" ")).toContain("GPU: Test GPU");
       expect(vramUsageAnswer?.bundle.verifiedFindings.join(" ")).toContain("live load 18%");
       expect(vramUsageAnswer?.bundle.verifiedFindings.join(" ")).toContain("VRAM");
+      expect(vramUsageAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("CPU");
+      expect(vramUsageAnswer?.bundle.verifiedFindings.join(" ")).not.toMatch(/\bRAM\b/);
+      expect(vramUsageAnswer?.bundle.verifiedFindings.join(" ")).not.toContain("Uptime");
       expect(vramUsageAnswer?.bundle.uncertainty).toEqual([]);
 
       const anomalyAnswer = engine.queryAwareness({ query: "show machine anomalies from event logs" });

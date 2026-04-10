@@ -198,8 +198,14 @@ const emptyFrame = (
   captureMode,
   windowHandle: null,
   windowTitle: null,
+  virtualBounds: null,
+  monitorCount: null,
+  monitors: null,
   redactions: [],
-  uiElementCount: 0
+  uiElementCount: 0,
+  screenshotPath: null,
+  ocrText: null,
+  ocrLines: null
 });
 
 const emptySnapshot = (
@@ -538,6 +544,7 @@ const captureOnce = async (
 
   const foregroundWindow = cloneSnapshot(await source.captureForegroundWindow());
   const rawUiTree = cloneSnapshot(await source.captureUiTree());
+  const rawFrame = cloneSnapshot((await source.captureFrame?.()) ?? null);
   const targetLabel = current.assistMode.targetLabel?.toLowerCase() ?? null;
   const shouldRedact =
     current.assistMode.scope === "selected-app" &&
@@ -561,17 +568,36 @@ const captureOnce = async (
     },
     now
   );
-  const frame: ScreenFrameSnapshot = {
-    capturedAt: now.toISOString(),
-    freshness: buildFreshness(now.toISOString(), now),
-    scope: assistMode.scope,
-    targetLabel: assistMode.targetLabel,
-    captureMode: assistMode.captureMode,
-    windowHandle: foregroundWindow?.windowHandle ?? null,
-    windowTitle: foregroundWindow?.title ?? null,
-    redactions: uiTree?.redactedCount ? ["protected-input"] : [],
-    uiElementCount: uiTree?.totalCount ?? 0
-  };
+  const frame: ScreenFrameSnapshot = rawFrame
+    ? {
+        ...rawFrame,
+        capturedAt: now.toISOString(),
+        freshness: buildFreshness(now.toISOString(), now),
+        scope: assistMode.scope,
+        targetLabel: assistMode.targetLabel,
+        captureMode: assistMode.captureMode,
+        windowHandle: foregroundWindow?.windowHandle ?? rawFrame.windowHandle ?? null,
+        windowTitle: foregroundWindow?.title ?? rawFrame.windowTitle ?? null,
+        redactions: uiTree?.redactedCount ? ["protected-input"] : rawFrame.redactions ?? [],
+        uiElementCount: uiTree?.totalCount ?? rawFrame.uiElementCount ?? 0
+      }
+    : {
+        capturedAt: now.toISOString(),
+        freshness: buildFreshness(now.toISOString(), now),
+        scope: assistMode.scope,
+        targetLabel: assistMode.targetLabel,
+        captureMode: assistMode.captureMode,
+        windowHandle: foregroundWindow?.windowHandle ?? null,
+        windowTitle: foregroundWindow?.title ?? null,
+        virtualBounds: null,
+        monitorCount: null,
+        monitors: null,
+        redactions: uiTree?.redactedCount ? ["protected-input"] : [],
+        uiElementCount: uiTree?.totalCount ?? 0,
+        screenshotPath: null,
+        ocrText: null,
+        ocrLines: null
+      };
   const previousSnapshot = cloneSnapshot(current);
   const nextSnapshot = buildSnapshot({
     assistMode,
@@ -605,7 +631,7 @@ export const initializeScreenAwareness = async (
 ): Promise<ScreenAwarenessState> => {
   const now = options.now ?? (() => new Date());
   const paths = buildRuntimePaths(path.resolve(options.runtimeRoot));
-  const source = options.source ?? createWindowsScreenCaptureSource();
+  const source = options.source ?? createWindowsScreenCaptureSource({ runtimeRoot: paths.runtimeRoot });
   const maxRecentEvents = options.maxRecentEvents ?? DEFAULT_MAX_RECENT_EVENTS;
   await mkdir(paths.screenRoot, { recursive: true });
 

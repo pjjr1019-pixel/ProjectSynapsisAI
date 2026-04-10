@@ -1,0 +1,63 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.highest-ram-process",
+  "name": "Identify Highest RAM Process",
+  "category": "windows-performance",
+  "description": "Report the process currently using the most RAM with concise evidence.",
+  "prompt": "Identify which process is using the most RAM right now. Include the process/program name and memory usage amount.",
+  "success_definition": "Answer names the top RAM process/program and includes a memory quantity.",
+  "allowed_tools": [
+    "awareness.resource-hotspot",
+    "awareness.live-usage"
+  ],
+  "forbidden_tools": [
+    "windows.kill-process.force",
+    "filesystem.delete"
+  ],
+  "required_context": [
+    {
+      "id": "ram-hotspot",
+      "source": "awareness.resource-hotspot",
+      "query": "What is using the most RAM right now?"
+    }
+  ],
+  "optional_context": [],
+  "verifier_type": "substring-regex",
+  "verifier_config": {
+    "includes": [
+      "ram",
+      "process"
+    ],
+    "regex": [
+      "(gb|mb|kb)"
+    ]
+  },
+  "remediation_options": [
+    "retrieval-adjustment",
+    "prompt-or-planner-adjustment"
+  ],
+  "risk_level": "low",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "ram",
+    "resource-hotspot"
+  ],
+  "enabled": true,
+  "priority": 95,
+  "platform": "windows",
+  "environment_preconditions": [
+    "Machine process snapshot available"
+  ],
+  "regression_group": "windows-core",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "verifier-result.json",
+    "gap-classification.json"
+  ]
+}

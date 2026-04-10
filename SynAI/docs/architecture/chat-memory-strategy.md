@@ -6,3 +6,5 @@
 4. Deduplicate using token similarity and refresh existing memory when similar.
 5. Retrieve by keyword for each new turn.
 6. Pass only top memory candidates into context assembly.
+
+For desktop execution, approvals, and governed OS actions, see [Governed Desktop Execution Roadmap](./governed-execution-roadmap.md).

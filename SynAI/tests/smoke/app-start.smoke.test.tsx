@@ -230,6 +230,8 @@ describe("app-start smoke", () => {
     fireEvent.click(screen.getByRole("tab", { name: "Tools" }));
     expect(await screen.findByText("Local Model")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("tab", { name: "Actions" }));
+    expect(await screen.findByText("Desktop Actions")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Suggest Action" })).toBeInTheDocument();
     expect(await screen.findByText("Run Health Check")).toBeInTheDocument();
     expect(screen.getByText("Chat Controls")).toBeInTheDocument();
 

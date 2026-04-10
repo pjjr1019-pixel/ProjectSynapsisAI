@@ -1,0 +1,228 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "capability-test-card.v1",
+  "title": "Capability Test Card v1",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "category",
+    "description",
+    "prompt",
+    "success_definition",
+    "allowed_tools",
+    "forbidden_tools",
+    "required_context",
+    "optional_context",
+    "verifier_type",
+    "verifier_config",
+    "remediation_options",
+    "risk_level",
+    "approval_required",
+    "retry_policy",
+    "tags",
+    "enabled",
+    "priority"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "capability-test-card.v1"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "success_definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "allowed_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forbidden_tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_context": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/contextRequirement"
+      }
+    },
+    "optional_context": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/contextRequirement"
+      }
+    },
+    "verifier_type": {
+      "type": "string",
+      "enum": [
+        "exact-match",
+        "substring-regex",
+        "json-field",
+        "source-grounding",
+        "workflow-tool-selection",
+        "file-diff",
+        "command-action-selection",
+        "action-sequence",
+        "action-preconditions",
+        "action-risk-class",
+        "action-approval-token",
+        "policy-refusal",
+        "custom-hook"
+      ]
+    },
+    "verifier_config": {
+      "type": "object"
+    },
+    "remediation_options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "approval_required": {
+      "type": "boolean"
+    },
+    "retry_policy": {
+      "type": "object",
+      "required": [
+        "maxAttempts",
+        "retryDelayMs"
+      ],
+      "properties": {
+        "maxAttempts": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "retryDelayMs": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "priority": {
+      "type": "number"
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "windows",
+        "repo",
+        "document",
+        "general"
+      ]
+    },
+    "environment_preconditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "regression_group": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "prerequisite_tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timeout_ms": {
+      "type": "integer",
+      "minimum": 500
+    },
+    "expected_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "definitions": {
+    "contextRequirement": {
+      "type": "object",
+      "required": [
+        "id",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "enum": [
+            "awareness.live-usage",
+            "awareness.resource-hotspot",
+            "awareness.settings-map",
+            "awareness.general",
+            "workspace.file",
+            "workspace.search",
+            "inline"
+          ]
+        },
+        "query": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        },
+        "maxChars": {
+          "type": "integer",
+          "minimum": 128
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

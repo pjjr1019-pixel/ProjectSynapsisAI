@@ -20,6 +20,83 @@ export type ChatRunMode = "interactive" | "evaluation";
 export type ChatEvaluationSuiteMode = "chat-only" | "windows-awareness";
 export type ChatDiagnosticRouteFamily = AwarenessIntentFamily | "generic-writing";
 
+export const CHAT_GOVERNED_TASK_DECISIONS = [
+  "allow",
+  "allow_with_verification",
+  "require_approval",
+  "deny",
+  "clarify",
+  "plan_only"
+] as const;
+export type ChatGovernedTaskDecision = (typeof CHAT_GOVERNED_TASK_DECISIONS)[number];
+
+export const CHAT_GOVERNED_TASK_RISK_TIERS = ["tier-0", "tier-1", "tier-2", "tier-3", "tier-4"] as const;
+export type ChatGovernedTaskRiskTier = (typeof CHAT_GOVERNED_TASK_RISK_TIERS)[number];
+
+export const CHAT_GOVERNED_TASK_EXECUTORS = [
+  "answer-only",
+  "workflow-orchestrator",
+  "desktop-actions",
+  "browser-session",
+  "history-replay",
+  "approval-queue",
+  "ui-automation",
+  "service-control",
+  "registry-control",
+  "browser-automation",
+  "none"
+] as const;
+export type ChatGovernedTaskExecutor = (typeof CHAT_GOVERNED_TASK_EXECUTORS)[number];
+
+export interface ChatGovernedTaskApprovalState {
+  required: boolean;
+  pending: boolean;
+  reason: string | null;
+  approver: string | null;
+  tokenId: string | null;
+  expiresAt: string | null;
+}
+
+export interface ChatGovernedTaskArtifact {
+  kind:
+    | "workflow-plan"
+    | "desktop-action"
+    | "verification"
+    | "rollback"
+    | "gap-classification"
+    | "remediation-plan"
+    | "history"
+    | "audit";
+  summary: string;
+  path?: string | null;
+  metadata?: Record<string, unknown>;
+}
+
+export interface ChatGovernedTaskMetadata {
+  requestId: string;
+  interpretedIntent: string;
+  actionType: string | null;
+  riskTier: ChatGovernedTaskRiskTier;
+  decision: ChatGovernedTaskDecision;
+  requiresExecution: boolean;
+  approvalRequired: boolean;
+  approvalReason: string | null;
+  denialReason: string | null;
+  clarificationNeeded: string[];
+  executionAllowed: boolean;
+  verificationRequired: boolean;
+  recommendedExecutor: ChatGovernedTaskExecutor;
+  policyRulesTriggered: string[];
+  reasoningSummary: string;
+  approvalState: ChatGovernedTaskApprovalState;
+  executionSummary: string | null;
+  verificationSummary: string | null;
+  rollbackSummary: string | null;
+  gapClass: string | null;
+  remediationSummary: string | null;
+  artifacts: ChatGovernedTaskArtifact[];
+}
+
 export const CHAT_REPLY_SOURCE_SCOPES = [
   "repo-wide",
   "readme-only",
@@ -72,6 +149,7 @@ export interface ChatExecutionDiagnostics {
   retrievedSourceSummary: ChatRetrievedSourceSummary | null;
   reasoningMode: RagContextPreview["mode"] | null;
   evaluationSuiteMode: ChatEvaluationSuiteMode | null;
+  taskState?: ChatGovernedTaskMetadata | null;
 }
 
 export interface ChatMessageAwarenessMetadata {
@@ -94,6 +172,7 @@ export interface ChatMessageMetadata {
     traceSummary: ReasoningTraceSummary | null;
   } | null;
   grounding?: GroundingMetadata | null;
+  task?: ChatGovernedTaskMetadata | null;
 }
 
 export interface ChatMessage {
@@ -135,6 +214,7 @@ export interface SendChatResponse {
   contextPreview: ContextPreview;
   modelStatus: ModelHealth;
   diagnostics?: ChatExecutionDiagnostics;
+  taskState?: ChatGovernedTaskMetadata | null;
 }
 
 export interface ConversationWithMessages {

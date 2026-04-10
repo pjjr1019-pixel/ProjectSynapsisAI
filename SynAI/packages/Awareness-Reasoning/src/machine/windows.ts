@@ -47,6 +47,33 @@ const toNumberOrNull = (value: unknown): number | null => {
   return null;
 };
 
+const toBooleanOrNull = (value: unknown): boolean | null => {
+  if (typeof value === "boolean") {
+    return value;
+  }
+
+  if (typeof value === "number") {
+    if (value === 1) {
+      return true;
+    }
+    if (value === 0) {
+      return false;
+    }
+  }
+
+  if (typeof value === "string") {
+    const normalized = value.trim().toLowerCase();
+    if (["true", "1", "yes", "on", "enabled", "enable", "up"].includes(normalized)) {
+      return true;
+    }
+    if (["false", "0", "no", "off", "disabled", "disable", "down"].includes(normalized)) {
+      return false;
+    }
+  }
+
+  return null;
+};
+
 const toStringArray = (value: unknown): string[] => {
   if (!Array.isArray(value)) {
     const single = toStringOrNull(value);
@@ -119,6 +146,11 @@ const buildNodeIdentityFallback = (): SystemIdentity => {
       },
       cpuLoadPercent: null,
       gpus: [],
+      radioState: {
+        bluetoothEnabled: null,
+        wifiEnabled: null,
+        airplaneModeEnabled: null
+      },
       networkAdapters: Object.entries(os.networkInterfaces())
         .map(([name, interfaces]) => ({
           name,
@@ -651,6 +683,11 @@ const captureSystemIdentity = async (): Promise<SystemIdentity> => {
         ipAddresses?: string[] | string | null;
         status?: string | null;
       }>;
+      radioState?: {
+        bluetoothEnabled?: boolean | string | number | null;
+        wifiEnabled?: boolean | string | number | null;
+        airplaneModeEnabled?: boolean | string | number | null;
+      };
       displays?: Array<{
         name?: string;
         width?: number | string | null;
@@ -691,6 +728,38 @@ try {
   }
 } catch {
   $gpuLoadPercent = $null
+}
+$bluetoothEnabled = $null
+try {
+  $bluetoothRadio = Get-PnpDevice -Class Bluetooth -ErrorAction SilentlyContinue | Where-Object {
+    $_.FriendlyName -match 'Bluetooth' -or $_.Class -eq 'Bluetooth'
+  } | Select-Object -First 1
+  if ($bluetoothRadio) {
+    $bluetoothEnabled = $bluetoothRadio.Status -eq 'OK'
+  }
+} catch {
+  $bluetoothEnabled = $null
+}
+$wifiEnabled = $null
+try {
+  $wifiAdapter = Get-NetAdapter -ErrorAction SilentlyContinue | Where-Object {
+    $_.Name -match 'Wi-?Fi|Wireless' -or $_.InterfaceDescription -match 'Wi-?Fi|Wireless'
+  } | Select-Object -First 1
+  if ($wifiAdapter) {
+    $wifiEnabled = $wifiAdapter.Status -ne 'Disabled' -and $wifiAdapter.Status -ne 'Not Present'
+  }
+} catch {
+  $wifiEnabled = $null
+}
+$airplaneModeEnabled = $null
+try {
+  $radioState = Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\RadioManagement\SystemRadioState' -ErrorAction SilentlyContinue
+  $radioStateValue = $radioState.'(default)'
+  if ($null -ne $radioStateValue -and "$radioStateValue".Length -gt 0) {
+    $airplaneModeEnabled = [int]$radioStateValue -eq 1
+  }
+} catch {
+  $airplaneModeEnabled = $null
 }
 $drives = Get-CimInstance Win32_LogicalDisk -ErrorAction SilentlyContinue | ForEach-Object {
   [PSCustomObject]@{
@@ -762,6 +831,11 @@ $displays = Get-CimInstance Win32_VideoController -ErrorAction SilentlyContinue 
     gpus = $gpus
     networkAdapters = $networkAdapters
     displays = $displays
+    radioState = [PSCustomObject]@{
+      bluetoothEnabled = $bluetoothEnabled
+      wifiEnabled = $wifiEnabled
+      airplaneModeEnabled = $airplaneModeEnabled
+    }
   }
 } | ConvertTo-Json -Depth 8
 `, {
@@ -829,7 +903,18 @@ $displays = Get-CimInstance Win32_VideoController -ErrorAction SilentlyContinue 
             height: toNumberOrNull(display.height),
             refreshRateHz: toNumberOrNull(display.refreshRateHz),
             primary: Boolean(display.primary)
-          }))
+          })),
+      radioState: {
+        bluetoothEnabled:
+          toBooleanOrNull(identity.hardware?.radioState?.bluetoothEnabled) ??
+          fallback.hardware.radioState.bluetoothEnabled,
+        wifiEnabled:
+          toBooleanOrNull(identity.hardware?.radioState?.wifiEnabled) ??
+          fallback.hardware.radioState.wifiEnabled,
+        airplaneModeEnabled:
+          toBooleanOrNull(identity.hardware?.radioState?.airplaneModeEnabled) ??
+          fallback.hardware.radioState.airplaneModeEnabled
+      }
     }
   };
 };

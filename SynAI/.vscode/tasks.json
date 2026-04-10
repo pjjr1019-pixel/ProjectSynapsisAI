@@ -1,0 +1,75 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Capability: Run Current Test",
+      "type": "shell",
+      "command": "npm run capability:run -- --card-id ${input:capabilityCardId}",
+      "problemMatcher": []
+    },
+    {
+      "label": "Capability: Run All Enabled",
+      "type": "shell",
+      "command": "npm run capability:run:all",
+      "problemMatcher": []
+    },
+    {
+      "label": "Capability: Rerun Failed",
+      "type": "shell",
+      "command": "npm run capability:rerun-failed",
+      "problemMatcher": []
+    },
+    {
+      "label": "Governance: Mine History",
+      "type": "shell",
+      "command": "npm run capability:mine-history -- --json",
+      "problemMatcher": []
+    },
+    {
+      "label": "Capability: Generate Remediation Proposal",
+      "type": "shell",
+      "command": "npm run capability:propose -- --card-id ${input:capabilityCardId}",
+      "problemMatcher": []
+    },
+    {
+      "label": "Capability: Sandbox Apply Remediation",
+      "type": "shell",
+      "command": "npm run capability:run -- --card-id ${input:capabilityCardId} --mode sandbox-apply --auto-remediate",
+      "problemMatcher": []
+    },
+    {
+      "label": "Capability: Compute Promotion Hash",
+      "type": "shell",
+      "command": "npm run capability:promotion-hash -- --card-id ${input:capabilityCardId} --target-path ${input:capabilityTargetPath}",
+      "problemMatcher": []
+    },
+    {
+      "label": "Capability: Governed Promotion (Token)",
+      "type": "shell",
+      "command": "npm run capability:run -- --card-id ${input:capabilityCardId} --mode governed-promotion --auto-remediate --approved-by ${input:capabilityApprover} --approval-token ${input:capabilityApprovalToken}",
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "capabilityCardId",
+      "type": "promptString",
+      "description": "Capability card id (e.g. windows.highest-ram-process)"
+    },
+    {
+      "id": "capabilityApprover",
+      "type": "promptString",
+      "description": "Approver name for governed promotion"
+    },
+    {
+      "id": "capabilityTargetPath",
+      "type": "promptString",
+      "description": "Card target path (e.g. capability/cards/windows/highest-ram-process.json)"
+    },
+    {
+      "id": "capabilityApprovalToken",
+      "type": "promptString",
+      "description": "Signed approval token JSON (or base64:<payload>)"
+    }
+  ]
+}

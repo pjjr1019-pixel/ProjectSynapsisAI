@@ -46,6 +46,61 @@ const formatRoute = (
     ? "none"
     : `${routeFamily}${routeConfidence != null ? ` @ ${routeConfidence.toFixed(2)}` : ""}`;
 
+const CHAT_HISTORY_HEADER = [
+  "# Chat History",
+  "",
+  "Prompt evaluation prompts and replies saved for gap analysis.",
+  "Use this file to review where the assistant is strong, where it misses, and what product knowledge or retrieval features to improve."
+].join("\n");
+
+const formatFailedChecks = (
+  entry: PromptEvaluationResponse["cases"][number]
+): string[] => {
+  const failed = entry.checkResults.filter((check) => !check.passed);
+  return failed.length > 0
+    ? failed.map((check) => `- ${check.description} | ${check.detail}`)
+    : ["- None."];
+};
+
+const formatPromptEvaluationChatHistoryEntry = (report: PromptEvaluationResponse): string => {
+  const lines = [
+    `## ${report.generatedAt} | ${report.suiteName}`,
+    "",
+    `- Report file: ${report.reportFileName}`,
+    `- Suite mode: ${report.settings.suiteMode}`,
+    `- Model: ${report.settings.model ?? "default model"}`,
+    `- Quality passed: ${report.summary.qualityPassCount}/${report.summary.total}`,
+    `- Needs review: ${report.summary.qualityNeedsReviewCount}`,
+    ""
+  ];
+
+  for (const entry of report.cases) {
+    lines.push(
+      `### ${entry.label} (${entry.difficulty})`,
+      "",
+      `- Status: ${entry.status}`,
+      `- Quality: ${entry.qualityStatus}`,
+      `- Route: ${formatRoute(entry.routing.routeFamily, entry.routing.routeConfidence)}`,
+      `- Source scope: ${entry.routing.sourceScope ?? "none"}`,
+      "",
+      "#### Prompt",
+      "",
+      toFence(entry.prompt),
+      "",
+      "#### Reply",
+      "",
+      toFence(entry.reply),
+      "",
+      "#### Failed Checks",
+      "",
+      ...formatFailedChecks(entry),
+      ""
+    );
+  }
+
+  return lines.join("\n").trim();
+};
+
 export const buildPromptEvaluationReportFileName = (
   suiteName: string,
   generatedAt: string
@@ -155,3 +210,23 @@ export const buildPromptEvaluationReportPath = (
   suiteName: string,
   generatedAt: string
 ): string => path.join(workspaceRoot, ".runtime", "prompt-evals", buildPromptEvaluationReportFileName(suiteName, generatedAt));
+
+export const buildPromptEvaluationChatHistoryPath = (workspaceRoot: string): string =>
+  path.join(workspaceRoot, ".runtime", "prompt-evals", "chathistory.md");
+
+export const upsertPromptEvaluationChatHistory = (
+  existingMarkdown: string | null | undefined,
+  report: PromptEvaluationResponse
+): string => {
+  const existing = existingMarkdown?.trim() ?? "";
+  const entry = formatPromptEvaluationChatHistoryEntry(report);
+  if (!existing) {
+    return `${CHAT_HISTORY_HEADER}\n\n${entry}\n`;
+  }
+
+  if (existing.includes(`- Report file: ${report.reportFileName}`)) {
+    return `${existing}\n`;
+  }
+
+  return `${existing}\n\n${entry}\n`;
+};

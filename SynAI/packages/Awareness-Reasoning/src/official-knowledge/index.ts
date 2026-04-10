@@ -5,7 +5,8 @@ import type {
   OfficialKnowledgeDocument,
   OfficialKnowledgeHit,
   OfficialKnowledgePolicy,
-  OfficialKnowledgeSource
+  OfficialKnowledgeSource,
+  OfficialKnowledgeSourceStatus
 } from "../contracts/awareness";
 import type { AwarenessIntentRoute } from "../contracts/awareness";
 import { CURATED_OFFICIAL_WINDOWS_SOURCES, OFFICIAL_WINDOWS_ALLOWED_DOMAINS } from "./catalog";
@@ -19,15 +20,20 @@ export interface OfficialKnowledgeRuntimePaths {
   runtimeRoot: string;
   mirrorPath: string;
   statusPath: string;
+  sourcesPath: string;
 }
 
 export interface OfficialKnowledgeStatus {
   ready: boolean;
   documentCount: number;
   lastRefreshedAt: string | null;
+  lastRefreshReason: string | null;
   mirrorFresh: boolean;
   policy: OfficialKnowledgePolicy;
   allowedDomains: string[];
+  sourceCount: number;
+  enabledSourceCount: number;
+  sources: OfficialKnowledgeSourceStatus[];
 }
 
 export interface OfficialKnowledgeQueryOptions {
@@ -52,6 +58,9 @@ export interface OfficialKnowledgeState {
   getStatus(): OfficialKnowledgeStatus;
   query(query: string, options?: OfficialKnowledgeQueryOptions): Promise<OfficialKnowledgeContext | null>;
   refresh(reason?: string): Promise<OfficialKnowledgeDocument[]>;
+  refreshSource(sourceId: string, reason?: string): Promise<OfficialKnowledgeDocument[]>;
+  listSources(): OfficialKnowledgeSourceStatus[];
+  setSourceEnabled(sourceId: string, enabled: boolean): Promise<OfficialKnowledgeSourceStatus | null>;
   close(): void;
 }
 
@@ -60,6 +69,25 @@ interface OfficialKnowledgeMirrorFile {
   generatedAt: string;
   documents: OfficialKnowledgeDocument[];
 }
+
+interface OfficialKnowledgeSourceStateFile {
+  version: 1;
+  generatedAt: string;
+  sources: OfficialKnowledgeSourceStatus[];
+}
+
+const buildDefaultSourceStatus = (source: OfficialKnowledgeSource): OfficialKnowledgeSourceStatus => ({
+  id: source.id,
+  title: source.title,
+  url: source.url,
+  domain: source.domain,
+  enabled: true,
+  provenance: "catalog",
+  documentCount: 0,
+  lastFetchedAt: null,
+  lastStatus: "idle",
+  error: null
+});
 
 const normalizeText = (value: string): string =>
   value
@@ -110,7 +138,8 @@ const uniqueStrings = (values: string[]): string[] => [...new Set(values.map((va
 const buildRuntimePaths = (runtimeRoot: string): OfficialKnowledgeRuntimePaths => ({
   runtimeRoot,
   mirrorPath: path.join(runtimeRoot, "mirror.json"),
-  statusPath: path.join(runtimeRoot, "status.json")
+  statusPath: path.join(runtimeRoot, "status.json"),
+  sourcesPath: path.join(runtimeRoot, "sources.json")
 });
 
 const readJsonIfExists = async <T>(filePath: string): Promise<T | null> => {
@@ -284,10 +313,62 @@ export const initializeOfficialKnowledge = async (
   await mkdir(paths.runtimeRoot, { recursive: true });
 
   const mirrorFile = await readJsonIfExists<OfficialKnowledgeMirrorFile>(paths.mirrorPath);
+  const sourceStateFile = await readJsonIfExists<OfficialKnowledgeSourceStateFile>(paths.sourcesPath);
   let documents = mirrorFile?.documents ?? [];
   let lastRefreshedAt = mirrorFile?.generatedAt ?? null;
+  let lastRefreshReason: string | null = null;
   let refreshTimer: NodeJS.Timeout | null = null;
   let inFlightRefresh: Promise<OfficialKnowledgeDocument[]> | null = null;
+  const sourceStates = new Map<string, OfficialKnowledgeSourceStatus>(
+    CURATED_OFFICIAL_WINDOWS_SOURCES.map((source) => {
+      const persisted = sourceStateFile?.sources.find((entry) => entry.id === source.id);
+      const defaultState = buildDefaultSourceStatus(source);
+      return [
+        source.id,
+        persisted
+          ? {
+              ...defaultState,
+              ...persisted,
+              id: source.id,
+              title: source.title,
+              url: source.url,
+              domain: source.domain
+            }
+          : defaultState
+      ];
+    })
+  );
+
+  const listSources = (): OfficialKnowledgeSourceStatus[] =>
+    CURATED_OFFICIAL_WINDOWS_SOURCES.map((source) => sourceStates.get(source.id) ?? buildDefaultSourceStatus(source));
+
+  const writeSourceState = async (): Promise<void> => {
+    await writeJson(paths.sourcesPath, {
+      version: 1,
+      generatedAt: now().toISOString(),
+      sources: listSources()
+    } satisfies OfficialKnowledgeSourceStateFile);
+  };
+
+  const updateSourceState = (
+    sourceId: string,
+    patch: Partial<OfficialKnowledgeSourceStatus>
+  ): OfficialKnowledgeSourceStatus | null => {
+    const current = sourceStates.get(sourceId);
+    if (!current) {
+      return null;
+    }
+    const next = {
+      ...current,
+      ...patch,
+      id: current.id,
+      title: current.title,
+      url: current.url,
+      domain: current.domain
+    };
+    sourceStates.set(sourceId, next);
+    return next;
+  };
 
   const persist = async (): Promise<void> => {
     const generatedAt = lastRefreshedAt ?? now().toISOString();
@@ -296,15 +377,76 @@ export const initializeOfficialKnowledge = async (
       generatedAt,
       documents
     } satisfies OfficialKnowledgeMirrorFile);
+    await writeSourceState();
     await writeJson(paths.statusPath, {
       ready: documents.length > 0,
       documentCount: documents.length,
       lastRefreshedAt,
+      lastRefreshReason,
       mirrorFresh:
         lastRefreshedAt != null ? now().getTime() - new Date(lastRefreshedAt).getTime() <= MIRROR_STALE_AFTER_MS : false,
       policy: defaultPolicy,
-      allowedDomains: [...OFFICIAL_WINDOWS_ALLOWED_DOMAINS]
+      allowedDomains: [...OFFICIAL_WINDOWS_ALLOWED_DOMAINS],
+      sourceCount: CURATED_OFFICIAL_WINDOWS_SOURCES.length,
+      enabledSourceCount: listSources().filter((source) => source.enabled).length,
+      sources: listSources()
     } satisfies OfficialKnowledgeStatus);
+  };
+
+  const refreshSourceDocument = async (source: OfficialKnowledgeSource): Promise<OfficialKnowledgeDocument | null> => {
+    const sourceState = sourceStates.get(source.id) ?? buildDefaultSourceStatus(source);
+    if (!sourceState.enabled) {
+      updateSourceState(source.id, {
+        lastStatus: "disabled",
+        lastFetchedAt: sourceState.lastFetchedAt,
+        error: null,
+        documentCount: documents.filter((document) => document.sourceId === source.id).length
+      });
+      return null;
+    }
+
+    if (!isAllowedOfficialUrl(source.url)) {
+      updateSourceState(source.id, {
+        lastStatus: "failed",
+        error: "URL is not in the allowlist.",
+        documentCount: 0
+      });
+      return null;
+    }
+
+    try {
+      const response = await fetchImpl(source.url, {
+        headers: {
+          "User-Agent": "SynAI/0.1"
+        }
+      });
+      if (!response.ok) {
+        updateSourceState(source.id, {
+          lastStatus: "failed",
+          error: `HTTP ${response.status}`,
+          documentCount: 0
+        });
+        return null;
+      }
+
+      const html = await response.text();
+      const fetchedAt = now().toISOString();
+      const document = toDocument(source, html, fetchedAt);
+      updateSourceState(source.id, {
+        lastFetchedAt: fetchedAt,
+        lastStatus: "fetched",
+        error: null,
+        documentCount: 1
+      });
+      return document;
+    } catch (error) {
+      updateSourceState(source.id, {
+        lastStatus: "failed",
+        error: error instanceof Error ? error.message : "Unknown error",
+        documentCount: 0
+      });
+      return null;
+    }
   };
 
   const refresh = async (): Promise<OfficialKnowledgeDocument[]> => {
@@ -318,32 +460,18 @@ export const initializeOfficialKnowledge = async (
     }
 
     inFlightRefresh = (async () => {
-      const nextFetchedAt = now().toISOString();
       const nextDocuments: OfficialKnowledgeDocument[] = [];
       for (const source of CURATED_OFFICIAL_WINDOWS_SOURCES) {
-        if (!isAllowedOfficialUrl(source.url)) {
-          continue;
-        }
-        try {
-          const response = await fetchImpl(source.url, {
-            headers: {
-              "User-Agent": "SynAI/0.1"
-            }
-          });
-          if (!response.ok) {
-            continue;
-          }
-          const html = await response.text();
-          nextDocuments.push(toDocument(source, html, nextFetchedAt));
-        } catch {
-          continue;
+        const document = await refreshSourceDocument(source);
+        if (document) {
+          nextDocuments.push(document);
         }
       }
-      if (nextDocuments.length > 0) {
-        documents = nextDocuments;
-        lastRefreshedAt = nextFetchedAt;
-        await persist();
-      }
+
+      documents = nextDocuments;
+      lastRefreshReason = "full-refresh";
+      lastRefreshedAt = nextDocuments.length > 0 ? now().toISOString() : lastRefreshedAt;
+      await persist();
       return documents;
     })().finally(() => {
       inFlightRefresh = null;
@@ -366,18 +494,23 @@ export const initializeOfficialKnowledge = async (
   return {
     paths,
     get documents() {
-      return [...documents];
+      return documents.filter((document) => sourceStates.get(document.sourceId)?.enabled !== false);
     },
     getStatus() {
       const mirrorFresh =
         lastRefreshedAt != null ? now().getTime() - new Date(lastRefreshedAt).getTime() <= MIRROR_STALE_AFTER_MS : false;
+      const sources = listSources();
       return {
-        ready: documents.length > 0,
-        documentCount: documents.length,
+        ready: documents.filter((document) => sourceStates.get(document.sourceId)?.enabled !== false).length > 0,
+        documentCount: documents.filter((document) => sourceStates.get(document.sourceId)?.enabled !== false).length,
         lastRefreshedAt,
+        lastRefreshReason,
         mirrorFresh,
         policy: defaultPolicy,
-        allowedDomains: [...OFFICIAL_WINDOWS_ALLOWED_DOMAINS]
+        allowedDomains: [...OFFICIAL_WINDOWS_ALLOWED_DOMAINS],
+        sourceCount: sources.length,
+        enabledSourceCount: sources.filter((source) => source.enabled).length,
+        sources
       };
     },
     async query(query, queryOptions = {}) {
@@ -389,8 +522,9 @@ export const initializeOfficialKnowledge = async (
       const policy = queryOptions.policy ?? defaultPolicy;
       const mirrorFresh =
         lastRefreshedAt != null ? now().getTime() - new Date(lastRefreshedAt).getTime() <= MIRROR_STALE_AFTER_MS : false;
+      const visibleDocuments = documents.filter((document) => sourceStates.get(document.sourceId)?.enabled !== false);
 
-      let hits = documents
+      let hits = visibleDocuments
         .map((document) => rankDocument(document, trimmed, queryOptions.windowsVersionHint))
         .filter((hit): hit is OfficialKnowledgeHit => Boolean(hit))
         .sort((a, b) => b.score - a.score)
@@ -406,6 +540,9 @@ export const initializeOfficialKnowledge = async (
       ) {
         const candidates = chooseLiveFallbackSources(trimmed);
         for (const sourceCandidate of candidates) {
+          if (sourceStates.get(sourceCandidate.id)?.enabled === false) {
+            continue;
+          }
           try {
             const response = await fetchImpl(sourceCandidate.url, {
               headers: {
@@ -417,10 +554,13 @@ export const initializeOfficialKnowledge = async (
             }
             const html = await response.text();
             const document = toDocument(sourceCandidate, html, now().toISOString());
-            documents = [
-              document,
-              ...documents.filter((item) => item.id !== document.id)
-            ];
+            documents = [document, ...documents.filter((item) => item.id !== document.id)];
+            updateSourceState(sourceCandidate.id, {
+              lastFetchedAt: document.fetchedAt,
+              lastStatus: "fetched",
+              error: null,
+              documentCount: 1
+            });
             lastRefreshedAt = now().toISOString();
             await persist();
           } catch {
@@ -449,6 +589,44 @@ export const initializeOfficialKnowledge = async (
       } satisfies OfficialKnowledgeContext;
     },
     refresh,
+    async refreshSource(sourceId: string, reason = "manual-source-refresh"): Promise<OfficialKnowledgeDocument[]> {
+      const source = CURATED_OFFICIAL_WINDOWS_SOURCES.find((entry) => entry.id === sourceId);
+      if (!source) {
+        return [];
+      }
+      if (!allowLiveFetch) {
+        await persist();
+        return documents.filter((document) => document.sourceId === sourceId);
+      }
+      const document = await refreshSourceDocument(source);
+      lastRefreshReason = reason;
+      if (document) {
+        documents = [document, ...documents.filter((item) => item.id !== document.id)];
+        lastRefreshedAt = now().toISOString();
+      }
+      await persist();
+      return documents.filter((item) => item.sourceId === sourceId);
+    },
+    listSources() {
+      return listSources();
+    },
+    async setSourceEnabled(sourceId: string, enabled: boolean): Promise<OfficialKnowledgeSourceStatus | null> {
+      const source = CURATED_OFFICIAL_WINDOWS_SOURCES.find((entry) => entry.id === sourceId);
+      if (!source) {
+        return null;
+      }
+      const next = updateSourceState(sourceId, {
+        enabled,
+        lastStatus: enabled ? "idle" : "disabled",
+        error: enabled ? null : null,
+        documentCount: enabled ? documents.filter((document) => document.sourceId === sourceId).length : 0
+      });
+      if (!enabled) {
+        documents = documents.filter((document) => document.sourceId !== sourceId);
+      }
+      await persist();
+      return next;
+    },
     close() {
       if (refreshTimer) {
         clearInterval(refreshTimer);

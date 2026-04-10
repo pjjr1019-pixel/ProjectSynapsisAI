@@ -8,4 +8,4 @@ Phase 1 isolates a single vertical slice:
 - rolling summaries
 - inspectable context preview
 
-No task/workflow/action systems are included in this stage.
+Governed desktop execution is tracked separately in [Governed Desktop Execution Roadmap](./governed-execution-roadmap.md) so chat/memory work can stay decoupled from OS action rollout.

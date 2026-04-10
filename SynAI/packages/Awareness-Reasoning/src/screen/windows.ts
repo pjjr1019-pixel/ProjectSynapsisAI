@@ -1,5 +1,11 @@
+import { mkdir } from "node:fs/promises";
+import * as path from "node:path";
 import type {
   ForegroundWindowSnapshot,
+  ScreenBounds,
+  ScreenFrameSnapshot,
+  ScreenMonitorSnapshot,
+  ScreenOcrLineSnapshot,
   ScreenUiTreeSnapshot
 } from "../contracts/awareness";
 import { cloneSnapshot, buildFreshness } from "./shared";
@@ -42,6 +48,118 @@ const toBoolean = (value: unknown): boolean => {
 
   return Boolean(value);
 };
+
+const toBounds = (value: unknown): ScreenBounds | null => {
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  const record = value as { x?: unknown; y?: unknown; width?: unknown; height?: unknown };
+  const x = toNumberOrNull(record.x);
+  const y = toNumberOrNull(record.y);
+  const width = toNumberOrNull(record.width);
+  const height = toNumberOrNull(record.height);
+  if (x == null || y == null || width == null || height == null) {
+    return null;
+  }
+
+  return { x, y, width, height };
+};
+
+const escapePowerShellSingleQuoted = (value: string): string => value.replace(/'/g, "''");
+
+const captureFrameScript = (screenshotPath: string): string => `
+$ErrorActionPreference = 'Stop'
+Add-Type -AssemblyName System.Drawing, System.Windows.Forms, System.Runtime.WindowsRuntime
+try {
+  $virtual = [System.Windows.Forms.SystemInformation]::VirtualScreen
+  $bitmap = New-Object System.Drawing.Bitmap($virtual.Width, $virtual.Height)
+  $graphics = [System.Drawing.Graphics]::FromImage($bitmap)
+  $graphics.CopyFromScreen($virtual.Left, $virtual.Top, 0, 0, $bitmap.Size)
+  $graphics.Dispose()
+  $bitmap.Save('${escapePowerShellSingleQuoted(screenshotPath)}', [System.Drawing.Imaging.ImageFormat]::Png)
+  $bitmap.Dispose()
+
+  $monitors = @()
+  foreach ($screen in [System.Windows.Forms.Screen]::AllScreens) {
+    $monitors += [pscustomobject]@{
+      id = [string]$screen.DeviceName
+      name = [string]$screen.DeviceName
+      primary = [bool]$screen.Primary
+      bounds = [pscustomobject]@{
+        x = [int]$screen.Bounds.X
+        y = [int]$screen.Bounds.Y
+        width = [int]$screen.Bounds.Width
+        height = [int]$screen.Bounds.Height
+      }
+      workingArea = [pscustomobject]@{
+        x = [int]$screen.WorkingArea.X
+        y = [int]$screen.WorkingArea.Y
+        width = [int]$screen.WorkingArea.Width
+        height = [int]$screen.WorkingArea.Height
+      }
+    }
+  }
+
+  $ocrText = ""
+  $ocrLines = @()
+  try {
+    $file = [Windows.Storage.StorageFile, Windows.Storage, ContentType=WindowsRuntime]::GetFileFromPathAsync('${escapePowerShellSingleQuoted(screenshotPath)}').GetAwaiter().GetResult()
+    $stream = [Windows.Storage.FileAccessMode]::Read
+    $ras = [Windows.Storage.Streams.RandomAccessStreamReference]::CreateFromFile($file).OpenReadAsync().GetAwaiter().GetResult()
+    $decoder = [Windows.Graphics.Imaging.BitmapDecoder, Windows.Graphics.Imaging, ContentType=WindowsRuntime]::CreateAsync($ras).GetAwaiter().GetResult()
+    $software = $decoder.GetSoftwareBitmapAsync().GetAwaiter().GetResult()
+    $engine = [Windows.Media.Ocr.OcrEngine, Windows.Media.Ocr, ContentType=WindowsRuntime]::TryCreateFromUserProfileLanguages()
+    if ($engine) {
+      $result = $engine.RecognizeAsync($software).GetAwaiter().GetResult()
+      $ocrText = [string]$result.Text
+      foreach ($line in $result.Lines) {
+        $words = @()
+        $lineBounds = $null
+        foreach ($word in $line.Words) {
+          $wordBounds = $null
+          try {
+            $wordBounds = [pscustomobject]@{
+              x = [int]$word.BoundingRect.X
+              y = [int]$word.BoundingRect.Y
+              width = [int]$word.BoundingRect.Width
+              height = [int]$word.BoundingRect.Height
+            }
+          } catch {}
+          if ($null -eq $lineBounds -and $wordBounds) {
+            $lineBounds = $wordBounds
+          }
+          $words += [pscustomobject]@{
+            text = [string]$word.Text
+            bounds = $wordBounds
+          }
+        }
+        $ocrLines += [pscustomobject]@{
+          text = [string]$line.Text
+          bounds = $lineBounds
+          words = $words
+        }
+      }
+    }
+  } catch {}
+
+  [pscustomobject]@{
+    screenshotPath = '${escapePowerShellSingleQuoted(screenshotPath)}'
+    virtualBounds = [pscustomobject]@{
+      x = [int]$virtual.Left
+      y = [int]$virtual.Top
+      width = [int]$virtual.Width
+      height = [int]$virtual.Height
+    }
+    monitorCount = [int]$monitors.Count
+    monitors = $monitors
+    ocrText = $ocrText
+    ocrLines = $ocrLines
+  } | ConvertTo-Json -Depth 8
+} catch {
+  $null
+}
+`;
 
 const foregroundWindowScript = `
 $ErrorActionPreference = 'Stop'
@@ -358,7 +476,75 @@ const parseUiTree = (raw: {
   };
 };
 
-export const createWindowsScreenCaptureSource = (): ScreenCaptureSource => ({
+const parseFrame = (raw: {
+  screenshotPath?: string | null;
+  virtualBounds?: unknown;
+  monitorCount?: number | string | null;
+  monitors?: Array<{
+    id?: string | null;
+    name?: string | null;
+    primary?: boolean | string | null;
+    bounds?: unknown;
+    workingArea?: unknown;
+  }> | null;
+  ocrText?: string | null;
+  ocrLines?: Array<{
+    text?: string | null;
+    bounds?: unknown;
+    words?: Array<{
+      text?: string | null;
+      bounds?: unknown;
+    }> | null;
+  }> | null;
+} | null): ScreenFrameSnapshot | null => {
+  if (!raw) {
+    return null;
+  }
+
+  const now = new Date().toISOString();
+  const monitors: ScreenMonitorSnapshot[] | null = Array.isArray(raw.monitors)
+    ? raw.monitors.map((monitor, index) => ({
+        id: toStringOrNull(monitor.id) ?? `monitor-${index + 1}`,
+        name: toStringOrNull(monitor.name),
+        primary: toBoolean(monitor.primary),
+        bounds: toBounds(monitor.bounds) ?? { x: 0, y: 0, width: 0, height: 0 },
+        workingArea: toBounds(monitor.workingArea)
+      }))
+    : null;
+
+  const ocrLines: ScreenOcrLineSnapshot[] | null = Array.isArray(raw.ocrLines)
+    ? raw.ocrLines.map((line) => ({
+        text: toStringOrNull(line.text) ?? "",
+        bounds: toBounds(line.bounds),
+        words: Array.isArray(line.words)
+          ? line.words.map((word) => ({
+              text: toStringOrNull(word.text) ?? "",
+              bounds: toBounds(word.bounds)
+            }))
+          : []
+      }))
+    : null;
+
+  return {
+    capturedAt: now,
+    freshness: buildFreshness(now),
+    scope: null,
+    targetLabel: null,
+    captureMode: "on-demand",
+    windowHandle: null,
+    windowTitle: null,
+    virtualBounds: toBounds(raw.virtualBounds),
+    monitorCount: raw.monitorCount == null ? monitors?.length ?? null : Number(raw.monitorCount),
+    monitors,
+    redactions: [],
+    uiElementCount: 0,
+    screenshotPath: toStringOrNull(raw.screenshotPath),
+    ocrText: toStringOrNull(raw.ocrText),
+    ocrLines
+  };
+};
+
+export const createWindowsScreenCaptureSource = (options: { runtimeRoot: string }): ScreenCaptureSource => ({
   captureForegroundWindow: async () =>
     parseForegroundWindow(
       await runPowerShellJson(foregroundWindowScript, {
@@ -370,7 +556,16 @@ export const createWindowsScreenCaptureSource = (): ScreenCaptureSource => ({
       await runPowerShellJson(uiTreeScript, {
         timeoutMs: UI_TREE_TIMEOUT_MS
       })
-    )
+    ),
+  captureFrame: async () => {
+    const screenshotPath = path.join(options.runtimeRoot, "screen", "captures", `${Date.now()}-${Math.random().toString(16).slice(2)}.png`);
+    await mkdir(path.dirname(screenshotPath), { recursive: true });
+    return parseFrame(
+      await runPowerShellJson(captureFrameScript(screenshotPath), {
+        timeoutMs: 12_000
+      })
+    );
+  }
 });
 
 export const createFixtureScreenCaptureSource = (fixture: {

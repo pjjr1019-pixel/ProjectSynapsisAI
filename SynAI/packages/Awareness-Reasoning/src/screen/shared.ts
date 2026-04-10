@@ -8,6 +8,7 @@ import type {
   ScreenDiffSummary,
   ScreenAwarenessHighlights,
   ScreenCaptureMode,
+  ScreenFrameSnapshot,
   ScreenUiElement,
   ScreenUiTreeSnapshot
 } from "../contracts/awareness";
@@ -18,6 +19,7 @@ export const SCREEN_FRESHNESS_WINDOW_MS = 5 * 60 * 1000;
 export interface ScreenCaptureSource {
   captureForegroundWindow(): Promise<ForegroundWindowSnapshot | null> | ForegroundWindowSnapshot | null;
   captureUiTree(): Promise<ScreenUiTreeSnapshot | null> | ScreenUiTreeSnapshot | null;
+  captureFrame?(): Promise<ScreenFrameSnapshot | null> | ScreenFrameSnapshot | null;
 }
 
 const SCREEN_CONTEXT_KEYWORDS = [

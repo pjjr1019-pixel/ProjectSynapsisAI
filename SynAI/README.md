@@ -10,13 +10,17 @@ This folder is a clean staged rebuild focused on local chat intelligence:
 - smoke tests for core behavior
 
 ## Intentionally Not Built Yet
-- task manager
-- approvals/workflows
 - finance
 - browser automation
 - cloud sync
 - multi-agent systems
 - launcher/dashboard extras
+
+## Governed Desktop Actions
+- Windows-first desktop actions are available through the governed Actions tab.
+- The action surface is preview-first, audit-logged, and approval-gated for destructive or system-changing operations.
+- The Workflow tab adds governed multi-step task planning for research, reports, app launch, system navigation, file work, process control, and uninstall flows.
+- See [docs/architecture/governed-execution-roadmap.md](docs/architecture/governed-execution-roadmap.md) for the rollout shape.
 
 ## Setup
 1. `cd SynAI`
@@ -59,5 +63,3 @@ Add non-chat features in new feature folders and packages, keeping:
 - provider logic in `packages/Awareness-Reasoning/src/local-ai`
 - memory/context logic in `packages/Awareness-Reasoning/src/memory`
 - UI wiring in `apps/desktop/src/features/*`
-
-

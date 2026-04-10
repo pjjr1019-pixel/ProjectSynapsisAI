@@ -64,6 +64,7 @@ import {
   initializeOfficialKnowledge,
   type OfficialKnowledgeInitOptions,
   type OfficialKnowledgeQueryOptions,
+  type OfficialKnowledgeSourceStatus,
   type OfficialKnowledgeStatus
 } from "../official-knowledge";
 import {
@@ -221,6 +222,9 @@ export interface AwarenessEngine {
   getStatus(): AwarenessStatus;
   getStartupDigest(): AwarenessStartupDigest | null;
   getOfficialKnowledgeStatus(): OfficialKnowledgeStatus;
+  listOfficialKnowledgeSources(): OfficialKnowledgeSourceStatus[];
+  setOfficialKnowledgeSourceEnabled(sourceId: string, enabled: boolean): Promise<OfficialKnowledgeStatus>;
+  refreshOfficialKnowledgeSource(sourceId: string): Promise<OfficialKnowledgeStatus>;
   queryOfficialKnowledge(query: string, options?: OfficialKnowledgeQueryOptions): Promise<OfficialKnowledgeContext | null>;
   refreshOfficialKnowledge(reason?: string): Promise<OfficialKnowledgeStatus>;
   listFileVolumes(): VolumeAwarenessSnapshot[];
@@ -983,6 +987,18 @@ export const initializeAwarenessEngine = async (
       return startupDigestState ? clone(startupDigestState) : null;
     },
     getOfficialKnowledgeStatus() {
+      return clone(officialKnowledgeState.getStatus());
+    },
+    listOfficialKnowledgeSources() {
+      return clone(officialKnowledgeState.listSources());
+    },
+    async setOfficialKnowledgeSourceEnabled(sourceId, enabled) {
+      await officialKnowledgeState.setSourceEnabled(sourceId, enabled);
+      await persistCurrentState();
+      return clone(officialKnowledgeState.getStatus());
+    },
+    async refreshOfficialKnowledgeSource(sourceId) {
+      await officialKnowledgeState.refreshSource(sourceId);
       return clone(officialKnowledgeState.getStatus());
     },
     async queryOfficialKnowledge(query, queryOptions) {

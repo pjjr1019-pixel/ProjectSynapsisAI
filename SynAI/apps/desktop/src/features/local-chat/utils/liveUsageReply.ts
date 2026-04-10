@@ -1,31 +1,12 @@
 import type { AwarenessQueryAnswer, ChatMessageMetadata } from "@contracts";
+import {
+  parseResourceUsageTargets,
+  pickResourceUsageFindings
+} from "../../../../../../packages/Awareness-Reasoning/src/reasoning/resource-usage";
 
 export const LIVE_USAGE_REFRESH_MS = 2_000;
 
 const normalizeLine = (value: string): string => value.replace(/\s+/g, " ").trim();
-
-const focusForQuery = (query: string): "cpu" | "ram" | "gpu" | "disk" | "uptime" | "all" => {
-  const normalized = query.toLowerCase();
-  if (/(free storage|free space|available space|space left|disk space|drive space|hard drive)/.test(normalized)) {
-    return "disk";
-  }
-  if (/(disk usage|storage usage)/.test(normalized)) {
-    return "disk";
-  }
-  if (/(uptime|since boot)/.test(normalized)) {
-    return "uptime";
-  }
-  if (/(vram|gpu)/.test(normalized)) {
-    return "gpu";
-  }
-  if (/(ram|memory)/.test(normalized)) {
-    return "ram";
-  }
-  if (/(cpu|processor)/.test(normalized)) {
-    return "cpu";
-  }
-  return "all";
-};
 
 const lineForLabel = (lines: string[], label: string): string | null =>
   lines.find((line) => line.toLowerCase().startsWith(label.toLowerCase())) ?? null;
@@ -54,31 +35,20 @@ export const formatLiveUsageReply = (
   _refreshedAt = answer.generatedAt
 ): string => {
   const verifiedLines = answer.bundle.verifiedFindings.map(normalizeLine).filter(Boolean).slice(0, 6);
-  const focus = focusForQuery(answer.query);
+  const selection = parseResourceUsageTargets(answer.query);
   const cpuLine = lineForLabel(verifiedLines, "Current CPU load") ?? lineForLabel(verifiedLines, "CPU load");
   const ramLine = lineForLabel(verifiedLines, "Current RAM") ?? lineForLabel(verifiedLines, "RAM");
   const gpuLine = lineForLabel(verifiedLines, "GPU");
   const diskLine = verifiedLines.find((line) => /(free on|Current disk|^Disk:)/i.test(line)) ?? null;
   const uptimeLine = lineForLabel(verifiedLines, "Uptime");
 
-  if (focus === "disk" && diskLine) {
-    return diskLine;
-  }
+  const targetedLines = pickResourceUsageFindings(
+    [cpuLine, ramLine, gpuLine, diskLine, uptimeLine].filter((line): line is string => Boolean(line)),
+    selection
+  );
 
-  if (focus === "cpu" && cpuLine) {
-    return cpuLine;
-  }
-
-  if (focus === "ram" && ramLine) {
-    return ramLine;
-  }
-
-  if (focus === "gpu" && gpuLine) {
-    return gpuLine;
-  }
-
-  if (focus === "uptime" && uptimeLine) {
-    return uptimeLine;
+  if (selection.mode === "focused" && targetedLines.length > 0) {
+    return targetedLines.join("\n");
   }
 
   const lines = verifiedLines.length > 0 ? verifiedLines.slice(0, 4) : ["No live usage data available."];

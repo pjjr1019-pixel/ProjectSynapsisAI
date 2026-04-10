@@ -38,8 +38,35 @@ const api: SynAIBridge = {
   searchMemories: (query) => ipcRenderer.invoke(IPC_CHANNELS.searchMemories, query),
   listMemories: () => ipcRenderer.invoke(IPC_CHANNELS.listMemories),
   deleteMemory: (memoryId) => ipcRenderer.invoke(IPC_CHANNELS.deleteMemory, memoryId),
+  listDesktopActions: () => ipcRenderer.invoke(IPC_CHANNELS.desktopActionCatalog),
+  suggestDesktopAction: (prompt) => ipcRenderer.invoke(IPC_CHANNELS.desktopActionSuggest, prompt),
+  issueDesktopActionApproval: (request, approvedBy, ttlMs) =>
+    ipcRenderer.invoke(IPC_CHANNELS.desktopActionApprove, request, approvedBy, ttlMs),
+  executeDesktopAction: (request) => ipcRenderer.invoke(IPC_CHANNELS.desktopActionExecute, request),
+  rollbackDesktopAction: (commandId, approvedBy, dryRun) =>
+    ipcRenderer.invoke(IPC_CHANNELS.rollbackDesktopAction, commandId, approvedBy, dryRun),
+  suggestWorkflow: (prompt) => ipcRenderer.invoke(IPC_CHANNELS.workflowPlanSuggest, prompt),
+  issueWorkflowApproval: (plan, approvedBy, ttlMs) =>
+    ipcRenderer.invoke(IPC_CHANNELS.workflowApprove, plan, approvedBy, ttlMs),
+  executeWorkflow: (request) => ipcRenderer.invoke(IPC_CHANNELS.workflowExecute, request),
+  subscribeWorkflowProgress: (listener) => {
+    const wrapped = (_event: Electron.IpcRendererEvent, payload: Parameters<typeof listener>[0]) =>
+      listener(payload);
+    ipcRenderer.on(IPC_CHANNELS.workflowProgress, wrapped);
+    return () => {
+      ipcRenderer.removeListener(IPC_CHANNELS.workflowProgress, wrapped);
+    };
+  },
   runPromptEvaluation: (payload) => ipcRenderer.invoke(IPC_CHANNELS.promptEvaluationRun, payload),
+  getGovernanceDashboard: () => ipcRenderer.invoke(IPC_CHANNELS.governanceDashboard),
+  getGovernanceApprovalQueue: () => ipcRenderer.invoke(IPC_CHANNELS.governanceApprovalQueue),
+  queryGovernanceAudit: (query) => ipcRenderer.invoke(IPC_CHANNELS.governanceAuditQuery, query),
   queryAwareness: (request) => ipcRenderer.invoke(IPC_CHANNELS.awarenessQuery, request),
+  listOfficialKnowledgeSources: () => ipcRenderer.invoke(IPC_CHANNELS.officialKnowledgeSources),
+  setOfficialKnowledgeSourceEnabled: (sourceId, enabled) =>
+    ipcRenderer.invoke(IPC_CHANNELS.officialKnowledgeSourceUpdate, sourceId, enabled),
+  refreshOfficialKnowledgeSource: (sourceId) =>
+    ipcRenderer.invoke(IPC_CHANNELS.officialKnowledgeSourceRefresh, sourceId),
   getContextPreview: (conversationId, latestUserMessage, awarenessAnswerMode, ragOptions) =>
     ipcRenderer.invoke(
       IPC_CHANNELS.contextPreview,

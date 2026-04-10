@@ -1,8 +1,11 @@
 import { describe, expect, it } from "vitest";
+import * as path from "node:path";
 import type { PromptEvaluationResponse } from "@contracts";
 import {
+  buildPromptEvaluationChatHistoryPath,
   buildPromptEvaluationReportFileName,
-  formatPromptEvaluationMarkdown
+  formatPromptEvaluationMarkdown,
+  upsertPromptEvaluationChatHistory
 } from "./prompt-eval";
 
 const report: PromptEvaluationResponse = {
@@ -181,6 +184,12 @@ describe("prompt evaluation markdown", () => {
     ).toBe("20260409-191530Z-windows-grounding-eval.md");
   });
 
+  it("builds the chat history path beside prompt-eval reports", () => {
+    expect(buildPromptEvaluationChatHistoryPath(report.workspaceRoot)).toBe(
+      path.join("C:/workspace", ".runtime", "prompt-evals", "chathistory.md")
+    );
+  });
+
   it("formats summary tables, settings, prompts, and replies into markdown", () => {
     const markdown = formatPromptEvaluationMarkdown(report);
 
@@ -207,5 +216,23 @@ describe("prompt evaluation markdown", () => {
     expect(markdown).toContain("Prompt evaluation failed: model timeout");
     expect(markdown).toContain("- Routing suppression: repo-grounded scope suppresses awareness routing");
     expect(markdown).toContain("- FAIL | Use the requested Known heading. | Skipped because the prompt returned an error.");
+  });
+
+  it("appends prompt/reply history entries for later gap analysis", () => {
+    const markdown = upsertPromptEvaluationChatHistory("", report);
+
+    expect(markdown).toContain("# Chat History");
+    expect(markdown).toContain("## 2026-04-09T19:15:30.000Z | Windows Grounding Eval");
+    expect(markdown).toContain("- Report file: 20260409-191530Z-windows-grounding-eval.md");
+    expect(markdown).toContain("### Easy (easy)");
+    expect(markdown).toContain("#### Prompt");
+    expect(markdown).toContain("Summarize this clearly.");
+    expect(markdown).toContain("#### Reply");
+    expect(markdown).toContain("Short answer.");
+    expect(markdown).toContain("#### Failed Checks");
+    expect(markdown).toContain("- None.");
+    expect(markdown).toContain(
+      "- Use the requested Known heading. | Skipped because the prompt returned an error."
+    );
   });
 });

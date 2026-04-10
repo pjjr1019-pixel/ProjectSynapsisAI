@@ -1,0 +1,74 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.identify-slowing-pc",
+  "name": "Identify What Is Slowing Down The PC",
+  "category": "windows-performance",
+  "description": "Diagnose likely slowdown causes from local evidence and summarize actionable checks.",
+  "prompt": "Identify what is currently slowing down this Windows PC. Use local evidence, call out top CPU/RAM hotspots, and give one safe next check.",
+  "success_definition": "Answer references current CPU/RAM pressure and names at least one top process with a safe next action.",
+  "allowed_tools": [
+    "awareness.live-usage",
+    "awareness.resource-hotspot",
+    "windows.action-planner"
+  ],
+  "forbidden_tools": [
+    "windows.kill-process.force",
+    "filesystem.delete",
+    "registry.write"
+  ],
+  "required_context": [
+    {
+      "id": "live-usage",
+      "source": "awareness.live-usage",
+      "query": "What is my CPU usage right now and what process is likely hottest?"
+    },
+    {
+      "id": "ram-hotspot",
+      "source": "awareness.resource-hotspot",
+      "query": "What is using the most RAM right now?"
+    }
+  ],
+  "optional_context": [],
+  "verifier_type": "substring-regex",
+  "verifier_config": {
+    "includes": [
+      "cpu",
+      "ram",
+      "process",
+      "safe"
+    ],
+    "regex": [
+      "(top|highest|most)\\s+(process|program)"
+    ]
+  },
+  "remediation_options": [
+    "retrieval-adjustment",
+    "prompt-or-planner-adjustment",
+    "test-card-clarification"
+  ],
+  "risk_level": "low",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "performance",
+    "diagnostic"
+  ],
+  "enabled": true,
+  "priority": 100,
+  "platform": "windows",
+  "environment_preconditions": [
+    "Windows awareness engine initialized"
+  ],
+  "regression_group": "windows-core",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "model-request.json",
+    "model-response.structured.json",
+    "verifier-result.json"
+  ]
+}

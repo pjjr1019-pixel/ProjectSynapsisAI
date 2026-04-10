@@ -1,5 +1,6 @@
 export * from "./chat";
 export * from "./grounding";
+export * from "./resource-usage";
 
 import { randomUUID } from "node:crypto";
 import { readFileSync } from "node:fs";
@@ -73,6 +74,13 @@ import {
   formatWindowSummary,
   summarizeRecentEvents
 } from "../screen/shared";
+import {
+  formatResourceUsageMetric,
+  parseResourceUsageTargets,
+  pickResourceUsageFindings,
+  resourceUsageSelectionTitle,
+  type ResourceUsageSelection
+} from "./resource-usage";
 
 export interface AwarenessHistoryView {
   session: SessionBaseline;
@@ -313,6 +321,12 @@ const INTENT_KEYWORDS: Record<AwarenessIntentFamily, string[]> = {
     "where is this setting",
     "windows update",
     "bluetooth",
+    "wifi",
+    "wi fi",
+    "wireless",
+    "airplane mode",
+    "flight mode",
+    "radio",
     "display",
     "sound",
     "taskbar",
@@ -1313,31 +1327,6 @@ const buildCorrelationHighlights = (machine: MachineAwarenessSnapshot): string[]
     .map((entry) => entry.description)
     .filter(Boolean);
 
-type LiveUsageFocus = "cpu" | "ram" | "gpu" | "disk" | "uptime" | "all";
-
-const liveUsageFocusForQuery = (query: string): LiveUsageFocus => {
-  const normalized = normalizeQuery(query);
-  if (includesAny(normalized, ["uptime", "how long has", "since boot"])) {
-    return "uptime";
-  }
-  if (includesAny(normalized, ["free storage", "free space", "available space", "space left", "disk space", "drive space", "hard drive", "storage on my drive", "storage on my hard drive"])) {
-    return "disk";
-  }
-  if (includesAny(normalized, ["disk usage", "storage usage"])) {
-    return "disk";
-  }
-  if (includesAny(normalized, ["vram", "gpu"])) {
-    return "gpu";
-  }
-  if (includesAny(normalized, ["ram", "memory"])) {
-    return "ram";
-  }
-  if (includesAny(normalized, ["cpu", "processor"])) {
-    return "cpu";
-  }
-  return "all";
-};
-
 const describeDriveFreeSpace = (
   drive: MachineAwarenessSnapshot["systemIdentity"]["hardware"]["drives"][number] | null
 ): string => {
@@ -1359,33 +1348,23 @@ const buildAwarenessAnswerCard = (answer: AwarenessQueryAnswer): AwarenessAnswer
   }
 
   if (answer.intent.family === "live-usage") {
-    const focus = liveUsageFocusForQuery(answer.query);
-    const metricLines =
-      focus === "all"
-        ? answer.bundle.verifiedFindings.slice(0, 4)
-        : answer.bundle.verifiedFindings.slice(0, 3);
+    const selection: ResourceUsageSelection = parseResourceUsageTargets(answer.query);
+    const focusedLines = pickResourceUsageFindings(answer.bundle.verifiedFindings, selection);
+    const metricLines = selection.mode === "focused" && focusedLines.length > 0 ? focusedLines : answer.bundle.verifiedFindings.slice(0, 4);
     return {
       kind: "live-usage",
-      title:
-        focus === "disk"
-          ? "Drive space"
-          : focus === "cpu"
-            ? "CPU usage"
-            : focus === "ram"
-              ? "RAM usage"
-              : focus === "gpu"
-                ? "GPU usage"
-                : focus === "uptime"
-                  ? "System uptime"
-                  : "Live system usage",
+      title: resourceUsageSelectionTitle(selection),
       subtitle: "Updated just now",
-      metrics: metricLines.map((line) => {
-        const [label, ...rest] = line.split(":");
-        return {
-          label: label.trim(),
-          value: rest.join(":").trim() || line
-        };
-      }),
+      metrics:
+        selection.mode === "focused" && focusedLines.length > 0
+          ? focusedLines.map((line, index) => formatResourceUsageMetric(selection.targets[index] ?? selection.targets[0] ?? "cpu", line))
+          : metricLines.map((line) => {
+              const [label, ...rest] = line.split(":");
+              return {
+                label: label.trim(),
+                value: rest.join(":").trim() || line
+              };
+            }),
       sections: answer.bundle.recurringPatterns && answer.bundle.recurringPatterns.length > 0
         ? [
             {
@@ -1495,6 +1474,7 @@ export const routeAwarenessIntent = (
   const hardwareCandidate = scored.find((entry) => entry.family === "hardware");
   const resourceHotspotCandidate = scored.find((entry) => entry.family === "resource-hotspot");
   const performanceCandidate = scored.find((entry) => entry.family === "performance-diagnostic");
+  const resourceUsageSelection = parseResourceUsageTargets(normalized);
   const driveCapacitySignals = isDriveCapacityStorageQuery(normalized);
   const fileStorageSignals = isFileStorageQuery(normalized);
   const conversationStorageFamily = resolveStorageFamilyFromConversation(normalized, conversationContext);
@@ -1822,6 +1802,14 @@ export const routeAwarenessIntent = (
     !resourceHotspotSpecificSignals
   ) {
     winner = performanceCandidate;
+  }
+  const bareResourceComboQuery =
+    resourceUsageSelection.mode === "focused" &&
+    resourceUsageSelection.targets.length >= 2 &&
+    !includesAny(normalized, ["do i have", "what do i have", "have i", "spec", "specs", "specification", "model", "models", "installed"]);
+
+  if (bareResourceComboQuery && !diagnosticSpecificSignals && !resourceHotspotSpecificSignals) {
+    winner = liveUsageCandidate || winner;
   }
   if (resourceHotspotCandidate && resourceHotspotSpecificSignals) {
     winner = resourceHotspotCandidate;
@@ -3222,12 +3210,16 @@ const buildCurrentUiDiagnostics = (input: AwarenessCurrentUiDiagnosticInput): Aw
   };
 };
 
+const formatPowerState = (value: boolean | null | undefined): string =>
+  value == null ? "unknown" : value ? "on" : "off";
+
 const buildSettingsControlRegistryAnswer = (input: AwarenessQueryBuildInput): AwarenessQueryAnswer => {
   const query = input.query;
   const route = input.route ?? routeAwarenessIntent(query);
   const scope = input.scope ?? "current-machine";
   const mode = chooseMode(query, input.mode);
   const current = input.current;
+  const normalizedQuery = normalizeQuery(query);
   const settingsMatch = findSettingsMapEntry(query);
   const controlMatch = findControlPanelEntry(query);
   const registryMatch = findRegistryZoneEntry(query);
@@ -3243,6 +3235,29 @@ const buildSettingsControlRegistryAnswer = (input: AwarenessQueryBuildInput): Aw
     makeEvidenceRef(input.paths.currentSessionPath, "session", "current-session", input.paths.currentSessionPath),
     makeEvidenceRef(input.paths.latestDigestPath, "digest", "latest-digest", input.paths.latestDigestPath)
   ];
+  const radioState = current.machineAwareness.systemIdentity.hardware.radioState ?? null;
+  const wantsBluetoothState = includesAny(normalizedQuery, ["bluetooth"]);
+  const wantsWifiState = includesAny(normalizedQuery, ["wifi", "wi fi", "wireless"]);
+  const wantsAirplaneState = includesAny(normalizedQuery, ["airplane mode", "airplane", "flight mode"]);
+  const wantsRadioState = wantsBluetoothState || wantsWifiState || wantsAirplaneState;
+
+  if (radioState && wantsRadioState) {
+    if (wantsBluetoothState) {
+      verifiedFindings.push(`Bluetooth radio is ${formatPowerState(radioState.bluetoothEnabled)}.`);
+      likelyInterpretation.push(`Bluetooth is ${formatPowerState(radioState.bluetoothEnabled)} on this machine.`);
+    }
+    if (wantsWifiState) {
+      verifiedFindings.push(`Wi-Fi radio is ${formatPowerState(radioState.wifiEnabled)}.`);
+      likelyInterpretation.push(`Wi-Fi is ${formatPowerState(radioState.wifiEnabled)} on this machine.`);
+    }
+    if (wantsAirplaneState) {
+      verifiedFindings.push(`Airplane mode is ${formatPowerState(radioState.airplaneModeEnabled)}.`);
+      likelyInterpretation.push(`Airplane mode is ${formatPowerState(radioState.airplaneModeEnabled)} on this machine.`);
+    }
+  } else if (wantsRadioState) {
+    uncertainty.push("A radio-state snapshot was not captured for this machine.");
+    suggestedNextChecks.push("Try opening the related Bluetooth or Network settings page for a manual check.");
+  }
 
   if (settingsMatch) {
     verifiedFindings.push(`${settingsMatch.label} opens with ${settingsMatch.launchTarget}`);
@@ -3314,11 +3329,7 @@ const buildLiveUsageAnswer = (input: AwarenessQueryBuildInput): AwarenessQueryAn
   const current = input.current;
   const identity = current.machineAwareness.systemIdentity;
   const hardware = identity.hardware;
-  const focus =
-    isAmbiguousStorageQuery(query) &&
-    resolveStorageFamilyFromConversation(query, input.conversationContext) === "live-usage"
-      ? "disk"
-      : liveUsageFocusForQuery(query);
+  const selection = parseResourceUsageTargets(query);
   const primaryGpu = hardware.gpus[0] ?? null;
   const primaryDrive = hardware.drives.find((drive) => drive.driveType === "3") ?? hardware.drives[0] ?? null;
   const availableMemory = hardware.memory.availableBytes ?? hardware.memory.freeBytes ?? null;
@@ -3342,7 +3353,7 @@ const buildLiveUsageAnswer = (input: AwarenessQueryBuildInput): AwarenessQueryAn
       }${primaryGpu.memoryBytes != null ? ` | VRAM ${formatBytes(primaryGpu.memoryBytes)}` : ""}`
     : "GPU: no GPU details were captured.";
   const diskLine =
-    focus === "disk"
+    selection.mode === "focused" && selection.targets.includes("disk")
       ? describeDriveFreeSpace(primaryDrive)
       : primaryDrive
         ? `Disk: ${primaryDrive.deviceId}${primaryDrive.volumeLabel ? ` (${primaryDrive.volumeLabel})` : ""}${
@@ -3352,18 +3363,7 @@ const buildLiveUsageAnswer = (input: AwarenessQueryBuildInput): AwarenessQueryAn
           }`
         : "Disk: no drive details were captured.";
   const uptimeLine = `Uptime: ${formatUptime(identity.uptimeSeconds)}`;
-  const orderedLines =
-    focus === "disk"
-      ? [diskLine, ramLine, uptimeLine]
-      : focus === "cpu"
-        ? [cpuLine, ramLine, uptimeLine]
-        : focus === "ram"
-          ? [ramLine, cpuLine, uptimeLine]
-          : focus === "gpu"
-            ? [gpuLine, cpuLine, ramLine]
-            : focus === "uptime"
-              ? [uptimeLine, cpuLine, ramLine]
-              : [cpuLine, ramLine, gpuLine, diskLine, uptimeLine];
+  const orderedLines = pickResourceUsageFindings([cpuLine, ramLine, gpuLine, diskLine, uptimeLine], selection);
 
   const bundle = buildEvidenceBundle({
     freshness: identity.freshness,
@@ -3405,6 +3405,7 @@ const buildHardwareAnswer = (input: AwarenessQueryBuildInput): AwarenessQueryAns
   const identity = current.machineAwareness.systemIdentity;
   const hardware = identity.hardware;
   const normalizedQuery = normalizeQuery(query);
+  const selection = parseResourceUsageTargets(query);
   const gpuFocused = includesAny(normalizedQuery, ["gpu", "graphics", "graphics card", "vram", "video memory"]);
   const vramFocused = includesAny(normalizedQuery, ["vram", "video memory"]);
   const cpuFocused = includesAny(normalizedQuery, ["cpu", "processor"]);
@@ -3456,32 +3457,53 @@ const buildHardwareAnswer = (input: AwarenessQueryBuildInput): AwarenessQueryAns
           .join(" | ")}`
       : "No drives were reported.";
 
-  const prioritizedVerifiedFindings = [
-    ...(gpuFocused || vramFocused ? [`GPU: ${gpuDetails[0]}`] : []),
-    ...(cpuFocused ? [`CPU: ${cpuLine}`] : []),
-    ...(memoryFocused ? [`RAM: ${ramUsageLine}`] : []),
-    ...(windowsFocused ? [`Windows: ${windowsLine}`] : []),
-    cpuLine,
-    ramUsageLine,
-    uptimeLine,
-    topProcessLine,
-    gpuLine,
-    windowsLine,
-    driveLine
-  ];
+  const focusedResourceLines = pickResourceUsageFindings(
+    [
+      `CPU: ${cpuLine}`,
+      `RAM: ${ramUsageLine}`,
+      uptimeLine,
+      topProcessLine,
+      gpuLine,
+      windowsLine,
+      driveLine
+    ],
+    selection
+  );
+  const prioritizedVerifiedFindings =
+    selection.mode === "focused" && focusedResourceLines.length > 0
+      ? focusedResourceLines
+      : [
+          ...(gpuFocused || vramFocused ? [`GPU: ${gpuDetails[0]}`] : []),
+          ...(cpuFocused ? [`CPU: ${cpuLine}`] : []),
+          ...(memoryFocused ? [`RAM: ${ramUsageLine}`] : []),
+          ...(windowsFocused ? [`Windows: ${windowsLine}`] : []),
+          cpuLine,
+          ramUsageLine,
+          uptimeLine,
+          topProcessLine,
+          gpuLine,
+          windowsLine,
+          driveLine
+        ];
   const verifiedFindings = limitStrings(prioritizedVerifiedFindings, MODE_LIMITS[mode] + 3);
 
-  const likelyInterpretation = [
-    hardware.gpus.length > 0 ? `GPU: ${hardware.gpus[0].name}` : "No GPU summary was captured.",
-    hardware.networkAdapters.length > 0 ? `Network adapter: ${hardware.networkAdapters[0].name}` : "No active network adapter summary was captured."
-  ];
-  const uncertainty = [
-    identity.windowsEdition ? "" : "The Windows edition was not detected.",
-    hardware.displays.length === 0 ? "Display details were not available in this snapshot." : "",
-    vramFocused && usageFocused
-      ? "Live VRAM usage is not captured in the current snapshot; only installed GPU/VRAM capacity is available."
-      : ""
-  ].filter(Boolean) as string[];
+  const likelyInterpretation =
+    selection.mode === "focused"
+      ? []
+      : [
+          hardware.gpus.length > 0 ? `GPU: ${hardware.gpus[0].name}` : "No GPU summary was captured.",
+          hardware.networkAdapters.length > 0 ? `Network adapter: ${hardware.networkAdapters[0].name}` : "No active network adapter summary was captured."
+        ];
+  const uncertainty =
+    selection.mode === "focused"
+      ? []
+      : [
+          identity.windowsEdition ? "" : "The Windows edition was not detected.",
+          hardware.displays.length === 0 ? "Display details were not available in this snapshot." : "",
+          vramFocused && usageFocused
+            ? "Live VRAM usage is not captured in the current snapshot; only installed GPU/VRAM capacity is available."
+            : ""
+        ].filter(Boolean) as string[];
   const bundle = buildEvidenceBundle({
     freshness: current.machineAwareness.freshness,
     verifiedFindings,

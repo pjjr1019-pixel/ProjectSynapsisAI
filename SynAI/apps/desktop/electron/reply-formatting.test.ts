@@ -121,6 +121,34 @@ describe("reply formatting", () => {
     expect(formatted).not.toContain("Uptime");
   });
 
+  it("keeps live CPU and RAM replies focused and ordered", () => {
+    const formatted = formatAwarenessReply(
+      makeAnswer({
+        query: "what is my cpu and ram usage right now",
+        intent: {
+          family: "live-usage",
+          label: "Live usage awareness",
+          confidence: 0.95,
+          signals: ["cpu-usage", "ram-usage"],
+          targetAreas: ["machine"]
+        },
+        bundle: {
+          ...makeAnswer().bundle,
+          verifiedFindings: [
+            "Current CPU load: 5%",
+            "Current RAM: 6.0 GB used of 7.7 GB (78%) | available 1.7 GB",
+            "Uptime: 1d 2h"
+          ]
+        }
+      })
+    );
+
+    expect(formatted).toBe(
+      ["Current CPU load: 5%", "Current RAM: 6.0 GB used of 7.7 GB (78%) | available 1.7 GB"].join("\n")
+    );
+    expect(formatted).not.toContain("Uptime");
+  });
+
   it("keeps settings replies focused and drops unrelated registry or doc boilerplate", () => {
     const formatted = formatAwarenessReply(
       makeAnswer({

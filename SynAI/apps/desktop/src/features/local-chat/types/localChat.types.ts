@@ -14,7 +14,7 @@ import type {
 
 export type HealthCheckState = "idle" | "running" | "success" | "failure";
 export type WorkspaceTab = "chat" | "history" | "tools" | "settings";
-export type WorkspaceToolTab = "model" | "actions" | "memory" | "context" | "search";
+export type WorkspaceToolTab = "model" | "actions" | "workflows" | "memory" | "context" | "search";
 
 export interface ChatSettingsState {
   selectedModel: string;

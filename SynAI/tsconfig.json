@@ -46,6 +46,12 @@
       "@web-search/*": [
         "./packages/Awareness-Reasoning/src/web-search/*"
       ],
+      "@governance-execution": [
+        "./packages/Governance and exicution/src/index.ts"
+      ],
+      "@governance-execution/*": [
+        "./packages/Governance and exicution/src/*"
+      ],
       "@desktop/*": [
         "./apps/desktop/src/*"
       ]

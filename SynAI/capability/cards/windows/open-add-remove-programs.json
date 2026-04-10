@@ -1,0 +1,57 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.open-add-remove-programs",
+  "name": "Open Add Or Remove Programs",
+  "category": "windows-settings",
+  "description": "Select the correct Windows launch target for installed apps management.",
+  "prompt": "Show the safest command path to open Add or Remove Programs on Windows. Provide an action proposal with commandPreview containing either ms-settings:appsfeatures or appwiz.cpl.",
+  "success_definition": "Output contains a valid launch command for Add or Remove Programs and keeps risk low.",
+  "allowed_tools": [
+    "awareness.settings-map",
+    "windows.action-planner"
+  ],
+  "forbidden_tools": [
+    "registry.write",
+    "filesystem.delete"
+  ],
+  "required_context": [
+    {
+      "id": "appsfeatures-map",
+      "source": "awareness.settings-map",
+      "query": "How do I open Add or Remove Programs in Windows settings?"
+    }
+  ],
+  "optional_context": [],
+  "verifier_type": "command-action-selection",
+  "verifier_config": {
+    "required_command_regex": [
+      "ms-settings:appsfeatures|appwiz\\.cpl"
+    ],
+    "disallow_dangerous": true
+  },
+  "remediation_options": [
+    "retrieval-adjustment",
+    "workflow-wrapper"
+  ],
+  "risk_level": "low",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "windows",
+    "settings",
+    "control-panel"
+  ],
+  "enabled": true,
+  "priority": 85,
+  "platform": "windows",
+  "environment_preconditions": [],
+  "regression_group": "windows-actions",
+  "prerequisite_tests": [],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "verifier-result.json"
+  ]
+}

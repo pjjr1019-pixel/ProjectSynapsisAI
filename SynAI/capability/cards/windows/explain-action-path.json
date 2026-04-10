@@ -1,0 +1,67 @@
+{
+  "schema_version": "capability-test-card.v1",
+  "id": "windows.explain-action-path",
+  "name": "Explain Chosen Action Path",
+  "category": "reasoning-trace",
+  "description": "Require explicit explanation of why an action path was selected and what alternatives were considered.",
+  "prompt": "Explain your chosen action path for opening Add or Remove Programs. Include why the path was chosen, one alternative path, and one safety constraint.",
+  "success_definition": "Model provides concise rationale and exposes selected workflow/tool choice with safety constraints.",
+  "allowed_tools": [
+    "windows.action-planner",
+    "awareness.settings-map"
+  ],
+  "forbidden_tools": [
+    "windows.kill-process.force",
+    "filesystem.delete"
+  ],
+  "required_context": [
+    {
+      "id": "reasoning-contract",
+      "source": "inline",
+      "value": "Always include selected path, one alternative, and one safety boundary."
+    }
+  ],
+  "optional_context": [
+    {
+      "id": "appsfeatures-map",
+      "source": "awareness.settings-map",
+      "query": "How do I open Add or Remove Programs in Windows settings?"
+    }
+  ],
+  "verifier_type": "workflow-tool-selection",
+  "verifier_config": {
+    "must_include_tools": [
+      "windows.action-planner"
+    ],
+    "forbidden_tools": [
+      "windows.kill-process.force"
+    ]
+  },
+  "remediation_options": [
+    "workflow-wrapper",
+    "prompt-or-planner-adjustment"
+  ],
+  "risk_level": "low",
+  "approval_required": false,
+  "retry_policy": {
+    "maxAttempts": 1,
+    "retryDelayMs": 0
+  },
+  "tags": [
+    "reasoning",
+    "workflow",
+    "windows"
+  ],
+  "enabled": true,
+  "priority": 75,
+  "platform": "windows",
+  "environment_preconditions": [],
+  "regression_group": "reasoning",
+  "prerequisite_tests": [
+    "windows.open-add-remove-programs"
+  ],
+  "timeout_ms": 45000,
+  "expected_artifacts": [
+    "gap-classification.json"
+  ]
+}

@@ -18,6 +18,7 @@ import { MemoryPanel } from "../../memory/components/MemoryPanel";
 import { featureRegistry } from "../../feature-registry";
 import { cn } from "../../../shared/utils/cn";
 import { DesktopActionsCard } from "./DesktopActionsCard";
+import { AgentRuntimeCard } from "./AgentRuntimeCard";
 import { WorkflowOrchestrationCard } from "./WorkflowOrchestrationCard";
 import { PromptEvaluationCard } from "./PromptEvaluationCard";
 import type { ChatSettingsState } from "../types/localChat.types";
@@ -233,6 +234,7 @@ export function ToolsPanel(props: ToolsPanelProps) {
         {activeToolTab === "workflows" ? (
           <div className="flex h-full min-h-0 flex-col gap-1.5 overflow-y-auto pr-1">
             <WorkflowOrchestrationCard />
+            <AgentRuntimeCard />
           </div>
         ) : null}
 

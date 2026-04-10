@@ -1,5 +1,6 @@
 import type { ChatMessage } from "../contracts/chat";
 import type {
+  AgentRuntimePreviewSummary,
   ContextPreview,
   MemoryEntry,
   RetrievedMemory,
@@ -229,7 +230,8 @@ export const finalizePromptContext = (
   machineAwareness: MachineAwarenessSnapshot | null = null,
   fileAwareness: FileAwarenessSnapshot | null = null,
   screenAwareness: ScreenAwarenessSnapshot | null = null,
-  ragContext: RagContextPreview | null = null
+  ragContext: RagContextPreview | null = null,
+  runtimePreview: AgentRuntimePreviewSummary | null = null
 ): ReturnType<typeof assembleContext> =>
   assembleContext({
     systemInstruction: SYSTEM_INSTRUCTION,
@@ -246,6 +248,7 @@ export const finalizePromptContext = (
     machineAwareness,
     fileAwareness,
     screenAwareness,
+    runtimePreview,
     rag: ragContext
   });
 
@@ -261,7 +264,8 @@ export const buildContextPreview = async (
   fileAwareness: FileAwarenessSnapshot | null = null,
   screenAwareness: ScreenAwarenessSnapshot | null = null,
   ragContext: RagContextPreview | null = null,
-  options: PreparePromptContextOptions = {}
+  options: PreparePromptContextOptions = {},
+  runtimePreview: AgentRuntimePreviewSummary | null = null
 ): Promise<ContextPreview> => {
   return finalizePromptContext(
     await preparePromptContext(conversationId, latestUserMessage, options),
@@ -273,7 +277,8 @@ export const buildContextPreview = async (
     machineAwareness,
     fileAwareness,
     screenAwareness,
-    ragContext
+    ragContext,
+    runtimePreview
   ).preview;
 };
 
@@ -289,7 +294,8 @@ export const buildPromptMessages = async (
   fileAwareness: FileAwarenessSnapshot | null = null,
   screenAwareness: ScreenAwarenessSnapshot | null = null,
   ragContext: RagContextPreview | null = null,
-  options: PreparePromptContextOptions = {}
+  options: PreparePromptContextOptions = {},
+  runtimePreview: AgentRuntimePreviewSummary | null = null
 ): Promise<{ promptMessages: ChatMessage[]; contextPreview: ContextPreview }> => {
   const assembled = finalizePromptContext(
     await preparePromptContext(conversationId, latestUserMessage, options),
@@ -301,7 +307,8 @@ export const buildPromptMessages = async (
     machineAwareness,
     fileAwareness,
     screenAwareness,
-    ragContext
+    ragContext,
+    runtimePreview
   );
   return {
     promptMessages: assembled.promptMessages,

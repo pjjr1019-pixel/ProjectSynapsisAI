@@ -9,7 +9,7 @@ describe('Agent Runtime No-op Flow', () => {
       metadata: { inputText: 'hello' },
     });
 
-    const { result, auditTrail } = await runAgentTask(sampleTask);
+    const { result, auditTrail, plannedSteps, executionAttempts, plan } = await runAgentTask(sampleTask);
 
     expect(result).toMatchObject({
       id: 't1',
@@ -21,14 +21,19 @@ describe('Agent Runtime No-op Flow', () => {
         echoed: 'hello',
       },
     });
+    expect(plan.steps).toHaveLength(4);
+    expect(plannedSteps).toHaveLength(4);
+    expect(executionAttempts).toHaveLength(1);
     expect(auditTrail.map((event) => `${event.stage}:${event.event}`)).toEqual([
-      'task:received',
+      'runtime:started',
       'planner:planned',
       'policy:allow',
+      'executor:started',
       'executor:executed',
       'perception:captured',
       'verifier:passed',
-      'result:completed',
+      'result:success',
+      'checkpoint:saved',
     ]);
   });
 
@@ -83,5 +88,27 @@ describe('Agent Runtime No-op Flow', () => {
       code: 'POLICY_ESCALATE',
     });
     expect(auditTrail.some((event) => event.stage === 'executor' && event.event === 'skipped')).toBe(true);
+  });
+
+  it('returns clarification_needed without executing when the planner needs more input', async () => {
+    const clarifyTask = createAgentTask({
+      id: 't5',
+      title: 'Open a desktop action without enough detail',
+      metadata: {
+        desktopAction: {},
+      },
+    });
+
+    const { result, job, policyDecision, auditTrail } = await runAgentTask(clarifyTask);
+
+    expect(result.status).toBe('clarification_needed');
+    expect(result.clarificationNeeded).toEqual([
+      'Provide desktopAction.proposalId.',
+      'Provide desktopAction.target.',
+    ]);
+    expect(job.status).toBe('clarification_needed');
+    expect(policyDecision.type).toBe('allow');
+    expect(auditTrail.map((event) => `${event.stage}:${event.event}`)).toContain('planner:clarification_needed');
+    expect(auditTrail.some((event) => event.stage === 'executor' && event.event === 'started')).toBe(false);
   });
 });

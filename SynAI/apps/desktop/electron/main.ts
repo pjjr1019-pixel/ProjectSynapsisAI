@@ -10,6 +10,7 @@ import {
   type AwarenessQueryAnswer,
   type AwarenessQueryRequest,
   type AwarenessRuntimeHealth,
+  type AgentRuntimePreviewSummary,
   type CapabilityRegistryEntry,
   type CapabilityRegistrySnapshot,
   type GovernanceAuditEntry,
@@ -89,8 +90,11 @@ import {
   createDesktopActionService,
   resolveDefaultDesktopActionPaths
 } from "./desktop-actions";
+import { createAgentRuntimeApprovalValidator } from "./agent-runtime-approval";
+import { createDesktopActionRuntimeAdapter, createWorkflowRuntimeAdapter } from "./agent-runtime-adapters";
 import type { AgentTask } from "../../../src/agent/contracts";
-import { runAgentTask } from "../../../src/agent/runtime";
+import { createAgentRuntimeService, FileAgentRuntimeStateStore } from "../../../src/agent/runtime";
+import { FileAuditStore } from "../../../../src/agent/audit";
 import { createGovernedChatService } from "./governed-chat";
 import { createWorkflowOrchestrator } from "./workflow-orchestrator";
 import {
@@ -166,6 +170,21 @@ const governedChatService = createGovernedChatService({
   getMachineAwareness: () => awarenessEngine?.machineAwareness ?? null,
   getFileAwareness: () => awarenessEngine?.fileAwareness?.summary ?? null,
   getScreenAwareness: () => awarenessEngine?.screenAwareness ?? null
+});
+const agentRuntimeRoot = path.join(process.cwd(), ".runtime", "agent-runtime");
+const agentRuntimeStateStore = new FileAgentRuntimeStateStore(agentRuntimeRoot);
+const agentRuntimeAuditStore = new FileAuditStore(path.join(agentRuntimeRoot, "audit"));
+const agentRuntimeService = createAgentRuntimeService({
+  stateStore: agentRuntimeStateStore,
+  auditStore: agentRuntimeAuditStore,
+  actionAdapters: [
+    createWorkflowRuntimeAdapter(workflowOrchestrator),
+    createDesktopActionRuntimeAdapter(desktopActions)
+  ],
+  validateApproval: createAgentRuntimeApprovalValidator(),
+  emitProgress: (event) => {
+    sendRendererEvent(IPC_CHANNELS.agentRuntimeProgress, event);
+  }
 });
 const startedAt = new Date().toISOString();
 let mainWindow: BrowserWindow | null = null;
@@ -645,6 +664,7 @@ const emptyContextPreview: ContextPreview = {
   awarenessGrounding: null,
   grounding: null,
   retrievalEval: null,
+  runtimePreview: null,
   replyPolicy: null,
   webSearch: {
     status: "off",
@@ -818,6 +838,45 @@ const readJsonFile = async <T>(filePath: string): Promise<T | null> => {
   }
 };
 
+const buildLatestAgentRuntimePreview = async (): Promise<AgentRuntimePreviewSummary | null> => {
+  const jobs = await agentRuntimeService.listJobs();
+  const latestJob = [...jobs].sort((left, right) =>
+    (right.finishedAt ?? right.startedAt ?? right.createdAt).localeCompare(
+      left.finishedAt ?? left.startedAt ?? left.createdAt
+    )
+  )[0];
+
+  if (!latestJob) {
+    return null;
+  }
+
+  const inspection = await agentRuntimeService.inspectJob(latestJob.id);
+  if (!inspection) {
+    return null;
+  }
+
+  return {
+    jobId: inspection.job.id,
+    taskId: inspection.task?.id ?? inspection.job.taskId,
+    taskTitle: inspection.task?.title ?? "Agent runtime task",
+    jobStatus: inspection.job.status,
+    resultStatus: inspection.result?.status ?? null,
+    plannedStepCount:
+      inspection.plannedSteps.length || inspection.plan?.steps.length || inspection.job.stepIds.length,
+    policyDecisionType: inspection.policyDecision?.type ?? null,
+    verificationStatus: inspection.verification?.status ?? null,
+    checkpointId: inspection.latestCheckpoint?.id ?? null,
+    checkpointSummary: inspection.latestCheckpoint?.summary ?? inspection.result?.summary ?? null,
+    auditEventCount: inspection.auditTrail.length,
+    bindingHash: inspection.policyDecision?.bindingHash ?? null,
+    updatedAt:
+      inspection.job.finishedAt ??
+      inspection.latestCheckpoint?.createdAt ??
+      inspection.job.startedAt ??
+      inspection.job.createdAt
+  };
+};
+
 const buildGovernanceCapabilitySummary = async (): Promise<GovernanceCapabilitySummary | null> => {
   const summaryPath = path.join(desktopActionPaths.runtimeRoot, "capability-eval", "latest-summary.json");
   const summary = await readJsonFile<Record<string, unknown>>(summaryPath);
@@ -902,7 +961,11 @@ const buildPendingApprovals = async (): Promise<GovernancePendingApprovalRecord[
 };
 
 const buildRecentAuditEntries = async (): Promise<GovernanceAuditEntry[]> => {
-  return await queryGovernanceAuditEntries(desktopActionPaths.runtimeRoot, { limit: 25 });
+  return await queryGovernanceAuditEntries(
+    desktopActionPaths.runtimeRoot,
+    { limit: 25 },
+    { agentRuntimeRoot }
+  );
 };
 
 const buildApprovalQueueSnapshot = async (): Promise<GovernanceApprovalQueueSnapshot> =>
@@ -1587,7 +1650,7 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
       (intentRoute.confidence >= 0.45 || intentRoute.signals.length > 0);
     const preferOfficialWindowsKnowledge = shouldPreferOfficialWindowsKnowledge(payload.text, intentRoute);
 
-    const [preparedPromptContext, recentWeb, awarenessQuery] = await Promise.all([
+    const [preparedPromptContext, recentWeb, awarenessQuery, runtimePreview] = await Promise.all([
       preparePromptContext(conversationId, payload.text),
       preferOfficialWindowsKnowledge && !payload.useWebSearch
         ? Promise.resolve({
@@ -1612,7 +1675,8 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
               allowOfficialWindowsKnowledge: preferOfficialWindowsKnowledge
             }
           })
-        : Promise.resolve(null)
+        : Promise.resolve(null),
+      buildLatestAgentRuntimePreview()
     ]);
     const awarenessDigest = awarenessEngine?.getDigest() ?? null;
     const machineAwareness = awarenessEngine?.machineAwareness ?? null;
@@ -1636,7 +1700,9 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
       officialKnowledge,
       machineAwareness,
       fileAwareness,
-      screenAwareness
+      screenAwareness,
+      null,
+      runtimePreview
     );
     contextPreview = latestContext.preview;
     const promptMessages = applyPromptPolicies(
@@ -2040,6 +2106,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       workspaceIndex: preparedPromptContext.workspaceIndexStatus,
       workspaceHits: preparedPromptContext.workspaceHits
     };
+    const runtimePreview = await buildLatestAgentRuntimePreview();
     const latestContext = finalizePromptContext(
       preparedPromptContext,
       officialWebContext,
@@ -2050,7 +2117,8 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       machineAwareness,
       fileAwareness,
       screenAwareness,
-      ragContextBase
+      ragContextBase,
+      runtimePreview
     );
     contextPreview = {
       ...latestContext.preview,
@@ -2541,7 +2609,9 @@ const registerIpc = (): void => {
   ipcMain.handle(
     IPC_CHANNELS.governanceAuditQuery,
     async (_event, query?: GovernanceAuditQuery) =>
-      queryGovernanceAuditEntries(desktopActionPaths.runtimeRoot, query ?? {})
+      queryGovernanceAuditEntries(desktopActionPaths.runtimeRoot, query ?? {}, {
+        agentRuntimeRoot
+      })
   );
 
   ipcMain.handle(IPC_CHANNELS.officialKnowledgeSources, async (): Promise<OfficialKnowledgeSourceStatus[]> =>
@@ -2613,6 +2683,7 @@ const registerIpc = (): void => {
         workspaceIndex: null,
         workspaceHits: []
       };
+      const runtimePreview = await buildLatestAgentRuntimePreview();
       return buildPromptMessages(
         conversationId,
         latestUserMessage,
@@ -2638,7 +2709,8 @@ const registerIpc = (): void => {
                   embedder: provider.embeddings ? (text) => provider.embeddings!(text) : undefined
                 }
               : null
-        }
+        },
+        runtimePreview
       ).then((result) => result.contextPreview);
     }
   );
@@ -2658,7 +2730,22 @@ const registerIpc = (): void => {
     awarenessEngine?.stopAssistMode(payload?.reason) ?? Promise.resolve(null)
   );
 
-  ipcMain.handle(IPC_CHANNELS.agentRuntimeRun, async (_event, task: AgentTask) => runAgentTask(task));
+  ipcMain.handle(IPC_CHANNELS.agentRuntimeRun, async (_event, task: AgentTask) =>
+    agentRuntimeService.startTask(task)
+  );
+  ipcMain.handle(IPC_CHANNELS.agentRuntimeList, async () => agentRuntimeService.listJobs());
+  ipcMain.handle(IPC_CHANNELS.agentRuntimeInspect, async (_event, jobId: string) =>
+    agentRuntimeService.inspectJob(jobId)
+  );
+  ipcMain.handle(IPC_CHANNELS.agentRuntimeResume, async (_event, jobId: string) =>
+    agentRuntimeService.resumeJob(jobId)
+  );
+  ipcMain.handle(IPC_CHANNELS.agentRuntimeCancel, async (_event, jobId: string) =>
+    agentRuntimeService.cancelJob(jobId)
+  );
+  ipcMain.handle(IPC_CHANNELS.agentRuntimeRecover, async (_event, jobId: string) =>
+    agentRuntimeService.recoverJob(jobId)
+  );
 };
 
 app.whenReady().then(async () => {

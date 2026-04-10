@@ -13,6 +13,9 @@ export const summarizePromptContext = (preview: ContextPreview | null): string =
   const machineSummary = preview.machineAwareness ? ` | machine ${preview.machineAwareness.summary}` : "";
   const fileSummary = preview.fileAwareness ? ` | files ${preview.fileAwareness.summary}` : "";
   const screenSummary = preview.screenAwareness ? ` | screen ${preview.screenAwareness.summary}` : "";
+  const runtimeSummary = preview.runtimePreview
+    ? ` | runtime ${preview.runtimePreview.jobStatus}/${preview.runtimePreview.resultStatus ?? "pending"} steps ${preview.runtimePreview.plannedStepCount}`
+    : "";
   const ragSummary = preview.rag
     ? ` | rag ${preview.rag.mode}/${preview.rag.triggerReason} src ${preview.rag.retrieval.total}`
     : "";
@@ -25,5 +28,5 @@ export const summarizePromptContext = (preview: ContextPreview | null): string =
           ? " | web 0"
           : "";
 
-  return `stable ${preview.stableMemories.length} | retrieved ${preview.retrievedMemories.length}${webSummary}${answerModeSummary}${groundingSummary}${awarenessSummary}${querySummary}${machineSummary}${fileSummary}${screenSummary}${ragSummary} | recent ${preview.recentMessagesCount} | chars ${preview.estimatedChars}`;
+  return `stable ${preview.stableMemories.length} | retrieved ${preview.retrievedMemories.length}${webSummary}${answerModeSummary}${groundingSummary}${awarenessSummary}${querySummary}${machineSummary}${fileSummary}${screenSummary}${runtimeSummary}${ragSummary} | recent ${preview.recentMessagesCount} | chars ${preview.estimatedChars}`;
 };

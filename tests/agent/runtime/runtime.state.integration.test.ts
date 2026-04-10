@@ -12,9 +12,21 @@ describe('runAgentTask state integration', () => {
         savedJobs.push({ id: job.id, status: job.status });
         return job;
       },
+      getJob(jobId) {
+        return undefined;
+      },
+      listJobs() {
+        return [];
+      },
       saveCheckpoint(checkpoint) {
         savedCheckpoints.push({ id: checkpoint.id, jobId: checkpoint.jobId });
         return checkpoint;
+      },
+      listCheckpoints(jobId) {
+        return [];
+      },
+      getLatestCheckpoint(jobId) {
+        return undefined;
       },
     };
 

@@ -1,0 +1,20 @@
+# Root dependency and build outputs
+/node_modules/
+/.runtime/
+/dist/
+/coverage/
+/.vite/
+/.vitest/
+/.cache/
+
+# Local temp and runtime artifacts
+/tmp/
+/temp/
+/*.log
+/*.log.*
+/*.pid
+/*.pid.lock
+/*.seed
+
+# Local editor and AI tooling state
+/.claude/settings.json

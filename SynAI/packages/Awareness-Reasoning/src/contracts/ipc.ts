@@ -23,8 +23,11 @@ import type {
 } from "./awareness";
 import type { OfficialKnowledgeStatus } from "../official-knowledge";
 import type {
+  AgentRuntimeInspection,
   AgentRuntimeRunResult,
   AgentTask,
+  RuntimeJob,
+  RuntimeProgressEvent,
 } from "../../../../../src/agent/contracts/agent-runtime.contracts";
 
 export type { OfficialKnowledgeStatus } from "../official-knowledge";
@@ -403,7 +406,7 @@ export interface GovernanceApprovalQueueSnapshot {
 }
 
 export interface GovernanceAuditEntry {
-  source: "governed-chat" | "workflow" | "desktop-actions";
+  source: "governed-chat" | "workflow" | "desktop-actions" | "agent-runtime";
   timestamp: string;
   commandName: string;
   status: string;
@@ -571,7 +574,13 @@ export const IPC_CHANNELS = {
   screenLastEvents: "screen:last-events",
   screenStartAssist: "screen:start-assist",
   screenStopAssist: "screen:stop-assist",
-  agentRuntimeRun: "agent-runtime:run"
+  agentRuntimeRun: "agent-runtime:run",
+  agentRuntimeList: "agent-runtime:list",
+  agentRuntimeInspect: "agent-runtime:inspect",
+  agentRuntimeResume: "agent-runtime:resume",
+  agentRuntimeCancel: "agent-runtime:cancel",
+  agentRuntimeRecover: "agent-runtime:recover",
+  agentRuntimeProgress: "agent-runtime:progress"
 } as const;
 
 export interface SynAIBridge {
@@ -624,4 +633,10 @@ export interface SynAIBridge {
   startAssistMode(options?: StartAssistModeOptions): Promise<ScreenAwarenessStatus>;
   stopAssistMode(reason?: string): Promise<ScreenAwarenessStatus>;
   runAgentRuntimeTask(task: AgentTask): Promise<AgentRuntimeRunResult>;
+  listAgentRuntimeJobs(): Promise<RuntimeJob[]>;
+  inspectAgentRuntimeJob(jobId: string): Promise<AgentRuntimeInspection | null>;
+  resumeAgentRuntimeJob(jobId: string): Promise<AgentRuntimeRunResult | null>;
+  cancelAgentRuntimeJob(jobId: string): Promise<AgentRuntimeInspection | null>;
+  recoverAgentRuntimeJob(jobId: string): Promise<AgentRuntimeInspection | null>;
+  subscribeAgentRuntimeProgress(listener: (event: RuntimeProgressEvent) => void): () => void;
 }

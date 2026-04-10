@@ -81,7 +81,20 @@ const api: SynAIBridge = {
   getScreenLastEvents: () => ipcRenderer.invoke(IPC_CHANNELS.screenLastEvents),
   startAssistMode: (options) => ipcRenderer.invoke(IPC_CHANNELS.screenStartAssist, options),
   stopAssistMode: (reason) => ipcRenderer.invoke(IPC_CHANNELS.screenStopAssist, { reason }),
-  runAgentRuntimeTask: (task) => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeRun, task)
+  runAgentRuntimeTask: (task) => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeRun, task),
+  listAgentRuntimeJobs: () => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeList),
+  inspectAgentRuntimeJob: (jobId) => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeInspect, jobId),
+  resumeAgentRuntimeJob: (jobId) => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeResume, jobId),
+  cancelAgentRuntimeJob: (jobId) => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeCancel, jobId),
+  recoverAgentRuntimeJob: (jobId) => ipcRenderer.invoke(IPC_CHANNELS.agentRuntimeRecover, jobId),
+  subscribeAgentRuntimeProgress: (listener) => {
+    const wrapped = (_event: Electron.IpcRendererEvent, payload: Parameters<typeof listener>[0]) =>
+      listener(payload);
+    ipcRenderer.on(IPC_CHANNELS.agentRuntimeProgress, wrapped);
+    return () => {
+      ipcRenderer.removeListener(IPC_CHANNELS.agentRuntimeProgress, wrapped);
+    };
+  }
 };
 
 contextBridge.exposeInMainWorld("synai", api);

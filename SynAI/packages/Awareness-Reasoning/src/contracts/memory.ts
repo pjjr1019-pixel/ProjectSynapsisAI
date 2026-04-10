@@ -14,6 +14,12 @@ import type { ChatReplyPolicy } from "./chat";
 import type { GroundingSummary, RetrievalEvalSummary } from "./grounding";
 import type { AwarenessRuntimeHealth } from "./health";
 import type { RagContextPreview } from "./rag";
+import type {
+  PolicyDecisionType,
+  RuntimeJobStatus,
+  RuntimeOutcomeStatus,
+  VerificationStatus
+} from "../../../../../src/agent/contracts/agent-runtime.contracts";
 
 export type MemoryCategory =
   | "preference"
@@ -88,6 +94,22 @@ export interface WebSearchContext {
   error?: string;
 }
 
+export interface AgentRuntimePreviewSummary {
+  jobId: string;
+  taskId: string;
+  taskTitle: string;
+  jobStatus: RuntimeJobStatus;
+  resultStatus?: RuntimeOutcomeStatus | null;
+  plannedStepCount: number;
+  policyDecisionType?: PolicyDecisionType | null;
+  verificationStatus?: VerificationStatus | null;
+  checkpointId?: string | null;
+  checkpointSummary?: string | null;
+  auditEventCount: number;
+  bindingHash?: string | null;
+  updatedAt: string;
+}
+
 export interface ContextPreview {
   systemInstruction: string;
   stableMemories: MemoryEntry[];
@@ -113,6 +135,7 @@ export interface ContextPreview {
   screenAwareness?: ScreenAwarenessSummary | null;
   startupDigest?: AwarenessStartupDigest | null;
   awarenessRuntime?: AwarenessRuntimeHealth | null;
+  runtimePreview?: AgentRuntimePreviewSummary | null;
   rag?: RagContextPreview | null;
   grounding?: GroundingSummary | null;
   retrievalEval?: RetrievalEvalSummary | null;

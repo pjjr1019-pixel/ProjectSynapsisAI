@@ -140,6 +140,25 @@ export function ContextPreview({ preview, className, hideTitle = false, compact 
           <p className="mt-0.5 text-[10px] text-violet-100/90">{preview.screenAwareness.summary}</p>
         </div>
       ) : null}
+      {preview.runtimePreview ? (
+        <div className="rounded border border-rose-900/60 bg-rose-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-rose-200">Agent Runtime</p>
+          <p className="mt-0.5 text-[10px] text-rose-100/90">
+            {preview.runtimePreview.taskTitle} | {preview.runtimePreview.jobStatus}
+            {preview.runtimePreview.resultStatus ? ` | ${preview.runtimePreview.resultStatus}` : ""}
+          </p>
+          <p className="mt-0.5 text-[10px] text-rose-200/70">
+            Steps {preview.runtimePreview.plannedStepCount} | Policy {preview.runtimePreview.policyDecisionType ?? "n/a"} |
+            Verify {preview.runtimePreview.verificationStatus ?? "n/a"}
+          </p>
+          <p className="mt-0.5 text-[10px] text-rose-200/70">
+            Audit {preview.runtimePreview.auditEventCount} | Updated {formatDateTime(preview.runtimePreview.updatedAt)}
+          </p>
+          {preview.runtimePreview.checkpointSummary ? (
+            <p className="mt-0.5 text-[10px] text-rose-100/90">{preview.runtimePreview.checkpointSummary}</p>
+          ) : null}
+        </div>
+      ) : null}
       {preview.awarenessQuery ? (
         <div className="rounded border border-sky-900/60 bg-sky-950/20 p-1.5">
           <p className="text-[10px] font-medium text-sky-200">Awareness Query</p>

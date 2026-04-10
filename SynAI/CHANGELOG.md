@@ -3,6 +3,9 @@
 ## 2026-04-10
 
 ### Added
+- Canonical 5-layer agent runtime implementation in root `src/agent` covering typed action substrate, perception evidence, planner/executor/verifier flow, durable runtime jobs/checkpoints, and policy/audit/eval contracts.
+- File-backed runtime state and audit stores with inspectable job history, checkpoint persistence, progress events, and replay-friendly runtime artifacts.
+- Electron main-process runtime bridge, preload APIs, and a compact Tools > Workflows runtime inspector for job status, planned steps, policy, verification, audit, and checkpoint summaries.
 - Governed desktop action support with a Windows-first catalog for launch, open, file, folder, and process operations.
 - Electron main-process desktop execution service, IPC bridge methods, and a renderer Tools-tab Actions surface.
 - Approval-token issuance and validation bound to exact desktop action requests, plus JSONL audit logging.
@@ -15,6 +18,12 @@
 - Added a governance-execution usage guide and a `capability:mine-history` CLI entrypoint for mining local failures into candidate cards.
 
 ### Improved
+- `SynAI/src/agent` now stays a thin compatibility shim while the canonical runtime logic lives in the root agent modules.
+- Runtime inspection, cancel, resume, and recover flows now return structured policy, verification, audit, and checkpoint data without rerunning side effects.
+- Live runtime approvals now validate exact approval tokens against the normalized runtime binding hash before any adapter side effect is allowed to run.
+- Runtime outcomes now preserve `clarification_needed` and `denied` separately, including denied adapter results and approval-validation failures.
+- Governance audit queries now include `agent-runtime` entries, and context preview now surfaces a compact read-only runtime summary alongside existing grounding and awareness data.
+- Repo hygiene now ignores generated runtime artifacts and removes tracked install output like `node_modules/` from source control.
 - Actions and approvals now appear as active feature stages in the desktop UI.
 - Desktop action requests now validate approval-token JSON inline and keep dry-run preview as the default path.
 - Capability eval coverage now includes governed desktop action selection, sequencing, and approval-token checks.
@@ -26,6 +35,10 @@
 - Message rendering now surfaces governed task decision, approval, verification, gap, and remediation state inline.
 
 ### Tests
+- Added root Jest coverage for runtime lifecycle management, file-backed state and audit stores, eval execution, and expanded runtime provenance/integration assertions.
+- Added root Jest coverage for clarification-needed terminal results, approval-binding validation, and denied outcome preservation.
+- Added SynAI smoke coverage for the runtime inspector plus focused contract, shim, workflow, governance-command-bus, and policy-engine validation around the new bridge.
+- Added SynAI coverage for the runtime approval bridge validator, governance audit query inclusion for `agent-runtime`, and context-preview runtime rendering.
 - Added smoke coverage for the Desktop Actions card and updated app-start coverage for the Actions tab.
 - Added integration coverage for the governed desktop action service and new capability-card scenarios.
 - Verified the desktop build and focused governance/action test slices remain green.

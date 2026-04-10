@@ -1,5 +1,6 @@
 import type { ChatMessage } from "../../contracts/chat";
 import type {
+  AgentRuntimePreviewSummary,
   ContextPreview,
   MemoryEntry,
   RetrievedMemory,
@@ -41,6 +42,7 @@ export interface AssembleContextInput {
   machineAwareness?: MachineAwarenessSnapshot | null;
   fileAwareness?: FileAwarenessSnapshot | null;
   screenAwareness?: ScreenAwarenessSnapshot | null;
+  runtimePreview?: AgentRuntimePreviewSummary | null;
   rag?: RagContextPreview | null;
 }
 
@@ -59,6 +61,24 @@ const formatWorkspaceHit = (hit: WorkspaceChunkHit, index: number): string =>
   `[WS${index + 1}] ${hit.relativePath}:${hit.startLine}-${hit.endLine} | ${hit.reason} | score ${hit.score.toFixed(
     2
   )}\n${hit.excerpt}`;
+
+const buildRuntimePreviewSection = (preview?: AgentRuntimePreviewSummary | null): string => {
+  if (!preview) {
+    return "";
+  }
+
+  const details = [
+    `Task: ${preview.taskTitle}`,
+    `Job: ${preview.jobStatus}${preview.resultStatus ? ` | result ${preview.resultStatus}` : ""}`,
+    `Plan steps: ${preview.plannedStepCount}`,
+    preview.policyDecisionType ? `Policy: ${preview.policyDecisionType}` : null,
+    preview.verificationStatus ? `Verification: ${preview.verificationStatus}` : null,
+    `Audit events: ${preview.auditEventCount}`,
+    preview.checkpointSummary ? `Checkpoint: ${preview.checkpointSummary}` : null
+  ].filter((entry): entry is string => Boolean(entry));
+
+  return `Recent agent runtime:\n${details.join("\n")}`;
+};
 
 const getLatestUserMessage = (messages: ChatMessage[]): string =>
   [...messages].reverse().find((message) => message.role === "user")?.content ?? "";
@@ -113,6 +133,7 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
     machineSection,
     fileSection,
     screenSection,
+    buildRuntimePreviewSection(input.runtimePreview),
     input.summaryText ? `Rolling summary:\n${input.summaryText}` : "",
     input.webSearch.status === "used" && webResults.length > 0
       ? `Recent web results for "${input.webSearch.query}" (use these for time-sensitive facts and cite source names with dates when helpful):\n${webResults
@@ -166,6 +187,7 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
       screenAwareness: screenSection ? input.screenAwareness?.summary ?? null : null,
       startupDigest: input.awareness?.startupDigest ?? null,
       awarenessRuntime: null,
+      runtimePreview: input.runtimePreview ?? null,
       rag: input.rag ?? null
     }
   };

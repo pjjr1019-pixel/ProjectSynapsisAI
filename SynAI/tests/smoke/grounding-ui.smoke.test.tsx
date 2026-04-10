@@ -141,6 +141,21 @@ describe("grounding ui smoke", () => {
         },
         topSourceIds: ["workspace:chunk-1", "web:doc-1"],
         warnings: ["Most retrieved sources were not cited."]
+      },
+      runtimePreview: {
+        jobId: "job-1",
+        taskId: "task-1",
+        taskTitle: "Review the latest runtime job",
+        jobStatus: "denied",
+        resultStatus: "denied",
+        plannedStepCount: 4,
+        policyDecisionType: "allow",
+        verificationStatus: "failed",
+        checkpointId: "ckpt-1",
+        checkpointSummary: "Approval token has expired.",
+        auditEventCount: 5,
+        bindingHash: "fnv1a-12345678",
+        updatedAt: "2026-04-10T10:00:00.000Z"
       }
     };
 
@@ -149,5 +164,8 @@ describe("grounding ui smoke", () => {
     expect(screen.getByText("Evidence & Retrieval Eval")).toBeInTheDocument();
     expect(screen.getByText(/Route auto-complexity/i)).toBeInTheDocument();
     expect(screen.getByText(/Most retrieved sources were not cited/i)).toBeInTheDocument();
+    expect(screen.getByText("Agent Runtime")).toBeInTheDocument();
+    expect(screen.getByText(/Review the latest runtime job/i)).toBeInTheDocument();
+    expect(screen.getByText(/Approval token has expired/i)).toBeInTheDocument();
   });
 });

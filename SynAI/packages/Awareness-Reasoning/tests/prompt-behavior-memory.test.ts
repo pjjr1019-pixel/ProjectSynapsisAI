@@ -114,4 +114,33 @@ describe("prompt-behavior memory", () => {
     expect(result.contextPreview.promptBehaviorMemories?.length ?? 0).toBeGreaterThanOrEqual(1);
     expect(result.promptMessages[0]?.content).toContain("Prompt behavior memory:");
   });
+
+  it("matches style-oriented preferences for simple human phrasing", async () => {
+    configureMemoryDatabase(createDbPath("style"));
+    const conversation = await createConversationRecord();
+
+    await upsertPromptBehaviorPreferenceRecord({
+      sourceConversationId: conversation.id,
+      summary: "Keep replies simple, easy to read, and human.",
+      preferenceLabel: "style simple human",
+      matchHints: ["simple", "easy to read", "human", "not robotic"],
+      confidence: 0.9,
+      resolution: {
+        intentFamily: "generic-writing",
+        sourceScope: "workspace-only",
+        outputShape: "direct-answer",
+        outputLength: "short",
+        preserveExactStructure: false,
+        requiredChecks: ["respect-source-scope"]
+      }
+    });
+
+    const matched = await matchPromptBehaviorMemoryRecords("Make this easier to read and more human.", {
+      intentFamily: "generic-writing",
+      sourceScope: "workspace-only"
+    });
+
+    expect(matched.length).toBeGreaterThanOrEqual(1);
+    expect(matched[0]?.entry.summary.toLowerCase()).toContain("simple");
+  });
 });

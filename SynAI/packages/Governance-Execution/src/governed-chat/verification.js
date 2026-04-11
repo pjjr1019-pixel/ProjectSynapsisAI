@@ -5,6 +5,11 @@ const normalize = (value) => value
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
 const containsAny = (value, needles) => needles.some((needle) => value.includes(needle));
+const isDesktopActionSuccessful = (result) => result.status === "executed" || result.status === "simulated";
+const isDesktopActionBlockedOrFailed = (result) => result.status === "failed" ||
+    result.status === "blocked" ||
+    result.status === "clarification_needed" ||
+    result.status === "denied";
 const fileExists = async (filePath) => {
     try {
         await access(filePath);
@@ -45,7 +50,7 @@ const verifyDesktopActionFileMutation = async (route, result) => {
         if (result.kind === "create-file" || result.kind === "create-folder") {
             const exists = await fileExists(target);
             return {
-                passed: exists && result.status !== "failed" && result.status !== "blocked" && result.status !== "denied",
+                passed: exists && !isDesktopActionBlockedOrFailed(result),
                 score: exists ? 1 : 0,
                 reasons: exists ? ["Target path now exists."] : [`Target path missing after execution: ${target}`],
                 evidence: [target],
@@ -82,9 +87,9 @@ const verifyDesktopActionFileMutation = async (route, result) => {
         }
     }
     return {
-        passed: result.status !== "failed" && result.status !== "blocked" && result.status !== "denied",
-        score: result.status === "executed" || result.status === "simulated" ? 1 : 0,
-        reasons: result.status === "executed" || result.status === "simulated"
+        passed: !isDesktopActionBlockedOrFailed(result),
+        score: isDesktopActionSuccessful(result) ? 1 : 0,
+        reasons: isDesktopActionSuccessful(result)
             ? ["Desktop action completed."]
             : [result.error ?? result.summary],
         evidence: [result.summary],
@@ -96,8 +101,8 @@ const verifyDesktopActionProcess = async (route, result, machineAwarenessAfter) 
     const processName = result.kind === "terminate-process" ? result.target : null;
     if (!machineAwarenessAfter || !processName) {
         return {
-            passed: result.status !== "failed" && result.status !== "blocked" && result.status !== "denied",
-            score: result.status === "executed" || result.status === "simulated" ? 1 : 0.5,
+            passed: !isDesktopActionBlockedOrFailed(result),
+            score: isDesktopActionSuccessful(result) ? 1 : 0.5,
             reasons: ["Process-state verification unavailable; using execution result only."],
             evidence: [result.summary],
             observed_state: result,
@@ -129,8 +134,8 @@ const verifyDesktopActionService = async (_route, result, machineAwarenessAfter)
             : null;
     if (!machineAwarenessAfter) {
         return {
-            passed: result.status !== "failed" && result.status !== "blocked" && result.status !== "denied",
-            score: result.status === "executed" || result.status === "simulated" ? 1 : 0.5,
+            passed: !isDesktopActionBlockedOrFailed(result),
+            score: isDesktopActionSuccessful(result) ? 1 : 0.5,
             reasons: ["Service-state verification unavailable; using execution result only."],
             evidence: [result.summary],
             observed_state: result,
@@ -140,8 +145,8 @@ const verifyDesktopActionService = async (_route, result, machineAwarenessAfter)
     const service = findMatchingService(machineAwarenessAfter.serviceSnapshot.services, serviceName);
     if (!service) {
         return {
-            passed: result.status !== "failed" && result.status !== "blocked" && result.status !== "denied",
-            score: result.status === "executed" || result.status === "simulated" ? 1 : 0.5,
+            passed: !isDesktopActionBlockedOrFailed(result),
+            score: isDesktopActionSuccessful(result) ? 1 : 0.5,
             reasons: [`Service ${serviceName} could not be matched in the post-action snapshot.`],
             evidence: [result.summary],
             observed_state: { serviceName, output, machine: machineAwarenessAfter.summary.machineName },
@@ -150,7 +155,7 @@ const verifyDesktopActionService = async (_route, result, machineAwarenessAfter)
     }
     const stateMatches = verifyServiceState(result.kind, service.state) || (observedStateText ? verifyServiceState(result.kind, observedStateText) : false);
     return {
-        passed: stateMatches && (result.status === "executed" || result.status === "simulated"),
+        passed: stateMatches && isDesktopActionSuccessful(result),
         score: stateMatches ? 1 : 0,
         reasons: stateMatches
             ? [`Service ${service.displayName} is now ${service.state}.`]
@@ -173,9 +178,9 @@ const verifyDesktopActionRegistry = async (_route, result) => {
     const output = typeof result.output === "object" && result.output !== null ? result.output : null;
     const registryTarget = result.target;
     const valueName = typeof output?.valueName === "string" ? output.valueName : "Default";
-    const passed = result.status !== "failed" && result.status !== "blocked" && result.status !== "denied";
+    const passed = !isDesktopActionBlockedOrFailed(result);
     return {
-        passed: passed && (result.status === "executed" || result.status === "simulated"),
+        passed: passed && isDesktopActionSuccessful(result),
         score: passed ? 1 : 0,
         reasons: passed
             ? [
@@ -201,8 +206,8 @@ const verifyDesktopActionUi = async (_route, result, screenAwarenessAfter) => {
     const target = normalize(result.target);
     if (!screenAwarenessAfter) {
         return {
-            passed: result.status !== "failed" && result.status !== "blocked" && result.status !== "denied",
-            score: result.status === "executed" || result.status === "simulated" ? 1 : 0.5,
+            passed: !isDesktopActionBlockedOrFailed(result),
+            score: isDesktopActionSuccessful(result) ? 1 : 0.5,
             reasons: ["Screen evidence unavailable; using action result only."],
             evidence: [result.summary],
             observed_state: result,
@@ -219,7 +224,7 @@ const verifyDesktopActionUi = async (_route, result, screenAwarenessAfter) => {
         Boolean(outputTarget && outputTarget.includes(target)) ||
         Boolean(target && (outputTarget ?? "").includes(target));
     return {
-        passed: (result.status === "executed" || result.status === "simulated") &&
+        passed: isDesktopActionSuccessful(result) &&
             (matchedTarget || eventEvidence || result.kind === "ui-hotkey"),
         score: matchedTarget || eventEvidence ? 1 : 0.5,
         reasons: result.status === "executed"
@@ -308,9 +313,9 @@ export const verifyGovernedTaskExecution = async (input) => {
     }
     if (route.actionType?.includes("workflow")) {
         return {
-            passed: desktopResult.status !== "failed" && desktopResult.status !== "blocked" && desktopResult.status !== "denied",
-            score: desktopResult.status === "executed" || desktopResult.status === "simulated" ? 1 : 0,
-            reasons: desktopResult.status === "executed" || desktopResult.status === "simulated"
+            passed: !isDesktopActionBlockedOrFailed(desktopResult),
+            score: isDesktopActionSuccessful(desktopResult) ? 1 : 0,
+            reasons: isDesktopActionSuccessful(desktopResult)
                 ? ["Workflow-style desktop action completed."]
                 : [desktopResult.error ?? desktopResult.summary],
             evidence: [desktopResult.summary],

@@ -235,5 +235,91 @@ export const canonicalPromptEvalCases: PromptEvaluationCaseInput[] = [
       maxUnsupportedClaims: 0,
       maxConflictedClaims: 0
     }
+  },
+  {
+    id: "simple-human-reply-style",
+    label: "Simple human reply style",
+    difficulty: "medium",
+    prompt:
+      "Explain what governance approval means in this app. Keep it simple, easy to read, and human. Use exactly 2 short bullets labeled Meaning and Why.",
+    sourceScopeHint: "workspace-only",
+    formatPolicy: "preserve-exact-structure",
+    checks: [
+      {
+        id: "simple-human-style-bullets",
+        kind: "bullet-count",
+        description: "Use exactly 2 bullets.",
+        exact: 2
+      },
+      {
+        id: "simple-human-style-prefixes",
+        kind: "line-prefixes",
+        description: "Use the required labels in order.",
+        values: ["- Meaning", "- Why"]
+      },
+      {
+        id: "simple-human-style-phrases",
+        kind: "includes-any",
+        description: "Use simple tone signals.",
+        values: ["approval", "safe", "before"]
+      },
+      {
+        id: "simple-human-style-no-robotic-filler",
+        kind: "excludes-all",
+        description: "Avoid robotic filler phrasing.",
+        values: ["as an ai", "let me know if you'd like", "i cannot"]
+      },
+      {
+        id: "simple-human-style-concise",
+        kind: "sentence-count",
+        description: "Keep the explanation short.",
+        min: 1,
+        max: 3
+      }
+    ],
+    routingExpectations: {
+      awarenessUsed: false,
+      deterministicAwareness: false,
+      genericWritingPromptSuppressed: true,
+      classifierCategories: {
+        generic_writing: true,
+        exact_format: true
+      }
+    }
+  },
+  {
+    id: "ambiguous-action-clarification",
+    label: "Ambiguous action clarification",
+    difficulty: "hard",
+    prompt: "Delete a folder for me.",
+    sourceScopeHint: "workspace-only",
+    checks: [
+      {
+        id: "ambiguous-action-asks-for-target",
+        kind: "includes-any",
+        description: "Ask for the missing target folder.",
+        values: ["which folder", "folder path", "target folder", "need the folder"]
+      },
+      {
+        id: "ambiguous-action-keeps-it-short",
+        kind: "sentence-count",
+        description: "Keep clarification short and readable.",
+        min: 1,
+        max: 3
+      },
+      {
+        id: "ambiguous-action-no-fake-completion",
+        kind: "excludes-all",
+        description: "Do not claim completion before clarification.",
+        values: ["done", "deleted", "completed"]
+      }
+    ],
+    routingExpectations: {
+      awarenessUsed: false,
+      deterministicAwareness: false,
+      classifierCategories: {
+        governed_action: true
+      }
+    }
   }
 ];

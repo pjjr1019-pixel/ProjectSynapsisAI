@@ -74,6 +74,30 @@ describe("prompt intent contract generation", () => {
     );
   });
 
+  it("captures simple human style preferences in constraints", () => {
+    const intent = buildSeedPromptIntent({
+      query: "Keep replies simple, easy to read, and more human.",
+      route: null,
+      replyPolicy: {
+        sourceScope: "workspace-only",
+        formatPolicy: "default",
+        groundingPolicy: "default",
+        routingPolicy: "default"
+      },
+      responseMode: "fast",
+      reasoningMode: "fast",
+      taskClassification: classifyPromptTask("Keep replies simple, easy to read, and more human."),
+      hasWorkspaceHits: false,
+      hasAwarenessEvidence: false,
+      hasLiveWebResults: false,
+      useWebSearch: false,
+      preferOfficialWindowsKnowledge: false
+    });
+
+    expect(intent.constraints.some((entry) => entry.toLowerCase().includes("simple"))).toBe(true);
+    expect(intent.constraints.some((entry) => entry.toLowerCase().includes("human"))).toBe(true);
+  });
+
   it("detects generic writing prompts and explicit Windows prompts", () => {
     expect(isGenericWritingPrompt("Rewrite this reply to sound calmer without changing its meaning.")).toBe(true);
     expect(

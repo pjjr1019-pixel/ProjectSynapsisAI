@@ -19,8 +19,26 @@ const tokenize = (text: string): string[] =>
 
 const normalizeLine = (value: string): string => value.replace(/\s+/g, " ").trim();
 
+const STYLE_HINT_PATTERNS: Array<{ pattern: RegExp; tag: string }> = [
+  { pattern: /\b(simple|plain language|plain english|easy to read|readable)\b/i, tag: "style-simple-readable" },
+  { pattern: /\b(human|natural|conversational|less robotic|not robotic)\b/i, tag: "style-human-tone" },
+  { pattern: /\b(concise|brief|short|very short)\b/i, tag: "style-brief" }
+];
+
+const deriveStyleHintTags = (hints: string[]): string[] => {
+  const corpus = hints.join(" ");
+  return STYLE_HINT_PATTERNS.filter((entry) => entry.pattern.test(corpus)).map((entry) => entry.tag);
+};
+
 const normalizeHints = (hints: string[]): string[] =>
-  [...new Set(hints.map(normalizeLine).filter(Boolean).flatMap((entry) => [entry.toLowerCase(), ...tokenize(entry)]))]
+  [
+    ...new Set(
+      hints
+        .map(normalizeLine)
+        .filter(Boolean)
+        .flatMap((entry) => [entry.toLowerCase(), ...tokenize(entry), ...deriveStyleHintTags([entry])])
+    )
+  ]
     .slice(0, 24);
 
 const normalizeChecks = (checks: PromptBehaviorResolution["requiredChecks"]): PromptBehaviorResolution["requiredChecks"] =>
@@ -219,6 +237,7 @@ export const matchPromptBehaviorMemories = async ({
   limit = 4
 }: MatchPromptBehaviorInput): Promise<RetrievedPromptBehaviorMemory[]> => {
   const terms = tokenize(query);
+  const styleTags = deriveStyleHintTags([query]);
   if (terms.length === 0) {
     return [];
   }
@@ -235,10 +254,11 @@ export const matchPromptBehaviorMemories = async ({
       const hintScore = hintHits === 0 ? 0 : hintHits / Math.max(terms.length, 1);
       const intentScore = intentFamily && entry.resolution.intentFamily === intentFamily ? 0.35 : 0;
       const sourceScore = sourceScope && entry.resolution.sourceScope === sourceScope ? 0.25 : 0;
+      const styleScore = styleTags.some((tag) => entry.matchHints.includes(tag)) ? 0.18 : 0;
       const confidenceScore = entry.confidence * 0.2;
-      const score = hintScore + intentScore + sourceScore + confidenceScore;
+      const score = hintScore + intentScore + sourceScore + styleScore + confidenceScore;
       const reason: RetrievedPromptBehaviorMemory["reason"] =
-        intentScore + sourceScore > hintScore ? "intent" : "keyword";
+        intentScore + sourceScore + styleScore > hintScore ? "intent" : "keyword";
 
       return {
         entry,
@@ -270,4 +290,3 @@ export const markPromptBehaviorMemoriesApplied = async (entryIds: string[]): Pro
     )
   }));
 };
-

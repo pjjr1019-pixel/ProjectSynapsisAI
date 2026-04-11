@@ -138,7 +138,18 @@ const summarizeDesktopResult = (result) => result.status === "executed"
     ? result.summary || "Desktop action executed."
     : result.status === "simulated"
         ? result.summary || "Desktop action simulated."
+        : result.status === "clarification_needed"
+            ? result.clarification?.question ?? result.reason ?? result.message ?? result.summary
         : result.error ?? result.summary;
+const buildDesktopExecutionReply = (result, verification) => {
+    if (result.status === "clarification_needed") {
+        const followUp = result.clarification?.question ?? result.reason ?? result.message ?? result.summary;
+        return `I need one detail before I can continue: ${followUp}`;
+    }
+    return verification.passed
+        ? `Completed the desktop action: ${result.summary}`
+        : `I ran the desktop action, but verification failed: ${verification.reasons[0] ?? result.summary}`;
+};
 const summarizeRollbackSummary = (result) => {
     if ("plan" in result) {
         return result.rollback?.length ? result.rollback.map((entry) => entry.summary).join(" | ") : null;
@@ -686,9 +697,7 @@ export const createGovernedChatService = (options) => {
             });
             return {
                 handled: true,
-                assistantReply: verification.passed
-                    ? `Completed the desktop action: ${executionResult.summary}`
-                    : `I ran the desktop action, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`,
+                assistantReply: buildDesktopExecutionReply(executionResult, verification),
                 taskState,
                 route: executionRoute,
                 executionResult,
@@ -1262,9 +1271,7 @@ export const createGovernedChatService = (options) => {
         });
         return {
             handled: true,
-            assistantReply: verification.passed
-                ? `Completed the desktop action: ${executionResult.summary}`
-                : `I ran the desktop action, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`,
+            assistantReply: buildDesktopExecutionReply(executionResult, verification),
             taskState,
             route,
             executionResult,

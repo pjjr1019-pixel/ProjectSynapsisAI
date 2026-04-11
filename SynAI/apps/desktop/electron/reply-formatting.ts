@@ -90,6 +90,60 @@ const looksCodeHeavy = (value: string): boolean => {
   return codeLikeLines.length >= 3;
 };
 
+const bulletPattern = /^\s*[-*]\s+/;
+const orderedListPattern = /^\s*\d+\.\s+/;
+const markdownHeadingPattern = /^\s*#{1,6}\s+/;
+const tableRowPattern = /^\s*\|.+\|\s*$/;
+const plainHeadingPattern = /^[A-Z][A-Za-z0-9 /&()'_-]{1,36}:?$/;
+
+const shouldPreserveStructuredReply = (lines: string[]): boolean => {
+  if (lines.length <= 3) {
+    return true;
+  }
+
+  if (lines.every((line) => bulletPattern.test(line))) {
+    return true;
+  }
+
+  if (lines.some((line) => markdownHeadingPattern.test(line) || orderedListPattern.test(line) || tableRowPattern.test(line))) {
+    return true;
+  }
+
+  const headingLineCount = lines.filter((line) => !bulletPattern.test(line) && plainHeadingPattern.test(line)).length;
+  return headingLineCount >= 2;
+};
+
+const clampDirectLineAndBullets = (value: string): string => {
+  const lines = value
+    .split(/\r?\n/)
+    .map((line) => normalizeLine(line))
+    .filter(Boolean);
+  if (shouldPreserveStructuredReply(lines)) {
+    return lines.join("\n");
+  }
+
+  const firstLineIndex = lines.findIndex((line) => !bulletPattern.test(line));
+  const directLineIndex = firstLineIndex >= 0 ? firstLineIndex : 0;
+  const directLine = lines[directLineIndex]?.replace(bulletPattern, "").trim();
+  if (!directLine) {
+    return value.trim();
+  }
+
+  const bullets: string[] = [];
+  for (const line of lines.slice(directLineIndex + 1)) {
+    const candidate = line.replace(bulletPattern, "").trim();
+    if (!candidate || candidate === directLine) {
+      continue;
+    }
+    bullets.push(candidate);
+    if (bullets.length >= 2) {
+      break;
+    }
+  }
+
+  return [directLine, ...bullets.map((line) => `- ${line}`)].join("\n");
+};
+
 export const cleanupPlainTextAnswer = (value: string): string => {
   const trimmed = value.trim();
   if (!trimmed || looksCodeHeavy(trimmed)) {
@@ -110,12 +164,15 @@ export const cleanupPlainTextAnswer = (value: string): string => {
   }
 
   cleaned = cleaned
+    .replace(/(^|\n)\s*Here(?:'s| is) (?:a )?(?:concise|short|quick) answer:\s*/gim, "$1")
+    .replace(/(^|\n)\s*(?:Answer|Summary|Final answer)\s*:\s*/gim, "$1")
+    .replace(/\n{2,}Let me know if you(?:'d| would) like (?:me )?to (?:go deeper|expand|add more detail).*$/gim, "")
     .replace(/\n{3,}/g, "\n\n")
     .replace(/[ \t]+\n/g, "\n")
     .replace(/\n-\s+\n/g, "\n")
     .trim();
 
-  return cleaned || trimmed;
+  return clampDirectLineAndBullets(cleaned || trimmed);
 };
 
 const formatClarificationReply = (answer: AwarenessQueryAnswer): string => {
@@ -124,7 +181,10 @@ const formatClarificationReply = (answer: AwarenessQueryAnswer): string => {
     return "I can answer that more clearly with a little more direction.";
   }
 
-  return [clarification.question, ...clarification.options.slice(0, 2).map((option) => `- ${option}`)].join("\n");
+  return [
+    `I can do that once I have one detail: ${clarification.question}`,
+    ...clarification.options.slice(0, 2).map((option) => `- ${option}`)
+  ].join("\n");
 };
 
 const formatHotspotReply = (answer: AwarenessQueryAnswer): string => {
@@ -153,7 +213,7 @@ const formatHotspotReply = (answer: AwarenessQueryAnswer): string => {
 
   return [
     `${top.label} is using the most ${resourceLabel}${top.resourceAmount ? ` at ${top.resourceAmount}` : ""}.`,
-    ...bullets.slice(0, 3)
+    ...bullets.slice(0, 2)
   ].join("\n");
 };
 
@@ -185,21 +245,21 @@ const formatGeneralAwarenessReply = (answer: AwarenessQueryAnswer): string => {
   const bullets: string[] = [];
 
   for (const line of verified.slice(1)) {
-    if (bullets.length >= 3) {
+    if (bullets.length >= 2) {
       break;
     }
     bullets.push(line);
   }
 
-  if (bullets.length < 3 && verified.length === 0 && official[1]) {
+  if (bullets.length < 2 && verified.length === 0 && official[1]) {
     bullets.push(`Microsoft says: ${official[1]}`);
   }
 
-  if (bullets.length < 3 && inferred[0]) {
+  if (bullets.length < 2 && inferred[0]) {
     bullets.push(`Why it matters: ${inferred[0]}`);
   }
 
-  if (bullets.length < 3 && uncertainty[0]) {
+  if (bullets.length < 2 && uncertainty[0]) {
     bullets.push(`Unclear: ${uncertainty[0]}`);
   }
 

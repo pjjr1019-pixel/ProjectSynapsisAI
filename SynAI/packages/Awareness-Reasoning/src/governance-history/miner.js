@@ -22,8 +22,31 @@ const failureSignals = [
     "no result",
     "error",
     "unknown chat error",
-    "execution failed"
+    "execution failed",
+    "too robotic",
+    "hard to read",
+    "not easy to read",
+    "too verbose",
+    "too long",
+    "confusing"
 ];
+const styleFeedbackSignals = [
+    "too robotic",
+    "less robotic",
+    "more human",
+    "hard to read",
+    "easy to read",
+    "too verbose",
+    "too long",
+    "confusing",
+    "simpler",
+    "more simple",
+    "shorter"
+];
+const isStyleFeedback = (text) => {
+    const normalized = normalize(text);
+    return styleFeedbackSignals.some((signal) => normalized.includes(normalize(signal)));
+};
 const looksFailed = (message) => {
     const text = normalize(message.content);
     return failureSignals.some((signal) => text.includes(normalize(signal))) || message.metadata?.task?.decision === "deny" || message.metadata?.task?.decision === "clarify";
@@ -78,8 +101,14 @@ const suggestExecutor = (userMessage, assistantMessage) => {
 const suggestGap = (userMessage, assistantMessage, failureFeedback = null) => {
     const normalized = normalize(userMessage);
     const assistantText = normalize(assistantMessage?.content ?? "");
+    if (failureFeedback && isStyleFeedback(failureFeedback)) {
+        return "response_style_gap";
+    }
     if (failureFeedback) {
         return "verification_gap";
+    }
+    if (isStyleFeedback(userMessage) || isStyleFeedback(assistantText)) {
+        return "response_style_gap";
     }
     if (/(failed|unable|blocked|denied|approval required)/i.test(assistantText)) {
         return "approval_state_issue";

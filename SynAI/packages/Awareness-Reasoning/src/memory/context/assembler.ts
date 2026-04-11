@@ -66,12 +66,33 @@ export interface AssembleContextResult {
 const formatMemory = (memory: MemoryEntry): string =>
   `[${memory.category}] (${memory.importance.toFixed(2)}) ${memory.text}`;
 
+const extractStyleHints = (memory: RetrievedPromptBehaviorMemory): string[] => {
+  const corpus = `${memory.entry.summary} ${memory.entry.matchHints.join(" ")}`.toLowerCase();
+  const hints: string[] = [];
+  if (/(simple|plain language|plain english|easy to read|readable)/i.test(corpus)) {
+    hints.push("keep wording simple and easy to read");
+  }
+  if (/(human|natural|conversational|less robotic|not robotic)/i.test(corpus)) {
+    hints.push("use a natural human tone");
+  }
+  if (/(brief|concise|short|very short)/i.test(corpus)) {
+    hints.push("keep it concise");
+  }
+  return [...new Set(hints)];
+};
+
 const formatPromptBehaviorMemory = (memory: RetrievedPromptBehaviorMemory): string => {
   const summary = memory.entry.summary;
   const resolution = memory.entry.resolution;
-  return `[${memory.entry.entryKind}] score ${memory.score.toFixed(2)} | ${resolution.sourceScope} | ${resolution.outputShape}${
-    resolution.preserveExactStructure ? " | exact" : ""
-  }\n${summary}`;
+  const styleHints = extractStyleHints(memory);
+  return [
+    `[${memory.entry.entryKind}] score ${memory.score.toFixed(2)} | ${resolution.sourceScope} | ${resolution.outputShape}${resolution.preserveExactStructure ? " | exact" : ""}`,
+    summary,
+    styleHints.length > 0 ? `Style preference: ${styleHints.join(" | ")}` : null,
+    resolution.requiredChecks.length > 0 ? `Checks: ${resolution.requiredChecks.slice(0, 4).join(" | ")}` : null
+  ]
+    .filter((line): line is string => Boolean(line))
+    .join("\n");
 };
 
 const formatWebResult = (result: WebSearchResult): string =>

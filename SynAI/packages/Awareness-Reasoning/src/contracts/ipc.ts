@@ -171,7 +171,7 @@ export interface DesktopActionResult {
   scope: ActionScope;
   targetKind: DesktopActionTargetKind;
   target: string;
-  status: "executed" | "simulated" | "blocked" | "denied" | "failed";
+  status: "executed" | "simulated" | "blocked" | "clarification_needed" | "denied" | "failed";
   commandId: string | null;
   commandHash: string | null;
   preview: string;
@@ -185,6 +185,13 @@ export interface DesktopActionResult {
   rollback?: ExecutionRollbackRecord | null;
   verification?: ExecutionVerificationRecord | null;
   error?: string;
+  reason?: string;
+  message?: string;
+  clarification?: {
+    question: string;
+    missingFields?: string[];
+    options?: string[];
+  };
 }
 
 export interface ExecutionRollbackRecord {

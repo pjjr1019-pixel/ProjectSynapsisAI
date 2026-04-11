@@ -24,6 +24,20 @@ const dedupe = <T extends string>(values: T[]): T[] => [...new Set(values)];
 
 const normalizeLine = (value: string): string => value.replace(/\s+/g, " ").trim();
 
+const SIMPLE_HUMAN_STYLE_PATTERNS = [
+  "simple",
+  "easy to read",
+  "human",
+  "natural",
+  "plain language",
+  "plain english",
+  "less robotic",
+  "not robotic",
+  "more readable",
+  "concise",
+  "brief"
+];
+
 const inferOutputShape = (query: string, policy: ChatReplyPolicy): PromptIntentOutputContract["shape"] => {
   const normalized = normalizeQuery(query);
   if (policy.formatPolicy === "preserve-exact-structure") {
@@ -43,7 +57,12 @@ const inferOutputLength = (
   responseMode: ResponseMode | undefined
 ): PromptIntentOutputContract["length"] => {
   const normalized = normalizeQuery(query);
-  if (normalized.includes("one sentence") || normalized.includes("extremely brief")) {
+  if (
+    normalized.includes("one sentence") ||
+    normalized.includes("extremely brief") ||
+    normalized.includes("keep it short") ||
+    normalized.includes("very concise")
+  ) {
     return "very-short";
   }
   if (responseMode === "smart") {
@@ -51,6 +70,9 @@ const inferOutputLength = (
   }
   return "short";
 };
+
+export const hasSimpleHumanStylePreference = (query: string): boolean =>
+  SIMPLE_HUMAN_STYLE_PATTERNS.some((pattern) => normalizeQuery(query).includes(normalizeQuery(pattern)));
 
 const inferPromptIntentFamily = (
   route: RouteLike | null,
@@ -230,6 +252,10 @@ export const buildSeedPromptIntent = ({
   if (taskClassification.categories.open_ended) {
     constraints.push("Structure open-ended requests with a short recommendation and concrete options.");
     requiredChecks.push("structure-open-ended-request");
+  }
+
+  if (hasSimpleHumanStylePreference(query)) {
+    constraints.push("Keep wording simple, human, and easy to scan. Use plain language and short sentences.");
   }
 
   if (reasoningMode === "advanced") {

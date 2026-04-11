@@ -7,6 +7,7 @@ const mapDesktopStatus = (status) => {
         case "simulated":
             return "simulated";
         case "blocked":
+        case "clarification_needed":
             return "blocked";
         case "denied":
             return "denied";

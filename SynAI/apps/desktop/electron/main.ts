@@ -156,6 +156,7 @@ import {
 } from "./prompting/diagnostics";
 import {
   buildSeedPromptIntent,
+  hasSimpleHumanStylePreference,
   shouldPreferOfficialWindowsKnowledge
 } from "./prompting/intent-contract";
 import { planPromptIntent } from "./prompting/planner";
@@ -305,9 +306,12 @@ const shouldPersistPromptBehaviorPreference = (promptIntent: PromptIntentContrac
   promptIntent.intentFamily !== "agent-runtime" &&
   promptIntent.intentFamily !== "time-sensitive-live" &&
   promptIntent.intentFamily !== "windows-awareness" &&
+  (promptIntent.intentFamily === "generic-writing" ||
+    promptIntent.constraints.some((constraint) => hasSimpleHumanStylePreference(constraint)) ||
+    hasSimpleHumanStylePreference(promptIntent.userGoal) ||
   (promptIntent.outputContract.preserveExactStructure ||
     promptIntent.sourceScope !== "workspace-only" ||
-    promptIntent.requiredChecks.includes("decompose-first-time-task"));
+    promptIntent.requiredChecks.includes("decompose-first-time-task")));
 
 const persistPromptBehaviorFromTurn = async (input: {
   conversationId: string;
@@ -322,7 +326,16 @@ const persistPromptBehaviorFromTurn = async (input: {
     return;
   }
 
-  const matchHints = [input.query, promptIntent.userGoal, ...promptIntent.constraints].filter(Boolean);
+  const stylePreference = hasSimpleHumanStylePreference(input.query) ||
+    hasSimpleHumanStylePreference(promptIntent.userGoal) ||
+    promptIntent.constraints.some((constraint) => hasSimpleHumanStylePreference(constraint));
+  const matchHints = [
+    input.query,
+    promptIntent.userGoal,
+    ...promptIntent.constraints,
+    ...promptIntent.requiredChecks,
+    stylePreference ? "simple human easy to read" : ""
+  ].filter(Boolean);
   const normalizedResolution = {
     intentFamily: promptIntent.intentFamily,
     sourceScope: promptIntent.sourceScope,
@@ -337,7 +350,7 @@ const persistPromptBehaviorFromTurn = async (input: {
     await upsertPromptBehaviorPreferenceRecord({
       sourceConversationId: input.conversationId,
       summary: `Prompt behavior preference: ${promptIntent.userGoal}`,
-      preferenceLabel: `${promptIntent.sourceScope} ${promptIntent.outputContract.shape}`,
+      preferenceLabel: `${promptIntent.sourceScope} ${promptIntent.outputContract.shape}${stylePreference ? " style-simple-human" : ""}`,
       matchHints,
       resolution: normalizedResolution,
       confidence

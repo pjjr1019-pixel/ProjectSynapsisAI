@@ -174,6 +174,59 @@ const normalizeDesktopActionRequest = (request, workspaceRoot) => {
         normalizedDestinationTarget
     };
 };
+const isMissingTargetError = (error) => {
+    const message = error instanceof Error ? error.message : String(error ?? "");
+    return /target is required/i.test(message);
+};
+const buildClarificationNeededDesktopResult = (request, workspaceRoot, reasonText) => {
+    const proposal = findWindowsActionDefinitionById(request.proposalId);
+    const fallbackTarget = proposal?.defaultTarget ?? proposal?.targetPlaceholder ?? request.targetKind;
+    const preview = proposal
+        ? renderPreview(proposal, {
+            ...request,
+            target: fallbackTarget,
+            destinationTarget: request.destinationTarget ?? null
+        })
+        : `${request.kind} ${fallbackTarget}`.trim();
+    const question = proposal?.targetPlaceholder
+        ? `Which ${proposal.targetPlaceholder.toLowerCase()} should I use?`
+        : `Which ${request.targetKind.replace(/-/g, " ")} should I use?`;
+    const summary = `Clarification needed: provide a target for ${request.kind}. ${question}`;
+    const resolvedWorkspaceRoot = request.workspaceRoot?.trim() ? request.workspaceRoot : workspaceRoot;
+    return {
+        proposalId: request.proposalId,
+        kind: request.kind,
+        scope: request.scope,
+        targetKind: request.targetKind,
+        target: request.target.trim(),
+        status: "clarification_needed",
+        commandId: null,
+        commandHash: null,
+        preview,
+        summary,
+        riskClass: request.riskClass,
+        approvalRequired: request.destructive,
+        approvedBy: request.approvedBy ?? null,
+        startedAt: null,
+        completedAt: null,
+        reason: "missing-required-target",
+        message: summary,
+        clarification: {
+            question,
+            missingFields: ["target"],
+            options: [
+                `Provide an exact path or identifier for ${request.kind}.`,
+                `Current workspace root: ${resolvedWorkspaceRoot}`
+            ]
+        },
+        verification: createVerificationRecord(summary, {
+            kind: request.kind,
+            missingFields: ["target"],
+            reason: reasonText ?? null
+        }, false),
+        error: reasonText ?? summary
+    };
+};
 const resolveApprovedRoots = (request, workspaceRoot) => {
     const baseRoot = path.resolve(request.workspaceRoot?.trim() ? request.workspaceRoot : workspaceRoot);
     const metadataRoots = Array.isArray(request.allowedRoots)
@@ -1240,7 +1293,16 @@ export const createDesktopActionService = (options) => {
         return token;
     };
     const executeDesktopAction = async (request) => {
-        const normalized = normalizeDesktopActionRequest(request, workspaceRoot);
+        let normalized;
+        try {
+            normalized = normalizeDesktopActionRequest(request, workspaceRoot);
+        }
+        catch (error) {
+            if (isMissingTargetError(error)) {
+                return buildClarificationNeededDesktopResult(request, workspaceRoot, error instanceof Error ? error.message : String(error ?? ""));
+            }
+            throw error;
+        }
         const proposal = normalized.proposal;
         const preview = proposal ? renderPreview(proposal, { ...request, target: normalized.normalizedTarget, destinationTarget: normalized.normalizedDestinationTarget ?? null }) : request.target;
         const approvedRoots = resolveApprovedRoots(request, workspaceRoot);

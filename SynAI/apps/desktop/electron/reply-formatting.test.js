@@ -172,4 +172,32 @@ describe("reply formatting", () => {
         expect(cleaned).not.toContain("Confidence:");
         expect(cleaned).not.toContain("Grounding:");
     });
+    it("clamps long plain replies to one direct line plus up to two bullets", () => {
+        const cleaned = cleanupPlainTextAnswer([
+            "Here is a concise answer:",
+            "You can safely enable this setting now.",
+            "- It only affects the current profile.",
+            "- You can revert it in Settings later.",
+            "- It does not require a restart.",
+            "",
+            "Let me know if you'd like me to expand."
+        ].join("\n"));
+        expect(cleaned).toBe([
+            "You can safely enable this setting now.",
+            "- It only affects the current profile.",
+            "- You can revert it in Settings later."
+        ].join("\n"));
+    });
+    it("preserves structured section-style replies", () => {
+        const input = [
+            "Goal",
+            "Explain approval clearly.",
+            "Steps",
+            "1. Request approval.",
+            "2. Confirm and execute.",
+            "Risks",
+            "Changes run only after approval."
+        ].join("\n");
+        expect(cleanupPlainTextAnswer(input)).toBe(input);
+    });
 });

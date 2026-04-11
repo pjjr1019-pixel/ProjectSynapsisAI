@@ -1,10 +1,32 @@
 import { clipByChars, DEFAULT_CONTEXT_BUDGET, MAX_WEB_RESULTS_IN_PROMPT } from "./budget";
 import { buildAwarenessContextSection, buildOfficialKnowledgeContextSection, buildAwarenessQueryContextSection, buildFileAwarenessContextSection, buildMachineAwarenessContextSection, buildScreenAwarenessContextSection } from "@awareness";
 const formatMemory = (memory) => `[${memory.category}] (${memory.importance.toFixed(2)}) ${memory.text}`;
+const extractStyleHints = (memory) => {
+    const corpus = `${memory.entry.summary} ${memory.entry.matchHints.join(" ")}`.toLowerCase();
+    const hints = [];
+    if (/(simple|plain language|plain english|easy to read|readable)/i.test(corpus)) {
+        hints.push("keep wording simple and easy to read");
+    }
+    if (/(human|natural|conversational|less robotic|not robotic)/i.test(corpus)) {
+        hints.push("use a natural human tone");
+    }
+    if (/(brief|concise|short|very short)/i.test(corpus)) {
+        hints.push("keep it concise");
+    }
+    return [...new Set(hints)];
+};
 const formatPromptBehaviorMemory = (memory) => {
     const summary = memory.entry.summary;
     const resolution = memory.entry.resolution;
-    return `[${memory.entry.entryKind}] score ${memory.score.toFixed(2)} | ${resolution.sourceScope} | ${resolution.outputShape}${resolution.preserveExactStructure ? " | exact" : ""}\n${summary}`;
+    const styleHints = extractStyleHints(memory);
+    return [
+        `[${memory.entry.entryKind}] score ${memory.score.toFixed(2)} | ${resolution.sourceScope} | ${resolution.outputShape}${resolution.preserveExactStructure ? " | exact" : ""}`,
+        summary,
+        styleHints.length > 0 ? `Style preference: ${styleHints.join(" | ")}` : null,
+        resolution.requiredChecks.length > 0 ? `Checks: ${resolution.requiredChecks.slice(0, 4).join(" | ")}` : null
+    ]
+        .filter((line) => Boolean(line))
+        .join("\n");
 };
 const formatWebResult = (result) => `${result.title} | ${result.source}${result.sourceFamily ? ` | ${result.sourceFamily}` : ""}${result.publishedAt ? ` | ${result.publishedAt}` : ""}\n${result.snippet}\n${result.url}`;
 const formatWorkspaceHit = (hit, index) => `[WS${index + 1}] ${hit.relativePath}:${hit.startLine}-${hit.endLine} | ${hit.reason} | score ${hit.score.toFixed(2)}\n${hit.excerpt}`;

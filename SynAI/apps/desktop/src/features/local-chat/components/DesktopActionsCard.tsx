@@ -45,6 +45,20 @@ const parseApprovalTokenJson = (
 
 const emptyToken = "";
 
+const buildDesktopResultStatusMessage = (result: DesktopActionResult, label: "Action" | "Rollback"): string => {
+  if (result.status === "executed") {
+    return `${label} executed.`;
+  }
+  if (result.status === "simulated") {
+    return `${label} simulated.`;
+  }
+  if (result.status === "clarification_needed") {
+    const followUp = result.clarification?.question ?? result.message ?? result.reason ?? result.summary;
+    return `Need one detail before ${label.toLowerCase()}: ${followUp}`;
+  }
+  return result.summary;
+};
+
 export function DesktopActionsCard() {
   const [selectedActionId, setSelectedActionId] = useState(catalog[0]?.id ?? "");
   const selectedAction = useMemo(
@@ -178,13 +192,7 @@ export function DesktopActionsCard() {
       const result = await window.synai.executeDesktopAction(request);
       setLastResult(result);
       setRollbackResult(null);
-      setStatusMessage(
-        result.status === "executed"
-          ? "Action executed."
-          : result.status === "simulated"
-            ? "Action simulated."
-            : result.summary
-      );
+      setStatusMessage(buildDesktopResultStatusMessage(result, "Action"));
     } catch (error) {
       setStatusMessage(error instanceof Error ? error.message : "Unable to execute action.");
     } finally {
@@ -212,13 +220,7 @@ export function DesktopActionsCard() {
         dryRun
       );
       setRollbackResult(result);
-      setStatusMessage(
-        result.status === "executed"
-          ? "Rollback executed."
-          : result.status === "simulated"
-            ? "Rollback simulated."
-            : result.summary
-      );
+      setStatusMessage(buildDesktopResultStatusMessage(result, "Rollback"));
     } catch (error) {
       setStatusMessage(error instanceof Error ? error.message : "Unable to roll back the last action.");
     } finally {
@@ -409,6 +411,8 @@ export function DesktopActionsCard() {
                   ? "good"
                   : lastResult.status === "simulated"
                     ? "neutral"
+                    : lastResult.status === "clarification_needed"
+                      ? "neutral"
                     : lastResult.status === "denied"
                       ? "bad"
                       : "warn"
@@ -418,6 +422,9 @@ export function DesktopActionsCard() {
             </Badge>
           </div>
           <p>{lastResult.summary}</p>
+          {lastResult.status === "clarification_needed" && lastResult.clarification?.question ? (
+            <p className="text-cyan-200">Need: {lastResult.clarification.question}</p>
+          ) : null}
           <p className="font-mono text-[8px] text-cyan-200">Preview: {lastResult.preview}</p>
           {lastResult.commandId ? <p className="font-mono text-[8px] text-slate-500">Command: {lastResult.commandId}</p> : null}
           {lastResult.commandHash ? <p className="font-mono text-[8px] text-slate-500">Hash: {lastResult.commandHash}</p> : null}
@@ -446,11 +453,22 @@ export function DesktopActionsCard() {
         <div className="space-y-1 rounded-md border border-amber-500/20 bg-amber-500/5 p-2 text-[9px] text-slate-300">
           <div className="flex items-center justify-between gap-2">
             <p className="font-semibold text-slate-100">Rollback Result</p>
-            <Badge tone={rollbackResult.status === "executed" ? "good" : rollbackResult.status === "simulated" ? "neutral" : "warn"}>
-              {rollbackResult.status}
-            </Badge>
+              <Badge
+                tone={
+                  rollbackResult.status === "executed"
+                    ? "good"
+                    : rollbackResult.status === "simulated" || rollbackResult.status === "clarification_needed"
+                      ? "neutral"
+                      : "warn"
+                }
+              >
+                {rollbackResult.status}
+              </Badge>
           </div>
           <p>{rollbackResult.summary}</p>
+          {rollbackResult.status === "clarification_needed" && rollbackResult.clarification?.question ? (
+            <p className="text-cyan-200">Need: {rollbackResult.clarification.question}</p>
+          ) : null}
           <p className="font-mono text-[8px] text-cyan-200">Preview: {rollbackResult.preview}</p>
           {rollbackResult.commandId ? <p className="font-mono text-[8px] text-slate-500">Command: {rollbackResult.commandId}</p> : null}
           {rollbackResult.verification ? (

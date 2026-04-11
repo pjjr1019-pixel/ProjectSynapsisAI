@@ -559,15 +559,15 @@ export const createWorkflowOrchestrator = (options) => {
                         approvalToken: actionApproval,
                         approvedBy
                     });
-                    const stepStatus = actionResult.status === "executed"
-                        ? "executed"
-                        : actionResult.status === "simulated"
-                            ? "simulated"
-                            : actionResult.status === "blocked"
-                                ? "blocked"
-                                : actionResult.status === "denied"
-                                    ? "denied"
-                                    : "failed";
+            const stepStatus = actionResult.status === "executed"
+                ? "executed"
+                : actionResult.status === "simulated"
+                    ? "simulated"
+                    : actionResult.status === "blocked" || actionResult.status === "clarification_needed"
+                        ? "blocked"
+                        : actionResult.status === "denied"
+                            ? "denied"
+                            : "failed";
                     stepResults.push({
                         id: step.id,
                         kind: step.kind,
@@ -708,15 +708,15 @@ export const createWorkflowOrchestrator = (options) => {
                     compensationResults.push({
                         id: `compensation-${candidate.stepId}`,
                         kind: candidate.stepKind,
-                        status: rollbackResult.status === "executed"
-                            ? "executed"
-                            : rollbackResult.status === "simulated"
-                                ? "simulated"
-                                : rollbackResult.status === "blocked"
-                                    ? "blocked"
-                                    : rollbackResult.status === "denied"
-                                        ? "denied"
-                                        : "failed",
+                    status: rollbackResult.status === "executed"
+                        ? "executed"
+                        : rollbackResult.status === "simulated"
+                            ? "simulated"
+                            : rollbackResult.status === "blocked" || rollbackResult.status === "clarification_needed"
+                                ? "blocked"
+                                : rollbackResult.status === "denied"
+                                    ? "denied"
+                                    : "failed",
                         summary: buildCompensationSummary({
                             id: candidate.stepId,
                             kind: candidate.stepKind,

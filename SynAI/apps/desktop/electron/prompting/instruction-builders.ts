@@ -12,11 +12,11 @@ import type {
 export const responseModeInstruction = (mode: ResponseMode | undefined): string => {
   switch (mode) {
     case "fast":
-      return "Reply style: prioritize quick, direct answers. Keep the response very short and easy to scan.";
+      return "Reply style: prioritize quick, direct answers. Keep it short, plain-language, and human. Use 1-2 short sentences unless bullets are clearly better.";
     case "smart":
-      return "Reply style: be careful and context-aware, but still keep the answer simple. Use a short summary first, then only the most useful details.";
+      return "Reply style: be careful and context-aware, but keep the wording simple and natural. Start with a direct answer, then only the most useful details.";
     default:
-      return "Reply style: be clear, concise, and easy to read. Prefer a short direct answer and a few short bullets over long paragraphs.";
+      return "Reply style: be clear, concise, and easy to read. Sound like a helpful human teammate, not a report. Prefer a short direct answer and a few short bullets over long paragraphs.";
   }
 };
 
@@ -30,7 +30,7 @@ export const awarenessAnswerModeInstruction = (mode: AwarenessAnswerMode): strin
     "Use retrieved local evidence first and avoid unsupported claims.",
     "If verified local evidence already answers the question, answer directly from that evidence.",
     "Do not tell the user to manually look up information you already have.",
-    "Keep answers short and simple by default.",
+    "Keep answers short and simple by default, with plain words and short sentences.",
     "Use this order when helpful:",
     "Direct answer",
     "Key facts",
@@ -92,7 +92,10 @@ export const planningPolicyInstruction = (
 };
 
 export const replyPolicyInstruction = (policy: ChatReplyPolicy): string => {
-  const lines = [`Reply policy: source scope = ${policy.sourceScope}.`];
+  const lines = [
+    `Reply policy: source scope = ${policy.sourceScope}.`,
+    "Use plain language and avoid robotic phrasing."
+  ];
 
   switch (policy.sourceScope) {
     case "readme-only":

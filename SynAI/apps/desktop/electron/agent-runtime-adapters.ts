@@ -18,8 +18,9 @@ const mapDesktopStatus = (status: DesktopActionResult["status"]): ActionResult["
       return "executed";
     case "simulated":
       return "simulated";
-    case "blocked":
     case "clarification_needed":
+      return "clarification_needed";
+    case "blocked":
       return "blocked";
     case "denied":
       return "denied";
@@ -34,6 +35,8 @@ const mapWorkflowStatus = (status: WorkflowExecutionResult["status"]): ActionRes
       return "executed";
     case "simulated":
       return "simulated";
+    case "clarification_needed":
+      return "clarification_needed";
     case "blocked":
       return "blocked";
     case "denied":
@@ -208,6 +211,13 @@ export const createDesktopActionRuntimeAdapter = (
       commandHash: result.commandHash ?? proposal.bindingHash,
       output: result,
       rollback: result.rollback ?? undefined,
+      clarification: result.clarification
+        ? {
+            question: result.clarification.question,
+            missingFields: result.clarification.missingFields ?? [],
+            options: result.clarification.options,
+          }
+        : undefined,
       error: result.error
         ? {
             message: result.error,
@@ -322,6 +332,13 @@ export const createWorkflowRuntimeAdapter = (
       commandHash: result.commandHash ?? proposal.bindingHash,
       output: result,
       rollback: result.rollback?.[0] ?? undefined,
+      clarification: result.clarification
+        ? {
+            question: result.clarification.question,
+            missingFields: result.clarification.missingFields ?? [],
+            options: result.clarification.options,
+          }
+        : undefined,
       compensation: result.compensation?.map((entry, index) => ({
         id: `workflow-compensation-${index}`,
         createdAt: nowIso(),

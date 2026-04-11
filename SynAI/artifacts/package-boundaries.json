@@ -1,0 +1,87 @@
+[
+  {
+    "area": "secondary-root",
+    "boundaryType": "repository-shell",
+    "markers": [
+      "README.md",
+      "SynAI/"
+    ],
+    "packageName": "repository-shell",
+    "root": ".",
+    "summary": "Bootstrap shell only; primary product code lives under SynAI/."
+  },
+  {
+    "area": "primary-synai",
+    "boundaryType": "primary-package-root",
+    "markers": [
+      "SynAI/package.json"
+    ],
+    "packageName": "synai",
+    "root": "SynAI",
+    "summary": "Canonical app/package root for SynAI."
+  },
+  {
+    "area": "primary-synai",
+    "boundaryType": "config-defined-app",
+    "markers": [
+      "SynAI/electron.vite.config.ts",
+      "SynAI/apps/desktop/index.html"
+    ],
+    "packageName": "desktop-app",
+    "root": "SynAI/apps/desktop",
+    "summary": "Electron/Vite desktop app boundary inferred from renderer/main/preload config."
+  },
+  {
+    "area": "primary-synai",
+    "boundaryType": "package-json-boundary",
+    "markers": [
+      "SynAI/apps/vscode-capability-testing/package.json"
+    ],
+    "packageName": "synai-capability-testing",
+    "root": "SynAI/apps/vscode-capability-testing",
+    "summary": "Package boundary inferred from SynAI/apps/vscode-capability-testing/package.json."
+  },
+  {
+    "area": "primary-synai",
+    "boundaryType": "workspace-package",
+    "markers": [
+      "SynAI/packages/Agent-Runtime/src",
+      "SynAI/packages/Agent-Runtime/tests"
+    ],
+    "packageName": "Agent-Runtime",
+    "root": "SynAI/packages/Agent-Runtime",
+    "summary": "Workspace package directory for Agent-Runtime."
+  },
+  {
+    "area": "primary-synai",
+    "boundaryType": "workspace-package",
+    "markers": [
+      "SynAI/packages/Awareness-Reasoning/src",
+      "SynAI/packages/Awareness-Reasoning/tests"
+    ],
+    "packageName": "Awareness-Reasoning",
+    "root": "SynAI/packages/Awareness-Reasoning",
+    "summary": "Workspace package directory for Awareness-Reasoning."
+  },
+  {
+    "area": "primary-synai",
+    "boundaryType": "workspace-package",
+    "markers": [
+      "SynAI/packages/Capability-Catalog/src",
+      "SynAI/packages/Capability-Catalog/tests"
+    ],
+    "packageName": "Capability-Catalog",
+    "root": "SynAI/packages/Capability-Catalog",
+    "summary": "Workspace package directory for Capability-Catalog."
+  },
+  {
+    "area": "primary-synai",
+    "boundaryType": "package-json-boundary",
+    "markers": [
+      "SynAI/packages/Governance-Execution/package.json"
+    ],
+    "packageName": "@governance-execution",
+    "root": "SynAI/packages/Governance-Execution",
+    "summary": "Package boundary inferred from SynAI/packages/Governance-Execution/package.json."
+  }
+]

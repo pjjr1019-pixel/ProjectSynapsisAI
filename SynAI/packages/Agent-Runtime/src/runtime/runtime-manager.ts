@@ -955,6 +955,11 @@ const createServiceMethods = (baseOptions: AgentRuntimeOptions = {}): AgentRunti
             status: runtimeStatus,
             lastAttemptId: execution.attempt.id,
             summary: execution.actionResult.summary,
+            clarificationNeeded:
+              execution.actionResult.status === 'clarification_needed'
+                ? execution.actionResult.clarification?.missingFields ?? []
+                : [],
+            clarification: execution.actionResult.clarification,
           });
         }
       }

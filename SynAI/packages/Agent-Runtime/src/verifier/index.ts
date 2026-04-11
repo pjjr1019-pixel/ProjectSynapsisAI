@@ -63,6 +63,21 @@ export const verifyTaskExecution = (input: {
   }
 
   const executionStatus = execution.actionResult.status;
+  if (executionStatus === 'clarification_needed') {
+    return {
+      ...base,
+      status: 'skipped',
+      summary: execution.actionResult.summary,
+      issues: [
+        buildIssue(
+          'Execution needs clarification before it can continue.',
+          'execution-clarification-needed',
+          execution.actionResult.clarification ?? execution.actionResult.error,
+        ),
+      ],
+    };
+  }
+
   if (executionStatus === 'blocked' || executionStatus === 'denied' || executionStatus === 'escalated') {
     return {
       ...base,
@@ -184,6 +199,10 @@ export const toRuntimeOutcomeStatus = (
     return 'denied';
   }
 
+  if (execution?.actionResult.status === 'clarification_needed') {
+    return 'clarification_needed';
+  }
+
   if (execution?.actionResult.status === 'cancelled') {
     return 'cancelled';
   }
@@ -204,6 +223,7 @@ export const buildRuntimeTaskResult = (input: {
   lastAttemptId?: string;
   summary?: string;
   clarificationNeeded?: string[];
+  clarification?: RuntimeTaskResult['clarification'];
   denial?: { reason: string; code: string };
 }): RuntimeTaskResult => {
   const policyBlock =
@@ -228,6 +248,7 @@ export const buildRuntimeTaskResult = (input: {
     summary: input.summary ?? input.verification.summary,
     output: input.output,
     clarificationNeeded: input.clarificationNeeded ?? [],
+    clarification: input.clarification,
     policyDecision: input.policyDecision,
     policyBlock,
     policyEscalation,

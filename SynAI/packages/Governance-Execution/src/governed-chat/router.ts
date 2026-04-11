@@ -883,6 +883,14 @@ export const buildGovernedTaskMetadata = (requestId: string, route: GovernedTask
     required: route.approvalState.pending,
     ...route.approvalState
   },
+  executionStatus: route.decision === "clarify" ? "clarification_needed" : route.approvalState.pending ? "pending" : null,
+  clarification:
+    route.clarificationNeeded.length > 0
+      ? {
+          question: route.clarificationNeeded[0],
+          missingFields: []
+        }
+      : null,
   executionSummary: null,
   verificationSummary: null,
   rollbackSummary: null,

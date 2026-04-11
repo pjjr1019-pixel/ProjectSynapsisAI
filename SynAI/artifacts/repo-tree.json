@@ -1,0 +1,5483 @@
+[
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "file",
+    "path": "SynAI/.env",
+    "size": 213
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".example",
+    "kind": "file",
+    "path": "SynAI/.env.example",
+    "size": 222
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "file",
+    "path": "SynAI/.gitignore",
+    "size": 84
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/.vscode",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/.vscode/tasks.json",
+    "size": 2408
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/electron",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-adapters.js",
+    "size": 12682
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-adapters.ts",
+    "size": 13132
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-approval.js",
+    "size": 1961
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-approval.ts",
+    "size": 2044
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/browser-session-playwright.js",
+    "size": 23433
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/browser-session-playwright.ts",
+    "size": 22736
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/browser-session.js",
+    "size": 15496
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/browser-session.ts",
+    "size": 17116
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/capability-runner.ts",
+    "size": 23406
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/desktop-actions.js",
+    "size": 74048
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/desktop-actions.ts",
+    "size": 73204
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/governed-chat.js",
+    "size": 58484
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/governed-chat.ts",
+    "size": 57730
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/ipc-registration.test.ts",
+    "size": 1597
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/ipc-registration.ts",
+    "size": 1431
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/main.js",
+    "size": 105490
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/main.prompting-delegation.test.ts",
+    "size": 1368
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/main.ts",
+    "size": 102322
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/preload.js",
+    "size": 5734
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/preload.ts",
+    "size": 7228
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.js",
+    "size": 23208
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.test.js",
+    "size": 4198
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.test.ts",
+    "size": 9124
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.ts",
+    "size": 25332
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.js",
+    "size": 9511
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.test.js",
+    "size": 9649
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.test.ts",
+    "size": 10632
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.ts",
+    "size": 10609
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/electron/prompting",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/diagnostics.test.ts",
+    "size": 3534
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/diagnostics.ts",
+    "size": 2813
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/instruction-builders.test.ts",
+    "size": 1904
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/instruction-builders.ts",
+    "size": 7734
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/intent-contract.test.ts",
+    "size": 4278
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/intent-contract.ts",
+    "size": 9863
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/planner.test.ts",
+    "size": 2222
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/planner.ts",
+    "size": 2800
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/policy-matrix.test.ts",
+    "size": 2203
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/policy-matrix.ts",
+    "size": 3221
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/reasoning-profile.ts",
+    "size": 9724
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/runtime-intent-bridge.test.ts",
+    "size": 5121
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/runtime-intent-bridge.ts",
+    "size": 3419
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/synthesizer.test.ts",
+    "size": 1292
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/synthesizer.ts",
+    "size": 1341
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/task-classifier.test.ts",
+    "size": 2296
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/prompting/task-classifier.ts",
+    "size": 8999
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.js",
+    "size": 9421
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.test.js",
+    "size": 8246
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.test.ts",
+    "size": 7662
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.ts",
+    "size": 9360
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-policy.js",
+    "size": 4444
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-policy.test.js",
+    "size": 1617
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-policy.test.ts",
+    "size": 3183
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/reply-policy.ts",
+    "size": 6178
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/workflow-orchestrator.js",
+    "size": 45712
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/workflow-orchestrator.ts",
+    "size": 44991
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/workflow-planner.js",
+    "size": 91037
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/electron/workflow-planner.ts",
+    "size": 85842
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".html",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/index.html",
+    "size": 303
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/App.js",
+    "size": 5505
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/App.tsx",
+    "size": 6704
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/capability-runner",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/capability-runner/hooks",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/capability-runner/hooks/useCapabilityRunner.ts",
+    "size": 10300
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/feature-registry.js",
+    "size": 596
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/feature-registry.ts",
+    "size": 696
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/local-chat",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AgentRuntimeCard.js",
+    "size": 18347
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AgentRuntimeCard.tsx",
+    "size": 18953
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AwarenessCard.js",
+    "size": 2397
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AwarenessCard.tsx",
+    "size": 2671
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatControls.js",
+    "size": 1936
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatControls.tsx",
+    "size": 2382
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatHeader.js",
+    "size": 729
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatHeader.tsx",
+    "size": 804
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatInputBar.js",
+    "size": 3070
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatInputBar.tsx",
+    "size": 3755
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatPanel.js",
+    "size": 2281
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatPanel.tsx",
+    "size": 3240
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatSettings.js",
+    "size": 5048
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatSettings.tsx",
+    "size": 5725
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ContextPreview.js",
+    "size": 13766
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ContextPreview.tsx",
+    "size": 14280
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ConversationList.js",
+    "size": 1657
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ConversationList.tsx",
+    "size": 2260
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/DesktopActionsCard.js",
+    "size": 17930
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/DesktopActionsCard.tsx",
+    "size": 18634
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/GroundingEvidenceView.js",
+    "size": 5498
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/GroundingEvidenceView.tsx",
+    "size": 6152
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/HistoryPanel.js",
+    "size": 5032
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/HistoryPanel.tsx",
+    "size": 6069
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/LocalModelStatus.js",
+    "size": 1301
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/LocalModelStatus.tsx",
+    "size": 1316
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MemoryInspector.js",
+    "size": 1491
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MemoryInspector.tsx",
+    "size": 1657
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageItem.js",
+    "size": 5958
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageItem.tsx",
+    "size": 7829
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageList.js",
+    "size": 5485
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageList.tsx",
+    "size": 6098
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/PromptEvaluationCard.js",
+    "size": 5262
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/PromptEvaluationCard.tsx",
+    "size": 6025
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ReasoningTraceView.js",
+    "size": 2873
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ReasoningTraceView.tsx",
+    "size": 3151
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SettingsPanel.js",
+    "size": 19360
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SettingsPanel.tsx",
+    "size": 22304
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SmartPromptStatus.js",
+    "size": 2849
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SmartPromptStatus.tsx",
+    "size": 2937
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ToolsPanel.js",
+    "size": 8432
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ToolsPanel.tsx",
+    "size": 11218
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/TurnPreview.js",
+    "size": 3453
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/TurnPreview.tsx",
+    "size": 3981
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkflowOrchestrationCard.js",
+    "size": 13036
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkflowOrchestrationCard.tsx",
+    "size": 13672
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkspaceTabs.js",
+    "size": 1061
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkspaceTabs.tsx",
+    "size": 1386
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useConversationSearch.js",
+    "size": 523
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useConversationSearch.ts",
+    "size": 557
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChat.js",
+    "size": 30019
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+    "size": 29002
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChatStore.js",
+    "size": 1597
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChatStore.ts",
+    "size": 1684
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/local-chat/store",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/store/localChatStore.js",
+    "size": 1304
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/store/localChatStore.ts",
+    "size": 1437
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/local-chat/types",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/types/localChat.types.js",
+    "size": 11
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/types/localChat.types.ts",
+    "size": 1710
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/awarenessCards.js",
+    "size": 1667
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/awarenessCards.ts",
+    "size": 1841
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTitle.js",
+    "size": 201
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTitle.ts",
+    "size": 205
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTurns.js",
+    "size": 969
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTurns.ts",
+    "size": 1050
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/liveUsageReply.js",
+    "size": 2052
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/liveUsageReply.ts",
+    "size": 2308
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptAssembler.js",
+    "size": 2131
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptAssembler.ts",
+    "size": 2130
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptEvaluation.js",
+    "size": 17670
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptEvaluation.ts",
+    "size": 19857
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/settingsPersistence.ts",
+    "size": 3010
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/memory",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/memory/components",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryItem.js",
+    "size": 671
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryItem.tsx",
+    "size": 727
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryList.js",
+    "size": 538
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryList.tsx",
+    "size": 663
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryPanel.js",
+    "size": 1183
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryPanel.tsx",
+    "size": 1198
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemorySearch.js",
+    "size": 291
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemorySearch.tsx",
+    "size": 378
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/memory/hooks",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/hooks/useMemory.js",
+    "size": 1814
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/hooks/useMemory.ts",
+    "size": 1624
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/memory/store",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/store/memoryStore.js",
+    "size": 452
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/store/memoryStore.ts",
+    "size": 609
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/features/memory/types",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/types/memory.types.js",
+    "size": 11
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/features/memory/types/memory.types.ts",
+    "size": 166
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/layout",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/Shell.js",
+    "size": 831
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/Shell.tsx",
+    "size": 1068
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/Sidebar.js",
+    "size": 972
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/Sidebar.tsx",
+    "size": 1070
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/StatusBar.js",
+    "size": 1310
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/StatusBar.tsx",
+    "size": 1512
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/TopBar.js",
+    "size": 2217
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/layout/TopBar.tsx",
+    "size": 2300
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/main.js",
+    "size": 377
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/main.tsx",
+    "size": 328
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/shared",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/shared/components",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Badge.js",
+    "size": 627
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Badge.tsx",
+    "size": 847
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Button.js",
+    "size": 594
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Button.tsx",
+    "size": 868
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Card.js",
+    "size": 283
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Card.tsx",
+    "size": 394
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/CompactSection.js",
+    "size": 953
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/CompactSection.tsx",
+    "size": 1120
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Input.js",
+    "size": 363
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Input.tsx",
+    "size": 443
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Panel.js",
+    "size": 291
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Panel.tsx",
+    "size": 404
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Textarea.js",
+    "size": 369
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/components/Textarea.tsx",
+    "size": 458
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/desktop/src/shared/utils",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/utils/cn.js",
+    "size": 65
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/utils/cn.ts",
+    "size": 117
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/utils/id.js",
+    "size": 86
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/utils/id.ts",
+    "size": 94
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/utils/time.js",
+    "size": 917
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/shared/utils/time.ts",
+    "size": 983
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".css",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/styles.css",
+    "size": 375
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/desktop/src/vite-env.d.ts",
+    "size": 167
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/vscode-capability-testing",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/apps/vscode-capability-testing/package.json",
+    "size": 1871
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/apps/vscode-capability-testing/src",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/vscode-capability-testing/src/core.js",
+    "size": 3494
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/vscode-capability-testing/src/core.ts",
+    "size": 4168
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/apps/vscode-capability-testing/src/extension.js",
+    "size": 8019
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/apps/vscode-capability-testing/src/extension.ts",
+    "size": 8453
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/apps/vscode-capability-testing/tsconfig.json",
+    "size": 320
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/build-me-a-more-detailed-report-with-more-sources.md",
+    "size": 3705
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/CHANGELOG.md",
+    "size": 8735
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/config",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/config/aliases.js",
+    "size": 2774
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/config/aliases.ts",
+    "size": 2940
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/docs",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/AGENT_INSERTION_POINTS.md",
+    "size": 1588
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/docs/architecture",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/architecture/chat-memory-strategy.md",
+    "size": 491
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/architecture/context-assembly.md",
+    "size": 393
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/architecture/governed-execution-roadmap.md",
+    "size": 2342
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/architecture/phase-1-chat-overview.md",
+    "size": 401
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/architecture/staged-testing-strategy.md",
+    "size": 345
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/capability-eval-implementation-map.md",
+    "size": 6596
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/capability-eval-usage.md",
+    "size": 5037
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/docs/decisions",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/decisions/ADR-001-agent-contract-ownership.md",
+    "size": 1100
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/decisions/ADR-002-runtime-entrypoint-selection.md",
+    "size": 954
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/decisions/ADR-003-foundation-before-real-automation.md",
+    "size": 963
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/governance-execution-eval-implementation-map.md",
+    "size": 9175
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/governance-execution-usage.md",
+    "size": 2817
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+    "size": 19204
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/docs/reports",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/docs/reports/capibilityreport.md",
+    "size": 50457
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/electron.vite.config.js",
+    "size": 1904
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/electron.vite.config.ts",
+    "size": 1586
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".cjs",
+    "kind": "file",
+    "path": "SynAI/jest.agent-runtime.config.cjs",
+    "size": 600
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".cmd",
+    "kind": "file",
+    "path": "SynAI/Launch SynAI.cmd",
+    "size": 951
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/package-lock.json",
+    "size": 317292
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/package.json",
+    "size": 2323
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/docs",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md",
+    "size": 3674
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/docs/AGENT_RUNTIME_FOUNDATION.md",
+    "size": 4065
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/scripts",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ps1",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/scripts/validate-agent-foundation.ps1",
+    "size": 3415
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/specs",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/specs/01-action-substrate.md",
+    "size": 1662
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/specs/02-perception-grounding.md",
+    "size": 1483
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/specs/03-planner-executor-verifier.md",
+    "size": 1416
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/specs/04-autonomy-runtime.md",
+    "size": 1358
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/specs/05-policy-audit-evals.md",
+    "size": 1528
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/audit",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/audit.js",
+    "size": 25
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/audit.ts",
+    "size": 26
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/index.js",
+    "size": 3298
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/index.ts",
+    "size": 3943
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/agent-runtime.contracts.js",
+    "size": 19294
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts",
+    "size": 22904
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/index.js",
+    "size": 43
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/index.ts",
+    "size": 93
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/prompt-intent-bridge.contracts.ts",
+    "size": 3106
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/core",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/core/index.js",
+    "size": 8752
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/core/index.ts",
+    "size": 11634
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/evals",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/evals/index.js",
+    "size": 6694
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/evals/index.ts",
+    "size": 6790
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/executor",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/executor/index.js",
+    "size": 8833
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/executor/index.ts",
+    "size": 10152
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/index.js",
+    "size": 295
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/index.ts",
+    "size": 296
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/perception",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/perception/index.js",
+    "size": 2622
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/perception/index.ts",
+    "size": 2540
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/planner",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/planner/index.js",
+    "size": 7686
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/planner/index.ts",
+    "size": 9974
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/policy",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/index.js",
+    "size": 8873
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/index.ts",
+    "size": 9179
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/policy.js",
+    "size": 25
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/policy.ts",
+    "size": 26
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/file-runtime-state-store.js",
+    "size": 3061
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/file-runtime-state-store.ts",
+    "size": 3542
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/in-memory-runtime-state-store.js",
+    "size": 1144
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/in-memory-runtime-state-store.ts",
+    "size": 1487
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/index.js",
+    "size": 193
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/index.ts",
+    "size": 193
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/noop-runtime.js",
+    "size": 239
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/noop-runtime.ts",
+    "size": 582
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-manager.js",
+    "size": 49284
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-manager.ts",
+    "size": 45486
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-state.js",
+    "size": 445
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-state.ts",
+    "size": 1235
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/skills",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/index.js",
+    "size": 141
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/index.ts",
+    "size": 276
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/mockSkills.js",
+    "size": 1912
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/mockSkills.ts",
+    "size": 1776
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/SkillRegistry.js",
+    "size": 620
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/SkillRegistry.ts",
+    "size": 835
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/types.js",
+    "size": 11
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/types.ts",
+    "size": 687
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/src/verifier",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/verifier/index.js",
+    "size": 6127
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/src/verifier/index.ts",
+    "size": 7310
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/tests",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/audit.test.js",
+    "size": 513
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/audit.test.ts",
+    "size": 467
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/file-audit-store.test.js",
+    "size": 2312
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/file-audit-store.test.ts",
+    "size": 1946
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/tests/evals",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/evals/evals.test.js",
+    "size": 6934
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/evals/evals.test.ts",
+    "size": 6593
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/tests/planner",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/planner/prompt-intent-bridge.test.ts",
+    "size": 2982
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/approval-validation.test.js",
+    "size": 3614
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/approval-validation.test.ts",
+    "size": 3107
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/policy.test.js",
+    "size": 1333
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/policy.test.ts",
+    "size": 1272
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/file-runtime-state-store.test.js",
+    "size": 1828
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/file-runtime-state-store.test.ts",
+    "size": 1594
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/in-memory-runtime-state-store.test.js",
+    "size": 3238
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/in-memory-runtime-state-store.test.ts",
+    "size": 2910
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime-manager.lifecycle.test.js",
+    "size": 2754
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime-manager.lifecycle.test.ts",
+    "size": 2630
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.approval.test.js",
+    "size": 5335
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.approval.test.ts",
+    "size": 5064
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.noop.test.js",
+    "size": 4271
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.noop.test.ts",
+    "size": 5336
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.provenance.test.js",
+    "size": 950
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.provenance.test.ts",
+    "size": 873
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.state.integration.test.js",
+    "size": 1444
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.state.integration.test.ts",
+    "size": 1454
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/mockSkills.test.js",
+    "size": 508
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/mockSkills.test.ts",
+    "size": 467
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/SkillRegistry.test.js",
+    "size": 739
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/SkillRegistry.test.ts",
+    "size": 703
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/vitest",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/contracts",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/contracts/agent-runtime.contracts.test.js",
+    "size": 4721
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/contracts/agent-runtime.contracts.test.ts",
+    "size": 5725
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/runtime",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/runtime/runtime-shim.test.js",
+    "size": 949
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/runtime/runtime-shim.test.ts",
+    "size": 912
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/api",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/api/index.js",
+    "size": 21803
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/api/index.ts",
+    "size": 23045
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/baseline",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/baseline/index.js",
+    "size": 17391
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/baseline/index.ts",
+    "size": 18993
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/index.js",
+    "size": 51934
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/index.ts",
+    "size": 56838
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/insights.js",
+    "size": 14289
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/insights.ts",
+    "size": 15320
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/task-runner.js",
+    "size": 1421
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/task-runner.ts",
+    "size": 1732
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/actions",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/actions/windows-action-layer.js",
+    "size": 1803
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/actions/windows-action-layer.ts",
+    "size": 2934
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/adapter.js",
+    "size": 7994
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/adapter.ts",
+    "size": 8348
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/approval",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/approval/gate.js",
+    "size": 1391
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/approval/gate.ts",
+    "size": 2129
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cards.js",
+    "size": 1240
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cards.ts",
+    "size": 1462
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/classifiers",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/classifiers/gap-classifier.js",
+    "size": 7360
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/classifiers/gap-classifier.ts",
+    "size": 7183
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cli",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cli/index.js",
+    "size": 13464
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cli/index.ts",
+    "size": 13074
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/context.js",
+    "size": 6216
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/context.ts",
+    "size": 7098
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/contract.js",
+    "size": 5740
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/contract.ts",
+    "size": 5904
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/index.js",
+    "size": 456
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/index.ts",
+    "size": 456
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/remediation",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/remediation/planner.js",
+    "size": 10313
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/remediation/planner.ts",
+    "size": 9287
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/runners",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/runners/eval-runner.js",
+    "size": 9343
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/runners/eval-runner.ts",
+    "size": 9458
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/schema.js",
+    "size": 12598
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/schema.ts",
+    "size": 13256
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/types.js",
+    "size": 1608
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/types.ts",
+    "size": 7991
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/verifiers",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/verifiers/index.js",
+    "size": 28993
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/verifiers/index.ts",
+    "size": 31861
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/catalog.ts",
+    "size": 8553
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/index.ts",
+    "size": 109
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/report.ts",
+    "size": 6258
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/storage.ts",
+    "size": 5341
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/validator.ts",
+    "size": 2466
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/awareness.js",
+    "size": 3207
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/awareness.ts",
+    "size": 39915
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/capability-runner.ts",
+    "size": 5845
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/chat.js",
+    "size": 1020
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/chat.ts",
+    "size": 8563
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/grounding.js",
+    "size": 387
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/grounding.ts",
+    "size": 2723
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/health.js",
+    "size": 11
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/health.ts",
+    "size": 1199
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/index.js",
+    "size": 211
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/index.ts",
+    "size": 356
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/ipc.js",
+    "size": 4337
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/ipc.ts",
+    "size": 21150
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/memory.js",
+    "size": 110
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/memory.ts",
+    "size": 4727
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-eval.js",
+    "size": 447
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-eval.ts",
+    "size": 6248
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-intent.ts",
+    "size": 2254
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-preferences.ts",
+    "size": 1469
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/rag.js",
+    "size": 419
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/rag.ts",
+    "size": 3191
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/reasoning-profile.ts",
+    "size": 685
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/index.js",
+    "size": 193
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/index.ts",
+    "size": 193
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/journal.js",
+    "size": 8148
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/journal.ts",
+    "size": 8910
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/queries.js",
+    "size": 7358
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/queries.ts",
+    "size": 7949
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/scanner.js",
+    "size": 29274
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/scanner.ts",
+    "size": 30923
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/shared.js",
+    "size": 13656
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/shared.ts",
+    "size": 16712
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/state.js",
+    "size": 6095
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/state.ts",
+    "size": 6063
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/volumes.js",
+    "size": 11013
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/volumes.ts",
+    "size": 11831
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/windows-search.js",
+    "size": 8368
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/windows-search.ts",
+    "size": 9248
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/miner.js",
+    "size": 15229
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/miner.ts",
+    "size": 15237
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/replay-envelope.js",
+    "size": 1978
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/replay-envelope.ts",
+    "size": 3173
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/index.js",
+    "size": 630
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/index.ts",
+    "size": 667
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/journal",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/journal/index.js",
+    "size": 2037
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/journal/index.ts",
+    "size": 2755
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/chat.js",
+    "size": 590
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/chat.ts",
+    "size": 859
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/embeddings.js",
+    "size": 248
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/embeddings.ts",
+    "size": 264
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/env.js",
+    "size": 1726
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/env.ts",
+    "size": 1645
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/health.js",
+    "size": 1276
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/health.ts",
+    "size": 1263
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/index.js",
+    "size": 651
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/index.ts",
+    "size": 838
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/ollama.js",
+    "size": 11041
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/ollama.ts",
+    "size": 12011
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/provider.js",
+    "size": 11
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/provider.ts",
+    "size": 546
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/index.js",
+    "size": 33059
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/index.ts",
+    "size": 36316
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/maps.js",
+    "size": 16529
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/maps.ts",
+    "size": 16460
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/windows.js",
+    "size": 36261
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/windows.ts",
+    "size": 40692
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/index.js",
+    "size": 9282
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/index.ts",
+    "size": 15633
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/dedupe.js",
+    "size": 894
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/dedupe.ts",
+    "size": 1050
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/importance.js",
+    "size": 506
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/importance.ts",
+    "size": 614
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/memory-extractor.js",
+    "size": 1160
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/memory-extractor.ts",
+    "size": 1373
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/summarizer.js",
+    "size": 638
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/summarizer.ts",
+    "size": 792
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/keyword.js",
+    "size": 724
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/keyword.ts",
+    "size": 831
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/ranking.js",
+    "size": 396
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/ranking.ts",
+    "size": 536
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/semantic.js",
+    "size": 1510
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/semantic.ts",
+    "size": 1668
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/conversations.js",
+    "size": 2335
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/conversations.ts",
+    "size": 2470
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/db.js",
+    "size": 2602
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/db.ts",
+    "size": 2817
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/memories.js",
+    "size": 6539
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/memories.ts",
+    "size": 6154
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/messages.js",
+    "size": 1587
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/messages.ts",
+    "size": 1815
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/prompt-behavior.ts",
+    "size": 9395
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/summaries.js",
+    "size": 1505
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/summaries.ts",
+    "size": 1597
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/types.js",
+    "size": 11
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/types.ts",
+    "size": 1051
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/catalog.js",
+    "size": 9476
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+    "size": 8821
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/index.js",
+    "size": 19146
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/index.ts",
+    "size": 20712
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/chat.js",
+    "size": 6525
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/chat.ts",
+    "size": 8219
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/grounding.js",
+    "size": 27124
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/grounding.ts",
+    "size": 29482
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/index.js",
+    "size": 186247
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/index.ts",
+    "size": 187820
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/resource-usage.js",
+    "size": 5229
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/resource-usage.ts",
+    "size": 5488
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/index.js",
+    "size": 35
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/index.ts",
+    "size": 35
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/workspace-index.js",
+    "size": 13890
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/workspace-index.ts",
+    "size": 17005
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/runtime-capabilities.js",
+    "size": 14535
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/runtime-capabilities.ts",
+    "size": 16044
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/index.js",
+    "size": 27161
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/index.ts",
+    "size": 28996
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/shared.js",
+    "size": 11470
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/shared.ts",
+    "size": 13316
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/windows.js",
+    "size": 18424
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/windows.ts",
+    "size": 20479
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/target-knowledge.js",
+    "size": 8752
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/target-knowledge.ts",
+    "size": 9308
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/web-search",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/web-search/index.js",
+    "size": 11060
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/web-search/index.ts",
+    "size": 11319
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/src/windows",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/windows/powershell.js",
+    "size": 3169
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/src/windows/powershell.ts",
+    "size": 3184
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/tests",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/awareness-engine.test.js",
+    "size": 128686
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/awareness-engine.test.ts",
+    "size": 110578
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-awareness.test.js",
+    "size": 14008
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-awareness.test.ts",
+    "size": 13660
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-journal.test.js",
+    "size": 3883
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-journal.test.ts",
+    "size": 3528
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/fixtures",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/fixtures/grounding-eval-fixtures.json",
+    "size": 3208
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding-eval.test.js",
+    "size": 3541
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding-eval.test.ts",
+    "size": 3543
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding.test.js",
+    "size": 3053
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding.test.ts",
+    "size": 2955
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/machine-awareness.test.js",
+    "size": 18864
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/machine-awareness.test.ts",
+    "size": 16814
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/prompt-behavior-memory.test.ts",
+    "size": 4942
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/reasoning-chat.test.js",
+    "size": 3093
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/reasoning-chat.test.ts",
+    "size": 2791
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/screen-awareness.test.js",
+    "size": 13385
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/screen-awareness.test.ts",
+    "size": 12651
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/task-runner.test.js",
+    "size": 1507
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/task-runner.test.ts",
+    "size": 1433
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-powershell.test.js",
+    "size": 2837
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-powershell.test.ts",
+    "size": 2843
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-search.test.js",
+    "size": 1831
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-search.test.ts",
+    "size": 1577
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/workspace-index.test.js",
+    "size": 4004
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/workspace-index.test.ts",
+    "size": 3823
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Capability-Catalog",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Capability-Catalog/cards",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/clarify-delete-folder.json",
+    "size": 1886
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/close-chrome-safe.json",
+    "size": 1953
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/delete-folder-approval.json",
+    "size": 1965
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/delete-folder-rollback.json",
+    "size": 1875
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/open-add-remove-programs.json",
+    "size": 2075
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/refuse-remove-chrome.json",
+    "size": 2175
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/research-ai-report.json",
+    "size": 2333
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/terminate-chrome-verification.json",
+    "size": 2171
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/create-file.json",
+    "size": 1727
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/create-folder-and-move-item.json",
+    "size": 1711
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/explain-action-path.json",
+    "size": 1897
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/highest-ram-process.json",
+    "size": 1618
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/identify-slowing-pc.json",
+    "size": 2034
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/launch-program.json",
+    "size": 1413
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/open-add-remove-programs.json",
+    "size": 1652
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/open-folder.json",
+    "size": 1385
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/refuse-risky-action-without-approval.json",
+    "size": 1650
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/safely-close-chrome.json",
+    "size": 1887
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/suggest-darker-theme.json",
+    "size": 1502
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/terminate-exact-process.json",
+    "size": 1752
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/index.js",
+    "size": 292
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/index.ts",
+    "size": 292
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Capability-Catalog/retrieval",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/retrieval/index-hints.json",
+    "size": 34
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Capability-Catalog/schemas",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/schemas/capability-test-card.v1.schema.json",
+    "size": 4403
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".yaml",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/agent-task-catalog.yaml",
+    "size": 19093
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".yaml",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/app-feature-catalog.yaml",
+    "size": 29732
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/capability-expanded-cases.json",
+    "size": 611984
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".yaml",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/prompt-variants.yaml",
+    "size": 3252
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".yaml",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/repo-inventory.yaml",
+    "size": 55681
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".yaml",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/safety-refusal-catalog.yaml",
+    "size": 8556
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".yaml",
+    "kind": "file",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/windows-capability-catalog.yaml",
+    "size": 52566
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/package.json",
+    "size": 168
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/README.md",
+    "size": 1184
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/approvals",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/ledger.js",
+    "size": 5680
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/ledger.ts",
+    "size": 5952
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/queue.js",
+    "size": 2791
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/queue.ts",
+    "size": 3454
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/audit",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/audit/query.js",
+    "size": 9611
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/audit/query.ts",
+    "size": 11192
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/commands",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/commands/bus.js",
+    "size": 8161
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/commands/bus.ts",
+    "size": 8468
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/commands/hash.js",
+    "size": 684
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/commands/hash.ts",
+    "size": 860
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/contracts.js",
+    "size": 67
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/contracts.ts",
+    "size": 6798
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/execution",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/execution/chat-execution-service.js",
+    "size": 1196
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/execution/chat-execution-service.ts",
+    "size": 1708
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-action-catalog.js",
+    "size": 25777
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-action-catalog.ts",
+    "size": 24890
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-actions.js",
+    "size": 3352
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-actions.ts",
+    "size": 3986
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/gap-classifier.js",
+    "size": 8191
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/gap-classifier.ts",
+    "size": 8926
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/remediation.js",
+    "size": 10087
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/remediation.ts",
+    "size": 8989
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/router.js",
+    "size": 28073
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/router.ts",
+    "size": 27353
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/types.js",
+    "size": 11
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/types.ts",
+    "size": 4807
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/verification.js",
+    "size": 16872
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/verification.ts",
+    "size": 18128
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/index.js",
+    "size": 620
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/index.ts",
+    "size": 625
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/policy",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/policy/engine.js",
+    "size": 8090
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/policy/engine.ts",
+    "size": 8103
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/remediation",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/remediation/sandbox.js",
+    "size": 9127
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/remediation/sandbox.ts",
+    "size": 10613
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/packages/Governance-Execution/src/utils",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/utils/stable-json.js",
+    "size": 467
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/packages/Governance-Execution/src/utils/stable-json.ts",
+    "size": 489
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/postcss.config.js",
+    "size": 79
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".md",
+    "kind": "file",
+    "path": "SynAI/README.md",
+    "size": 4346
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/scripts",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/scripts/capability-eval.ts",
+    "size": 250
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/scripts/dev",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".mjs",
+    "kind": "file",
+    "path": "SynAI/scripts/dev/backfill-prompt-eval-history.mjs",
+    "size": 3954
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".mjs",
+    "kind": "file",
+    "path": "SynAI/scripts/dev/generate-capability-runner-catalogs.mjs",
+    "size": 28275
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".mjs",
+    "kind": "file",
+    "path": "SynAI/scripts/dev/run-electron-vite.mjs",
+    "size": 832
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".mjs",
+    "kind": "file",
+    "path": "SynAI/scripts/dev/verify-env.mjs",
+    "size": 468
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/scripts/operator.js",
+    "size": 13267
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/scripts/operator.ts",
+    "size": 11374
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tailwind.config.js",
+    "size": 155
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tailwind.config.ts",
+    "size": 204
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/tests",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/tests/capability",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/agent-runtime-adapters.test.ts",
+    "size": 2393
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/agent-runtime-approval.test.js",
+    "size": 3271
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/agent-runtime-approval.test.ts",
+    "size": 2859
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/approval-gate.test.js",
+    "size": 7670
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/approval-gate.test.ts",
+    "size": 7088
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/approval-ledger.test.js",
+    "size": 1573
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/approval-ledger.test.ts",
+    "size": 1492
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/artifact-store.test.js",
+    "size": 2203
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/artifact-store.test.ts",
+    "size": 1962
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/awareness-radio-state.test.js",
+    "size": 1923
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/awareness-radio-state.test.ts",
+    "size": 1797
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/browser-session.test.js",
+    "size": 3622
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/browser-session.test.ts",
+    "size": 3308
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/chat-execution-service.test.js",
+    "size": 2152
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/chat-execution-service.test.ts",
+    "size": 1934
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/cli.test.js",
+    "size": 2491
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/cli.test.ts",
+    "size": 2479
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/desktop-actions-clarification.test.js",
+    "size": 2261
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/desktop-actions-clarification.test.ts",
+    "size": 2247
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/desktop-actions.test.js",
+    "size": 15641
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/desktop-actions.test.ts",
+    "size": 14030
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/gap-classifier.test.js",
+    "size": 3188
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/gap-classifier.test.ts",
+    "size": 3019
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governance-audit-query.test.js",
+    "size": 3280
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governance-audit-query.test.ts",
+    "size": 3155
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governance-command-bus.test.js",
+    "size": 2770
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governance-command-bus.test.ts",
+    "size": 2512
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governance-history-miner.test.js",
+    "size": 2186
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governance-history-miner.test.ts",
+    "size": 2092
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governed-chat-router.test.js",
+    "size": 9630
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governed-chat-router.test.ts",
+    "size": 8887
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governed-chat-service.test.js",
+    "size": 18466
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/governed-chat-service.test.ts",
+    "size": 20911
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/ipc-channels.contracts.test.ts",
+    "size": 831
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/operator-cli.test.js",
+    "size": 5053
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/operator-cli.test.ts",
+    "size": 5019
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/policy-engine.test.js",
+    "size": 1518
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/policy-engine.test.ts",
+    "size": 1400
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/remediation-planner.test.js",
+    "size": 4134
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/remediation-planner.test.ts",
+    "size": 4014
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/runner.test.js",
+    "size": 3777
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/runner.test.ts",
+    "size": 3479
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/runtime-capabilities.test.js",
+    "size": 3436
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/runtime-capabilities.test.ts",
+    "size": 3362
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/schema.test.js",
+    "size": 1821
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/schema.test.ts",
+    "size": 1693
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/verifiers.test.js",
+    "size": 9558
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/verifiers.test.ts",
+    "size": 7980
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/vscode-extension-smoke.test.js",
+    "size": 2519
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/vscode-extension-smoke.test.ts",
+    "size": 2379
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/workflow-orchestrator.test.js",
+    "size": 23973
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/workflow-orchestrator.test.ts",
+    "size": 25091
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/capability/workflow-planner.test.js",
+    "size": 13119
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/capability/workflow-planner.test.ts",
+    "size": 12740
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/tests/e2e",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/e2e/capability-governed-promotion.smoke.test.js",
+    "size": 5201
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/e2e/capability-governed-promotion.smoke.test.ts",
+    "size": 4909
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/e2e/capability-remediation-loop.smoke.test.js",
+    "size": 4878
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/e2e/capability-remediation-loop.smoke.test.ts",
+    "size": 4484
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/tests/prompt-evals",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/prompt-evals/canonical-cases.ts",
+    "size": 9796
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/setup.js",
+    "size": 426
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/setup.ts",
+    "size": 404
+  },
+  {
+    "area": "primary-synai",
+    "extension": null,
+    "kind": "dir",
+    "path": "SynAI/tests/smoke",
+    "size": 0
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/agent-runtime-card.smoke.test.tsx",
+    "size": 14662
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/app-start.smoke.test.tsx",
+    "size": 18855
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/context-assembly.smoke.test.js",
+    "size": 2154
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/context-assembly.smoke.test.ts",
+    "size": 1724
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/conversation-persistence.smoke.test.js",
+    "size": 1104
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/conversation-persistence.smoke.test.ts",
+    "size": 1067
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/desktop-actions-card.smoke.test.tsx",
+    "size": 2996
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/grounding-ui.smoke.test.tsx",
+    "size": 6527
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/local-ai-health.smoke.test.js",
+    "size": 2003
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/local-ai-health.smoke.test.ts",
+    "size": 1805
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/local-chat-ui.smoke.test.tsx",
+    "size": 5190
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/memory-extraction.smoke.test.js",
+    "size": 1147
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/memory-extraction.smoke.test.ts",
+    "size": 1118
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/memory-search.smoke.test.js",
+    "size": 1072
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/memory-search.smoke.test.ts",
+    "size": 990
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/message-item-task-state.smoke.test.tsx",
+    "size": 3261
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/prompt-behavior-memory.smoke.test.ts",
+    "size": 3929
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/prompt-evaluation-card.smoke.test.tsx",
+    "size": 17133
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/rolling-summary.smoke.test.js",
+    "size": 1210
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/rolling-summary.smoke.test.ts",
+    "size": 1161
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/tools-panel-workflows.smoke.test.tsx",
+    "size": 1945
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/web-search.smoke.test.js",
+    "size": 2090
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/web-search.smoke.test.ts",
+    "size": 2012
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".tsx",
+    "kind": "file",
+    "path": "SynAI/tests/smoke/workflow-orchestration-card.smoke.test.tsx",
+    "size": 6419
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/tsconfig.agent-runtime.json",
+    "size": 354
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/tsconfig.json",
+    "size": 2443
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".json",
+    "kind": "file",
+    "path": "SynAI/tsconfig.node.json",
+    "size": 226
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".js",
+    "kind": "file",
+    "path": "SynAI/vite.config.js",
+    "size": 818
+  },
+  {
+    "area": "primary-synai",
+    "extension": ".ts",
+    "kind": "file",
+    "path": "SynAI/vite.config.ts",
+    "size": 744
+  }
+]

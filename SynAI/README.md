@@ -40,6 +40,20 @@ This folder is a clean staged rebuild focused on local chat intelligence:
 - Development desktop app: `npm run dev`
 - Build: `npm run build`
 - Tests: `npm test`
+- Deterministic repo context: `npm run context:build`
+
+## Repo Context Pipeline
+- `SynAI/` is the primary app/package root. Treat the repository root as a bootstrap shell unless a task explicitly targets repo hygiene.
+- The context pipeline exists so future coding passes can rely on deterministic repo facts instead of rereading the whole tree.
+- Run `npm run context:scan` to regenerate machine-readable artifacts in `artifacts/`.
+- Run `npm run context:refresh` to regenerate compact model-facing docs in `context/` from those artifacts.
+- Run `npm run context:build` to do both in order.
+- Generated outputs include:
+  - `artifacts/repo-tree.json`, `file-hashes.json`, `imports.json`, `exports.json`
+  - `artifacts/config-surfaces.json`, `package-boundaries.json`, `duplicate-candidates.json`
+  - `context/AGENT_GUIDE.md`, `REPO_MAP.md`, `BLAST_RADIUS.md`, `ARCHITECTURE_SUMMARY.md`
+  - `context/task-packs/*` and `context/file-notes/*`
+- The pipeline is deterministic and docs-first: it highlights TS/JS config mirrors and other duplicate candidates without blindly deleting them.
 
 ## Recent Web Search
 - Turn on `Use recent web search` in the chat input when you want fresh internet context.

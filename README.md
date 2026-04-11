@@ -12,6 +12,7 @@ The actual SynAI app, package scripts, and runtime entry points live in `SynAI/`
    - `.gitignore`
    - this README
    - repo automation or editor metadata
+   - any optional support folders such as `docs/`, `scripts/`, `specs/`, `src/`, `tests/`, or `context/`
 
 ## Ownership Model
 
@@ -22,3 +23,5 @@ The actual SynAI app, package scripts, and runtime entry points live in `SynAI/`
 - `packages/Governance-Execution` is the governed policy and execution layer.
 
 Keep new work inside `SynAI/` unless you are explicitly changing repo bootstrap or hygiene.
+
+If you need generated repo context for future coding passes, run the context pipeline from `SynAI/` with `npm run context:build`.

@@ -308,7 +308,7 @@ export interface WorkflowPlan {
 export interface WorkflowStepResult {
   id: string;
   kind: WorkflowStepKind;
-  status: "executed" | "simulated" | "blocked" | "denied" | "failed" | "skipped";
+  status: "executed" | "simulated" | "clarification_needed" | "blocked" | "denied" | "failed" | "skipped";
   summary: string;
   startedAt: string;
   completedAt: string;
@@ -316,13 +316,18 @@ export interface WorkflowStepResult {
   rollback?: ExecutionRollbackRecord | null;
   verification?: ExecutionVerificationRecord | null;
   error?: string;
+  clarification?: {
+    question: string;
+    missingFields?: string[];
+    options?: string[];
+  } | null;
 }
 
 export interface WorkflowProgressEvent {
   workflowId: string;
   workflowHash: string;
   plan: WorkflowPlan;
-  status: "queued" | "running" | "executed" | "simulated" | "blocked" | "denied" | "failed";
+  status: "queued" | "running" | "executed" | "simulated" | "clarification_needed" | "blocked" | "denied" | "failed";
   currentStepId: string | null;
   currentStepIndex: number;
   stepCount: number;
@@ -344,7 +349,7 @@ export interface WorkflowExecutionResult {
   workflowId: string;
   workflowHash: string;
   plan: WorkflowPlan;
-  status: "executed" | "simulated" | "blocked" | "denied" | "failed";
+  status: "executed" | "simulated" | "clarification_needed" | "blocked" | "denied" | "failed";
   summary: string;
   reportMarkdown?: string | null;
   reportSummary?: string | null;
@@ -362,6 +367,11 @@ export interface WorkflowExecutionResult {
   compensation?: WorkflowStepResult[] | null;
   verification?: ExecutionVerificationRecord | null;
   error?: string;
+  clarification?: {
+    question: string;
+    missingFields?: string[];
+    options?: string[];
+  } | null;
 }
 
 export interface GovernancePendingApprovalRecord {

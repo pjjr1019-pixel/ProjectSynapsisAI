@@ -241,6 +241,7 @@ export const createActionResult = (input: Omit<ActionResult, 'id' | 'createdAt'>
   output: input.output,
   rollback: input.rollback ? createRollbackRecord(input.rollback) : undefined,
   compensation: input.compensation?.map((entry) => createCompensationRecord(entry)),
+  clarification: input.clarification ? cloneValue(input.clarification) : undefined,
   error: input.error,
   metadata: input.metadata,
 });

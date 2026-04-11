@@ -1,0 +1,199 @@
+[
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/.env.example",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [],
+    "path": "SynAI/.env.example",
+    "reason": "Recognized env-example surface.",
+    "type": "env-example"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/apps/vscode-capability-testing/package.json",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {
+      "packageName": "synai-capability-testing",
+      "private": null
+    },
+    "pairedWith": [],
+    "path": "SynAI/apps/vscode-capability-testing/package.json",
+    "reason": "Package manifest detected.",
+    "type": "package-manifest"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/apps/vscode-capability-testing/tsconfig.json",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [],
+    "path": "SynAI/apps/vscode-capability-testing/tsconfig.json",
+    "reason": "Recognized tsconfig surface.",
+    "type": "tsconfig"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/electron.vite.config.ts",
+    "confidence": 0.9,
+    "isCanonical": false,
+    "metadata": {},
+    "pairedWith": [
+      "SynAI/electron.vite.config.ts"
+    ],
+    "path": "SynAI/electron.vite.config.js",
+    "reason": "Overlapping config surfaces detected in the same directory.",
+    "type": "electron-vite"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/electron.vite.config.ts",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [
+      "SynAI/electron.vite.config.js"
+    ],
+    "path": "SynAI/electron.vite.config.ts",
+    "reason": "Overlapping config surfaces detected in the same directory.",
+    "type": "electron-vite"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/jest.agent-runtime.config.cjs",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [],
+    "path": "SynAI/jest.agent-runtime.config.cjs",
+    "reason": "Recognized jest surface.",
+    "type": "jest"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/package.json",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {
+      "packageName": "synai",
+      "private": true
+    },
+    "pairedWith": [],
+    "path": "SynAI/package.json",
+    "reason": "Package manifest detected.",
+    "type": "package-manifest"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/packages/Governance-Execution/package.json",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {
+      "packageName": "@governance-execution",
+      "private": null
+    },
+    "pairedWith": [],
+    "path": "SynAI/packages/Governance-Execution/package.json",
+    "reason": "Package manifest detected.",
+    "type": "package-manifest"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/postcss.config.js",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [],
+    "path": "SynAI/postcss.config.js",
+    "reason": "Recognized postcss surface.",
+    "type": "postcss"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/tailwind.config.ts",
+    "confidence": 0.9,
+    "isCanonical": false,
+    "metadata": {},
+    "pairedWith": [
+      "SynAI/tailwind.config.ts"
+    ],
+    "path": "SynAI/tailwind.config.js",
+    "reason": "Overlapping config surfaces detected in the same directory.",
+    "type": "tailwind"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/tailwind.config.ts",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [
+      "SynAI/tailwind.config.js"
+    ],
+    "path": "SynAI/tailwind.config.ts",
+    "reason": "Overlapping config surfaces detected in the same directory.",
+    "type": "tailwind"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/tsconfig.agent-runtime.json",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [],
+    "path": "SynAI/tsconfig.agent-runtime.json",
+    "reason": "Recognized tsconfig surface.",
+    "type": "tsconfig"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/tsconfig.json",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [],
+    "path": "SynAI/tsconfig.json",
+    "reason": "Recognized tsconfig surface.",
+    "type": "tsconfig"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/tsconfig.node.json",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [],
+    "path": "SynAI/tsconfig.node.json",
+    "reason": "Recognized tsconfig surface.",
+    "type": "tsconfig"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/vite.config.ts",
+    "confidence": 0.9,
+    "isCanonical": false,
+    "metadata": {},
+    "pairedWith": [
+      "SynAI/vite.config.ts"
+    ],
+    "path": "SynAI/vite.config.js",
+    "reason": "Overlapping config surfaces detected in the same directory.",
+    "type": "vite"
+  },
+  {
+    "area": "primary-synai",
+    "canonicalCandidate": "SynAI/vite.config.ts",
+    "confidence": 0.9,
+    "isCanonical": true,
+    "metadata": {},
+    "pairedWith": [
+      "SynAI/vite.config.js"
+    ],
+    "path": "SynAI/vite.config.ts",
+    "reason": "Overlapping config surfaces detected in the same directory.",
+    "type": "vite"
+  }
+]

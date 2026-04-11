@@ -23,6 +23,8 @@ const toExecutionAttemptStatus = (status: ActionResult['status']): ExecutionAtte
       return 'executed';
     case 'simulated':
       return 'simulated';
+    case 'clarification_needed':
+      return 'clarification_needed';
     case 'blocked':
       return 'blocked';
     case 'denied':

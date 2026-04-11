@@ -6,6 +6,13 @@ const issueSchema = z.object({
     code: z.string().min(1).optional(),
     details: z.unknown().optional(),
 });
+const clarificationSchema = z
+    .object({
+    question: z.string().min(1),
+    missingFields: z.array(z.string().min(1)).default([]),
+    options: z.array(z.string().min(1)).optional(),
+})
+    .strict();
 const isZodSchema = (value) => typeof value === 'object' &&
     value !== null &&
     typeof value.parse === 'function' &&
@@ -215,6 +222,7 @@ export const ActionProposalSchema = z
 export const ActionResultStatusSchema = z.enum([
     'executed',
     'simulated',
+    'clarification_needed',
     'blocked',
     'denied',
     'escalated',
@@ -235,6 +243,7 @@ export const ActionResultSchema = z
     output: z.unknown().optional(),
     rollback: RollbackRecordSchema.optional(),
     compensation: z.array(CompensationRecordSchema).optional(),
+    clarification: clarificationSchema.optional(),
     error: issueSchema.optional(),
     metadata: jsonRecordSchema.optional(),
 })
@@ -387,6 +396,7 @@ export const ExecutionAttemptStatusSchema = z.enum([
     'running',
     'executed',
     'simulated',
+    'clarification_needed',
     'blocked',
     'denied',
     'escalated',
@@ -489,6 +499,7 @@ export const RuntimeTaskResultSchema = z
     summary: z.string().min(1).optional(),
     output: z.unknown().optional(),
     clarificationNeeded: z.array(z.string().min(1)).default([]),
+    clarification: clarificationSchema.optional(),
     policyDecision: PolicyDecisionSchema,
     policyBlock: z
         .object({

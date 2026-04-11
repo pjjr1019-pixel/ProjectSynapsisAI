@@ -2,6 +2,8 @@
 import * as path from "node:path";
 import type {
   ChatMessage,
+  ChatGovernedExecutionStatus,
+  ChatGovernedTaskClarification,
   ChatGovernedTaskMetadata,
   DesktopActionProposal,
   DesktopActionRequest,
@@ -241,11 +243,79 @@ const buildTaskState = (
   requestId: string,
   route: GovernedTaskPlanResult,
   overrides: Partial<ChatGovernedTaskMetadata> = {}
-): ChatGovernedTaskMetadata => ({
-  ...buildGovernedTaskMetadata(requestId, route),
-  ...overrides,
-  artifacts: overrides.artifacts ?? buildGovernedTaskMetadata(requestId, route).artifacts
-});
+): ChatGovernedTaskMetadata => {
+  const baseState = buildGovernedTaskMetadata(requestId, route);
+  return {
+    ...baseState,
+    ...overrides,
+    executionStatus: overrides.executionStatus ?? baseState.executionStatus ?? null,
+    clarification: overrides.clarification ?? baseState.clarification ?? null,
+    artifacts: overrides.artifacts ?? baseState.artifacts
+  };
+};
+
+const toTaskExecutionStatus = (
+  status:
+    | WorkflowExecutionResult["status"]
+    | DesktopActionResult["status"]
+    | "queued"
+    | "pending"
+    | "running"
+    | null
+    | undefined
+): ChatGovernedExecutionStatus | null => {
+  switch (status) {
+    case "queued":
+    case "pending":
+      return "pending";
+    case "running":
+      return "running";
+    case "executed":
+      return "completed";
+    case "simulated":
+      return "simulated";
+    case "clarification_needed":
+      return "clarification_needed";
+    case "blocked":
+      return "blocked";
+    case "denied":
+      return "denied";
+    case "failed":
+      return "failed";
+    default:
+      return null;
+  }
+};
+
+const toTaskClarification = (
+  clarification:
+    | {
+        question: string;
+        missingFields?: string[];
+        options?: string[];
+      }
+    | null
+    | undefined,
+  fallbackQuestions: string[] = []
+): ChatGovernedTaskClarification | null => {
+  if (clarification?.question?.trim()) {
+    return {
+      question: clarification.question,
+      missingFields: clarification.missingFields ?? [],
+      options: clarification.options
+    };
+  }
+
+  const question = fallbackQuestions.find((value) => value.trim().length > 0) ?? null;
+  if (!question) {
+    return null;
+  }
+
+  return {
+    question,
+    missingFields: []
+  };
+};
 
 const summarizeWorkflowResult = (result: WorkflowExecutionResult): string =>
   result.reportSummary?.trim().length
@@ -277,6 +347,20 @@ const buildDesktopExecutionReply = (
   return verification.passed
     ? `Completed the desktop action: ${result.summary}`
     : `I ran the desktop action, but verification failed: ${verification.reasons[0] ?? result.summary}`;
+};
+
+const buildWorkflowExecutionReply = (
+  result: WorkflowExecutionResult,
+  verification: GovernedTaskVerification
+): string => {
+  if (result.status === "clarification_needed") {
+    const followUp = result.clarification?.question ?? result.error ?? result.summary;
+    return `I need one detail before I can continue: ${followUp}`;
+  }
+
+  return verification.passed
+    ? `Completed the workflow: ${result.summary}`
+    : `I ran the workflow, but verification failed: ${verification.reasons[0] ?? result.summary}`;
 };
 
 const summarizeRollbackSummary = (result: WorkflowExecutionResult | DesktopActionResult): string | null => {
@@ -371,7 +455,7 @@ export const createGovernedChatService = (options: {
     const pending = findPendingApproval(input.messages);
     const historyFindings = await mineHistory();
     const webContext = input.getRecentWebContext ? await input.getRecentWebContext(input.text) : null;
-  const route = await routeGovernedChatTask({
+    const route = await routeGovernedChatTask({
       request: await toTaskPlanRequest(input, webContext),
       historyFindings
     });
@@ -441,6 +525,7 @@ export const createGovernedChatService = (options: {
 
     if (route.decision === "deny") {
       const taskState = buildTaskState(input.requestId, route, {
+        executionStatus: "denied",
         approvalState: {
           required: false,
           pending: false,
@@ -613,6 +698,8 @@ export const createGovernedChatService = (options: {
           tokenId: token?.tokenId ?? null,
           expiresAt: token?.expiresAt ?? null
         },
+        executionStatus: toTaskExecutionStatus(executionResult.status),
+        clarification: toTaskClarification(executionResult.clarification, executionRoute.clarificationNeeded),
         executionSummary: summarizeWorkflowResult(executionResult),
         verificationSummary: summarizeVerification(verification),
         rollbackSummary: summarizeRollbackSummary(executionResult),
@@ -682,9 +769,7 @@ export const createGovernedChatService = (options: {
       });
       return {
         handled: true,
-        assistantReply: reportReply ?? (verification.passed
-          ? `Completed the workflow: ${executionResult.summary}`
-          : `I ran the workflow, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`),
+        assistantReply: reportReply ?? buildWorkflowExecutionReply(executionResult, verification),
         taskState,
         route: executionRoute,
         executionResult,
@@ -826,6 +911,8 @@ export const createGovernedChatService = (options: {
           tokenId: token?.tokenId ?? null,
           expiresAt: token?.expiresAt ?? null
         },
+        executionStatus: toTaskExecutionStatus(executionResult.status),
+        clarification: toTaskClarification(executionResult.clarification, executionRoute.clarificationNeeded),
         executionSummary: summarizeDesktopResult(executionResult),
         verificationSummary: summarizeVerification(verification),
         rollbackSummary: summarizeRollbackSummary(executionResult),
@@ -996,6 +1083,7 @@ export const createGovernedChatService = (options: {
       });
       const remediation = planGovernedTaskRemediation({ route, gap });
       const taskState = buildTaskState(input.requestId, route, {
+        executionStatus: "blocked",
         approvalState: {
           required: false,
           pending: false,
@@ -1042,6 +1130,11 @@ export const createGovernedChatService = (options: {
     if (route.actionType === "approval-confirmation") {
       if (!pending || !pendingRoute) {
         const taskState = buildTaskState(input.requestId, route, {
+          executionStatus: "clarification_needed",
+          clarification: {
+            question: "I do not see a pending approved task to confirm yet.",
+            missingFields: []
+          },
           approvalState: {
             required: false,
             pending: false,
@@ -1090,6 +1183,7 @@ export const createGovernedChatService = (options: {
       }
 
       const taskState = buildTaskState(input.requestId, route, {
+        executionStatus: "blocked",
         approvalState: {
           required: false,
           pending: false,
@@ -1126,6 +1220,7 @@ export const createGovernedChatService = (options: {
       const plan = await options.workflowOrchestrator.suggestWorkflow(workflowPrompt);
       if (!plan) {
         const taskState = buildTaskState(input.requestId, route, {
+          executionStatus: "blocked",
           artifacts: buildTaskMetadataArtifact({ route: "workflow", error: "No workflow plan available." })
         });
         const verification = {
@@ -1276,6 +1371,8 @@ export const createGovernedChatService = (options: {
           tokenId: token?.tokenId ?? null,
           expiresAt: token?.expiresAt ?? null
         },
+        executionStatus: toTaskExecutionStatus(executionResult.status),
+        clarification: toTaskClarification(executionResult.clarification, route.clarificationNeeded),
         executionSummary: summarizeWorkflowResult(executionResult),
         verificationSummary: summarizeVerification(verification),
         rollbackSummary: summarizeRollbackSummary(executionResult),
@@ -1309,9 +1406,7 @@ export const createGovernedChatService = (options: {
       });
       return {
         handled: true,
-        assistantReply: reportReply ?? (verification.passed
-          ? `Completed the workflow: ${executionResult.summary}`
-          : `I ran the workflow, but verification failed: ${verification.reasons[0] ?? executionResult.summary}`),
+        assistantReply: reportReply ?? buildWorkflowExecutionReply(executionResult, verification),
         taskState,
         route,
         executionResult,
@@ -1325,6 +1420,7 @@ export const createGovernedChatService = (options: {
     const proposal = options.desktopActions.suggestDesktopAction(desktopPrompt);
     if (!proposal) {
       const taskState = buildTaskState(input.requestId, route, {
+        executionStatus: "blocked",
         artifacts: buildTaskMetadataArtifact({ route: "desktop-action", error: "No desktop action proposal available." })
       });
       const verification = {
@@ -1490,6 +1586,8 @@ export const createGovernedChatService = (options: {
         tokenId: token?.tokenId ?? null,
         expiresAt: token?.expiresAt ?? null
       },
+      executionStatus: toTaskExecutionStatus(executionResult.status),
+      clarification: toTaskClarification(executionResult.clarification, route.clarificationNeeded),
       executionSummary: summarizeDesktopResult(executionResult),
       verificationSummary: summarizeVerification(verification),
       rollbackSummary: summarizeRollbackSummary(executionResult),

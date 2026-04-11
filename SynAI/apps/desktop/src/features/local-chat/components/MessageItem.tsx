@@ -25,6 +25,21 @@ const taskDecisionTone = (decision: string): "neutral" | "good" | "warn" | "bad"
   return "neutral";
 };
 
+const taskExecutionTone = (status: string | null | undefined): "neutral" | "good" | "warn" | "bad" => {
+  if (status === "completed" || status === "simulated") {
+    return "good";
+  }
+  if (status === "pending" || status === "running" || status === "clarification_needed" || status === "blocked") {
+    return "warn";
+  }
+  if (status === "failed" || status === "denied") {
+    return "bad";
+  }
+  return "neutral";
+};
+
+const formatTaskExecutionStatus = (status: string): string => status.replace(/_/g, " ");
+
 export function MessageItem({ message, previousUserAt = null, liveTrace = null }: MessageItemProps) {
   const isUser = message.role === "user";
   const isLiveUsage = message.role === "assistant" && message.metadata?.awareness?.intentFamily === "live-usage";
@@ -85,6 +100,11 @@ export function MessageItem({ message, previousUserAt = null, liveTrace = null }
             <Badge tone={taskState.approvalState.pending ? "warn" : taskState.approvalRequired ? "warn" : "good"}>
               {taskState.approvalState.pending ? "Approval pending" : taskState.approvalRequired ? "Approval gated" : "Approved"}
             </Badge>
+            {taskState.executionStatus ? (
+              <Badge tone={taskExecutionTone(taskState.executionStatus)}>
+                {formatTaskExecutionStatus(taskState.executionStatus)}
+              </Badge>
+            ) : null}
             <Badge tone={taskState.verificationSummary ? "neutral" : "good"}>
               {taskState.recommendedExecutor}
             </Badge>
@@ -95,6 +115,14 @@ export function MessageItem({ message, previousUserAt = null, liveTrace = null }
           <p className="mt-1 text-[9px] text-cyan-100/80">{taskState.interpretedIntent}</p>
           {taskState.executionSummary ? (
             <p className="mt-0.5 text-[9px] text-slate-300">Execution: {taskState.executionSummary}</p>
+          ) : null}
+          {taskState.clarification ? (
+            <div className="mt-1 rounded border border-amber-400/30 bg-amber-500/10 p-1 text-[9px] text-amber-100">
+              <p>Clarification: {taskState.clarification.question}</p>
+              {taskState.clarification.missingFields?.length ? (
+                <p className="mt-0.5 text-amber-200/80">Missing fields: {taskState.clarification.missingFields.join(", ")}</p>
+              ) : null}
+            </div>
           ) : null}
           {taskState.reportSummary ? (
             <p className="mt-0.5 text-[9px] text-cyan-200">Report: {taskState.reportSummary}</p>

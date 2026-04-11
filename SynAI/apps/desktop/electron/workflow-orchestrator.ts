@@ -97,7 +97,11 @@ const createWorkflowVerificationRecord = (input: {
   error?: string | null;
 }): ExecutionVerificationRecord => {
   const failedStep = input.stepResults.find(
-    (step) => step.status === "failed" || step.status === "blocked" || step.status === "denied"
+    (step) =>
+      step.status === "failed" ||
+      step.status === "blocked" ||
+      step.status === "clarification_needed" ||
+      step.status === "denied"
   ) ?? null;
   const passed =
     (input.status === "executed" || input.status === "simulated") &&
@@ -128,9 +132,41 @@ const buildCompensationSummary = (step: WorkflowStepResult, result: DesktopActio
     ? `Rolled back ${step.id} with ${result.summary}`
     : result.status === "simulated"
       ? `Simulated rollback for ${step.id}: ${result.summary}`
+      : result.status === "clarification_needed"
+        ? `Rollback for ${step.id} needs clarification: ${result.clarification?.question ?? result.summary}`
       : result.status === "denied"
         ? `Rollback for ${step.id} was denied: ${result.summary}`
       : `Rollback for ${step.id} did not complete cleanly: ${result.summary}`;
+
+const toWorkflowStepStatus = (
+  status: DesktopActionResult["status"]
+): WorkflowStepResult["status"] =>
+  status === "executed"
+    ? "executed"
+    : status === "simulated"
+      ? "simulated"
+      : status === "clarification_needed"
+        ? "clarification_needed"
+        : status === "blocked"
+          ? "blocked"
+          : status === "denied"
+            ? "denied"
+            : "failed";
+
+const toWorkflowClarification = (
+  clarification:
+    | DesktopActionResult["clarification"]
+    | WorkflowExecutionResult["clarification"]
+    | null
+    | undefined
+) =>
+  clarification
+    ? {
+        question: clarification.question,
+        missingFields: clarification.missingFields ?? [],
+        options: clarification.options,
+      }
+    : null;
 
 const runBrowserInteractionStep = async (
   step: WorkflowStepPlan,
@@ -757,16 +793,7 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
             approvalToken: actionApproval,
             approvedBy
           });
-          const stepStatus =
-            actionResult.status === "executed"
-              ? "executed"
-              : actionResult.status === "simulated"
-                ? "simulated"
-                : actionResult.status === "blocked" || actionResult.status === "clarification_needed"
-                  ? "blocked"
-                  : actionResult.status === "denied"
-                    ? "denied"
-                  : "failed";
+          const stepStatus = toWorkflowStepStatus(actionResult.status);
           stepResults.push({
             id: step.id,
             kind: step.kind,
@@ -775,7 +802,8 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
             startedAt,
             completedAt: new Date().toISOString(),
             output: actionResult,
-            rollback: actionResult.rollback ?? null
+            rollback: actionResult.rollback ?? null,
+            clarification: toWorkflowClarification(actionResult.clarification)
           });
           if (actionResult.rollback?.possible && actionResult.commandId && actionResult.status === "executed") {
             rollbackCandidates.push({
@@ -867,7 +895,12 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         const currentResult = stepResults[stepResults.length - 1] ?? null;
         if (
           currentResult &&
-          (currentResult.status === "blocked" || currentResult.status === "denied" || currentResult.status === "failed")
+          (
+            currentResult.status === "clarification_needed" ||
+            currentResult.status === "blocked" ||
+            currentResult.status === "denied" ||
+            currentResult.status === "failed"
+          )
         ) {
           failure = {
             stepId: step.id,
@@ -916,16 +949,7 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
           compensationResults.push({
             id: `compensation-${candidate.stepId}`,
             kind: candidate.stepKind,
-            status:
-              rollbackResult.status === "executed"
-                ? "executed"
-                : rollbackResult.status === "simulated"
-                  ? "simulated"
-                  : rollbackResult.status === "blocked" || rollbackResult.status === "clarification_needed"
-                    ? "blocked"
-                    : rollbackResult.status === "denied"
-                      ? "denied"
-                    : "failed",
+            status: toWorkflowStepStatus(rollbackResult.status),
             summary: buildCompensationSummary(
               {
                 id: candidate.stepId,
@@ -941,6 +965,7 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
             startedAt,
             completedAt: new Date().toISOString(),
             output: rollbackResult,
+            clarification: toWorkflowClarification(rollbackResult.clarification),
             rollback: rollbackResult.rollback ?? candidate.rollback
           });
           collectRollbackRecord(rollbackRecords, rollbackResult.rollback);
@@ -962,6 +987,8 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
       const summary =
         failure.status === "denied"
           ? `Workflow denied at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`
+          : failure.status === "clarification_needed"
+            ? `Workflow needs clarification at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`
           : failure.status === "blocked"
             ? `Workflow blocked at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`
             : `Workflow failed at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`;
@@ -996,7 +1023,19 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         rollback: rollbackRecords.length > 0 ? rollbackRecords : null,
         compensation: compensationResults.length > 0 ? compensationResults : null,
         verification,
-        error: failure.message
+        error: failure.message,
+        clarification:
+          failure.status === "clarification_needed"
+            ? {
+                question:
+                  stepResults.find((step) => step.id === failure.stepId)?.clarification?.question ??
+                  failure.message,
+                missingFields:
+                  stepResults.find((step) => step.id === failure.stepId)?.clarification?.missingFields ?? [],
+                options:
+                  stepResults.find((step) => step.id === failure.stepId)?.clarification?.options,
+              }
+            : null
       };
     }
 
@@ -1074,7 +1113,7 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         workflowId: plan.requestId,
         workflowHash: plan.workflowHash,
         plan,
-        status: "blocked",
+        status: "clarification_needed",
         summary: plan.clarificationNeeded.join(" "),
         approvalRequired: plan.approvalRequired,
         approvedBy: request.approvedBy ?? null,
@@ -1086,7 +1125,11 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         completedStepIds: [],
         stepResults: [],
         artifactPaths: [],
-        error: plan.clarificationNeeded.join(" ")
+        error: plan.clarificationNeeded.join(" "),
+        clarification: {
+          question: plan.clarificationNeeded[0] ?? "Clarification is required before this workflow can run.",
+          missingFields: []
+        }
       };
     }
 

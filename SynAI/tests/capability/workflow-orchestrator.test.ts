@@ -36,6 +36,41 @@ vi.mock("@web-search", () => ({
 
 const { createWorkflowOrchestrator } = await import("../../apps/desktop/electron/workflow-orchestrator");
 
+const buildBrowserHost = () => ({
+  search: async () => [],
+  open: async (url = "about:blank") => ({
+    url,
+    title: "about:blank",
+    text: "",
+    links: []
+  }),
+  playYoutube: async () => ({
+    url: "https://www.youtube.com",
+    title: "YouTube",
+    text: "",
+    links: []
+  }),
+  click: async () => ({
+    url: "about:blank",
+    title: "about:blank",
+    text: "",
+    links: []
+  }),
+  type: async () => ({
+    url: "about:blank",
+    title: "about:blank",
+    text: "",
+    links: []
+  }),
+  hotkey: async () => ({
+    url: "about:blank",
+    title: "about:blank",
+    text: "",
+    links: []
+  }),
+  close: async () => {}
+});
+
 describe("workflow orchestrator", () => {
   let progressEvents: WorkflowProgressEvent[];
   const chromeApp = {
@@ -289,6 +324,121 @@ describe("workflow orchestrator", () => {
       expect(result.summary).toContain("Approval token");
       expect(desktopActions.executeDesktopAction).not.toHaveBeenCalled();
       expect(progressEvents).toHaveLength(0);
+    } finally {
+      await orchestrator.close();
+    }
+  });
+
+  it("returns clarification_needed before execution when the plan itself needs more detail", async () => {
+    const orchestrator = createWorkflowOrchestrator({
+      workspaceRoot: "C:/workspace",
+      runtimeRoot: "C:/workspace/.runtime",
+      desktopActions,
+      getMachineAwareness: () => machineAwareness,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null,
+      emitProgress: (event) => {
+        progressEvents.push(event);
+      },
+      browserHost: buildBrowserHost()
+    });
+
+    try {
+      const plan: WorkflowPlan = {
+        requestId: "wf-clarify",
+        prompt: "Open a file for me.",
+        normalizedPrompt: "open a file for me",
+        family: "file-management",
+        summary: "Open a file once the exact target is known.",
+        steps: [],
+        evidence: [],
+        artifacts: [],
+        clarificationNeeded: ["Please provide the exact file path to open."],
+        approvalRequired: false,
+        approvalReason: null,
+        workflowHash: "workflow-hash-clarify",
+        targetPaths: [],
+        createdAt: "2026-04-10T00:00:00.000Z"
+      };
+
+      const result = await orchestrator.executeWorkflow({
+        prompt: plan.prompt,
+        plan,
+        dryRun: false,
+        approvedBy: "qa-operator",
+        approvalToken: null
+      });
+
+      expect(result.status).toBe("clarification_needed");
+      expect(result.clarification).toEqual({
+        question: "Please provide the exact file path to open.",
+        missingFields: []
+      });
+      expect(result.stepResults).toEqual([]);
+      expect(progressEvents).toHaveLength(0);
+    } finally {
+      await orchestrator.close();
+    }
+  });
+
+  it("preserves clarification-needed workflow step results and workflow status", async () => {
+    desktopActions.executeDesktopAction.mockImplementationOnce(async (request: any) => ({
+      proposalId: request.proposalId,
+      kind: request.kind,
+      scope: request.scope,
+      targetKind: request.targetKind,
+      target: request.target,
+      status: "clarification_needed" as const,
+      commandId: null,
+      commandHash: null,
+      preview: `${request.kind}:${request.target}`,
+      summary: "Need the exact installed app name before uninstalling.",
+      riskClass: request.riskClass,
+      approvalRequired: request.destructive,
+      approvedBy: request.approvedBy ?? null,
+      startedAt: null,
+      completedAt: null,
+      reason: "missing-required-target",
+      message: "Need the exact installed app name before uninstalling.",
+      clarification: {
+        question: "Which exact installed app name should I remove?",
+        missingFields: ["target"]
+      }
+    }));
+
+    const orchestrator = createWorkflowOrchestrator({
+      workspaceRoot: "C:/workspace",
+      runtimeRoot: "C:/workspace/.runtime",
+      desktopActions,
+      getMachineAwareness: () => machineAwareness,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null,
+      emitProgress: (event) => {
+        progressEvents.push(event);
+      },
+      browserHost: buildBrowserHost()
+    });
+
+    try {
+      const plan = (await orchestrator.suggestWorkflow("remove chrome completely from my system")) as WorkflowPlan;
+      const approval = await orchestrator.issueWorkflowApproval(plan, "qa-operator");
+      const result = await orchestrator.executeWorkflow({
+        prompt: plan.prompt,
+        plan,
+        dryRun: false,
+        approvedBy: "qa-operator",
+        approvalToken: approval
+      });
+
+      expect(result.status).toBe("clarification_needed");
+      expect(result.stepResults.find((step) => step.kind === "desktop-action")?.status).toBe("clarification_needed");
+      expect(result.clarification).toEqual({
+        question: "Which exact installed app name should I remove?",
+        missingFields: ["target"],
+        options: undefined
+      });
+      expect(progressEvents.at(-1)?.status).toBe("clarification_needed");
+      expect(desktopActions.rollbackDesktopAction).not.toHaveBeenCalled();
     } finally {
       await orchestrator.close();
     }

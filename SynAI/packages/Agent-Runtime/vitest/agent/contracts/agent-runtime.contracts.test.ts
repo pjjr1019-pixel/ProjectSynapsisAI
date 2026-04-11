@@ -167,6 +167,26 @@ describe('Agent contract schemas', () => {
     expect(() => RuntimeTaskResultSchema.parse(data)).not.toThrow();
   });
 
+  it('validates RuntimeTaskResult clarification metadata', () => {
+    const data = {
+      id: 'task-clarify',
+      status: 'clarification_needed',
+      clarificationNeeded: ['Which exact subsystem should be configured first?'],
+      clarification: {
+        question: 'Which exact subsystem should be configured first?',
+        missingFields: ['target'],
+      },
+      policyDecision: {
+        id: 'pd-clarify',
+        decidedAt: isoNow(),
+        contextId: 'ctx-1',
+        type: 'allow',
+        reason: 'Clarification must stay visible to the caller.',
+      },
+    };
+    expect(() => RuntimeTaskResultSchema.parse(data)).not.toThrow();
+  });
+
   it('validates prompt intent runtime bridge schema through the compatibility surface', () => {
     const data = {
       version: 1,

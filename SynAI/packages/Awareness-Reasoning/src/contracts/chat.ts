@@ -59,6 +59,22 @@ export interface ChatGovernedTaskApprovalState {
   expiresAt: string | null;
 }
 
+export interface ChatGovernedTaskClarification {
+  question: string;
+  missingFields?: string[];
+  options?: string[];
+}
+
+export type ChatGovernedExecutionStatus =
+  | "pending"
+  | "running"
+  | "completed"
+  | "simulated"
+  | "clarification_needed"
+  | "blocked"
+  | "failed"
+  | "denied";
+
 export interface ChatGovernedTaskArtifact {
   kind:
     | "workflow-plan"
@@ -91,6 +107,8 @@ export interface ChatGovernedTaskMetadata {
   policyRulesTriggered: string[];
   reasoningSummary: string;
   approvalState: ChatGovernedTaskApprovalState;
+  executionStatus?: ChatGovernedExecutionStatus | null;
+  clarification?: ChatGovernedTaskClarification | null;
   executionSummary: string | null;
   verificationSummary: string | null;
   rollbackSummary: string | null;

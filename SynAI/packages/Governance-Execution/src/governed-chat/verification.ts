@@ -335,7 +335,15 @@ const verifyWorkflowResult = async (
   const savedFiles = await Promise.all(artifactPaths.map(async (filePath) => fileExists(filePath)));
   const artifactPass = artifactPaths.length === 0 ? result.status !== "failed" : savedFiles.every(Boolean);
   const stepFailures = result.stepResults.filter((step) => step.status === "failed");
-  const passed = artifactPass && stepFailures.length === 0 && result.status !== "failed" && result.status !== "blocked" && result.status !== "denied";
+  const clarificationSteps = result.stepResults.filter((step) => step.status === "clarification_needed");
+  const passed =
+    artifactPass &&
+    stepFailures.length === 0 &&
+    clarificationSteps.length === 0 &&
+    result.status !== "failed" &&
+    result.status !== "blocked" &&
+    result.status !== "clarification_needed" &&
+    result.status !== "denied";
 
   return {
     passed,
@@ -344,6 +352,13 @@ const verifyWorkflowResult = async (
       ? ["Workflow completed and saved artifacts verified."]
       : [
           ...(stepFailures.length > 0 ? [`Failed workflow steps: ${stepFailures.map((step) => step.id).join(", ")}`] : []),
+          ...(clarificationSteps.length > 0
+            ? [
+                `Workflow needs clarification: ${clarificationSteps
+                  .map((step) => step.clarification?.question ?? step.summary)
+                  .join(" | ")}`
+              ]
+            : []),
           ...(artifactPass ? [] : [`One or more workflow artifacts are missing: ${artifactPaths.join(", ")}`]),
           result.error ?? result.summary
         ].filter(Boolean),

@@ -1,0 +1,3337 @@
+[
+  {
+    "mtime": "2026-04-08T05:48:16.087Z",
+    "path": "SynAI/.env",
+    "sha256": "cf8a8ee347cd51ac0418134c09bc41f534aa82275ee349af7ae6da5f3f321017"
+  },
+  {
+    "mtime": "2026-04-08T05:48:16.087Z",
+    "path": "SynAI/.env.example",
+    "sha256": "8cc1ee9a7c5c624ae5adb58a2606c70bea1f956d65492e09f8b8c10189ed178c"
+  },
+  {
+    "mtime": "2026-04-10T21:24:18.622Z",
+    "path": "SynAI/.gitignore",
+    "sha256": "e21fc94c36f0bcacfae2e248353ab2676ba019fe5dc86993ded3e20ea1c1fcd6"
+  },
+  {
+    "mtime": "2026-04-10T21:24:18.622Z",
+    "path": "SynAI/.vscode/tasks.json",
+    "sha256": "60518a2998925a445f2ce9d29d78e8d8cdc09af070cd487d50f357f4a5eb69a2"
+  },
+  {
+    "mtime": "2026-04-11T13:59:32.930Z",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-adapters.js",
+    "sha256": "5d8c9737316602d10273c47efb453a0940f29992d248b8d4dce0062a310ff6ca"
+  },
+  {
+    "mtime": "2026-04-11T18:24:05.491Z",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-adapters.ts",
+    "sha256": "271be9405cc7b43a574619b3edcbf8eb036501ff9709c86b0cc137bf56645681"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.069Z",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-approval.js",
+    "sha256": "b5c54873f776855806dd81325e1acd853cbe0e537cacf4d154a5548011db4e62"
+  },
+  {
+    "mtime": "2026-04-10T20:56:58.503Z",
+    "path": "SynAI/apps/desktop/electron/agent-runtime-approval.ts",
+    "sha256": "85616081f547c327342e1678f035255faa4a6005c99594a0c9d4e72219bc2513"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.048Z",
+    "path": "SynAI/apps/desktop/electron/browser-session-playwright.js",
+    "sha256": "8ac0caccfbd9caef1b1581731c33b875fd086582b4feb1171315a424da917b80"
+  },
+  {
+    "mtime": "2026-04-10T13:46:13.200Z",
+    "path": "SynAI/apps/desktop/electron/browser-session-playwright.ts",
+    "sha256": "c4454d624f19080280d36706a8e3ec198f859cd0946661a8b4d11dd409e67e14"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.051Z",
+    "path": "SynAI/apps/desktop/electron/browser-session.js",
+    "sha256": "12ec57d30c297cf496ffd3fab5c8765f293d2d3a6a67b046a6b334b59b157c99"
+  },
+  {
+    "mtime": "2026-04-10T14:02:39.626Z",
+    "path": "SynAI/apps/desktop/electron/browser-session.ts",
+    "sha256": "db9f3e290a2aa60b4ddbb7d94871516a93de0d1bdb4ea767a3fedb806124c165"
+  },
+  {
+    "mtime": "2026-04-11T01:51:31.264Z",
+    "path": "SynAI/apps/desktop/electron/capability-runner.ts",
+    "sha256": "7115d9bd170f3791e7cd9c029c423b66f659672c974bdee9c8dc9d6b60312283"
+  },
+  {
+    "mtime": "2026-04-11T13:59:21.704Z",
+    "path": "SynAI/apps/desktop/electron/desktop-actions.js",
+    "sha256": "870d0b81b24772a543b3df347066b5c82a2056ecc077b5a40297c0ae632e42f9"
+  },
+  {
+    "mtime": "2026-04-11T13:59:05.641Z",
+    "path": "SynAI/apps/desktop/electron/desktop-actions.ts",
+    "sha256": "999d0ac1ae57e52ba75bfa4388e5a02a4eeeb434320403d86ac58cd65e6234b1"
+  },
+  {
+    "mtime": "2026-04-11T14:15:40.029Z",
+    "path": "SynAI/apps/desktop/electron/governed-chat.js",
+    "sha256": "21ae63f0bb911f01510a61864ed0a306d576a6fea4d46ff3e47689bdad005c40"
+  },
+  {
+    "mtime": "2026-04-11T18:35:42.826Z",
+    "path": "SynAI/apps/desktop/electron/governed-chat.ts",
+    "sha256": "fec08a6c8348743c5111e5cf9da8e87475a3ff7260f3148a7772fb7341c5551c"
+  },
+  {
+    "mtime": "2026-04-11T05:56:37.862Z",
+    "path": "SynAI/apps/desktop/electron/ipc-registration.test.ts",
+    "sha256": "804d7b0e15a9bb83d5b25166e66d93798aed1239d867864d9c32e726f86e39e3"
+  },
+  {
+    "mtime": "2026-04-11T05:56:01.630Z",
+    "path": "SynAI/apps/desktop/electron/ipc-registration.ts",
+    "sha256": "c5b7ee617ef4409865ba63fa19fb55b82e034ad7d23af89a5a1b8d96782beff2"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.368Z",
+    "path": "SynAI/apps/desktop/electron/main.js",
+    "sha256": "547ce14e130f1d25391689370f816b4d0e4854812a210e9efd6b5d251a874a7f"
+  },
+  {
+    "mtime": "2026-04-11T05:31:07.906Z",
+    "path": "SynAI/apps/desktop/electron/main.prompting-delegation.test.ts",
+    "sha256": "a899be4ac21aeae1af3081ae2ac6e107db69760ef1400139f87ccbc68b1fe308"
+  },
+  {
+    "mtime": "2026-04-11T14:03:18.693Z",
+    "path": "SynAI/apps/desktop/electron/main.ts",
+    "sha256": "3c35e9655e71fda44141fbf5766972068e69c79d005ce95c42521f01d1f05bc0"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.369Z",
+    "path": "SynAI/apps/desktop/electron/preload.js",
+    "sha256": "d7ce0f5e41df2f08c77cbec9b07e9e5cdc38915f21630cb629df3dbcc53be51a"
+  },
+  {
+    "mtime": "2026-04-11T06:25:00.696Z",
+    "path": "SynAI/apps/desktop/electron/preload.ts",
+    "sha256": "218bb9a593e62b4a66bda807493a10aa5d6984976ea52ca421c974679972338b"
+  },
+  {
+    "mtime": "2026-04-11T05:07:39.374Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.js",
+    "sha256": "918bbc46a7532f1e00cd0338e214223b54cef69068bbf9c433dd73539c6caf9a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.372Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.test.js",
+    "sha256": "0ac92bfdef22b4524349e6a4576992195a568271a4cd8845d03a79d81edea503"
+  },
+  {
+    "mtime": "2026-04-11T05:02:31.619Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.test.ts",
+    "sha256": "514bd669f5bd3d0bcf792de2f14a940f9cb5b9ca0a15120ffb695c47dfe7d815"
+  },
+  {
+    "mtime": "2026-04-11T06:20:34.128Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval-analysis.ts",
+    "sha256": "7fab16bf9b8909c5529f10fee05d5e0165e407364285a0c14c262bcb99627c56"
+  },
+  {
+    "mtime": "2026-04-11T05:07:13.474Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.js",
+    "sha256": "f927325c3ec177311ced10d8404f634a6a769e0b31677017a807e8cccc26b563"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.372Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.test.js",
+    "sha256": "61ca7d2aa8c8cabc6573a8482f30be7f5b5a9e1219f4cc0addf92bbfddcbef07"
+  },
+  {
+    "mtime": "2026-04-11T05:01:56.726Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.test.ts",
+    "sha256": "7a188c69736f4758512adb7c63f377cb38f2d17ba8dab5fc73050c0dda46f111"
+  },
+  {
+    "mtime": "2026-04-11T06:20:43.115Z",
+    "path": "SynAI/apps/desktop/electron/prompt-eval.ts",
+    "sha256": "40e9bc763ffd7b64035964374a7affadb7e152018caa78b5c68b66a158f9cbdb"
+  },
+  {
+    "mtime": "2026-04-11T05:02:57.286Z",
+    "path": "SynAI/apps/desktop/electron/prompting/diagnostics.test.ts",
+    "sha256": "d07f37be2c062865e15d8884990b1f0f60c0931a93ffd71a6aa6b975a085140f"
+  },
+  {
+    "mtime": "2026-04-11T06:19:44.968Z",
+    "path": "SynAI/apps/desktop/electron/prompting/diagnostics.ts",
+    "sha256": "d9e07259e966ab8fb3eb7a309e0536e0e383a57e128f0498e477bc05be397526"
+  },
+  {
+    "mtime": "2026-04-11T04:32:53.889Z",
+    "path": "SynAI/apps/desktop/electron/prompting/instruction-builders.test.ts",
+    "sha256": "70eb3c8b666dbca1574194f647062219273304cd0fb74a0da6f4f1d2d1273e76"
+  },
+  {
+    "mtime": "2026-04-11T14:02:12.499Z",
+    "path": "SynAI/apps/desktop/electron/prompting/instruction-builders.ts",
+    "sha256": "abb08bbe73232e8bd4c74fafb19fd3b2f139653a9f8aeb7f0a4187283ad20cec"
+  },
+  {
+    "mtime": "2026-04-11T14:04:39.852Z",
+    "path": "SynAI/apps/desktop/electron/prompting/intent-contract.test.ts",
+    "sha256": "93f83fcf9a71a61f7e7f956a32f4518a67e862fc2ad7396f1105a147551d1957"
+  },
+  {
+    "mtime": "2026-04-11T14:03:00.986Z",
+    "path": "SynAI/apps/desktop/electron/prompting/intent-contract.ts",
+    "sha256": "c5037806ecd48170611a871bd37dcc8d36eaa63963dc739d76786c3fdca8185b"
+  },
+  {
+    "mtime": "2026-04-11T04:32:53.889Z",
+    "path": "SynAI/apps/desktop/electron/prompting/planner.test.ts",
+    "sha256": "20e7509dfca3e063afef88b201be6fda5949fc8f4a9e8091d89c73943db2b956"
+  },
+  {
+    "mtime": "2026-04-11T04:22:54.080Z",
+    "path": "SynAI/apps/desktop/electron/prompting/planner.ts",
+    "sha256": "a68e3ae0ec0312a13a68a16a56b2b84bfaa3ef497709350c78511fc678943943"
+  },
+  {
+    "mtime": "2026-04-11T04:59:44.216Z",
+    "path": "SynAI/apps/desktop/electron/prompting/policy-matrix.test.ts",
+    "sha256": "dd63b4ebe74ea2a2e3554f3cc865b24c521ac7c39f68be1dcecabd9d9e0ef185"
+  },
+  {
+    "mtime": "2026-04-11T06:19:28.137Z",
+    "path": "SynAI/apps/desktop/electron/prompting/policy-matrix.ts",
+    "sha256": "3a2a02cb84a716e547dd23e00ff76464413da7ac9b0509b655f8e7ef449098cf"
+  },
+  {
+    "mtime": "2026-04-11T06:19:06.718Z",
+    "path": "SynAI/apps/desktop/electron/prompting/reasoning-profile.ts",
+    "sha256": "21df9972a45b04411085879725264eda4f833293cbd7dfb4f58da3dbb51d4498"
+  },
+  {
+    "mtime": "2026-04-11T05:33:16.017Z",
+    "path": "SynAI/apps/desktop/electron/prompting/runtime-intent-bridge.test.ts",
+    "sha256": "b3987efb8e248e93d7cbbf9ad1e61fcc0be6606a942f4943505bf56419a3ce25"
+  },
+  {
+    "mtime": "2026-04-11T05:33:08.342Z",
+    "path": "SynAI/apps/desktop/electron/prompting/runtime-intent-bridge.ts",
+    "sha256": "856964c51b9d4299210f12e32e4a289ccdfe74fcd94eac23b02b926a88005bd9"
+  },
+  {
+    "mtime": "2026-04-11T04:32:53.892Z",
+    "path": "SynAI/apps/desktop/electron/prompting/synthesizer.test.ts",
+    "sha256": "9d43d425c53e8fd2ed7cd67594398aa6385126eaa2d4abb00b8cac865680c1eb"
+  },
+  {
+    "mtime": "2026-04-11T04:22:54.080Z",
+    "path": "SynAI/apps/desktop/electron/prompting/synthesizer.ts",
+    "sha256": "2703a6ede595575f30080e1dd8aa917aaa9886240f210458ab8887f0a4fc0865"
+  },
+  {
+    "mtime": "2026-04-11T05:07:52.132Z",
+    "path": "SynAI/apps/desktop/electron/prompting/task-classifier.test.ts",
+    "sha256": "ff3a4abd6403cc593b5edd1983bd39af3d348dd7e8426b019150340155276210"
+  },
+  {
+    "mtime": "2026-04-11T05:06:05.537Z",
+    "path": "SynAI/apps/desktop/electron/prompting/task-classifier.ts",
+    "sha256": "a806ade7cae419c47b76595532922daade224c85d3ae35ad00397ec0bd909abd"
+  },
+  {
+    "mtime": "2026-04-11T14:15:55.868Z",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.js",
+    "sha256": "5c94086176ec0a8f585907369229195d624f10125d7c918e138080805c5a5422"
+  },
+  {
+    "mtime": "2026-04-11T14:16:05.325Z",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.test.js",
+    "sha256": "4fce012055f3f89b079d544eec383b347066ebf589dd9a5ff7dd732134764ed8"
+  },
+  {
+    "mtime": "2026-04-11T14:14:48.835Z",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.test.ts",
+    "sha256": "ebfa3340cddd1b098052a7be67254c5b3365711beb557329626694eb4bd5eb82"
+  },
+  {
+    "mtime": "2026-04-11T14:14:39.677Z",
+    "path": "SynAI/apps/desktop/electron/reply-formatting.ts",
+    "sha256": "7d919e8bcb4bf28272d22050c593d44c9feee49c0dfe1d74c6ab3ac603740691"
+  },
+  {
+    "mtime": "2026-04-11T05:06:48.483Z",
+    "path": "SynAI/apps/desktop/electron/reply-policy.js",
+    "sha256": "29dcf83d45de1c47774a0aa1503e4e55228798a8004442de2e61086d5e3e1523"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.372Z",
+    "path": "SynAI/apps/desktop/electron/reply-policy.test.js",
+    "sha256": "79498aed8597228d4bbd46f966506ac6b7c76c6e694d9dc9dd6892e3ce4cdad0"
+  },
+  {
+    "mtime": "2026-04-11T04:59:56.804Z",
+    "path": "SynAI/apps/desktop/electron/reply-policy.test.ts",
+    "sha256": "e341d0537062fbf74f89ed4a921c30ca67f2ebd8415e93cbfa6035f503c4ef48"
+  },
+  {
+    "mtime": "2026-04-11T06:19:37.917Z",
+    "path": "SynAI/apps/desktop/electron/reply-policy.ts",
+    "sha256": "389dffc6b9d65745f2d77d90c765cc8f4a1f97cdaa88fd0d056c4cc9e34b4cc6"
+  },
+  {
+    "mtime": "2026-04-11T14:01:56.600Z",
+    "path": "SynAI/apps/desktop/electron/workflow-orchestrator.js",
+    "sha256": "4e716fb6aa752c623593a270a186f683c508781d863417448c82986a2e9d3065"
+  },
+  {
+    "mtime": "2026-04-11T18:36:27.013Z",
+    "path": "SynAI/apps/desktop/electron/workflow-orchestrator.ts",
+    "sha256": "a08c7b3fb62a706b73ac047c76654a24a8f4498356045af433fe30dda78c2409"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.039Z",
+    "path": "SynAI/apps/desktop/electron/workflow-planner.js",
+    "sha256": "a59322c3327e42393b2993d33a06c765cf746060b6c135f6151e8607a07ffbd3"
+  },
+  {
+    "mtime": "2026-04-10T14:44:40.853Z",
+    "path": "SynAI/apps/desktop/electron/workflow-planner.ts",
+    "sha256": "97c1793f84b7343b3cea5994a2faaefa24002cc73093ff2e9f4c4f08dc4cf5a3"
+  },
+  {
+    "mtime": "2026-04-08T04:09:10.565Z",
+    "path": "SynAI/apps/desktop/index.html",
+    "sha256": "c335de9e094219cad5f5b6d55a3b5bc010d3c018eebb367eb6cc0d71b77a1c3a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.472Z",
+    "path": "SynAI/apps/desktop/src/App.js",
+    "sha256": "813b25fbdf1292889b7c2d5357124a4de8c4dbbdc0b96e43bc6e2a10f5afd37c"
+  },
+  {
+    "mtime": "2026-04-09T17:57:21.031Z",
+    "path": "SynAI/apps/desktop/src/App.tsx",
+    "sha256": "849c7457133e0f5f4e01545d29a2b7776b1f03418ea6a094671bfdad8e0f9154"
+  },
+  {
+    "mtime": "2026-04-11T02:02:06.991Z",
+    "path": "SynAI/apps/desktop/src/features/capability-runner/hooks/useCapabilityRunner.ts",
+    "sha256": "7a7d0d080917521015459d1794711433ea369d66257da9a63f13a248e9490b5e"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.339Z",
+    "path": "SynAI/apps/desktop/src/features/feature-registry.js",
+    "sha256": "f24c98fa5a6ba2ffb144a13580c499f4fbc4d1d00540e9c9d0f0fe3a15920689"
+  },
+  {
+    "mtime": "2026-04-10T13:56:21.876Z",
+    "path": "SynAI/apps/desktop/src/features/feature-registry.ts",
+    "sha256": "174cc76643be2ad0eacc29b28b60ebac458c55aeebd18ca2816b063a893b54aa"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.449Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AgentRuntimeCard.js",
+    "sha256": "1b0fb163b285298083c52080ce609e9f34bcae59e57ae853ffd2d6646a3e9880"
+  },
+  {
+    "mtime": "2026-04-10T21:35:03.083Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AgentRuntimeCard.tsx",
+    "sha256": "412cf643669acf1d82c994f8251e22f81940b7d110b48e85ed9e02c350fbb8bb"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.414Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AwarenessCard.js",
+    "sha256": "2e3b7381c068471e51c482b6ec36129b5fbf33334d7c53cd7137ddadd3628dac"
+  },
+  {
+    "mtime": "2026-04-09T10:35:01.613Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/AwarenessCard.tsx",
+    "sha256": "f2481ea2da6b7490d9fa51b564f403a14d558cf4894ff36788630ee104794975"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.433Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatControls.js",
+    "sha256": "2d27c8e9576f2f9e8405bedf1174c7925a5e46e23531605d6b479d57dc0b2b3a"
+  },
+  {
+    "mtime": "2026-04-08T23:12:13.524Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatControls.tsx",
+    "sha256": "7130acea6c54e210cbca8cad90a192486ef801abdb45fdbe55c944ff6820d514"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.407Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatHeader.js",
+    "sha256": "0dda6407460abe5bf355863c007b241f6e7e2c321e1506daab5185f27a6750d9"
+  },
+  {
+    "mtime": "2026-04-08T23:11:17.637Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatHeader.tsx",
+    "sha256": "b874ac8dc2fbbace730e9afea0033ccc12fa5fb26d45106e2c405ca891066b9a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.407Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatInputBar.js",
+    "sha256": "ce6722185fbf363159736b76da3c8a68bb8c2de4b754af1e86ec7effab1d1f37"
+  },
+  {
+    "mtime": "2026-04-09T15:34:38.718Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatInputBar.tsx",
+    "sha256": "0506be671260b34f25007a657d4605c87e466f98b09ebd534391fab6c5707131"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.419Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatPanel.js",
+    "sha256": "e6f3a452855c6e9306238ac8a594fd8b6c41fdcfb8077339cb7911531be4b3e3"
+  },
+  {
+    "mtime": "2026-04-09T15:25:10.243Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatPanel.tsx",
+    "sha256": "f8bd996f2c0c70122eb6379e792ea3b27abb9ea07af1da724ce1810b1936235d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.464Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatSettings.js",
+    "sha256": "ec851f26878912a10af99d1cac97712e136b640b3751a0e65d1773016a5a7952"
+  },
+  {
+    "mtime": "2026-04-09T15:26:05.046Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ChatSettings.tsx",
+    "sha256": "71b766a8e4b3e62f9c800e869d68b361e0a64ccc432b3b67ad60771ed6a6c74e"
+  },
+  {
+    "mtime": "2026-04-11T04:36:30.030Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ContextPreview.js",
+    "sha256": "d2d31ed69cac49df25ad2f6475e1e68a588891c9351c1418d6dd785ea4702260"
+  },
+  {
+    "mtime": "2026-04-11T04:31:01.890Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ContextPreview.tsx",
+    "sha256": "1dccd57ceb0549d5be5e7bd9b994727e358de9b0db57684cf711e721f4e73759"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.474Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ConversationList.js",
+    "sha256": "7eacb0a8f2b584725d697f9035d78b624b4d865ace0cf3ba558de7f214370311"
+  },
+  {
+    "mtime": "2026-04-08T12:15:51.636Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ConversationList.tsx",
+    "sha256": "fd5ee80285e21da59485fb0d99cbd7bcb6a35ce4ac04ded39de630adab3cff67"
+  },
+  {
+    "mtime": "2026-04-11T14:16:45.732Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/DesktopActionsCard.js",
+    "sha256": "d596e02300e4aa2232ff36796fee87c34e17f68b2dea1a56dd0bd209687c6eb1"
+  },
+  {
+    "mtime": "2026-04-11T14:14:58.519Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/DesktopActionsCard.tsx",
+    "sha256": "6c328afc1ffb29d621cf2d4cdc5fc6cbee43e0330f55f718849e36394660a0b3"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.416Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/GroundingEvidenceView.js",
+    "sha256": "a049e328d9dc4681aa62aab3d2ce15452f8eee2b90630a1b1b731ce5f4855874"
+  },
+  {
+    "mtime": "2026-04-09T17:57:02.636Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/GroundingEvidenceView.tsx",
+    "sha256": "74257a25eae6a3974fe602645fc0627083cb203aab9d908bdafe6480bf011e86"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.431Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/HistoryPanel.js",
+    "sha256": "09bcbb051777969145858418d44f6882c82eb70cd6a3c08e624ac60eba349f3c"
+  },
+  {
+    "mtime": "2026-04-08T23:13:03.423Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/HistoryPanel.tsx",
+    "sha256": "663a1f0629a12b00c2206fb35f868cb6f641ae2600ba23b774aa10d2ce7771fc"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.431Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/LocalModelStatus.js",
+    "sha256": "8a3ee6822058ac9016ebcd4d6343097e2e2c86985fd20f347d8bb6ba4802893b"
+  },
+  {
+    "mtime": "2026-04-08T12:15:51.636Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/LocalModelStatus.tsx",
+    "sha256": "8aa2f89cd57e0c34f5503848b72c660931beef4b1639861aabad5e1c59054d7a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.433Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MemoryInspector.js",
+    "sha256": "ea6a1018eef10740c9458ad35d63744595b8bdb7bbff94c1cd130b12a867fb4e"
+  },
+  {
+    "mtime": "2026-04-08T12:32:57.852Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MemoryInspector.tsx",
+    "sha256": "410f47459c490a80b701e8e1e09f2becb694c3bff0ea13cbec4491bd22916710"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.419Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageItem.js",
+    "sha256": "6aaa2b83c2296c7162ebd95d79670d0f8bf67a3ee0b34608224203c28cdf322e"
+  },
+  {
+    "mtime": "2026-04-11T18:31:08.228Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageItem.tsx",
+    "sha256": "0da6dc427a3c0d819c55494d921587bf875ae13d35ea06363f4675462235340b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.419Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageList.js",
+    "sha256": "1085ca52d943272d8d26a6f4277c33fe58f96bcf26f62ef8b55c19e1641a2dc3"
+  },
+  {
+    "mtime": "2026-04-09T15:25:49.185Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/MessageList.tsx",
+    "sha256": "c0455683202242051b51cb2e366f4fda56b8cd91d523a8cbf3dd2e27084eec0d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.459Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/PromptEvaluationCard.js",
+    "sha256": "d47fd40b4af27849744fb9dfbc8ac2de1e5377055979dc42ee899f9dbc106012"
+  },
+  {
+    "mtime": "2026-04-09T20:11:35.346Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/PromptEvaluationCard.tsx",
+    "sha256": "a793f187085c82cb0c7b6a86fbdd40c3f82239adfa140340a5f5d8ae0fd7814f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.419Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ReasoningTraceView.js",
+    "sha256": "566e22d0550d861edef3b088e55b39ccacdd46414e3613a14c77c5f0c79469be"
+  },
+  {
+    "mtime": "2026-04-09T17:57:42.801Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ReasoningTraceView.tsx",
+    "sha256": "3950519f9f5208691e6db8162df5f1a58bf69c1a96c460feb250965b7d3326d8"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.468Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SettingsPanel.js",
+    "sha256": "cadb2e5a1221c0df0e9a23a429ef138be4e26ea915d599e21bf781afe6207036"
+  },
+  {
+    "mtime": "2026-04-11T00:56:36.505Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SettingsPanel.tsx",
+    "sha256": "298ca90dec266b9e7cb8ccf24464543ed5a066e03ad1e335a094d1867fd84325"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.407Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SmartPromptStatus.js",
+    "sha256": "a46f0fb44f45aef70ca80a7a24f45caadeb282b0eea4fbb64accc1836e2cc795"
+  },
+  {
+    "mtime": "2026-04-09T15:26:28.737Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/SmartPromptStatus.tsx",
+    "sha256": "01ac0e0749280d91720c55aea43202a600cde0a0d28f44796bd4997abeb3929b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.461Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ToolsPanel.js",
+    "sha256": "1c5c3a59089776880631c27d48da0903438eebe78078a42b245ea4b888d22262"
+  },
+  {
+    "mtime": "2026-04-10T17:04:56.203Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/ToolsPanel.tsx",
+    "sha256": "cf3d7c8b403237f13593d424bfc8b68c8fe6c7c536a03d3979a463012e941361"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.419Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/TurnPreview.js",
+    "sha256": "986556b994d1112d6d0dbc228f4bcf1926986cc05b1903a90b8699f3af320f0b"
+  },
+  {
+    "mtime": "2026-04-08T23:18:31.118Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/TurnPreview.tsx",
+    "sha256": "c05829d2560fd0e30b629da98459028ce18069774b71d9756fc9549a28a43a8f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.449Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkflowOrchestrationCard.js",
+    "sha256": "ef50ce133d670fe7fd570f24e2551157f71c2693be66186bdf063ce0d43d2108"
+  },
+  {
+    "mtime": "2026-04-11T00:38:37.629Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkflowOrchestrationCard.tsx",
+    "sha256": "e831d2ca97700a63742674474436227579bdc182f8bbff886e290ae2eef8e10c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.407Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkspaceTabs.js",
+    "sha256": "fe1bed2f08286b916a7644e2d08abb7188f551079776daf758b3f428bfb79180"
+  },
+  {
+    "mtime": "2026-04-08T23:13:38.770Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/components/WorkspaceTabs.tsx",
+    "sha256": "45a1b1574012e67a7fa2005e94b23b2c31d47e8dfe5c3bbb177df19c402885dd"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.372Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useConversationSearch.js",
+    "sha256": "fef9a57cc302f3adc937c31b1b659f2d87d981d3696e8e0914b818f23103e705"
+  },
+  {
+    "mtime": "2026-04-08T04:01:22.484Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useConversationSearch.ts",
+    "sha256": "aef3001531682129bd2cdb6c59fb13dd419950d72c44ec716ae2152232ee369b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.384Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChat.js",
+    "sha256": "b924ebad1c6040ab58fbd6c7a8dc0c082fd09f1639a66189b55c460d5d0bd0c5"
+  },
+  {
+    "mtime": "2026-04-09T17:56:10.639Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+    "sha256": "5b9bfc2c635b6865750ac607249f5012b6fa7d6bed5651d5772955913c178b68"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.388Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChatStore.js",
+    "sha256": "98cdcbf40b267e8904742f895163bf2acc4df0910be7031ce0722e7cf4a906d1"
+  },
+  {
+    "mtime": "2026-04-09T08:09:09.611Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/hooks/useLocalChatStore.ts",
+    "sha256": "e3ea715459cb94bc482b5df2fef031f77478de19a3daefea90ffcc3df066e46d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.372Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/store/localChatStore.js",
+    "sha256": "2207c9b8f9e05ddf9419a3fc444b228b0dcbae3a0973992069e811a0ea30789a"
+  },
+  {
+    "mtime": "2026-04-11T06:25:12.389Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/store/localChatStore.ts",
+    "sha256": "fdb4752f2aef7ad1b6ada652263586c2e691b62e1a77b87d5b03f1d394662445"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.372Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/types/localChat.types.js",
+    "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+  },
+  {
+    "mtime": "2026-04-11T06:25:08.198Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/types/localChat.types.ts",
+    "sha256": "acd02cfaacf017618eaa6b2f684026d89f50301d888c8aab60ed40fb54be4bd9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.339Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/awarenessCards.js",
+    "sha256": "8c624ed387f3fa517e6d8369e65cdbac6f5af5b394a8c1728c5fb4cc9512119c"
+  },
+  {
+    "mtime": "2026-04-09T10:32:59.061Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/awarenessCards.ts",
+    "sha256": "f08fa5472c4458a649a3cdda2b85eab6ef0888975bcce135d1ec6379e8b28f69"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.388Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTitle.js",
+    "sha256": "e10470c3e5b7b94eced20876400400e1ac0bdb894e5ec6a046573a7d9b39130f"
+  },
+  {
+    "mtime": "2026-04-08T04:00:59.201Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTitle.ts",
+    "sha256": "ca0db307b561429e79b77d395b5681d259579771b1007858f70b3e516a5efd6a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.388Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTurns.js",
+    "sha256": "8346c28a29faaf6aa300852457c6ebcf3a1dc83fb7bdcca0fe941e8657d76ed8"
+  },
+  {
+    "mtime": "2026-04-08T12:30:37.548Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/conversationTurns.ts",
+    "sha256": "62afdb635d295bf99ad10e06a841ed2d6307543c28afe05da77e57f614163b6b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.339Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/liveUsageReply.js",
+    "sha256": "a3e6c56b79b0ab894a9999371bb851a51f2c4959e148a12bd055285219aa6da5"
+  },
+  {
+    "mtime": "2026-04-10T00:20:44.453Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/liveUsageReply.ts",
+    "sha256": "9c9a938afb828413b97d529fc480b8bd888313bc50a1cac4422a5d4668271e2e"
+  },
+  {
+    "mtime": "2026-04-11T04:36:30.028Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptAssembler.js",
+    "sha256": "5817360349b2d6317ee195a5c3ecaa5fbb3d183c42271e61d1e740ee2b2106e0"
+  },
+  {
+    "mtime": "2026-04-11T04:31:01.889Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptAssembler.ts",
+    "sha256": "dfaec50c2cce10e6098ce2a8aa0479a5da62582b3fe6b5d5f2f508d37fc9fd8e"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.391Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptEvaluation.js",
+    "sha256": "588aeefcc7ea14df23285913558f0a887a0c969b35145bfb2a2d9ca272fdcb30"
+  },
+  {
+    "mtime": "2026-04-09T21:19:07.091Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/promptEvaluation.ts",
+    "sha256": "b5bdac104e44d2623c9331089cecce67c9da78c6f45b76b99c3fc69ece08952b"
+  },
+  {
+    "mtime": "2026-04-11T06:25:32.247Z",
+    "path": "SynAI/apps/desktop/src/features/local-chat/utils/settingsPersistence.ts",
+    "sha256": "395eb0b032b3ba35b965d76f3fbd3eb894d62daae83ac37149d1acc6941bd1c6"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.437Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryItem.js",
+    "sha256": "a74905f437ae699c7495555d70a01c5d0c1d32ed5f593e28ea086cdad1ffaf92"
+  },
+  {
+    "mtime": "2026-04-08T04:05:41.845Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryItem.tsx",
+    "sha256": "c12040beca3616ca32b2d8d65f2a2b117b094a2fd6bfcc7cd67def9f755e3e6d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.437Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryList.js",
+    "sha256": "d9ac4d104fb99aefcdae414b3300b825a0cf0480babae0ce26fffb13502605a6"
+  },
+  {
+    "mtime": "2026-04-08T12:32:57.851Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryList.tsx",
+    "sha256": "c786e65614702eda3c65016e369c22f2ffee3b0f0f1aa5653d441566d4af2e9c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.437Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryPanel.js",
+    "sha256": "6f930ffcec2ea810a127c40a514a01307dc7a3775de0954828dcb2577e018875"
+  },
+  {
+    "mtime": "2026-04-08T12:32:57.851Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemoryPanel.tsx",
+    "sha256": "c9e4dbe8489d9fd103d12362ba5c5d36453303fe66d1c05dec61b9ff69b10172"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.437Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemorySearch.js",
+    "sha256": "d73fbc30ff75fd194abdba904fcc5971c1d819011b6785883a25b2989a1d1ab6"
+  },
+  {
+    "mtime": "2026-04-08T04:06:02.494Z",
+    "path": "SynAI/apps/desktop/src/features/memory/components/MemorySearch.tsx",
+    "sha256": "f7957115a89510b2c0afbeec232d32fd3a42049f9edabf7d50108e083811171a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.393Z",
+    "path": "SynAI/apps/desktop/src/features/memory/hooks/useMemory.js",
+    "sha256": "9246ab0376dded1e863f9b942915f1a8429a37852832e5ef62c4909adb37eed4"
+  },
+  {
+    "mtime": "2026-04-08T04:05:26.820Z",
+    "path": "SynAI/apps/desktop/src/features/memory/hooks/useMemory.ts",
+    "sha256": "856e0596ce587d76308d59a6b0f2c49b5e47e4f27f3f082e447f9dc08f8be655"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.393Z",
+    "path": "SynAI/apps/desktop/src/features/memory/store/memoryStore.js",
+    "sha256": "1724c7b322b7581456adcf2949f50deb1d042dba50da575ab7295394ad511eb9"
+  },
+  {
+    "mtime": "2026-04-08T04:05:06.444Z",
+    "path": "SynAI/apps/desktop/src/features/memory/store/memoryStore.ts",
+    "sha256": "82b2daf8d2c9d7d489464fb070a15c3d24e2c029002c5ec15c1303e6126bdbd1"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.393Z",
+    "path": "SynAI/apps/desktop/src/features/memory/types/memory.types.js",
+    "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+  },
+  {
+    "mtime": "2026-04-08T04:04:55.002Z",
+    "path": "SynAI/apps/desktop/src/features/memory/types/memory.types.ts",
+    "sha256": "5103df068bfa9f8361d8bee45750ab627b568ddca7e0976aee56930a168c82a6"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.405Z",
+    "path": "SynAI/apps/desktop/src/layout/Shell.js",
+    "sha256": "cb1b6e5ac90d2fba84f753912a228c5def135220e43744a335565866ed5d0bb3"
+  },
+  {
+    "mtime": "2026-04-09T10:36:16.977Z",
+    "path": "SynAI/apps/desktop/src/layout/Shell.tsx",
+    "sha256": "86a97a4e70597a4f11ece54c9c8fd77d5ef2cbb4a608557cd6efc3bbb7feeee1"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.476Z",
+    "path": "SynAI/apps/desktop/src/layout/Sidebar.js",
+    "sha256": "1c686962ed14de2d0a2c7c828bcf37de3fa171d16154e2add9a52233b8733147"
+  },
+  {
+    "mtime": "2026-04-08T12:17:26.932Z",
+    "path": "SynAI/apps/desktop/src/layout/Sidebar.tsx",
+    "sha256": "12f3c0f5af0b9d5753be1e2538b36444d46a1a2a5f22c07fad5812f4348f2ece"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.405Z",
+    "path": "SynAI/apps/desktop/src/layout/StatusBar.js",
+    "sha256": "40dfc2c5279552a520ed7e209e846b029a58aa2201dac40f20786d5199f1c1f0"
+  },
+  {
+    "mtime": "2026-04-09T10:36:47.012Z",
+    "path": "SynAI/apps/desktop/src/layout/StatusBar.tsx",
+    "sha256": "51c24229d2dbc68b4c794f58eadbb087fab7ea6978c172d2aa2105fe8a36b340"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.403Z",
+    "path": "SynAI/apps/desktop/src/layout/TopBar.js",
+    "sha256": "beaea9305d9376896f501484e31bc1e117ac1625c007cc49e644123c7a7bd088"
+  },
+  {
+    "mtime": "2026-04-09T10:36:32.598Z",
+    "path": "SynAI/apps/desktop/src/layout/TopBar.tsx",
+    "sha256": "5ea1e52c19b0ef5e72cbd61c8259b708579be6fd9e40ae7d881cd5113721e7a6"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.472Z",
+    "path": "SynAI/apps/desktop/src/main.js",
+    "sha256": "714a0f29d925a7e50c0ca6194020daae53a64f4da3ed214189b5115e0ec10aea"
+  },
+  {
+    "mtime": "2026-04-08T04:08:05.887Z",
+    "path": "SynAI/apps/desktop/src/main.tsx",
+    "sha256": "fd7a74403ec672c5a5842974ae7a24578ec342bfbbcd5066e127b167f35a4f30"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.401Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Badge.js",
+    "sha256": "0081a9ed17db977596d55a843bcb5bb9733623c10d5d4b0271eb1f21b948e19c"
+  },
+  {
+    "mtime": "2026-04-08T23:11:59.472Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Badge.tsx",
+    "sha256": "2751a52d2afcefa9d33f49cccd71a583cf02b491ec9238b488c7f322390a9f6d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.407Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Button.js",
+    "sha256": "c0d5d5eea25061f1d2af5a4f74f378e7121aa3598dcec3b9e0e4e730b3ac6493"
+  },
+  {
+    "mtime": "2026-04-08T23:11:38.956Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Button.tsx",
+    "sha256": "7b4f193445b10701d895867bff9d8d066b11e9d1459517e6a72d9542b34b48ee"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.419Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Card.js",
+    "sha256": "deb4b80fe12abe91423054e35c700f669d503184f3239e4ff7923c67f1af5e32"
+  },
+  {
+    "mtime": "2026-04-08T03:59:29.204Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Card.tsx",
+    "sha256": "2420ffe7561a2cc311b0a53ee1e3d04f2ed211a95124899f609568d646c750de"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.474Z",
+    "path": "SynAI/apps/desktop/src/shared/components/CompactSection.js",
+    "sha256": "3b56cfd5f2d6361fc1ba9fe3a05111ac6b51cd0d73b7b914a31289a35ee502fb"
+  },
+  {
+    "mtime": "2026-04-08T12:00:13.660Z",
+    "path": "SynAI/apps/desktop/src/shared/components/CompactSection.tsx",
+    "sha256": "97ec320117d514555b2ec85ae52460e70ad06145c52b342c6e23f4cb970140a5"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.419Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Input.js",
+    "sha256": "3e95df88c81216cad8edcafb693294ced2bb133c8f798496c42cfa4a50120e49"
+  },
+  {
+    "mtime": "2026-04-08T23:11:45.509Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Input.tsx",
+    "sha256": "776101456f4f761cb807d9e946146e89110abdcce0a809fa2511b7e1deee45a2"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.472Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Panel.js",
+    "sha256": "1fc51d68cce7ebea6243784e0f3f1f87e67e36b8d3b762e47fd4a2dea6d538da"
+  },
+  {
+    "mtime": "2026-04-08T03:59:39.834Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Panel.tsx",
+    "sha256": "33883cd10961e30e98ba98ed8e94e29e9fc6a4bddd5169394905433806df1f3f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.407Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Textarea.js",
+    "sha256": "175c1247924b796d39e60665cef7708591219b6401cc46f2e7e11e91f8316632"
+  },
+  {
+    "mtime": "2026-04-08T23:11:52.410Z",
+    "path": "SynAI/apps/desktop/src/shared/components/Textarea.tsx",
+    "sha256": "9175720e5331dcddeec0c23e6264416a518496a3071f2424745fe2b235f7865b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.393Z",
+    "path": "SynAI/apps/desktop/src/shared/utils/cn.js",
+    "sha256": "df8313e451e2dd023575aaa3842337b08dc8f38990b4a3bcf348e732785c6bf0"
+  },
+  {
+    "mtime": "2026-04-08T03:58:58.610Z",
+    "path": "SynAI/apps/desktop/src/shared/utils/cn.ts",
+    "sha256": "e72ddfb1b3b0f7c843b9760743df7c16839ead6e6958afb7d437f93b9de73b6d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.393Z",
+    "path": "SynAI/apps/desktop/src/shared/utils/id.js",
+    "sha256": "23bb4d0af2c3fcf278950621a6fd2c83feca699af2efecad46921bae9c84f916"
+  },
+  {
+    "mtime": "2026-04-08T03:59:10.309Z",
+    "path": "SynAI/apps/desktop/src/shared/utils/id.ts",
+    "sha256": "66fd71fe4103529f14ad6f76008be9ef6ff9f0c11227fca0e954646dc4935bc8"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.381Z",
+    "path": "SynAI/apps/desktop/src/shared/utils/time.js",
+    "sha256": "85df2fbeaff20aefbbcce3441883f7edc85bbcd07013e33ea128c965a265cc57"
+  },
+  {
+    "mtime": "2026-04-08T05:16:28.636Z",
+    "path": "SynAI/apps/desktop/src/shared/utils/time.ts",
+    "sha256": "f199f1294159475f75769ffe4fcecb3251f9d4d93d58710442294a38439fa57e"
+  },
+  {
+    "mtime": "2026-04-08T04:08:37.863Z",
+    "path": "SynAI/apps/desktop/src/styles.css",
+    "sha256": "b6b63b640970211ed0de1c28607bd2d1f575057f928542d106d9cc06b8848a8d"
+  },
+  {
+    "mtime": "2026-04-08T04:08:52.768Z",
+    "path": "SynAI/apps/desktop/src/vite-env.d.ts",
+    "sha256": "13a79b30c7fecb607eedea66e0b191fe914c2a903064d971773091f2ff65cd2a"
+  },
+  {
+    "mtime": "2026-04-10T09:59:53.967Z",
+    "path": "SynAI/apps/vscode-capability-testing/package.json",
+    "sha256": "34cb14310a0271c62658a74af2164f4bf7f6d3893c9e7a1233ab453eaf0e432c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.393Z",
+    "path": "SynAI/apps/vscode-capability-testing/src/core.js",
+    "sha256": "9925cc1ac3da9150187af1f07b9788a2c95a08c9e468ce6276119ee595c299e8"
+  },
+  {
+    "mtime": "2026-04-10T00:15:20.360Z",
+    "path": "SynAI/apps/vscode-capability-testing/src/core.ts",
+    "sha256": "25f3c3def205a28ebb7f18146c4ee81d32f6c6d9147cbff481137f99b85e9754"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.399Z",
+    "path": "SynAI/apps/vscode-capability-testing/src/extension.js",
+    "sha256": "1285aaec4eb38ce50a39593e6a082c3e9b7a21f6f067d2131678c9754b54b00a"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.824Z",
+    "path": "SynAI/apps/vscode-capability-testing/src/extension.ts",
+    "sha256": "1f65607a27880a545e23e54fa09612e485ce8a1192002d9a42a3c38dffefd77b"
+  },
+  {
+    "mtime": "2026-04-10T00:16:05.207Z",
+    "path": "SynAI/apps/vscode-capability-testing/tsconfig.json",
+    "sha256": "9684831d1c0a6db6d4954e19ba13f9c48c9c3fc0e96ff3229ed5e79454d5b97c"
+  },
+  {
+    "mtime": "2026-04-10T22:10:56.928Z",
+    "path": "SynAI/build-me-a-more-detailed-report-with-more-sources.md",
+    "sha256": "a1e4f61b9c82760da7a2b4959a75e258dcdcd65d1cf36b65e6c669ddcf45ea1f"
+  },
+  {
+    "mtime": "2026-04-10T21:43:20.912Z",
+    "path": "SynAI/CHANGELOG.md",
+    "sha256": "ee39cc1c8dcd1373802cc625e3797bb7e899e7121690794847073097f855ce8d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.592Z",
+    "path": "SynAI/config/aliases.js",
+    "sha256": "47d43b05841c5f428e7e7df87f9d6618c9d4d204b44595ed619b0f3dbbd807d3"
+  },
+  {
+    "mtime": "2026-04-11T00:35:23.115Z",
+    "path": "SynAI/config/aliases.ts",
+    "sha256": "5715f8adc8acd12551e6f8e7dfa65f65f22deb0b6a520b2b94e1aaccf02d2d4e"
+  },
+  {
+    "mtime": "2026-04-11T00:35:23.115Z",
+    "path": "SynAI/docs/AGENT_INSERTION_POINTS.md",
+    "sha256": "10c35cfa4e830c0817936aec82bed5bd72b87774c978e5d9c5a009e7ab192041"
+  },
+  {
+    "mtime": "2026-04-10T05:34:19.256Z",
+    "path": "SynAI/docs/architecture/chat-memory-strategy.md",
+    "sha256": "398c43e1e05987a9412c7759fe6fb9ae453e55d56f1f92d1df5fe84e33688176"
+  },
+  {
+    "mtime": "2026-04-10T21:02:15.917Z",
+    "path": "SynAI/docs/architecture/context-assembly.md",
+    "sha256": "96f538c63f5da959335ea0920c49ec31d1cac55da7be014be217cf7850496586"
+  },
+  {
+    "mtime": "2026-04-10T06:36:43.515Z",
+    "path": "SynAI/docs/architecture/governed-execution-roadmap.md",
+    "sha256": "3c9919fca47c0c3f88b08371e2b299ac1b302be7ccc92e53889722c4639c29da"
+  },
+  {
+    "mtime": "2026-04-10T05:34:21.495Z",
+    "path": "SynAI/docs/architecture/phase-1-chat-overview.md",
+    "sha256": "90ca2a0bb14a9d31a822748a08e9e8b7421f0fd57aa04a0e7f540fdf460a407d"
+  },
+  {
+    "mtime": "2026-04-08T04:35:56.975Z",
+    "path": "SynAI/docs/architecture/staged-testing-strategy.md",
+    "sha256": "7c683af68c3633c5ae4984b06779a706fb8bb70d9559b5608f2d0b44b7df9a85"
+  },
+  {
+    "mtime": "2026-04-11T00:37:03.518Z",
+    "path": "SynAI/docs/capability-eval-implementation-map.md",
+    "sha256": "3017cf76aaf0f6dfddc06ad550c088328f1801359ab8e83e4882fd47077dbe85"
+  },
+  {
+    "mtime": "2026-04-11T00:37:00.288Z",
+    "path": "SynAI/docs/capability-eval-usage.md",
+    "sha256": "4b78d940fdde48b5092aa86579b240499c1fe38b15ca5900341c13cda01466a0"
+  },
+  {
+    "mtime": "2026-04-10T21:43:20.912Z",
+    "path": "SynAI/docs/decisions/ADR-001-agent-contract-ownership.md",
+    "sha256": "de092bbc4821a653b374837915578442892220fc2e92bcb42fb8c1e67db7d8bc"
+  },
+  {
+    "mtime": "2026-04-10T15:39:53.799Z",
+    "path": "SynAI/docs/decisions/ADR-002-runtime-entrypoint-selection.md",
+    "sha256": "521db36c516bbf421427a042dc22fce56f3766264f25f6c28be71ff25e8844c7"
+  },
+  {
+    "mtime": "2026-04-10T15:39:53.799Z",
+    "path": "SynAI/docs/decisions/ADR-003-foundation-before-real-automation.md",
+    "sha256": "2cc3a4ff4a178b48e50ea3ccf9232b0b7b5d6ce96c76c3e0f5cb60be959b6614"
+  },
+  {
+    "mtime": "2026-04-11T00:37:03.518Z",
+    "path": "SynAI/docs/governance-execution-eval-implementation-map.md",
+    "sha256": "7d5f4dbbe0b3f83c45e6987a4b13464b20e002b73368cc2ecd28dfe640d63c15"
+  },
+  {
+    "mtime": "2026-04-11T00:36:57.085Z",
+    "path": "SynAI/docs/governance-execution-usage.md",
+    "sha256": "2b247d54475d06efb96bae30d4fc49b0ce61eec5faa260e6d11172e58fe79f0c"
+  },
+  {
+    "mtime": "2026-04-10T21:59:35.670Z",
+    "path": "SynAI/docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+    "sha256": "1d801cc53076639eed5dabc6130769b1cec35aebce1c9eda85a80d58f164374b"
+  },
+  {
+    "mtime": "2026-04-10T21:24:18.624Z",
+    "path": "SynAI/docs/reports/capibilityreport.md",
+    "sha256": "f907f125493112d17e64b312f7065d3a125a7422ed0e70f485f4e790648f209e"
+  },
+  {
+    "mtime": "2026-04-11T05:57:09.355Z",
+    "path": "SynAI/electron.vite.config.js",
+    "sha256": "63143ac19cfdaaf92f57e4c7931e29d91132425be84b7f2cb256c59feb961336"
+  },
+  {
+    "mtime": "2026-04-11T05:56:52.910Z",
+    "path": "SynAI/electron.vite.config.ts",
+    "sha256": "3c094e484655663b79a773dc16bebdd9b721ec0cf32fcbf8d39c03e38e15ca41"
+  },
+  {
+    "mtime": "2026-04-11T00:36:25.539Z",
+    "path": "SynAI/jest.agent-runtime.config.cjs",
+    "sha256": "bc94582edd9a57e7c5d627e655353108f3b17b9baa83833e9e286f0edb6c4588"
+  },
+  {
+    "mtime": "2026-04-11T12:57:46.831Z",
+    "path": "SynAI/Launch SynAI.cmd",
+    "sha256": "2e47c5d84eff321e9c58cbd7bd572da94e8390ba476de0d65f8118af198efa31"
+  },
+  {
+    "mtime": "2026-04-10T21:10:48.926Z",
+    "path": "SynAI/package-lock.json",
+    "sha256": "6f6cc8ac506ea41dc839ddd6fc881b311a4631c09218278b4048c54c6014da66"
+  },
+  {
+    "mtime": "2026-04-11T18:31:22.469Z",
+    "path": "SynAI/package.json",
+    "sha256": "5e222a5f8bbd619e42da45f171f248161bad56b3274f1a03abd2e692844c4ecb"
+  },
+  {
+    "mtime": "2026-04-10T21:43:55.436Z",
+    "path": "SynAI/packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md",
+    "sha256": "4de7fc02b60c4595e1aa7cc805ca5e216148fddb67936edc66169b48bb7fdef1"
+  },
+  {
+    "mtime": "2026-04-10T21:43:20.912Z",
+    "path": "SynAI/packages/Agent-Runtime/docs/AGENT_RUNTIME_FOUNDATION.md",
+    "sha256": "77995fb582bad667afbc4375a3b056546510045541c80ad95f086d6ef137cad8"
+  },
+  {
+    "mtime": "2026-04-10T21:42:06.288Z",
+    "path": "SynAI/packages/Agent-Runtime/scripts/validate-agent-foundation.ps1",
+    "sha256": "8efa535aa78ebb69cda714853019fc7af78dd3b3f7406e58e6bd6ecfd5cbd661"
+  },
+  {
+    "mtime": "2026-04-10T15:40:28.812Z",
+    "path": "SynAI/packages/Agent-Runtime/specs/01-action-substrate.md",
+    "sha256": "71e0cfb33d7f889be6970fee2e5a20be0985d013525b0097235d6ae2dd274e50"
+  },
+  {
+    "mtime": "2026-04-10T15:40:28.814Z",
+    "path": "SynAI/packages/Agent-Runtime/specs/02-perception-grounding.md",
+    "sha256": "4afe7a78b8df303f85dc604e806dc6a038d40be02772ba81d2d23a31f63a2b64"
+  },
+  {
+    "mtime": "2026-04-10T15:40:28.814Z",
+    "path": "SynAI/packages/Agent-Runtime/specs/03-planner-executor-verifier.md",
+    "sha256": "4dad733b0738313eada8f6fb5b661d41a71cf0c3e4b2a022008026135a3142c1"
+  },
+  {
+    "mtime": "2026-04-10T15:40:28.814Z",
+    "path": "SynAI/packages/Agent-Runtime/specs/04-autonomy-runtime.md",
+    "sha256": "e2c69700542df2c645c691a7a5757d6d4a477e281d66231bfbf7810d38bab93d"
+  },
+  {
+    "mtime": "2026-04-10T15:40:28.814Z",
+    "path": "SynAI/packages/Agent-Runtime/specs/05-policy-audit-evals.md",
+    "sha256": "7e1fe72072d36c71c31f02dc37507927686abb2108206d3f8b0840685ff8a31a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.476Z",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/audit.js",
+    "sha256": "e867e00711b211669304137592ba42382802a8c2618da4f7971f66907a78c029"
+  },
+  {
+    "mtime": "2026-04-10T15:32:34.969Z",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/audit.ts",
+    "sha256": "43de663fd4e090b85b5087ecdb5f029115d33327ebacfca374fae402ccac5ec9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.309Z",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/index.js",
+    "sha256": "3eac6d7ffc5b616b87782fe5455f9df6248f649dbecba5005aa149cc975e360d"
+  },
+  {
+    "mtime": "2026-04-10T19:27:43.689Z",
+    "path": "SynAI/packages/Agent-Runtime/src/audit/index.ts",
+    "sha256": "543ffbdb1ffdbe342165aa16457d7e590522f9710aa066e83007e0f79342e8be"
+  },
+  {
+    "mtime": "2026-04-11T18:22:46.452Z",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/agent-runtime.contracts.js",
+    "sha256": "06fa107b3645f18909bb89db4814a1190182fd19e8b8beb0dc907cbbde1cbbb5"
+  },
+  {
+    "mtime": "2026-04-11T18:22:34.153Z",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts",
+    "sha256": "e2e8e56f342d44a56fc5933cbae6638acc5675778c9f882c0cafc9d48cca83fa"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.939Z",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/index.js",
+    "sha256": "1848bb71d068f0f1da99cc85cbb41e8ce4183bb0daf95d0ca976de900661c41e"
+  },
+  {
+    "mtime": "2026-04-11T05:21:54.629Z",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/index.ts",
+    "sha256": "ae48f84447ec48aa2e9a975131f2f0864e2a1010896381524ac796025f756a75"
+  },
+  {
+    "mtime": "2026-04-11T05:32:01.814Z",
+    "path": "SynAI/packages/Agent-Runtime/src/contracts/prompt-intent-bridge.contracts.ts",
+    "sha256": "6836fe00bc533dbc579bff73433b72991d53cc9cc4cab7b56e6e8fd9ad3a818a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.943Z",
+    "path": "SynAI/packages/Agent-Runtime/src/core/index.js",
+    "sha256": "5ed5eebf086a3fb9c6557487d6ed71f2420a5f163ef2067aac61e64acbdf9b65"
+  },
+  {
+    "mtime": "2026-04-11T18:23:23.305Z",
+    "path": "SynAI/packages/Agent-Runtime/src/core/index.ts",
+    "sha256": "2350d25874ce4889ab86b4110d2d6d1ea643e645a6ed0417e6388adb1cfea03f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.476Z",
+    "path": "SynAI/packages/Agent-Runtime/src/evals/index.js",
+    "sha256": "b87682bdfdc7b2ca1c4b58c58d80b37704b21e0c4c130b41106963316d304ee2"
+  },
+  {
+    "mtime": "2026-04-10T21:34:01.046Z",
+    "path": "SynAI/packages/Agent-Runtime/src/evals/index.ts",
+    "sha256": "ef110bfe5732bf8aba8c980bee1b2e11c5dbde77208be010ec98e160bcfb3026"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.952Z",
+    "path": "SynAI/packages/Agent-Runtime/src/executor/index.js",
+    "sha256": "8a11bb2a7ee07ff4cee9bf10a954d097a30c0c1dc83e3f64168fd17a3b24772a"
+  },
+  {
+    "mtime": "2026-04-11T18:23:17.658Z",
+    "path": "SynAI/packages/Agent-Runtime/src/executor/index.ts",
+    "sha256": "64518479b9a0e1e1a478f360af591a0a7d4437c0539c2479e56365f8cc7d7a1c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.476Z",
+    "path": "SynAI/packages/Agent-Runtime/src/index.js",
+    "sha256": "304ce7f9cb0f2302923134b9862b0a267b5dcd7caae1edc6884c6daf6d487b8e"
+  },
+  {
+    "mtime": "2026-04-10T15:31:45.828Z",
+    "path": "SynAI/packages/Agent-Runtime/src/index.ts",
+    "sha256": "487865e296e61ad47bb6e8a2974ef3461019949442fe1dfa143b5edc31655673"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.312Z",
+    "path": "SynAI/packages/Agent-Runtime/src/perception/index.js",
+    "sha256": "a77ec4ae159b9b1e9738db2e40aadbcf9d1383d4b86fdf7418886c1e5b5f8727"
+  },
+  {
+    "mtime": "2026-04-10T16:45:43.380Z",
+    "path": "SynAI/packages/Agent-Runtime/src/perception/index.ts",
+    "sha256": "94f0bb37a138d405fdc8c083ad3f93c3d6ba228c7f016bc1be23eb44f1c6806c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.315Z",
+    "path": "SynAI/packages/Agent-Runtime/src/planner/index.js",
+    "sha256": "56ae74c95a06aeea204b462155e10f25a58bee21d5bfab81bea266d2032e8a05"
+  },
+  {
+    "mtime": "2026-04-11T05:22:15.268Z",
+    "path": "SynAI/packages/Agent-Runtime/src/planner/index.ts",
+    "sha256": "7eaad4d33455524139ea1e0b1e14dd91c5ce89eecaed8e932039a5ca1f7c6e1e"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.069Z",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/index.js",
+    "sha256": "500c9fcf581158cff544604cf75e0338a998de357ef3e8ac83a2f79abe3761c7"
+  },
+  {
+    "mtime": "2026-04-10T19:54:34.803Z",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/index.ts",
+    "sha256": "43b3bb598fc7c96733fffb09b0544c64e4d38726ce766602bdb92a5c19141926"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.476Z",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/policy.js",
+    "sha256": "e867e00711b211669304137592ba42382802a8c2618da4f7971f66907a78c029"
+  },
+  {
+    "mtime": "2026-04-10T15:32:32.667Z",
+    "path": "SynAI/packages/Agent-Runtime/src/policy/policy.ts",
+    "sha256": "43de663fd4e090b85b5087ecdb5f029115d33327ebacfca374fae402ccac5ec9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.338Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/file-runtime-state-store.js",
+    "sha256": "b57f3e6b03721f48dcd68a119e435b4426c582ce3cceeecf043268a2807678bc"
+  },
+  {
+    "mtime": "2026-04-10T16:50:41.746Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/file-runtime-state-store.ts",
+    "sha256": "62686fb82b802f468cdefd153d4ebd849898403b9698e1e52ce02efb21b48a35"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.335Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/in-memory-runtime-state-store.js",
+    "sha256": "ac58d502590c5e08613b6fe7ec01468039548d064ce17e8ff978d3c95aa1bb8f"
+  },
+  {
+    "mtime": "2026-04-10T16:58:34.465Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/in-memory-runtime-state-store.ts",
+    "sha256": "30390cd9a97cc4990b82e74aec7ddde4898a150aef6e677406bb9205a24c4189"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.339Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/index.js",
+    "sha256": "52e65a81b57579d77ca51afab68f4e468570a2e813bb59382c24154ac88c9412"
+  },
+  {
+    "mtime": "2026-04-10T16:56:20.511Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/index.ts",
+    "sha256": "52e65a81b57579d77ca51afab68f4e468570a2e813bb59382c24154ac88c9412"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.335Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/noop-runtime.js",
+    "sha256": "d3d6b659e38d00c8955b951c1738f647835c91dc3def9dbdbc542a75712843f3"
+  },
+  {
+    "mtime": "2026-04-10T16:56:16.028Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/noop-runtime.ts",
+    "sha256": "e4c13dd5436047aed986fef9c01faf0c7d1390e3783a5ff77f6ad7ae9869f872"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.335Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-manager.js",
+    "sha256": "dad08f4e524c721413a21f5c86649459e055cc8e2224293dcd1f05ff40502dc3"
+  },
+  {
+    "mtime": "2026-04-11T18:23:45.255Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-manager.ts",
+    "sha256": "503a3387b79f64406becd4596438713a9c70247da09fdec254f6f760c6e42b59"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.315Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-state.js",
+    "sha256": "c4b6fa1fbe06d788414bb9ab0e6f1e064bdd795d78b5bffaead66d7b9c260d19"
+  },
+  {
+    "mtime": "2026-04-10T16:50:03.882Z",
+    "path": "SynAI/packages/Agent-Runtime/src/runtime/runtime-state.ts",
+    "sha256": "1c35a88543b3de02938435c20af068db9a5fa03bc5aa1217a5fc3b1e59fcfa52"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.315Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/index.js",
+    "sha256": "9bddc64737f9ecad7f059a20cb80da886d413a4377aca34d9aa9f3e7b60321ad"
+  },
+  {
+    "mtime": "2026-04-10T15:31:45.827Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/index.ts",
+    "sha256": "5057c2c829d57cd6f66245fa8200d20f40181dde1f78f1f4cb1782e7def1e70f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.315Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/mockSkills.js",
+    "sha256": "2f26e51c30ded9f4c652bada6c80fa7aaa0fe236c0d193e8892c0cc1813aed64"
+  },
+  {
+    "mtime": "2026-04-10T15:32:27.068Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/mockSkills.ts",
+    "sha256": "418071dbecadea761aeb3ae278f9439c25ad87c6a05672b994a583ccd7d4ef22"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.948Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/SkillRegistry.js",
+    "sha256": "fa97bc9c9c6be5386f706d72d945fb662ea0783b0bbdca6860a815bd4d0bdb85"
+  },
+  {
+    "mtime": "2026-04-10T15:32:21.392Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/SkillRegistry.ts",
+    "sha256": "0d5c91cde211831677985f543d5c33f528421775f80f801e65123a57916ff02d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.946Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/types.js",
+    "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+  },
+  {
+    "mtime": "2026-04-10T15:31:45.826Z",
+    "path": "SynAI/packages/Agent-Runtime/src/skills/types.ts",
+    "sha256": "e991d305a2633b4a547bb6f1ea5325994ee64bf6c965b7d18a91e9c1cdcb38e6"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.320Z",
+    "path": "SynAI/packages/Agent-Runtime/src/verifier/index.js",
+    "sha256": "75a46f01be70e5c767963e86c78535c8c072393d719f0ae3c674fcc34c458711"
+  },
+  {
+    "mtime": "2026-04-11T18:23:33.168Z",
+    "path": "SynAI/packages/Agent-Runtime/src/verifier/index.ts",
+    "sha256": "22b0c63784b9523de15f8a18237735398fcccea4f3994cf612034e1fa05b1819"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.480Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/audit.test.js",
+    "sha256": "1d195163ee71d80030252e9424e017e9245c06353e4f39acb21d91040076ddc5"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.690Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/audit.test.ts",
+    "sha256": "3c63c2059dd166defe7aaa321b711753fae95669179e25b204acbb2b53a0ecbf"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.480Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/file-audit-store.test.js",
+    "sha256": "42b651421b17fd3cc937fa531f1f5c6a83c9424f1e7eda7763a9e36d1f727f6c"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.692Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/audit/file-audit-store.test.ts",
+    "sha256": "c09f374b746f7caab8d0aa8c79139dc04fca71ca5fb70dbda5721725c9308792"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.481Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/evals/evals.test.js",
+    "sha256": "c9a82813319293b3f84ea0b24eaaa89680513c46db88348eef9c7761639c891e"
+  },
+  {
+    "mtime": "2026-04-10T21:34:48.980Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/evals/evals.test.ts",
+    "sha256": "0161613f7ebe24c6fbd4e461a82f1e0fc37940140219c9f3106ba0c7b78b8b35"
+  },
+  {
+    "mtime": "2026-04-11T05:22:39.268Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/planner/prompt-intent-bridge.test.ts",
+    "sha256": "239611c5f09ba08f5ff129e23bf95d6e42fe8320107dbc40297f4bf3742171b4"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.481Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/approval-validation.test.js",
+    "sha256": "a700d2bc982b32e2356fff1bd3af08db42eb8d71ca0595c6927d654607486562"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.696Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/approval-validation.test.ts",
+    "sha256": "c3ebfc9185c9030bc945b5bb22a257df4a8af759ae870a8384f873e753193056"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.481Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/policy.test.js",
+    "sha256": "ff9669985033bb136c250a329e836bd7b175a73a5c1a53a0ed093c8a6226a0ea"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.698Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/policy/policy.test.ts",
+    "sha256": "2c47de507ecb62ab4f9f6f0d9faf1ce8ced93955eb0c2c5b55fdfee35ff3c1fe"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.481Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/file-runtime-state-store.test.js",
+    "sha256": "fbb7c94cb6c56d9812666ae177d49070158acbcbcb8f03c6b21f17bc66ce453f"
+  },
+  {
+    "mtime": "2026-04-10T21:32:34.974Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/file-runtime-state-store.test.ts",
+    "sha256": "8ed766223a69f0d0fae5446b956faf2167a358d994a9496cd04c35b9a15e446c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.481Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/in-memory-runtime-state-store.test.js",
+    "sha256": "ddd60989fd348fd43f8f8c29a3c39cfe15e2a1dccbd811bda0019b972a28ec41"
+  },
+  {
+    "mtime": "2026-04-10T21:32:37.239Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/in-memory-runtime-state-store.test.ts",
+    "sha256": "513085a9be55b634eb4b461a38722a3695122dcdb57e7dfcbe0a253ab32941ad"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.488Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime-manager.lifecycle.test.js",
+    "sha256": "dd58e258a0887a69c1aeb76ca0a82b3ab8147d9608c5e3a4fab776e15d31c32c"
+  },
+  {
+    "mtime": "2026-04-10T21:32:49.942Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime-manager.lifecycle.test.ts",
+    "sha256": "225f57aeec91b6dcd821ccae5862aa9b01fcd82f29a3eb63aba893678e5bcaa1"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.489Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.approval.test.js",
+    "sha256": "237e001c747010127b672a3c0e1bd3d0f37a58d383f0753b40e630c133c1cb83"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.707Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.approval.test.ts",
+    "sha256": "2749ca64f50708f6013505a40117bca701d5b18135489915c02e9fc2aab9dcd7"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.491Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.noop.test.js",
+    "sha256": "a744281527b77e6f10f8dedbd034842fff77e3f9ce31f00e9437209e7280afb4"
+  },
+  {
+    "mtime": "2026-04-11T05:32:35.272Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.noop.test.ts",
+    "sha256": "e12c3958858fa059f523b06c3e89d16d4be2b33e0e36e6a7b92da5a60646a9e0"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.491Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.provenance.test.js",
+    "sha256": "8e3122a813d129ab13d21e63b426cffa2dca06e140233a203e7078323ab525a9"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.710Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.provenance.test.ts",
+    "sha256": "4be34334856416972910a30c5a6ae9758a5b1c28a929e1d7d19bba051f139960"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.491Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.state.integration.test.js",
+    "sha256": "055ff0988963057b044f98fbe2fbdd3630be11280364626d2520c4cabfbc6b1e"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.711Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/runtime/runtime.state.integration.test.ts",
+    "sha256": "49ff3ad46008355b6eb708149c1ea835eb4a9323e6ab65f4c8799da5cd91aa70"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.494Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/mockSkills.test.js",
+    "sha256": "ce44680300c6ccfe3d2c45d47ac31aea142a87c52258b27d86eacd3e3728db35"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.713Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/mockSkills.test.ts",
+    "sha256": "5e46527c5112c5a45cfc7820798050c3d530fab06e9e2cb3f7e7c60a2a3beaf5"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.491Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/SkillRegistry.test.js",
+    "sha256": "daba1b321fb3027edb4e2605a20f6363af057b0dea58b056b1bed496b92ce2dd"
+  },
+  {
+    "mtime": "2026-04-10T20:57:24.714Z",
+    "path": "SynAI/packages/Agent-Runtime/tests/skills/SkillRegistry.test.ts",
+    "sha256": "af855c3de825f01c14adb464f134a5722bd75bc0048ba9bd7973347612982a46"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.494Z",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/contracts/agent-runtime.contracts.test.js",
+    "sha256": "4bec08b7ae05b6e76f78b1fadac4495021015b579cb2c65b6dd72e12ea1de72f"
+  },
+  {
+    "mtime": "2026-04-11T18:34:52.904Z",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/contracts/agent-runtime.contracts.test.ts",
+    "sha256": "bf75654c5b4b0f351415a18769b7aa54bf90eaa69b5040586c792610d6991d29"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.494Z",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/runtime/runtime-shim.test.js",
+    "sha256": "bdc1c8a6c3a00c446f05dbcb6649ba2a5e5b291d6026b8b64086259b1d020d2e"
+  },
+  {
+    "mtime": "2026-04-11T00:40:09.182Z",
+    "path": "SynAI/packages/Agent-Runtime/vitest/agent/runtime/runtime-shim.test.ts",
+    "sha256": "b36b57a2046eb38193a0a67223a4caed09d3e95199561593ff97394ae809d77b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.225Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/api/index.js",
+    "sha256": "11e91f1a51c0fcea46f50a9036fe51b0ed567619c8c26d18d40e6c2ac9a3f1a5"
+  },
+  {
+    "mtime": "2026-04-09T14:26:27.818Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/api/index.ts",
+    "sha256": "bcaa8ed003e185ae289dec7cbe312e08cb367d540fdd2197b41ab294f63a51cf"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.078Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/baseline/index.js",
+    "sha256": "dd736d8c777ca5ba266b1beac4262bce91bb3e9cc7d47e5db3aba611740e6175"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.306Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/baseline/index.ts",
+    "sha256": "906f004bb02616d930adcba3826146bd1a391738e157dc9a70f82479a24c0727"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.224Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/index.js",
+    "sha256": "3d0257c382d7fa4b848381b3d673344941868a5564f643858af1692cd9942e67"
+  },
+  {
+    "mtime": "2026-04-10T22:05:31.753Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/index.ts",
+    "sha256": "82881df2e0f1d2982c5f62b7aceaa9742863a46c35d06e25435cff68dffe4da5"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.081Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/insights.js",
+    "sha256": "de07f499e9f5daf85f4d93a66627a2bc790de365ca6bafd2da0977526490868a"
+  },
+  {
+    "mtime": "2026-04-09T13:57:43.015Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/insights.ts",
+    "sha256": "21a868da7a1f9a62b9c0098842f8b7007008ef7ad76743904e98998f99261d5d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.084Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/task-runner.js",
+    "sha256": "b0914a09af14a3edf7ebd739034a6b85ac0a221081725b20c2937cfe070364ef"
+  },
+  {
+    "mtime": "2026-04-09T14:20:05.594Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/bootstrap/task-runner.ts",
+    "sha256": "3152af4358061f779b89e89c7ecfcfeef619d106130bdf7ecf8062eb7b15c151"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.247Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/actions/windows-action-layer.js",
+    "sha256": "6a3f8a4e2756298f13350cc521e7fe4dccccc6a1fdcf629f4ee3e2aa26beae04"
+  },
+  {
+    "mtime": "2026-04-10T00:07:22.139Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/actions/windows-action-layer.ts",
+    "sha256": "78b87236b82d776a2e03c5b200531e8fb6c3454c35b640f483879fbbff30d4bb"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.250Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/adapter.js",
+    "sha256": "23fe7bd55bd95b7607124178bd36592e972e279dae32f99e4974809828268c45"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.821Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/adapter.ts",
+    "sha256": "8572b906ed46e35336ebe5e763a7355d9d5f647509ab15ec43573c2f9c1410ac"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.260Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/approval/gate.js",
+    "sha256": "8c8ee8ca0464755605fffa1ef047476d7a4aa4416cfece4af8321a2f96e5daea"
+  },
+  {
+    "mtime": "2026-04-10T00:07:39.530Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/approval/gate.ts",
+    "sha256": "e9787c2876da3fa895dd7c63d0e6c74e35c6aa3b0bc18dc0f394205c43e0fb0d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.241Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cards.js",
+    "sha256": "c8226b2604d8ce6a32ff612d994af06f7a013234e8ad1dd53e76ec5ced293c20"
+  },
+  {
+    "mtime": "2026-04-09T22:59:55.941Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cards.ts",
+    "sha256": "3cb4ce0640c2e93a14f3144e7b05492ca5f3096f16727418690dcfeba0c3a0ea"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.258Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/classifiers/gap-classifier.js",
+    "sha256": "2e62a79aac429a8e8896e3b93db2ffde4cc70a861c9768eb0e50296bafc008a8"
+  },
+  {
+    "mtime": "2026-04-10T00:14:16.091Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/classifiers/gap-classifier.ts",
+    "sha256": "020de92b365026c74e18c774bf9cfbf0d5d386c30584f26da22d44708c23cc40"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.272Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cli/index.js",
+    "sha256": "19889f827a71347264b84edf86646452f526b1772a040d38b5fc9e8da131066e"
+  },
+  {
+    "mtime": "2026-04-10T07:32:43.573Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/cli/index.ts",
+    "sha256": "9a6c3a5d222de70fa8f4e8e56b03e47f15a3bde180924796d708985d036eb1e1"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.241Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/context.js",
+    "sha256": "7b8954224605553392de9dc4de170cee02a3d59f13c4aa018ca32ba3e6dd42b4"
+  },
+  {
+    "mtime": "2026-04-10T00:09:13.288Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/context.ts",
+    "sha256": "169085460b088c8fa5e6c119239e1f1ea45d0fe7fc1fcdc2c164b0f47a3df3d3"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.241Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/contract.js",
+    "sha256": "7d7bd9363830edddc564961fd511580fb246a9090c41a8aee78bfd083a990a25"
+  },
+  {
+    "mtime": "2026-04-10T07:24:14.101Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/contract.ts",
+    "sha256": "a2432db94d2edec5722a1382a597502d63867d7ec72dd7b26ba1bffa22f70cfc"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.272Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/index.js",
+    "sha256": "a72cfa870910905c796396203f508d4dae7a00bdb227a884d085b0ec98978c3d"
+  },
+  {
+    "mtime": "2026-04-09T23:11:46.324Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/index.ts",
+    "sha256": "a72cfa870910905c796396203f508d4dae7a00bdb227a884d085b0ec98978c3d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.260Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/remediation/planner.js",
+    "sha256": "fbe2dd56ebbcd9466f088bff8e45eb73865dc055dc0c16c2ba5d82ce43f4b3d9"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.822Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/remediation/planner.ts",
+    "sha256": "f94fa92dc37de3bc7ae5738264778fda00d2b95886e6aa34659b5d58055aec0a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.267Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/runners/eval-runner.js",
+    "sha256": "1aa056344be16db6957499e66b3eaf8861cda00d35a6ebcb3335111d05569ee0"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.821Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/runners/eval-runner.ts",
+    "sha256": "5fb1717a720c53e9075e38530d333c2bd31a2537fe220ddd30b1c6a78cbdeb2c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.241Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/schema.js",
+    "sha256": "c6e5cb2c05a1f246c658dc51e9d3625ef9d11aae72c03a890561a1dcaa2f5aa4"
+  },
+  {
+    "mtime": "2026-04-10T07:23:45.354Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/schema.ts",
+    "sha256": "f2905e92983f947c1d68ac446a9da188b1b55887132ce79de7192ffd880860fc"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.236Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/types.js",
+    "sha256": "cbe3744ccf757931d26b828a6e342e021f218539176f303ea5c429c2cf3e020a"
+  },
+  {
+    "mtime": "2026-04-10T07:23:20.174Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/types.ts",
+    "sha256": "f0cea7ad4bafd0bcd6838297e65558baed8b8b3a1d1e3fe41ac822c24b3ac779"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.254Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/verifiers/index.js",
+    "sha256": "e08b1437f6a6c4de4f5135abe072c5f747b5d7b23a2d91b04121f5b730b196a0"
+  },
+  {
+    "mtime": "2026-04-10T07:24:09.463Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-eval/verifiers/index.ts",
+    "sha256": "4b4e32fa3ab53fa7202c82e2fe9572cc1916050c53d2617903258a393336f82f"
+  },
+  {
+    "mtime": "2026-04-11T01:46:57.013Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/catalog.ts",
+    "sha256": "174a2054b6731c33516f565b7b4b2523199d8aa04ded6c7762f964f205e6e381"
+  },
+  {
+    "mtime": "2026-04-11T01:47:54.378Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/index.ts",
+    "sha256": "82bacb26f2a41f9f1c974920b5a99cd315c08ec8d8ca3677a906ff9167b96453"
+  },
+  {
+    "mtime": "2026-04-11T01:47:30.632Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/report.ts",
+    "sha256": "cd94834949dacadac266e3d5e86937b24b0c1eda4dc2c45fb595511dd608cb28"
+  },
+  {
+    "mtime": "2026-04-11T01:45:11.607Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/storage.ts",
+    "sha256": "e6a70a7736b9d4206e96d83670cd1d04e9988244da4e5e2a4a55788759ba1df6"
+  },
+  {
+    "mtime": "2026-04-11T01:47:49.171Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/capability-runner/validator.ts",
+    "sha256": "266b2270856d06801e496e1decda0654a5cdb8923f323029aebb3a0e9f02c944"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.907Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/awareness.js",
+    "sha256": "b7fd4a6cebdc3b6c2d5e308df7a383236155bfa4556b074a24c0691e823272fc"
+  },
+  {
+    "mtime": "2026-04-10T13:48:36.144Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/awareness.ts",
+    "sha256": "2eda985beb97058293a62c96fec37069cfce34ac9079c510c9c065bcd57289cb"
+  },
+  {
+    "mtime": "2026-04-11T01:48:55.054Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/capability-runner.ts",
+    "sha256": "6dcf8c1ef8619c7dd80fc52852558679ae1186cd0e8efbc945eb94f2ccc6622e"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.923Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/chat.js",
+    "sha256": "69b0f561c9dbf9c6f35b523571e2011bae548dd2d800afb6a2b80e7cf39e5bb9"
+  },
+  {
+    "mtime": "2026-04-11T18:22:12.284Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/chat.ts",
+    "sha256": "5ecd779344bf4ddd4b2acebbb15c95dc2e5753e36a3b10fc714f1418be79a39c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.909Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/grounding.js",
+    "sha256": "c10c641ad26d0810f993d8468396df58b85b519faf316abb452925aae63c7bdf"
+  },
+  {
+    "mtime": "2026-04-09T21:07:43.109Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/grounding.ts",
+    "sha256": "9b8a68d166e5cb662f57c46ea0f346159a69c0059ec3abce2107c614159c08c0"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.911Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/health.js",
+    "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+  },
+  {
+    "mtime": "2026-04-09T14:19:48.634Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/health.ts",
+    "sha256": "1714d7fe3e9270150f5872a73c6033137d8172da684875a494a9b6fed86cf7e9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.939Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/index.js",
+    "sha256": "c5d0a854daa9a28a9015e2435e2f4522e9213cd7605ece10664e3752e2139049"
+  },
+  {
+    "mtime": "2026-04-11T06:15:15.419Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/index.ts",
+    "sha256": "c51ba6ab21512ae285af5aba6f05f6a3b53750930c2b9d26376ebcea300a81c3"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.939Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/ipc.js",
+    "sha256": "3035d84e7e3645b61b509ac1f1df3535f0de92a26ad0ec454c0d44a879b7b8ed"
+  },
+  {
+    "mtime": "2026-04-11T18:22:24.649Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/ipc.ts",
+    "sha256": "7c0cd4ea19531aac667647a33d138ed2f596496e1781cd430a7aea4acb1810a8"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.922Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/memory.js",
+    "sha256": "bdb03509e53de88147bc9c69e0919f02ef8040040e8066ca7848c2f1291db3a9"
+  },
+  {
+    "mtime": "2026-04-11T06:15:30.962Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/memory.ts",
+    "sha256": "8a0f71a8c9db475b7511d897da48ab2df3cbaba03bbb6e3f5d86650d4ac8828f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.923Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-eval.js",
+    "sha256": "60a36111ebfe8a944d77daf9d3d4070e38e4be514ed01298bce2c1910b80f358"
+  },
+  {
+    "mtime": "2026-04-11T06:15:41.698Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-eval.ts",
+    "sha256": "b06df75f8389bfc84545ff3d75352229e3cbde576deeb8960e078f3e22390a13"
+  },
+  {
+    "mtime": "2026-04-11T04:52:52.558Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-intent.ts",
+    "sha256": "45a9a98905949d43ea17bbb990d597b72e91be9e18b4aec76e7ee2d04c07b937"
+  },
+  {
+    "mtime": "2026-04-11T05:23:04.794Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/prompt-preferences.ts",
+    "sha256": "218b54cf180a52a9858ad15b86ea8a3f6877aac1d98a4ca87a76738eff7c8380"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.911Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/rag.js",
+    "sha256": "5e4db9c49b33024dbee9f0cb6d10176c21f3ed081ce457ef9fd31e54ffcaadad"
+  },
+  {
+    "mtime": "2026-04-09T17:51:48.908Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/rag.ts",
+    "sha256": "aa32157a35469b75483a1b33d6a87b6f7d46c0b3bc5078ca7db3848a6eeef9b5"
+  },
+  {
+    "mtime": "2026-04-11T06:15:11.948Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/contracts/reasoning-profile.ts",
+    "sha256": "324e9d1ec09a01f9cd5ac8a22d9e41b4fe8b59e5fddc3ef7366b147316c5e894"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.204Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/index.js",
+    "sha256": "f3ed1fd99edb29821e0145bc75dac63b6078b8b4f5075427d5c66e660597a7ba"
+  },
+  {
+    "mtime": "2026-04-09T14:17:55.639Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/index.ts",
+    "sha256": "f3ed1fd99edb29821e0145bc75dac63b6078b8b4f5075427d5c66e660597a7ba"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.193Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/journal.js",
+    "sha256": "0af6560e140b911125c07a2e8400c51b9fb71cfb64a836487c933195c34f91b6"
+  },
+  {
+    "mtime": "2026-04-09T14:17:42.828Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/journal.ts",
+    "sha256": "4161d076069b005e9357beab78d29b75618d1b983fc6d10d20e8a893eaf74fc7"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.193Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/queries.js",
+    "sha256": "7cf5db9305ad5739b9054c25e7fa25f3f9d68c501549acbc1d73aaebd643db7c"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.285Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/queries.ts",
+    "sha256": "db9091350710ebd955b19a589c2d3679928bf4ee6ec2e5594dbf2efcc9c54d86"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.191Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/scanner.js",
+    "sha256": "bfba01a3f342f019b4eab4422dd58ad11b818187d9da1b61d0e784ed69d62c33"
+  },
+  {
+    "mtime": "2026-04-09T13:52:04.191Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/scanner.ts",
+    "sha256": "046e0e1147256f8a45dcec00bf0448c6ed1e8c6637abbec93093c74862a67df9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.096Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/shared.js",
+    "sha256": "68c471c0305ef5e4b612e8f57c5d35546bcad619725bae478baa4f116236a233"
+  },
+  {
+    "mtime": "2026-04-09T13:52:04.191Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/shared.ts",
+    "sha256": "55595332fd2f846aeab969024405df700c66bfc13c7848456649db8ca324a6a2"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.200Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/state.js",
+    "sha256": "db1e1d8f181fec9e289543e3819a62c9ede55675e91dc48fe4830f87ccd1c12a"
+  },
+  {
+    "mtime": "2026-04-09T14:18:23.827Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/state.ts",
+    "sha256": "f0d98fcbd6d69d1012e6d2c08d5cd2a1b38e6fb0c6401c3d0d7748db3ca2e234"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.199Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/volumes.js",
+    "sha256": "a3c74c6d6a8158be70a9aaf8a706de1cf3ef21a3a654dc024dd2275f9dde90ee"
+  },
+  {
+    "mtime": "2026-04-09T14:18:13.058Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/volumes.ts",
+    "sha256": "3a856ef2e4379bc2a5906c8b156618da9251a11ebebede875e92398bae89a08f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.204Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/windows-search.js",
+    "sha256": "19dcfde14625f0f1b9e00c55ff9c1fae98fb18529ef9771f1fa57a94a6fb094f"
+  },
+  {
+    "mtime": "2026-04-09T14:28:18.463Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/files/windows-search.ts",
+    "sha256": "ade081eb0f1524e0e7ca1d0d1fda03848bb21c729fcef57517a3be51f6a914eb"
+  },
+  {
+    "mtime": "2026-04-11T14:04:29.949Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/miner.js",
+    "sha256": "a05871b3c50a9b5540a981d709facbec2c056ff541622b069b6cedeef0bac915"
+  },
+  {
+    "mtime": "2026-04-11T14:04:18.348Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/miner.ts",
+    "sha256": "d80c46d0173100e9f88ce9fae43dfa40c4a5171a90ebd9dee7989fc44a963ac0"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.272Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/replay-envelope.js",
+    "sha256": "d8c243f6ec439a275232cdf515e7f07052ad8835d452beb56a6975a5c9064e53"
+  },
+  {
+    "mtime": "2026-04-10T13:47:35.067Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/governance-history/replay-envelope.ts",
+    "sha256": "87c7c46d114d4f31623b78b9d23019583370a2d0461ab6009504a6529ae3b0b8"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.278Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/index.js",
+    "sha256": "c61aa17dfe6f56952fe0d1f269511a138eaf9b92f37402699899951fef699d69"
+  },
+  {
+    "mtime": "2026-04-11T01:48:01.224Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/index.ts",
+    "sha256": "c3a78d3c52cfb76b76e3cae77137d0cc8a10fd211e6d16c483e28dd679419bc1"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.204Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/journal/index.js",
+    "sha256": "671760c84d175ac6549746e6407ac85d3e103762334bab2a2af68c072a30cb4a"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.217Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/journal/index.ts",
+    "sha256": "321540c1c5b544de70e994bb7b6c4e9e8ab406337057fc92e7c4f07724d28f17"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.960Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/chat.js",
+    "sha256": "955690a87db76bcd50d4281c5b4beb6554df735dd1e6f3377e64ec0d148e8e17"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.751Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/chat.ts",
+    "sha256": "e9ef3a05c13f2485f5e73b460e5fa254f1a97e4fc9a1e2f7e671351619c18bc1"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.962Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/embeddings.js",
+    "sha256": "8bbea99dc848257dd6f6103264c361248218a3a6d3fb68ed40ab2e577a79bc9d"
+  },
+  {
+    "mtime": "2026-04-08T03:53:55.838Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/embeddings.ts",
+    "sha256": "fe9c2f59db63623d36d102203dd9a9bdc50be2d1a759c8cf9149ab327dd553ca"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.954Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/env.js",
+    "sha256": "e8c28f5650bdd6a78cde884f10f640269cd65b65a49d73bb3f5583f6c005683c"
+  },
+  {
+    "mtime": "2026-04-08T05:01:06.121Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/env.ts",
+    "sha256": "84fe3a66eacef3eda2a24d23c2c14a3600c8a56f64a02112e81bca407de680dd"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.960Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/health.js",
+    "sha256": "5d1bbf5622d6e89bf2219dd8730222dd4c43f16a141c56a572c396ae4b21257d"
+  },
+  {
+    "mtime": "2026-04-10T21:53:08.679Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/health.ts",
+    "sha256": "9a1a4422948c078e4bf6ecc08454e00ee030cd2ba64d18b3dadb26db4057fc8f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.962Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/index.js",
+    "sha256": "abd96360f1d4ebd5084d928cb3cdaabad8a30c8e148c89c72dad5b95437c609c"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.716Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/index.ts",
+    "sha256": "f94f02340b725312316f22d526d3babcf1909b3bafc45ca2d11c432104fc4d12"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.958Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/ollama.js",
+    "sha256": "ab17673beb7d6e36c566e20f5a7e3968b57f08f400cdef2c2521dc0f494380af"
+  },
+  {
+    "mtime": "2026-04-10T21:53:08.679Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/ollama.ts",
+    "sha256": "a9716248fe72ad24c96595ced0d47776805dee4fb73727ba885fe9d23fbfd6a2"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.960Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/provider.js",
+    "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.689Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/local-ai/provider.ts",
+    "sha256": "cd1724f161884a9f2369fd010031ba5ef8382da1c29ab63e5b8bd2977838615f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.112Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/index.js",
+    "sha256": "aebd535dac7170a64eef03afa16a68763f961b54ef136e329fbc344cc215f10e"
+  },
+  {
+    "mtime": "2026-04-09T13:57:25.556Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/index.ts",
+    "sha256": "268b6889c2d56a413d7cf61cbcb7398622183f543255147862b8f0121f9fac54"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.098Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/maps.js",
+    "sha256": "ad14bea96c6e9be59977819f3ebe1e87b48e660bb05e062f62477378a5f5fddd"
+  },
+  {
+    "mtime": "2026-04-09T21:20:03.084Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/maps.ts",
+    "sha256": "c7ec5f4d2a722686bb9a4dae7937ba4d93f1ec4d1843d7c501d9611b680bfa0e"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.104Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/windows.js",
+    "sha256": "50bc2f20210341723af5231d371eb1364b6f0bbaffd3555f6fefb1ae8c3411cc"
+  },
+  {
+    "mtime": "2026-04-10T12:09:14.659Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/machine/windows.ts",
+    "sha256": "4c5a116aec631c24d05c8dc9b823454301e4501baf3e140221764413041a4792"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.295Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/index.js",
+    "sha256": "c3ff25f7cf4ca9257069bfc4f937b6bb7c5b71e6f5817d2d770feb9bda5722dc"
+  },
+  {
+    "mtime": "2026-04-11T06:17:48.410Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/index.ts",
+    "sha256": "98bcdab8fb45c2559ebf2804ddb21a95e5496b18ca6b5ce4b66e37bd8a3a8298"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.284Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/dedupe.js",
+    "sha256": "e2592b2e4986e22436134834f4cc0dc91b8b4a4e0c01512c2b5f7db35eb91dcd"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.972Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/dedupe.ts",
+    "sha256": "9658e62398c283095079d5d6d0e9f1fa53f246e67c20453d66db61bad3e9b0ca"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.284Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/importance.js",
+    "sha256": "20bc3320a27738f08abacb02a1132723d50a739a3f1c455ffc123d55f0f4c75f"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.956Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/importance.ts",
+    "sha256": "52401259828c148618489068cf7387cf3507ee73508bab33f1658784112ad0ce"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.282Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/memory-extractor.js",
+    "sha256": "5c66be8989d9202f5c497dbe2e43f3055e7413c8d3f98a10abf9719031e92cfd"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.933Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/memory-extractor.ts",
+    "sha256": "3565db0b95b691915707c076bced86b41e442e8ca37ee0739a3ee894e7a87189"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.282Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/summarizer.js",
+    "sha256": "841f2fbbc2d425379d39686f7bbb78afad4814ca38645a144ab6c70b644a0ce0"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.914Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/processing/summarizer.ts",
+    "sha256": "85fe839a9f3f6343929e5e512b5426bd24034c3e887a0c378262f474a73b5663"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.284Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/keyword.js",
+    "sha256": "d45fd0b068adcf805983dc6fb10cf323b2dd1ecbba129184958b654c8879143f"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.105Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/keyword.ts",
+    "sha256": "c691e846dc0beae216b2599e0d5244b23e597836f16e742c5fbccc5a4ea7548f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.284Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/ranking.js",
+    "sha256": "196c1083555b2d2b1b8a58de3326090c9c7ff19eb2f85d61a4ca12ca63035721"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.124Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/ranking.ts",
+    "sha256": "b0ae21cc271c0edf4e6bf5cb083d2e2d536ad0ece74e28f9532f9017a3c1e5b7"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.284Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/semantic.js",
+    "sha256": "ff18ea63292b9be0b99d6e4447505bf3c2603bafd30bd3e0d9dc4b9223c0e13f"
+  },
+  {
+    "mtime": "2026-04-09T15:11:37.690Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/retrieval/semantic.ts",
+    "sha256": "a05e942ab2e88188df049814ccc77993b0ca257ccb1fe089eb50279515746215"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.288Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/conversations.js",
+    "sha256": "0046e8d8dae66ea9abf40a0ad9024609a6066c89e20784dda2d2f10e77d32ce0"
+  },
+  {
+    "mtime": "2026-04-09T12:31:52.994Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/conversations.ts",
+    "sha256": "b59a695add2f78196ab501e87d31b53ae2050e4601d97a02b21064c90fc0eb9d"
+  },
+  {
+    "mtime": "2026-04-11T05:35:14.017Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/db.js",
+    "sha256": "bbb76c289992beb4774adee7ed1a5cc05cc74d07cef6c8bd2df793a136a4e3d9"
+  },
+  {
+    "mtime": "2026-04-11T05:24:09.342Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/db.ts",
+    "sha256": "b95a797e2429cff5ca97b591dd647bd25dd242fccf0a42dd6c9a47aeeacd6c7d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.293Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/memories.js",
+    "sha256": "fee5d2d1f6e63020aa489fd6973e710df88fe9b1f37195543c6e6b2ae270509b"
+  },
+  {
+    "mtime": "2026-04-10T13:56:39.600Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/memories.ts",
+    "sha256": "1e82e32fd109054b34352845c9e03dbc8748c6f0d9cefdb3d3fd1f651afae1f8"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.291Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/messages.js",
+    "sha256": "d49cc3ac4f249611c1ac844b6c386fbae64927521474887e8a44feff2759f00e"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.032Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/messages.ts",
+    "sha256": "ebf02b5abf1d7bac36679d86c26622422a04d6aa61209d772617fbbf7e38a1df"
+  },
+  {
+    "mtime": "2026-04-11T14:04:04.088Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/prompt-behavior.ts",
+    "sha256": "dda22585f91e91e19acd3ab7922eac12ab9723b947fa0f876efe1041084bbc47"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.293Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/summaries.js",
+    "sha256": "05961a36b70f5936293d4f4f8f230156069b346270ddebfbbdfd865704dcc895"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.069Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/storage/summaries.ts",
+    "sha256": "90dbe8114c0d6dfd9a823df4389e70fdb48f1aab64b5648d47e515a4eec10abd"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.069Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/types.js",
+    "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+  },
+  {
+    "mtime": "2026-04-11T06:15:53.336Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/memory/types.ts",
+    "sha256": "87963438d469b97e5fcdbbcc99cc98289d5f43b29c4fd3ac027777411489d851"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.927Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/catalog.js",
+    "sha256": "6d7cd953934479f3ae680c2e5ba0c48fce6cab1f13a6e432cd918e5352afd5b1"
+  },
+  {
+    "mtime": "2026-04-09T13:14:13.558Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+    "sha256": "601ad3f2695aa8825dc8aabd128d46fabac778fa4c1366175b10ba0372322d1d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.936Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/index.js",
+    "sha256": "536b42e3e2d033a07af3e80c2d694d6856bae27bb352e02143b5993e648f289b"
+  },
+  {
+    "mtime": "2026-04-10T09:47:34.803Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/official-knowledge/index.ts",
+    "sha256": "23ff9b32a2144c9e1d522e619c186509b53d12b273a066a6aabcb0ce577352af"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.086Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/chat.js",
+    "sha256": "fcc181883acc181c56d0869a20a1d420a3f68731ed81723602795417b33fd9af"
+  },
+  {
+    "mtime": "2026-04-09T17:55:16.843Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/chat.ts",
+    "sha256": "4c6bccc0309169a579a40a1d1ac08a60278a152d88cce693fc758dd1fe88441f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.092Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/grounding.js",
+    "sha256": "7e56cfd30b04c896c419b6ce692f693b4e456ec11ec5c84a77be180387b0a8ef"
+  },
+  {
+    "mtime": "2026-04-09T21:14:20.447Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/grounding.ts",
+    "sha256": "30cc8b76c315f81b8ea66cf62849e729dd95a52b17e4339a7fe31f24845b74bb"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.183Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/index.js",
+    "sha256": "608341e7cce52d48044dd461c7831f67f3c2cf451be5f47924ea2a6a41c2b847"
+  },
+  {
+    "mtime": "2026-04-10T12:19:18.287Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/index.ts",
+    "sha256": "a4be1536070b39a9c62aa8ad30ad17ff6408fc231cca2bb4684b1f44ff5bb0db"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.092Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/resource-usage.js",
+    "sha256": "2797f190ea09afb7fb377e89a0aad771062f9a5589359cdc646c56bc412a8604"
+  },
+  {
+    "mtime": "2026-04-10T00:16:38.086Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/reasoning/resource-usage.ts",
+    "sha256": "48310ae271d33f064422b1a1f57def1d543034d06eee68a2de4146f6e71c3bce"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.234Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/index.js",
+    "sha256": "80b052c194dec5a38185748a493a09fc402fa869e80396f9442d768c84026d17"
+  },
+  {
+    "mtime": "2026-04-09T15:09:59.589Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/index.ts",
+    "sha256": "80b052c194dec5a38185748a493a09fc402fa869e80396f9442d768c84026d17"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.234Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/workspace-index.js",
+    "sha256": "9cb1051f6e9560c795ccc690b67e0539cbaa08a9c482829280b648b5960a7710"
+  },
+  {
+    "mtime": "2026-04-11T12:57:41.922Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/retrieval/workspace-index.ts",
+    "sha256": "51993f3c7cb4529ea9ca3d35520898e661487195ddd6ae1f3a3b09c0f87da93f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.278Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/runtime-capabilities.js",
+    "sha256": "6a648148efe4b0eefc771c658036100a39cf86fda62b49aaebdef8e248dc2856"
+  },
+  {
+    "mtime": "2026-04-10T14:00:37.136Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/runtime-capabilities.ts",
+    "sha256": "bb16a17915e105e799bc27401f8cd2247eb86708c63251a7dea34f512f19ddb9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.214Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/index.js",
+    "sha256": "9b4b03ae3e32fe332fce16e5769cb57b74cab3e2fd5c3f8565d775c89cdb444b"
+  },
+  {
+    "mtime": "2026-04-10T13:49:47.525Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/index.ts",
+    "sha256": "a16cc8342e43421fd90ca1f96ddfef529dce98472b48a6a049646c8ff2e34767"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.115Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/shared.js",
+    "sha256": "f47635ed018f6fea87c55f3606653adab310f4efa8f7760f8373a4fac134a386"
+  },
+  {
+    "mtime": "2026-04-10T13:48:39.591Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/shared.ts",
+    "sha256": "3c00c91d722675c95a3081171adb6fcb9a78aa3fce6b3e29a66a6891fa5fda53"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.206Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/windows.js",
+    "sha256": "12cfd91b78a137d4ed94bd34d455e602eac5e3563f525d7be1fbe1b1b3744d93"
+  },
+  {
+    "mtime": "2026-04-10T13:49:57.865Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/screen/windows.ts",
+    "sha256": "ae13286515d0d1fc9c675c2f28475607d5d68a6d24447074cad91af23a5e37ba"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.994Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/target-knowledge.js",
+    "sha256": "da2fd74b7c4270ad61c36273625783942ff302c9783cb52c2c2a240ad55b1dfe"
+  },
+  {
+    "mtime": "2026-04-10T13:24:36.116Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/target-knowledge.ts",
+    "sha256": "44dac6406249e03f90a6f7b6540dc6c99f45761c468339d1f5233727033121e7"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.027Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/web-search/index.js",
+    "sha256": "96888b5e3dc51c920c1741bf1ed804f8a5e901e00991c2614927dbb3021a3b04"
+  },
+  {
+    "mtime": "2026-04-10T14:48:54.400Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/web-search/index.ts",
+    "sha256": "cd584591482ad41d9bee4222dc00a0c0883617c0e1cda2ba6f641a78837b3346"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.100Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/windows/powershell.js",
+    "sha256": "93a5b5c1fb1d30494b2dffd3bf27cfd4f814a54987a6f282894a2056f9848c6d"
+  },
+  {
+    "mtime": "2026-04-09T09:01:31.238Z",
+    "path": "SynAI/packages/Awareness-Reasoning/src/windows/powershell.ts",
+    "sha256": "1ef3f9a11ea2f94241ee24a23f4fbddf7007c3fb6fd99d6f83c88972a2075779"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.513Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/awareness-engine.test.js",
+    "sha256": "6381ab49fca7fb0d141f0bee28d836aa85fccae2ec27a102e90bbdaf36beecfe"
+  },
+  {
+    "mtime": "2026-04-10T00:19:07.783Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/awareness-engine.test.ts",
+    "sha256": "4e0b663b568ede023790daea57c1e93a380fabd172d3faf56157cf1e28e5f1a5"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.516Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-awareness.test.js",
+    "sha256": "29606b152db0a2ad0129562e77d73edfd9683fbde82b7f8597e90fee336da7fc"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.480Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-awareness.test.ts",
+    "sha256": "ee8541dc86fb1c1865563f32d197f2ac83375a6c151ec19474559f61dbd50fa3"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.521Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-journal.test.js",
+    "sha256": "c47bff0184e505376a561fd80332022ca781d2c395fe627e5f258636b9b9db4f"
+  },
+  {
+    "mtime": "2026-04-09T14:22:48.011Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/file-journal.test.ts",
+    "sha256": "0fbffb65319d06b7008f786701566f723068c1b2f9cfa9a401659a81b4a906e2"
+  },
+  {
+    "mtime": "2026-04-09T18:00:16.807Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/fixtures/grounding-eval-fixtures.json",
+    "sha256": "347bbbb2fc1694581edee45361a6bae07269116bf3c9077d1b0fe09bf609ad32"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.523Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding-eval.test.js",
+    "sha256": "4ddbabedbbe85a7b008fc9f50d4e6b404b9a5ec2a87cb680c64f908ef852ef68"
+  },
+  {
+    "mtime": "2026-04-09T18:11:06.284Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding-eval.test.ts",
+    "sha256": "93ae9e48d029a76859bf6935ddffb511b8427b69c1f12351d05577e88f2c9bac"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.523Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding.test.js",
+    "sha256": "e2bf74f6d39a77699ff4857ace2b6603de6a9e95b8f09d358f8db1fd1a0e1e93"
+  },
+  {
+    "mtime": "2026-04-09T21:23:03.592Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/grounding.test.ts",
+    "sha256": "dbb325944492d18014a6f0cb4a7a2933b0dd60351ab054a7f2949b2a52943649"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.526Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/machine-awareness.test.js",
+    "sha256": "ea7b6632df08b3d69c2419a7d993d04a7e0906b5ae6c65de3f8edac4c62eb70b"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.533Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/machine-awareness.test.ts",
+    "sha256": "5305894fb1fbec041e717779d71731837e6933da3a3e0645a461d96602960b64"
+  },
+  {
+    "mtime": "2026-04-11T14:04:51.239Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/prompt-behavior-memory.test.ts",
+    "sha256": "ad26138bbb4533345826bebf89bf4aba759cb6f1e76d0b1f0c4d3eacaa4b9343"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.528Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/reasoning-chat.test.js",
+    "sha256": "c0b1561c34b07319b91ef0b97f3a2d2fa22fe7d8bd792ce1d8746fe506447e06"
+  },
+  {
+    "mtime": "2026-04-09T15:36:55.506Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/reasoning-chat.test.ts",
+    "sha256": "af2476798b528de08918d96301bfe32192a723c322358b5a8e69b86576d93d6a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.531Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/screen-awareness.test.js",
+    "sha256": "7aecea424d6e66e3dc5f1409802541d18ca23f92860c63bfd567ec519de9a5b9"
+  },
+  {
+    "mtime": "2026-04-09T12:31:53.555Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/screen-awareness.test.ts",
+    "sha256": "e184967ecfade6b87e07ca0bbb43e7bbf7226e5e21ae413961be2e42a6bde160"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.532Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/task-runner.test.js",
+    "sha256": "83cbed69b616771dfc03b780a35982a9b46c7beb7fda50d2a22aaeb45de9e5fc"
+  },
+  {
+    "mtime": "2026-04-09T14:23:07.425Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/task-runner.test.ts",
+    "sha256": "b292723c752017a7a42d8b2f5733e0c6d707725bda4d012d52ba85da2c21229b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.533Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-powershell.test.js",
+    "sha256": "350fcc890e446a90694e7710c7157c0797a41893c194d51ba2fd941ac6d0a610"
+  },
+  {
+    "mtime": "2026-04-09T09:10:28.618Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-powershell.test.ts",
+    "sha256": "5e2811c3cf37cc333d501d8e7783e92d44e1613219dbd7d55ba92ea2394da567"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.535Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-search.test.js",
+    "sha256": "05de46ea016aba8403c819cdcd1cc7307a5e1258633e84d2ae2c0b3c390fc111"
+  },
+  {
+    "mtime": "2026-04-09T14:21:51.583Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/windows-search.test.ts",
+    "sha256": "628356365c1fd139df2e007978a437557f9f75c2905973ee4481b979561c0080"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.536Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/workspace-index.test.js",
+    "sha256": "9c5013d5fe9b16ded9a2da98eedec131a7b7f96f907c6fe5b9152db3f404069c"
+  },
+  {
+    "mtime": "2026-04-09T15:36:55.506Z",
+    "path": "SynAI/packages/Awareness-Reasoning/tests/workspace-index.test.ts",
+    "sha256": "9dd9b50b168ab6432b752c0796550b79c6beb1b40b0dd572ca50d93461d3a789"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.076Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/clarify-delete-folder.json",
+    "sha256": "713b9a0fa0c76ae576da59a643083718ff317e0eb6281497555af0c7260fb842"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.076Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/close-chrome-safe.json",
+    "sha256": "82ba12a15651ab776769c3ed3f17f9951413dabb7e5c6ad2f0faeb53e3c55122"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.078Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/delete-folder-approval.json",
+    "sha256": "fd536010f66ebe8969f45c3f0ddd871fde7ed843d1df7d2920a3f5aa903a875b"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.078Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/delete-folder-rollback.json",
+    "sha256": "dce3e43056cdee93b3d70b6f2827763b694f08a66ce67474e2800936b23b79d6"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.076Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/open-add-remove-programs.json",
+    "sha256": "04bb9c0ef68ef99796c6cc5678b33073927e9d85fac76317fd3abc69c428fc1f"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.078Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/refuse-remove-chrome.json",
+    "sha256": "c88c03484f1941fa2dbc913120460aabc221786d7e1dedacc0bc1456fb374148"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.076Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/research-ai-report.json",
+    "sha256": "1866efd2402d40d9e4a3ac2bc72af91a4456aa086ef9a4211a580fe37ebc671d"
+  },
+  {
+    "mtime": "2026-04-10T07:35:02.078Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/governance-exec/terminate-chrome-verification.json",
+    "sha256": "3bccfd464bb6cf1b22c0c14e1f9a7b57fd72e708be36cdefab4e9161b7b01e0d"
+  },
+  {
+    "mtime": "2026-04-10T05:35:49.391Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/create-file.json",
+    "sha256": "2183ff412eb0050e1168cd091471fb1176d5b6f0941325b2c48bf384db1e9f57"
+  },
+  {
+    "mtime": "2026-04-10T05:35:49.391Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/create-folder-and-move-item.json",
+    "sha256": "6b2bf8d0111da1062041fcc6622842dc15b4e3cb7a70c3bccc305935fa74bba8"
+  },
+  {
+    "mtime": "2026-04-09T23:09:54.322Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/explain-action-path.json",
+    "sha256": "13503268e929b65a5cfbeda271f34c1dfdd3aafbd3b729edcb941c55bc9e810e"
+  },
+  {
+    "mtime": "2026-04-09T23:08:55.277Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/highest-ram-process.json",
+    "sha256": "c1a9ba9b6e09e33cc3e79c917429b55c368f9b6294b64a95675c06166017f8f0"
+  },
+  {
+    "mtime": "2026-04-09T23:08:43.099Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/identify-slowing-pc.json",
+    "sha256": "39d63728a45a81439439517d12251876a1a5ca7cef7f897a8d9d37650511c240"
+  },
+  {
+    "mtime": "2026-04-10T05:35:49.391Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/launch-program.json",
+    "sha256": "aa0989ab443d646dc3420856d9f0c3bf03197486acc9d8af70a55990e08853c9"
+  },
+  {
+    "mtime": "2026-04-09T23:09:25.876Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/open-add-remove-programs.json",
+    "sha256": "b3a1a82c6678d5ed9e1d22738df745c0bc14e6f2872c8d6e13cc2854316d3abe"
+  },
+  {
+    "mtime": "2026-04-10T05:35:49.391Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/open-folder.json",
+    "sha256": "94bddd110e1bcd8e80b6d4e1fb49ae7e25bb4f546afbd3e920453e7f6ff2591e"
+  },
+  {
+    "mtime": "2026-04-09T23:10:08.459Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/refuse-risky-action-without-approval.json",
+    "sha256": "f75866a1f5a4f33a4bf6414e40198c9e145f7f02e348540b6a73b9abe04f04df"
+  },
+  {
+    "mtime": "2026-04-10T00:12:58.267Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/safely-close-chrome.json",
+    "sha256": "647a4d2daf8fe5b2c43ec9e0fb02297f08d93b96c6def7a8f8a6bb5a538c7270"
+  },
+  {
+    "mtime": "2026-04-09T23:09:40.335Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/suggest-darker-theme.json",
+    "sha256": "a7e3e92f9d45aff00d4f933f45a3e5528f67ca70bdd6853126f68f52fad4299e"
+  },
+  {
+    "mtime": "2026-04-10T05:35:49.391Z",
+    "path": "SynAI/packages/Capability-Catalog/cards/windows/terminate-exact-process.json",
+    "sha256": "355a11e4420d89b748ef185a6ad1b88180d022122ecce5d2995bbb0444877444"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.005Z",
+    "path": "SynAI/packages/Capability-Catalog/index.js",
+    "sha256": "714e7770b396fd19edb09125ab6370a8bf63b906d1303fa1b55e2d750e959192"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.819Z",
+    "path": "SynAI/packages/Capability-Catalog/index.ts",
+    "sha256": "714e7770b396fd19edb09125ab6370a8bf63b906d1303fa1b55e2d750e959192"
+  },
+  {
+    "mtime": "2026-04-10T00:09:17.068Z",
+    "path": "SynAI/packages/Capability-Catalog/retrieval/index-hints.json",
+    "sha256": "5062a992b2c6a7100345acda1d36b54327e86195ceedf3bc27c904fe112a9771"
+  },
+  {
+    "mtime": "2026-04-10T00:10:24.034Z",
+    "path": "SynAI/packages/Capability-Catalog/schemas/capability-test-card.v1.schema.json",
+    "sha256": "287df8e2a6ee3b8e8d807d42978350d4df5973ade2f144b075216b81329fc861"
+  },
+  {
+    "mtime": "2026-04-11T02:00:28.055Z",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/agent-task-catalog.yaml",
+    "sha256": "c1c670fce2726873676001f5964f14af096330ad7448681ad2656c7e1c16f550"
+  },
+  {
+    "mtime": "2026-04-11T02:00:28.055Z",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/app-feature-catalog.yaml",
+    "sha256": "eb1c9b223bd3561b0c6056f62c6bee5be25ad2f69f7aa41fd42f285e5e672987"
+  },
+  {
+    "mtime": "2026-04-11T17:24:28.602Z",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/capability-expanded-cases.json",
+    "sha256": "9ccec9473de765751cc80c617ed0275186f98f987f295c2092851fb65af5b63c"
+  },
+  {
+    "mtime": "2026-04-11T02:00:28.055Z",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/prompt-variants.yaml",
+    "sha256": "cd2d4e67ca22a92269e133862db139bb27d26556110f988d483671be0b9ff5b6"
+  },
+  {
+    "mtime": "2026-04-11T02:00:28.055Z",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/repo-inventory.yaml",
+    "sha256": "24d5c99c01f291d09f415e951e94c805b0520168ebfb3f1bdea52d7fe60914c7"
+  },
+  {
+    "mtime": "2026-04-11T02:00:28.055Z",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/safety-refusal-catalog.yaml",
+    "sha256": "213583e813973accab9814bcd7a2df8a9dfee9f6810d427e20f62f02dd6d2ca5"
+  },
+  {
+    "mtime": "2026-04-11T02:00:28.055Z",
+    "path": "SynAI/packages/Capability-Catalog/unified-capability-runner/windows-capability-catalog.yaml",
+    "sha256": "e90f4542220f46a13fd65c59476ba74a179159c37b49e4fd49a89bf02cd7f59f"
+  },
+  {
+    "mtime": "2026-04-11T01:08:36.489Z",
+    "path": "SynAI/packages/Governance-Execution/package.json",
+    "sha256": "ec317f8a9f7ef3e4d59b5cd36b54d1cec3f842dc4b969ed7eaac9c2018441d99"
+  },
+  {
+    "mtime": "2026-04-11T00:35:23.115Z",
+    "path": "SynAI/packages/Governance-Execution/README.md",
+    "sha256": "75eef597d2a62ebfb4b5b020445a1199d587de7cc8dc254aaca51b3a33c0010e"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.972Z",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/ledger.js",
+    "sha256": "5c7ce56df2413510a7d8706d56bc06c153540a17e765910e719711c529a0f872"
+  },
+  {
+    "mtime": "2026-04-10T00:02:54.338Z",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/ledger.ts",
+    "sha256": "f15afad35e56d103df4f1b2ee3255c2ebaa36683e39ad9263d24e3d9ccd42522"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.975Z",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/queue.js",
+    "sha256": "f53e0078de3946fa4fcef6b703da31c8ce3b635e0a30c3aef486e4a0dda1cb11"
+  },
+  {
+    "mtime": "2026-04-11T00:56:12.976Z",
+    "path": "SynAI/packages/Governance-Execution/src/approvals/queue.ts",
+    "sha256": "05c891d0a69a00f3e84225871ec012db3c70d310c1b76ecc1b6bced97fbb5545"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.985Z",
+    "path": "SynAI/packages/Governance-Execution/src/audit/query.js",
+    "sha256": "3fff59c84b19b44bd80ac51bd727f65502c17a23e6b67387885212d20abf3312"
+  },
+  {
+    "mtime": "2026-04-10T20:04:22.059Z",
+    "path": "SynAI/packages/Governance-Execution/src/audit/query.ts",
+    "sha256": "02f72733a3813e7300b2936f38293d8cd3794fc37aa82fb8716f38f8e8224e1e"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.981Z",
+    "path": "SynAI/packages/Governance-Execution/src/commands/bus.js",
+    "sha256": "3cd89aa8ae569c494f4abc848d3f16fb40d29928d1be903cc3c7f6b87d4df441"
+  },
+  {
+    "mtime": "2026-04-10T09:48:33.203Z",
+    "path": "SynAI/packages/Governance-Execution/src/commands/bus.ts",
+    "sha256": "9569161404fa2ca102df79c40ca8a656c156e8b74a381b47e71b944efa82c77f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.978Z",
+    "path": "SynAI/packages/Governance-Execution/src/commands/hash.js",
+    "sha256": "9a65edfb30102646e168dd27aa2e64639929445910c49944408aca65a8665193"
+  },
+  {
+    "mtime": "2026-04-10T00:03:35.328Z",
+    "path": "SynAI/packages/Governance-Execution/src/commands/hash.ts",
+    "sha256": "05a64a152218234805a74c5eefd6b88d840b56e9277e2528ed31a428d711d2b9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.962Z",
+    "path": "SynAI/packages/Governance-Execution/src/contracts.js",
+    "sha256": "4f7eb95705125c321da319024cfc3edac41b728e2ae25e656ef993ffbfabef38"
+  },
+  {
+    "mtime": "2026-04-10T09:54:46.171Z",
+    "path": "SynAI/packages/Governance-Execution/src/contracts.ts",
+    "sha256": "6f0875bc2241f34a396e3c902df8447a9e6690fb86318851c817baecc9fc0d20"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.985Z",
+    "path": "SynAI/packages/Governance-Execution/src/execution/chat-execution-service.js",
+    "sha256": "d4d446de633d6680d84b750e9d3b68b1aa5f37a4d89523c4675f52337773c7fd"
+  },
+  {
+    "mtime": "2026-04-10T00:04:30.266Z",
+    "path": "SynAI/packages/Governance-Execution/src/execution/chat-execution-service.ts",
+    "sha256": "1c3e9a3e8e2d1c264ce363ed17f266535210f041cb9c53c22c5cb2921b7a9140"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.968Z",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-action-catalog.js",
+    "sha256": "be45b156799d84f2748591b4e57fff620a3cb64c8f4e37be77a68a5ca78cb1fe"
+  },
+  {
+    "mtime": "2026-04-10T13:24:47.456Z",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-action-catalog.ts",
+    "sha256": "e91e7969d82c279645f4ab3b5d913ce451495f5d3e949e7b49c3326b3a208be2"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.987Z",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-actions.js",
+    "sha256": "e2c0cc7229dba6f6fb78dba9ed5c95d7bfb37bfd99961c2def2f882c77b75653"
+  },
+  {
+    "mtime": "2026-04-10T00:56:07.860Z",
+    "path": "SynAI/packages/Governance-Execution/src/execution/windows-actions.ts",
+    "sha256": "5e68513d6075ce01da871fbd0fcec0da201780be8b38020dd07006ee4cf8e215"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.005Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/gap-classifier.js",
+    "sha256": "8e21fb57acb52db9d9894adf062730435c517ebebde02eda631af652a0cce293"
+  },
+  {
+    "mtime": "2026-04-10T07:22:18.270Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/gap-classifier.ts",
+    "sha256": "1e836c0bbdabc9033bcb8737b0c19f921103c5dbea9c16e01870ecea30f0ad3d"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.009Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/remediation.js",
+    "sha256": "5d4d8a00f89adafbd3cd905e30827a7441414da14bdaf681ca524daae3695110"
+  },
+  {
+    "mtime": "2026-04-11T00:34:12.815Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/remediation.ts",
+    "sha256": "4355aa6d0e4433542661bf6d41f7d6342f824af7836d8cfaa378a9fe2047584c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.999Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/router.js",
+    "sha256": "b5d37907fe64a75bc1a92a303c494886ad2f0129559880bcb0fecd4efdc4a603"
+  },
+  {
+    "mtime": "2026-04-11T18:25:34.278Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/router.ts",
+    "sha256": "2827f7cb557e5f25b3da2f45376043a63f8043b0d73400ed32a3daa66fd55f71"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.992Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/types.js",
+    "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+  },
+  {
+    "mtime": "2026-04-10T13:18:10.782Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/types.ts",
+    "sha256": "1fcadf771d69fbedb01ad4e9ec4d39bd809ad80ca1e78ec9e496907b36d014ba"
+  },
+  {
+    "mtime": "2026-04-11T14:01:27.369Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/verification.js",
+    "sha256": "d7d69ba175bc6fcee21044b6358740acf5ca96afb4b701ed1802df508a97cdce"
+  },
+  {
+    "mtime": "2026-04-11T18:25:25.399Z",
+    "path": "SynAI/packages/Governance-Execution/src/governed-chat/verification.ts",
+    "sha256": "bd4a0425551cfe8afe40cd0d4119113881c180423f1e5af9357680c408245deb"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.009Z",
+    "path": "SynAI/packages/Governance-Execution/src/index.js",
+    "sha256": "da8a87a2e2e38e018e52254aab2910bacbe624b2a3f4e355bbfa612965b7b62e"
+  },
+  {
+    "mtime": "2026-04-10T09:48:28.704Z",
+    "path": "SynAI/packages/Governance-Execution/src/index.ts",
+    "sha256": "aeb1c12d1da404e325c1fa29d65d2a6a86ff4e0a002c40fc65fb0e4c4630f810"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.977Z",
+    "path": "SynAI/packages/Governance-Execution/src/policy/engine.js",
+    "sha256": "d2ec689953978e4a7c20df808eb45b01dead43cbf5263ea9580b40540c33aa21"
+  },
+  {
+    "mtime": "2026-04-10T09:49:02.995Z",
+    "path": "SynAI/packages/Governance-Execution/src/policy/engine.ts",
+    "sha256": "fcc12308760a019bbc8d0cbc195d8234177dd981c7bd92d1d0668160a160495b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.990Z",
+    "path": "SynAI/packages/Governance-Execution/src/remediation/sandbox.js",
+    "sha256": "194484819d3d1a4af4d5d9f394ea8dac122578c3d1c76ec3cc309fdaded0c255"
+  },
+  {
+    "mtime": "2026-04-10T00:18:14.672Z",
+    "path": "SynAI/packages/Governance-Execution/src/remediation/sandbox.ts",
+    "sha256": "903db85e7c4f55be8811045d0747caa8aef878c9ad84626cadf8d570b2a9de3f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:29.968Z",
+    "path": "SynAI/packages/Governance-Execution/src/utils/stable-json.js",
+    "sha256": "d0798839c8ded3b2af8c5b5294ed879b896fb9c9589c181e2b294e64b768e657"
+  },
+  {
+    "mtime": "2026-04-10T00:01:55.314Z",
+    "path": "SynAI/packages/Governance-Execution/src/utils/stable-json.ts",
+    "sha256": "f0f5d3a76db1898e0ee252fc5eabac3d3911b466bd78b18f5bb0cfa124271c5a"
+  },
+  {
+    "mtime": "2026-04-08T04:11:03.790Z",
+    "path": "SynAI/postcss.config.js",
+    "sha256": "082f9a07aae22ae329bfc652d405ba5a704cba1ee86f4b78c7c70f98d628a610"
+  },
+  {
+    "mtime": "2026-04-11T18:31:31.139Z",
+    "path": "SynAI/README.md",
+    "sha256": "571c453689e49565329a5789b8b210bb57a0b1aa2d67f14e3940082c5dccf553"
+  },
+  {
+    "mtime": "2026-04-09T23:07:42.661Z",
+    "path": "SynAI/scripts/capability-eval.ts",
+    "sha256": "a2fab8bd92adc55d3f47d64512280caa26f72007d26b2df88b89837e3fc0fad6"
+  },
+  {
+    "mtime": "2026-04-09T22:09:44.184Z",
+    "path": "SynAI/scripts/dev/backfill-prompt-eval-history.mjs",
+    "sha256": "625e8617ea9b0168f507e5871855a08ad209695a3ad2394adf91c581d35d2d25"
+  },
+  {
+    "mtime": "2026-04-11T02:00:21.595Z",
+    "path": "SynAI/scripts/dev/generate-capability-runner-catalogs.mjs",
+    "sha256": "e5e4fd965601449ae510b86787dea7a5bf6aebe93e1ad5b224311ef9c0fbb0df"
+  },
+  {
+    "mtime": "2026-04-10T05:40:01.855Z",
+    "path": "SynAI/scripts/dev/run-electron-vite.mjs",
+    "sha256": "64d984271229df85299803f6bdc4e46b17c6721307a2f5affd7411906f477462"
+  },
+  {
+    "mtime": "2026-04-08T04:11:34.979Z",
+    "path": "SynAI/scripts/dev/verify-env.mjs",
+    "sha256": "13ee09c3496bb1cdca481f07fe0af764a65dc574f8b6afbe9f0d19b807c767ee"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.566Z",
+    "path": "SynAI/scripts/operator.js",
+    "sha256": "bf804cc945b8cefaed1e6af564efadbe51f396da8b0cba45ee5f53b50e354c0b"
+  },
+  {
+    "mtime": "2026-04-10T13:59:29.316Z",
+    "path": "SynAI/scripts/operator.ts",
+    "sha256": "7b6ea0309779f7ae9d46284325a88a0392ac3605490d0fdc24ea818d6170ddd3"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.595Z",
+    "path": "SynAI/tailwind.config.js",
+    "sha256": "5012e5a9030872a50f6dfb597ffcc12f11e9c11bb80968af030427a0f5e27ea9"
+  },
+  {
+    "mtime": "2026-04-08T04:10:55.106Z",
+    "path": "SynAI/tailwind.config.ts",
+    "sha256": "fee61df90aa123abb5c3fcb2bb8cee1ff28356047242fdee979d5f0aa785182f"
+  },
+  {
+    "mtime": "2026-04-11T18:33:24.335Z",
+    "path": "SynAI/tests/capability/agent-runtime-adapters.test.ts",
+    "sha256": "87c6e24aa8c0f17499714acf8ec432bc624b1bc4b49e48237aa73811a5ddf622"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.538Z",
+    "path": "SynAI/tests/capability/agent-runtime-approval.test.js",
+    "sha256": "bbc7a2ecc701a642fccb92a96a895a05d1d1445ef1ead234f59cc2e8d7caee1d"
+  },
+  {
+    "mtime": "2026-04-10T20:56:58.505Z",
+    "path": "SynAI/tests/capability/agent-runtime-approval.test.ts",
+    "sha256": "f9050d74e5b4bcf78bad7ae3a4a909e3ddc1c1e2ba700f37561cb2f7a80c6ed6"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.540Z",
+    "path": "SynAI/tests/capability/approval-gate.test.js",
+    "sha256": "614bf853540b86d7de8092c333fb4cc4666436ba4a766330c2560000cef4b58b"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.825Z",
+    "path": "SynAI/tests/capability/approval-gate.test.ts",
+    "sha256": "aecdff6e475f2077d584e3a638126eb94213997b63de6cec5b3c4fdf5594e059"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.541Z",
+    "path": "SynAI/tests/capability/approval-ledger.test.js",
+    "sha256": "fca7fb354016f90db2ca068964b397e2da28facf5153142df42808350dca6637"
+  },
+  {
+    "mtime": "2026-04-10T00:16:37.188Z",
+    "path": "SynAI/tests/capability/approval-ledger.test.ts",
+    "sha256": "5758b8c7ecdbe7b7cea8e1846b03a21791b1175b3c2ecbf067a616474d285195"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.541Z",
+    "path": "SynAI/tests/capability/artifact-store.test.js",
+    "sha256": "4b03b8592cc23771c69f0dddbfb84cd1309d902af1db65690910bf270dcdd266"
+  },
+  {
+    "mtime": "2026-04-09T23:14:18.948Z",
+    "path": "SynAI/tests/capability/artifact-store.test.ts",
+    "sha256": "b9c6db4f3d45efc52afe04299c4c0d9a61c92483f090654bb077ac73360cc025"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.542Z",
+    "path": "SynAI/tests/capability/awareness-radio-state.test.js",
+    "sha256": "2c1951e1238571fd7cf12f96990c18f4194879c55b01c0082c462bb37cad03a9"
+  },
+  {
+    "mtime": "2026-04-10T12:18:31.211Z",
+    "path": "SynAI/tests/capability/awareness-radio-state.test.ts",
+    "sha256": "7070d1440700ff30a1243cb1b7c5d04cbeaf6eb173af53585449beee89ec90e7"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.544Z",
+    "path": "SynAI/tests/capability/browser-session.test.js",
+    "sha256": "6fc5529e35b498b90665d07c09885d32fe076d362f3fff953ec325b1385ad85d"
+  },
+  {
+    "mtime": "2026-04-10T07:12:55.283Z",
+    "path": "SynAI/tests/capability/browser-session.test.ts",
+    "sha256": "c60be869dc8a7d93ff360ffbe7b5e3af2d0a9d377f7dbf211ee3876ed7f4f82a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.545Z",
+    "path": "SynAI/tests/capability/chat-execution-service.test.js",
+    "sha256": "b12deda7e33bd642add82b0c6412b2ff536cae2fbe482c2b1e11d11664d415cb"
+  },
+  {
+    "mtime": "2026-04-10T00:17:24.827Z",
+    "path": "SynAI/tests/capability/chat-execution-service.test.ts",
+    "sha256": "12a3b6f7b03b4e1a8d79096bfae611d887046078b4fe3b351e5cf88c4ffd67bc"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.546Z",
+    "path": "SynAI/tests/capability/cli.test.js",
+    "sha256": "a6b00ee31ee1f69e99375ded1fd968299dae84b17e95e8f4bd3c364065a23e76"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.825Z",
+    "path": "SynAI/tests/capability/cli.test.ts",
+    "sha256": "58dcd9ab7947a9ec3d04aca69ba88873c1976d5ef88fde548f04ba42cd7577c7"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.547Z",
+    "path": "SynAI/tests/capability/desktop-actions-clarification.test.js",
+    "sha256": "636b21b4e71c3b92b2c70b29a1eac03dfc0c3392353e64924eb2bc195b0c963f"
+  },
+  {
+    "mtime": "2026-04-11T01:07:07.956Z",
+    "path": "SynAI/tests/capability/desktop-actions-clarification.test.ts",
+    "sha256": "ffdc4c676d4f448bbd9e8d5c51d67101e2990f0b2af04abe35ef6fd84987da05"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.547Z",
+    "path": "SynAI/tests/capability/desktop-actions.test.js",
+    "sha256": "3de5c32d1bd9fe08b8b552dd72e63fce28c89e36328030106c102da385ff6694"
+  },
+  {
+    "mtime": "2026-04-11T00:56:56.012Z",
+    "path": "SynAI/tests/capability/desktop-actions.test.ts",
+    "sha256": "660f633ffa20221226740f8a909b424971892a62757782178a99bbaf665f080f"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.547Z",
+    "path": "SynAI/tests/capability/gap-classifier.test.js",
+    "sha256": "9a8e59fc9e085e128c81ba2810dfadc31fba3fb73136043f3948c2b20e4c9f46"
+  },
+  {
+    "mtime": "2026-04-10T00:11:06.456Z",
+    "path": "SynAI/tests/capability/gap-classifier.test.ts",
+    "sha256": "2ac762684b7b210b127479e68c94540d9878911e1dcc3acd61d4fa7270491dae"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.552Z",
+    "path": "SynAI/tests/capability/governance-audit-query.test.js",
+    "sha256": "992b5fda4324af1a933e896f1712c3f007906bdcb7b5bb4d38d4706458447a22"
+  },
+  {
+    "mtime": "2026-04-10T20:10:13.508Z",
+    "path": "SynAI/tests/capability/governance-audit-query.test.ts",
+    "sha256": "1aa97f2cae092bcd54c018a36572580e5f988787c218652922f0e34e109d79f2"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.553Z",
+    "path": "SynAI/tests/capability/governance-command-bus.test.js",
+    "sha256": "16b26a077cf112ee5070d96b45794ea7ed962303e89f630d1d1d82a2cdfcfdb8"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.825Z",
+    "path": "SynAI/tests/capability/governance-command-bus.test.ts",
+    "sha256": "dc2ace459c24fd5c7ccbd5e8aa096b1ae98583811920464e310a4b3b736df037"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.553Z",
+    "path": "SynAI/tests/capability/governance-history-miner.test.js",
+    "sha256": "9705f2b4ced6f9640c529cac0b3e29181c93bccf4ef3d90381c14db84044e1af"
+  },
+  {
+    "mtime": "2026-04-10T13:26:35.833Z",
+    "path": "SynAI/tests/capability/governance-history-miner.test.ts",
+    "sha256": "7306ae4e0e54d94502a307d4b8019ccaa1e7473424e5628e7f7ea6773dfcad65"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.555Z",
+    "path": "SynAI/tests/capability/governed-chat-router.test.js",
+    "sha256": "7e304e861a1557f930dabcdf475f13bd2c520ec65cec980e197ff6446a1473d5"
+  },
+  {
+    "mtime": "2026-04-11T00:34:12.820Z",
+    "path": "SynAI/tests/capability/governed-chat-router.test.ts",
+    "sha256": "fd9e2c7756d473899df55604848682fc8413d07f749709328f300e63de664068"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.559Z",
+    "path": "SynAI/tests/capability/governed-chat-service.test.js",
+    "sha256": "0c990f1dd7607e3385a691ecc5e68b64e64e66be1af107c90c9d951a536c19bc"
+  },
+  {
+    "mtime": "2026-04-11T18:36:44.705Z",
+    "path": "SynAI/tests/capability/governed-chat-service.test.ts",
+    "sha256": "f6df2f9d2fdc70838b132d1764399e45a6f5cbbe1c91cb20a857303b456c8f14"
+  },
+  {
+    "mtime": "2026-04-11T05:56:45.526Z",
+    "path": "SynAI/tests/capability/ipc-channels.contracts.test.ts",
+    "sha256": "145c08a4403ad17787cf8468765f69eb2983ff34b9cbd549d2112ec970d43517"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.567Z",
+    "path": "SynAI/tests/capability/operator-cli.test.js",
+    "sha256": "95e9bd27d18507a73ccd82ea39ecda5fc05f5aa6dbea72226c64f8f1baa525cf"
+  },
+  {
+    "mtime": "2026-04-10T13:58:49.385Z",
+    "path": "SynAI/tests/capability/operator-cli.test.ts",
+    "sha256": "4b736b7c5f7b33f5926dda162f61c401e5533929203cd5dc1b811e631f55627b"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.567Z",
+    "path": "SynAI/tests/capability/policy-engine.test.js",
+    "sha256": "d554b16ba5fe7cef43a6c895750271c0713de542ff39135ce889f55dd6317b39"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.826Z",
+    "path": "SynAI/tests/capability/policy-engine.test.ts",
+    "sha256": "53a5e963e79541a2b7fc988f2c25d791a402941ee339b6f075bea74533cafdbf"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.569Z",
+    "path": "SynAI/tests/capability/remediation-planner.test.js",
+    "sha256": "8d0dd1504234ffe077a3f2a5a8cabb2d01c0fffb6f4fd6f51eee1b323364425d"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.826Z",
+    "path": "SynAI/tests/capability/remediation-planner.test.ts",
+    "sha256": "70dba70f832e641d93eb98caa680a4c81457ac0a7d5550e4624aead5a9999fab"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.571Z",
+    "path": "SynAI/tests/capability/runner.test.js",
+    "sha256": "233db8cd758edfec519c0adad7ff096d743c814037a49932601b748776497352"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.826Z",
+    "path": "SynAI/tests/capability/runner.test.ts",
+    "sha256": "1e1504857bab1b13717126df50a93be4a4366059ed22cd19a642d513df9312f0"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.573Z",
+    "path": "SynAI/tests/capability/runtime-capabilities.test.js",
+    "sha256": "79889f7cdd7287251478e1bc821f4d26c2911e462a5414870dc6767f95c82e0b"
+  },
+  {
+    "mtime": "2026-04-10T13:58:33.139Z",
+    "path": "SynAI/tests/capability/runtime-capabilities.test.ts",
+    "sha256": "d462ffd5e957b48e1fc14599098a1aa1ae9996b0e91eef0de62cfaf597839a72"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.573Z",
+    "path": "SynAI/tests/capability/schema.test.js",
+    "sha256": "231dfaa678603b06ce3dcae8da20b1239bdc92ceab1cd5d6133065f9afbabab7"
+  },
+  {
+    "mtime": "2026-04-09T23:16:27.111Z",
+    "path": "SynAI/tests/capability/schema.test.ts",
+    "sha256": "710b610d36b45155e67f7378da673b1e87abe20a60efb22151a831831d684a01"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.574Z",
+    "path": "SynAI/tests/capability/verifiers.test.js",
+    "sha256": "3b59bbf506cd5ee088a326dc55b14025dcd12258689fa457a7af1768bafe874d"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.826Z",
+    "path": "SynAI/tests/capability/verifiers.test.ts",
+    "sha256": "5668f0902b33c7d5abb587651a8e6f9a1e22a6f28b3c7e7cd0ae648078d67bbd"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.575Z",
+    "path": "SynAI/tests/capability/vscode-extension-smoke.test.js",
+    "sha256": "c638ea7a746ac024789f7bc264cce82e6795a828cb277153d21924143ab5e030"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.825Z",
+    "path": "SynAI/tests/capability/vscode-extension-smoke.test.ts",
+    "sha256": "8c81a10aa6013d694de03b7ea88b588ec61453749f5ad71b19c9f8d3bcceff96"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.580Z",
+    "path": "SynAI/tests/capability/workflow-orchestrator.test.js",
+    "sha256": "3d785262e5978de52f5913d4d2c719368444971191cb58eb8d8cfc83872c920e"
+  },
+  {
+    "mtime": "2026-04-11T18:34:31.956Z",
+    "path": "SynAI/tests/capability/workflow-orchestrator.test.ts",
+    "sha256": "7e944c792e0392e27696d00def5aab2b7b913f72f91b2cc20899cf6b3060f044"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.584Z",
+    "path": "SynAI/tests/capability/workflow-planner.test.js",
+    "sha256": "a4e1e0a6c435ea49b9c3320423d7a34bafdfeb8d7da20f58d7a5879409bd5f69"
+  },
+  {
+    "mtime": "2026-04-10T13:26:03.186Z",
+    "path": "SynAI/tests/capability/workflow-planner.test.ts",
+    "sha256": "3d8513d2b40289f0848081810f8b1718001efa63599c17a6363c2d199954bc5a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.585Z",
+    "path": "SynAI/tests/e2e/capability-governed-promotion.smoke.test.js",
+    "sha256": "4106de7a4755a1912421f3cbee42ae95af7bd5bf3d40bcf42f1f7213c911d505"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.827Z",
+    "path": "SynAI/tests/e2e/capability-governed-promotion.smoke.test.ts",
+    "sha256": "21f10b0bf63320fc955c237ab5e095d25c6c59fda381d707a585499227fe657a"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.586Z",
+    "path": "SynAI/tests/e2e/capability-remediation-loop.smoke.test.js",
+    "sha256": "51733e3e5989edd6c2360d8270b382676cf9710ec7c8a068b6413da81e898567"
+  },
+  {
+    "mtime": "2026-04-10T21:23:18.827Z",
+    "path": "SynAI/tests/e2e/capability-remediation-loop.smoke.test.ts",
+    "sha256": "bfd0aa735e4f71108565b7747556d69720649753046f3a7204d6d179188b1fc8"
+  },
+  {
+    "mtime": "2026-04-11T14:15:07.762Z",
+    "path": "SynAI/tests/prompt-evals/canonical-cases.ts",
+    "sha256": "94e993fb3e80cffc57ee7bb4f757a8f68fba489fb63ca007b763320b895e8ba5"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.537Z",
+    "path": "SynAI/tests/setup.js",
+    "sha256": "0a830684310be8e7a2b23713813117aeeede8b039f823146e97d4c784659df4d"
+  },
+  {
+    "mtime": "2026-04-10T22:05:26.440Z",
+    "path": "SynAI/tests/setup.ts",
+    "sha256": "5e8c5824dff0c56601511806e6a3c9b78d35cc193a1501b7a91b3239c8b6ba15"
+  },
+  {
+    "mtime": "2026-04-10T21:36:26.620Z",
+    "path": "SynAI/tests/smoke/agent-runtime-card.smoke.test.tsx",
+    "sha256": "3ab456e1a0e8000b91d1ff177a3be281a453a9635b5f02e3be757db2688182b9"
+  },
+  {
+    "mtime": "2026-04-10T05:35:55.114Z",
+    "path": "SynAI/tests/smoke/app-start.smoke.test.tsx",
+    "sha256": "8ff7858462074d361418b98af65b5d3a626f2b37c1ea9ad48c4962cf9adb38b2"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.586Z",
+    "path": "SynAI/tests/smoke/context-assembly.smoke.test.js",
+    "sha256": "dbed2df2123ae1adca13ce3bbaf1237c050858922dbacbcc56792af5f0a328f1"
+  },
+  {
+    "mtime": "2026-04-09T14:37:29.572Z",
+    "path": "SynAI/tests/smoke/context-assembly.smoke.test.ts",
+    "sha256": "15d362831dcc62c4e066f0901e956271e47307ce99ba25c0f308bbe5a4652b05"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.587Z",
+    "path": "SynAI/tests/smoke/conversation-persistence.smoke.test.js",
+    "sha256": "3f56ad8fbf69340b72080941c4aae4d4e94efb88e166d10ab9a207a6b01d9fed"
+  },
+  {
+    "mtime": "2026-04-09T14:37:29.571Z",
+    "path": "SynAI/tests/smoke/conversation-persistence.smoke.test.ts",
+    "sha256": "527a319732165c2e7dbcd55c1e84214edc5ccbc1b947bee8b4b9c02673396676"
+  },
+  {
+    "mtime": "2026-04-10T05:39:37.643Z",
+    "path": "SynAI/tests/smoke/desktop-actions-card.smoke.test.tsx",
+    "sha256": "4ef77bea7130fe4afcf92e1bc0c692e4ba1acae783e1060bf80821df66152ab2"
+  },
+  {
+    "mtime": "2026-04-11T04:31:13.782Z",
+    "path": "SynAI/tests/smoke/grounding-ui.smoke.test.tsx",
+    "sha256": "c327be4ef08a8ca2fbe1a583177156cad7ad00d598fe790ecc96bbe7f5c16414"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.589Z",
+    "path": "SynAI/tests/smoke/local-ai-health.smoke.test.js",
+    "sha256": "1200962ca200568ab038bb8aee7e9905af633cf702dc3d76b37edd3d29b78187"
+  },
+  {
+    "mtime": "2026-04-10T21:53:08.682Z",
+    "path": "SynAI/tests/smoke/local-ai-health.smoke.test.ts",
+    "sha256": "09e0494c7f488d503f033677ca237fcaa1ecd20f1333b924f86032ecf30ff958"
+  },
+  {
+    "mtime": "2026-04-10T00:19:17.036Z",
+    "path": "SynAI/tests/smoke/local-chat-ui.smoke.test.tsx",
+    "sha256": "34c846f35a75a74d6287c400daca7a4fe92f44f4015b3d8bf4726f1b79bdd451"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.589Z",
+    "path": "SynAI/tests/smoke/memory-extraction.smoke.test.js",
+    "sha256": "4584970eb75d4738b84c3f8a657493a914349329b811a980008269065f7d8eda"
+  },
+  {
+    "mtime": "2026-04-09T14:37:29.571Z",
+    "path": "SynAI/tests/smoke/memory-extraction.smoke.test.ts",
+    "sha256": "25d546e56d69ebcfed5531b110fb9d6ffdc27e70037904d2f9c072a3cff929f9"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.590Z",
+    "path": "SynAI/tests/smoke/memory-search.smoke.test.js",
+    "sha256": "97f5ebebc696e2d3a70f4503d170f64dcb1df53c2155ebdf0096f494460ff9c9"
+  },
+  {
+    "mtime": "2026-04-09T14:37:29.571Z",
+    "path": "SynAI/tests/smoke/memory-search.smoke.test.ts",
+    "sha256": "42fc654466f85aebfed0b1ab23f9aeb63f7b06bf135bb9bddbc7890ae08c1ddd"
+  },
+  {
+    "mtime": "2026-04-11T18:36:52.693Z",
+    "path": "SynAI/tests/smoke/message-item-task-state.smoke.test.tsx",
+    "sha256": "dabc768090d1d843c1735e2be266fb4b1b012b8bb3a15637fa8114ce8afc6141"
+  },
+  {
+    "mtime": "2026-04-11T05:34:15.023Z",
+    "path": "SynAI/tests/smoke/prompt-behavior-memory.smoke.test.ts",
+    "sha256": "18f4132692e7d45191e8fb34a6d869116cba21e4416c43c50f1f66e6de5179bb"
+  },
+  {
+    "mtime": "2026-04-09T21:21:59.567Z",
+    "path": "SynAI/tests/smoke/prompt-evaluation-card.smoke.test.tsx",
+    "sha256": "b62bade4b095812b42ef0738ed42a9fe12f229f3a30001e6a0903388fbe6a88c"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.591Z",
+    "path": "SynAI/tests/smoke/rolling-summary.smoke.test.js",
+    "sha256": "0f02df2e91a8397c36cb0179f59cf3d24ba588aa9e1353184a88b3229004bbc0"
+  },
+  {
+    "mtime": "2026-04-09T14:37:29.571Z",
+    "path": "SynAI/tests/smoke/rolling-summary.smoke.test.ts",
+    "sha256": "1b3db3275976321fc09610ed3fb960736adcbcdfb52f2f5bcdecd8870c7cd2fc"
+  },
+  {
+    "mtime": "2026-04-10T06:40:52.176Z",
+    "path": "SynAI/tests/smoke/tools-panel-workflows.smoke.test.tsx",
+    "sha256": "46c1160a7fcedee726e15c9c780197ac7f686a90fc3fde04f0fd5d17672d0752"
+  },
+  {
+    "mtime": "2026-04-11T01:09:30.592Z",
+    "path": "SynAI/tests/smoke/web-search.smoke.test.js",
+    "sha256": "ef17b52a835ce11321097daba900890e0eafa3f2c3fd8fa7bb0c6a241173b796"
+  },
+  {
+    "mtime": "2026-04-10T14:50:55.721Z",
+    "path": "SynAI/tests/smoke/web-search.smoke.test.ts",
+    "sha256": "99af7e10eb94162161f7aad2163392892ee0a76934ed166b0af3ff2bab6704b0"
+  },
+  {
+    "mtime": "2026-04-10T14:50:02.310Z",
+    "path": "SynAI/tests/smoke/workflow-orchestration-card.smoke.test.tsx",
+    "sha256": "e786e49f6101456cca295167975eaa4339d2dc638882beb0ef7e28ab3478f064"
+  },
+  {
+    "mtime": "2026-04-10T20:55:55.758Z",
+    "path": "SynAI/tsconfig.agent-runtime.json",
+    "sha256": "bd85a942ecdc6906d05dbfbddb4f9135c2e28bf8ab70ad5f2ff2fc361eedb645"
+  },
+  {
+    "mtime": "2026-04-11T01:09:20.974Z",
+    "path": "SynAI/tsconfig.json",
+    "sha256": "7a0f39abc11a4cbea6ef2d7a7e51d42f2e605103c3ea8d21bdb9ddaf1ff82b4e"
+  },
+  {
+    "mtime": "2026-04-08T04:10:10.032Z",
+    "path": "SynAI/tsconfig.node.json",
+    "sha256": "b7414bfa7a298d9463b98d6ffb5ebe8e10168bf76b716734cbbba24e3ff56560"
+  },
+  {
+    "mtime": "2026-04-11T05:57:14.048Z",
+    "path": "SynAI/vite.config.js",
+    "sha256": "927f6360be5343a76825451486d8d763fbac7357a23db232ac1d7777c84ce25d"
+  },
+  {
+    "mtime": "2026-04-11T05:56:57.539Z",
+    "path": "SynAI/vite.config.ts",
+    "sha256": "a50432b8c0800b48ba2127e372948f795582bbfde6634625a6b1461a456c22d8"
+  }
+]

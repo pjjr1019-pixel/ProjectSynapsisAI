@@ -7,6 +7,9 @@ import type {
   WebSearchContext,
   WebSearchResult
 } from "../contracts/memory";
+import type { PromptIntentContract } from "../contracts/prompt-intent";
+import type { RetrievedPromptBehaviorMemory } from "../contracts/prompt-preferences";
+import type { PlanningPolicy, ReasoningProfile } from "../contracts/reasoning-profile";
 import type {
   RagContextPreview,
   RetrievalSourceStats,
@@ -41,6 +44,13 @@ import {
 import { configureDatabasePath, loadDatabase } from "./storage/db";
 import { addMessage, clearMessages, listMessages } from "./storage/messages";
 import { batchUpsertMemories, deleteMemory, listMemories, searchMemoryKeywords } from "./storage/memories";
+import {
+  listPromptBehaviorMemories,
+  markPromptBehaviorMemoriesApplied,
+  matchPromptBehaviorMemories,
+  upsertPromptBehaviorPreference,
+  upsertResolvedPromptPattern
+} from "./storage/prompt-behavior";
 import { deleteSummary, getSummary, upsertSummary } from "./storage/summaries";
 import type { WorkspaceIndexOptions } from "../retrieval";
 import { queryWorkspaceIndex } from "../retrieval";
@@ -153,6 +163,7 @@ export interface LoadedPromptContext {
   summaryText: string;
   stableMemories: MemoryEntry[];
   retrievedMemories: RetrievedMemory[];
+  promptBehaviorMemories: RetrievedPromptBehaviorMemory[];
   workspaceHits: WorkspaceChunkHit[];
   workspaceIndexStatus: WorkspaceIndexStatus | null;
   retrieval: RetrievalSourceStats;
@@ -162,6 +173,34 @@ export interface PreparePromptContextOptions {
   enableSemanticMemory?: boolean;
   memoryEmbedder?: (text: string) => Promise<number[]>;
   workspace?: WorkspaceIndexOptions | null;
+  promptIntent?: Pick<PromptIntentContract, "intentFamily" | "sourceScope"> | null;
+  retrievalProfile?: {
+    stableMemoryLimit?: number;
+    keywordMemoryLimit?: number;
+    semanticMemoryLimit?: number;
+    maxRetrievedMemories?: number;
+    promptBehaviorMemoryLimit?: number;
+    workspaceHitLimit?: number;
+  } | null;
+}
+
+export interface FinalizePromptContextOptions {
+  contextBudget?: {
+    maxChars?: number;
+    maxStableMemories?: number;
+    maxRetrievedMemories?: number;
+    maxRecentMessages?: number;
+    maxPromptBehaviorMemories?: number;
+    maxWorkspaceHits?: number;
+    maxWebResults?: number;
+  } | null;
+  reasoningProfile?: ReasoningProfile | null;
+  planningPolicy?: PlanningPolicy | null;
+  reasoningProfileDiagnostics?: {
+    planningReason: string | null;
+    retrievalMode: "light" | "balanced" | "deep";
+    governedTaskPosture: "answer-first" | "research-grounded" | "governed-task-first";
+  } | null;
 }
 
 const emptyRetrievalStats = (): RetrievalSourceStats => ({
@@ -183,6 +222,14 @@ export const preparePromptContext = async (
   latestUserMessage: string,
   options: PreparePromptContextOptions = {}
 ): Promise<LoadedPromptContext> => {
+  const retrievalProfile = options.retrievalProfile ?? null;
+  const keywordMemoryLimit = retrievalProfile?.keywordMemoryLimit ?? 6;
+  const semanticMemoryLimit = retrievalProfile?.semanticMemoryLimit ?? keywordMemoryLimit;
+  const maxRetrievedMemories = retrievalProfile?.maxRetrievedMemories ?? 6;
+  const promptBehaviorMemoryLimit = retrievalProfile?.promptBehaviorMemoryLimit ?? 4;
+  const stableMemoryLimit = retrievalProfile?.stableMemoryLimit ?? 8;
+  const workspaceHitLimit = retrievalProfile?.workspaceHitLimit ?? null;
+
   const [messages, summary, allMemories] = await Promise.all([
     listMessages(conversationId),
     getSummary(conversationId),
@@ -194,15 +241,31 @@ export const preparePromptContext = async (
         embedder: options.memoryEmbedder
       })
     : [];
-  const retrievedMemories = rankRetrievedMemories(keywordRetrieved, semanticRetrieved, 6);
-  const stableMemories = allMemories.filter((memory) => memory.importance >= 0.75).slice(0, 8);
+  const retrievedMemories = rankRetrievedMemories(
+    keywordRetrieved,
+    semanticRetrieved,
+    maxRetrievedMemories
+  );
+  const promptBehaviorMemories = await matchPromptBehaviorMemories({
+    query: latestUserMessage,
+    intentFamily: options.promptIntent?.intentFamily ?? null,
+    sourceScope: options.promptIntent?.sourceScope ?? null,
+    limit: promptBehaviorMemoryLimit
+  });
+  const stableMemories = allMemories
+    .filter((memory) => memory.importance >= 0.75)
+    .slice(0, stableMemoryLimit);
   const workspaceResult = options.workspace
     ? await queryWorkspaceIndex(latestUserMessage, options.workspace)
     : null;
+  const workspaceHits =
+    workspaceHitLimit == null
+      ? workspaceResult?.hits ?? []
+      : (workspaceResult?.hits ?? []).slice(0, workspaceHitLimit);
   const retrieval = withRetrievalTotal({
-    memoryKeyword: keywordRetrieved.slice(0, 6).length,
-    memorySemantic: semanticRetrieved.slice(0, 6).length,
-    workspace: workspaceResult?.hits.length ?? 0,
+    memoryKeyword: keywordRetrieved.slice(0, keywordMemoryLimit).length,
+    memorySemantic: semanticRetrieved.slice(0, semanticMemoryLimit).length,
+    workspace: workspaceHits.length,
     awareness: 0,
     web: 0,
     total: 0
@@ -214,7 +277,8 @@ export const preparePromptContext = async (
     summaryText: summary?.text ?? "",
     stableMemories,
     retrievedMemories,
-    workspaceHits: workspaceResult?.hits ?? [],
+    promptBehaviorMemories,
+    workspaceHits,
     workspaceIndexStatus: workspaceResult?.status ?? null,
     retrieval
   };
@@ -231,7 +295,8 @@ export const finalizePromptContext = (
   fileAwareness: FileAwarenessSnapshot | null = null,
   screenAwareness: ScreenAwarenessSnapshot | null = null,
   ragContext: RagContextPreview | null = null,
-  runtimePreview: AgentRuntimePreviewSummary | null = null
+  runtimePreview: AgentRuntimePreviewSummary | null = null,
+  finalizeOptions: FinalizePromptContextOptions = {}
 ): ReturnType<typeof assembleContext> =>
   assembleContext({
     systemInstruction: SYSTEM_INSTRUCTION,
@@ -239,6 +304,7 @@ export const finalizePromptContext = (
     allMessages: context.messages,
     stableMemories: context.stableMemories,
     retrievedMemories: context.retrievedMemories,
+    promptBehaviorMemories: context.promptBehaviorMemories,
     workspaceHits: context.workspaceHits,
     webSearch,
     awareness,
@@ -249,7 +315,11 @@ export const finalizePromptContext = (
     fileAwareness,
     screenAwareness,
     runtimePreview,
-    rag: ragContext
+    rag: ragContext,
+    contextBudget: finalizeOptions.contextBudget,
+    reasoningProfile: finalizeOptions.reasoningProfile ?? null,
+    planningPolicy: finalizeOptions.planningPolicy ?? null,
+    reasoningProfileDiagnostics: finalizeOptions.reasoningProfileDiagnostics ?? null
   });
 
 export const buildContextPreview = async (
@@ -265,7 +335,8 @@ export const buildContextPreview = async (
   screenAwareness: ScreenAwarenessSnapshot | null = null,
   ragContext: RagContextPreview | null = null,
   options: PreparePromptContextOptions = {},
-  runtimePreview: AgentRuntimePreviewSummary | null = null
+  runtimePreview: AgentRuntimePreviewSummary | null = null,
+  finalizeOptions: FinalizePromptContextOptions = {}
 ): Promise<ContextPreview> => {
   return finalizePromptContext(
     await preparePromptContext(conversationId, latestUserMessage, options),
@@ -278,7 +349,8 @@ export const buildContextPreview = async (
     fileAwareness,
     screenAwareness,
     ragContext,
-    runtimePreview
+    runtimePreview,
+    finalizeOptions
   ).preview;
 };
 
@@ -295,7 +367,8 @@ export const buildPromptMessages = async (
   screenAwareness: ScreenAwarenessSnapshot | null = null,
   ragContext: RagContextPreview | null = null,
   options: PreparePromptContextOptions = {},
-  runtimePreview: AgentRuntimePreviewSummary | null = null
+  runtimePreview: AgentRuntimePreviewSummary | null = null,
+  finalizeOptions: FinalizePromptContextOptions = {}
 ): Promise<{ promptMessages: ChatMessage[]; contextPreview: ContextPreview }> => {
   const assembled = finalizePromptContext(
     await preparePromptContext(conversationId, latestUserMessage, options),
@@ -308,7 +381,8 @@ export const buildPromptMessages = async (
     fileAwareness,
     screenAwareness,
     ragContext,
-    runtimePreview
+    runtimePreview,
+    finalizeOptions
   );
   return {
     promptMessages: assembled.promptMessages,
@@ -319,6 +393,20 @@ export const buildPromptMessages = async (
 export const listMemoryRecords = async () => listMemories();
 export const searchMemoryRecords = async (query: string) => searchMemoryKeywords(query);
 export const deleteMemoryRecord = async (memoryId: string) => deleteMemory(memoryId);
+export const listPromptBehaviorMemoryRecords = async () => listPromptBehaviorMemories();
+export const matchPromptBehaviorMemoryRecords = async (
+  query: string,
+  promptIntent?: Pick<PromptIntentContract, "intentFamily" | "sourceScope"> | null
+) =>
+  matchPromptBehaviorMemories({
+    query,
+    intentFamily: promptIntent?.intentFamily ?? null,
+    sourceScope: promptIntent?.sourceScope ?? null
+  });
+export const markPromptBehaviorRecordsApplied = async (entryIds: string[]) =>
+  markPromptBehaviorMemoriesApplied(entryIds);
+export const upsertPromptBehaviorPreferenceRecord = upsertPromptBehaviorPreference;
+export const upsertResolvedPromptPatternRecord = upsertResolvedPromptPattern;
 
 export const snapshotDatabase = async () => loadDatabase();
 
@@ -327,6 +415,7 @@ export * from "./storage/db";
 export * from "./storage/conversations";
 export * from "./storage/messages";
 export * from "./storage/memories";
+export * from "./storage/prompt-behavior";
 export * from "./storage/summaries";
 export * from "./retrieval/keyword";
 export * from "./retrieval/ranking";

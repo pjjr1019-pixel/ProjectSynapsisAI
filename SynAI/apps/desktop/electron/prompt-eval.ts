@@ -1,5 +1,6 @@
 import * as path from "node:path";
 import type { PromptEvaluationResponse } from "@contracts";
+import { formatClassifierCategories } from "./prompting/task-classifier";
 
 const formatDuration = (durationMs: number): string => {
   if (durationMs < 1000) {
@@ -46,6 +47,11 @@ const formatRoute = (
     ? "none"
     : `${routeFamily}${routeConfidence != null ? ` @ ${routeConfidence.toFixed(2)}` : ""}`;
 
+const formatPolicySignals = (signals: string[] | undefined): string => {
+  const normalized = signals?.filter(Boolean) ?? [];
+  return normalized.length > 0 ? normalized.join(", ") : "none";
+};
+
 const CHAT_HISTORY_HEADER = [
   "# Chat History",
   "",
@@ -69,6 +75,8 @@ const formatPromptEvaluationChatHistoryEntry = (report: PromptEvaluationResponse
     `- Report file: ${report.reportFileName}`,
     `- Suite mode: ${report.settings.suiteMode}`,
     `- Model: ${report.settings.model ?? "default model"}`,
+    `- Reasoning profile: ${report.settings.reasoningProfile}`,
+    `- Planning policy: ${report.settings.planningPolicy}`,
     `- Quality passed: ${report.summary.qualityPassCount}/${report.summary.total}`,
     `- Needs review: ${report.summary.qualityNeedsReviewCount}`,
     ""
@@ -121,6 +129,8 @@ export const formatPromptEvaluationMarkdown = (report: PromptEvaluationResponse)
     `- Report file: ${report.reportFileName}`,
     `- Suite mode: ${report.settings.suiteMode}`,
     `- Model: ${report.settings.model ?? "default model"}`,
+    `- Reasoning profile: ${report.settings.reasoningProfile}`,
+    `- Planning policy: ${report.settings.planningPolicy}`,
     `- Response mode: ${report.settings.responseMode}`,
     `- Awareness mode: ${report.settings.awarenessAnswerMode}`,
     `- RAG enabled: ${report.settings.ragEnabled ? "yes" : "no"}`,
@@ -163,12 +173,23 @@ export const formatPromptEvaluationMarkdown = (report: PromptEvaluationResponse)
       `- Model detail: ${entry.modelStatus.detail ?? "none"}`,
       `- Route: ${formatRoute(entry.routing.routeFamily, entry.routing.routeConfidence)}`,
       `- Raw route: ${formatRoute(entry.routing.rawRouteFamily, entry.routing.rawRouteConfidence)}`,
+      `- Reasoning profile: ${entry.routing.reasoningProfile}`,
+      `- Planning policy: ${entry.routing.planningPolicy ?? "none"}`,
       `- Source scope: ${entry.routing.sourceScope ?? "none"}`,
       `- Awareness used: ${entry.routing.awarenessUsed ? "yes" : "no"}`,
       `- Deterministic awareness: ${entry.routing.deterministicAwareness ? "yes" : "no"}`,
       `- Generic writing suppression: ${entry.routing.genericWritingPromptSuppressed ? "yes" : "no"}`,
       `- Cleanup bypassed: ${entry.routing.cleanupBypassed ? "yes" : "no"}`,
       `- Routing suppression: ${entry.routing.routingSuppressionReason ?? "none"}`,
+      `- Raw signals: ${formatPolicySignals(entry.routing.policyDiagnostics?.rawSignals)}`,
+      `- Fallback signals: ${formatPolicySignals(entry.routing.policyDiagnostics?.fallbackSignals)}`,
+      `- Classifier: ${formatClassifierCategories(entry.routing.policyDiagnostics?.classifier)}`,
+      `- Chosen policy: ${
+        entry.routing.policyDiagnostics?.chosenPolicy
+          ? `${entry.routing.policyDiagnostics.chosenPolicy.sourceScope} | ${entry.routing.policyDiagnostics.chosenPolicy.formatPolicy} | ${entry.routing.policyDiagnostics.chosenPolicy.groundingPolicy} | ${entry.routing.policyDiagnostics.chosenPolicy.routingPolicy}`
+          : "none"
+      }`,
+      `- Suppression reasons: ${formatPolicySignals(entry.routing.policyDiagnostics?.suppressionReasons)}`,
       `- Reasoning mode: ${entry.routing.reasoningMode ?? "not captured"}`,
       `- Retrieved source summary: ${
         entry.routing.retrievedSourceSummary

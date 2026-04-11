@@ -7,6 +7,7 @@ import type {
   WebSearchContext,
   WebSearchResult
 } from "../../contracts/memory";
+import type { RetrievedPromptBehaviorMemory } from "../../contracts/prompt-preferences";
 import type { RagContextPreview, WorkspaceChunkHit } from "../../contracts/rag";
 import type {
   AwarenessAnswerMode,
@@ -17,7 +18,9 @@ import type {
   MachineAwarenessSnapshot,
   ScreenAwarenessSnapshot
 } from "../../contracts/awareness";
-import { clipByChars, DEFAULT_CONTEXT_BUDGET, MAX_WEB_RESULTS_IN_PROMPT } from "./budget";
+import type { PlanningPolicy, ReasoningProfile } from "../../contracts/reasoning-profile";
+import type { ContextBudget } from "../types";
+import { clipByChars, MAX_WEB_RESULTS_IN_PROMPT, resolveContextBudget } from "./budget";
 import {
   buildAwarenessContextSection,
   buildOfficialKnowledgeContextSection,
@@ -33,6 +36,7 @@ export interface AssembleContextInput {
   allMessages: ChatMessage[];
   stableMemories: MemoryEntry[];
   retrievedMemories: RetrievedMemory[];
+  promptBehaviorMemories?: RetrievedPromptBehaviorMemory[];
   workspaceHits?: WorkspaceChunkHit[];
   webSearch: WebSearchContext;
   awareness?: AwarenessDigest | null;
@@ -44,6 +48,14 @@ export interface AssembleContextInput {
   screenAwareness?: ScreenAwarenessSnapshot | null;
   runtimePreview?: AgentRuntimePreviewSummary | null;
   rag?: RagContextPreview | null;
+  contextBudget?: Partial<ContextBudget> | null;
+  reasoningProfile?: ReasoningProfile | null;
+  planningPolicy?: PlanningPolicy | null;
+  reasoningProfileDiagnostics?: {
+    planningReason: string | null;
+    retrievalMode: "light" | "balanced" | "deep";
+    governedTaskPosture: "answer-first" | "research-grounded" | "governed-task-first";
+  } | null;
 }
 
 export interface AssembleContextResult {
@@ -53,6 +65,14 @@ export interface AssembleContextResult {
 
 const formatMemory = (memory: MemoryEntry): string =>
   `[${memory.category}] (${memory.importance.toFixed(2)}) ${memory.text}`;
+
+const formatPromptBehaviorMemory = (memory: RetrievedPromptBehaviorMemory): string => {
+  const summary = memory.entry.summary;
+  const resolution = memory.entry.resolution;
+  return `[${memory.entry.entryKind}] score ${memory.score.toFixed(2)} | ${resolution.sourceScope} | ${resolution.outputShape}${
+    resolution.preserveExactStructure ? " | exact" : ""
+  }\n${summary}`;
+};
 
 const formatWebResult = (result: WebSearchResult): string =>
   `${result.title} | ${result.source}${result.sourceFamily ? ` | ${result.sourceFamily}` : ""}${result.publishedAt ? ` | ${result.publishedAt}` : ""}\n${result.snippet}\n${result.url}`;
@@ -91,17 +111,27 @@ const getLatestUserMessage = (messages: ChatMessage[]): string =>
   [...messages].reverse().find((message) => message.role === "user")?.content ?? "";
 
 export const assembleContext = (input: AssembleContextInput): AssembleContextResult => {
+  const contextBudget = resolveContextBudget(input.contextBudget);
   const stable = [...input.stableMemories]
     .sort((a, b) => b.importance - a.importance)
-    .slice(0, DEFAULT_CONTEXT_BUDGET.maxStableMemories);
+    .slice(0, contextBudget.maxStableMemories);
 
   const retrieved = [...input.retrievedMemories]
     .sort((a, b) => b.score - a.score)
-    .slice(0, DEFAULT_CONTEXT_BUDGET.maxRetrievedMemories);
+    .slice(0, contextBudget.maxRetrievedMemories);
+  const promptBehaviorMemories = [...(input.promptBehaviorMemories ?? [])]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, contextBudget.maxPromptBehaviorMemories ?? 4);
 
-  const recentMessages = input.allMessages.slice(-DEFAULT_CONTEXT_BUDGET.maxRecentMessages);
-  const webResults = [...input.webSearch.results].slice(0, MAX_WEB_RESULTS_IN_PROMPT);
-  const workspaceHits = [...(input.workspaceHits ?? input.rag?.workspaceHits ?? [])].slice(0, 4);
+  const recentMessages = input.allMessages.slice(-contextBudget.maxRecentMessages);
+  const webResults = [...input.webSearch.results].slice(
+    0,
+    contextBudget.maxWebResults ?? MAX_WEB_RESULTS_IN_PROMPT
+  );
+  const workspaceHits = [...(input.workspaceHits ?? input.rag?.workspaceHits ?? [])].slice(
+    0,
+    contextBudget.maxWorkspaceHits ?? 4
+  );
   const latestUserMessage = getLatestUserMessage(input.allMessages);
   const machineSection = buildMachineAwarenessContextSection(
     input.machineAwareness,
@@ -131,6 +161,9 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
     retrieved.length > 0
       ? `Retrieved memory:\n${retrieved.map((item) => formatMemory(item.memory)).join("\n")}`
       : "",
+    promptBehaviorMemories.length > 0
+      ? `Prompt behavior memory:\n${promptBehaviorMemories.map((item) => formatPromptBehaviorMemory(item)).join("\n\n")}`
+      : "",
     workspaceHits.length > 0
       ? `Workspace context:\n${workspaceHits.map((hit, index) => formatWorkspaceHit(hit, index)).join("\n\n")}`
       : "",
@@ -149,7 +182,7 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
       : ""
   ].filter(Boolean);
 
-  const systemContent = clipByChars(sections.join("\n\n"), DEFAULT_CONTEXT_BUDGET.maxChars);
+  const systemContent = clipByChars(sections.join("\n\n"), contextBudget.maxChars);
   const estimatedChars =
     systemContent.length +
     recentMessages.reduce((total, message) => total + message.content.length, 0);
@@ -168,9 +201,13 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
   return {
     promptMessages,
     preview: {
+      reasoningProfile: input.reasoningProfile ?? null,
+      planningPolicy: input.planningPolicy ?? null,
+      reasoningProfileDiagnostics: input.reasoningProfileDiagnostics ?? null,
       systemInstruction: input.systemInstruction,
       stableMemories: stable,
       retrievedMemories: retrieved,
+      promptBehaviorMemories,
       workspaceHits,
       summarySnippet: clipByChars(input.summaryText, 600),
       recentMessagesCount: recentMessages.length,

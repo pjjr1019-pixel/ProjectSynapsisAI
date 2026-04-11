@@ -1,4 +1,5 @@
 import type {
+  ChatReplyClassifierCategory,
   ChatExecutionDiagnostics,
   GroundingSummary,
   PromptEvaluationCaseInput,
@@ -31,6 +32,8 @@ const containsNormalizedPhrase = (text: string, phrase: string): boolean => {
   return normalizedText.includes(` ${normalizedPhrase} `);
 };
 
+const normalizeLine = (value: string): string => value.replace(/\s+/g, " ").trim();
+
 const countBulletLines = (value: string): number =>
   value
     .split(/\r?\n/)
@@ -60,14 +63,22 @@ const cloneChecks = (checks: PromptEvaluationCheck[] | undefined): PromptEvaluat
   }));
 
 const defaultCheckCategory = (check: PromptEvaluationCheck): PromptEvaluationCheckResult["category"] =>
-  check.category ?? (check.kind === "bullet-count" || check.kind === "sentence-count" ? "format" : "content");
+  check.category ??
+  (check.kind === "bullet-count" ||
+  check.kind === "sentence-count" ||
+  check.kind === "line-prefixes"
+    ? "format"
+    : "content");
 
 const cloneRoutingExpectations = (
   expectations: PromptEvaluationRoutingExpectations | undefined
 ): PromptEvaluationRoutingExpectations | undefined =>
   expectations
     ? {
-        ...expectations
+        ...expectations,
+        classifierCategories: expectations.classifierCategories
+          ? { ...expectations.classifierCategories }
+          : undefined
       }
     : undefined;
 
@@ -89,6 +100,8 @@ export const normalizePromptEvaluationCases = (
       label: entry.label?.trim() || `${capitalize(entry.difficulty)} prompt`,
       difficulty: entry.difficulty,
       prompt: entry.prompt.trim(),
+      reasoningProfile: entry.reasoningProfile,
+      planningPolicy: entry.planningPolicy,
       checks: cloneChecks(entry.checks).map((check, checkIndex) => ({
         id: check.id?.trim() || `${entry.id?.trim() || `prompt-${index + 1}`}-check-${checkIndex + 1}`,
         kind: check.kind,
@@ -110,6 +123,8 @@ export const normalizePromptEvaluationCases = (
 export const buildPromptEvaluationRoutingReport = (
   diagnostics: ChatExecutionDiagnostics | undefined
 ): PromptEvaluationRoutingReport => ({
+  reasoningProfile: diagnostics?.reasoningProfile ?? "chat",
+  planningPolicy: diagnostics?.planningPolicy ?? null,
   routeFamily: diagnostics?.routeFamily ?? "none",
   routeConfidence: diagnostics?.routeConfidence ?? null,
   rawRouteFamily: diagnostics?.rawRouteFamily ?? "none",
@@ -119,6 +134,7 @@ export const buildPromptEvaluationRoutingReport = (
   genericWritingPromptSuppressed: diagnostics?.genericWritingPromptSuppressed ?? false,
   sourceScope: diagnostics?.sourceScope ?? null,
   replyPolicy: diagnostics?.replyPolicy ?? null,
+  policyDiagnostics: diagnostics?.policyDiagnostics ?? null,
   cleanupBypassed: diagnostics?.cleanupBypassed ?? false,
   routingSuppressionReason: diagnostics?.routingSuppressionReason ?? null,
   retrievedSourceSummary: diagnostics?.retrievedSourceSummary ?? null,
@@ -126,15 +142,28 @@ export const buildPromptEvaluationRoutingReport = (
 });
 
 export const countPromptEvaluationAssertions = (entry: PromptEvaluationCaseInput): number => {
-  const routingExpectationCount = Object.values(entry.routingExpectations ?? {}).filter(
-    (value) => value !== undefined
-  ).length;
+  const routingExpectations = entry.routingExpectations ?? {};
+  const profileExpectationCount =
+    (routingExpectations.reasoningProfile !== undefined ? 1 : 0) +
+    (routingExpectations.planningPolicy !== undefined ? 1 : 0);
+  const classifierExpectationCount = Object.values(
+    routingExpectations.classifierCategories ?? {}
+  ).filter((value) => value !== undefined).length;
+  const routingExpectationCount =
+    Object.entries(routingExpectations).filter(
+      ([key, value]) =>
+        key !== "classifierCategories" &&
+        key !== "reasoningProfile" &&
+        key !== "planningPolicy" &&
+        value !== undefined
+    ).length + classifierExpectationCount;
   const groundingExpectationCount = Object.values(entry.groundingExpectations ?? {}).filter(
     (value) => value !== undefined
   ).length;
   return (
     (entry.checks?.length ?? 0) +
     routingExpectationCount +
+    profileExpectationCount +
     groundingExpectationCount +
     (entry.sourceScopeHint ? 1 : 0) +
     (entry.formatPolicy ? 1 : 0)
@@ -184,6 +213,38 @@ const buildSkippedCheckResults = (entry: PromptEvaluationCaseInput): PromptEvalu
     routingChecks.push({
       id: `${entry.id}-generic-writing-suppressed`,
       description: `Expected generic writing suppression = ${routingExpectations.genericWritingPromptSuppressed ? "yes" : "no"}.`,
+      passed: false,
+      detail: "Skipped because the prompt returned an error.",
+      category: "routing"
+    });
+  }
+  if (routingExpectations.reasoningProfile !== undefined) {
+    routingChecks.push({
+      id: `${entry.id}-reasoning-profile`,
+      description: `Expected reasoning profile ${routingExpectations.reasoningProfile}.`,
+      passed: false,
+      detail: "Skipped because the prompt returned an error.",
+      category: "routing"
+    });
+  }
+  if (routingExpectations.planningPolicy !== undefined) {
+    routingChecks.push({
+      id: `${entry.id}-planning-policy`,
+      description: `Expected planning policy ${routingExpectations.planningPolicy}.`,
+      passed: false,
+      detail: "Skipped because the prompt returned an error.",
+      category: "routing"
+    });
+  }
+  for (const [category, expected] of Object.entries(
+    routingExpectations.classifierCategories ?? {}
+  ) as Array<[ChatReplyClassifierCategory, boolean | undefined]>) {
+    if (expected === undefined) {
+      continue;
+    }
+    routingChecks.push({
+      id: `${entry.id}-classifier-${category}`,
+      description: `Expected classifier ${category} = ${expected ? "yes" : "no"}.`,
       passed: false,
       detail: "Skipped because the prompt returned an error.",
       category: "routing"
@@ -250,6 +311,25 @@ const buildSkippedCheckResults = (entry: PromptEvaluationCaseInput): PromptEvalu
 
   return [...textChecks, ...routingChecks, ...groundingChecks];
 };
+
+const evaluateClassifierCategoryExpectations = (
+  entry: PromptEvaluationCaseInput,
+  routing: PromptEvaluationRoutingReport
+): PromptEvaluationCheckResult[] =>
+  (Object.entries(entry.routingExpectations?.classifierCategories ?? {}) as Array<
+    [ChatReplyClassifierCategory, boolean | undefined]
+  >)
+    .filter(([, expected]) => expected !== undefined)
+    .map(([category, expected]) => {
+      const actual = routing.policyDiagnostics?.classifier.categories[category] ?? false;
+      return {
+        id: `${entry.id}-classifier-${category}`,
+        description: `Expected classifier ${category} = ${expected ? "yes" : "no"}.`,
+        passed: actual === expected,
+        detail: `Actual classifier ${category}: ${actual ? "yes" : "no"}.`,
+        category: "routing"
+      };
+    });
 
 const evaluatePromptCheck = (reply: string, check: PromptEvaluationCheck): PromptEvaluationCheckResult => {
   const normalizedValues = (check.values ?? []).map((value) => value.trim()).filter(Boolean);
@@ -325,6 +405,23 @@ const evaluatePromptCheck = (reply: string, check: PromptEvaluationCheck): Promp
         detail: `Found ${sentenceCount} sentences. Expected ${expectedLabel}.`
       };
     }
+    case "line-prefixes": {
+      const lines = reply
+        .split(/\r?\n/)
+        .map((line) => normalizeLine(line))
+        .filter(Boolean);
+      const matched = normalizedValues.filter((value, index) => lines[index]?.startsWith(value));
+      const passed = matched.length === normalizedValues.length;
+      return {
+        id: check.id,
+        description: check.description,
+        passed,
+        category: defaultCheckCategory(check),
+        detail: passed
+          ? `Matched all ${normalizedValues.length} line prefixes in order.`
+          : `Matched ${matched.length}/${normalizedValues.length} line prefixes in order.`
+      };
+    }
   }
 };
 
@@ -371,6 +468,25 @@ const evaluateRoutingExpectations = (
       category: "routing"
     });
   }
+  if (expectations.reasoningProfile !== undefined) {
+    results.push({
+      id: `${entry.id}-reasoning-profile`,
+      description: `Expected reasoning profile ${expectations.reasoningProfile}.`,
+      passed: routing.reasoningProfile === expectations.reasoningProfile,
+      detail: `Actual reasoning profile: ${routing.reasoningProfile}.`,
+      category: "routing"
+    });
+  }
+  if (expectations.planningPolicy !== undefined) {
+    results.push({
+      id: `${entry.id}-planning-policy`,
+      description: `Expected planning policy ${expectations.planningPolicy}.`,
+      passed: routing.planningPolicy === expectations.planningPolicy,
+      detail: `Actual planning policy: ${routing.planningPolicy ?? "none"}.`,
+      category: "routing"
+    });
+  }
+  results.push(...evaluateClassifierCategoryExpectations(entry, routing));
   if (entry.sourceScopeHint !== undefined) {
     results.push({
       id: `${entry.id}-source-scope`,

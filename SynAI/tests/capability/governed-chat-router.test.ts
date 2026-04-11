@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { routeGovernedChatTask } from "../../packages/Governance and exicution/src/governed-chat/router";
-import type { GovernedHistoryFinding } from "../../packages/Governance and exicution/src/governed-chat/types";
-import type { GovernedTaskPlanRequest } from "../../packages/Governance and exicution/src/governed-chat/types";
+import { routeGovernedChatTask } from "../../packages/Governance-Execution/src/governed-chat/router";
+import type { GovernedHistoryFinding } from "../../packages/Governance-Execution/src/governed-chat/types";
+import type { GovernedTaskPlanRequest } from "../../packages/Governance-Execution/src/governed-chat/types";
 
 const makeRequest = (text: string): GovernedTaskPlanRequest => ({
   requestId: `req-${text.slice(0, 8).replace(/\s+/g, "-")}`,

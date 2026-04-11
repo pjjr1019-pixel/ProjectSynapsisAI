@@ -14,6 +14,7 @@ import {
   RuntimeCheckpointSchema,
   RuntimeTaskResultSchema,
 } from '@synai-agent/contracts/agent-runtime.contracts';
+import { PromptIntentRuntimeBridgeSchema } from '@synai-agent/contracts/prompt-intent-bridge.contracts';
 
 const isoNow = () => {
   return new Date().toISOString();
@@ -164,5 +165,28 @@ describe('Agent contract schemas', () => {
       },
     };
     expect(() => RuntimeTaskResultSchema.parse(data)).not.toThrow();
+  });
+
+  it('validates prompt intent runtime bridge schema through the compatibility surface', () => {
+    const data = {
+      version: 1,
+      userGoal: 'Help with first-time setup',
+      intentFamily: 'repo-grounded',
+      sourceScope: 'repo-wide',
+      outputContract: {
+        shape: 'bullets',
+        length: 'short',
+        preserveExactStructure: false,
+      },
+      ambiguityFlags: ['missing-evidence'],
+      requiredChecks: ['decompose-first-time-task'],
+      clarification: {
+        needed: true,
+        questions: ['Please confirm what should be configured first.'],
+      },
+      preferenceIds: ['pref-1'],
+      resolvedPatternId: null,
+    };
+    expect(() => PromptIntentRuntimeBridgeSchema.parse(data)).not.toThrow();
   });
 });

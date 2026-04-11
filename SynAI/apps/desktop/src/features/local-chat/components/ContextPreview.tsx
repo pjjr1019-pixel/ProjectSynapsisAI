@@ -30,6 +30,21 @@ export function ContextPreview({ preview, className, hideTitle = false, compact 
       {preview.awarenessAnswerMode ? (
         <p className="text-[10px] text-slate-300">Awareness mode: {preview.awarenessAnswerMode}</p>
       ) : null}
+      {preview.promptIntent ? (
+        <div className="rounded border border-indigo-900/60 bg-indigo-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-indigo-200">Prompt Intent</p>
+          <p className="mt-0.5 text-[10px] text-indigo-100/90">
+            {preview.promptIntent.intentFamily} | {preview.promptIntent.sourceScope} |{" "}
+            {preview.promptIntent.outputContract.shape}
+          </p>
+          <p className="mt-0.5 text-[10px] text-indigo-200/70">{preview.promptIntent.userGoal}</p>
+          {preview.promptIntent.requiredChecks.length > 0 ? (
+            <p className="mt-0.5 text-[10px] text-indigo-200/70">
+              Checks: {preview.promptIntent.requiredChecks.slice(0, compact ? 2 : 4).join(" | ")}
+            </p>
+          ) : null}
+        </div>
+      ) : null}
       {preview.rag ? (
         <div className="rounded border border-orange-900/60 bg-orange-950/20 p-1.5">
           <p className="text-[10px] font-medium text-orange-200">Advanced RAG</p>

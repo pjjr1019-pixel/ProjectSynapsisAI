@@ -9,5 +9,7 @@ module.exports = {
   moduleNameMapper: {
     '^@agent-runtime$': '<rootDir>/packages/Agent-Runtime/src/index.ts',
     '^@agent-runtime/(.*)$': '<rootDir>/packages/Agent-Runtime/src/$1',
+    '^@synai-agent$': '<rootDir>/packages/Agent-Runtime/src/index.ts',
+    '^@synai-agent/(.*)$': '<rootDir>/packages/Agent-Runtime/src/$1',
   },
 };

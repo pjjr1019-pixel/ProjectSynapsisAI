@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { WorkspaceChunkHit } from "@contracts";
 import {
   filterWorkspaceHitsForReplyPolicy,
+  getReplyPolicyDiagnostics,
   getRoutingSuppressionReason,
   resolveReplyPolicy,
   shouldBypassCleanup
@@ -44,5 +45,41 @@ describe("reply policy", () => {
     );
 
     expect(filtered.map((entry) => entry.relativePath)).toEqual(["SynAI/README.md"]);
+  });
+
+  it("keeps repo-grounded routing when a docs prompt mentions Windows state", () => {
+    const policy = resolveReplyPolicy(
+      "Using the current repo docs only, explain the Windows CPU routing today in exactly 2 bullets.",
+      {
+        explicitWindowsAwarenessPrompt: false,
+        useWebSearch: false
+      }
+    );
+
+    expect(policy.sourceScope).toBe("docs-only");
+    expect(policy.routingPolicy).toBe("chat-first-source-scoped");
+    expect(getRoutingSuppressionReason(
+      "Using the current repo docs only, explain the Windows CPU routing today in exactly 2 bullets.",
+      policy
+    )).toBe("docs-only scope suppresses awareness routing");
+  });
+
+  it("captures classifier-backed diagnostics and generic-writing suppression", () => {
+    const policy = resolveReplyPolicy(
+      "Rewrite this reply to sound calmer without changing its meaning. Use exactly 2 bullets labeled Tone and Fix.",
+      {
+        explicitWindowsAwarenessPrompt: false,
+        useWebSearch: false
+      }
+    );
+
+    const diagnostics = getReplyPolicyDiagnostics(
+      "Rewrite this reply to sound calmer without changing its meaning. Use exactly 2 bullets labeled Tone and Fix.",
+      policy
+    );
+
+    expect(diagnostics.classifier.categories.generic_writing).toBe(true);
+    expect(diagnostics.classifier.categories.exact_format).toBe(true);
+    expect(diagnostics.suppressionReasons).toContain("generic-writing prompt suppresses awareness routing");
   });
 });

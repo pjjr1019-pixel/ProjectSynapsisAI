@@ -1,36 +1,27 @@
 import { resolve } from "node:path";
 import { defineConfig, externalizeDepsPlugin } from "electron-vite";
 import react from "@vitejs/plugin-react";
+import { createSynAiAliasEntries } from "./config/aliases";
 
-const aliases = [
-  { find: /^@synai-agent\/contracts\/agent-runtime\.contracts$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts") },
-  { find: /^@synai-agent\/(.+)$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/$1") },
-  { find: /^@synai-agent$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/index.ts") },
-  { find: /^@agent-runtime\/(.+)$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/$1") },
-  { find: /^@agent-runtime$/, replacement: resolve(__dirname, "packages/Agent-Runtime/src/index.ts") },
-  { find: /^@capability-catalog\/(.+)$/, replacement: resolve(__dirname, "packages/Capability-Catalog/$1") },
-  { find: /^@capability-catalog$/, replacement: resolve(__dirname, "packages/Capability-Catalog/index.ts") },
-  { find: /^@contracts\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/contracts/$1") },
-  { find: /^@contracts$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/contracts/index.ts") },
-  { find: /^@memory\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/memory/$1") },
-  { find: /^@memory$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/memory/index.ts") },
-  { find: /^@awareness\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/$1") },
-  { find: /^@awareness$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/index.ts") },
-  { find: /^@local-ai\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/local-ai/$1") },
-  { find: /^@local-ai$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/local-ai/index.ts") },
-  { find: /^@web-search\/(.+)$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/web-search/$1") },
-  { find: /^@web-search$/, replacement: resolve(__dirname, "packages/Awareness-Reasoning/src/web-search/index.ts") },
-  { find: /^@governance-execution\/(.+)$/, replacement: resolve(__dirname, "packages/Governance and exicution/src/$1") },
-  { find: /^@governance-execution$/, replacement: resolve(__dirname, "packages/Governance and exicution/src/index.ts") },
-  { find: /^@desktop\/(.+)$/, replacement: resolve(__dirname, "apps/desktop/src/$1") },
-  { find: /^@desktop$/, replacement: resolve(__dirname, "apps/desktop/src") }
+const aliases = createSynAiAliasEntries(__dirname);
+const tsFirstExtensions = [
+  ".ts",
+  ".tsx",
+  ".mts",
+  ".cts",
+  ".js",
+  ".jsx",
+  ".mjs",
+  ".cjs",
+  ".json"
 ];
 
 export default defineConfig({
   main: {
     plugins: [externalizeDepsPlugin()],
     resolve: {
-      alias: aliases
+      alias: aliases,
+      extensions: tsFirstExtensions
     },
     build: {
       rollupOptions: {
@@ -45,7 +36,8 @@ export default defineConfig({
   preload: {
     plugins: [externalizeDepsPlugin()],
     resolve: {
-      alias: aliases
+      alias: aliases,
+      extensions: tsFirstExtensions
     },
     build: {
       rollupOptions: {
@@ -61,7 +53,8 @@ export default defineConfig({
     root: resolve(__dirname, "apps/desktop"),
     plugins: [react()],
     resolve: {
-      alias: aliases
+      alias: aliases,
+      extensions: tsFirstExtensions
     },
     build: {
       rollupOptions: {

@@ -96,9 +96,11 @@ const createWorkflowVerificationRecord = (input: {
   compensation?: WorkflowStepResult[] | null;
   error?: string | null;
 }): ExecutionVerificationRecord => {
-  const failedStep = input.stepResults.find((step) => step.status === "failed" || step.status === "blocked") ?? null;
+  const failedStep = input.stepResults.find(
+    (step) => step.status === "failed" || step.status === "blocked" || step.status === "denied"
+  ) ?? null;
   const passed =
-    input.status !== "failed" &&
+    (input.status === "executed" || input.status === "simulated") &&
     !failedStep &&
     (input.compensation?.every((entry) => entry.status === "executed" || entry.status === "simulated" || entry.status === "skipped") ?? true);
 
@@ -117,7 +119,7 @@ const createWorkflowVerificationRecord = (input: {
       artifactPaths: input.artifactPaths,
       compensation: input.compensation ?? []
     },
-    expectedStateSummary: `Workflow ${input.plan.family} should complete without failed or blocked steps.`
+    expectedStateSummary: `Workflow ${input.plan.family} should complete without failed, blocked, or denied steps.`
   };
 };
 
@@ -126,6 +128,8 @@ const buildCompensationSummary = (step: WorkflowStepResult, result: DesktopActio
     ? `Rolled back ${step.id} with ${result.summary}`
     : result.status === "simulated"
       ? `Simulated rollback for ${step.id}: ${result.summary}`
+      : result.status === "denied"
+        ? `Rollback for ${step.id} was denied: ${result.summary}`
       : `Rollback for ${step.id} did not complete cleanly: ${result.summary}`;
 
 const runBrowserInteractionStep = async (
@@ -561,7 +565,14 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
     const browserResults: WorkflowBrowserResult[] = [];
     let reportMarkdown: string | null = null;
     let reportSummary: string | null = null;
-    let failure: { stepId: string; stepIndex: number; message: string } | null = null;
+    let failure:
+      | {
+          stepId: string;
+          stepIndex: number;
+          message: string;
+          status: WorkflowExecutionResult["status"];
+        }
+      | null = null;
 
     const pushProgress = (
       status: WorkflowProgressEvent["status"],
@@ -751,8 +762,10 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
               ? "executed"
               : actionResult.status === "simulated"
                 ? "simulated"
-                : actionResult.status === "blocked" || actionResult.status === "denied"
+                : actionResult.status === "blocked"
                   ? "blocked"
+                  : actionResult.status === "denied"
+                    ? "denied"
                   : "failed";
           stepResults.push({
             id: step.id,
@@ -852,11 +865,15 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         }
 
         const currentResult = stepResults[stepResults.length - 1] ?? null;
-        if (currentResult && (currentResult.status === "blocked" || currentResult.status === "failed")) {
+        if (
+          currentResult &&
+          (currentResult.status === "blocked" || currentResult.status === "denied" || currentResult.status === "failed")
+        ) {
           failure = {
             stepId: step.id,
             stepIndex: index,
-            message: currentResult.error ?? currentResult.summary
+            message: currentResult.error ?? currentResult.summary,
+            status: currentResult.status
           };
           break;
         }
@@ -883,7 +900,8 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         failure = {
           stepId: step.id,
           stepIndex: index,
-          message
+          message,
+          status: "failed"
         };
         pushProgress("failed", step.id, index, message);
         break;
@@ -903,8 +921,10 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
                 ? "executed"
                 : rollbackResult.status === "simulated"
                   ? "simulated"
-                  : rollbackResult.status === "blocked" || rollbackResult.status === "denied"
+                  : rollbackResult.status === "blocked"
                     ? "blocked"
+                    : rollbackResult.status === "denied"
+                      ? "denied"
                     : "failed",
             summary: buildCompensationSummary(
               {
@@ -939,22 +959,27 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
         }
       }
 
-      const summary = `Workflow failed at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`;
+      const summary =
+        failure.status === "denied"
+          ? `Workflow denied at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`
+          : failure.status === "blocked"
+            ? `Workflow blocked at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`
+            : `Workflow failed at ${failure.stepId}. ${compensationResults.length > 0 ? "Compensation was attempted." : "No compensation was available."}`;
       const verification = createWorkflowVerificationRecord({
         plan,
         stepResults,
         artifactPaths,
-        status: "failed",
+        status: failure.status,
         summary,
         compensation: compensationResults,
         error: failure.message
       });
-      pushProgress("failed", failure.stepId, failure.stepIndex, summary);
+      pushProgress(failure.status, failure.stepId, failure.stepIndex, summary);
       return {
         workflowId,
         workflowHash: plan.workflowHash,
         plan,
-        status: "failed",
+        status: failure.status,
         summary,
         reportMarkdown,
         reportSummary,
@@ -1129,7 +1154,12 @@ export const createWorkflowOrchestrator = (options: WorkflowOrchestratorOptions)
       riskClass: plan.approvalRequired ? "high" : "low",
       scope: null,
       targetKind: null,
-      status: result.status === "executed" || result.status === "simulated" ? "consumed" : "blocked",
+      status:
+        result.status === "executed" || result.status === "simulated"
+          ? "consumed"
+          : result.status === "denied"
+            ? "denied"
+            : "blocked",
       approvedBy: request.approvedBy ?? null,
       tokenId: approvalToken?.tokenId ?? null,
       createdAt: result.startedAt,

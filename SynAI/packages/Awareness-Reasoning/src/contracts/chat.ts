@@ -13,6 +13,8 @@ import type {
   AwarenessIntentFamily,
   AwarenessStartupDigest
 } from "./awareness";
+import type { PromptIntentContract } from "./prompt-intent";
+import type { PlanningPolicy, ReasoningProfile } from "./reasoning-profile";
 
 export type ChatRole = "system" | "user" | "assistant";
 export type ResponseMode = "fast" | "balanced" | "smart";
@@ -115,17 +117,47 @@ export const CHAT_REPLY_ROUTING_POLICIES = [
   "chat-first-source-scoped",
   "windows-explicit-only"
 ] as const;
+export const CHAT_REPLY_CLASSIFIER_CATEGORIES = [
+  "repo_grounded",
+  "exact_format",
+  "awareness_local_state",
+  "time_sensitive",
+  "governed_action",
+  "generic_writing",
+  "first_time_task",
+  "open_ended"
+] as const;
 
 export type ChatReplySourceScope = (typeof CHAT_REPLY_SOURCE_SCOPES)[number];
 export type ChatReplyFormatPolicy = (typeof CHAT_REPLY_FORMAT_POLICIES)[number];
 export type ChatReplyGroundingPolicy = (typeof CHAT_REPLY_GROUNDING_POLICIES)[number];
 export type ChatReplyRoutingPolicy = (typeof CHAT_REPLY_ROUTING_POLICIES)[number];
+export type ChatReplyClassifierCategory = (typeof CHAT_REPLY_CLASSIFIER_CATEGORIES)[number];
+export type ChatReplyRepoGroundingSubtype = Extract<
+  ChatReplySourceScope,
+  "repo-wide" | "readme-only" | "docs-only" | "workspace-only"
+>;
 
 export interface ChatReplyPolicy {
   sourceScope: ChatReplySourceScope;
   formatPolicy: ChatReplyFormatPolicy;
   groundingPolicy: ChatReplyGroundingPolicy;
   routingPolicy: ChatReplyRoutingPolicy;
+}
+
+export type ChatReplyClassifierCategoryMap = Record<ChatReplyClassifierCategory, boolean>;
+
+export interface ChatReplyTaskClassifierResult {
+  categories: ChatReplyClassifierCategoryMap;
+  repoGroundingSubtype: ChatReplyRepoGroundingSubtype;
+}
+
+export interface ChatReplyPolicyDiagnostics {
+  rawSignals: string[];
+  fallbackSignals: string[];
+  classifier: ChatReplyTaskClassifierResult;
+  chosenPolicy: ChatReplyPolicy;
+  suppressionReasons: string[];
 }
 
 export interface ChatRetrievedSourceSummary {
@@ -137,6 +169,8 @@ export interface ChatRetrievedSourceSummary {
 }
 
 export interface ChatExecutionDiagnostics {
+  reasoningProfile: ReasoningProfile;
+  planningPolicy: PlanningPolicy | null;
   routeFamily: ChatDiagnosticRouteFamily | null;
   routeConfidence: number | null;
   rawRouteFamily: AwarenessIntentFamily | null;
@@ -146,12 +180,14 @@ export interface ChatExecutionDiagnostics {
   genericWritingPromptSuppressed: boolean;
   sourceScope: ChatReplySourceScope | null;
   replyPolicy: ChatReplyPolicy | null;
+  policyDiagnostics?: ChatReplyPolicyDiagnostics | null;
   cleanupBypassed: boolean;
   routingSuppressionReason: string | null;
   retrievedSourceSummary: ChatRetrievedSourceSummary | null;
   reasoningMode: RagContextPreview["mode"] | null;
   evaluationSuiteMode: ChatEvaluationSuiteMode | null;
   taskState?: ChatGovernedTaskMetadata | null;
+  promptIntent?: PromptIntentContract | null;
 }
 
 export interface ChatMessageAwarenessMetadata {
@@ -197,6 +233,8 @@ export interface Conversation {
 export interface SendChatRequest {
   conversationId: string;
   text: string;
+  reasoningProfile?: ReasoningProfile;
+  planningPolicy?: PlanningPolicy;
   regenerate?: boolean;
   requestId?: string;
   runMode?: ChatRunMode;

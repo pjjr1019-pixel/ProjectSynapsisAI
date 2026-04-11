@@ -23,7 +23,7 @@ const queueTone = (status: string): "good" | "neutral" | "warn" | "bad" => {
   if (status === "consumed" || status === "approved") {
     return "good";
   }
-  if (status === "blocked" || status === "revoked" || status === "expired") {
+  if (status === "denied" || status === "blocked" || status === "revoked" || status === "expired") {
     return "bad";
   }
   if (status === "pending") {
@@ -351,6 +351,7 @@ export function SettingsPanel({ settings, availableModels, onUpdateSettings }: S
                 <Badge tone="neutral">Total {approvalQueue.totals.total}</Badge>
                 <Badge tone="warn">Pending {approvalQueue.totals.pending}</Badge>
                 <Badge tone="good">Consumed {approvalQueue.totals.consumed}</Badge>
+                <Badge tone="bad">Denied {approvalQueue.totals.denied}</Badge>
                 <Badge tone="warn">Blocked {approvalQueue.totals.blocked}</Badge>
                 <Badge tone="neutral">Revoked {approvalQueue.totals.revoked}</Badge>
                 <Badge tone="neutral">Expired {approvalQueue.totals.expired}</Badge>

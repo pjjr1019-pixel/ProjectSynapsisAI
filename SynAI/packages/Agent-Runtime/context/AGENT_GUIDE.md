@@ -8,10 +8,11 @@ SynAI today is a Windows-first local desktop app with a real chat shell, memory 
 
 - `SynAI/apps/desktop/` is the Electron app: main process, preload bridge, and React renderer.
 - `SynAI/packages/Awareness-Reasoning/src/` owns memory storage, prompt context assembly, local AI, awareness, retrieval, web search, and capability-eval plumbing.
-- `SynAI/packages/Governance and exicution/src/` owns governance policy, approvals, command hashing, audit query plumbing, Windows action catalogs, and execution helpers.
+- `SynAI/packages/Governance-Execution/src/` owns governance policy, approvals, command hashing, audit query plumbing, Windows action catalogs, and execution helpers.
 - `SynAI/packages/Agent-Runtime/src/` is the canonical agent runtime package for the repo.
 - `SynAI/packages/Agent-Runtime/tests/` is the Jest suite for the canonical runtime package.
-- `@synai-agent` is a compatibility import alias that resolves directly into the canonical runtime package.
+- `@agent-runtime` is the preferred canonical import alias for the runtime package.
+- `@synai-agent` is compatibility-only and should not grow new logic.
 
 ## What Already Works And Must Not Break
 
@@ -24,11 +25,12 @@ SynAI today is a Windows-first local desktop app with a real chat shell, memory 
 ## Current App Shape
 
 - `SynAI/packages/Agent-Runtime/src/` is the source of truth for future agent work. Keep new canonical logic there first.
+- `@agent-runtime` is the preferred import surface for new code.
 - `@synai-agent` exists only as a compatibility surface for SynAI-facing imports and tests. Do not introduce a second implementation behind it.
 - `SynAI/apps/desktop/electron/` is the main-process boundary. Keep orchestration, IPC, and side effects there.
 - `SynAI/apps/desktop/src/` is renderer-only UI: chat, history, tools, settings, memory, workflow cards, and preview panels.
 - `SynAI/packages/Awareness-Reasoning/src/` is shared reasoning and storage code, not UI.
-- `SynAI/packages/Governance and exicution/src/` is shared policy and execution code, not renderer code.
+- `SynAI/packages/Governance-Execution/src/` is shared policy and execution code, not renderer code.
 - `SynAI/packages/Capability-Catalog/` and `SynAI/tests/capability/` are the behavioral eval harness and its test fixtures, not the production runtime.
 - `SynAI/apps/vscode-capability-testing/` is a small editor-facing wrapper around the same capability harness.
 
@@ -52,7 +54,7 @@ Risky changes:
 - Renaming contract fields, status enums, or result shapes.
 - Editing `SynAI/apps/desktop/electron/main.ts`, `workflow-orchestrator.ts`, or `workflow-planner.ts` without updating app tests.
 - Editing `SynAI/packages/Awareness-Reasoning/src/memory/*` without checking context assembly and smoke tests.
-- Editing `SynAI/packages/Governance and exicution/src/policy/engine.ts`, approvals, or Windows action catalogs without behavior tests.
+- Editing `SynAI/packages/Governance-Execution/src/policy/engine.ts`, approvals, or Windows action catalogs without behavior tests.
 - Adding real Windows automation, process termination, destructive file operations, or network side effects before the policy and audit story is ready.
 
 ## Validation Commands
@@ -72,7 +74,7 @@ When touching Electron orchestration or governance execution, add the relevant S
 ## Rules For Future Model Runs
 
 - Read this guide, `SynAI/packages/Agent-Runtime/context/REPO_MAP.yaml`, `SynAI/packages/Agent-Runtime/context/BLAST_RADIUS_MANIFEST.yaml`, `SynAI/packages/Agent-Runtime/context/GLOSSARY.yaml`, and the relevant layer spec before coding.
-- Treat `SynAI/packages/Agent-Runtime/docs/AGENT_RUNTIME_FOUNDATION.md` and `SynAI/docs/AGENT_INSERTION_POINTS.md` as background only if they conflict with this guide.
+- Treat `SynAI/packages/Agent-Runtime/docs/AGENT_RUNTIME_FOUNDATION.md` and `SynAI/docs/AGENT_INSERTION_POINTS.md` as the current boundary map if they conflict with older implementation notes.
 - Keep changes as small and local as possible.
 - Prefer additive, typed, and test-backed changes over hidden behavior.
 - Do not fake a future layer by adding real side effects early.

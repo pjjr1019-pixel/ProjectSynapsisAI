@@ -15,7 +15,7 @@ Prepare layer 2 work so future prompts can add grounded observation and replayab
 - `SynAI/apps/desktop/src/features/local-chat/components/ReasoningTraceView.tsx`
 
 ## Files Not To Touch Casually
-- `SynAI/packages/Governance and exicution/src/execution/windows-actions.ts`
+- `SynAI/packages/Governance-Execution/src/execution/windows-actions.ts`
 - `SynAI/apps/desktop/electron/workflow-planner.ts`
 - `SynAI/apps/desktop/src/features/local-chat/components/ChatPanel.tsx`
 

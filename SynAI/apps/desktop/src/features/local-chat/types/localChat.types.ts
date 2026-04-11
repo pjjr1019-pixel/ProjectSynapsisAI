@@ -7,6 +7,7 @@ import type {
   MemoryEntry,
   ModelHealth,
   PromptEvaluationResponse,
+  ReasoningProfile,
   ReasoningTraceState,
   ResponseMode,
   ScreenAwarenessStatus
@@ -17,6 +18,7 @@ export type WorkspaceTab = "chat" | "history" | "tools" | "settings";
 export type WorkspaceToolTab = "model" | "actions" | "workflows" | "memory" | "context" | "search";
 
 export interface ChatSettingsState {
+  reasoningProfile: ReasoningProfile;
   selectedModel: string;
   defaultWebSearch: boolean;
   advancedRagEnabled: boolean;

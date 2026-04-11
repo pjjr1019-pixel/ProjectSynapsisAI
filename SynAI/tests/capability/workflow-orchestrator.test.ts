@@ -1,6 +1,6 @@
 import { describe, expect, it, vi, beforeEach } from "vitest";
-import { hashGovernanceCommand } from "../../packages/Governance and exicution/src/commands/hash";
-import { listWindowsActionDefinitions } from "../../packages/Governance and exicution/src/execution/windows-action-catalog";
+import { hashGovernanceCommand } from "../../packages/Governance-Execution/src/commands/hash";
+import { listWindowsActionDefinitions } from "../../packages/Governance-Execution/src/execution/windows-action-catalog";
 import type { ApprovalToken, WorkflowExecutionRequest, WorkflowPlan, WorkflowProgressEvent } from "@contracts";
 
 vi.mock("electron", () => ({
@@ -222,6 +222,78 @@ describe("workflow orchestrator", () => {
     }
   });
 
+  it("blocks approval replay when the workflow plan is tampered after approval issuance", async () => {
+    const orchestrator = createWorkflowOrchestrator({
+      workspaceRoot: "C:/workspace",
+      runtimeRoot: "C:/workspace/.runtime",
+      desktopActions,
+      getMachineAwareness: () => machineAwareness,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null,
+      emitProgress: (event) => {
+        progressEvents.push(event);
+      },
+      browserHost: {
+        search: async () => [],
+        open: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        playYoutube: async () => ({
+          url: "https://www.youtube.com",
+          title: "YouTube",
+          text: "",
+          links: []
+        }),
+        click: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        type: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        hotkey: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        close: async () => {}
+      }
+    });
+
+    try {
+      const plan = (await orchestrator.suggestWorkflow("remove chrome completely from my system")) as WorkflowPlan;
+      const approval = await orchestrator.issueWorkflowApproval(plan, "qa-operator");
+      const tamperedPlan: WorkflowPlan = {
+        ...plan,
+        summary: `${plan.summary} (tampered after approval)`
+      };
+
+      const result = await orchestrator.executeWorkflow({
+        prompt: tamperedPlan.prompt,
+        plan: tamperedPlan,
+        dryRun: false,
+        approvedBy: "qa-operator",
+        approvalToken: approval
+      });
+
+      expect(result.status).toBe("blocked");
+      expect(result.summary).toContain("Approval token");
+      expect(desktopActions.executeDesktopAction).not.toHaveBeenCalled();
+      expect(progressEvents).toHaveLength(0);
+    } finally {
+      await orchestrator.close();
+    }
+  });
+
   it("opens browser navigation visibly for site prompts", async () => {
     const openCalls: Array<[string, boolean | undefined]> = [];
     const orchestrator = createWorkflowOrchestrator({
@@ -289,6 +361,214 @@ describe("workflow orchestrator", () => {
       expect(result.status).toBe("executed");
       expect(openCalls[0]?.[0]).toBe("https://www.google.com");
       expect(openCalls[0]?.[1]).toBe(true);
+    } finally {
+      await orchestrator.close();
+    }
+  });
+
+  it("preserves denied workflow step results and workflow status", async () => {
+    desktopActions.executeDesktopAction.mockImplementationOnce(async (request: any) => ({
+      proposalId: request.proposalId,
+      kind: request.kind,
+      scope: request.scope,
+      targetKind: request.targetKind,
+      target: request.target,
+      status: "denied" as const,
+      commandId: `command-${request.kind}`,
+      commandHash: `hash-${request.kind}`,
+      preview: `${request.kind}:${request.target}`,
+      summary: "The governed adapter denied the live action.",
+      riskClass: request.riskClass,
+      approvalRequired: request.destructive,
+      approvedBy: request.approvedBy ?? null,
+      startedAt: "2026-04-10T00:00:00.000Z",
+      completedAt: "2026-04-10T00:00:00.100Z",
+      output: { target: request.target }
+    }));
+
+    const orchestrator = createWorkflowOrchestrator({
+      workspaceRoot: "C:/workspace",
+      runtimeRoot: "C:/workspace/.runtime",
+      desktopActions,
+      getMachineAwareness: () => machineAwareness,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null,
+      emitProgress: (event) => {
+        progressEvents.push(event);
+      },
+      browserHost: {
+        search: async () => [],
+        open: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        playYoutube: async () => ({
+          url: "https://www.youtube.com",
+          title: "YouTube",
+          text: "",
+          links: []
+        }),
+        click: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        type: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        hotkey: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        close: async () => {}
+      }
+    });
+
+    try {
+      const plan = (await orchestrator.suggestWorkflow("remove chrome completely from my system")) as WorkflowPlan;
+      const approval = await orchestrator.issueWorkflowApproval(plan, "qa-operator");
+      const result = await orchestrator.executeWorkflow({
+        prompt: plan.prompt,
+        plan,
+        dryRun: false,
+        approvedBy: "qa-operator",
+        approvalToken: approval
+      });
+
+      expect(result.status).toBe("denied");
+      expect(result.stepResults.find((step) => step.kind === "desktop-action")?.status).toBe("denied");
+      expect(result.verification?.passed).toBe(false);
+      expect(progressEvents.at(-1)?.status).toBe("denied");
+      expect(desktopActions.rollbackDesktopAction).not.toHaveBeenCalled();
+    } finally {
+      await orchestrator.close();
+    }
+  });
+
+  it("records denied and blocked workflow queue outcomes distinctly", async () => {
+    const queueRecords: Array<{ status: string; summary: string }> = [];
+    const approvalQueue = {
+      record: vi.fn(async (record: { status: string; summary: string }) => {
+        queueRecords.push(record);
+      }),
+      list: vi.fn(async () => ({
+        capturedAt: new Date().toISOString(),
+        totals: {
+          total: queueRecords.length,
+          pending: 0,
+          approved: 0,
+          consumed: queueRecords.filter((record) => record.status === "consumed").length,
+          denied: queueRecords.filter((record) => record.status === "denied").length,
+          blocked: queueRecords.filter((record) => record.status === "blocked").length,
+          revoked: 0,
+          expired: 0
+        },
+        records: queueRecords
+      }))
+    };
+
+    desktopActions.executeDesktopAction.mockImplementationOnce(async (request: any) => ({
+      proposalId: request.proposalId,
+      kind: request.kind,
+      scope: request.scope,
+      targetKind: request.targetKind,
+      target: request.target,
+      status: "denied" as const,
+      commandId: `command-${request.kind}`,
+      commandHash: `hash-${request.kind}`,
+      preview: `${request.kind}:${request.target}`,
+      summary: "The governed adapter denied the live action.",
+      riskClass: request.riskClass,
+      approvalRequired: request.destructive,
+      approvedBy: request.approvedBy ?? null,
+      startedAt: "2026-04-10T00:00:00.000Z",
+      completedAt: "2026-04-10T00:00:00.100Z",
+      output: { target: request.target }
+    }));
+
+    const orchestrator = createWorkflowOrchestrator({
+      workspaceRoot: "C:/workspace",
+      runtimeRoot: "C:/workspace/.runtime",
+      desktopActions,
+      approvalQueue: approvalQueue as any,
+      getMachineAwareness: () => machineAwareness,
+      getFileAwareness: () => null,
+      getScreenAwareness: () => null,
+      emitProgress: (event) => {
+        progressEvents.push(event);
+      },
+      browserHost: {
+        search: async () => [],
+        open: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        playYoutube: async () => ({
+          url: "https://www.youtube.com",
+          title: "YouTube",
+          text: "",
+          links: []
+        }),
+        click: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        type: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        hotkey: async () => ({
+          url: "about:blank",
+          title: "about:blank",
+          text: "",
+          links: []
+        }),
+        close: async () => {}
+      }
+    });
+
+    try {
+      const deniedPlan = (await orchestrator.suggestWorkflow("remove chrome completely from my system")) as WorkflowPlan;
+      const deniedApproval = await orchestrator.issueWorkflowApproval(deniedPlan, "qa-operator");
+      const deniedResult = await orchestrator.executeWorkflow({
+        prompt: deniedPlan.prompt,
+        plan: deniedPlan,
+        dryRun: false,
+        approvedBy: "qa-operator",
+        approvalToken: deniedApproval
+      });
+      expect(deniedResult.status).toBe("denied");
+      expect(queueRecords.at(-1)?.status).toBe("denied");
+
+      const blockedPlan = (await orchestrator.suggestWorkflow("remove chrome completely from my system")) as WorkflowPlan;
+      const blockedApproval = await orchestrator.issueWorkflowApproval(blockedPlan, "qa-operator");
+      const tamperedBlockedPlan: WorkflowPlan = {
+        ...blockedPlan,
+        summary: `${blockedPlan.summary} (tampered after approval)`
+      };
+      const blockedResult = await orchestrator.executeWorkflow({
+        prompt: tamperedBlockedPlan.prompt,
+        plan: tamperedBlockedPlan,
+        dryRun: false,
+        approvedBy: "qa-operator",
+        approvalToken: blockedApproval
+      });
+      expect(blockedResult.status).toBe("blocked");
+      expect(queueRecords.at(-1)?.status).toBe("blocked");
     } finally {
       await orchestrator.close();
     }

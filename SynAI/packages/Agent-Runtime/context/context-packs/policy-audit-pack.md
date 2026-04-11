@@ -10,9 +10,9 @@ Prepare layer 5 work so future prompts can harden policy, audit, and eval behavi
 - `SynAI/packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts`
 - `SynAI/packages/Agent-Runtime/tests/policy/policy.test.ts`
 - `SynAI/packages/Agent-Runtime/tests/audit/audit.test.ts`
-- `SynAI/packages/Governance and exicution/src/policy/engine.ts`
-- `SynAI/packages/Governance and exicution/src/approvals/ledger.ts`
-- `SynAI/packages/Governance and exicution/src/audit/query.ts`
+- `SynAI/packages/Governance-Execution/src/policy/engine.ts`
+- `SynAI/packages/Governance-Execution/src/approvals/ledger.ts`
+- `SynAI/packages/Governance-Execution/src/audit/query.ts`
 - `SynAI/tests/capability/policy-engine.test.ts`
 - `SynAI/tests/capability/governance-command-bus.test.ts`
 - `SynAI/tests/capability/approval-gate.test.ts`

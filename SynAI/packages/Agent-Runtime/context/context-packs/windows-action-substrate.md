@@ -9,9 +9,9 @@ Prepare layer 1 work so future prompts can add a typed Windows action substrate 
 - `SynAI/docs/decisions/ADR-003-foundation-before-real-automation.md`
 - `SynAI/docs/architecture/governed-execution-roadmap.md`
 - `SynAI/docs/governance-execution-usage.md`
-- `SynAI/packages/Governance and exicution/src/contracts.ts`
-- `SynAI/packages/Governance and exicution/src/execution/windows-action-catalog.ts`
-- `SynAI/packages/Governance and exicution/src/execution/windows-actions.ts`
+- `SynAI/packages/Governance-Execution/src/contracts.ts`
+- `SynAI/packages/Governance-Execution/src/execution/windows-action-catalog.ts`
+- `SynAI/packages/Governance-Execution/src/execution/windows-actions.ts`
 - `SynAI/apps/desktop/electron/workflow-orchestrator.ts`
 
 ## Files Not To Touch Casually

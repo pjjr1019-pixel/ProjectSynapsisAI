@@ -1,5 +1,7 @@
 import type {
   ChatDiagnosticRouteFamily,
+  ChatReplyClassifierCategory,
+  ChatReplyPolicyDiagnostics,
   ChatEvaluationSuiteMode,
   ChatReplyFormatPolicy,
   ChatReplyPolicy,
@@ -10,6 +12,7 @@ import type {
 import type { AwarenessAnswerMode, AwarenessIntentFamily } from "./awareness";
 import type { ModelHealth } from "./health";
 import type { RagExecutionMode, RagOptions, ReasoningTraceSummary } from "./rag";
+import type { PlanningPolicy, ReasoningProfile } from "./reasoning-profile";
 
 export const PROMPT_EVAL_DIFFICULTIES = ["easy", "medium", "hard", "edge"] as const;
 export const PROMPT_EVAL_QUALITY_STATUSES = ["passed", "needs-review"] as const;
@@ -31,7 +34,8 @@ export const PROMPT_EVAL_CHECK_KINDS = [
   "includes-any",
   "excludes-all",
   "bullet-count",
-  "sentence-count"
+  "sentence-count",
+  "line-prefixes"
 ] as const;
 
 export type PromptEvaluationCheckKind = (typeof PROMPT_EVAL_CHECK_KINDS)[number];
@@ -53,6 +57,9 @@ export interface PromptEvaluationRoutingExpectations {
   awarenessUsed?: boolean;
   deterministicAwareness?: boolean;
   genericWritingPromptSuppressed?: boolean;
+  reasoningProfile?: ReasoningProfile;
+  planningPolicy?: PlanningPolicy;
+  classifierCategories?: Partial<Record<ChatReplyClassifierCategory, boolean>>;
 }
 
 export interface PromptEvaluationGroundingExpectations {
@@ -67,6 +74,8 @@ export interface PromptEvaluationCaseInput {
   label: string;
   difficulty: PromptEvalDifficulty;
   prompt: string;
+  reasoningProfile?: ReasoningProfile;
+  planningPolicy?: PlanningPolicy;
   sourceScopeHint?: ChatReplySourceScope;
   formatPolicy?: ChatReplyFormatPolicy;
   replyPolicy?: Partial<ChatReplyPolicy>;
@@ -78,6 +87,8 @@ export interface PromptEvaluationCaseInput {
 export interface PromptEvaluationSettingsSnapshot {
   suiteMode: ChatEvaluationSuiteMode;
   model: string | null;
+  reasoningProfile: ReasoningProfile;
+  planningPolicy: PlanningPolicy;
   responseMode: ResponseMode;
   awarenessAnswerMode: AwarenessAnswerMode;
   ragEnabled: boolean;
@@ -90,6 +101,8 @@ export interface PromptEvaluationRequest {
   suiteName?: string;
   suiteMode?: ChatEvaluationSuiteMode;
   cases: PromptEvaluationCaseInput[];
+  reasoningProfile?: ReasoningProfile;
+  planningPolicy?: PlanningPolicy;
   modelOverride?: string;
   responseMode?: ResponseMode;
   awarenessAnswerMode?: AwarenessAnswerMode;
@@ -98,6 +111,8 @@ export interface PromptEvaluationRequest {
 }
 
 export interface PromptEvaluationRoutingReport {
+  reasoningProfile: ReasoningProfile;
+  planningPolicy: PlanningPolicy | null;
   routeFamily: PromptEvaluationDiagnosticRouteFamily;
   routeConfidence: number | null;
   rawRouteFamily: AwarenessIntentFamily | "none";
@@ -107,6 +122,7 @@ export interface PromptEvaluationRoutingReport {
   genericWritingPromptSuppressed: boolean;
   sourceScope: ChatReplySourceScope | null;
   replyPolicy: ChatReplyPolicy | null;
+  policyDiagnostics?: ChatReplyPolicyDiagnostics | null;
   cleanupBypassed: boolean;
   routingSuppressionReason: string | null;
   retrievedSourceSummary: ChatRetrievedSourceSummary | null;

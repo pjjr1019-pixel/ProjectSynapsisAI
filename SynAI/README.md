@@ -1,5 +1,7 @@
 # SynAI Phase 1: Smart Local Chat Test Build
 
+`SynAI/` is the actual app/package root. The repository root is only a bootstrap shell.
+
 This folder is a clean staged rebuild focused on local chat intelligence:
 - local Ollama chat
 - conversation persistence
@@ -11,9 +13,9 @@ This folder is a clean staged rebuild focused on local chat intelligence:
 
 ## Intentionally Not Built Yet
 - finance
-- browser automation
+- broad autonomous browser automation outside governed workflow steps
 - cloud sync
-- multi-agent systems
+- broad multi-agent systems
 - launcher/dashboard extras
 
 ## Governed Desktop Actions
@@ -21,6 +23,7 @@ This folder is a clean staged rebuild focused on local chat intelligence:
 - The action surface is preview-first, audit-logged, and approval-gated for destructive or system-changing operations.
 - The Workflow tab adds governed multi-step task planning for research, reports, app launch, system navigation, file work, process control, and uninstall flows.
 - See [docs/architecture/governed-execution-roadmap.md](docs/architecture/governed-execution-roadmap.md) for the rollout shape.
+- See [packages/Governance-Execution/README.md](packages/Governance-Execution/README.md) before extending governed actions or policy.
 
 ## Setup
 1. `cd SynAI`
@@ -56,10 +59,12 @@ This folder is a clean staged rebuild focused on local chat intelligence:
 
 ## Testing Strategy
 - Smoke tests validate shell layout, model health handling, persistence, extraction, keyword retrieval, rolling summaries, and context assembly.
-- This phase is intentionally small and test-first for chat intelligence only.
+- Capability and contract tests also protect governed actions, workflows, approvals, and audit boundaries.
 
 ## Extending Later
 Add non-chat features in new feature folders and packages, keeping:
 - provider logic in `packages/Awareness-Reasoning/src/local-ai`
 - memory/context logic in `packages/Awareness-Reasoning/src/memory`
 - UI wiring in `apps/desktop/src/features/*`
+- canonical runtime work in `packages/Agent-Runtime/src`
+- governed execution work in `packages/Governance-Execution/src`

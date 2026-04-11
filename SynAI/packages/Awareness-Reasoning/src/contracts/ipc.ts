@@ -11,6 +11,14 @@ import type { ContextPreview, MemoryEntry } from "./memory";
 import type { RagOptions, ReasoningTraceEvent } from "./rag";
 import type { PromptEvaluationRequest, PromptEvaluationResponse } from "./prompt-eval";
 import type {
+  CapabilityRunExportResult,
+  CapabilityRunSnapshot,
+  CapabilityRunStartRequest,
+  CapabilityRunRecord,
+  CapabilityRunnerCatalogSummary,
+  CapabilityEventRecord
+} from "./capability-runner";
+import type {
   AwarenessAnswerMode,
   AwarenessEvent,
   AwarenessQueryAnswer,
@@ -21,6 +29,7 @@ import type {
   OfficialKnowledgeSourceStatus,
   StartAssistModeOptions
 } from "./awareness";
+import type { ReasoningProfile } from "./reasoning-profile";
 import type { OfficialKnowledgeStatus } from "../official-knowledge";
 import type {
   AgentRuntimeInspection,
@@ -292,7 +301,7 @@ export interface WorkflowPlan {
 export interface WorkflowStepResult {
   id: string;
   kind: WorkflowStepKind;
-  status: "executed" | "simulated" | "blocked" | "failed" | "skipped";
+  status: "executed" | "simulated" | "blocked" | "denied" | "failed" | "skipped";
   summary: string;
   startedAt: string;
   completedAt: string;
@@ -364,6 +373,7 @@ export const GOVERNANCE_APPROVAL_QUEUE_STATUSES = [
   "pending",
   "approved",
   "consumed",
+  "denied",
   "blocked",
   "revoked",
   "expired"
@@ -398,6 +408,7 @@ export interface GovernanceApprovalQueueSnapshot {
     pending: number;
     approved: number;
     consumed: number;
+    denied: number;
     blocked: number;
     revoked: number;
     expired: number;
@@ -580,7 +591,17 @@ export const IPC_CHANNELS = {
   agentRuntimeResume: "agent-runtime:resume",
   agentRuntimeCancel: "agent-runtime:cancel",
   agentRuntimeRecover: "agent-runtime:recover",
-  agentRuntimeProgress: "agent-runtime:progress"
+  agentRuntimeProgress: "agent-runtime:progress",
+  capabilityRunnerCatalog: "capability-runner:catalog",
+  capabilityRunnerRuns: "capability-runner:runs",
+  capabilityRunnerSnapshot: "capability-runner:snapshot",
+  capabilityRunnerStart: "capability-runner:start",
+  capabilityRunnerPause: "capability-runner:pause",
+  capabilityRunnerResume: "capability-runner:resume",
+  capabilityRunnerStop: "capability-runner:stop",
+  capabilityRunnerRerunFailed: "capability-runner:rerun-failed",
+  capabilityRunnerExport: "capability-runner:export",
+  capabilityRunnerEvents: "capability-runner:events"
 } as const;
 
 export interface SynAIBridge {
@@ -624,7 +645,8 @@ export interface SynAIBridge {
     conversationId: string,
     latestUserMessage: string,
     awarenessAnswerMode?: AwarenessAnswerMode,
-    ragOptions?: RagOptions
+    ragOptions?: RagOptions,
+    reasoningProfile?: ReasoningProfile
   ): Promise<ContextPreview>;
   getScreenStatus(): Promise<ScreenAwarenessStatus>;
   getScreenForegroundWindow(): Promise<ForegroundWindowSnapshot | null>;
@@ -639,4 +661,14 @@ export interface SynAIBridge {
   cancelAgentRuntimeJob(jobId: string): Promise<AgentRuntimeInspection | null>;
   recoverAgentRuntimeJob(jobId: string): Promise<AgentRuntimeInspection | null>;
   subscribeAgentRuntimeProgress(listener: (event: RuntimeProgressEvent) => void): () => void;
+  getCapabilityRunnerCatalogSummary(): Promise<CapabilityRunnerCatalogSummary>;
+  listCapabilityRuns(): Promise<CapabilityRunRecord[]>;
+  getCapabilityRunSnapshot(runId?: string): Promise<CapabilityRunSnapshot | null>;
+  startCapabilityRun(request: CapabilityRunStartRequest): Promise<CapabilityRunSnapshot>;
+  pauseCapabilityRun(runId: string): Promise<CapabilityRunRecord | null>;
+  resumeCapabilityRun(runId: string): Promise<CapabilityRunSnapshot | null>;
+  stopCapabilityRun(runId: string): Promise<CapabilityRunRecord | null>;
+  rerunFailedCapabilityRun(runId: string): Promise<CapabilityRunSnapshot | null>;
+  exportCapabilityRunMarkdown(runId: string): Promise<CapabilityRunExportResult | null>;
+  subscribeCapabilityRunnerEvents(listener: (event: CapabilityEventRecord) => void): () => void;
 }

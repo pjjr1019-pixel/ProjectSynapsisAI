@@ -14,7 +14,11 @@ const emptyDatabase = (): SynAIDatabase => ({
   conversations: [],
   messages: [],
   memories: [],
-  summaries: []
+  promptBehaviorMemories: [],
+  summaries: [],
+  capabilityRuns: [],
+  capabilityCases: [],
+  capabilityEvents: []
 });
 
 export const configureDatabasePath = (nextPath: string): void => {
@@ -55,7 +59,11 @@ export const loadDatabase = async (): Promise<SynAIDatabase> => {
       conversations: parsed.conversations ?? [],
       messages: parsed.messages ?? [],
       memories: parsed.memories ?? [],
-      summaries: parsed.summaries ?? []
+      promptBehaviorMemories: parsed.promptBehaviorMemories ?? [],
+      summaries: parsed.summaries ?? [],
+      capabilityRuns: parsed.capabilityRuns ?? [],
+      capabilityCases: parsed.capabilityCases ?? [],
+      capabilityEvents: parsed.capabilityEvents ?? []
     };
     return cache;
   })();

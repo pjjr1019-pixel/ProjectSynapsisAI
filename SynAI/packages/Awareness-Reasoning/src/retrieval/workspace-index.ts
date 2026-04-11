@@ -13,6 +13,10 @@ const MAX_FILE_BYTES = 512 * 1024;
 const CHUNK_TARGET_CHARS = 900;
 const CHUNK_OVERLAP_CHARS = 180;
 const MAX_QUERY_RESULTS = 6;
+const MAX_DISCOVERED_FILES = 1200;
+const MAX_TOTAL_CHUNKS = 900;
+const MAX_TOTAL_CHUNK_CHARS = 1_200_000;
+const MAX_INDEX_BYTES_ON_DISK = 16 * 1024 * 1024;
 
 const TEXT_EXTENSIONS = new Set([
   ".c",
@@ -307,6 +311,10 @@ const buildChunks = async (
 const loadIndex = async (runtimeRoot: string, workspaceRoot: string): Promise<WorkspaceIndexData | null> => {
   const paths = getWorkspaceIndexPaths(runtimeRoot);
   try {
+    const indexStat = await stat(paths.indexPath);
+    if (!indexStat.isFile() || indexStat.size > MAX_INDEX_BYTES_ON_DISK) {
+      return createEmptyIndex(normalizePath(workspaceRoot));
+    }
     const raw = await readFile(paths.indexPath, "utf8");
     const parsed = JSON.parse(raw) as WorkspaceIndexData;
     if (parsed.version !== INDEX_VERSION || normalizePath(parsed.workspaceRoot) !== normalizePath(workspaceRoot)) {
@@ -341,11 +349,18 @@ const cosineSimilarity = (left: number[], right: number[]): number => {
   return numerator / (Math.sqrt(leftMagnitude) * Math.sqrt(rightMagnitude));
 };
 
-const summarizeDetail = (embeddingEnabled: boolean, changedCount: number): string | null => {
+const summarizeDetail = (
+  embeddingEnabled: boolean,
+  changedCount: number,
+  constrainedByBudget: boolean
+): string | null => {
   const messages = [
     changedCount > 0 ? `${changedCount} file${changedCount === 1 ? "" : "s"} refreshed` : "index up to date",
     embeddingEnabled ? "semantic ranking ready" : "keyword-only ranking"
   ];
+  if (constrainedByBudget) {
+    messages.push("index budget applied");
+  }
   return messages.join(" | ");
 };
 
@@ -360,11 +375,22 @@ const refreshWorkspaceIndex = async (
   const existingChunksById = new Map(existing.chunks.map((chunk) => [chunk.id, chunk]));
   const nextFiles: WorkspaceIndexedFile[] = [];
   const nextChunks: WorkspaceIndexChunk[] = [];
+  let totalChunkChars = 0;
+  let constrainedByBudget = false;
   let changedCount = 0;
 
   const discoveredFiles = await discoverWorkspaceFiles(workspaceRoot);
 
   for (const filePath of discoveredFiles) {
+    if (
+      nextFiles.length >= MAX_DISCOVERED_FILES ||
+      nextChunks.length >= MAX_TOTAL_CHUNKS ||
+      totalChunkChars >= MAX_TOTAL_CHUNK_CHARS
+    ) {
+      constrainedByBudget = true;
+      break;
+    }
+
     const fileStat = await stat(filePath).catch(() => null);
     if (!fileStat || !fileStat.isFile() || fileStat.size > MAX_FILE_BYTES) {
       continue;
@@ -373,13 +399,25 @@ const refreshWorkspaceIndex = async (
     const relativePath = path.relative(workspaceRoot, filePath) || path.basename(filePath);
     const existingFile = existingFileMap.get(filePath);
     if (existingFile && existingFile.sizeBytes === fileStat.size && existingFile.modifiedAtMs === fileStat.mtimeMs) {
-      nextFiles.push(existingFile);
+      const preservedChunks: WorkspaceIndexChunk[] = [];
+      let additionalChars = 0;
       for (const chunkId of existingFile.chunkIds) {
         const existingChunk = existingChunksById.get(chunkId);
         if (existingChunk) {
-          nextChunks.push(existingChunk);
+          preservedChunks.push(existingChunk);
+          additionalChars += existingChunk.text.length;
         }
       }
+      if (
+        nextChunks.length + preservedChunks.length > MAX_TOTAL_CHUNKS ||
+        totalChunkChars + additionalChars > MAX_TOTAL_CHUNK_CHARS
+      ) {
+        constrainedByBudget = true;
+        break;
+      }
+      nextFiles.push(existingFile);
+      nextChunks.push(...preservedChunks);
+      totalChunkChars += additionalChars;
       continue;
     }
 
@@ -395,6 +433,33 @@ const refreshWorkspaceIndex = async (
 
     const hash = createHash("sha1").update(buffer).digest("hex");
     const chunks = await buildChunks(filePath, relativePath, hash, text, embedder);
+    const remainingChunkBudget = MAX_TOTAL_CHUNKS - nextChunks.length;
+    const remainingCharBudget = MAX_TOTAL_CHUNK_CHARS - totalChunkChars;
+    if (remainingChunkBudget <= 0 || remainingCharBudget <= 0) {
+      constrainedByBudget = true;
+      break;
+    }
+
+    const boundedChunks: WorkspaceIndexChunk[] = [];
+    let boundedChars = 0;
+    for (const chunk of chunks) {
+      if (boundedChunks.length >= remainingChunkBudget) {
+        constrainedByBudget = true;
+        break;
+      }
+      const nextChars = boundedChars + chunk.text.length;
+      if (nextChars > remainingCharBudget) {
+        constrainedByBudget = true;
+        break;
+      }
+      boundedChunks.push(chunk);
+      boundedChars = nextChars;
+    }
+    if (boundedChunks.length === 0) {
+      constrainedByBudget = true;
+      break;
+    }
+
     changedCount += 1;
     nextFiles.push({
       path: filePath,
@@ -402,9 +467,10 @@ const refreshWorkspaceIndex = async (
       sizeBytes: fileStat.size,
       modifiedAtMs: fileStat.mtimeMs,
       hash,
-      chunkIds: chunks.map((chunk) => chunk.id)
+      chunkIds: boundedChunks.map((chunk) => chunk.id)
     });
-    nextChunks.push(...chunks);
+    nextChunks.push(...boundedChunks);
+    totalChunkChars += boundedChars;
   }
 
   const nextData: WorkspaceIndexData = {
@@ -422,7 +488,12 @@ const refreshWorkspaceIndex = async (
 
   return {
     data: nextData,
-    status: createStatus(options, nextData, summarizeDetail(embeddingEnabled, changedCount), embeddingEnabled)
+    status: createStatus(
+      options,
+      nextData,
+      summarizeDetail(embeddingEnabled, changedCount, constrainedByBudget),
+      embeddingEnabled
+    )
   };
 };
 

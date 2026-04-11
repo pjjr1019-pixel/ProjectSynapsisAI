@@ -17,7 +17,7 @@ Keep the repo support layer accurate, compact, and future-agent-friendly without
 ## Files Not To Touch Casually
 - `SynAI/apps/desktop/electron/main.ts`
 - `SynAI/apps/desktop/electron/workflow-orchestrator.ts`
-- `SynAI/packages/Governance and exicution/src/policy/engine.ts`
+- `SynAI/packages/Governance-Execution/src/policy/engine.ts`
 - `SynAI/packages/Awareness-Reasoning/src/memory/context/assembler.ts`
 - `SynAI/packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts`
 

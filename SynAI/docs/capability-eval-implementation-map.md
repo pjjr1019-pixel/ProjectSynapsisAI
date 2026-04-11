@@ -1,5 +1,7 @@
 # Capability Eval + Governance Implementation Map
 
+> Historical reference only. Use the current package README, insertion points doc, and tests for implementation work.
+
 ## Current Architecture Discovered
 
 ### Desktop App Entrypoints
@@ -19,7 +21,7 @@
 
 ### Governance / Approval / Execution
 - Newly centralized package (exact folder name requested):
-  - `packages/Governance and exicution/src/`
+  - `packages/Governance-Execution/src/`
 - Command bus, policy, tokens, execution service, and sandbox/promotion now live there.
 
 ### Memory / Retrieval / Context Assembly
@@ -42,15 +44,15 @@
 ## Files/Modules Extended
 
 ### New Governance + Execution Package
-- `packages/Governance and exicution/src/contracts.ts`
-- `packages/Governance and exicution/src/approvals/ledger.ts`
-- `packages/Governance and exicution/src/policy/engine.ts`
-- `packages/Governance and exicution/src/commands/hash.ts`
-- `packages/Governance and exicution/src/commands/bus.ts`
-- `packages/Governance and exicution/src/execution/chat-execution-service.ts`
-- `packages/Governance and exicution/src/execution/windows-actions.ts`
-- `packages/Governance and exicution/src/remediation/sandbox.ts`
-- `packages/Governance and exicution/src/index.ts`
+- `packages/Governance-Execution/src/contracts.ts`
+- `packages/Governance-Execution/src/approvals/ledger.ts`
+- `packages/Governance-Execution/src/policy/engine.ts`
+- `packages/Governance-Execution/src/commands/hash.ts`
+- `packages/Governance-Execution/src/commands/bus.ts`
+- `packages/Governance-Execution/src/execution/chat-execution-service.ts`
+- `packages/Governance-Execution/src/execution/windows-actions.ts`
+- `packages/Governance-Execution/src/remediation/sandbox.ts`
+- `packages/Governance-Execution/src/index.ts`
 
 ### Alias Wiring
 - `tsconfig.json`
@@ -95,7 +97,7 @@
 
 ## Naming Decisions
 
-- On-disk folder name preserved exactly: `packages/Governance and exicution`
+- On-disk folder name preserved exactly: `packages/Governance-Execution`
 - Stable import alias: `@governance-execution`
 - Token model: signed `ApprovalToken` bound to `commandHash`
 - Governance execution transport: deterministic command bus APIs:
@@ -113,7 +115,7 @@
 
 ## Final Implementation Plan Followed
 
-1. Created `packages/Governance and exicution` and implemented contracts, policy engine, token ledger, command bus, shared chat execution service, and governed sandbox/promotion flow.
+1. Created `packages/Governance-Execution` and implemented contracts, policy engine, token ledger, command bus, shared chat execution service, and governed sandbox/promotion flow.
 2. Added `@governance-execution` alias wiring in TypeScript + Vite + Electron configs.
 3. Refactored capability harness to consume governance package APIs via compatibility wrappers (no direct governance logic retained inside capability-eval modules).
 4. Extracted shared local chat execution orchestration into `createChatExecutionService(...)` and used it from both desktop chat flow and capability adapter.

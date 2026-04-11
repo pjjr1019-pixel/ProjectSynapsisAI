@@ -1,0 +1,42 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { useState } from "react";
+import { Badge } from "../../../shared/components/Badge";
+import { Button } from "../../../shared/components/Button";
+import { Card } from "../../../shared/components/Card";
+import { LocalModelStatus } from "./LocalModelStatus";
+import { ChatControls } from "./ChatControls";
+import { MemoryInspector } from "./MemoryInspector";
+import { ContextPreview as ContextPreviewCard } from "./ContextPreview";
+import { MemoryPanel } from "../../memory/components/MemoryPanel";
+import { featureRegistry } from "../../feature-registry";
+import { cn } from "../../../shared/utils/cn";
+import { DesktopActionsCard } from "./DesktopActionsCard";
+import { AgentRuntimeCard } from "./AgentRuntimeCard";
+import { WorkflowOrchestrationCard } from "./WorkflowOrchestrationCard";
+import { PromptEvaluationCard } from "./PromptEvaluationCard";
+const toolTabs = [
+    { id: "model", label: "Model" },
+    { id: "actions", label: "Actions" },
+    { id: "workflows", label: "Workflows" },
+    { id: "memory", label: "Memory" },
+    { id: "context", label: "Context" },
+    { id: "search", label: "Search" }
+];
+export function ToolsPanel(props) {
+    const [activeToolTab, setActiveToolTab] = useState("model");
+    const [assistScope, setAssistScope] = useState("current-window");
+    const [assistTargetLabel, setAssistTargetLabel] = useState("");
+    const [assistCaptureMode, setAssistCaptureMode] = useState("session");
+    const [assistSampleIntervalMs, setAssistSampleIntervalMs] = useState("2000");
+    const startAssist = async () => {
+        await props.onStartAssistMode({
+            scope: assistScope,
+            targetLabel: assistTargetLabel.trim() || undefined,
+            captureMode: assistCaptureMode,
+            sampleIntervalMs: assistCaptureMode === "session" ? Number.parseInt(assistSampleIntervalMs, 10) || 2000 : null
+        });
+    };
+    return (_jsxs("section", { className: "flex h-full flex-col overflow-hidden rounded-lg border border-slate-800 bg-slate-950/60", children: [_jsxs("header", { className: "border-b border-slate-800 px-2.5 py-1.5", children: [_jsxs("div", { className: "flex items-center justify-between gap-2", children: [_jsxs("div", { children: [_jsx("h2", { className: "text-sm font-semibold text-slate-100", children: "Tools" }), _jsx("p", { className: "text-[9px] text-slate-400", children: "One panel at a time keeps the workspace compact." })] }), _jsx(Badge, { tone: "neutral", children: "Compact" })] }), _jsx("div", { role: "tablist", "aria-label": "Tool tabs", className: "mt-1.5 grid grid-cols-6 gap-1", children: toolTabs.map((tab) => (_jsx("button", { type: "button", role: "tab", "aria-selected": activeToolTab === tab.id, className: cn("rounded-md px-2 py-1 text-[9px] font-medium transition", activeToolTab === tab.id
+                                ? "bg-cyan-500/20 text-cyan-200 ring-1 ring-cyan-400/40"
+                                : "bg-slate-900/80 text-slate-400 hover:bg-slate-800 hover:text-slate-200"), onClick: () => setActiveToolTab(tab.id), children: tab.label }, tab.id))) })] }), _jsxs("div", { className: "flex-1 min-h-0 overflow-hidden p-1.5", children: [activeToolTab === "model" ? (_jsxs("div", { className: "flex h-full min-h-0 flex-col gap-1.5 overflow-y-auto pr-1", children: [_jsx(LocalModelStatus, { modelHealth: props.modelHealth }), _jsxs(Card, { className: "space-y-2 p-1.5", children: [_jsx("h3", { className: "text-[10px] font-semibold text-slate-100", children: "Feature Stages" }), _jsx("div", { className: "flex flex-wrap gap-1", children: featureRegistry.map((feature) => (_jsx(Badge, { tone: feature.status === "active" ? "good" : "neutral", children: feature.label }, feature.id))) })] })] })) : null, activeToolTab === "actions" ? (_jsxs("div", { className: "flex h-full min-h-0 flex-col gap-1.5 overflow-y-auto pr-1", children: [_jsx(DesktopActionsCard, {}), _jsx(PromptEvaluationCard, { settings: props.settings, running: props.promptEvaluationRunning, result: props.promptEvaluationResult, error: props.promptEvaluationError, onRun: props.onRunPromptEvaluation }), _jsxs(Card, { className: "space-y-2 p-1.5", children: [_jsxs("div", { className: "flex items-center justify-between gap-2", children: [_jsxs("div", { children: [_jsx("h3", { className: "text-xs font-semibold text-slate-100", children: "Assist Mode" }), _jsx("p", { className: "text-[9px] text-slate-400", children: "Explicit, visible screen awareness for approved sessions." })] }), _jsx(Badge, { tone: props.screenStatus?.assistMode.enabled ? "good" : "neutral", children: props.screenStatus?.assistMode.enabled ? "On" : "Off" })] }), _jsxs("div", { className: "grid gap-2 text-[9px] text-slate-300", children: [_jsxs("label", { className: "grid gap-1", children: [_jsx("span", { className: "text-slate-400", children: "Scope" }), _jsxs("select", { className: "rounded-md border border-slate-700 bg-slate-900 px-2 py-1 text-[10px] text-slate-100", value: assistScope, onChange: (event) => setAssistScope(event.target.value), children: [_jsx("option", { value: "current-window", children: "Current window" }), _jsx("option", { value: "selected-app", children: "Selected app" }), _jsx("option", { value: "chosen-display", children: "Chosen display" })] })] }), _jsxs("label", { className: "grid gap-1", children: [_jsx("span", { className: "text-slate-400", children: "Target label" }), _jsx("input", { className: "rounded-md border border-slate-700 bg-slate-900 px-2 py-1 text-[10px] text-slate-100", value: assistTargetLabel, placeholder: "Optional app or display label", onChange: (event) => setAssistTargetLabel(event.target.value) })] }), _jsxs("label", { className: "grid gap-1", children: [_jsx("span", { className: "text-slate-400", children: "Capture mode" }), _jsxs("select", { className: "rounded-md border border-slate-700 bg-slate-900 px-2 py-1 text-[10px] text-slate-100", value: assistCaptureMode, onChange: (event) => setAssistCaptureMode(event.target.value), children: [_jsx("option", { value: "on-demand", children: "On demand" }), _jsx("option", { value: "session", children: "Session sampling" })] })] }), assistCaptureMode === "session" ? (_jsxs("label", { className: "grid gap-1", children: [_jsx("span", { className: "text-slate-400", children: "Sample interval (ms)" }), _jsx("input", { type: "number", min: 250, step: 250, className: "rounded-md border border-slate-700 bg-slate-900 px-2 py-1 text-[10px] text-slate-100", value: assistSampleIntervalMs, onChange: (event) => setAssistSampleIntervalMs(event.target.value) })] })) : null] }), _jsxs("div", { className: "grid grid-cols-2 gap-2", children: [_jsx(Button, { className: "py-1 text-[10px]", variant: "ghost", disabled: props.loading, onClick: () => void startAssist(), children: "Start Assist" }), _jsx(Button, { className: "py-1 text-[10px]", variant: "ghost", disabled: props.loading || !props.screenStatus?.assistMode.enabled, onClick: () => void props.onStopAssistMode("user-disabled"), children: "Stop Assist" })] }), _jsx("p", { className: "text-[9px] text-slate-400", children: props.screenStatus?.summary ?? "Assist mode is off until you start an explicit session." }), props.screenStatus?.assistMode.enabled ? (_jsxs("p", { className: "text-[9px] text-emerald-300", children: ["Active window: ", props.screenStatus.foregroundWindowTitle ?? "unknown", " | Scope:", " ", props.screenStatus.scope ?? "current-window"] })) : null] }), _jsx(ChatControls, { loading: props.loading, healthCheckState: props.healthCheckState, healthCheckMessage: props.healthCheckMessage, onRunHealthCheck: props.onRunHealthCheck, onNewConversation: props.onNewConversation, onClearChat: props.onClearChat, onRegenerate: props.onRegenerate, onRefreshMemory: props.onRefreshMemory, onCopyResponse: props.onCopyResponse })] })) : null, activeToolTab === "workflows" ? (_jsxs("div", { className: "flex h-full min-h-0 flex-col gap-1.5 overflow-y-auto pr-1", children: [_jsx(WorkflowOrchestrationCard, {}), _jsx(AgentRuntimeCard, {})] })) : null, activeToolTab === "memory" ? (_jsx(MemoryInspector, { preview: props.preview, memories: props.memories, compact: true, hideTitle: true })) : null, activeToolTab === "context" ? (_jsx(ContextPreviewCard, { preview: props.preview, compact: true, hideTitle: true })) : null, activeToolTab === "search" ? _jsx(MemoryPanel, { compact: true, hideTitle: true }) : null] })] }));
+}

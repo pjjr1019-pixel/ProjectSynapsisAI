@@ -9,6 +9,7 @@ areas:
       - zod
       - SynAI/packages/Agent-Runtime/tests
       - SynAI/packages/Agent-Runtime/vitest/agent/contracts
+      - '@agent-runtime/contracts/agent-runtime.contracts'
       - '@synai-agent/contracts/agent-runtime.contracts'
     allowed_edit_types:
       - add backward-compatible fields with defaults
@@ -99,7 +100,7 @@ areas:
     risk_level: high
     dependencies:
       - SynAI/packages/Awareness-Reasoning/src
-      - SynAI/packages/Governance and exicution/src
+      - SynAI/packages/Governance-Execution/src
       - '@synai-agent alias'
       - SynAI/packages/Agent-Runtime/src
     allowed_edit_types:
@@ -139,14 +140,14 @@ areas:
     notes:
       - This layer is shared by chat, workflow planning, and eval tooling.
 
-  - area: SynAI/packages/Governance and exicution/src
+  - area: SynAI/packages/Governance-Execution/src
     purpose: Shared policy, approvals, command bus, Windows action catalog, and governed execution helpers.
     risk_level: high
     dependencies:
-      - SynAI/packages/Governance and exicution/src/policy
-      - SynAI/packages/Governance and exicution/src/commands
-      - SynAI/packages/Governance and exicution/src/execution
-      - SynAI/packages/Governance and exicution/src/approvals
+      - SynAI/packages/Governance-Execution/src/policy
+      - SynAI/packages/Governance-Execution/src/commands
+      - SynAI/packages/Governance-Execution/src/execution
+      - SynAI/packages/Governance-Execution/src/approvals
     allowed_edit_types:
       - policy rule changes
       - catalog additions

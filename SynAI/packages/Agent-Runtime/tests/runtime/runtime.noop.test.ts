@@ -1,5 +1,6 @@
 import { createAgentTask } from '@agent-runtime/core';
 import { runAgentTask } from '@agent-runtime/runtime/noop-runtime';
+import { PROMPT_INTENT_BRIDGE_METADATA_KEY } from '@agent-runtime/contracts';
 
 describe('Agent Runtime No-op Flow', () => {
   it('processes a task through planner, executor, verifier, policy, and audit', async () => {
@@ -108,6 +109,42 @@ describe('Agent Runtime No-op Flow', () => {
     ]);
     expect(job.status).toBe('clarification_needed');
     expect(policyDecision.type).toBe('allow');
+    expect(auditTrail.map((event) => `${event.stage}:${event.event}`)).toContain('planner:clarification_needed');
+    expect(auditTrail.some((event) => event.stage === 'executor' && event.event === 'started')).toBe(false);
+  });
+
+  it('returns clarification_needed for ambiguous first-time prompts carried in prompt-intent bridge metadata', async () => {
+    const task = createAgentTask({
+      id: 't6',
+      title: 'First-time setup guidance',
+      metadata: {
+        [PROMPT_INTENT_BRIDGE_METADATA_KEY]: {
+          version: 1,
+          userGoal: 'Set up the project for first-time use.',
+          intentFamily: 'repo-grounded',
+          sourceScope: 'repo-wide',
+          outputContract: {
+            shape: 'bullets',
+            length: 'short',
+            preserveExactStructure: false,
+          },
+          ambiguityFlags: ['missing-evidence'],
+          requiredChecks: ['decompose-first-time-task'],
+          clarification: {
+            needed: true,
+            questions: ['Please confirm which subsystem to configure first.'],
+          },
+          preferenceIds: [],
+          resolvedPatternId: null,
+        },
+      },
+    });
+
+    const { result, job, auditTrail } = await runAgentTask(task);
+
+    expect(result.status).toBe('clarification_needed');
+    expect(result.clarificationNeeded).toEqual(['Please confirm which subsystem to configure first.']);
+    expect(job.status).toBe('clarification_needed');
     expect(auditTrail.map((event) => `${event.stage}:${event.event}`)).toContain('planner:clarification_needed');
     expect(auditTrail.some((event) => event.stage === 'executor' && event.event === 'started')).toBe(false);
   });

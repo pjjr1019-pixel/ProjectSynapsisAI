@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "windows.file-explorer-open-folder",
+    "domain": "windows-capability-tests",
+    "category": "File Explorer",
+    "title": "Open a folder in File Explorer",
+    "description": "Explain how to open a specific folder in File Explorer on Windows 11.",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-action:open-folder",
+    "prompt_templates": {
+      "base": "Explain how to open a specific folder in File Explorer on Windows 11.",
+      "direct": "Explain how to open a specific folder in File Explorer on Windows 11."
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.file-explorer-hidden-files",
+    "domain": "windows-capability-tests",
+    "category": "File Explorer",
+    "title": "Show hidden files",
+    "description": "How do I show hidden files in File Explorer on Windows 11?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:file-explorer",
+    "prompt_templates": {
+      "base": "How do I show hidden files in File Explorer on Windows 11?",
+      "direct": "How do I show hidden files in File Explorer on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.settings-display",
+    "domain": "windows-capability-tests",
+    "category": "Settings",
+    "title": "Open Display settings",
+    "description": "Where do I go in Windows 11 to change Display settings?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "Where do I go in Windows 11 to change Display settings?",
+      "direct": "Where do I go in Windows 11 to change Display settings?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.settings-sound",
+    "domain": "windows-capability-tests",
+    "category": "Settings",
+    "title": "Open Sound settings",
+    "description": "How do I open Sound settings in Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I open Sound settings in Windows 11?",
+      "direct": "How do I open Sound settings in Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.control-panel-programs",
+    "domain": "windows-capability-tests",
+    "category": "Control Panel",
+    "title": "Open Programs and Features",
+    "description": "How do I open Programs and Features or Add or Remove Programs on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Programs and Features or Add or Remove Programs on Windows?",
+      "direct": "How do I open Programs and Features or Add or Remove Programs on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.task-manager-open",
+    "domain": "windows-capability-tests",
+    "category": "Task Manager",
+    "title": "Open Task Manager",
+    "description": "How do I open Task Manager on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Task Manager on Windows 11?",
+      "direct": "How do I open Task Manager on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.task-manager-memory",
+    "domain": "windows-capability-tests",
+    "category": "Task Manager",
+    "title": "Find the highest memory process",
+    "description": "Tell me how to find which process is using the most RAM on Windows right now.",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:resource-hotspot",
+    "prompt_templates": {
+      "base": "Tell me how to find which process is using the most RAM on Windows right now.",
+      "direct": "Tell me how to find which process is using the most RAM on Windows right now."
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.services-open",
+    "domain": "windows-capability-tests",
+    "category": "Services",
+    "title": "Open Services",
+    "description": "How do I open the Windows Services console?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open the Windows Services console?",
+      "direct": "How do I open the Windows Services console?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.startup-apps-open",
+    "domain": "windows-capability-tests",
+    "category": "Startup Apps",
+    "title": "Open Startup Apps",
+    "description": "Where do I click to manage Startup Apps in Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "Where do I click to manage Startup Apps in Windows 11?",
+      "direct": "Where do I click to manage Startup Apps in Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.device-manager-open",
+    "domain": "windows-capability-tests",
+    "category": "Device Manager",
+    "title": "Open Device Manager",
+    "description": "How do I open Device Manager on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Device Manager on Windows?",
+      "direct": "How do I open Device Manager on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.windows-update-open",
+    "domain": "windows-capability-tests",
+    "category": "Windows Update",
+    "title": "Open Windows Update",
+    "description": "How do I get to Windows Update settings?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I get to Windows Update settings?",
+      "direct": "How do I get to Windows Update settings?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.storage-open",
+    "domain": "windows-capability-tests",
+    "category": "Storage",
+    "title": "Open Storage settings",
+    "description": "Where do I open Storage settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "Where do I open Storage settings on Windows 11?",
+      "direct": "Where do I open Storage settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.disk-cleanup-guidance",
+    "domain": "windows-capability-tests",
+    "category": "Disk Cleanup",
+    "title": "Free up space safely",
+    "description": "How do I safely free up disk space on Windows without deleting random files?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "workflow:maintenance-review",
+    "prompt_templates": {
+      "base": "How do I safely free up disk space on Windows without deleting random files?",
+      "direct": "How do I safely free up disk space on Windows without deleting random files?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.networking-settings",
+    "domain": "windows-capability-tests",
+    "category": "Networking",
+    "title": "Open Network settings",
+    "description": "How do I open Network and Internet settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I open Network and Internet settings on Windows 11?",
+      "direct": "How do I open Network and Internet settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.wifi-troubleshoot",
+    "domain": "windows-capability-tests",
+    "category": "Wi-Fi",
+    "title": "Wi-Fi troubleshooting",
+    "description": "My Windows Wi-Fi is acting weird. What should I check first?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "My Windows Wi-Fi is acting weird. What should I check first?",
+      "direct": "My Windows Wi-Fi is acting weird. What should I check first?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.ethernet-troubleshoot",
+    "domain": "windows-capability-tests",
+    "category": "Ethernet",
+    "title": "Ethernet troubleshooting",
+    "description": "My Windows Ethernet connection is not working. What are the first checks?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:network",
+    "prompt_templates": {
+      "base": "My Windows Ethernet connection is not working. What are the first checks?",
+      "direct": "My Windows Ethernet connection is not working. What are the first checks?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.bluetooth-settings",
+    "domain": "windows-capability-tests",
+    "category": "Bluetooth",
+    "title": "Open Bluetooth and devices",
+    "description": "Where do I open Bluetooth settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "Where do I open Bluetooth settings on Windows 11?",
+      "direct": "Where do I open Bluetooth settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.printers-settings",
+    "domain": "windows-capability-tests",
+    "category": "Printers",
+    "title": "Open Printers and Scanners",
+    "description": "How do I get to Printers and Scanners settings in Windows 11?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:devices",
+    "prompt_templates": {
+      "base": "How do I get to Printers and Scanners settings in Windows 11?",
+      "direct": "How do I get to Printers and Scanners settings in Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.display-scale",
+    "domain": "windows-capability-tests",
+    "category": "Display",
+    "title": "Change scale or resolution",
+    "description": "How do I change display scale or resolution on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I change display scale or resolution on Windows 11?",
+      "direct": "How do I change display scale or resolution on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.sound-devices",
+    "domain": "windows-capability-tests",
+    "category": "Sound",
+    "title": "Pick input or output devices",
+    "description": "How do I switch my input or output sound device on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I switch my input or output sound device on Windows 11?",
+      "direct": "How do I switch my input or output sound device on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.power-battery",
+    "domain": "windows-capability-tests",
+    "category": "Power",
+    "title": "Open Power and battery",
+    "description": "Where do I change power or sleep settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "Where do I change power or sleep settings on Windows 11?",
+      "direct": "Where do I change power or sleep settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.accounts-settings",
+    "domain": "windows-capability-tests",
+    "category": "Accounts",
+    "title": "Open Accounts settings",
+    "description": "How do I open the Accounts section in Windows settings?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I open the Accounts section in Windows settings?",
+      "direct": "How do I open the Accounts section in Windows settings?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.permissions-files",
+    "domain": "windows-capability-tests",
+    "category": "Permissions",
+    "title": "Check file permissions",
+    "description": "How do I check or change file permissions on Windows carefully?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:permissions",
+    "prompt_templates": {
+      "base": "How do I check or change file permissions on Windows carefully?",
+      "direct": "How do I check or change file permissions on Windows carefully?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.windows-security",
+    "domain": "windows-capability-tests",
+    "category": "Windows Security / Defender",
+    "title": "Open Windows Security",
+    "description": "How do I open Windows Security or Defender on Windows 11?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:security",
+    "prompt_templates": {
+      "base": "How do I open Windows Security or Defender on Windows 11?",
+      "direct": "How do I open Windows Security or Defender on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.firewall",
+    "domain": "windows-capability-tests",
+    "category": "Firewall",
+    "title": "Open Firewall settings",
+    "description": "How do I get to Windows Firewall settings?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:security",
+    "prompt_templates": {
+      "base": "How do I get to Windows Firewall settings?",
+      "direct": "How do I get to Windows Firewall settings?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.backup-restore",
+    "domain": "windows-capability-tests",
+    "category": "Backup / Restore",
+    "title": "Backup and restore guidance",
+    "description": "Where do I go in Windows 11 for backup or restore options?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:recovery",
+    "prompt_templates": {
+      "base": "Where do I go in Windows 11 for backup or restore options?",
+      "direct": "Where do I go in Windows 11 for backup or restore options?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.safe-mode",
+    "domain": "windows-capability-tests",
+    "category": "Safe Mode",
+    "title": "Boot to Safe Mode",
+    "description": "How do I get into Safe Mode on Windows 11?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:recovery",
+    "prompt_templates": {
+      "base": "How do I get into Safe Mode on Windows 11?",
+      "direct": "How do I get into Safe Mode on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.recovery",
+    "domain": "windows-capability-tests",
+    "category": "Recovery",
+    "title": "Open Recovery options",
+    "description": "How do I open Recovery options on Windows 11?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:recovery",
+    "prompt_templates": {
+      "base": "How do I open Recovery options on Windows 11?",
+      "direct": "How do I open Recovery options on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.event-viewer",
+    "domain": "windows-capability-tests",
+    "category": "Event Viewer",
+    "title": "Open Event Viewer",
+    "description": "How do I open Event Viewer on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Event Viewer on Windows?",
+      "direct": "How do I open Event Viewer on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.command-prompt",
+    "domain": "windows-capability-tests",
+    "category": "Command Prompt",
+    "title": "Open Command Prompt",
+    "description": "How do I open Command Prompt on Windows?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:command-line",
+    "prompt_templates": {
+      "base": "How do I open Command Prompt on Windows?",
+      "direct": "How do I open Command Prompt on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.powershell",
+    "domain": "windows-capability-tests",
+    "category": "PowerShell",
+    "title": "Open PowerShell",
+    "description": "How do I open PowerShell on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "official-knowledge:powershell",
+    "prompt_templates": {
+      "base": "How do I open PowerShell on Windows?",
+      "direct": "How do I open PowerShell on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.environment-variables",
+    "domain": "windows-capability-tests",
+    "category": "Environment Variables",
+    "title": "Edit environment variables",
+    "description": "How do I edit environment variables on Windows safely?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:command-line",
+    "prompt_templates": {
+      "base": "How do I edit environment variables on Windows safely?",
+      "direct": "How do I edit environment variables on Windows safely?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.app-install",
+    "domain": "windows-capability-tests",
+    "category": "App install / uninstall",
+    "title": "Install an app with WinGet",
+    "description": "How do I install an app on Windows using WinGet?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "official-knowledge:packages",
+    "prompt_templates": {
+      "base": "How do I install an app on Windows using WinGet?",
+      "direct": "How do I install an app on Windows using WinGet?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.app-uninstall",
+    "domain": "windows-capability-tests",
+    "category": "App install / uninstall",
+    "title": "Uninstall an app",
+    "description": "How do I uninstall an app on Windows without guessing?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I uninstall an app on Windows without guessing?",
+      "direct": "How do I uninstall an app on Windows without guessing?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.default-apps",
+    "domain": "windows-capability-tests",
+    "category": "Default Apps",
+    "title": "Open Default Apps",
+    "description": "How do I change default apps in Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I change default apps in Windows 11?",
+      "direct": "How do I change default apps in Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.notifications",
+    "domain": "windows-capability-tests",
+    "category": "Notifications",
+    "title": "Open Notifications settings",
+    "description": "Where do I change notification settings on Windows 11?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:settings",
+    "prompt_templates": {
+      "base": "Where do I change notification settings on Windows 11?",
+      "direct": "Where do I change notification settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.clipboard-history",
+    "domain": "windows-capability-tests",
+    "category": "Clipboard",
+    "title": "Clipboard history",
+    "description": "How do I turn on clipboard history on Windows?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:settings",
+    "prompt_templates": {
+      "base": "How do I turn on clipboard history on Windows?",
+      "direct": "How do I turn on clipboard history on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.screenshots",
+    "domain": "windows-capability-tests",
+    "category": "Screenshots",
+    "title": "Take a screenshot",
+    "description": "What are the easiest ways to take screenshots on Windows 11?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:shortcuts",
+    "prompt_templates": {
+      "base": "What are the easiest ways to take screenshots on Windows 11?",
+      "direct": "What are the easiest ways to take screenshots on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.zip-files",
+    "domain": "windows-capability-tests",
+    "category": "Compression / zip files",
+    "title": "Zip a file or folder",
+    "description": "How do I zip a file or folder in Windows?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:file-explorer",
+    "prompt_templates": {
+      "base": "How do I zip a file or folder in Windows?",
+      "direct": "How do I zip a file or folder in Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.accessibility",
+    "domain": "windows-capability-tests",
+    "category": "Accessibility",
+    "title": "Open Accessibility settings",
+    "description": "How do I open Accessibility settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I open Accessibility settings on Windows 11?",
+      "direct": "How do I open Accessibility settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.remote-desktop",
+    "domain": "windows-capability-tests",
+    "category": "Remote Desktop",
+    "title": "Remote Desktop guidance",
+    "description": "How do I find Remote Desktop settings on Windows?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:remote-desktop",
+    "prompt_templates": {
+      "base": "How do I find Remote Desktop settings on Windows?",
+      "direct": "How do I find Remote Desktop settings on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.slow-pc",
+    "domain": "windows-capability-tests",
+    "category": "Common troubleshooting",
+    "title": "Troubleshoot a slow PC",
+    "description": "My Windows PC feels slow. What should I check first?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:performance-diagnostic",
+    "prompt_templates": {
+      "base": "My Windows PC feels slow. What should I check first?",
+      "direct": "My Windows PC feels slow. What should I check first?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.printer-troubleshoot",
+    "domain": "windows-capability-tests",
+    "category": "Common troubleshooting",
+    "title": "Troubleshoot a printer issue",
+    "description": "My printer is not working on Windows. What should I check?",
+    "status": "planned",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:devices",
+    "prompt_templates": {
+      "base": "My printer is not working on Windows. What should I check?",
+      "direct": "My printer is not working on Windows. What should I check?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.sound-troubleshoot",
+    "domain": "windows-capability-tests",
+    "category": "Common troubleshooting",
+    "title": "Troubleshoot no sound",
+    "description": "Windows has no sound. What are the first safe checks?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "windows-guidance:sound",
+    "prompt_templates": {
+      "base": "Windows has no sound. What are the first safe checks?",
+      "direct": "Windows has no sound. What are the first safe checks?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.storage-full",
+    "domain": "windows-capability-tests",
+    "category": "Common troubleshooting",
+    "title": "Troubleshoot low storage",
+    "description": "My Windows drive is almost full. What is the safest cleanup order?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "workflow:maintenance-review",
+    "prompt_templates": {
+      "base": "My Windows drive is almost full. What is the safest cleanup order?",
+      "direct": "My Windows drive is almost full. What is the safest cleanup order?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.registry-startup",
+    "domain": "windows-capability-tests",
+    "category": "Registry",
+    "title": "Startup registry location",
+    "description": "Where are startup app entries usually stored in the Windows registry?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:registry",
+    "prompt_templates": {
+      "base": "Where are startup app entries usually stored in the Windows registry?",
+      "direct": "Where are startup app entries usually stored in the Windows registry?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.registry-uninstall",
+    "domain": "windows-capability-tests",
+    "category": "Registry",
+    "title": "Uninstall registry location",
+    "description": "Where does Windows keep uninstall app metadata in the registry?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:registry",
+    "prompt_templates": {
+      "base": "Where does Windows keep uninstall app metadata in the registry?",
+      "direct": "Where does Windows keep uninstall app metadata in the registry?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.task-scheduler",
+    "domain": "windows-capability-tests",
+    "category": "Task Scheduler",
+    "title": "Open Task Scheduler",
+    "description": "How do I open Task Scheduler on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Task Scheduler on Windows?",
+      "direct": "How do I open Task Scheduler on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.performance-monitor",
+    "domain": "windows-capability-tests",
+    "category": "Performance Monitor",
+    "title": "Open Performance Monitor",
+    "description": "How do I open Performance Monitor on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Performance Monitor on Windows?",
+      "direct": "How do I open Performance Monitor on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.resource-monitor",
+    "domain": "windows-capability-tests",
+    "category": "Resource Monitor",
+    "title": "Open Resource Monitor",
+    "description": "How do I open Resource Monitor on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Resource Monitor on Windows?",
+      "direct": "How do I open Resource Monitor on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.computer-management",
+    "domain": "windows-capability-tests",
+    "category": "Computer Management",
+    "title": "Open Computer Management",
+    "description": "How do I open Computer Management on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "desktop-system-navigation",
+    "prompt_templates": {
+      "base": "How do I open Computer Management on Windows?",
+      "direct": "How do I open Computer Management on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.personalization",
+    "domain": "windows-capability-tests",
+    "category": "Settings",
+    "title": "Open Personalization",
+    "description": "How do I open Personalization settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I open Personalization settings on Windows 11?",
+      "direct": "How do I open Personalization settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.privacy-security",
+    "domain": "windows-capability-tests",
+    "category": "Permissions",
+    "title": "Open Privacy and security",
+    "description": "Where do I open Privacy and security settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "Where do I open Privacy and security settings on Windows 11?",
+      "direct": "Where do I open Privacy and security settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.network-vpn-proxy",
+    "domain": "windows-capability-tests",
+    "category": "Networking",
+    "title": "Find VPN or proxy settings",
+    "description": "How do I find VPN or proxy settings on Windows 11?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:settings-control-panel",
+    "prompt_templates": {
+      "base": "How do I find VPN or proxy settings on Windows 11?",
+      "direct": "How do I find VPN or proxy settings on Windows 11?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.windows-search-indexing",
+    "domain": "windows-capability-tests",
+    "category": "Common troubleshooting",
+    "title": "Windows Search indexing",
+    "description": "How do I check Windows Search indexing or search service issues?",
+    "status": "partial",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "official-knowledge:windows-search",
+    "prompt_templates": {
+      "base": "How do I check Windows Search indexing or search service issues?",
+      "direct": "How do I check Windows Search indexing or search service issues?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  },
+  {
+    "id": "windows.services-print-spooler",
+    "domain": "windows-capability-tests",
+    "category": "Services",
+    "title": "Inspect Print Spooler service",
+    "description": "How do I inspect the Print Spooler service on Windows?",
+    "status": "implemented",
+    "task_type": "windows-guidance",
+    "difficulty": "medium",
+    "expected_route": "awareness:process-service-startup",
+    "prompt_templates": {
+      "base": "How do I inspect the Print Spooler service on Windows?",
+      "direct": "How do I inspect the Print Spooler service on Windows?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "packages/Awareness-Reasoning/src/machine/maps.ts",
+      "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+      "apps/desktop/electron/desktop-actions.ts",
+      "apps/desktop/electron/workflow-planner.ts",
+      "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+    ]
+  }
+]

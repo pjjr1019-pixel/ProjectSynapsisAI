@@ -251,14 +251,23 @@ const normalizeDesktopActionRequest = (
 };
 
 const resolveApprovedRoots = (request: DesktopActionRequest, workspaceRoot: string): string[] => {
-  const baseRoot = request.workspaceRoot?.trim() ? request.workspaceRoot : workspaceRoot;
+  const baseRoot = path.resolve(request.workspaceRoot?.trim() ? request.workspaceRoot : workspaceRoot);
   const metadataRoots = Array.isArray(request.allowedRoots)
     ? request.allowedRoots.filter((value): value is string => typeof value === "string" && value.trim().length > 0)
     : Array.isArray(request.metadata?.allowedRoots)
     ? request.metadata.allowedRoots.filter((value): value is string => typeof value === "string" && value.trim().length > 0)
     : [];
 
-  return [...new Set([baseRoot, ...metadataRoots].map((root) => normalizePath(path.resolve(baseRoot, root))))];
+  const approvedRoots = new Set<string>([normalizePath(baseRoot)]);
+  for (const candidate of metadataRoots) {
+    const trimmed = candidate.trim();
+    if (!path.isAbsolute(trimmed)) {
+      continue;
+    }
+    approvedRoots.add(normalizePath(path.resolve(trimmed)));
+  }
+
+  return [...approvedRoots];
 };
 
 const assertPathWithinApprovedRoots = (target: string, approvedRoots: string[]): void => {
@@ -835,7 +844,8 @@ switch ('${escapedAction}') {
 const toExecutionRequest = (
   request: DesktopActionRequest,
   preview: string,
-  riskClass: RiskClass
+  riskClass: RiskClass,
+  workspaceRoot: string
 ): ExecutionRequest => ({
   commandName: `desktop.action.${request.proposalId}`,
   command: preview,
@@ -848,7 +858,7 @@ const toExecutionRequest = (
   sandboxed:
     Boolean(request.metadata?.sandboxed) ||
     ["create-file", "create-folder", "rename-item", "move-item", "delete-file", "delete-folder"].includes(request.kind),
-  approvedRoots: request.allowedRoots ?? (Array.isArray(request.metadata?.allowedRoots) ? request.metadata.allowedRoots.filter((entry): entry is string => typeof entry === "string") : []),
+  approvedRoots: resolveApprovedRoots(request, workspaceRoot),
   targetState: typeof request.metadata?.targetState === "string" ? request.metadata.targetState : null,
   machineState: typeof request.metadata?.machineState === "object" && request.metadata?.machineState !== null ? (request.metadata.machineState as Record<string, unknown>) : null,
   approvalToken: request.approvalToken ?? null,
@@ -889,7 +899,8 @@ const buildApprovalQueueRecord = (
   summary: string,
   commandId: string | null,
   approvedBy: string | null,
-  tokenId: string | null
+  tokenId: string | null,
+  approvedRoots: string[]
 ): GovernanceApprovalQueueRecord => ({
   id: commandHash,
   source: "desktop-actions",
@@ -901,18 +912,19 @@ const buildApprovalQueueRecord = (
   scope: request.scope,
   targetKind: request.targetKind,
   status,
-  approvedBy,
-  tokenId,
-  createdAt: new Date().toISOString(),
-  updatedAt: new Date().toISOString(),
-  expiresAt: request.approvalToken?.expiresAt ?? null,
+    approvedBy,
+    tokenId,
+    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    expiresAt: request.approvalToken?.expiresAt ?? null,
   summary,
   metadata: {
     proposalId: request.proposalId,
     target: request.target,
     destinationTarget: request.destinationTarget ?? null,
     workspaceRoot: request.workspaceRoot ?? null,
-    allowedRoots: request.allowedRoots ?? []
+    allowedRoots: request.allowedRoots ?? [],
+    approvedRoots
   }
 });
 
@@ -1479,7 +1491,8 @@ export const createDesktopActionService = (options: DesktopActionServiceOptions)
         destinationTarget: normalized.normalizedDestinationTarget
       },
       preview,
-      request.riskClass
+      request.riskClass,
+      workspaceRoot
     );
     const commandHash = hashGovernanceCommand(executionRequest);
     const token = approvalLedger.issueApprovalToken(commandHash, approvedBy, ttlMs);
@@ -1495,7 +1508,8 @@ export const createDesktopActionService = (options: DesktopActionServiceOptions)
         `Approval issued for ${request.proposalId}.`,
         null,
         approvedBy,
-        token.tokenId
+        token.tokenId,
+        resolveApprovedRoots(request, workspaceRoot)
       )
     );
     return token;
@@ -1505,6 +1519,7 @@ export const createDesktopActionService = (options: DesktopActionServiceOptions)
     const normalized = normalizeDesktopActionRequest(request, workspaceRoot);
     const proposal = normalized.proposal;
     const preview = proposal ? renderPreview(proposal, { ...request, target: normalized.normalizedTarget, destinationTarget: normalized.normalizedDestinationTarget ?? null }) : request.target;
+    const approvedRoots = resolveApprovedRoots(request, workspaceRoot);
     const executionRequest = toExecutionRequest(
       {
         ...request,
@@ -1512,7 +1527,8 @@ export const createDesktopActionService = (options: DesktopActionServiceOptions)
         destinationTarget: normalized.normalizedDestinationTarget
       },
       preview,
-      request.riskClass
+      request.riskClass,
+      workspaceRoot
     );
     executionRequest.handler = async (_request, context) =>
       performDesktopAction(
@@ -1543,7 +1559,8 @@ export const createDesktopActionService = (options: DesktopActionServiceOptions)
           "No command result returned by governance bus.",
           queued.commandId,
           request.approvedBy ?? null,
-          request.approvalToken?.tokenId ?? null
+          request.approvalToken?.tokenId ?? null,
+          approvedRoots
         )
       );
       return {
@@ -1592,11 +1609,18 @@ export const createDesktopActionService = (options: DesktopActionServiceOptions)
           destinationTarget: normalized.normalizedDestinationTarget
         },
         commandResult.commandHash,
-        result.status === "executed" ? "consumed" : result.status === "simulated" ? "approved" : "blocked",
+        result.status === "executed"
+          ? "consumed"
+          : result.status === "simulated"
+            ? "approved"
+            : result.status === "denied"
+              ? "denied"
+              : "blocked",
         result.summary,
         commandResult.commandId,
         result.approvedBy,
-        request.approvalToken?.tokenId ?? null
+        request.approvalToken?.tokenId ?? null,
+        approvedRoots
       )
     );
     return result;

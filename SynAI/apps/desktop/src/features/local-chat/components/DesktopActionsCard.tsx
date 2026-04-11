@@ -403,7 +403,17 @@ export function DesktopActionsCard() {
         <div className="space-y-1 rounded-md border border-slate-800 bg-slate-900/70 p-2 text-[9px] text-slate-300">
           <div className="flex items-center justify-between gap-2">
             <p className="font-semibold text-slate-100">Last result</p>
-            <Badge tone={lastResult.status === "executed" ? "good" : lastResult.status === "simulated" ? "neutral" : "warn"}>
+            <Badge
+              tone={
+                lastResult.status === "executed"
+                  ? "good"
+                  : lastResult.status === "simulated"
+                    ? "neutral"
+                    : lastResult.status === "denied"
+                      ? "bad"
+                      : "warn"
+              }
+            >
               {lastResult.status}
             </Badge>
           </div>

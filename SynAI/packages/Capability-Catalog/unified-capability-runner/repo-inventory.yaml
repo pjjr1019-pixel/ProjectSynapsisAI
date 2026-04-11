@@ -1,0 +1,1459 @@
+{
+  "generated_at": "2026-04-11T02:00:28.050Z",
+  "implemented_app_features": [
+    {
+      "id": "app.local-chat",
+      "status": "implemented",
+      "title": "Local chat reply path",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.conversation-persistence",
+      "status": "implemented",
+      "title": "Conversation persistence",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.history-panel",
+      "status": "implemented",
+      "title": "History panel",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.memory-extraction",
+      "status": "implemented",
+      "title": "Memory extraction",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.memory-retrieval",
+      "status": "implemented",
+      "title": "Memory retrieval",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.rolling-summary",
+      "status": "implemented",
+      "title": "Rolling summaries",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.context-assembly",
+      "status": "implemented",
+      "title": "Context assembly",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.workspace-indexing",
+      "status": "implemented",
+      "title": "Workspace indexing",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.web-search",
+      "status": "implemented",
+      "title": "Recent web search",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.model-health",
+      "status": "implemented",
+      "title": "Local model health",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.model-selection",
+      "status": "implemented",
+      "title": "Model selection",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.reasoning-trace",
+      "status": "implemented",
+      "title": "Reasoning trace",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.desktop-actions",
+      "status": "implemented",
+      "title": "Governed desktop actions",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.workflows",
+      "status": "implemented",
+      "title": "Workflow planning and execution",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.workflow-reports",
+      "status": "implemented",
+      "title": "Workflow report generation",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.approvals",
+      "status": "implemented",
+      "title": "Approval queue",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.audit-query",
+      "status": "implemented",
+      "title": "Governance audit query",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.official-knowledge",
+      "status": "implemented",
+      "title": "Official knowledge sources",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.screen-assist",
+      "status": "implemented",
+      "title": "Screen Assist Mode",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.prompt-eval",
+      "status": "implemented",
+      "title": "Prompt evaluation card",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.agent-runtime-card",
+      "status": "implemented",
+      "title": "Agent runtime inspection",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.runtime-preview-context",
+      "status": "implemented",
+      "title": "Runtime preview in context",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.governance-dashboard",
+      "status": "implemented",
+      "title": "Governance dashboard snapshot",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.capability-registry",
+      "status": "implemented",
+      "title": "Runtime capability registry",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    }
+  ],
+  "intended_but_unfinished": [
+    {
+      "id": "app.plugin-loader",
+      "status": "partial",
+      "title": "Runtime plugin loading",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.global-approval-dashboard",
+      "status": "partial",
+      "title": "Global approval dashboard UX",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.browser-automation-broad",
+      "status": "planned",
+      "title": "Broad autonomous browser automation",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.cloud-sync",
+      "status": "planned",
+      "title": "Cloud sync",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.finance",
+      "status": "planned",
+      "title": "Finance surfaces",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.multi-agent",
+      "status": "planned",
+      "title": "Broad multi-agent systems",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.autonomous-replanning",
+      "status": "planned",
+      "title": "Open-ended autonomous replanning",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "app.launcher-extras",
+      "status": "planned",
+      "title": "Launcher or dashboard extras",
+      "source_refs": [
+        "README.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+        "packages/Awareness-Reasoning/src/memory/index.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    }
+  ],
+  "windows_capability_surface": [
+    {
+      "id": "windows.file-explorer-open-folder",
+      "status": "implemented",
+      "category": "File Explorer",
+      "title": "Open a folder in File Explorer",
+      "description": "Explain how to open a specific folder in File Explorer on Windows 11.",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.file-explorer-hidden-files",
+      "status": "planned",
+      "category": "File Explorer",
+      "title": "Show hidden files",
+      "description": "How do I show hidden files in File Explorer on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.settings-display",
+      "status": "implemented",
+      "category": "Settings",
+      "title": "Open Display settings",
+      "description": "Where do I go in Windows 11 to change Display settings?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.settings-sound",
+      "status": "implemented",
+      "category": "Settings",
+      "title": "Open Sound settings",
+      "description": "How do I open Sound settings in Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.control-panel-programs",
+      "status": "implemented",
+      "category": "Control Panel",
+      "title": "Open Programs and Features",
+      "description": "How do I open Programs and Features or Add or Remove Programs on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.task-manager-open",
+      "status": "implemented",
+      "category": "Task Manager",
+      "title": "Open Task Manager",
+      "description": "How do I open Task Manager on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.task-manager-memory",
+      "status": "implemented",
+      "category": "Task Manager",
+      "title": "Find the highest memory process",
+      "description": "Tell me how to find which process is using the most RAM on Windows right now.",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.services-open",
+      "status": "implemented",
+      "category": "Services",
+      "title": "Open Services",
+      "description": "How do I open the Windows Services console?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.startup-apps-open",
+      "status": "implemented",
+      "category": "Startup Apps",
+      "title": "Open Startup Apps",
+      "description": "Where do I click to manage Startup Apps in Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.device-manager-open",
+      "status": "implemented",
+      "category": "Device Manager",
+      "title": "Open Device Manager",
+      "description": "How do I open Device Manager on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.windows-update-open",
+      "status": "implemented",
+      "category": "Windows Update",
+      "title": "Open Windows Update",
+      "description": "How do I get to Windows Update settings?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.storage-open",
+      "status": "implemented",
+      "category": "Storage",
+      "title": "Open Storage settings",
+      "description": "Where do I open Storage settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.disk-cleanup-guidance",
+      "status": "partial",
+      "category": "Disk Cleanup",
+      "title": "Free up space safely",
+      "description": "How do I safely free up disk space on Windows without deleting random files?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.networking-settings",
+      "status": "implemented",
+      "category": "Networking",
+      "title": "Open Network settings",
+      "description": "How do I open Network and Internet settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.wifi-troubleshoot",
+      "status": "partial",
+      "category": "Wi-Fi",
+      "title": "Wi-Fi troubleshooting",
+      "description": "My Windows Wi-Fi is acting weird. What should I check first?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.ethernet-troubleshoot",
+      "status": "partial",
+      "category": "Ethernet",
+      "title": "Ethernet troubleshooting",
+      "description": "My Windows Ethernet connection is not working. What are the first checks?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.bluetooth-settings",
+      "status": "implemented",
+      "category": "Bluetooth",
+      "title": "Open Bluetooth and devices",
+      "description": "Where do I open Bluetooth settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.printers-settings",
+      "status": "partial",
+      "category": "Printers",
+      "title": "Open Printers and Scanners",
+      "description": "How do I get to Printers and Scanners settings in Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.display-scale",
+      "status": "implemented",
+      "category": "Display",
+      "title": "Change scale or resolution",
+      "description": "How do I change display scale or resolution on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.sound-devices",
+      "status": "implemented",
+      "category": "Sound",
+      "title": "Pick input or output devices",
+      "description": "How do I switch my input or output sound device on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.power-battery",
+      "status": "implemented",
+      "category": "Power",
+      "title": "Open Power and battery",
+      "description": "Where do I change power or sleep settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.accounts-settings",
+      "status": "implemented",
+      "category": "Accounts",
+      "title": "Open Accounts settings",
+      "description": "How do I open the Accounts section in Windows settings?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.permissions-files",
+      "status": "planned",
+      "category": "Permissions",
+      "title": "Check file permissions",
+      "description": "How do I check or change file permissions on Windows carefully?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.windows-security",
+      "status": "partial",
+      "category": "Windows Security / Defender",
+      "title": "Open Windows Security",
+      "description": "How do I open Windows Security or Defender on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.firewall",
+      "status": "planned",
+      "category": "Firewall",
+      "title": "Open Firewall settings",
+      "description": "How do I get to Windows Firewall settings?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.backup-restore",
+      "status": "planned",
+      "category": "Backup / Restore",
+      "title": "Backup and restore guidance",
+      "description": "Where do I go in Windows 11 for backup or restore options?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.safe-mode",
+      "status": "planned",
+      "category": "Safe Mode",
+      "title": "Boot to Safe Mode",
+      "description": "How do I get into Safe Mode on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.recovery",
+      "status": "planned",
+      "category": "Recovery",
+      "title": "Open Recovery options",
+      "description": "How do I open Recovery options on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.event-viewer",
+      "status": "implemented",
+      "category": "Event Viewer",
+      "title": "Open Event Viewer",
+      "description": "How do I open Event Viewer on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.command-prompt",
+      "status": "planned",
+      "category": "Command Prompt",
+      "title": "Open Command Prompt",
+      "description": "How do I open Command Prompt on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.powershell",
+      "status": "implemented",
+      "category": "PowerShell",
+      "title": "Open PowerShell",
+      "description": "How do I open PowerShell on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.environment-variables",
+      "status": "planned",
+      "category": "Environment Variables",
+      "title": "Edit environment variables",
+      "description": "How do I edit environment variables on Windows safely?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.app-install",
+      "status": "partial",
+      "category": "App install / uninstall",
+      "title": "Install an app with WinGet",
+      "description": "How do I install an app on Windows using WinGet?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.app-uninstall",
+      "status": "implemented",
+      "category": "App install / uninstall",
+      "title": "Uninstall an app",
+      "description": "How do I uninstall an app on Windows without guessing?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.default-apps",
+      "status": "implemented",
+      "category": "Default Apps",
+      "title": "Open Default Apps",
+      "description": "How do I change default apps in Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.notifications",
+      "status": "planned",
+      "category": "Notifications",
+      "title": "Open Notifications settings",
+      "description": "Where do I change notification settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.clipboard-history",
+      "status": "planned",
+      "category": "Clipboard",
+      "title": "Clipboard history",
+      "description": "How do I turn on clipboard history on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.screenshots",
+      "status": "planned",
+      "category": "Screenshots",
+      "title": "Take a screenshot",
+      "description": "What are the easiest ways to take screenshots on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.zip-files",
+      "status": "planned",
+      "category": "Compression / zip files",
+      "title": "Zip a file or folder",
+      "description": "How do I zip a file or folder in Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.accessibility",
+      "status": "implemented",
+      "category": "Accessibility",
+      "title": "Open Accessibility settings",
+      "description": "How do I open Accessibility settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.remote-desktop",
+      "status": "planned",
+      "category": "Remote Desktop",
+      "title": "Remote Desktop guidance",
+      "description": "How do I find Remote Desktop settings on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.slow-pc",
+      "status": "implemented",
+      "category": "Common troubleshooting",
+      "title": "Troubleshoot a slow PC",
+      "description": "My Windows PC feels slow. What should I check first?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.printer-troubleshoot",
+      "status": "planned",
+      "category": "Common troubleshooting",
+      "title": "Troubleshoot a printer issue",
+      "description": "My printer is not working on Windows. What should I check?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.sound-troubleshoot",
+      "status": "partial",
+      "category": "Common troubleshooting",
+      "title": "Troubleshoot no sound",
+      "description": "Windows has no sound. What are the first safe checks?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.storage-full",
+      "status": "implemented",
+      "category": "Common troubleshooting",
+      "title": "Troubleshoot low storage",
+      "description": "My Windows drive is almost full. What is the safest cleanup order?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.registry-startup",
+      "status": "implemented",
+      "category": "Registry",
+      "title": "Startup registry location",
+      "description": "Where are startup app entries usually stored in the Windows registry?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.registry-uninstall",
+      "status": "implemented",
+      "category": "Registry",
+      "title": "Uninstall registry location",
+      "description": "Where does Windows keep uninstall app metadata in the registry?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.task-scheduler",
+      "status": "implemented",
+      "category": "Task Scheduler",
+      "title": "Open Task Scheduler",
+      "description": "How do I open Task Scheduler on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.performance-monitor",
+      "status": "implemented",
+      "category": "Performance Monitor",
+      "title": "Open Performance Monitor",
+      "description": "How do I open Performance Monitor on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.resource-monitor",
+      "status": "implemented",
+      "category": "Resource Monitor",
+      "title": "Open Resource Monitor",
+      "description": "How do I open Resource Monitor on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.computer-management",
+      "status": "implemented",
+      "category": "Computer Management",
+      "title": "Open Computer Management",
+      "description": "How do I open Computer Management on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.personalization",
+      "status": "implemented",
+      "category": "Settings",
+      "title": "Open Personalization",
+      "description": "How do I open Personalization settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.privacy-security",
+      "status": "implemented",
+      "category": "Permissions",
+      "title": "Open Privacy and security",
+      "description": "Where do I open Privacy and security settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.network-vpn-proxy",
+      "status": "implemented",
+      "category": "Networking",
+      "title": "Find VPN or proxy settings",
+      "description": "How do I find VPN or proxy settings on Windows 11?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.windows-search-indexing",
+      "status": "partial",
+      "category": "Common troubleshooting",
+      "title": "Windows Search indexing",
+      "description": "How do I check Windows Search indexing or search service issues?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    },
+    {
+      "id": "windows.services-print-spooler",
+      "status": "implemented",
+      "category": "Services",
+      "title": "Inspect Print Spooler service",
+      "description": "How do I inspect the Print Spooler service on Windows?",
+      "source_refs": [
+        "packages/Awareness-Reasoning/src/machine/maps.ts",
+        "packages/Awareness-Reasoning/src/official-knowledge/catalog.ts",
+        "apps/desktop/electron/desktop-actions.ts",
+        "apps/desktop/electron/workflow-planner.ts",
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md"
+      ]
+    }
+  ],
+  "agent_task_surface": [
+    {
+      "id": "agent.direct-answer",
+      "status": "implemented",
+      "category": "answer a direct question",
+      "title": "Direct repo question",
+      "description": "Answer a direct repo question using grounded repo evidence.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.memory-aware",
+      "status": "implemented",
+      "category": "answer from memory when appropriate",
+      "title": "Memory-aware answer",
+      "description": "Answer a question while using memory and prior user context when relevant.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.refuse-unsafe",
+      "status": "implemented",
+      "category": "refuse unsafe asks",
+      "title": "Unsafe refusal",
+      "description": "Refuse an unsafe request instead of complying.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.route-desktop-action",
+      "status": "implemented",
+      "category": "choose a route or tool correctly",
+      "title": "Route to desktop action",
+      "description": "Choose the desktop action route when the prompt is a simple Windows action.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.route-workflow",
+      "status": "implemented",
+      "category": "choose a route or tool correctly",
+      "title": "Route to workflow",
+      "description": "Choose the workflow route when the prompt is a multi-step task.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.step-by-step",
+      "status": "implemented",
+      "category": "produce step-by-step instructions",
+      "title": "Step-by-step help",
+      "description": "Give step-by-step instructions without pretending the task already happened.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.safe-commands",
+      "status": "implemented",
+      "category": "explain commands safely",
+      "title": "Safe command guidance",
+      "description": "Explain commands safely and keep approval boundaries clear.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.windows-troubleshoot",
+      "status": "implemented",
+      "category": "troubleshoot a Windows problem",
+      "title": "Windows troubleshooting",
+      "description": "Troubleshoot a Windows problem with safe checks first.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.context-summary",
+      "status": "implemented",
+      "category": "summarize context",
+      "title": "Context summary",
+      "description": "Summarize the relevant repo or runtime context concisely.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.structured-format",
+      "status": "implemented",
+      "category": "answer with structured formatting",
+      "title": "Structured output",
+      "description": "Produce a structured checklist or short sections when requested.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.scope-boundary",
+      "status": "implemented",
+      "category": "stay within scope",
+      "title": "Source boundary",
+      "description": "Stay within the requested source scope instead of adding unsupported claims.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.no-fake-actions",
+      "status": "implemented",
+      "category": "avoid pretending actions happened",
+      "title": "No fake action claims",
+      "description": "Do not claim that an action already happened when it did not.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.factual-boundary",
+      "status": "implemented",
+      "category": "preserve factual boundaries",
+      "title": "Factual boundary",
+      "description": "Preserve factual boundaries when evidence is missing.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.ask-missing-only",
+      "status": "implemented",
+      "category": "ask for missing files only when truly necessary",
+      "title": "Clarify only when needed",
+      "description": "Ask for missing details only when the task is too ambiguous to proceed safely.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.typo-heavy",
+      "status": "implemented",
+      "category": "handle typo-heavy prompts",
+      "title": "Typo-heavy prompt",
+      "description": "Handle typo-heavy prompts without losing the user's intent.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.paraphrase",
+      "status": "implemented",
+      "category": "handle paraphrased prompts",
+      "title": "Paraphrase consistency",
+      "description": "Stay consistent across paraphrased versions of the same task.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.report-summary-follow-up",
+      "status": "implemented",
+      "category": "workflow execution",
+      "title": "Summarize latest report",
+      "description": "Summarize the latest governed report when the user asks for results.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.approval-confirmation",
+      "status": "implemented",
+      "category": "workflow execution",
+      "title": "Handle approval follow-up",
+      "description": "Resume a pending governed task when the user replies approve.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.official-knowledge-routing",
+      "status": "implemented",
+      "category": "choose a route or tool correctly",
+      "title": "Official Windows knowledge",
+      "description": "Prefer official Windows knowledge for Windows Update or release-health style prompts.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    },
+    {
+      "id": "agent.runtime-limit-honesty",
+      "status": "implemented",
+      "category": "preserve factual boundaries",
+      "title": "Admit current limitations",
+      "description": "Explain what is real, what is partial, and what is not built yet without overselling.",
+      "source_refs": [
+        "docs/LOCAL_AI_PROMPT_TEST_BANK.md",
+        "apps/desktop/electron/main.ts",
+        "apps/desktop/electron/governed-chat.ts",
+        "apps/desktop/electron/workflow-orchestrator.ts",
+        "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+      ]
+    }
+  ]
+}

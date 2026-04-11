@@ -8,6 +8,7 @@ const initialState: LocalChatState = {
   screenStatus: null,
   availableModels: [],
   settings: {
+    reasoningProfile: "chat",
     selectedModel: "",
     defaultWebSearch: false,
     advancedRagEnabled: true,

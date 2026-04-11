@@ -1,82 +1,42 @@
 import * as path from "node:path";
 import type {
+  ChatReplyPolicyDiagnostics,
   ChatReplyFormatPolicy,
   ChatReplyGroundingPolicy,
   ChatReplyPolicy,
   ChatReplyRoutingPolicy,
   ChatReplySourceScope,
+  ReasoningProfile,
   WorkspaceChunkHit
 } from "@contracts";
+import { deriveReplyPolicy, deriveRoutingSuppressionReasons } from "./prompting/policy-matrix";
+import {
+  buildPolicyDiagnostics,
+  classifyPromptTask,
+  type PromptTaskClassificationResult
+} from "./prompting/task-classifier";
 
-const normalizeQuery = (value: string): string =>
-  value
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
+interface ReplyPolicyClassifierOptions {
+  classification?: PromptTaskClassificationResult;
+}
 
-const includesAny = (value: string, phrases: string[]): boolean => {
-  const normalized = normalizeQuery(value);
-  return phrases.some((phrase) => normalized.includes(normalizeQuery(phrase)));
-};
-
-const README_ONLY_PATTERNS = [
-  "readme only",
-  "using the current synai readme",
-  "current synai readme",
-  "based on the current readme",
-  "based on the current synai readme"
-];
-
-const DOCS_ONLY_PATTERNS = [
-  "docs only",
-  "current repo docs",
-  "repo docs",
-  "architecture docs",
-  "architecture doc",
-  "based on the docs",
-  "using the docs"
-];
-
-const REPO_WIDE_PATTERNS = [
-  "based on the current repo",
-  "based on the current synai repo",
-  "current synai repo",
-  "current build",
-  "phase 1",
-  "using only the facts below",
-  "using the current repo",
-  "based on the repo"
-];
-
-const EXACT_STRUCTURE_PATTERNS = [
-  "exactly",
-  "labeled",
-  "labelled",
-  "section titled",
-  "sections titled",
-  "start one with",
-  "use exactly",
-  "bullet",
-  "bullets",
-  "sentence",
-  "sentences"
-];
-
-const TIME_SENSITIVE_PATTERNS = ["latest", "today", "right now", "news", "recent web search"];
-
-const hasReadmeOnlySignals = (query: string): boolean => includesAny(query, README_ONLY_PATTERNS);
-const hasDocsOnlySignals = (query: string): boolean => includesAny(query, DOCS_ONLY_PATTERNS);
-const hasRepoWideSignals = (query: string): boolean => includesAny(query, REPO_WIDE_PATTERNS);
+const getClassification = (
+  query: string,
+  options?: ReplyPolicyClassifierOptions
+): PromptTaskClassificationResult => options?.classification ?? classifyPromptTask(query);
 
 export const inferReplyFormatPolicy = (
   query: string,
-  override?: ChatReplyFormatPolicy
+  override?: ChatReplyFormatPolicy,
+  classifierOptions?: ReplyPolicyClassifierOptions
 ): ChatReplyFormatPolicy => {
   if (override) {
     return override;
   }
 
-  return includesAny(query, EXACT_STRUCTURE_PATTERNS) ? "preserve-exact-structure" : "default";
+  return getClassification(query, classifierOptions).categories.exact_format
+    ? "preserve-exact-structure"
+    : "default";
 };
 
 export const inferReplySourceScope = (
@@ -85,29 +45,25 @@ export const inferReplySourceScope = (
     explicitWindowsAwarenessPrompt: boolean;
     useWebSearch: boolean;
     override?: ChatReplySourceScope;
+    classification?: PromptTaskClassificationResult;
+    reasoningProfile?: ReasoningProfile;
   }
 ): ChatReplySourceScope => {
   if (options.override) {
     return options.override;
   }
 
-  if (hasReadmeOnlySignals(query)) {
-    return "readme-only";
-  }
-  if (hasDocsOnlySignals(query)) {
-    return "docs-only";
-  }
-  if (hasRepoWideSignals(query)) {
-    return "repo-wide";
-  }
-  if (options.explicitWindowsAwarenessPrompt) {
-    return "awareness-only";
-  }
-  if (options.useWebSearch || includesAny(query, TIME_SENSITIVE_PATTERNS)) {
-    return "time-sensitive-live";
-  }
+  const classification =
+    options.classification ??
+    classifyPromptTask(query, {
+      explicitWindowsAwarenessPrompt: options.explicitWindowsAwarenessPrompt,
+      useWebSearch: options.useWebSearch
+    });
 
-  return "workspace-only";
+  return deriveReplyPolicy(classification, {
+    overrides: options.override ? { sourceScope: options.override } : undefined,
+    reasoningProfile: options.reasoningProfile
+  }).sourceScope;
 };
 
 export const inferReplyGroundingPolicy = (
@@ -157,21 +113,21 @@ export const resolveReplyPolicy = (
     explicitWindowsAwarenessPrompt: boolean;
     useWebSearch: boolean;
     overrides?: Partial<ChatReplyPolicy>;
+    classification?: PromptTaskClassificationResult;
+    reasoningProfile?: ReasoningProfile;
   }
 ): ChatReplyPolicy => {
-  const sourceScope = inferReplySourceScope(query, {
-    explicitWindowsAwarenessPrompt: options.explicitWindowsAwarenessPrompt,
-    useWebSearch: options.useWebSearch,
-    override: options.overrides?.sourceScope
-  });
-  const formatPolicy = inferReplyFormatPolicy(query, options.overrides?.formatPolicy);
+  const classification =
+    options.classification ??
+    classifyPromptTask(query, {
+      explicitWindowsAwarenessPrompt: options.explicitWindowsAwarenessPrompt,
+      useWebSearch: options.useWebSearch
+    });
 
-  return {
-    sourceScope,
-    formatPolicy,
-    groundingPolicy: inferReplyGroundingPolicy(sourceScope, options.overrides?.groundingPolicy),
-    routingPolicy: inferReplyRoutingPolicy(sourceScope, options.overrides?.routingPolicy)
-  };
+  return deriveReplyPolicy(classification, {
+    overrides: options.overrides,
+    reasoningProfile: options.reasoningProfile
+  });
 };
 
 export const shouldBypassCleanup = (
@@ -181,23 +137,20 @@ export const shouldBypassCleanup = (
 
 export const getRoutingSuppressionReason = (
   query: string,
-  policy: ChatReplyPolicy
+  policy: ChatReplyPolicy,
+  classifierOptions?: ReplyPolicyClassifierOptions
 ): string | null => {
-  if (policy.routingPolicy !== "chat-first-source-scoped") {
-    return null;
-  }
+  const classification = getClassification(query, classifierOptions);
+  return deriveRoutingSuppressionReasons(classification, policy)[0] ?? null;
+};
 
-  if (hasReadmeOnlySignals(query)) {
-    return "readme-only scope suppresses awareness routing";
-  }
-  if (hasDocsOnlySignals(query)) {
-    return "docs-only scope suppresses awareness routing";
-  }
-  if (hasRepoWideSignals(query)) {
-    return "repo-grounded scope suppresses awareness routing";
-  }
-
-  return null;
+export const getReplyPolicyDiagnostics = (
+  query: string,
+  policy: ChatReplyPolicy,
+  classifierOptions?: ReplyPolicyClassifierOptions
+): ChatReplyPolicyDiagnostics => {
+  const classification = getClassification(query, classifierOptions);
+  return buildPolicyDiagnostics(classification, policy, deriveRoutingSuppressionReasons(classification, policy));
 };
 
 const isReadmePath = (relativePath: string): boolean => /(^|[\\/])readme(?:\.[^.]+)?$/i.test(relativePath);

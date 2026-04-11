@@ -13,7 +13,10 @@ import type {
 import type { ChatReplyPolicy } from "./chat";
 import type { GroundingSummary, RetrievalEvalSummary } from "./grounding";
 import type { AwarenessRuntimeHealth } from "./health";
+import type { PromptIntentContract } from "./prompt-intent";
+import type { RetrievedPromptBehaviorMemory } from "./prompt-preferences";
 import type { RagContextPreview } from "./rag";
+import type { PlanningPolicy, ReasoningProfile } from "./reasoning-profile";
 import type {
   PolicyDecisionType,
   RuntimeContinuationMode,
@@ -119,9 +122,17 @@ export interface AgentRuntimePreviewSummary {
 }
 
 export interface ContextPreview {
+  reasoningProfile?: ReasoningProfile | null;
+  planningPolicy?: PlanningPolicy | null;
+  reasoningProfileDiagnostics?: {
+    planningReason: string | null;
+    retrievalMode: "light" | "balanced" | "deep";
+    governedTaskPosture: "answer-first" | "research-grounded" | "governed-task-first";
+  } | null;
   systemInstruction: string;
   stableMemories: MemoryEntry[];
   retrievedMemories: RetrievedMemory[];
+  promptBehaviorMemories?: RetrievedPromptBehaviorMemory[];
   workspaceHits?: RagContextPreview["workspaceHits"];
   summarySnippet: string;
   recentMessagesCount: number;
@@ -148,4 +159,5 @@ export interface ContextPreview {
   grounding?: GroundingSummary | null;
   retrievalEval?: RetrievalEvalSummary | null;
   replyPolicy?: ChatReplyPolicy | null;
+  promptIntent?: PromptIntentContract | null;
 }

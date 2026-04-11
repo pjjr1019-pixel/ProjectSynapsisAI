@@ -91,6 +91,30 @@ const report: PromptEvaluationResponse = {
           groundingPolicy: "awareness-direct",
           routingPolicy: "windows-explicit-only"
         },
+        policyDiagnostics: {
+          rawSignals: ["awareness:windows-keyword", "time:live-request"],
+          fallbackSignals: ["fallback:time-sensitive-pattern"],
+          classifier: {
+            categories: {
+              repo_grounded: false,
+              exact_format: false,
+              awareness_local_state: true,
+              time_sensitive: true,
+              governed_action: false,
+              generic_writing: false,
+              first_time_task: false,
+              open_ended: false
+            },
+            repoGroundingSubtype: "workspace-only"
+          },
+          chosenPolicy: {
+            sourceScope: "awareness-only",
+            formatPolicy: "default",
+            groundingPolicy: "awareness-direct",
+            routingPolicy: "windows-explicit-only"
+          },
+          suppressionReasons: []
+        },
         cleanupBypassed: false,
         routingSuppressionReason: null,
         retrievedSourceSummary: {
@@ -154,6 +178,30 @@ const report: PromptEvaluationResponse = {
           groundingPolicy: "source-boundary",
           routingPolicy: "chat-first-source-scoped"
         },
+        policyDiagnostics: {
+          rawSignals: ["scope:repo-wide", "format:exact-structure"],
+          fallbackSignals: ["fallback:repo-wide-pattern", "fallback:exact-structure-pattern"],
+          classifier: {
+            categories: {
+              repo_grounded: true,
+              exact_format: true,
+              awareness_local_state: false,
+              time_sensitive: false,
+              governed_action: false,
+              generic_writing: false,
+              first_time_task: false,
+              open_ended: false
+            },
+            repoGroundingSubtype: "repo-wide"
+          },
+          chosenPolicy: {
+            sourceScope: "repo-wide",
+            formatPolicy: "preserve-exact-structure",
+            groundingPolicy: "source-boundary",
+            routingPolicy: "chat-first-source-scoped"
+          },
+          suppressionReasons: ["repo-grounded scope suppresses awareness routing"]
+        },
         cleanupBypassed: true,
         routingSuppressionReason: "repo-grounded scope suppresses awareness routing",
         retrievedSourceSummary: {
@@ -206,6 +254,9 @@ describe("prompt evaluation markdown", () => {
     expect(markdown).toContain("- Source scope: awareness-only");
     expect(markdown).toContain("- Awareness used: yes");
     expect(markdown).toContain("- Cleanup bypassed: no");
+    expect(markdown).toContain("- Raw signals: awareness:windows-keyword, time:live-request");
+    expect(markdown).toContain("- Classifier: awareness_local_state, time_sensitive");
+    expect(markdown).toContain("- Chosen policy: awareness-only | default | awareness-direct | windows-explicit-only");
     expect(markdown).toContain("### Checks");
     expect(markdown).toContain("- PASS | Mention a clear answer. | Matched phrase: short answer.");
     expect(markdown).toContain("### Prompt");
@@ -215,6 +266,7 @@ describe("prompt evaluation markdown", () => {
     expect(markdown).toContain("Handle uncertainty without guessing.");
     expect(markdown).toContain("Prompt evaluation failed: model timeout");
     expect(markdown).toContain("- Routing suppression: repo-grounded scope suppresses awareness routing");
+    expect(markdown).toContain("- Suppression reasons: repo-grounded scope suppresses awareness routing");
     expect(markdown).toContain("- FAIL | Use the requested Known heading. | Skipped because the prompt returned an error.");
   });
 

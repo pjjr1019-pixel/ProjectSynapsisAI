@@ -3,6 +3,8 @@
 This repo now routes normal chat into governed task execution when the prompt is task-like.
 Use the commands below to run and inspect the governance / execution loop directly.
 
+Read [packages/Governance-Execution/README.md](../packages/Governance-Execution/README.md) and [AGENT_INSERTION_POINTS.md](AGENT_INSERTION_POINTS.md) before extending the governed layer.
+
 ## Quickstart
 
 ### Run one governance-exec card
@@ -74,12 +76,12 @@ Get-Content .runtime/governance-history/candidate-cards.json
 
 1. Extend `apps/desktop/electron/desktop-actions.ts` for atomic desktop operations.
 2. Extend `apps/desktop/electron/workflow-planner.ts` and `workflow-orchestrator.ts` for multi-step tasks.
-3. Add or update a governed-chat routing rule in `packages/Governance and exicution/src/governed-chat/router.ts`.
+3. Add or update a governed-chat routing rule in `packages/Governance-Execution/src/governed-chat/router.ts`.
 4. Add tests for routing, execution, and verification.
 
 ### Add a new policy rule
 
-1. Update `packages/Governance and exicution/src/policy/engine.ts`.
+1. Update `packages/Governance-Execution/src/policy/engine.ts`.
 2. Confirm the new risk decision in a router or service test.
 3. Add or adjust a governance-exec card so the policy rule stays covered.
 

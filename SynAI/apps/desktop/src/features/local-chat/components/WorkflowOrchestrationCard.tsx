@@ -13,9 +13,12 @@ import { Textarea } from "../../../shared/components/Textarea";
 
 const emptyToken = "";
 
-const formatStepStatusTone = (status: string): "good" | "neutral" | "warn" => {
+const formatStepStatusTone = (status: string): "good" | "neutral" | "warn" | "bad" => {
   if (status === "executed") {
     return "good";
+  }
+  if (status === "denied") {
+    return "bad";
   }
   if (status === "blocked" || status === "failed") {
     return "warn";
@@ -131,6 +134,8 @@ export function WorkflowOrchestrationCard() {
           ? "Workflow executed."
           : result.status === "simulated"
             ? "Workflow simulated."
+            : result.status === "denied"
+              ? "Workflow denied."
             : result.summary
       );
     } catch (error) {

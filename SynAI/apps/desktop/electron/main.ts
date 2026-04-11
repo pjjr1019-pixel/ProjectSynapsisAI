@@ -29,25 +29,23 @@ import {
   type ChatGovernedTaskMetadata,
   type ContextPreview,
   type ConversationWithMessages,
-  type GroundingSummary,
   type ModelHealth,
   type OfficialKnowledgeContext,
   type OfficialKnowledgeSourceStatus,
   type OfficialKnowledgeStatus,
-  type PromptEvaluationCaseInput,
   type PromptEvaluationCaseResult,
-  type PromptEvaluationCheck,
-  type PromptEvaluationCheckResult,
+  type PromptIntentContract,
   type PromptEvaluationRequest,
   type PromptEvaluationResponse,
-  type PromptEvaluationRoutingReport,
   type PromptEvaluationSettingsSnapshot,
+  type PlanningPolicy,
+  type ReasoningProfile,
   type RagContextPreview,
   type RagOptions,
   type RagToggleMode,
   type ReasoningTraceState,
-  type ResponseMode,
   type RetrievalSourceStats,
+  type RetrievedPromptBehaviorMemory,
   type SendChatRequest,
   type SendChatResponse,
   type WebSearchContext,
@@ -97,7 +95,9 @@ import { createAgentRuntimeService, FileAgentRuntimeStateStore } from "@agent-ru
 import { createAgentRuntimeApprovalValidator } from "./agent-runtime-approval";
 import { createDesktopActionRuntimeAdapter, createWorkflowRuntimeAdapter } from "./agent-runtime-adapters";
 import { createGovernedChatService } from "./governed-chat";
+import { createCapabilityRunService } from "./capability-runner";
 import { createWorkflowOrchestrator } from "./workflow-orchestrator";
+import { createValidatedIpcHandleRegistry } from "./ipc-registration";
 import {
   appendChatMessage,
   buildPromptMessages,
@@ -112,10 +112,14 @@ import {
   listMemoryRecords,
   loadConversationRecord,
   memorySystemInstruction,
+  markPromptBehaviorRecordsApplied,
+  matchPromptBehaviorMemoryRecords,
   preparePromptContext,
   refreshRollingSummary,
   removeLastAssistantMessage,
   searchMemoryRecords,
+  upsertPromptBehaviorPreferenceRecord,
+  upsertResolvedPromptPatternRecord,
   updateConversationTitleFromMessages
 } from "@memory";
 import { resolveRecentWebContext } from "@web-search";
@@ -133,12 +137,43 @@ import {
   upsertPromptEvaluationChatHistory
 } from "./prompt-eval";
 import {
+  buildPromptEvaluationRoutingReport,
+  evaluatePromptEvaluationCase,
+  normalizePromptEvaluationCases
+} from "./prompt-eval-analysis";
+import {
   filterWorkspaceHitsForReplyPolicy,
+  getReplyPolicyDiagnostics,
   getRoutingSuppressionReason,
   resolveReplyPolicy,
   shouldBypassCleanup,
   summarizeWorkspacePaths
 } from "./reply-policy";
+import { applyPromptPolicies } from "./prompting/instruction-builders";
+import {
+  buildChatExecutionDiagnostics,
+  buildRetrievedSourceSummary
+} from "./prompting/diagnostics";
+import {
+  buildSeedPromptIntent,
+  shouldPreferOfficialWindowsKnowledge
+} from "./prompting/intent-contract";
+import { planPromptIntent } from "./prompting/planner";
+import { createSynthesisMessages } from "./prompting/synthesizer";
+import { classifyPromptTask, formatClassifierCategories } from "./prompting/task-classifier";
+import {
+  getReasoningProfileBehavior,
+  normalizePlanningPolicy,
+  normalizeReasoningProfile,
+  resolveAwarenessRouting,
+  resolveProfileAwareWebSearch,
+  resolveReasoningProfileState,
+  shouldRunPlanningStage
+} from "./prompting/reasoning-profile";
+import {
+  attachPromptIntentBridgeToTask,
+  shouldPersistResolvedPromptPattern
+} from "./prompting/runtime-intent-bridge";
 
 const provider = createOllamaProvider();
 const chatExecution = createChatExecutionService({ provider });
@@ -192,11 +227,136 @@ let mainWindow: BrowserWindow | null = null;
 let busy = false;
 let awarenessEngine: AwarenessEngine | null = null;
 let awarenessApiServer: AwarenessApiServer | null = null;
+const chatStreamObservers = new Map<string, Set<(content: string) => void>>();
+const promptIntentBridgeByConversation = new Map<
+  string,
+  {
+    promptIntent: PromptIntentContract;
+    matchedPromptBehaviorMemories: RetrievedPromptBehaviorMemory[];
+    updatedAt: number;
+  }
+>();
+const MAX_PROMPT_INTENT_BRIDGE_CACHE = 24;
 
 // Health-check cache — avoid re-checking Ollama after every successful reply
 let lastHealthCheckMs = 0;
 let lastKnownModelStatus: ModelHealth | null = null;
 const HEALTH_CACHE_TTL_MS = 45_000;
+
+const rememberPromptIntentBridgeContext = (
+  conversationId: string,
+  promptIntent: PromptIntentContract | null,
+  matchedPromptBehaviorMemories: RetrievedPromptBehaviorMemory[]
+): void => {
+  if (!promptIntent) {
+    return;
+  }
+  promptIntentBridgeByConversation.set(conversationId, {
+    promptIntent,
+    matchedPromptBehaviorMemories,
+    updatedAt: Date.now()
+  });
+
+  if (promptIntentBridgeByConversation.size <= MAX_PROMPT_INTENT_BRIDGE_CACHE) {
+    return;
+  }
+
+  const oldest = [...promptIntentBridgeByConversation.entries()].sort(
+    (left, right) => left[1].updatedAt - right[1].updatedAt
+  )[0];
+  if (oldest) {
+    promptIntentBridgeByConversation.delete(oldest[0]);
+  }
+};
+
+const getPromptIntentBridgeContextForTask = (
+  task: AgentTask
+): { promptIntent: PromptIntentContract; matchedPromptBehaviorMemories: RetrievedPromptBehaviorMemory[] } | null => {
+  const conversationId =
+    typeof task.metadata?.conversationId === "string" ? task.metadata.conversationId : null;
+  if (!conversationId) {
+    return null;
+  }
+  const cached = promptIntentBridgeByConversation.get(conversationId);
+  if (!cached) {
+    return null;
+  }
+  return {
+    promptIntent: cached.promptIntent,
+    matchedPromptBehaviorMemories: cached.matchedPromptBehaviorMemories
+  };
+};
+
+const confidenceScore = (confidence: "low" | "medium" | "high" | null | undefined): number => {
+  switch (confidence) {
+    case "high":
+      return 0.9;
+    case "medium":
+      return 0.65;
+    case "low":
+      return 0.4;
+    default:
+      return 0.5;
+  }
+};
+
+const shouldPersistPromptBehaviorPreference = (promptIntent: PromptIntentContract): boolean =>
+  promptIntent.intentFamily !== "workflow-governed" &&
+  promptIntent.intentFamily !== "agent-runtime" &&
+  promptIntent.intentFamily !== "time-sensitive-live" &&
+  promptIntent.intentFamily !== "windows-awareness" &&
+  (promptIntent.outputContract.preserveExactStructure ||
+    promptIntent.sourceScope !== "workspace-only" ||
+    promptIntent.requiredChecks.includes("decompose-first-time-task"));
+
+const persistPromptBehaviorFromTurn = async (input: {
+  conversationId: string;
+  query: string;
+  promptIntent: PromptIntentContract | null;
+  taskClassification: ReturnType<typeof classifyPromptTask> | null;
+  assistantReply: string;
+  verificationConfidence: "low" | "medium" | "high" | null;
+}): Promise<void> => {
+  const { promptIntent, taskClassification } = input;
+  if (!promptIntent || !taskClassification) {
+    return;
+  }
+
+  const matchHints = [input.query, promptIntent.userGoal, ...promptIntent.constraints].filter(Boolean);
+  const normalizedResolution = {
+    intentFamily: promptIntent.intentFamily,
+    sourceScope: promptIntent.sourceScope,
+    outputShape: promptIntent.outputContract.shape,
+    outputLength: promptIntent.outputContract.length,
+    preserveExactStructure: promptIntent.outputContract.preserveExactStructure,
+    requiredChecks: promptIntent.requiredChecks
+  };
+  const confidence = confidenceScore(input.verificationConfidence);
+
+  if (shouldPersistPromptBehaviorPreference(promptIntent)) {
+    await upsertPromptBehaviorPreferenceRecord({
+      sourceConversationId: input.conversationId,
+      summary: `Prompt behavior preference: ${promptIntent.userGoal}`,
+      preferenceLabel: `${promptIntent.sourceScope} ${promptIntent.outputContract.shape}`,
+      matchHints,
+      resolution: normalizedResolution,
+      confidence
+    });
+  }
+
+  if (!shouldPersistResolvedPromptPattern(promptIntent, taskClassification)) {
+    return;
+  }
+
+  await upsertResolvedPromptPatternRecord({
+    sourceConversationId: input.conversationId,
+    summary: `Resolved prompt pattern: ${promptIntent.userGoal}`,
+    patternSummary: input.query.slice(0, 180),
+    matchHints: [...matchHints, input.assistantReply.slice(0, 140)],
+    resolution: normalizedResolution,
+    confidence
+  });
+};
 const awarenessRuntimeState: AwarenessRuntimeHealth = {
   initializing: false,
   ready: false,
@@ -208,93 +368,9 @@ const awarenessRuntimeState: AwarenessRuntimeHealth = {
 const APP_VERSION = "0.1.0";
 const DEFAULT_PROMPT_EVAL_SUITE_NAME = "Local AI prompt evaluation";
 
-const responseModeInstruction = (mode: ResponseMode | undefined): string => {
-  switch (mode) {
-    case "fast":
-      return "Reply style: prioritize quick, direct answers. Keep the response very short and easy to scan.";
-    case "smart":
-      return "Reply style: be careful and context-aware, but still keep the answer simple. Use a short summary first, then only the most useful details.";
-    default:
-      return "Reply style: be clear, concise, and easy to read. Prefer a short direct answer and a few short bullets over long paragraphs.";
-  }
-};
-
 const normalizeAwarenessAnswerMode = (
   mode: AwarenessAnswerMode | undefined
 ): AwarenessAnswerMode => (mode === "llm-primary" ? "llm-primary" : "evidence-first");
-
-const awarenessAnswerModeInstruction = (mode: AwarenessAnswerMode): string => {
-  if (mode === "llm-primary") {
-    return "Awareness answer mode: llm-primary. Use awareness context when relevant, but keep normal conversational behavior.";
-  }
-
-  return [
-    "Awareness answer mode: evidence-first.",
-    "Use retrieved local evidence first and avoid unsupported claims.",
-    "If verified local evidence already answers the question, answer directly from that evidence.",
-    "Do not tell the user to manually look up information you already have.",
-    "Keep answers short and simple by default.",
-    "Use this order when helpful:",
-    "Direct answer",
-    "Key facts",
-    "Unclear or next checks only if needed"
-  ].join("\n");
-};
-
-const ragModeInstruction = (mode: RagContextPreview["mode"]): string =>
-  mode === "advanced"
-    ? [
-        "Advanced RAG mode is active.",
-        "Use retrieved memory, workspace evidence, awareness context, and optional web results together.",
-        "Build a short internal plan, then answer from the evidence.",
-        "Do not expose hidden chain-of-thought. Keep the final answer concise and grounded."
-      ].join("\n")
-    : "Fast mode is active. Answer directly and stay concise.";
-
-const replyPolicyInstruction = (policy: ChatReplyPolicy): string => {
-  const lines = [`Reply policy: source scope = ${policy.sourceScope}.`];
-
-  switch (policy.sourceScope) {
-    case "readme-only":
-      lines.push("Use only README evidence already present in context for product facts.");
-      break;
-    case "docs-only":
-      lines.push("Use only docs and README evidence already present in context for product facts.");
-      break;
-    case "repo-wide":
-      lines.push("Use only current repo evidence already present in context for product facts.");
-      break;
-    case "awareness-only":
-      lines.push("Use awareness evidence first for Windows and system answers.");
-      break;
-    case "time-sensitive-live":
-      lines.push("Prefer recent live evidence for time-sensitive facts and keep dates or source names clear.");
-      break;
-    default:
-      lines.push("Use local workspace evidence when it is available.");
-      break;
-  }
-
-  if (policy.formatPolicy === "preserve-exact-structure") {
-    lines.push("Follow the user's exact bullets, labels, sections, and counts.");
-  }
-
-  if (policy.groundingPolicy === "source-boundary") {
-    lines.push(
-      "Do not add facts beyond the allowed source scope. If evidence is missing, omit the claim or say it is not confirmed."
-    );
-  } else if (policy.groundingPolicy === "awareness-direct") {
-    lines.push("Answer directly from evidence. If evidence is incomplete, state uncertainty and give the single best next check.");
-  }
-
-  if (policy.routingPolicy === "chat-first-source-scoped") {
-    lines.push("Treat this as a repo-grounded chat request, not a Windows awareness request.");
-  } else if (policy.routingPolicy === "windows-explicit-only") {
-    lines.push("Use Windows awareness only when the question is explicitly about Windows or local machine state.");
-  }
-
-  return lines.join("\n");
-};
 
 const resolveToggleMode = (override: RagToggleMode | undefined, fallback: boolean): boolean => {
   if (override === "on") {
@@ -306,114 +382,12 @@ const resolveToggleMode = (override: RagToggleMode | undefined, fallback: boolea
   return fallback;
 };
 
-const capitalize = (value: string): string =>
-  value.length > 0 ? `${value.slice(0, 1).toUpperCase()}${value.slice(1)}` : value;
-
 const normalizeLine = (value: string): string => value.replace(/\s+/g, " ").trim();
 const normalizeQuery = (value: string): string =>
   value
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
-
-const GENERIC_WRITING_PROMPT_PATTERNS = [
-  "rewrite this",
-  "rewrite this reply",
-  "sound calmer",
-  "more helpful without changing its meaning",
-  "without changing its meaning",
-  "use only the facts below",
-  "exactly 3 short bullets",
-  "be very detailed",
-  "extremely brief",
-  "one sentence while staying useful",
-  "write a better reply",
-  "best compromise"
-];
-
-const WINDOWS_AWARENESS_ROUTE_FAMILIES = new Set([
-  "live-usage",
-  "hardware",
-  "resource-hotspot",
-  "performance-diagnostic",
-  "process-service-startup",
-  "settings-control-panel",
-  "registry"
-]);
-
-const WINDOWS_AWARENESS_KEYWORDS = [
-  "windows",
-  "cpu",
-  "processor",
-  "ram",
-  "memory",
-  "storage",
-  "drive",
-  "disk",
-  "gpu",
-  "vram",
-  "bluetooth",
-  "control panel",
-  "registry",
-  "event log",
-  "startup",
-  "service",
-  "process",
-  "task manager",
-  "uptime",
-  "print spooler"
-];
-
-const isGenericWritingPrompt = (query: string): boolean => {
-  const normalized = normalizeQuery(query);
-  return GENERIC_WRITING_PROMPT_PATTERNS.some((pattern) => normalized.includes(pattern));
-};
-
-const isExplicitWindowsAwarenessPrompt = (
-  query: string,
-  route: ReturnType<typeof routeAwarenessIntent> | AwarenessQueryAnswer["intent"] | null
-): boolean => {
-  const normalized = normalizeQuery(query);
-  const hasWindowsKeyword = WINDOWS_AWARENESS_KEYWORDS.some((keyword) => normalized.includes(keyword));
-  const hasStrongWindowsRoute =
-    route !== null &&
-    WINDOWS_AWARENESS_ROUTE_FAMILIES.has(route.family) &&
-    (route.confidence >= 0.35 || route.signals.length > 0);
-
-  return hasWindowsKeyword || hasStrongWindowsRoute;
-};
-
-const countBulletLines = (value: string): number =>
-  value
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter((line) => /^(?:[-*•]|\d+\.)\s+/.test(line)).length;
-
-const containsNormalizedPhrase = (text: string, phrase: string): boolean => {
-  const normalizedText = ` ${normalizeQuery(text)} `;
-  const normalizedPhrase = normalizeQuery(phrase);
-  if (!normalizedPhrase) {
-    return false;
-  }
-
-  return normalizedText.includes(` ${normalizedPhrase} `);
-};
-
-const countSentences = (value: string): number => {
-  const normalized = value.replace(/\s+/g, " ").trim();
-  if (!normalized) {
-    return 0;
-  }
-
-  const matches = normalized.match(/[^.!?]+[.!?]+/g)?.map((sentence) => sentence.trim()).filter(Boolean) ?? [];
-  if (matches.length > 0) {
-    const matchedLength = matches.join(" ").length;
-    const remainder = normalized.slice(matchedLength).trim();
-    return matches.length + (remainder.length > 0 ? 1 : 0);
-  }
-
-  return 1;
-};
 
 const isFeatureSummaryQuery = (query: string, answer?: AwarenessQueryAnswer | null): boolean => {
   if (answer?.intent.family === "repo-change" && answer.scope === "previous-session") {
@@ -431,30 +405,6 @@ const isFeatureSummaryQuery = (query: string, answer?: AwarenessQueryAnswer | nu
     normalized.includes("change log") ||
     normalized.includes("updates")
   );
-};
-
-const shouldPreferOfficialWindowsKnowledge = (
-  query: string,
-  route: AwarenessQueryAnswer["intent"] | ReturnType<typeof routeAwarenessIntent> | null
-): boolean => {
-  const normalized = normalizeQuery(query);
-  if (!route) {
-    return false;
-  }
-
-  if (
-    route.family === "settings-control-panel" ||
-    route.family === "registry" ||
-    normalized.includes("windows update") ||
-    normalized.includes("release health") ||
-    normalized.includes("known issue") ||
-    normalized.includes("ms settings") ||
-    normalized.includes("control panel")
-  ) {
-    return true;
-  }
-
-  return false;
 };
 
 const toOfficialKnowledgeContext = (answer: AwarenessQueryAnswer | null): OfficialKnowledgeContext | null => {
@@ -597,12 +547,12 @@ const summarizeFeatureChangesWithLocalAi = async (
 };
 
 const shouldUseDeterministicAwarenessReply = (
-  query: string,
+  explicitWindowsAwarenessPrompt: boolean,
   awarenessAnswerMode: AwarenessAnswerMode,
   answer: AwarenessQueryAnswer | null,
   replyPolicy?: ChatReplyPolicy | null
 ): boolean => {
-  if (answer === null || !isExplicitWindowsAwarenessPrompt(query, answer.intent)) {
+  if (answer === null || !explicitWindowsAwarenessPrompt) {
     return false;
   }
 
@@ -653,6 +603,9 @@ const createWindow = async (): Promise<void> => {
 };
 
 const emptyContextPreview: ContextPreview = {
+  reasoningProfile: "chat",
+  planningPolicy: null,
+  reasoningProfileDiagnostics: null,
   systemInstruction: memorySystemInstruction,
   stableMemories: [],
   retrievedMemories: [],
@@ -667,6 +620,7 @@ const emptyContextPreview: ContextPreview = {
   retrievalEval: null,
   runtimePreview: null,
   replyPolicy: null,
+  promptIntent: null,
   webSearch: {
     status: "off",
     query: "",
@@ -699,10 +653,15 @@ const resolvePromptEvaluationSettings = (
   request: PromptEvaluationRequest
 ): PromptEvaluationSettingsSnapshot => {
   const ragOptions = request.ragOptions ?? {};
+  const reasoningProfile = normalizeReasoningProfile(request.reasoningProfile);
+  const planningPolicy =
+    request.planningPolicy ?? getReasoningProfileBehavior(reasoningProfile).defaultPlanningPolicy;
 
   return {
     suiteMode: request.suiteMode ?? "chat-only",
     model: request.modelOverride?.trim() || null,
+    reasoningProfile,
+    planningPolicy,
     responseMode: request.responseMode ?? "balanced",
     awarenessAnswerMode: normalizeAwarenessAnswerMode(request.awarenessAnswerMode),
     ragEnabled: resolveToggleMode(ragOptions.enabled, ragOptions.defaultEnabled ?? true),
@@ -723,75 +682,40 @@ const mergeRetrievalStats = (
     total: 0
   });
 
-const applyPromptPolicies = (
-  promptMessages: ChatMessage[],
-  responseMode: ResponseMode | undefined,
-  awarenessAnswerMode: AwarenessAnswerMode,
-  ragMode: RagContextPreview["mode"] = "fast",
-  replyPolicy?: ChatReplyPolicy | null
-): ChatMessage[] =>
-  promptMessages.map((message, index) =>
-    index === 0 && message.role === "system"
-      ? {
-          ...message,
-          content: [
-            message.content,
-            responseModeInstruction(responseMode),
-            awarenessAnswerModeInstruction(awarenessAnswerMode),
-            ragModeInstruction(ragMode),
-            replyPolicy ? replyPolicyInstruction(replyPolicy) : ""
-          ]
-            .filter(Boolean)
-            .join("\n\n")
-        }
-      : message
-  );
-
-const createPlanningMessages = (
-  promptMessages: ChatMessage[],
-  query: string
-): ChatMessage[] => [
-  ...promptMessages,
-  {
-    id: "advanced-plan-system",
-    conversationId: promptMessages[0]?.conversationId ?? "system",
-    role: "system",
-    createdAt: new Date().toISOString(),
-    content: [
-      "Create a short answer plan before the final response.",
-      "Use only retrieved evidence already in context.",
-      "Return 2 to 4 short bullets with sub-questions or checks.",
-      "Do not answer the user directly yet."
-    ].join("\n")
-  },
-  {
-    id: "advanced-plan-user",
-    conversationId: promptMessages[0]?.conversationId ?? "system",
-    role: "user",
-    createdAt: new Date().toISOString(),
-    content: `Question to plan for: ${query}`
-  }
-];
-
-const createSynthesisMessages = (
-  promptMessages: ChatMessage[],
-  planText: string | null
-): ChatMessage[] =>
-  !planText
-    ? promptMessages
-    : [
-        ...promptMessages,
-        {
-          id: "advanced-plan-note",
-          conversationId: promptMessages[0]?.conversationId ?? "system",
-          role: "system",
-          createdAt: new Date().toISOString(),
-          content: `Working plan:\n${planText}\n\nFollow the plan, but only present the final grounded answer.`
-        }
-      ];
+const subscribeChatStreamObserver = (
+  requestId: string,
+  listener: (content: string) => void
+): (() => void) => {
+  const listeners = chatStreamObservers.get(requestId) ?? new Set<(content: string) => void>();
+  listeners.add(listener);
+  chatStreamObservers.set(requestId, listeners);
+  return () => {
+    const current = chatStreamObservers.get(requestId);
+    if (!current) {
+      return;
+    }
+    current.delete(listener);
+    if (current.size === 0) {
+      chatStreamObservers.delete(requestId);
+    }
+  };
+};
 
 const sendRendererEvent = <T>(channel: string, payload: T): void => {
   mainWindow?.webContents.send(channel, payload);
+
+  if (channel === IPC_CHANNELS.chatStream && payload && typeof payload === "object") {
+    const record = payload as { requestId?: unknown; content?: unknown };
+    const requestId = typeof record.requestId === "string" ? record.requestId : null;
+    const content = typeof record.content === "string" ? record.content : null;
+    if (!requestId || content === null) {
+      return;
+    }
+
+    for (const listener of chatStreamObservers.get(requestId) ?? []) {
+      listener(content);
+    }
+  }
 };
 
 const sendReasoningTrace = (trace: ReasoningTraceState): void => {
@@ -1174,426 +1098,6 @@ const resolveConversation = async (conversationId: string): Promise<Conversation
   };
 };
 
-const normalizePromptEvaluationCases = (
-  cases: PromptEvaluationCaseInput[]
-): PromptEvaluationCaseInput[] =>
-  cases
-    .map((entry, index) => ({
-      id: entry.id?.trim() || `prompt-${index + 1}`,
-      label: entry.label?.trim() || `${capitalize(entry.difficulty)} prompt`,
-      difficulty: entry.difficulty,
-      prompt: entry.prompt.trim(),
-      checks: (entry.checks ?? []).map((check, checkIndex) => ({
-        id: check.id?.trim() || `${entry.id?.trim() || `prompt-${index + 1}`}-check-${checkIndex + 1}`,
-        kind: check.kind,
-        description: check.description?.trim() || `Check ${checkIndex + 1}`,
-        category: check.category,
-        values: check.values?.map((value) => value.trim()).filter(Boolean),
-        exact: check.exact,
-        min: check.min,
-        max: check.max
-      })),
-      sourceScopeHint: entry.sourceScopeHint,
-      formatPolicy: entry.formatPolicy,
-      replyPolicy: entry.replyPolicy ? { ...entry.replyPolicy } : undefined,
-      routingExpectations: entry.routingExpectations ? { ...entry.routingExpectations } : undefined,
-      groundingExpectations: entry.groundingExpectations ? { ...entry.groundingExpectations } : undefined
-    }))
-    .filter((entry) => entry.prompt.length > 0);
-
-const buildPromptEvaluationRoutingReport = (
-  diagnostics: SendChatResponse["diagnostics"] | undefined
-): PromptEvaluationRoutingReport => ({
-  routeFamily: diagnostics?.routeFamily ?? "none",
-  routeConfidence: diagnostics?.routeConfidence ?? null,
-  rawRouteFamily: diagnostics?.rawRouteFamily ?? "none",
-  rawRouteConfidence: diagnostics?.rawRouteConfidence ?? null,
-  awarenessUsed: diagnostics?.awarenessUsed ?? false,
-  deterministicAwareness: diagnostics?.deterministicAwareness ?? false,
-  genericWritingPromptSuppressed: diagnostics?.genericWritingPromptSuppressed ?? false,
-  sourceScope: diagnostics?.sourceScope ?? null,
-  replyPolicy: diagnostics?.replyPolicy ?? null,
-  cleanupBypassed: diagnostics?.cleanupBypassed ?? false,
-  routingSuppressionReason: diagnostics?.routingSuppressionReason ?? null,
-  retrievedSourceSummary: diagnostics?.retrievedSourceSummary ?? null,
-  reasoningMode: diagnostics?.reasoningMode ?? null
-});
-
-const defaultPromptCheckCategory = (
-  check: PromptEvaluationCheck
-): PromptEvaluationCheckResult["category"] =>
-  check.category ?? (check.kind === "bullet-count" || check.kind === "sentence-count" ? "format" : "content");
-
-const countPromptEvaluationAssertions = (entry: PromptEvaluationCaseInput): number => {
-  const routingExpectationCount = Object.values(entry.routingExpectations ?? {}).filter(
-    (value) => value !== undefined
-  ).length;
-  const groundingExpectationCount = Object.values(entry.groundingExpectations ?? {}).filter(
-    (value) => value !== undefined
-  ).length;
-  return (
-    (entry.checks?.length ?? 0) +
-    routingExpectationCount +
-    groundingExpectationCount +
-    (entry.sourceScopeHint ? 1 : 0) +
-    (entry.formatPolicy ? 1 : 0)
-  );
-};
-
-const buildSkippedPromptCheckResults = (
-  entry: PromptEvaluationCaseInput
-): PromptEvaluationCheckResult[] => {
-  const textChecks = (entry.checks ?? []).map((check) => ({
-    id: check.id,
-    description: check.description,
-    passed: false,
-    detail: "Skipped because the prompt returned an error.",
-    category: defaultPromptCheckCategory(check)
-  }));
-
-  const routingExpectations = entry.routingExpectations ?? {};
-  const routingChecks: PromptEvaluationCheckResult[] = [];
-
-  if (routingExpectations.routeFamily !== undefined) {
-    routingChecks.push({
-      id: `${entry.id}-route-family`,
-      description: `Expected route family ${routingExpectations.routeFamily}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "routing"
-    });
-  }
-  if (routingExpectations.awarenessUsed !== undefined) {
-    routingChecks.push({
-      id: `${entry.id}-awareness-used`,
-      description: `Expected awareness used = ${routingExpectations.awarenessUsed ? "yes" : "no"}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "routing"
-    });
-  }
-  if (routingExpectations.deterministicAwareness !== undefined) {
-    routingChecks.push({
-      id: `${entry.id}-deterministic-awareness`,
-      description: `Expected deterministic awareness = ${routingExpectations.deterministicAwareness ? "yes" : "no"}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "routing"
-    });
-  }
-  if (routingExpectations.genericWritingPromptSuppressed !== undefined) {
-    routingChecks.push({
-      id: `${entry.id}-generic-writing-suppressed`,
-      description: `Expected generic writing suppression = ${routingExpectations.genericWritingPromptSuppressed ? "yes" : "no"}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "routing"
-    });
-  }
-  if (entry.sourceScopeHint !== undefined) {
-    routingChecks.push({
-      id: `${entry.id}-source-scope`,
-      description: `Expected source scope ${entry.sourceScopeHint}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "source-scope"
-    });
-  }
-  if (entry.formatPolicy !== undefined) {
-    routingChecks.push({
-      id: `${entry.id}-format-policy`,
-      description: `Expected format policy ${entry.formatPolicy}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "format"
-    });
-  }
-
-  const groundingExpectations = entry.groundingExpectations ?? {};
-  const groundingChecks: PromptEvaluationCheckResult[] = [];
-
-  if (groundingExpectations.minGroundedClaims !== undefined) {
-    groundingChecks.push({
-      id: `${entry.id}-grounded-claims`,
-      description: `Expected at least ${groundingExpectations.minGroundedClaims} grounded claims.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "grounding"
-    });
-  }
-  if (groundingExpectations.maxUnsupportedClaims !== undefined) {
-    groundingChecks.push({
-      id: `${entry.id}-unsupported-claims`,
-      description: `Expected unsupported claims <= ${groundingExpectations.maxUnsupportedClaims}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "unsupported-claim"
-    });
-  }
-  if (groundingExpectations.maxConflictedClaims !== undefined) {
-    groundingChecks.push({
-      id: `${entry.id}-conflicted-claims`,
-      description: `Expected conflicted claims <= ${groundingExpectations.maxConflictedClaims}.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "grounding"
-    });
-  }
-  if (groundingExpectations.minCitationCoverage !== undefined) {
-    groundingChecks.push({
-      id: `${entry.id}-citation-coverage`,
-      description: `Expected citation coverage >= ${Math.round(groundingExpectations.minCitationCoverage * 100)}%.`,
-      passed: false,
-      detail: "Skipped because the prompt returned an error.",
-      category: "grounding"
-    });
-  }
-
-  return [...textChecks, ...routingChecks, ...groundingChecks];
-};
-
-const evaluatePromptCheck = (
-  reply: string,
-  check: PromptEvaluationCheck
-): PromptEvaluationCheckResult => {
-  const normalizedValues = (check.values ?? []).map((value) => value.trim()).filter(Boolean);
-
-  switch (check.kind) {
-    case "includes-all": {
-      const matched = normalizedValues.filter((value) => containsNormalizedPhrase(reply, value));
-      const passed = matched.length === normalizedValues.length;
-      return {
-        id: check.id,
-        description: check.description,
-        passed,
-        category: defaultPromptCheckCategory(check),
-        detail: passed
-          ? `Found all ${normalizedValues.length} required phrases.`
-          : `Found ${matched.length}/${normalizedValues.length} required phrases.`
-      };
-    }
-    case "includes-any": {
-      const matched = normalizedValues.find((value) => containsNormalizedPhrase(reply, value)) ?? null;
-      return {
-        id: check.id,
-        description: check.description,
-        passed: matched !== null,
-        category: defaultPromptCheckCategory(check),
-        detail: matched ? `Matched phrase: ${matched}.` : "No allowed phrase was found."
-      };
-    }
-    case "excludes-all": {
-      const blocked = normalizedValues.filter((value) => containsNormalizedPhrase(reply, value));
-      return {
-        id: check.id,
-        description: check.description,
-        passed: blocked.length === 0,
-        category: defaultPromptCheckCategory(check),
-        detail:
-          blocked.length === 0
-            ? "No blocked phrases found."
-            : `Blocked phrases found: ${blocked.join(", ")}.`
-      };
-    }
-    case "bullet-count": {
-      const bulletCount = countBulletLines(reply);
-      const min = check.exact ?? check.min ?? 0;
-      const max = check.exact ?? check.max ?? Number.POSITIVE_INFINITY;
-      const passed = bulletCount >= min && bulletCount <= max;
-      const expectedLabel =
-        check.exact != null
-          ? `exactly ${check.exact}`
-          : `${check.min ?? 0}${check.max != null ? ` to ${check.max}` : "+"}`;
-      return {
-        id: check.id,
-        description: check.description,
-        passed,
-        category: defaultPromptCheckCategory(check),
-        detail: `Found ${bulletCount} bullets. Expected ${expectedLabel}.`
-      };
-    }
-    case "sentence-count": {
-      const sentenceCount = countSentences(reply);
-      const min = check.exact ?? check.min ?? 0;
-      const max = check.exact ?? check.max ?? Number.POSITIVE_INFINITY;
-      const passed = sentenceCount >= min && sentenceCount <= max;
-      const expectedLabel =
-        check.exact != null
-          ? `exactly ${check.exact}`
-          : `${check.min ?? 0}${check.max != null ? ` to ${check.max}` : "+"}`;
-      return {
-        id: check.id,
-        description: check.description,
-        passed,
-        category: defaultPromptCheckCategory(check),
-        detail: `Found ${sentenceCount} sentences. Expected ${expectedLabel}.`
-      };
-    }
-  }
-};
-
-const evaluateRoutingExpectations = (
-  entry: PromptEvaluationCaseInput,
-  routing: PromptEvaluationRoutingReport
-): PromptEvaluationCheckResult[] => {
-  const expectations = entry.routingExpectations ?? {};
-  const results: PromptEvaluationCheckResult[] = [];
-
-  if (expectations.routeFamily !== undefined) {
-    results.push({
-      id: `${entry.id}-route-family`,
-      description: `Expected route family ${expectations.routeFamily}.`,
-      passed: routing.routeFamily === expectations.routeFamily,
-      detail: `Actual route family: ${routing.routeFamily}.`,
-      category: "routing"
-    });
-  }
-  if (expectations.awarenessUsed !== undefined) {
-    results.push({
-      id: `${entry.id}-awareness-used`,
-      description: `Expected awareness used = ${expectations.awarenessUsed ? "yes" : "no"}.`,
-      passed: routing.awarenessUsed === expectations.awarenessUsed,
-      detail: `Actual awareness used: ${routing.awarenessUsed ? "yes" : "no"}.`,
-      category: "routing"
-    });
-  }
-  if (expectations.deterministicAwareness !== undefined) {
-    results.push({
-      id: `${entry.id}-deterministic-awareness`,
-      description: `Expected deterministic awareness = ${expectations.deterministicAwareness ? "yes" : "no"}.`,
-      passed: routing.deterministicAwareness === expectations.deterministicAwareness,
-      detail: `Actual deterministic awareness: ${routing.deterministicAwareness ? "yes" : "no"}.`,
-      category: "routing"
-    });
-  }
-  if (expectations.genericWritingPromptSuppressed !== undefined) {
-    results.push({
-      id: `${entry.id}-generic-writing-suppressed`,
-      description: `Expected generic writing suppression = ${expectations.genericWritingPromptSuppressed ? "yes" : "no"}.`,
-      passed: routing.genericWritingPromptSuppressed === expectations.genericWritingPromptSuppressed,
-      detail: `Actual generic writing suppression: ${routing.genericWritingPromptSuppressed ? "yes" : "no"}.`,
-      category: "routing"
-    });
-  }
-  if (entry.sourceScopeHint !== undefined) {
-    results.push({
-      id: `${entry.id}-source-scope`,
-      description: `Expected source scope ${entry.sourceScopeHint}.`,
-      passed: routing.sourceScope === entry.sourceScopeHint,
-      detail: `Actual source scope: ${routing.sourceScope ?? "none"}.`,
-      category: "source-scope"
-    });
-  }
-  if (entry.formatPolicy !== undefined) {
-    results.push({
-      id: `${entry.id}-format-policy`,
-      description: `Expected format policy ${entry.formatPolicy}.`,
-      passed: routing.replyPolicy?.formatPolicy === entry.formatPolicy,
-      detail: `Actual format policy: ${routing.replyPolicy?.formatPolicy ?? "none"}.`,
-      category: "format"
-    });
-  }
-
-  return results;
-};
-
-const evaluateGroundingExpectations = (
-  entry: PromptEvaluationCaseInput,
-  groundingSummary: GroundingSummary | null | undefined
-): PromptEvaluationCheckResult[] => {
-  const expectations = entry.groundingExpectations ?? {};
-  const results: PromptEvaluationCheckResult[] = [];
-
-  if (expectations.minGroundedClaims !== undefined) {
-    results.push({
-      id: `${entry.id}-grounded-claims`,
-      description: `Expected at least ${expectations.minGroundedClaims} grounded claims.`,
-      passed:
-        groundingSummary != null && groundingSummary.groundedClaimCount >= expectations.minGroundedClaims,
-      category: "grounding",
-      detail:
-        groundingSummary == null
-          ? "No grounding summary was available."
-          : `Actual grounded claims: ${groundingSummary.groundedClaimCount}.`
-    });
-  }
-  if (expectations.maxUnsupportedClaims !== undefined) {
-    results.push({
-      id: `${entry.id}-unsupported-claims`,
-      description: `Expected unsupported claims <= ${expectations.maxUnsupportedClaims}.`,
-      passed:
-        groundingSummary != null && groundingSummary.unsupportedClaimCount <= expectations.maxUnsupportedClaims,
-      category: "unsupported-claim",
-      detail:
-        groundingSummary == null
-          ? "No grounding summary was available."
-          : `Actual unsupported claims: ${groundingSummary.unsupportedClaimCount}.`
-    });
-  }
-  if (expectations.maxConflictedClaims !== undefined) {
-    results.push({
-      id: `${entry.id}-conflicted-claims`,
-      description: `Expected conflicted claims <= ${expectations.maxConflictedClaims}.`,
-      passed:
-        groundingSummary != null && groundingSummary.conflictedClaimCount <= expectations.maxConflictedClaims,
-      category: "grounding",
-      detail:
-        groundingSummary == null
-          ? "No grounding summary was available."
-          : `Actual conflicted claims: ${groundingSummary.conflictedClaimCount}.`
-    });
-  }
-  if (expectations.minCitationCoverage !== undefined) {
-    results.push({
-      id: `${entry.id}-citation-coverage`,
-      description: `Expected citation coverage >= ${Math.round(expectations.minCitationCoverage * 100)}%.`,
-      passed:
-        groundingSummary != null && groundingSummary.citationCoverage >= expectations.minCitationCoverage,
-      category: "grounding",
-      detail:
-        groundingSummary == null
-          ? "No grounding summary was available."
-          : `Actual citation coverage: ${Math.round(groundingSummary.citationCoverage * 100)}%.`
-    });
-  }
-
-  return results;
-};
-
-const evaluatePromptEvaluationCase = (
-  entry: PromptEvaluationCaseInput,
-  reply: string,
-  routing: PromptEvaluationRoutingReport,
-  status: PromptEvaluationCaseResult["status"],
-  groundingSummary: GroundingSummary | null | undefined
-): Pick<PromptEvaluationCaseResult, "checkResults" | "qualityStatus"> => {
-  const totalAssertions = countPromptEvaluationAssertions(entry);
-  if (status === "error") {
-    return {
-      checkResults: buildSkippedPromptCheckResults(entry),
-      qualityStatus: "needs-review"
-    };
-  }
-
-  const checkResults = [
-    ...(entry.checks ?? []).map((check) => evaluatePromptCheck(reply, check)),
-    ...evaluateRoutingExpectations(entry, routing),
-    ...evaluateGroundingExpectations(entry, groundingSummary)
-  ];
-
-  if (totalAssertions === 0) {
-    return {
-      checkResults,
-      qualityStatus: "needs-review"
-    };
-  }
-
-  return {
-    checkResults,
-    qualityStatus: checkResults.some((check) => !check.passed) ? "needs-review" : "passed"
-  };
-};
-
 const buildConversationAwarenessContext = (
   messages: ChatMessage[],
   latestUserMessage?: string
@@ -1812,6 +1316,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
   const requestId = payload.requestId ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`;
   const modelOverride = payload.modelOverride?.trim() || undefined;
   const awarenessAnswerMode = normalizeAwarenessAnswerMode(payload.awarenessAnswerMode);
+  const reasoningProfile = normalizeReasoningProfile(payload.reasoningProfile);
   const evaluationSuiteMode = payload.runMode === "evaluation" ? payload.evaluationSuiteMode ?? null : null;
   let contextPreview = emptyContextPreview;
   let reasoningTrace: ReasoningTraceState | null = null;
@@ -1824,26 +1329,49 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
   let genericWritingPromptSuppressed = false;
   let cleanupBypassed = false;
   let routingSuppressionReason: string | null = null;
+  let policyDiagnostics: NonNullable<SendChatResponse["diagnostics"]>["policyDiagnostics"] = null;
   let retrievedSourceSummary: NonNullable<SendChatResponse["diagnostics"]>["retrievedSourceSummary"] = null;
   let governedTaskState: ChatGovernedTaskMetadata | null = null;
+  let promptIntent: PromptIntentContract | null = null;
+  let taskClassification: ReturnType<typeof classifyPromptTask> | null = null;
+  let matchedPromptBehaviorMemories: RetrievedPromptBehaviorMemory[] = [];
+  let profileBehavior = getReasoningProfileBehavior(reasoningProfile);
+  const explicitPlanningPolicy = normalizePlanningPolicy(payload.planningPolicy);
+  let resolvedPlanningPolicy: PlanningPolicy | null =
+    explicitPlanningPolicy ?? profileBehavior.defaultPlanningPolicy;
+  let planningPolicyReason: string | null = explicitPlanningPolicy
+    ? "request-override"
+    : "profile-default";
+  contextPreview = {
+    ...contextPreview,
+    reasoningProfile,
+    planningPolicy: resolvedPlanningPolicy,
+    reasoningProfileDiagnostics: {
+      planningReason: planningPolicyReason,
+      retrievalMode: profileBehavior.retrievalMode,
+      governedTaskPosture: profileBehavior.governedTaskPosture
+    }
+  };
 
-  const buildExecutionDiagnostics = (): NonNullable<SendChatResponse["diagnostics"]> => ({
-    routeFamily: routingSuppressionReason ? "generic-writing" : intentRoute?.family ?? null,
-    routeConfidence: routingSuppressionReason ? null : intentRoute?.confidence ?? null,
-    rawRouteFamily: rawIntentRoute?.family ?? null,
-    rawRouteConfidence: rawIntentRoute?.confidence ?? null,
-    awarenessUsed,
-    deterministicAwareness: deterministicAwarenessReply,
-    genericWritingPromptSuppressed,
-    sourceScope: replyPolicy?.sourceScope ?? null,
-    replyPolicy,
-    cleanupBypassed,
-    routingSuppressionReason,
-    retrievedSourceSummary,
-    reasoningMode: reasoningMode?.mode ?? null,
-    evaluationSuiteMode,
-    taskState: governedTaskState
-  });
+  const buildExecutionDiagnostics = (): NonNullable<SendChatResponse["diagnostics"]> =>
+    buildChatExecutionDiagnostics({
+      reasoningProfile,
+      planningPolicy: resolvedPlanningPolicy,
+      intentRoute,
+      rawIntentRoute,
+      awarenessUsed,
+      deterministicAwareness: deterministicAwarenessReply,
+      genericWritingPromptSuppressed,
+      replyPolicy,
+      policyDiagnostics,
+      cleanupBypassed,
+      routingSuppressionReason,
+      retrievedSourceSummary,
+      reasoningMode: reasoningMode?.mode ?? null,
+      evaluationSuiteMode,
+      taskState: governedTaskState,
+      promptIntent
+    });
 
   try {
     const resolved = await resolveConversation(payload.conversationId);
@@ -1869,7 +1397,10 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       workflowOrchestrator,
       getMachineAwareness: () => awarenessEngine?.machineAwareness ?? null,
       getFileAwareness: () => awarenessEngine?.fileAwareness?.summary ?? null,
-      getScreenAwareness: () => awarenessEngine?.screenAwareness ?? null
+      getScreenAwareness: () => awarenessEngine?.screenAwareness ?? null,
+      reasoningProfile,
+      preferGovernedTaskFraming: profileBehavior.governance.preferGovernedTaskFraming,
+      clarifyBroadTargets: profileBehavior.governance.clarifyBroadTargets
     });
 
     if (governedTurn.handled) {
@@ -1907,43 +1438,78 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     const ragOptions: RagOptions = payload.ragOptions ?? {};
     const ragEnabledByDefault = ragOptions.defaultEnabled ?? true;
     const showTrace = resolveToggleMode(ragOptions.showTrace, ragOptions.defaultShowTrace ?? false);
-    const resolvedUseWeb =
+    const baseResolvedUseWeb =
       payload.useWebSearch ?? resolveToggleMode(ragOptions.useWeb, ragOptions.defaultUseWeb ?? false);
-    const workspaceIndexingEnabled = ragOptions.workspaceIndexingEnabled ?? true;
+    const workspaceIndexingEnabled =
+      (ragOptions.workspaceIndexingEnabled ?? true) && profileBehavior.retrieval.workspaceHitLimit > 0;
     const conversationContext = buildConversationAwarenessContext(resolved.messages, payload.text);
     rawIntentRoute = awarenessEngine ? routeAwarenessIntent(payload.text, conversationContext) : null;
     const isChatOnlyEvaluation =
       payload.runMode === "evaluation" && evaluationSuiteMode === "chat-only";
-    const genericWritingPrompt = isGenericWritingPrompt(payload.text);
-    const explicitWindowsAwarenessPrompt = isExplicitWindowsAwarenessPrompt(payload.text, rawIntentRoute);
-    replyPolicy = resolveReplyPolicy(payload.text, {
-      explicitWindowsAwarenessPrompt,
-      useWebSearch: Boolean(resolvedUseWeb),
-      overrides: payload.replyPolicy
+    taskClassification = classifyPromptTask(payload.text, {
+      route: rawIntentRoute,
+      useWebSearch: Boolean(baseResolvedUseWeb)
     });
-    cleanupBypassed = shouldBypassCleanup(payload.runMode, replyPolicy);
-    routingSuppressionReason = getRoutingSuppressionReason(payload.text, replyPolicy);
-    intentRoute = rawIntentRoute;
-    genericWritingPromptSuppressed = genericWritingPrompt && !isChatOnlyEvaluation;
-    const shouldQueryAwareness =
-      awarenessEngine !== null &&
-      intentRoute !== null &&
-      !isChatOnlyEvaluation &&
-      !genericWritingPrompt &&
-      routingSuppressionReason == null &&
-      ((awarenessAnswerMode === "evidence-first" && explicitWindowsAwarenessPrompt) ||
-        intentRoute.confidence >= 0.35);
-    const shouldRefreshAwareness =
-      shouldQueryAwareness &&
-      intentRoute !== null &&
-      (explicitWindowsAwarenessPrompt || intentRoute.confidence >= 0.45 || intentRoute.signals.length > 0);
-    const preferOfficialWindowsKnowledge =
-      shouldQueryAwareness && shouldPreferOfficialWindowsKnowledge(payload.text, intentRoute);
+    const resolvedUseWeb = resolveProfileAwareWebSearch({
+      resolvedUseWeb: Boolean(baseResolvedUseWeb),
+      taskClassification,
+      behavior: profileBehavior
+    });
+    if (resolvedUseWeb !== Boolean(baseResolvedUseWeb)) {
+      taskClassification = classifyPromptTask(payload.text, {
+        route: rawIntentRoute,
+        useWebSearch: resolvedUseWeb
+      });
+    }
     reasoningMode = detectReasoningMode({
       query: payload.text,
       ragEnabled: ragEnabledByDefault,
       override: ragOptions.enabled
     });
+    const profileState = resolveReasoningProfileState({
+      reasoningProfile,
+      requestedPlanningPolicy: payload.planningPolicy,
+      reasoningMode: reasoningMode.mode,
+      taskClassification
+    });
+    profileBehavior = profileState.behavior;
+    resolvedPlanningPolicy = profileState.planningPolicy;
+    planningPolicyReason = profileState.planningReason;
+
+    const genericWritingPrompt = taskClassification.categories.generic_writing;
+    const explicitWindowsAwarenessPrompt = taskClassification.categories.awareness_local_state;
+    replyPolicy = resolveReplyPolicy(payload.text, {
+      explicitWindowsAwarenessPrompt,
+      useWebSearch: Boolean(resolvedUseWeb),
+      overrides: payload.replyPolicy,
+      classification: taskClassification,
+      reasoningProfile
+    });
+    cleanupBypassed = shouldBypassCleanup(payload.runMode, replyPolicy);
+    routingSuppressionReason = getRoutingSuppressionReason(payload.text, replyPolicy, {
+      classification: taskClassification
+    });
+    policyDiagnostics = getReplyPolicyDiagnostics(payload.text, replyPolicy, {
+      classification: taskClassification
+    });
+    intentRoute = rawIntentRoute;
+    genericWritingPromptSuppressed = genericWritingPrompt && !isChatOnlyEvaluation;
+    const awarenessRouting = resolveAwarenessRouting({
+      explicitWindowsAwarenessPrompt,
+      routeConfidence: intentRoute?.confidence ?? 0,
+      hasRouteSignals: (intentRoute?.signals.length ?? 0) > 0,
+      awarenessAnswerMode,
+      isEvaluationChatOnly: isChatOnlyEvaluation,
+      genericWritingPromptSuppressed: genericWritingPrompt && !isChatOnlyEvaluation,
+      routingSuppressionReason,
+      behavior: profileBehavior
+    });
+    const shouldQueryAwareness =
+      awarenessEngine !== null && intentRoute !== null && awarenessRouting.shouldQueryAwareness;
+    const shouldRefreshAwareness =
+      shouldQueryAwareness && intentRoute !== null && awarenessRouting.shouldRefreshAwareness;
+    const preferOfficialWindowsKnowledge =
+      shouldQueryAwareness && shouldPreferOfficialWindowsKnowledge(payload.text, intentRoute);
 
     reasoningTrace = createReasoningTraceState({
       requestId,
@@ -1960,7 +1526,11 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       detail: [
         reasoningMode.triggerReason,
         `score ${reasoningMode.complexityScore.toFixed(2)}`,
+        `profile ${reasoningProfile}`,
+        `planning ${resolvedPlanningPolicy ?? "none"}`,
+        planningPolicyReason ? `planning reason ${planningPolicyReason}` : null,
         replyPolicy ? `scope ${replyPolicy.sourceScope}` : null,
+        `classifier ${formatClassifierCategories(policyDiagnostics?.classifier)}`,
         shouldQueryAwareness ? "awareness on" : "awareness off",
         genericWritingPromptSuppressed ? "generic writing prompt suppressed" : null,
         routingSuppressionReason
@@ -1973,9 +1543,21 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     reasoningTrace = startTraceStage(reasoningTrace, "retrieve-memory");
     sendReasoningTrace(reasoningTrace);
     const preparedPromptContext = await preparePromptContext(conversationId, payload.text, {
-      enableSemanticMemory: reasoningMode.mode === "advanced",
-      memoryEmbedder: provider.embeddings ? (text) => provider.embeddings!(text) : undefined
+      enableSemanticMemory: reasoningMode.mode === "advanced" && profileBehavior.retrieval.semanticMemory,
+      memoryEmbedder:
+        reasoningMode.mode === "advanced" && profileBehavior.retrieval.semanticMemory && provider.embeddings
+          ? (text) => provider.embeddings!(text)
+          : undefined,
+      retrievalProfile: {
+        stableMemoryLimit: profileBehavior.retrieval.stableMemoryLimit,
+        keywordMemoryLimit: profileBehavior.retrieval.keywordMemoryLimit,
+        semanticMemoryLimit: profileBehavior.retrieval.semanticMemoryLimit,
+        maxRetrievedMemories: profileBehavior.retrieval.maxRetrievedMemories,
+        promptBehaviorMemoryLimit: profileBehavior.retrieval.promptBehaviorMemoryLimit,
+        workspaceHitLimit: profileBehavior.retrieval.workspaceHitLimit
+      }
     });
+    matchedPromptBehaviorMemories = preparedPromptContext.promptBehaviorMemories;
     reasoningTrace = updateTraceRetrieval(
       reasoningTrace,
       mergeRetrievalStats(createEmptyRetrievalStats(), preparedPromptContext.retrieval)
@@ -1999,11 +1581,18 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         runtimeRoot: awarenessEngine?.paths.runtimeRoot ?? path.join(process.cwd(), ".runtime", "awareness"),
         enabled: true,
         mode: "incremental",
-        embedder: provider.embeddings ? (text) => provider.embeddings!(text) : undefined
+        embedder:
+          profileBehavior.retrieval.semanticMemory && provider.embeddings
+            ? (text) => provider.embeddings!(text)
+            : undefined
       });
-      preparedPromptContext.workspaceHits = filterWorkspaceHitsForReplyPolicy(
+      const filteredWorkspaceHits = filterWorkspaceHitsForReplyPolicy(
         workspaceResult.hits,
         replyPolicy?.sourceScope ?? "workspace-only"
+      );
+      preparedPromptContext.workspaceHits = filteredWorkspaceHits.slice(
+        0,
+        profileBehavior.retrieval.workspaceHitLimit
       );
       preparedPromptContext.workspaceIndexStatus = workspaceResult.status;
       preparedPromptContext.retrieval = mergeRetrievalStats(preparedPromptContext.retrieval, {
@@ -2070,13 +1659,28 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     const screenAwareness = awarenessEngine?.screenAwareness ?? null;
     const officialKnowledge = toOfficialKnowledgeContext(awarenessQuery);
     const officialWebContext = recentWeb.status === "used" ? recentWeb : toOfficialWebContext(awarenessQuery);
-    retrievedSourceSummary = {
+    retrievedSourceSummary = buildRetrievedSourceSummary({
       memoryCount: preparedPromptContext.retrievedMemories.length,
       workspaceHitCount: preparedPromptContext.workspaceHits.length,
       workspacePaths: summarizeWorkspacePaths(preparedPromptContext.workspaceHits),
       awarenessSourceCount: awarenessQuery ? Math.max(1, awarenessQuery.bundle.evidenceTraceIds.length) : 0,
       webResultCount: officialWebContext.status === "used" ? officialWebContext.results.length : 0
-    };
+    });
+    promptIntent = buildSeedPromptIntent({
+      query: payload.text,
+      route: intentRoute,
+      replyPolicy,
+      responseMode: payload.responseMode,
+      reasoningMode: reasoningMode.mode,
+      taskClassification,
+      hasWorkspaceHits: preparedPromptContext.workspaceHits.length > 0,
+      hasAwarenessEvidence: awarenessQuery !== null,
+      hasLiveWebResults: officialWebContext.status === "used" && officialWebContext.results.length > 0,
+      useWebSearch: Boolean(resolvedUseWeb),
+      preferOfficialWindowsKnowledge
+    });
+    matchedPromptBehaviorMemories = await matchPromptBehaviorMemoryRecords(payload.text, promptIntent);
+    preparedPromptContext.promptBehaviorMemories = matchedPromptBehaviorMemories;
     const groundingSources = buildGroundingSourceCatalog({
       retrievedMemories: preparedPromptContext.retrievedMemories,
       workspaceHits: preparedPromptContext.workspaceHits,
@@ -2123,41 +1727,64 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       fileAwareness,
       screenAwareness,
       ragContextBase,
-      runtimePreview
+      runtimePreview,
+      {
+        contextBudget: profileBehavior.contextBudget,
+        reasoningProfile,
+        planningPolicy: resolvedPlanningPolicy,
+        reasoningProfileDiagnostics: {
+          planningReason: planningPolicyReason,
+          retrievalMode: profileBehavior.retrievalMode,
+          governedTaskPosture: profileBehavior.governedTaskPosture
+        }
+      }
     );
     contextPreview = {
       ...latestContext.preview,
-      replyPolicy
+      replyPolicy,
+      promptIntent
     };
     const promptMessages = applyPromptPolicies(
       latestContext.promptMessages,
       payload.responseMode,
       awarenessAnswerMode,
       reasoningMode.mode,
-      replyPolicy
+      replyPolicy,
+      promptIntent,
+      reasoningProfile,
+      resolvedPlanningPolicy
     );
     const liveUsageAnswer = isLiveUsageAnswer(awarenessQuery) ? awarenessQuery : null;
     deterministicAwarenessReply = shouldUseDeterministicAwarenessReply(
-      payload.text,
+      explicitWindowsAwarenessPrompt,
       awarenessAnswerMode,
       awarenessQuery,
       replyPolicy
     );
-    let planText: string | null = null;
     let assistantReply: string;
     let assistantMetadata: ChatMessage["metadata"] | undefined;
-    if (reasoningMode.mode === "advanced") {
+    if (shouldRunPlanningStage(resolvedPlanningPolicy ?? "off", reasoningMode.mode)) {
       if (!deterministicAwarenessReply) {
+        const seedPromptIntent = promptIntent!;
         reasoningTrace = startTraceStage(reasoningTrace, "plan");
         sendReasoningTrace(reasoningTrace);
-        planText = cleanupPlainTextAnswer(
-          await chatExecution.runChat(createPlanningMessages(promptMessages, payload.text), {
-            model: modelOverride
-          })
-        );
+        promptIntent = await planPromptIntent({
+          promptMessages,
+          query: payload.text,
+          seedPromptIntent,
+          model: modelOverride,
+          runPlanner: (messages, options) => chatExecution.runChat(messages, options)
+        });
+        matchedPromptBehaviorMemories = await matchPromptBehaviorMemoryRecords(payload.text, promptIntent);
         reasoningTrace = completeTraceStage(reasoningTrace, "plan", {
-          summary: planText.split(/\r?\n/)[0]?.trim() || "Built a short plan",
-          detail: planText.slice(0, 240) || null
+          summary: promptIntent.userGoal || "Built a structured prompt intent",
+          detail: [
+            promptIntent.intentFamily,
+            promptIntent.outputContract.shape,
+            promptIntent.constraints.slice(0, 2).join(" | ")
+          ]
+            .filter(Boolean)
+            .join(" | ")
         });
         sendReasoningTrace(reasoningTrace);
       } else {
@@ -2166,6 +1793,11 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         });
         sendReasoningTrace(reasoningTrace);
       }
+    } else {
+      reasoningTrace = completeTraceStage(reasoningTrace, "plan", {
+        summary: "Planning disabled by policy"
+      });
+      sendReasoningTrace(reasoningTrace);
     }
 
     reasoningTrace = startTraceStage(reasoningTrace, "synthesize");
@@ -2190,7 +1822,10 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         content: assistantReply
       });
     } else {
-      const synthesisMessages = createSynthesisMessages(promptMessages, planText);
+      const synthesisMessages = createSynthesisMessages(
+        promptMessages,
+        reasoningMode.mode === "advanced" ? promptIntent : null
+      );
       assistantReply = await chatExecution.runChatStream(
         synthesisMessages,
         (content) => {
@@ -2215,7 +1850,9 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     }
     reasoningTrace = completeTraceStage(reasoningTrace, "synthesize", {
       summary: `Generated ${assistantReply.length} chars`,
-      detail: deterministicAwarenessReply ? "Deterministic grounded reply" : "Streamed synthesis"
+      detail: deterministicAwarenessReply
+        ? "Deterministic grounded reply"
+        : `${promptIntent?.outputContract.shape ?? "streamed synthesis"} | ${promptIntent?.sourceScope ?? "default scope"}`
     });
     sendReasoningTrace(reasoningTrace);
 
@@ -2228,10 +1865,12 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       awarenessQuery,
       deterministicAwareness: deterministicAwarenessReply,
       sourceScopeApplied: replyPolicy?.sourceScope ?? null,
-      runVerifier: (messages) =>
-        chatExecution.runChat(messages, {
-          model: modelOverride
-        })
+      runVerifier: profileBehavior.grounding.runModelVerifier
+        ? (messages) =>
+            chatExecution.runChat(messages, {
+              model: modelOverride
+            })
+        : undefined
     });
     const verificationConfidence = groundedReply.metadata.summary.overallConfidence;
     reasoningTrace = updateTraceGrounding(reasoningTrace, groundedReply.metadata.summary);
@@ -2260,7 +1899,8 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       workspaceHits: preparedPromptContext.workspaceHits,
       rag: ragContext,
       grounding: groundedReply.metadata.summary,
-      retrievalEval: groundedReply.retrievalEval
+      retrievalEval: groundedReply.retrievalEval,
+      promptIntent
     };
     assistantMetadata = {
       ...(assistantMetadata ?? {}),
@@ -2285,6 +1925,22 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     const conversationWithMessages =
       (await loadConversationRecord(conversationId)) ?? (await resolveConversation(conversationId));
     if (payload.runMode !== "evaluation") {
+      if (promptIntent) {
+        rememberPromptIntentBridgeContext(conversationId, promptIntent, matchedPromptBehaviorMemories);
+      }
+      if (matchedPromptBehaviorMemories.length > 0) {
+        await markPromptBehaviorRecordsApplied(
+          matchedPromptBehaviorMemories.map((entry) => entry.entry.id)
+        );
+      }
+      await persistPromptBehaviorFromTurn({
+        conversationId,
+        query: payload.text,
+        promptIntent,
+        taskClassification,
+        assistantReply,
+        verificationConfidence
+      });
       scheduleConversationMaintenance(conversationId, payload.text, assistantReply, modelOverride, {
         skipMemories: Boolean(liveUsageAnswer)
       });
@@ -2356,6 +2012,8 @@ const runPromptEvaluation = async (
         requestId: `prompt-eval-${Date.now()}-${Math.random().toString(16).slice(2)}`,
         runMode: "evaluation",
         evaluationSuiteMode: request.suiteMode,
+        reasoningProfile: entry.reasoningProfile ?? request.reasoningProfile,
+        planningPolicy: entry.planningPolicy ?? request.planningPolicy,
         useWebSearch: request.useWebSearch,
         modelOverride: request.modelOverride,
         responseMode: request.responseMode,
@@ -2460,6 +2118,46 @@ const runPromptEvaluation = async (
   return report;
 };
 
+const capabilityRunService = createCapabilityRunService({
+  workspaceRoot: process.cwd(),
+  runtimeRoot: path.join(process.cwd(), ".runtime"),
+  executeCase: async ({ promptText, modelOverride, onStreamDelta }) => {
+    const conversation = await createConversationRecord();
+    const requestId = `capability-run-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    const unsubscribe = onStreamDelta ? subscribeChatStreamObserver(requestId, onStreamDelta) : () => {};
+
+    try {
+      const response = await handleSendChatAdvanced({
+        conversationId: conversation.id,
+        text: promptText,
+        requestId,
+        runMode: "evaluation",
+        modelOverride: modelOverride ?? undefined,
+        responseMode: "smart",
+        awarenessAnswerMode: "evidence-first",
+        ragOptions: {
+          defaultEnabled: true,
+          defaultUseWeb: false,
+          defaultShowTrace: false,
+          workspaceIndexingEnabled: true
+        }
+      });
+
+      return {
+        response,
+        providerName: "ollama",
+        modelName: response.modelStatus.model ?? modelOverride ?? null
+      };
+    } finally {
+      unsubscribe();
+      await deleteConversationRecord(conversation.id).catch(() => {});
+    }
+  },
+  emitEvent: (event) => {
+    sendRendererEvent(IPC_CHANNELS.capabilityRunnerEvents, event);
+  }
+});
+
 const startAwarenessEngine = async (): Promise<void> => {
   if (awarenessRuntimeState.initializing || awarenessEngine) {
     return;
@@ -2504,8 +2202,16 @@ const startAwarenessEngine = async (): Promise<void> => {
   }
 };
 
+const registerIpcHandle = createValidatedIpcHandleRegistry({
+  channelMap: IPC_CHANNELS,
+  registerHandle: (channel, handler) => {
+    ipcMain.handle(channel, handler);
+  }
+});
+
 const registerIpc = (): void => {
-  ipcMain.handle(IPC_CHANNELS.appHealth, async (): Promise<AppHealth> => ({
+  registerIpcHandle.reset();
+  registerIpcHandle.register("appHealth", async (): Promise<AppHealth> => ({
     status: "ok",
     startedAt,
     version: APP_VERSION,
@@ -2513,11 +2219,11 @@ const registerIpc = (): void => {
     startupDigest: awarenessEngine?.getStartupDigest() ?? null
   }));
 
-  ipcMain.handle(IPC_CHANNELS.modelHealth, async (_event, modelOverride?: string) =>
+  registerIpcHandle.register("modelHealth", async (_event, modelOverride?: string) =>
     checkOllamaHealth(busy, modelOverride ? { model: modelOverride } : undefined)
   );
 
-  ipcMain.handle(IPC_CHANNELS.listModels, async () => {
+  registerIpcHandle.register("listModels", async () => {
     try {
       return await listOllamaModels(getOllamaConfig());
     } catch {
@@ -2525,56 +2231,54 @@ const registerIpc = (): void => {
     }
   });
 
-  ipcMain.handle(IPC_CHANNELS.createConversation, async () => {
+  registerIpcHandle.register("createConversation", async () => {
     const conversation = await createConversationRecord();
     return { conversation, messages: [] };
   });
 
-  ipcMain.handle(IPC_CHANNELS.listConversations, async () => listConversationRecords());
+  registerIpcHandle.register("listConversations", async () => listConversationRecords());
 
-  ipcMain.handle(IPC_CHANNELS.loadConversation, async (_event, conversationId: string) =>
+  registerIpcHandle.register("loadConversation", async (_event, conversationId: string) =>
     loadConversationRecord(conversationId)
   );
 
-  ipcMain.handle(IPC_CHANNELS.clearConversation, async (_event, conversationId: string) => {
+  registerIpcHandle.register("clearConversation", async (_event, conversationId: string) => {
     await clearConversationMessages(conversationId);
     return resolveConversation(conversationId);
   });
 
-  ipcMain.handle(IPC_CHANNELS.deleteConversation, async (_event, conversationId: string) => {
+  registerIpcHandle.register("deleteConversation", async (_event, conversationId: string) => {
     await deleteConversationRecord(conversationId);
   });
 
-  ipcMain.handle(IPC_CHANNELS.sendChat, async (_event, payload: SendChatRequest) =>
+  registerIpcHandle.register("sendChat", async (_event, payload: SendChatRequest) =>
     handleSendChat(payload)
   );
 
-  ipcMain.handle(IPC_CHANNELS.awarenessQuery, async (_event, request: AwarenessQueryRequest) =>
+  registerIpcHandle.register("awarenessQuery", async (_event, request: AwarenessQueryRequest) =>
     awarenessEngine?.queryAwarenessLive(request) ?? null
   );
 
-  ipcMain.handle(IPC_CHANNELS.searchMemories, async (_event, query: string) =>
+  registerIpcHandle.register("searchMemories", async (_event, query: string) =>
     searchMemoryRecords(query)
   );
 
-  ipcMain.handle(IPC_CHANNELS.listMemories, async () => listMemoryRecords());
+  registerIpcHandle.register("listMemories", async () => listMemoryRecords());
 
-  ipcMain.handle(IPC_CHANNELS.deleteMemory, async (_event, memoryId: string) => {
+  registerIpcHandle.register("deleteMemory", async (_event, memoryId: string) => {
     await deleteMemoryRecord(memoryId);
   });
 
-  ipcMain.handle(IPC_CHANNELS.desktopActionCatalog, async (): Promise<DesktopActionProposal[]> =>
+  registerIpcHandle.register("desktopActionCatalog", async (): Promise<DesktopActionProposal[]> =>
     desktopActions.listDesktopActions()
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.desktopActionSuggest,
+  registerIpcHandle.register("desktopActionSuggest",
     async (_event, prompt: string): Promise<DesktopActionProposal | null> =>
       desktopActions.suggestDesktopAction(prompt)
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.desktopActionApprove,
+  registerIpcHandle.register("desktopActionApprove",
     async (
       _event,
       request: DesktopActionRequest,
@@ -2583,52 +2287,45 @@ const registerIpc = (): void => {
     ) => desktopActions.issueDesktopActionApproval(request, approvedBy, ttlMs)
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.desktopActionExecute,
+  registerIpcHandle.register("desktopActionExecute",
     async (_event, request: DesktopActionRequest): Promise<DesktopActionResult> =>
       desktopActions.executeDesktopAction(request)
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.workflowPlanSuggest,
+  registerIpcHandle.register("workflowPlanSuggest",
     async (_event, prompt: string) => workflowOrchestrator.suggestWorkflow(prompt)
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.workflowApprove,
+  registerIpcHandle.register("workflowApprove",
     async (_event, plan, approvedBy: string, ttlMs?: number) =>
       workflowOrchestrator.issueWorkflowApproval(plan, approvedBy, ttlMs)
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.workflowExecute,
+  registerIpcHandle.register("workflowExecute",
     async (_event, request) => workflowOrchestrator.executeWorkflow(request)
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.rollbackDesktopAction,
+  registerIpcHandle.register("rollbackDesktopAction",
     async (_event, commandId: string, approvedBy: string, dryRun?: boolean) =>
       desktopActions.rollbackDesktopAction(commandId, approvedBy, dryRun)
   );
 
-  ipcMain.handle(IPC_CHANNELS.governanceDashboard, async () => buildGovernanceDashboardSnapshot());
+  registerIpcHandle.register("governanceDashboard", async () => buildGovernanceDashboardSnapshot());
 
-  ipcMain.handle(IPC_CHANNELS.governanceApprovalQueue, async () => approvalQueue.list());
+  registerIpcHandle.register("governanceApprovalQueue", async () => approvalQueue.list());
 
-  ipcMain.handle(
-    IPC_CHANNELS.governanceAuditQuery,
+  registerIpcHandle.register("governanceAuditQuery",
     async (_event, query?: GovernanceAuditQuery) =>
       queryGovernanceAuditEntries(desktopActionPaths.runtimeRoot, query ?? {}, {
         agentRuntimeRoot
       })
   );
 
-  ipcMain.handle(IPC_CHANNELS.officialKnowledgeSources, async (): Promise<OfficialKnowledgeSourceStatus[]> =>
+  registerIpcHandle.register("officialKnowledgeSources", async (): Promise<OfficialKnowledgeSourceStatus[]> =>
     awarenessEngine?.listOfficialKnowledgeSources() ?? []
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.officialKnowledgeSourceUpdate,
+  registerIpcHandle.register("officialKnowledgeSourceUpdate",
     async (_event, sourceId: string, enabled: boolean): Promise<OfficialKnowledgeStatus> => {
       if (!awarenessEngine) {
         throw new Error("Awareness engine is not ready.");
@@ -2637,8 +2334,7 @@ const registerIpc = (): void => {
     }
   );
 
-  ipcMain.handle(
-    IPC_CHANNELS.officialKnowledgeSourceRefresh,
+  registerIpcHandle.register("officialKnowledgeSourceRefresh",
     async (_event, sourceId: string): Promise<OfficialKnowledgeStatus> => {
     if (!awarenessEngine) {
       throw new Error("Awareness engine is not ready.");
@@ -2646,17 +2342,19 @@ const registerIpc = (): void => {
     return await awarenessEngine.refreshOfficialKnowledgeSource(sourceId);
   });
 
-  ipcMain.handle(
-    IPC_CHANNELS.contextPreview,
+  registerIpcHandle.register("contextPreview",
     async (
       _event,
       conversationId: string,
       latestUserMessage: string,
       awarenessAnswerModeArg?: AwarenessAnswerMode,
-      ragOptionsArg?: RagOptions
+      ragOptionsArg?: RagOptions,
+      reasoningProfileArg?: ReasoningProfile
     ) => {
       const awarenessAnswerMode = normalizeAwarenessAnswerMode(awarenessAnswerModeArg);
       const ragOptions = ragOptionsArg ?? {};
+      const previewReasoningProfile = normalizeReasoningProfile(reasoningProfileArg);
+      const previewBehavior = getReasoningProfileBehavior(previewReasoningProfile);
       const conversation = await resolveConversation(conversationId);
       const conversationContext = buildConversationAwarenessContext(
         conversation.messages,
@@ -2669,20 +2367,70 @@ const registerIpc = (): void => {
         ragEnabled: ragOptions.defaultEnabled ?? true,
         override: ragOptions.enabled
       });
+      const previewBaseUseWeb = resolveToggleMode(ragOptions.useWeb, ragOptions.defaultUseWeb ?? false);
+      const previewTaskClassification = classifyPromptTask(latestUserMessage, {
+        route: previewRoute,
+        useWebSearch: previewBaseUseWeb
+      });
+      const previewResolvedUseWeb = resolveProfileAwareWebSearch({
+        resolvedUseWeb: previewBaseUseWeb,
+        taskClassification: previewTaskClassification,
+        behavior: previewBehavior
+      });
+      const previewExplicitWindowsAwarenessPrompt =
+        previewTaskClassification.categories.awareness_local_state;
+      const previewReplyPolicy = resolveReplyPolicy(latestUserMessage, {
+        explicitWindowsAwarenessPrompt: previewExplicitWindowsAwarenessPrompt,
+        useWebSearch: previewResolvedUseWeb,
+        classification: previewTaskClassification,
+        reasoningProfile: previewReasoningProfile
+      });
+      const previewPlanningState = resolveReasoningProfileState({
+        reasoningProfile: previewReasoningProfile,
+        reasoningMode: previewReasoningMode.mode,
+        taskClassification: previewTaskClassification
+      });
+      const previewAwarenessRouting = resolveAwarenessRouting({
+        explicitWindowsAwarenessPrompt: previewExplicitWindowsAwarenessPrompt,
+        routeConfidence: previewRoute?.confidence ?? 0,
+        hasRouteSignals: (previewRoute?.signals.length ?? 0) > 0,
+        awarenessAnswerMode,
+        isEvaluationChatOnly: false,
+        genericWritingPromptSuppressed: previewTaskClassification.categories.generic_writing,
+        routingSuppressionReason: getRoutingSuppressionReason(latestUserMessage, previewReplyPolicy, {
+          classification: previewTaskClassification
+        }),
+        behavior: previewBehavior
+      });
       const previewAwarenessAnswer =
-        (await awarenessEngine?.queryAwarenessLive({
-          query: latestUserMessage,
-          awarenessAnswerMode,
-          conversationContext,
-          officialKnowledgePolicy: previewNeedsOfficial ? "live-fallback" : "mirror-first",
-          allowOfficialWindowsKnowledge: previewNeedsOfficial,
-          refresh: false,
-          hints: {
-            force: awarenessAnswerMode === "evidence-first",
-            strictGrounding: awarenessAnswerMode === "evidence-first",
-            maxScanMs: awarenessAnswerMode === "evidence-first" ? 300 : 200
-          }
-        })) ?? null;
+        previewAwarenessRouting.shouldQueryAwareness
+          ? (await awarenessEngine?.queryAwarenessLive({
+              query: latestUserMessage,
+              awarenessAnswerMode,
+              conversationContext,
+              officialKnowledgePolicy: previewNeedsOfficial ? "live-fallback" : "mirror-first",
+              allowOfficialWindowsKnowledge: previewNeedsOfficial,
+              refresh: false,
+              hints: {
+                force: awarenessAnswerMode === "evidence-first",
+                strictGrounding: awarenessAnswerMode === "evidence-first",
+                maxScanMs: awarenessAnswerMode === "evidence-first" ? 300 : 200
+              }
+            })) ?? null
+          : null;
+      const previewPromptIntentSeed = buildSeedPromptIntent({
+        query: latestUserMessage,
+        route: previewRoute,
+        replyPolicy: previewReplyPolicy,
+        responseMode: undefined,
+        reasoningMode: previewReasoningMode.mode,
+        taskClassification: previewTaskClassification,
+        hasWorkspaceHits: false,
+        hasAwarenessEvidence: previewAwarenessAnswer !== null,
+        hasLiveWebResults: false,
+        useWebSearch: previewResolvedUseWeb,
+        preferOfficialWindowsKnowledge: previewNeedsOfficial
+      });
       const ragContext: RagContextPreview = {
         enabled: ragOptions.defaultEnabled ?? true,
         mode: previewReasoningMode.mode,
@@ -2693,7 +2441,7 @@ const registerIpc = (): void => {
         workspaceHits: []
       };
       const runtimePreview = await buildLatestAgentRuntimePreview();
-      return buildPromptMessages(
+      const result = await buildPromptMessages(
         conversationId,
         latestUserMessage,
         undefined,
@@ -2706,8 +2454,23 @@ const registerIpc = (): void => {
         awarenessEngine?.screenAwareness ?? null,
         ragContext,
         {
-          enableSemanticMemory: previewReasoningMode.mode === "advanced",
-          memoryEmbedder: provider.embeddings ? (text) => provider.embeddings!(text) : undefined,
+          enableSemanticMemory:
+            previewReasoningMode.mode === "advanced" && previewBehavior.retrieval.semanticMemory,
+          promptIntent: previewPromptIntentSeed,
+          memoryEmbedder:
+            previewReasoningMode.mode === "advanced" &&
+            previewBehavior.retrieval.semanticMemory &&
+            provider.embeddings
+              ? (text) => provider.embeddings!(text)
+              : undefined,
+          retrievalProfile: {
+            stableMemoryLimit: previewBehavior.retrieval.stableMemoryLimit,
+            keywordMemoryLimit: previewBehavior.retrieval.keywordMemoryLimit,
+            semanticMemoryLimit: previewBehavior.retrieval.semanticMemoryLimit,
+            maxRetrievedMemories: previewBehavior.retrieval.maxRetrievedMemories,
+            promptBehaviorMemoryLimit: previewBehavior.retrieval.promptBehaviorMemoryLimit,
+            workspaceHitLimit: previewBehavior.retrieval.workspaceHitLimit
+          },
           workspace:
             previewReasoningMode.mode === "advanced" && (ragOptions.workspaceIndexingEnabled ?? true)
               ? {
@@ -2715,44 +2478,117 @@ const registerIpc = (): void => {
                   runtimeRoot: awarenessEngine?.paths.runtimeRoot ?? path.join(process.cwd(), ".runtime", "awareness"),
                   enabled: true,
                   mode: "incremental",
-                  embedder: provider.embeddings ? (text) => provider.embeddings!(text) : undefined
+                  embedder:
+                    previewBehavior.retrieval.semanticMemory && provider.embeddings
+                      ? (text) => provider.embeddings!(text)
+                      : undefined
                 }
               : null
         },
-        runtimePreview
-      ).then((result) => result.contextPreview);
+        runtimePreview,
+        {
+          contextBudget: previewBehavior.contextBudget,
+          reasoningProfile: previewReasoningProfile,
+          planningPolicy: previewPlanningState.planningPolicy,
+          reasoningProfileDiagnostics: {
+            planningReason: previewPlanningState.planningReason,
+            retrievalMode: previewBehavior.retrievalMode,
+            governedTaskPosture: previewBehavior.governedTaskPosture
+          }
+        }
+      );
+      return {
+        ...result.contextPreview,
+        promptIntent: buildSeedPromptIntent({
+          query: latestUserMessage,
+          route: previewRoute,
+          replyPolicy: previewReplyPolicy,
+          responseMode: undefined,
+          reasoningMode: previewReasoningMode.mode,
+          taskClassification: previewTaskClassification,
+          hasWorkspaceHits: (result.contextPreview.workspaceHits?.length ?? 0) > 0,
+          hasAwarenessEvidence: previewAwarenessAnswer !== null,
+          hasLiveWebResults: false,
+          useWebSearch: previewResolvedUseWeb,
+          preferOfficialWindowsKnowledge: previewNeedsOfficial
+        })
+      };
     }
   );
 
-  ipcMain.handle(IPC_CHANNELS.promptEvaluationRun, async (_event, request: PromptEvaluationRequest) =>
+  registerIpcHandle.register("promptEvaluationRun", async (_event, request: PromptEvaluationRequest) =>
     runPromptEvaluation(request)
   );
 
-  ipcMain.handle(IPC_CHANNELS.screenStatus, async () => awarenessEngine?.getScreenStatus() ?? null);
-  ipcMain.handle(IPC_CHANNELS.screenForegroundWindow, async () => awarenessEngine?.screenAwareness?.foregroundWindow ?? null);
-  ipcMain.handle(IPC_CHANNELS.screenUiTree, async () => awarenessEngine?.screenAwareness?.uiTree ?? null);
-  ipcMain.handle(IPC_CHANNELS.screenLastEvents, async () => awarenessEngine?.screenAwareness?.recentEvents ?? []);
-  ipcMain.handle(IPC_CHANNELS.screenStartAssist, async (_event, options) =>
+  registerIpcHandle.register("capabilityRunnerCatalog", async () =>
+    capabilityRunService.getCatalogSummary()
+  );
+
+  registerIpcHandle.register("capabilityRunnerRuns", async () =>
+    capabilityRunService.listRuns()
+  );
+
+  registerIpcHandle.register("capabilityRunnerSnapshot", async (_event, runId?: string) =>
+    capabilityRunService.getSnapshot(runId)
+  );
+
+  registerIpcHandle.register("capabilityRunnerStart", async (_event, request) =>
+    capabilityRunService.startRun(request)
+  );
+
+  registerIpcHandle.register("capabilityRunnerPause", async (_event, runId: string) =>
+    capabilityRunService.pauseAfterCurrent(runId)
+  );
+
+  registerIpcHandle.register("capabilityRunnerResume", async (_event, runId: string) =>
+    capabilityRunService.resumeRun(runId)
+  );
+
+  registerIpcHandle.register("capabilityRunnerStop", async (_event, runId: string) =>
+    capabilityRunService.stopAfterCurrent(runId)
+  );
+
+  registerIpcHandle.register("capabilityRunnerRerunFailed", async (_event, runId: string) =>
+    capabilityRunService.rerunFailed(runId)
+  );
+
+  registerIpcHandle.register("capabilityRunnerExport", async (_event, runId: string) =>
+    capabilityRunService.exportMarkdown(runId)
+  );
+
+  registerIpcHandle.register("screenStatus", async () => awarenessEngine?.getScreenStatus() ?? null);
+  registerIpcHandle.register("screenForegroundWindow", async () => awarenessEngine?.screenAwareness?.foregroundWindow ?? null);
+  registerIpcHandle.register("screenUiTree", async () => awarenessEngine?.screenAwareness?.uiTree ?? null);
+  registerIpcHandle.register("screenLastEvents", async () => awarenessEngine?.screenAwareness?.recentEvents ?? []);
+  registerIpcHandle.register("screenStartAssist", async (_event, options) =>
     awarenessEngine?.startAssistMode(options) ?? Promise.resolve(null)
   );
-  ipcMain.handle(IPC_CHANNELS.screenStopAssist, async (_event, payload?: { reason?: string }) =>
+  registerIpcHandle.register("screenStopAssist", async (_event, payload?: { reason?: string }) =>
     awarenessEngine?.stopAssistMode(payload?.reason) ?? Promise.resolve(null)
   );
 
-  ipcMain.handle(IPC_CHANNELS.agentRuntimeRun, async (_event, task: AgentTask) =>
-    agentRuntimeService.startTask(task)
-  );
-  ipcMain.handle(IPC_CHANNELS.agentRuntimeList, async () => agentRuntimeService.listJobs());
-  ipcMain.handle(IPC_CHANNELS.agentRuntimeInspect, async (_event, jobId: string) =>
+  registerIpcHandle.register("agentRuntimeRun", async (_event, task: AgentTask) => {
+    const bridgeContext = getPromptIntentBridgeContextForTask(task);
+    const taskWithBridge = bridgeContext
+      ? attachPromptIntentBridgeToTask(
+          task,
+          bridgeContext.promptIntent,
+          bridgeContext.matchedPromptBehaviorMemories
+        )
+      : task;
+    return agentRuntimeService.startTask(taskWithBridge);
+  });
+  registerIpcHandle.register("agentRuntimeList", async () => agentRuntimeService.listJobs());
+  registerIpcHandle.register("agentRuntimeInspect", async (_event, jobId: string) =>
     agentRuntimeService.inspectJob(jobId)
   );
-  ipcMain.handle(IPC_CHANNELS.agentRuntimeResume, async (_event, jobId: string) =>
+  registerIpcHandle.register("agentRuntimeResume", async (_event, jobId: string) =>
     agentRuntimeService.resumeJob(jobId)
   );
-  ipcMain.handle(IPC_CHANNELS.agentRuntimeCancel, async (_event, jobId: string) =>
+  registerIpcHandle.register("agentRuntimeCancel", async (_event, jobId: string) =>
     agentRuntimeService.cancelJob(jobId)
   );
-  ipcMain.handle(IPC_CHANNELS.agentRuntimeRecover, async (_event, jobId: string) =>
+  registerIpcHandle.register("agentRuntimeRecover", async (_event, jobId: string) =>
     agentRuntimeService.recoverJob(jobId)
   );
 };
@@ -2760,6 +2596,7 @@ const registerIpc = (): void => {
 app.whenReady().then(async () => {
   const databasePath = path.join(app.getPath("userData"), "synai-db.json");
   configureMemoryDatabase(databasePath);
+  await capabilityRunService.initialize();
 
   // Rec #1: Start awareness engine in background — do NOT await before creating the window.
   // All IPC handlers already null-guard awarenessEngine so they return safe defaults until ready.
@@ -2787,6 +2624,7 @@ app.on("before-quit", () => {
   void awarenessEngine?.close();
   void workflowOrchestrator.close();
 });
+
 
 
 

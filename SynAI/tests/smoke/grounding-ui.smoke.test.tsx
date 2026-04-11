@@ -156,6 +156,20 @@ describe("grounding ui smoke", () => {
         auditEventCount: 5,
         bindingHash: "fnv1a-12345678",
         updatedAt: "2026-04-10T10:00:00.000Z"
+      },
+      promptIntent: {
+        intentFamily: "repo-grounded",
+        userGoal: "Summarize the current repo behavior without guessing.",
+        constraints: ["Stay within the repo evidence that was retrieved."],
+        sourceScope: "repo-wide",
+        outputContract: {
+          shape: "bullets",
+          length: "short",
+          preserveExactStructure: false
+        },
+        ambiguityFlags: [],
+        missingEvidence: [],
+        requiredChecks: ["respect-source-scope"]
       }
     };
 
@@ -164,6 +178,8 @@ describe("grounding ui smoke", () => {
     expect(screen.getByText("Evidence & Retrieval Eval")).toBeInTheDocument();
     expect(screen.getByText(/Route auto-complexity/i)).toBeInTheDocument();
     expect(screen.getByText(/Most retrieved sources were not cited/i)).toBeInTheDocument();
+    expect(screen.getByText("Prompt Intent")).toBeInTheDocument();
+    expect(screen.getByText(/repo-grounded \| repo-wide \| bullets/i)).toBeInTheDocument();
     expect(screen.getByText("Agent Runtime")).toBeInTheDocument();
     expect(screen.getByText(/Review the latest runtime job/i)).toBeInTheDocument();
     expect(screen.getByText(/Approval token has expired/i)).toBeInTheDocument();

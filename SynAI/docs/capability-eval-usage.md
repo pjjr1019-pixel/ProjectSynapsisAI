@@ -10,12 +10,14 @@ Capability eval is a deterministic harness that verifies whether SynAI can compl
 - Card schema: `packages/Capability-Catalog/schemas/capability-test-card.v1.schema.json`
 - Retrieval hints: `packages/Capability-Catalog/retrieval/index-hints.json`
 - Core eval engine: `packages/Awareness-Reasoning/src/capability-eval/`
-- Governance + execution package: `packages/Governance and exicution/src/`
+- Governance + execution package: `packages/Governance-Execution/src/`
 - Desktop action catalog and governed runtime: `apps/desktop/electron/desktop-actions.ts`
 - Renderer desktop actions surface: `apps/desktop/src/features/local-chat/components/DesktopActionsCard.tsx`
 - Artifacts/history output: `.runtime/capability-eval/`
 - VS Code tasks: `.vscode/tasks.json`
 - VS Code Testing API wrapper: `apps/vscode-capability-testing/`
+
+Read [packages/Governance-Execution/README.md](../packages/Governance-Execution/README.md) and [AGENT_INSERTION_POINTS.md](AGENT_INSERTION_POINTS.md) before changing eval-driven governance code.
 
 ## Operator Quickstart
 

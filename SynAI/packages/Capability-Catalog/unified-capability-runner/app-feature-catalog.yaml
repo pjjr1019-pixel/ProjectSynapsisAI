@@ -1,0 +1,802 @@
+[
+  {
+    "id": "app.local-chat",
+    "domain": "app-feature-tests",
+    "category": "chat UX",
+    "title": "Local chat reply path",
+    "description": "Tell me where the real local chat reply path is wired in this repo.",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Tell me where the real local chat reply path is wired in this repo.",
+      "direct": "Tell me where the real local chat reply path is wired in this repo."
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.conversation-persistence",
+    "domain": "app-feature-tests",
+    "category": "conversation persistence",
+    "title": "Conversation persistence",
+    "description": "Explain how conversation persistence works in this app.",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Explain how conversation persistence works in this app.",
+      "direct": "Explain how conversation persistence works in this app."
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.history-panel",
+    "domain": "app-feature-tests",
+    "category": "history",
+    "title": "History panel",
+    "description": "What does the History panel do in the desktop app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What does the History panel do in the desktop app?",
+      "direct": "What does the History panel do in the desktop app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.memory-extraction",
+    "domain": "app-feature-tests",
+    "category": "memory extraction",
+    "title": "Memory extraction",
+    "description": "Explain how memory extraction works in SynAI.",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Explain how memory extraction works in SynAI.",
+      "direct": "Explain how memory extraction works in SynAI."
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.memory-retrieval",
+    "domain": "app-feature-tests",
+    "category": "memory retrieval",
+    "title": "Memory retrieval",
+    "description": "How does memory retrieval get used during a normal chat turn?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How does memory retrieval get used during a normal chat turn?",
+      "direct": "How does memory retrieval get used during a normal chat turn?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.rolling-summary",
+    "domain": "app-feature-tests",
+    "category": "rolling summary creation",
+    "title": "Rolling summaries",
+    "description": "How do rolling summaries work in this app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How do rolling summaries work in this app?",
+      "direct": "How do rolling summaries work in this app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.context-assembly",
+    "domain": "app-feature-tests",
+    "category": "context assembly",
+    "title": "Context assembly",
+    "description": "What sources go into the context preview for a normal chat turn?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What sources go into the context preview for a normal chat turn?",
+      "direct": "What sources go into the context preview for a normal chat turn?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.workspace-indexing",
+    "domain": "app-feature-tests",
+    "category": "search/retrieval panels",
+    "title": "Workspace indexing",
+    "description": "Is workspace indexing part of the response path now, and where does it fit?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Is workspace indexing part of the response path now, and where does it fit?",
+      "direct": "Is workspace indexing part of the response path now, and where does it fit?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.web-search",
+    "domain": "app-feature-tests",
+    "category": "search/retrieval panels",
+    "title": "Recent web search",
+    "description": "When does SynAI use recent web search and how is that shown?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "When does SynAI use recent web search and how is that shown?",
+      "direct": "When does SynAI use recent web search and how is that shown?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.model-health",
+    "domain": "app-feature-tests",
+    "category": "local provider readiness",
+    "title": "Local model health",
+    "description": "Explain how local model health is checked and shown in the UI.",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Explain how local model health is checked and shown in the UI.",
+      "direct": "Explain how local model health is checked and shown in the UI."
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.model-selection",
+    "domain": "app-feature-tests",
+    "category": "settings pages",
+    "title": "Model selection",
+    "description": "How is the selected model stored and then used for chat turns?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How is the selected model stored and then used for chat turns?",
+      "direct": "How is the selected model stored and then used for chat turns?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.reasoning-trace",
+    "domain": "app-feature-tests",
+    "category": "inspection/debug views",
+    "title": "Reasoning trace",
+    "description": "What is the reasoning trace surface supposed to show in this app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What is the reasoning trace surface supposed to show in this app?",
+      "direct": "What is the reasoning trace surface supposed to show in this app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.desktop-actions",
+    "domain": "app-feature-tests",
+    "category": "tool bridges",
+    "title": "Governed desktop actions",
+    "description": "Tell me what governed desktop actions can do in this repo right now.",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "governed-task:desktop-actions",
+    "prompt_templates": {
+      "base": "Tell me what governed desktop actions can do in this repo right now.",
+      "direct": "Tell me what governed desktop actions can do in this repo right now."
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.workflows",
+    "domain": "app-feature-tests",
+    "category": "workflow panels",
+    "title": "Workflow planning and execution",
+    "description": "What workflow planning and execution features are live in the desktop app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "governed-task:workflow-orchestrator",
+    "prompt_templates": {
+      "base": "What workflow planning and execution features are live in the desktop app?",
+      "direct": "What workflow planning and execution features are live in the desktop app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.workflow-reports",
+    "domain": "app-feature-tests",
+    "category": "report generation",
+    "title": "Workflow report generation",
+    "description": "How does the workflow system save markdown reports right now?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "governed-task:workflow-orchestrator",
+    "prompt_templates": {
+      "base": "How does the workflow system save markdown reports right now?",
+      "direct": "How does the workflow system save markdown reports right now?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.approvals",
+    "domain": "app-feature-tests",
+    "category": "approvals panels",
+    "title": "Approval queue",
+    "description": "How are approvals represented and surfaced in the current app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How are approvals represented and surfaced in the current app?",
+      "direct": "How are approvals represented and surfaced in the current app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.audit-query",
+    "domain": "app-feature-tests",
+    "category": "logs/diagnostics",
+    "title": "Governance audit query",
+    "description": "How does governance audit query work in the desktop app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How does governance audit query work in the desktop app?",
+      "direct": "How does governance audit query work in the desktop app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.official-knowledge",
+    "domain": "app-feature-tests",
+    "category": "knowledge",
+    "title": "Official knowledge sources",
+    "description": "What official Windows knowledge sources does SynAI know about right now?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What official Windows knowledge sources does SynAI know about right now?",
+      "direct": "What official Windows knowledge sources does SynAI know about right now?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.screen-assist",
+    "domain": "app-feature-tests",
+    "category": "inspection/debug views",
+    "title": "Screen Assist Mode",
+    "description": "What does Assist Mode do in this desktop app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What does Assist Mode do in this desktop app?",
+      "direct": "What does Assist Mode do in this desktop app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.prompt-eval",
+    "domain": "app-feature-tests",
+    "category": "report generation",
+    "title": "Prompt evaluation card",
+    "description": "What does the Prompt Eval card do and where does it write reports?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What does the Prompt Eval card do and where does it write reports?",
+      "direct": "What does the Prompt Eval card do and where does it write reports?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.agent-runtime-card",
+    "domain": "app-feature-tests",
+    "category": "workflow panels",
+    "title": "Agent runtime inspection",
+    "description": "How does the app surface agent runtime inspection and progress?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How does the app surface agent runtime inspection and progress?",
+      "direct": "How does the app surface agent runtime inspection and progress?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.runtime-preview-context",
+    "domain": "app-feature-tests",
+    "category": "context assembly",
+    "title": "Runtime preview in context",
+    "description": "Is runtime preview part of context assembly now, and where does it show up?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Is runtime preview part of context assembly now, and where does it show up?",
+      "direct": "Is runtime preview part of context assembly now, and where does it show up?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.governance-dashboard",
+    "domain": "app-feature-tests",
+    "category": "logs/diagnostics",
+    "title": "Governance dashboard snapshot",
+    "description": "What goes into the governance dashboard snapshot in this app?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What goes into the governance dashboard snapshot in this app?",
+      "direct": "What goes into the governance dashboard snapshot in this app?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.capability-registry",
+    "domain": "app-feature-tests",
+    "category": "tool bridges",
+    "title": "Runtime capability registry",
+    "description": "How does the runtime capability registry work in this repo?",
+    "status": "implemented",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How does the runtime capability registry work in this repo?",
+      "direct": "How does the runtime capability registry work in this repo?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.plugin-loader",
+    "domain": "app-feature-tests",
+    "category": "tool bridges",
+    "title": "Runtime plugin loading",
+    "description": "How complete is the runtime plugin loading path right now?",
+    "status": "partial",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "How complete is the runtime plugin loading path right now?",
+      "direct": "How complete is the runtime plugin loading path right now?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.global-approval-dashboard",
+    "domain": "app-feature-tests",
+    "category": "approvals panels",
+    "title": "Global approval dashboard UX",
+    "description": "What approval UX is still not fully built in this repo?",
+    "status": "partial",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "What approval UX is still not fully built in this repo?",
+      "direct": "What approval UX is still not fully built in this repo?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.browser-automation-broad",
+    "domain": "app-feature-tests",
+    "category": "workflow panels",
+    "title": "Broad autonomous browser automation",
+    "description": "Does this app already have broad autonomous browser automation or not yet?",
+    "status": "planned",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Does this app already have broad autonomous browser automation or not yet?",
+      "direct": "Does this app already have broad autonomous browser automation or not yet?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.cloud-sync",
+    "domain": "app-feature-tests",
+    "category": "state restoration",
+    "title": "Cloud sync",
+    "description": "Is cloud sync already built in this repo?",
+    "status": "planned",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Is cloud sync already built in this repo?",
+      "direct": "Is cloud sync already built in this repo?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.finance",
+    "domain": "app-feature-tests",
+    "category": "feature-specific panels",
+    "title": "Finance surfaces",
+    "description": "Are finance features built in this app yet?",
+    "status": "planned",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Are finance features built in this app yet?",
+      "direct": "Are finance features built in this app yet?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.multi-agent",
+    "domain": "app-feature-tests",
+    "category": "feature-specific panels",
+    "title": "Broad multi-agent systems",
+    "description": "Does SynAI already include broad multi-agent systems?",
+    "status": "planned",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Does SynAI already include broad multi-agent systems?",
+      "direct": "Does SynAI already include broad multi-agent systems?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.autonomous-replanning",
+    "domain": "app-feature-tests",
+    "category": "workflow panels",
+    "title": "Open-ended autonomous replanning",
+    "description": "Does the runtime do open-ended autonomous replanning loops yet?",
+    "status": "planned",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Does the runtime do open-ended autonomous replanning loops yet?",
+      "direct": "Does the runtime do open-ended autonomous replanning loops yet?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  },
+  {
+    "id": "app.launcher-extras",
+    "domain": "app-feature-tests",
+    "category": "feature-specific panels",
+    "title": "Launcher or dashboard extras",
+    "description": "Are launcher or dashboard extras already built in SynAI?",
+    "status": "planned",
+    "task_type": "repo-grounded-answer",
+    "difficulty": "medium",
+    "expected_route": "chat:repo-wide",
+    "prompt_templates": {
+      "base": "Are launcher or dashboard extras already built in SynAI?",
+      "direct": "Are launcher or dashboard extras already built in SynAI?"
+    },
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "notes": [],
+    "source_refs": [
+      "README.md",
+      "apps/desktop/electron/main.ts",
+      "apps/desktop/src/features/local-chat/hooks/useLocalChat.ts",
+      "packages/Awareness-Reasoning/src/memory/index.ts",
+      "packages/Agent-Runtime/docs/AGENT_5_LAYER_IMPLEMENTATION_STATUS.md"
+    ]
+  }
+]

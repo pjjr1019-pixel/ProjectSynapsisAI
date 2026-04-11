@@ -25,6 +25,12 @@ if errorlevel 1 (
 
 pushd "%APP_DIR%"
 
+if defined NODE_OPTIONS (
+  set "NODE_OPTIONS=--max-old-space-size=4096 %NODE_OPTIONS%"
+) else (
+  set "NODE_OPTIONS=--max-old-space-size=4096"
+)
+
 if not exist "%APP_DIR%\node_modules" (
   echo Installing SynAI dependencies...
   call npm install

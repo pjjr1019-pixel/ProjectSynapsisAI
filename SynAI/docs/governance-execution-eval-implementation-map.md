@@ -1,5 +1,7 @@
 # Governance Execution Eval Implementation Map
 
+> Historical reference only. Use the current package README, insertion points doc, and tests for implementation work.
+
 ## Current Architecture Discovered
 
 ### Normal Chat Entry Point
@@ -16,15 +18,15 @@
 - `packages/Awareness-Reasoning/src/memory/index.ts`
 
 ### Existing Governance and Execution Layer
-- `packages/Governance and exicution/src/contracts.ts`
-- `packages/Governance and exicution/src/policy/engine.ts`
-- `packages/Governance and exicution/src/commands/bus.ts`
-- `packages/Governance and exicution/src/commands/hash.ts`
-- `packages/Governance and exicution/src/approvals/ledger.ts`
-- `packages/Governance and exicution/src/execution/chat-execution-service.ts`
-- `packages/Governance and exicution/src/execution/windows-actions.ts`
-- `packages/Governance and exicution/src/execution/windows-action-catalog.ts`
-- `packages/Governance and exicution/src/remediation/sandbox.ts`
+- `packages/Governance-Execution/src/contracts.ts`
+- `packages/Governance-Execution/src/policy/engine.ts`
+- `packages/Governance-Execution/src/commands/bus.ts`
+- `packages/Governance-Execution/src/commands/hash.ts`
+- `packages/Governance-Execution/src/approvals/ledger.ts`
+- `packages/Governance-Execution/src/execution/chat-execution-service.ts`
+- `packages/Governance-Execution/src/execution/windows-actions.ts`
+- `packages/Governance-Execution/src/execution/windows-action-catalog.ts`
+- `packages/Governance-Execution/src/remediation/sandbox.ts`
 
 ### Existing Desktop Executors and Workflow Orchestration
 - `apps/desktop/electron/desktop-actions.ts`
@@ -162,20 +164,20 @@
 - `apps/desktop/src/features/local-chat/components/ToolsPanel.tsx`
 
 ### Governance / Execution Runtime
-- `packages/Governance and exicution/src/index.ts`
-- `packages/Governance and exicution/src/contracts.ts`
-- `packages/Governance and exicution/src/policy/engine.ts`
-- `packages/Governance and exicution/src/commands/bus.ts`
-- `packages/Governance and exicution/src/execution/windows-actions.ts`
-- `packages/Governance and exicution/src/execution/windows-action-catalog.ts`
-- `packages/Governance and exicution/src/remediation/sandbox.ts`
+- `packages/Governance-Execution/src/index.ts`
+- `packages/Governance-Execution/src/contracts.ts`
+- `packages/Governance-Execution/src/policy/engine.ts`
+- `packages/Governance-Execution/src/commands/bus.ts`
+- `packages/Governance-Execution/src/execution/windows-actions.ts`
+- `packages/Governance-Execution/src/execution/windows-action-catalog.ts`
+- `packages/Governance-Execution/src/remediation/sandbox.ts`
 
 ### New Governance-Exec Modules
-- `packages/Governance and exicution/src/governed-chat/types.ts`
-- `packages/Governance and exicution/src/governed-chat/router.ts`
-- `packages/Governance and exicution/src/governed-chat/verification.ts`
-- `packages/Governance and exicution/src/governed-chat/gap-classifier.ts`
-- `packages/Governance and exicution/src/governed-chat/remediation.ts`
+- `packages/Governance-Execution/src/governed-chat/types.ts`
+- `packages/Governance-Execution/src/governed-chat/router.ts`
+- `packages/Governance-Execution/src/governed-chat/verification.ts`
+- `packages/Governance-Execution/src/governed-chat/gap-classifier.ts`
+- `packages/Governance-Execution/src/governed-chat/remediation.ts`
 
 ### Memory And History Mining
 - `packages/Awareness-Reasoning/src/memory/index.ts`
@@ -200,7 +202,7 @@
 
 ## Naming Decisions
 
-- Preserve the existing package folder name `packages/Governance and exicution`.
+- Preserve the existing package folder name `packages/Governance-Execution`.
 - Keep the existing `@governance-execution` alias.
 - Use `governed-chat` for the normal-chat router surface and `governance-history` for local history mining.
 - Keep approval tokens bound to exact normalized commands / workflow hashes.

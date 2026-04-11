@@ -3,6 +3,7 @@ repo:
   posture: foundation-first
   operational_root: SynAI
   canonical_agent_root: SynAI/packages/Agent-Runtime/src
+  canonical_surface: '@agent-runtime -> SynAI/packages/Agent-Runtime/src'
   compat_surface: '@synai-agent -> SynAI/packages/Agent-Runtime/src'
   legacy_guidance: SynAI/docs/AGENT_INSERTION_POINTS.md
 
@@ -37,7 +38,7 @@ areas:
     risk_level: high
     notes: Shared reasoning and storage logic. Keep it deterministic and test-backed.
 
-  - path: SynAI/packages/Governance and exicution/src
+  - path: SynAI/packages/Governance-Execution/src
     purpose: Governance policy, approvals, command hashing, audit query plumbing, Windows action catalogs, and governed execution helpers.
     risk_level: high
     notes: Shared policy and execution layer. Treat approvals and command hashes as stable contracts.
@@ -80,7 +81,7 @@ boundaries:
   shared_logic:
     - SynAI/packages/Agent-Runtime/src
     - SynAI/packages/Awareness-Reasoning/src
-    - SynAI/packages/Governance and exicution/src
+    - SynAI/packages/Governance-Execution/src
   storage:
     - SynAI/packages/Awareness-Reasoning/src/memory/storage
     - SynAI/.runtime
@@ -107,9 +108,9 @@ danger_zones:
   - SynAI/apps/desktop/electron/main.ts
   - SynAI/apps/desktop/electron/workflow-orchestrator.ts
   - SynAI/apps/desktop/electron/workflow-planner.ts
-  - SynAI/packages/Governance and exicution/src/policy/engine.ts
-  - SynAI/packages/Governance and exicution/src/execution/windows-actions.ts
-  - SynAI/packages/Governance and exicution/src/execution/windows-action-catalog.ts
+  - SynAI/packages/Governance-Execution/src/policy/engine.ts
+  - SynAI/packages/Governance-Execution/src/execution/windows-actions.ts
+  - SynAI/packages/Governance-Execution/src/execution/windows-action-catalog.ts
   - SynAI/packages/Awareness-Reasoning/src/memory/context/assembler.ts
   - SynAI/packages/Awareness-Reasoning/src/memory/storage
   - SynAI/packages/Capability-Catalog/cards

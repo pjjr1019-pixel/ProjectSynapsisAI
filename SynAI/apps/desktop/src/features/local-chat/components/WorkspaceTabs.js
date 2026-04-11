@@ -1,0 +1,16 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import { cn } from "../../../shared/utils/cn";
+const tabs = [
+    { id: "chat", label: "Chat" },
+    { id: "history", label: "History" },
+    { id: "tools", label: "Tools" },
+    { id: "settings", label: "Settings" }
+];
+export function WorkspaceTabs({ activeTab, onChange }) {
+    return (_jsx("div", { className: "border-b border-slate-800 bg-slate-950/90 px-1.5 py-1", children: _jsx("div", { role: "tablist", "aria-label": "Workspace tabs", className: "grid grid-cols-4 gap-1", children: tabs.map((tab) => {
+                const active = tab.id === activeTab;
+                return (_jsx("button", { type: "button", role: "tab", "aria-selected": active, className: cn("rounded-md px-2 py-1 text-[10px] font-medium transition", active
+                        ? "bg-cyan-500/20 text-cyan-200 ring-1 ring-cyan-400/40"
+                        : "bg-slate-900/80 text-slate-400 hover:bg-slate-800 hover:text-slate-200"), onClick: () => onChange(tab.id), children: tab.label }, tab.id));
+            }) }) }));
+}

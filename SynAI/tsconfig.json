@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "target": "ES2022",
     "useDefineForClassFields": true,
@@ -17,6 +18,12 @@
       "vite/client"
     ],
     "paths": {
+      "@agent-runtime": [
+        "./packages/Agent-Runtime/src/index.ts"
+      ],
+      "@agent-runtime/*": [
+        "./packages/Agent-Runtime/src/*"
+      ],
       "@synai-agent/contracts/agent-runtime.contracts": [
         "./packages/Agent-Runtime/src/contracts/agent-runtime.contracts.ts"
       ],
@@ -24,12 +31,6 @@
         "./packages/Agent-Runtime/src/index.ts"
       ],
       "@synai-agent/*": [
-        "./packages/Agent-Runtime/src/*"
-      ],
-      "@agent-runtime": [
-        "./packages/Agent-Runtime/src/index.ts"
-      ],
-      "@agent-runtime/*": [
         "./packages/Agent-Runtime/src/*"
       ],
       "@capability-catalog": [
@@ -69,10 +70,10 @@
         "./packages/Awareness-Reasoning/src/web-search/*"
       ],
       "@governance-execution": [
-        "./packages/Governance and exicution/src/index.ts"
+        "./packages/Governance-Execution/src/index.ts"
       ],
       "@governance-execution/*": [
-        "./packages/Governance and exicution/src/*"
+        "./packages/Governance-Execution/src/*"
       ],
       "@desktop/*": [
         "./apps/desktop/src/*"

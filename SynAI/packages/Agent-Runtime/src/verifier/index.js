@@ -1,0 +1,168 @@
+import { createRuntimeId, nowIso } from '../core';
+const buildIssue = (message, code, details) => ({
+    message,
+    code,
+    details,
+});
+export const verifyTaskExecution = (input) => {
+    const createdAt = nowIso();
+    const evidenceIds = input.observation.evidence.map((entry) => entry.id);
+    const base = {
+        id: createRuntimeId('verification'),
+        createdAt,
+        taskId: input.task.id,
+        jobId: input.observation.jobId,
+        stepId: input.step.id,
+        attemptId: input.execution?.attempt.id,
+        observationId: input.observation.id,
+        summary: undefined,
+        evidenceIds,
+        metadata: {
+            policyDecision: input.policyDecision.type,
+            skillId: input.step.skill,
+            adapterId: input.execution?.adapterId,
+        },
+    };
+    if (input.policyDecision.type !== 'allow') {
+        return {
+            ...base,
+            status: 'skipped',
+            summary: `Verification skipped after policy ${input.policyDecision.type}.`,
+            issues: [buildIssue(`Verification skipped after policy ${input.policyDecision.type}.`, 'policy-skipped')],
+        };
+    }
+    const execution = input.execution;
+    if (!execution) {
+        return {
+            ...base,
+            status: 'failed',
+            summary: 'Execution outcome is missing.',
+            issues: [buildIssue('Execution outcome is missing.', 'missing-execution')],
+        };
+    }
+    const executionStatus = execution.actionResult.status;
+    if (executionStatus === 'blocked' || executionStatus === 'denied' || executionStatus === 'escalated') {
+        return {
+            ...base,
+            status: 'failed',
+            summary: execution.actionResult.summary,
+            issues: [
+                buildIssue(`Execution finished with ${executionStatus}.`, executionStatus === 'blocked'
+                    ? 'execution-blocked'
+                    : executionStatus === 'denied'
+                        ? 'execution-denied'
+                        : 'execution-escalated', execution.actionResult.error),
+            ],
+        };
+    }
+    if (executionStatus === 'cancelled' || executionStatus === 'skipped') {
+        return {
+            ...base,
+            status: 'skipped',
+            summary: execution.actionResult.summary,
+            issues: [
+                buildIssue(`Execution ${executionStatus}.`, executionStatus === 'cancelled' ? 'execution-cancelled' : 'execution-skipped'),
+            ],
+        };
+    }
+    if (!execution.result.success) {
+        return {
+            ...base,
+            status: 'failed',
+            summary: execution.actionResult.summary,
+            issues: [buildIssue('Skill or adapter result reported failure.', 'skill-failed', execution.result.error)],
+        };
+    }
+    const externalVerification = execution.actionResult.output &&
+        typeof execution.actionResult.output === 'object' &&
+        'verification' in execution.actionResult.output
+        ? execution.actionResult.output['verification']
+        : undefined;
+    if (externalVerification && externalVerification.passed === false) {
+        return {
+            ...base,
+            status: 'failed',
+            summary: typeof externalVerification.summary === 'string'
+                ? externalVerification.summary
+                : 'External verification reported failure.',
+            issues: [
+                buildIssue('External verification reported failure.', 'external-verification-failed', externalVerification),
+            ],
+        };
+    }
+    const echoed = typeof execution.result.output === 'object' && execution.result.output !== null
+        ? execution.result.output.echoed
+        : undefined;
+    if (execution.skillId === 'echo_text' && input.expectedEcho !== null && echoed !== input.expectedEcho) {
+        return {
+            ...base,
+            status: 'failed',
+            summary: 'Echo output did not match the expected value.',
+            issues: [
+                buildIssue('Echo output did not match the expected value.', 'mismatch', {
+                    expectedEcho: input.expectedEcho,
+                    actualEcho: echoed,
+                }),
+            ],
+        };
+    }
+    if (input.task.metadata?.['failVerify'] === true) {
+        return {
+            ...base,
+            status: 'failed',
+            summary: 'Verification was intentionally failed by task metadata.',
+            issues: [buildIssue('Verification was intentionally failed by task metadata.', 'forced-failure')],
+        };
+    }
+    return {
+        ...base,
+        status: 'passed',
+        summary: execution.actionResult.summary,
+        issues: [],
+    };
+};
+export const toRuntimeOutcomeStatus = (report, decision, execution) => {
+    if (decision === 'block') {
+        return 'blocked';
+    }
+    if (decision === 'escalate') {
+        return 'escalated';
+    }
+    if (execution?.actionResult.status === 'denied') {
+        return 'denied';
+    }
+    if (execution?.actionResult.status === 'cancelled') {
+        return 'cancelled';
+    }
+    if (execution?.actionResult.status === 'skipped' || report.status === 'skipped') {
+        return 'skipped';
+    }
+    return report.status === 'passed' ? 'success' : 'failed';
+};
+export const buildRuntimeTaskResult = (input) => {
+    const policyBlock = input.policyDecision.type === 'block'
+        ? {
+            reason: input.policyDecision.reason,
+            code: 'POLICY_BLOCK',
+        }
+        : undefined;
+    const policyEscalation = input.policyDecision.type === 'escalate'
+        ? {
+            reason: input.policyDecision.reason,
+            code: 'POLICY_ESCALATE',
+        }
+        : undefined;
+    return {
+        id: input.taskId,
+        status: input.status,
+        summary: input.summary ?? input.verification.summary,
+        output: input.output,
+        clarificationNeeded: input.clarificationNeeded ?? [],
+        policyDecision: input.policyDecision,
+        policyBlock,
+        policyEscalation,
+        denial: input.denial,
+        verification: input.verification,
+        lastAttemptId: input.lastAttemptId,
+    };
+};

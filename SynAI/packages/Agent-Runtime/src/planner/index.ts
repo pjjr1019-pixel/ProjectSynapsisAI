@@ -1,4 +1,14 @@
-import type { ActionRequest, AgentTask, RiskClassification, SideEffectClassification, TaskPlan, TaskStep } from '../contracts';
+import {
+  PROMPT_INTENT_BRIDGE_METADATA_KEY,
+  PromptIntentRuntimeBridgeSchema,
+  type ActionRequest,
+  type AgentTask,
+  type PromptIntentRuntimeBridge,
+  type RiskClassification,
+  type SideEffectClassification,
+  type TaskPlan,
+  type TaskStep,
+} from '../contracts';
 import { createActionRequest, createRuntimeId, createTaskPlan, nowIso } from '../core';
 
 const getTaskMetadata = (task: AgentTask): Record<string, unknown> => task.metadata ?? {};
@@ -12,6 +22,15 @@ const getBooleanMetadata = (task: AgentTask, key: string): boolean => getTaskMet
 
 const getOperationRecord = (value: unknown): Record<string, unknown> =>
   value && typeof value === 'object' ? (value as Record<string, unknown>) : {};
+
+const normalizeClarificationQuestions = (questions: string[]): string[] =>
+  [...new Set(questions.map((value) => value.trim()).filter((value) => value.length > 0))];
+
+const getPromptIntentBridge = (task: AgentTask): PromptIntentRuntimeBridge | null => {
+  const metadata = getTaskMetadata(task);
+  const parsed = PromptIntentRuntimeBridgeSchema.safeParse(metadata[PROMPT_INTENT_BRIDGE_METADATA_KEY]);
+  return parsed.success ? parsed.data : null;
+};
 
 const createPlanStep = (input: {
   taskId: string;
@@ -156,6 +175,7 @@ export interface PlannedAgentTask {
 export const planAgentTask = (task: AgentTask): PlannedAgentTask => {
   const createdAt = nowIso();
   const metadata = getTaskMetadata(task);
+  const promptIntentBridge = getPromptIntentBridge(task);
   const operation =
     metadata['desktopAction'] !== undefined
       ? resolveDesktopActionOperation(task)
@@ -255,18 +275,34 @@ export const planAgentTask = (task: AgentTask): PlannedAgentTask => {
     },
   });
 
+  const operationClarificationNeeded =
+    operation.kind !== 'skill' && 'clarificationNeeded' in operation ? operation.clarificationNeeded : [];
+  const bridgeClarificationNeeded =
+    promptIntentBridge?.clarification.needed === true ? promptIntentBridge.clarification.questions : [];
+  const clarificationNeeded = normalizeClarificationQuestions([
+    ...operationClarificationNeeded,
+    ...bridgeClarificationNeeded,
+  ]);
+
   const plan = createTaskPlan({
     taskId: task.id,
     summary: `Planned ${steps.length} runtime steps for ${task.title}.`,
-    status: operation.kind !== 'skill' && 'clarificationNeeded' in operation && operation.clarificationNeeded.length > 0
-      ? 'clarification_needed'
-      : 'planned',
+    status: clarificationNeeded.length > 0 ? 'clarification_needed' : 'planned',
     steps,
-    clarificationNeeded:
-      operation.kind !== 'skill' && 'clarificationNeeded' in operation ? operation.clarificationNeeded : [],
+    clarificationNeeded,
     metadata: {
       actionRequestId: actionRequest.id,
       actionKind: operation.kind,
+      promptIntentBridgeSummary: promptIntentBridge
+        ? {
+            intentFamily: promptIntentBridge.intentFamily,
+            sourceScope: promptIntentBridge.sourceScope,
+            preserveExactStructure: promptIntentBridge.outputContract.preserveExactStructure,
+            clarificationNeeded: promptIntentBridge.clarification.needed,
+            preferenceCount: promptIntentBridge.preferenceIds.length,
+            resolvedPatternId: promptIntentBridge.resolvedPatternId ?? null,
+          }
+        : undefined,
     },
   });
 

@@ -1,13 +1,41 @@
 import { describe, expect, it } from "vitest";
 import type {
   ChatExecutionDiagnostics,
+  ChatReplyPolicyDiagnostics,
   GroundingSummary,
   PromptEvaluationCaseInput
 } from "@contracts";
 import {
   buildPromptEvaluationRoutingReport,
-  evaluatePromptEvaluationCase
+  evaluatePromptEvaluationCase,
+  normalizePromptEvaluationCases
 } from "./prompt-eval-analysis";
+import { canonicalPromptEvalCases } from "../../../tests/prompt-evals/canonical-cases";
+
+const policyDiagnostics: ChatReplyPolicyDiagnostics = {
+  rawSignals: ["scope:repo-wide", "format:exact-structure", "time:live-request"],
+  fallbackSignals: ["fallback:repo-wide-pattern", "fallback:exact-structure-pattern"],
+  classifier: {
+    categories: {
+      repo_grounded: true,
+      exact_format: true,
+      awareness_local_state: false,
+      time_sensitive: true,
+      governed_action: false,
+      generic_writing: false,
+      first_time_task: false,
+      open_ended: false
+    },
+    repoGroundingSubtype: "repo-wide"
+  },
+  chosenPolicy: {
+    sourceScope: "repo-wide",
+    formatPolicy: "preserve-exact-structure",
+    groundingPolicy: "source-boundary",
+    routingPolicy: "chat-first-source-scoped"
+  },
+  suppressionReasons: ["repo-grounded scope suppresses awareness routing"]
+};
 
 const baseDiagnostics: ChatExecutionDiagnostics = {
   routeFamily: "repo-change",
@@ -18,12 +46,8 @@ const baseDiagnostics: ChatExecutionDiagnostics = {
   deterministicAwareness: false,
   genericWritingPromptSuppressed: false,
   sourceScope: "repo-wide",
-  replyPolicy: {
-    sourceScope: "repo-wide",
-    formatPolicy: "preserve-exact-structure",
-    groundingPolicy: "source-boundary",
-    routingPolicy: "chat-first-source-scoped"
-  },
+  replyPolicy: policyDiagnostics.chosenPolicy,
+  policyDiagnostics,
   cleanupBypassed: true,
   routingSuppressionReason: "repo-grounded scope suppresses awareness routing",
   retrievedSourceSummary: {
@@ -60,45 +84,136 @@ const groundedSummary = (patch: Partial<GroundingSummary> = {}): GroundingSummar
 });
 
 describe("prompt evaluation analysis", () => {
-  it("passes when text, routing, and grounding expectations all hold", () => {
-    const entry: PromptEvaluationCaseInput = {
-      id: "medium-prompt",
-      label: "Medium",
-      difficulty: "medium",
-      prompt: "Summarize the repo behavior.",
-      sourceScopeHint: "repo-wide",
-      formatPolicy: "preserve-exact-structure",
-      checks: [
-        {
-          id: "two-bullets",
-          kind: "bullet-count",
-          description: "Use exactly two bullets.",
-          exact: 2
-        }
-      ],
-      routingExpectations: {
-        awarenessUsed: false,
-        deterministicAwareness: false,
-        genericWritingPromptSuppressed: false
-      },
-      groundingExpectations: {
-        minGroundedClaims: 1,
-        maxUnsupportedClaims: 0,
-        maxConflictedClaims: 0,
-        minCitationCoverage: 0.5
+  it("normalizes blank ids and trims prompt evaluation cases", () => {
+    const normalized = normalizePromptEvaluationCases([
+      {
+        id: " ",
+        label: " ",
+        difficulty: "easy",
+        prompt: "  Summarize the repo.  ",
+        checks: [
+          {
+            id: " ",
+            kind: "includes-any",
+            description: " ",
+            values: [" repo ", " docs "]
+          }
+        ]
       }
-    };
+    ]);
+
+    expect(normalized).toEqual([
+      {
+        id: "prompt-1",
+        label: "Easy prompt",
+        difficulty: "easy",
+        prompt: "Summarize the repo.",
+        checks: [
+          {
+            id: "prompt-1-check-1",
+            kind: "includes-any",
+            description: "Check 1",
+            category: undefined,
+            values: ["repo", "docs"],
+            exact: undefined,
+            min: undefined,
+            max: undefined
+          }
+        ],
+        sourceScopeHint: undefined,
+        formatPolicy: undefined,
+        replyPolicy: undefined,
+        routingExpectations: undefined,
+        groundingExpectations: undefined
+      }
+    ]);
+  });
+
+  it("passes when text, routing, and grounding expectations all hold", () => {
+    const entry: PromptEvaluationCaseInput = canonicalPromptEvalCases[0];
 
     const result = evaluatePromptEvaluationCase(
       entry,
-      "- First point.\n- Second point.",
-      buildPromptEvaluationRoutingReport(baseDiagnostics),
+      "- Trigger: Use recent web search only when the README says the prompt is time-sensitive.\n- Action: Route through the repo-safe prompt path.\n- Surfacing: Show Context Preview so the user can see the scope.",
+      buildPromptEvaluationRoutingReport({
+        ...baseDiagnostics,
+        sourceScope: "readme-only",
+        replyPolicy: {
+          sourceScope: "readme-only",
+          formatPolicy: "preserve-exact-structure",
+          groundingPolicy: "source-boundary",
+          routingPolicy: "chat-first-source-scoped"
+        },
+        policyDiagnostics: {
+          ...policyDiagnostics,
+          classifier: {
+            categories: {
+              ...policyDiagnostics.classifier.categories
+            },
+            repoGroundingSubtype: "readme-only"
+          },
+          chosenPolicy: {
+            sourceScope: "readme-only",
+            formatPolicy: "preserve-exact-structure",
+            groundingPolicy: "source-boundary",
+            routingPolicy: "chat-first-source-scoped"
+          }
+        },
+        routingSuppressionReason: "readme-only scope suppresses awareness routing"
+      }),
       "success",
       groundedSummary()
     );
 
     expect(result.qualityStatus).toBe("passed");
     expect(result.checkResults.every((check) => check.passed)).toBe(true);
+  });
+
+  it("evaluates classifier expectations and exact line prefixes for repo-doc prompts mentioning Windows", () => {
+    const entry = canonicalPromptEvalCases[1];
+    const routing = buildPromptEvaluationRoutingReport({
+      ...baseDiagnostics,
+      sourceScope: "docs-only",
+      replyPolicy: {
+        sourceScope: "docs-only",
+        formatPolicy: "preserve-exact-structure",
+        groundingPolicy: "source-boundary",
+        routingPolicy: "chat-first-source-scoped"
+      },
+      policyDiagnostics: {
+        ...policyDiagnostics,
+        classifier: {
+          categories: {
+            ...policyDiagnostics.classifier.categories,
+            awareness_local_state: true
+          },
+          repoGroundingSubtype: "docs-only"
+        },
+        chosenPolicy: {
+          sourceScope: "docs-only",
+          formatPolicy: "preserve-exact-structure",
+          groundingPolicy: "source-boundary",
+          routingPolicy: "chat-first-source-scoped"
+        }
+      },
+      routingSuppressionReason: "docs-only scope suppresses awareness routing"
+    });
+
+    const result = evaluatePromptEvaluationCase(
+      entry,
+      "- Evidence: The docs describe the formatting path for awareness answers.\n- Routing: The repo-scoped route still suppresses awareness execution for this prompt.",
+      routing,
+      "success",
+      groundedSummary()
+    );
+
+    expect(result.qualityStatus).toBe("passed");
+    expect(result.checkResults).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ id: "docs-only-windows-routing-classifier-awareness_local_state", passed: true }),
+        expect.objectContaining({ id: "docs-only-windows-routing-prefixes", passed: true })
+      ])
+    );
   });
 
   it("fails when routing mismatches or grounding reports unsupported claims", () => {
@@ -142,6 +257,43 @@ describe("prompt evaluation analysis", () => {
           id: "edge-prompt-unsupported-claims",
           passed: false,
           detail: "Actual unsupported claims: 1."
+        }),
+        expect.objectContaining({
+          id: "edge-prompt-awareness-used",
+          passed: false
+        })
+      ])
+    );
+  });
+
+  it("fails classifier expectations when an old brittle route would have slipped through", () => {
+    const entry = canonicalPromptEvalCases[5];
+    const result = evaluatePromptEvaluationCase(
+      entry,
+      "Goal\nSteps\nRisks",
+      buildPromptEvaluationRoutingReport({
+        ...baseDiagnostics,
+        policyDiagnostics: {
+          ...policyDiagnostics,
+          classifier: {
+            categories: {
+              ...policyDiagnostics.classifier.categories,
+              first_time_task: false
+            },
+            repoGroundingSubtype: "repo-wide"
+          }
+        }
+      }),
+      "success",
+      groundedSummary()
+    );
+
+    expect(result.qualityStatus).toBe("needs-review");
+    expect(result.checkResults).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          id: "first-time-task-decomposition-classifier-first_time_task",
+          passed: false
         })
       ])
     );

@@ -209,6 +209,40 @@ describe("desktop actions service", () => {
     }
   });
 
+  it("ignores relative allowed roots so they cannot widen file-operation approval scope", async () => {
+    const root = await mkdtemp(path.join(tmpdir(), "desktop-actions-"));
+    const host = buildHost();
+    const service = createDesktopActionService({
+      workspaceRoot: root,
+      runtimeRoot: path.join(root, ".runtime"),
+      host
+    });
+
+    try {
+      const outsideTarget = path.join(path.dirname(root), "outside.txt");
+      const blockedResult = await service.executeDesktopAction({
+        proposalId: "create-file",
+        kind: "create-file",
+        scope: "workspace",
+        targetKind: "path",
+        target: outsideTarget,
+        riskClass: "medium",
+        destructive: false,
+        dryRun: false,
+        allowedRoots: [".."],
+        metadata: {
+          content: "should stay blocked"
+        }
+      });
+
+      expect(blockedResult.status).toBe("failed");
+      expect(String(blockedResult.error ?? blockedResult.summary)).toContain("workspace root");
+      expect(host.createFile).not.toHaveBeenCalledWith(path.normalize(outsideTarget), expect.anything());
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
   it("simulates dry-run file creation and blocks cross-scope writes", async () => {
     const root = await mkdtemp(path.join(tmpdir(), "desktop-actions-"));
     const host = buildHost();
@@ -293,6 +327,71 @@ describe("desktop actions service", () => {
 
       expect(approved.status).toBe("executed");
       expect(host.terminateProcess).toHaveBeenCalledWith("1234", "process-id", false);
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
+  it("records denied and blocked approval queue outcomes distinctly", async () => {
+    const root = await mkdtemp(path.join(tmpdir(), "desktop-actions-"));
+    const host = buildHost();
+    const queueRecords: Array<{ status: string; summary: string }> = [];
+    const approvalQueue = {
+      record: vi.fn(async (record: { status: string; summary: string }) => {
+        queueRecords.push(record);
+      }),
+      list: vi.fn(async () => ({
+        capturedAt: new Date().toISOString(),
+        totals: {
+          total: queueRecords.length,
+          pending: 0,
+          approved: 0,
+          consumed: 0,
+          denied: queueRecords.filter((record) => record.status === "denied").length,
+          blocked: queueRecords.filter((record) => record.status === "blocked").length,
+          revoked: 0,
+          expired: 0
+        },
+        records: queueRecords
+      }))
+    };
+
+    const service = createDesktopActionService({
+      workspaceRoot: root,
+      runtimeRoot: path.join(root, ".runtime"),
+      host,
+      approvalQueue
+    });
+
+    try {
+      const deniedResult = await service.executeDesktopAction({
+        proposalId: "launch-program",
+        kind: "launch-program",
+        scope: "application",
+        targetKind: "program",
+        target: "format c:",
+        riskClass: "low",
+        destructive: false,
+        dryRun: false
+      });
+
+      expect(deniedResult.status).toBe("denied");
+      expect(queueRecords.at(-1)?.status).toBe("denied");
+      expect(host.launchProgram).not.toHaveBeenCalled();
+
+      const blockedResult = await service.executeDesktopAction({
+        proposalId: "terminate-process",
+        kind: "terminate-process",
+        scope: "process",
+        targetKind: "process-id",
+        target: "1234",
+        riskClass: "high",
+        destructive: true,
+        dryRun: false
+      });
+
+      expect(blockedResult.status).toBe("blocked");
+      expect(queueRecords.at(-1)?.status).toBe("blocked");
     } finally {
       await rm(root, { recursive: true, force: true });
     }

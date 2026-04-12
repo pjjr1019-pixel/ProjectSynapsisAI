@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "createdAt": "2026-04-12T13:27:13.900Z",
-  "lastUpdated": "2026-04-12T13:35:25.471Z",
-  "totalTurns": 6,
+  "lastUpdated": "2026-04-12T22:44:00.909Z",
+  "totalTurns": 16,
   "entries": [
     {
       "timestamp": "2026-04-12T13:27:13.900Z",
@@ -114,6 +114,196 @@
       },
       "metadata": {
         "requestId": "chat-1776000917056-1a8b3744a02b4",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:03:34.817Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 1,
+      "userPrompt": "whats new",
+      "assistantReply": "I'm not sure what specifically has changed or is new, as there's no detailed context. Could you please provide more information about what you're looking for?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776031408081-e954d22363e39",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:03:52.472Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 2,
+      "userPrompt": "are you smarter now",
+      "assistantReply": "From the evidence I have, I can't confirm whether I am smarter now or not. I don't have a way to measure intelligence or compare myself with others in real-time. My capabilities are based on the tasks and data I've been trained on, but that doesn't necessarily mean I'm \"smarter.\"",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776031430582-b1242ca3afe0b",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:04:23.217Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 3,
+      "userPrompt": "windows taskmanager",
+      "assistantReply": "To open the Windows Task Manager, you can press `Ctrl + Shift + Esc` on your keyboard. This will directly launch the Task Manager window where you can see running applications and system resources.",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776031461745-8bc958c3a7e82",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:04:43.545Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 4,
+      "userPrompt": "didnt work",
+      "assistantReply": "It seems there might be an issue with the request or the context needed to open a specific application like MSPaint. Could you please provide more details on what you're trying to achieve?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776031482110-c4e3f726b4c47",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:06:56.165Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 5,
+      "userPrompt": "can you improve yourself",
+      "assistantReply": "From what I know, improving oneself typically involves setting goals, learning new skills, and maintaining good habits. Is there a specific area or skill you want to improve?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776031609364-3eb7a97d3604d",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:07:20.644Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 6,
+      "userPrompt": "improve",
+      "assistantReply": "To help improve, let's start by creating a main folder in your Documents directory. Would you like me to create this for you now?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": true,
+        "highQualityModeEnabled": false
+      },
+      "metadata": {
+        "requestId": "chat-1776031636415-a0c02d504412e",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:08:12.995Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 7,
+      "userPrompt": "are you able to fix these weak replies",
+      "assistantReply": "The user needs assistance with fixing weak replies. Let’s focus on that first. Could you provide more details about the specific issues or context related to the weak replies?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776031687531-e9708d1a9eee7",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:43:11.634Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 8,
+      "userPrompt": "hi",
+      "assistantReply": "Hi there! How can I assist you today?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776033783515-393ddf2365429",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:43:43.893Z",
+      "conversationId": "1776031402794-1479c5b309e52",
+      "turn": 9,
+      "userPrompt": "hello",
+      "assistantReply": "Hello! How can I help you with something today?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776033822672-0cf211ba08362",
+        "reasoningProfile": "chat",
+        "planningPolicy": "off"
+      }
+    },
+    {
+      "timestamp": "2026-04-12T22:44:00.909Z",
+      "conversationId": "1776033836561-9c5857ce3bb5",
+      "turn": 1,
+      "userPrompt": "hi",
+      "assistantReply": "Hi there! How can I assist you today?",
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "settings": {
+        "responseMode": "smart",
+        "ragEnabled": true,
+        "codingModeEnabled": false,
+        "highQualityModeEnabled": true
+      },
+      "metadata": {
+        "requestId": "chat-1776033839785-3365dbfa97fe5",
         "reasoningProfile": "chat",
         "planningPolicy": "off"
       }

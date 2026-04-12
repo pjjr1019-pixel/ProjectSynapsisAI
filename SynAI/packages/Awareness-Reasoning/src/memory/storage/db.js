@@ -1,11 +1,12 @@
 import { dirname } from "node:path";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 const DEFAULT_DB_PATH = "SynAI/data/synai-db.json";
 let dbPath = DEFAULT_DB_PATH;
 let writeQueue = Promise.resolve();
 let cache = null;
 let loadQueue = null;
 let mutateQueue = Promise.resolve();
+let ensureQueue = null;
 const emptyDatabase = () => ({
     conversations: [],
     messages: [],
@@ -14,7 +15,9 @@ const emptyDatabase = () => ({
     summaries: [],
     capabilityRuns: [],
     capabilityCases: [],
-    capabilityEvents: []
+    capabilityEvents: [],
+    improvementEvents: [],
+    patchProposals: []
 });
 export const configureDatabasePath = (nextPath) => {
     dbPath = nextPath;
@@ -22,52 +25,73 @@ export const configureDatabasePath = (nextPath) => {
     loadQueue = null;
     writeQueue = Promise.resolve();
     mutateQueue = Promise.resolve();
+    ensureQueue = null;
 };
 export const getDatabasePath = () => dbPath;
 const cloneDatabase = (db) => structuredClone(db);
+const cloneValue = (value) => structuredClone(value);
 const ensureDbFile = async () => {
-    await mkdir(dirname(dbPath), { recursive: true });
     try {
-        await readFile(dbPath, "utf8");
+        if (!ensureQueue) {
+            ensureQueue = (async () => {
+                await mkdir(dirname(dbPath), { recursive: true });
+                try {
+                    await access(dbPath);
+                }
+                catch {
+                    await writeFile(dbPath, JSON.stringify(emptyDatabase(), null, 2), "utf8");
+                }
+            })();
+        }
+        await ensureQueue;
     }
-    catch {
-        await writeFile(dbPath, JSON.stringify(emptyDatabase(), null, 2), "utf8");
+    catch (error) {
+        ensureQueue = null;
+        throw error;
     }
 };
-export const loadDatabase = async () => {
+const hydrateDatabase = (parsed) => ({
+    conversations: parsed.conversations ?? [],
+    messages: parsed.messages ?? [],
+    memories: parsed.memories ?? [],
+    promptBehaviorMemories: parsed.promptBehaviorMemories ?? [],
+    summaries: parsed.summaries ?? [],
+    capabilityRuns: parsed.capabilityRuns ?? [],
+    capabilityCases: parsed.capabilityCases ?? [],
+    capabilityEvents: parsed.capabilityEvents ?? [],
+    improvementEvents: parsed.improvementEvents ?? [],
+    patchProposals: parsed.patchProposals ?? []
+});
+const getCachedDatabase = async () => {
     if (cache) {
-        return cloneDatabase(cache);
+        return cache;
     }
     if (loadQueue) {
-        return cloneDatabase(await loadQueue);
+        return await loadQueue;
     }
     loadQueue = (async () => {
         await ensureDbFile();
         const raw = await readFile(dbPath, "utf8");
         const parsed = JSON.parse(raw);
-        cache = {
-            conversations: parsed.conversations ?? [],
-            messages: parsed.messages ?? [],
-            memories: parsed.memories ?? [],
-            promptBehaviorMemories: parsed.promptBehaviorMemories ?? [],
-            summaries: parsed.summaries ?? [],
-            capabilityRuns: parsed.capabilityRuns ?? [],
-            capabilityCases: parsed.capabilityCases ?? [],
-            capabilityEvents: parsed.capabilityEvents ?? []
-        };
+        cache = hydrateDatabase(parsed);
         return cache;
     })();
     try {
-        return cloneDatabase(await loadQueue);
+        return await loadQueue;
     }
     finally {
         loadQueue = null;
     }
 };
+export const loadDatabase = async () => cloneDatabase(await getCachedDatabase());
+export const readDatabaseValue = async (selector) => cloneValue(selector(await getCachedDatabase()));
 export const saveDatabase = async (db) => {
     await ensureDbFile();
-    cache = cloneDatabase(db);
-    writeQueue = writeQueue.then(() => writeFile(dbPath, JSON.stringify(cache), "utf8"));
+    const snapshot = cloneDatabase(db);
+    const serialized = JSON.stringify(snapshot);
+    cache = snapshot;
+    loadQueue = null;
+    writeQueue = writeQueue.catch(() => undefined).then(() => writeFile(dbPath, serialized, "utf8"));
     await writeQueue;
 };
 export const mutateDatabase = async (mutator) => {

@@ -1,3 +1,159 @@
+// Phase 6: Unified Request Understanding & Capability Routing types
+
+// 1. RequestFamily
+export type RequestFamily =
+  | "file"
+  | "browser"
+  | "process"
+  | "service"
+  | "registry"
+  | "ui"
+  | "system"
+  | "app"
+  | "answer-only"
+  | "workflow"
+  | "unknown";
+
+// 2. RoutingOutcome
+export type RoutingOutcome = "answer" | "act" | "clarify" | "unsupported";
+
+// 3. ExecutorId
+export type ExecutorId =
+  | "desktop-actions"
+  | "workflow-orchestrator"
+  | "browser-automation"
+  | "service-control"
+  | "registry-control"
+  | "answer-only"
+  | "improvement"
+  | "unknown";
+
+// 4. UnsupportedRequestReason
+export type UnsupportedRequestReason =
+  | "NO_CAPABILITY"
+  | "BLOCKED_BY_POLICY"
+  | "RISK_TIER_TOO_HIGH"
+  | "AMBIGUOUS"
+  | "PLUGIN_BLOCKED"
+  | "MISSING_CONTEXT"
+  | "UNRECOGNIZED";
+
+// 4b. RoutingEscalationDecision (Phase 6: Reasoning escalation policy)
+export type RoutingEscalationDecision = 
+  | "none"
+  | "ambiguous_intent"
+  | "low_confidence"
+  | "complexity"
+  | "capability_gap"
+  | "code_architecture";
+
+// 5. CapabilitySource
+export type CapabilitySource = "runtime-registry" | "windows-action-adapter" | "plugin" | "builtin";
+
+// 6. CapabilityType
+export type CapabilityType = "action" | "executor" | "skill" | "surface";
+
+// 7. RequestIntent
+export interface RequestIntent {
+  family: RequestFamily;
+  label: string;
+  signals: string[];
+}
+
+// 8. RequestIntentConfidence
+export interface RequestIntentConfidence {
+  value: number; // 0-1
+  rationale: string;
+}
+
+// 9. CapabilityMatch
+export interface CapabilityMatch {
+  capabilityId: string;
+  name: string;
+  matchConfidence: number;
+  matchReason: "alias" | "category" | "intent";
+  source: CapabilitySource;
+  type: CapabilityType;
+}
+
+// 10. CapabilityLookupResult
+export interface CapabilityLookupResult {
+  matches: CapabilityMatch[];
+  unsupportedReason?: UnsupportedRequestReason;
+}
+
+// 11. RoutingDecision
+export interface RoutingDecision {
+  outcome: RoutingOutcome;
+  reason?: string;
+  clarificationNeeded?: string[];
+  actionPlan?: ActionPlan;
+}
+
+// 12. ClarificationDecision
+export interface ClarificationDecision {
+  clarificationNeeded: string[];
+  prompt: string;
+  fingerprint: string;
+}
+
+// 13. UnsupportedClarifyEvent
+export interface UnsupportedClarifyEvent {
+  eventType: "unsupported" | "clarify";
+  requestId: string;
+  timestamp: number;
+  userText: string;
+  detectedIntent: RequestIntent;
+  unsupportedReason?: UnsupportedRequestReason;
+  clarificationNeeded?: string[];
+  fingerprint: string; // hash of (userText + detectedIntent.family + unsupportedReason)
+  dedupKey: string;    // same as fingerprint
+  rateLimitBucket: string; // e.g. user/session/intent
+  rateLimitCount: number;
+  improvementCandidate: boolean; // true if event should be queued for improvement analysis
+  // Phase 6: Capability-gap proposal fields
+  capability_family?: string; // e.g. "calendar", "task_management", "code_execution"
+  suggested_tool_area?: string; // e.g. "packages/Desktop-Actions", "plugins/calendar"
+  requires_governance_approval?: boolean;
+  estimated_complexity?: "trivial" | "small" | "medium" | "complex";
+}
+
+// 14. ActionPlan
+export interface ActionPlan {
+  executor: ExecutorId;
+  steps: string[];
+  riskTier: string;
+  requiresApproval: boolean;
+}
+
+// 15. RequestUnderstandingTrace
+export interface RequestUnderstandingTrace {
+  requestId: string;
+  timestamp: number;
+  normalizedText: string;
+  detectedIntent: RequestIntent;
+  intentConfidence: RequestIntentConfidence;
+  capabilityLookup: CapabilityLookupResult;
+  routingDecision: RoutingDecision;
+  contextSummary: string;
+  // Phase 6: Reasoning escalation fields
+  escalationDecision?: RoutingEscalationDecision;
+  escalationReason?: string;
+}
+
+// 16. CapabilityGapProposal (Phase 6: Structured capability gap proposal for external consumption)
+export interface CapabilityGapProposal {
+  capabilityFamily: string; // e.g. "calendar", "task_management", "code_generation"
+  userRequest: string;
+  detectedIntent: RequestIntent;
+  reasonForGap: UnsupportedRequestReason;
+  likelyTargetArea: string; // e.g. "packages/Desktop-Actions", "plugins/calendar"
+  approvalRequired: boolean;
+  timestamp: string;
+  requestId: string;
+  fromImprovementEventId?: string; // Links back to improvement event
+  estimatedComplexity?: "trivial" | "small" | "medium" | "complex";
+}
 import type {
   ApprovalToken,
   ChatGovernedTaskDecision,

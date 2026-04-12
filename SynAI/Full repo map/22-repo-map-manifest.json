@@ -1,0 +1,80 @@
+{
+  "generatedDate": "2026-04-12",
+  "documentList": [
+    "README.md",
+    "00-executive-summary.md",
+    "01-top-level-structure.md",
+    "02-runtime-spine.md",
+    "03-main-preload-renderer-map.md",
+    "04-packages-and-boundaries.md",
+    "05-capability-registry-and-routing.md",
+    "06-memory-improvement-overlay-map.md",
+    "07-model-runtime-and-context-map.md",
+    "08-tests-map.md",
+    "09-docs-and-decision-records-map.md",
+    "10-generated-runtime-and-data-artifacts.md",
+    "11-duplicate-and-overlap-map.md",
+    "12-dead-code-and-stale-file-map.md",
+    "13-file-quality-audit.md",
+    "14-folder-quality-audit.md",
+    "15-contracts-and-types-map.md",
+    "16-dependency-direction-audit.md",
+    "17-cleanup-safety-map.md",
+    "18-reorganization-target-structure.md",
+    "19-step-by-step-reorg-roadmap.md",
+    "20-first-files-to-study.md",
+    "21-risk-register.md",
+    "22-do-not-touch-yet.md",
+    "repo-tree.txt",
+    "top-level-folder-index.json",
+    "runtime-spine-index.json",
+    "cleanup-candidates.json"
+  ],
+  "topRiskAreas": [
+    "runtime spine breakage",
+    "Electron boundary violations",
+    "capability registry/router drift",
+    "memory/improvement duplication",
+    "dead code/wrapper removal",
+    "artifact/runtime/data mixing",
+    "docs/contract drift"
+  ],
+  "runtimeSpineFiles": [
+    "apps/desktop/electron/main.ts",
+    "apps/desktop/electron/preload.ts",
+    "apps/desktop/src/main.tsx",
+    "packages/Governance-Execution/src/governed-chat/router.ts",
+    "packages/Awareness-Reasoning/src/runtime-capabilities.ts",
+    "packages/Awareness-Reasoning/src/memory/storage/messages.ts",
+    "packages/Awareness-Reasoning/src/improvement/analyzer.ts"
+  ],
+  "cleanupPriorityAreas": [
+    "SynAI/",
+    "packages/",
+    "artifacts/",
+    "data/"
+  ],
+  "doNotTouchYet": [
+    "apps/desktop/electron/main.ts",
+    "packages/Governance-Execution/src/governed-chat/router.ts",
+    "packages/Awareness-Reasoning/src/runtime-capabilities.ts",
+    "packages/Awareness-Reasoning/src/memory/storage/messages.ts",
+    "packages/Awareness-Reasoning/src/improvement/analyzer.ts",
+    "apps/desktop/electron/preload.ts",
+    "packages/Awareness-Reasoning/src/context/",
+    "SynAI/"
+  ],
+  "highestConfidenceDeadCodeCandidates": [
+    "scripts/",
+    "tests/setup.js"
+  ],
+  "majorDuplicateSystemClusters": [
+    "routing logic",
+    "capability registries",
+    "memory paths",
+    "event systems",
+    "type definitions",
+    "wrappers/adapters",
+    "docs"
+  ]
+}

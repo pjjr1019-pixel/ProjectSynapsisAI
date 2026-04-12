@@ -1,0 +1,5 @@
+[
+  {"path": "scripts/", "classification": "PROBABLY_UNUSED", "confidence": "medium", "evidence": "inference", "recommendation": "audit", "timing": "after runtime stabilization", "notes": "Some scripts may be unused or legacy."},
+  {"path": "tests/setup.js", "classification": "PROBABLY_UNUSED", "confidence": "medium", "evidence": "inference", "recommendation": "audit", "timing": "after runtime stabilization", "notes": "Test helper, check for usage."},
+  {"path": "packages/Awareness-Reasoning/src/capability-eval/adapter.js", "classification": "PROBABLY_UNUSED", "confidence": "low", "evidence": "inference", "recommendation": "audit", "timing": "only after deeper validation", "notes": "Adapter, check for runtime usage."}
+]

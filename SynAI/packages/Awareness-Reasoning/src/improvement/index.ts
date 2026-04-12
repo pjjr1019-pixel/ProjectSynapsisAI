@@ -6,17 +6,24 @@ export {
   getImprovementEventById,
   getEventsByStatus,
   getReadyToProcessEvents,
-  markEventAsQueued
+  markEventAsQueued,
+  getEventCountsByType,
+  getEventCountsByStatus,
+  getDetectedCapabilityFamilies,
+  getCapabilityGapProposalsForReview,
+  getImprovementPipelineSnapshot
 } from "./queue";
 
 // Analyzer operations
-export { analyzePromptReply, analyzeBatch } from "./analyzer";
+export { analyzePromptReply, analyzeBatch, analyzeUnsupportedClarifyEvent } from "./analyzer";
 
 // Planner operations
 export {
   planImprovementEvent,
   planAllQueuedEvents,
-  getPlanningStats
+  getPlanningStats,
+  exportCapabilityGapProposals,
+  queryCapabilityGapProposalsByFamily
 } from "./planner";
 
 // Reply-policy operations (re-exported for convenience)

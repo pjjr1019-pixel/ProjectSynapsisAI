@@ -1,4 +1,4 @@
-import { mutateDatabase, loadDatabase } from "./db";
+import { mutateDatabase, readDatabaseValue } from "./db";
 const createId = () => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 const tokenize = (text) => text
     .toLowerCase()
@@ -6,84 +6,87 @@ const tokenize = (text) => text
     .split(/\s+/)
     .filter((token) => token.length > 2)
     .slice(0, 24);
-export const listMemories = async () => {
-    const db = await loadDatabase();
-    return db.memories.filter((memory) => !memory.archived);
-};
-export const deleteMemory = async (memoryId) => {
-    await mutateDatabase((db) => ({
-        ...db,
-        memories: db.memories.map((memory) => memory.id === memoryId
-            ? {
-                ...memory,
-                archived: true,
-                updatedAt: new Date().toISOString(),
-                lifecycle: {
-                    status: "archived",
-                    reviewStatus: memory.lifecycle?.reviewStatus ?? "unreviewed",
-                    archivedAt: new Date().toISOString()
-                }
-            }
-            : memory)
-    }));
-};
-export const upsertMemory = async (input) => {
-    const now = new Date().toISOString();
-    const normalizedText = input.text.trim();
-    let nextMemory = null;
-    await mutateDatabase((db) => {
-        const existing = db.memories.find((memory) => !memory.archived &&
-            memory.category === input.category &&
-            memory.text.toLowerCase() === normalizedText.toLowerCase());
-        if (existing) {
-            nextMemory = {
-                ...existing,
-                importance: Math.max(existing.importance, input.importance),
-                sourceConversationId: input.sourceConversationId,
-                updatedAt: now,
-                keywords: tokenize(normalizedText),
-                provenance: {
-                    sourceConversationId: input.sourceConversationId,
-                    sourceKind: "conversation",
-                    capturedAt: now,
-                    sourceMessageCount: null
-                },
-                lifecycle: {
-                    status: "active",
-                    reviewStatus: existing.lifecycle?.reviewStatus ?? "unreviewed",
-                    archivedAt: null
-                }
-            };
-            return {
-                ...db,
-                memories: db.memories.map((memory) => (memory.id === existing.id ? nextMemory : memory))
-            };
+const normalizeMemoryText = (text) => text.trim();
+const buildMemoryLookupKey = (category, text) => `${category}::${normalizeMemoryText(text).toLowerCase()}`;
+const indexActiveMemories = (memories) => {
+    const index = new Map();
+    memories.forEach((memory, position) => {
+        if (!memory.archived) {
+            index.set(buildMemoryLookupKey(memory.category, memory.text), position);
         }
-        nextMemory = {
-            id: createId(),
-            category: input.category,
-            text: normalizedText,
-            sourceConversationId: input.sourceConversationId,
-            createdAt: now,
-            updatedAt: now,
-            importance: input.importance,
-            archived: false,
-            keywords: tokenize(normalizedText),
-            provenance: {
-                sourceConversationId: input.sourceConversationId,
-                sourceKind: "conversation",
-                capturedAt: now,
-                sourceMessageCount: null
-            },
+    });
+    return index;
+};
+const buildMemoryRecord = (input, normalizedText, now, existing) => ({
+    id: existing?.id ?? createId(),
+    category: input.category,
+    text: normalizedText,
+    sourceConversationId: input.sourceConversationId,
+    createdAt: existing?.createdAt ?? now,
+    updatedAt: now,
+    importance: existing ? Math.max(existing.importance, input.importance) : input.importance,
+    archived: false,
+    keywords: tokenize(normalizedText),
+    provenance: {
+        sourceConversationId: input.sourceConversationId,
+        sourceKind: "conversation",
+        capturedAt: now,
+        sourceMessageCount: null,
+        sourceEventId: input.sourceEventId
+    },
+    lifecycle: {
+        status: "active",
+        reviewStatus: existing?.lifecycle?.reviewStatus ?? "unreviewed",
+        archivedAt: null
+    }
+});
+export const listMemories = async () => readDatabaseValue((db) => db.memories.filter((memory) => !memory.archived));
+export const deleteMemory = async (memoryId) => {
+    await mutateDatabase((db) => {
+        const existingIndex = db.memories.findIndex((memory) => memory.id === memoryId);
+        if (existingIndex < 0) {
+            return db;
+        }
+        const archivedAt = new Date().toISOString();
+        const memories = [...db.memories];
+        memories[existingIndex] = {
+            ...memories[existingIndex],
+            archived: true,
+            updatedAt: archivedAt,
             lifecycle: {
-                status: "active",
-                reviewStatus: "unreviewed",
-                archivedAt: null
+                status: "archived",
+                reviewStatus: memories[existingIndex].lifecycle?.reviewStatus ?? "unreviewed",
+                archivedAt
             }
         };
         return {
             ...db,
-            memories: [...db.memories, nextMemory]
+            memories
+        };
+    });
+};
+export const upsertMemory = async (input) => {
+    const now = new Date().toISOString();
+    const normalizedText = normalizeMemoryText(input.text);
+    const lookupKey = buildMemoryLookupKey(input.category, normalizedText);
+    let nextMemory = null;
+    await mutateDatabase((db) => {
+        const memories = [...db.memories];
+        const memoryIndex = indexActiveMemories(memories);
+        const existingIndex = memoryIndex.get(lookupKey);
+        if (existingIndex != null) {
+            nextMemory = buildMemoryRecord(input, normalizedText, now, memories[existingIndex]);
+            memories[existingIndex] = nextMemory;
+            return {
+                ...db,
+                memories
+            };
+        }
+        nextMemory = buildMemoryRecord(input, normalizedText, now);
+        memories.push(nextMemory);
+        return {
+            ...db,
+            memories
         };
     });
     return nextMemory;
@@ -96,60 +99,21 @@ export const batchUpsertMemories = async (candidates) => {
     const stored = [];
     await mutateDatabase((db) => {
         const nextMemories = [...db.memories];
+        const memoryIndex = indexActiveMemories(nextMemories);
         for (const input of candidates) {
-            const normalizedText = input.text.trim();
-            const existingIndex = nextMemories.findIndex((m) => !m.archived &&
-                m.category === input.category &&
-                m.text.toLowerCase() === normalizedText.toLowerCase());
-            if (existingIndex >= 0) {
-                const existing = nextMemories[existingIndex];
-                const updated = {
-                    ...existing,
-                    importance: Math.max(existing.importance, input.importance),
-                    sourceConversationId: input.sourceConversationId,
-                    updatedAt: now,
-                    keywords: tokenize(normalizedText),
-                    provenance: {
-                        sourceConversationId: input.sourceConversationId,
-                        sourceKind: "conversation",
-                        capturedAt: now,
-                        sourceMessageCount: null
-                    },
-                    lifecycle: {
-                        status: "active",
-                        reviewStatus: existing.lifecycle?.reviewStatus ?? "unreviewed",
-                        archivedAt: null
-                    }
-                };
+            const normalizedText = normalizeMemoryText(input.text);
+            const lookupKey = buildMemoryLookupKey(input.category, normalizedText);
+            const existingIndex = memoryIndex.get(lookupKey);
+            if (existingIndex != null) {
+                const updated = buildMemoryRecord(input, normalizedText, now, nextMemories[existingIndex]);
                 nextMemories[existingIndex] = updated;
                 stored.push(updated);
+                continue;
             }
-            else {
-                const newMemory = {
-                    id: createId(),
-                    category: input.category,
-                    text: normalizedText,
-                    sourceConversationId: input.sourceConversationId,
-                    createdAt: now,
-                    updatedAt: now,
-                    importance: input.importance,
-                    archived: false,
-                    keywords: tokenize(normalizedText),
-                    provenance: {
-                        sourceConversationId: input.sourceConversationId,
-                        sourceKind: "conversation",
-                        capturedAt: now,
-                        sourceMessageCount: null
-                    },
-                    lifecycle: {
-                        status: "active",
-                        reviewStatus: "unreviewed",
-                        archivedAt: null
-                    }
-                };
-                nextMemories.push(newMemory);
-                stored.push(newMemory);
-            }
+            const newMemory = buildMemoryRecord(input, normalizedText, now);
+            nextMemories.push(newMemory);
+            memoryIndex.set(lookupKey, nextMemories.length - 1);
+            stored.push(newMemory);
         }
         return { ...db, memories: nextMemories };
     });
@@ -160,13 +124,13 @@ export const searchMemoryKeywords = async (query) => {
     if (terms.length === 0) {
         return listMemories();
     }
-    const memories = await listMemories();
-    return memories
+    return readDatabaseValue((db) => db.memories
+        .filter((memory) => !memory.archived)
         .map((memory) => {
         const score = terms.reduce((acc, term) => (memory.keywords.includes(term) ? acc + 1 : acc), 0);
         return { memory, score };
     })
         .filter((item) => item.score > 0)
         .sort((a, b) => b.score - a.score || b.memory.updatedAt.localeCompare(a.memory.updatedAt))
-        .map((item) => item.memory);
+        .map((item) => item.memory));
 };

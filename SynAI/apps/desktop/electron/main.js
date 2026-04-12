@@ -418,11 +418,12 @@ const shouldUseDeterministicAwarenessReply = (query, awarenessAnswerMode, answer
 };
 const createWindow = async () => {
     mainWindow = new BrowserWindow({
-        width: 1400,
+        width: 520,
         height: 900,
-        minWidth: 1100,
-        minHeight: 680,
+        minWidth: 480,
+        minHeight: 760,
         backgroundColor: "#0a0f1a",
+        autoHideMenuBar: true,
         webPreferences: {
             preload: path.join(__dirname, "../preload/preload.cjs"),
             contextIsolation: true,

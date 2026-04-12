@@ -1,6 +1,7 @@
 import type { ModelLoadEvent, ModelSchedulerStatus, RuntimeSelectionSummary } from "../contracts/health";
 import type { RuntimeTaskClass } from "../contracts/rag";
 import type { OllamaConfig } from "./ollama";
+import { PHASE_6_ESCALATION_POLICY, getEscalationModel, ESCALATION_MODEL_KEEP_ALIVE_MS } from "./escalation-config";
 
 export interface ScheduledLocalAIOptions extends Partial<OllamaConfig> {
   taskClass?: RuntimeTaskClass;
@@ -8,6 +9,9 @@ export interface ScheduledLocalAIOptions extends Partial<OllamaConfig> {
   codingMode?: boolean;
   highQualityMode?: boolean;
   visionUsed?: boolean;
+  // Phase 6: Escalation support
+  escalationModel?: string; // If set, use escalation model instead of default
+  escalationReason?: string; // Why escalation was triggered
 }
 
 interface ScheduledLocalAISelection {
@@ -36,7 +40,11 @@ const recordEvent = (event: ModelLoadEvent): void => {
   }
 };
 
-const getKeepAliveMs = (taskClass: RuntimeTaskClass): number => {
+const getKeepAliveMs = (taskClass: RuntimeTaskClass, isEscalationModel: boolean = false): number => {
+  // Escalation models have 0ms keep-alive: unload immediately after task
+  if (isEscalationModel) {
+    return ESCALATION_MODEL_KEEP_ALIVE_MS;
+  }
   if (taskClass === "embedding") {
     return Number(process.env.OLLAMA_EMBED_KEEP_ALIVE_MS ?? DEFAULT_EMBED_KEEP_ALIVE_MS);
   }
@@ -108,25 +116,31 @@ export const resolveScheduledLocalAISelection = (
   const requestedModel = options.model?.trim() || null;
   const defaultCodeModel = process.env.OLLAMA_CODE_MODEL?.trim() || null;
   const defaultVisionModel = process.env.OLLAMA_VISION_MODEL?.trim() || null;
-  const resolvedModel =
-    taskClass === "embedding"
+  
+  // Phase 6: Check if escalation model should be used
+  const isEscalationTask = Boolean(options.escalationModel);
+  const resolvedModel = isEscalationTask
+    ? options.escalationModel!  // Use escalation model if explicitly provided
+    : taskClass === "embedding"
       ? baseConfig.embedModel ?? requestedModel ?? ""
       : taskClass === "code"
         ? defaultCodeModel ?? requestedModel ?? baseConfig.model
       : taskClass === "vision"
         ? defaultVisionModel ?? requestedModel ?? baseConfig.model
         : requestedModel ?? baseConfig.model;
-  const keepAliveMs = getKeepAliveMs(taskClass);
+  
+  const keepAliveMs = getKeepAliveMs(taskClass, isEscalationTask);
   const reusedActiveModel = activeModel === resolvedModel;
   const reason =
-    options.reason ??
-    (taskClass === "embedding"
-      ? "embedding request"
-      : reusedActiveModel
-        ? "reuse active model"
-        : activeModel
-          ? "swap active model for task"
-          : "load model for task");
+    options.escalationReason ||
+    (options.reason ?? 
+      (taskClass === "embedding"
+        ? "embedding request"
+        : reusedActiveModel
+          ? "reuse active model"
+          : activeModel
+            ? "swap active model for task"
+            : "load model for task"));
 
   return {
     config: {

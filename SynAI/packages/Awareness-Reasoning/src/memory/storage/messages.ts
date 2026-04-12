@@ -1,14 +1,18 @@
+// Phase 6: Attach RequestUnderstandingTrace to message metadata
+import type { RequestUnderstandingTrace } from "../../../Governance-Execution/src/governed-chat/types";
+
 import type { ChatMessage, ChatRole } from "../../contracts/chat";
 import type { WebSearchResult } from "../../contracts/memory";
-import { mutateDatabase, loadDatabase } from "./db";
+import { mutateDatabase, readDatabaseValue } from "./db";
 
 const createId = (): string => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 
 export const listMessages = async (conversationId: string): Promise<ChatMessage[]> => {
-  const db = await loadDatabase();
-  return db.messages
-    .filter((message) => message.conversationId === conversationId)
-    .sort((a, b) => a.createdAt.localeCompare(b.createdAt));
+  return readDatabaseValue((db) =>
+    db.messages
+      .filter((message) => message.conversationId === conversationId)
+      .sort((a, b) => a.createdAt.localeCompare(b.createdAt))
+  );
 };
 
 export const addMessage = async (
@@ -16,7 +20,8 @@ export const addMessage = async (
   role: ChatRole,
   content: string,
   sources?: WebSearchResult[],
-  metadata?: ChatMessage["metadata"]
+  metadata?: ChatMessage["metadata"],
+  phase6Trace?: RequestUnderstandingTrace
 ): Promise<ChatMessage> => {
   const message: ChatMessage = {
     id: createId(),
@@ -25,7 +30,8 @@ export const addMessage = async (
     content,
     createdAt: new Date().toISOString(),
     ...(sources && sources.length > 0 ? { sources } : {}),
-    ...(metadata ? { metadata } : {})
+    ...(metadata ? { metadata } : {}),
+    ...(phase6Trace ? { phase6Trace } : {})
   };
   await mutateDatabase((db) => ({
     ...db,
@@ -43,16 +49,26 @@ export const clearMessages = async (conversationId: string): Promise<void> => {
 
 export const removeLastAssistantMessage = async (conversationId: string): Promise<void> => {
   await mutateDatabase((db) => {
-    const scoped = db.messages.filter((message) => message.conversationId === conversationId);
-    const lastAssistant = [...scoped].reverse().find((message) => message.role === "assistant");
-    if (!lastAssistant) {
+    let lastAssistantIndex = -1;
+    for (let index = db.messages.length - 1; index >= 0; index -= 1) {
+      const message = db.messages[index];
+      if (message.conversationId === conversationId && message.role === "assistant") {
+        lastAssistantIndex = index;
+        break;
+      }
+    }
+
+    if (lastAssistantIndex < 0) {
       return db;
     }
+
     return {
       ...db,
-      messages: db.messages.filter((message) => message.id !== lastAssistant.id)
+      messages: [
+        ...db.messages.slice(0, lastAssistantIndex),
+        ...db.messages.slice(lastAssistantIndex + 1)
+      ]
     };
   });
 };
-
 

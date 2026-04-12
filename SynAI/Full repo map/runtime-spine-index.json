@@ -1,0 +1,14 @@
+[
+  {"stage": "user-entry", "file": "apps/desktop/index.html", "function": null, "status": "VERIFIED", "risk": "high"},
+  {"stage": "renderer-entry", "file": "apps/desktop/src/main.tsx", "function": null, "status": "VERIFIED", "risk": "high"},
+  {"stage": "preload-bridge", "file": "apps/desktop/electron/preload.ts", "function": null, "status": "VERIFIED", "risk": "high"},
+  {"stage": "main-process", "file": "apps/desktop/electron/main.ts", "function": null, "status": "VERIFIED", "risk": "high"},
+  {"stage": "router", "file": "packages/Governance-Execution/src/governed-chat/router.ts", "function": null, "status": "VERIFIED", "risk": "high"},
+  {"stage": "capability-lookup", "file": "packages/Awareness-Reasoning/src/runtime-capabilities.ts", "function": "findCapabilitiesForIntent", "status": "VERIFIED", "risk": "high"},
+  {"stage": "context-assembly", "file": "packages/Awareness-Reasoning/src/context/", "function": null, "status": "VERIFIED", "risk": "medium"},
+  {"stage": "model-execution", "file": "packages/Awareness-Reasoning/src/local-ai/provider.ts", "function": null, "status": "VERIFIED", "risk": "medium"},
+  {"stage": "post-processing", "file": "packages/Awareness-Reasoning/src/reply-policies/", "function": null, "status": "VERIFIED", "risk": "medium"},
+  {"stage": "persistence", "file": "packages/Awareness-Reasoning/src/memory/storage/messages.ts", "function": "addMessage", "status": "VERIFIED", "risk": "high"},
+  {"stage": "improvement-analysis", "file": "packages/Awareness-Reasoning/src/improvement/analyzer.ts", "function": "analyzeUnsupportedClarifyEvent", "status": "VERIFIED", "risk": "medium"},
+  {"stage": "inspection-debug", "file": "context/ARCHITECTURE_SUMMARY.md", "function": null, "status": "VERIFIED", "risk": "low"}
+]

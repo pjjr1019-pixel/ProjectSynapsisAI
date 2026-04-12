@@ -1,3 +1,79 @@
+// Phase 6: Accept UnsupportedClarifyEvent
+import type { UnsupportedClarifyEvent, CapabilityGapProposal } from "../../../Governance-Execution/src/governed-chat/types";
+
+const unsupportedClarifyEventDedup = new Set<string>();
+const unsupportedClarifyEventRateLimit: Record<string, number> = {};
+
+// Phase 6: Classify capability family from unsupported event
+function classifyCapabilityFamily(event: UnsupportedClarifyEvent): string {
+  const text = event.userText.toLowerCase();
+  const intent = event.detectedIntent.label.toLowerCase();
+
+  // Check against known capability families
+  if (text.includes("calendar") || text.includes("schedule") || intent.includes("schedule")) return "calendar";
+  if (text.includes("task") || text.includes("todo") || intent.includes("task")) return "task_management";
+  if (text.includes("time tracking") || text.includes("productivity") || text.includes("pomodoro")) return "time_tracking";
+  if (text.includes("email") || text.includes("mail")) return "email";
+  if (text.includes("notification") || text.includes("alert")) return "notifications";
+  if (text.includes("code") || text.includes("file") || intent.includes("code")) return "code_execution";
+  if (text.includes("cloud") || text.includes("sync") || text.includes("collaboration")) return "cloud_storage";
+  if (text.includes("database") || text.includes("sql")) return "database";
+  if (text.includes("api") || text.includes("integration")) return "integrations";
+
+  return "general_capability";
+}
+
+// Phase 6: Suggest tool area based on capability family
+function suggestToolArea(capabilityFamily: string): string {
+  const suggestions: Record<string, string> = {
+    calendar: "plugins/calendar",
+    task_management: "plugins/task-management",
+    time_tracking: "plugins/time-tracking",
+    code_execution: "packages/Governance-Execution",
+    notifications: "plugins/notifications",
+    email: "plugins/email",
+    cloud_storage: "plugins/cloud-storage",
+    database: "packages/Awareness-Reasoning",
+    integrations: "plugins/integrations",
+    general_capability: "plugins"
+  };
+  return suggestions[capabilityFamily] || "plugins";
+}
+
+/**
+ * Accept a Phase 6 UnsupportedClarifyEvent for improvement analysis.
+ * Dedupes by fingerprint, rate-limits by bucket, only queues if improvementCandidate is true.
+ */
+export async function analyzeUnsupportedClarifyEvent(event: UnsupportedClarifyEvent): Promise<void> {
+  if (!event.improvementCandidate) return;
+  // Deduplication
+  if (unsupportedClarifyEventDedup.has(event.fingerprint)) return;
+  unsupportedClarifyEventDedup.add(event.fingerprint);
+  // Rate limiting (simple: max 3 per bucket)
+  unsupportedClarifyEventRateLimit[event.rateLimitBucket] = (unsupportedClarifyEventRateLimit[event.rateLimitBucket] || 0) + 1;
+  if (unsupportedClarifyEventRateLimit[event.rateLimitBucket] > 3) return;
+
+  // Phase 6: Classify capability family and suggest tool area
+  const capabilityFamily = classifyCapabilityFamily(event);
+  const suggestedArea = suggestToolArea(capabilityFamily);
+
+  // Insert as improvement event
+  await insertImprovementEvent(
+    event.eventType === "unsupported" ? "capability_gap" : "clarification_needed",
+    event.eventType === "unsupported" ? "create_patch_proposal" : "clarify_contract",
+    "medium",
+    event.userText,
+    event.detectedIntent.label,
+    {
+      reasoning: event.eventType === "unsupported"
+        ? `Capability gap: ${event.unsupportedReason}`
+        : `Clarification needed: ${event.clarificationNeeded?.join(", ")}`,
+      payload: event,
+      capabilityFamily,
+      suggestedToolArea: suggestedArea
+    }
+  );
+}
 /**
  * Improvement Analyzer
  * 

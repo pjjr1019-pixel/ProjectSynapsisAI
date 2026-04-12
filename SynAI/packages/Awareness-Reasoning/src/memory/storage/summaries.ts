@@ -1,11 +1,12 @@
 import type { ConversationSummary } from "../../contracts/memory";
-import { mutateDatabase, loadDatabase } from "./db";
+import { mutateDatabase, readDatabaseValue } from "./db";
 
 const createId = (): string => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 
 export const getSummary = async (conversationId: string): Promise<ConversationSummary | null> => {
-  const db = await loadDatabase();
-  return db.summaries.find((summary) => summary.conversationId === conversationId) ?? null;
+  return readDatabaseValue(
+    (db) => db.summaries.find((summary) => summary.conversationId === conversationId) ?? null
+  );
 };
 
 export const upsertSummary = async (
@@ -16,19 +17,19 @@ export const upsertSummary = async (
   const now = new Date().toISOString();
   let nextSummary: ConversationSummary | null = null;
   await mutateDatabase((db) => {
-    const existing = db.summaries.find((summary) => summary.conversationId === conversationId);
-    if (existing) {
+    const existingIndex = db.summaries.findIndex((summary) => summary.conversationId === conversationId);
+    if (existingIndex >= 0) {
+      const summaries = [...db.summaries];
       nextSummary = {
-        ...existing,
+        ...summaries[existingIndex],
         text,
         sourceMessageCount,
         updatedAt: now
       };
+      summaries[existingIndex] = nextSummary!;
       return {
         ...db,
-        summaries: db.summaries.map((summary) =>
-          summary.conversationId === conversationId ? nextSummary! : summary
-        )
+        summaries
       };
     }
     nextSummary = {

@@ -603,11 +603,12 @@ const shouldUseDeterministicAwarenessReply = (
 
 const createWindow = async (): Promise<void> => {
   mainWindow = new BrowserWindow({
-    width: 1400,
+    width: 520,
     height: 900,
-    minWidth: 1100,
-    minHeight: 680,
+    minWidth: 480,
+    minHeight: 760,
     backgroundColor: "#0a0f1a",
+    autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, "../preload/preload.cjs"),
       contextIsolation: true,
@@ -1280,6 +1281,14 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
         content: assistantReply
       });
     } else {
+      // Phase 6: Build provider options, using escalation model if available from route
+      let escalationModelFromRoute: string | undefined;
+      if (!governedTurn.handled && governedTurn.route) {
+        escalationModelFromRoute = (governedTurn.route.artifacts as any)?.escalationModel;
+      }
+      const providerModel = escalationModelFromRoute || modelOverride || undefined;
+      const providerOptions = providerModel ? { model: providerModel } : undefined;
+
       assistantReply = await provider.chatStream(
         promptMessages,
         (content) => {
@@ -1289,7 +1298,7 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
             content
           });
         },
-        modelOverride ? { model: modelOverride } : undefined
+        providerOptions
       );
       assistantReply = cleanupPlainTextAnswer(assistantReply);
       sendRendererEvent(IPC_CHANNELS.chatStream, {
@@ -1449,12 +1458,20 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     if (governedTurn.handled) {
       governedTaskState = governedTurn.taskState;
       const assistantMetadata = governedTaskState ? { task: governedTaskState } : undefined;
+      // Attach Phase 6 trace if present in governedTurn
+      let phase6Trace = undefined;
+      if (governedTurn.phase6Trace) {
+        phase6Trace = governedTurn.phase6Trace;
+      } else if (governedTurn.artifacts && governedTurn.artifacts.phase6Trace) {
+        phase6Trace = governedTurn.artifacts.phase6Trace;
+      }
       const assistantMessage = await appendChatMessage(
         conversationId,
         "assistant",
         governedTurn.assistantReply,
         undefined,
-        assistantMetadata
+        assistantMetadata,
+        phase6Trace
       );
       const conversationWithMessages =
         (await loadConversationRecord(conversationId)) ?? (await resolveConversation(conversationId));

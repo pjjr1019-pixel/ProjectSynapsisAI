@@ -1,3 +1,88 @@
+// Phase 6: Capability registry extension and intent-based lookup
+import type {
+  RequestIntent,
+  CapabilityMatch,
+  CapabilityLookupResult,
+  CapabilitySource,
+  CapabilityType,
+  UnsupportedRequestReason
+} from "../../../Governance-Execution/src/governed-chat/types";
+
+/**
+ * Find capabilities matching a given intent. This is the primary lookup for all capability routing.
+ * @param registryEntries CapabilityRegistryEntry[]
+ * @param intent RequestIntent
+ * @returns CapabilityLookupResult
+ */
+export function findCapabilitiesForIntent(
+  registryEntries: CapabilityRegistryEntry[],
+  intent: RequestIntent
+): CapabilityLookupResult {
+  // Simple deterministic matching: match by family/category, then by label/signals
+  const matches: CapabilityMatch[] = [];
+  for (const entry of registryEntries) {
+    // Map kind to CapabilityType
+    let type: CapabilityType = "skill";
+    if (entry.kind === "desktop-action" || entry.kind === "workflow-step") type = "action";
+    else if (entry.kind === "executor" || entry.kind === "workflow-family") type = "executor";
+    else if (entry.kind === "system-surface" || entry.kind === "browser-capability") type = "surface";
+
+    // Map source
+    let source: CapabilitySource = "runtime-registry";
+    if (entry.source?.startsWith("windows-action")) source = "windows-action-adapter";
+    else if (entry.source?.startsWith("plugin")) source = "plugin";
+    else if (entry.source?.startsWith("builtin")) source = "builtin";
+
+    // Family/category match
+    if (
+      (entry.kind === intent.family || (entry.metadata?.category && entry.metadata.category === intent.family)) ||
+      (Array.isArray(entry.metadata?.families) && entry.metadata.families.includes(intent.family))
+    ) {
+      matches.push({
+        capabilityId: entry.id,
+        name: entry.title,
+        matchConfidence: 1.0,
+        matchReason: "category",
+        source,
+        type
+      });
+      continue;
+    }
+    // Label/alias match
+    if (
+      entry.title.toLowerCase() === intent.label.toLowerCase() ||
+      (Array.isArray(entry.metadata?.aliases) && entry.metadata.aliases.includes(intent.label))
+    ) {
+      matches.push({
+        capabilityId: entry.id,
+        name: entry.title,
+        matchConfidence: 0.9,
+        matchReason: "alias",
+        source,
+        type
+      });
+      continue;
+    }
+    // Signal match
+    if (
+      Array.isArray(intent.signals) &&
+      Array.isArray(entry.metadata?.signals) &&
+      intent.signals.some((sig) => entry.metadata.signals.includes(sig))
+    ) {
+      matches.push({
+        capabilityId: entry.id,
+        name: entry.title,
+        matchConfidence: 0.7,
+        matchReason: "intent",
+        source,
+        type
+      });
+    }
+  }
+  let unsupportedReason: UnsupportedRequestReason | undefined = undefined;
+  if (matches.length === 0) unsupportedReason = "NO_CAPABILITY";
+  return { matches, unsupportedReason };
+}
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import * as path from "node:path";
 import { pathToFileURL } from "node:url";

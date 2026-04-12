@@ -13,6 +13,7 @@ import type {
   ReplyPolicyRule,
   PatchProposal
 } from "@contracts/improvement";
+import type { CapabilityGapProposal } from "../../../Governance-Execution/src/governed-chat/types";
 import { updateImprovementEventStatus } from "./queue";
 import { randomUUID } from "node:crypto";
 import { loadDatabase, mutateDatabase } from "@memory/storage/db";
@@ -300,4 +301,88 @@ export async function getPlanningStats(): Promise<{
   };
 
   return stats;
+}
+
+/**
+ * Phase C: Export capability-gap proposals as structured CapabilityGapProposal objects.
+ * Queries drafted patch proposals from capability_gap events and formats them for proposal path.
+ */
+export async function exportCapabilityGapProposals(): Promise<CapabilityGapProposal[]> {
+  const db = await loadDatabase();
+  
+  // Query capability_gap events that have been analyzed
+  const capabilityGapEvents = db.improvementEvents.filter(
+    (e) => e.type === "capability_gap" && e.status === "analyzed"
+  );
+
+  const proposals: CapabilityGapProposal[] = [];
+
+  for (const event of capabilityGapEvents) {
+    // Find corresponding patch proposal
+    const patchProposal = db.patchProposals.find((p) => p.fromImprovementEventId === event.id);
+    if (!patchProposal) continue; // Skip if no patch proposal
+
+    const capabilityFamily = event.payload.capabilityFamily || "general_capability";
+    const suggestedArea = event.payload.suggestedToolArea || "plugins";
+
+    const proposal: CapabilityGapProposal = {
+      id: `cgp-${randomUUID().slice(0, 8)}`,
+      fromImprovementEventId: event.id,
+      fromPatchProposalId: patchProposal.id,
+      capabilityFamily,
+      suggestedToolArea: suggestedArea,
+      userContext: event.userPromptExcerpt || "",
+      reasoning: event.reasoning || "",
+      priority: event.payload.repeatCount >= 2 ? "high" : "medium",
+      estimatedEffort: patchProposal.estimatedEffort,
+      testPlan: patchProposal.testPlan,
+      status: "drafted",
+      createdAt: new Date().toISOString(),
+      approvalRequired: (event.payload.repeatCount || 0) >= 2
+    };
+
+    proposals.push(proposal);
+  }
+
+  return proposals;
+}
+
+/**
+ * Phase C: Query capability-gap proposals by capability family.
+ */
+export async function queryCapabilityGapProposalsByFamily(
+  family: string
+): Promise<CapabilityGapProposal[]> {
+  const db = await loadDatabase();
+  
+  const capabilityGapEvents = db.improvementEvents.filter(
+    (e) => e.type === "capability_gap" && e.payload.capabilityFamily === family
+  );
+
+  const proposals: CapabilityGapProposal[] = [];
+
+  for (const event of capabilityGapEvents) {
+    const patchProposal = db.patchProposals.find((p) => p.fromImprovementEventId === event.id);
+    if (!patchProposal) continue;
+
+    const proposal: CapabilityGapProposal = {
+      id: `cgp-${randomUUID().slice(0, 8)}`,
+      fromImprovementEventId: event.id,
+      fromPatchProposalId: patchProposal.id,
+      capabilityFamily: family,
+      suggestedToolArea: event.payload.suggestedToolArea || "plugins",
+      userContext: event.userPromptExcerpt || "",
+      reasoning: event.reasoning || "",
+      priority: (event.payload.repeatCount || 0) >= 2 ? "high" : "medium",
+      estimatedEffort: patchProposal.estimatedEffort,
+      testPlan: patchProposal.testPlan,
+      status: "drafted",
+      createdAt: new Date().toISOString(),
+      approvalRequired: (event.payload.repeatCount || 0) >= 2
+    };
+
+    proposals.push(proposal);
+  }
+
+  return proposals;
 }

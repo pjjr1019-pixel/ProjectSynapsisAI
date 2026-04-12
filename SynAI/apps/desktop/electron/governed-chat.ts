@@ -23,6 +23,7 @@ import {
   buildGovernedTaskMetadata,
   routeGovernedChatTask
 } from "@governance-execution/governed-chat/router";
+import { shouldUseEscalationModel, getEscalationModel } from "@awareness/local-ai/escalation-config";
 import {
   classifyGovernedTaskGap,
   type GovernedTaskGapClassification
@@ -94,6 +95,43 @@ const resolveExecutionPrompt = (route: GovernedTaskPlanResult, fallback: string)
 const writeAuditRecord = async (auditPath: string, record: unknown): Promise<void> => {
   await mkdir(path.dirname(auditPath), { recursive: true });
   await appendFile(auditPath, `${JSON.stringify(record)}\n`, "utf8");
+};
+
+// Phase 6: Determine escalation model based on route escalation decision
+const getEscalationModelForRoute = (route: GovernedTaskPlanResult): string | null => {
+  // Only escalate if Phase 6 trace indicates escalation decision
+  const trace = route.artifacts?.phase6Trace;
+  if (!trace || !trace.escalationDecision || trace.escalationDecision === "none") {
+    return null;
+  }
+
+  // Map escalation decisions to model configurations
+  const escalationMap: Record<string, string> = {
+    "ambiguous_intent": "reasoning-model",
+    "capability_gap": "reasoning-model",
+    "complexity": "reasoning-model",
+    "code_architecture": "code-model",
+    "low_confidence": "reasoning-model"
+  };
+
+  return escalationMap[trace.escalationDecision] || null;
+};
+
+// Phase 6: Enrich route with escalation model if needed
+const enrichRouteWithEscalation = (route: GovernedTaskPlanResult): GovernedTaskPlanResult => {
+  const escalationModel = getEscalationModelForRoute(route);
+  if (!escalationModel) {
+    return route; // No escalation needed
+  }
+  
+  return {
+    ...route,
+    artifacts: {
+      ...route.artifacts,
+      escalationModel, // Add escalation model to artifacts
+      escalationUsed: true
+    }
+  };
 };
 
 const buildPendingApprovalReply = (summary: string, reason: string): string =>
@@ -480,11 +518,13 @@ export const createGovernedChatService = (options: {
     }
 
     if (route.actionType === "answer-only" && route.decision === "allow") {
+      // Phase 6: For answer-only requests that need escalation, pass route to main so it can pick escalation model
+      const enrichedRoute = enrichRouteWithEscalation(route);
       return {
         handled: false,
         assistantReply: "",
         taskState: null,
-        route: null,
+        route: enrichedRoute, // Keep route so main.ts can check for escalation
         executionResult: null,
         verification: null,
         gap: null,

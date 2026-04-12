@@ -214,3 +214,123 @@ export async function getReadyToProcessEvents(): Promise<ImprovementEvent[]> {
 export async function markEventAsQueued(eventId: string): Promise<ImprovementEvent | null> {
   return updateImprovementEventStatus(eventId, "queued");
 }
+
+/**
+ * Phase D: Diagnostics - Get event counts by type and status
+ */
+export async function getEventCountsByType(): Promise<Record<string, number>> {
+  const db = await loadDatabase();
+  const counts: Record<string, number> = {};
+
+  for (const event of db.improvementEvents) {
+    counts[event.type] = (counts[event.type] || 0) + 1;
+  }
+
+  return counts;
+}
+
+/**
+ * Phase D: Diagnostics - Get event counts by status
+ */
+export async function getEventCountsByStatus(): Promise<Record<string, number>> {
+  const db = await loadDatabase();
+  const counts: Record<string, number> = {};
+
+  for (const event of db.improvementEvents) {
+    counts[event.status] = (counts[event.status] || 0) + 1;
+  }
+
+  return counts;
+}
+
+/**
+ * Phase D: Diagnostics - Get all unique capability families detected
+ */
+export async function getDetectedCapabilityFamilies(): Promise<string[]> {
+  const db = await loadDatabase();
+  const families = new Set<string>();
+
+  for (const event of db.improvementEvents) {
+    if (event.payload.capabilityFamily) {
+      families.add(event.payload.capabilityFamily);
+    }
+  }
+
+  return Array.from(families).sort();
+}
+
+/**
+ * Phase D: Diagnostics - Get capability gap proposals ready for review
+ */
+export async function getCapabilityGapProposalsForReview(): Promise<number> {
+  const db = await loadDatabase();
+  const capabilityGapEvents = db.improvementEvents.filter(
+    (e) => e.type === "capability_gap" && e.status === "analyzed"
+  );
+
+  let proposalCount = 0;
+  for (const event of capabilityGapEvents) {
+    const hasPatchProposal = db.patchProposals.some((p) => p.fromImprovementEventId === event.id);
+    if (hasPatchProposal) proposalCount++;
+  }
+
+  return proposalCount;
+}
+
+/**
+ * Phase D: Diagnostics - Get comprehensive improvement pipeline snapshot
+ */
+export async function getImprovementPipelineSnapshot(): Promise<{
+  eventCounts: { byType: Record<string, number>; byStatus: Record<string, number> };
+  capabilityGaps: { detected: number; analysed: number; proposalsReady: number };
+  topCapabilityFamilies: string[];
+  patchProposalSummary: {
+    drafted: number;
+    proposed: number;
+    approved: number;
+    applied: number;
+  };
+  escalations: { active: number; resolved: number };
+  pipelineHealth: "healthy" | "degraded" | "critical";
+}> {
+  const db = await loadDatabase();
+
+  const byType = await getEventCountsByType();
+  const byStatus = await getEventCountsByStatus();
+  const families = await getDetectedCapabilityFamilies();
+  const proposalsReady = await getCapabilityGapProposalsForReview();
+
+  const capabilityGapCount = byType["capability_gap"] || 0;
+  const analysedCapabilityGaps = db.improvementEvents.filter(
+    (e) => e.type === "capability_gap" && e.status === "analyzed"
+  ).length;
+
+  const patchProposalSummary = {
+    drafted: db.patchProposals.filter((p) => p.status === "drafted").length,
+    proposed: db.patchProposals.filter((p) => p.status === "proposed").length,
+    approved: db.patchProposals.filter((p) => p.status === "approved").length,
+    applied: db.patchProposals.filter((p) => p.status === "applied").length
+  };
+
+  // Escalation data structure (assuming escalations are tracked in improvement events)
+  const escalations = {
+    active: db.improvementEvents.filter((e) => e.type === "escalation" && e.status !== "resolved").length,
+    resolved: db.improvementEvents.filter((e) => e.type === "escalation" && e.status === "resolved").length
+  };
+
+  // Determine pipeline health
+  let pipelineHealth: "healthy" | "degraded" | "critical" = "healthy";
+  const queuedCount = byStatus["queued"] || 0;
+  if (queuedCount > 20) pipelineHealth = "degraded";
+  if (queuedCount > 50) pipelineHealth = "critical";
+  if (escalations.active > 5) pipelineHealth = "critical";
+
+  return {
+    eventCounts: { byType, byStatus },
+    capabilityGaps: { detected: capabilityGapCount, analysed: analysedCapabilityGaps, proposalsReady },
+    topCapabilityFamilies: families.slice(0, 5),
+    patchProposalSummary,
+    escalations,
+    pipelineHealth
+  };
+}

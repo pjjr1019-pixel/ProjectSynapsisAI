@@ -27,6 +27,7 @@ import {
   type ChatReplyPolicy,
   type ChatMessage,
   type ChatGovernedTaskMetadata,
+  type ContextRouteDecision,
   type ContextPreview,
   type ConversationWithMessages,
   type ModelHealth,
@@ -44,6 +45,7 @@ import {
   type RagOptions,
   type RagToggleMode,
   type ReasoningTraceState,
+  type RuntimeSelectionSummary,
   type RetrievalSourceStats,
   type RetrievedPromptBehaviorMemory,
   type SendChatRequest,
@@ -97,6 +99,7 @@ import { createDesktopActionRuntimeAdapter, createWorkflowRuntimeAdapter } from 
 import { createGovernedChatService } from "./governed-chat";
 import { createCapabilityRunService } from "./capability-runner";
 import { createWorkflowOrchestrator } from "./workflow-orchestrator";
+import { createImprovementRuntimeService, getImprovementRuntimeService } from "./improvement-runtime-service";
 import { createValidatedIpcHandleRegistry } from "./ipc-registration";
 import {
   appendChatMessage,
@@ -117,6 +120,8 @@ import {
   preparePromptContext,
   refreshRollingSummary,
   removeLastAssistantMessage,
+  resolveContextCachePacks,
+  resolveHybridContextPlan,
   searchMemoryRecords,
   upsertPromptBehaviorPreferenceRecord,
   upsertResolvedPromptPatternRecord,
@@ -163,9 +168,11 @@ import { planPromptIntent } from "./prompting/planner";
 import { createSynthesisMessages } from "./prompting/synthesizer";
 import { classifyPromptTask, formatClassifierCategories } from "./prompting/task-classifier";
 import {
+  applyReasoningProfileModifiers,
   getReasoningProfileBehavior,
   normalizePlanningPolicy,
   normalizeReasoningProfile,
+  resolveRuntimeTaskClass,
   resolveAwarenessRouting,
   resolveProfileAwareWebSearch,
   resolveReasoningProfileState,
@@ -222,6 +229,10 @@ const agentRuntimeService = createAgentRuntimeService({
   emitProgress: (event) => {
     sendRendererEvent(IPC_CHANNELS.agentRuntimeProgress, event);
   }
+});
+const improvementRuntimeService = createImprovementRuntimeService({
+  runtimeRoot: desktopActionPaths.runtimeRoot,
+  emitProgress: (msg: string) => console.log("[Improvement Runtime]", msg)
 });
 const startedAt = new Date().toISOString();
 let mainWindow: BrowserWindow | null = null;
@@ -644,17 +655,19 @@ const emptyContextPreview: ContextPreview = {
 const createModelStatus = (
   status: ModelHealth["status"],
   detail?: string,
-  modelOverride?: string
+  modelOverride?: string,
+  resolvedModel?: string | null
 ): ModelHealth => {
-  const config = getOllamaConfig(modelOverride ? { model: modelOverride } : undefined);
+  const config = getOllamaConfig((resolvedModel ?? modelOverride) ? { model: resolvedModel ?? modelOverride ?? undefined } : undefined);
 
   return {
     status,
     provider: "ollama",
-    model: config.model,
+    model: resolvedModel ?? config.model,
     baseUrl: config.baseUrl,
     detail,
-    checkedAt: new Date().toISOString()
+    checkedAt: new Date().toISOString(),
+    scheduler: provider.getSchedulerStatus?.() ?? null
   };
 };
 
@@ -677,6 +690,8 @@ const resolvePromptEvaluationSettings = (
     planningPolicy,
     responseMode: request.responseMode ?? "balanced",
     awarenessAnswerMode: normalizeAwarenessAnswerMode(request.awarenessAnswerMode),
+    codingModeEnabled: request.codingMode === "on",
+    highQualityModeEnabled: request.highQualityMode === "on",
     ragEnabled: resolveToggleMode(ragOptions.enabled, ragOptions.defaultEnabled ?? true),
     useWebSearch:
       request.useWebSearch ?? resolveToggleMode(ragOptions.useWeb, ragOptions.defaultUseWeb ?? false),
@@ -1241,10 +1256,11 @@ const handleSendChat = async (payload: SendChatRequest): Promise<SendChatRespons
     let assistantMetadata: ChatMessage["metadata"] | undefined;
     if (deterministicAwarenessReply && awarenessQuery) {
       assistantMetadata = buildAwarenessMessageMetadata(awarenessQuery, payload.text);
+      const summarizeFeatureQuery = isFeatureSummaryQuery(payload.text, awarenessQuery);
       if (liveUsageAnswer) {
         assistantReply = formatAwarenessReply(liveUsageAnswer);
         assistantMetadata = buildLiveAwarenessMessageMetadata(liveUsageAnswer, payload.text);
-      } else if (isFeatureSummaryQuery(payload.text, awarenessQuery)) {
+      } else if (summarizeFeatureQuery) {
         try {
           assistantReply = await summarizeFeatureChangesWithLocalAi(awarenessQuery, modelOverride);
         } catch {
@@ -1347,8 +1363,15 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
   let governedTaskState: ChatGovernedTaskMetadata | null = null;
   let promptIntent: PromptIntentContract | null = null;
   let taskClassification: ReturnType<typeof classifyPromptTask> | null = null;
+  let routeDecision: ContextRouteDecision | null = null;
+  let runtimeSelection: RuntimeSelectionSummary | null = null;
+  let retrievalScopes: string[] = [];
+  let selectedTaskSkills: ReturnType<typeof resolveHybridContextPlan>["selectedTaskSkills"] = [];
+  let runtimeTaskClass: import("@contracts").RuntimeTaskClass = "general";
   let matchedPromptBehaviorMemories: RetrievedPromptBehaviorMemory[] = [];
   let profileBehavior = getReasoningProfileBehavior(reasoningProfile);
+  const codingModeEnabled = payload.codingMode === "on";
+  const highQualityModeEnabled = payload.highQualityMode === "on";
   const explicitPlanningPolicy = normalizePlanningPolicy(payload.planningPolicy);
   let resolvedPlanningPolicy: PlanningPolicy | null =
     explicitPlanningPolicy ?? profileBehavior.defaultPlanningPolicy;
@@ -1370,6 +1393,8 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     buildChatExecutionDiagnostics({
       reasoningProfile,
       planningPolicy: resolvedPlanningPolicy,
+      routeDecision,
+      runtimeSelection,
       intentRoute,
       rawIntentRoute,
       awarenessUsed,
@@ -1453,8 +1478,6 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     const showTrace = resolveToggleMode(ragOptions.showTrace, ragOptions.defaultShowTrace ?? false);
     const baseResolvedUseWeb =
       payload.useWebSearch ?? resolveToggleMode(ragOptions.useWeb, ragOptions.defaultUseWeb ?? false);
-    const workspaceIndexingEnabled =
-      (ragOptions.workspaceIndexingEnabled ?? true) && profileBehavior.retrieval.workspaceHitLimit > 0;
     const conversationContext = buildConversationAwarenessContext(resolved.messages, payload.text);
     rawIntentRoute = awarenessEngine ? routeAwarenessIntent(payload.text, conversationContext) : null;
     const isChatOnlyEvaluation =
@@ -1485,9 +1508,14 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       reasoningMode: reasoningMode.mode,
       taskClassification
     });
-    profileBehavior = profileState.behavior;
+    profileBehavior = applyReasoningProfileModifiers(profileState.behavior, {
+      codingMode: codingModeEnabled,
+      highQualityMode: highQualityModeEnabled
+    });
     resolvedPlanningPolicy = profileState.planningPolicy;
     planningPolicyReason = profileState.planningReason;
+    const workspaceIndexingEnabled =
+      (ragOptions.workspaceIndexingEnabled ?? true) && profileBehavior.retrieval.workspaceHitLimit > 0;
 
     const genericWritingPrompt = taskClassification.categories.generic_writing;
     const explicitWindowsAwarenessPrompt = taskClassification.categories.awareness_local_state;
@@ -1517,6 +1545,25 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       routingSuppressionReason,
       behavior: profileBehavior
     });
+    const routePlan = resolveHybridContextPlan({
+      query: payload.text,
+      taskClassification,
+      replyPolicySourceScope: replyPolicy?.sourceScope ?? null,
+      codingMode: codingModeEnabled,
+      highQualityMode: highQualityModeEnabled,
+      hasImageEvidence: false,
+      conversationMessageCount: resolved.messages.length
+    });
+    routeDecision = routePlan.routeDecision;
+    selectedTaskSkills = routePlan.selectedTaskSkills;
+    retrievalScopes = routePlan.retrievalScopes;
+    runtimeTaskClass = resolveRuntimeTaskClass(
+      {
+        codingMode: codingModeEnabled,
+        highQualityMode: highQualityModeEnabled
+      },
+      false
+    );
     const shouldQueryAwareness =
       awarenessEngine !== null && intentRoute !== null && awarenessRouting.shouldQueryAwareness;
     const shouldRefreshAwareness =
@@ -1531,7 +1578,10 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       triggerReason: reasoningMode.triggerReason,
       visible: showTrace,
       includeWeb: resolvedUseWeb,
-      includeWorkspace: reasoningMode.mode === "advanced" && workspaceIndexingEnabled
+      includeWorkspace:
+        reasoningMode.mode === "advanced" &&
+        workspaceIndexingEnabled &&
+        routeDecision?.mode !== "cache_only"
     });
     reasoningTrace = startTraceStage(reasoningTrace, "route");
     reasoningTrace = completeTraceStage(reasoningTrace, "route", {
@@ -1540,9 +1590,13 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         reasoningMode.triggerReason,
         `score ${reasoningMode.complexityScore.toFixed(2)}`,
         `profile ${reasoningProfile}`,
+        `runtime ${runtimeTaskClass}`,
         `planning ${resolvedPlanningPolicy ?? "none"}`,
         planningPolicyReason ? `planning reason ${planningPolicyReason}` : null,
         replyPolicy ? `scope ${replyPolicy.sourceScope}` : null,
+        routeDecision ? `route ${routeDecision.mode}` : null,
+        codingModeEnabled ? "coding mode" : null,
+        highQualityModeEnabled ? "high quality mode" : null,
         `classifier ${formatClassifierCategories(policyDiagnostics?.classifier)}`,
         shouldQueryAwareness ? "awareness on" : "awareness off",
         genericWritingPromptSuppressed ? "generic writing prompt suppressed" : null,
@@ -1559,8 +1613,15 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       enableSemanticMemory: reasoningMode.mode === "advanced" && profileBehavior.retrieval.semanticMemory,
       memoryEmbedder:
         reasoningMode.mode === "advanced" && profileBehavior.retrieval.semanticMemory && provider.embeddings
-          ? (text) => provider.embeddings!(text)
+          ? (text) =>
+              provider.embeddings!(text, {
+                taskClass: "embedding",
+                codingMode: codingModeEnabled,
+                highQualityMode: highQualityModeEnabled,
+                reason: "memory retrieval embeddings"
+              })
           : undefined,
+      routeDecision,
       retrievalProfile: {
         stableMemoryLimit: profileBehavior.retrieval.stableMemoryLimit,
         keywordMemoryLimit: profileBehavior.retrieval.keywordMemoryLimit,
@@ -1586,7 +1647,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     });
     sendReasoningTrace(reasoningTrace);
 
-    if (reasoningMode.mode === "advanced" && workspaceIndexingEnabled) {
+    if (reasoningMode.mode === "advanced" && workspaceIndexingEnabled && routeDecision?.mode !== "cache_only") {
       reasoningTrace = startTraceStage(reasoningTrace, "retrieve-workspace");
       sendReasoningTrace(reasoningTrace);
       const workspaceResult = await queryWorkspaceIndex(payload.text, {
@@ -1594,9 +1655,16 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         runtimeRoot: awarenessEngine?.paths.runtimeRoot ?? path.join(process.cwd(), ".runtime", "awareness"),
         enabled: true,
         mode: "incremental",
+        retrievalHint: routeDecision?.retrievalHint ?? null,
         embedder:
           profileBehavior.retrieval.semanticMemory && provider.embeddings
-            ? (text) => provider.embeddings!(text)
+            ? (text) =>
+                provider.embeddings!(text, {
+                  taskClass: "embedding",
+                  codingMode: codingModeEnabled,
+                  highQualityMode: highQualityModeEnabled,
+                  reason: "workspace retrieval embeddings"
+                })
             : undefined
       });
       const filteredWorkspaceHits = filterWorkspaceHitsForReplyPolicy(
@@ -1616,9 +1684,21 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         summary: `${preparedPromptContext.workspaceHits.length} workspace chunks`,
         detail:
           replyPolicy?.sourceScope && workspaceResult.hits.length !== preparedPromptContext.workspaceHits.length
-            ? `${workspaceResult.status.detail ?? "workspace filtered"} | scoped to ${replyPolicy.sourceScope}`
+            ? `${workspaceResult.status.detail ?? "workspace filtered"} | scoped to ${replyPolicy.sourceScope}${
+                routeDecision?.retrievalHint ? " | route-hinted" : ""
+              }`
             : workspaceResult.status.detail,
         sourceCount: preparedPromptContext.workspaceHits.length
+      });
+      sendReasoningTrace(reasoningTrace);
+    } else {
+      reasoningTrace = startTraceStage(reasoningTrace, "retrieve-workspace");
+      reasoningTrace = completeTraceStage(reasoningTrace, "retrieve-workspace", {
+        summary:
+          routeDecision?.mode === "cache_only"
+            ? "Workspace retrieval skipped by cache-only route"
+            : "Workspace retrieval disabled",
+        detail: routeDecision?.mode === "cache_only" ? routeDecision.reason : null
       });
       sendReasoningTrace(reasoningTrace);
     }
@@ -1694,6 +1774,34 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     });
     matchedPromptBehaviorMemories = await matchPromptBehaviorMemoryRecords(payload.text, promptIntent);
     preparedPromptContext.promptBehaviorMemories = matchedPromptBehaviorMemories;
+    const cachePackResult = await resolveContextCachePacks({
+      workspaceRoot: process.cwd(),
+      runtimeRoot: awarenessEngine?.paths.runtimeRoot ?? path.join(process.cwd(), ".runtime", "awareness"),
+      routeDecision: routeDecision ?? {
+        mode: "cache_plus_retrieval",
+        reason: "fallback route",
+        reasons: ["fallback route"],
+        codingMode: codingModeEnabled,
+        highQualityMode: highQualityModeEnabled,
+        freshEvidenceRequired: false,
+        selectedTaskSkillIds: [],
+        selectedPackTypes: ["memory_context"],
+        retrievalHint: null
+      },
+      selectedTaskSkills,
+      conversationId,
+      latestUserMessage: payload.text,
+      summaryText: preparedPromptContext.summaryText,
+      promptIntent,
+      stableMemories: preparedPromptContext.stableMemories,
+      retrievedMemories: preparedPromptContext.retrievedMemories,
+      promptBehaviorMemories: matchedPromptBehaviorMemories,
+      recentTouchedPaths: summarizeWorkspacePaths(preparedPromptContext.workspaceHits),
+      awarenessDigest: awarenessEngine?.getDigest() ?? null
+    });
+    preparedPromptContext.cachePacks = cachePackResult.packs;
+    preparedPromptContext.cachePackSummaries = cachePackResult.summaries;
+    preparedPromptContext.routeDecision = routeDecision ?? null;
     const groundingSources = buildGroundingSourceCatalog({
       retrievedMemories: preparedPromptContext.retrievedMemories,
       workspaceHits: preparedPromptContext.workspaceHits,
@@ -1723,6 +1831,8 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       enabled: ragEnabledByDefault || ragOptions.enabled === "on",
       mode: reasoningMode.mode,
       triggerReason: reasoningMode.triggerReason,
+      routeMode: routeDecision?.mode ?? null,
+      retrievalScopes,
       retrieval: preparedPromptContext.retrieval,
       traceSummary: null,
       workspaceIndex: preparedPromptContext.workspaceIndexStatus,
@@ -1745,6 +1855,9 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         contextBudget: profileBehavior.contextBudget,
         reasoningProfile,
         planningPolicy: resolvedPlanningPolicy,
+        routeDecision,
+        cachePacks: preparedPromptContext.cachePacks ?? [],
+        cachePackSummaries: preparedPromptContext.cachePackSummaries ?? [],
         reasoningProfileDiagnostics: {
           planningReason: planningPolicyReason,
           retrievalMode: profileBehavior.retrievalMode,
@@ -1786,7 +1899,14 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
           query: payload.text,
           seedPromptIntent,
           model: modelOverride,
-          runPlanner: (messages, options) => chatExecution.runChat(messages, options)
+          runPlanner: (messages, options) =>
+            chatExecution.runChat(messages, {
+              ...options,
+              taskClass: runtimeTaskClass,
+              codingMode: codingModeEnabled,
+              highQualityMode: highQualityModeEnabled,
+              reason: "prompt planner"
+            })
         });
         matchedPromptBehaviorMemories = await matchPromptBehaviorMemoryRecords(payload.text, promptIntent);
         reasoningTrace = completeTraceStage(reasoningTrace, "plan", {
@@ -1834,6 +1954,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
         conversationId,
         content: assistantReply
       });
+      runtimeSelection = summarizeFeatureQuery ? provider.getRuntimeSelection?.() ?? null : null;
     } else {
       const synthesisMessages = createSynthesisMessages(
         promptMessages,
@@ -1849,12 +1970,17 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
           });
         },
         {
-          model: modelOverride
+          model: modelOverride,
+          taskClass: runtimeTaskClass,
+          codingMode: codingModeEnabled,
+          highQualityMode: highQualityModeEnabled,
+          reason: "assistant synthesis"
         }
       );
       if (!cleanupBypassed) {
         assistantReply = cleanupPlainTextAnswer(assistantReply);
       }
+      runtimeSelection = provider.getRuntimeSelection?.() ?? null;
       sendRendererEvent(IPC_CHANNELS.chatStream, {
         requestId,
         conversationId,
@@ -1881,7 +2007,11 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       runVerifier: profileBehavior.grounding.runModelVerifier
         ? (messages) =>
             chatExecution.runChat(messages, {
-              model: modelOverride
+              model: modelOverride,
+              taskClass: runtimeTaskClass,
+              codingMode: codingModeEnabled,
+              highQualityMode: highQualityModeEnabled,
+              reason: "grounding verifier"
             })
         : undefined
     });
@@ -1910,6 +2040,9 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
     contextPreview = {
       ...contextPreview,
       workspaceHits: preparedPromptContext.workspaceHits,
+      routeDecision,
+      cachePacks: preparedPromptContext.cachePackSummaries ?? [],
+      runtimeSelection,
       rag: ragContext,
       grounding: groundedReply.metadata.summary,
       retrievalEval: groundedReply.retrievalEval,
@@ -1926,14 +2059,58 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       grounding: groundedReply.metadata
     };
 
+    // Phase 3: Apply reply-policy overlay consumption (weak fallback rewriting)
+    // This is the latest safe point before persistence, after grounding has completed.
+    // The overlay service will:
+    // 1. Check if reply looks like a weak fallback (keyword patterns)
+    // 2. Find matching rules based on user context (category-specific matching)
+    // 3. Apply highest-confidence rule if both user context and reply match
+    let finalAssistantReply = assistantReply;
+    if (getImprovementRuntimeService()) {
+      try {
+        const overlayService = getImprovementRuntimeService()!.getReplyPolicyOverlay();
+        const overlayResult = await overlayService.applyOverlay(
+          assistantReply,
+          payload.text,  // CORRECTED: Pass user prompt for category-context matching
+          undefined      // sourceEventIdHint not yet available at reply generation time
+        );
+        if (overlayResult.applied && overlayResult.adaptedReply) {
+          finalAssistantReply = overlayResult.adaptedReply;
+          // Store overlay metadata for analytics
+          assistantMetadata = {
+            ...assistantMetadata,
+            overlayApplied: {
+              ruleId: overlayResult.ruleId,
+              matchedFingerprint: overlayResult.matchedFingerprint,
+              confidence: overlayResult.confidence
+            }
+          };
+        }
+      } catch (err) {
+        console.error("[Main] Error applying overlay:", err);
+        // Graceful degradation: use original reply if overlay fails
+      }
+    }
+
     const assistantSources = officialWebContext.status === "used" ? officialWebContext.results : undefined;
     const assistantMessage = await appendChatMessage(
       conversationId,
       "assistant",
-      assistantReply,
+      finalAssistantReply,
       assistantSources,
       assistantMetadata
     );
+
+    // Hook: Trigger improvement analysis (non-blocking, background execution)
+    if (!payload.regenerate && getImprovementRuntimeService()) {
+      const lastUserMessage: ChatMessage = {
+        id: `user-${Date.now()}`,
+        role: "user",
+        content: payload.text,
+        timestamp: new Date().toISOString()
+      };
+      void getImprovementRuntimeService()?.analyzeReply(lastUserMessage, assistantMessage);
+    }
 
     const conversationWithMessages =
       (await loadConversationRecord(conversationId)) ?? (await resolveConversation(conversationId));
@@ -1964,7 +2141,7 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       assistantMessage,
       messages: conversationWithMessages.messages,
       contextPreview,
-      modelStatus: createModelStatus("connected", undefined, modelOverride),
+      modelStatus: createModelStatus("connected", undefined, modelOverride, runtimeSelection?.model ?? null),
       diagnostics: buildExecutionDiagnostics()
     };
   } catch (error) {
@@ -1990,7 +2167,12 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       assistantMessage,
       messages: conversationWithMessages.messages,
       contextPreview,
-      modelStatus: createModelStatus(resolveModelErrorStatus(detail), detail, modelOverride),
+      modelStatus: createModelStatus(
+        resolveModelErrorStatus(detail),
+        detail,
+        modelOverride,
+        runtimeSelection?.model ?? null
+      ),
       diagnostics: buildExecutionDiagnostics()
     };
   } finally {
@@ -2031,6 +2213,8 @@ const runPromptEvaluation = async (
         modelOverride: request.modelOverride,
         responseMode: request.responseMode,
         awarenessAnswerMode: request.awarenessAnswerMode,
+        codingMode: request.codingMode,
+        highQualityMode: request.highQualityMode,
         ragOptions: request.ragOptions,
         replyPolicy: {
           ...(entry.replyPolicy ?? {}),
@@ -2610,6 +2794,13 @@ app.whenReady().then(async () => {
   const databasePath = path.join(app.getPath("userData"), "synai-db.json");
   configureMemoryDatabase(databasePath);
   await capabilityRunService.initialize();
+  
+  // Initialize improvement runtime service
+  try {
+    await improvementRuntimeService.initialize();
+  } catch (err) {
+    console.error("[Improvement] Failed to initialize service:", err);
+  }
 
   // Rec #1: Start awareness engine in background — do NOT await before creating the window.
   // All IPC handlers already null-guard awarenessEngine so they return safe defaults until ready.

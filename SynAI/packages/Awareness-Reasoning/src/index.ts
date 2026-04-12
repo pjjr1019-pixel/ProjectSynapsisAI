@@ -19,3 +19,5 @@ export * from "./governance-history/miner";
 export * from "./governance-history/replay-envelope";
 export * from "./target-knowledge";
 export * from "./runtime-capabilities";
+export * from "./improvement";
+export * from "./reply-policies";

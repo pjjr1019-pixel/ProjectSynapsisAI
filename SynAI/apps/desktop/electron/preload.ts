@@ -112,7 +112,30 @@ const api: SynAIBridge = {
     return () => {
       ipcRenderer.removeListener(IPC_CHANNELS.capabilityRunnerEvents, wrapped);
     };
-  }
+  },
+  // Improvement System Bridge Methods
+  listImprovementEvents: (options) => ipcRenderer.invoke(IPC_CHANNELS.improvementListEvents, options),
+  getImprovementEvent: (eventId) => ipcRenderer.invoke(IPC_CHANNELS.improvementGetEvent, eventId),
+  updateImprovementEventStatus: (eventId, status) =>
+    ipcRenderer.invoke(IPC_CHANNELS.improvementUpdateStatus, eventId, status),
+  getImprovementMode: () => ipcRenderer.invoke(IPC_CHANNELS.improvementGetMode),
+  setImprovementMode: (enabled) => ipcRenderer.invoke(IPC_CHANNELS.improvementSetMode, enabled),
+  subscribeImprovementEvents: (listener) => {
+    const wrapped = (_event: Electron.IpcRendererEvent, payload: Parameters<typeof listener>[0]) =>
+      listener(payload);
+    ipcRenderer.on(IPC_CHANNELS.improvementSubscribeEvents, wrapped);
+    return () => {
+      ipcRenderer.removeListener(IPC_CHANNELS.improvementSubscribeEvents, wrapped);
+    };
+  },
+  // Phase 3: Reply-policy overlay bridge methods (renderer inspection only)
+  listOverlayRules: (enabledOnly) => ipcRenderer.invoke(IPC_CHANNELS.overlayListRules, enabledOnly),
+  getOverlayRule: (ruleId) => ipcRenderer.invoke(IPC_CHANNELS.overlayGetRule, ruleId),
+  disableOverlayRule: (ruleId) => ipcRenderer.invoke(IPC_CHANNELS.overlayDisableRule, ruleId),
+  enableOverlayRule: (ruleId) => ipcRenderer.invoke(IPC_CHANNELS.overlayEnableRule, ruleId),
+  deleteOverlayRule: (ruleId) => ipcRenderer.invoke(IPC_CHANNELS.overlayDeleteRule, ruleId),
+  resetOverlay: () => ipcRenderer.invoke(IPC_CHANNELS.overlayReset),
+  getOverlayStats: () => ipcRenderer.invoke(IPC_CHANNELS.overlayGetStats)
 };
 
 contextBridge.exposeInMainWorld("synai", api);

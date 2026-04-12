@@ -1,6 +1,17 @@
-export const RAG_TOGGLE_MODES = ["inherit", "on", "off"] as const;
+export const TOGGLE_MODES = ["inherit", "on", "off"] as const;
+export type ToggleMode = (typeof TOGGLE_MODES)[number];
 
-export type RagToggleMode = (typeof RAG_TOGGLE_MODES)[number];
+export const RAG_TOGGLE_MODES = TOGGLE_MODES;
+export type RagToggleMode = ToggleMode;
+
+export const REQUEST_ROUTE_MODES = ["cache_only", "retrieval_only", "cache_plus_retrieval"] as const;
+export type RequestRouteMode = (typeof REQUEST_ROUTE_MODES)[number];
+
+export const CACHE_PACK_TYPES = ["repo_core", "task_skill", "work_context", "memory_context"] as const;
+export type CachePackType = (typeof CACHE_PACK_TYPES)[number];
+
+export const RUNTIME_TASK_CLASSES = ["general", "code", "embedding", "vision"] as const;
+export type RuntimeTaskClass = (typeof RUNTIME_TASK_CLASSES)[number];
 
 export const WORKSPACE_INDEX_MODES = ["off", "incremental"] as const;
 
@@ -24,6 +35,25 @@ export const REASONING_TRACE_STAGE_STATUSES = ["pending", "running", "completed"
 export type ReasoningTraceStageStatus = (typeof REASONING_TRACE_STAGE_STATUSES)[number];
 
 export type RagExecutionMode = "fast" | "advanced";
+
+export interface RetrievalHint {
+  preferredPathGlobs?: string[];
+  preferredExtensions?: string[];
+  preferredDomains?: string[];
+  maxResults?: number;
+}
+
+export interface ContextRouteDecision {
+  mode: RequestRouteMode;
+  reason: string;
+  reasons: string[];
+  codingMode: boolean;
+  highQualityMode: boolean;
+  freshEvidenceRequired: boolean;
+  selectedTaskSkillIds: string[];
+  selectedPackTypes: CachePackType[];
+  retrievalHint?: RetrievalHint | null;
+}
 
 export interface RagOptions {
   enabled?: RagToggleMode;
@@ -117,6 +147,8 @@ export interface RagContextPreview {
   enabled: boolean;
   mode: RagExecutionMode;
   triggerReason: string;
+  routeMode?: RequestRouteMode | null;
+  retrievalScopes?: string[];
   retrieval: RetrievalSourceStats;
   traceSummary: ReasoningTraceSummary | null;
   workspaceIndex: WorkspaceIndexStatus | null;

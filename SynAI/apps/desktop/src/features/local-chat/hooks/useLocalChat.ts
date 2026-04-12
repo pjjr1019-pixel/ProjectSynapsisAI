@@ -6,7 +6,7 @@ import type {
   Conversation,
   ModelHealth,
   PromptEvaluationRequest,
-  RagToggleMode,
+  ToggleMode,
   ScreenAwarenessStatus,
   StartAssistModeOptions
 } from "@contracts";
@@ -19,6 +19,11 @@ import {
   isLiveUsageAnswer,
   LIVE_USAGE_REFRESH_MS
 } from "../utils/liveUsageReply";
+import {
+  defaultChatSettings,
+  loadPersistedChatSettings,
+  persistChatSettings
+} from "../utils/settingsPersistence";
 
 const bridge = () => window.synai;
 
@@ -37,57 +42,6 @@ const awarenessBridge = (): AwarenessBridgeApi => bridge() as AwarenessBridgeApi
 
 const setError = (message: string | null): void => {
   localChatStore.setState({ error: message });
-};
-
-const SETTINGS_STORAGE_KEY = "synai.chat.settings";
-
-const defaultSettings: ChatSettingsState = {
-  selectedModel: "",
-  defaultWebSearch: false,
-  advancedRagEnabled: true,
-  workspaceIndexingEnabled: true,
-  webInRagEnabled: true,
-  liveTraceVisible: false,
-  responseMode: "balanced",
-  awarenessAnswerMode: "evidence-first"
-};
-
-const loadPersistedSettings = (): ChatSettingsState => {
-  if (typeof window === "undefined") {
-    return defaultSettings;
-  }
-
-  try {
-    const raw = window.localStorage.getItem(SETTINGS_STORAGE_KEY);
-    if (!raw) {
-      return defaultSettings;
-    }
-
-    const parsed = JSON.parse(raw) as Partial<ChatSettingsState>;
-    return {
-      selectedModel: parsed.selectedModel ?? defaultSettings.selectedModel,
-      defaultWebSearch: parsed.defaultWebSearch ?? defaultSettings.defaultWebSearch,
-      advancedRagEnabled: parsed.advancedRagEnabled ?? defaultSettings.advancedRagEnabled,
-      workspaceIndexingEnabled: parsed.workspaceIndexingEnabled ?? defaultSettings.workspaceIndexingEnabled,
-      webInRagEnabled: parsed.webInRagEnabled ?? defaultSettings.webInRagEnabled,
-      liveTraceVisible: parsed.liveTraceVisible ?? defaultSettings.liveTraceVisible,
-      responseMode: parsed.responseMode ?? defaultSettings.responseMode,
-      awarenessAnswerMode:
-        parsed.awarenessAnswerMode === "llm-primary" || parsed.awarenessAnswerMode === "evidence-first"
-          ? parsed.awarenessAnswerMode
-          : defaultSettings.awarenessAnswerMode
-    };
-  } catch {
-    return defaultSettings;
-  }
-};
-
-const persistSettings = (settings: ChatSettingsState): void => {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  window.localStorage.setItem(SETTINGS_STORAGE_KEY, JSON.stringify(settings));
 };
 
 const mergeAvailableModels = (...lists: Array<Array<string | null | undefined>>): string[] => {
@@ -155,9 +109,11 @@ const buildOptimisticMessages = (
 };
 
 export interface SendMessageOptions {
-  ragMode?: RagToggleMode;
-  webMode?: RagToggleMode;
-  traceMode?: RagToggleMode;
+  ragMode?: ToggleMode;
+  webMode?: ToggleMode;
+  traceMode?: ToggleMode;
+  codingMode?: ToggleMode;
+  highQualityMode?: ToggleMode;
 }
 
 const buildHealthCheckFeedback = (
@@ -424,7 +380,9 @@ export const useLocalChat = (options: { chatVisible?: boolean } = {}) => {
     const start = async () => {
       localChatStore.setState({ loading: true });
       try {
-        const persistedSettings = loadPersistedSettings();
+        const persistedSettings = loadPersistedChatSettings(
+          typeof window === "undefined" ? null : window.localStorage
+        );
         localChatStore.setState({ settings: persistedSettings });
 
         const [appHealth, modelHealth, availableModels] = await Promise.all([
@@ -435,7 +393,7 @@ export const useLocalChat = (options: { chatVisible?: boolean } = {}) => {
         const screenApi = screenBridge();
         const screenStatus = screenApi.getScreenStatus ? await screenApi.getScreenStatus().catch(() => null) : null;
         const hydratedSettings = hydrateSettingsFromModel(persistedSettings, modelHealth);
-        persistSettings(hydratedSettings);
+        persistChatSettings(hydratedSettings, typeof window === "undefined" ? null : window.localStorage);
         localChatStore.setState({
           appHealth,
           modelHealth,
@@ -588,7 +546,7 @@ export const useLocalChat = (options: { chatVisible?: boolean } = {}) => {
       ...patch
     };
 
-    persistSettings(nextSettings);
+    persistChatSettings(nextSettings, typeof window === "undefined" ? null : window.localStorage);
     localChatStore.setState({ settings: nextSettings });
 
     if (patch.selectedModel !== undefined && patch.selectedModel !== currentState.settings.selectedModel) {
@@ -724,11 +682,23 @@ export const useLocalChat = (options: { chatVisible?: boolean } = {}) => {
         modelOverride: state.settings.selectedModel || undefined,
         responseMode: state.settings.responseMode,
         awarenessAnswerMode: state.settings.awarenessAnswerMode,
+        codingMode:
+          options?.codingMode && options.codingMode !== "inherit"
+            ? options.codingMode
+            : state.settings.codingModeEnabled
+              ? "on"
+              : "off",
+        highQualityMode:
+          options?.highQualityMode && options.highQualityMode !== "inherit"
+            ? options.highQualityMode
+            : state.settings.highQualityModeEnabled
+              ? "on"
+              : "off",
         ragOptions: {
           enabled: options?.ragMode ?? "inherit",
           useWeb: options?.webMode ?? "inherit",
           showTrace: options?.traceMode ?? "inherit",
-          defaultEnabled: state.settings.advancedRagEnabled,
+          defaultEnabled: state.settings.highQualityModeEnabled,
           defaultUseWeb: state.settings.defaultWebSearch && state.settings.webInRagEnabled,
           defaultShowTrace: state.settings.liveTraceVisible,
           workspaceIndexingEnabled: state.settings.workspaceIndexingEnabled
@@ -788,7 +758,7 @@ export const useLocalChat = (options: { chatVisible?: boolean } = {}) => {
         lastUser.content,
         state.settings.awarenessAnswerMode,
         {
-          defaultEnabled: state.settings.advancedRagEnabled,
+          defaultEnabled: state.settings.highQualityModeEnabled,
           defaultUseWeb: state.settings.defaultWebSearch && state.settings.webInRagEnabled,
           defaultShowTrace: state.settings.liveTraceVisible,
           workspaceIndexingEnabled: state.settings.workspaceIndexingEnabled

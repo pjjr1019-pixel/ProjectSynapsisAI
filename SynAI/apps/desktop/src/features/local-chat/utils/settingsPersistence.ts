@@ -12,7 +12,8 @@ export const defaultChatSettings: ChatSettingsState = {
   reasoningProfile: "chat",
   selectedModel: "",
   defaultWebSearch: false,
-  advancedRagEnabled: true,
+  codingModeEnabled: false,
+  highQualityModeEnabled: true,
   workspaceIndexingEnabled: true,
   webInRagEnabled: true,
   liveTraceVisible: false,
@@ -45,10 +46,16 @@ export const hydrateChatSettings = (
     typeof value?.defaultWebSearch === "boolean"
       ? value.defaultWebSearch
       : defaultChatSettings.defaultWebSearch,
-  advancedRagEnabled:
-    typeof value?.advancedRagEnabled === "boolean"
-      ? value.advancedRagEnabled
-      : defaultChatSettings.advancedRagEnabled,
+  codingModeEnabled:
+    typeof value?.codingModeEnabled === "boolean"
+      ? value.codingModeEnabled
+      : defaultChatSettings.codingModeEnabled,
+  highQualityModeEnabled:
+    typeof value?.highQualityModeEnabled === "boolean"
+      ? value.highQualityModeEnabled
+      : typeof (value as { advancedRagEnabled?: unknown } | null | undefined)?.advancedRagEnabled === "boolean"
+        ? Boolean((value as { advancedRagEnabled?: boolean }).advancedRagEnabled)
+        : defaultChatSettings.highQualityModeEnabled,
   workspaceIndexingEnabled:
     typeof value?.workspaceIndexingEnabled === "boolean"
       ? value.workspaceIndexingEnabled

@@ -27,7 +27,8 @@ describe("prompt evaluation card smoke", () => {
         settings={{
           selectedModel: "phi4-mini:latest",
           defaultWebSearch: false,
-          advancedRagEnabled: true,
+          codingModeEnabled: false,
+          highQualityModeEnabled: true,
           workspaceIndexingEnabled: true,
           webInRagEnabled: true,
           liveTraceVisible: false,
@@ -58,7 +59,8 @@ describe("prompt evaluation card smoke", () => {
         settings={{
           selectedModel: "phi4-mini:latest",
           defaultWebSearch: true,
-          advancedRagEnabled: true,
+          codingModeEnabled: false,
+          highQualityModeEnabled: true,
           workspaceIndexingEnabled: true,
           webInRagEnabled: true,
           liveTraceVisible: false,
@@ -263,7 +265,8 @@ describe("prompt evaluation card smoke", () => {
         settings={{
           selectedModel: "phi4-mini:latest",
           defaultWebSearch: false,
-          advancedRagEnabled: true,
+          codingModeEnabled: false,
+          highQualityModeEnabled: true,
           workspaceIndexingEnabled: true,
           webInRagEnabled: true,
           liveTraceVisible: false,
@@ -295,7 +298,8 @@ describe("prompt evaluation card smoke", () => {
         settings={{
           selectedModel: "phi4-mini:latest",
           defaultWebSearch: true,
-          advancedRagEnabled: true,
+          codingModeEnabled: false,
+          highQualityModeEnabled: true,
           workspaceIndexingEnabled: true,
           webInRagEnabled: true,
           liveTraceVisible: true,

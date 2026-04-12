@@ -6,6 +6,7 @@ import type {
   CapabilityEventRecord,
   CapabilityRunRecord
 } from "../contracts/capability-runner";
+import type { ImprovementEvent, PatchProposal } from "../contracts/improvement";
 
 export interface SynAIDatabase {
   conversations: Conversation[];
@@ -16,6 +17,8 @@ export interface SynAIDatabase {
   capabilityRuns: CapabilityRunRecord[];
   capabilityCases: CapabilityCaseRecord[];
   capabilityEvents: CapabilityEventRecord[];
+  improvementEvents: ImprovementEvent[];
+  patchProposals: PatchProposal[];
 }
 
 export interface RetrievalResult {

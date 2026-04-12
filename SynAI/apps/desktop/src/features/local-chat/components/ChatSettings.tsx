@@ -74,10 +74,20 @@ export function ChatSettings({
         <input
           type="checkbox"
           className="h-4 w-4 rounded border-slate-700 bg-slate-900 text-cyan-400"
-          checked={settings.advancedRagEnabled}
-          onChange={(event) => void onUpdateSettings({ advancedRagEnabled: event.target.checked })}
+          checked={settings.codingModeEnabled}
+          onChange={(event) => void onUpdateSettings({ codingModeEnabled: event.target.checked })}
         />
-        Enable advanced RAG by default
+        Enable Coding Mode by default
+      </label>
+
+      <label className="flex items-center gap-2 text-[10px] text-slate-300">
+        <input
+          type="checkbox"
+          className="h-4 w-4 rounded border-slate-700 bg-slate-900 text-cyan-400"
+          checked={settings.highQualityModeEnabled}
+          onChange={(event) => void onUpdateSettings({ highQualityModeEnabled: event.target.checked })}
+        />
+        Enable High Quality Mode by default
       </label>
 
       <label className="flex items-center gap-2 text-[10px] text-slate-300">

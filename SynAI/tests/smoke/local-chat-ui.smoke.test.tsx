@@ -83,7 +83,8 @@ describe("local-chat-ui smoke", () => {
         settings={{
           selectedModel: "phi4-mini:latest",
           defaultWebSearch: false,
-          advancedRagEnabled: true,
+          codingModeEnabled: false,
+          highQualityModeEnabled: true,
           workspaceIndexingEnabled: true,
           webInRagEnabled: true,
           liveTraceVisible: false,
@@ -117,7 +118,8 @@ describe("local-chat-ui smoke", () => {
     expect(screen.getByText("Example source")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "History" })).toBeInTheDocument();
     expect(screen.getByPlaceholderText("Message local model...")).toBeVisible();
-    expect(screen.getByRole("button", { name: "RAG: Default On" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Coding: Default Off" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "HQ: Default On" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Web: Default Off" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Trace: Default Off" })).toBeInTheDocument();
 
@@ -136,7 +138,8 @@ describe("local-chat-ui smoke", () => {
     });
 
     expect(onSend).toHaveBeenCalledWith("new line", {
-      ragMode: "inherit",
+      codingMode: "inherit",
+      highQualityMode: "inherit",
       webMode: "inherit",
       traceMode: "inherit"
     });

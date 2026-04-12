@@ -8,6 +8,7 @@ import type {
 } from "./chat";
 import type { AppHealth, ModelHealth } from "./health";
 import type { ContextPreview, MemoryEntry } from "./memory";
+import type { ImprovementEvent } from "./improvement";
 import type { RagOptions, ReasoningTraceEvent } from "./rag";
 import type { PromptEvaluationRequest, PromptEvaluationResponse } from "./prompt-eval";
 import type {
@@ -618,7 +619,21 @@ export const IPC_CHANNELS = {
   capabilityRunnerStop: "capability-runner:stop",
   capabilityRunnerRerunFailed: "capability-runner:rerun-failed",
   capabilityRunnerExport: "capability-runner:export",
-  capabilityRunnerEvents: "capability-runner:events"
+  capabilityRunnerEvents: "capability-runner:events",
+  improvementListEvents: "improvement:list-events",
+  improvementGetEvent: "improvement:get-event",
+  improvementUpdateStatus: "improvement:update-status",
+  improvementSubscribeEvents: "improvement:subscribe-events",
+  improvementGetMode: "improvement:get-mode",
+  improvementSetMode: "improvement:set-mode",
+  // Phase 3: Reply-policy overlay channels
+  overlayListRules: "overlay:list-rules",
+  overlayGetRule: "overlay:get-rule",
+  overlayDisableRule: "overlay:disable-rule",
+  overlayEnableRule: "overlay:enable-rule",
+  overlayDeleteRule: "overlay:delete-rule",
+  overlayReset: "overlay:reset",
+  overlayGetStats: "overlay:get-stats"
 } as const;
 
 export interface SynAIBridge {
@@ -688,4 +703,19 @@ export interface SynAIBridge {
   rerunFailedCapabilityRun(runId: string): Promise<CapabilityRunSnapshot | null>;
   exportCapabilityRunMarkdown(runId: string): Promise<CapabilityRunExportResult | null>;
   subscribeCapabilityRunnerEvents(listener: (event: CapabilityEventRecord) => void): () => void;
+  // Improvement System IPC Methods
+  listImprovementEvents(options?: { limit?: number; status?: string }): Promise<ImprovementEvent[]>;
+  getImprovementEvent(eventId: string): Promise<ImprovementEvent | null>;
+  updateImprovementEventStatus(eventId: string, status: string): Promise<ImprovementEvent | null>;
+  getImprovementMode(): Promise<boolean>;
+  setImprovementMode(enabled: boolean): Promise<void>;
+  subscribeImprovementEvents(listener: (event: ImprovementEvent) => void): () => void;
+  // Phase 3: Reply-policy overlay inspection methods
+  listOverlayRules(enabledOnly?: boolean): Promise<any[]>;
+  getOverlayRule(ruleId: string): Promise<any | undefined>;
+  disableOverlayRule(ruleId: string): Promise<void>;
+  enableOverlayRule(ruleId: string): Promise<void>;
+  deleteOverlayRule(ruleId: string): Promise<void>;
+  resetOverlay(): Promise<void>;
+  getOverlayStats(): Promise<any>;
 }

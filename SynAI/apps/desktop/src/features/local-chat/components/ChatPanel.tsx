@@ -6,6 +6,7 @@ import { MessageList } from "./MessageList";
 import { Button } from "../../../shared/components/Button";
 import { AwarenessCard } from "./AwarenessCard";
 import { buildStartupDigestCard } from "../utils/awarenessCards";
+import { ImprovementEventsPanel } from "./improvement";
 import type { ChatSettingsState } from "../types/localChat.types";
 
 interface ChatPanelProps {
@@ -83,6 +84,9 @@ export function ChatPanel({
           pendingAssistantId={pendingAssistantId}
           pendingReasoningTrace={pendingReasoningTrace}
         />
+      </div>
+      <div className="border-t border-slate-800 px-2 py-1">
+        <ImprovementEventsPanel maxEvents={5} />
       </div>
       <ChatInputBar onSend={onSendMessage} disabled={loading} settings={settings} />
     </section>

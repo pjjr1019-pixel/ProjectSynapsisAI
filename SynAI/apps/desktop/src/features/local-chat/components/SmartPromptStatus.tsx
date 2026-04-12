@@ -20,6 +20,16 @@ export function SmartPromptStatus({ preview, appHealth = null }: SmartPromptStat
   const queryTone = preview?.awarenessQuery ? "good" : "neutral";
   const assistTone = preview?.screenAwareness ? "good" : "neutral";
   const ragTone = preview?.rag?.mode === "advanced" ? "good" : preview?.rag ? "warn" : "neutral";
+  const routeTone =
+    preview?.routeDecision?.mode === "cache_only"
+      ? "good"
+      : preview?.routeDecision?.mode === "cache_plus_retrieval"
+        ? "warn"
+        : preview?.routeDecision?.mode === "retrieval_only"
+          ? "neutral"
+          : "neutral";
+  const codingTone = preview?.routeDecision?.codingMode ? "good" : "neutral";
+  const highQualityTone = preview?.routeDecision?.highQualityMode ? "good" : "neutral";
   const modeTone =
     preview?.awarenessAnswerMode === "evidence-first"
       ? "good"
@@ -63,6 +73,15 @@ export function SmartPromptStatus({ preview, appHealth = null }: SmartPromptStat
       </Badge>
       <Badge className="px-1.5 py-0.5 text-[10px]" tone={ragTone}>
         RAG
+      </Badge>
+      <Badge className="px-1.5 py-0.5 text-[10px]" tone={routeTone}>
+        {preview?.routeDecision?.mode ?? "Route"}
+      </Badge>
+      <Badge className="px-1.5 py-0.5 text-[10px]" tone={codingTone}>
+        Code
+      </Badge>
+      <Badge className="px-1.5 py-0.5 text-[10px]" tone={highQualityTone}>
+        HQ
       </Badge>
       <Badge className="px-1.5 py-0.5 text-[10px]" tone={runtimeTone}>
         Aware

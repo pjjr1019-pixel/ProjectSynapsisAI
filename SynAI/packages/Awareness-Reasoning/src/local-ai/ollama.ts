@@ -303,6 +303,10 @@ interface OllamaChatResponse {
   };
 }
 
+interface OllamaRequestOptions {
+  keepAliveMs?: number;
+}
+
 interface OllamaChatStreamResponse {
   done?: boolean;
   message?: {
@@ -312,11 +316,18 @@ interface OllamaChatStreamResponse {
 
 export const ollamaChat = async (
   config: OllamaConfig,
-  messages: OllamaChatMessage[]
+  messages: OllamaChatMessage[],
+  options: OllamaRequestOptions = {}
 ): Promise<string> => {
   const payload = {
     model: config.model,
     stream: false,
+    keep_alive:
+      typeof options.keepAliveMs === "number"
+        ? options.keepAliveMs <= 0
+          ? 0
+          : `${Math.max(1, Math.ceil(options.keepAliveMs / 1000))}s`
+        : undefined,
     messages
   };
   const data = await ollamaFetch<OllamaChatResponse>(config, "/api/chat", {
@@ -348,7 +359,8 @@ const parseOllamaStreamLine = (
 export const ollamaChatStream = async (
   config: OllamaConfig,
   messages: OllamaChatMessage[],
-  onChunk: (content: string) => void
+  onChunk: (content: string) => void,
+  options: OllamaRequestOptions = {}
 ): Promise<string> => {
   const resolvedConfig = await resolveReachableOllamaConfig(config);
   let response: Response;
@@ -361,6 +373,12 @@ export const ollamaChatStream = async (
       },
       body: JSON.stringify({
         model: resolvedConfig.model,
+        keep_alive:
+          typeof options.keepAliveMs === "number"
+            ? options.keepAliveMs <= 0
+              ? 0
+              : `${Math.max(1, Math.ceil(options.keepAliveMs / 1000))}s`
+            : undefined,
         stream: true,
         messages
       })
@@ -426,25 +444,58 @@ interface OllamaEmbeddingsResponse {
   embedding: number[];
 }
 
+interface OllamaEmbedResponse {
+  embeddings?: number[][];
+}
+
 interface OllamaTagsResponse {
   models: Array<{ name: string }>;
 }
 
+interface OllamaRunningModelResponse {
+  models?: Array<{ name?: string; model?: string }>;
+}
+
 export const ollamaEmbeddings = async (
   config: OllamaConfig,
-  text: string
+  text: string,
+  options: OllamaRequestOptions = {}
 ): Promise<number[]> => {
   if (!config.embedModel) {
     return [];
   }
-  const data = await ollamaFetch<OllamaEmbeddingsResponse>(config, "/api/embeddings", {
-    method: "POST",
-    body: JSON.stringify({
-      model: config.embedModel,
-      prompt: text
-    })
-  });
-  return data.embedding ?? [];
+
+  try {
+    const embedData = await ollamaFetch<OllamaEmbedResponse>(config, "/api/embed", {
+      method: "POST",
+      body: JSON.stringify({
+        model: config.embedModel,
+        keep_alive:
+          typeof options.keepAliveMs === "number"
+            ? options.keepAliveMs <= 0
+              ? 0
+              : `${Math.max(1, Math.ceil(options.keepAliveMs / 1000))}s`
+            : undefined,
+        input: text
+      })
+    });
+    return embedData.embeddings?.[0] ?? [];
+  } catch {
+    const data = await ollamaFetch<OllamaEmbeddingsResponse>(config, "/api/embeddings", {
+      method: "POST",
+      body: JSON.stringify({
+        model: config.embedModel,
+        keep_alive:
+          typeof options.keepAliveMs === "number"
+            ? options.keepAliveMs <= 0
+              ? 0
+              : `${Math.max(1, Math.ceil(options.keepAliveMs / 1000))}s`
+            : undefined,
+        prompt: text
+      })
+    });
+    return data.embedding ?? [];
+  }
 };
 
 export const pingOllama = async (config: OllamaConfig): Promise<void> => {
@@ -454,6 +505,13 @@ export const pingOllama = async (config: OllamaConfig): Promise<void> => {
 export const listOllamaModels = async (config: OllamaConfig): Promise<string[]> => {
   const data = await ollamaFetch<OllamaTagsResponse>(config, "/api/tags");
   return data.models.map((model) => model.name);
+};
+
+export const listRunningOllamaModels = async (config: OllamaConfig): Promise<string[]> => {
+  const data = await ollamaFetch<OllamaRunningModelResponse>(config, "/api/ps");
+  return (data.models ?? [])
+    .map((model) => model.name ?? model.model ?? "")
+    .filter((value) => value.length > 0);
 };
 
 export const __setOllamaRuntimeHooksForTests = (hooks: Partial<OllamaRuntimeHooks>): void => {

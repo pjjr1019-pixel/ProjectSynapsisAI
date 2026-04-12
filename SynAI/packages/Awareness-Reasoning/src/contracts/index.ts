@@ -10,3 +10,4 @@ export * from "./rag";
 export * from "./grounding";
 export * from "./capability-runner";
 export * from "./reasoning-profile";
+export * from "./improvement";

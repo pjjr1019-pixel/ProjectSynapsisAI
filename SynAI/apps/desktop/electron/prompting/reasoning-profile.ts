@@ -55,6 +55,11 @@ export interface ResolvedReasoningProfileState {
   behavior: ReasoningProfileBehavior;
 }
 
+export interface RuntimeToggleState {
+  codingMode: boolean;
+  highQualityMode: boolean;
+}
+
 const PROFILE_BEHAVIORS: Record<ReasoningProfile, ReasoningProfileBehavior> = {
   chat: {
     profile: "chat",
@@ -345,3 +350,79 @@ export const resolveAwarenessRouting = (input: ResolveAwarenessRoutingInput): {
     shouldRefreshAwareness
   };
 };
+
+const bumpRetrievalMode = (
+  mode: ReasoningProfileBehavior["retrievalMode"]
+): ReasoningProfileBehavior["retrievalMode"] =>
+  mode === "light" ? "balanced" : "deep";
+
+export const applyReasoningProfileModifiers = (
+  behavior: ReasoningProfileBehavior,
+  toggles: RuntimeToggleState
+): ReasoningProfileBehavior => {
+  const nextBehavior: ReasoningProfileBehavior = {
+    ...behavior,
+    contextBudget: {
+      ...behavior.contextBudget
+    },
+    retrieval: {
+      ...behavior.retrieval
+    },
+    webSearch: {
+      ...behavior.webSearch
+    },
+    reply: {
+      ...behavior.reply
+    },
+    grounding: {
+      ...behavior.grounding
+    },
+    planning: {
+      ...behavior.planning
+    },
+    governance: {
+      ...behavior.governance
+    }
+  };
+
+  if (toggles.highQualityMode) {
+    nextBehavior.retrievalMode = bumpRetrievalMode(behavior.retrievalMode);
+    nextBehavior.contextBudget.maxChars = Math.min(
+      12000,
+      Math.round(behavior.contextBudget.maxChars * 1.35)
+    );
+    nextBehavior.contextBudget.maxRetrievedMemories += 2;
+    nextBehavior.contextBudget.maxPromptBehaviorMemories += 1;
+    nextBehavior.contextBudget.maxWorkspaceHits += 2;
+    nextBehavior.contextBudget.maxWebResults += 1;
+    nextBehavior.retrieval.keywordMemoryLimit += 2;
+    nextBehavior.retrieval.semanticMemory = true;
+    nextBehavior.retrieval.semanticMemoryLimit += 2;
+    nextBehavior.retrieval.maxRetrievedMemories += 2;
+    nextBehavior.retrieval.promptBehaviorMemoryLimit += 1;
+    nextBehavior.retrieval.workspaceHitLimit += 2;
+    nextBehavior.grounding.runModelVerifier = true;
+  }
+
+  if (toggles.codingMode) {
+    nextBehavior.reply.defaultResponseMode = "smart";
+    nextBehavior.reply.conciseByDefault = false;
+    nextBehavior.reply.taskOriented = true;
+    nextBehavior.retrieval.semanticMemory = true;
+    nextBehavior.retrieval.workspaceHitLimit = Math.max(6, nextBehavior.retrieval.workspaceHitLimit);
+    nextBehavior.retrieval.promptBehaviorMemoryLimit = Math.max(
+      3,
+      nextBehavior.retrieval.promptBehaviorMemoryLimit
+    );
+    nextBehavior.contextBudget.maxWorkspaceHits = Math.max(6, nextBehavior.contextBudget.maxWorkspaceHits);
+    nextBehavior.grounding.runModelVerifier = true;
+  }
+
+  return nextBehavior;
+};
+
+export const resolveRuntimeTaskClass = (
+  toggles: RuntimeToggleState,
+  hasImageEvidence = false
+): import("@contracts").RuntimeTaskClass =>
+  hasImageEvidence ? "vision" : toggles.codingMode ? "code" : "general";

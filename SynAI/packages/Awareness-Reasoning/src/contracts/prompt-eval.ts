@@ -11,7 +11,13 @@ import type {
 } from "./chat";
 import type { AwarenessAnswerMode, AwarenessIntentFamily } from "./awareness";
 import type { ModelHealth } from "./health";
-import type { RagExecutionMode, RagOptions, ReasoningTraceSummary } from "./rag";
+import type {
+  RagExecutionMode,
+  RagOptions,
+  ReasoningTraceSummary,
+  RequestRouteMode,
+  ToggleMode
+} from "./rag";
 import type { PlanningPolicy, ReasoningProfile } from "./reasoning-profile";
 
 export const PROMPT_EVAL_DIFFICULTIES = ["easy", "medium", "hard", "edge"] as const;
@@ -54,9 +60,13 @@ export interface PromptEvaluationCheck {
 
 export interface PromptEvaluationRoutingExpectations {
   routeFamily?: PromptEvaluationDiagnosticRouteFamily;
+  routeMode?: RequestRouteMode;
   awarenessUsed?: boolean;
   deterministicAwareness?: boolean;
   genericWritingPromptSuppressed?: boolean;
+  codingMode?: boolean;
+  highQualityMode?: boolean;
+  selectedTaskSkillIds?: string[];
   reasoningProfile?: ReasoningProfile;
   planningPolicy?: PlanningPolicy;
   classifierCategories?: Partial<Record<ChatReplyClassifierCategory, boolean>>;
@@ -91,6 +101,8 @@ export interface PromptEvaluationSettingsSnapshot {
   planningPolicy: PlanningPolicy;
   responseMode: ResponseMode;
   awarenessAnswerMode: AwarenessAnswerMode;
+  codingModeEnabled: boolean;
+  highQualityModeEnabled: boolean;
   ragEnabled: boolean;
   useWebSearch: boolean;
   showTrace: boolean;
@@ -106,6 +118,8 @@ export interface PromptEvaluationRequest {
   modelOverride?: string;
   responseMode?: ResponseMode;
   awarenessAnswerMode?: AwarenessAnswerMode;
+  codingMode?: ToggleMode;
+  highQualityMode?: ToggleMode;
   useWebSearch?: boolean;
   ragOptions?: RagOptions;
 }
@@ -114,12 +128,16 @@ export interface PromptEvaluationRoutingReport {
   reasoningProfile: ReasoningProfile;
   planningPolicy: PlanningPolicy | null;
   routeFamily: PromptEvaluationDiagnosticRouteFamily;
+  routeMode: RequestRouteMode | null;
   routeConfidence: number | null;
   rawRouteFamily: AwarenessIntentFamily | "none";
   rawRouteConfidence: number | null;
   awarenessUsed: boolean;
   deterministicAwareness: boolean;
   genericWritingPromptSuppressed: boolean;
+  codingMode: boolean;
+  highQualityMode: boolean;
+  selectedTaskSkillIds: string[];
   sourceScope: ChatReplySourceScope | null;
   replyPolicy: ChatReplyPolicy | null;
   policyDiagnostics?: ChatReplyPolicyDiagnostics | null;

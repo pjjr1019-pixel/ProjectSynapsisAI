@@ -12,10 +12,10 @@ import type {
 } from "./awareness";
 import type { ChatReplyPolicy } from "./chat";
 import type { GroundingSummary, RetrievalEvalSummary } from "./grounding";
-import type { AwarenessRuntimeHealth } from "./health";
+import type { AwarenessRuntimeHealth, RuntimeSelectionSummary } from "./health";
 import type { PromptIntentContract } from "./prompt-intent";
 import type { RetrievedPromptBehaviorMemory } from "./prompt-preferences";
-import type { RagContextPreview } from "./rag";
+import type { CachePackType, ContextRouteDecision, RagContextPreview } from "./rag";
 import type { PlanningPolicy, ReasoningProfile } from "./reasoning-profile";
 import type {
   PolicyDecisionType,
@@ -121,6 +121,18 @@ export interface AgentRuntimePreviewSummary {
   updatedAt: string;
 }
 
+export interface ContextCachePackSummary {
+  id: string;
+  type: CachePackType;
+  scope: string;
+  version: string;
+  tokenEstimate: number;
+  cacheHit: boolean;
+  stale: boolean;
+  invalidationReason: string | null;
+  sourceRefs: string[];
+}
+
 export interface ContextPreview {
   reasoningProfile?: ReasoningProfile | null;
   planningPolicy?: PlanningPolicy | null;
@@ -137,7 +149,13 @@ export interface ContextPreview {
   summarySnippet: string;
   recentMessagesCount: number;
   estimatedChars: number;
+  estimatedTokens?: number;
+  budgetLimit?: number;
+  budgetUsed?: number;
   webSearch: WebSearchContext;
+  routeDecision?: ContextRouteDecision | null;
+  cachePacks?: ContextCachePackSummary[];
+  runtimeSelection?: RuntimeSelectionSummary | null;
   awareness?: AwarenessDigest | null;
   awarenessQuery?: AwarenessQueryAnswer | null;
   awarenessAnswerMode?: AwarenessAnswerMode | null;

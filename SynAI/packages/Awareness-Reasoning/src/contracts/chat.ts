@@ -1,10 +1,12 @@
 import type { ContextPreview, WebSearchResult } from "./memory";
-import type { ModelHealth } from "./health";
+import type { ModelHealth, RuntimeSelectionSummary } from "./health";
 import type { GroundingMetadata } from "./grounding";
 import type {
+  ContextRouteDecision,
   RagContextPreview,
   RagOptions,
-  ReasoningTraceSummary
+  ReasoningTraceSummary,
+  ToggleMode
 } from "./rag";
 import type {
   AwarenessAnswerCard,
@@ -189,6 +191,8 @@ export interface ChatRetrievedSourceSummary {
 export interface ChatExecutionDiagnostics {
   reasoningProfile: ReasoningProfile;
   planningPolicy: PlanningPolicy | null;
+  routeDecision?: ContextRouteDecision | null;
+  runtimeSelection?: RuntimeSelectionSummary | null;
   routeFamily: ChatDiagnosticRouteFamily | null;
   routeConfidence: number | null;
   rawRouteFamily: AwarenessIntentFamily | null;
@@ -261,6 +265,8 @@ export interface SendChatRequest {
   modelOverride?: string;
   responseMode?: ResponseMode;
   awarenessAnswerMode?: AwarenessAnswerMode;
+  codingMode?: ToggleMode;
+  highQualityMode?: ToggleMode;
   ragOptions?: RagOptions;
   replyPolicy?: Partial<ChatReplyPolicy>;
 }

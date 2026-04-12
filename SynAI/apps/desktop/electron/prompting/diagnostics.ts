@@ -3,10 +3,12 @@ import type {
   ChatReplyPolicyDiagnostics,
   ChatRetrievedSourceSummary,
   ChatReplyPolicy,
+  ContextRouteDecision,
   PromptIntentContract,
   RagContextPreview,
   ChatEvaluationSuiteMode,
-  ChatGovernedTaskMetadata
+  ChatGovernedTaskMetadata,
+  RuntimeSelectionSummary
 } from "@contracts";
 import type { AwarenessQueryAnswer } from "@contracts";
 
@@ -33,6 +35,8 @@ export const buildRetrievedSourceSummary = (
 export interface BuildChatExecutionDiagnosticsInput {
   reasoningProfile: ChatExecutionDiagnostics["reasoningProfile"];
   planningPolicy: ChatExecutionDiagnostics["planningPolicy"];
+  routeDecision?: ContextRouteDecision | null;
+  runtimeSelection?: RuntimeSelectionSummary | null;
   intentRoute: RouteLike | null;
   rawIntentRoute: RouteLike | null;
   awarenessUsed: boolean;
@@ -52,6 +56,8 @@ export interface BuildChatExecutionDiagnosticsInput {
 export const buildChatExecutionDiagnostics = ({
   reasoningProfile,
   planningPolicy,
+  routeDecision,
+  runtimeSelection,
   intentRoute,
   rawIntentRoute,
   awarenessUsed,
@@ -69,6 +75,8 @@ export const buildChatExecutionDiagnostics = ({
 }: BuildChatExecutionDiagnosticsInput): ChatExecutionDiagnostics => ({
   reasoningProfile,
   planningPolicy,
+  routeDecision: routeDecision ?? null,
+  runtimeSelection: runtimeSelection ?? null,
   routeFamily: genericWritingPromptSuppressed ? "generic-writing" : intentRoute?.family ?? null,
   routeConfidence: genericWritingPromptSuppressed ? null : intentRoute?.confidence ?? null,
   rawRouteFamily: rawIntentRoute?.family ?? null,

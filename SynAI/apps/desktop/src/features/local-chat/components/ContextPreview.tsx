@@ -24,9 +24,43 @@ export function ContextPreview({ preview, className, hideTitle = false, compact 
       {hideTitle ? null : <h3 className="text-xs font-semibold text-slate-100">Context Preview</h3>}
       <p className="text-[10px] text-slate-300">Recent messages: {preview.recentMessagesCount}</p>
       <p className="text-[10px] text-slate-300">Estimated chars: {preview.estimatedChars}</p>
+      <p className="text-[10px] text-slate-300">
+        Estimated tokens: {preview.estimatedTokens ?? Math.ceil(preview.estimatedChars / 4)} | Budget{" "}
+        {preview.budgetUsed ?? preview.estimatedChars}/{preview.budgetLimit ?? "n/a"}
+      </p>
       <p className="text-[10px] text-slate-300">Stable memories: {preview.stableMemories.length}</p>
       <p className="text-[10px] text-slate-300">Retrieved memories: {preview.retrievedMemories.length}</p>
       <p className="text-[10px] text-slate-300">Workspace hits: {preview.workspaceHits?.length ?? 0}</p>
+      {preview.routeDecision ? (
+        <div className="rounded border border-lime-900/60 bg-lime-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-lime-200">Hybrid Route</p>
+          <p className="mt-0.5 text-[10px] text-lime-100/90">
+            {preview.routeDecision.mode} | {preview.routeDecision.reason}
+          </p>
+          <p className="mt-0.5 text-[10px] text-lime-200/70">
+            Coding {preview.routeDecision.codingMode ? "on" : "off"} | HQ{" "}
+            {preview.routeDecision.highQualityMode ? "on" : "off"} | Fresh evidence{" "}
+            {preview.routeDecision.freshEvidenceRequired ? "yes" : "no"}
+          </p>
+          {preview.routeDecision.selectedTaskSkillIds.length > 0 ? (
+            <p className="mt-0.5 text-[10px] text-lime-200/70">
+              Skills: {preview.routeDecision.selectedTaskSkillIds.join(" | ")}
+            </p>
+          ) : null}
+        </div>
+      ) : null}
+      {preview.cachePacks && preview.cachePacks.length > 0 ? (
+        <div className="rounded border border-emerald-900/60 bg-emerald-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-emerald-200">Cache Packs</p>
+          {preview.cachePacks.map((pack) => (
+            <p key={pack.id} className="mt-0.5 text-[10px] text-emerald-100/90">
+              {pack.type} / {pack.scope} | {pack.cacheHit ? "hit" : pack.stale ? "stale" : "built"} | tokens{" "}
+              {pack.tokenEstimate}
+              {pack.invalidationReason ? ` | ${pack.invalidationReason}` : ""}
+            </p>
+          ))}
+        </div>
+      ) : null}
       {preview.awarenessAnswerMode ? (
         <p className="text-[10px] text-slate-300">Awareness mode: {preview.awarenessAnswerMode}</p>
       ) : null}
@@ -49,19 +83,37 @@ export function ContextPreview({ preview, className, hideTitle = false, compact 
         <div className="rounded border border-orange-900/60 bg-orange-950/20 p-1.5">
           <p className="text-[10px] font-medium text-orange-200">Advanced RAG</p>
           <p className="mt-0.5 text-[10px] text-orange-100/90">
-            {preview.rag.mode} | {preview.rag.triggerReason} | {preview.rag.retrieval.total} retrieved sources
+            {preview.rag.mode} | {preview.rag.triggerReason} | {preview.rag.routeMode ?? "route n/a"} |{" "}
+            {preview.rag.retrieval.total} retrieved sources
           </p>
           <p className="mt-0.5 text-[10px] text-orange-200/70">
             Memory {preview.rag.retrieval.memoryKeyword + preview.rag.retrieval.memorySemantic} | Workspace{" "}
             {preview.rag.retrieval.workspace} | Awareness {preview.rag.retrieval.awareness} | Web{" "}
             {preview.rag.retrieval.web}
           </p>
+          {preview.rag.retrievalScopes && preview.rag.retrievalScopes.length > 0 ? (
+            <p className="mt-0.5 text-[10px] text-orange-200/70">
+              Retrieval scopes: {preview.rag.retrievalScopes.join(" | ")}
+            </p>
+          ) : null}
           {preview.rag.workspaceIndex ? (
             <p className="mt-0.5 text-[10px] text-orange-200/70">
               Index: {preview.rag.workspaceIndex.mode} | {preview.rag.workspaceIndex.fileCount} files |{" "}
               {preview.rag.workspaceIndex.chunkCount} chunks
             </p>
           ) : null}
+        </div>
+      ) : null}
+      {preview.runtimeSelection ? (
+        <div className="rounded border border-fuchsia-900/60 bg-fuchsia-950/20 p-1.5">
+          <p className="text-[10px] font-medium text-fuchsia-200">Runtime Selection</p>
+          <p className="mt-0.5 text-[10px] text-fuchsia-100/90">
+            {preview.runtimeSelection.taskClass} | {preview.runtimeSelection.model}
+          </p>
+          <p className="mt-0.5 text-[10px] text-fuchsia-200/70">
+            {preview.runtimeSelection.reason} | keep-alive {preview.runtimeSelection.keepAliveMs}ms | queue{" "}
+            {preview.runtimeSelection.queueDepth}
+          </p>
         </div>
       ) : null}
       {preview.grounding ? (

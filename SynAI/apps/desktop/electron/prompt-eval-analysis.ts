@@ -126,12 +126,16 @@ export const buildPromptEvaluationRoutingReport = (
   reasoningProfile: diagnostics?.reasoningProfile ?? "chat",
   planningPolicy: diagnostics?.planningPolicy ?? null,
   routeFamily: diagnostics?.routeFamily ?? "none",
+  routeMode: diagnostics?.routeDecision?.mode ?? null,
   routeConfidence: diagnostics?.routeConfidence ?? null,
   rawRouteFamily: diagnostics?.rawRouteFamily ?? "none",
   rawRouteConfidence: diagnostics?.rawRouteConfidence ?? null,
   awarenessUsed: diagnostics?.awarenessUsed ?? false,
   deterministicAwareness: diagnostics?.deterministicAwareness ?? false,
   genericWritingPromptSuppressed: diagnostics?.genericWritingPromptSuppressed ?? false,
+  codingMode: diagnostics?.routeDecision?.codingMode ?? false,
+  highQualityMode: diagnostics?.routeDecision?.highQualityMode ?? false,
+  selectedTaskSkillIds: diagnostics?.routeDecision?.selectedTaskSkillIds ?? [],
   sourceScope: diagnostics?.sourceScope ?? null,
   replyPolicy: diagnostics?.replyPolicy ?? null,
   policyDiagnostics: diagnostics?.policyDiagnostics ?? null,
@@ -191,6 +195,15 @@ const buildSkippedCheckResults = (entry: PromptEvaluationCaseInput): PromptEvalu
       category: "routing"
     });
   }
+  if (routingExpectations.routeMode !== undefined) {
+    routingChecks.push({
+      id: `${entry.id}-route-mode`,
+      description: `Expected route mode ${routingExpectations.routeMode}.`,
+      passed: false,
+      detail: "Skipped because the prompt returned an error.",
+      category: "routing"
+    });
+  }
   if (routingExpectations.awarenessUsed !== undefined) {
     routingChecks.push({
       id: `${entry.id}-awareness-used`,
@@ -213,6 +226,33 @@ const buildSkippedCheckResults = (entry: PromptEvaluationCaseInput): PromptEvalu
     routingChecks.push({
       id: `${entry.id}-generic-writing-suppressed`,
       description: `Expected generic writing suppression = ${routingExpectations.genericWritingPromptSuppressed ? "yes" : "no"}.`,
+      passed: false,
+      detail: "Skipped because the prompt returned an error.",
+      category: "routing"
+    });
+  }
+  if (routingExpectations.codingMode !== undefined) {
+    routingChecks.push({
+      id: `${entry.id}-coding-mode`,
+      description: `Expected coding mode = ${routingExpectations.codingMode ? "yes" : "no"}.`,
+      passed: false,
+      detail: "Skipped because the prompt returned an error.",
+      category: "routing"
+    });
+  }
+  if (routingExpectations.highQualityMode !== undefined) {
+    routingChecks.push({
+      id: `${entry.id}-high-quality-mode`,
+      description: `Expected high quality mode = ${routingExpectations.highQualityMode ? "yes" : "no"}.`,
+      passed: false,
+      detail: "Skipped because the prompt returned an error.",
+      category: "routing"
+    });
+  }
+  if (routingExpectations.selectedTaskSkillIds !== undefined) {
+    routingChecks.push({
+      id: `${entry.id}-task-skills`,
+      description: `Expected task skills ${routingExpectations.selectedTaskSkillIds.join(", ")}.`,
       passed: false,
       detail: "Skipped because the prompt returned an error.",
       category: "routing"
@@ -441,6 +481,15 @@ const evaluateRoutingExpectations = (
       category: "routing"
     });
   }
+  if (expectations.routeMode !== undefined) {
+    results.push({
+      id: `${entry.id}-route-mode`,
+      description: `Expected route mode ${expectations.routeMode}.`,
+      passed: routing.routeMode === expectations.routeMode,
+      detail: `Actual route mode: ${routing.routeMode ?? "none"}.`,
+      category: "routing"
+    });
+  }
   if (expectations.awarenessUsed !== undefined) {
     results.push({
       id: `${entry.id}-awareness-used`,
@@ -465,6 +514,35 @@ const evaluateRoutingExpectations = (
       description: `Expected generic writing suppression = ${expectations.genericWritingPromptSuppressed ? "yes" : "no"}.`,
       passed: routing.genericWritingPromptSuppressed === expectations.genericWritingPromptSuppressed,
       detail: `Actual generic writing suppression: ${routing.genericWritingPromptSuppressed ? "yes" : "no"}.`,
+      category: "routing"
+    });
+  }
+  if (expectations.codingMode !== undefined) {
+    results.push({
+      id: `${entry.id}-coding-mode`,
+      description: `Expected coding mode = ${expectations.codingMode ? "yes" : "no"}.`,
+      passed: routing.codingMode === expectations.codingMode,
+      detail: `Actual coding mode: ${routing.codingMode ? "yes" : "no"}.`,
+      category: "routing"
+    });
+  }
+  if (expectations.highQualityMode !== undefined) {
+    results.push({
+      id: `${entry.id}-high-quality-mode`,
+      description: `Expected high quality mode = ${expectations.highQualityMode ? "yes" : "no"}.`,
+      passed: routing.highQualityMode === expectations.highQualityMode,
+      detail: `Actual high quality mode: ${routing.highQualityMode ? "yes" : "no"}.`,
+      category: "routing"
+    });
+  }
+  if (expectations.selectedTaskSkillIds !== undefined) {
+    const expected = expectations.selectedTaskSkillIds.join("|");
+    const actual = routing.selectedTaskSkillIds.join("|");
+    results.push({
+      id: `${entry.id}-task-skills`,
+      description: `Expected task skills ${expectations.selectedTaskSkillIds.join(", ")}.`,
+      passed: expected === actual,
+      detail: `Actual task skills: ${routing.selectedTaskSkillIds.join(", ") || "none"}.`,
       category: "routing"
     });
   }

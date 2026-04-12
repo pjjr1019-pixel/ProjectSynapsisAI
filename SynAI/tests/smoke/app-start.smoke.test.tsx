@@ -339,7 +339,8 @@ describe("app-start smoke", () => {
       JSON.stringify({
         selectedModel: "qwen2.5:3b-instruct-q4_K_M",
         defaultWebSearch: true,
-        advancedRagEnabled: true,
+        codingModeEnabled: false,
+        highQualityModeEnabled: true,
         workspaceIndexingEnabled: true,
         webInRagEnabled: true,
         liveTraceVisible: false,
@@ -357,7 +358,8 @@ describe("app-start smoke", () => {
 
     fireEvent.click(screen.getByRole("tab", { name: "Chat" }));
     expect(await screen.findByRole("button", { name: "Web: Default On" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "RAG: Default On" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Coding: Default Off" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "HQ: Default On" })).toBeInTheDocument();
     const input = await screen.findByPlaceholderText("Message local model...");
     expect(input).toBeVisible();
 

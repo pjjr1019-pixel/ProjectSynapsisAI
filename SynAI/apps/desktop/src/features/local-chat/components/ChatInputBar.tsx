@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { RagToggleMode } from "@contracts";
+import type { ToggleMode } from "@contracts";
 import { Button } from "../../../shared/components/Button";
 import { Textarea } from "../../../shared/components/Textarea";
 import type { ChatSettingsState } from "../types/localChat.types";
@@ -10,21 +10,22 @@ interface ChatInputBarProps {
   disabled?: boolean;
   settings?: Pick<
     ChatSettingsState,
-    "advancedRagEnabled" | "defaultWebSearch" | "webInRagEnabled" | "liveTraceVisible"
+    "codingModeEnabled" | "highQualityModeEnabled" | "defaultWebSearch" | "webInRagEnabled" | "liveTraceVisible"
   >;
 }
 
 const DEFAULT_INPUT_SETTINGS: NonNullable<ChatInputBarProps["settings"]> = {
-  advancedRagEnabled: true,
+  codingModeEnabled: false,
+  highQualityModeEnabled: true,
   defaultWebSearch: false,
   webInRagEnabled: true,
   liveTraceVisible: false
 };
 
-const nextToggleMode = (mode: RagToggleMode): RagToggleMode =>
+const nextToggleMode = (mode: ToggleMode): ToggleMode =>
   mode === "inherit" ? "on" : mode === "on" ? "off" : "inherit";
 
-const formatToggle = (label: string, mode: RagToggleMode, inheritedEnabled: boolean): string => {
+const formatToggle = (label: string, mode: ToggleMode, inheritedEnabled: boolean): string => {
   if (mode === "inherit") {
     return `${label}: ${inheritedEnabled ? "Default On" : "Default Off"}`;
   }
@@ -34,9 +35,10 @@ const formatToggle = (label: string, mode: RagToggleMode, inheritedEnabled: bool
 
 export function ChatInputBar({ onSend, disabled, settings = DEFAULT_INPUT_SETTINGS }: ChatInputBarProps) {
   const [text, setText] = useState("");
-  const [ragMode, setRagMode] = useState<RagToggleMode>("inherit");
-  const [webMode, setWebMode] = useState<RagToggleMode>("inherit");
-  const [traceMode, setTraceMode] = useState<RagToggleMode>("inherit");
+  const [codingMode, setCodingMode] = useState<ToggleMode>("inherit");
+  const [highQualityMode, setHighQualityMode] = useState<ToggleMode>("inherit");
+  const [webMode, setWebMode] = useState<ToggleMode>("inherit");
+  const [traceMode, setTraceMode] = useState<ToggleMode>("inherit");
 
   const submit = async (): Promise<void> => {
     const trimmed = text.trim();
@@ -45,11 +47,13 @@ export function ChatInputBar({ onSend, disabled, settings = DEFAULT_INPUT_SETTIN
     }
     setText("");
     await onSend(trimmed, {
-      ragMode,
+      codingMode,
+      highQualityMode,
       webMode,
       traceMode
     });
-    setRagMode("inherit");
+    setCodingMode("inherit");
+    setHighQualityMode("inherit");
     setWebMode("inherit");
     setTraceMode("inherit");
   };
@@ -80,9 +84,17 @@ export function ChatInputBar({ onSend, disabled, settings = DEFAULT_INPUT_SETTIN
             className="px-2 py-1 text-[10px]"
             variant="ghost"
             disabled={disabled}
-            onClick={() => setRagMode((current) => nextToggleMode(current))}
+            onClick={() => setCodingMode((current) => nextToggleMode(current))}
           >
-            {formatToggle("RAG", ragMode, settings.advancedRagEnabled)}
+            {formatToggle("Coding", codingMode, settings.codingModeEnabled)}
+          </Button>
+          <Button
+            className="px-2 py-1 text-[10px]"
+            variant="ghost"
+            disabled={disabled}
+            onClick={() => setHighQualityMode((current) => nextToggleMode(current))}
+          >
+            {formatToggle("HQ", highQualityMode, settings.highQualityModeEnabled)}
           </Button>
           <Button
             className="px-2 py-1 text-[10px]"

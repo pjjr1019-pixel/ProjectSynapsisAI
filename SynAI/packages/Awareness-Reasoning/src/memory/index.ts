@@ -1,6 +1,7 @@
 import type { ChatMessage } from "../contracts/chat";
 import type {
   AgentRuntimePreviewSummary,
+  ContextCachePackSummary,
   ContextPreview,
   MemoryEntry,
   RetrievedMemory,
@@ -9,8 +10,10 @@ import type {
 } from "../contracts/memory";
 import type { PromptIntentContract } from "../contracts/prompt-intent";
 import type { RetrievedPromptBehaviorMemory } from "../contracts/prompt-preferences";
+import type { RuntimeSelectionSummary } from "../contracts/health";
 import type { PlanningPolicy, ReasoningProfile } from "../contracts/reasoning-profile";
 import type {
+  ContextRouteDecision,
   RagContextPreview,
   RetrievalSourceStats,
   WorkspaceChunkHit,
@@ -54,6 +57,7 @@ import {
 import { deleteSummary, getSummary, upsertSummary } from "./storage/summaries";
 import type { WorkspaceIndexOptions } from "../retrieval";
 import { queryWorkspaceIndex } from "../retrieval";
+import type { ResolvedContextCachePack } from "./context/hybrid-context";
 
 const SYSTEM_INSTRUCTION = [
   "You are SynAI local assistant.",
@@ -164,6 +168,9 @@ export interface LoadedPromptContext {
   stableMemories: MemoryEntry[];
   retrievedMemories: RetrievedMemory[];
   promptBehaviorMemories: RetrievedPromptBehaviorMemory[];
+  routeDecision?: ContextRouteDecision | null;
+  cachePacks?: ResolvedContextCachePack[];
+  cachePackSummaries?: ContextCachePackSummary[];
   workspaceHits: WorkspaceChunkHit[];
   workspaceIndexStatus: WorkspaceIndexStatus | null;
   retrieval: RetrievalSourceStats;
@@ -173,6 +180,9 @@ export interface PreparePromptContextOptions {
   enableSemanticMemory?: boolean;
   memoryEmbedder?: (text: string) => Promise<number[]>;
   workspace?: WorkspaceIndexOptions | null;
+  routeDecision?: ContextRouteDecision | null;
+  cachePacks?: ResolvedContextCachePack[];
+  cachePackSummaries?: ContextCachePackSummary[];
   promptIntent?: Pick<PromptIntentContract, "intentFamily" | "sourceScope"> | null;
   retrievalProfile?: {
     stableMemoryLimit?: number;
@@ -196,6 +206,10 @@ export interface FinalizePromptContextOptions {
   } | null;
   reasoningProfile?: ReasoningProfile | null;
   planningPolicy?: PlanningPolicy | null;
+  routeDecision?: ContextRouteDecision | null;
+  cachePacks?: ResolvedContextCachePack[];
+  cachePackSummaries?: ContextCachePackSummary[];
+  runtimeSelection?: RuntimeSelectionSummary | null;
   reasoningProfileDiagnostics?: {
     planningReason: string | null;
     retrievalMode: "light" | "balanced" | "deep";
@@ -278,6 +292,9 @@ export const preparePromptContext = async (
     stableMemories,
     retrievedMemories,
     promptBehaviorMemories,
+    routeDecision: options.routeDecision ?? null,
+    cachePacks: options.cachePacks ?? [],
+    cachePackSummaries: options.cachePackSummaries ?? [],
     workspaceHits,
     workspaceIndexStatus: workspaceResult?.status ?? null,
     retrieval
@@ -305,6 +322,10 @@ export const finalizePromptContext = (
     stableMemories: context.stableMemories,
     retrievedMemories: context.retrievedMemories,
     promptBehaviorMemories: context.promptBehaviorMemories,
+    routeDecision: finalizeOptions.routeDecision ?? context.routeDecision ?? null,
+    cachePacks: finalizeOptions.cachePacks ?? context.cachePacks ?? [],
+    cachePackSummaries: finalizeOptions.cachePackSummaries ?? context.cachePackSummaries ?? [],
+    runtimeSelection: finalizeOptions.runtimeSelection ?? null,
     workspaceHits: context.workspaceHits,
     webSearch,
     awareness,
@@ -426,6 +447,7 @@ export * from "./processing/importance";
 export * from "./processing/dedupe";
 export * from "./context/assembler";
 export * from "./context/budget";
+export * from "./context/hybrid-context";
 
 
 

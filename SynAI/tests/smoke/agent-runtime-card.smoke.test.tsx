@@ -16,7 +16,8 @@ import { ToolsPanel } from "../../apps/desktop/src/features/local-chat/component
 const settings: ChatSettingsState = {
   selectedModel: "phi4-mini:latest",
   defaultWebSearch: false,
-  advancedRagEnabled: true,
+  codingModeEnabled: false,
+  highQualityModeEnabled: true,
   workspaceIndexingEnabled: true,
   webInRagEnabled: true,
   liveTraceVisible: false,

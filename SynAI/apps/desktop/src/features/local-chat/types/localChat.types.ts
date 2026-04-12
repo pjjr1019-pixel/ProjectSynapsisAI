@@ -21,7 +21,8 @@ export interface ChatSettingsState {
   reasoningProfile: ReasoningProfile;
   selectedModel: string;
   defaultWebSearch: boolean;
-  advancedRagEnabled: boolean;
+  codingModeEnabled: boolean;
+  highQualityModeEnabled: boolean;
   workspaceIndexingEnabled: boolean;
   webInRagEnabled: boolean;
   liveTraceVisible: boolean;

@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import * as path from "node:path";
 import type {
+  RetrievalHint,
   WorkspaceChunkHit,
   WorkspaceIndexMode,
   WorkspaceIndexStatus
@@ -126,6 +127,7 @@ export interface WorkspaceIndexOptions {
   enabled: boolean;
   mode?: WorkspaceIndexMode;
   maxResults?: number;
+  retrievalHint?: RetrievalHint | null;
   embedder?: (text: string) => Promise<number[]>;
 }
 
@@ -141,6 +143,14 @@ const tokenize = (text: string): string[] =>
 const unique = (values: string[]): string[] => [...new Set(values)];
 
 const normalizePath = (value: string): string => path.resolve(value);
+
+const matchesPathHint = (relativePath: string, preferredPathGlobs: string[] = []): boolean => {
+  const normalizedPath = relativePath.replace(/\\/g, "/").toLowerCase();
+  return preferredPathGlobs.some((pattern) => {
+    const normalizedPattern = pattern.replace(/\\/g, "/").replace(/\*\*/g, "").replace(/\*/g, "").toLowerCase();
+    return normalizedPattern.length > 0 && normalizedPath.includes(normalizedPattern);
+  });
+};
 
 const createEmptyIndex = (workspaceRoot: string): WorkspaceIndexData => ({
   version: INDEX_VERSION,
@@ -530,6 +540,8 @@ export const queryWorkspaceIndex = async (
   const { data, status } = await refreshWorkspaceIndex(options);
   const queryTerms = unique(tokenize(query));
   const queryEmbedding = status.embeddingEnabled ? await (options.embedder ?? getEmbeddings)(query).catch(() => []) : [];
+  const preferredPathGlobs = options.retrievalHint?.preferredPathGlobs ?? [];
+  const preferredExtensions = options.retrievalHint?.preferredExtensions ?? [];
   const scored = data.chunks
     .map((chunk) => {
       const keywordHits = queryTerms.reduce((total, term) => (chunk.keywords.includes(term) ? total + 1 : total), 0);
@@ -544,14 +556,21 @@ export const queryWorkspaceIndex = async (
           : semanticScore > 0
             ? semanticScore
             : keywordScore;
+      const extensionBoost = preferredExtensions.some((extension) =>
+        chunk.relativePath.toLowerCase().endsWith(extension.toLowerCase())
+      )
+        ? 0.08
+        : 0;
+      const pathBoost = matchesPathHint(chunk.relativePath, preferredPathGlobs) ? 0.18 : 0;
+      const boostedScore = score + extensionBoost + pathBoost;
 
-      if (score <= 0) {
+      if (boostedScore <= 0) {
         return null;
       }
 
       return {
         chunk,
-        score,
+        score: boostedScore,
         reason:
           keywordScore > 0 && semanticScore > 0
             ? "hybrid"
@@ -565,7 +584,8 @@ export const queryWorkspaceIndex = async (
 
   const hits: WorkspaceChunkHit[] = [];
   const perFileCount = new Map<string, number>();
-  const maxResults = Math.max(1, Math.min(options.maxResults ?? MAX_QUERY_RESULTS, MAX_QUERY_RESULTS));
+  const requestedMaxResults = options.retrievalHint?.maxResults ?? options.maxResults ?? MAX_QUERY_RESULTS;
+  const maxResults = Math.max(1, Math.min(requestedMaxResults, 8));
 
   for (const entry of scored) {
     const seenForFile = perFileCount.get(entry.chunk.path) ?? 0;

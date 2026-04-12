@@ -180,6 +180,11 @@ export interface ChatExecutionOptions {
   model?: string;
   timeoutMs?: number;
   label?: string;
+  taskClass?: import("@contracts").RuntimeTaskClass;
+  reason?: string;
+  codingMode?: boolean;
+  highQualityMode?: boolean;
+  visionUsed?: boolean;
 }
 
 export interface ChatExecutionService {

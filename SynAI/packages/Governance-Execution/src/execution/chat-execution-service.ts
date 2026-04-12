@@ -35,7 +35,22 @@ export const createChatExecutionService = (
     messages: Parameters<ChatExecutionService["runChat"]>[0],
     options: ChatExecutionOptions = {}
   ): Promise<string> => {
-    const overrides = options.model ? { model: options.model } : undefined;
+    const overrides =
+      options.model ||
+      options.taskClass ||
+      options.reason ||
+      options.codingMode ||
+      options.highQualityMode ||
+      options.visionUsed
+        ? {
+            model: options.model,
+            taskClass: options.taskClass,
+            reason: options.reason,
+            codingMode: options.codingMode,
+            highQualityMode: options.highQualityMode,
+            visionUsed: options.visionUsed
+          }
+        : undefined;
     return withTimeout(
       input.provider.chat(messages, overrides),
       options.timeoutMs,
@@ -48,7 +63,22 @@ export const createChatExecutionService = (
     onChunk: Parameters<ChatExecutionService["runChatStream"]>[1],
     options: ChatExecutionOptions = {}
   ): Promise<string> => {
-    const overrides = options.model ? { model: options.model } : undefined;
+    const overrides =
+      options.model ||
+      options.taskClass ||
+      options.reason ||
+      options.codingMode ||
+      options.highQualityMode ||
+      options.visionUsed
+        ? {
+            model: options.model,
+            taskClass: options.taskClass,
+            reason: options.reason,
+            codingMode: options.codingMode,
+            highQualityMode: options.highQualityMode,
+            visionUsed: options.visionUsed
+          }
+        : undefined;
     return withTimeout(
       input.provider.chatStream(messages, onChunk, overrides),
       options.timeoutMs,

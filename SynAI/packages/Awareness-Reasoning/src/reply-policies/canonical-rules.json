@@ -1,0 +1,12 @@
+[
+  {
+    "id": "rule-default-escalate",
+    "category": "unknown_request",
+    "condition": "Request type unclear or not recognized",
+    "fallbackReply": "I'm not sure how to help with that. Could you clarify what you're looking for?",
+    "risk": "low",
+    "enabled": true,
+    "source": "canonical",
+    "createdAt": "2026-04-11T00:00:00Z"
+  }
+]

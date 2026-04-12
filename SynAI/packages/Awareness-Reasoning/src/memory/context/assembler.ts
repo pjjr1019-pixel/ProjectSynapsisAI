@@ -1,6 +1,7 @@
 import type { ChatMessage } from "../../contracts/chat";
 import type {
   AgentRuntimePreviewSummary,
+  ContextCachePackSummary,
   ContextPreview,
   MemoryEntry,
   RetrievedMemory,
@@ -8,7 +9,7 @@ import type {
   WebSearchResult
 } from "../../contracts/memory";
 import type { RetrievedPromptBehaviorMemory } from "../../contracts/prompt-preferences";
-import type { RagContextPreview, WorkspaceChunkHit } from "../../contracts/rag";
+import type { RagContextPreview, WorkspaceChunkHit, ContextRouteDecision } from "../../contracts/rag";
 import type {
   AwarenessAnswerMode,
   AwarenessDigest,
@@ -18,6 +19,7 @@ import type {
   MachineAwarenessSnapshot,
   ScreenAwarenessSnapshot
 } from "../../contracts/awareness";
+import type { RuntimeSelectionSummary } from "../../contracts/health";
 import type { PlanningPolicy, ReasoningProfile } from "../../contracts/reasoning-profile";
 import type { ContextBudget } from "../types";
 import { clipByChars, MAX_WEB_RESULTS_IN_PROMPT, resolveContextBudget } from "./budget";
@@ -29,6 +31,7 @@ import {
   buildMachineAwarenessContextSection,
   buildScreenAwarenessContextSection
 } from "@awareness";
+import type { ResolvedContextCachePack } from "./hybrid-context";
 
 export interface AssembleContextInput {
   systemInstruction: string;
@@ -37,6 +40,10 @@ export interface AssembleContextInput {
   stableMemories: MemoryEntry[];
   retrievedMemories: RetrievedMemory[];
   promptBehaviorMemories?: RetrievedPromptBehaviorMemory[];
+  routeDecision?: ContextRouteDecision | null;
+  cachePacks?: ResolvedContextCachePack[];
+  cachePackSummaries?: ContextCachePackSummary[];
+  runtimeSelection?: RuntimeSelectionSummary | null;
   workspaceHits?: WorkspaceChunkHit[];
   webSearch: WebSearchContext;
   awareness?: AwarenessDigest | null;
@@ -102,6 +109,11 @@ const formatWorkspaceHit = (hit: WorkspaceChunkHit, index: number): string =>
   `[WS${index + 1}] ${hit.relativePath}:${hit.startLine}-${hit.endLine} | ${hit.reason} | score ${hit.score.toFixed(
     2
   )}\n${hit.excerpt}`;
+
+const formatCachePack = (pack: ResolvedContextCachePack): string =>
+  `${pack.type} cache (${pack.scope})${pack.cacheHit ? " | hit" : " | built"}\n${pack.content}`;
+
+const estimateTokens = (value: string): number => Math.max(1, Math.ceil(value.length / 4));
 
 const buildRuntimePreviewSection = (preview?: AgentRuntimePreviewSummary | null): string => {
   if (!preview) {
@@ -178,6 +190,7 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
 
   const sections = [
     input.systemInstruction,
+    ...(input.cachePacks ?? []).map(formatCachePack),
     stable.length > 0 ? `Stable memory:\n${stable.map(formatMemory).join("\n")}` : "",
     retrieved.length > 0
       ? `Retrieved memory:\n${retrieved.map((item) => formatMemory(item.memory)).join("\n")}`
@@ -201,12 +214,17 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
           .map(formatWebResult)
           .join("\n\n")}`
       : ""
-  ].filter(Boolean);
+  ]
+    .filter(Boolean)
+    .filter((value, index, list) => list.indexOf(value) === index);
 
   const systemContent = clipByChars(sections.join("\n\n"), contextBudget.maxChars);
   const estimatedChars =
     systemContent.length +
     recentMessages.reduce((total, message) => total + message.content.length, 0);
+  const estimatedTokens =
+    estimateTokens(systemContent) +
+    recentMessages.reduce((total, message) => total + estimateTokens(message.content), 0);
 
   const promptMessages: ChatMessage[] = [
     {
@@ -233,7 +251,13 @@ export const assembleContext = (input: AssembleContextInput): AssembleContextRes
       summarySnippet: clipByChars(input.summaryText, 600),
       recentMessagesCount: recentMessages.length,
       estimatedChars,
+      estimatedTokens,
+      budgetLimit: contextBudget.maxChars,
+      budgetUsed: estimatedChars,
       webSearch: input.webSearch,
+      routeDecision: input.routeDecision ?? null,
+      cachePacks: input.cachePackSummaries ?? [],
+      runtimeSelection: input.runtimeSelection ?? null,
       awareness: input.awareness && input.awareness.includeInContext ? input.awareness : null,
       awarenessQuery: input.awarenessQuery ?? null,
       awarenessAnswerMode: input.awarenessAnswerMode ?? null,

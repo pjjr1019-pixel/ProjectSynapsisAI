@@ -49,6 +49,7 @@ export interface MemoryEntry {
     sourceKind: "conversation" | "replay" | "manual";
     capturedAt: string;
     sourceMessageCount: number | null;
+    sourceEventId?: string;  // Phase 5: ID of the ImprovementEvent that triggered auto-apply
   } | null;
   lifecycle?: {
     status: "active" | "archived";

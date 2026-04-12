@@ -102,6 +102,11 @@ import { createWorkflowOrchestrator } from "./workflow-orchestrator";
 import { createImprovementRuntimeService, getImprovementRuntimeService } from "./improvement-runtime-service";
 import { createValidatedIpcHandleRegistry } from "./ipc-registration";
 import {
+  logConversationTurn,
+  exportConversationHistoryAsMarkdown,
+  clearConversationHistory
+} from "./conversationLogger";
+import {
   appendChatMessage,
   buildPromptMessages,
   clearConversationMessages,
@@ -2136,6 +2141,42 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
       });
     }
 
+    // Log conversation turn (prompts + replies) to persistent file
+    try {
+      const userMessage: ChatMessage = {
+        id: `user-${Date.now()}`,
+        role: "user",
+        content: payload.text,
+        timestamp: new Date().toISOString()
+      };
+      const dataDir = path.join(process.cwd(), "data");
+      await logConversationTurn(
+        dataDir,
+        conversationId,
+        userMessage,
+        assistantMessage,
+        modelOverride || provider.model,
+        {
+          responseMode: payload.responseMode,
+          ragEnabled: payload.ragOptions?.enabled !== "off",
+          webSearchEnabled: payload.useWebSearch,
+          codingModeEnabled: payload.codingMode === "on",
+          highQualityModeEnabled: payload.highQualityMode === "on"
+        },
+        {
+          requestId,
+          reasoningProfile,
+          planningPolicy: resolvedPlanningPolicy
+        }
+      );
+    } catch (loggingError) {
+      // Don't crash chat if logging fails
+      console.warn(
+        "Failed to log conversation turn:",
+        loggingError instanceof Error ? loggingError.message : String(loggingError)
+      );
+    }
+
     return {
       conversation: conversationWithMessages.conversation,
       assistantMessage,
@@ -2451,6 +2492,28 @@ const registerIpc = (): void => {
   registerIpcHandle.register("sendChat", async (_event, payload: SendChatRequest) =>
     handleSendChat(payload)
   );
+
+  registerIpcHandle.register("exportConversationHistory", async () => {
+    try {
+      const dataDir = path.join(process.cwd(), "data");
+      const filePath = await exportConversationHistoryAsMarkdown(dataDir);
+      return { success: true, filePath };
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Unknown export error";
+      return { success: false, error: message };
+    }
+  });
+
+  registerIpcHandle.register("clearConversationHistory", async () => {
+    try {
+      const dataDir = path.join(process.cwd(), "data");
+      await clearConversationHistory(dataDir);
+      return { success: true };
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Unknown clear error";
+      return { success: false, error: message };
+    }
+  });
 
   registerIpcHandle.register("awarenessQuery", async (_event, request: AwarenessQueryRequest) =>
     awarenessEngine?.queryAwarenessLive(request) ?? null

@@ -41,6 +41,7 @@ export const upsertMemory = async (input: {
   text: string;
   sourceConversationId: string;
   importance: number;
+  sourceEventId?: string;  // Phase 5: ID of ImprovementEvent triggering auto-apply
 }): Promise<MemoryEntry> => {
   const now = new Date().toISOString();
   const normalizedText = input.text.trim();
@@ -65,7 +66,8 @@ export const upsertMemory = async (input: {
           sourceConversationId: input.sourceConversationId,
           sourceKind: "conversation",
           capturedAt: now,
-          sourceMessageCount: null
+          sourceMessageCount: null,
+          sourceEventId: input.sourceEventId
         },
         lifecycle: {
           status: "active",
@@ -93,7 +95,8 @@ export const upsertMemory = async (input: {
           sourceConversationId: input.sourceConversationId,
           sourceKind: "conversation",
           capturedAt: now,
-          sourceMessageCount: null
+          sourceMessageCount: null,
+          sourceEventId: input.sourceEventId
         },
         lifecycle: {
           status: "active",
@@ -116,6 +119,7 @@ export const batchUpsertMemories = async (
     text: string;
     sourceConversationId: string;
     importance: number;
+    sourceEventId?: string;  // Phase 5: ID of ImprovementEvent triggering auto-apply
   }>
 ): Promise<MemoryEntry[]> => {
   if (candidates.length === 0) {
@@ -148,7 +152,8 @@ export const batchUpsertMemories = async (
             sourceConversationId: input.sourceConversationId,
             sourceKind: "conversation",
             capturedAt: now,
-            sourceMessageCount: null
+            sourceMessageCount: null,
+            sourceEventId: input.sourceEventId
           },
           lifecycle: {
             status: "active",
@@ -173,7 +178,8 @@ export const batchUpsertMemories = async (
             sourceConversationId: input.sourceConversationId,
             sourceKind: "conversation",
             capturedAt: now,
-            sourceMessageCount: null
+            sourceMessageCount: null,
+            sourceEventId: input.sourceEventId
           },
           lifecycle: {
             status: "active",

@@ -29,7 +29,9 @@ export default defineConfig({
     hookTimeout: 10000,
     environmentMatchGlobs: [
       ["tests/smoke/app-start.smoke.test.tsx", "jsdom"],
-      ["tests/smoke/local-chat-ui.smoke.test.tsx", "jsdom"]
+      ["tests/smoke/local-chat-ui.smoke.test.tsx", "jsdom"],
+      ["tests/capability/useOverlayRules.test.ts", "jsdom"],
+      ["tests/capability/improvement-overlay-rules-tab.test.tsx", "jsdom"]
     ]
   }
 });

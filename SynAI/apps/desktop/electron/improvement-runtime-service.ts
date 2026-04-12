@@ -19,9 +19,10 @@ import type { ImprovementEvent } from "@contracts/improvement";
 import { IPC_CHANNELS } from "@contracts";
 import { analyzePromptReply } from "@awareness/improvement/analyzer";
 import { planImprovementEvent } from "@awareness/improvement/planner";
-import { insertImprovementEvent, queryImprovementEvents } from "@awareness/improvement/queue";
+import { insertImprovementEvent, queryImprovementEvents, updateImprovementEventStatus } from "@awareness/improvement/queue";
 import type { ChatMessage } from "@contracts";
 import { getReplyPolicyOverlayService, type ReplyPolicyRule, type OverlayApplyResult } from "./reply-policy-overlay-service";
+import { applyMemoryFromEvent } from "@awareness/integration/memory-applier-adapter";
 
 interface ImprovementRuntimeConfig {
   runtimeRoot: string;
@@ -151,6 +152,29 @@ export class ImprovementRuntimeService {
               );
             } catch (err) {
               console.error("[Improvement] Failed to create reply-policy rule:", err);
+            }
+          } else if (action.type === "update_memory" && action.event) {
+            // Phase 5: Wire planner output to memory auto-apply
+            // Strict policy: preference + filtered personal_fact only
+            try {
+              const memoryResult = await applyMemoryFromEvent(action.event);
+              if (memoryResult.success) {
+                this.emitProgress(
+                  `Memory auto-applied: ${action.event.type} -> ${memoryResult.memoryId}`
+                );
+              } else {
+                this.emitProgress(
+                  `Memory auto-apply deferred/rejected: ${memoryResult.reason}`
+                );
+              }
+            } catch (err) {
+              console.error("[Improvement] Failed to apply memory:", err);
+              // Gracefully handle failures — don't break the action loop
+              await updateImprovementEventStatus(action.event.id, "rejected", {
+                reason: `Auto-apply error: ${String(err)}`
+              }).catch((e) =>
+                console.warn("[Improvement] Failed to mark memory event as rejected:", e)
+              );
             }
           }
         }

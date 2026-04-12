@@ -13,16 +13,16 @@ import type { ImprovementEvent } from "@contracts/improvement";
 import type { MemoryCategory } from "@contracts/memory";
 import { upsertMemory } from "../memory/storage/memories";
 import { queryImprovementEvents, updateImprovementEventStatus } from "../improvement/queue";
+import { evaluateMemoryAutoApply } from "./memory-auto-apply-policy";
 
 /**
- * Allowed memory categories for auto-application.
- * Narrow allowlist to prevent noise and ensure quality.
+ * Phase 5: Narrow allowlist for auto-apply.
+ * Only preference and carefully filtered personal_fact entries.
+ * project, goal, constraint, note are deferred to later phases.
  */
-const ALLOWED_MEMORY_CATEGORIES: MemoryCategory[] = [
+const ALLOWED_MEMORY_CATEGORIES_PHASE_5: MemoryCategory[] = [
   "preference",
-  "personal_fact",
-  "project",
-  "goal"
+  "personal_fact"
 ];
 
 interface MemoryApplyResult {
@@ -72,15 +72,16 @@ function inferMemoryCategory(event: ImprovementEvent): MemoryCategory | null {
 
 /**
  * Process a single improvement event for memory application.
+ * Phase 5: Integrates strict policy evaluation before auto-apply.
  */
-async function applyMemoryFromEvent(event: ImprovementEvent): Promise<MemoryApplyResult> {
+export async function applyMemoryFromEvent(event: ImprovementEvent): Promise<MemoryApplyResult> {
   try {
     if (event.type !== "memory_candidate") {
       return { eventId: event.id, success: false, reason: "Not a memory_candidate event" };
     }
 
-    if (event.status !== "detected") {
-      return { eventId: event.id, success: false, reason: "Event not in detected status" };
+    if (event.status !== "detected" && event.status !== "analyzed") {
+      return { eventId: event.id, success: false, reason: `Event not in detected/analyzed status (status: ${event.status})` };
     }
 
     const memoryText = extractMemoryText(event.reasoning);
@@ -89,10 +90,57 @@ async function applyMemoryFromEvent(event: ImprovementEvent): Promise<MemoryAppl
     }
 
     const category = inferMemoryCategory(event);
-    if (!category || !ALLOWED_MEMORY_CATEGORIES.includes(category)) {
-      return { eventId: event.id, success: false, reason: `Category ${category} not in allowlist` };
+    if (!category || !ALLOWED_MEMORY_CATEGORIES_PHASE_5.includes(category)) {
+      // Not in Phase 5 allowlist - reject
+      await updateImprovementEventStatus(event.id, "rejected", {
+        reason: `Category '${category}' not in Phase 5 allowlist`
+      });
+      return { eventId: event.id, success: false, reason: `Category ${category} not in Phase 5 allowlist` };
     }
 
+    // Phase 5: Evaluate policy
+    // Calculate confidence from event payload if available
+    const confidence = (event.payload as any)?.confidence ?? 0.7;
+
+    const policyResult = await evaluateMemoryAutoApply({
+      text: memoryText,
+      category,
+      confidence,
+      risk: event.risk,
+      sourceConversationId: event.sourceConversationId,
+      sourceEventId: event.id
+    });
+
+    // Handle policy decision
+    if (policyResult.decision === "reject") {
+      await updateImprovementEventStatus(event.id, "rejected", {
+        reasoning: policyResult.reason,
+        payload: {
+          ...event.payload,
+          policyDecision: "reject",
+          policyEvaluation: policyResult.metadata,
+          decisionReason: policyResult.metadata?.gateDetails || policyResult.reason,
+          failedGate: policyResult.metadata?.failedGate
+        }
+      });
+      return { eventId: event.id, success: false, reason: policyResult.reason };
+    }
+
+    if (policyResult.decision === "defer") {
+      await updateImprovementEventStatus(event.id, "deferred", {
+        reasoning: policyResult.reason,
+        payload: {
+          ...event.payload,
+          policyDecision: "defer",
+          policyEvaluation: policyResult.metadata,
+          decisionReason: policyResult.metadata?.gateDetails || policyResult.reason,
+          failedGate: policyResult.metadata?.failedGate
+        }
+      });
+      return { eventId: event.id, success: false, reason: policyResult.reason };
+    }
+
+    // decision === 'apply'
     // Calculate importance based on event risk
     const importanceMap = { critical: 1.0, high: 0.8, medium: 0.6, low: 0.4 };
     const importance = importanceMap[event.risk as keyof typeof importanceMap] || 0.5;
@@ -101,15 +149,29 @@ async function applyMemoryFromEvent(event: ImprovementEvent): Promise<MemoryAppl
       category,
       text: memoryText,
       sourceConversationId: event.sourceConversationId || "unknown",
-      importance
+      importance,
+      sourceEventId: event.id  // Phase 5: Track which improvement event triggered auto-apply
     });
 
-    // Mark event as applied
-    await updateImprovementEventStatus(event.id, "applied");
+    // Mark event as applied with memory ID
+    await updateImprovementEventStatus(event.id, "applied", {
+      reasoning: `Memory auto-applied successfully: ${memory.id}`,
+      payload: {
+        ...event.payload,
+        policyDecision: "apply",
+        policyEvaluation: policyResult.metadata,
+        decisionReason: "All policy gates passed",
+        memoryId: memory.id,
+        appliedAt: new Date().toISOString()
+      }
+    });
 
     return { eventId: event.id, success: true, memoryId: memory.id };
   } catch (err) {
     console.warn(`[Memory Applier] Failed to apply memory for event ${event.id}:`, err);
+    await updateImprovementEventStatus(event.id, "rejected", {
+      reasoning: `Auto-apply failed: ${String(err)}`
+    }).catch((e) => console.warn("[Memory Applier] Failed to update event status:", e));
     return { eventId: event.id, success: false, reason: String(err) };
   }
 }

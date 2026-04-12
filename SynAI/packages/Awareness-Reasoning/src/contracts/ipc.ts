@@ -576,6 +576,8 @@ export const IPC_CHANNELS = {
   loadConversation: "conversation:load",
   clearConversation: "conversation:clear",
   deleteConversation: "conversation:delete",
+  exportConversationHistory: "conversation:export-history",
+  clearConversationHistory: "conversation:clear-history",
   searchMemories: "memory:search",
   listMemories: "memory:list",
   deleteMemory: "memory:delete",
@@ -649,6 +651,8 @@ export interface SynAIBridge {
   loadConversation(conversationId: string): Promise<ConversationWithMessages | null>;
   clearConversation(conversationId: string): Promise<ConversationWithMessages>;
   deleteConversation(conversationId: string): Promise<void>;
+  exportConversationHistory(): Promise<{ success: boolean; filePath?: string; error?: string }>;
+  clearConversationHistory(): Promise<{ success: boolean; error?: string }>;
   searchMemories(query: string): Promise<MemoryEntry[]>;
   listMemories(): Promise<MemoryEntry[]>;
   deleteMemory(memoryId: string): Promise<void>;

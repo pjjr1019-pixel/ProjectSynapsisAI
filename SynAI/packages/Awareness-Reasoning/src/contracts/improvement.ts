@@ -29,6 +29,7 @@ export type ImprovementEventStatus =
   | "proposed"       // Proposal generated but not applied
   | "applied"        // Action taken (memory added, reply-policy rule appended, etc.)
   | "approved"       // Governance approved (for patches)
+  | "deferred"       // Deferred to later phases (e.g., Phase 5 defer → Phase 6+)
   | "rejected"       // User rejected
   | "dismissed";     // User dismissed
 

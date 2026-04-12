@@ -39,7 +39,7 @@ describe("Reply-Policy Overlay Service", () => {
 
   describe("Persistence", () => {
     it("should add a new rule", async () => {
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar", "schedule"] },
@@ -48,10 +48,11 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      expect(rule.id).toBeDefined();
-      expect(rule.enabled).toBe(true);
-      expect(rule.hitCount).toBe(0);
-      expect(rule.sourceEventId).toBe("event-123");
+      expect(ruleId).toBeDefined();
+      const rule = service.getRule(ruleId);
+      expect(rule?.enabled).toBe(true);
+      expect(rule?.hitCount).toBe(0);
+      expect(rule?.sourceEventId).toBe("event-123");
     });
 
     it("should deduplicate rules by fingerprint", async () => {
@@ -60,12 +61,14 @@ describe("Reply-Policy Overlay Service", () => {
       const matchConditions = { keywords: ["calendar"] };
       const fallback = "I don't have a calendar interface yet.";
 
-      const rule1 = await service.addRule(sourceEventId, category, matchConditions, fallback, 0.9, "low");
-      const rule2 = await service.addRule(sourceEventId, category, matchConditions, fallback, 0.9, "low");
+      const ruleId1 = await service.addRule(sourceEventId, category, matchConditions, fallback, 0.9, "low");
+      const ruleId2 = await service.addRule(sourceEventId, category, matchConditions, fallback, 0.9, "low");
 
       // Should return same rule (already exists)
-      expect(rule2.id).toBe(rule1.id);
-      expect(rule2.fingerprint).toBe(rule1.fingerprint);
+      expect(ruleId2).toBe(ruleId1);
+      const rule1 = service.getRule(ruleId1);
+      const rule2 = service.getRule(ruleId2);
+      expect(rule2?.fingerprint).toBe(rule1?.fingerprint);
 
       const allRules = service.listRules();
       expect(allRules).toHaveLength(1);
@@ -109,7 +112,7 @@ describe("Reply-Policy Overlay Service", () => {
     });
 
     it("should disable a rule", async () => {
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -118,9 +121,9 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      await service.disableRule(rule.id);
+      await service.disableRule(ruleId);
 
-      const disabledRule = service.getRule(rule.id);
+      const disabledRule = service.getRule(ruleId);
       expect(disabledRule?.enabled).toBe(false);
     });
 
@@ -159,7 +162,7 @@ describe("Reply-Policy Overlay Service", () => {
     });
 
     it("should match rules by keywords", async () => {
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar", "schedule"] },
@@ -168,12 +171,13 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      expect(rule.enabled).toBe(true);
+      const rule = service.getRule(ruleId);
+      expect(rule?.enabled).toBe(true);
     });
 
     it("should apply highest-confidence matching rule", async () => {
       // Add two rules with different confidences
-      const lowConfidence = await service.addRule(
+      await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -182,7 +186,7 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      const highConfidence = await service.addRule(
+      await service.addRule(
         "event-124",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -201,7 +205,7 @@ describe("Reply-Policy Overlay Service", () => {
     });
 
     it("should update rule stats on application", async () => {
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -235,7 +239,7 @@ describe("Reply-Policy Overlay Service", () => {
     it("should not allow renderer to write overlay files directly", async () => {
       // Boundary verified: renderer can only call IPC methods, not service methods
       // preload.ts bridges only specific methods via ipcRenderer.invoke
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -244,7 +248,7 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      expect(rule.id).toBeDefined();
+      expect(ruleId).toBeDefined();
       // Renderer would access this only via IPC, not direct method call
     });
 
@@ -283,7 +287,7 @@ describe("Reply-Policy Overlay Service", () => {
     });
 
     it("should list only enabled rules when filtered", async () => {
-      const rule1 = await service.addRule(
+      const ruleId1 = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -292,7 +296,7 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      const rule2 = await service.addRule(
+      const ruleId2 = await service.addRule(
         "event-124",
         "task_management_missing",
         { keywords: ["task"] },
@@ -301,18 +305,18 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      await service.disableRule(rule1.id);
+      await service.disableRule(ruleId1);
 
       const enabledOnly = service.listRules(true);
       expect(enabledOnly).toHaveLength(1);
-      expect(enabledOnly[0].id).toBe(rule2.id);
+      expect(enabledOnly[0].id).toBe(ruleId2);
 
       const all = service.listRules(false);
       expect(all).toHaveLength(2);
     });
 
     it("should retrieve specific rule by ID", async () => {
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -321,9 +325,9 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      const retrieved = service.getRule(rule.id);
+      const retrieved = service.getRule(ruleId);
       expect(retrieved).toBeDefined();
-      expect(retrieved?.id).toBe(rule.id);
+      expect(retrieved?.id).toBe(ruleId);
       expect(retrieved?.category).toBe("calendar_missing");
     });
   });
@@ -339,7 +343,7 @@ describe("Reply-Policy Overlay Service", () => {
     });
 
     it("should handle disabled rules gracefully", async () => {
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar"] },
@@ -348,7 +352,7 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      await service.disableRule(rule.id);
+      await service.disableRule(ruleId);
 
       const reply = "I don't have a calendar interface.";
       const result = await service.applyOverlay(reply);
@@ -372,7 +376,7 @@ describe("Reply-Policy Overlay Service", () => {
   describe("Full Integration Flow", () => {
     it("should complete full overlay lifecycle", async () => {
       // 1. Add rule (from planner output)
-      const rule = await service.addRule(
+      const ruleId = await service.addRule(
         "event-123",
         "calendar_missing",
         { keywords: ["calendar", "schedule"] },
@@ -380,8 +384,9 @@ describe("Reply-Policy Overlay Service", () => {
         0.9,
         "low"
       );
-      expect(rule.enabled).toBe(true);
-      expect(rule.hitCount).toBe(0);
+      const rule = service.getRule(ruleId);
+      expect(rule?.enabled).toBe(true);
+      expect(rule?.hitCount).toBe(0);
 
       // 2. Apply overlay on weak reply WITH user context
       const userPrompt = "Can you help me manage my calendar?";
@@ -390,7 +395,7 @@ describe("Reply-Policy Overlay Service", () => {
       expect(result1.applied).toBe(true);
 
       // 3. Verify rule stats updated
-      const updatedRule = service.getRule(rule.id);
+      const updatedRule = service.getRule(ruleId);
       expect(updatedRule?.hitCount).toBe(1);
       expect(updatedRule?.lastUsedAt).toBeDefined();
 
@@ -467,7 +472,7 @@ describe("Reply-Policy Overlay Service", () => {
 
     it("should apply calendar_missing rule when user asks about calendar + weak reply", async () => {
       // Setup: calendar_missing rule
-      const calendarRule = await service.addRule(
+      const calendarRuleId = await service.addRule(
         "event-2",
         "calendar_missing",
         { keywords: ["calendar", "schedule", "date"] },
@@ -488,12 +493,12 @@ describe("Reply-Policy Overlay Service", () => {
       // VERIFY: Rule IS applied (user prompt mentions calendar + reply is weak fallback)
       expect(result.applied).toBe(true);
       expect(result.adaptedReply).toBe("I can help you track dates in your memory instead");
-      expect(result.ruleId).toBe(calendarRule.id);
+      expect(result.ruleId).toBe(calendarRuleId);
     });
 
     it("should apply task_management rule only when task prompt + weak fallback", async () => {
       // Setup: task_management rule
-      const taskRule = await service.addRule(
+      const taskRuleId = await service.addRule(
         "event-3",
         "task_management_missing",
         { keywords: ["task", "todo", "to-do", "priority"] },
@@ -508,7 +513,7 @@ describe("Reply-Policy Overlay Service", () => {
 
       const resultA = await service.applyOverlay(genericWeakReply, taskPrompt);
       expect(resultA.applied).toBe(true);
-      expect(resultA.ruleId).toBe(taskRule.id);
+      expect(resultA.ruleId).toBe(taskRuleId);
 
       // Scenario B: NON-task context + same weak fallback → SHOULD NOT match
       const nonTaskPrompt = "What movies are currently trending?";
@@ -518,7 +523,7 @@ describe("Reply-Policy Overlay Service", () => {
 
     it("should verify rewritten reply persists when context matches", async () => {
       // Setup: calendar_missing rule
-      const calendarRule = await service.addRule(
+      const calendarRuleId = await service.addRule(
         "event-4",
         "calendar_missing",
         { keywords: ["calendar", "schedule"] },
@@ -538,14 +543,14 @@ describe("Reply-Policy Overlay Service", () => {
       expect(result.originalReply).toBe(originalReply);
 
       // VERIFY: Rule stats updated
-      const updatedRule = service.getRule(calendarRule.id);
+      const updatedRule = service.getRule(calendarRuleId);
       expect(updatedRule?.hitCount).toBe(1);
       expect(updatedRule?.lastUsedAt).toBeTruthy();
     });
 
     it("should NOT match if user prompt has category keyword but rule is disabled", async () => {
       // Setup: calendar_missing rule but DISABLED
-      const disabledRule = await service.addRule(
+      const disabledRuleId = await service.addRule(
         "event-5",
         "calendar_missing",
         { keywords: ["calendar", "schedule"] },
@@ -554,7 +559,7 @@ describe("Reply-Policy Overlay Service", () => {
         "low"
       );
 
-      await service.disableRule(disabledRule.id);
+      await service.disableRule(disabledRuleId);
 
       const userPrompt = "Can you schedule this?";
       const weakReply = "I can't do that.";

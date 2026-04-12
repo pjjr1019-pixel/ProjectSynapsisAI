@@ -148,14 +148,14 @@ export class ReplyPolicyOverlayService {
     rewrittenFallback: string,
     confidence: number = 0.8,
     risk: "low" | "medium" | "high" = "low"
-  ): Promise<ReplyPolicyRule> {
+  ): Promise<string> {
     const fingerprint = this.computeFingerprint(sourceEventId, category, rewrittenFallback);
 
     // Check if dedup fingerprint already exists
     for (const existingRule of this.rules.values()) {
       if (existingRule.fingerprint === fingerprint && existingRule.enabled) {
-        // Rule already exists, just return it
-        return existingRule;
+        // Rule already exists, just return its ID
+        return existingRule.id;
       }
     }
 
@@ -178,7 +178,7 @@ export class ReplyPolicyOverlayService {
     this.rules.set(newRule.id, newRule);
     await this.persistRulesToDisk();
 
-    return newRule;
+    return newRule.id;
   }
 
   /**

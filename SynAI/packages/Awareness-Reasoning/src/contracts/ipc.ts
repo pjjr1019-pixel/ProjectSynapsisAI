@@ -32,6 +32,7 @@ import type {
 } from "./awareness";
 import type { ReasoningProfile } from "./reasoning-profile";
 import type { OfficialKnowledgeStatus } from "../official-knowledge";
+import type { RuntimeTrace, TraceSessionStats } from "../runtime-trace/trace-schema";
 import type {
   AgentRuntimeInspection,
   AgentRuntimeRunResult,
@@ -628,6 +629,10 @@ export const IPC_CHANNELS = {
   improvementSubscribeEvents: "improvement:subscribe-events",
   improvementGetMode: "improvement:get-mode",
   improvementSetMode: "improvement:set-mode",
+  // Phase 2: Runtime tracing channels
+  queryRuntimeTraces: "trace:query",
+  subscribeRuntimeTraces: "trace:subscribe",
+  getRuntimeTraceStats: "trace:stats",
   // Phase 3: Reply-policy overlay channels
   overlayListRules: "overlay:list-rules",
   overlayGetRule: "overlay:get-rule",
@@ -714,6 +719,10 @@ export interface SynAIBridge {
   getImprovementMode(): Promise<boolean>;
   setImprovementMode(enabled: boolean): Promise<void>;
   subscribeImprovementEvents(listener: (event: ImprovementEvent) => void): () => void;
+  // Phase 2: Runtime tracing methods
+  queryRuntimeTraces(conversationId?: string, limit?: number): Promise<{ traces: RuntimeTrace[]; error?: string }>;
+  subscribeRuntimeTraces(listener: (trace: RuntimeTrace) => void): () => void;
+  getRuntimeTraceStats(): Promise<TraceSessionStats & { storedTraces: any }>;
   // Phase 3: Reply-policy overlay inspection methods
   listOverlayRules(enabledOnly?: boolean): Promise<any[]>;
   getOverlayRule(ruleId: string): Promise<any | undefined>;

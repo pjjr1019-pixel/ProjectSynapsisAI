@@ -101,6 +101,7 @@ import { createCapabilityRunService } from "./capability-runner";
 import { createWorkflowOrchestrator } from "./workflow-orchestrator";
 import { createImprovementRuntimeService, getImprovementRuntimeService } from "./improvement-runtime-service";
 import { createValidatedIpcHandleRegistry } from "./ipc-registration";
+import { traceSessionManager, initializeTraceSession, finalizeTraceSessionOnShutdown } from "./trace-session-manager";
 import {
   logConversationTurn,
   exportConversationHistoryAsMarkdown,
@@ -1361,6 +1362,14 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
   const awarenessAnswerMode = normalizeAwarenessAnswerMode(payload.awarenessAnswerMode);
   const reasoningProfile = normalizeReasoningProfile(payload.reasoningProfile);
   const evaluationSuiteMode = payload.runMode === "evaluation" ? payload.evaluationSuiteMode ?? null : null;
+  
+  // Phase 2: Create runtime trace at entry point
+  const rootTrace = traceSessionManager.createTrace(
+    payload.conversationId,
+    Date.now(), // Use timestamp as turn ID (more unique than message count)
+    payload.userMessage
+  );
+  
   let contextPreview = emptyContextPreview;
   let reasoningTrace: ReasoningTraceState | null = null;
   let rawIntentRoute: ReturnType<typeof routeAwarenessIntent> | null = null;
@@ -2236,6 +2245,23 @@ const handleSendChatAdvanced = async (payload: SendChatRequest): Promise<SendCha
   } finally {
     busy = false;
     recordAwarenessDuration("sendChat", sendChatStartedAtMs);
+    
+    // Phase 2: Finalize and persist runtime trace
+    try {
+      await traceSessionManager.finalizeAndPersist(
+        payload.conversationId,
+        rootTrace.timestamp,
+        undefined, // finalOutput would be in response, captured separately below
+        undefined,
+        {
+          model: modelOverride || provider?.model || undefined,
+          provider: provider?.availableAt ? "ollama" : undefined,
+          taskRoute: routeDecision?.type || intentRoute?.intent || undefined
+        }
+      );
+    } catch (traceError) {
+      console.warn("[Trace] Failed to finalize trace:", traceError instanceof Error ? traceError.message : String(traceError));
+    }
   }
 };
 
@@ -2868,12 +2894,28 @@ const registerIpc = (): void => {
   registerIpcHandle.register("agentRuntimeRecover", async (_event, jobId: string) =>
     agentRuntimeService.recoverJob(jobId)
   );
+
+  // Phase 2: Runtime tracing handlers
+  registerIpcHandle.register("queryRuntimeTraces", async (_event, conversationId?: string, limit?: number) =>
+    traceSessionManager.queryTraces(conversationId, limit)
+  );
+
+  registerIpcHandle.register("subscribeRuntimeTraces", (_event, listener: (trace: any) => void) => {
+    // Note: Full subscription support can be added in Phase 3 with stream events
+    // For now, this is a placeholder for IPC contract compliance
+    return () => {};
+  });
+
+  registerIpcHandle.register("getRuntimeTraceStats", async () => traceSessionManager.getStats());
 };
 
 app.whenReady().then(async () => {
   const databasePath = path.join(app.getPath("userData"), "synai-db.json");
   configureMemoryDatabase(databasePath);
   await capabilityRunService.initialize();
+  
+  // Initialize trace session for Phase 2 runtime logging
+  initializeTraceSession();
   
   // Initialize improvement runtime service
   try {
@@ -2903,10 +2945,11 @@ app.on("activate", async () => {
   }
 });
 
-app.on("before-quit", () => {
+app.on("before-quit", async () => {
   void awarenessApiServer?.close();
   void awarenessEngine?.close();
   void workflowOrchestrator.close();
+  await finalizeTraceSessionOnShutdown();
 });
 
 
